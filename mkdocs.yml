@@ -57,44 +57,53 @@ nav:
   - Metodologia: metodologia.md
   - Análises:
     - analyses/index.md
-    - Estado da Arte:
-      - Visão Geral: analyses/estado-da-arte/index.md
-      - Percepção Social em HIS: analyses/estado-da-arte/his-percepcao-social.md
-      - Avaliação Pós-Ocupação: analyses/estado-da-arte/his-avaliacao-pos-ocupacao.md
-      - Política Habitacional: analyses/estado-da-arte/his-politica-habitacional.md
-      - Grandes Obras e Reassentamento na Amazônia: analyses/estado-da-arte/his-grandes-obras-reassentamento-amazonia.md
-      - Bioeconomia Amazônica: analyses/estado-da-arte/bioeconomia-amazonica.md
-      - Tecnologia Takwara: analyses/estado-da-arte/tecnologia-takwara.md
-      - Bibliografia IFB Projeto Bambu: analyses/estado-da-arte/bibliografia-ifb-projeto-bambu.md
-    - Fichas Técnicas:
-      - analyses/fichas/index.md
-      - Percepção Social:
-        - Joyce Santos (2009): analyses/fichas/joyce-santos-2009.md
-        - Menezes & Mourão (2017): analyses/fichas/menezes-mourao-2017-pmcmv-qv.md
-        - Procópio & Campos (2022): analyses/fichas/procopio-campos-2022-ihas.md
-        - Nascimento & Brasil (2023): analyses/fichas/nascimento-brasil-2023-pmcmv-bh.md
-        - Oliveira & Villa (2024): analyses/fichas/oliveira-villa-2024-covid-his.md
-      - APO:
-        - Perim (2014): analyses/fichas/perim-2014-sustentabilidade-his.md
-        - Thielke (2021): analyses/fichas/thielke-2021-apo-porto-alegre.md
-        - Otoni & Villa (2024): analyses/fichas/otoni-villa-2024-resiliencia-ampliabilidade.md
-      - Política Habitacional:
-        - Lacerda (2023): analyses/fichas/lacerda-2023-padroes-espaciais.md
-        - Ferreira (2023): analyses/fichas/ferreira-2023-avaliacao-desempenho-his.md
-        - Simões & Leder (2024): analyses/fichas/simoes-leder-2024-assentamento-seriado.md
-      - Grandes Obras:
-        - Miranda Neto (2014): analyses/fichas/miranda-neto-2014-belo-monte-reassentamento.md
-        - Belforte & Cavalcante (2021): analyses/fichas/belforte-cavalcante-2021-santo-antonio.md
-        - Silva & Cavalcante (2022): analyses/fichas/silva-cavalcante-2022-reassentamento-rural-amazonia.md
+    - Percepção Social:
+      - Visão Geral: analyses/percecao-social/index.md
+      - Estado da Arte: analyses/percecao-social/estado-da-arte.md
+      - Joyce Santos (2009): analyses/percecao-social/joyce-santos-2009.md
+      - Menezes & Mourão (2017): analyses/percecao-social/menezes-mourao-2017-pmcmv-qv.md
+      - Procópio & Campos (2022): analyses/percecao-social/procopio-campos-2022-ihas.md
+      - Nascimento & Brasil (2023): analyses/percecao-social/nascimento-brasil-2023-pmcmv-bh.md
+      - Oliveira & Villa (2024): analyses/percecao-social/oliveira-villa-2024-covid-his.md
+    - APO:
+      - Visão Geral: analyses/avaliacao-pos-ocupacao/index.md
+      - Estado da Arte: analyses/avaliacao-pos-ocupacao/estado-da-arte.md
+      - Perim (2014): analyses/avaliacao-pos-ocupacao/perim-2014-sustentabilidade-his.md
+      - Thielke (2021): analyses/avaliacao-pos-ocupacao/thielke-2021-apo-porto-alegre.md
+      - Otoni & Villa (2024): analyses/avaliacao-pos-ocupacao/otoni-villa-2024-resiliencia-ampliabilidade.md
+    - Política Habitacional:
+      - Visão Geral: analyses/politica-habitacional/index.md
+      - Estado da Arte: analyses/politica-habitacional/estado-da-arte.md
+      - Lacerda (2023): analyses/politica-habitacional/lacerda-2023-padroes-espaciais.md
+      - Ferreira (2023): analyses/politica-habitacional/ferreira-2023-avaliacao-desempenho-his.md
+      - Simões & Leder (2024): analyses/politica-habitacional/simoes-leder-2024-assentamento-seriado.md
+    - Grandes Obras (Amazônia):
+      - Visão Geral: analyses/grandes-obras-amazonia/index.md
+      - Estado da Arte: analyses/grandes-obras-amazonia/estado-da-arte.md
+      - Miranda Neto (2014): analyses/grandes-obras-amazonia/miranda-neto-2014-belo-monte-reassentamento.md
+      - Belforte & Cavalcante (2021): analyses/grandes-obras-amazonia/belforte-cavalcante-2021-santo-antonio.md
+      - Silva & Cavalcante (2022): analyses/grandes-obras-amazonia/silva-cavalcante-2022-reassentamento-rural-amazonia.md
     - Bioeconomia Amazônica:
-      - analyses/fichas/sintese-cientifica-ecossistema-wtf.md
-      - analyses/fichas/diag-bioeconomia-amazonica.md
-      - analyses/fichas/diag-nova-economia-amazonia.md
-      - analyses/fichas/diag-bndes-set-47-bioeconomia.md
-      - analyses/fichas/bibliografia-mestra-mqtf.md
-      - analyses/fichas/resenha-araújo-2025-acv-bambu.md
-      - analyses/fichas/resenha-silva-mapeamento-bambu.md
+      - Visão Geral: analyses/bioeconomia-amazonica/index.md
+      - Estado da Arte: analyses/bioeconomia-amazonica/estado-da-arte.md
+      - Síntese Científica: analyses/bioeconomia-amazonica/sintese-cientifica-ecossistema-wtf.md
+      - Diagnóstico Paradigmas: analyses/bioeconomia-amazonica/diag-bioeconomia-amazonica.md
+      - WRI/NEA: analyses/bioeconomia-amazonica/diag-nova-economia-amazonia.md
+      - BNDES Bioeconomia: analyses/bioeconomia-amazonica/diag-bndes-set-47-bioeconomia.md
+      - Bibliografia Mestra MQTF: analyses/bioeconomia-amazonica/bibliografia-mestra-mqtf.md
+      - Araújo ACV Bambu: analyses/bioeconomia-amazonica/resenha-araújo-2025-acv-bambu.md
+      - Silva Mapeamento Bambu: analyses/bioeconomia-amazonica/resenha-silva-mapeamento-bambu.md
     - Tecnologia Takwara:
-      - analyses/fichas/memorial-5.1-biorrefinaria-bambu.md
-      - analyses/fichas/resenha-naccache-imperveg.md
+      - Visão Geral: analyses/tecnologia-takwara/index.md
+      - Estado da Arte: analyses/tecnologia-takwara/estado-da-arte.md
+      - Silva Pirolenhoso (2011): analyses/tecnologia-takwara/silva-2011-pirolenhoso.md
+      - Severo & Tomaselli (1998): analyses/tecnologia-takwara/severoTomaselli_1998_vaporizacao.md
+      - Costa Tratamento Térmico (2015): analyses/tecnologia-takwara/costa-2015-tratamento-termico-dendrocalamus.md
+      - Naccache Imperveg (2015): analyses/tecnologia-takwara/resenha-naccache-imperveg.md
+      - Chung & Wang (2017): analyses/tecnologia-takwara/chung-wang-2017-peeling-steam-bamboo.md
+      - Polymers Alcalino (2022): analyses/tecnologia-takwara/SCI_014_POLYMERS_ALKALI_TREATMENT.md
+      - Memorial 5.1: analyses/tecnologia-takwara/memorial-5.1-biorrefinaria-bambu.md
+    - IFB Projeto Bambu:
+      - Visão Geral: analyses/ifb-projeto-bambu/index.md
+      - Catálogo Completo (84 refs): analyses/ifb-projeto-bambu/estado-da-arte.md
   - Prompts de Escrita: prompts/index.md

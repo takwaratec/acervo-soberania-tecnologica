@@ -134,8 +134,8 @@ As seguintes referências da bibliografia IFB já foram processadas como fichas 
 
 | Ficha | Ano | Eixo |
 |-------|-----|------|
-| [Resenha Naccache — Imperveg](../fichas/resenha-naccache-imperveg.md) | 2015 | PU Vegetal |
-| [Chung & Wang — Peeling Steam Bamboo](../fichas/chung-wang-2017-peeling-steam-bamboo.md) | 2017 | Preservação |
-| [Polymers — Alkali Treatment](../fichas/SCI_014_POLYMERS_ALKALI_TREATMENT.md) | 2022 | Biocompósitos |
+| [Resenha Naccache — Imperveg](../tecnologia-takwara/resenha-naccache-imperveg.md) | 2015 | PU Vegetal |
+| [Chung & Wang — Peeling Steam Bamboo](../tecnologia-takwara/chung-wang-2017-peeling-steam-bamboo.md) | 2017 | Preservação |
+| [Polymers — Alkali Treatment](../tecnologia-takwara/SCI_014_POLYMERS_ALKALI_TREATMENT.md) | 2022 | Biocompósitos |
 
 > **Nota:** Este catálogo de 84 referências serve como guia para processamento futuro. Cada referência pode ser convertida em ficha técnica mediante acesso ao PDF original no diretório `/Bibliografia Consultada/`.

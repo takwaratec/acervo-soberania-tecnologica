@@ -18,19 +18,19 @@ Bem-vindo ao repositório de análises. Aqui você encontrará:
 
     Análises sobre a percepção de moradores, satisfação e impacto social de programas habitacionais
 
-    [:octicons-arrow-right-24: Acessar](analyses/estado-da-arte/his-percepcao-social.md)
+    [:octicons-arrow-right-24: Acessar](analyses/percecao-social/estado-da-arte.md)
 
 -   :material-home-search:{ .lg .middle } **Avaliação Pós-Ocupação (APO)**
 
     Qualidade habitacional, conforto ambiental, resiliência e adequação das moradias
 
-    [:octicons-arrow-right-24: Acessar](analyses/estado-da-arte/his-avaliacao-pos-ocupacao.md)
+    [:octicons-arrow-right-24: Acessar](analyses/avaliacao-pos-ocupacao/estado-da-arte.md)
 
 -   :material-domain:{ .lg .middle } **Política Habitacional**
 
     Direito à moradia, PMCMV, ATHIS, CF/88, Estatuto da Cidade e desenvolvimento local
 
-    [:octicons-arrow-right-24: Acessar](analyses/estado-da-arte/his-politica-habitacional.md)
+    [:octicons-arrow-right-24: Acessar](analyses/politica-habitacional/estado-da-arte.md)
 
 </div>
 
