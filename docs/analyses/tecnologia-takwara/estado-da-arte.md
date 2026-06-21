@@ -15,6 +15,7 @@
 15|| 05 | [Silva — Pirolenhoso (original)](./silva-2011-pirolenhoso.md) | 2011 | Dissertação UNICAMP — preservação |
 16|| 06 | [Severo & Tomaselli — Vaporização](./severoTomaselli_1998_vaporizacao.md) | 1998 | Vaporização em flexão estática |
 17|| 07 | [Polymers — Alkali Treatment](./SCI_014_POLYMERS_ALKALI_TREATMENT.md) | 2022 | Tratamento alcalino em biocompósitos |
+| 08 | [Hernández-Mena et al. — Neotropical Bamboo Review](./neotropical-bamboo-review-2024.md) | 2024 | Bambu neotropical: bioprodutos e bioenergia — revisão integradora |
 18|
 19|## 2. Referências fundacionais (SCI fichas)
 20|
@@ -68,6 +69,6 @@
 68|
 69|---
 70|
-71|> **Elaborado em:** 2026-06-21 | **Fichas incorporadas:** 4 | **Referências relacionadas identificadas:** 8
+71|> **Elaborado em:** 2026-06-21 | **Fichas incorporadas:** 8 | **Referências relacionadas identificadas:** 8
 72|> **Nota:** As fichas SCI_012 (Pirolenhoso) e SCI_017 (Vaporização) têm seus originais em formato PDF que não foi localizado online para acesso aberto. As referências relacionadas foram identificadas via Crossref e Semantic Scholar APIs.
 73|
