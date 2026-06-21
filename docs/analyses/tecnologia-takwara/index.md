@@ -11,6 +11,7 @@
 - [Chung & Wang (2017) — Peeling Steam Bamboo](chung-wang-2017-peeling-steam-bamboo.md)
 - [Polymers (2022) — Tratamento Alcalino](SCI_014_POLYMERS_ALKALI_TREATMENT.md)
 - [Memorial 5.1 — Biorrefinaria Bambu](memorial-5.1-biorrefinaria-bambu.md)
+- [Hernández-Mena et al. (2024) — Neotropical Bamboo Review](neotropical-bamboo-review-2024.md)
 
 ## Estado da Arte
 
