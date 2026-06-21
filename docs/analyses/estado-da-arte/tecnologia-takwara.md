@@ -10,8 +10,11 @@
 |---|-------|-----|-------------|
 | 01 | [Memorial 5.1 — Biorrefinaria Bambu](../fichas/memorial-5.1-biorrefinaria-bambu.md) | 2025 | Plataforma Amazônia Regenerativa v5.1 |
 | 02 | [Resenha — Naccache Imperveg PU](../fichas/resenha-naccache-imperveg.md) | 2015 | PU Vegetal de Mamona — Ensaios CIV |
-| 03 | [Chung & Wang — Peeling Steam Bamboo](../fichas/chung-wang-2017-peeling-steam-bamboo.md) | 2017 | Efeitos descasque/vapor em bambu |
-| 04 | [Polymers — Alkali Treatment](../fichas/SCI_014_POLYMERS_ALKALI_TREATMENT.md) | 2022 | Tratamento alcalino em biocompósitos |
+| 03 | [Costa — Tratamento Térmico Dendrocalamus](../fichas/costa-2015-tratamento-termico-dendrocalamus.md) | 2015 | Termorretificação de bambu (UnB) |
+| 04 | [Chung & Wang — Peeling Steam Bamboo](../fichas/chung-wang-2017-peeling-steam-bamboo.md) | 2017 | Efeitos descasque/vapor em bambu |
+| 05 | [Silva — Pirolenhoso (original)](../fichas/silva-2011-pirolenhoso.md) | 2011 | Dissertação UNICAMP — preservação |
+| 06 | [Severo & Tomaselli — Vaporização](../fichas/severoTomaselli_1998_vaporizacao.md) | 1998 | Vaporização em flexão estática |
+| 07 | [Polymers — Alkali Treatment](../fichas/SCI_014_POLYMERS_ALKALI_TREATMENT.md) | 2022 | Tratamento alcalino em biocompósitos |
 
 ## 2. Referências fundacionais (SCI fichas)
 
