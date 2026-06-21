@@ -4,18 +4,29 @@
 4|
 5|---
 6|
-7|## 1. Documentos analisados
-8|
-9|| # | Ficha | Ano | Tema central |
-10||---|-------|-----|-------------|
-11|| 01 | [Memorial 5.1 — Biorrefinaria Bambu](./memorial-5.1-biorrefinaria-bambu.md) | 2025 | Plataforma Amazônia Regenerativa v5.1 |
-12|| 02 | [Resenha — Naccache Imperveg PU](./resenha-naccache-imperveg.md) | 2015 | PU Vegetal de Mamona — Ensaios CIV |
-13|| 03 | [Costa — Tratamento Térmico Dendrocalamus](./costa-2015-tratamento-termico-dendrocalamus.md) | 2015 | Termorretificação de bambu (UnB) |
-14|| 04 | [Chung & Wang — Peeling Steam Bamboo](./chung-wang-2017-peeling-steam-bamboo.md) | 2017 | Efeitos descasque/vapor em bambu |
-15|| 05 | [Silva — Pirolenhoso (original)](./silva-2011-pirolenhoso.md) | 2011 | Dissertação UNICAMP — preservação |
-16|| 06 | [Severo & Tomaselli — Vaporização](./severoTomaselli_1998_vaporizacao.md) | 1998 | Vaporização em flexão estática |
-17|| 07 | [Polymers — Alkali Treatment](./SCI_014_POLYMERS_ALKALI_TREATMENT.md) | 2022 | Tratamento alcalino em biocompósitos |
+## 1. Documentos analisados
+
+| # | Ficha | Ano | Tema central |
+|---|-------|-----|-------------|
+| 01 | [Memorial 5.1 — Biorrefinaria Bambu](./memorial-5.1-biorrefinaria-bambu.md) | 2025 | Plataforma Amazônia Regenerativa v5.1 |
+| 02 | [Resenha — Naccache Imperveg PU](./resenha-naccache-imperveg.md) | 2015 | PU Vegetal de Mamona — Ensaios CIV |
+| 03 | [Costa — Tratamento Térmico Dendrocalamus](./costa-2015-tratamento-termico-dendrocalamus.md) | 2015 | Termorretificação de bambu (UnB) |
+| 04 | [Chung & Wang — Peeling Steam Bamboo](./chung-wang-2017-peeling-steam-bamboo.md) | 2017 | Efeitos descasque/vapor em bambu |
+| 05 | [Silva — Pirolenhoso (original)](./silva-2011-pirolenhoso.md) | 2011 | Dissertação UNICAMP — preservação |
+| 06 | [Severo & Tomaselli — Vaporização](./severoTomaselli_1998_vaporizacao.md) | 1998 | Vaporização em flexão estática |
+| 07 | [Polymers — Alkali Treatment](./SCI_014_POLYMERS_ALKALI_TREATMENT.md) | 2022 | Tratamento alcalino em biocompósitos |
 | 08 | [Hernández-Mena et al. — Neotropical Bamboo Review](./neotropical-bamboo-review-2024.md) | 2024 | Bambu neotropical: bioprodutos e bioenergia — revisão integradora |
+| 09 | [Melo — Compósito Eucalipto + PU Vegetal (IFAL)](./resenha-melo-2023-compósito-eucalipto-pu.md) | 2023 | Compósito MPPE+RPM para reparo de fendas em madeira |
+| 10 | [Carvalho — Painéis Casca de Mamona + PU (USP/ESALQ)](./resenha-carvalho-2020-paineis-casca-mamona-pu.md) | 2023 | Painéis particulados 100% mamona (casca + resina) |
+| 11 | [Lopes M.D.M. — OSB com Resíduos de Bambu (UENF)](./resenha-lopes-2020-osb-residuos-bambu.md) | 2020 | Compósitos bambu+PU para painéis de partículas orientadas |
+| 12 | [Lopes S.C. — Compósito Bioinspirado Bagaço + PU (UFT)](./resenha-lopes-shara-2023-compósito-bioinspirado.md) | 2023 | Compósito bioinspirado bagaço de cana + PU vegetal |
+| 13 | [Dias — Absorção de Fibras Vegetais (USP FAU)](./resenha-dias-2024-absorcao-fibras-vegetais.md) | 2024 | Água em fibras vegetais brasileiras para compósitos termorrígidos |
+| 14 | [ACV-Bambu — Fundamentos](./resenha-acv-bambu-fundamentos.md) | — | Introdução à Análise de Ciclo de Vida aplicada ao bambu |
+| 15 | [Nina et al. — Zoneamento Bambu Brasil (UFLA)](./resenha-nina-2019-zoneamento-bambu-brasil.md) | 2019 | Zoneamento edafoclimático para *B. vulgaris* e *D. giganteus* |
+| 16 | [Charcoal — Anatomia Carvão Brasil (AABC)](./resenha-charcoal-2021-anatomia-carvão-brasil.md) | 2021 | Anatomia do carvão de 15 espécies nativas para antracologia |
+| 17 | [FAO — Bamboo Resources Assessment](./resenha-fao-2025-bamboo-resources-assessment.md) | 2025 | Metodologia SEPAL para inventário de recursos de bambu |
+| 18 | [Cúpula Geodésica PU Vegetal](./resenha-cupula-geodesica-pu-vegetal.md) | — | Projeto construtivo bambu+PU com participação de Fábio Takwara |
+| 19 | [Patente — Reforço Interno Bambu+PU](./resenha-patente-reforco-interno-bambu-pu.md) | — | Memorial descritivo de patente — sistema de reforço interno |
 18|
 19|## 2. Referências fundacionais (SCI fichas)
 20|
@@ -69,6 +80,6 @@
 68|
 69|---
 70|
-71|> **Elaborado em:** 2026-06-21 | **Fichas incorporadas:** 8 | **Referências relacionadas identificadas:** 8
+71|> **Elaborado em:** 2026-06-21 | **Fichas incorporadas:** 19 | **Catálogo IFB:** 84 referências | **Referências relacionadas identificadas:** 8+
 72|> **Nota:** As fichas SCI_012 (Pirolenhoso) e SCI_017 (Vaporização) têm seus originais em formato PDF que não foi localizado online para acesso aberto. As referências relacionadas foram identificadas via Crossref e Semantic Scholar APIs.
 73|

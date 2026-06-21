@@ -1,6 +1,6 @@
 # Tecnologia Takwara
 
-> **Resenha:** Bases científicas e tecnológicas da cadeia do bambu — preservação com extrato pirolenhoso, tratamento térmico e vaporização, biocompósitos de PU vegetal, e a Plataforma Amazônia Regenerativa v5.1. 7 fichas técnicas — 1998 a 2025.
+> **Resenha:** Bases científicas e tecnológicas da cadeia do bambu — preservação com extrato pirolenhoso, tratamento térmico e vaporização, biocompósitos de PU vegetal, compósitos com resíduos agroindustriais, zoneamento edafoclimático, metodologias FAO de inventário, projetos construtivos, patentes, e o catálogo IFB (84 referências). 20 fichas técnicas + 1 catálogo — 1998 a 2025.
 
 ## Fichas
 
@@ -12,6 +12,21 @@
 - [Polymers (2022) — Tratamento Alcalino](SCI_014_POLYMERS_ALKALI_TREATMENT.md)
 - [Memorial 5.1 — Biorrefinaria Bambu](memorial-5.1-biorrefinaria-bambu.md)
 - [Hernández-Mena et al. (2024) — Neotropical Bamboo Review](neotropical-bamboo-review-2024.md)
+- [Lopes M.D.M. (2020) — OSB com Resíduos de Bambu (UENF)](resenha-lopes-2020-osb-residuos-bambu.md)
+- [Carvalho (2023) — Painéis Casca Mamona + PU (USP/ESALQ)](resenha-carvalho-2020-paineis-casca-mamona-pu.md)
+- [Melo (2023) — Compósito Eucalipto + PU (IFAL)](resenha-melo-2023-compósito-eucalipto-pu.md)
+- [Lopes S.C. (2023) — Compósito Bioinspirado Bagaço + PU (UFT)](resenha-lopes-shara-2023-compósito-bioinspirado.md)
+- [Dias (2024) — Absorção de Fibras Vegetais (USP FAU)](resenha-dias-2024-absorcao-fibras-vegetais.md)
+- [ACV-Bambu — Fundamentos](resenha-acv-bambu-fundamentos.md)
+- [Nina et al. (2019) — Zoneamento Bambu Brasil](resenha-nina-2019-zoneamento-bambu-brasil.md)
+- [Charcoal (2021) — Anatomia Carvão Brasil](resenha-charcoal-2021-anatomia-carvão-brasil.md)
+- [FAO (2025) — Bamboo Resources Assessment](resenha-fao-2025-bamboo-resources-assessment.md)
+- [Cúpula Geodésica PU Vegetal](resenha-cupula-geodesica-pu-vegetal.md)
+- [Patente — Reforço Interno Bambu+PU](resenha-patente-reforco-interno-bambu-pu.md)
+
+## Catálogo IFB (84 referências)
+
+→ [Catálogo completo da bibliografia do Projeto PROGRUPOS/IFB](catalogo-ifb-bambu.md)
 
 ## Estado da Arte
 

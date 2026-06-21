@@ -1,6 +1,6 @@
-# Bibliografia IFB — Projeto Bambu (2021)
+# Catálogo IFB — Projeto Bambu (2021)
 
-> **Resumo:** Catálogo completo da bibliografia consultada do Projeto PROGRUPOS/IFB (Instituto Federal de Brasília), coordenado por Fabio Takwara e Dinailza. O acervo de 84 referências (2002-2022) abrange as bases científicas e tecnológicas da cadeia produtiva do bambu no Brasil, incluindo preservação, caracterização mecânica, briquetes/pellets, biochar, geodésicas, PU vegetal, e a interface com territórios (São Thomé das Letras, Amazônia). Organizado em 10 eixos temáticos.
+> **Parte integrante do eixo Tecnologia Takwara.** Catálogo completo da bibliografia consultada do Projeto PROGRUPOS/IFB (Instituto Federal de Brasília), coordenado por Fabio Takwara e Dinailza. O acervo de 84 referências (2002-2022) abrange as bases científicas e tecnológicas da cadeia produtiva do bambu no Brasil — todo este material é resultado direto da pesquisa de Fabio Takwara para a Tecnologia Takwara, incluindo preservação, caracterização mecânica, briquetes/pellets, biochar, geodésicas, PU vegetal, e a interface com territórios (São Thomé das Letras, Amazônia). Organizado em 10 eixos temáticos.
 
 ---
 
