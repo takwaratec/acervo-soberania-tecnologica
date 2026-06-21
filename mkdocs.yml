@@ -63,6 +63,8 @@ nav:
       - Avaliação Pós-Ocupação: analyses/estado-da-arte/his-avaliacao-pos-ocupacao.md
       - Política Habitacional: analyses/estado-da-arte/his-politica-habitacional.md
       - Grandes Obras e Reassentamento na Amazônia: analyses/estado-da-arte/his-grandes-obras-reassentamento-amazonia.md
+      - Bioeconomia Amazônica: analyses/estado-da-arte/bioeconomia-amazonica.md
+      - Tecnologia Takwara: analyses/estado-da-arte/tecnologia-takwara.md
     - Fichas Técnicas:
       - analyses/fichas/index.md
       - Percepção Social:
@@ -83,4 +85,15 @@ nav:
         - Miranda Neto (2014): analyses/fichas/miranda-neto-2014-belo-monte-reassentamento.md
         - Belforte & Cavalcante (2021): analyses/fichas/belforte-cavalcante-2021-santo-antonio.md
         - Silva & Cavalcante (2022): analyses/fichas/silva-cavalcante-2022-reassentamento-rural-amazonia.md
+    - Bioeconomia Amazônica:
+      - analyses/fichas/sintese-cientifica-ecossistema-wtf.md
+      - analyses/fichas/diag-bioeconomia-amazonica.md
+      - analyses/fichas/diag-nova-economia-amazonia.md
+      - analyses/fichas/diag-bndes-set-47-bioeconomia.md
+      - analyses/fichas/bibliografia-mestra-mqtf.md
+      - analyses/fichas/resenha-araújo-2025-acv-bambu.md
+      - analyses/fichas/resenha-silva-mapeamento-bambu.md
+    - Tecnologia Takwara:
+      - analyses/fichas/memorial-5.1-biorrefinaria-bambu.md
+      - analyses/fichas/resenha-naccache-imperveg.md
   - Prompts de Escrita: prompts/index.md
