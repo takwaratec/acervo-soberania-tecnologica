@@ -130,12 +130,14 @@
 
 ## Fichas geradas
 
-As seguintes referências da bibliografia IFB já foram processadas como fichas técnicas no repositório:
+As seguintes referências da bibliografia IFB já foram processadas como fichas técnicas no repositório (consulte o índice de cada eixo para a lista completa):
 
-| Ficha | Ano | Eixo |
-|-------|-----|------|
-| [Resenha Naccache — Imperveg](../tecnologia-takwara/resenha-naccache-imperveg.md) | 2015 | PU Vegetal |
-| [Chung & Wang — Peeling Steam Bamboo](../tecnologia-takwara/chung-wang-2017-peeling-steam-bamboo.md) | 2017 | Preservação |
-| [Polymers — Alkali Treatment](../tecnologia-takwara/SCI_014_POLYMERS_ALKALI_TREATMENT.md) | 2022 | Biocompósitos |
+| # | Ficha | Ano | Eixo |
+|---|-------|-----|------|
+| 01 | [Resenha Naccache — Imperveg](./resenha-naccache-imperveg.md) | 2015 | PU Vegetal |
+| 02 | [Chung & Wang — Peeling Steam Bamboo](./chung-wang-2017-peeling-steam-bamboo.md) | 2017 | Preservação |
+| 03 | [Polymers — Alkali Treatment](./SCI_014_POLYMERS_ALKALI_TREATMENT.md) | 2022 | Biocompósitos |
+
+Além destas, **38 fichas IFB** foram criadas nos eixos Tecnologia Takwara (26) e Bioeconomia Amazônica (12). Consulte os índices de cada eixo.
 
 > **Nota:** Este catálogo de 84 referências serve como guia para processamento futuro. Cada referência pode ser convertida em ficha técnica mediante acesso ao PDF original no diretório `/Bibliografia Consultada/`.

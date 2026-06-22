@@ -1,6 +1,6 @@
 # Tecnologia Takwara
 
-> **Resenha:** Bases científicas e tecnológicas da cadeia do bambu — preservação com extrato pirolenhoso, tratamento térmico e vaporização, biocompósitos de PU vegetal, compósitos com resíduos agroindustriais, zoneamento edafoclimático, metodologias FAO de inventário, projetos construtivos, patentes, contexto territorial e o catálogo IFB (84 referências). 28 fichas técnicas + 1 catálogo — 1998 a 2025.
+> **Resenha:** Bases científicas e tecnológicas da cadeia do bambu — preservação, caracterização mecânica, pirólise, briquetes, geodésicas, PU vegetal, biocompósitos, contexto territorial e o catálogo IFB (84 referências). **55 fichas** técnicas incluindo 26 do Catálogo IFB — 1998 a 2025.
 
 ## Fichas
 
