@@ -14,9 +14,10 @@
 14|| 04 | [BNDES Setorial 47](./diag-bndes-set-47-bioeconomia.md) | Diagnóstico | Financiamento e políticas |
 15|| 05 | [Bibliografia Mestra MQTF](./bibliografia-mestra-mqtf.md) | Bibliografia | Subsídio jurídico-institucional |
 16|| 06 | [ACV Bambu Amazônia (Araújo 2025)](./resenha-araújo-2025-acv-bambu.md) | Resenha | Análise de ciclo de vida |
-17|| 07 | [Mapeamento Bambu Nativo (Silva)](./resenha-silva-mapeamento-bambu.md) | Resenha | Georreferenciamento Guadua |
-18|
-19|## 2. Indicadores-chave consolidados
+| 07 | [Mapeamento Bambu Nativo (Silva)](./resenha-silva-mapeamento-bambu.md) | Resenha | Georreferenciamento Guadua |
+| 08 | [Thengane et al. — Mercado de Biochar](./resenha-thengane-2021-biochar-mercado.md) | Artigo | Mercado de biocarvão, barreiras e créditos de carbono |
+
+## 2. Indicadores-chave consolidados
 20|
 21|| Indicador | Valor | Fonte |
 22||-----------|-------|-------|
@@ -40,5 +41,5 @@
 40|
 41|---
 42|
-43|> **Elaborado em:** 2026-06-21 | **Fichas incorporadas:** 7
+43|> **Elaborado em:** 2026-06-22 | **Fichas incorporadas:** 8
 44|

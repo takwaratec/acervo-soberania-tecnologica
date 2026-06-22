@@ -1,6 +1,6 @@
 # Tecnologia Takwara
 
-> **Resenha:** Bases científicas e tecnológicas da cadeia do bambu — preservação com extrato pirolenhoso, tratamento térmico e vaporização, biocompósitos de PU vegetal, compósitos com resíduos agroindustriais, zoneamento edafoclimático, metodologias FAO de inventário, projetos construtivos, patentes, e o catálogo IFB (84 referências). 20 fichas técnicas + 1 catálogo — 1998 a 2025.
+> **Resenha:** Bases científicas e tecnológicas da cadeia do bambu — preservação com extrato pirolenhoso, tratamento térmico e vaporização, biocompósitos de PU vegetal, compósitos com resíduos agroindustriais, zoneamento edafoclimático, metodologias FAO de inventário, projetos construtivos, patentes, contexto territorial e o catálogo IFB (84 referências). 28 fichas técnicas + 1 catálogo — 1998 a 2025.
 
 ## Fichas
 
@@ -23,6 +23,15 @@
 - [FAO (2025) — Bamboo Resources Assessment](resenha-fao-2025-bamboo-resources-assessment.md)
 - [Cúpula Geodésica PU Vegetal](resenha-cupula-geodesica-pu-vegetal.md)
 - [Patente — Reforço Interno Bambu+PU](resenha-patente-reforco-interno-bambu-pu.md)
+- [Carbonari (2015) — Tratamento Natural com Tanino (UEL)](resenha-carbonari-2015-tanino.md)
+- [Moreira & Silva (2022) — Bambu Protendido (UFMG)](resenha-moreira-2022-protendido.md)
+- [Leithold Neto (2015) — Biodegradação de PU (UTFPR)](resenha-leithold-2015-degradacao-pu.md)
+- [Kaur et al. (2016) — Eco-Friendly Preservation (Revisão)](resenha-kaur-2016-eco-preservacao.md)
+- [Costa (2004) — Carvão Bambu *B. vulgaris* (IPEN/USP)](resenha-costa-2004-carvao-bambu.md)
+- [Pandoli & Ghavami (2023) — Microrreator Lignocelulósico (PUC-Rio)](resenha-pandoli-2023-microreator-bambu.md)
+- [Beraldo (2004) — Tratamento sob Pressão (UNICAMP)](resenha-beraldo-2004-tratamento-pressao.md)
+- [Mamonex RD70 — Resina PU Vegetal](resenha-mamonex-rd70-pu-vegetal.md)
+- [Moreira et al. (2020) — Mineração STL: Saúde e Justiça Ambiental](resenha-moreira-2020-stl-mineracao.md)
 
 ## Catálogo IFB (84 referências)
 
