@@ -27,9 +27,18 @@
 | 17 | [FAO — Bamboo Resources Assessment](./resenha-fao-2025-bamboo-resources-assessment.md) | 2025 | Metodologia SEPAL para inventário de recursos de bambu |
 | 18 | [Cúpula Geodésica PU Vegetal](./resenha-cupula-geodesica-pu-vegetal.md) | — | Projeto construtivo bambu+PU com participação de Fábio Takwara |
 | 19 | [Patente — Reforço Interno Bambu+PU](./resenha-patente-reforco-interno-bambu-pu.md) | — | Memorial descritivo de patente — sistema de reforço interno |
-18|
-19|## 2. Referências fundacionais (SCI fichas)
-20|
+| 20 | [Carbonari — Tratamento Natural com Tanino (UEL)](./resenha-carbonari-2015-tanino.md) | 2015 | Patente UEL — preservação de bambu com tanino vegetal a vácuo |
+| 21 | [Moreira & Silva — Bambu Protendido (UFMG)](./resenha-moreira-2022-protendido.md) | 2022 | Patente UFMG — dispositivo estrutural de bambu com cabos pré-tensionados |
+| 22 | [Leithold Neto — Biodegradação de PU em Solo (UTFPR)](./resenha-leithold-2015-degradacao-pu.md) | 2015 | TCC UTFPR — biodegradação de bioespumas PU em solo simulado (ASTM G 160) |
+| 23 | [Kaur et al. — Eco-Friendly Preservation (Revisão)](./resenha-kaur-2016-eco-preservacao.md) | 2016 | Revisão BioResources — preservação ecológica de bambu: tradicionais a modernos |
+| 24 | [Costa — Carvão Bambu *B. vulgaris* (IPEN/USP)](./resenha-costa-2004-carvao-bambu.md) | 2004 | Dissertação IPEN — carbonização de *B. vulgaris* a 400/600/800 °C |
+| 25 | [Pandoli & Ghavami — Microrreator Lignocelulósico (PUC-Rio)](./resenha-pandoli-2023-microreator-bambu.md) | 2023 | Patente PUC-Rio — bambu como microrreator catalítico |
+| 26 | [Beraldo — Tratamento de Bambu sob Pressão (UNICAMP)](./resenha-beraldo-2004-tratamento-pressao.md) | 2004 | Patente UNICAMP — dispositivo Boucherie para impregnação pressurizada |
+| 27 | [Mamonex RD70 — Resina PU Vegetal](./resenha-mamonex-rd70-pu-vegetal.md) | 2025 | Ficha técnica — resina expansiva rígida de PU de mamona |
+| 28 | [Moreira et al. — Mineração STL: Saúde e Justiça Ambiental](./resenha-moreira-2020-stl-mineracao.md) | 2020 | Etnografia — impactos da mineração em São Thomé das Letras (MG) |
+21|
+
+## 2. Referências fundacionais (SCI fichas)
 21|### SCI_012 — Potencial do Extrato Pirolenhoso na Preservação de Bambu
 22|
 23|| Campo | Dado |
@@ -80,6 +89,6 @@
 68|
 69|---
 70|
-71|> **Elaborado em:** 2026-06-21 | **Fichas incorporadas:** 19 | **Catálogo IFB:** 84 referências | **Referências relacionadas identificadas:** 8+
+71|> **Elaborado em:** 2026-06-22 | **Fichas incorporadas:** 28 | **Catálogo IFB:** 84 referências | **Referências relacionadas identificadas:** 8+
 72|> **Nota:** As fichas SCI_012 (Pirolenhoso) e SCI_017 (Vaporização) têm seus originais em formato PDF que não foi localizado online para acesso aberto. As referências relacionadas foram identificadas via Crossref e Semantic Scholar APIs.
 73|
