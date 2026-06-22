@@ -1,6 +1,6 @@
 # Tecnologia Takwara
 
-> **Resenha:** Bases científicas e tecnológicas da cadeia do bambu — preservação, caracterização mecânica, pirólise, briquetes, geodésicas, PU vegetal, biocompósitos, contexto territorial e o catálogo IFB (84 referências). **55 fichas** técnicas incluindo 26 do Catálogo IFB — 1998 a 2025.
+> **Resenha:** Bases científicas e tecnológicas da cadeia do bambu — preservação, caracterização mecânica, pirólise, briquetes, geodésicas, PU vegetal, biocompósitos, contexto territorial e o catálogo IFB (84 referências). **59 fichas** técnicas incluindo 30 do Catálogo IFB — 1998 a 2025.
 
 ## Fichas
 
@@ -32,8 +32,13 @@
 - [Beraldo (2004) — Tratamento sob Pressão (UNICAMP)](resenha-beraldo-2004-tratamento-pressao.md)
 - [Mamonex RD70 — Resina PU Vegetal](resenha-mamonex-rd70-pu-vegetal.md)
 - [Moreira et al. (2020) — Mineração STL: Saúde e Justiça Ambiental](resenha-moreira-2020-stl-mineracao.md)
+- [IFB — Plano de Logística Sustentável CONAB](ifb-plano-de-log-stica-sustent-vel-conab.md)
+- [IFB — Ghavami (2003) — Propriedades do Bambu (PUC-Rio)](ifb-ghavami-2003-propriedades-bambu.md)
+- [IFB — Manual Indiano de Preservação de Bambu (2006)](ifb-manual-indiano-preservacao-2006.md)
+- [IFB — Resistência à Flexão e Compressão (2017)](ifb-resistencia-flexao-compressao-2017.md)
+- [IFB — SIMI: Ambiente de Inovação MG (2024)](ifb-simi-inovacao-mg-2024.md)
 
-## Catálogo IFB (84 referências)
+## Catálogo IFB
 
 → [Catálogo completo da bibliografia do Projeto PROGRUPOS/IFB](catalogo-ifb-bambu.md)
 
