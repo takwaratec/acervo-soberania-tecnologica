@@ -89,5 +89,5 @@
 
 ---
 
-> **Elaborado em:** 2026-06-22 | **Fichas incorporadas:** 55 na tecnologia-takwara (incl. 26 IFB) | **Catálogo IFB:** 84 referências | **Referências relacionadas identificadas:** 8+
+> **Elaborado em:** 2026-06-22 | **Fichas incorporadas:** 59 na tecnologia-takwara (incl. 30 IFB) | **Catálogo IFB:** 84 referências | **Referências relacionadas identificadas:** 8+
 > **Nota:** As fichas SCI_012 (Pirolenhoso) e SCI_017 (Vaporização) têm seus originais em formato PDF que não foi localizado online para acesso aberto. As referências relacionadas foram identificadas via Crossref e Semantic Scholar APIs.
