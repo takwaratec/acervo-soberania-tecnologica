@@ -163,7 +163,7 @@ TAKWARA, Fabio Resck. **Série Técnica Plataforma Amazônia Regenerativa**: Bio
 
 > **Ficha elaborada em:** 2026-06-22
 > **Documentos fonte:**
-> - `/UnB/Mulheres_Bioeconomia_Amazonia/docs/01_TECNOLOGIA_TAKWARA/TAK_manual-bioeconomia-bambu.md`
-> - `/UnB/Mulheres_Bioeconomia_Amazonia/docs/01_TECNOLOGIA_TAKWARA/TAK_manual-fitorremediacao-credito-carbono.md`
-> - `/UnB/Mulheres_Bioeconomia_Amazonia/docs/02_PESQUISA_DESENVOLVIMENTO/TAK_carvao-pirolenhoso.md`
+> - [Bioeconomia Comunitária do Bambu](https://github.com/takwaratec/projetos/blob/main/docs/01_TECNOLOGIA_TAKWARA/TAK_manual-bioeconomia-bambu.md) — também em [GH Pages](https://takwaratec.github.io/projetos/01_TECNOLOGIA_TAKWARA/TAK_manual-bioeconomia-bambu/)
+> - [Fitorremediação e Mercados de Carbono](https://github.com/takwaratec/projetos/blob/main/docs/01_TECNOLOGIA_TAKWARA/TAK_manual-fitorremediacao-credito-carbono.md) — também em [GH Pages](https://takwaratec.github.io/projetos/01_TECNOLOGIA_TAKWARA/TAK_manual-fitorremediacao-credito-carbono/)
+> - [Bambu: Bioeconomia de Carbono Negativo](https://github.com/takwaratec/projetos/blob/main/docs/02_PESQUISA_DESENVOLVIMENTO/TAK_carvao-pirolenhoso.md) — parte da [Plataforma v5.1](https://takwaratec.github.io/projetos/06_ANAIS_MEMORIA/TAK_plataforma-v5.1/)
 > **Ferramenta:** Hermes Agent
