@@ -1,6 +1,6 @@
 # Bioeconomia Amazônica
 
-> **Resenha:** Diagnósticos, relatórios, resenhas científicas e fichas IFB sobre bioeconomia na Amazônia — paradigmas, financiamento, cenários 2050, bambu nativo, biochar, mercados, energia e valoração da floresta em pé. **20 fichas** técnicas incluindo 12 do Catálogo IFB — 2025.
+> **Resenha:** Diagnósticos, relatórios, resenhas científicas e fichas IFB sobre bioeconomia na Amazônia — paradigmas, financiamento, cenários 2050, bambu nativo, biochar, mercados, energia e valoração da floresta em pé. **21 fichas** técnicas incluindo 12 do Catálogo IFB — 2025 a 2026.
 
 ## Fichas
 
@@ -24,6 +24,7 @@
 - [IFB — Saneamento Básico Brasil](ifb-saneamento-b-sico-brasil.md)
 - [IFB — Fixação de Carbono (São Carlos)](ifb-fixa-o-de-carbono-s-o-carlos.md)
 - [IFB — Desmatamento Mundial](ifb-desmatamento-mundial.md)
+- [Takwara (2026) — Plataforma Amazônia Regenerativa (3 Manuais)](resenha-takwara-2026-plataforma-regenerativa.md)
 
 ## Estado da Arte
 
