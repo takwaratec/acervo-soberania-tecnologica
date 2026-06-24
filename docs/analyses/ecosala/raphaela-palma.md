@@ -24,9 +24,3 @@
 - Praticas Integrativas e Complementares em Saude (PICS)
 - Educacao nutricional popular
 - Relacao saude-alimento-territorio (Saude Integral)
-
-## Relevancia para o projeto Vaga Lumen
-- Diagnostico de desertos alimentares nas periferias de Ribeirao Preto
-- Integracao do eixo saude a ECOSALA: "Saude Integral = Agroecologia + Saude da Familia + Habitar"
-- Conexao com SUS e PICS para possiveis parcerias institucionais
-- Atuacao direta no territorio (Coletivo Terra Viva, mutiroes no Mario Lago)

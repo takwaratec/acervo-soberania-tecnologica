@@ -23,9 +23,3 @@
 - Tecnologias sociais
 - Cultura e arte comunitaria
 - Articulacao entre sociedade civil e poder publico
-
-## Relevancia para o projeto Vaga Lumen
-- Espaco fisico para laboratorio vivo agroecologico — vizinho ao Campus IFSP RP
-- Ponto de Cultura — potencial para integrar eixo cultural e artistico da ECOSALA
-- Relacao direta com IFSP Ribeirao Preto (vizinhanza)
-- Experiencia em gestao comunitaria de APP urbana

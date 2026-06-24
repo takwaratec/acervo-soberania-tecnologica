@@ -15,8 +15,3 @@
 | Projetos de habitacao social | Projetos | — | Labiapa / CAU |
 | Parceria com Andre Blanco em bioconstrucao | Projetos | — | Labiapa |
 | Projetos de arquitetura comunitaria | Projetos | — | APA Joaquim Egidio |
-
-## Relevancia para o projeto Vaga Lumen
-- Apoio ao projeto construtivo da ECOSALA
-- Experiencia em habitacao social e comunitaria
-- Parceria direta com Andre Blanco
