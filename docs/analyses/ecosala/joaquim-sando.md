@@ -1,0 +1,33 @@
+# Ficha — Joaquim Lauro Sando
+
+## Identificacao
+| Campo | Dado |
+|---|---|
+| **Nome** | Joaquim Lauro Sando |
+| **Formacao** | Engenheiro Agronomo |
+| **Instituicao** | MST — Movimento dos Trabalhadores Rurais Sem Terra (Coordenacao Estadual — Regional Ribeirao Preto) |
+| **Funcao no grupo** | Articulador territorial. Presidente do Conselho de Seguranca Alimentar de Ribeirao Preto. |
+
+## Producao selecionada
+| Titulo | Tipo | Ano | Instituicao |
+|---|---|---|---|
+| Coordenacao da Regional MST Ribeirao Preto (4 assentamentos, 5 acampamentos) | Gestao territorial | 2020-2026 | MST |
+| Projeto de cerveja com manipueira (Prof. Jean — IFSP) — submissao FINEP | Projeto de pesquisa | 2025 | IFSP / FINEP |
+| Programa Federal de Agricultura Urbana e Periurbana — treinamento | Formacao | 2026 | MDA |
+| Audiencias publicas do Campus IFSP Ribeirao Preto | Participacao | 2025-2026 | IFSP |
+| Presidencia do Conselho de Seguranca Alimentar de Ribeirao Preto | Gestao | 2024-2026 | Prefeitura RP |
+| Plano Municipal de Agricultura Urbana | Elaboracao | 2026 | Prefeitura RP |
+
+## Temas de atuacao
+- Reforma Agraria e organizacao territorial
+- Seguranca alimentar e nutricional
+- Agricultura urbana e periurbana
+- Agroecologia em assentamentos rurais
+- Articulacao entre movimentos sociais e institutos federais
+
+## Relevancia para o projeto Vaga Lumen
+- Articulacao direta com os 4 assentamentos e 5 acampamentos da Regional RP
+- Acesso ao Conselho de Seguranca Alimentar — potencial parceria institucional
+- Experiencia com submissao FINEP (projeto de cerveja com manipueira)
+- Participacao em audiencias publicas — conhecimento do processo de implantacao do IFSP RP
+- Lideranca na construcao do Plano Municipal de Agricultura Urbana
