@@ -1,23 +1,38 @@
-# Grupo ECOSALA — Fichas dos Membros
+# Grupo ECOSALA — Fichas do Acervo Científico
 
-Fichas tecnicas da producao academica e profissional dos membros do grupo ECOSALA, elaboradas para subsidiar a proposta Vaga Lumen (FINEP Mais Inovacao).
+Fichas técnicas das evidências científicas coletadas para o projeto Vaga Lúmen (FINEP Mais Inovação).
 
-## Membros
+## Subdiretórios
 
-| Nome | Formacao | Instituicao | Ficha |
+- `ecosala/` — Fichas específicas do grupo ECOSALA
+
+## Fichas do Grupo
+
+| # | Ficha | Conteúdo | TRL |
 |---|---|---|---|
-| Marcos Eduardo Paron | Agronomia, Doutor Microbiologia | IFSP Sertaozinho | [Abrir](marcos-paron.md) |
-| Andre Blanco | Arquitetura e Urbanismo | Labiapa / CAU | [Abrir](andre-blanco.md) |
-| Gisele Freitas Vilela | Agronomia | Embrapa Campinas | [Abrir](gisele-vilela.md) |
-| Joaquim Lauro Sando | Engenheiro Agronomo | MST Regional RP | [Abrir](joaquim-sando.md) |
-| Vicente de Paulo Borges | Agronomia, Doutor Educacao do Campo | IFB Planaltina | [Abrir](vicente-borges.md) |
-| Raphaela Palma | Nutricao + Psicologia, Mestre Saude Publica | USP Ribeirao | [Abrir](raphaela-palma.md) |
-| Luci Okino | Gestao comunitaria | Estacao Luz | [Abrir](luci-okino.md) |
-| Murillo Miguel | Desenvolvedor web | Coletivo Terra Viva | [Abrir](murillo-miguel.md) |
-| Henrique Bueno | Direito, TI | Estacao Luz | [Abrir](henrique-bueno.md) |
-| Luis Felipe Araujo | Arquitetura e Urbanismo | Labiapa | [Abrir](luis-felipe.md) |
+| 1 | [Ficha: Pirolenhoso Biofertilizante](ficha-pirolenhoso-biofertilizante.md) | Ácido pirolenhoso como biofertilizante, fungicida, bactericida — 18 artigos/teses | 5-6 |
+| 2 | [Ficha: PU Vegetal Imperveg](ficha-pu-vegetal-imperveg.md) | Poliuretano vegetal de mamona — 13 artigos/teses USP, ABM, internacionais | 4-5 |
+| 3 | [Ficha: Biochar e Bioenergia](ficha-biochar-bioenergia.md) | Biochar, briquetes, pellets, créditos de carbono (VERRA VM0044) — 16 artigos | 7-8 |
+| 4 | [Ficha: Biofiltro Águas Cinzas](ficha-biofiltro-aguas-cinzas.md) | Wetlands construídos, vermifiltração — 9 artigos/teses Unicamp, USP, UFU | 4-5 |
+| 5 | [Ficha: Fossa Séptica Ecológica](ficha-fossa-septica-ecologica.md) | Fossa biodigestora Embrapa, fossa verde — 7 artigos | 6-7 |
+| 6 | [Ficha: Catamarã Biocompósito](ficha-catamara-biocomposito.md) | Casco bambu+PU — 8 artigos + estudo naval MQTF | 3-4 |
+| 7 | [Ficha: Embarcações Solares](ficha-embarcacoes-solares.md) | Barcos solares na América do Sul — 5 projetos, 2 patentes | 7-8 |
+| 8 | [Referências Pirolenhoso+PU](referencias-pirolenhoso-pu.md) | Compilação completa de ~35 DOIs | — |
+| 9 | [Reavaliação TRL](reavaliacao-trl-evidencias.md) | Análise comparativa TRL original vs. revisado com evidências | — |
+| 10 | [Compósitos Alternativos](compositos-alternativos-embarcacao.md) | Técnicas construtivas: PU mineral, tambores, rabetas, solar | — |
+| 11 | [Embarcações Solares SA](embarcacoes-solares-sul-america.md) | Projetos sul-americanos de referência | — |
 
-> Fabio Takwara ja referenciado no acervo existente em `analyses/tecnologia-takwara/`.
+## Fichas dos Membros
 
-## Repositorio
-`github.com/takwaratec/Analises-e-escrita-cientifica`
+| Nome | Função |
+|---|---|
+| [Marcos Paron](marcos-paron.md) | Microbiologia, ecoformação |
+| [André Blanco](andre-blanco.md) | Bioconstrução, geodésicas |
+| [Gisele Vilela](gisele-vilela.md) | Produção orgânica |
+| [Joaquim Sando](joaquim-sando.md) | Reforma agrária |
+| [Vicente Borges](vicente-borges.md) | Educação do campo, MPTDF |
+| [Raphaela Palma](raphaela-palma.md) | Saúde pública |
+| [Luci Okino](luci-okino.md) | Gestão comunitária |
+| [Murillo Miguel](murillo-miguel.md) | SAFs, mobilização |
+| [Henrique Bueno](henrique-bueno.md) | Gestão administrativa |
+| [Luis Felipe](luis-felipe.md) | Arquitetura |
