@@ -21,17 +21,31 @@ status: Consolidado
 
 ## Produção Técnico-Científica
 
-### Série Técnica Plataforma Amazônia Regenerativa (Série T)
+### Série Técnica Plataforma Amazônia Regenerativa (Série T — T01 a T12)
 
-Três boletins técnico-científicos publicados no Zenodo (DOI: 10.5281/zenodo.18827106), licença CC BY 4.0, disponíveis em PT, EN, ES:
+Série completa de documentos técnicos sobre tecnologias sociais de bambu, bioeconomia e engenharia ecológica. Publicada no Zenodo (DOI: 10.5281/zenodo.18827106). **Os documentos estão em dois repositórios com diferenças entre versões que precisam ser avaliadas e decupadas pelo script de escrita científica.**
+
+**Localização nos repositórios:**
+- `Mulheres_Bioeconomia_Amazonia/dist_zenodo_v2.2.2/` — versão Zenodo
+- `Mulheres-Tecem-Amazonia/` — versão acervo MQTF
+
+**Volumes identificados: T01 a T07** (maquinário e engenharia) + 3 manuais temáticos (Bioeconomia, Fitorremediação, Carbono) + demais volumes a catalogar (T08-T12).
 
 | Volume | Título | Conteúdo |
 |---|---|---|
-| **T-01** | Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa | Governança, industrialização territorial, modelo de negócios comunitário |
-| **T-02** | Fitorremediação e Mercados de Carbono: O Bambu como Engenheiro Ecológico | Regeneração de solos, certificações VERRA VM0044, Plan Vivo |
-| **T-03** | Bambu como Plataforma para a Bioeconomia de Carbono Negativo | Pirólise, biochar, ácido pirolenhoso, sequestro de carbono |
+| **T-01** | Manual de Bioeconomia Comunitária do Bambu | Governança, industrialização territorial |
+| **T-02** | Manual de Fitorremediação e Mercados de Carbono | Regeneração de solos, certificações |
+| **T-03** | Bambu como Plataforma para Bioeconomia de Carbono Negativo | Pirólise, biochar, pirolenhoso |
+| **T01** | Forno Ecológico MPTDF | Patente e concepção do forno |
+| **T02** | Biorrefinaria | Reator, pirólise, comunitário |
+| **T03** | Resinador Rotativo | Resinagem artesanal e industrial |
+| **T04** | Misturador | Concepção e patente |
+| **T05** | Prensa Cassetes | Concepção e patente |
+| **T06** | Gabaritos Solda | Memoriais de patente |
+| **T07** | Prensa Sanduíche | Concepção |
+| **T08-T12** | *A catalogar* | Pendente de decupagem |
 
-> 📄 Resenha completa: [`resenha-takwara-2026-plataforma-regenerativa.md`](../bioeconomia-amazonica/resenha-takwara-2026-plataforma-regenerativa.md)
+> ⏳ **Pendente:** Decupagem comparativa entre os dois repositórios (diferenças de versão) + extração de referências acadêmicas para elevar TRL.
 
 ### Cartilhas de Advocacy
 
