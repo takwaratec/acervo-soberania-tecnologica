@@ -17,8 +17,8 @@
 | **Biodegradável** | Sim |
 | **Toxicidade** | Nula |
 | **Caráter químico** | Neutro |
-| **Fonte** | Acervo Digital MQTF, 2025 |
-| **Código MQTF** | PES-TEC-1293-2026 |
+| **Fonte** | Acervo de Pesquisa, 2025 |
+| **Código** | PES-TEC-1293-2026 |
 | **Palavras-chave** | Poliuretano vegetal; mamona; Mamonex; resina expansiva; PU; impermeabilização |
 | **Eixo** | Tecnologia Takwara — PU Vegetal / Imperveg |
 
@@ -90,7 +90,7 @@ O MAMONEX RD70 é o material de referência para múltiplas tecnologias do ecoss
 2. **Propriedades técnicas competitivas**: condutividade térmica, absorção de água e resistência mecânica comparáveis a isolantes petroquímicos.
 3. **Zero toxicidade**: diferencial crítico para aplicação em habitação e estações de saúde.
 4. **Expansão com CO₂**: sem CFCs ou agentes de expansão físicos prejudiciais à camada de ozônio.
-5. **Biodegradabilidade**: alinhada ao princípio de ciclo de vida fechado do MQTF/Takwara.
+5. **Biodegradabilidade**: alinhada ao princípio de ciclo de vida fechado do Acervo de Pesquisa/Takwara.
 
 ### Limitações
 
@@ -112,10 +112,10 @@ O MAMONEX RD70 é o material de referência para múltiplas tecnologias do ecoss
 
 ## 8. Referência
 
-ACERVO DIGITAL MULHERES QUE TECEM A FLORESTA. **MAMONEX RD70**: Resina expansiva rígida bicomponente de poliuretano vegetal. Consórcio UnB/UFAC/UFRR, 2025.
+IMPERVEG. **MAMONEX RD70**: Resina expansiva rígida bicomponente de poliuretano vegetal. Ficha técnica do fabricante, 2025.
 
 ---
 
 > **Ficha elaborada em:** 2026-06-22
-> **Fonte:** FICHA_WTF_RAW_FT_MAMONEX_RD70.md (MQTF)
+> **Fonte:** Ficha técnica Imperveg (MAMONEX RD70)
 > **Ferramenta:** Hermes Agent
