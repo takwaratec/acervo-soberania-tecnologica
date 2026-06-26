@@ -62,7 +62,7 @@ Ao ser acionado neste repositório, seu papel é:
 | **PyMuPDF** (fitz) | Extração de texto de PDFs | ✅ |
 | **python-docx** | Leitura/escrita DOCX | ✅ |
 | **ffmpeg** (conda) | Conversão de áudio (opus → wav) | ✅ |
-| **faster-whisper** | Transcrição de áudio | ⏳ Pendente (rede) |
+| **faster-whisper** | Transcrição de áudio | ✅ | via `conda run -n whisper_env` |
 | **pdfplumber** | PDF tabular | ⏳ Pendente (rede) |
 
 **Workaround áudio:** Gateway Telegram já transcreve automaticamente.
