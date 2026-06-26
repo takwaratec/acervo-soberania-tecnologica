@@ -78,6 +78,44 @@ Publicações no Medium e na Plataforma Amazônia Regenerativa abordando:
 | github.com/takwaratec/fundo-vaga-lumen-2026 | Proposta FINEP Vaga Lúmen |
 | github.com/takwaratec/plataforma-juventude-solidaria-2026 | Viveiro-Educador MST Mário Lago |
 
+|---
+
+## Produção Não-Científica (Tecnologias Sociais)
+
+Conjunto de tecnologias sociais desenvolvidas ou adaptadas por Fabio Takwara, voltadas para comunidades, agricultura familiar, saneamento ecológico e bioeconomia de base comunitária. Estas tecnologias não passaram por revisão por pares acadêmica, mas foram validadas em campo, com documentação técnica e protótipos operacionais.
+
+### Banheiro Seco T12 (BSM)
+
+Sistema de saneamento seco descentralizado com segregação de resíduos na fonte, utilizando assento separador de urina, dosagem mecânica de serragem (~0,5L/uso) e exaustão solar. Desenvolvido para áreas de elevada sensibilidade ecológica (UCs, trilhas, comunidades). Integra módulo hidráulico para águas cinzas com wetlands construídos.
+
+- **Status:** TRL 7 — pilotado (Chapada Diamantina, BA)
+- **Documentação:** Manual de Saneamento Ecológico e Vigilância Cidadã
+- **Aplicação:** Trilhas, campings, comunidades, eventos
+
+### Estufas Geodésicas
+
+Estruturas geodésicas baseadas na geometria de Buckminster Fuller para agricultura protegida. Oferecem 30% mais eficiência energética e resistência superior a ventos comparadas a estufas horizontais convencionais. Projetadas para o Centro de Excelência em Tecnologias Geodésicas em Holambra-SP.
+
+- **Status:** TRL 7 — conceito validado com projeto técnico
+- **Documentação:** Projeto Holambra-Bambu Hub Regional de Bioeconomia Circular
+- **Aplicação:** Agricultura familiar, floricultura, viveiros
+
+### Sistemas de Saneamento Ecológico
+
+Conjunto integrado de soluções de baixo impacto para tratamento de efluentes em destinos turísticos e comunidades. Combina Banheiros Secos Modulares (BSM), módulos de águas cinzas com wetlands, e o protocolo de vigilância cidadã "Sentinelas da Água" para monitoramento comunitário da qualidade da água.
+
+- **Status:** TRL 7 — pilotado (Chapada Diamantina)
+- **Documentação:** 3 manuais técnicos + relatório de infraestrutura
+- **Aplicação:** Unidades de Conservação, destinos ecoturísticos
+
+### Forno MPTDF e Tratamento de Bambu
+
+Forno ecológico MPTDF (Patente) e gama de tecnologias associadas ao tratamento térmico e preservação de bambu, incluindo resinador rotativo, misturador, prensas e gabaritos de solda. Engloba os volumes T01 a T07 da Série Técnica Plataforma Amazônia Regenerativa.
+
+- **Status:** TRL 4-5 (validação laboratorial e em ambiente relevante)
+- **Documentação:** Série Técnica T01-T07 (Zenodo DOI: 10.5281/zenodo.18827106)
+- **Aplicação:** Biorrefinarias comunitárias, industrialização territorial
+
 ---
 
 ## Áreas de Pesquisa
