@@ -11,7 +11,7 @@
 | **Título coletivo** | Série Técnica Plataforma Amazônia Regenerativa — Bioeconomia Comunitária |
 | **Autor** | Fabio Resck Takwara |
 | **ORCID** | 0000-0001-8815-3885 |
-| **Instituição** | Universidade de Brasília / Núcleo Takwara |
+| **Instituição** | Tecnologia Takwara |
 | **Licença** | CC BY 4.0 |
 | **DOI da Série** | 10.5281/zenodo.18827106 |
 | **Idiomas** | PT, EN, ES |
