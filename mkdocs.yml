@@ -58,6 +58,39 @@ nav:
   - Análises:
     - analyses/index.md
     - Potencial do Bambu: analyses/artigo-bambu-potencial-bioeconomia.md
+    - 🌱 ECOSALA:
+      - Visão Geral: analyses/ecosala/index.md
+      - Fichas dos Membros:
+        - Marcos Paron: analyses/ecosala/marcos-paron.md
+        - André Blanco: analyses/ecosala/andre-blanco.md
+        - Gisele Vilela: analyses/ecosala/gisele-vilela.md
+        - Joaquim Sando: analyses/ecosala/joaquim-sando.md
+        - Vicente Borges: analyses/ecosala/vicente-borges.md
+        - Raphaela Palma: analyses/ecosala/raphaela-palma.md
+        - Luci Okino: analyses/ecosala/luci-okino.md
+        - Murillo Miguel: analyses/ecosala/murillo-miguel.md
+        - Henrique Bueno: analyses/ecosala/henrique-bueno.md
+        - Luis Felipe: analyses/ecosala/luis-felipe.md
+      - Fichas Técnicas:
+        - PU Vegetal Imperveg: analyses/ecosala/ficha-pu-vegetal-imperveg.md
+        - Pirolenhoso Biofertilizante: analyses/ecosala/ficha-pirolenhoso-biofertilizante.md
+        - Biochar e Bioenergia: analyses/ecosala/ficha-biochar-bioenergia.md
+        - Biofiltro Águas Cinzas: analyses/ecosala/ficha-biofiltro-aguas-cinzas.md
+        - Fossa Séptica Ecológica: analyses/ecosala/ficha-fossa-septica-ecologica.md
+        - Catamarã Biocompósito: analyses/ecosala/ficha-catamara-biocomposito.md
+        - Embarcações Solares: analyses/ecosala/ficha-embarcacoes-solares.md
+      - Referências: analyses/ecosala/referencias-pirolenhoso-pu.md
+      - Reavaliação TRL: analyses/ecosala/reavaliacao-trl-evidencias.md
+      - Compósitos Alternativos: analyses/ecosala/compositos-alternativos-embarcacao.md
+    - 💰 Vaga Lúmen (FINEP):
+      - Proposta Final: https://github.com/takwaratec/fundo-vaga-lumen-2026/blob/main/proposta-final-vaga-lumen.md
+      - Regulamento FINEP: https://github.com/takwaratec/fundo-vaga-lumen-2026/blob/main/regulamento-finep-mais-inovacao.md
+      - TRL e Evidências: https://github.com/takwaratec/fundo-vaga-lumen-2026/blob/main/reavaliacao-trl-evidencias.md
+      - Zayed Award 2027: https://github.com/takwaratec/fundo-vaga-lumen-2026/blob/main/docs/editais/zayed-award-2027.md
+    - 🌿 MST Mário Lago:
+      - Site do Projeto: https://takwaratec.github.io/plataforma-juventude-solidaria-2026/
+      - Editais: https://github.com/takwaratec/plataforma-juventude-solidaria-2026/blob/main/docs/editais/editais.md
+      - Histórico do Coletivo: https://github.com/takwaratec/plataforma-juventude-solidaria-2026/blob/main/docs/editais/juventude-solidaria-01-2026.md
     - Percepção Social:
       - Visão Geral: analyses/percecao-social/index.md
       - Estado da Arte: analyses/percecao-social/estado-da-arte.md

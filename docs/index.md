@@ -36,15 +36,33 @@ Aqui você encontrará o resultado da curadoria científica de artigos, teses, d
 
 -   :material-leaf:{ .lg .middle } **Bioeconomia Amazônica**
 
-    Cadeias da sociobiodiversidade, economia regenerativa, MQTF e desenvolvimento territorial
+    Cadeias da sociobiodiversidade, economia regenerativa e desenvolvimento territorial
 
     [:octicons-arrow-right-24: Acessar](analyses/bioeconomia-amazonica/estado-da-arte.md)
 
 -   :material-hammer-wrench:{ .lg .middle } **Tecnologia Takwara**
 
-    Bambu, poliuretano vegetal de mamona, compósitos, patentes, tratamentos, zoneamento e ACV — a base científica da pesquisa
+    Bambu, poliuretano vegetal de mamona, compósitos, patentes, tratamentos, ACV
 
     [:octicons-arrow-right-24: Acessar](analyses/tecnologia-takwara/estado-da-arte.md)
+
+-   :material-account-group:{ .lg .middle } **ECOSALA**
+
+    Fichas dos 11 membros, tecnologias sociais, PU Vegetal Imperveg, biochar, fossa ecológica, TRL
+
+    [:octicons-arrow-right-24: Acessar](analyses/ecosala/index.md)
+
+-   :material-sail-boat:{ .lg .middle } **Vaga Lúmen (FINEP)**
+
+    Proposta FINEP Mais Inovação — Laboratório Itinerante de Permacultura, Saneamento e Moradia
+
+    [:octicons-arrow-right-24: Ver proposta](https://github.com/takwaratec/fundo-vaga-lumen-2026)
+
+-   :material-tree:{ .lg .middle } **MST Mário Lago**
+
+    Viveiro-Educador Terra Viva — Juventude Solidária, editais, histórico do coletivo
+
+    [:octicons-arrow-right-24: Ver site](https://takwaratec.github.io/plataforma-juventude-solidaria-2026/)
 
 </div>
 
@@ -54,9 +72,10 @@ Aqui você encontrará o resultado da curadoria científica de artigos, teses, d
 
 | Indicador | Total |
 |-----------|-------|
-| **Fichas técnicas** | 37 |
+| **Fichas técnicas** | ~80 |
 | **Catálogo IFB** | 84 referências |
-| **Eixos temáticos** | 6 |
+| **Eixos temáticos** | 9 (6 originais + ECOSALA + Vaga Lúmen + MST) |
+| **Fichas Imperveg** | MAMONEX RD70, UG 132A, RQI |
 | **Período coberto** | 1998–2025 |
 | **Licença** | CC BY 4.0 |
 
