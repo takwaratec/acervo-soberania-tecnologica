@@ -35,4 +35,7 @@ Fichas técnicas das evidências científicas coletadas para o projeto Vaga Lúm
 | [Luci Okino](luci-okino.md) | Gestão comunitária |
 | [Murillo Miguel](murillo-miguel.md) | SAFs, mobilização |
 | [Henrique Bueno](henrique-bueno.md) | Gestão administrativa |
-| [Luis Felipe](luis-felipe.md) | Arquitetura |
+|| [Luis Felipe](luis-felipe.md) | Arquitetura |
+|| **[Daniela Maciel](daniela-maciel.md)** 🆕 | **Transferência de Tecnologia, Embrapa** |
+
+> 👤 Daniela entrou em 26/06/2026. Ficha preliminar — aguardando histórico pessoal.
