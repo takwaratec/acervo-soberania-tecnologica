@@ -1,7 +1,7 @@
 ---
 tipo: Ficha de Membro
 projeto: ECOSALA
-status: Preliminar (aguardando histórico da membro)
+status: Consolidado
 ---
 
 # Daniela Maciel
@@ -11,27 +11,36 @@ status: Preliminar (aguardando histórico da membro)
 | Campo | Dado |
 |---|---|
 | **Nome** | Daniela Maciel |
-| **Instituição** | Embrapa |
-| **Área** | Transferência de Tecnologia / Inovação |
+| **Instituição** | Embrapa Territorial |
+| **Área** | Transferência de Tecnologia / Avaliação de Impacto |
 | **Adicionada por** | Gisele Vilela (26/06/2026) |
-| **E-mail** | *A confirmar* |
+| **Formação** | Mestrado (inovação + agricultura familiar) / Doutorado (avaliação de impacto da pesquisa) — concluído fev/2026 |
 
-## Notas
+## Atuação
 
-- Entrou no ECOSALA em 26/06/2026, adicionada por Gisele Vilela
-- Atua na área de transferência de tecnologia na Embrapa
-- Tem proposta alinhada com os objetivos do grupo (conforme Gisele)
-- Já se reuniu com Marcos Paron antes de entrar no grupo
-- Enviou áudio de apresentação em 26/06/2026 (aguardando transcrição — ferramenta de áudio não disponível no ambiente atual)
+- **Avaliação de impacto** de tecnologias e pesquisas agropecuárias
+- Desenvolvimento de métodos para avaliar **TICs** no campo (liderou desenvolvimento)
+- Modelos de avaliação dirigidos para **agricultura familiar**
+- Monitoramento da efetividade da pesquisa junto a diferentes públicos
+- Interface entre **transferência de tecnologia**, **inovação** e **agricultura familiar**
+
+## Interesses para o ECOSALA
+
+- Discussão sobre **tolerância** (surgiu no contexto da proposta FINEP da Gisele)
+- Como a pesquisa pode gerar **impacto real** no campo
+- Agenda de pesquisa orientada a **desafios concretos**
 
 ## Produção Acadêmica
 
-> 🔍 **Busca pendente:** Não foi possível localizar produção acadêmica online (buscas no Google Scholar e site Embrapa não retornaram resultados). A produção será incluída quando Daniela enviar seu histórico ou após instalação de ferramentas para transcrição do áudio de apresentação.
+> 🔍 Em busca — doutorado concluído em fevereiro/2026 na interface entre avaliação de impacto e agricultura familiar. Mestrado na área de transferência de tecnologia e inovação.
 
-## Área de Atuação
+## Notas
 
-- **Transferência de Tecnologia** — Embrapa
-- Possível interface com: bioinsumos, agroecologia, inovação aberta, propriedade intelectual
+- Trabalha com Gisele Vilela na Embrapa Territorial
+- Já conhecia Marcos Paron antes de entrar no grupo
+- Doutorado recente (fev/2026) — provável produção acadêmica recente ainda não indexada
+- Tem interesse em alinhar uma reunião para conhecer os demais membros
 
-> ⏳ **Aguardando histórico pessoal para complementar esta ficha.**  
-> Daniela foi consultada e vai enviar seu histórico em breve.
+---
+
+*Ficha atualizada em 26/06/2026 · Fonte: transcrição de áudio de apresentação*
