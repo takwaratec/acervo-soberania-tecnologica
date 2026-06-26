@@ -11,6 +11,7 @@ licenca: CC BY 4.0
 # Ficha Técnica: Banheiro Seco Modular T12 (BSM)
 
 **Tecnologia Takwara** — Série Técnica Plataforma Amazônia Regenerativa
+> **Integra a Série T de Patentes Sociais (T01-T12)** — Ver ficha master em [`ficha-serie-t-patentes-sociais.md`](ficha-serie-t-patentes-sociais.md)
 
 ---
 

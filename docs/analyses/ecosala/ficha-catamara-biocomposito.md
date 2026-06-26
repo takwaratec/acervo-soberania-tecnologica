@@ -7,6 +7,8 @@ status: Consolidado
 
 # Ficha: Catamara Biocomposito Bambu + PU Vegetal
 
+> **Integra a Série T de Patentes Sociais como T10** — Ver ficha master em [`ficha-serie-t-patentes-sociais.md`](../tecnologia-takwara/ficha-serie-t-patentes-sociais.md)
+
 ## 1. Identificacao
 | Campo | Dado |
 |---|---|
