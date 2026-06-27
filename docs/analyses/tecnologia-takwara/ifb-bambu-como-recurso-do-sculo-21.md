@@ -9,45 +9,44 @@ licenca: CC BY 4.0
 
 # IFB — Bambu como recurso do século 21
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Texto extraído via OCR (Tesseract 5.5, por+eng) do PDF original escaneado.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Bambu como Recurso do Século 21 |
-| **Autor(es)** | Autores diversos |
-| **Ano** | 2020 |
-| **Páginas** | Documento original digital |
+| **Título** | Bambu: o recurso renovável do século 21? |
+| **Autor(es)** | Não identificado no documento |
+| **Ano** | 2021 |
+| **Páginas** | 10 |
 | **DOI** | — |
-| **Eixo temático** | Geral |
+| **Eixo temático** | Visão Geral do Bambu |
 | **Código** | IFB-G-07 |
 
 ## 2. Estrutura e Organização
-O documento apresenta-se como artigo científico. artigo científico. Documento sobre o bambu como recurso estratégico do século 21, abordando seu potencial como material sustentável para construção, energia e bioprodutos. PDF original escaneado - OCR não disponível....
+Artigo de divulgação científica em português, com 10 páginas, estruturado em seções incluindo Introdução, desenvolvimento e considerações finais. O documento aborda o bambu como recurso renovável estratégico, discutindo sua história, usos tradicionais e potenciais aplicações modernas. Inclui um ditado asiático que sintetiza a importância cultural do bambu: "Um homem nasce em um berço de bambu e vai embora em um caixão de bambu. Tudo no meio é possível com o bambu."
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Bambu como Recurso do Século 21. 
-Documento sobre o bambu como recurso estratégico do século 21, abordando seu potencial como material sustentável para construção, energia e bioprodutos. PDF original escaneado - OCR não disponível.
+**Tema central:** O bambu como recurso renovável capaz de atender demandas do século 21. O artigo investiga como o bambu, historicamente usado por países em desenvolvimento, pode ser reposicionado como material estratégico para construção sustentável, energia e bioprodutos em escala global.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu, potencial energético.
+O referencial aborda conceitos de sustentabilidade, recursos renováveis e materiais biosustentáveis. Contextualiza o bambu dentro da problemática ambiental contemporânea, contrastando seu uso histórico em países em desenvolvimento com seu potencial de aplicação em economias industrializadas.
 
 ## 5. Metodologia
-Procedimentos metodológicos descritos no documento original.
+Revisão bibliográfica e análise descritiva das propriedades e aplicações do bambu, baseada em literatura científica e relatórios técnicos sobre o tema.
 
 ## 6. Principais Achados
-Documento sobre o bambu como recurso estratégico do século 21, abordando seu potencial como material sustentável para construção, energia e bioprodutos. PDF original escaneado - OCR não disponível.
+O bambu é uma gramínea nativa de 5 continentes com potencial para substituir materiais convencionais em diversas aplicações: construção civil (moradias, pontes, estruturas), utensílios domésticos, transporte (embarcações) e bioenergia. Países desenvolvidos têm demonstrado interesse crescente no bambu como alternativa sustentável. O documento sugere que o bambu pode desempenhar papel central na transição para uma economia de baixo carbono.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu, potencial energético. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.
-**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
-**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
+**Contribuições:** Síntese acessível do potencial do bambu como recurso renovável estratégico, com exemplos concretos de aplicações tradicionais e modernas.
+**Limitações:** Artigo de divulgação, sem aprofundamento técnico ou dados quantitativos originais. Autoria não identificada. Texto extraído via OCR — podem haver pequenos desvios de transcrição.
+**Qualidade formal:** Artigo de divulgação científica com estrutura editorial padrão.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Geral**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. PDF original escaneado — OCR não disponível para extração completa do texto.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** como documento de visão geral sobre o potencial do bambu. Conecta-se às fichas de espécies, mercado e aplicações tecnológicas do bambu no acervo. Texto recuperado via OCR do PDF original escaneado.
 
 ## Referência (ABNT)
-Autores diversos. **Bambu como Recurso do Século 21**. 2020.
+BAMBU: o recurso renovável do século 21? [S.l.: s.n.], 2021. 10 p. Original escaneado — texto extraído via OCR.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Texto recuperado via OCR (Tesseract) do original escaneado.*
