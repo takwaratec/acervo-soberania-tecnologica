@@ -18,7 +18,7 @@ licenca: CC BY 4.0
 | **Autor(es)** | Pesquisadores Indianos |
 | **Ano** | 2016 |
 | **Páginas** | Documento original digital |
-| **DOI** | — |
+| **DOI** | 10.15376/biores.11.4.Kaur |
 | **Eixo temático** | Preservação e Tratamento do Bambu |
 | **Código** | IFB-E1-05 |
 

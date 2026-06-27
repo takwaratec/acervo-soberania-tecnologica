@@ -14,6 +14,13 @@ Cada referência inserida neste repositório passa por um fluxo padronizado de 7
 
 - Obtenção do PDF completo
 - Extração do texto via PyMuPDF
+- **Extração OBRIGATÓRIA de metadados do PDF:**
+  - **Autor(es):** extrair nomes completos do PDF (primeira página, cabeçalho do artigo). NUNCA usar "Pesquisadores do...", "Autores diversos" ou "Não identificado" como substituto — se o PDF estiver acessível, os autores estão lá.
+  - **DOI:** verificar na primeira página do artigo. Se o periódico tiver DOI, ele DEVE ser capturado.
+  - **Título:** usar o título completo do PDF, não versão truncada.
+  - **Ano:** verificar na página de publicação.
+  - **Páginas:** contar ou extrair do documento. NUNCA usar "Documento original digital".
+- **OCR:** quando o PDF for escaneado (imagem), aplicar Tesseract 5 (por+eng) para extrair o texto antes de criar a ficha.
 - Leitura da estrutura: título, autor, instituição, ano, orientador, resumo, palavras-chave
 - Identificação do sumário e seções principais
 
