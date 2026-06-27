@@ -3908,6 +3908,13 @@
 <ul>
 <li>Obtenção do PDF completo</li>
 <li>Extração do texto via PyMuPDF</li>
+<li><strong>Extração OBRIGATÓRIA de metadados do PDF:</strong></li>
+<li><strong>Autor(es):</strong> extrair nomes completos do PDF (primeira página, cabeçalho do artigo). NUNCA usar "Pesquisadores do...", "Autores diversos" ou "Não identificado" como substituto — se o PDF estiver acessível, os autores estão lá.</li>
+<li><strong>DOI:</strong> verificar na primeira página do artigo. Se o periódico tiver DOI, ele DEVE ser capturado.</li>
+<li><strong>Título:</strong> usar o título completo do PDF, não versão truncada.</li>
+<li><strong>Ano:</strong> verificar na página de publicação.</li>
+<li><strong>Páginas:</strong> contar ou extrair do documento. NUNCA usar "Documento original digital".</li>
+<li><strong>OCR:</strong> quando o PDF for escaneado (imagem), aplicar Tesseract 5 (por+eng) para extrair o texto antes de criar a ficha.</li>
 <li>Leitura da estrutura: título, autor, instituição, ano, orientador, resumo, palavras-chave</li>
 <li>Identificação do sumário e seções principais</li>
 </ul>
