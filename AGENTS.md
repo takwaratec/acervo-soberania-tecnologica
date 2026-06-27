@@ -77,6 +77,12 @@ Ao ser acionado neste repositório, seu papel é:
 - Formato: tabela de dados → análise → referências ABNT
 - Incluir data de elaboração e fonte
 
+### ❌ Regras para fichas científicas
+- **NUNCA** criar fichas de artigos/teses/PDFs sem autor, DOI/ISBN/ISSN identificados
+- **NUNCA** publicar documentos incompletos — se faltam dados essenciais, alertar o usuário
+- **Sempre** extrair conteúdo do PDF original antes de criar qualquer ficha
+- **Toda ficha** deve seguir o método Cavichioli (2025): 8 seções obrigatórias (Dados Gerais, Estrutura, Problema, Referencial Teórico, Metodologia, Achados, Avaliação Crítica, Inserção no Estado da Arte)
+
 ### Fluxo de trabalho
 1. `git pull` — sincronizar
 2. Fazer alterações
