@@ -33,10 +33,12 @@ Análise da situação atual e perspectivas da ecoindústria no Brasil, abordand
 O referencial teórico aborda conceitos e fundamentos relacionados a tema abordado.
 
 ## 5. Metodologia
-Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
+
+cação das melhores equações de biomassa e os teores médios ponderados de carbono pelos compartimentos, a estocagem de carbono por hectare aos cinco anos de idade variou de 4,5 a 76,3 Mg.ha-1, sendo a mais baixa registrada para a espécie nativa M. skvortzovii e a maior para a espécie exótica e cultiva- da B. oldhamii. As espécies B. vulgaris, G. chacoensis e D. asper estocaram 34,9; 12,6 e 8,8 Mg.ha-1, respectivamente. 239 Conclusões 1. Os dados apontam que a maior estocagem de biomassa nas espéc
 
 ## 6. Principais Achados
-Análise da situação atual e perspectivas da ecoindústria no Brasil, abordando políticas, tecnologias e oportunidades para o setor.
+
+Os resultados foram divididos nas seguintes categorias, discutidas separada- mente: Morfologia, Floração e Biodiversidade, taxonomia e conservação. Em seguida, são apresentados dados sobre gêneros e espécies das tribos Olyreae e Bambuseae. Por fim, a ocorrência das sinúsias é abordada, seguida de suges- tões de temas que requerem investigação mais profunda. 1 Para autoria de informações específicas sobre gêneros, ver LEFB, 2015. 13 Morfologia - A riqueza e a diversidade morfológica dos bambus sã
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a tema abordado.

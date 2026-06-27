@@ -36,7 +36,8 @@ O referencial teórico aborda conceitos e fundamentos relacionados a bambu, pres
 Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-Nível 2 de detalhamento sobre o boro, abordando suas propriedades, usos, efeitos na saúde e meio ambiente. Relevante para preservação de bambu com compostos boratos.
+
+This Digest is a faithful summary of the leading scientific consensus report produced in 1998 by the International Programme on Chemical Safety (IPCS): "Executive Summary of the Environmental Health Criteria for Boron (EHC 204)" The full Digest is available at: https://www.greenfacts.org/en/boron/ This PDF Document is the Level 2 of a GreenFacts Digest. GreenFacts Digests are published in several languages as questions and answers, in a copyrighted user-friendly Three-Level Structure of increasi
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu, preservação/tratamento. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.

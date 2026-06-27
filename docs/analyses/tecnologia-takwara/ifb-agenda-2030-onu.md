@@ -33,7 +33,8 @@ A Agenda 2030 da ONU estabelece 17 Objetivos de Desenvolvimento Sustentável (OD
 O referencial teórico aborda conceitos e fundamentos relacionados a tema abordado.
 
 ## 5. Metodologia
-Procedimentos metodológicos descritos no documento original.
+
+g. Eles  serão rigorosos e baseados em evidências, informados por meio de avaliações e dados liderados pelo país, de alta qualidade, acessíveis, oportunos, confiáveis e desagregados por renda, sexo, idade, raça, etnia, status migratório, deficiência e localização geográfica, e outras características relevantes em contextos nacionais. h. Eles  exigirão um maior apoio no desenvolvimento de capacidades  dos países em desenvolvimento, incluindo o reforço dos sistemas de dados e programas de avaliaçã
 
 ## 6. Principais Achados
 A Agenda 2030 da ONU estabelece 17 Objetivos de Desenvolvimento Sustentável (ODS) e 169 metas para erradicar a pobreza, proteger o planeta e garantir prosperidade para todos até 2030.

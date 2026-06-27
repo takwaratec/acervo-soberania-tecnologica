@@ -33,7 +33,8 @@ Notas de aula/disciplina sobre resistência mecânica dos bambus, abordando prop
 O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
 
 ## 5. Metodologia
-Procedimentos metodológicos descritos no documento original.
+
+cação das melhores equações de biomassa e os teores médios ponderados de carbono pelos compartimentos, a estocagem de carbono por hectare aos cinco anos de idade variou de 4,5 a 76,3 Mg.ha-1, sendo a mais baixa registrada para a espécie nativa M. skvortzovii e a maior para a espécie exótica e cultiva- da B. oldhamii. As espécies B. vulgaris, G. chacoensis e D. asper estocaram 34,9; 12,6 e 8,8 Mg.ha-1, respectivamente. 239 Conclusões 1. Os dados apontam que a maior estocagem de biomassa nas espéc
 
 ## 6. Principais Achados
 Notas de aula/disciplina sobre resistência mecânica dos bambus, abordando propriedades estruturais, normas técnicas (ABNT, ISO) e aplicações do bambu na construção civil. Inclui referências a normas colombianas e peruanas para uso do bambu em edificações.

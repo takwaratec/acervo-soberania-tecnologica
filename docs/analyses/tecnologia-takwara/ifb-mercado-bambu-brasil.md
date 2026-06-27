@@ -36,7 +36,8 @@ O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
 Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-Este documento analisa a economia do bambu no Brasil, incluindo tecnologias de processamento, cadeia produtiva e oportunidades de mercado para produtos de bambu no país.
+
+como o Beraldo acredita, ver o bambu por toda parte e com um potencial muito grande no uso alimentar e produtos para ajudar no controle da obesidade e no controle de pacientes diabéticos que são os que mais necessitam fazer a digestão lenta do carboidrato. Carlos Ciprandi na sua palestra sobre “Indústria do Broto de Bambu Carlos Ciprandi, iniciando o relato da sua experiência no município de Planalto/RS sobre a “Indústria do Broto de Bambu”, disse que após inúmeros fracassos finalmente começou a
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.

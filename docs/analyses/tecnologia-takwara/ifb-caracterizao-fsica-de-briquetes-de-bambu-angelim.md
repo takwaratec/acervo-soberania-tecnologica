@@ -33,7 +33,8 @@ Este trabalho realizou a caracterização física de briquetes produzidos da mis
 O referencial teórico aborda conceitos e fundamentos relacionados a bambu, briquetes/pellets.
 
 ## 5. Metodologia
-Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
+
+Os resíduos de bambu foram coletados na empresa Espetinhos Dona Maria Ltda, localizada em Nazaré da Mata – PE, que utiliza varas de bambu colhidas em plantios de Bambusa vulgaris Schard, para produção de espetinhos para uso doméstico e comercial. A serragem de Angelim vermelho (Dinizia excelsa Ducke) foi coletada em uma marcenaria localizada no município de Macaíba - RN. Para produção dos briquetes foi utilizada uma briquetadeira hidráulica, marca LIPPEL, modelo LB-32, com matriz cilíndrica com 
 
 ## 6. Principais Achados
 Este trabalho realizou a caracterização física de briquetes produzidos da mistura de resíduos de bambu e serragem de angelim vermelho, classificando fisicamente estes briquetes e avaliando sua viabilidade técnica. Foram testadas três temperaturas (120°C, 130°C e 140°C) e cinco proporções de resíduos, totalizando 150 briquetes. Concluiu-se que o uso de misturas foi tecnicamente viável.

@@ -36,7 +36,8 @@ O referencial teórico aborda conceitos e fundamentos relacionados a polímeros 
 Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-Desenvolvimento de painéis OSB (Oriented Strand Board) utilizando poliuretano vegetal à base de óleo de mamona como adesivo, avaliando propriedades físicas e mecânicas.
+
+Apesar da crescente busca por inovação na construção civil, como a adoção da plataforma BIM e de soluções construtivas consideradas inovadoras, o cenário pouco mudou no segmento habitacional do Programa Minha Casa, Minha Vida. No período de 2009 a 2018, o atendimento às famílias de até 3 salários mínimos, e que necessita maior subsídio do governo para aquisição da casa própria, foi aproximadamente 34%. O maior volume de investimentos no programa aconteceu paras as faixas 1,5 e 2 que, de acordo c
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a polímeros vegetais.

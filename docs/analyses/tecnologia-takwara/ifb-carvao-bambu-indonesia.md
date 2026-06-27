@@ -30,10 +30,12 @@ O documento apresenta-se como artigo científico. artigo científico. This study
 This study investigated the fuel properties of six bamboo species grown in Indonesia, carbonized at different temperatures. Proximate and ultimate analyses were carried out. The results showed that ash and fixed carbon contents increased with increasing carbonization temperature while volatile matte
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu, pirólise/carbonização, potencial energético.
+
+Human-mediated dissemination of species has intensi- ﬁed over the past three centuries with the increase of global trafﬁc (Meyerson and Mooney 2007; Ricciardi 2007). Some introduced species naturalize (reproduce consistently) in their new ranges and some naturalized species invade (spread from sites of introduction). This has created a global-scale natural experiment in bioge- ography (Bardsley and Edward-Jones 2006; Richardson 2006; Richardson et al. 2011a; Richardson et al. 2011c; Yoshida et a
 
 ## 5. Metodologia
-Procedimentos metodológicos descritos no documento original.
+
+Inventory of species and distribution Establishing inventories of taxa, their distribution and cases of invasions are fundamentally important in the ﬁeld of invasion science and the lack of such information can hinder management efforts (McGeoch et al. 2012). To document the dissemination of bamboos, we required up-to-date taxonomic lists and distribution data. The identiﬁcation of bamboos is notoriously problem- atic (reviewed by Kellogg 2015). Due to the rarity of ﬂowering cycles (7 to more th
 
 ## 6. Principais Achados
 This study investigated the fuel properties of six bamboo species grown in Indonesia, carbonized at different temperatures. Proximate and ultimate analyses were carried out. The results showed that ash and fixed carbon contents increased with increasing carbonization temperature while volatile matter decreased.

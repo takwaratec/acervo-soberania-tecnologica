@@ -30,13 +30,15 @@ O documento apresenta-se como artigo científico. artigo científico. Publicaç�
 Publicação da INBAR sobre a relação entre bambu, populações e meio ambiente, abordando aspectos socioeconômicos, ecológicos e de desenvolvimento sustentável.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
+
+The batnboos are an incredibly versatile and useful group of plants. Bamboos have been used by people in imaginative and widely varied ways wherever they are found. They have long histories of use and play impor- tant roles in the daily lives of millions of people. Furthermore, and especially important in these days of rapid environmental degradation, they are highly renewable resources. The International Network for Bamboo and Rattan (INBAR) is found- ed on the premise that bamboo, and rattan a
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-Publicação da INBAR sobre a relação entre bambu, populações e meio ambiente, abordando aspectos socioeconômicos, ecológicos e de desenvolvimento sustentável.
+
+Bamboo has an important role to play in development. It is a natural vehicle with which to encourage sustainable, integrated farming systems. It is an excellent resource on which to build a variety of income and em- ployment-generating opportunities. With its multiple uses, and high value in a range of products aimed at national and international markets, bam- boo shows a great potential forvalue-adding operations, and many different entry points for development interventions. Bamboo is not just
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.

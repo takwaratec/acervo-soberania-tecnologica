@@ -33,10 +33,12 @@ Edital de abertura do processo seletivo para ingresso de empresas na Multincubad
 O referencial teórico aborda conceitos e fundamentos relacionados a empreendedorismo/inovação.
 
 ## 5. Metodologia
-Procedimentos metodológicos descritos no documento original.
+
+g) Incentivo para participação do empreendimento em ações de internacionalização. h) Permissão para o uso da marca UnB na condição de instituição parceira, a partir das orientações do programa. 5. DOS TIPOS DE
 
 ## 6. Principais Achados
-Edital de abertura do processo seletivo para ingresso de empresas na Multincubadora de Empresas do CDT/UnB, fluxo contínuo 2022.
+
+LOCAL De 08/07 de 2022 até 20/05 de 2024 Período de inscrições Endereço eletrônico www.cdt.unb.br De 08/07 de 2022 até 20/05 de 2024 Entrega de documentação Correio eletrônico multincubadora@unb.br Até 5 dias úteis após a entrega da proposta Homologação de Inscrições Endereço eletrônico www.cdt.unb.br Até 5 dias úteis após a divulgação da não homologação Submissão de recurso das propostas não homologadas Correio eletrônico multincubadora@unb.br Até 5 dias úteis após a submissão do recurso
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a empreendedorismo/inovação.

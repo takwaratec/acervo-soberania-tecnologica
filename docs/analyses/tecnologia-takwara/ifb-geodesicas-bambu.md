@@ -33,7 +33,8 @@ O trabalho mostra o procedimento para construção de um domo geodésico de 4m d
 O referencial teórico aborda conceitos e fundamentos relacionados a bambu, geodésicas.
 
 ## 5. Metodologia
-Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
+
+A pesquisa foi desenvolvida no Laboratório de Estruturas e Materiais (LEM) do Depar- tamento de Engenharia Civil da PUC-RJ. Foram utilizados bambus da espécie Dendrocalamus giganteus provenientes de um bambuzal localizado às margens do rio Rainha, que atravessa o terreno da PUC-RJ. Os colmos de bambu foram cortados em tiras por meio de uma estrela de metal, como mostrada na figura 2. Departamento de Engenharia Civil
 
 ## 6. Principais Achados
 O trabalho mostra o procedimento para construção de um domo geodésico de 4m de diâmetro usando segmentos de bambu tuldóides com técnica de amarração. Ensaios de carregamento em maquetes demonstraram comportamento mecânico superior da estrutura de bambu em relação ao aço: o domo de bambu resistiu a 38 vezes seu peso próprio.

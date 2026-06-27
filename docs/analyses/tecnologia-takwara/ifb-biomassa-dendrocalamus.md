@@ -36,7 +36,8 @@ O referencial teórico aborda conceitos e fundamentos relacionados a biomassa, p
 Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-Avaliação da biomassa de Dendrocalamus asper para produção de energia, analisando propriedades físico-químicas e poder calorífico.
+
+Essa mudança na densidade do bambu pode ser decorrente de vários fatores como a 22 idade do colmo, espécie, teor de umidade e posição de amostragem ao longo da altura do colmo. 5.2. Perda de Massa Foi observado através do teste de Tukey a 5% de significância que houve perda de massa significativa entre os tratamentos, como se observa na Tabela 2. Tabela 2: Valores médios de perda de massa das taliscas após os tratamentos térmicos . Tratamentos Térmicos Massa antes do tratamento (g) Massa após o 
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a biomassa, potencial energético.

@@ -33,7 +33,8 @@ Bamboo is a rapidly renewable natural resource that has been used as a construct
 O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
 
 ## 5. Metodologia
-Procedimentos metodológicos descritos no documento original.
+
+Environmental Research and Public Health 2019; 16(17):31-65. DOI: 10.3390/ijerph16173165 [8] Knudsen J, Seidlein L V. Healthy homes in tropical zones: improving rural housing in Asia and Africa. Edition Axel Menges 2014. [9] http://ingvartsen.dk/the-magoda-project/v4s6fy1gi567yuliyv009q3bs439w4 Last accessed on 15 Feb, 2022. [10] Liu K W, Xu Q F, Wang G, Chen F M, Leng Y B, Yang J, Harries K A. Contemporary bamboo architecture in China. Tsinghua University Press & Springer 2022. DOI: https://doi
 
 ## 6. Principais Achados
 Bamboo is a rapidly renewable natural resource that has been used as a construction material for millennia. This paper provides a comprehensive overview of bamboo as a sustainable construction material.

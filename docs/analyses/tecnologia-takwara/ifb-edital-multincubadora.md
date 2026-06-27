@@ -33,7 +33,8 @@ Edital de seleção para ingresso de empresas na Incubadora Multincubadora de Em
 O referencial teórico aborda conceitos e fundamentos relacionados a empreendedorismo/inovação.
 
 ## 5. Metodologia
-Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
+
+g) Incentivo para participação do empreendimento em ações de internacionalização. h) Permissão para o uso da marca UnB na condição de instituição parceira, a partir das orientações do programa. 5. DOS TIPOS DE
 
 ## 6. Principais Achados
 Edital de seleção para ingresso de empresas na Incubadora Multincubadora de Empresas do CDT/UnB, estabelecendo critérios e procedimentos para pré-incubação e incubação de empreendimentos inovadores.

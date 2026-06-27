@@ -30,7 +30,8 @@ O documento apresenta-se como documento normativo. documento normativo. Revisão
 Revisão das normas e padrões para produção de biomassa compactada (pellets e briquetes) em diferentes países, analisando requisitos técnicos e de qualidade.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a biomassa, briquetes/pellets.
+
+O uso em larga escala de combustíveis fósseis tem causado grande preocupação à comunidade científica, em primeiro lugar por não serem renováveis e depois devido ao seu potencial poluidor que promove o aumento da concentração de gases de efeito estufa na atmosfera, além de, em alguns casos, terem maior custo de produção de energia renovável (GOLDEMBERG, 2009).
 
 ## 5. Metodologia
 Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.

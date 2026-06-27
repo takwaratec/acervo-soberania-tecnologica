@@ -33,7 +33,8 @@ Tese de doutorado que determina o potencial de sequestro de carbono na recupera�
 O referencial teórico aborda conceitos e fundamentos relacionados a carbono/clima.
 
 ## 5. Metodologia
-A metodologia é descrita detalhadamente no documento original, incluindo área de estudo, procedimentos de coleta e análise de dados.
+
+carbono contido nas raízes. Determinação do potencial de ﬁxação de carbono 61 A distribuição do carbono armazenado em uma árvore de ﬂoresta típica é, aproximadamente, a seguinte: 51% no tronco, 30% nos galhos e nos talos e 3% na folhagem (B, 1992). Ao redor de 18-24% do carbono total armazenado em uma árvore de ﬂoresta madura está nas raízes. Raízes grossas (>2mm de diâ- metro) armazenam cerca de 15-20% do carbono total, enquanto que a quantidade armazenada em raízes ﬁnas é aproximadamente
 
 ## 6. Principais Achados
 Tese de doutorado que determina o potencial de sequestro de carbono na recuperação de matas ciliares na região de São Carlos - SP, analisando o papel da vegetação ripária na mitigação das mudanças climáticas.

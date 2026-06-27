@@ -33,7 +33,8 @@ Estudo das propriedades físicas e mecânicas de corpos de prova de bambu da esp
 O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
 
 ## 5. Metodologia
-Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
+
+Foram feitas medidas de algumas características físicas, como tamanho do internó, espessura da parede e diâmetro interno, e como essas propriedades variam ao longo do colmo do bambu. Para a análise foram medidos 3 partes da base (B1, B2 e B3), duas do meio (M1 e M2) e uma do topo (T) do colmo de um bambu da espécie Dendrocalamus Giganteus. A figura 1 mostra os resultados obtidos. Espessura e Diâmetro Interno 0 20 40 60 80 100 120 B1 B2 B3 M1 M2 T Amostra - Base, Meio e Topo Valor (mm) Espessura 
 
 ## 6. Principais Achados
 Estudo das propriedades físicas e mecânicas de corpos de prova de bambu da espécie Dendrocalamus Giganteus através de ensaios normatizados e experimentais. Foram medidas características físicas como tamanho do internó, espessura da parede e diâmetro interno ao longo do colmo, e realizados ensaios de flexão e torção.

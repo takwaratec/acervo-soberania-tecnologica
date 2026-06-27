@@ -33,7 +33,8 @@ O extrato pirolenhoso (EP) é um líquido obtido durante a produção de carvão
 O referencial teórico aborda conceitos e fundamentos relacionados a madeira.
 
 ## 5. Metodologia
-Procedimentos metodológicos descritos no documento original.
+
+para a obtenção de um produto de boa qualidade; ao Dr. Kunio Nagai pela orientação e o  fornecimento de resultados de pesquisa já obtidos no Japão. Referências Referências Referências Referências Referências
 
 ## 6. Principais Achados
 O extrato pirolenhoso (EP) é um líquido obtido durante a produção de carvão vegetal, através da queima da madeira. Este documento descreve técnicas para sua produção e uso agrícola.

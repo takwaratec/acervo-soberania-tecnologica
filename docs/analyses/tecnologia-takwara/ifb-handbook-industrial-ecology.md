@@ -30,13 +30,16 @@ O documento apresenta-se como livro técnico-científico. livro técnico-cientí
 Handbook abrangente sobre ecologia industrial, cobrindo conceitos, métodos e aplicações da análise de fluxo de materiais, metabolismo industrial e economia circular.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a ecologia industrial.
+
+are likely to arise and be resolved. In many ﬁelds, a discussion of law and regulation is straightforward, if detailed. Industrial ecology, however, oﬀers a more daunting analytical challenge, for two princi- pal reasons. First, it represents the evolution of environmental policy from overhead to strategic for both society and ﬁrms. As overhead, environment was essentially an after- thought, to be taken care of once the core activity, whether it was producing widgets in the ﬁrm, or carrying out 
 
 ## 5. Metodologia
-Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
+
+8 Material ﬂow analysis 79 Stefan Bringezu and Yuichi Moriguchi 9 Substance ﬂow analysis methodology 91 Ester van der Voet 10 Physical input–output accounting 102 Gunter Strassert 11 Process analysis approach to industrial ecology 114 Urmila Diwekar and Mitchell J. Small 12 Industrial ecology and life cycle assessment 138 Helias A. Udo de Haes 13 Impact evaluation in industrial ecology 149 Bengt Steen
 
 ## 6. Principais Achados
-Handbook abrangente sobre ecologia industrial, cobrindo conceitos, métodos e aplicações da análise de fluxo de materiais, metabolismo industrial e economia circular.
+
+As a rough generalization, one end of each mass ﬂow is calculated or estimated based on some model, whether explicit or implicit. If the inputs to an industrial process are well known from measurements, the outputs (especially emissions) are generally estimated by means of some combination of mass balance and process analysis. If the outputs of a process are counted (or surveyed) accurately – for instance, food consumption – it is still very uncertain how the outputs are derived from raw materia
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a ecologia industrial.

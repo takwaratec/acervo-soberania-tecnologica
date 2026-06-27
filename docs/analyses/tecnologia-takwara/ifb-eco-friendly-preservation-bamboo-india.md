@@ -30,13 +30,14 @@ O documento apresenta-se como artigo científico. artigo científico. This paper
 This paper reviews traditional to modern eco-friendly preservation techniques for bamboo species in India, addressing the environmental concerns of conventional preservatives.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu, preservação/tratamento.
 
-## 5. Metodologia
-Procedimentos metodológicos descritos no documento original.
+The experience of modern development, especially related to the deteriorating status of the environment and human health, is now sufficiently indicative of its inherent non-sustainability. The continuous increase in the human population, coupled with the modern lifestyle, has generated a huge demand for wood and wood-based products in the service sector, causing severe deforestation. Hence, to achieve sustainable development, environmental issues (i.e., issues concerning the relationship between## 5. Metodologia
+
+includes air-seasoning with diffusible borates, diffusion storage, air-seasoning, and finally treatment with creosote. A composition of three chemicals (copper sulphate, zinc chloride, and sodium borate) has been used to develop an environment friendly preservative (Tripathi et al. 2005). The formulation was found to be amorphous, water insoluble, and soluble with the help of co-solvents. A fixation study of ZiBOC in Chir and Poplar found aqueous leachabilities of only 23.6, 13.1, and 12.1% for 
 
 ## 6. Principais Achados
-This paper reviews traditional to modern eco-friendly preservation techniques for bamboo species in India, addressing the environmental concerns of conventional preservatives.
+
+1. The preservation and treatment of both bamboo and wood species is essential. A key focus is required to develop good weathering properties and environmentally benign, economical, and effective preservatives that give reliable performance and ensure that the treated product can be easily and safely disposed of at the end of its service life. 2. Traditional bamboo preservation methods such as water leaching and smoke treatment are absolutely safe, economical, and environmentally friendly. Howev
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu, preservação/tratamento. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.

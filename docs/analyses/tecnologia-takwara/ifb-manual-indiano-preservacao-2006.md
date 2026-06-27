@@ -33,10 +33,12 @@ Manual técnico sobre métodos de preservação de bambu conforme normas indiana
 O referencial teórico aborda conceitos e fundamentos relacionados a bambu, preservação/tratamento.
 
 ## 5. Metodologia
-Procedimentos metodológicos descritos no documento original.
+
+massa seca (ms) do corpo de prova; então, com o corpo de prova saturado, foi determinado o volume saturado (por meio das medidas da seção transversal e do comprimento). E, na determinação da densidade aparente, a massa e o volume foram determinados em corpos de prova com Ueq aproximada de 13%. Conhecidos os valores, foram aplicados nas Equações 2 e 3, para a determinação da densidade básica e densidade aparente, respectivamente. 𝜌௕௔௦= 𝑚௦ 𝑉௦௔௧ (2) Sendo: ρbas: densidade básica (g/cm³); ms: massa 
 
 ## 6. Principais Achados
-Manual técnico sobre métodos de preservação de bambu conforme normas indianas, abordando técnicas de tratamento com preservativos químicos e métodos naturais.
+
+6 CONCLUSÃO ................................................................................................................. 91 REFERÊNCIAS ..................................................................................................................... 93 APÊNDICE A ....................................................................................................................... 104 ANEXO A ...............................................................................................
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu, preservação/tratamento. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.

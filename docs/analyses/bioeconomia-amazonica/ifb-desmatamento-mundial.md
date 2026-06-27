@@ -33,7 +33,8 @@ Análise do desmatamento em escala global, abordando causas (agropecuária, expl
 O referencial teórico aborda conceitos e fundamentos relacionados a carbono/clima, desmatamento, floresta.
 
 ## 5. Metodologia
-Procedimentos metodológicos descritos no documento original.
+
+We run simulations of Eqs. (1), (2) and (5) simultaneously for different values of of parameters a0 and α depend- ing on β as explained in Methods and Results to generate Figs. 5, 6 and 7. Equations (1), (2) are integrated via standard Euler method. Eq. (5) is integrated as well via standard Euler method between the random changes of the variable ξ. The stochastic dichotomous process ξ is generated numerically in the following way: using the ran- dom number generator from gsl library we generate
 
 ## 6. Principais Achados
 Análise do desmatamento em escala global, abordando causas (agropecuária, exploração madeireira, expansão urbana), consequências (mudanças climáticas, perda de biodiversidade, degradação do solo) e perspectivas para conservação florestal.

@@ -30,7 +30,8 @@ O documento apresenta-se como documento normativo. documento normativo. A biomas
 A biomassa compactada (pellets e briquetes) tem se destacado como fonte de energia renovável. Este artigo revisa as normas e padrões para produção de biomassa compactada em diferentes países.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a biomassa, potencial energético, briquetes/pellets.
+
+O uso em larga escala de combustíveis fósseis tem causado grande preocupação à comunidade científica, em primeiro lugar por não serem renováveis e depois devido ao seu potencial poluidor que promove o aumento da concentração de gases de efeito estufa na atmosfera, além de, em alguns casos, terem maior custo de produção de energia renovável (GOLDEMBERG, 2009).
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

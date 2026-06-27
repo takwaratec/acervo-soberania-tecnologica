@@ -33,10 +33,12 @@ Plano de gestão de logística sustentável da CONAB em Minas Gerais, abrangendo
 O referencial teórico aborda conceitos e fundamentos relacionados a potencial energético, logística sustentável.
 
 ## 5. Metodologia
-Procedimentos metodológicos descritos no documento original.
+
+envolveu o levantamento das principais ações e práticas alinhadas ao conceito de sustentabilidades já adotadas pela Companhia, bem como, de um levantamento dos dados sobre os gastos e consumo de água, energia elétrica, telefonia, material de consumo e transmissão de dados, dentre outros. Na mesma direção foi elaborado um inventário de bens e materiais utilizados pela SUREG para identificação de similares de menor impacto ambiental para substituição.  Posteriormente são apresentados os planos de 
 
 ## 6. Principais Achados
-Plano de gestão de logística sustentável da CONAB em Minas Gerais, abrangendo práticas de sustentabilidade, gestão de resíduos, eficiência energética e compras sustentáveis.
+
+o ano subsequente. Da mesma forma, este relatório será publicado no sítio eletrônico da Conab e remetido à Secretaria-Executiva da Cisap.
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a potencial energético, logística sustentável.
