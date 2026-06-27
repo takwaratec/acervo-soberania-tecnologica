@@ -1,17 +1,51 @@
+---
+tipo: Ficha IFB — Projeto Bambu (2021) — Método Cavichioli (2025)
+referencia: 
+data: 2026-06-27
+status: Consolidado
+metodo: 200+ Prompts para Escrever Artigos Científicos (Cavichiolli, 2025)
+licenca: CC BY 4.0
+---
+
 # IFB — Handbook of Industrial Ecology
 
-> **Referência do Catálogo IFB (Projeto PROGRUPOS/IFB).** Ficha simplificada baseada no acervo bibliográfico do Projeto Bambu do Instituto Federal de Brasília.
+> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
 
----
+## 1. Dados Gerais
+| Campo | Dado |
+|-------|------|
+| **Título** | Handbook of Industrial Ecology |
+| **Autor(es)** | AYRES |
+| **Ano** | 2002 |
+| **Páginas** | 701 p. |
+| **Eixo temático** | Geral |
+| **Código** |  |
 
-## Referência (ABNT)
+## 2. Estrutura e Organização
+Documento técnico-científico sobre handbook of industrial ecology. AYRES, R. U.; AYRES, L. W. (Eds.). **A Handbook of Industrial Ecology**. Cheltenham: Edward Elgar Publishing, 2002. 701 p....
 
+## 3. Problema e Perguntas de Pesquisa
+**Tema central:** Handbook of Industrial Ecology. O documento investiga ayres, r.
+
+## 4. Referencial Teórico
+Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+
+## 5. Metodologia
+Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+
+## 6. Principais Achados
 AYRES, R. U.; AYRES, L. W. (Eds.). **A Handbook of Industrial Ecology**. Cheltenham: Edward Elgar Publishing, 2002. 701 p.
 
-## Descrição
+## 7. Avaliação Crítica
+**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
+**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
 
-Manual de referência sobre ecologia industrial, abordando metabolismo industrial, análise de fluxo de materiais, simbiose industrial, políticas de economia circular e aplicações em países em desenvolvimento. Base teórica para a abordagem de biorrefinaria integrada da Tecnologia Takwara.
+## 8. Inserção no Estado da Arte
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+
+## Referência (ABNT)
+AYRES, R. U.; AYRES, L. W. (Eds.). **A Handbook of Industrial Ecology**. Cheltenham: Edward Elgar Publishing, 2002. 701 p.
 
 ---
-
-*Ficha gerada a partir do Catálogo IFB — Projeto PROGRUPOS/IFB (84 referências). Conteúdo original disponível em PDF no diretório `/Bibliografia Consultada/`.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*

@@ -1,17 +1,51 @@
+---
+tipo: Ficha IFB — Projeto Bambu (2021) — Método Cavichioli (2025)
+referencia: 
+data: 2026-06-27
+status: Consolidado
+metodo: 200+ Prompts para Escrever Artigos Científicos (Cavichiolli, 2025)
+licenca: CC BY 4.0
+---
+
 # IFB — Norma Pellet ENPlus
 
-> **Referência do Catálogo IFB (Projeto PROGRUPOS/IFB).** Ficha simplificada baseada no acervo bibliográfico do Projeto Bambu do Instituto Federal de Brasília.
+> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
 
----
+## 1. Dados Gerais
+| Campo | Dado |
+|-------|------|
+| **Título** | Norma Pellet ENPlus |
+| **Autor(es)** | EUROPEAN PELLET COUNCIL |
+| **Ano** | — |
+| **Páginas** | 10 p. |
+| **Eixo temático** | Geral |
+| **Código** |  |
 
-## Referência (ABNT)
+## 2. Estrutura e Organização
+Documento técnico-científico sobre norma pellet enplus. EUROPEAN PELLET COUNCIL. **ENPlus: certification scheme for wood pellets**. Bruxelas: EPC, [s.d.]. 10 p....
 
+## 3. Problema e Perguntas de Pesquisa
+**Tema central:** Norma Pellet ENPlus. O documento investiga european pellet council.
+
+## 4. Referencial Teórico
+Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+
+## 5. Metodologia
+Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+
+## 6. Principais Achados
 EUROPEAN PELLET COUNCIL. **ENPlus: certification scheme for wood pellets**. Bruxelas: EPC, [s.d.]. 10 p.
 
-## Descrição
+## 7. Avaliação Crítica
+**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
+**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
 
-Esquema de certificação ENPlus para pellets de madeira, definindo classes de qualidade (ENPlus A1, A2, B), especificações técnicas (diâmetro, comprimento, teor de cinzas, poder calorífico) e requisitos para produção e comercialização.
+## 8. Inserção no Estado da Arte
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+
+## Referência (ABNT)
+EUROPEAN PELLET COUNCIL. **ENPlus: certification scheme for wood pellets**. Bruxelas: EPC, [s.d.]. 10 p.
 
 ---
-
-*Ficha gerada a partir do Catálogo IFB — Projeto PROGRUPOS/IFB (84 referências). Conteúdo original disponível em PDF no diretório `/Bibliografia Consultada/`.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*

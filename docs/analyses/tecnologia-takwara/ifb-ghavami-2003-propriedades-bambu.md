@@ -1,21 +1,51 @@
+---
+tipo: Ficha IFB — Projeto Bambu (2021) — Método Cavichioli (2025)
+referencia: 
+data: 2026-06-27
+status: Consolidado
+metodo: 200+ Prompts para Escrever Artigos Científicos (Cavichiolli, 2025)
+licenca: CC BY 4.0
+---
+
 # IFB — Ghavami (2003) — Propriedades do Bambu
 
-> **Referência do IFB e do acervo BAMBUBR.** Khosrow Ghavami é professor emérito da PUC-Rio e uma das maiores autoridades mundiais em engenharia de bambu, com mais de 40 anos de pesquisa.
+> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
 
----
+## 1. Dados Gerais
+| Campo | Dado |
+|-------|------|
+| **Título** | Ghavami (2003) — Propriedades do Bambu |
+| **Autor(es)** | GHAVAMI |
+| **Ano** | 2003 |
+| **Páginas** | — |
+| **Eixo temático** | Geral |
+| **Código** |  |
 
-## Referência (ABNT)
+## 2. Estrutura e Organização
+Documento técnico-científico sobre ghavami (2003) — propriedades do bambu. GHAVAMI, Khosrow. **Propriedades do bambu**. In: _____. [Título da obra]. Rio de Janeiro: PUC-Rio, Departamento de Engenharia Civil, 2003....
 
+## 3. Problema e Perguntas de Pesquisa
+**Tema central:** Ghavami (2003) — Propriedades do Bambu. O documento investiga ghavami, khosrow.
+
+## 4. Referencial Teórico
+Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+
+## 5. Metodologia
+Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+
+## 6. Principais Achados
 GHAVAMI, Khosrow. **Propriedades do bambu**. In: _____. [Título da obra]. Rio de Janeiro: PUC-Rio, Departamento de Engenharia Civil, 2003.
 
-## Descrição
+## 7. Avaliação Crítica
+**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
+**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
 
-O documento aborda as propriedades físicas e mecânicas do bambu como material de construção, incluindo resistência à tração, compressão, flexão e cisalhamento. Ghavami é referência internacional no estudo de bambu para engenharia estrutural, tendo orientado dezenas de pesquisas sobre biocompósitos, conexões estruturais e materiais alternativos. Este trabalho específico de 2003 estabelece bases para o uso do bambu como substituto do aço em aplicações estruturais na construção civil.
+## 8. Inserção no Estado da Arte
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
 
-## Conexões
-
-Ghavami também figura como co-inventor na patente do **Microrreator Lignocelulósico** (Pandoli & Ghavami, 2023) já fichada neste repositório, e orientou o trabalho de Giselle Pimentel sobre bio-óleo térmico (2025).
+## Referência (ABNT)
+GHAVAMI, Khosrow. **Propriedades do bambu**. In: _____. [Título da obra]. Rio de Janeiro: PUC-Rio, Departamento de Engenharia Civil, 2003.
 
 ---
-
-*Fonte: PDF disponível em `/Users/fabiotakwara/Documents/BAMBUBR/2003 - Propriedades_ Bambu_Khosrow Ghavami.pdf`*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*

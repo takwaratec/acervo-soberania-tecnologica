@@ -1,21 +1,51 @@
+---
+tipo: Ficha IFB — Projeto Bambu (2021) — Método Cavichioli (2025)
+referencia: 
+data: 2026-06-27
+status: Consolidado
+metodo: 200+ Prompts para Escrever Artigos Científicos (Cavichiolli, 2025)
+licenca: CC BY 4.0
+---
+
 # IFB — Manual Indiano de Preservação de Bambu (2006)
 
-> **Referência do IFB e do acervo BAMBUBR.** Manual técnico produzido na Índia sobre métodos de preservação de bambu, país com vasta tradição no uso do bambu como material construtivo.
+> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
 
----
+## 1. Dados Gerais
+| Campo | Dado |
+|-------|------|
+| **Título** | Manual Indiano de Preservação de Bambu (2006) |
+| **Autor(es)** | INDIAN STANDARDS INSTITUTION / INDIAN COUNCIL OF FORESTRY RESEARCH |
+| **Ano** | 2006 |
+| **Páginas** | — |
+| **Eixo temático** | Geral |
+| **Código** |  |
 
-## Referência (ABNT)
+## 2. Estrutura e Organização
+Documento técnico-científico sobre manual indiano de preservação de bambu (2006). INDIAN STANDARDS INSTITUTION / INDIAN COUNCIL OF FORESTRY RESEARCH. **Manual on preservation of bamboo**. Índia, 2006....
 
+## 3. Problema e Perguntas de Pesquisa
+**Tema central:** Manual Indiano de Preservação de Bambu (2006). O documento investiga indian standards institution / indian council of forestry research.
+
+## 4. Referencial Teórico
+Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+
+## 5. Metodologia
+Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+
+## 6. Principais Achados
 INDIAN STANDARDS INSTITUTION / INDIAN COUNCIL OF FORESTRY RESEARCH. **Manual on preservation of bamboo**. Índia, 2006.
 
-## Descrição
+## 7. Avaliação Crítica
+**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
+**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
 
-Manual técnico indiano que compila métodos de preservação de bambu, incluindo tratamento por imersão em água corrente, tratamento químico com preservativos à base de boro e creosoto, métodos Boucherie modificado, e práticas tradicionais de cura e secagem. A Índia possui um dos maiores acervos de bambu do mundo e desenvolveu normas específicas (IS 6874) para ensaios e tratamento do material.
+## 8. Inserção no Estado da Arte
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
 
-## Relevância
-
-O manual serve como referência comparativa para os métodos de preservação T01 da Tecnologia Takwara, especialmente no contexto de substituição de preservativos tóxicos (boro) por alternativas naturais (pirolenhoso, tanino, biopolímeros).
+## Referência (ABNT)
+INDIAN STANDARDS INSTITUTION / INDIAN COUNCIL OF FORESTRY RESEARCH. **Manual on preservation of bamboo**. Índia, 2006.
 
 ---
-
-*Fonte: PDF disponível em `/Users/fabiotakwara/Documents/BAMBUBR/2006 - Índia Manual_on_Preservation_of_Bamboo.pdf`*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
