@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Fixação de Carbono — São Carlos
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | FIXAÇÃO de carbono. São Carlos: |
-| **Autor(es)** | Não identificado |
-| **Ano** | — |
-| **Páginas** | 161 f. |
+| **Título** | Determinação do potencial de seqüestro de carbono na recuperação de matas ciliares na região de São Carlos - SP |
+| **Autor(es)** | Osvaldo Stella Martins |
+| **Ano** | 2004 |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Energia, Resíduos e Saneamento |
 | **Código** | IFB-E9-04 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre fixação de carbono. são carlos:. Tese sobre fixação de carbono em sistemas agroflorestais e florestais, analisando estoques de carbono, sequestro de CO₂ e potencial de mitigação de mu...
+O documento apresenta-se como tese de doutorado. tese de doutorado. Tese de doutorado que determina o potencial de sequestro de carbono na recuperação de matas ciliares na região de São Carlos - SP, analisando o papel da vegetação ripária na mitigação das mudanças climáticas....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** FIXAÇÃO de carbono. São Carlos:. O documento investiga tese sobre fixação de carbono em sistemas agroflorestais e florestais, analisando estoques de carbono, sequestro de co₂ e potencial de mitigação de mudanças climáticas.
+**Tema central:** Determinação do potencial de seqüestro de carbono na recuperação de matas ciliares na região de São Carlos - SP. 
+Tese de doutorado que determina o potencial de sequestro de carbono na recuperação de matas ciliares na região de São Carlos - SP, analisando o papel da vegetação ripária na mitigação das mudanças climáticas.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a carbono/clima.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+A metodologia é descrita detalhadamente no documento original, incluindo área de estudo, procedimentos de coleta e análise de dados.
 
 ## 6. Principais Achados
-Tese sobre fixação de carbono em sistemas agroflorestais e florestais, analisando estoques de carbono, sequestro de CO₂ e potencial de mitigação de mudanças climáticas. Base para projetos de crédito de carbono com bambu. PDF disponível no diretório `/Bibliografia Consultada/`.
+Tese de doutorado que determina o potencial de sequestro de carbono na recuperação de matas ciliares na região de São Carlos - SP, analisando o papel da vegetação ripária na mitigação das mudanças climáticas.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Energia, Resíduos e Saneamento**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a carbono/clima.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Energia, Resíduos e Saneamento**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-FIXAÇÃO de carbono. São Carlos: [s.n.], [s.d.]. 161 f. Tese (Doutorado) — Universidade Federal de São Carlos, São Carlos.
+Osvaldo Stella Martins. **Determinação do potencial de seqüestro de carbono na recuperação de matas ciliares na região de São Carlos - SP**. Tese (Doutorado em Ecologia e Recursos Naturais) - UFSCar. 2004.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

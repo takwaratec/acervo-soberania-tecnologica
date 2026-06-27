@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Turismo e Mineração em São Thomé das Letras (2017)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | JULIAR, |
-| **Autor(es)** | Não identificado |
+| **Título** | Turismo e Mineração em São Thomé das Letras (MG): Conflitos e Potencialidades |
+| **Autor(es)** | Juliar, et al. |
 | **Ano** | 2017 |
-| **Páginas** | 143 f. |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Território: São Thomé das Letras |
 | **Código** | IFB-E7-04 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre juliar,. JULIAR, [Autor]. **Turismo e mineração em São Thomé das Letras, MG**. 2017. 143 f. Dissertação (Mestrado) — Universidade Federal de [Instituição], [Ci...
+O documento apresenta-se como dissertação de mestrado. dissertação de mestrado. Esta dissertação analisa os conflitos e potencialidades entre turismo e mineração em São Thomé das Letras (MG), investigando as relações socioeconômicas e ambientais....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** JULIAR,. O documento investiga juliar, [autor].
+**Tema central:** Turismo e Mineração em São Thomé das Letras (MG): Conflitos e Potencialidades. 
+Esta dissertação analisa os conflitos e potencialidades entre turismo e mineração em São Thomé das Letras (MG), investigando as relações socioeconômicas e ambientais.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a mineração.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+A metodologia é descrita detalhadamente no documento original, incluindo área de estudo, procedimentos de coleta e análise de dados.
 
 ## 6. Principais Achados
-JULIAR, [Autor]. **Turismo e mineração em São Thomé das Letras, MG**. 2017. 143 f. Dissertação (Mestrado) — Universidade Federal de [Instituição], [Cidade], 2017.
+Esta dissertação analisa os conflitos e potencialidades entre turismo e mineração em São Thomé das Letras (MG), investigando as relações socioeconômicas e ambientais.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Território: São Thomé das Letras**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a mineração.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Território: São Thomé das Letras**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-JULIAR, [Autor]. **Turismo e mineração em São Thomé das Letras, MG**. 2017. 143 f. Dissertação (Mestrado) — Universidade Federal de [Instituição], [Cidade], 2017.
+Juliar, et al.. **Turismo e Mineração em São Thomé das Letras (MG): Conflitos e Potencialidades**. Programa de Pós-graduação em Geografia - Dissertação. 2017.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

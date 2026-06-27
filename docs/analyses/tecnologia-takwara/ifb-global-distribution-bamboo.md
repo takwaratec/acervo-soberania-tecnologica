@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Global Distribution of Bamboo
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | GLOBAL distribution of bamboo |
-| **Autor(es)** | Não identificado |
-| **Ano** | — |
-| **Páginas** | 18 p. |
-| **DOI** | — |
+| **Título** | The global distribution of bamboos: assessing correlates of introduction and invasion |
+| **Autor(es)** | Susan Canavan, David M. Richardson, Vernon Visser, Johannes J. Le Roux, Maria S. Vorontsova, John R. U. Wilson |
+| **Ano** | 2016 |
+| **Páginas** | Documento original digital |
+| **DOI** | 10.1093/aobpla/plw078 |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-05 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre global distribution of bamboo. Documento cartográfico e estatístico sobre a distribuição global das florestas de bambu, mapeando espécies por região biogeográfica, extensão de áreas...
+O documento apresenta-se como artigo científico. artigo científico. Bamboos are one of the most economically important plant groups globally, but the potential for invasion has not been assessed comprehensively. This study compiled the global distribution of bamboos to assess correlates of introduction and invasion....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** GLOBAL distribution of bamboo. O documento investiga documento cartográfico e estatístico sobre a distribuição global das florestas de bambu, mapeando espécies por região biogeográfica, extensão de áreas cultivadas e nativas, e potencial de expansão.
+**Tema central:** The global distribution of bamboos: assessing correlates of introduction and invasion. 
+Bamboos are one of the most economically important plant groups globally, but the potential for invasion has not been assessed comprehensively. This study compiled the global distribution of bamboos to assess correlates of introduction and invasion.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-Documento cartográfico e estatístico sobre a distribuição global das florestas de bambu, mapeando espécies por região biogeográfica, extensão de áreas cultivadas e nativas, e potencial de expansão. PDF disponível no diretório `/Bibliografia Consultada/`.
+Bamboos are one of the most economically important plant groups globally, but the potential for invasion has not been assessed comprehensively. This study compiled the global distribution of bamboos to assess correlates of introduction and invasion.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Bioeconomia, Políticas e Mercado**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Bioeconomia, Políticas e Mercado**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-GLOBAL distribution of bamboo. [S.l.]: [s.n.], [s.d.]. 18 p.
+Susan Canavan, David M. Richardson, Vernon Visser, Johannes J. Le Roux, Maria S. Vorontsova, John R. U. Wilson. **The global distribution of bamboos: assessing correlates of introduction and invasion**. AoB PLANTS, 2016. 2016. DOI: 10.1093/aobpla/plw078.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

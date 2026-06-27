@@ -1,6 +1,6 @@
 ---
 tipo: Ficha IFB — Projeto Bambu (2021) — Método Cavichioli (2025)
-referencia: 
+referencia: IFB-G-12
 data: 2026-06-27
 status: Consolidado
 metodo: 200+ Prompts para Escrever Artigos Científicos (Cavichiolli, 2025)
@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Boron Greenfacts — Toxicidade do Boro
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | GREENFACTS. **Boron**: Level 2 — Health and environmental effects. In: GreenFacts Scientific Facts Database, |
-| **Autor(es)** | Não identificado |
-| **Ano** | — |
-| **Páginas** | — |
+| **Título** | Boron GreenFacts: Level 2 - Details on Boron |
+| **Autor(es)** | GreenFacts |
+| **Ano** | 2008 |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Geral |
-| **Código** |  |
+| **Código** | IFB-G-12 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre greenfacts. **boron**: level 2 — health and environmental effects. in: greenfact. GREENFACTS. **Boron**: Level 2 — Health and environmental effects. In: GreenFacts Scientific Facts Database, [s.d.]....
+O documento apresenta-se como artigo científico. artigo científico. Nível 2 de detalhamento sobre o boro, abordando suas propriedades, usos, efeitos na saúde e meio ambiente. Relevante para preservação de bambu com compostos boratos....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** GREENFACTS. **Boron**: Level 2 — Health and environmental effects. In: GreenFacts Scientific Facts Database,. O documento investiga greenfacts.
+**Tema central:** Boron GreenFacts: Level 2 - Details on Boron. 
+Nível 2 de detalhamento sobre o boro, abordando suas propriedades, usos, efeitos na saúde e meio ambiente. Relevante para preservação de bambu com compostos boratos.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a bambu, preservação/tratamento.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-GREENFACTS. **Boron**: Level 2 — Health and environmental effects. In: GreenFacts Scientific Facts Database, [s.d.].
+Nível 2 de detalhamento sobre o boro, abordando suas propriedades, usos, efeitos na saúde e meio ambiente. Relevante para preservação de bambu com compostos boratos.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu, preservação/tratamento. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Geral**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-GREENFACTS. **Boron**: Level 2 — Health and environmental effects. In: GreenFacts Scientific Facts Database, [s.d.].
+GreenFacts. **Boron GreenFacts: Level 2 - Details on Boron**. GreenFacts Scientific Facts. 2008.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

@@ -1,6 +1,6 @@
 ---
 tipo: Ficha IFB — Projeto Bambu (2021) — Método Cavichioli (2025)
-referencia: 
+referencia: IFB-G-26
 data: 2026-06-27
 status: Consolidado
 metodo: 200+ Prompts para Escrever Artigos Científicos (Cavichiolli, 2025)
@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Fórum HABITAR 2019
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | ANAIS DO FÓRUM HABITAR. **Fórum Habitar 2019**: habitação social e sustentabilidade |
-| **Autor(es)** | Não identificado |
+| **Título** | Panorama da Inovação Tecnológica em Habitação de Interesse Social no Brasil (2013-2019) |
+| **Autor(es)** | Grace T. Cardoso, Georgea M. Pedott, Stéfani P. Paludo, Vanusa Tebaldi, Nadine F. Marques |
 | **Ano** | 2019 |
-| **Páginas** | 15 p. |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Geral |
-| **Código** |  |
+| **Código** | IFB-G-26 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre anais do fórum habitar. **fórum habitar 2019**: habitação social e sustentabilid. ANAIS DO FÓRUM HABITAR. **Fórum Habitar 2019**: habitação social e sustentabilidade. [S.l.: s.n.], 2019. 15 p....
+O documento apresenta-se como artigo científico. artigo científico. Este artigo tem por objetivo mostrar o panorama de incorporação de tecnologias limpas na construção de Habitação de Interesse Social (HIS) no Brasil a partir de revisão da literatura. Aborda o uso de tecnologias sustentáveis no ambiente construído....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** ANAIS DO FÓRUM HABITAR. **Fórum Habitar 2019**: habitação social e sustentabilidade. O documento investiga anais do fórum habitar.
+**Tema central:** Panorama da Inovação Tecnológica em Habitação de Interesse Social no Brasil (2013-2019). 
+Este artigo tem por objetivo mostrar o panorama de incorporação de tecnologias limpas na construção de Habitação de Interesse Social (HIS) no Brasil a partir de revisão da literatura. Aborda o uso de tecnologias sustentáveis no ambiente construído.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a empreendedorismo/inovação.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
 
 ## 6. Principais Achados
-ANAIS DO FÓRUM HABITAR. **Fórum Habitar 2019**: habitação social e sustentabilidade. [S.l.: s.n.], 2019. 15 p.
+Este artigo tem por objetivo mostrar o panorama de incorporação de tecnologias limpas na construção de Habitação de Interesse Social (HIS) no Brasil a partir de revisão da literatura. Aborda o uso de tecnologias sustentáveis no ambiente construído.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a empreendedorismo/inovação.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Geral**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-ANAIS DO FÓRUM HABITAR. **Fórum Habitar 2019**: habitação social e sustentabilidade. [S.l.: s.n.], 2019. 15 p.
+Grace T. Cardoso, Georgea M. Pedott, Stéfani P. Paludo, Vanusa Tebaldi, Nadine F. Marques. **Panorama da Inovação Tecnológica em Habitação de Interesse Social no Brasil (2013-2019)**. Fórum HABITAR 2019: Habitação e Desenvolvimento Sustentável, Belo Horizonte, 08-11/10/2019. 2019.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

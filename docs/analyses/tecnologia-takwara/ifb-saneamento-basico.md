@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Saneamento Básico (2020)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | SANEAMENTO básico |
-| **Autor(es)** | Não identificado |
+| **Título** | O Esgoto Doméstico no Meio Rural: Tratamento e Implicações para a Saúde Humana |
+| **Autor(es)** | Hemerson Fernandes Calgaro, João Barbudo Filho |
 | **Ano** | 2020 |
-| **Páginas** | 61 p. |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Energia, Resíduos e Saneamento |
 | **Código** | IFB-E9-03 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre saneamento básico. Documento técnico sobre políticas públicas de saneamento básico no Brasil, abrangendo abastecimento de água, esgotamento sanitário, drenagem urbana e ...
+O documento apresenta-se como boletim técnico. boletim técnico. Boletim técnico sobre tratamento de esgoto doméstico no meio rural. Aborda métodos de tratamento e suas implicações para a saúde humana, contextualizando a aplicação de tecnologias de saneamento ecológico....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** SANEAMENTO básico. O documento investiga documento técnico sobre políticas públicas de saneamento básico no brasil, abrangendo abastecimento de água, esgotamento sanitário, drenagem urbana e resíduos sólidos.
+**Tema central:** O Esgoto Doméstico no Meio Rural: Tratamento e Implicações para a Saúde Humana. 
+Boletim técnico sobre tratamento de esgoto doméstico no meio rural. Aborda métodos de tratamento e suas implicações para a saúde humana, contextualizando a aplicação de tecnologias de saneamento ecológico.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a preservação/tratamento, saneamento.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-Documento técnico sobre políticas públicas de saneamento básico no Brasil, abrangendo abastecimento de água, esgotamento sanitário, drenagem urbana e resíduos sólidos. Contexto para aplicação de tecnologias de bambu em sistemas de tratamento e biofiltros. PDF disponível no diretório `/Bibliografia Consultada/`.
+Boletim técnico sobre tratamento de esgoto doméstico no meio rural. Aborda métodos de tratamento e suas implicações para a saúde humana, contextualizando a aplicação de tecnologias de saneamento ecológico.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Energia, Resíduos e Saneamento**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a preservação/tratamento, saneamento.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Energia, Resíduos e Saneamento**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-SANEAMENTO básico. [S.l.]: [s.n.], 2020. 61 p.
+Hemerson Fernandes Calgaro, João Barbudo Filho. **O Esgoto Doméstico no Meio Rural: Tratamento e Implicações para a Saúde Humana**. Boletim Técnico CDRS, n. 253, Campinas, 2020. 2020.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

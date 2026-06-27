@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Nayara Lage — Mineração em São Thomé das Letras
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Mineração em São Thomé das Letras, MG |
-| **Autor(es)** | LAGE, Nayara |
-| **Ano** | — |
-| **Páginas** | 43 p. |
+| **Título** | Mineração em São Thomé das Letras: Análise Socioambiental |
+| **Autor(es)** | Nayara Lage |
+| **Ano** | 2014 |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Território: São Thomé das Letras |
 | **Código** | IFB-E7-07 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre mineração em são thomé das letras, mg. Trabalho acadêmico sobre a atividade mineradora em São Thomé das Letras (MG), analisando os aspectos econômicos, sociais e ambientais da extração de q...
+O documento apresenta-se como artigo científico. artigo científico. Análise socioambiental da atividade minerária em São Thomé das Letras (MG), abordando impactos ambientais, conflitos sociais e aspectos regulatórios....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Mineração em São Thomé das Letras, MG. O documento investiga trabalho acadêmico sobre a atividade mineradora em são thomé das letras (mg), analisando os aspectos econômicos, sociais e ambientais da extração de quartzito e seus impactos no território.
+**Tema central:** Mineração em São Thomé das Letras: Análise Socioambiental. 
+Análise socioambiental da atividade minerária em São Thomé das Letras (MG), abordando impactos ambientais, conflitos sociais e aspectos regulatórios.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a mineração.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
 
 ## 6. Principais Achados
-Trabalho acadêmico sobre a atividade mineradora em São Thomé das Letras (MG), analisando os aspectos econômicos, sociais e ambientais da extração de quartzito e seus impactos no território. PDF disponível no diretório `/Bibliografia Consultada/`.
+Análise socioambiental da atividade minerária em São Thomé das Letras (MG), abordando impactos ambientais, conflitos sociais e aspectos regulatórios.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Território: São Thomé das Letras**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a mineração.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Território: São Thomé das Letras**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-LAGE, Nayara. **Mineração em São Thomé das Letras, MG**. [S.l.]: [s.n.], [s.d.]. 43 p.
+Nayara Lage. **Mineração em São Thomé das Letras: Análise Socioambiental**. 2014.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

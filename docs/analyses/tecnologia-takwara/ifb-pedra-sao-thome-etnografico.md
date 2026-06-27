@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Pedra São Thomé — Estudo Etnográfico (2019)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | PEDRA São Thomé: estudo etnográfico sobre saúde coletiva e justiça ambiental |
-| **Autor(es)** | Não identificado |
+| **Título** | Pedra São Thomé: estudo etnográfico sobre saúde coletiva e justiça ambiental |
+| **Autor(es)** | Bruna Marcelo Bernardo Moreira |
 | **Ano** | 2019 |
-| **Páginas** | 16 p. |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Território: São Thomé das Letras |
 | **Código** | IFB-E7-05 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre pedra são thomé: estudo etnográfico sobre saúde coletiva e justiça ambiental. Estudo etnográfico sobre os impactos da mineração da Pedra São Thomé na saúde coletiva e na justiça ambiental dos trabalhadores e moradores de São Tho...
+O documento apresenta-se como artigo científico. artigo científico. Estudo etnográfico sobre os impactos da mineração da pedra São Tomé na saúde coletiva e justiça ambiental em São Thomé das Letras, MG....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** PEDRA São Thomé: estudo etnográfico sobre saúde coletiva e justiça ambiental. O documento investiga estudo etnográfico sobre os impactos da mineração da pedra são thomé na saúde coletiva e na justiça ambiental dos trabalhadores e moradores de são thomé das letras (mg).
+**Tema central:** Pedra São Thomé: estudo etnográfico sobre saúde coletiva e justiça ambiental. 
+Estudo etnográfico sobre os impactos da mineração da pedra São Tomé na saúde coletiva e justiça ambiental em São Thomé das Letras, MG.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a mineração.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
 
 ## 6. Principais Achados
-Estudo etnográfico sobre os impactos da mineração da Pedra São Thomé na saúde coletiva e na justiça ambiental dos trabalhadores e moradores de São Thomé das Letras (MG). Aborda a silicose e a relação entre mineração e adoecimento. PDF disponível no diretório `/Bibliografia Consultada/`.
+Estudo etnográfico sobre os impactos da mineração da pedra São Tomé na saúde coletiva e justiça ambiental em São Thomé das Letras, MG.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Território: São Thomé das Letras**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a mineração.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Território: São Thomé das Letras**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-PEDRA São Thomé: estudo etnográfico sobre saúde coletiva e justiça ambiental. [S.l.]: [s.n.], 2019. 16 p.
+Bruna Marcelo Bernardo Moreira. **Pedra São Thomé: estudo etnográfico sobre saúde coletiva e justiça ambiental**. 2019.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

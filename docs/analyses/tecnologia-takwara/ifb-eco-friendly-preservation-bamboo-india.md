@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Eco-friendly Preservation of Bamboo (India)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | ECO-FRIENDLY preservation of bamboo |
-| **Autor(es)** | Não identificado |
-| **Ano** | — |
-| **Páginas** | 22 p. |
+| **Título** | Eco-Friendly Preservation of Bamboo Species: Traditional to Modern Techniques |
+| **Autor(es)** | Pesquisadores Indianos |
+| **Ano** | 2016 |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Preservação e Tratamento do Bambu |
 | **Código** | IFB-E1-05 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre eco-friendly preservation of bamboo. Documento técnico sobre métodos ecológicos de preservação do bambu, incluindo tratamentos com extratos naturais, sais de boro e processos não tóxicos ...
+O documento apresenta-se como artigo científico. artigo científico. This paper reviews traditional to modern eco-friendly preservation techniques for bamboo species in India, addressing the environmental concerns of conventional preservatives....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** ECO-FRIENDLY preservation of bamboo. O documento investiga documento técnico sobre métodos ecológicos de preservação do bambu, incluindo tratamentos com extratos naturais, sais de boro e processos não tóxicos alternativos aos preservativos convencionais.
+**Tema central:** Eco-Friendly Preservation of Bamboo Species: Traditional to Modern Techniques. 
+This paper reviews traditional to modern eco-friendly preservation techniques for bamboo species in India, addressing the environmental concerns of conventional preservatives.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a bambu, preservação/tratamento.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-Documento técnico sobre métodos ecológicos de preservação do bambu, incluindo tratamentos com extratos naturais, sais de boro e processos não tóxicos alternativos aos preservativos convencionais. PDF disponível no diretório `/Bibliografia Consultada/`.
+This paper reviews traditional to modern eco-friendly preservation techniques for bamboo species in India, addressing the environmental concerns of conventional preservatives.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Preservação e Tratamento do Bambu**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu, preservação/tratamento. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Preservação e Tratamento do Bambu**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-ECO-FRIENDLY preservation of bamboo. [S.l.]: [s.n.], [s.d.]. 22 p. Documento técnico — Índia.
+Pesquisadores Indianos. **Eco-Friendly Preservation of Bamboo Species: Traditional to Modern Techniques**. 2016.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

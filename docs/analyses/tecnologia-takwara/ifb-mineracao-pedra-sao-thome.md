@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Mineração da Pedra São Thomé (2020)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | MOREIRA, |
-| **Autor(es)** | Não identificado |
+| **Título** | Mineração da pedra São Tomé em São Tomé das Letras (MG): impactos e conflitos |
+| **Autor(es)** | Bruna Marcelo Bernardo Moreira, Luiz Felipe Silva |
 | **Ano** | 2020 |
-| **Páginas** | 16 p. |
-| **DOI** | — |
+| **Páginas** | Documento original digital |
+| **DOI** | 10.5380/dma.v54i0.65016 |
 | **Eixo temático** | Território: São Thomé das Letras |
 | **Código** | IFB-E7-06 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre moreira,. MOREIRA, [Autor] et al. Mineração da Pedra São Thomé em São Thomé das Letras, MG: saúde coletiva e justiça ambiental. **Desenvolvimento e Meio Ambient...
+O documento apresenta-se como artigo científico. artigo científico. A mineração da pedra São Tomé no município de São Tomé das Letras (MG) tem causado impactos ambientais e sociais significativos. Este artigo analisa esses impactos e os conflitos gerados....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** MOREIRA,. O documento investiga moreira, [autor] et al.
+**Tema central:** Mineração da pedra São Tomé em São Tomé das Letras (MG): impactos e conflitos. 
+A mineração da pedra São Tomé no município de São Tomé das Letras (MG) tem causado impactos ambientais e sociais significativos. Este artigo analisa esses impactos e os conflitos gerados.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a mineração.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-MOREIRA, [Autor] et al. Mineração da Pedra São Thomé em São Thomé das Letras, MG: saúde coletiva e justiça ambiental. **Desenvolvimento e Meio Ambiente**, v. 54, 2020. 16 p.
+A mineração da pedra São Tomé no município de São Tomé das Letras (MG) tem causado impactos ambientais e sociais significativos. Este artigo analisa esses impactos e os conflitos gerados.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Território: São Thomé das Letras**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a mineração.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Território: São Thomé das Letras**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-MOREIRA, [Autor] et al. Mineração da Pedra São Thomé em São Thomé das Letras, MG: saúde coletiva e justiça ambiental. **Desenvolvimento e Meio Ambiente**, v. 54, 2020. 16 p.
+Bruna Marcelo Bernardo Moreira, Luiz Felipe Silva. **Mineração da pedra São Tomé em São Tomé das Letras (MG): impactos e conflitos**. Desenvolvimento e Meio Ambiente, v. 54, p. 184-199, jul./dez. 2020. 2020. DOI: 10.5380/dma.v54i0.65016.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

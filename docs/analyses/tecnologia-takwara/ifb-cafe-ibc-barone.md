@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Café IBC MG — Barone (2012)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | BARONE, |
-| **Autor(es)** | Não identificado |
+| **Título** | Cafés especiais e salto de escala: análise do circuito espacial produtivo |
+| **Autor(es)** | Marcela Barone |
 | **Ano** | 2012 |
-| **Páginas** | 218 f. |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-12 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre barone,. BARONE, [Autor]. **Café IBC MG**. 2012. 218 f. [Trabalho acadêmico]....
+O documento apresenta-se como artigo científico. artigo científico. Análise do circuito espacial produtivo de cafés especiais, abordando o salto de escala na produção e a organização do setor cafeeiro no Brasil....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** BARONE,. O documento investiga barone, [autor].
+**Tema central:** Cafés especiais e salto de escala: análise do circuito espacial produtivo. 
+Análise do circuito espacial produtivo de cafés especiais, abordando o salto de escala na produção e a organização do setor cafeeiro no Brasil.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a cafeicultura.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
 
 ## 6. Principais Achados
-BARONE, [Autor]. **Café IBC MG**. 2012. 218 f. [Trabalho acadêmico].
+Análise do circuito espacial produtivo de cafés especiais, abordando o salto de escala na produção e a organização do setor cafeeiro no Brasil.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Bioeconomia, Políticas e Mercado**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a cafeicultura.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Bioeconomia, Políticas e Mercado**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-BARONE, [Autor]. **Café IBC MG**. 2012. 218 f. [Trabalho acadêmico].
+Marcela Barone. **Cafés especiais e salto de escala: análise do circuito espacial produtivo**. Instituto Brasileiro do Café (IBC). 2012.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

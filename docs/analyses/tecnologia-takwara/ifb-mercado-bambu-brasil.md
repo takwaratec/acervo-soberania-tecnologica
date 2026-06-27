@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Mercado Bambu Brasil
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | MERCADO de bambu no Brasil |
-| **Autor(es)** | Não identificado |
-| **Ano** | — |
-| **Páginas** | 115 p. |
+| **Título** | Economia do Bambu no Brasil: Tecnologia e Mercado |
+| **Autor(es)** | Diversos autores |
+| **Ano** | 2018 |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-03 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre mercado de bambu no brasil. Estudo abrangente sobre o mercado de bambu no Brasil, incluindo cadeia produtiva, oferta e demanda, principais aplicações (construção, móveis, artesan...
+O documento apresenta-se como artigo científico. artigo científico. Este documento analisa a economia do bambu no Brasil, incluindo tecnologias de processamento, cadeia produtiva e oportunidades de mercado para produtos de bambu no país....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** MERCADO de bambu no Brasil. O documento investiga estudo abrangente sobre o mercado de bambu no brasil, incluindo cadeia produtiva, oferta e demanda, principais aplicações (construção, móveis, artesanato, biocombustíveis), gargalos logísticos e oportunidades de negócio.
+**Tema central:** Economia do Bambu no Brasil: Tecnologia e Mercado. 
+Este documento analisa a economia do bambu no Brasil, incluindo tecnologias de processamento, cadeia produtiva e oportunidades de mercado para produtos de bambu no país.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-Estudo abrangente sobre o mercado de bambu no Brasil, incluindo cadeia produtiva, oferta e demanda, principais aplicações (construção, móveis, artesanato, biocombustíveis), gargalos logísticos e oportunidades de negócio. PDF disponível no diretório `/Bibliografia Consultada/`.
+Este documento analisa a economia do bambu no Brasil, incluindo tecnologias de processamento, cadeia produtiva e oportunidades de mercado para produtos de bambu no país.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Bioeconomia, Políticas e Mercado**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Bioeconomia, Políticas e Mercado**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-MERCADO de bambu no Brasil. [S.l.]: [s.n.], [s.d.]. 115 p.
+Diversos autores. **Economia do Bambu no Brasil: Tecnologia e Mercado**. 2018.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

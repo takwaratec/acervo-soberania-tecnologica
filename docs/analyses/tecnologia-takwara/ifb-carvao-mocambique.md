@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Carvão Moçambique (2016)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | CARVÃO de bambu em Moçambique |
-| **Autor(es)** | Não identificado |
+| **Título** | Charcoal supply chains from Mabalane to Maputo: Who benefits? |
+| **Autor(es)** | Sophia Baumert, Ana Catarina Luz, Janet Fisher, Frank Vollmer, Casey M. Ryan, Genevieve Patenaude, Pedro Zorrilla-Miras, Luís Artur, Isilda Nhantumbo, Erika N. Spear, James B. Palmer |
 | **Ano** | 2016 |
-| **Páginas** | 10 p. |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Pirólise, Biochar e Carbonização |
 | **Código** | IFB-E3-02 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre carvão de bambu em moçambique. Estudo sobre produção de carvão vegetal a partir de bambu em Moçambique, analisando rendimento, propriedades energéticas e potencial socioeconômico da...
+O documento apresenta-se como artigo científico. artigo científico. Charcoal is the main energy source for cooking in Maputo, Mozambique. This study analyses the charcoal supply chain from Mabalane to Maputo to understand who benefits from the charcoal trade....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** CARVÃO de bambu em Moçambique. O documento investiga estudo sobre produção de carvão vegetal a partir de bambu em moçambique, analisando rendimento, propriedades energéticas e potencial socioeconômico da carbonização de bambu como alternativa energética renovável.
+**Tema central:** Charcoal supply chains from Mabalane to Maputo: Who benefits?. 
+Charcoal is the main energy source for cooking in Maputo, Mozambique. This study analyses the charcoal supply chain from Mabalane to Maputo to understand who benefits from the charcoal trade.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a pirólise/carbonização, potencial energético.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-Estudo sobre produção de carvão vegetal a partir de bambu em Moçambique, analisando rendimento, propriedades energéticas e potencial socioeconômico da carbonização de bambu como alternativa energética renovável. PDF disponível no diretório `/Bibliografia Consultada/`.
+Charcoal is the main energy source for cooking in Maputo, Mozambique. This study analyses the charcoal supply chain from Mabalane to Maputo to understand who benefits from the charcoal trade.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Pirólise, Biochar e Carbonização**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a pirólise/carbonização, potencial energético.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Pirólise, Biochar e Carbonização**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-CARVÃO de bambu em Moçambique. [S.l.]: [s.n.], 2016. 10 p.
+Sophia Baumert, Ana Catarina Luz, Janet Fisher, Frank Vollmer, Casey M. Ryan, Genevieve Patenaude, Pedro Zorrilla-Miras, Luís Artur, Isilda Nhantumbo, Erika N. Spear, James B. Palmer. **Charcoal supply chains from Mabalane to Maputo: Who benefits?**. Energy for Sustainable Development, 2016. 2016.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

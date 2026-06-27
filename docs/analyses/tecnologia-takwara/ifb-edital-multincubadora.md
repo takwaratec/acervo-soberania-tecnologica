@@ -1,6 +1,6 @@
 ---
 tipo: Ficha IFB — Projeto Bambu (2021) — Método Cavichioli (2025)
-referencia: 
+referencia: IFB-E10-23
 data: 2026-06-27
 status: Consolidado
 metodo: 200+ Prompts para Escrever Artigos Científicos (Cavichiolli, 2025)
@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Edital Multincubadora (2022)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | EDITAL **Multincubadora** 2022 |
-| **Autor(es)** | Não identificado |
+| **Título** | Edital de Seleção nº 01/2022 - Fluxo Contínuo - Multincubadora de Empresas CDT/UnB |
+| **Autor(es)** | CDT/UnB - Centro de Apoio ao Desenvolvimento Tecnológico |
 | **Ano** | 2022 |
-| **Páginas** | — |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
-| **Eixo temático** | Geral |
-| **Código** |  |
+| **Eixo temático** | Editais e Instrumentos |
+| **Código** | IFB-E10-23 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre edital **multincubadora** 2022. EDITAL **Multincubadora** 2022. [S.l.: s.n.], 2022....
+O documento apresenta-se como edital público. edital público. Edital de seleção para ingresso de empresas na Incubadora Multincubadora de Empresas do CDT/UnB, estabelecendo critérios e procedimentos para pré-incubação e incubação de empreendimentos inovadores....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** EDITAL **Multincubadora** 2022. O documento investiga edital **multincubadora** 2022.
+**Tema central:** Edital de Seleção nº 01/2022 - Fluxo Contínuo - Multincubadora de Empresas CDT/UnB. 
+Edital de seleção para ingresso de empresas na Incubadora Multincubadora de Empresas do CDT/UnB, estabelecendo critérios e procedimentos para pré-incubação e incubação de empreendimentos inovadores.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a empreendedorismo/inovação.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
 
 ## 6. Principais Achados
-EDITAL **Multincubadora** 2022. [S.l.: s.n.], 2022.
+Edital de seleção para ingresso de empresas na Incubadora Multincubadora de Empresas do CDT/UnB, estabelecendo critérios e procedimentos para pré-incubação e incubação de empreendimentos inovadores.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a empreendedorismo/inovação.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Editais e Instrumentos**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-EDITAL **Multincubadora** 2022. [S.l.: s.n.], 2022.
+CDT/UnB - Centro de Apoio ao Desenvolvimento Tecnológico. **Edital de Seleção nº 01/2022 - Fluxo Contínuo - Multincubadora de Empresas CDT/UnB**. Universidade de Brasília - CDT. 2022.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

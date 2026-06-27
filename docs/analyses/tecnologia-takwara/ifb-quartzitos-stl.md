@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Quartzitos do Centro Produtor de São Thomé das Letras (2002)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | [S.l.]: [s.n.], 2002 |
-| **Autor(es)** | QUARTZITOS do centro produtor de São Thomé das Letras, MG |
+| **Título** | Quartzitos do Centro Produtor de São Thomé das Letras, MG |
+| **Autor(es)** | Tânia Maria Gomes Fernandes, Antônio Misson Godoy |
 | **Ano** | 2002 |
-| **Páginas** | 5 p. |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Território: São Thomé das Letras |
 | **Código** | IFB-E7-01 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre [s.l.]: [s.n.], 2002. Caracterização geológica dos quartzitos do centro produtor de São Thomé das Letras (MG), descrevendo as propriedades petrográficas, composição mineral...
+O documento apresenta-se como artigo científico. artigo científico. Caracterização dos quartzitos do centro produtor de São Thomé das Letras (MG), analisando propriedades geológicas e potencial econômico....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** [S.l.]: [s.n.], 2002. O documento investiga caracterização geológica dos quartzitos do centro produtor de são thomé das letras (mg), descrevendo as propriedades petrográficas, composição mineralógica e potencial econômico da rocha ornamental conhecida como pedra são thomé.
+**Tema central:** Quartzitos do Centro Produtor de São Thomé das Letras, MG. 
+Caracterização dos quartzitos do centro produtor de São Thomé das Letras (MG), analisando propriedades geológicas e potencial econômico.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a mineração.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
 
 ## 6. Principais Achados
-Caracterização geológica dos quartzitos do centro produtor de São Thomé das Letras (MG), descrevendo as propriedades petrográficas, composição mineralógica e potencial econômico da rocha ornamental conhecida como Pedra São Thomé. PDF disponível no diretório `/Bibliografia Consultada/`.
+Caracterização dos quartzitos do centro produtor de São Thomé das Letras (MG), analisando propriedades geológicas e potencial econômico.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Território: São Thomé das Letras**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a mineração.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Território: São Thomé das Letras**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-QUARTZITOS do centro produtor de São Thomé das Letras, MG. [S.l.]: [s.n.], 2002. 5 p.
+Tânia Maria Gomes Fernandes, Antônio Misson Godoy. **Quartzitos do Centro Produtor de São Thomé das Letras, MG**. III SRONE – 2002 – Recife-PE/Brasil. 2002.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

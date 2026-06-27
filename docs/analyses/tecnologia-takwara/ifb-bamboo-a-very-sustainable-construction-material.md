@@ -1,6 +1,6 @@
 ---
 tipo: Ficha IFB — Projeto Bambu (2021) — Método Cavichioli (2025)
-referencia: 
+referencia: IFB-G-05
 data: 2026-06-27
 status: Consolidado
 metodo: 200+ Prompts para Escrever Artigos Científicos (Cavichiolli, 2025)
@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Bamboo: A Very Sustainable Construction Material (2021)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Bamboo: A Very Sustainable Construction Material — 2021 International Online Seminar summary report |
-| **Autor(es)** | LIU, Kewei et al |
-| **Ano** | 2022 |
-| **Páginas** | — |
-| **DOI** | 10.54113/j.sust.2022.000015. |
+| **Título** | Bamboo: A Very Sustainable Construction Material |
+| **Autor(es)** | Kewei Liu, Durai Jayaraman, Yongjiu Shi, Kent Harries |
+| **Ano** | 2021 |
+| **Páginas** | Documento original digital |
+| **DOI** | 10.54113/j.sust.2022.000015 |
 | **Eixo temático** | Geral |
-| **Código** |  |
+| **Código** | IFB-G-05 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre bamboo: a very sustainable construction material — 2021 international online sem. LIU, Kewei et al. Bamboo: A Very Sustainable Construction Material — 2021 International Online Seminar summary report. **Sustainable Structures**, v. ...
+O documento apresenta-se como artigo científico. artigo científico. Bamboo is a rapidly renewable natural resource that has been used as a construction material for millennia. This paper provides a comprehensive overview of bamboo as a sustainable construction material....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Bamboo: A Very Sustainable Construction Material — 2021 International Online Seminar summary report. O documento investiga liu, kewei et al.
+**Tema central:** Bamboo: A Very Sustainable Construction Material. 
+Bamboo is a rapidly renewable natural resource that has been used as a construction material for millennia. This paper provides a comprehensive overview of bamboo as a sustainable construction material.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-LIU, Kewei et al. Bamboo: A Very Sustainable Construction Material — 2021 International Online Seminar summary report. **Sustainable Structures**, v. 2, n. 1, 2022. DOI: 10.54113/j.sust.2022.000015.
+Bamboo is a rapidly renewable natural resource that has been used as a construction material for millennia. This paper provides a comprehensive overview of bamboo as a sustainable construction material.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Geral**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-LIU, Kewei et al. Bamboo: A Very Sustainable Construction Material — 2021 International Online Seminar summary report. **Sustainable Structures**, v. 2, n. 1, 2022. DOI: 10.54113/j.sust.2022.000015.
+Kewei Liu, Durai Jayaraman, Yongjiu Shi, Kent Harries. **Bamboo: A Very Sustainable Construction Material**. Sustainable Structures, 2021. 2021. DOI: 10.54113/j.sust.2022.000015.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

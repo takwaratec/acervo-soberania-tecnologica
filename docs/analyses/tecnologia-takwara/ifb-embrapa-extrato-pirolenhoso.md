@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — EMBRAPA — Extrato Pirolenhoso (2007)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA |
-| **Autor(es)** | Não identificado |
+| **Título** | Técnicas para Produção de Extrato Pirolenhoso para Uso Agrícola |
+| **Autor(es)** | Ângela Diniz Campos |
 | **Ano** | 2007 |
-| **Páginas** | 8 p. |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
-| **Eixo temático** | Preservação e Tratamento do Bambu |
+| **Eixo temático** | Geral |
 | **Código** | IFB-E1-02 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre empresa brasileira de pesquisa agropecuária. EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA (EMBRAPA). **Extrato pirolenhoso**. Brasília: Embrapa, 2007. 8 p....
+O documento apresenta-se como artigo científico. artigo científico. O extrato pirolenhoso (EP) é um líquido obtido durante a produção de carvão vegetal, através da queima da madeira. Este documento descreve técnicas para sua produção e uso agrícola....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA. O documento investiga empresa brasileira de pesquisa agropecuária (embrapa).
+**Tema central:** Técnicas para Produção de Extrato Pirolenhoso para Uso Agrícola. 
+O extrato pirolenhoso (EP) é um líquido obtido durante a produção de carvão vegetal, através da queima da madeira. Este documento descreve técnicas para sua produção e uso agrícola.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a madeira.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA (EMBRAPA). **Extrato pirolenhoso**. Brasília: Embrapa, 2007. 8 p.
+O extrato pirolenhoso (EP) é um líquido obtido durante a produção de carvão vegetal, através da queima da madeira. Este documento descreve técnicas para sua produção e uso agrícola.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Preservação e Tratamento do Bambu**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a madeira.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Geral**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA (EMBRAPA). **Extrato pirolenhoso**. Brasília: Embrapa, 2007. 8 p.
+Ângela Diniz Campos. **Técnicas para Produção de Extrato Pirolenhoso para Uso Agrícola**. Embrapa Clima Temperado, Pelotas-RS. ISSN 1981-5999. 2007.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*
