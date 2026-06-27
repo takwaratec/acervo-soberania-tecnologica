@@ -73,12 +73,13 @@ Aqui você encontrará o resultado da curadoria científica de artigos, teses, d
 | Indicador | Total |
 |-----------|-------|
 | **Fichas técnicas e resenhas** | ~270 |
-| **Catálogo IFB** | 84 referências (76 fichas criadas — ~90%) |
+| **Catálogo IFB** | 84 referências (75 fichas — todas com autor, DOI ou metadados verificados nos PDFs originais) |
 | **Eixos temáticos** | 9 (6 originais + ECOSALA + Vaga Lúmen + MST) |
-| **Artigos e teses fichados** | 43 resenhas de teses/dissertações/artigos |
+| **Artigos e teses fichados** | 43 resenhas completas (Cavichioli 8 seções, com PDF) |
 | **Fichas de tecnologia** | 47 fichas (Série T, domos, PU vegetal, forno, fitorremediação, etc.) |
 | **Perfis de pesquisadores** | 7 perfis (Ghavami, Jayme, Beraldo, Hidalgo, Vélez, Ripper, Takwara) |
-| **Fichas IFB** | 64 em Tecnologia Takwara + 12 em Bioeconomia Amazônica |
+| **Fichas IFB** | 75 fichas catalográficas com metadados verificados nos PDFs originais |
+| **Regra do acervo** | Nenhuma ficha é publicada sem autor, DOI/ISBN/ISSN ou identificação verificada |
 | **Período coberto** | 1997–2026 |
 | **Licença** | CC BY 4.0 |
 

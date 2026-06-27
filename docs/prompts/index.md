@@ -4,6 +4,12 @@ Este repositório segue o protocolo de análise baseado nos **200+ Prompts para 
 
 > ⚠️ **Todas as fichas, resenhas e análises neste repositório DEVEM seguir o método Cavichioli (2025)** — 8 seções obrigatórias conforme descrito na [metodologia detalhada](../metodologia.md). Nenhuma ficha será aceita sem aplicar o protocolo completo.
 
+> 🔴 **REGRAS DE QUALIDADE:**
+> 1. **NUNCA** criar fichas sem autor, DOI/ISBN/ISSN identificados
+> 2. **NUNCA** publicar documentos incompletos no acervo
+> 3. **Sempre alertar** o usuário sobre dados faltantes antes de prosseguir
+> 4. Todas as 8 seções do método Cavichioli devem estar preenchidas
+
 ## Classificação dos prompts utilizados
 
 | Categoria | Uso principal | Aplicação no repositório |
