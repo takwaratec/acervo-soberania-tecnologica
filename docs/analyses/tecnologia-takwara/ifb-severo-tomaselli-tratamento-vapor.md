@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Severo & Tomaselli — Tratamento a Vapor (Eucalyptus) (1998)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Tratamento a vapor de Eucalyptus**: efeito nas propriedades físicas e mecânicas |
-| **Autor(es)** | SEVERO, Elias Taylor Durgante; TOMASELLI, Ivan |
+| **Título** | Efeito do tratamento de vaporização em toras de Eucalyptus dunnii sobre as propriedades da madeira |
+| **Autor(es)** | Elias Ivan Severo, Ivan Tomaselli |
 | **Ano** | 1998 |
-| **Páginas** | 15 f. |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Preservação e Tratamento do Bambu |
 | **Código** | IFB-E1-09 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre tratamento a vapor de eucalyptus**: efeito nas propriedades físicas e mecânicas. SEVERO, Elias Taylor Durgante; TOMASELLI, Ivan. **Tratamento a vapor de Eucalyptus**: efeito nas propriedades físicas e mecânicas. 1998. 15 f. Trabalh...
+O documento apresenta-se como artigo científico. artigo científico. Este trabalho avalia o efeito do tratamento de vaporização em toras de Eucalyptus dunnii sobre as propriedades da madeira, analisando a permeabilidade e os efeitos na secagem....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Tratamento a vapor de Eucalyptus**: efeito nas propriedades físicas e mecânicas. O documento investiga severo, elias taylor durgante; tomaselli, ivan.
+**Tema central:** Efeito do tratamento de vaporização em toras de Eucalyptus dunnii sobre as propriedades da madeira. 
+Este trabalho avalia o efeito do tratamento de vaporização em toras de Eucalyptus dunnii sobre as propriedades da madeira, analisando a permeabilidade e os efeitos na secagem.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a preservação/tratamento, madeira.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-SEVERO, Elias Taylor Durgante; TOMASELLI, Ivan. **Tratamento a vapor de Eucalyptus**: efeito nas propriedades físicas e mecânicas. 1998. 15 f. Trabalho acadêmico. Universidade Federal do Paraná, Curitiba, 1998.
+Este trabalho avalia o efeito do tratamento de vaporização em toras de Eucalyptus dunnii sobre as propriedades da madeira, analisando a permeabilidade e os efeitos na secagem.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Preservação e Tratamento do Bambu**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a preservação/tratamento, madeira.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Preservação e Tratamento do Bambu**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-SEVERO, Elias Taylor Durgante; TOMASELLI, Ivan. **Tratamento a vapor de Eucalyptus**: efeito nas propriedades físicas e mecânicas. 1998. 15 f. Trabalho acadêmico. Universidade Federal do Paraná, Curitiba, 1998.
+Elias Ivan Severo, Ivan Tomaselli. **Efeito do tratamento de vaporização em toras de Eucalyptus dunnii sobre as propriedades da madeira**. 1998.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

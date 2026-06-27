@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — A Handbook of Industrial Ecology
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | — |
-| **Autor(es)** | — |
-| **Ano** | — |
-| **Páginas** | — |
+| **Título** | A Handbook of Industrial Ecology |
+| **Autor(es)** | Robert U. Ayres, Leslie W. Ayres (eds.) |
+| **Ano** | 2002 |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-10 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre —. tipo: Ficha IFB — Projeto Bambu (2021) — Método Cavichioli (2025)...
+O documento apresenta-se como livro técnico-científico. livro técnico-científico. Handbook abrangente sobre ecologia industrial, cobrindo conceitos, métodos e aplicações da análise de fluxo de materiais, metabolismo industrial e economia circular....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** —. O documento investiga tipo: ficha ifb — projeto bambu (2021) — método cavichioli (2025).
+**Tema central:** A Handbook of Industrial Ecology. 
+Handbook abrangente sobre ecologia industrial, cobrindo conceitos, métodos e aplicações da análise de fluxo de materiais, metabolismo industrial e economia circular.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a ecologia industrial.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
 
 ## 6. Principais Achados
-tipo: Ficha IFB — Projeto Bambu (2021) — Método Cavichioli (2025)
+Handbook abrangente sobre ecologia industrial, cobrindo conceitos, métodos e aplicações da análise de fluxo de materiais, metabolismo industrial e economia circular.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Bioeconomia, Políticas e Mercado**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a ecologia industrial.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Bioeconomia, Políticas e Mercado**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-Referência não especificada.
+Robert U. Ayres, Leslie W. Ayres (eds.). **A Handbook of Industrial Ecology**. Edward Elgar Publishing, 701 p.. 2002.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

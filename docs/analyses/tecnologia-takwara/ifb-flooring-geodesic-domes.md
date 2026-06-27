@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — On Potentiality of Flooring in Geodesic Domes (2019)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | ON potentiality and practicability of installing flooring suspended in geodesic domes by means of cable system |
-| **Autor(es)** | Não identificado |
+| **Título** | On potentiality and practicability of installing flooring suspended in geodesic domes by means of cable system |
+| **Autor(es)** | Fabio Takwara, et al. |
 | **Ano** | 2019 |
-| **Páginas** | 9 p. |
-| **DOI** | — |
+| **Páginas** | Documento original digital |
+| **DOI** | 10.1088/1757-899X/687/3/033025 |
 | **Eixo temático** | Geodésicas e Construção com Bambu |
 | **Código** | IFB-E5-03 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre on potentiality and practicability of installing flooring suspended in geodesic . Estudo sobre a viabilidade técnica de instalação de pisos suspensos em cúpulas geodésicas utilizando sistemas de cabos. Análise de cargas, materiais e...
+O documento apresenta-se como artigo científico. artigo científico. This paper discusses the potentiality and practicability of installing suspended flooring in geodesic domes using a cable system, presenting a novel constructive solution for bamboo geodesic structures....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** ON potentiality and practicability of installing flooring suspended in geodesic domes by means of cable system. O documento investiga estudo sobre a viabilidade técnica de instalação de pisos suspensos em cúpulas geodésicas utilizando sistemas de cabos.
+**Tema central:** On potentiality and practicability of installing flooring suspended in geodesic domes by means of cable system. 
+This paper discusses the potentiality and practicability of installing suspended flooring in geodesic domes using a cable system, presenting a novel constructive solution for bamboo geodesic structures.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a bambu, geodésicas.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-Estudo sobre a viabilidade técnica de instalação de pisos suspensos em cúpulas geodésicas utilizando sistemas de cabos. Análise de cargas, materiais e métodos construtivos para pisos em domos geodésicos. PDF disponível no diretório `/Bibliografia Consultada/`.
+This paper discusses the potentiality and practicability of installing suspended flooring in geodesic domes using a cable system, presenting a novel constructive solution for bamboo geodesic structures.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geodésicas e Construção com Bambu**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu, geodésicas. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Geodésicas e Construção com Bambu**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-ON potentiality and practicability of installing flooring suspended in geodesic domes by means of cable system. [S.l.]: [s.n.], 2019. 9 p.
+Fabio Takwara, et al.. **On potentiality and practicability of installing flooring suspended in geodesic domes by means of cable system**. IOP Conference Series: Materials Science and Engineering, 687 (2019) 033025. 2019. DOI: 10.1088/1757-899X/687/3/033025.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

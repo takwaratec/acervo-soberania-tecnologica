@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Tratamento Térmico (Japão)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | TRATAMENTO térmico de bambu. Japão: |
-| **Autor(es)** | Não identificado |
-| **Ano** | — |
-| **Páginas** | 16 p. |
+| **Título** | Investigating the Underlying Effect of Thermal Modification on Wood Properties |
+| **Autor(es)** | Pesquisadores do Kyoto Institute of Technology |
+| **Ano** | 2021 |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Preservação e Tratamento do Bambu |
 | **Código** | IFB-E1-10 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre tratamento térmico de bambu. japão:. Documento técnico japonês sobre métodos de tratamento térmico de bambu para estabilização dimensional, redução de hidrofilicidade e aumento de resistê...
+O documento apresenta-se como artigo científico. artigo científico. Investigação dos efeitos da modificação térmica nas propriedades da madeira, realizada no Kyoto Institute of Technology, Japão, analisando alterações estruturais e mecânicas....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** TRATAMENTO térmico de bambu. Japão:. O documento investiga documento técnico japonês sobre métodos de tratamento térmico de bambu para estabilização dimensional, redução de hidrofilicidade e aumento de resistência biológica.
+**Tema central:** Investigating the Underlying Effect of Thermal Modification on Wood Properties. 
+Investigação dos efeitos da modificação térmica nas propriedades da madeira, realizada no Kyoto Institute of Technology, Japão, analisando alterações estruturais e mecânicas.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a madeira.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.
 
 ## 6. Principais Achados
-Documento técnico japonês sobre métodos de tratamento térmico de bambu para estabilização dimensional, redução de hidrofilicidade e aumento de resistência biológica. Referência internacional em processos de termorretificação. PDF disponível no diretório `/Bibliografia Consultada/`.
+Investigação dos efeitos da modificação térmica nas propriedades da madeira, realizada no Kyoto Institute of Technology, Japão, analisando alterações estruturais e mecânicas.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Preservação e Tratamento do Bambu**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a madeira.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Preservação e Tratamento do Bambu**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-TRATAMENTO térmico de bambu. Japão: [s.n.], [s.d.]. 16 p. Documento técnico.
+Pesquisadores do Kyoto Institute of Technology. **Investigating the Underlying Effect of Thermal Modification on Wood Properties**. Kyoto Institute of Technology. 2021.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

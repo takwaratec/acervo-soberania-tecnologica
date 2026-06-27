@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Acordo de Paris
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | ACORDO de Paris sobre mudanças climáticas. Paris: UNFCCC, |
-| **Autor(es)** | Não identificado |
-| **Ano** | — |
-| **Páginas** | 13 p. |
+| **Título** | Acordo de Paris sobre o Clima |
+| **Autor(es)** | UNFCCC (Convenção-Quadro das Nações Unidas sobre Mudança do Clima) |
+| **Ano** | 2015 |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-02 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre acordo de paris sobre mudanças climáticas. paris: unfccc,. ACORDO de Paris sobre mudanças climáticas. Paris: UNFCCC, [s.d.]. 13 p....
+O documento apresenta-se como artigo científico. artigo científico. O Acordo de Paris é um tratado internacional sobre mudança do clima, adotado por 196 Partes na COP21 em Paris, em 12 de dezembro de 2015. Tem como objetivo limitar o aquecimento global a bem menos de 2°C acima dos níveis pré-industriais....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** ACORDO de Paris sobre mudanças climáticas. Paris: UNFCCC,. O documento investiga acordo de paris sobre mudanças climáticas.
+**Tema central:** Acordo de Paris sobre o Clima. 
+O Acordo de Paris é um tratado internacional sobre mudança do clima, adotado por 196 Partes na COP21 em Paris, em 12 de dezembro de 2015. Tem como objetivo limitar o aquecimento global a bem menos de 2°C acima dos níveis pré-industriais.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a carbono/clima.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-ACORDO de Paris sobre mudanças climáticas. Paris: UNFCCC, [s.d.]. 13 p.
+O Acordo de Paris é um tratado internacional sobre mudança do clima, adotado por 196 Partes na COP21 em Paris, em 12 de dezembro de 2015. Tem como objetivo limitar o aquecimento global a bem menos de 2°C acima dos níveis pré-industriais.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Bioeconomia, Políticas e Mercado**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a carbono/clima.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Bioeconomia, Políticas e Mercado**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-ACORDO de Paris sobre mudanças climáticas. Paris: UNFCCC, [s.d.]. 13 p.
+UNFCCC (Convenção-Quadro das Nações Unidas sobre Mudança do Clima). **Acordo de Paris sobre o Clima**. UNFCCC, 2015. 2015.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

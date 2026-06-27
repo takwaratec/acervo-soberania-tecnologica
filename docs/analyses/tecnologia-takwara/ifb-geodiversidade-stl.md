@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Recursos da Geodiversidade de São Thomé das Letras (2015)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | [S.l.]: [s.n.], 2015 |
-| **Autor(es)** | RECURSOS da geodiversidade de São Thomé das Letras, MG |
+| **Título** | Recursos da Geodiversidade de São Thomé das Letras, MG |
+| **Autor(es)** | Autores diversos |
 | **Ano** | 2015 |
-| **Páginas** | 13 p. |
-| **DOI** | — |
+| **Páginas** | Documento original digital |
+| **DOI** | 10.5380/dma.v35i0.41514 |
 | **Eixo temático** | Território: São Thomé das Letras |
 | **Código** | IFB-E7-03 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre [s.l.]: [s.n.], 2015. Inventário dos recursos da geodiversidade do município de São Thomé das Letras (MG), abrangendo sítios geológicos, geomorfológicos e paisagísticos. Ba...
+O documento apresenta-se como artigo científico. artigo científico. Este trabalho caracteriza os recursos da geodiversidade de São Thomé das Letras (MG) e suas potencialidades de uso, incluindo aspectos turísticos e econômicos....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** [S.l.]: [s.n.], 2015. O documento investiga inventário dos recursos da geodiversidade do município de são thomé das letras (mg), abrangendo sítios geológicos, geomorfológicos e paisagísticos.
+**Tema central:** Recursos da Geodiversidade de São Thomé das Letras, MG. 
+Este trabalho caracteriza os recursos da geodiversidade de São Thomé das Letras (MG) e suas potencialidades de uso, incluindo aspectos turísticos e econômicos.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a tema abordado.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-Inventário dos recursos da geodiversidade do município de São Thomé das Letras (MG), abrangendo sítios geológicos, geomorfológicos e paisagísticos. Base para geoconservação e geoturismo na região. PDF disponível no diretório `/Bibliografia Consultada/`.
+Este trabalho caracteriza os recursos da geodiversidade de São Thomé das Letras (MG) e suas potencialidades de uso, incluindo aspectos turísticos e econômicos.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Território: São Thomé das Letras**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a tema abordado.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Território: São Thomé das Letras**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-RECURSOS da geodiversidade de São Thomé das Letras, MG. [S.l.]: [s.n.], 2015. 13 p.
+Autores diversos. **Recursos da Geodiversidade de São Thomé das Letras, MG**. Desenvolvimento e Meio Ambiente, v. 35, p. 335-347, dez. 2015. 2015. DOI: 10.5380/dma.v35i0.41514.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

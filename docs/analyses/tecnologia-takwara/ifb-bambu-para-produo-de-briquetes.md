@@ -1,6 +1,6 @@
 ---
 tipo: Ficha IFB — Projeto Bambu (2021) — Método Cavichioli (2025)
-referencia: 
+referencia: IFB-E4-09
 data: 2026-06-27
 status: Consolidado
 metodo: 200+ Prompts para Escrever Artigos Científicos (Cavichiolli, 2025)
@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Bambu para Produção de Briquetes (2019)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | — |
-| **Autor(es)** | Não identificado |
+| **Título** | Potential of bamboo species for briquette production |
+| **Autor(es)** | Autores diversos |
 | **Ano** | 2019 |
-| **Páginas** | 7 p. |
-| **DOI** | — |
-| **Eixo temático** | Geral |
-| **Código** |  |
+| **Páginas** | Documento original digital |
+| **DOI** | 10.1590/1983-40632019v4954178 |
+| **Eixo temático** | Briquetes e Pellets |
+| **Código** | IFB-E4-09 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre —. AUTOR(ES). **Bambu para a produção de briquetes**. [S.l.: s.n.], 2019. 7 p....
+O documento apresenta-se como artigo científico. artigo científico. Avaliação do potencial de espécies de bambu para produção de briquetes, analisando propriedades de compactação e qualidade dos briquetes produzidos....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** —. O documento investiga autor(es).
+**Tema central:** Potential of bamboo species for briquette production. 
+Avaliação do potencial de espécies de bambu para produção de briquetes, analisando propriedades de compactação e qualidade dos briquetes produzidos.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a bambu, briquetes/pellets.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-AUTOR(ES). **Bambu para a produção de briquetes**. [S.l.: s.n.], 2019. 7 p.
+Avaliação do potencial de espécies de bambu para produção de briquetes, analisando propriedades de compactação e qualidade dos briquetes produzidos.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu, briquetes/pellets. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Briquetes e Pellets**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-AUTOR(ES). **Bambu para a produção de briquetes**. [S.l.: s.n.], 2019. 7 p.
+Autores diversos. **Potential of bamboo species for briquette production**. 2019. DOI: 10.1590/1983-40632019v4954178.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

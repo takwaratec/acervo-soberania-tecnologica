@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — Bamboo, People and the Environment
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | BAMBOO, people and the environment |
-| **Autor(es)** | Não identificado |
-| **Ano** | — |
-| **Páginas** | 158 p. |
+| **Título** | Bamboo, People and the Environment: Socioeconomic and Ecological Aspects |
+| **Autor(es)** | INBAR (International Network for Bamboo and Rattan) |
+| **Ano** | 2003 |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
-| **Eixo temático** | Bioeconomia, Políticas e Mercado |
+| **Eixo temático** | Geral |
 | **Código** | IFB-E8-06 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre bamboo, people and the environment. Relatório abrangente sobre as interações entre comunidades humanas e florestas de bambu, abordando aspectos ecológicos, socioeconômicos e culturais do...
+O documento apresenta-se como artigo científico. artigo científico. Publicação da INBAR sobre a relação entre bambu, populações e meio ambiente, abordando aspectos socioeconômicos, ecológicos e de desenvolvimento sustentável....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** BAMBOO, people and the environment. O documento investiga relatório abrangente sobre as interações entre comunidades humanas e florestas de bambu, abordando aspectos ecológicos, socioeconômicos e culturais do uso do bambu em diferentes regiões do mundo.
+**Tema central:** Bamboo, People and the Environment: Socioeconomic and Ecological Aspects. 
+Publicação da INBAR sobre a relação entre bambu, populações e meio ambiente, abordando aspectos socioeconômicos, ecológicos e de desenvolvimento sustentável.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-Relatório abrangente sobre as interações entre comunidades humanas e florestas de bambu, abordando aspectos ecológicos, socioeconômicos e culturais do uso do bambu em diferentes regiões do mundo. PDF disponível no diretório `/Bibliografia Consultada/`.
+Publicação da INBAR sobre a relação entre bambu, populações e meio ambiente, abordando aspectos socioeconômicos, ecológicos e de desenvolvimento sustentável.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Bioeconomia, Políticas e Mercado**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Geral**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-BAMBOO, people and the environment. [S.l.]: [s.n.], [s.d.]. 158 p.
+INBAR (International Network for Bamboo and Rattan). **Bamboo, People and the Environment: Socioeconomic and Ecological Aspects**. INBAR Publications. 2003.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

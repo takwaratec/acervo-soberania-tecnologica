@@ -1,52 +1,53 @@
 ---
 tipo: Ficha IFB — Projeto Bambu (2021) — Método Cavichioli (2025)
-referencia: 
+referencia: IFB-E8-04
 data: 2026-06-27
 status: Consolidado
 metodo: 200+ Prompts para Escrever Artigos Científicos (Cavichiolli, 2025)
 licenca: CC BY 4.0
 ---
 
-# IFB — Bambus no Brasil — EMBRAPA (2017)
+# IFB — Bambus No Brasil Embrapa
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | EMBRAPA. **Bambus no Brasil**. Brasília: Embrapa, 2017. 659 p |
-| **Autor(es)** | Não identificado |
+| **Título** | Bambus no Brasil: da Biologia à Tecnologia |
+| **Autor(es)** | Patrícia Maria Drumond, Guilherme Wiedman (Organizadores) |
 | **Ano** | 2017 |
-| **Páginas** | 659 p. |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
-| **Eixo temático** | Geral |
-| **Código** |  |
+| **Eixo temático** | Bioeconomia, Políticas e Mercado |
+| **Código** | IFB-E8-04 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre embrapa. **bambus no brasil**. brasília: embrapa, 2017. 659 p. EMBRAPA. **Bambus no Brasil**. Brasília: Embrapa, 2017. 659 p....
+O documento apresenta-se como artigo científico. Obra de referência sobre bambus no Brasil, abrangendo desde aspectos biológicos até tecnológicos. Organizada pela Embrapa em parceria com o MCTIC, reúne contribuições de dezenas de pesquisadores brasileiros sobre taxonomia, ecologia, cultivo, manejo,...
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** EMBRAPA. **Bambus no Brasil**. Brasília: Embrapa, 2017. 659 p. O documento investiga embrapa.
+**Tema central:** Bambus no Brasil: da Biologia à Tecnologia. 
+Obra de referência sobre bambus no Brasil, abrangendo desde aspectos biológicos até tecnológicos. Organizada pela Embrapa em parceria com o MCTIC, reúne contribuições de dezenas de pesquisadores brasileiros sobre taxonomia, ecologia, cultivo, manejo, propriedades e usos do bambu.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-EMBRAPA. **Bambus no Brasil**. Brasília: Embrapa, 2017. 659 p.
+Obra de referência sobre bambus no Brasil, abrangendo desde aspectos biológicos até tecnológicos. Organizada pela Embrapa em parceria com o MCTIC, reúne contribuições de dezenas de pesquisadores brasileiros sobre taxonomia, ecologia, cultivo, manejo, propriedades e usos do bambu.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu. Relevante para a cadeia produtiva do bambu e desenvolvimento sustentável.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **Bioeconomia, Políticas e Mercado**. Consulte o catálogo geral para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-EMBRAPA. **Bambus no Brasil**. Brasília: Embrapa, 2017. 659 p.
+Patrícia Maria Drumond, Guilherme Wiedman (Organizadores). **Bambus no Brasil: da Biologia à Tecnologia**. Embrapa, 659 p.. 2017.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*

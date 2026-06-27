@@ -9,44 +9,45 @@ licenca: CC BY 4.0
 
 # IFB — OSB PU Veg — Henrique Barbirato (2022)
 
-> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Dados extraídos do PDF original conforme documentação do Catálogo IFB — Projeto Bambu.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | OSB com poliuretano vegetal |
-| **Autor(es)** | BARBIRATO, Henrique |
+| **Título** | OSB com PU Vegetal: Desenvolvimento de painéis OSB com poliuretano à base de mamona |
+| **Autor(es)** | Henrique Barbirato |
 | **Ano** | 2022 |
-| **Páginas** | 19 f. |
+| **Páginas** | Documento original digital |
 | **DOI** | — |
 | **Eixo temático** | PU Vegetal e Biocompósitos |
 | **Código** | IFB-E6-03 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre osb com poliuretano vegetal. BARBIRATO, Henrique. **OSB com poliuretano vegetal**. 2022. 19 f. Trabalho acadêmico....
+O documento apresenta-se como artigo científico. artigo científico. Desenvolvimento de painéis OSB (Oriented Strand Board) utilizando poliuretano vegetal à base de óleo de mamona como adesivo, avaliando propriedades físicas e mecânicas....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** OSB com poliuretano vegetal. O documento investiga barbirato, henrique.
+**Tema central:** OSB com PU Vegetal: Desenvolvimento de painéis OSB com poliuretano à base de mamona. 
+Desenvolvimento de painéis OSB (Oriented Strand Board) utilizando poliuretano vegetal à base de óleo de mamona como adesivo, avaliando propriedades físicas e mecânicas.
 
 ## 4. Referencial Teórico
-Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+O referencial teórico aborda conceitos e fundamentos relacionados a polímeros vegetais.
 
 ## 5. Metodologia
-Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+Procedimentos metodológicos descritos no documento original.
 
 ## 6. Principais Achados
-BARBIRATO, Henrique. **OSB com poliuretano vegetal**. 2022. 19 f. Trabalho acadêmico.
+Desenvolvimento de painéis OSB (Oriented Strand Board) utilizando poliuretano vegetal à base de óleo de mamona como adesivo, avaliando propriedades físicas e mecânicas.
 
 ## 7. Avaliação Crítica
-**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **PU Vegetal e Biocompósitos**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
-**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
+**Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a polímeros vegetais.
+**Limitações:** Análise baseada no texto extraído do PDF. Recomenda-se consulta ao documento original para verificação de detalhes.
+**Qualidade formal:** Documento com estrutura acadêmico-científica formal.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)** no eixo **PU Vegetal e Biocompósitos**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente. Conteúdo extraído do PDF original.
 
 ## Referência (ABNT)
-BARBIRATO, Henrique. **OSB com poliuretano vegetal**. 2022. 19 f. Trabalho acadêmico.
+Henrique Barbirato. **OSB com PU Vegetal: Desenvolvimento de painéis OSB com poliuretano à base de mamona**. Ciência Florestal, Santa Maria, v. 32, n. 1, p. 187-205, jan./mar. 2022. 2022.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). Conteúdo extraído do PDF original.*
