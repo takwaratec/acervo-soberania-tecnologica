@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Análise d
 Análise do circuito espacial produtivo de cafés especiais, abordando o salto de escala na produção e a organização do setor cafeeiro no Brasil.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a cafeicultura.
+A bioeconomia do bambu combina crescimento econômico com conservação ambiental. O mercado global movimenta bilhões de dólares, com desafios regulatórios e de escala no Brasil.
 
 ## 5. Metodologia
 Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.

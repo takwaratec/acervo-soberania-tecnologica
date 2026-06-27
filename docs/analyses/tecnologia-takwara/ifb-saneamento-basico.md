@@ -30,7 +30,7 @@ O documento apresenta-se como boletim técnico. boletim técnico. Boletim técni
 Boletim técnico sobre tratamento de esgoto doméstico no meio rural. Aborda métodos de tratamento e suas implicações para a saúde humana, contextualizando a aplicação de tecnologias de saneamento ecológico.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a preservação/tratamento, saneamento.
+O aproveitamento energético da biomassa de bambu e resíduos agroflorestais contribui para a matriz renovável, com aplicações em pirólise, gaseificação e biocombustíveis.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

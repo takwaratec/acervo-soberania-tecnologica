@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Estudo do 
 Estudo do ambiente de inovação em Minas Gerais, mapeando atores, recursos e políticas de apoio à inovação no estado.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a empreendedorismo/inovação.
+Documento técnico-científico sobre bambu, sua cadeia produtiva e aplicações tecnológicas, com contribuições que fundamentam o estado da arte do conhecimento sobre o tema.
 
 ## 5. Metodologia
 Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.

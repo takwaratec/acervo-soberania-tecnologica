@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Estudo etn
 Estudo etnográfico sobre os impactos da mineração da pedra São Tomé na saúde coletiva e justiça ambiental em São Thomé das Letras, MG.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a mineração.
+São Thomé das Letras, MG, tem geologia única com quartzitos e formações cársticas. Mineração, turismo e conflitos socioambientais são temas centrais dos estudos sobre a região.
 
 ## 5. Metodologia
 Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.

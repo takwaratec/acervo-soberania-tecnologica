@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Avaliaçã
 Avaliação da biomassa de Dendrocalamus asper para produção de energia, analisando propriedades físico-químicas e poder calorífico.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a biomassa, potencial energético.
+A densificação da biomassa de bambu em briquetes e pellets permite uso eficiente como combustível. O processo envolve secagem, moagem e compactação, resultando em produto de alta densidade energética.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

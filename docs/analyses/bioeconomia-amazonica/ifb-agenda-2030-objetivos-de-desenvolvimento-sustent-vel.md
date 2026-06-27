@@ -30,7 +30,7 @@ O documento apresenta-se como documento de política pública. A Agenda 2030 é 
 A Agenda 2030 é um plano de ação para as pessoas, o planeta e a prosperidade. Estabelece 17 Objetivos de Desenvolvimento Sustentável (ODS) e 169 metas integradas e indivisíveis que equilibram as três dimensões do desenvolvimento sustentável: econômica, social e ambiental.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a desenvolvimento sustentável.
+A bioeconomia do bambu combina crescimento econômico com conservação ambiental. O mercado global movimenta bilhões de dólares, com desafios regulatórios e de escala no Brasil.
 
 ## 5. Metodologia
 

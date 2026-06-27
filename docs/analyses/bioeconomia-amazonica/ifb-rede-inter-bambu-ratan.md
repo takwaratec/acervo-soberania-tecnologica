@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. Relatório técnico da Rede In
 Relatório técnico da Rede Interinstitucional Bambu e Ratan, abordando ações de pesquisa, desenvolvimento e cooperação técnica para o fortalecimento da cadeia produtiva do bambu e ratan no Brasil.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
+A bioeconomia do bambu combina crescimento econômico com conservação ambiental. O mercado global movimenta bilhões de dólares, com desafios regulatórios e de escala no Brasil.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

@@ -30,7 +30,7 @@ O documento apresenta-se como edital público. edital público. Edital de chamam
 Edital de chamamento público do CFDD (Conselho de Fundo de Desenvolvimento Científico e Tecnológico) para seleção de projetos de inovação.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a empreendedorismo/inovação.
+A preservação do bambu é essencial para viabilizar seu uso estrutural. Tratamentos convencionais (CCA, CCB, boro) são eficazes mas apresentam riscos ambientais. Alternativas ecológicas como tratamentos térmicos, extrato pirolenhoso e preservativos naturais vêm sendo investigadas.
 
 ## 5. Metodologia
 

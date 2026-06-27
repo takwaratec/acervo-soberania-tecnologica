@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Análise s
 Análise socioambiental da atividade minerária em São Thomé das Letras (MG), abordando impactos ambientais, conflitos sociais e aspectos regulatórios.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a mineração.
+São Thomé das Letras, MG, tem geologia única com quartzitos e formações cársticas. Mineração, turismo e conflitos socioambientais são temas centrais dos estudos sobre a região.
 
 ## 5. Metodologia
 Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.

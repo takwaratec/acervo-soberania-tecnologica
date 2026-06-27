@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Este traba
 Este trabalho caracteriza os recursos da geodiversidade de São Thomé das Letras (MG) e suas potencialidades de uso, incluindo aspectos turísticos e econômicos.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a tema abordado.
+São Thomé das Letras, MG, tem geologia única com quartzitos e formações cársticas. Mineração, turismo e conflitos socioambientais são temas centrais dos estudos sobre a região.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

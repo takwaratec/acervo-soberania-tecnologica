@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. Análise do desmatamento em es
 Análise do desmatamento em escala global, abordando causas (agropecuária, exploração madeireira, expansão urbana), consequências (mudanças climáticas, perda de biodiversidade, degradação do solo) e perspectivas para conservação florestal.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a carbono/clima, desmatamento, floresta.
+O aproveitamento energético da biomassa de bambu e resíduos agroflorestais contribui para a matriz renovável, com aplicações em pirólise, gaseificação e biocombustíveis.
 
 ## 5. Metodologia
 

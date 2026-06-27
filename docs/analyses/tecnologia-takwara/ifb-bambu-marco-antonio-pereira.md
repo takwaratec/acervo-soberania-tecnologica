@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Livro sobr
 Livro sobre o bambu como recurso natural renovável do século 21, abordando suas aplicações tecnológicas, potencial construtivo e aspectos ecológicos.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
+Documento técnico-científico sobre bambu, sua cadeia produtiva e aplicações tecnológicas, com contribuições que fundamentam o estado da arte do conhecimento sobre o tema.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

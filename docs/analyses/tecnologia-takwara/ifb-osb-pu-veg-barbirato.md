@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Desenvolvi
 Desenvolvimento de painéis OSB (Oriented Strand Board) utilizando poliuretano vegetal à base de óleo de mamona como adesivo, avaliando propriedades físicas e mecânicas.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a polímeros vegetais.
+O poliuretano vegetal de mamona (Imperveg) é alternativa sustentável aos poliuretanos petroquímicos, validado por ensaios como impermeabilizante, adesivo e matriz para biocompósitos.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

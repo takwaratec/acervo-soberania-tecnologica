@@ -31,8 +31,7 @@ This study evaluated the physical and mechanical properties of Bamboo Laminated 
 
 ## 4. Referencial Teórico
 
-O Bambu Laminado Colado (BLC) é um compósito estrutural produzido a partir de lâminas de bambu unidas por adesivos sob pressão. As espécies Bambusa vulgaris e Dendrocalamus asper são as mais utilizadas no Brasil para produção de BLC devido à sua disponibilidade e propriedades mecânicas favoráveis.
-
+A caracterização mecânica e física do bambu é essencial para sua normalização como material de engenharia. Propriedades como resistência à tração, compressão, flexão e cisalhamento variam entre espécies, idade do colmo e região de coleta. O conhecimento sistemático dessas propriedades permite o dimensionamento seguro de estruturas de bambu.
 ## 5. Metodologia
 
 Ensaio mecânico de corpos de prova de BLC produzidos com Bambusa vulgaris e Dendrocalamus asper, seguindo normas ABNT NBR 7190 para determinação de resistência à flexão, compressão e cisalhamento.

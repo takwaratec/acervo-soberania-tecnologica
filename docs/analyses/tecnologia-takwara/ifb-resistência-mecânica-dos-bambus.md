@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Notas de a
 Notas de aula/disciplina sobre resistência mecânica dos bambus, abordando propriedades estruturais, normas técnicas (ABNT, ISO) e aplicações do bambu na construção civil. Inclui referências a normas colombianas e peruanas para uso do bambu em edificações.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
+A caracterização mecânica do bambu é fundamental para sua normalização como material de engenharia. Propriedades como tração, compressão, flexão e cisalhamento variam entre espécies, idade do colmo e região de coleta.
 
 ## 5. Metodologia
 

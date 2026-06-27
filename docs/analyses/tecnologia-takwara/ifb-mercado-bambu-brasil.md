@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Este docum
 Este documento analisa a economia do bambu no Brasil, incluindo tecnologias de processamento, cadeia produtiva e oportunidades de mercado para produtos de bambu no país.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
+A bioeconomia do bambu combina crescimento econômico com conservação ambiental. O mercado global movimenta bilhões de dólares, com desafios regulatórios e de escala no Brasil.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

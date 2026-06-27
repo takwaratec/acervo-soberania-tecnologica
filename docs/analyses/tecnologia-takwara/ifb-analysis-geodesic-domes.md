@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. This paper
 This paper presents an analysis of geodesic dome structures, including their structural behavior, design considerations, and comparative performance under various loading conditions.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a geodésicas.
+Estruturas geodésicas de bambu combinam a geometria de Fuller com as propriedades do bambu. Domos de diferentes frequências permitem vãos livres de até 30 metros com conexões como ponto crítico do sistema.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

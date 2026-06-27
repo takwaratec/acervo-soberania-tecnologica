@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. A Agenda 2
 A Agenda 2030 da ONU estabelece 17 Objetivos de Desenvolvimento Sustentável (ODS) e 169 metas para erradicar a pobreza, proteger o planeta e garantir prosperidade para todos até 2030.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a tema abordado.
+A bioeconomia do bambu combina crescimento econômico com conservação ambiental. O mercado global movimenta bilhões de dólares, com desafios regulatórios e de escala no Brasil.
 
 ## 5. Metodologia
 

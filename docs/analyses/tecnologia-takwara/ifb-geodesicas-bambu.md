@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. O trabalho
 O trabalho mostra o procedimento para construção de um domo geodésico de 4m de diâmetro usando segmentos de bambu tuldóides com técnica de amarração. Ensaios de carregamento em maquetes demonstraram comportamento mecânico superior da estrutura de bambu em relação ao aço: o domo de bambu resistiu a 3
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu, geodésicas.
+Estruturas geodésicas de bambu combinam a geometria de Fuller com as propriedades do bambu. Domos de diferentes frequências permitem vãos livres de até 30 metros com conexões como ponto crítico do sistema.
 
 ## 5. Metodologia
 

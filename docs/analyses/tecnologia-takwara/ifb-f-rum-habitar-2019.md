@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Este artig
 Este artigo tem por objetivo mostrar o panorama de incorporação de tecnologias limpas na construção de Habitação de Interesse Social (HIS) no Brasil a partir de revisão da literatura. Aborda o uso de tecnologias sustentáveis no ambiente construído.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a empreendedorismo/inovação.
+Documento técnico-científico sobre bambu, sua cadeia produtiva e aplicações tecnológicas, com contribuições que fundamentam o estado da arte do conhecimento sobre o tema.
 
 ## 5. Metodologia
 Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.

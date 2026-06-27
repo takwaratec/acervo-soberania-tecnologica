@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. This paper
 This paper discusses the potentiality and practicability of installing suspended flooring in geodesic domes using a cable system, presenting a novel constructive solution for bamboo geodesic structures.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu, geodésicas.
+Estruturas geodésicas de bambu combinam a geometria de Fuller com as propriedades do bambu. Domos de diferentes frequências permitem vãos livres de até 30 metros com conexões como ponto crítico do sistema.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

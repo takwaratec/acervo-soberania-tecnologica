@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Estudo das
 Estudo das propriedades físicas e mecânicas de corpos de prova de bambu da espécie Dendrocalamus Giganteus através de ensaios normatizados e experimentais. Foram medidas características físicas como tamanho do internó, espessura da parede e diâmetro interno ao longo do colmo, e realizados ensaios de
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
+A caracterização mecânica do bambu é fundamental para sua normalização como material de engenharia. Propriedades como tração, compressão, flexão e cisalhamento variam entre espécies, idade do colmo e região de coleta.
 
 ## 5. Metodologia
 

@@ -31,8 +31,7 @@ Produção e caracterização de pellets de Bambusa vulgaris para fins energéti
 
 ## 4. Referencial Teórico
 
-A produção de pellets de biomassa de Bambusa vulgaris para geração de energia é uma aplicação promissora do bambu. Os pellets são combustíveis densificados com alta eficiência energética e baixa emissão.
-
+A densificação da biomassa de bambu em briquetes e pellets permite sua utilização eficiente como combustível sólido. O processo envolve secagem, moagem e compactação sob alta pressão, resultando em um produto com alta densidade energética, baixa umidade e combustão limpa. A qualidade dos pellets é regulada por normas como ENplus.
 ## 5. Metodologia
 
 Produção de pellets de Bambusa vulgaris em peletizadora industrial. Caracterização físico-química incluindo poder calorífico, teor de cinzas, densidade, durabilidade mecânica e composição elementar.

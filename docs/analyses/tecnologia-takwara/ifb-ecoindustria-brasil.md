@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Análise d
 Análise da situação atual e perspectivas da ecoindústria no Brasil, abordando políticas, tecnologias e oportunidades para o setor.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a tema abordado.
+A bioeconomia do bambu combina crescimento econômico com conservação ambiental. O mercado global movimenta bilhões de dólares, com desafios regulatórios e de escala no Brasil.
 
 ## 5. Metodologia
 

@@ -31,8 +31,7 @@ This study investigates the thermal characteristics of ash from Indonesian bambo
 
 ## 4. Referencial Teórico
 
-A termogravimetria é uma técnica analítica que mede a variação de massa de uma amostra em função da temperatura. Aplicada ao bambu indonésio, permite caracterizar a decomposição térmica dos componentes lignocelulósicos.
-
+A pirólise do bambu produz carvão vegetal, biochar e extrato pirolenhoso como coprodutos de valor agregado. As condições de carbonização — temperatura, taxa de aquecimento e atmosfera — determinam as propriedades físico-químicas dos produtos. O biochar de bambu tem aplicações na remediação ambiental, condicionamento de solos e sequestro de carbono.
 ## 5. Metodologia
 
 Análise termogravimétrica (TG/DTG) de amostras de bambu indonésio em atmosfera de nitrogênio, com taxa de aquecimento de 10°C/min até 800°C. Determinação do teor de cinzas por combustão em mufla a 600°C.

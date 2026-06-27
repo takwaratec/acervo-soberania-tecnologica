@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Análise d
 Análise de conjuntura e expectativas para o mercado de pellets de madeira e madeira para lenha no Brasil, incluindo produção, consumo e perspectivas.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a briquetes/pellets, madeira.
+A densificação da biomassa de bambu em briquetes e pellets permite uso eficiente como combustível. O processo envolve secagem, moagem e compactação, resultando em produto de alta densidade energética.
 
 ## 5. Metodologia
 Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.

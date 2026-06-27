@@ -31,8 +31,7 @@ Publicação da INBAR sobre a relação entre bambu, populações e meio ambient
 
 ## 4. Referencial Teórico
 
-Os bambus são recursos naturais versáteis com importância ecológica, econômica e social. Este documento aborda as interações entre bambu, populações humanas e meio ambiente, destacando seu papel na sustentabilidade.
-
+A bioeconomia do bambu insere-se no contexto do desenvolvimento sustentável, combinando crescimento econômico com conservação ambiental. O mercado global de bambu movimenta bilhões de dólares anualmente, com destaque para China, Índia e Sudeste Asiático. No Brasil, a cadeia produtiva do bambu enfrenta desafios regulatórios e de escala.
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.
 

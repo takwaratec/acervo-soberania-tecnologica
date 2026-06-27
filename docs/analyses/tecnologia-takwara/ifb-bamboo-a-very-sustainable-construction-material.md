@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Bamboo is 
 Bamboo is a rapidly renewable natural resource that has been used as a construction material for millennia. This paper provides a comprehensive overview of bamboo as a sustainable construction material.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
+Documento técnico-científico sobre bambu, sua cadeia produtiva e aplicações tecnológicas, com contribuições que fundamentam o estado da arte do conhecimento sobre o tema.
 
 ## 5. Metodologia
 

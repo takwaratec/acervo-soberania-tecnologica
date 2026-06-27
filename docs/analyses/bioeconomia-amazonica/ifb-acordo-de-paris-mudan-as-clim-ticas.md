@@ -30,7 +30,7 @@ O documento apresenta-se como tratado internacional. O Acordo de Paris é um tra
 O Acordo de Paris é um tratado internacional vinculante sobre mudança do clima, adotado por 196 Partes na COP21. Seu objetivo central é fortalecer a resposta global à ameaça da mudança do clima, mantendo o aumento da temperatura média global bem abaixo de 2°C acima dos níveis pré-industriais.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a carbono/clima.
+A bioeconomia do bambu combina crescimento econômico com conservação ambiental. O mercado global movimenta bilhões de dólares, com desafios regulatórios e de escala no Brasil.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

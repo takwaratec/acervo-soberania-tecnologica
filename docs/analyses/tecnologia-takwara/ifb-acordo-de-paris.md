@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. O Acordo d
 O Acordo de Paris é um tratado internacional sobre mudança do clima, adotado por 196 Partes na COP21 em Paris, em 12 de dezembro de 2015. Tem como objetivo limitar o aquecimento global a bem menos de 2°C acima dos níveis pré-industriais.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a carbono/clima.
+O Acordo de Paris (2015) é tratado internacional sob a UNFCCC que estabelece metas de redução de emissões de gases de efeito estufa por meio das Contribuições Nacionalmente Determinadas (NDCs) e mecanismos de financiamento climático.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

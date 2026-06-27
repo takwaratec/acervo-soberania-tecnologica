@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Chemical m
 Chemical modification has been recognized as an efficient strategy for dimensionally stabilizing wood and protecting it from environmental damage, such as deterioration due to weathering and fungal decay during the service period.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a propriedades mecânicas, madeira.
+Documento técnico-científico sobre bambu, sua cadeia produtiva e aplicações tecnológicas, com contribuições que fundamentam o estado da arte do conhecimento sobre o tema.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

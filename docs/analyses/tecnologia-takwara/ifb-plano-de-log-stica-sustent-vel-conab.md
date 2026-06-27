@@ -30,7 +30,7 @@ O documento apresenta-se como plano institucional. plano institucional. Plano de
 Plano de gestão de logística sustentável da CONAB em Minas Gerais, abrangendo práticas de sustentabilidade, gestão de resíduos, eficiência energética e compras sustentáveis.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a potencial energético, logística sustentável.
+A preservação do bambu é essencial para viabilizar seu uso estrutural. Tratamentos convencionais (CCA, CCB, boro) são eficazes mas apresentam riscos ambientais. Alternativas ecológicas como tratamentos térmicos, extrato pirolenhoso e preservativos naturais vêm sendo investigadas.
 
 ## 5. Metodologia
 

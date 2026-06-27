@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. O extrato 
 O extrato pirolenhoso (EP) é um líquido obtido durante a produção de carvão vegetal, através da queima da madeira. Este documento descreve técnicas para sua produção e uso agrícola.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a madeira.
+A preservação do bambu é essencial para viabilizar seu uso estrutural. Tratamentos convencionais (CCA, CCB, boro) são eficazes mas apresentam riscos ambientais. Alternativas ecológicas como tratamentos térmicos, extrato pirolenhoso e preservativos naturais vêm sendo investigadas.
 
 ## 5. Metodologia
 

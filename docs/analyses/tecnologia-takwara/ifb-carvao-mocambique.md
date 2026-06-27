@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Charcoal i
 Charcoal is the main energy source for cooking in Maputo, Mozambique. This study analyses the charcoal supply chain from Mabalane to Maputo to understand who benefits from the charcoal trade.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a pirólise/carbonização, potencial energético.
+A pirólise do bambu produz carvão vegetal, biochar e extrato pirolenhoso. As condições de carbonização determinam as propriedades dos produtos finais, com aplicações em remediação ambiental e sequestro de carbono.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

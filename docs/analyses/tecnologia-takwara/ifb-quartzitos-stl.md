@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Caracteriz
 Caracterização dos quartzitos do centro produtor de São Thomé das Letras (MG), analisando propriedades geológicas e potencial econômico.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a mineração.
+São Thomé das Letras, MG, tem geologia única com quartzitos e formações cársticas. Mineração, turismo e conflitos socioambientais são temas centrais dos estudos sobre a região.
 
 ## 5. Metodologia
 Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.

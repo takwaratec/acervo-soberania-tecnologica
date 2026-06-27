@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Analysis o
 Analysis of the challenges Brazil faces in becoming an agricultural superpower, examining structural, environmental and economic factors.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a agricultura.
+A bioeconomia do bambu combina crescimento econômico com conservação ambiental. O mercado global movimenta bilhões de dólares, com desafios regulatórios e de escala no Brasil.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

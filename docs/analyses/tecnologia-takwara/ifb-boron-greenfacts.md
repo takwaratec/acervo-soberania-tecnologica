@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Nível 2 d
 Nível 2 de detalhamento sobre o boro, abordando suas propriedades, usos, efeitos na saúde e meio ambiente. Relevante para preservação de bambu com compostos boratos.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu, preservação/tratamento.
+Documento técnico-científico sobre bambu, sua cadeia produtiva e aplicações tecnológicas, com contribuições que fundamentam o estado da arte do conhecimento sobre o tema.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

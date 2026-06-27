@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Este traba
 Este trabalho avalia o efeito do tratamento de vaporização em toras de Eucalyptus dunnii sobre as propriedades da madeira, analisando a permeabilidade e os efeitos na secagem.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a preservação/tratamento, madeira.
+A preservação do bambu é essencial para viabilizar seu uso estrutural. Tratamentos convencionais (CCA, CCB, boro) são eficazes mas apresentam riscos ambientais. Alternativas ecológicas como tratamentos térmicos, extrato pirolenhoso e preservativos naturais vêm sendo investigadas.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

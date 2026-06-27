@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Edital de 
 Edital de abertura do processo seletivo para ingresso de empresas na Multincubadora de Empresas do CDT/UnB, fluxo contínuo 2022.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a empreendedorismo/inovação.
+A preservação do bambu é essencial para viabilizar seu uso estrutural. Tratamentos convencionais (CCA, CCB, boro) são eficazes mas apresentam riscos ambientais. Alternativas ecológicas como tratamentos térmicos, extrato pirolenhoso e preservativos naturais vêm sendo investigadas.
 
 ## 5. Metodologia
 

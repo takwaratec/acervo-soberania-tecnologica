@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. Documento da ANP sobre regulam
 Documento da ANP sobre regulamentação e perspectivas dos biolubrificantes no Brasil, abordando aspectos normativos, técnicos e de mercado para lubrificantes renováveis.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a biolubrificantes.
+O aproveitamento energético da biomassa de bambu e resíduos agroflorestais contribui para a matriz renovável, com aplicações em pirólise, gaseificação e biocombustíveis.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

@@ -31,8 +31,7 @@ Avaliação do potencial de espécies de bambu para produção de briquetes, ana
 
 ## 4. Referencial Teórico
 
-A produção de briquetes a partir de biomassa de bambu representa uma alternativa sustentável para geração de energia. O bambu, por seu rápido crescimento e alta densidade energética, apresenta grande potencial como matéria-prima para biocomustíveis sólidos. A briquetagem permite compactar resíduos de biomassa em combustíveis de alta qualidade, com maior poder calorífico e menor emissão de poluentes.
-
+A densificação da biomassa de bambu em briquetes e pellets permite sua utilização eficiente como combustível sólido. O processo envolve secagem, moagem e compactação sob alta pressão, resultando em um produto com alta densidade energética, baixa umidade e combustão limpa. A qualidade dos pellets é regulada por normas como ENplus.
 ## 5. Metodologia
 
 Revisão bibliográfica sobre processos de briquetagem de biomassa de bambu, incluindo etapas de coleta, secagem, moagem, compactação e caracterização dos briquetes produzidos.

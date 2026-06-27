@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Foram anal
 Foram analisadas a resistência à flexão estática e à compressão paralela às fibras da madeira de Eucalyptus dunnii, contribuindo para o conhecimento das propriedades mecânicas da espécie.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a madeira.
+Documento técnico-científico sobre bambu, sua cadeia produtiva e aplicações tecnológicas, com contribuições que fundamentam o estado da arte do conhecimento sobre o tema.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

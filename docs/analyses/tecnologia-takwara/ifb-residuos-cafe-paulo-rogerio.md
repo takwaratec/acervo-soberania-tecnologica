@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Análise d
 Análise das consequências ambientais da cafeicultura convencional e alternativas de modelos produtivos sustentáveis com reaproveitamento de resíduos.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a tema abordado.
+O aproveitamento energético da biomassa de bambu e resíduos agroflorestais contribui para a matriz renovável, com aplicações em pirólise, gaseificação e biocombustíveis.
 
 ## 5. Metodologia
 Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.

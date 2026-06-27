@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Este traba
 Este trabalho realizou a caracterização física de briquetes produzidos da mistura de resíduos de bambu e serragem de angelim vermelho, classificando fisicamente estes briquetes e avaliando sua viabilidade técnica. Foram testadas três temperaturas (120°C, 130°C e 140°C) e cinco proporções de resíduos
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu, briquetes/pellets.
+A densificação da biomassa de bambu em briquetes e pellets permite uso eficiente como combustível. O processo envolve secagem, moagem e compactação, resultando em produto de alta densidade energética.
 
 ## 5. Metodologia
 

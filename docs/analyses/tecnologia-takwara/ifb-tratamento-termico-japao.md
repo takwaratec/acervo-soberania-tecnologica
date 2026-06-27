@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Investiga�
 Investigação dos efeitos da modificação térmica nas propriedades da madeira, realizada no Kyoto Institute of Technology, Japão, analisando alterações estruturais e mecânicas.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a madeira.
+A preservação do bambu é essencial para viabilizar seu uso estrutural. Tratamentos convencionais (CCA, CCB, boro) são eficazes mas apresentam riscos ambientais. Alternativas ecológicas como tratamentos térmicos, extrato pirolenhoso e preservativos naturais vêm sendo investigadas.
 
 ## 5. Metodologia
 Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.

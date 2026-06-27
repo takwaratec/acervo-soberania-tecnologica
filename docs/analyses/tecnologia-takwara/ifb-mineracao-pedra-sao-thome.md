@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. A mineraç
 A mineração da pedra São Tomé no município de São Tomé das Letras (MG) tem causado impactos ambientais e sociais significativos. Este artigo analisa esses impactos e os conflitos gerados.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a mineração.
+São Thomé das Letras, MG, tem geologia única com quartzitos e formações cársticas. Mineração, turismo e conflitos socioambientais são temas centrais dos estudos sobre a região.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. Obra de referência sobre bamb
 Obra de referência sobre bambus no Brasil, abrangendo desde aspectos biológicos até tecnológicos. Organizada pela Embrapa em parceria com o MCTIC, reúne contribuições de dezenas de pesquisadores brasileiros sobre taxonomia, ecologia, cultivo, manejo, propriedades e usos do bambu.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
+A bioeconomia do bambu combina crescimento econômico com conservação ambiental. O mercado global movimenta bilhões de dólares, com desafios regulatórios e de escala no Brasil.
 
 ## 5. Metodologia
 

@@ -31,8 +31,7 @@ This study investigated the physico-thermal and emission properties of bamboo ch
 
 ## 4. Referencial Teórico
 
-O carvão vegetal produzido a partir de Bambusa clonado apresenta propriedades físicas e químicas que dependem das condições de carbonização. O uso de clones selecionados permite maior uniformidade e previsibilidade das propriedades do carvão.
-
+A pirólise do bambu produz carvão vegetal, biochar e extrato pirolenhoso como coprodutos de valor agregado. As condições de carbonização — temperatura, taxa de aquecimento e atmosfera — determinam as propriedades físico-químicas dos produtos. O biochar de bambu tem aplicações na remediação ambiental, condicionamento de solos e sequestro de carbono.
 ## 5. Metodologia
 
 Carbonização de amostras de Bambusa clonado em diferentes temperaturas (400-800°C). Caracterização por análises imediata e elementar, poder calorífico, densidade aparente e rendimento gravimétrico.

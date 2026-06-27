@@ -31,8 +31,7 @@ Bamboos are one of the most economically important plant groups globally, but th
 
 ## 4. Referencial Teórico
 
-Os bambus são gramíneas da subfamília Bambusoideae, distribuídas naturalmente em todos os continentes exceto Antártida e Europa. A diversidade de espécies é maior na Ásia tropical e América do Sul, com centros de endemismo no Sudeste Asiático e na Bacia Amazônica.
-
+A bioeconomia do bambu insere-se no contexto do desenvolvimento sustentável, combinando crescimento econômico com conservação ambiental. O mercado global de bambu movimenta bilhões de dólares anualmente, com destaque para China, Índia e Sudeste Asiático. No Brasil, a cadeia produtiva do bambu enfrenta desafios regulatórios e de escala.
 ## 5. Metodologia
 
 Revisão bibliográfica sobre a distribuição global dos bambus, baseada em dados de herbários, coletas botânicas e literatura especializada. Análise fitogeográfica dos gêneros e espécies.

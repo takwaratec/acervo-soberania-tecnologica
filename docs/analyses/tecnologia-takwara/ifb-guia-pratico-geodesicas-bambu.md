@@ -30,7 +30,7 @@ O documento apresenta-se como manual técnico. manual técnico. Guia prático pa
 Guia prático para construção de cúpulas geodésicas utilizando bambu como material estrutural. Aborda técnicas de construção, dimensionamento e montagem.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu, geodésicas.
+Estruturas geodésicas de bambu combinam a geometria de Fuller com as propriedades do bambu. Domos de diferentes frequências permitem vãos livres de até 30 metros com conexões como ponto crítico do sistema.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

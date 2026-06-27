@@ -29,7 +29,7 @@ O documento apresenta-se como artigo científico publicado em periódico revisad
 **Tema central:** Energy properties of bamboo biomass and mate co-products. O objetivo do estudo foi determinar as propriedades energéticas da biomassa de três espécies de bambu e coprodutos de erva-mate, avaliando seu potencial como fonte de energia limpa e renovável.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu, biomassa, potencial energético, combustíveis fósseis versus fontes renováveis, e caracterização de propriedades físico-químicas de biomassas lignocelulósicas.
+A densificação da biomassa de bambu em briquetes e pellets permite uso eficiente como combustível. O processo envolve secagem, moagem e compactação, resultando em produto de alta densidade energética.
 
 ## 5. Metodologia
 Foram avaliadas densidade básica, teor de umidade, teores de voláteis, cinzas e carbono fixo, poder calorífico bruto e líquido, e densidade energética das biomassas. As análises seguiram normas técnicas para caracterização de biomassa para fins energéticos.

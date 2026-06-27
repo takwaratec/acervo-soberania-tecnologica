@@ -31,8 +31,7 @@ This paper presents the results of an experimental investigation on the use of b
 
 ## 4. Referencial Teórico
 
-Khosrow Ghavami é uma das maiores autoridades mundiais em engenharia de bambu. Sua pesquisa estabeleceu as bases para a caracterização mecânica sistemática do bambu como material de construção, incluindo propriedades de tração, compressão, flexão e cisalhamento de diversas espécies.
-
+A caracterização mecânica e física do bambu é essencial para sua normalização como material de engenharia. Propriedades como resistência à tração, compressão, flexão e cisalhamento variam entre espécies, idade do colmo e região de coleta. O conhecimento sistemático dessas propriedades permite o dimensionamento seguro de estruturas de bambu.
 ## 5. Metodologia
 
 Ensaios mecânicos laboratoriais seguindo normas internacionais, com corpos de prova de bambu Dendrocalamus giganteus e Bambusa vulgaris. Testes de tração, compressão paralela às fibras, flexão estática e cisalhamento.

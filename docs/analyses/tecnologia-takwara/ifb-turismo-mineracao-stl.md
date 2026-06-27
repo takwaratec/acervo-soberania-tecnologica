@@ -30,7 +30,7 @@ O documento apresenta-se como dissertação de mestrado. dissertação de mestra
 Esta dissertação analisa os conflitos e potencialidades entre turismo e mineração em São Thomé das Letras (MG), investigando as relações socioeconômicas e ambientais.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a mineração.
+São Thomé das Letras, MG, tem geologia única com quartzitos e formações cársticas. Mineração, turismo e conflitos socioambientais são temas centrais dos estudos sobre a região.
 
 ## 5. Metodologia
 A metodologia é descrita detalhadamente no documento original, incluindo área de estudo, procedimentos de coleta e análise de dados.

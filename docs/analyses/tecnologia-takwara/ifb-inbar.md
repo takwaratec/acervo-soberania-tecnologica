@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Padrões e
 Padrões e diretrizes internacionais para preservação de bambu estabelecidos pela INBAR, abordando métodos de tratamento, produtos preservativos e procedimentos de controle de qualidade.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu, preservação/tratamento.
+A preservação do bambu é essencial para viabilizar seu uso estrutural. Tratamentos convencionais (CCA, CCB, boro) são eficazes mas apresentam riscos ambientais. Alternativas ecológicas como tratamentos térmicos, extrato pirolenhoso e preservativos naturais vêm sendo investigadas.
 
 ## 5. Metodologia
 

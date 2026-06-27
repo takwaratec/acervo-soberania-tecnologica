@@ -31,8 +31,7 @@ Handbook abrangente sobre ecologia industrial, cobrindo conceitos, métodos e ap
 
 ## 4. Referencial Teórico
 
-are likely to arise and be resolved. In many ﬁelds, a discussion of law and regulation is straightforward, if detailed. Industrial ecology, however, oﬀers a more daunting analytical challenge, for two princi- pal reasons. First, it represents the evolution of environmental policy from overhead to strategic for both society and ﬁrms. As overhead, environment was essentially an after- thought, to be taken care of once the core activity, whether it was producing widgets in the ﬁrm, or carrying out 
-
+A bioeconomia do bambu insere-se no contexto do desenvolvimento sustentável, combinando crescimento econômico com conservação ambiental. O mercado global de bambu movimenta bilhões de dólares anualmente, com destaque para China, Índia e Sudeste Asiático. No Brasil, a cadeia produtiva do bambu enfrenta desafios regulatórios e de escala.
 ## 5. Metodologia
 
 8 Material ﬂow analysis 79 Stefan Bringezu and Yuichi Moriguchi 9 Substance ﬂow analysis methodology 91 Ester van der Voet 10 Physical input–output accounting 102 Gunter Strassert 11 Process analysis approach to industrial ecology 114 Urmila Diwekar and Mitchell J. Small 12 Industrial ecology and life cycle assessment 138 Helias A. Udo de Haes 13 Impact evaluation in industrial ecology 149 Bengt Steen

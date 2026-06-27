@@ -30,7 +30,7 @@ O documento apresenta-se como documento normativo. documento normativo. Manual d
 Manual do sistema de certificação ENplus para pellets de madeira, Parte 3, estabelecendo requisitos de qualidade e especificações técnicas para pellets certificados.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a briquetes/pellets, madeira.
+A densificação da biomassa de bambu em briquetes e pellets permite uso eficiente como combustível. O processo envolve secagem, moagem e compactação, resultando em produto de alta densidade energética.
 
 ## 5. Metodologia
 Procedimentos metodológicos descritos no documento original.

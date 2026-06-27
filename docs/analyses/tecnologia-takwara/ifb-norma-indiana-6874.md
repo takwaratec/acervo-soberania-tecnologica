@@ -30,7 +30,7 @@ O documento apresenta-se como documento normativo. documento normativo. Esta nor
 Esta norma indiana estabelece métodos de teste para bambu, incluindo procedimentos para avaliação de propriedades físicas e mecânicas de colmos de bambu.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a bambu.
+Documento técnico-científico sobre bambu, sua cadeia produtiva e aplicações tecnológicas, com contribuições que fundamentam o estado da arte do conhecimento sobre o tema.
 
 ## 5. Metodologia
 Metodologia descrita no documento original, com procedimentos, materiais e métodos de análise específicos.

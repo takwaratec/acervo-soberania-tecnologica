@@ -30,7 +30,7 @@ O documento apresenta-se como artigo científico. artigo científico. Este traba
 Este trabalho descreve o desenvolvimento de um equipamento para produção de pellets de madeira, denominado GEExPELLET, abordando aspectos construtivos e de desempenho.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a briquetes/pellets, madeira.
+A densificação da biomassa de bambu em briquetes e pellets permite uso eficiente como combustível. O processo envolve secagem, moagem e compactação, resultando em produto de alta densidade energética.
 
 ## 5. Metodologia
 

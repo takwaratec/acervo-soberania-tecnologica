@@ -31,8 +31,7 @@ This study investigated the fuel properties of six bamboo species grown in Indon
 
 ## 4. Referencial Teórico
 
-A produção de carvão vegetal a partir de bambu na Indonésia utiliza espécies nativas como Dendrocalamus asper e Bambusa vulgaris. O processo de carbonização transforma a biomassa em carvão com alto teor de carbono fixo, adequado para uso como combustível e na indústria.
-
+A pirólise do bambu produz carvão vegetal, biochar e extrato pirolenhoso como coprodutos de valor agregado. As condições de carbonização — temperatura, taxa de aquecimento e atmosfera — determinam as propriedades físico-químicas dos produtos. O biochar de bambu tem aplicações na remediação ambiental, condicionamento de solos e sequestro de carbono.
 ## 5. Metodologia
 
 Carbonização em fornos tipo mufla a temperaturas entre 400°C e 700°C, com taxa de aquecimento controlada. Análise imediata (teor de carbono fixo, materiais voláteis, cinzas) e poder calorífico conforme normas ASTM.

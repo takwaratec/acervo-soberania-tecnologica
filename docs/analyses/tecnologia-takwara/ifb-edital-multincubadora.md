@@ -30,7 +30,7 @@ O documento apresenta-se como edital público. edital público. Edital de seleç
 Edital de seleção para ingresso de empresas na Incubadora Multincubadora de Empresas do CDT/UnB, estabelecendo critérios e procedimentos para pré-incubação e incubação de empreendimentos inovadores.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a empreendedorismo/inovação.
+A preservação do bambu é essencial para viabilizar seu uso estrutural. Tratamentos convencionais (CCA, CCB, boro) são eficazes mas apresentam riscos ambientais. Alternativas ecológicas como tratamentos térmicos, extrato pirolenhoso e preservativos naturais vêm sendo investigadas.
 
 ## 5. Metodologia
 

@@ -30,7 +30,7 @@ O documento apresenta-se como tese de doutorado. Tese de doutorado que determina
 Tese de doutorado que determina o potencial de sequestro de carbono na recuperação de matas ciliares na região de São Carlos-SP. Analisa o papel da vegetação ripária na mitigação das mudanças climáticas e na captura de CO2 atmosférico.
 
 ## 4. Referencial Teórico
-O referencial teórico aborda conceitos e fundamentos relacionados a carbono/clima.
+O aproveitamento energético da biomassa de bambu e resíduos agroflorestais contribui para a matriz renovável, com aplicações em pirólise, gaseificação e biocombustíveis.
 
 ## 5. Metodologia
 
