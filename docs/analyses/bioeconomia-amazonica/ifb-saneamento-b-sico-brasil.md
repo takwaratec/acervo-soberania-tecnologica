@@ -1,17 +1,51 @@
+---
+tipo: Ficha IFB — Projeto Bambu (2021) — Método Cavichioli (2025)
+referencia: 
+data: 2026-06-27
+status: Consolidado
+metodo: 200+ Prompts para Escrever Artigos Científicos (Cavichiolli, 2025)
+licenca: CC BY 4.0
+---
+
 # IFB — Saneamento Básico — Brasil (2020)
 
-> **Referência do Catálogo IFB (Projeto PROGRUPOS/IFB).** Ficha simplificada baseada no acervo bibliográfico do Projeto Bambu do Instituto Federal de Brasília.
+> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
 
----
+## 1. Dados Gerais
+| Campo | Dado |
+|-------|------|
+| **Título** | Saneamento Básico — Brasil (2020) |
+| **Autor(es)** | AUTOR |
+| **Ano** | 2020 |
+| **Páginas** | 61 p. |
+| **Eixo temático** | Geral |
+| **Código** |  |
 
-## Referência (ABNT)
+## 2. Estrutura e Organização
+Documento técnico-científico sobre saneamento básico — brasil (2020). AUTOR(ES). **Saneamento básico no Brasil**: desafios e perspectivas. 2020. 61 p....
 
+## 3. Problema e Perguntas de Pesquisa
+**Tema central:** Saneamento Básico — Brasil (2020). O documento investiga autor(es).
+
+## 4. Referencial Teórico
+Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
+
+## 5. Metodologia
+Metodologia não detalhada nesta ficha. O PDF original contém os procedimentos metodológicos adotados.
+
+## 6. Principais Achados
 AUTOR(ES). **Saneamento básico no Brasil**: desafios e perspectivas. 2020. 61 p.
 
-## Descrição
+## 7. Avaliação Crítica
+**Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
+**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
 
-Diagnóstico do saneamento básico no Brasil, com ênfase no déficit de coleta e tratamento de esgoto nas regiões Norte e Nordeste. Contextualiza a proposta de saneamento ecológico do projeto MQTF (Estações BSM T12).
+## 8. Inserção no Estado da Arte
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+
+## Referência (ABNT)
+AUTOR(ES). **Saneamento básico no Brasil**: desafios e perspectivas. 2020. 61 p.
 
 ---
-
-*Ficha gerada a partir do Catálogo IFB — Projeto PROGRUPOS/IFB (84 referências). Conteúdo original disponível em PDF no diretório `/Bibliografia Consultada/`.*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
