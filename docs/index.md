@@ -72,11 +72,13 @@ Aqui você encontrará o resultado da curadoria científica de artigos, teses, d
 
 | Indicador | Total |
 |-----------|-------|
-| **Fichas técnicas** | ~80 |
+| **Fichas técnicas e resenhas** | ~207 |
 | **Catálogo IFB** | 84 referências |
 | **Eixos temáticos** | 9 (6 originais + ECOSALA + Vaga Lúmen + MST) |
-| **Fichas Imperveg** | MAMONEX RD70, UG 132A, RQI |
-| **Período coberto** | 1998–2025 |
+| **Artigos e teses fichados** | 43 resenhas de teses/dissertações/artigos |
+| **Fichas de tecnologia** | 47 fichas (Série T, domos, PU vegetal, forno, fitorremediação, etc.) |
+| **Perfis de pesquisadores** | 7 perfis (Ghavami, Jayme, Beraldo, Hidalgo, Vélez, Ripper, Takwara) |
+| **Período coberto** | 1997–2026 |
 | **Licença** | CC BY 4.0 |
 
 ---
