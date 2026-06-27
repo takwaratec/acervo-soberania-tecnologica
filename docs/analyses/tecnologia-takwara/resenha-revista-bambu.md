@@ -2,16 +2,18 @@
 tipo: Resenha Científica
 referencia: Revista_Bambu_RBB_2022_INBAR_BRU_2025
 autor: Fabio Takwara
-data: 2026-06-26
+data: 2026-06-27
 status: Consolidado
 licenca: CC BY 4.0
 ---
 
 # Resenha: Revistas Bambu — Rede Brasileira do Bambu (2022) e INBAR Bamboo & Rattan Update (2025)
 
-## 1. Dados das Publicações
+> **Resumo:** Duas publicações institucionais que oferecem visão abrangente do cenário do bambu no Brasil e no mundo. A Revista Bambu (RBB, nov/2022) cobre o IV Seminário Nacional do Bambu, pesquisas em plástico biodegradável, criação da Comissão de Estudos "Estruturas de Bambu" na ABNT (3 normas elaboradas), e o mercado global de bambu estimado em US$ 60 bilhões/ano. O INBAR Bamboo & Rattan Update (jun/2025), edição "Bamboo for Climate Action", aborda o recorde de temperatura global de 1,55°C acima da média pré-industrial, o projeto ACREGIR em Camarões, a Iniciativa BASP (Bamboo as a Substitute for Plastic), e o breakthrough genômico do pangenoma do bambu Moso. Juntas, posicionam o bambu na agenda climática global e documentam o desenvolvimento da cadeia produtiva.
 
-### Publicação 1: Revista Bambu — Ano 03, nº 03, novembro de 2022
+## 1. Dados Gerais
+
+**Publicação 1: Revista Bambu — Ano 03, nº 03, novembro de 2022**
 
 | Campo | Dado |
 |---|---|
@@ -21,7 +23,7 @@ licenca: CC BY 4.0
 | **Acesso** | www.redebrasileiradobambu.com.br |
 | **Tipo** | Revista institucional / magazine |
 
-### Publicação 2: Bamboo & Rattan Update — Volume 6, Issue 2, June 2025
+**Publicação 2: Bamboo & Rattan Update — Volume 6, Issue 2, June 2025**
 
 | Campo | Dado |
 |---|---|
@@ -31,17 +33,49 @@ licenca: CC BY 4.0
 | **Tema** | Bamboo for Climate Action |
 | **Tipo** | Revista institucional internacional |
 
-## 2. Resumo
+## 2. Estrutura e Organização
 
-**Revista Bambu (RBB, 2022):** Esta edição cobre o IV Seminário Nacional do Bambu realizado em Pirenópolis, Goiás, e aborda o desenvolvimento da cadeia produtiva do bambu no Brasil. Destaques incluem: pesquisas em plástico biodegradável a partir de biomassa de bambu; projetos do NUPMAT/UEG; a criação da Comissão de Estudos "Estruturas de Bambu" na ABNT, com três normas já elaboradas (projeto, ensaios e controle de qualidade); o potencial do bambu como substituto da madeira nativa e do plástico; e o mercado global de bambu estimado em US$ 60 bilhões/ano. A revista enfatiza que o Brasil possui 4,5 milhões de hectares de bambu mas produz apenas ~150 mil toneladas/ano, muito abaixo do potencial. Também aborda as relações comerciais Brasil-China em commodities de bambu.
+**Revista Bambu (RBB):** editorial; cobertura do IV Seminário Nacional do Bambu (Pirenópolis, GO); reportagens sobre pesquisas (plástico biodegradável de biomassa de bambu, NUPMAT/UEG); normalização (Comissão de Estudos ABNT); cadeia produtiva; mercado global; relações Brasil-China.
 
-**Bamboo & Rattan Update (INBAR, 2025):** Edição focada em bamboo for climate action, com artigos sobre: o recorde de temperatura global de 1,55°C acima da média pré-industrial e o papel do bambu como solução baseada na natureza; o projeto ACREGIR em Camarões construindo resiliência para mulheres e jovens; lições da China sobre a força milenar do bambu e seu poder moderno; a Iniciativa Bamboo as a Substitute for Plastic (BASP); e o breakthrough genômico do pangenoma do bambu Moso, revelando variação genética rica. O Brasil é mencionado através da Rede Brasileira do Bambu como plataforma multissetorial que conecta academia, setor privado, ONGs e governo.
+**Bamboo & Rattan Update (INBAR):** editorial sobre clima; artigos sobre bambu como solução baseada na natureza para mudanças climáticas; projeto ACREGIR (Camarões); lições da China; Iniciativa BASP; pangenoma do bambu Moso; Brasil (Rede Brasileira do Bambu); mercado global.
 
-## 3. Relevância para o Acervo
+## 3. Problema e Perguntas de Pesquisa
 
-Estas duas revistas oferecem uma visão abrangente e atualizada do cenário do bambu no Brasil e no mundo. A Revista Bambu (RBB) documenta o estágio atual da cadeia produtiva brasileira, as iniciativas normativas e os desafios de escala. O INBAR BRU 2025 posiciona o bambu na agenda climática global e destaca os avanços científicos mais recentes. Juntas, fornecem o contexto estratégico e político para o desenvolvimento tecnológico do bambu, essencial para posicionar o acervo da Tecnologia Takwara no cenário nacional e internacional.
+As revistas não possuem perguntas de pesquisa únicas, mas buscam: documentar o estágio atual da cadeia produtiva do bambu no Brasil e no mundo; divulgar inovações científicas e tecnológicas; e posicionar o bambu como solução para desafios ambientais, econômicos e sociais (clima, plástico, habitação).
 
-## 4. Referências (ABNT)
+## 4. Referencial Teórico
+
+Cada artigo/reportagem possui seu próprio referencial. Em conjunto, as revistas abrangem: economia circular, soluções baseadas na natureza (NbS), bioeconomia, genômica de plantas, normalização técnica, comércio internacional de commodities de bambu, e políticas de incentivo ao bambu.
+
+## 5. Metodologia
+
+As revistas são publicações jornalístico-científicas, não apresentando metodologia de pesquisa original. Os artigos baseiam-se em entrevistas, dados secundários, revisão de literatura e divulgação de resultados de pesquisa.
+
+## 6. Principais Achados
+
+| Publicação | Destaques |
+|---|---|
+| RBB (2022) | • IV Seminário Nacional do Bambu realizado em Pirenópolis/GO |
+| | • Plástico biodegradável a partir de biomassa de bambu |
+| | • Comissão de Estudos "Estruturas de Bambu" na ABNT (3 normas: projeto, ensaios, controle de qualidade) |
+| | • Mercado global: US$ 60 bilhões/ano |
+| | • Brasil: 4,5 milhões ha de bambu, ~150 mil t/ano produzidas |
+| INBAR BRU (2025) | • Recorde temperatura global 2024: +1,55°C sobre média pré-industrial |
+| | • Bambu como solução baseada na natureza para mudanças climáticas |
+| | • Projeto ACREGIR (Camarões): resiliência para mulheres e jovens |
+| | • Iniciativa BASP (Bamboo as a Substitute for Plastic) |
+| | • Pangenoma do bambu Moso: variação genética rica |
+| | • RBB como plataforma multissetorial no Brasil |
+
+## 7. Avaliação Crítica
+
+As duas publicações oferecem complementaridade: a RBB foca no estágio da cadeia produtiva brasileira e iniciativas normativas; o INBAR BRU posiciona o bambu na agenda climática global. Juntas, fornecem contexto estratégico e político essencial. Como limitação, são publicações institucionais sem revisão por pares dos artigos. Relevância média-alta para o repositório pelo contexto atualizado.
+
+## 8. Inserção no Estado da Arte
+
+Conectam-se com múltiplas fichas sobre cadeia produtiva do bambu, normalização (ABNT, NSR-10) e inovações tecnológicas. Classificação temática: cenário do bambu, políticas públicas, inovação, mercado global. Fornecem contexto estratégico para posicionar o acervo da Tecnologia Takwara no cenário nacional e internacional.
+
+## Referências (ABNT)
 
 REVISTA BAMBU. Ano 03, nº 03. Goiás: Rede Brasileira do Bambu, novembro de 2022.
 

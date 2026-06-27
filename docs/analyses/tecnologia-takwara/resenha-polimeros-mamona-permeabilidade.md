@@ -10,11 +10,9 @@ licenca: CC BY 4.0
 
 # Resenha Científica: Imperveg RQI 132 — Polímeros de Mamona para Impermeabilização de Infraestruturas de Concreto
 
-**Tecnologia Takwara** — Série Técnica Plataforma Amazônia Regenerativa
+> **Resumo:** O artigo apresenta a caracterização técnica da resina IMPERVEG RQI 132, um poliuretano vegetal bicomponente derivado do óleo de mamona (Ricinus communis), avaliado como sistema de impermeabilização e proteção para infraestruturas de concreto. Ensaios conduzidos no ITecons (Coimbra, Portugal) abrangem propriedades mecânicas (resistência de adesão por pull-off), barreira ao vapor d'água (ISO 7783:2018), e desempenho em condições de envelhecimento acelerado e choque térmico. Os resultados demonstram que o PU vegetal de mamona apresenta desempenho superior ou equivalente aos sistemas petroquímicos convencionais, com redução de 99,85% na permeabilidade ao vapor d'água (de 252 para 0,37 g/m²·d) e adesão >1,1 MPa (superando o requisito normativo de 1,0 MPa), com a vantagem de ser 100% renovável, isento de VOCs e atóxico.
 
----
-
-## 1. Identificação do Estudo
+## 1. Dados Gerais
 
 | Campo | Dado |
 |---|---|
@@ -26,87 +24,64 @@ licenca: CC BY 4.0
 | **Status** | Preprint — DOI pendente |
 | **Palavras-chave** | Poliuretano vegetal; óleo de mamona; Ricinus communis; impermeabilização; concreto; permeabilidade ao vapor; adesão; ITecons; Imperveg |
 
-## 2. Resumo do Estudo
+## 2. Estrutura e Organização
 
-O artigo apresenta a caracterização técnica da resina IMPERVEG RQI 132, um poliuretano vegetal bicomponente derivado do óleo de mamona (*Ricinus communis*), avaliado como sistema de impermeabilização e proteção para infraestruturas de concreto. Os ensaios foram conduzidos no ITecons (Coimbra, Portugal) e abrangem propriedades mecânicas (resistência de adesão por pull-off), barreira ao vapor d'água (ISO 7783:2018) e desempenho em condições de envelhecimento acelerado e choque térmico.
+O preprint organiza-se em: resumo; introdução (contexto dos polímeros vegetais, problemática dos impermeabilizantes petroquímicos); seção de ensaios e métodos (ITecons, normas ISO 7783, EN 1504-2, EN 1062-6, EN 13687); resultados (permeabilidade ao vapor, adesão pull-off, barreira à carbonatação); discussão comparativa com sistemas convencionais (PU petroquímico, epóxi, acrílico); considerações finais; referências.
 
-O estudo demonstra que o PU vegetal de mamona apresenta desempenho superior ou equivalente aos sistemas petroquímicos convencionais, com a vantagem adicional de ser 100% renovável, isento de solventes (zero VOCs) e atóxico. O autor propõe a tecnologia como substituta de impermeabilizantes epóxi e poliuretânicos de origem fóssil em aplicações de infraestrutura crítica, incluindo reservatórios de água potável, estações de tratamento (ETE/ETA), lajes e pontes.
+## 3. Problema e Perguntas de Pesquisa
 
-## 3. Resultados Principais
+Objetivo: caracterizar tecnicamente a resina RQI 132 como sistema de impermeabilização e proteção para infraestruturas de concreto, validando seu desempenho frente a sistemas petroquímicos convencionais. Perguntas centrais: o PU vegetal de mamona atende aos requisitos normativos para impermeabilização de concreto? Como seu desempenho se compara a sistemas epóxi e poliuretânicos fósseis?
 
-### 3.1 Permeabilidade ao Vapor d'Água (ISO 7783:2018)
+## 4. Referencial Teórico
 
-O resultado mais expressivo do estudo é a drástica redução da permeabilidade ao vapor d'água promovida pelo revestimento:
+O referencial abrange: química dos poliuretanos vegetais (polióis de óleo de mamona); impermeabilização de infraestruturas de concreto; normas técnicas (ISO 7783, EN 1504-2, EN 1062-6, EN 13687); mecanismos de degradação do concreto (carbonatação, ataque químico, ciclos gelo-degelo); comparação entre sistemas petroquímicos e renováveis; certificação de água potável.
 
-| Parâmetro | Substrato sem revestimento | Substrato com RQI 132 | Redução |
+## 5. Metodologia
+
+Ensaios conduzidos no ITecons (Coimbra, Portugal) conforme normas ISO e EN:
+1. **Permeabilidade ao vapor d'água** (ISO 7783:2018): medição da taxa de transmissão de vapor em substrato com e sem revestimento.
+2. **Resistência de adesão por pull-off** (EN 1504-2): tensão de adesão em condição padrão, após envelhecimento térmico (70°C) e após choque térmico (60 ciclos gelo-degelo, EN 13687).
+3. **Barreira à carbonatação** (NP EN 1062-6): espessura equivalente de ar (Sd) e fator de resistência à difusão de CO₂ (μ).
+
+## 6. Principais Achados
+
+| Parâmetro | Substrato sem revestimento | Com RQI 132 | Redução |
 |---|---|---|---|
-| **Permeabilidade ao vapor** | 252 g/(m²·d) | 0,37 g/(m²·d) | **99,85%** |
-| **Espessura equivalente de ar (Sd)** | — | 64 m | — |
-| **Fator de resistência à difusão (μ)** | — | 48.160 | — |
+| Permeabilidade ao vapor | 252 g/(m²·d) | 0,37 g/(m²·d) | **99,85%** |
+| Espessura equivalente de ar (Sd) | — | 64 m | — |
+| Fator de resistência à difusão (μ) | — | 48.160 | — |
 
-O valor de μ = 48.160 classifica o RQI 132 como uma barreira extremamente eficiente contra a penetração de vapor d'água, superando significativamente o desempenho de mantas asfálticas (μ ~ 20.000-50.000) e impermeabilizantes acrílicos convencionais (μ ~ 1.000-5.000).
-
-### 3.2 Resistência de Adesão (Pull-Off — EN 1504-2)
-
-| Condição | Tensão de adesão | Tipo de ruptura |
+| Condição de adesão | Tensão de adesão | Tipo de ruptura |
 |---|---|---|
-| **Padrão** | > 1,1 MPa | Coesiva no concreto (substrato rompe antes da resina) |
-| **Após envelhecimento térmico (70°C)** | 1,2 MPa | Coesiva no concreto |
-| **Após choque térmico (60 ciclos gelo-degelo, EN 13687)** | 1,1 MPa | Sem delaminação ou empolamento |
+| Padrão | >1,1 MPa | Coesiva no concreto |
+| Após envelhecimento térmico (70°C) | 1,2 MPa | Coesiva no concreto |
+| Após choque térmico (60 ciclos) | 1,1 MPa | Sem delaminação |
 
-O critério mínimo da norma NP EN 1504-2:2006 é de 1,0 MPa. O RQI 132 supera o requisito em todas as condições testadas, com ruptura coesiva no concreto — indicando que a ancoragem molecular do PU vegetal ao substrato é mais resistente que a própria coesão interna do concreto.
-
-### 3.3 Barreira à Carbonatação (NP EN 1062-6)
-
-| Parâmetro | Resultado |
+| Barreira à carbonatação | Valor |
 |---|---|
-| **Espessura equivalente de ar (Sd)** | 365 m |
-| **Fator de resistência à difusão de CO₂ (μ)** | 546.000 |
+| Sd (CO₂) | 365 m |
+| μ (CO₂) | 546.000 |
 
-O revestimento demonstra capacidade de bloquear virtualmente a carbonatação do concreto, com Sd de 365 m — valor que excede em ordens de magnitude o necessário para proteção de infraestruturas expostas a ambientes urbanos e industriais.
+Comparação: o PU vegetal supera sistemas petroquímicos em permeabilidade ao vapor (0,37 vs. 0,5-2,0 g/m²·d), adesão (>1,1 MPa atende EN 1504-2 com folga), e é o único com certificação de água potável.
 
-## 4. Comparação com Sistemas Convencionais
+## 7. Avaliação Crítica
 
-| Propriedade | RQI 132 (PU Vegetal) | PU Petroquímico | Epóxi | Acrílico Base Água |
-|---|---|---|---|---|
-| **Origem** | Renovável (mamona) | Petróleo | Petróleo | Petróleo/sintético |
-| **Teor de sólidos** | 100% | 50-90% | 50-100% | 30-50% |
-| **VOCs** | Zero | Alto | Moderado | Baixo |
-| **Atóxico (pós-cura)** | Sim | Parcial | Não | Parcial |
-| **Permeabilidade ao vapor (g/m²·d)** | 0,37 | 0,5-2,0 | 0,1-0,5 | 50-200 |
-| **Alongamento na ruptura** | >50% | >50% | Rígido (<5%) | >100% |
-| **Resistência H₂S** | Sim | Variável | Boa | Não |
-| **Certificação água potável** | ✅ NBR 12170 / MS 888 | ❌ | ❌ | ❌ |
+O estudo valida cientificamente o PU vegetal de mamona como material de referência para impermeabilização, com dados de desempenho superiores ou equivalentes aos sistemas petroquímicos. O valor de μ = 48.160 (vapor) e adesão >1,1 MPa após choque térmico são resultados expressivos. Como limitações: preprint com DOI pendente (sem revisão formal por pares), escopo restrito a substrato de concreto (sem ensaios em bambu/madeira), e ausência de dados de durabilidade em condições amazônicas de longo prazo. Relevância máxima para o repositório.
 
-## 5. Relevância para a Tecnologia Takwara
+## 8. Inserção no Estado da Arte
 
-Os resultados dos ensaios do ITecons validam cientificamente o PU vegetal de mamona como o material de referência para impermeabilização e proteção no ecossistema Takwara. Os dados de permeabilidade ao vapor (0,37 g/m²·d) e adesão ao concreto (>1,1 MPa) são particularmente relevantes para:
+Conecta-se com fichas sobre PU de mamona (resenha-pu-mamona-proteses, resenha-imperveg-ug132a-ficha-tecnica) e compósitos bambu-PU. Classificação temática: poliuretano vegetal, impermeabilização, validação tecnológica. Os dados do ITecons validam cientificamente o PU de mamona para aplicações do ecossistema Takwara (impermeabilização de lajes, proteção de ETE, selagem de reservatórios).
 
-- **Impermeabilização de lajes e coberturas** em construções de bambu e biocompósitos (Série T)
-- **Proteção de estações de saneamento ecológico (T12)** contra ataque de H₂S e umidade
-- **Selagem de reservatórios de água potável** com certificação NBR 12170
-- **Impermeabilização de balsas catamarã T10** em ambiente fluvial amazônico
+## Referências
 
-## 6. Limitações e Observações Críticas
+TAKWARA, F. R. **IMPERVEG RQI 132 — Resina Impermeabilizante Bicomponente de Poliuretano Vegetal (Mamona) para Infraestruturas de Concreto** (Preprint). DOI pendente. ORCID: 0009-0002-6044-2583.
 
-1. **Preprint com DOI pendente**: o artigo ainda não passou por revisão formal por pares; os dados, embora robustos, carecem de validação independente em periódico indexado.
-2. **Escopo restrito a substrato de concreto**: os ensaios não abordam a aderência específica do RQI 132 sobre bambu ou madeira — substratos centrais para a Tecnologia Takwara — o que exigiria campanha de ensaios adicional.
-3. **Durabilidade de longa duração**: os testes de envelhecimento acelerado (70°C contínuos) não substituem dados de exposição real por 10-20 anos, especialmente em condições amazônicas (UV intenso, umidade relativa >90%, ataques biológicos).
-4. **Amostragem**: não foram informados o número de corpos de prova nem a análise estatística (desvio padrão, intervalo de confiança), o que limita a reprodutibilidade dos resultados.
+ITecons — Instituto de Investigação e Desenvolvimento Tecnológico para a Construção, Energia, Ambiente e Sustentabilidade (Coimbra, Portugal). Ensaios LAB_001 a LAB_006.
 
-Apesar das limitações, o conjunto de evidências apresentado — especialmente os valores de Sd = 64 m e μ = 48.160 para barreira ao vapor, e a manutenção de >1,1 MPa de adesão após choque térmico — posiciona o RQI 132 como uma alternativa tecnicamente superior aos sistemas petroquímicos para impermeabilização de infraestruturas de concreto, com o diferencial adicional de ser 100% renovável e atóxico.
+ISO 7783:2018 — Paints and varnishes — Determination of water-vapour transmission properties.
 
-## 7. Referências
+NP EN 1504-2:2006 — Products and systems for the protection and repair of concrete structures.
 
-- TAKWARA, F. R. (2026). *IMPERVEG RQI 132 — Resina Impermeabilizante Bicomponente de Poliuretano Vegetal (Mamona) para Infraestruturas de Concreto* (Preprint). DOI pendente. ORCID: 0009-0002-6044-2583.
-- ITecons — Instituto de Investigação e Desenvolvimento Tecnológico para a Construção, Energia, Ambiente e Sustentabilidade (Coimbra, Portugal). Ensaios LAB_001 a LAB_006.
-- ISO 7783:2018 — Paints and varnishes — Determination of water-vapour transmission properties.
-- NP EN 1504-2:2006 — Products and systems for the protection and repair of concrete structures.
-- NP EN 1062-6 — Paints and varnishes — Coating materials and coating systems for exterior masonry and concrete.
-- EN 13687 — Products and systems for the protection and repair of concrete structures — Test methods — Determination of thermal compatibility.
+NP EN 1062-6 — Paints and varnishes — Coating materials and coating systems for exterior masonry and concrete.
 
----
-
-> **Ficha elaborada em:** 2026-06-27
-> **Fonte:** Preprint Takwara (2026) / Ensaios ITecons / Acervo MQTF
-> **Ferramenta:** Hermes Agent
+EN 13687 — Products and systems for the protection and repair of concrete structures — Test methods — Determination of thermal compatibility.
