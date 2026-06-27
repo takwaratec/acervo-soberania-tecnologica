@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Roberto Sette — Pellets B. vulgaris (Goiás, 2016)
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Roberto Sette — Pellets B. vulgaris (Goiás, 2016) |
-| **Autor(es)** | SETTE JR |
+| **Título** | SETTE JR., C. R.; FREITAS, P. C.; FREITAS, V. P.; YAMAJI, F. M.; ALMEIDA, R. A. **Produção e caracterização de pellets de bambu**. 2016. 9 p |
+| **Autor(es)** | Não identificado |
 | **Ano** | 2016 |
 | **Páginas** | 9 p. |
+| **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** |  |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre roberto sette — pellets b. vulgaris (goiás, 2016). SETTE JR., C. R.; FREITAS, P. C.; FREITAS, V. P.; YAMAJI, F. M.; ALMEIDA, R. A. **Produção e caracterização de pellets de bambu**. 2016. 9 p....
+Documento técnico-científico sobre sette jr., c. r.; freitas, p. c.; freitas, v. p.; yamaji, f. m.; almeida, r. a. . SETTE JR., C. R.; FREITAS, P. C.; FREITAS, V. P.; YAMAJI, F. M.; ALMEIDA, R. A. **Produção e caracterização de pellets de bambu**. 2016. 9 p....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Roberto Sette — Pellets B. vulgaris (Goiás, 2016). O documento investiga sette jr.
+**Tema central:** SETTE JR., C. R.; FREITAS, P. C.; FREITAS, V. P.; YAMAJI, F. M.; ALMEIDA, R. A. **Produção e caracterização de pellets de bambu**. 2016. 9 p. O documento investiga sette jr.
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ SETTE JR., C. R.; FREITAS, P. C.; FREITAS, V. P.; YAMAJI, F. M.; ALMEIDA, R. A. 
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 SETTE JR., C. R.; FREITAS, P. C.; FREITAS, V. P.; YAMAJI, F. M.; ALMEIDA, R. A. **Produção e caracterização de pellets de bambu**. 2016. 9 p.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

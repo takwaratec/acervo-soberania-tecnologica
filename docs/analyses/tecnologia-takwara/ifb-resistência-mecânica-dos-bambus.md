@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Resistência Mecânica dos Bambus
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Resistência Mecânica dos Bambus |
-| **Autor(es)** | Vários autores |
+| **Título** | Vários autores. **Resistência mecânica dos bambus**: ensaios e caracterização. In: Coletânea de artigos sobre propriedades mecânicas de espécies de bambu, 2017. 122 p |
+| **Autor(es)** | Não identificado |
 | **Ano** | 2017 |
 | **Páginas** | 122 p. |
+| **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** |  |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre resistência mecânica dos bambus. Vários autores. **Resistência mecânica dos bambus**: ensaios e caracterização. In: Coletânea de artigos sobre propriedades mecânicas de espécies de ba...
+Documento técnico-científico sobre vários autores. **resistência mecânica dos bambus**: ensaios e caracterização. i. Vários autores. **Resistência mecânica dos bambus**: ensaios e caracterização. In: Coletânea de artigos sobre propriedades mecânicas de espécies de ba...
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Resistência Mecânica dos Bambus. O documento investiga vários autores.
+**Tema central:** Vários autores. **Resistência mecânica dos bambus**: ensaios e caracterização. In: Coletânea de artigos sobre propriedades mecânicas de espécies de bambu, 2017. 122 p. O documento investiga vários autores.
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ Vários autores. **Resistência mecânica dos bambus**: ensaios e caracterizaç�
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 Vários autores. **Resistência mecânica dos bambus**: ensaios e caracterização. In: Coletânea de artigos sobre propriedades mecânicas de espécies de bambu, 2017. 122 p.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

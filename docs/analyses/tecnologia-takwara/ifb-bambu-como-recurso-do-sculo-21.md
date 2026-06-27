@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Bambu como recurso do século 21
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Bambu como recurso do século 21 |
-| **Autor(es)** | Vários autores |
+| **Título** | Vários autores. **Bambu: o recurso do século 21** |
+| **Autor(es)** | Não identificado |
 | **Ano** | — |
 | **Páginas** | 10 p. |
+| **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** |  |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre bambu como recurso do século 21. Vários autores. **Bambu: o recurso do século 21**. [S.l.: s.n.], [s.d.]. 10 p....
+Documento técnico-científico sobre vários autores. **bambu: o recurso do século 21**. Vários autores. **Bambu: o recurso do século 21**. [S.l.: s.n.], [s.d.]. 10 p....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Bambu como recurso do século 21. O documento investiga vários autores.
+**Tema central:** Vários autores. **Bambu: o recurso do século 21**. O documento investiga vários autores.
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ Vários autores. **Bambu: o recurso do século 21**. [S.l.: s.n.], [s.d.]. 10 p.
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 Vários autores. **Bambu: o recurso do século 21**. [S.l.: s.n.], [s.d.]. 10 p.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Tratamento Térmico (Japão)
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Tratamento Térmico (Japão) |
-| **Autor(es)** | TRATAMENTO térmico de bambu |
+| **Título** | TRATAMENTO térmico de bambu. Japão: |
+| **Autor(es)** | Não identificado |
 | **Ano** | — |
 | **Páginas** | 16 p. |
+| **DOI** | — |
 | **Eixo temático** | Preservação e Tratamento do Bambu |
 | **Código** | IFB-E1-10 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre tratamento térmico (japão). Documento técnico japonês sobre métodos de tratamento térmico de bambu para estabilização dimensional, redução de hidrofilicidade e aumento de resistê...
+Documento técnico-científico sobre tratamento térmico de bambu. japão:. Documento técnico japonês sobre métodos de tratamento térmico de bambu para estabilização dimensional, redução de hidrofilicidade e aumento de resistê...
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Tratamento Térmico (Japão). O documento investiga documento técnico japonês sobre métodos de tratamento térmico de bambu para estabilização dimensional, redução de hidrofilicidade e aumento de resistência biológica.
+**Tema central:** TRATAMENTO térmico de bambu. Japão:. O documento investiga documento técnico japonês sobre métodos de tratamento térmico de bambu para estabilização dimensional, redução de hidrofilicidade e aumento de resistência biológica.
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ Documento técnico japonês sobre métodos de tratamento térmico de bambu para 
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Preservação e Tratamento do Bambu**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 TRATAMENTO térmico de bambu. Japão: [s.n.], [s.d.]. 16 p. Documento técnico.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

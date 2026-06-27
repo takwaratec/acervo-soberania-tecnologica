@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Boron Greenfacts — Toxicidade do Boro
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Boron Greenfacts — Toxicidade do Boro |
-| **Autor(es)** | GREENFACTS |
+| **Título** | GREENFACTS. **Boron**: Level 2 — Health and environmental effects. In: GreenFacts Scientific Facts Database, |
+| **Autor(es)** | Não identificado |
 | **Ano** | — |
 | **Páginas** | — |
+| **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** |  |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre boron greenfacts — toxicidade do boro. GREENFACTS. **Boron**: Level 2 — Health and environmental effects. In: GreenFacts Scientific Facts Database, [s.d.]....
+Documento técnico-científico sobre greenfacts. **boron**: level 2 — health and environmental effects. in: greenfact. GREENFACTS. **Boron**: Level 2 — Health and environmental effects. In: GreenFacts Scientific Facts Database, [s.d.]....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Boron Greenfacts — Toxicidade do Boro. O documento investiga greenfacts.
+**Tema central:** GREENFACTS. **Boron**: Level 2 — Health and environmental effects. In: GreenFacts Scientific Facts Database,. O documento investiga greenfacts.
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ GREENFACTS. **Boron**: Level 2 — Health and environmental effects. In: GreenFa
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 GREENFACTS. **Boron**: Level 2 — Health and environmental effects. In: GreenFacts Scientific Facts Database, [s.d.].
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

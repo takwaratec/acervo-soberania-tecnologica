@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Bamboo: A Very Sustainable Construction Material (2021)
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Bamboo: A Very Sustainable Construction Material (2021) |
-| **Autor(es)** | LIU |
+| **Título** | Bamboo: A Very Sustainable Construction Material — 2021 International Online Seminar summary report |
+| **Autor(es)** | LIU, Kewei et al |
 | **Ano** | 2022 |
 | **Páginas** | — |
+| **DOI** | 10.54113/j.sust.2022.000015. |
 | **Eixo temático** | Geral |
 | **Código** |  |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre bamboo: a very sustainable construction material (2021). LIU, Kewei et al. Bamboo: A Very Sustainable Construction Material — 2021 International Online Seminar summary report. **Sustainable Structures**, v. ...
+Documento técnico-científico sobre bamboo: a very sustainable construction material — 2021 international online sem. LIU, Kewei et al. Bamboo: A Very Sustainable Construction Material — 2021 International Online Seminar summary report. **Sustainable Structures**, v. ...
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Bamboo: A Very Sustainable Construction Material (2021). O documento investiga liu, kewei et al.
+**Tema central:** Bamboo: A Very Sustainable Construction Material — 2021 International Online Seminar summary report. O documento investiga liu, kewei et al.
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ LIU, Kewei et al. Bamboo: A Very Sustainable Construction Material — 2021 Inte
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 LIU, Kewei et al. Bamboo: A Very Sustainable Construction Material — 2021 International Online Seminar summary report. **Sustainable Structures**, v. 2, n. 1, 2022. DOI: 10.54113/j.sust.2022.000015.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

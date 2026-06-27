@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Eco-friendly Preservation of Bamboo (India)
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Eco-friendly Preservation of Bamboo (India) |
-| **Autor(es)** | ECO-FRIENDLY preservation of bamboo |
+| **Título** | ECO-FRIENDLY preservation of bamboo |
+| **Autor(es)** | Não identificado |
 | **Ano** | — |
 | **Páginas** | 22 p. |
+| **DOI** | — |
 | **Eixo temático** | Preservação e Tratamento do Bambu |
 | **Código** | IFB-E1-05 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre eco-friendly preservation of bamboo (india). Documento técnico sobre métodos ecológicos de preservação do bambu, incluindo tratamentos com extratos naturais, sais de boro e processos não tóxicos ...
+Documento técnico-científico sobre eco-friendly preservation of bamboo. Documento técnico sobre métodos ecológicos de preservação do bambu, incluindo tratamentos com extratos naturais, sais de boro e processos não tóxicos ...
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Eco-friendly Preservation of Bamboo (India). O documento investiga documento técnico sobre métodos ecológicos de preservação do bambu, incluindo tratamentos com extratos naturais, sais de boro e processos não tóxicos alternativos aos preservativos convencionais.
+**Tema central:** ECO-FRIENDLY preservation of bamboo. O documento investiga documento técnico sobre métodos ecológicos de preservação do bambu, incluindo tratamentos com extratos naturais, sais de boro e processos não tóxicos alternativos aos preservativos convencionais.
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ Documento técnico sobre métodos ecológicos de preservação do bambu, incluin
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Preservação e Tratamento do Bambu**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 ECO-FRIENDLY preservation of bamboo. [S.l.]: [s.n.], [s.d.]. 22 p. Documento técnico — Índia.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

@@ -9,15 +9,16 @@ licenca: CC BY 4.0
 
 # IFB — Bamboo, People and the Environment
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Bamboo, People and the Environment |
-| **Autor(es)** | BAMBOO |
+| **Título** | BAMBOO, people and the environment |
+| **Autor(es)** | Não identificado |
 | **Ano** | — |
 | **Páginas** | 158 p. |
+| **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-06 |
 
@@ -25,7 +26,7 @@ licenca: CC BY 4.0
 Documento técnico-científico sobre bamboo, people and the environment. Relatório abrangente sobre as interações entre comunidades humanas e florestas de bambu, abordando aspectos ecológicos, socioeconômicos e culturais do...
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Bamboo, People and the Environment. O documento investiga relatório abrangente sobre as interações entre comunidades humanas e florestas de bambu, abordando aspectos ecológicos, socioeconômicos e culturais do uso do bambu em diferentes regiões do mundo.
+**Tema central:** BAMBOO, people and the environment. O documento investiga relatório abrangente sobre as interações entre comunidades humanas e florestas de bambu, abordando aspectos ecológicos, socioeconômicos e culturais do uso do bambu em diferentes regiões do mundo.
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ Relatório abrangente sobre as interações entre comunidades humanas e floresta
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Bioeconomia, Políticas e Mercado**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 BAMBOO, people and the environment. [S.l.]: [s.n.], [s.d.]. 158 p.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Ghavami (2003) — Propriedades do Bambu
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Ghavami (2003) — Propriedades do Bambu |
-| **Autor(es)** | GHAVAMI |
+| **Título** | Propriedades do bambu |
+| **Autor(es)** | GHAVAMI, Khosrow |
 | **Ano** | 2003 |
 | **Páginas** | — |
+| **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** |  |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre ghavami (2003) — propriedades do bambu. GHAVAMI, Khosrow. **Propriedades do bambu**. In: _____. [Título da obra]. Rio de Janeiro: PUC-Rio, Departamento de Engenharia Civil, 2003....
+Documento técnico-científico sobre propriedades do bambu. GHAVAMI, Khosrow. **Propriedades do bambu**. In: _____. [Título da obra]. Rio de Janeiro: PUC-Rio, Departamento de Engenharia Civil, 2003....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Ghavami (2003) — Propriedades do Bambu. O documento investiga ghavami, khosrow.
+**Tema central:** Propriedades do bambu. O documento investiga ghavami, khosrow.
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ GHAVAMI, Khosrow. **Propriedades do bambu**. In: _____. [Título da obra]. Rio d
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 GHAVAMI, Khosrow. **Propriedades do bambu**. In: _____. [Título da obra]. Rio de Janeiro: PUC-Rio, Departamento de Engenharia Civil, 2003.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

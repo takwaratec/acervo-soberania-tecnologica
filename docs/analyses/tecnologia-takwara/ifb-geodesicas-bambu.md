@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Geodésicas de Bambu (2018)
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Geodésicas de Bambu (2018) |
-| **Autor(es)** | GEODÉSICAS de bambu |
+| **Título** | GEODÉSICAS de bambu |
+| **Autor(es)** | Não identificado |
 | **Ano** | 2018 |
 | **Páginas** | 10 p. |
+| **DOI** | — |
 | **Eixo temático** | Geodésicas e Construção com Bambu |
 | **Código** | IFB-E5-02 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre geodésicas de bambu (2018). Documento técnico sobre projeto e construção de estruturas geodésicas em bambu, abordando princípios geométricos, tipos de domos, conexões estruturais...
+Documento técnico-científico sobre geodésicas de bambu. Documento técnico sobre projeto e construção de estruturas geodésicas em bambu, abordando princípios geométricos, tipos de domos, conexões estruturais...
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Geodésicas de Bambu (2018). O documento investiga documento técnico sobre projeto e construção de estruturas geodésicas em bambu, abordando princípios geométricos, tipos de domos, conexões estruturais e análise de cargas.
+**Tema central:** GEODÉSICAS de bambu. O documento investiga documento técnico sobre projeto e construção de estruturas geodésicas em bambu, abordando princípios geométricos, tipos de domos, conexões estruturais e análise de cargas.
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ Documento técnico sobre projeto e construção de estruturas geodésicas em bam
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geodésicas e Construção com Bambu**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 GEODÉSICAS de bambu. [S.l.]: [s.n.], 2018. 10 p.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

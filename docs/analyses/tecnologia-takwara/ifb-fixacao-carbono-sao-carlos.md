@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Fixação de Carbono — São Carlos
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Fixação de Carbono — São Carlos |
-| **Autor(es)** | FIXAÇÃO de carbono |
+| **Título** | FIXAÇÃO de carbono. São Carlos: |
+| **Autor(es)** | Não identificado |
 | **Ano** | — |
-| **Páginas** | — |
+| **Páginas** | 161 f. |
+| **DOI** | — |
 | **Eixo temático** | Energia, Resíduos e Saneamento |
 | **Código** | IFB-E9-04 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre fixação de carbono — são carlos. Tese sobre fixação de carbono em sistemas agroflorestais e florestais, analisando estoques de carbono, sequestro de CO₂ e potencial de mitigação de mu...
+Documento técnico-científico sobre fixação de carbono. são carlos:. Tese sobre fixação de carbono em sistemas agroflorestais e florestais, analisando estoques de carbono, sequestro de CO₂ e potencial de mitigação de mu...
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Fixação de Carbono — São Carlos. O documento investiga tese sobre fixação de carbono em sistemas agroflorestais e florestais, analisando estoques de carbono, sequestro de co₂ e potencial de mitigação de mudanças climáticas.
+**Tema central:** FIXAÇÃO de carbono. São Carlos:. O documento investiga tese sobre fixação de carbono em sistemas agroflorestais e florestais, analisando estoques de carbono, sequestro de co₂ e potencial de mitigação de mudanças climáticas.
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ Tese sobre fixação de carbono em sistemas agroflorestais e florestais, analisa
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Energia, Resíduos e Saneamento**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 FIXAÇÃO de carbono. São Carlos: [s.n.], [s.d.]. 161 f. Tese (Doutorado) — Universidade Federal de São Carlos, São Carlos.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
