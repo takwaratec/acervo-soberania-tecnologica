@@ -138,6 +138,6 @@ As seguintes referências da bibliografia IFB já foram processadas como fichas 
 | 02 | [Chung & Wang — Peeling Steam Bamboo](./chung-wang-2017-peeling-steam-bamboo.md) | 2017 | Preservação |
 | 03 | [Polymers — Alkali Treatment](./SCI_014_POLYMERS_ALKALI_TREATMENT.md) | 2022 | Biocompósitos |
 
-Além destas, **38 fichas IFB** foram criadas nos eixos Tecnologia Takwara (26) e Bioeconomia Amazônica (12). Consulte os índices de cada eixo.
+Além destas, **76 fichas IFB** foram criadas nos eixos Tecnologia Takwara (64) e Bioeconomia Amazônica (12), cobrindo ~90% do catálogo. Consulte os índices de cada eixo.
 
-> **Nota:** Este catálogo de 84 referências serve como guia para processamento futuro. Cada referência pode ser convertida em ficha técnica mediante acesso ao PDF original no diretório `/Bibliografia Consultada/`.
+> **Nota:** Este catálogo de 84 referências está praticamente completo. As ~8 referências restantes são principalmente documentos em formato não-texto (imagens escaneadas) que requerem OCR para processamento completo.
