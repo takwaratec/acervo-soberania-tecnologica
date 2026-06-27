@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Resíduos Café — Paulo Rogério
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Resíduos Café — Paulo Rogério |
-| **Autor(es)** | AUTOR |
+| **Título** | — |
+| **Autor(es)** | Não identificado |
 | **Ano** | — |
 | **Páginas** | 38 p. |
+| **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** |  |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre resíduos café — paulo rogério. AUTOR(ES). **Aproveitamento de resíduos de café**. [S.l.: s.n.], [s.d.]. 38 p....
+Documento técnico-científico sobre —. AUTOR(ES). **Aproveitamento de resíduos de café**. [S.l.: s.n.], [s.d.]. 38 p....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Resíduos Café — Paulo Rogério. O documento investiga autor(es).
+**Tema central:** —. O documento investiga autor(es).
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ AUTOR(ES). **Aproveitamento de resíduos de café**. [S.l.: s.n.], [s.d.]. 38 p.
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 AUTOR(ES). **Aproveitamento de resíduos de café**. [S.l.: s.n.], [s.d.]. 38 p.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

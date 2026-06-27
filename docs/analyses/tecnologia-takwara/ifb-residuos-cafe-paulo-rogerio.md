@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Resíduos Café — Paulo Rogério
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Resíduos Café — Paulo Rogério |
-| **Autor(es)** | ROGÉRIO |
+| **Título** | Aproveitamento de resíduos de café |
+| **Autor(es)** | ROGÉRIO, Paulo |
 | **Ano** | — |
 | **Páginas** | 38 p. |
+| **DOI** | — |
 | **Eixo temático** | Energia, Resíduos e Saneamento |
 | **Código** | IFB-E9-01 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre resíduos café — paulo rogério. Estudo sobre o aproveitamento de resíduos da cadeia produtiva do café (casca, polpa, pergaminho) para geração de energia, produção de briquetes e comp...
+Documento técnico-científico sobre aproveitamento de resíduos de café. Estudo sobre o aproveitamento de resíduos da cadeia produtiva do café (casca, polpa, pergaminho) para geração de energia, produção de briquetes e comp...
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Resíduos Café — Paulo Rogério. O documento investiga estudo sobre o aproveitamento de resíduos da cadeia produtiva do café (casca, polpa, pergaminho) para geração de energia, produção de briquetes e compostagem.
+**Tema central:** Aproveitamento de resíduos de café. O documento investiga estudo sobre o aproveitamento de resíduos da cadeia produtiva do café (casca, polpa, pergaminho) para geração de energia, produção de briquetes e compostagem.
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ Estudo sobre o aproveitamento de resíduos da cadeia produtiva do café (casca, 
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Energia, Resíduos e Saneamento**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 ROGÉRIO, Paulo. **Aproveitamento de resíduos de café**. [S.l.]: [s.n.], [s.d.]. 38 p.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Acordo de Paris — Mudanças Climáticas
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Acordo de Paris — Mudanças Climáticas |
-| **Autor(es)** | ORGANIZAÇÃO DAS NAÇÕES UNIDAS |
+| **Título** | ORGANIZAÇÃO DAS NAÇÕES UNIDAS |
+| **Autor(es)** | Não identificado |
 | **Ano** | 2015 |
 | **Páginas** | 13 p. |
+| **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** |  |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre acordo de paris — mudanças climáticas. ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). **Acordo de Paris sobre Mudanças Climáticas**. Paris: UNFCCC, 2015. 13 p....
+Documento técnico-científico sobre organização das nações unidas. ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). **Acordo de Paris sobre Mudanças Climáticas**. Paris: UNFCCC, 2015. 13 p....
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Acordo de Paris — Mudanças Climáticas. O documento investiga organização das nações unidas (onu).
+**Tema central:** ORGANIZAÇÃO DAS NAÇÕES UNIDAS. O documento investiga organização das nações unidas (onu).
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). **Acordo de Paris sobre Mudanças Clim�
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). **Acordo de Paris sobre Mudanças Climáticas**. Paris: UNFCCC, 2015. 13 p.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

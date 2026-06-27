@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Ecoindústria no Brasil (2017)
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Ecoindústria no Brasil (2017) |
-| **Autor(es)** | ECOINDÚSTRIA no Brasil |
+| **Título** | ECOINDÚSTRIA no Brasil |
+| **Autor(es)** | Não identificado |
 | **Ano** | 2017 |
 | **Páginas** | 15 p. |
+| **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-09 |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre ecoindústria no brasil (2017). Documento sobre o panorama da ecoindústria no Brasil, abordando setores de reciclagem, energias renováveis, produtos biodegradáveis e tecnologias limp...
+Documento técnico-científico sobre ecoindústria no brasil. Documento sobre o panorama da ecoindústria no Brasil, abordando setores de reciclagem, energias renováveis, produtos biodegradáveis e tecnologias limp...
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Ecoindústria no Brasil (2017). O documento investiga documento sobre o panorama da ecoindústria no brasil, abordando setores de reciclagem, energias renováveis, produtos biodegradáveis e tecnologias limpas.
+**Tema central:** ECOINDÚSTRIA no Brasil. O documento investiga documento sobre o panorama da ecoindústria no brasil, abordando setores de reciclagem, energias renováveis, produtos biodegradáveis e tecnologias limpas.
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ Documento sobre o panorama da ecoindústria no Brasil, abordando setores de reci
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Bioeconomia, Políticas e Mercado**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 ECOINDÚSTRIA no Brasil. [S.l.]: [s.n.], 2017. 15 p.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*

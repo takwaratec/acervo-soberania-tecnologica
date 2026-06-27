@@ -9,23 +9,24 @@ licenca: CC BY 4.0
 
 # IFB — Conjuntura CNA — Pellets e Lenha (2022)
 
-> **Ficha elaborada conforme método Cavichioli (2025) — 8 seções obrigatórias.**
+> **Ficha catalográfica elaborada conforme método Cavichioli (2025).** Os dados foram extraídos do Catálogo IFB — Projeto Bambu (84 referências). Quando o PDF original não está acessível, as seções indicam essa limitação.
 
 ## 1. Dados Gerais
 | Campo | Dado |
 |-------|------|
-| **Título** | Conjuntura CNA — Pellets e Lenha (2022) |
-| **Autor(es)** | CONFEDERAÇÃO DA AGRICULTURA E PECUÁRIA DO BRASIL |
+| **Título** | CONFEDERAÇÃO DA AGRICULTURA E PECUÁRIA DO BRASIL |
+| **Autor(es)** | Não identificado |
 | **Ano** | 2022 |
 | **Páginas** | 5 p. |
+| **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** |  |
 
 ## 2. Estrutura e Organização
-Documento técnico-científico sobre conjuntura cna — pellets e lenha (2022). CONFEDERAÇÃO DA AGRICULTURA E PECUÁRIA DO BRASIL (CNA). **Conjuntura e expectativas: pellets de madeira e madeira para lenha**. Brasília: CNA, 2022. 5...
+Documento técnico-científico sobre confederação da agricultura e pecuária do brasil. CONFEDERAÇÃO DA AGRICULTURA E PECUÁRIA DO BRASIL (CNA). **Conjuntura e expectativas: pellets de madeira e madeira para lenha**. Brasília: CNA, 2022. 5...
 
 ## 3. Problema e Perguntas de Pesquisa
-**Tema central:** Conjuntura CNA — Pellets e Lenha (2022). O documento investiga confederação da agricultura e pecuária do brasil (cna).
+**Tema central:** CONFEDERAÇÃO DA AGRICULTURA E PECUÁRIA DO BRASIL. O documento investiga confederação da agricultura e pecuária do brasil (cna).
 
 ## 4. Referencial Teórico
 Referencial teórico não detalhado nesta ficha catalográfica. Consulte o PDF original no diretório `/Bibliografia Consultada/`.
@@ -38,14 +39,14 @@ CONFEDERAÇÃO DA AGRICULTURA E PECUÁRIA DO BRASIL (CNA). **Conjuntura e expect
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento de referência do Catálogo IFB — Projeto Bambu, eixo **Geral**.
-**Limitações:** Análise completa (metodologia, resultados, qualidade formal) depende do PDF original.
-**Qualidade formal:** Não avaliada — ficha baseada nos metadados do catálogo.
+**Limitações:** Análise completa (metodologia, resultados, qualidade formal ABNT) depende do PDF original. Autor não identificado na referência disponível, impossibilitando verificação de credenciais.
+**Qualidade formal:** Não avaliada — ficha baseada exclusivamente nos metadados do catálogo.
 
 ## 8. Inserção no Estado da Arte
-Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo.
+Integra o **Catálogo IFB — Projeto Bambu (84 referências)**. Consulte [`catalogo-ifb-bambu.md`](catalogo-ifb-bambu.md) e demais fichas IFB do mesmo eixo para visão abrangente.
 
 ## Referência (ABNT)
 CONFEDERAÇÃO DA AGRICULTURA E PECUÁRIA DO BRASIL (CNA). **Conjuntura e expectativas: pellets de madeira e madeira para lenha**. Brasília: CNA, 2022. 5 p.
 
 ---
-*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025).*
+*Ficha IFB — Catálogo PROGRUPOS/IFB. Método Cavichioli (2025). PDF original não consultado — dados extraídos do catálogo bibliográfico.*
