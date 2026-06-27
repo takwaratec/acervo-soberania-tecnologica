@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Normas e padrões para produção de biomassa compactada no mundo |
 | **Autor(es)** | Igor Cassiano Rangel, Fabrício Freitas da Silva, Claudio Márcio Pereira de Souza, Luciano José Minette, Amaury Paulo de Souza |
 | **Ano** | 2018 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 132 p. |
 | **DOI** | 10.18571/acbm.153 |
 | **Eixo temático** | Briquetes e Pellets |
 | **Código** | IFB-E4-04 |

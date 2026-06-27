@@ -15,9 +15,9 @@ licenca: CC BY 4.0
 | Campo | Dado |
 |-------|------|
 | **Título** | Panorama da Inovação Tecnológica em Habitação de Interesse Social no Brasil (2013-2019) |
-| **Autor(es)** | Grace T. Cardoso, Georgea M. Pedott, Stéfani P. Paludo, Vanusa Tebaldi, Nadine F. Marques |
+| **Autor(es)** | Rua Senador Pinheiro Vila Rodrigues CEP - Passo Fundo-RS
 | **Ano** | 2019 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 140 p. |
 | **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** | IFB-G-26 |

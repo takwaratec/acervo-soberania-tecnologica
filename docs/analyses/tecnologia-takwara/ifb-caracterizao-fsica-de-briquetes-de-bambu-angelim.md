@@ -17,8 +17,8 @@ licenca: CC BY 4.0
 | **Título** | Caracterização Física de Briquetes Produzidos a Partir de Resíduos de Bambu (Bambusa vulgaris) e Serragem de Angelim Vermelho (Dinizia excelsa Ducke) |
 | **Autor(es)** | Djailson Silva da Costa Júnior, Elias Costa de Souza, Yanka Beatriz Costa Lourenço, Pedro Paulo Barros Interaminense, Alexandre Santos Pimenta |
 | **Ano** | 2017 |
-| **Páginas** | Documento original digital |
-| **DOI** | — |
+| **Páginas** | 3 p. |
+| **DOI** | 10.4336/2016.pfb.36.88.879. |
 | **Eixo temático** | Briquetes e Pellets |
 | **Código** | IFB-E4-15 |
 

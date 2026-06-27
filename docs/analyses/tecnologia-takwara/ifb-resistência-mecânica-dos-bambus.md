@@ -17,8 +17,8 @@ licenca: CC BY 4.0
 | **Título** | Resistência Mecânica dos Bambus |
 | **Autor(es)** | Luís Eustáquio Moreira |
 | **Ano** | 2018 |
-| **Páginas** | Documento original digital |
-| **DOI** | — |
+| **Páginas** | 655 p. |
+| **DOI** | 10.1007/s00226-006-0078-5. |
 | **Eixo temático** | Caracterização Mecânica e Física do Bambu |
 | **Código** | IFB-E2-54 |
 

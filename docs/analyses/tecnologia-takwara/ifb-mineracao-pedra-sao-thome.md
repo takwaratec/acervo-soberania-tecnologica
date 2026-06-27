@@ -15,7 +15,7 @@ licenca: CC BY 4.0
 | Campo | Dado |
 |-------|------|
 | **Título** | Mineração da pedra São Tomé em São Tomé das Letras (MG): impactos e conflitos |
-| **Autor(es)** | Bruna Marcelo Bernardo Moreira, Luiz Felipe Silva |
+| **Autor(es)** | Bruna Marcelo Bernardo MOREIRA Luiz Felipe SILVA Maria Isabel Cardoso da Silva BUENO
 | **Ano** | 2020 |
 | **Páginas** | Documento original digital |
 | **DOI** | 10.5380/dma.v54i0.65016 |

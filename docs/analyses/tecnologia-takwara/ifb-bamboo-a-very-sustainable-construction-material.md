@@ -15,7 +15,7 @@ licenca: CC BY 4.0
 | Campo | Dado |
 |-------|------|
 | **Título** | Bamboo: A Very Sustainable Construction Material |
-| **Autor(es)** | Kewei Liu, Durai Jayaraman, Yongjiu Shi, Kent Harries |
+| **Autor(es)** | aInternational Bamboo and Rattan Organisation (INBAR) Beijing China.
 | **Ano** | 2021 |
 | **Páginas** | Documento original digital |
 | **DOI** | 10.54113/j.sust.2022.000015 |

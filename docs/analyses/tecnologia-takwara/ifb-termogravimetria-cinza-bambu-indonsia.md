@@ -15,10 +15,10 @@ licenca: CC BY 4.0
 | Campo | Dado |
 |-------|------|
 | **Título** | Thermogravimetric Analysis of Ash from Indonesian Bamboo Species |
-| **Autor(es)** | Pesquisadores da Indonésia |
+| **Autor(es)** | © IJRED – ISSN: - July th All rights reserved
 | **Ano** | 2016 |
 | **Páginas** | Documento original digital |
-| **DOI** | — |
+| **DOI** | 10.14710/ijred.5.2.96-100 |
 | **Eixo temático** | Pirólise, Biochar e Carbonização |
 | **Código** | IFB-E3-60 |
 

@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Turismo e Mineração em São Thomé das Letras (MG): Conflitos e Potencialidades |
 | **Autor(es)** | Juliar, et al. |
 | **Ano** | 2017 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 103 p. |
 | **DOI** | — |
 | **Eixo temático** | Território: São Thomé das Letras |
 | **Código** | IFB-E7-04 |

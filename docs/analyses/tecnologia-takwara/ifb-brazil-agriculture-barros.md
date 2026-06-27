@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Brazil: The Challenges in Becoming an Agricultural Superpower |
 | **Autor(es)** | Geraldo Barros |
 | **Ano** | 2018 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 51 p. |
 | **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-11 |

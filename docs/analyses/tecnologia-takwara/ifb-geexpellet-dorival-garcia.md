@@ -15,9 +15,9 @@ licenca: CC BY 4.0
 | Campo | Dado |
 |-------|------|
 | **Título** | GEExPELLET: Desenvolvimento de um equipamento para produção de pellets de madeira |
-| **Autor(es)** | Dorival Garcia, et al. |
+| **Autor(es)** | Dorival Pinheiro Garcia José Cláudio Caraschi Gustavo Ventorim
 | **Ano** | 2017 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 45 p. |
 | **DOI** | 10.5380/rf.v47i1.50952 |
 | **Eixo temático** | Briquetes e Pellets |
 | **Código** | IFB-E4-31 |

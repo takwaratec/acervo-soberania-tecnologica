@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Determinação do potencial de seqüestro de carbono na recuperação de matas ciliares na região de São Carlos - SP |
 | **Autor(es)** | Osvaldo Stella Martins |
 | **Ano** | 2004 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 136 p. |
 | **DOI** | — |
 | **Eixo temático** | Energia, Resíduos e Saneamento |
 | **Código** | IFB-E9-04 |

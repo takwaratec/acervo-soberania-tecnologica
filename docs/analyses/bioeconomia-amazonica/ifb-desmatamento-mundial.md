@@ -16,9 +16,9 @@ licenca: CC BY 4.0
 |-------|------|
 | **Título** | Desmatamento Mundial: Causas, Consequências e Perspectivas |
 | **Autor(es)** | Autores diversos |
-| **Ano** | 2020 |
+P20
 | **Páginas** | Documento original digital |
-| **DOI** | — |
+| **DOI** | 10.1038/s41598-020-63657-6 |
 | **Eixo temático** | Energia, Resíduos e Saneamento |
 | **Código** | IFB-E9-05 |
 

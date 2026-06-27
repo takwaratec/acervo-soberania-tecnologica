@@ -15,10 +15,10 @@ licenca: CC BY 4.0
 | Campo | Dado |
 |-------|------|
 | **Título** | Physico-thermal and emission properties of bamboo charcoal from cloned Bambusa species |
-| **Autor(es)** | Kwadwo Boakye Boadu, Michael Ansong, Rogerson Anokye |
+| **Autor(es)** | Kwadwo Boakye BoaduID Michael Ansong Rogerson AnokyeID Kelvin Offeh-
 | **Ano** | 2022 |
-| **Páginas** | Documento original digital |
-| **DOI** | — |
+| **Páginas** | 13 p. |
+| **DOI** | 10.1371/journal.pone.0279586 |
 | **Eixo temático** | Caracterização Mecânica e Física do Bambu |
 | **Código** | IFB-E3-04 |
 

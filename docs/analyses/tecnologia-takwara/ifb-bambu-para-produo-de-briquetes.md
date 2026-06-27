@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Potential of bamboo species for briquette production |
 | **Autor(es)** | Autores diversos |
 | **Ano** | 2019 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 3 p. |
 | **DOI** | 10.1590/1983-40632019v4954178 |
 | **Eixo temático** | Briquetes e Pellets |
 | **Código** | IFB-E4-09 |

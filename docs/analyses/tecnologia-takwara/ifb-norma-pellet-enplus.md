@@ -15,7 +15,7 @@ licenca: CC BY 4.0
 | Campo | Dado |
 |-------|------|
 | **Título** | Manual ENplus: Parte 3 - Requisitos de Qualidade do Pellet |
-| **Autor(es)** | ENplus / European Pellet Council |
+| **Autor(es)** | Versão . Agosto
 | **Ano** | 2015 |
 | **Páginas** | Documento original digital |
 | **DOI** | — |

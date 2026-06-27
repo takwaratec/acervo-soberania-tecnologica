@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Bamboo, People and the Environment: Socioeconomic and Ecological Aspects |
 | **Autor(es)** | INBAR (International Network for Bamboo and Rattan) |
 | **Ano** | 2003 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 1994 p. |
 | **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** | IFB-E8-06 |

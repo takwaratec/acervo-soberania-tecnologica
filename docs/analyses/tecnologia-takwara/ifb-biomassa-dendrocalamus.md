@@ -17,8 +17,8 @@ licenca: CC BY 4.0
 | **Título** | Biomassa de Dendrocalamus asper para Fins Energéticos |
 | **Autor(es)** | Autores diversos |
 | **Ano** | 2022 |
-| **Páginas** | Documento original digital |
-| **DOI** | — |
+| **Páginas** | 6 p. |
+| **DOI** | 10.5902/1980509867680 |
 | **Eixo temático** | Briquetes e Pellets |
 | **Código** | IFB-E4-07 |
 

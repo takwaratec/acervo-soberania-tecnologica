@@ -15,10 +15,10 @@ licenca: CC BY 4.0
 | Campo | Dado |
 |-------|------|
 | **Título** | Pellets de Bambu: Produção e Caracterização de Pellets de Bambusa vulgaris em Goiás |
-| **Autor(es)** | Roberto Sette, et al. |
+| **Autor(es)** | Biosci. J. Uberlândia v. n. p. - July/Aug.
 | **Ano** | 2016 |
-| **Páginas** | Documento original digital |
-| **DOI** | — |
+| **Páginas** | 4 p. |
+| **DOI** | 10.1016/j.fuel.2014.10.059 |
 | **Eixo temático** | Briquetes e Pellets |
 | **Código** | IFB-E4-56 |
 

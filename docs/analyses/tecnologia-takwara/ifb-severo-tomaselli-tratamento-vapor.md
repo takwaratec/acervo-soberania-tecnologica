@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Efeito do tratamento de vaporização em toras de Eucalyptus dunnii sobre as propriedades da madeira |
 | **Autor(es)** | Elias Ivan Severo, Ivan Tomaselli |
 | **Ano** | 1998 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 712 p. |
 | **DOI** | — |
 | **Eixo temático** | Preservação e Tratamento do Bambu |
 | **Código** | IFB-E1-09 |

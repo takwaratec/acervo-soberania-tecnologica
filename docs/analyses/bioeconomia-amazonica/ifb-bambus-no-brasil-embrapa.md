@@ -17,8 +17,8 @@ licenca: CC BY 4.0
 | **Título** | Bambus no Brasil: da Biologia à Tecnologia |
 | **Autor(es)** | Patrícia Maria Drumond, Guilherme Wiedman (Organizadores) |
 | **Ano** | 2017 |
-| **Páginas** | Documento original digital |
-| **DOI** | — |
+| **Páginas** | 655 p. |
+| **DOI** | 10.1007/s00226-006-0078-5. |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-04 |
 

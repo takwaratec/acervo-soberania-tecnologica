@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | A Handbook of Industrial Ecology |
 | **Autor(es)** | Robert U. Ayres, Leslie W. Ayres (eds.) |
 | **Ano** | 2002 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 300 p. |
 | **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-10 |

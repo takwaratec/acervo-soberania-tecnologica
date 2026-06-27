@@ -138,9 +138,9 @@ As seguintes referências da bibliografia IFB já foram processadas como fichas 
 | 02 | [Chung & Wang — Peeling Steam Bamboo](./chung-wang-2017-peeling-steam-bamboo.md) | 2017 | Preservação |
 | 03 | [Polymers — Alkali Treatment](./SCI_014_POLYMERS_ALKALI_TREATMENT.md) | 2022 | Biocompósitos |
 
-Além destas, **75 fichas IFB** foram criadas nos eixos Tecnologia Takwara (63) e Bioeconomia Amazônica (12), todas com **metadados verificados nos PDFs originais** (autor, título, ano, DOI quando disponível). Consulte os índices de cada eixo.
+Além destas, **70 fichas IFB** foram criadas nos eixos Tecnologia Takwara (59) e Bioeconomia Amazônica (11), todas com **metadados verificados nos PDFs originais** (autor, título, ano, DOI quando disponível). Consulte os índices de cada eixo.
 
-> **Nota:** Este catálogo de 84 referências está completo. Todos os 110 PDFs da Biblioteca Consultada foram extraídos para texto. 10 deles são documentos escaneados (imagem) que requerem OCR. **Regra do acervo:** nenhuma ficha é publicada sem autor, DOI/ISBN/ISSN ou identificação verificada no PDF original.
+> **Nota:** 5 documentos do catálogo original foram removidos por não atenderem aos critérios de qualidade do acervo (sem autor identificado e sem DOI). **Regra do acervo:** apenas documentos com autor, DOI/ISBN/ISSN ou metadados rastreáveis são aceitos.
 
 ---
 
@@ -267,4 +267,4 @@ Além destas, **75 fichas IFB** foram criadas nos eixos Tecnologia Takwara (63) 
 | [`ifb-ghavami-2003-propriedades-bambu.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-ghavami-2003-propriedades-bambu/) | IFB — Ghavami (2003) — Propriedades do Bambu |
 | [`ifb-simi-inovacao-mg-2024.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-simi-inovacao-mg-2024/) | IFB — SIMI: Estudo do Ambiente de Inovação em Minas Gerais (2024) |
 
-**Total de fichas IFB: 75** (63 em Tecnologia Takwara + 12 em Bioeconomia Amazônica)
+**Total de fichas IFB: 70** (59 em Tecnologia Takwara + 11 em Bioeconomia Amazônica)

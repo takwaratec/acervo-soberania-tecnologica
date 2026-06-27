@@ -15,10 +15,10 @@ licenca: CC BY 4.0
 | Campo | Dado |
 |-------|------|
 | **Título** | Pedra São Thomé: estudo etnográfico sobre saúde coletiva e justiça ambiental |
-| **Autor(es)** | Bruna Marcelo Bernardo Moreira |
+| **Autor(es)** | Bruna Marcelo Bernardo MOREIRA Luiz Felipe SILVA Maria Isabel Cardoso da Silva BUENO
 | **Ano** | 2019 |
 | **Páginas** | Documento original digital |
-| **DOI** | — |
+| **DOI** | 10.5380/dma.v54i0.65016. |
 | **Eixo temático** | Território: São Thomé das Letras |
 | **Código** | IFB-E7-05 |
 
