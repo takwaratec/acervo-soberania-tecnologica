@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Plano de Gestão de Logística Sustentável - PLS-SUREG-MG |
 | **Autor(es)** | CONAB - Companhia Nacional de Abastecimento |
 | **Ano** | 2018 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 60 p. |
 | **DOI** | — |
 | **Eixo temático** | Editais e Instrumentos |
 | **Código** | IFB-E10-48 |

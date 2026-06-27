@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Indian Standard 6874:2008 - Method of Tests for Bamboo |
 | **Autor(es)** | Bureau of Indian Standards |
 | **Ano** | 2008 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 16 p. |
 | **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** | IFB-G-43 |

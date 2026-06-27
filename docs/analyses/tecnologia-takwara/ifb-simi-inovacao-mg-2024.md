@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Estudo do Ambiente de Inovação em Minas Gerais - SIMI 2024 |
 | **Autor(es)** | Bruna Marcelo Bernardo MOREIRA Luiz Felipe SILVA Maria Isabel Cardoso da Silva BUENO
 | **Ano** | 2024 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 6 p. |
 | **DOI** | 10.5380/dma.v54i0.65016. |
 | **Eixo temático** | Geral |
 | **Código** | IFB-G-59 |

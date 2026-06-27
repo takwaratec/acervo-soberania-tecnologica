@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Mineração em São Thomé das Letras: Análise Socioambiental |
 | **Autor(es)** | Nayara Lage |
 | **Ano** | 2014 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 13 p. |
 | **DOI** | — |
 | **Eixo temático** | Território: São Thomé das Letras |
 | **Código** | IFB-E7-07 |

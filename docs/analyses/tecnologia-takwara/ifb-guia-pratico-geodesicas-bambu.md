@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Guia para construção de cúpulas geodésicas de bambu |
 | **Autor(es)** | Fabio Takwara |
 | **Ano** | 2018 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 6 p. |
 | **DOI** | — |
 | **Eixo temático** | Geodésicas e Construção com Bambu |
 | **Código** | IFB-E5-01 |

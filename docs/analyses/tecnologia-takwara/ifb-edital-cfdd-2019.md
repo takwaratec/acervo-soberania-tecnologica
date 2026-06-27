@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Edital CFDD 2019 - Chamamento Público para Projetos de Inovação |
 | **Autor(es)** | CFDD/MCTI |
 | **Ano** | 2019 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 7 p. |
 | **DOI** | — |
 | **Eixo temático** | Editais e Instrumentos |
 | **Código** | IFB-E10-22 |

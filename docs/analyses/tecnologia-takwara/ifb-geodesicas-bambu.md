@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Estudos Iniciais para Ensaios e Construção de Cúpulas Geodésicas usando Colmos de Bambu |
 | **Autor(es)** | Fabiano Ostapiv, Celso Salamon, Joamilton Stahlschmidt, Celso Ferraz Bett |
 | **Ano** | 2018 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 13 p. |
 | **DOI** | — |
 | **Eixo temático** | Geodésicas e Construção com Bambu |
 | **Código** | IFB-E5-02 |

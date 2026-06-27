@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Manual ENplus: Parte 3 - Requisitos de Qualidade do Pellet |
 | **Autor(es)** | Versão . Agosto
 | **Ano** | 2015 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 8 p. |
 | **DOI** | — |
 | **Eixo temático** | Briquetes e Pellets |
 | **Código** | IFB-E4-44 |

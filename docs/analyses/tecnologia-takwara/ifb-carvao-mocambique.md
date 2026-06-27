@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Charcoal supply chains from Mabalane to Maputo: Who benefits? |
 | **Autor(es)** | Sophia Baumert, Ana Catarina Luz, Janet Fisher, Frank Vollmer, Casey M. Ryan, Genevieve Patenaude, Pedro Zorrilla-Miras, Luís Artur, Isilda Nhantumbo, Erika N. Spear, James B. Palmer |
 | **Ano** | 2016 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 10 p. |
 | **DOI** | — |
 | **Eixo temático** | Pirólise, Biochar e Carbonização |
 | **Código** | IFB-E3-02 |

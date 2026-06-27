@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Cafés especiais e salto de escala: análise do circuito espacial produtivo |
 | **Autor(es)** | Marcela Barone |
 | **Ano** | 2012 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 218 p. |
 | **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-12 |

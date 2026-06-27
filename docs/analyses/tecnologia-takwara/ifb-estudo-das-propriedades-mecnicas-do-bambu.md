@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Estudo das Propriedades Mecânicas do Bambu Dendrocalamus Giganteus |
 | **Autor(es)** | Bruno Moreira Longuinho (orient. Khosrow Ghavami) |
 | **Ano** | 2020 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 6 p. |
 | **DOI** | — |
 | **Eixo temático** | Caracterização Mecânica e Física do Bambu |
 | **Código** | IFB-E2-25 |

@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Resistência à Flexão Estática e à Compressão Paralela às Fibras da Madeira de Eucalyptus dunnii |
 | **Autor(es)** | Rodrigo Strzelecki Berndsen, Ricardo Jorge Klitzke, Djeison Cesar Batista |
 | **Ano** | 2013 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 10 p. |
 | **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** | IFB-G-53 |

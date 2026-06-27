@@ -15,9 +15,9 @@ licenca: CC BY 4.0
 | Campo | Dado |
 |-------|------|
 | **Título** | Eco-Friendly Preservation of Bamboo Species: Traditional to Modern Techniques |
-| **Autor(es)** | Pesquisadores Indianos |
+| **Autor(es)** | Perminder Jit Kaur, Santosh Satya, Kamal K. Pant, Satya N. Naik |
 | **Ano** | 2016 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 22 p. |
 | **DOI** | 10.15376/biores.11.4.Kaur |
 | **Eixo temático** | Preservação e Tratamento do Bambu |
 | **Código** | IFB-E1-05 |

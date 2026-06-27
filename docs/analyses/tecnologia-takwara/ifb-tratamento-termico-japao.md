@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Investigating the Underlying Effect of Thermal Modification on Wood Properties |
 | **Autor(es)** | Raviduth Ramful Thefye P. M. Sunthar Wenliang Zhu and Giuseppe Pezzotti
 | **Ano** | 2021 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 16 p. |
 | **DOI** | 10.3390/ma14040974 |
 | **Eixo temático** | Preservação e Tratamento do Bambu |
 | **Código** | IFB-E1-10 |

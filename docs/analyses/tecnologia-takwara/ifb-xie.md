@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Effects of chemical modification on the mechanical properties of wood |
 | **Autor(es)** | Yanjun Xie, Qiliang Fu, Qingwen Wang, Zefang Xiao, Holger Militz |
 | **Ano** | 2013 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 17 p. |
 | **DOI** | 10.1007/s00107-013-0693-4 |
 | **Eixo temático** | Geral |
 | **Código** | IFB-G-63 |

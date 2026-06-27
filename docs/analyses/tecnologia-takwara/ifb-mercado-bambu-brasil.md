@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Economia do Bambu no Brasil: Tecnologia e Mercado |
 | **Autor(es)** | Diversos autores |
 | **Ano** | 2018 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 115 p. |
 | **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-03 |

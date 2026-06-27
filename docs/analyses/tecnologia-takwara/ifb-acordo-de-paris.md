@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Acordo de Paris sobre o Clima |
 | **Autor(es)** | UNFCCC (Convenção-Quadro das Nações Unidas sobre Mudança do Clima) |
 | **Ano** | 2015 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 13 p. |
 | **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-02 |

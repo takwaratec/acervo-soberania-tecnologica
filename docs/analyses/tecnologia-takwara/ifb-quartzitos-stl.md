@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Quartzitos do Centro Produtor de São Thomé das Letras, MG |
 | **Autor(es)** | Tânia Maria Gomes Fernandes, Antônio Misson Godoy |
 | **Ano** | 2002 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 5 p. |
 | **DOI** | — |
 | **Eixo temático** | Território: São Thomé das Letras |
 | **Código** | IFB-E7-01 |

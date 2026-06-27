@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | OSB com PU Vegetal: Desenvolvimento de painéis OSB com poliuretano à base de mamona |
 | **Autor(es)** | Ci. Fl. Santa Maria v. n. p. - Jan./Mar. • https://doi.org/./
 P02
-| **Páginas** | Documento original digital |
+| **Páginas** | 15 p. |
 | **DOI** | 10.5902/1980509846908 |
 | **Eixo temático** | PU Vegetal e Biocompósitos |
 | **Código** | IFB-E6-03 |

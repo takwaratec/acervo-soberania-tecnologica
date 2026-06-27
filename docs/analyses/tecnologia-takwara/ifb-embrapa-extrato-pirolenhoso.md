@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Técnicas para Produção de Extrato Pirolenhoso para Uso Agrícola |
 | **Autor(es)** | Ângela Diniz Campos |
 | **Ano** | 2007 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 8 p. |
 | **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** | IFB-E1-02 |

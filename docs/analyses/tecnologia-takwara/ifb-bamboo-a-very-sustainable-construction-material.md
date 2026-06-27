@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Bamboo: A Very Sustainable Construction Material |
 | **Autor(es)** | aInternational Bamboo and Rattan Organisation (INBAR) Beijing China.
 | **Ano** | 2021 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 16 p. |
 | **DOI** | 10.54113/j.sust.2022.000015 |
 | **Eixo temático** | Geral |
 | **Código** | IFB-G-05 |

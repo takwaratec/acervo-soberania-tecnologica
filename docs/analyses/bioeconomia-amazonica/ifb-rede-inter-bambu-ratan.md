@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Rede Interinstitucional Bambu e Ratan: Relatório Técnico |
 | **Autor(es)** | INBAR / Diversos autores |
 | **Ano** | 2005 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 7 p. |
 | **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-07 |

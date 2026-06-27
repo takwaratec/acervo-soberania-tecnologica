@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Bamboo Laminated Cross Section (BLC) produced from Dendrocalamus asper and Bambusa vulgaris |
 | **Autor(es)** | BLC Filho, et al. |
 P21
-| **Páginas** | Documento original digital |
+| **Páginas** | 19 p. |
 | **DOI** | 10.5902/1980509824220 |
 | **Eixo temático** | Caracterização Mecânica e Física do Bambu |
 | **Código** | IFB-E2-11 |

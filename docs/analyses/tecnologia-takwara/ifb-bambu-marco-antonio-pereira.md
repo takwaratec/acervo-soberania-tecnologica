@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Bambu: Recurso do Século 21 |
 | **Autor(es)** | Marco Antonio Pereira |
 | **Ano** | 2012 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 13 p. |
 | **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** | IFB-G-08 |

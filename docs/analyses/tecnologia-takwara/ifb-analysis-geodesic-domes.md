@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Analysis of Geodesic Dome Structures: Design and Structural Behavior |
 | **Autor(es)** | Kolpakov, A.; Dolgov, O. |
 P19
-| **Páginas** | Documento original digital |
+| **Páginas** | 12 p. |
 | **DOI** | 10.1088/1757-899X/687/3/033025 |
 | **Eixo temático** | Geodésicas e Construção com Bambu |
 | **Código** | IFB-E5-04 |

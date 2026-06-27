@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Manual Indiano de Preservação de Bambu: Métodos e Práticas |
 | **Autor(es)** | Bureau of Indian Standards / INBAR |
 | **Ano** | 2008 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 16 p. |
 | **DOI** | — |
 | **Eixo temático** | Preservação e Tratamento do Bambu |
 | **Código** | IFB-E1-39 |

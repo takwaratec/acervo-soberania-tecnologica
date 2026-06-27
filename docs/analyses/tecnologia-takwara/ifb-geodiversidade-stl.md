@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Recursos da Geodiversidade de São Thomé das Letras, MG |
 | **Autor(es)** | Autores diversos |
 | **Ano** | 2015 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 13 p. |
 | **DOI** | 10.5380/dma.v35i0.41514 |
 | **Eixo temático** | Território: São Thomé das Letras |
 | **Código** | IFB-E7-03 |

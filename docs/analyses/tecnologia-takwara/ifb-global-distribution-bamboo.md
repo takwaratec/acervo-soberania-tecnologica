@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | The global distribution of bamboos: assessing correlates of introduction and invasion |
 | **Autor(es)** | Susan Canavan David M. Richardson Vernon Visser Johannes J. Le Roux
 | **Ano** | 2016 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 18 p. |
 | **DOI** | 10.1093/aobpla/plw078 |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-05 |

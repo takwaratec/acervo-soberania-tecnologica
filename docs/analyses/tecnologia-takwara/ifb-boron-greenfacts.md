@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Boron GreenFacts: Level 2 - Details on Boron |
 | **Autor(es)** | GreenFacts |
 | **Ano** | 2008 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 13 p. |
 | **DOI** | — |
 | **Eixo temático** | Geral |
 | **Código** | IFB-G-12 |

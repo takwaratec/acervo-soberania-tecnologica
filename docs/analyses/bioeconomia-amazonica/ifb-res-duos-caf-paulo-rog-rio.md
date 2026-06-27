@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Uma Análise das Consequências da Cafeicultura Convencional e Modelos Sustentáveis |
 | **Autor(es)** | Paulo Rogério |
 | **Ano** | 2014 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 38 p. |
 | **DOI** | — |
 | **Eixo temático** | Energia, Resíduos e Saneamento |
 | **Código** | IFB-E9-01 |

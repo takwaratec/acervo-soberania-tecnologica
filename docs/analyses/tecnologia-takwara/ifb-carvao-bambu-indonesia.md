@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Fuel Properties of Indonesian Bamboo Carbonized at Different Temperatures |
 | **Autor(es)** | Se Hwi Park, Jae Hyuk Jang, Nyoman J Wistara, Fauzi Febrianto, Min Lee |
 | **Ano** | 2019 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 12 p. |
 | **DOI** | 10.15376/biores.14.2.4224-4235 |
 | **Eixo temático** | Pirólise, Biochar e Carbonização |
 | **Código** | IFB-E3-03 |

@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Energy properties of bamboo biomass and mate co-products |
 | **Autor(es)** | Fernando Rusch, Raul de Abreu Neto, Danielle de Moraes Lúcio, Éverton Hillig |
 P21
-| **Páginas** | Documento original digital |
+| **Páginas** | 19 p. |
 | **DOI** | 10.1007/s42452-021-04584-7 |
 | **Eixo temático** | Briquetes e Pellets |
 | **Código** | IFB-E4-06 |

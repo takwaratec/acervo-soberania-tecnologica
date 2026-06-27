@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | On potentiality and practicability of installing flooring suspended in geodesic domes by means of cable system |
 | **Autor(es)** | Fabio Takwara, et al. |
 P19
-| **Páginas** | Documento original digital |
+| **Páginas** | 9 p. |
 | **DOI** | 10.1088/1757-899X/687/3/033025 |
 | **Eixo temático** | Geodésicas e Construção com Bambu |
 | **Código** | IFB-E5-03 |

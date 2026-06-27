@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | O Esgoto Doméstico no Meio Rural: Tratamento e Implicações para a Saúde Humana |
 | **Autor(es)** | Hemerson Fernandes Calgaro, João Barbudo Filho |
 | **Ano** | 2020 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 15 p. |
 | **DOI** | — |
 | **Eixo temático** | Energia, Resíduos e Saneamento |
 | **Código** | IFB-E9-03 |

@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Conjuntura e Expectativas: Pellets de Madeira e Madeira para Lenha |
 | **Autor(es)** | Rafael Ribeiro de Lima Filho |
 | **Ano** | 2022 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 5 p. |
 | **DOI** | — |
 | **Eixo temático** | Briquetes e Pellets |
 | **Código** | IFB-E4-18 |

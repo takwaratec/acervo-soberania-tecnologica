@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Desmatamento Mundial: Causas, Consequências e Perspectivas |
 | **Autor(es)** | Autores diversos |
 P20
-| **Páginas** | Documento original digital |
+| **Páginas** | 9 p. |
 | **DOI** | 10.1038/s41598-020-63657-6 |
 | **Eixo temático** | Energia, Resíduos e Saneamento |
 | **Código** | IFB-E9-05 |

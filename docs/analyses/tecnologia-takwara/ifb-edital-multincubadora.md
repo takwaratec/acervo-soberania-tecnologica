@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Edital de Seleção nº 01/2022 - Fluxo Contínuo - Multincubadora de Empresas CDT/UnB |
 | **Autor(es)** | CDT/UnB - Centro de Apoio ao Desenvolvimento Tecnológico |
 | **Ano** | 2022 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 15 p. |
 | **DOI** | — |
 | **Eixo temático** | Editais e Instrumentos |
 | **Código** | IFB-E10-23 |

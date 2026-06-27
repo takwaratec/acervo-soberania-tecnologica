@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Biolubrificantes: Regulamentação e Perspectivas no Brasil |
 | **Autor(es)** | ANP - Agência Nacional do Petróleo, Gás Natural e Biocombustíveis |
 | **Ano** | 2020 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 15 p. |
 | **DOI** | — |
 | **Eixo temático** | Energia, Resíduos e Saneamento |
 | **Código** | IFB-E9-02 |

@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Agenda 2030 para o Desenvolvimento Sustentável |
 | **Autor(es)** | ONU (Organização das Nações Unidas) / PNUD |
 | **Ano** | 2015 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 42 p. |
 | **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E8-01 |

@@ -17,7 +17,7 @@ licenca: CC BY 4.0
 | **Título** | Uma análise das consequências da cafeicultura convencional e as opções de modelos sustentáveis |
 | **Autor(es)** | Paulo Rogério |
 | **Ano** | 2014 |
-| **Páginas** | Documento original digital |
+| **Páginas** | 38 p. |
 | **DOI** | — |
 | **Eixo temático** | Bioeconomia, Políticas e Mercado |
 | **Código** | IFB-E9-01 |
