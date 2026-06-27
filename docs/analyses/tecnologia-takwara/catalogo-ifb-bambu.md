@@ -141,3 +141,130 @@ As seguintes referências da bibliografia IFB já foram processadas como fichas 
 Além destas, **76 fichas IFB** foram criadas nos eixos Tecnologia Takwara (64) e Bioeconomia Amazônica (12), cobrindo ~90% do catálogo. Consulte os índices de cada eixo.
 
 > **Nota:** Este catálogo de 84 referências está praticamente completo. As ~8 referências restantes são principalmente documentos em formato não-texto (imagens escaneadas) que requerem OCR para processamento completo.
+
+---
+
+## Fichas IFB disponíveis
+
+> Links diretos para todas as fichas IFB processadas, organizadas por eixo temático.
+
+
+### E1 — Preservação e Tratamento
+
+| Ficha | Título |
+|-------|--------|
+| [`ifb-eco-friendly-preservation-bamboo-india.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-eco-friendly-preservation-bamboo-india/) | IFB — Eco-friendly Preservation of Bamboo (India) |
+| [`ifb-embrapa-extrato-pirolenhoso.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-embrapa-extrato-pirolenhoso/) | IFB — EMBRAPA — Extrato Pirolenhoso (2007) |
+| [`ifb-severo-tomaselli-tratamento-vapor.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-severo-tomaselli-tratamento-vapor/) | IFB — Severo & Tomaselli — Tratamento a Vapor (Eucalyptus) (1998) |
+| [`ifb-tratamento-termico-japao.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-tratamento-termico-japao/) | IFB — Tratamento Térmico (Japão) |
+
+### E2 — Caracterização Mecânica
+
+| Ficha | Título |
+|-------|--------|
+| [`ifb-estudo-das-propriedades-mecnicas-do-bambu.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-estudo-das-propriedades-mecnicas-do-bambu/) | IFB — Estudo das Propriedades Mecânicas do Bambu (2020) |
+| [`ifb-blc-asper-b-vulgaris.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-blc-asper-b-vulgaris/) | IFB — BLC Asper B. vulgaris (2016) |
+| [`ifb-bambu-marco-antonio-pereira.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-bambu-marco-antonio-pereira/) | IFB — Bambu — Marco Antonio Pereira |
+| [`ifb-caracterizao-fsica-de-briquetes-de-bambu-angelim.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-caracterizao-fsica-de-briquetes-de-bambu-angelim/) | IFB — Caracterização Física de Briquetes de Bambu + Angelim (2017) |
+| [`ifb-bambu-como-recurso-do-sculo-21.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-bambu-como-recurso-do-sculo-21/) | IFB — Bambu como recurso do século 21 |
+| [`ifb-resistencia-flexao-compressao-2017.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-resistencia-flexao-compressao-2017/) | IFB — Resistência à Flexão Estática e Compressão de Bambu (2017) |
+| [`ifb-resistência-mecânica-dos-bambus.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-resistência-mecânica-dos-bambus/) | IFB — Resistência Mecânica dos Bambus |
+
+### E3 — Pirólise e Biochar
+
+| Ficha | Título |
+|-------|--------|
+| [`ifb-carvao-bambu-indonesia.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-carvao-bambu-indonesia/) | IFB — Carvão Bambu Indonésia (2019) |
+| [`ifb-carvao-mocambique.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-carvao-mocambique/) | IFB — Carvão Moçambique (2016) |
+| [`ifb-propriedades-carvao-bambusa-clonado.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-propriedades-carvao-bambusa-clonado/) | IFB — Propriedades do Carvão de Bambusa Clonado (2022) |
+| [`ifb-termogravimetria-cinza-bambu-indonsia.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-termogravimetria-cinza-bambu-indonsia/) | IFB — Termogravimetria Cinza Bambu Indonésia (2016) |
+
+### E4 — Briquetes e Pellets
+
+| Ficha | Título |
+|-------|--------|
+| [`ifb-roberto-sette-pellets-b-vulgaris.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-roberto-sette-pellets-b-vulgaris/) | IFB — Roberto Sette — Pellets B. vulgaris (Goiás, 2016) |
+| [`ifb-geexpellet-dorival-garcia.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-geexpellet-dorival-garcia/) | IFB — GEExPELLET — Dorival Garcia (2017) |
+| [`ifb-normas-para-produo-de-biomassa-compactada.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-normas-para-produo-de-biomassa-compactada/) | IFB — Normas para Produção de Biomassa Compactada (2018) |
+| [`ifb-artigo-normas-pelletbriquete.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-artigo-normas-pelletbriquete/) | IFB — Artigo Normas Pellet/Briquete (2018) |
+| [`ifb-bambu-para-produo-de-briquetes.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-bambu-para-produo-de-briquetes/) | IFB — Bambu para Produção de Briquetes (2019) |
+| [`ifb-potencial-energtico-bambu-asper-vulgaris.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-potencial-energtico-bambu-asper-vulgaris/) | IFB — Potencial Energético Bambu Asper + Vulgaris (2021) |
+| [`ifb-biomassa-dendrocalamus.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-biomassa-dendrocalamus/) | IFB — Biomassa Dendrocalamus (2022) |
+| [`ifb-conjuntura-cna-pellets-e-lenha.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-conjuntura-cna-pellets-e-lenha/) | IFB — Conjuntura CNA — Pellets e Lenha (2022) |
+| [`ifb-norma-pellet-enplus.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-norma-pellet-enplus/) | IFB — Norma Pellet ENPlus |
+
+### E5 — Geodésicas e Construção
+
+| Ficha | Título |
+|-------|--------|
+| [`ifb-guia-pratico-geodesicas-bambu.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-guia-pratico-geodesicas-bambu/) | IFB — Guia Prático para Geodésicas de Bambu (2018) |
+| [`ifb-geodesicas-bambu.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-geodesicas-bambu/) | IFB — Geodésicas de Bambu (2018) |
+| [`ifb-flooring-geodesic-domes.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-flooring-geodesic-domes/) | IFB — On Potentiality of Flooring in Geodesic Domes (2019) |
+| [`ifb-analysis-geodesic-domes.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-analysis-geodesic-domes/) | IFB — Analysis of Geodesic Domes (2021) |
+| [`ifb-bamboo-a-very-sustainable-construction-material.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-bamboo-a-very-sustainable-construction-material/) | IFB — Bamboo: A Very Sustainable Construction Material (2021) |
+| [`ifb-f-rum-habitar-2019.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-f-rum-habitar-2019/) | IFB — Fórum HABITAR 2019 |
+
+### E6 — PU Vegetal e Biocompósitos
+
+| Ficha | Título |
+|-------|--------|
+| [`ifb-osb-pu-veg-barbirato.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-osb-pu-veg-barbirato/) | IFB — OSB PU Veg — Henrique Barbirato (2022) |
+| [`ifb-revolucao-verde-mamona.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-revolucao-verde-mamona/) | IFB — Revolução Verde Mamona (2010) |
+
+### E7 — Território: São Thomé das Letras
+
+| Ficha | Título |
+|-------|--------|
+| [`ifb-quartzitos-stl.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-quartzitos-stl/) | IFB — Quartzitos do Centro Produtor de São Thomé das Letras (2002) |
+| [`ifb-fenomeno-carsico-stl.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-fenomeno-carsico-stl/) | IFB — Fenômeno Cárstico em São Thomé das Letras (2012) |
+| [`ifb-geodiversidade-stl.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-geodiversidade-stl/) | IFB — Recursos da Geodiversidade de São Thomé das Letras (2015) |
+| [`ifb-turismo-mineracao-stl.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-turismo-mineracao-stl/) | IFB — Turismo e Mineração em São Thomé das Letras (2017) |
+| [`ifb-pedra-sao-thome-etnografico.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-pedra-sao-thome-etnografico/) | IFB — Pedra São Thomé — Estudo Etnográfico (2019) |
+| [`ifb-mineracao-pedra-sao-thome.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-mineracao-pedra-sao-thome/) | IFB — Mineração da Pedra São Thomé (2020) |
+| [`ifb-nayara-lage-mineracao-stl.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-nayara-lage-mineracao-stl/) | IFB — Nayara Lage — Mineração em São Thomé das Letras |
+
+### E8 — Bioeconomia e Mercado
+
+| Ficha | Título |
+|-------|--------|
+| [`ifb-agenda-2030-onu.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-agenda-2030-onu/) | IFB — Agenda 2030 — ONU (2015) |
+| [`ifb-acordo-de-paris.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-acordo-de-paris/) | IFB — Acordo de Paris |
+| [`ifb-mercado-bambu-brasil.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-mercado-bambu-brasil/) | IFB — Mercado Bambu Brasil |
+| [`ifb-global-distribution-bamboo.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-global-distribution-bamboo/) | IFB — Global Distribution of Bamboo |
+| [`ifb-bamboo-people-environment.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-bamboo-people-environment/) | IFB — Bamboo, People and the Environment |
+| [`ifb-design-interventions-bamboo.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-design-interventions-bamboo/) | IFB — Design Interventions for Stimulating Bamboo Commercialization (2008) |
+| [`ifb-ecoindustria-brasil.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-ecoindustria-brasil/) | IFB — Ecoindústria no Brasil (2017) |
+| [`ifb-handbook-industrial-ecology.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-handbook-industrial-ecology/) | IFB — A Handbook of Industrial Ecology |
+| [`ifb-brazil-agriculture-barros.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-brazil-agriculture-barros/) | IFB — Brazil Agriculture — Barros |
+| [`ifb-cafe-ibc-barone.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-cafe-ibc-barone/) | IFB — Café IBC MG — Barone (2012) |
+
+### E9 — Energia, Resíduos e Saneamento
+
+| Ficha | Título |
+|-------|--------|
+| [`ifb-residuos-cafe-paulo-rogerio.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-residuos-cafe-paulo-rogerio/) | IFB — Resíduos Café — Paulo Rogério |
+| [`ifb-fixacao-carbono-sao-carlos.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-fixacao-carbono-sao-carlos/) | IFB — Fixação de Carbono — São Carlos |
+| [`ifb-saneamento-basico.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-saneamento-basico/) | IFB — Saneamento Básico (2020) |
+
+### E10 — Editais e Instrumentos
+
+| Ficha | Título |
+|-------|--------|
+| [`ifb-edital-cfdd-2019.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-edital-cfdd-2019/) | IFB — Edital CFDD 2019 |
+| [`ifb-fluxo-cont-nuo-multincubadora.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-fluxo-cont-nuo-multincubadora/) | IFB — Fluxo Contínuo Multincubadora (2022) |
+| [`ifb-edital-multincubadora.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-edital-multincubadora/) | IFB — Edital Multincubadora (2022) |
+| [`ifb-plano-de-log-stica-sustent-vel-conab.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-plano-de-log-stica-sustent-vel-conab/) | IFB — Plano de Logística Sustentável — CONAB |
+
+### Outras fichas de referência
+
+| Ficha | Título |
+|-------|--------|
+| [`ifb-boron-greenfacts.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-boron-greenfacts/) | IFB — Boron Greenfacts — Toxicidade do Boro |
+| [`ifb-inbar.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-inbar/) | IFB — INBAR — Padrões Internacionais de Preservação |
+| [`ifb-manual-indiano-preservacao-2006.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-manual-indiano-preservacao-2006/) | IFB — Manual Indiano de Preservação de Bambu (2006) |
+| [`ifb-norma-indiana-6874.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-norma-indiana-6874/) | IFB — Norma Indiana 6874 — Testes de Bambu |
+| [`ifb-xie.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-xie/) | IFB — XIE — Modificação Química da Madeira |
+| [`ifb-ghavami-2003-propriedades-bambu.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-ghavami-2003-propriedades-bambu/) | IFB — Ghavami (2003) — Propriedades do Bambu |
+| [`ifb-simi-inovacao-mg-2024.md`](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/ifb-simi-inovacao-mg-2024/) | IFB — SIMI: Estudo do Ambiente de Inovação em Minas Gerais (2024) |
+
+**Total de fichas IFB: 75** (63 em Tecnologia Takwara + 12 em Bioeconomia Amazônica)
