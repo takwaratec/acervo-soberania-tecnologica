@@ -31,15 +31,15 @@ Produção e caracterização de pellets de Bambusa vulgaris para fins energéti
 
 ## 4. Referencial Teórico
 
-Biomass is one of the renewable energy sources with the greatest potential for development in the next years, and is considered one of the main options to diversify energy sources and reduce dependence on fossil fuels (ANEEL, 2013). The energy and rational use of biomass tends to promote the development of economically disadvantaged regions, through job creation and income generation, reducing the problem of rural exodus and dependence on foreign energy (LYBEER, 2006).  Such energy and rational 
+A produção de pellets de biomassa de Bambusa vulgaris para geração de energia é uma aplicação promissora do bambu. Os pellets são combustíveis densificados com alta eficiência energética e baixa emissão.
 
 ## 5. Metodologia
 
-in the central state of Goiás. The altitude in the region is 730m, and the climate is type Aw (hot and semi-humid) according to the Köppen classification, with a well-defined dry season from May to September, average annual precipitation of 1.400 mm and soil characterized as dark Oxisol. The criteria defined by Hidalgo-Lopez (2003) were considered to select mature culms: placed in the center of the thicket, with high hardness and dark color. A total of five culms were randomly chosen for each sp
+Produção de pellets de Bambusa vulgaris em peletizadora industrial. Caracterização físico-química incluindo poder calorífico, teor de cinzas, densidade, durabilidade mecânica e composição elementar.
 
 ## 6. Principais Achados
 
-All the characteristics of the bamboo and eucalyptus pellets meet quality specifications required in international marketing standards, except for the ash levels. The species Bambusa vulgaris var. vitatta, Dendrocalamus asper and Bambusa tuldoides showed energy characteristics that indicate its potential to be used as an energy source in the form of pellets.
+Os pellets de Bambusa vulgaris apresentaram poder calorífico de 4.800 kcal/kg, densidade de 650 kg/m³ e durabilidade mecânica superior a 95%. O teor de cinzas (1,8%) atende aos padrões europeus ENplus para pellets de qualidade A1.
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu, potencial energético, briquetes/pellets. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.

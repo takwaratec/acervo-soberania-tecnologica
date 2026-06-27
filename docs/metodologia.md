@@ -21,6 +21,8 @@ Cada referência inserida neste repositório passa por um fluxo padronizado de 7
   - **Ano:** verificar na página de publicação.
   - **Páginas:** contar ou extrair do documento. NUNCA usar "Documento original digital".
 - **OCR:** quando o PDF for escaneado (imagem), aplicar Tesseract 5 (por+eng) para extrair o texto antes de criar a ficha.
+- **TRADUÇÃO:** todo conteúdo extraído de documentos em outros idiomas (inglês, espanhol, etc.) DEVE ser traduzido para o português. O acervo é em português. NUNCA deixar seções em inglês.
+- **FORMATAÇÃO:** as seções 4 a 8 devem ter conteúdo limpo, sem cabeçalhos de seção (`## N.`) embutidos no texto. Cada seção deve ser separada por linha em branco.
 - Leitura da estrutura: título, autor, instituição, ano, orientador, resumo, palavras-chave
 - Identificação do sumário e seções principais
 

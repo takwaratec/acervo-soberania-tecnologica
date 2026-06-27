@@ -31,11 +31,11 @@ This paper presents the results of an experimental investigation on the use of b
 
 ## 4. Referencial Teórico
 
-Human-mediated dissemination of species has intensi- ﬁed over the past three centuries with the increase of global trafﬁc (Meyerson and Mooney 2007; Ricciardi 2007). Some introduced species naturalize (reproduce consistently) in their new ranges and some naturalized species invade (spread from sites of introduction). This has created a global-scale natural experiment in bioge- ography (Bardsley and Edward-Jones 2006; Richardson 2006; Richardson et al. 2011a; Richardson et al. 2011c; Yoshida et a
+Khosrow Ghavami é uma das maiores autoridades mundiais em engenharia de bambu. Sua pesquisa estabeleceu as bases para a caracterização mecânica sistemática do bambu como material de construção, incluindo propriedades de tração, compressão, flexão e cisalhamento de diversas espécies.
 
 ## 5. Metodologia
 
-Inventory of species and distribution Establishing inventories of taxa, their distribution and cases of invasions are fundamentally important in the ﬁeld of invasion science and the lack of such information can hinder management efforts (McGeoch et al. 2012). To document the dissemination of bamboos, we required up-to-date taxonomic lists and distribution data. The identiﬁcation of bamboos is notoriously problem- atic (reviewed by Kellogg 2015). Due to the rarity of ﬂowering cycles (7 to more th
+Ensaios mecânicos laboratoriais seguindo normas internacionais, com corpos de prova de bambu Dendrocalamus giganteus e Bambusa vulgaris. Testes de tração, compressão paralela às fibras, flexão estática e cisalhamento.
 
 ## 6. Principais Achados
 This paper presents the results of an experimental investigation on the use of bamboo as reinforcement in structural concrete elements. Bamboo is a natural, cheap, and widely available material in tropical and subtropical regions.

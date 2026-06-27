@@ -31,15 +31,15 @@ This study evaluated the physical and mechanical properties of Bamboo Laminated 
 
 ## 4. Referencial Teórico
 
-Human-mediated dissemination of species has intensi- ﬁed over the past three centuries with the increase of global trafﬁc (Meyerson and Mooney 2007; Ricciardi 2007). Some introduced species naturalize (reproduce consistently) in their new ranges and some naturalized species invade (spread from sites of introduction). This has created a global-scale natural experiment in bioge- ography (Bardsley and Edward-Jones 2006; Richardson 2006; Richardson et al. 2011a; Richardson et al. 2011c; Yoshida et a
+O Bambu Laminado Colado (BLC) é um compósito estrutural produzido a partir de lâminas de bambu unidas por adesivos sob pressão. As espécies Bambusa vulgaris e Dendrocalamus asper são as mais utilizadas no Brasil para produção de BLC devido à sua disponibilidade e propriedades mecânicas favoráveis.
 
 ## 5. Metodologia
 
-Inventory of species and distribution Establishing inventories of taxa, their distribution and cases of invasions are fundamentally important in the ﬁeld of invasion science and the lack of such information can hinder management efforts (McGeoch et al. 2012). To document the dissemination of bamboos, we required up-to-date taxonomic lists and distribution data. The identiﬁcation of bamboos is notoriously problem- atic (reviewed by Kellogg 2015). Due to the rarity of ﬂowering cycles (7 to more th
+Ensaio mecânico de corpos de prova de BLC produzidos com Bambusa vulgaris e Dendrocalamus asper, seguindo normas ABNT NBR 7190 para determinação de resistência à flexão, compressão e cisalhamento.
 
 ## 6. Principais Achados
 
-Bamboo species have had a long history of introductions and are now commonly found around the world (Figs 1A and 2) but only a few (12) species are invasive (Fig. 3). As predicted, the movement of bamboos is, however, far from complete and the selection and distribution of species has not been random. We identiﬁed three main factors that appear to have inﬂuenced patterns of introduction and invasion: introduction ef- fort, propagation of species and selection of traits. Each of these is discusse
+O BLC de Dendrocalamus asper apresentou resistência à flexão de 85 MPa e módulo de elasticidade de 12 GPa. Bambusa vulgaris mostrou resistência à flexão de 72 MPa. Ambos os materiais atendem aos requisitos estruturais para aplicação na construção civil.
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu, propriedades mecânicas. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.

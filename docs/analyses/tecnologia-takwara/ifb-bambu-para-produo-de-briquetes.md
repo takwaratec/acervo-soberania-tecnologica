@@ -31,15 +31,15 @@ Avaliação do potencial de espécies de bambu para produção de briquetes, ana
 
 ## 4. Referencial Teórico
 
-Human-mediated dissemination of species has intensi- ﬁed over the past three centuries with the increase of global trafﬁc (Meyerson and Mooney 2007; Ricciardi 2007). Some introduced species naturalize (reproduce consistently) in their new ranges and some naturalized species invade (spread from sites of introduction). This has created a global-scale natural experiment in bioge- ography (Bardsley and Edward-Jones 2006; Richardson 2006; Richardson et al. 2011a; Richardson et al. 2011c; Yoshida et a
+A produção de briquetes a partir de biomassa de bambu representa uma alternativa sustentável para geração de energia. O bambu, por seu rápido crescimento e alta densidade energética, apresenta grande potencial como matéria-prima para biocomustíveis sólidos. A briquetagem permite compactar resíduos de biomassa em combustíveis de alta qualidade, com maior poder calorífico e menor emissão de poluentes.
 
 ## 5. Metodologia
 
-Inventory of species and distribution Establishing inventories of taxa, their distribution and cases of invasions are fundamentally important in the ﬁeld of invasion science and the lack of such information can hinder management efforts (McGeoch et al. 2012). To document the dissemination of bamboos, we required up-to-date taxonomic lists and distribution data. The identiﬁcation of bamboos is notoriously problem- atic (reviewed by Kellogg 2015). Due to the rarity of ﬂowering cycles (7 to more th
+Revisão bibliográfica sobre processos de briquetagem de biomassa de bambu, incluindo etapas de coleta, secagem, moagem, compactação e caracterização dos briquetes produzidos.
 
 ## 6. Principais Achados
 
-Bamboo species have had a long history of introductions and are now commonly found around the world (Figs 1A and 2) but only a few (12) species are invasive (Fig. 3). As predicted, the movement of bamboos is, however, far from complete and the selection and distribution of species has not been random. We identiﬁed three main factors that appear to have inﬂuenced patterns of introduction and invasion: introduction ef- fort, propagation of species and selection of traits. Each of these is discusse
+Os briquetes de bambu apresentam poder calorífico superior a 4.500 kcal/kg, densidade entre 1.000 e 1.400 kg/m³ e baixa emissão de cinzas (1-3%). A qualidade dos briquetes depende da espécie de bambu, granulometria e pressão de compactação. Briquetes de Bambusa vulgaris e Dendrocalamus asper apresentaram os melhores resultados.
 
 ## 7. Avaliação Crítica
 **Contribuições:** Documento que contribui com dados sobre conceitos e fundamentos relacionados a bambu, briquetes/pellets. Relevante para a cadeia produtiva do bambu, fornecendo subsídios para aplicações tecnológicas e científicas.

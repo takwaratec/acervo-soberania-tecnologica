@@ -31,11 +31,11 @@ Bamboos are one of the most economically important plant groups globally, but th
 
 ## 4. Referencial Teórico
 
-Human-mediated dissemination of species has intensi- ﬁed over the past three centuries with the increase of global trafﬁc (Meyerson and Mooney 2007; Ricciardi 2007). Some introduced species naturalize (reproduce consistently) in their new ranges and some naturalized species invade (spread from sites of introduction). This has created a global-scale natural experiment in bioge- ography (Bardsley and Edward-Jones 2006; Richardson 2006; Richardson et al. 2011a; Richardson et al. 2011c; Yoshida et a
+Os bambus são gramíneas da subfamília Bambusoideae, distribuídas naturalmente em todos os continentes exceto Antártida e Europa. A diversidade de espécies é maior na Ásia tropical e América do Sul, com centros de endemismo no Sudeste Asiático e na Bacia Amazônica.
 
 ## 5. Metodologia
 
-Inventory of species and distribution Establishing inventories of taxa, their distribution and cases of invasions are fundamentally important in the ﬁeld of invasion science and the lack of such information can hinder management efforts (McGeoch et al. 2012). To document the dissemination of bamboos, we required up-to-date taxonomic lists and distribution data. The identiﬁcation of bamboos is notoriously problem- atic (reviewed by Kellogg 2015). Due to the rarity of ﬂowering cycles (7 to more th
+Revisão bibliográfica sobre a distribuição global dos bambus, baseada em dados de herbários, coletas botânicas e literatura especializada. Análise fitogeográfica dos gêneros e espécies.
 
 ## 6. Principais Achados
 Bamboos are one of the most economically important plant groups globally, but the potential for invasion has not been assessed comprehensively. This study compiled the global distribution of bamboos to assess correlates of introduction and invasion.
