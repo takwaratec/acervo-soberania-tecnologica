@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="vf:page-type" content="category;managed-challenge" />
+    <title>Security check</title>
+    <!--
+      CLOUDFLARE CUSTOM ERROR PAGE - MANAGED CHALLENGE / I'M UNDER ATTACK MODE
+      Part of UNDRR Mangrove component library
+      Issue: https://gitlab.com/undrr/web-backlog/-/issues/2556
+
+      This template is designed for Cloudflare's "Managed challenge" setting,
+      which presents different types of challenges depending on the nature of
+      the request and your security settings. Returns a 403 status code.
+      Also used for "I'm Under Attack Mode" (JS Challenge).
+
+      This template uses Cloudflare error tokens that are replaced at runtime.
+      See: https://developers.cloudflare.com/rules/custom-errors/reference/error-tokens/
+
+      Available tokens used in this template:
+      - a155902c6fe3f179 - Unique request identifier for support tickets
+      - 2804:18:1138:402f:f5cf:6387:14ca:bcdc - Visitor's IP address
+      - BR - Visitor's country/region
+      - <div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'SL6.5L7NpScgUm4m6nSuiXeze6V7LnqFaZg8taYkvrE-1783078279-1.2.1.1-PBf_lHoypUOkPg2fKfhiO56OXb4mW09bVqFIsFLnNQaKLKoYVWaj4.AMgpN2rfu1',cITimeS: '1783078279',cRay: 'a155902c6fe3f179',cTplB: '0',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:"/media/79595/download?__cf_chl_tk=94J1vQHoK_jz78XbxtUalekB6SggjukD6qMo5UbQVL4-1783078279-1.0.1.1-qLKD29IeasdeDFkdCd3IFD__vf4kQ5vQOIEpulHYXlI",cvId: '3',cZone: 'www.undrr.org',fa:"/media/79595/download?__cf_chl_f_tk=94J1vQHoK_jz78XbxtUalekB6SggjukD6qMo5UbQVL4-1783078279-1.0.1.1-qLKD29IeasdeDFkdCd3IFD__vf4kQ5vQOIEpulHYXlI",md: 'i4ln8Ng5KmEaiPyWCOT4wq.vyrqr0spaP4bpqDP6AcQ-1783078279-1.2.1.1-K_kYf2dbFzrKL7CCuumwXG85ggph80YJ3srZ2zRu5K7MN78sDEe8n6atb7.2P8CVWItjo7wkdpfLxQ4I_Oso2UL8zVHduqPkZexOETT.rQ50MQMDULF7fvHUkqK6SE2rvB_4Xf5NB3Sy8UgCwUNxnJFZMZIIx3KUa.98_hZPw..ZwwgeoiVAltFj0mGSKD0VbvziiC4LuOyeXXvhgNN0WLr8ex9aUtGqq6jPwQWIyEsgts8hec9em6S_xCfxb22S_0o.hsi0gN0XT5hZPUHlgazN8oU_uUPEG5qmjikuwyrdNaDDIHuRS5J7lYvrO2_fvF7G3nyWT46mYFX5FrofCofC8A8gkTXsHwuqmCiWHP90xXudNu45TMMwn22FWOq0G5_KbErjLMz.igj8bTtsr0NCAX.3nskpZvF05B._t6uL2igp5_olkMmJMb9ipPObfPK1WjFPuHkOj6zrq2MkXu69FCCAnTZYwC2099Y_gHUur2XpiiPwx3KDdka1R.IpEMSRp_cy2mR0hpUAadjyaICdLhUWwiFdOkRU56NbLo9YCggl9veZdHzduWlbM0kEj1kvZhePwFY0IG_JPd8XO2ZdCGXWCrzpspfVCVdmEczDPtbngbV3UfehVYxCx.WyoXqKP6CiB5GI.YhVb4liM59dPChOrCoVn5jXzWX2D9r_daleiZzTpLMvjU4tEZ8p7Nqvmv3wrC88Qz.8UkCnl1kjfvqe4CZld92ppc9kra9AlYsuw86trrDOSo738y.A_B_R7WMnq1GwmuoYT3St6ZvhnyZJ5k_kVql8hk3iVvZXftJYoxEIL_lGaqCBgeI2738xR1qp0UwWvXYgPNF0uMPxzs.tid1V_GfRX2LjEHj57dQW1mshnAMgGKOTCUDgfrysPvF2btqnfNL4uHe4T.URVL9BTUVDSVVzU7WrmfqOLLflMJzWE7CzwoOPHeZFnEnZbaps5RpYse13oqNhdOwvlfanHXKq4lPrC5JOI.A_jXFv3g_cbFqYAvTxtDgLz67s9wUcFlowTlQlxwa4F1HfEJ0Q9Y6X201sgpEeftzm4NXtPQq0Gxc6ZwJhBuLfywhqIK7KxpMS3g1.1EHpKAIDREH6mfr5Tjy_DEny07Y',mdrd: 'toUVhlWdWJ6fvZ24djYcaHjB5sc3lLh1mqAOUKgyCZs-1783078279-1.2.1.1-aTaYAYfDBTTZon5hwJhN36r8tm.It1QKI5ozH2.HDWTmHVeKNrpebOFH6brv1NXkp.ETikO5yU_PEbzBgoG4DFl4MrNRLVirYM68tvxgxSuxwM77YFsDkjJTQ81RZit9l8FMrJp2WHjMPaLL2MD2qv9lNy857I57.CGwHe3GlG2wejEUXVlTDogI4GvJp9U183JtUNDr3_mON.1sxifDJhyqv5J2ydp3aegktFTy88Y',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a155902c6fe3f179';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"/media/79595/download?__cf_chl_rt_tk=94J1vQHoK_jz78XbxtUalekB6SggjukD6qMo5UbQVL4-1783078279-1.0.1.1-qLKD29IeasdeDFkdCd3IFD__vf4kQ5vQOIEpulHYXlI"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script> - Managed Challenge (REQUIRED)
+
+      To customize for other systems, replace the Cloudflare tokens with your
+      platform's equivalent variables or static text.
+    -->
+    <style>
+      /* Critical inline styles for immediate render */
+      *,*::before,*::after{box-sizing:border-box}
+      html{font-size:10px}
+      body{font-family:system-ui,-apple-system,sans-serif;font-size:1.6rem;line-height:1.5;margin:0;color:#1a1a1a}
+      h1,h2{margin:1rem 0;font-weight:700}
+      h1{font-size:1.4rem;color:#004f91;margin:0}
+      h2{font-size:2.3rem;margin-top:.5rem}
+      a{color:#004f91;text-decoration:none}
+      a:hover{text-decoration:underline}
+      hr{border:1px solid #b3b3b3}
+      small{display:block;margin-bottom:.5rem}
+      .mg-error-page{min-height:100vh;background:#004f91;padding-bottom:2rem}
+      .mg-error-page--challenge{background:#f2f2f2}
+      .mg-error-page--challenge .mg-error-page__container{text-align:center;padding:3rem 2.5rem 2rem;margin-top:4rem;max-width:540px;border-radius:8px;box-shadow:0 2px 12px rgb(0 0 0 / 8%)}
+      .mg-error-page--challenge .undrr-logo{width:100%;margin:0 0 2.5rem;background-position:center;height:35px}
+      .mg-error-page--challenge h1{font-size:2.3rem;font-weight:600;color:#1a1a1a;margin:0 0 .5rem}
+      .mg-page-header__decoration{display:flex}
+      .mg-page-header__decoration div{width:25%;height:7px}
+      .mg-page-header__decoration div:nth-child(1){background:#c10920}
+      .mg-page-header__decoration div:nth-child(2){background:#962987}
+      .mg-page-header__decoration div:nth-child(3){background:#eb752a}
+      .mg-page-header__decoration div:nth-child(4){background:#00afae}
+      .mg-error-page__container{background:#fff;padding:2rem 1.5rem 1rem;max-width:900px;margin:2rem auto}
+      .mg-button{display:inline-flex;align-items:center;justify-content:center;padding:1rem 1.5rem;font-size:1.4rem;font-weight:600;color:#fff;background:#004f91;border:1px solid #fff;cursor:pointer;text-decoration:none}
+      .mg-button:hover{background:#3372a7;color:#fff;text-decoration:none}
+      .mg-u-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(0);border:0}
+    </style>
+  <meta http-equiv="refresh" content="360"></head>
+  <body>
+    <main class="mg-error-page mg-error-page--challenge">
+      <div class="mg-page-header__decoration" aria-hidden="true">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="mg-error-page__container">
+        <a href="https://www.undrr.org/"><div class="undrr-logo" aria-hidden="true"></div></a>
+        <h1>Checking your browser</h1>
+        <p>This is a routine check to keep the site secure. It only takes a moment.</p>
+        <!-- Cloudflare CAPTCHA box - REQUIRED for managed challenge pages -->
+        <div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'SL6.5L7NpScgUm4m6nSuiXeze6V7LnqFaZg8taYkvrE-1783078279-1.2.1.1-PBf_lHoypUOkPg2fKfhiO56OXb4mW09bVqFIsFLnNQaKLKoYVWaj4.AMgpN2rfu1',cITimeS: '1783078279',cRay: 'a155902c6fe3f179',cTplB: '0',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:"/media/79595/download?__cf_chl_tk=94J1vQHoK_jz78XbxtUalekB6SggjukD6qMo5UbQVL4-1783078279-1.0.1.1-qLKD29IeasdeDFkdCd3IFD__vf4kQ5vQOIEpulHYXlI",cvId: '3',cZone: 'www.undrr.org',fa:"/media/79595/download?__cf_chl_f_tk=94J1vQHoK_jz78XbxtUalekB6SggjukD6qMo5UbQVL4-1783078279-1.0.1.1-qLKD29IeasdeDFkdCd3IFD__vf4kQ5vQOIEpulHYXlI",md: 'i4ln8Ng5KmEaiPyWCOT4wq.vyrqr0spaP4bpqDP6AcQ-1783078279-1.2.1.1-K_kYf2dbFzrKL7CCuumwXG85ggph80YJ3srZ2zRu5K7MN78sDEe8n6atb7.2P8CVWItjo7wkdpfLxQ4I_Oso2UL8zVHduqPkZexOETT.rQ50MQMDULF7fvHUkqK6SE2rvB_4Xf5NB3Sy8UgCwUNxnJFZMZIIx3KUa.98_hZPw..ZwwgeoiVAltFj0mGSKD0VbvziiC4LuOyeXXvhgNN0WLr8ex9aUtGqq6jPwQWIyEsgts8hec9em6S_xCfxb22S_0o.hsi0gN0XT5hZPUHlgazN8oU_uUPEG5qmjikuwyrdNaDDIHuRS5J7lYvrO2_fvF7G3nyWT46mYFX5FrofCofC8A8gkTXsHwuqmCiWHP90xXudNu45TMMwn22FWOq0G5_KbErjLMz.igj8bTtsr0NCAX.3nskpZvF05B._t6uL2igp5_olkMmJMb9ipPObfPK1WjFPuHkOj6zrq2MkXu69FCCAnTZYwC2099Y_gHUur2XpiiPwx3KDdka1R.IpEMSRp_cy2mR0hpUAadjyaICdLhUWwiFdOkRU56NbLo9YCggl9veZdHzduWlbM0kEj1kvZhePwFY0IG_JPd8XO2ZdCGXWCrzpspfVCVdmEczDPtbngbV3UfehVYxCx.WyoXqKP6CiB5GI.YhVb4liM59dPChOrCoVn5jXzWX2D9r_daleiZzTpLMvjU4tEZ8p7Nqvmv3wrC88Qz.8UkCnl1kjfvqe4CZld92ppc9kra9AlYsuw86trrDOSo738y.A_B_R7WMnq1GwmuoYT3St6ZvhnyZJ5k_kVql8hk3iVvZXftJYoxEIL_lGaqCBgeI2738xR1qp0UwWvXYgPNF0uMPxzs.tid1V_GfRX2LjEHj57dQW1mshnAMgGKOTCUDgfrysPvF2btqnfNL4uHe4T.URVL9BTUVDSVVzU7WrmfqOLLflMJzWE7CzwoOPHeZFnEnZbaps5RpYse13oqNhdOwvlfanHXKq4lPrC5JOI.A_jXFv3g_cbFqYAvTxtDgLz67s9wUcFlowTlQlxwa4F1HfEJ0Q9Y6X201sgpEeftzm4NXtPQq0Gxc6ZwJhBuLfywhqIK7KxpMS3g1.1EHpKAIDREH6mfr5Tjy_DEny07Y',mdrd: 'toUVhlWdWJ6fvZ24djYcaHjB5sc3lLh1mqAOUKgyCZs-1783078279-1.2.1.1-aTaYAYfDBTTZon5hwJhN36r8tm.It1QKI5ozH2.HDWTmHVeKNrpebOFH6brv1NXkp.ETikO5yU_PEbzBgoG4DFl4MrNRLVirYM68tvxgxSuxwM77YFsDkjJTQ81RZit9l8FMrJp2WHjMPaLL2MD2qv9lNy857I57.CGwHe3GlG2wejEUXVlTDogI4GvJp9U183JtUNDr3_mON.1sxifDJhyqv5J2ydp3aegktFTy88Y',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a155902c6fe3f179';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"/media/79595/download?__cf_chl_rt_tk=94J1vQHoK_jz78XbxtUalekB6SggjukD6qMo5UbQVL4-1783078279-1.0.1.1-qLKD29IeasdeDFkdCd3IFD__vf4kQ5vQOIEpulHYXlI"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script>
+        <p>
+          Having trouble?
+          <a href="https://www.undrr.org/contact-us">Contact us</a>
+          and include the details below.
+        </p>
+        <!-- Cloudflare tokens - replace with your platform's variables if not using Cloudflare -->
+        <p class="mg-code" role="note" aria-label="Request details">
+          Ray ID: a155902c6fe3f179 | Your IP: 2804:18:1138:402f:f5cf:6387:14ca:bcdc | Location: BR
+        </p>
+      </div>
+    </main>
+    <script>
+      (function(){
+        // Deferred resource loader - bypasses Cloudflare's static asset inlining
+        function load(tag,attrs){
+          var el=document.createElement(tag);
+          for(var k in attrs)el.setAttribute(k,attrs[k]);
+          document.head.appendChild(el);
+        }
+        // Load full CSS from CDN (includes fonts)
+        load('link',{rel:'stylesheet',href:'https://assets.undrr.org/static/mangrove/1.3.1/css/style.css'});
+        // Load analytics
+        load('script',{src:'https://assets.undrr.org/static/analytics/v1.0.0/google_analytics_enhancements.js',crossorigin:'anonymous'});
+        load('script',{src:'https://messaging.undrr.org/src/undrr-messaging.js',defer:''});
+        // Add URL to error details
+        var details=document.querySelector('[aria-label="Request details"]');
+        if(details)details.textContent=details.textContent+' | URL: '+window.location.href;
+      })();
+    </script>
+  </body>
+</html>
