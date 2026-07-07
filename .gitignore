@@ -24,3 +24,12 @@ Thumbs.db
 *+200+Prompts*.pdf
 *2009Joyce*.pdf
 *.pdf
+
+# Raw documents, transcriptions, quarantine — do not commit
+_pdfs_para_catalogar/
+_acervo_completo/
+_quarentena/
+_quarentena_old/
+_visao_autoral/
+buscas_fontes.py
+clean_unlisted.py
