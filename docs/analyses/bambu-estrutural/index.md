@@ -41,8 +41,9 @@ Resenhas científicas e fichas técnicas sobre bambu como material estrutural, t
 - [China Bamboo Connections (2019)](china-bamboo-connections-review-2019.md)
 - [Microrreator de Bambu (Pandoli, 2023)](resenha-pandoli-2023-microreator-bambu.md)
 - [OSB com Resíduos de Bambu (Lopes, 2020)](resenha-lopes-2020-osb-residuos-bambu.md)
-- [Revista Bambu (Rede Brasileira do Bambu)](resenha-revista-bambu.md)
-- [Catálogo de Referências — Bambu](catalogo-bambu-referencias.md)
+- [ACV da Producao Artesanal de Bambu (Guadua) na Amazonia](ficha-acv-bambu-unesp-araujo2025.md)
+- [Forno Ecologico para Tratamento de Bambu](ficha-forno-ecologico-melo-vicente-2019.md)
+- [Catalogo de Referencias - Bambu](catalogo-bambu-referencias.md)
 
 ## ACV e Denúncia do Boro Carcinogênico
 - [ACV da Produção Artesanal de Bambu no Acre — Araújo et al. (UNESP, 2025)](ficha-acv-bambu-unesp-araujo2025.md)
