@@ -1,37 +1,157 @@
+/* --- Tema Urucum (Vermelho Indígena) + Grafismos Lux Vidal --- */
+
+/* Cores principais: Urucum #9E1A1A */
 :root {
-  --md-primary-fg-color:        #00897b;
-  --md-primary-fg-color--light: #4db6ac;
-  --md-primary-fg-color--dark:  #00695c;
-  --md-accent-fg-color:         #00bcd4;
+  --md-primary-fg-color:        #9E1A1A;
+  --md-primary-fg-color--light: #c62828;
+  --md-primary-fg-color--dark:  #7a1414;
+  --md-accent-fg-color:         #9E1A1A;
 }
 
+/* Logo no header */
+.md-header .md-logo img {
+  height: 1.8rem !important;
+  width: auto !important;
+}
+
+/* Cabeçalhos em vermelho */
 .md-typeset h1 {
   font-weight: 700;
-  border-bottom: 3px solid var(--md-primary-fg-color);
+  border-bottom: 2px solid #9E1A1A;
   padding-bottom: 0.3em;
+  color: #9E1A1A !important;
 }
 
 .md-typeset h2 {
   font-weight: 600;
-  border-bottom: 1px solid var(--md-primary-fg-color--light);
+  border-bottom: 1px solid rgba(158, 26, 26, 0.3);
   padding-bottom: 0.2em;
+  color: #9E1A1A !important;
 }
 
-.md-typeset .summary-block {
-  border-left: 4px solid var(--md-primary-fg-color);
-  background-color: var(--md-code-bg-color);
-  padding: 0.8em 1.2em;
-  border-radius: 4px;
-  margin: 1em 0;
+.md-typeset h3, .md-typeset h4 {
+  color: #9E1A1A !important;
 }
 
-.md-typeset .ficha-table th {
-  background-color: var(--md-primary-fg-color);
-  color: white;
-  font-weight: 600;
+/* Links em vermelho */
+.md-typeset a {
+  color: #9E1A1A !important;
 }
 
-.md-typeset .ficha-table td:first-child {
-  font-weight: 600;
-  white-space: nowrap;
+.md-typeset a:hover {
+  color: #c62828 !important;
 }
+
+/* Tabelas: cabeçalho vermelho */
+.md-typeset table th {
+  background-color: #9E1A1A !important;
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+/* Footer com crédito Lux Vidal */
+.md-footer-meta {
+  background-color: #7a1414 !important;
+}
+
+.md-footer-copyright {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 0.8em;
+}
+
+.md-footer-copyright a {
+  color: #ffffff !important;
+}
+
+/* --- Tema escuro (slate) --- */
+[data-md-color-scheme="slate"] {
+  --md-typeset-color: #e0e0e0;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a {
+  color: #ef5350 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+  color: #ff8a80 !important;
+}
+
+/* Texto do corpo escuro e limpo */
+[data-md-color-scheme="default"] .md-typeset {
+  color: #1a1a1a !important;
+}
+
+/* Centralizar texto da página inicial */
+.md-content article {
+  text-align: center;
+}
+
+.md-content article p,
+.md-content article li {
+  text-align: left;
+}
+
+.md-content article h2,
+.md-content article h3,
+.md-content article blockquote {
+  text-align: center;
+}
+
+.md-content article ul {
+  text-align: left;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Citação de abertura maior */
+.md-content article > blockquote:first-of-type {
+  font-size: 1.3em;
+  border-left: 4px solid #9E1A1A;
+  padding: 1em 2em;
+  margin: 2em auto;
+  max-width: 720px;
+}
+
+[data-md-color-scheme="default"] .md-typeset p,
+[data-md-color-scheme="default"] .md-typeset li,
+[data-md-color-scheme="default"] .md-typeset blockquote {
+  color: #1a1a1a !important;
+}
+
+[data-md-color-scheme="default"] .md-content {
+  background-color: #ffffff;
+  background-image: none;
+}
+
+/* Botão voltar ao topo */
+.md-top {
+  background-color: #9E1A1A !important;
+  color: #ffffff !important;
+}
+
+/* -- Grafismos nas laterais (Lux Vidal) -- */
+@media (min-width: 1220px) {
+  .md-sidebar--primary .md-sidebar__scrollwrap::after {
+    content: "";
+    display: block;
+    height: 48px;
+    margin: 12px 8px;
+    background-image: url("../assets/patterns/square_15_red.svg");
+    background-size: 24px auto;
+    background-repeat: repeat-x;
+    opacity: 0.5;
+  }
+
+  .md-sidebar--secondary .md-sidebar__scrollwrap::after {
+    content: "";
+    display: block;
+    height: 48px;
+    margin: 12px 8px;
+    background-image: url("../assets/patterns/square_15_red.svg");
+    background-size: 24px auto;
+    background-repeat: repeat-x;
+    opacity: 0.5;
+  }
+}
+
+/* Fim */
