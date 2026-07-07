@@ -43,6 +43,8 @@ Resenhas científicas e fichas técnicas sobre bambu como material estrutural, t
 - [OSB com Resíduos de Bambu (Lopes, 2020)](resenha-lopes-2020-osb-residuos-bambu.md)
 - [ACV da Producao Artesanal de Bambu (Guadua) na Amazonia](ficha-acv-bambu-unesp-araujo2025.md)
 - [Forno Ecologico para Tratamento de Bambu](ficha-forno-ecologico-melo-vicente-2019.md)
+- [Efeito da Umidade na Tracao da Guadua](ficha-efecto-humedad-guadua-gutierrez-2014.md)
+- [Desempenho Sismico Bambu+Concreto](ficha-desempenho-sismico-bambu-concreto-puma-2014.md)
 - [Catalogo de Referencias - Bambu](catalogo-bambu-referencias.md)
 
 ## ACV e Denúncia do Boro Carcinogênico
