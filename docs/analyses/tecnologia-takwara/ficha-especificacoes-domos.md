@@ -62,7 +62,7 @@ Compilação de dados geométricos para projeto de cúpulas geodésicas baseadas
 
 ## 5. Referências
 
-- Documento original: Takwara-Tech/docs/A4. Domos Geodésicos/a3.2 Especificações Tecnicas.md
+- Documento original: Takwara-Tech/docs/A4. Domos Geodésicos/a3.2 Especificações técnicas.md
 - Domos geodésicos — Referências online: simplydifferently.org, domerama.com, sonostarhub.com
 - Buckminster Fuller. Synergetics: Explorations in the Geometry of Thinking.
 - ISO 22156:2021 — Projeto estrutural de bambu

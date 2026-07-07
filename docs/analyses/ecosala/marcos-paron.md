@@ -1,13 +1,13 @@
-# Ficha Cientifica — Prof. Dr. Marcos Eduardo Paron
+# Ficha científica — Prof. Dr. Marcos Eduardo Paron
 
-## Identificacao
+## identificação
 | Campo | Dado |
 |---|---|
 | **Nome** | Marcos Eduardo Paron |
-| **Formacao** | Agronomia (UFLA), Mestrado em Solos (UFLA, 1995), Doutorado em Microbiologia do Solo (UNESP, 2002), Pos-Doutorado em Plantas Medicinais e Cervejaria |
+| **formação** | Agronomia (UFLA), Mestrado em Solos (UFLA, 1995), Doutorado em Microbiologia do Solo (UNESP, 2002), Pos-Doutorado em Plantas Medicinais e Cervejaria |
 | **Instituicao** | IFSP — Instituto Federal de Sao Paulo, Campus Sertaozinho/Ribeirao Preto (18 anos) |
 | **Link Lattes** | http://lattes.cnpq.br/0794381559000287 |
-| **Funcao no grupo** | Idealizador do conceito EcoSala Movel. Coordenacao tecnica, microbiologia de biofiltros, ecoformacao. |
+| **Funcao no grupo** | Idealizador do conceito EcoSala Movel. coordenação técnica, microbiologia de biofiltros, ecoformacao. |
 
 ## Artigos Publicados
 | Titulo | Periodico | Ano | DOI |
@@ -21,12 +21,12 @@
 | Fosforo, nitrogenio e fungo micorrizico em especies arboreas em solo da area de influencia da usina hidreletrica Itutinga/Camargos, MG | Dissertacao (Mestrado) | 1995 | UFLA |
 
 ## Projetos de Extensao
-| Titulo | Periodo | Orgao |
+| Titulo | Periodo | órgão |
 |---|---|---|
-| Coordenacao do Nucleo de Agroecologia (MDA) | 2010-2014 | IFSP/CNPq |
-| CVT — Centro Vocacional Tecnologico (CNPq/MDA) | — | IFSP |
-| Construcao de ecossalas em Sao Roque e Sertaozinho | 2015-2023 | IFSP |
-| Implantacao do curso tecnico de Cervejaria | 2020 | IFSP Sertaozinho |
+| coordenação do Nucleo de Agroecologia (MDA) | 2010-2014 | IFSP/CNPq |
+| CVT — Centro Vocacional tecnológico (CNPq/MDA) | — | IFSP |
+| construção de ecossalas em Sao Roque e Sertaozinho | 2015-2023 | IFSP |
+| Implantacao do curso técnico de Cervejaria | 2020 | IFSP Sertaozinho |
 
 ## Referencias
 PARON, M. E. Diversidade de fungos micorrizicos arbusculares em Lychnophora ericoides Mart. (Arnica-da-serra). 2002. Tese (Doutorado) — UNESP, Jaboticabal.

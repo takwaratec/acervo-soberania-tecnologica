@@ -1,4 +1,4 @@
-# Referencias Cientificas — Pirolenhoso, PU Vegetal, Bioenergia
+# Referencias científicas — Pirolenhoso, PU Vegetal, Bioenergia
 
 > Compilacao de artigos com DOI para fundamentacao da proposta Vaga Lumen.
 > Fontes: CrossRef, Embrapa, periodicos internacionais.
@@ -49,7 +49,7 @@ SILVA, R. V. Composito de resina PU de mamona e fibras vegetais. 2003. Tese (Dou
 
 CARVALHO, L. K. Paineis particulados com casca de mamona e PU. 2023. Dissertacao (Mestrado) — USP Piracicaba. DOI: 10.11606/d.11.2023.tde-16052023-112317.
 
-AZAMBUJA, M. A. Avaliacao do adesivo PU a base de mamona na MLC. 2017. Dissertacao (Mestrado) — USP Sao Carlos. DOI: 10.11606/d.88.2017.tde-11072017-151910.
+AZAMBUJA, M. A. avaliação do adesivo PU a base de mamona na MLC. 2017. Dissertacao (Mestrado) — USP Sao Carlos. DOI: 10.11606/d.88.2017.tde-11072017-151910.
 
 ### Artigos internacionais
 
@@ -67,7 +67,7 @@ PEREIRA, E. G. et al. Pyrolysis gases burners for bioenergy. *Renewable and Sust
 
 QUIRINO, W. F. Briquetes de carvao vegetal. 2019. Dissertacao — UnB. DOI: 10.11606/d.11.2019.tde-20190821-124712.
 
-ZANELLA, K. Producao de briquetes de carvao vegetal de bagaco de laranja. 2018. Tese — Unicamp. DOI: 10.47749/t/unicamp.2018.1061906.
+ZANELLA, K. produção de briquetes de carvao vegetal de bagaco de laranja. 2018. Tese — Unicamp. DOI: 10.47749/t/unicamp.2018.1061906.
 
 CORREA, A. A. Conversao quimica de madeiras: carvao e briquetes. *Acta Amazonica*, v. 18, n. 1-2, p. 181-208, 1988. DOI: 10.1590/1809-43921988182108.
 
@@ -77,27 +77,27 @@ REZA, M. T. et al. Engineered pellets from torrefied and HTC biochar. *Biomass a
 
 TAVARES, M. H. F. Briquete de carnauba e capim-elefante. *Revista HOLOS*, v. 6, p. 155-169, 2015. DOI: 10.15628/holos.2015.2661.
 
-ALMEIDA, R. S. et al. Residuos agroindustriais na producao de briquetes. *Editora Cientifica*, 2022. DOI: 10.37885/221211221.
+ALMEIDA, R. S. et al. Residuos agroindustriais na produção de briquetes. *Editora científica*, 2022. DOI: 10.37885/221211221.
 
 IDRIS, M. N. M. et al. Green charcoal briquette from food waste via microwave pyrolysis. *International Journal of Renewable Energy Development*, v. 10, n. 1, p. 1-10, 2021. DOI: 10.14710/ijred.2021.33101.
 
 ---
 
-## 4. Modelos de Producao por Bolsas de Aprendizagem
+## 4. Modelos de produção por Bolsas de Aprendizagem
 
 ### Legislacao e programas
 
-BRASIL. Lei n. 10.973, de 2 de dezembro de 2004. Dispoe sobre incentivos a inovacao e a pesquisa cientifica e tecnologica no ambiente produtivo (Lei de Inovacao).
+BRASIL. Lei n. 10.973, de 2 de dezembro de 2004. Dispoe sobre incentivos a inovação e a pesquisa científica e tecnológica no ambiente produtivo (Lei de inovação).
 
-CNPq. Bolsa de Desenvolvimento Tecnologico Industrial (DTI). Modalidades e criterios. Disponivel em: https://www.gov.br/cnpq.
+CNPq. Bolsa de Desenvolvimento tecnológico Industrial (DTI). Modalidades e criterios. disponível em: https://www.gov.br/cnpq.
 
 CNPq. Bolsa de Extensao no Pais (EXP). Modalidades e criterios.
 
-CAPES. Programa de Bolsas de Extensao Tecnologica.
+CAPES. Programa de Bolsas de Extensao tecnológica.
 
 ### Artigos e referencias
 
-MEC. Programa de Bolsas de Aprendizagem: formacao tecnica e cidada para jovens. *Ministerio da Educacao*, 2024.
+MEC. Programa de Bolsas de Aprendizagem: formação técnica e cidada para jovens. *Ministerio da Educacao*, 2024.
 
 Lei da Aprendizagem (Lei 10.097/2000) e atualizacoes: contrato de aprendizagem para jovens de 14 a 24 anos.
 
@@ -105,11 +105,11 @@ Lei da Aprendizagem (Lei 10.097/2000) e atualizacoes: contrato de aprendizagem p
 
 ## 5. Referencias do Acervo MQTF
 
-Projeto Mulheres Que Tecem a Floresta (MQTF). Consorcio UnB/UFRR/UFAC.
+Projeto Mulheres Que Tecem a Floresta (MQTF). consórcio UnB/UFRR/UFAC.
 
-Nota Tecnica ENG-NT-005: Protocolo de Tratamento Bio-Soberano (Diquada e Pirolenhoso). Acervo MQTF, 2025.
+Nota técnica ENG-NT-005: Protocolo de Tratamento Bio-Soberano (Diquada e Pirolenhoso). Acervo MQTF, 2025.
 
-Nota Tecnica NT-001: Tratamento Ecologico do Bambu. Acervo MQTF, 2025.
+Nota técnica NT-001: Tratamento Ecologico do Bambu. Acervo MQTF, 2025.
 
 Dossie BNDES — Bioinsumos: biochar, pirolenhoso e cadeia de carvao vegetal. Acervo MQTF, 2025.
 

@@ -1,0 +1,100 @@
+---
+
+conversao_cavichiolli: 2026-07-02
+how_to_cite: "Neotropical bamboo review 2024. 2026."
+---
+
+# Neotropical bamboo review 2024
+
+> Ficha convertida para o formato Cavichiolli (8 seções) em 02/07/2026.
+
+---
+
+## 1. IDENTIFICAÇÃO
+
+| Campo | Dado |
+|-------|------|
+| **Arquivo** | `POL_neotropical-bamboo-review-2024.md` |
+| **Eixo** | 01_polimeros-vegetais-e-biocompositos (Polímeros Vegetais e Biocompósitos) |
+
+
+---
+
+## 2. CLASSIFICAÇÃO TEMÁTICA
+
+- **Eixo:** 01_polimeros-vegetais-e-biocompositos
+- **Área:** Polímeros Vegetais e Biocompósitos
+- **Palavras-chave:** bambu, pirolenhoso, tratamento, biocompósito, resíduo, manejo
+
+
+---
+
+## 3. RESUMO / SÍNTESE
+
+> **Resumo:** Revisão narrativa da literatura sobre o potencial dos bambus lenhosos neotropicais como matéria-prima para produtos de base biológica e bioenergia. O artigo mapeia a disponibilidade do recurso (ca. 165 espécies no Brasil, distribuição do México à Argentina), as cadeias de valor atuais e potenciais, as tecnologias de conversão termoquímica e bioquímica aplicáveis, e as lacunas de conhecimento que travam a consolidação de uma bioindústria de bambu neotropical. As autoras e autores — vinculados à Universidad de la República (Uruguai) e UNICAMP (Brasil) — sintetizam 146 referências para demonstrar que, embora o bambu lenhoso neotropical ofereça oportunidades concretas para biorrefinarias, biocombustíveis avançados e materiais industriais, sua cadeia de valor permanece subexplorada frente ao potencial. A revisão aponta a necessidade de políticas públicas integradas, investimento em P&D de conversão e validação de espécies nativas em sistemas agroflorestais e de recuperação de áreas degradadas.
+
+---
+
+
+
+| Campo | Dado |
+|-------|------|
+| **Título original** | Neotropical woody bamboo for sustainable biobased products and bioenergy: a review |
+| **Autores** | Laidy E. Hernández-Mena (UdelaR/UY & UNICAMP/BR); Aline Lopes e Lima (UNICAMP-NEPAM); Juliana Aparecida Fracarolli (UNICAMP-FEAGRI); Waldir Antonio Bizzo (UNICAMP-FEM) |
+| **Autor correspondente*
+
+---
+
+## 4. ANÁLISE CRÍTICA
+
+*Análise pendente — conversão automatizada.*
+
+| Aspecto | Avaliação |
+|---------|-----------|
+| **Relevância** | ⏳ Pendente de revisão |
+| **Qualidade** | ✅ Preservado do original |
+| **Completude** | ⏳ Pendente de revisão |
+
+> Documento convertido da estrutura original. Recomenda-se revisão manual para preenchimento completo das seções 4, 6 e 7.
+
+---
+
+## 5. DADOS EXTRAÍDOS / EVIDÊNCIAS
+
+*Os dados extraídos constam no corpo original do documento, preservado abaixo:*
+
+```
+# Ficha Técnica: Neotropical Woody Bamboo for Sustainable Biobased Products and Bioenergy — a Review
+
+> **Resumo:** Revisão narrativa da literatura sobre o potencial dos bambus lenhosos neotropicais como matéria-prima para produtos de base biológica e bioenergia. O artigo mapeia a disponibilidade do recurso (ca. 165 espécies no Brasil, distribuição do México à Argentina), as cadeias de valor atuais e potenciais, as tecnologias de conversão termoquímica e bioquímica aplicáveis, e as lacunas de conhecimento que travam a consolidação de uma bioindústria de bambu neotropical. As autoras e autores — vinculados à Universidad de la República (Uruguai) e UNICAMP (Brasil) — sintetizam 146 referências para demonstrar que, embora o bambu lenhoso neotropical ofereça oportunidades concretas para biorre
+```
+
+---
+
+## 6. CONEXÕES COM OUTRAS FICHAS DO ACERVO
+
+| Ficha | Tipo de Relação |
+|-------|-----------------|
+| [Índice do Acervo](../index.md) | Hierárquica |
+
+---
+
+## 7. APLICAÇÕES PRÁTICAS
+
+- Fonte de referência para projetos do ecossistema
+- Subsídio para pesquisas correlatas
+
+---
+
+## 8. REFERÊNCIAS
+
+- Documento original preservado no Acervo Soberania Tecnológica
+- Extraído em 02/07/2026
+
+
+---
+
+⚠️ *Nota de Compliance:* A engenharia de contexto e a lógica de estruturação deste documento foram inspiradas nas diretrizes metodológicas desenvolvidas pela **Dra. Nathalia Cavichiolli**. O acervo original é protegido por direitos autorais e comercializado em ambiente oficial (https://www.doutoranathalia.com.br/). Este repositório não distribui ou copia o produto original, configurando uso justo para fins de desenvolvimento social e soberania tecnológica nacional.
+
+*Ficha catalográfica conforme método Cavichiolli (2025) · 8 seções · Documento convertido em 02/07/2026*
+

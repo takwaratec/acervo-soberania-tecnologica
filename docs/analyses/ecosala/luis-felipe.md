@@ -1,17 +1,17 @@
 # Ficha — Luis Felipe Araujo
 
-## Identificacao
+## identificação
 | Campo | Dado |
 |---|---|
 | **Nome** | Luis Felipe Araujo |
-| **Formacao** | Arquitetura e Urbanismo |
+| **formação** | Arquitetura e Urbanismo |
 | **Instituicao** | Labiapa (parceiro de Andre Blanco) |
-| **Funcao no grupo** | Projetista complementar. Habitacao social e projetos comunitarios. |
+| **Funcao no grupo** | Projetista complementar. habitação social e projetos comunitarios. |
 | **Contato** | (19) 993484674 |
 
-## Producao selecionada
+## produção selecionada
 | Titulo | Tipo | Ano | Instituicao |
 |---|---|---|---|
-| Projetos de habitacao social | Projetos | — | Labiapa / CAU |
+| Projetos de habitação social | Projetos | — | Labiapa / CAU |
 | Parceria com Andre Blanco em bioconstrucao | Projetos | — | Labiapa |
 | Projetos de arquitetura comunitaria | Projetos | — | APA Joaquim Egidio |
