@@ -4,7 +4,7 @@
 
 ## Fichas
 
-- [Síntese Científica — Bambu e Mamona](sintese-cientifica-ecossistema-wtf.md)
+- [Síntese Científica — Bambu e Mamona](sintese-científica-ecossistema-wtf.md)
 - [Diagnóstico — Paradigmas da Bioeconomia](diag-bioeconomia-amazonica.md)
 - [WRI/NEA — Nova Economia da Amazônia](diag-nova-economia-amazonia.md)
 - [BNDES Setorial 47 — Bioeconomia](diag-bndes-set-47-bioeconomia.md)

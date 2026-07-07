@@ -8,7 +8,7 @@
 |-------|------------|
 | **Título** | Programa Minha Casa Minha Vida em três residenciais de Belo Horizonte: uma avaliação a partir das percepções dos moradores |
 | **Autores** | Talita Amaral Morado Nascimento & Flávia de Paula Duque Brasil |
-| **Periódico** | CONTRIBUCIONES A LAS CIENCIAS SOCIALES, v. 16, n. 8, p. 11767–11785, 2023 |
+| **Periódico** | CONTRIBUCIONES A LAS ciências SOCIALES, v. 16, n. 8, p. 11767–11785, 2023 |
 | **DOI** | [10.55905/revconv.16n.8-160](https://doi.org/10.55905/revconv.16n.8-160) |
 | **Ano** | 2023 |
 | **Palavras-chave** | habitação de interesse social, Programa Minha Casa Minha Vida, avaliação de pós-ocupação |

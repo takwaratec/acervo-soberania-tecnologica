@@ -1,5 +1,5 @@
 ---
-tipo: Ficha Tecnica (Revisao)
+tipo: Ficha técnica (Revisao)
 projeto: ECOSALA / Vaga Lumen
 referencia: FICHA_PIROLENHOSO_BIOFERTILIZANTE
 status: Consolidado
@@ -7,11 +7,11 @@ status: Consolidado
 
 # Ficha: Acido Pirolenhoso — Biofertilizante e Biodefensivo
 
-## 1. Identificacao
+## 1. identificação
 | Campo | Dado |
 |---|---|
 | **Tecnologia** | Acido pirolenhoso (wood vinegar / pyroligneous acid) |
-| **Aplicacao** | Biofertilizante foliar, fungicida, bactericida, bioestimulante |
+| **aplicação** | Biofertilizante foliar, fungicida, bactericida, bioestimulante |
 | **TRL sugerido** | 5-6 (validado em ambiente relevante — campo experimental) |
 | **Origem** | Subproduto da pirolise de biomassa (biochar) |
 
@@ -38,8 +38,8 @@ status: Consolidado
 | Wood Vinegar VOCs inhibitory effect against fungus-like microorganism | 10.3390/agronomy12071609 | Agronomy (MDPI) |
 | Chemical composition and antifungal activity of wood vinegar | 10.1007/s10343-023-00931-3 | J. Crop Health |
 
-## 3. Analise
-O acido pirolenhoso tem uso consolidado no Japao desde os anos 1980 (Tsuzuki; Ichikawa & Ota) como biofertilizante e promotor de crescimento vegetal. No Brasil, a Embrapa publicou revisao abrangente em 2026. Ha 18 artigos/teses com DOI identificados, incluindo 2 teses Unicamp especificas para tratamento de bambu. O TRL 5-6 e justificado pela validacao em campo experimental em multiplas culturas (arroz, cebola, hortalicas, cafe).
+## 3. análise
+O acido pirolenhoso tem uso consolidado no Japao desde os anos 1980 (Tsuzuki; Ichikawa & Ota) como biofertilizante e promotor de crescimento vegetal. No Brasil, a Embrapa publicou revisao abrangente em 2026. Ha 18 artigos/teses com DOI identificados, incluindo 2 teses Unicamp específicas para tratamento de bambu. O TRL 5-6 e justificado pela validação em campo experimental em multiplas culturas (arroz, cebola, hortalicas, cafe).
 
 ## 4. Referencias no Acervo
-Nota Tecnica ENG-NT-005 MQTF (Protocolo Diquada-Pirolenhoso)
+Nota técnica ENG-NT-005 MQTF (Protocolo Diquada-Pirolenhoso)

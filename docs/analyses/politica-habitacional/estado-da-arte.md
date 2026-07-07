@@ -46,7 +46,7 @@ A política habitacional brasileira passou por transformações profundas desde 
  02 | [Menezes & Mourão — PMCMV QV](../percecao-social/menezes-mourao-2017-pmcmv-qv.md) | 2017 | Qualidade de vida | ✅ |
  03 | [Lacerda — Padrões espaciais](./lacerda-2023-padroes-espaciais.md) | 2023 | Distribuição espacial PMCMV | ✅ |
  04 | [Simões & Leder — Assentamento seriado](./simoes-leder-2024-assentamento-seriado.md) | 2024 | Adaptação à moradia formal | ✅ |
- 05 | [Ferreira — Avaliação desempenho](./ferreira-2023-avaliacao-desempenho-his.md) | 2023 | Eficácia política HIS Ponta Grossa | ✅ |
+ 05 | [Ferreira — Avaliação desempenho](./ferreira-2023-avaliação-desempenho-his.md) | 2023 | Eficácia política HIS Ponta Grossa | ✅ |
 
 ---
 

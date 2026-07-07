@@ -4,28 +4,28 @@ site_url: https://takwaratec.github.io/Analises-e-escrita-cientifica
 repo_url: https://github.com/takwaratec/Analises-e-escrita-cientifica
 repo_name: takwaratec/Analises-e-escrita-cientifica
 edit_uri: edit/main/docs/
-copyright: © Fabio Takwara, 2026. CC BY 4.0. Conteúdo das fichas e análises — uso livre mediante atribuição. Citações de terceiros mantêm seus direitos originais.
+copyright: "© Fabio Takwara, 2026. CC BY 4.0. Grafismos: Lux Vidal (org.). Conteúdo das fichas e análises — uso livre mediante atribuição. Citações de terceiros mantêm seus direitos originais."
 
 theme:
   name: material
   language: pt-BR
+  logo: assets/logo/logo_mqtf_soberana.svg
+  favicon: assets/logo/logo_mqtf_soberana.svg
   palette:
     - scheme: slate
-      primary: teal
-      accent: cyan
+      primary: red
+      accent: red
       toggle:
         icon: material/weather-sunny
         name: Modo claro
     - scheme: default
-      primary: teal
-      accent: cyan
+      primary: red
+      accent: red
       toggle:
         icon: material/weather-night
         name: Modo escuro
   features:
-    - navigation.instant
     - navigation.tracking
-    - navigation.sections
     - navigation.top
     - search.highlight
     - content.code.copy
@@ -34,6 +34,9 @@ theme:
 
 extra_css:
   - assets/stylesheets/extra.css
+
+extra:
+  generator: false
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -55,103 +58,58 @@ nav:
   - Início: index.md
   - Sobre: sobre.md
   - Metodologia: metodologia.md
-  - Análises:
-    - analyses/index.md
-    - Potencial do Bambu: analyses/artigo-bambu-potencial-bioeconomia.md
-    - 🌱 ECOSALA:
-      - Visão Geral: analyses/ecosala/index.md
-      - Fichas dos Membros:
-        - Marcos Paron: analyses/ecosala/marcos-paron.md
-        - André Blanco: analyses/ecosala/andre-blanco.md
-        - Gisele Vilela: analyses/ecosala/gisele-vilela.md
-        - Joaquim Sando: analyses/ecosala/joaquim-sando.md
-        - Vicente Borges: analyses/ecosala/vicente-borges.md
-        - Raphaela Palma: analyses/ecosala/raphaela-palma.md
-        - Luci Okino: analyses/ecosala/luci-okino.md
-        - Murillo Miguel: analyses/ecosala/murillo-miguel.md
-        - Henrique Bueno: analyses/ecosala/henrique-bueno.md
-        - Luis Felipe: analyses/ecosala/luis-felipe.md
-      - Fichas Técnicas:
-        - PU Vegetal Imperveg: analyses/ecosala/ficha-pu-vegetal-imperveg.md
-        - Pirolenhoso Biofertilizante: analyses/ecosala/ficha-pirolenhoso-biofertilizante.md
-        - Biochar e Bioenergia: analyses/ecosala/ficha-biochar-bioenergia.md
-        - Biofiltro Águas Cinzas: analyses/ecosala/ficha-biofiltro-aguas-cinzas.md
-        - Fossa Séptica Ecológica: analyses/ecosala/ficha-fossa-septica-ecologica.md
-        - Catamarã Biocompósito: analyses/ecosala/ficha-catamara-biocomposito.md
-        - Embarcações Solares: analyses/ecosala/ficha-embarcacoes-solares.md
-      - Referências: analyses/ecosala/referencias-pirolenhoso-pu.md
-      - Reavaliação TRL: analyses/ecosala/reavaliacao-trl-evidencias.md
-      - Compósitos Alternativos: analyses/ecosala/compositos-alternativos-embarcacao.md
-    - 💰 Vaga Lúmen (FINEP):
-      - Proposta Final: https://github.com/takwaratec/fundo-vaga-lumen-2026/blob/main/proposta-final-vaga-lumen.md
-      - Regulamento FINEP: https://github.com/takwaratec/fundo-vaga-lumen-2026/blob/main/regulamento-finep-mais-inovacao.md
-      - TRL e Evidências: https://github.com/takwaratec/fundo-vaga-lumen-2026/blob/main/reavaliacao-trl-evidencias.md
-      - Zayed Award 2027: https://github.com/takwaratec/fundo-vaga-lumen-2026/blob/main/docs/editais/zayed-award-2027.md
-    - 🌿 MST Mário Lago:
-      - Site do Projeto: https://takwaratec.github.io/plataforma-juventude-solidaria-2026/
-      - Editais: https://github.com/takwaratec/plataforma-juventude-solidaria-2026/blob/main/docs/editais/editais.md
-      - Histórico do Coletivo: https://github.com/takwaratec/plataforma-juventude-solidaria-2026/blob/main/docs/editais/juventude-solidaria-01-2026.md
-    - Percepção Social:
-      - Visão Geral: analyses/percecao-social/index.md
-      - Estado da Arte: analyses/percecao-social/estado-da-arte.md
-      - Joyce Santos (2009): analyses/percecao-social/joyce-santos-2009.md
-      - Menezes & Mourão (2017): analyses/percecao-social/menezes-mourao-2017-pmcmv-qv.md
-      - Procópio & Campos (2022): analyses/percecao-social/procopio-campos-2022-ihas.md
-      - Nascimento & Brasil (2023): analyses/percecao-social/nascimento-brasil-2023-pmcmv-bh.md
-      - Oliveira & Villa (2024): analyses/percecao-social/oliveira-villa-2024-covid-his.md
-    - APO:
-      - Visão Geral: analyses/avaliacao-pos-ocupacao/index.md
-      - Estado da Arte: analyses/avaliacao-pos-ocupacao/estado-da-arte.md
-      - Perim (2014): analyses/avaliacao-pos-ocupacao/perim-2014-sustentabilidade-his.md
-      - Thielke (2021): analyses/avaliacao-pos-ocupacao/thielke-2021-apo-porto-alegre.md
-      - Otoni & Villa (2024): analyses/avaliacao-pos-ocupacao/otoni-villa-2024-resiliencia-ampliabilidade.md
-    - Política Habitacional:
-      - Visão Geral: analyses/politica-habitacional/index.md
-      - Estado da Arte: analyses/politica-habitacional/estado-da-arte.md
-      - Lacerda (2023): analyses/politica-habitacional/lacerda-2023-padroes-espaciais.md
-      - Ferreira (2023): analyses/politica-habitacional/ferreira-2023-avaliacao-desempenho-his.md
-      - Simões & Leder (2024): analyses/politica-habitacional/simoes-leder-2024-assentamento-seriado.md
-    - Grandes Obras (Amazônia):
-      - Visão Geral: analyses/grandes-obras-amazonia/index.md
-      - Estado da Arte: analyses/grandes-obras-amazonia/estado-da-arte.md
-      - Miranda Neto (2014): analyses/grandes-obras-amazonia/miranda-neto-2014-belo-monte-reassentamento.md
-      - Belforte & Cavalcante (2021): analyses/grandes-obras-amazonia/belforte-cavalcante-2021-santo-antonio.md
-      - Silva & Cavalcante (2022): analyses/grandes-obras-amazonia/silva-cavalcante-2022-reassentamento-rural-amazonia.md
-    - Bioeconomia Amazônica:
-      - Visão Geral: analyses/bioeconomia-amazonica/index.md
-      - Estado da Arte: analyses/bioeconomia-amazonica/estado-da-arte.md
-      - Síntese Científica: analyses/bioeconomia-amazonica/sintese-cientifica-ecossistema-wtf.md
-      - Diagnóstico Paradigmas: analyses/bioeconomia-amazonica/diag-bioeconomia-amazonica.md
-      - WRI/NEA: analyses/bioeconomia-amazonica/diag-nova-economia-amazonia.md
-      - BNDES Bioeconomia: analyses/bioeconomia-amazonica/diag-bndes-set-47-bioeconomia.md
-      - Bibliografia Mestra MQTF: analyses/bioeconomia-amazonica/bibliografia-mestra-mqtf.md
-      - Araújo ACV Bambu: analyses/bioeconomia-amazonica/resenha-araújo-2025-acv-bambu.md
-      - Silva Mapeamento Bambu: analyses/bioeconomia-amazonica/resenha-silva-mapeamento-bambu.md
-    - Tecnologia Takwara:
-      - Visão Geral: analyses/tecnologia-takwara/index.md
-      - 👤 Perfil Fabio Takwara: analyses/tecnologia-takwara/perfil-fabio-takwara.md
-      - Estado da Arte: analyses/tecnologia-takwara/estado-da-arte.md
-      - Silva Pirolenhoso (2011): analyses/tecnologia-takwara/silva-2011-pirolenhoso.md
-      - Severo & Tomaselli (1998): analyses/tecnologia-takwara/severoTomaselli_1998_vaporizacao.md
-      - Costa Tratamento Térmico (2015): analyses/tecnologia-takwara/costa-2015-tratamento-termico-dendrocalamus.md
-      - Naccache Imperveg (2015): analyses/tecnologia-takwara/resenha-naccache-imperveg.md
-      - Chung & Wang (2017): analyses/tecnologia-takwara/chung-wang-2017-peeling-steam-bamboo.md
-      - Polymers Alcalino (2022): analyses/tecnologia-takwara/SCI_014_POLYMERS_ALKALI_TREATMENT.md
-      - Memorial 5.1: analyses/tecnologia-takwara/memorial-5.1-biorrefinaria-bambu.md
-      - China Bamboo Connections (2019): analyses/tecnologia-takwara/china-bamboo-connections-review-2019.md
-      - Forests Babaçu (2024): analyses/tecnologia-takwara/forests-15-01078-bamboo.md
-      - Neotropical Review (2024): analyses/tecnologia-takwara/neotropical-bamboo-review-2024.md
-      - Lopes OSB Bambu (2020): analyses/tecnologia-takwara/resenha-lopes-2020-osb-residuos-bambu.md
-      - Carvalho Painéis Mamona (2023): analyses/tecnologia-takwara/resenha-carvalho-2020-paineis-casca-mamona-pu.md
-      - Melo Compósito Eucalipto (2023): analyses/tecnologia-takwara/resenha-melo-2023-compósito-eucalipto-pu.md
-      - Lopes Compósito Bioinspirado (2023): analyses/tecnologia-takwara/resenha-lopes-shara-2023-compósito-bioinspirado.md
-      - Dias Absorção Fibras (2024): analyses/tecnologia-takwara/resenha-dias-2024-absorcao-fibras-vegetais.md
-      - ACV Bambu Fundamentos: analyses/tecnologia-takwara/resenha-acv-bambu-fundamentos.md
-      - Nina Zoneamento Bambu (2019): analyses/tecnologia-takwara/resenha-nina-2019-zoneamento-bambu-brasil.md
-      - Charcoal Anatomia (2021): analyses/tecnologia-takwara/resenha-charcoal-2021-anatomia-carvão-brasil.md
-      - FAO Bamboo Resources (2025): analyses/tecnologia-takwara/resenha-fao-2025-bamboo-resources-assessment.md
-      - Cúpula Geodésica PU: analyses/tecnologia-takwara/resenha-cupula-geodesica-pu-vegetal.md
-      - Patente Reforço Interno: analyses/tecnologia-takwara/resenha-patente-reforco-interno-bambu-pu.md
-      - Catálogo IFB (84 refs): analyses/tecnologia-takwara/catalogo-ifb-bambu.md
-      - IFB Projeto Bambu (redirect): analyses/tecnologia-takwara/ifb-index.md
+  - Respaldo Acadêmico:
+    - analyses/respaldo-academico/index.md
+  - Fundamentação:
+    - Montaigne: analyses/SOC_FIL_001_MONTAIGNE.md
+    - Morin (7 Saberes): analyses/SOC_FIL_002_MORIN.md
+    - Darcy Ribeiro: analyses/SOC_FIL_003_DARCY_RIBEIRO.md
+    - Paulo Freire: analyses/SOC_FIL_004_PAULO_FREIRE.md
+    - Milton Santos: analyses/SOC_SOC_001_MILTON_SANTOS.md
+    - Florestan Fernandes: analyses/SOC_SOC_002_FLORESTAN_FERNANDES.md
+    - Buckminster Fuller: analyses/SOC_DES_001_BUCKMINSTER_FULLER.md
+    - Nave Espacial Terra: analyses/spaceship-earth-fuller.md
+    - Sinergética — Cap. 1: analyses/synergetics-cap1-fuller.md
+  - Permacultura:
+    - Mollison: analyses/SOC_PER_001_MOLLISON.md
+    - Holmgren: analyses/SOC_PER_002_HOLMGREN.md
+    - Essência da Permacultura: analyses/essencia-da-permacultura-holmgren.md
+    - Curso de Design em Permacultura: analyses/curso-design-permacultura-mollison.md
+    - DIY Handbook (Trapese): analyses/diy-handbook-trapese.md
+  - Bambu:
+    - analyses/bambu-estrutural/index.md
+  - Poliuretano Vegetal:
+    - analyses/pu-vegetal/index.md
+  - Tecnologia Takwara:
+    - analyses/tecnologia-takwara/index.md
+  - Habitação Social:
+    - Satisfação em Conjuntos Habitacionais (Joyce Santos, 2009): analyses/percecao-social/joyce-santos-2009.md
+    - Qualidade de Vida no PMCMV (Menezes & Mourão, 2017): analyses/percecao-social/menezes-mourao-2017-pmcmv-qv.md
+    - Avaliação de IHAs (Procópio & Campos, 2022): analyses/percecao-social/procopio-campos-2022-ihas.md
+    - PMCMV em Belo Horizonte (Nascimento & Brasil, 2023): analyses/percecao-social/nascimento-brasil-2023-pmcmv-bh.md
+    - COVID-19 e HIS (Oliveira & Villa, 2024): analyses/percecao-social/oliveira-villa-2024-covid-his.md
+    - Sustentabilidade em HIS (Perim, 2014): analyses/avaliacao-pos-ocupacao/perim-2014-sustentabilidade-his.md
+    - APO em Porto Alegre (Thielke, 2021): analyses/avaliacao-pos-ocupacao/thielke-2021-apo-porto-alegre.md
+    - Resiliência e Ampliabilidade (Otoni & Villa, 2024): analyses/avaliacao-pos-ocupacao/otoni-villa-2024-resiliencia-ampliabilidade.md
+    - Padrões Espaciais em HIS (Lacerda, 2023): analyses/politica-habitacional/lacerda-2023-padroes-espaciais.md
+    - Desempenho de HIS (Ferreira, 2023): analyses/politica-habitacional/ferreira-2023-avaliacao-desempenho-his.md
+    - Assentamento Seriado (Simões & Leder, 2024): analyses/politica-habitacional/simoes-leder-2024-assentamento-seriado.md
+    - Percepção Social — Estado da Arte: analyses/percecao-social/estado-da-arte.md
+    - APO — Estado da Arte: analyses/avaliacao-pos-ocupacao/estado-da-arte.md
+    - Política Habitacional — Estado da Arte: analyses/politica-habitacional/estado-da-arte.md
+  - Bioeconomia Amazônia:
+    - Síntese Científica do Ecossistema WTF: analyses/bioeconomia-amazonica/sintese-cientifica-ecossistema-wtf.md
+    - Diagnóstico de Paradigmas da Bioeconomia: analyses/bioeconomia-amazonica/diag-bioeconomia-amazonica.md
+    - WRI — Nova Economia da Amazônia: analyses/bioeconomia-amazonica/diag-nova-economia-amazonia.md
+    - BNDES — Bioeconomia (Setor 47): analyses/bioeconomia-amazonica/diag-bndes-set-47-bioeconomia.md
+    - Bibliografia Mestra MQTF: analyses/bioeconomia-amazonica/bibliografia-mestra-mqtf.md
+    - ACV do Bambu na Amazônia (Araújo, 2025): analyses/bioeconomia-amazonica/resenha-araújo-2025-acv-bambu.md
+    - Mapeamento do Bambu (Silva): analyses/bioeconomia-amazonica/resenha-silva-mapeamento-bambu.md
+    - Reassentamento Belo Monte (Miranda Neto, 2014): analyses/grandes-obras-amazonia/miranda-neto-2014-belo-monte-reassentamento.md
+    - UHE Santo Antônio (Belforte & Cavalcante, 2021): analyses/grandes-obras-amazonia/belforte-cavalcante-2021-santo-antonio.md
+    - Reassentamento Rural na Amazônia (Silva & Cavalcante, 2022): analyses/grandes-obras-amazonia/silva-cavalcante-2022-reassentamento-rural-amazonia.md
+    - Bioeconomia Amazônica — Estado da Arte: analyses/bioeconomia-amazonica/estado-da-arte.md
+    - Grandes Obras — Estado da Arte: analyses/grandes-obras-amazonia/estado-da-arte.md
   - Prompts de Escrita: prompts/index.md
+  - Visão do Autor:
+    - analyses/visao-do-autor/index.md

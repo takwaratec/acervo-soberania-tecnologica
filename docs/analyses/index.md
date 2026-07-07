@@ -26,7 +26,7 @@ Cada tema possui sua própria página com a **resenha** (visão geral), as **fic
 | [Compósitos Alternativos](ecosala/compositos-alternativos-embarcacao.md) | Técnicas construtivas para embarcação | — |
 
 > ➡️ [**Vaga Lúmen (FINEP)**](https://github.com/takwaratec/fundo-vaga-lumen-2026) — Proposta completa no repositório irmão.
-> ➡️ [**MST Mário Lago**](https://takwaratec.github.io/plataforma-juventude-solidaria-2026/) — Site do Viveiro-Educador Terra Viva.
+> ➡️ [**MST Mário Lago**](https://takwaratec.github.io/plataforma-juventude-solidária-2026/) — Site do Viveiro-Educador Terra Viva.
 
 ---
 
@@ -35,11 +35,11 @@ Cada tema possui sua própria página com a **resenha** (visão geral), as **fic
 | Tema | Fichas | Período |
 |---|---|---|
 | [Percepção Social em HIS](percecao-social/index.md) | 5 | 2009-2024 |
-| [Avaliação Pós-Ocupação (APO)](avaliacao-pos-ocupacao/index.md) | 3 | 2014-2024 |
-| [Política Habitacional](politica-habitacional/index.md) | 3 | 2023-2024 |
+| [Avaliação Pós-Ocupação (APO)](avaliação-pos-ocupacao/index.md) | 3 | 2014-2024 |
+| [Política Habitacional](política-habitacional/index.md) | 3 | 2023-2024 |
 | [Grandes Obras e Reassentamento na Amazônia](grandes-obras-amazonia/index.md) | 3 | 2014-2022 |
 | [Bioeconomia Amazônica](bioeconomia-amazonica/index.md) | 21 | 2025-2026 |
 | [Tecnologia Takwara](tecnologia-takwara/index.md) | 59 | 1998-2025 |
-| [Catálogo IFB — 84 refs](tecnologia-takwara/catalogo-ifb-bambu.md) | Catálogo integrado à Tecnologia Takwara | 2002-2022 |
+| [Catálogo IFB — 84 refs](tecnologia-takwara/catálogo-ifb-bambu.md) | Catálogo integrado à Tecnologia Takwara | 2002-2022 |
 
 > **Total: ~80 fichas técnicas — 9 eixos temáticos + artigo de abertura.**

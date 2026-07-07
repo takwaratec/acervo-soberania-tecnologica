@@ -1,13 +1,13 @@
 # Ficha: Embarcacoes Solares na America do Sul
 
 > Projetos de referencia para embasamento do Vaga Lumen.
-> Foco: patente e fabricacao propria em pais sul-americano, fronteira amazonica.
+> Foco: patente e fabricação propria em pais sul-americano, fronteira amazonica.
 
 ---
 
 ## 1. Projeto Principal: Barco Solar "Amazonia" (Brasil/AM)
 
-### Identificacao
+### identificação
 | Campo | Dado |
 |---|---|
 | **Projeto** | Barco Solar Amazonia / Amazon River Solar Boat |
@@ -18,7 +18,7 @@
 | **Ano** | 2018-2024 |
 | **Status** | Prototipo testado no Rio Negro / Solimoes |
 
-### Caracteristicas Tecnicas
+### Caracteristicas técnicas
 | Parametro | Valor |
 |---|---|
 | Comprimento | 12-15 m |
@@ -39,7 +39,7 @@
 - Prova de conceito de que embarcacoes solares sao viaveis na Amazonia
 - Estrutura de catamara similar a proposta
 - Calado reduzido compativel com rios da regiao
-- Tecnologia brasileira com fabricacao nacional
+- Tecnologia brasileira com fabricação nacional
 
 ---
 
@@ -48,7 +48,7 @@
 | Projeto | Pais | Local | Caracteristicas | Diferencial |
 |---|---|---|---|---|
 | **Barco Solar Itaipu** | Brasil/Paraguai | Foz do Iguacu | 8m, 15 passageiros, 2 kWp | Binacional, operando desde 2014 |
-| **Catamara Solar Titicaca** | Peru/Bolivia | Lago Titicaca | 10m, 20 passageiros, 3 kWp | Alta altitude (3800m), fabricacao local |
+| **Catamara Solar Titicaca** | Peru/Bolivia | Lago Titicaca | 10m, 20 passageiros, 3 kWp | Alta altitude (3800m), fabricação local |
 | **Solar Boat Paraty** | Brasil | Paraty/RJ | 7m, 12 passageiros, 2 kWp | Turismo em APA Marinha |
 | **Balsa Solar Magdalena** | Colombia | Rio Magdalena | 10m, 30 passageiros, 4 kWp | Transporte fluvial comunitario |
 | **Canoa Solar Xingu** | Brasil | PA | 6m, 8 passageiros, 1,5 kWp | Canoa adaptada, baixissimo custo |
@@ -74,7 +74,7 @@
 | Desenvolvimento de embarcacao movida a energia solar para a Amazonia | Revista Brasileira de Energias Renovaveis | 2020 |
 | Solar powered boats in the Amazon region: feasibility study | Renewable and Sustainable Energy Reviews | 2019 |
 | Amazon River solar boat: design and construction | International Journal of Marine Engineering | 2021 |
-| Patentes de embarcacoes solares no Brasil: um mapeamento | Revista Gestao e Inovacao | 2023 |
+| Patentes de embarcacoes solares no Brasil: um mapeamento | Revista Gestao e inovação | 2023 |
 
 ---
 
@@ -82,8 +82,8 @@
 
 O Barco Solar Amazonia (UFAM/INPA) e o principal projeto de referencia na America do Sul com:
 - **Patente brasileira** — registro INPI
-- **Fabricacao nacional** — construido no Polo Industrial de Manaus
-- **Operacao comprovada** — testes no Rio Negro/Solimoes
+- **fabricação nacional** — construido no Polo Industrial de Manaus
+- **operação comprovada** — testes no Rio Negro/Solimoes
 - **Calado reduzido** — compativel com a Hidrovia Tiete-Parana
 
-A existencia deste projeto comprova que embarcacoes solares de medio porte sao viaveis tecnicas e economicamente na regiao amazonica, fortalecendo a argumentacao de viabilidade da proposta Vaga Lumen.
+A existencia deste projeto comprova que embarcacoes solares de medio porte sao viaveis técnicas e economicamente na regiao amazonica, fortalecendo a argumentacao de viabilidade da proposta Vaga Lumen.

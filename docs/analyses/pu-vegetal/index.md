@@ -1,0 +1,25 @@
+# Poliuretano Vegetal e Biocompósitos
+
+Fichas técnicas e resenhas científicas sobre poliuretano vegetal à base de óleo de mamona, biocompósitos, impermeabilizantes e aplicações estruturais.
+
+- [Imperveg — Portfólio e PD&I](ficha-imperveg-polimeros-vegetais.md)
+- [RQI 132 — Resina Bicomponente de PU Vegetal](ficha-rqi-pu-vegetal.md)
+- [UG 132 A — Revestimento Impermeabilizante de PU Vegetal](ficha-ug132a-pu-vegetal.md)
+- [PU Orgânico vs Sintético — Comparação Técnica](ficha-pu-orgânico-vs-sintetico.md)
+- [Naccache & Ghavami — Tratamentos do Bambu como Reforço em Concreto (PUC-Rio)](resenha-naccache-imperveg.md)
+- [Ficha Técnica IMPERVEG UG 132 A](resenha-imperveg-ug132a-ficha-técnica.md)
+- [MAMONEX RD70 — Resina Expansiva de PU Vegetal](resenha-mamonex-rd70-pu-vegetal.md)
+- [Biodegradação de Bioespumas de PU (Leithold, 2015)](resenha-leithold-2015-degradacao-pu.md)
+- [Polímeros de Mamona para Impermeabilização](resenha-polimeros-mamona-permeabilidade.md)
+- [Painéis de Casca de Mamona com PU (Carvalho, 2023)](resenha-carvalho-2020-paineis-casca-mamona-pu.md)
+- [Compósito de Eucalipto com PU (Melo, 2023)](resenha-melo-2023-composito-eucalipto-pu.md)
+- [PU de Mamona para Próteses](resenha-pu-mamona-proteses.md)
+- [Tratamentos do Bambu como Reforço em Concreto](resenha-ensaios-imperveg-naccache.md)
+- [Tratamento Alcalino de Fibras (Kamaruddin, 2022)](SCI_014_POLYMERS_ALKALI_TREATMENT.md)
+- [Bambu para OSB — Mariana Lopes (UENF)](ficha-mariana-lopes-bambu-osb.md)
+- [Compósito Bioinspirado com Bagaço de Cana — Shara Lopes (UFT)](ficha-shara-lopes-bioinspirado.md)
+- [Fibras Vegetais para Compósitos Externos — Zandomenico (USP)](ficha-bernardo-zandomenico-fibras.md)
+- [Painéis Pinus + PET com PU de Mamona — Cazella (UNESP)](ficha-cazella-painel-pinus-pet.md)
+- [Painéis Eucalipto + Couro com PU de Mamona — Oliveira (UNESP)](ficha-oliveira-painel-eucalipto-couro.md)
+- [Biopolímeros, Bambu e Construções Resilientes](ficha-biopolimeros-bambu-construcoes.md)
+- [Pesquisa Imperveg 2026 — Compilado de Estudos](ficha-pesquisa-imperveg-2026.md)

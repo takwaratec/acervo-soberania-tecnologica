@@ -2,7 +2,7 @@
 projeto: Mulheres Que Tecem a Floresta (MQTF)
 instituicao: Consórcio UnB / UFRR / UFAC
 tipo: Ficha de Síntese Científica
-documento_origem: RES_sintese-cientifica-ecossistema-WTF.md
+documento_origem: RES_sintese-científica-ecossistema-WTF.md
 status: Finalizado
 data_analise: 2026-06-21
 ---
@@ -149,4 +149,4 @@ Os mestres carpinteiros navais do Alto Juruá (Silva, 2018; Montrucchio et al., 
 
 ---
 
-*Ficha elaborada em 2026-06-21 a partir do documento RES_sintese-cientifica-ecossistema-WTF.md (V3.0, CC BY 4.0)*
+*Ficha elaborada em 2026-06-21 a partir do documento RES_sintese-científica-ecossistema-WTF.md (V3.0, CC BY 4.0)*

@@ -6,7 +6,7 @@ referencia_analisada: BIBLIOGRAFIA_MESTRA_MQTF.md
 arquivo_origem: /docs/02_DIAGNOSTICO DE AREA/02_ESTUDOS_E_PESQUISAS/BIBLIOGRAFIA_MESTRA_MQTF.md
 data_analise: 2026-06-21
 status: Consolidado
-classificacao: Mapeamento de referências e endpoints precisos para consulta externa e amparo técnico-jurídico
+classificação: Mapeamento de referências e endpoints precisos para consulta externa e amparo técnico-jurídico
 ---
 
 # FICHA TÉCNICA: BIBLIOGRAFIA MESTRA MQTF (DOY-SYNC)

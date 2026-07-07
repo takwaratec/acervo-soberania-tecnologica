@@ -238,30 +238,30 @@ Este modelo de governança está sendo implementado via **Domos Voadores** — e
 ## 9. Leituras Recomendadas no Repositório
 
 ### Bioeconomia Amazônica
-- [Plataforma Amazônia Regenerativa: 3 Manuais Técnicos](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/bioeconomia-amazonica/resenha-takwara-2026-plataforma-regenerativa/) — Síntese dos manuais de bioeconomia, fitorremediação e carbono negativo
-- [ACV da Haste de Bambu (Araújo 2025)](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/bioeconomia-amazonica/resenha-ara%C3%BAjo-2025-acv-bambu/) — 93% da toxicidade vem do boro
-- [Mercado de Biochar (Thengane 2021)](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/bioeconomia-amazonica/resenha-thengane-2021-biochar-mercado/) — Potencial global de sequestro de CO₂
+- [Plataforma Amazônia Regenerativa: 3 Manuais Técnicos](https://takwaratec.github.io/análises-e-escrita-científica/analyses/bioeconomia-amazonica/resenha-takwara-2026-plataforma-regenerativa/) — Síntese dos manuais de bioeconomia, fitorremediação e carbono negativo
+- [ACV da Haste de Bambu (Araújo 2025)](https://takwaratec.github.io/análises-e-escrita-científica/analyses/bioeconomia-amazonica/resenha-ara%C3%BAjo-2025-acv-bambu/) — 93% da toxicidade vem do boro
+- [Mercado de Biochar (Thengane 2021)](https://takwaratec.github.io/análises-e-escrita-científica/analyses/bioeconomia-amazonica/resenha-thengane-2021-biochar-mercado/) — Potencial global de sequestro de CO₂
 
 ### Tecnologia Takwara
-- [Memorial 5.1 — Biorrefinaria Bambu](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/memorial-5.1-biorrefinaria-bambu/) — Engenharia da biorrefinaria integrada
-- [Tratamento Natural com Tanino (Carbonari 2015)](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/resenha-carbonari-2015-tanino/) — Patente UEL para preservação não-tóxica
-- [Bambu Protendido (Moreira & Silva 2022)](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/resenha-moreira-2022-protendido/) — Patente UFMG para colunas e vigas
-- [Carvão de Bambu (Costa 2004)](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/resenha-costa-2004-carvao-bambu/) — Carbonização de *B. vulgaris* (IPEN/USP)
-- [Microrreator Lignocelulósico (Pandoli & Ghavami 2023)](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/resenha-pandoli-2023-microreator-bambu/) — Patente PUC-Rio
-- [Eco-Friendly Preservation (Kaur 2016)](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/resenha-kaur-2016-eco-preservacao/) — Revisão global sobre preservação ecológica
-- [Beraldo — Tratamento sob Pressão (2004)](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/resenha-beraldo-2004-tratamento-pressao/) — Patente UNICAMP para impregnação
-- [Mamonex RD70 — Resina PU Vegetal](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/resenha-mamonex-rd70-pu-vegetal/) — Propriedades do PU de mamona
-- [Naccache — Imperveg PU (2015)](https://takwaratec.github.io/Analises-e-escrita-cient%C3%ADfica/analyses/tecnologia-takwara/resenha-naccache-imperveg/) — Ensaios de impermeabilização naval
+- [Memorial 5.1 — Biorrefinaria Bambu](https://takwaratec.github.io/análises-e-escrita-científica/analyses/tecnologia-takwara/memorial-5.1-biorrefinaria-bambu/) — Engenharia da biorrefinaria integrada
+- [Tratamento Natural com Tanino (Carbonari 2015)](https://takwaratec.github.io/análises-e-escrita-científica/analyses/tecnologia-takwara/resenha-carbonari-2015-tanino/) — Patente UEL para preservação não-tóxica
+- [Bambu Protendido (Moreira & Silva 2022)](https://takwaratec.github.io/análises-e-escrita-científica/analyses/tecnologia-takwara/resenha-moreira-2022-protendido/) — Patente UFMG para colunas e vigas
+- [Carvão de Bambu (Costa 2004)](https://takwaratec.github.io/análises-e-escrita-científica/analyses/tecnologia-takwara/resenha-costa-2004-carvao-bambu/) — Carbonização de *B. vulgaris* (IPEN/USP)
+- [Microrreator Lignocelulósico (Pandoli & Ghavami 2023)](https://takwaratec.github.io/análises-e-escrita-científica/analyses/tecnologia-takwara/resenha-pandoli-2023-microreator-bambu/) — Patente PUC-Rio
+- [Eco-Friendly Preservation (Kaur 2016)](https://takwaratec.github.io/análises-e-escrita-científica/analyses/tecnologia-takwara/resenha-kaur-2016-eco-preservacao/) — Revisão global sobre preservação ecológica
+- [Beraldo — Tratamento sob Pressão (2004)](https://takwaratec.github.io/análises-e-escrita-científica/analyses/tecnologia-takwara/resenha-beraldo-2004-tratamento-pressao/) — Patente UNICAMP para impregnação
+- [Mamonex RD70 — Resina PU Vegetal](https://takwaratec.github.io/análises-e-escrita-científica/analyses/tecnologia-takwara/resenha-mamonex-rd70-pu-vegetal/) — Propriedades do PU de mamona
+- [Naccache — Imperveg PU (2015)](https://takwaratec.github.io/análises-e-escrita-cient%C3%ADfica/analyses/tecnologia-takwara/resenha-naccache-imperveg/) — Ensaios de impermeabilização naval
 
 ### Catálogo IFB (84 referências)
-- [Catálogo IFB — Projeto Bambu](https://takwaratec.github.io/Analises-e-escrita-cientifica/analyses/tecnologia-takwara/catalogo-ifb-bambu/) — Biblioteca de referências sobre a cadeia do bambu
+- [Catálogo IFB — Projeto Bambu](https://takwaratec.github.io/análises-e-escrita-científica/analyses/tecnologia-takwara/catálogo-ifb-bambu/) — Biblioteca de referências sobre a cadeia do bambu
 
 ---
 
 ## Como citar este artigo
 
 **ABNT:**
-TAKWARA, Fabio Resck. **O Potencial do Bambu na Bioeconomia Brasileira**: Recurso Estratégico para a Amazônia e o Brasil. Repositório Análises e Escrita Científica, 2026. Disponível em: https://takwaratec.github.io/Analises-e-escrita-cientifica/.
+TAKWARA, Fabio Resck. **O Potencial do Bambu na Bioeconomia Brasileira**: Recurso Estratégico para a Amazônia e o Brasil. Repositório Análises e Escrita Científica, 2026. Disponível em: https://takwaratec.github.io/análises-e-escrita-científica/.
 
 ---
 

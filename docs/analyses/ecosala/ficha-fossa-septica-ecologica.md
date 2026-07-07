@@ -1,5 +1,5 @@
 ---
-tipo: Ficha Tecnica (Revisao)
+tipo: Ficha técnica (Revisao)
 projeto: ECOSALA / Vaga Lumen
 referencia: FICHA_FOSSA_SEPTICA_ECOLOGICA
 status: Consolidado
@@ -7,11 +7,11 @@ status: Consolidado
 
 # Ficha: Fossa Septica Ecologica e Saneamento Descentralizado
 
-## 1. Identificacao
+## 1. identificação
 | Campo | Dado |
 |---|---|
 | **Tecnologia** | Fossa septica biodigestora, fossa verde, evapotranspiracao |
-| **Aplicacao** | Saneamento descentralizado para comunidades rurais e ribeirinhas |
+| **aplicação** | Saneamento descentralizado para comunidades rurais e ribeirinhas |
 | **TRL sugerido** | 6-7 (sistema demonstrado em ambiente operacional — milhares de unidades instaladas pela Embrapa) |
 
 ## 2. Artigos com DOI
@@ -26,7 +26,7 @@ status: Consolidado
 | Tecnologias Saneamento de Baixo Custo Vol. 1 - Fossa Septica | 10.36599/qped-978-65-5376-208-4 | Livro |
 | Qualidade sanitaria de vegetais cultivados com reuso no modulo Fossa Verde | 10.18068/iisbrns2015.convsa350 | SBRNS |
 
-## 3. Analise
+## 3. análise
 A fossa septica biodigestora da Embrapa e uma das tecnologias sociais mais bem sucedidas do Brasil, com milhares de unidades instaladas. O artigo na Engenharia Sanitaria e Ambiental (2014) demonstrava impacto em escala nacional. O TRL 6-7 reflete a maturidade da tecnologia base. Variantes como a fossa verde com evapotranspiracao estao em TRL 5.
 
 ## 4. Referencias no Acervo

@@ -1,5 +1,5 @@
 ---
-tipo: Ficha Tecnica (Revisao)
+tipo: Ficha técnica (Revisao)
 projeto: ECOSALA / Vaga Lumen
 referencia: FICHA_BIOCHAR_BIOENERGIA
 status: Consolidado
@@ -7,12 +7,12 @@ status: Consolidado
 
 # Ficha: Biochar, Briquetes, Pellets e Bioenergia
 
-## 1. Identificacao
+## 1. identificação
 | Campo | Dado |
 |---|---|
 | **Tecnologia** | Biochar (carbono pirogenico), briquetes, pellets |
-| **Aplicacao** | Sequestro de carbono, condicionador de solo, bioenergia, filtro de efluentes |
-| **TRL sugerido** | 7-8 (producao consolidada) / 6 (modelo de negocios de credito de carbono) |
+| **aplicação** | Sequestro de carbono, condicionador de solo, bioenergia, filtro de efluentes |
+| **TRL sugerido** | 7-8 (produção consolidada) / 6 (modelo de negocios de credito de carbono) |
 | **Metodologia VERRA** | VM0044 — Biochar Utilization in Soil and Non-Soil Applications, v1.2 (ativa desde jun/2025) |
 
 ## 2. Artigos com DOI
@@ -30,15 +30,15 @@ status: Consolidado
 | Biochar and bio-oil from wood pellets pyrolysis | 10.1016/j.biombioe.2018.09.035 | Biomass and Bioenergy |
 | Engineered pellets from torrefied and HTC biochar | 10.1016/j.biombioe.2014.01.038 | Biomass and Bioenergy |
 | Briquetes de carvao vegetal | 10.11606/d.11.2019.tde-20190821-124712 | Dissertacao UnB (Quirino, 2019) |
-| Producao de briquetes de carvao vegetal de bagaco de laranja | 10.47749/t/unicamp.2018.1061906 | Tese Unicamp (Zanella, 2018) |
+| produção de briquetes de carvao vegetal de bagaco de laranja | 10.47749/t/unicamp.2018.1061906 | Tese Unicamp (Zanella, 2018) |
 | Conversao quimica de madeiras: carvao e briquetes | 10.1590/1809-43921988182108 | Acta Amazonica (Correa, 1988)|
 | Briquete de carnauba e capim-elefante | 10.15628/holos.2015.2661 | HOLOS |
 | Green charcoal briquette from food waste via microwave pyrolysis | 10.14710/ijred.2021.33101 | Int. J. Renew. Energy Dev.|
-| Residuos agroindustriais na producao de briquetes | 10.37885/221211221 | Editora Cientifica |
+| Residuos agroindustriais na produção de briquetes | 10.37885/221211221 | Editora científica |
 
-## 3. Analise
-A producao de biochar e consolidada (TRL 9). O artigo seminal de Sohi (2013) no GCB Bioenergy estabeleceu a base do sequestro de carbono via biochar. A metodologia VERRA VM0044 (2025) viabiliza o modelo de negocios de creditos de carbono. Briquetes e pellets tem producao comercial no Brasil ha decadas. O potencial inovador esta na integracao com o protocolo Diquada-Pirolenhoso (aproveitamento do pirolenhoso como subproduto da pirolise para tratamento do bambu).
+## 3. análise
+A produção de biochar e consolidada (TRL 9). O artigo seminal de Sohi (2013) no GCB Bioenergy estabeleceu a base do sequestro de carbono via biochar. A metodologia VERRA VM0044 (2025) viabiliza o modelo de negocios de creditos de carbono. Briquetes e pellets tem produção comercial no Brasil ha decadas. O potencial inovador esta na integração com o protocolo Diquada-Pirolenhoso (aproveitamento do pirolenhoso como subproduto da pirolise para tratamento do bambu).
 
 ## 4. Referencias no Acervo
 NT-005 MQTF (Protocolo Diquada-Pirolenhoso)
-Takwara-Tech (nota tecnica biochar)
+Takwara-Tech (nota técnica biochar)

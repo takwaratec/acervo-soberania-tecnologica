@@ -8,7 +8,7 @@
 
 | # | Ficha | Tipo | Tema central |
 |---|-------|------|-------------|
-| 01 | [Síntese Científica — Ecossistema WTF](./sintese-cientifica-ecossistema-wtf.md) | Síntese | Bambu + Mamona como pilares de soberania |
+| 01 | [Síntese Científica — Ecossistema WTF](./sintese-científica-ecossistema-wtf.md) | Síntese | Bambu + Mamona como pilares de soberania |
 | 02 | [Diagnóstico — Paradigmas Bioeconomia](./diag-bioeconomia-amazonica.md) | Diagnóstico crítico | Bioeconomia hegemônica vs regenerativa |
 | 03 | [Nova Economia da Amazônia (WRI)](./diag-nova-economia-amazonia.md) | Relatório | Cenários 2050, investimentos |
 | 04 | [BNDES Setorial 47](./diag-bndes-set-47-bioeconomia.md) | Diagnóstico | Financiamento e políticas |
