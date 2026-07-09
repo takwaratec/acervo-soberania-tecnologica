@@ -73,15 +73,14 @@ Sua produção científica abrange desde óptica de materiais de cobertura para 
 
 | Ficha | Tipo de Relação |
 |-------|-----------------|
-| [Ficha Holambra Conectada](https://github.com/takwaratec/análises-e-escrita-científica/blob/main/docs/análises/01_polimeros-vegetais-e-biocompositos/ficha-holambra-conectada.md) | Complementar — Bliska é ICT parceiro do projeto |
+| [Ficha Holambra Conectada](https://github.com/takwaratec/análises-e-escrita-científica/blob/main/docs/análises/01_polimeros-vegetais-e-biocompositos/ficha-holambra-conectada.md) | Potencial — estudo pessoal de Fabio sobre bambu invasor na RMC, sem relação com Bliska |
 | [Conexões Semiflexíveis com Cabo de Aço](https://github.com/takwaratec/análises-e-escrita-científica/blob/main/docs/análises/01_polimeros-vegetais-e-biocompositos/ficha-conexoes-geodesicas.md) | Complementar — tecnologia de base para estufas geodésicas |
 | [PU Vegetal UG132A](https://github.com/takwaratec/análises-e-escrita-científica/blob/main/docs/análises/01_polimeros-vegetais-e-biocompositos/ficha-ug132a-pu-vegetal.md) | Complementar — impermeabilização de conexões |
 | [MAMONEX RD70](https://github.com/takwaratec/análises-e-escrita-científica/blob/main/docs/análises/03_habitacao-social-e-athis/ficha-pu-vegetal-imperveg.md) | Complementar — fixação interna das conexões |
-| Carta proposta Bliska (fabrica-modelo) | Hierárquica — carta-convite para parceria FINEP |
 
 ## 7. APLICAÇÕES PRÁTICAS
 
-- **ICT parceiro** para projetos FINEP que envolvam estufas, ambientes protegidos e plasticultura
+- **Potencial ICT parceiro** para projetos que envolvam estufas, ambientes protegidos e plasticultura (em prospecção)
 - **Curadoria técnica** para certificação de estufas geodésicas como tecnologia social
 - **Articulação institucional** entre UNICAMP (NIPE/CEP) e o polo agroindustrial de Holambra
 - **Orientação de P&D** em materiais de cobertura, eficiência energética de estufas e cultivo protegido
@@ -91,7 +90,6 @@ Sua produção científica abrange desde óptica de materiais de cobertura para 
 
 - Perfil institucional NIPE: https://www.nipe.unicamp.br/profissional/antonio-bliska/
 - Google Scholar: https://scholar.google.com/scholar?q=%22Ant%C3%B4nio+Bliska%22
-- Carta proposta: [fabrica-modelo/docs/carta-proposta-bliska.md](https://github.com/takwaratec/03_habitacao-social-e-athis/blob/main/docs/carta-proposta-bliska.md)
 - Dados extraídos de: página NIPE (01/07/2026) + Google Scholar (01/07/2026)
 - Instagram CEP: @ce.plasticultura
 
