@@ -1,40 +1,33 @@
-# Perfil: Dra. Ludmila de Araújo Correia
-
-## 1. Identificação
-
-| Campo | Dado |
-|-------|------|
-| **Nome completo** | Ludmila de Araújo Correia |
-| **Instituição** | CAU/DF — Conselheira Coordenadora da Comissão de ATHIS |
-| **Formação** | Arquiteta e Urbanista (CEUB). Mestre em Arquitetura e Urbanismo (UnB, 2010) — Conforto Ambiental na Habitação de Interesse Social. Doutora pela FAU/UnB (2023) — Tese: "Brasília sensível aos sons: convivências possíveis entre lazer noturno e descanso" |
-| **Vínculo** | CAU/DF, CEUB, UnB |
-| **Lattes** | http://lattes.cnpq.br/3699896854109315 |
-| **E-mail** | Via CAU/DF — pendente |
-
-## 2. Atuação
-
-- Coordenadora da Comissão de ATHIS do CAU/DF
-- Pesquisa em arquitetura social, habitação de interesse social, acústica urbana
-- Experiência prática em barreira acústica de bambu (PIBIT/CEUB, 2021)
-- Intervenções com o povo Xukuru
-- Atuação em licenciamento de sistemas construtivos alternativos
-
-## 3. Produção Acadêmica
-
-| # | Título | Ano | Veículo |
-|---|--------|-----|---------|
-| 1 | Brasília sensível aos sons: convivências possíveis entre lazer noturno e descanso (Tese de Doutorado) | 2023 | Repositório FAU/UnB |
-| 2 | Desafios da Atuação Feminina em Arquitetura Social | 2023 | Revista Realize / Anais ATHIS |
-| 3 | Espaço Coletivo e Sustentabilidade: Núcleo de Formação e Convivência | 2020 | ResearchGate / Congresso |
-| 4 | Soluções Baseadas na Natureza, Formação Comunitária, Agentes Comunitários | — | ANAP (https://publicacoes.amigosdanatureza.org.br/index.php/anap/article/view/6314) |
-
-## 4. Relevância para o Ecossistema
-
-- Interface institucional com o CAU/DF para viabilizar construções não convencionais dentro da legislação
-- Consultoria em ATHIS e licenciamento de sistemas construtivos alternativos
-- Garantia de lastro normativo para painéis, geodésicas e fechamentos de bambu
-- Parceria acadêmica com UnB/LaPeCFaS
-
+---
+tipo_documental: perfil
+categoria_perfil: academico-profissional
+estado_documental: em-revisao-documental
+identificador: http://lattes.cnpq.br/3699896854109315
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
 ---
 
-> Perfil reconstruído a partir de dados da carta-convite e pesquisa Gemini disponíveis no repositório fabrica-modelo. Pendente: e-mail direto, ORCID, atualização do Lattes.
+# Ludmila de Araújo Correia
+
+## Identificação
+
+Ludmila de Araújo Correia é arquiteta e urbanista, professora do Centro Universitário de Brasília e coordenadora do projeto de extensão Morada de Luz, voltado à assistência técnica em habitação de interesse social.
+
+## Formação e atuação
+
+É graduada em Arquitetura e Urbanismo pela Universidade Federal do Rio de Janeiro, especialista em Educação Continuada e a Distância pela UnB, mestre em Paisagem, Ambiente e Sustentabilidade e doutora em Projeto e Planejamento Urbano e Regional pela Faculdade de Arquitetura e Urbanismo da UnB.
+
+## Contribuições verificáveis
+
+Sua tese, defendida em 2023, investiga as possibilidades de convivência entre lazer noturno e descanso no Plano Piloto de Brasília. No CEUB, o projeto Morada de Luz articula formação universitária e ATHIS para famílias e espaços comunitários em territórios de vulnerabilidade habitacional.
+
+## Contribuição ao diagnóstico e à execução
+
+Sua atuação contribui para compreender a tecnologia construtiva como parte de um processo de assessoria, escuta e adequação territorial. Em projetos habitacionais, oferece critérios para que materiais e sistemas construtivos sejam escolhidos com participação dos usuários, conforto, segurança e capacidade de adaptação, e não apenas como substituição material.
+
+## Fontes públicas
+
+- [Tese — Repositório Institucional da UnB](https://repositorio.unb.br/handle/10482/45731)
+- [Projeto Morada de Luz — CEUB](https://repositorio.ceub.br/jspui/bitstream/prefix/16730/6/Caderno%20de%20resumos%20da%2019%C2%AA%20campanha%20de%20responsabilidade%20social.pdf)
+- [Perfil acadêmico publicado pelo CEUB](https://ceub.br/eventos/eventos-xxiv-semabio)
+- [Currículo Lattes](http://lattes.cnpq.br/3699896854109315)

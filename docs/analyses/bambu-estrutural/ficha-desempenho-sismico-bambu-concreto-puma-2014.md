@@ -1,79 +1,62 @@
 ---
-tipo: Ficha Cavichiolli (8 secoes) - Artigo Cientifico
-titulo: Evaluacion del Desempeno Dinamico de Estructuras Mixtas de Bambu y Concreto Armado Sometidas a Cargas Sismicas
-autor: Eduardo Puma Alvarez
-instituicao: Universidad Nacional Federico Villarreal (Peru)
-revista: Catedra Villarreal, Vol. 2, No. 1
+tipo_documental: ficha-cientifica
+titulo: Evaluación del desempeño dinámico de estructuras mixtas de bambú estructural y concreto armado mediante ensayos a escala con un simulador de aceleraciones sísmicas
+autores: Eduardo Puma Alvarez
 ano: 2014
-status: Ficha Completa - Texto Integral Extraido
-idioma: Espanhol (traduzido)
-licenca: CC BY 4.0
+identificador: ISSN 2310-4767
+estado_documental: em-revisao-documental
+fonte_primaria: PDF integral conferido
+pacote_fonte_privado: 2014-puma-desempenho-dinamico-bambu-concreto
+data_revisao: 2026-07-22
+responsavel_curadoria: Fabio Takwara
 ---
 
-# Ficha Cavichiolli: Desempenho Dinamico de Estruturas Mistas de Bambu e Concreto Armado sob Cargas Sismicas
+# Estrutura mista de bambu e concreto sob excitação sísmica - Puma Alvarez (2014)
 
-> Estudo da Universidad Nacional Federico Villarreal (Peru) sobre o comportamento dinâmico de estruturas mistas de bambu estrutural e concreto armado durante sismos, com ensaios em mesa vibratoria.
+> **Síntese:** O artigo compara modelos matemáticos e ensaios em mesa vibratória de protótipos reduzidos de bambu e de uma estrutura mista de bambu com concreto armado. Os resultados apoiam a continuidade da investigação, mas não certificam um sistema construtivo nem demonstram, por si só, a segurança de edificações em escala real.
 
-## 1. Identificacao
+## 1. Dados gerais
 
 | Campo | Dado |
-|-------|------|
-| **Titulo** | Evaluacion del Desempeno Dinamico de Estructuras Mixtas de Bambu y Concreto Armado Sometidas a Cargas Sismicas |
+|---|---|
 | **Autor** | Eduardo Puma Alvarez |
-| **Instituicao** | Universidad Nacional Federico Villarreal (Peru) |
-| **Revista** | Catedra Villarreal, Vol. 2, No. 1, enero-junio 2014 |
+| **Instituição** | Facultad de Ingeniería Civil, Universidad Nacional Federico Villarreal, Peru |
+| **Periódico** | *Cátedra Villarreal*, v. 2, n. 1, p. 99-112 |
 | **Ano** | 2014 |
-| **Pais** | Peru |
-| **Tipo** | Teorico + experimental (mesa vibratoria) |
+| **ISSN** | 2310-4767 |
+| **Tipo** | Artigo com modelagem dinâmica e ensaios em escala 1:20 |
 
-## 2. Classificacao
+## 2. Estrutura e organização
 
-**Eixos:** Bambu Estrutural | Engenharia Sismica | Concreto Armado | Estruturas Mistas
+O texto apresenta justificativa e objetivos, descreve a aferição de um smartphone como acelerômetro, ensaia um modelo de um pavimento em bambu e um modelo misto de três pavimentos, compara respostas experimentais e matemáticas e encerra com conclusões e recomendações.
 
-## 3. Resumo (Traduzido)
+## 3. Problema e perguntas de pesquisa
 
-A pesquisa tem como objetivo unir a seguranca do design convencional com as caracteristicas do design sustentavel, investigando o comportamento dinâmico combinado de estruturas feitas de bambu estrutural e concreto armado durante um terremoto. Dois tipos de analise foram realizados: (1) Analise teoricas considerando as propriedades combinadas do bambu e do concreto armado; (2) Analise experimental em escala real utilizando simulador de aceleracao sismica (mesa vibratoria), regulamentado pelo UCIST (University Consortium on International Shake Tables). O estudo propoe um metodo alternativo de medicao usando sensores de aceleracao integrados em smartphones, dada a dificuldade de acesso a acelerometros profissionais.
+O estudo pergunta se uma pequena participação de concreto armado, combinada ao contraventamento lateral em bambu, pode permitir investigar estruturas mistas com mais de dois pavimentos e resposta dinâmica compatível com os limites considerados pelo regulamento peruano.
 
-## 4. Analise Critica
+## 4. Referencial teórico
 
-**Contribuicao:** Unico estudo encontrado que valida experimentalmente estruturas mistas de bambu+concreto em condicoes sismicas. Relevante para a proposta FINEP (Eixo 3 - Bambu + PU) e para a Colombia - pais referencia em construcao sismica com bambu.
+O referencial reúne o Regulamento Nacional de Edificações do Peru, literatura de dinâmica estrutural, documentos sobre construção sismorresistente com *Guadua angustifolia* e estudos sobre bambu em elementos de concreto. A discussão está situada nas normas e propriedades adotadas pelo autor em 2014.
 
-**Limitacao:** Metodo alternativo de medicao (smartphones) pode ter menos precisao que acelerometros profissionais.
+## 5. Metodologia
 
-## 5. Dados Extraidos
+Foram construídos dois protótipos: um modelo de um pavimento somente em bambu e um modelo misto, em escala 1:20, com coluna central e fundação de concreto armado, três níveis e elementos laterais de bambu. Os modelos foram excitados em uma Shake Table II com o registro do sismo de Kobe e ondas senoidais. A resposta foi registrada por sensor de smartphone previamente comparado ao movimento imposto pela mesa. O trabalho também empregou cálculo analítico e computacional.
 
-| Parametro | Resultado |
-|-----------|-----------|
-| **Estrutura** | Mista: bambu estrutural + concreto armado |
-| **Ensaio** | Mesa vibratoria (UCIST) |
-| **Carga** | Sismica (aceleracao) |
-| **Analise 1** | Teorica - propriedades combinadas bambu+concreto |
-| **Analise 2** | Experimental - escala real em mesa vibratoria |
-| **Medicao** | Acelerometros + sensores de smartphone (metodo alternativo) |
-| **Norma** | UCIST - University Consortium on International Shake Tables |
+## 6. Principais achados
 
-## 6. Conexoes
+- O sensor do smartphone apresentou resposta considerada adequada pelo autor para o propósito didático-experimental.
+- No modelo misto, a coluna de concreto recebeu parcela das cargas gravitacionais e o bambu lateral atuou no contraventamento.
+- O deslocamento relativo máximo medido foi convertido pelo autor em 2,3 cm na escala equivalente, com deriva estimada de 7,6/1000.
+- O protótipo suportou as excitações aplicadas, mas o próprio artigo declara que o experimento não é suficiente para estabelecer a segurança de estruturas reais com mais de dois pavimentos.
 
-- `resenha-ensaios-imperveg-naccache` - Naccache & Ghavami: PU vegetal em bambu para concreto (PUC-Rio)
-- `ficha-acv-bambu-unesp-araujo2025` - ACV Guadua
-- `ficha-efecto-humedad-guadua-gutierrez-2014` - Propriedades mecanicas Guadua
-- Protocolo Takwara - termorretificacao e impermeabilizacao com PU vegetal
+## 7. Avaliação crítica
 
-## 7. Aplicacoes
+O valor do trabalho está na exploração experimental de uma distribuição funcional entre concreto e bambu e na comparação entre resposta medida e modelo matemático. As limitações são decisivas: escala reduzida, bambu maciço sem a geometria de colmos estruturais, instrumentação alternativa, um arranjo construtivo específico e ausência de campanha que represente a diversidade de materiais, ligações e configurações reais.
 
-O estudo e citacao direta na proposta FINEP para comprovar que:
-- Estruturas mistas bambu+concreto tem **desempenho sismico comprovado**
-- A Colombia (pais lider em construcao com bambu) ja validou edificacoes de ate 6 andares
-- O sistema Techsus + bambu tratado com PU vegetal pode ser projetado para zonas sismicas
+## 8. Inserção no estado da arte
 
-## 8. Referencias
+A obra é pertinente como antecedente de investigação sobre sistemas híbridos e ensaios dinâmicos de baixo custo. No Acervo, deve fundamentar perguntas sobre contraventamento, interfaces, similitude de escala e validação normativa, sem ser apresentada como prova de desempenho de tecnologias diferentes ou de edifícios construídos.
 
-| Tipo | Localizacao |
-|------|-------------|
-| **PDF** | `_pdfs_para_catalogar/Evaluacion_del_desempeno_dinamico_de_estructuras_m.pdf` |
-| **Texto** | `_acervo_completo/transcricoes/pdfs_para_catalogar/` |
-| **UCIST** | University Consortium on International Shake Tables |
+**Referência:** PUMA ALVAREZ, Eduardo. Evaluación del desempeño dinámico de estructuras mixtas de bambú estructural y concreto armado mediante ensayos a escala con un simulador de aceleraciones sísmicas. *Cátedra Villarreal*, Lima, v. 2, n. 1, p. 99-112, ene./jun. 2014. ISSN 2310-4767.
 
----
-
-> *Ficha Cavichiolli. Artigo traduzido do espanhol. Citado no Resumo da Fabrica Modelo como referencia de desempenho sismico de estruturas mistas bambu+concreto.*
+> Fonte integral e extração por página preservadas em área privada para conferência documental.

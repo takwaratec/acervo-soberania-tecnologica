@@ -1,31 +1,25 @@
-# Bioeconomia Amazônica
+---
+tipo_documental: indice
+estado_documental: em-revisao-documental
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
+---
 
-> **Resenha:** Diagnósticos, relatórios, resenhas científicas e fichas IFB sobre bioeconomia na Amazônia — paradigmas, financiamento, cenários 2050, bambu nativo, biochar, mercados, energia e valoração da floresta em pé. **21 fichas** técnicas incluindo 12 do Catálogo IFB — 2025 a 2026.
+# Bioeconomia amazônica
 
-## Fichas
+Esta gaveta organiza referências sobre cadeias de biomassa, bioenergia, carbono, território e economia da sociobiodiversidade.
 
-- [Síntese Científica — Bambu e Mamona](sintese-científica-ecossistema-wtf.md)
-- [Diagnóstico — Paradigmas da Bioeconomia](diag-bioeconomia-amazonica.md)
-- [WRI/NEA — Nova Economia da Amazônia](diag-nova-economia-amazonia.md)
-- [BNDES Setorial 47 — Bioeconomia](diag-bndes-set-47-bioeconomia.md)
-- [Bibliografia Mestra MQTF](bibliografia-mestra-mqtf.md)
-- [Araújo (2025) — ACV Bambu](resenha-araújo-2025-acv-bambu.md)
-- [Silva — Mapeamento Bambu Nativo](resenha-silva-mapeamento-bambu.md)
-- [Thengane et al. (2021) — Mercado de Biochar](resenha-thengane-2021-biochar-mercado.md)
-- [IFB — Agenda 2030 (ONU)](ifb-agenda-2030-objetivos-de-desenvolvimento-sustent-vel.md)
-- [IFB — Acordo de Paris](ifb-acordo-de-paris-mudan-as-clim-ticas.md)
-- [IFB — Bambus no Brasil (EMBRAPA)](ifb-bambus-no-brasil-embrapa.md)
-- [IFB — Rede Inter Bambu Ratan](ifb-rede-inter-bambu-ratan.md)
-- [IFB — Ecoindústria no Brasil](ifb-ecoind-stria-no-brasil.md)
-- [IFB — Handbook of Industrial Ecology](ifb-handbook-of-industrial-ecology.md)
-- [IFB — Mercado de Bambu no Brasil](ifb-mercado-de-bambu-no-brasil.md)
-- [IFB — Resíduos Café](ifb-res-duos-caf-paulo-rog-rio.md)
-- [IFB — Biolubrificantes ANP](ifb-biolubrificantes-anp.md)
-- [IFB — Saneamento Básico Brasil](ifb-saneamento-b-sico-brasil.md)
-- [IFB — Fixação de Carbono (São Carlos)](ifb-fixa-o-de-carbono-s-o-carlos.md)
-- [IFB — Desmatamento Mundial](ifb-desmatamento-mundial.md)
-- [Takwara (2026) — Plataforma Amazônia Regenerativa (3 Manuais)](resenha-takwara-2026-plataforma-regenerativa.md)
+## Ficha em revisão documental
 
-## Estado da Arte
+- [Biochar como estratégia de emissões negativas — Matarru e Shin (2025)](ficha-biochar-negative-emissions-review.md)
+- [Desmatamento e sustentabilidade da população mundial — Bologna e Aquino (2020)](bologna-aquino-2020-desmatamento-populacao.md)
+- [Qualidade química do solo em sistemas integrados na Amazônia oriental — Souza et al. (2024)](souza-et-al-2024-solo-sistemas-integrados.md)
+- [Fixação de carbono em matas ciliares — Martins (2004)](martins-2004-carbono-matas-ciliares.md)
+- [Dinâmica dos incêndios florestais no Estado do Acre — Silva (2017)](silva-2017-dinamica-incendios-acre.md)
+- [Incêndios e dominância do bambu no leste do Acre — Silva et al. (2017)](silva-et-al-2017-incendios-dominancia-bambu.md)
 
-→ [Acessar](estado-da-arte.md)
+## Documento institucional em revisão
+
+- [A bioeconomia brasileira em números — Silva, Pereira e Martins (2018)](silva-pereira-martins-2018-bioeconomia-numeros.md)
+
+Os documentos legados deste eixo foram preservados em quarentena até que fonte, autoria, identificador e conteúdo sejam conferidos individualmente.
