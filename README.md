@@ -1,65 +1,71 @@
-# 📚 Análises e Escrita Científica
+# Acervo Soberania Tecnológica
 
-**Repositório central de fichas técnicas, estados da arte e resenhas científicas** que embasam os projetos do ecossistema Takwara: bambu, PU vegetal, bioeconomia, habitação social e tecnologia construtiva.
+Curadoria documental de Fabio Takwara sobre bambu estrutural, poliuretano vegetal de mamona, habitação social, bioeconomia amazônica e tecnologias regenerativas.
 
-👉 **Site:** https://takwaratec.github.io/Analises-e-escrita-cientifica/
+**Site:** https://takwaratec.github.io/acervo-soberania-tecnologica/
 
----
+## Finalidade
 
-## 🧭 O que é este repositório
+O Acervo organiza referências públicas e leituras críticas que apoiam as frentes de pesquisa cidadã do ecossistema Takwara. Ele documenta uma trajetória autodidata de cerca de quatro décadas com rastreabilidade, atribuição e distinção clara entre:
 
-Aqui fica o **acervo científico** que fundamenta todos os projetos irmãos. Cada ficha é baseada em material bruto original (artigos com DOI, teses, dissertações, relatórios técnicos), seguindo a metodologia dos **200+ Prompts para Escrita Científica**.
+- achados publicados pelos autores das fontes;
+- análise e síntese curatorial;
+- formulações autorais de Fabio Takwara;
+- documentos históricos ou institucionais;
+- fontes privadas usadas apenas no trabalho interno.
 
----
+O repositório é uma prova conceitual de capacidade de curadoria e articulação documental. Não substitui revisão por pares, replicação experimental, certificação, vínculo acadêmico formal ou validação de tecnologia em campo.
 
-## 📂 Eixos temáticos
+## Como o conteúdo é organizado
 
-| Eixo | Fichas | Conteúdo |
-|---|---|---|
-| **ECOSALA** | 22 | Fichas dos 11 membros + tecnologias (PU, biochar, pirolenhoso, fossa, biofiltro, catamarã) |
-| **Tecnologia Takwara** | 65 | Bambu, PU vegetal (MAMONEX RD70, UG 132A, RQI), compósitos, patentes, tratamentos, ACV |
-| **Bioeconomia Amazônica** | 23 | Cadeias sociobiodiversidade, economia regenerativa, diagnósticos |
-| **Percepção Social (HIS)** | 7 | Satisfação habitacional, impacto social de programas |
-| **Avaliação Pós-Ocupação** | 5 | Conforto ambiental, qualidade habitacional |
-| **Política Habitacional** | 5 | PMCMV, ATHIS, direito à moradia |
-| **Grandes Obras Amazônia** | 5 | Reassentamentos, hidrelétricas, impactos |
+O número real do acervo é gerado por script e publicado no arquivo [`INVENTARIO_ACERVO.md`](INVENTARIO_ACERVO.md). A contagem separa arquivos Markdown, candidatos a análise, documentos com oito seções detectáveis e documentos com identificador público. Índices, perfis, estados da arte e textos institucionais não são somados como se fossem fichas científicas.
 
-> **Total: ~80 fichas + Catálogo IFB (84 referências)**
+Os principais eixos públicos estão em `docs/analyses/`:
 
----
+- bambu estrutural e tratamentos;
+- poliuretano vegetal;
+- tecnologia Takwara;
+- habitação social e avaliação pós-ocupação;
+- bioeconomia amazônica e grandes obras;
+- fundamentos e perfis de referência.
 
-## 🔗 Projetos Irmãos
+As sínteses transversais são publicadas na série `docs/cadernos-revisao-ecologica/`. A coleção pública reúne, nesta etapa, cinco manuscritos em revisão: preservação socioecológica do bambu; transformação de componentes e equipamentos em capacidade produtiva territorial; rota do protótipo à conformidade normativa; passagem do componente conforme ao habitar, mediante diagnóstico, assistência técnica, adaptabilidade e avaliação pós-ocupação; e uso em cascata dos resíduos limpos por pirólise, com biochar, energia e coprodutos. As versões atuais ainda não possuem DOI.
 
-| Repositório | Conteúdo | Link |
-|---|---|---|
-| **ECOSALA** | Coletivo de 11 pesquisadores — atas, projetos, editais | [github.com/takwaratec/ECOSALA](https://github.com/takwaratec/ECOSALA) |
-| **Vaga Lúmen** | Proposta FINEP Mais Inovação — saneamento, habitação, bambu | [github.com/takwaratec/fundo-vaga-lumen-2026](https://github.com/takwaratec/fundo-vaga-lumen-2026) |
-| **MST Mário Lago** | Viveiro-Educador Terra Viva — Juventude Solidária | [github.com/takwaratec/plataforma-juventude-solidaria-2026](https://github.com/takwaratec/plataforma-juventude-solidaria-2026) |
-| **Mulheres Bioeconomia** | Zenodo DOI: 10.5281/zenodo.18827106 | [Plataforma Amazônia Regenerativa](https://zenodo.org/doi/10.5281/zenodo.18827106) |
+## Método documental
 
----
+As fichas usam uma adaptação do método Cavichiolli em oito seções:
 
-## 📋 Metodologia
+1. dados gerais;
+2. estrutura e organização;
+3. problema e perguntas;
+4. referencial;
+5. metodologia;
+6. achados;
+7. avaliação crítica;
+8. inserção no estado da arte.
 
-As análises seguem o protocolo baseado nos **200+ Prompts para Escrever Artigos Científicos** (Cavichiolli, 2025): extração → mapeamento estrutural → análise do referencial → avaliação metodológica → extração de achados → avaliação crítica → inserção no estado da arte.
+Uma ficha só pode ser homologada documentalmente quando a fonte integral foi conferida, a autoria e o identificador público foram verificados quando existentes — ou a proveniência acadêmica/técnica foi confirmada quando não há DOI, ISBN ou ISSN —, e as oito seções têm conteúdo substantivo. Consulte [`GOVERNANCA_DOCUMENTAL.md`](GOVERNANCA_DOCUMENTAL.md) e [`docs/metodologia.md`](docs/metodologia.md).
 
-Detalhes em: [`docs/metodologia.md`](docs/metodologia.md)
+## Estados documentais
 
----
+O acervo usa estados explícitos como `identificacao-pendente`, `extracao-preliminar`, `em-revisao-documental`, `homologado-documentalmente`, `visao-autoral`, `historico`, `protegido-privado` e `quarentena`.
 
-## 🛠️ Ferramentas
+Esses estados indicam maturidade documental. Não indicam TRL, eficácia aplicada, reconhecimento institucional ou consenso científico.
 
-- **PyMuPDF** — extração de texto de PDFs
-- **Hermes Agent** — análise assistida por IA
-- **MkDocs Material** — site e publicação
-- **GitHub** — versionamento e deploy
+## Reproduzir a contagem
 
----
+```bash
+python3 scripts/inventariar_acervo.py . \
+  --markdown INVENTARIO_ACERVO.md \
+  --json INVENTARIO_ACERVO.json
+```
 
-## 📜 Licença
+## Direitos e atribuição
 
-© Fabio Takwara, 2026. CC BY 4.0. Citações de terceiros mantêm seus direitos autorais originais.
+Os textos curatoriais originais de Fabio Takwara podem receber licença própria quando isso estiver indicado. Artigos, livros, normas, imagens, marcas, citações e demais conteúdos de terceiros permanecem sob os direitos de seus titulares. O repositório não redistribui deliberadamente obras integrais protegidas.
 
----
+## Responsabilidade
 
-*Atualizado: 26/06/2026 · Tecnologia Takwara*
+**Idealização e curadoria:** Fabio Takwara — pesquisador cidadão e autodidata.
+
+**Assistência documental:** ferramentas computacionais e agentes de IA, sempre sujeitas a revisão humana e sem autoria atribuída indevidamente às fontes analisadas.

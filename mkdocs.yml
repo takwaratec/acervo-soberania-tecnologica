@@ -1,16 +1,15 @@
-site_name: Análises e Escrita Científica
-site_description: Repositório de análises de artigos, teses e dissertações — Estado da arte, fichas técnicas e revisões bibliográficas
-site_url: https://takwaratec.github.io/acervo-soberania-tecnologica
-repo_url: https://github.com/takwaratec/Analises-e-escrita-cientifica
-repo_name: takwaratec/Analises-e-escrita-cientifica
+site_name: Acervo Soberania Tecnológica
+site_description: Curadoria documental de Fabio Takwara sobre materiais renováveis, construção, território e tecnologia social
+site_url: https://takwaratec.github.io/acervo-soberania-tecnologica/
+repo_url: https://github.com/takwaratec/acervo-soberania-tecnologica
+repo_name: takwaratec/acervo-soberania-tecnologica
 edit_uri: edit/main/docs/
-copyright: "© Fabio Takwara, 2026. CC BY 4.0. Grafismos: Lux Vidal (org.). Conteúdo das fichas e análises — uso livre mediante atribuição. Citações de terceiros mantêm seus direitos originais."
+copyright: "© Fabio Takwara, 2026. Textos curatoriais próprios sob a licença indicada em cada arquivo; conteúdos de terceiros preservam seus direitos."
 
 theme:
   name: material
+  custom_dir: overrides
   language: pt-BR
-  logo: assets/logo/logo_mqtf_soberana.svg
-  favicon: assets/logo/logo_mqtf_soberana.svg
   palette:
     - scheme: slate
       primary: red
@@ -53,63 +52,126 @@ markdown_extensions:
 
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        'analyses/pu-vegetal/resenha-melo-2023-compósito-eucalipto-pu.md': 'analyses/pu-vegetal/melo-2023-composto-reparo-madeira.md'
+        'analyses/pu-vegetal/ficha-cazella-painel-pinus-pet.md': 'analyses/pu-vegetal/cazella-2022-paineis-pinus-pet-pu.md'
+        'analyses/pu-vegetal/ficha-oliveira-painel-eucalipto-couro.md': 'analyses/pu-vegetal/oliveira-2019-paineis-eucalipto-couro-pu.md'
+        'analyses/pu-vegetal/ficha-shara-lopes-bioinspirado.md': 'analyses/pu-vegetal/lopes-2020-composto-bagaco-cana.md'
+        'analyses/pu-vegetal/ficha-bernardo-zandomenico-fibras.md': 'analyses/pu-vegetal/dias-2024-absorcao-fibras-compostos.md'
+        'analyses/pu-vegetal/ficha-mariana-lopes-bambu-osb.md': 'analyses/pu-vegetal/lopes-2020-osb-residuos-bambu.md'
+        'analyses/pu-vegetal/resenha-carvalho-2020-paineis-casca-mamona-pu.md': 'analyses/pu-vegetal/carvalho-2023-paineis-casca-mamona-pu.md'
+        'analyses/bambu-estrutural/resenha-bio-oleo-termico-pimentel.md': 'analyses/bambu-estrutural/pimentel-tratamento-bi-oleo-bambu.md'
+        'analyses/bambu-estrutural/resenha-lopes-2020-osb-residuos-bambu.md': 'analyses/pu-vegetal/lopes-2020-osb-residuos-bambu.md'
+        'analyses/curso-design-permacultura-mollison.md': 'analyses/fundamentos/mollison-1981-curso-design-permacultura.md'
+        'analyses/spaceship-earth-fuller.md': 'analyses/fundamentos/fuller-1969-manual-nave-espacial-terra.md'
+        'sobre-o-autor/POL_neotropical-bamboo-review-2024.md': 'analyses/bambu-estrutural/neotropical-bamboo-review-2024.md'
+
+exclude_docs: |
+  cadernos-revisao-ecologica/
+  analyses/tecnologia-takwara/
 
 nav:
   - Início: index.md
   - Sobre: sobre.md
   - Metodologia: metodologia.md
-  - Respaldo Acadêmico:
-    - analyses/respaldo-academico/index.md
-  - Fundamentação:
-    - Montaigne: analyses/SOC_FIL_001_MONTAIGNE.md
-    - Morin (7 Saberes): analyses/SOC_FIL_002_MORIN.md
-    - Darcy Ribeiro: analyses/SOC_FIL_003_DARCY_RIBEIRO.md
-    - Paulo Freire: analyses/SOC_FIL_004_PAULO_FREIRE.md
-    - Milton Santos: analyses/SOC_SOC_001_MILTON_SANTOS.md
-    - Florestan Fernandes: analyses/SOC_SOC_002_FLORESTAN_FERNANDES.md
-    - Buckminster Fuller: analyses/SOC_DES_001_BUCKMINSTER_FULLER.md
-    - Nave Espacial Terra: analyses/spaceship-earth-fuller.md
-    - Sinergética — Cap. 1: analyses/synergetics-cap1-fuller.md
-  - Permacultura:
-    - Mollison: analyses/SOC_PER_001_MOLLISON.md
-    - Holmgren: analyses/SOC_PER_002_HOLMGREN.md
-    - Essência da Permacultura: analyses/essencia-da-permacultura-holmgren.md
-    - Curso de Design em Permacultura: analyses/curso-design-permacultura-mollison.md
-    - DIY Handbook (Trapese): analyses/diy-handbook-trapese.md
-  - Bambu:
-    - analyses/bambu-estrutural/index.md
-  - Poliuretano Vegetal:
-    - analyses/pu-vegetal/index.md
-  - Tecnologia Takwara:
-    - analyses/tecnologia-takwara/index.md
-  - Habitação Social:
-    - Satisfação em Conjuntos Habitacionais (Joyce Santos, 2009): analyses/percecao-social/joyce-santos-2009.md
-    - Qualidade de Vida no PMCMV (Menezes & Mourão, 2017): analyses/percecao-social/menezes-mourao-2017-pmcmv-qv.md
-    - Avaliação de IHAs (Procópio & Campos, 2022): analyses/percecao-social/procopio-campos-2022-ihas.md
-    - PMCMV em Belo Horizonte (Nascimento & Brasil, 2023): analyses/percecao-social/nascimento-brasil-2023-pmcmv-bh.md
-    - COVID-19 e HIS (Oliveira & Villa, 2024): analyses/percecao-social/oliveira-villa-2024-covid-his.md
-    - Sustentabilidade em HIS (Perim, 2014): analyses/avaliacao-pos-ocupacao/perim-2014-sustentabilidade-his.md
-    - APO em Porto Alegre (Thielke, 2021): analyses/avaliacao-pos-ocupacao/thielke-2021-apo-porto-alegre.md
-    - Resiliência e Ampliabilidade (Otoni & Villa, 2024): analyses/avaliacao-pos-ocupacao/otoni-villa-2024-resiliencia-ampliabilidade.md
-    - Padrões Espaciais em HIS (Lacerda, 2023): analyses/politica-habitacional/lacerda-2023-padroes-espaciais.md
-    - Desempenho de HIS (Ferreira, 2023): analyses/politica-habitacional/ferreira-2023-avaliacao-desempenho-his.md
-    - Assentamento Seriado (Simões & Leder, 2024): analyses/politica-habitacional/simoes-leder-2024-assentamento-seriado.md
-    - Percepção Social — Estado da Arte: analyses/percecao-social/estado-da-arte.md
-    - APO — Estado da Arte: analyses/avaliacao-pos-ocupacao/estado-da-arte.md
-    - Política Habitacional — Estado da Arte: analyses/politica-habitacional/estado-da-arte.md
-  - Bioeconomia Amazônia:
-    - Síntese Científica do Ecossistema WTF: analyses/bioeconomia-amazonica/sintese-cientifica-ecossistema-wtf.md
-    - Diagnóstico de Paradigmas da Bioeconomia: analyses/bioeconomia-amazonica/diag-bioeconomia-amazonica.md
-    - WRI — Nova Economia da Amazônia: analyses/bioeconomia-amazonica/diag-nova-economia-amazonia.md
-    - BNDES — Bioeconomia (Setor 47): analyses/bioeconomia-amazonica/diag-bndes-set-47-bioeconomia.md
-    - Bibliografia Mestra MQTF: analyses/bioeconomia-amazonica/bibliografia-mestra-mqtf.md
-    - ACV do Bambu na Amazônia (Araújo, 2025): analyses/bioeconomia-amazonica/resenha-araújo-2025-acv-bambu.md
-    - Mapeamento do Bambu (Silva): analyses/bioeconomia-amazonica/resenha-silva-mapeamento-bambu.md
-    - Reassentamento Belo Monte (Miranda Neto, 2014): analyses/grandes-obras-amazonia/miranda-neto-2014-belo-monte-reassentamento.md
-    - UHE Santo Antônio (Belforte & Cavalcante, 2021): analyses/grandes-obras-amazonia/belforte-cavalcante-2021-santo-antonio.md
-    - Reassentamento Rural na Amazônia (Silva & Cavalcante, 2022): analyses/grandes-obras-amazonia/silva-cavalcante-2022-reassentamento-rural-amazonia.md
-    - Bioeconomia Amazônica — Estado da Arte: analyses/bioeconomia-amazonica/estado-da-arte.md
-    - Grandes Obras — Estado da Arte: analyses/grandes-obras-amazonia/estado-da-arte.md
-  - Prompts de Escrita: prompts/index.md
-  - Visão do Autor:
-    - analyses/visao-do-autor/index.md
+  - Fundamentos do Acervo:
+      - Visão geral: analyses/fundamentos/index.md
+      - Curso de design em permacultura — Mollison: analyses/fundamentos/mollison-1981-curso-design-permacultura.md
+      - Princípios e caminhos da permacultura — Holmgren: analyses/fundamentos/holmgren-2002-principios-caminhos-permacultura.md
+      - Manual da Nave Espacial Terra — Fuller: analyses/fundamentos/fuller-1969-manual-nave-espacial-terra.md
+      - Ensaios — Montaigne: analyses/fundamentos/montaigne-1580-ensaios.md
+      - A Revolução Burguesa no Brasil — Florestan: analyses/fundamentos/fernandes-1976-revolucao-burguesa-brasil.md
+      - Ciência com consciência — Morin: analyses/fundamentos/morin-2005-ciencia-com-consciencia.md
+      - Manuscritos da Pedagogia do Oprimido — Freire: analyses/fundamentos/freire-1968-manuscritos-pedagogia-oprimido.md
+      - O povo brasileiro — Darcy Ribeiro: analyses/fundamentos/ribeiro-1995-povo-brasileiro.md
+      - Teoria do Brasil — Darcy Ribeiro: analyses/fundamentos/ribeiro-2014-teoria-do-brasil.md
+      - Por uma outra globalização — Milton Santos: analyses/fundamentos/santos-2001-outra-globalizacao.md
+      - Análise numérica de cúpula geodésica: analyses/fundamentos/santos-2021-cupula-geodesica-analise-numerica.md
+  - Análises: analyses/index.md
+  - Bambu estrutural:
+      - Visão geral: analyses/bambu-estrutural/index.md
+      - Painéis laminados de bambu: analyses/bambu-estrutural/rusch-2019-paineis-bambu-laminado.md
+      - Bambu laminado colado no Paraná: analyses/bambu-estrutural/reghin-2018-bambu-laminado-colado.md
+      - Normas internacionais de bambu: analyses/bambu-estrutural/marcal-2018-normas-internacionais-bambu.md
+      - Bambus nativos, cadeia e conservação: analyses/bambu-estrutural/lima-2019-bambus-nativos-cadeia-conservacao.md
+      - Tratamento térmico de scrimber: analyses/bambu-estrutural/ficha-effects-heat-treatment-bamboo-scrimber.md
+      - Vapor saturado em bambu moso: analyses/bambu-estrutural/ficha-high-temperature-saturated-steam-moso-bamboo.md
+      - Tratamento térmico em PDMS: analyses/bambu-estrutural/ficha-heat-treatment-pdms-bamboo.md
+      - Fogão foguete — simulação CFD: analyses/bambu-estrutural/ficha-rocket-stove-cfd.md
+      - Descasque e tratamento a vapor: analyses/bambu-estrutural/chung-wang-2017-peeling-steam-bamboo.md
+      - ACV de colmos artesanais na Amazônia: analyses/bambu-estrutural/ficha-acv-bambu-unesp-araujo2025.md
+      - Umidade e tração da Guadua: analyses/bambu-estrutural/ficha-efecto-humedad-guadua-gutierrez-2014.md
+      - Ácido pirolenhoso em taliscas: analyses/bambu-estrutural/resenha-beraldo-bambu-pirolenhoso.md
+      - Conexões em bambu roliço: analyses/bambu-estrutural/china-bamboo-connections-review-2019.md
+      - Bambu neotropical, bioprodutos e bioenergia: analyses/bambu-estrutural/neotropical-bamboo-review-2024.md
+      - Estrutura mista sob excitação sísmica: analyses/bambu-estrutural/ficha-desempenho-sismico-bambu-concreto-puma-2014.md
+      - Ácido pirolenhoso contra brocas: analyses/bambu-estrutural/silva-2011-tratamento-pirolenhoso-bambu.md
+      - Controle de Dinoderus minutus: analyses/bambu-estrutural/silveira-2015-controle-dinoderus.md
+      - Líquido pirolenhoso em Pinus: analyses/bambu-estrutural/laroque-2022-liquido-pirolenhoso-pinus.md
+      - Licor pirolenhoso antifúngico: analyses/bambu-estrutural/martins-2017-licor-pirolenhoso-antifungico.md
+      - Tratamento bi-óleo: analyses/bambu-estrutural/pimentel-tratamento-bi-oleo-bambu.md
+      - Coleópteros em Banisteriopsis: analyses/bambu-estrutural/pena-2013-coleopteros-banisteriopsis.md
+      - NSR-10 — madeira e guadua: analyses/bambu-estrutural/nsr10-titulo-g-guadua.md
+      - Circular Embrapa — extrato pirolenhoso: analyses/bambu-estrutural/embrapa-2007-extrato-pirolenhoso.md
+      - Revista Bambu — RBB 2022: analyses/bambu-estrutural/revista-bambu-rbb-2022.md
+      - Bamboo and Rattan Update — INBAR 2025: analyses/bambu-estrutural/inbar-bru-v6n2-2025.md
+      - Palestra de tratamentos — Gauss: analyses/bambu-estrutural/gauss-2023-tratamentos-bambu-palestra.md
+      - Tratamento térmico para BLC — Costa: analyses/bambu-estrutural/costa-2015-tratamento-termico-dendrocalamus.md
+      - Bambu protendido — patente UFMG: analyses/bambu-estrutural/moreira-silva-2022-bambu-protendido.md
+      - Microrreator capilar de bambu — patente: analyses/bambu-estrutural/pandoli-ghavami-sa-2023-microrreator-bambu.md
+  - Poliuretano vegetal:
+      - Visão geral: analyses/pu-vegetal/index.md
+      - Tubos de bambu preenchidos com espuma de PU: analyses/pu-vegetal/wei-et-al-2022-tubos-bambu-espuma-pu.md
+      - Absorção de água de fibras e compósitos: analyses/pu-vegetal/dias-2024-absorcao-fibras-compostos.md
+      - Reparo de madeira com partículas e PU: analyses/pu-vegetal/melo-2023-composto-reparo-madeira.md
+      - Painéis de casca de mamona e PU: analyses/pu-vegetal/carvalho-2023-paineis-casca-mamona-pu.md
+      - Painéis de Pinus, PET e PU: analyses/pu-vegetal/cazella-2022-paineis-pinus-pet-pu.md
+      - Compósito de bambu comparado ao OSB: analyses/pu-vegetal/lopes-2020-osb-residuos-bambu.md
+      - Compósito de bagaço de cana e PU: analyses/pu-vegetal/lopes-2020-composto-bagaco-cana.md
+      - Painéis de eucalipto, couro e PU: analyses/pu-vegetal/oliveira-2019-paineis-eucalipto-couro-pu.md
+      - Materiais vegetais para painel acústico: analyses/pu-vegetal/ficha-pibit-lucas-aciole-painel-acustico.md
+      - Tração de PU de mamona: analyses/pu-vegetal/vianna-1997-pu-mamona-tracao.md
+      - Biodegradação de bioespumas: analyses/pu-vegetal/leithold-2015-biodegradacao-bioespumas.md
+      - Tratamentos do bambu para concreto: analyses/pu-vegetal/naccache-tratamentos-bambu-concreto.md
+      - Certificado UL 94 V: analyses/pu-vegetal/certificado-ul94-imperveg-2010.md
+      - Produto IMPERVEG UG 132 A: analyses/pu-vegetal/ficha-tecnica-imperveg-ug132a.md
+      - Produto MAMONEX RD70: analyses/pu-vegetal/ficha-tecnica-mamonex-rd70.md
+      - Alcalinização de fibras em biocompósito: analyses/pu-vegetal/SCI_014_POLYMERS_ALKALI_TREATMENT.md
+  - Habitação social:
+      - Percepção social:
+          - Visão geral: analyses/percecao-social/index.md
+          - Santos — reassentamento e percepção: analyses/percecao-social/joyce-santos-2009.md
+          - Oliveira e Villa — COVID-19: analyses/percecao-social/oliveira-villa-2024-covid-his.md
+      - Avaliação pós-ocupação:
+          - Visão geral: analyses/avaliacao-pos-ocupacao/index.md
+          - Otoni e Villa — ampliabilidade: analyses/avaliacao-pos-ocupacao/otoni-villa-2024-resiliencia-ampliabilidade.md
+          - Thielke — Conjunto Porto Novo: analyses/avaliacao-pos-ocupacao/thielke-2021-apo-porto-alegre.md
+      - Política habitacional:
+          - Visão geral: analyses/politica-habitacional/index.md
+          - Simões e Leder — habitação seriada: analyses/politica-habitacional/simoes-leder-2024-assentamento-seriado.md
+          - Ferreira — política HIS em Ponta Grossa: analyses/politica-habitacional/ferreira-2023-politica-his-ponta-grossa.md
+  - Bioeconomia amazônica:
+      - Bioeconomia: analyses/bioeconomia-amazonica/index.md
+      - Biochar e emissões negativas: analyses/bioeconomia-amazonica/ficha-biochar-negative-emissions-review.md
+      - Desmatamento e sustentabilidade populacional: analyses/bioeconomia-amazonica/bologna-aquino-2020-desmatamento-populacao.md
+      - Solo em sistemas integrados na Amazônia oriental: analyses/bioeconomia-amazonica/souza-et-al-2024-solo-sistemas-integrados.md
+      - Carbono em matas ciliares: analyses/bioeconomia-amazonica/martins-2004-carbono-matas-ciliares.md
+      - Incêndios florestais no Acre: analyses/bioeconomia-amazonica/silva-2017-dinamica-incendios-acre.md
+      - Incêndios e dominância do bambu: analyses/bioeconomia-amazonica/silva-et-al-2017-incendios-dominancia-bambu.md
+      - Bioeconomia brasileira em números: analyses/bioeconomia-amazonica/silva-pereira-martins-2018-bioeconomia-numeros.md
+      - Grandes obras: analyses/grandes-obras-amazonia/index.md
+  - Perfis acadêmicos e técnicos:
+      - Visão geral: analyses/respaldo-academico/index.md
+      - Tânia Cristina da Silva Cruz: analyses/respaldo-academico/perfil-tania-cruz.md
+      - Marcos Eduardo Paron: analyses/respaldo-academico/perfil-marcos-paron.md
+      - Vicente Borges Virgolino da Silva: analyses/respaldo-academico/perfil-vicente-borges.md
+      - Daniela Maciel Pinto: analyses/respaldo-academico/perfil-daniela-maciel.md
+      - Ludmila de Araújo Correia: analyses/respaldo-academico/perfil-ludmila-correia.md
+      - Antonio Bliska Junior: analyses/respaldo-academico/perfil-bliska.md
+      - Sônia Marise Salles Carvalho: analyses/respaldo-academico/perfil-sonia-marise-carvalho.md
+      - Georgia Patrícia da Silva Ferko: analyses/respaldo-academico/perfil-georgia-ferko.md
+      - Sonaira Souza da Silva: analyses/respaldo-academico/perfil-sonaira-silva.md
+      - Letícia Medeiros de Araújo: analyses/respaldo-academico/perfil-leticia-medeiros-araujo.md
+      - André Blanco: analyses/respaldo-academico/perfil-andre-blanco.md
+  - Visão autoral: analyses/visao-do-autor/index.md

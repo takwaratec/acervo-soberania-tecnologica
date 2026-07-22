@@ -1,6 +1,0 @@
-{
-  "buildCommand": "pip install pyyaml && python clean_unlisted.py && pip install -r requirements.txt && mkdocs build",
-  "outputDirectory": "site",
-  "installCommand": "",
-  "framework": null
-}

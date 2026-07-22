@@ -1,6 +1,16 @@
-# Ficha: Joyce Costa Santos (2009)
+---
+tipo_documental: ficha-academica
+estado_documental: em-revisao-documental
+fonte_primaria: dissertação integral conferida, 111 páginas no PDF
+identificador: ausente-na-fonte
+proveniencia: dados catalográficos e folha de aprovação conferidos no original
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
+---
 
-> **Resumo:** Esta dissertação investiga a percepção de 151 famílias removidas de área de risco e reassentadas no Conjunto Habitacional Vargem Grande (Montes Claros/MG) pelo Programa Habitar Brasil-BID. Sob o referencial de Pierre Bourdieu (habitus, campo, capital), a autora conclui que 87% dos moradores avaliam positivamente a melhoria na qualidade de vida, porém 68% permanecem com renda ≤1 salário mínimo — evidenciando que moradia digna é necessária mas insuficiente sem acompanhamento social e inserção produtiva. A pesquisa revela ainda que 55% dos reassentados são de origem urbana (não rural), contrariando o senso comum, e que 60% alteraram as casas padronizadas, sinalizando busca por identidade e adequação às necessidades reais.
+# Joyce Costa Santos (2009) — percepção social em reassentamento habitacional
+
+> **Resumo:** Esta dissertação investiga a percepção de moradores removidos de área de risco e reassentados no Conjunto Habitacional Vargem Grande, em Montes Claros/MG, pelo Programa Habitar Brasil-BID. O conjunto abrigava 151 famílias e a etapa quantitativa analisou 60 residências. Sob o referencial de Pierre Bourdieu, a autora registra avaliação positiva da melhoria na qualidade de vida por 87% dos entrevistados, ao mesmo tempo que aproximadamente 68% a 69% tinham renda familiar de até um salário mínimo. A pesquisa informa ainda que 55% eram provenientes da área urbana de Montes Claros e que 60% haviam alterado as casas padronizadas.
 
 ---
 
@@ -20,6 +30,7 @@
 | **Referencial teórico** | Pierre Bourdieu (habitus, campo, capital); Max Weber (tipo ideal); Manuel Castells |
 | **Eixo temático** | Percepção Social em HIS |
 | **Status da análise** | ✅ Completa |
+| **Identificador persistente** | Não consta no original; identificação assegurada pela ficha catalográfica e folha de aprovação |
 
 ---
 
@@ -47,7 +58,7 @@
 2. Verificar como essa passagem se manifesta na consciência e nas categorias mentais dos atores sociais envolvidos
 3. Verificar como os atores perceberam a intervenção social
 
-**Tese central:** "Dar uma casa nova, elevar os padrões de habitabilidade e de qualidade da população removida dos assentamentos precários **não é suficiente**, embora seja relevante." A intervenção pública tem impactos positivos (moradia digna, acesso à cidade formal) e negativos (reestruturar relações com o espaço vivido, arcar com tributos e taxações).
+**Argumento central:** a melhoria material da moradia é relevante, mas não resolve isoladamente as vulnerabilidades das famílias reassentadas. A intervenção pública produz benefícios, como a inserção na cidade formal, e também novas exigências econômicas e adaptações sociais.
 
 ---
 
@@ -84,7 +95,7 @@
 - Sem protocolo explícito de codificação/categorização das entrevistas
 - SWOT/FOFA é ferramenta de planejamento estratégico empresarial; falta discussão de sua validade para pesquisa sociológica
 - Bola de neve pode introduzir viés de rede
-- **Não menciona aprovação em Comitê de Ética (CEP)** — a pesquisa é de 2009, quando a exigência já era vigente (Resolução CNS 196/96)
+- A fonte não informa aprovação por Comitê de Ética; esta ficha registra apenas a ausência da informação, sem inferir irregularidade.
 
 ---
 
@@ -94,7 +105,7 @@
 |--------|------|------------|
 | Origem dos moradores | **55%** da área urbana de Montes Claros | Desmitifica associação automática entre assentamento precário e migração rural |
 | Melhoria qualidade de vida | **87%** avaliam positivamente | Intervenção bem-sucedida no aspecto material |
-| Renda familiar | **68%** com ≤ 1 salário mínimo (R$ 415,00 em 2009) | Permanência da vulnerabilidade econômica |
+| Renda familiar | **68% a 69%**, conforme passagens distintas da dissertação, com renda de até 1 salário mínimo (R$ 415,00 em 2009) | Permanência da vulnerabilidade econômica; a divergência de um ponto percentual foi preservada |
 | Bolsa Família | **43%** referenciados | Dependência de transferência de renda |
 | Adensamento excessivo | **55%** com ≥3 pessoas por dormitório | Inadequação do tamanho das casas |
 | Alterações na casa | **60%** fizeram modificações | Busca por personalização, rejeição à homogeneidade |
@@ -129,7 +140,7 @@
 |-----------|--------|
 | Elementos pré-textuais | ✅ Presentes |
 | Resumo com palavras-chave | ✅ Presente |
-| Abstract/Keywords | ❌ Ausente |
+| Abstract/Keywords | ✅ Presentes |
 | Referências (NBR 6023) | ⚠️ Parcial — formato inconsistente |
 | Citações (NBR 10520) | ⚠️ Parcial — algumas sem página |
 | Sumário hierárquico (NBR 6027) | ✅ Presente |
@@ -156,5 +167,4 @@
 
 ---
 
-> **Análise realizada em:** 2026-06-21 | **Ferramenta:** Hermes Agent + PyMuPDF
-> **Metodologia:** 200+ Prompts para Escrever Artigos Científicos (Cavichiolli, 2025)
+> **Revisão documental:** 14 de julho de 2026. Fonte integral, ficha catalográfica, folha de aprovação e resultados confrontados no PDF original. A ausência de DOI, ISBN ou Handle não reduz a identidade documental desta dissertação.

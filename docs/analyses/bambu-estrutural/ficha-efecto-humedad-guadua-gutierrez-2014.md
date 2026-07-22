@@ -1,74 +1,93 @@
 ---
-tipo: Ficha Cavichiolli (8 secoes) - Artigo Cientifico
-titulo: Efecto del contenido de humedad en la resistencia a tension paralela a la fibra del bambu Guadua Angustifolia Kunth
-autor: Mateo Gutierrez-Gonzalez, Caori Patricia Takeuchi-Tam
-instituicao: Universidad Tecnologica de Pereira / Universidad La Gran Colombia
-revista: Scientia et Technica, Vol. 19, No. 3
+tipo_documental: ficha-cientifica
+titulo: Efecto del contenido de humedad en la resistencia a tensión paralela a la fibra del bambú Guadua angustifolia Kunth
+autores: Mateo Gutiérrez-González; Caori Patricia Takeuchi-Tam
 ano: 2014
+doi: 10.22517/23447214.9117
 issn: 0122-1701
-status: Ficha Completa - Texto Integral Extraido
-idioma: Espanhol (traduzido)
-licenca: CC BY 4.0
+estado_documental: em-revisao-documental
+fonte_primaria: PDF integral conferido
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
 ---
 
-# Ficha Cavichiolli: Efeito do Teor de Umidade na Resistencia a Tracao do Bambu Guadua
+# Umidade e resistência à tração paralela da *Guadua angustifolia*
 
-> Estudo da Universidade Tecnologica de Pereira (Colombia) sobre a influencia do teor de umidade na resistencia a tracao paralela as fibras do bambu Guadua angustifolia Kunth.
+> **Síntese:** O artigo ensaia amostras de dez colmos colombianos para verificar como a umidade se relaciona com a resistência à tração paralela às fibras. No intervalo de umidade em que a guadua é normalmente usada como elemento estrutural, aproximadamente 12% a 19%, a resistência à tração paralela não apresentou variação relevante atribuível à umidade. Variações mais importantes ocorreram abaixo do equilíbrio higroscópico e acima do ponto de saturação das fibras.
 
-## 1. Identificacao
+## 1. Dados gerais
 
 | Campo | Dado |
-|-------|------|
-| **Titulo** | Efecto del contenido de humedad en la resistencia a tension paralela a la fibra del bambu Guadua Angustifolia Kunth |
-| **Autores** | Mateo Gutierrez-Gonzalez, Caori Patricia Takeuchi-Tam |
-| **Instituicoes** | Univ. La Gran Colombia (Bogota) / Univ. Tecnologica de Pereira |
-| **Revista** | Scientia et Technica, Vol. 19, No. 3, pp. 245-250 |
+|---|---|
+| **Título original** | Efecto del contenido de humedad en la resistencia a tensión paralela a la fibra del bambú *Guadua angustifolia* Kunth |
+| **Autores** | Mateo Gutiérrez-González; Caori Patricia Takeuchi-Tam |
+| **Periódico** | *Scientia et Technica* |
+| **Volume, número e páginas** | ano XIX, v. 19, n. 3, p. 245–250 |
 | **Ano** | 2014 |
+| **DOI** | [10.22517/23447214.9117](https://doi.org/10.22517/23447214.9117) |
 | **ISSN** | 0122-1701 |
-| **Pais** | Colombia |
+| **Tipo** | Artigo experimental quantitativo |
+| **Idioma** | Espanhol |
+| **Fonte analisada** | PDF integral local e cópia pública no Redalyc |
 
-## 2. Classificacao
+## 2. Estrutura e organização
 
-**Eixos:** Bambu Estrutural | Guadua angustifolia | Propriedades Mecanicas | Teor de Umidade
+O artigo apresenta introdução, materiais e método, resultados e discussão, conclusões e referências. O texto descreve a origem das amostras, a variação controlada de umidade, o ensaio de tração e a análise por posição ao longo do colmo. Gráficos dividem o comportamento em faixas de umidade e sustentam a conclusão aplicada ao uso estrutural.
 
-## 3. Resumo
+## 3. Problema e perguntas de pesquisa
 
-O artigo investiga como o teor de umidade afeta a resistencia a tracao paralela as fibras do bambu Guadua angustifolia Kunth. Foram realizados ensaios de tracao em corpos de prova com diferentes teores de umidade, estabelecendo uma correlacao entre o teor de agua e a perda de resistencia mecanica. Os resultados sao essenciais para o dimensionamento estrutural e para protocolos de tratamento e secagem do bambu.
+O problema é definir se o teor de umidade exige correção da resistência à tração paralela da guadua usada em estruturas. A pergunta central é: como a resistência máxima à tração varia com a umidade, considerando cepa, basa e sobrebasa?
 
-## 4. Analise Critica
+O artigo também examina:
 
-**Contribuicao:** Dados quantitativos sobre a relacao umidade-resistencia do bambu Guadua, fundamentais para normas de construcao (NBR 16828, NSR-10 colombiana).
+- se a região de origem ou a posição em altura explica parte da dispersão;
+- em quais faixas de umidade ocorre mudança mais perceptível;
+- se o intervalo usual de serviço estrutural demanda um fator de modificação específico.
 
-**Limitacao:** Apenas tracao paralela as fibras; nao cobre compressao, cisalhamento ou flexao.
+## 4. Referencial teórico
 
-## 5. Dados Extraidos
+Os autores relacionam propriedades anatômicas da guadua, distribuição de fibras ao longo do colmo, teor de umidade e resistência mecânica. O estudo dialoga com procedimentos colombianos de caracterização e dimensionamento estrutural e com a distinção entre umidade abaixo do equilíbrio, faixa de serviço e valores acima do ponto de saturação das fibras.
 
-| Parametro | Resultado |
-|-----------|-----------|
-| **Especie** | Guadua angustifolia Kunth |
-| **Ensaio** | Tracao paralela as fibras |
-| **Variavel** | Teor de umidade |
-| **Correlacao** | Quanto maior a umidade, menor a resistencia a tracao |
-| **Metodologia** | Ensaios laboratoriais com corpos de prova padronizados |
+## 5. Metodologia
 
-## 6. Conexoes
+| Elemento | Procedimento |
+|---|---|
+| **Amostragem** | Dez colmos provenientes de três regiões da Colômbia |
+| **Posições no colmo** | Cepa, basa e sobrebasa |
+| **Corpos de prova** | Pelo menos sete por trecho; provenientes da mesma seção para manter características próximas |
+| **Variação de umidade** | Imersão por tempos diferentes, mais uma amostra abaixo do equilíbrio; faixa observada aproximada de 12% a 70% |
+| **Norma** | NTC 5525, baseada na ISO 22157 |
+| **Umidade** | Determinada por perda de massa após secagem de amostra retirada próxima à falha |
+| **Tração** | Carga crescente paralela às fibras; falhas fora da região de nó eram descartadas |
+| **Análise** | Resistência última em função da umidade, da procedência e da posição em altura |
 
-- `ficha-acv-bambu-unesp-araujo2025` - ACV Guadua na Amazonia
-- `resenha-ensaios-imperveg-naccache` - Tratamentos de bambu para concreto
-- Protocolo Takwara - termorretificacao e secagem do bambu
+## 6. Principais achados
 
-## 7. Aplicacoes
+- A dispersão dos resultados se relacionou à posição ao longo do colmo, coerente com a variação da densidade de fibras.
+- A cepa apresentou comportamento diferente de basa e sobrebasa em parte das faixas analisadas.
+- A resistência variou de modo importante abaixo do teor de equilíbrio e acima do ponto de saturação das fibras.
+- Entre aproximadamente 12% e 19% de umidade — intervalo apontado como usual para emprego estrutural — a resistência à tração paralela não mostrou variação relevante atribuível à umidade.
+- Os autores concluem que, nesse intervalo de serviço, a umidade não afeta de forma significativa a resistência à tração paralela.
 
-O estudo e referencia para o dimensionamento de elementos estruturais de bambu no sistema Techsus e para validar a eficacia dos protocolos de secagem e tratamento (Eixo 3 da proposta FINEP).
+A formulação anterior “quanto maior a umidade, menor a resistência” foi removida porque contradizia o resultado central do artigo.
 
-## 8. Referencias
+## 7. Avaliação crítica
 
-| Tipo | Localizacao |
-|------|-------------|
-| **PDF** | `_pdfs_para_catalogar/Efecto del contenido de humedad.pdf` |
-| **Texto** | `_acervo_completo/transcricoes/pdfs_para_catalogar/` |
-| **Original** | Redalyc: http://www.redalyc.org/articulo.oa?id=84932139003 |
+### Contribuições
 
----
+- Investiga diretamente uma propriedade necessária ao dimensionamento da guadua.
+- Usa amostras de diferentes regiões e posições do colmo.
+- Distingue o intervalo usual de serviço de condições extremas de secagem ou saturação.
 
-> *Ficha Cavichiolli. Artigo com ISSN, traduzido do espanhol.*
+### Limitações
+
+- O estudo trata apenas de tração paralela; não cobre compressão, flexão, cisalhamento, ligações ou durabilidade.
+- O uso de corpos de prova retirados de material heterogêneo mantém dispersão anatômica relevante.
+- A conclusão se refere à espécie, ao ensaio e às faixas estudadas; não deve ser transferida automaticamente a outras espécies ou produtos engenheirados.
+- A ficha não usa o artigo como validação de protocolos Takwara ou de propostas FINEP.
+
+## 8. Inserção no estado da arte
+
+O artigo fornece uma referência experimental para caracterização estrutural de *Guadua angustifolia* e para controle de condicionamento antes de ensaios. Sua principal utilidade é evitar uma correção genérica e linear por umidade dentro da faixa usual de serviço, sem negar os efeitos observados em condições mais secas ou mais saturadas.
+
+**Referência ABNT:** GUTIÉRREZ-GONZÁLEZ, Mateo; TAKEUCHI-TAM, Caori Patricia. Efecto del contenido de humedad en la resistencia a tensión paralela a la fibra del bambú *Guadua angustifolia* Kunth. *Scientia et Technica*, v. 19, n. 3, p. 245–250, 2014. DOI: [10.22517/23447214.9117](https://doi.org/10.22517/23447214.9117).

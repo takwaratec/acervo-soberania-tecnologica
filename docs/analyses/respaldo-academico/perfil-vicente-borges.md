@@ -1,41 +1,32 @@
-# Perfil: Prof. Dr. Vicente de Paulo Borges Virgolino da Silva
-
-## 1. Identificação
-
-| Campo | Dado |
-|-------|------|
-| **Nome completo** | Vicente de Paulo Borges Virgolino da Silva |
-| **Formação** | Eng. Agronômica (UFLA, 1990), Formação de Professores (UCB, 1998), Mestrado Agronegócio (UnB, 2005), Doutorado Educação e Ecologia Humana (UnB, 2012) |
-| **Instituição** | IFB — Instituto Federal de Brasília, Campus Planaltina (desde 1995) |
-| **E-mail** | vicente.silva@ifb.edu.br |
-| **Lattes** | http://lattes.cnpq.br/5917495538863269 |
-| **Grupo** | ECOSALA / Coordenação de Agroecologia |
-| **Função** | Educador do Campo. Responsável pelo forno MPTDF e oficinas de bambu. |
-
-## 2. Produção Acadêmica
-
-| # | Título | Ano | Veículo |
-|---|--------|-----|---------|
-| 1 | Relato de Experiência: Forno ecológico para tratamento de bambu no IFB Planaltina | 2022 | Cadernos de Agroecologia |
-| 2 | Modelo de Interações Organizativas na Agroecologia e Educação do Campo | 2024 | IFB (1º APA) |
-| 3 | Práticas Contra-Hegemônicas em Ciências Agrárias | 2015 | Livro / Anais |
-| 4 | DIÁLOGOS DA EDUCAÇÃO PROFISSIONAL: AVANÇOS, LIMITES E POSSIBILIDADES SOB O OLHAR DA PEDAGOGIA DO MOVIMENTO | 2022 | Revista Inter-Ação (UFG) — DOI: 10.5216/ia.v47i2.71591 |
-| 5 | Alternância Integrativa como pedagogia de base agroecológica (IFB) | — | Cadernos de Agroecologia |
-
-## 3. Projetos de Extensão
-
-| # | Projeto | Período | Fomento | Status |
-|---|---------|---------|---------|--------|
-| 1 | PROGRUPOS IFB 41/2018: Unidade de Tratamento de Bambu | 2018-2020 | IFB | Executado |
-| 2 | Forno Ecológico para Tratamento de Bambu | 2019-2022 | MPT-DF / IFB | Executado |
-| 3 | Usina de Bambu e Extensão Rural em Assentamentos | Contínuo | IFB / Extensão | Ativo |
-
-## 4. Tecnologias Sociais
-
-- Forno ecológico a vapor MPTDF — instalação e operação
-- Oficinas comunitárias de bambu (3 ciclos: manejo, tratamento, construção)
-- Protocolo de Tratamento (Diquada e Pirolenhoso) — coautor
-
+---
+tipo_documental: perfil
+categoria_perfil: academico-institucional
+estado_documental: em-revisao-documental
+identificador: http://lattes.cnpq.br/5917495538863269
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
 ---
 
-> Perfil atualizado com dados da pesquisa Gemini (fabrica-modelo) e confirmados pelo pesquisador. Pendente: ORCID.
+# Vicente de Paulo Borges Virgolino da Silva
+
+## Identificação
+
+Vicente de Paulo Borges Virgolino da Silva é docente do Instituto Federal de Brasília, Campus Planaltina. A página institucional do Bacharelado em Agronomia o identifica como coordenador do curso.
+
+## Formação e atuação
+
+É engenheiro agrônomo pela Universidade Federal de Lavras, possui formação pedagógica pela Universidade Católica de Brasília, mestrado em Agronegócio pela UnB e doutorado em Educação e Ecologia Humana pela UnB. Sua atuação abrange educação profissional, agroecologia, cooperativismo, associativismo, irrigação e gestão do agronegócio.
+
+## Contribuições verificáveis
+
+O IFB registra sua docência no Campus Planaltina, a coordenação do curso de Agronomia e liderança histórica do grupo Educação e Agroecologia. Esses vínculos situam sua contribuição na articulação entre formação, extensão rural, organização comunitária e manejo produtivo.
+
+## Contribuição ao diagnóstico e à execução
+
+Sua trajetória ajuda a conectar conhecimento técnico, educação e organização produtiva. Em projetos comunitários, essa integração permite que o aproveitamento de recursos locais seja diagnosticado, ensinado, reproduzido, mantido e governado pelas próprias comunidades, com critérios agronômicos e responsabilidade territorial.
+
+## Fontes públicas
+
+- [Bacharelado em Agronomia — IFB Campus Planaltina](https://www.ifb.edu.br/planaltina/24732-bacharel-em-agronomia)
+- [Catálogo de grupos de pesquisa — IFB](https://www.ifb.edu.br/attachments/article/6001/1.%20Catalogo%20de%20Pesquisa%202014%20%28Digital%29.pdf)
+- [Currículo Lattes](http://lattes.cnpq.br/5917495538863269)

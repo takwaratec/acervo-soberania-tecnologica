@@ -1,257 +1,99 @@
-# Ficha Técnica: Effects of Peeling and Steam-Heating Treatment on Basic Properties of Two Types of Bamboo Culms (Phyllostachys makinoi and Phyllostachys pubescens)
-
-> **Resumo:** Este artigo experimental avalia os efeitos do descasque epidérmico (EPT) e do tratamento por vapor aquecido (SHT) nas propriedades químicas, físicas e mecânicas de colmos de bambu moso (*Phyllostachys pubescens*) e makino (*Phyllostachys makinoi*) coletados em Taiwan e na China. Amostras de bambu de 3 anos foram submetidas a pré-tratamento alcalino (KOH 2%, 100°C, 30 min) seguido de SHT a 120°C por 6 h. Os resultados indicam que EPT e SHT aumentam teores de extrativos e cinzas, reduzem holocelulose e α-celulose, diminuem densidade e Umidade de Equilíbrio (EMC), e afetam negativamente a resistência mecânica (MOE e MOR). O descasque compromete a estabilidade dimensional, enquanto o tratamento a vapor a melhora. Bambus com epiderme intacta mantêm maior resistência mecânica mesmo após SHT.
-
+---
+tipo_documental: ficha-cientifica
+titulo: Effects of peeling and steam-heating treatment on basic properties of two types of bamboo culms (Phyllostachys makinoi and Phyllostachys pubescens)
+autores: Min jay Chung; Sheng Yang Wang
+ano: 2017
+doi: 10.1007/s10086-017-1647-y
+estado_documental: em-revisao-documental
+fonte_primaria: PDF integral conferido
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
 ---
 
-## 1. Identificação do Documento
+# Descasque e tratamento a vapor de colmos de bambu
+
+> **Síntese:** O artigo compara colmos de bambu makino e moso, com e sem epiderme, antes e depois de tratamento a vapor a 120 °C por seis horas. Nas condições ensaiadas, a retirada da epiderme e o tratamento térmico alteraram composição, densidade, umidade de equilíbrio, absorção de água, estabilidade dimensional e resistência à flexão. Os resultados não autorizam extrapolação direta para outras espécies, temperaturas ou processos industriais.
+
+## 1. Dados gerais
 
 | Campo | Dado |
-|-------|------|
+|---|---|
 | **Título original** | Effects of peeling and steam-heating treatment on basic properties of two types of bamboo culms (*Phyllostachys makinoi* and *Phyllostachys pubescens*) |
 | **Autores** | Min jay Chung; Sheng Yang Wang |
-| **Afiliações** | Min jay Chung — Experimental Forest, National Taiwan University / Dept. of Forestry, National Chung-Hsing University; Sheng Yang Wang — Dept. of Forestry, National Chung-Hsing University / Agricultural Biotechnology Research Center, Academia Sinica |
 | **Periódico** | *Journal of Wood Science* |
-| **Volume** | 63 |
-| **Páginas** | 473–482 |
+| **Volume e páginas** | v. 63, p. 473–482 |
 | **Ano** | 2017 |
-| **Publicação** | 25 de julho de 2017 (recebido 13 mar 2017; aceito 10 jun 2017) |
-| **ISSN** | 1435-0211 (print) / 1611-4663 (online) |
 | **DOI** | [10.1007/s10086-017-1647-y](https://doi.org/10.1007/s10086-017-1647-y) |
-| **URL** | https://link.springer.com/article/10.1007/s10086-017-1647-y |
-| **Idioma** | Inglês |
-| **Licença** | Springer (acesso fechado — assinatura institucional) |
-| **Classificação** | Artigo original de pesquisa empírica experimental quantitativa |
-| **Errata** | Publicada em 04 out 2017 (DOI: 10.1007/s10086-017-1666-8) |
+| **Correção publicada** | [10.1007/s10086-017-1666-8](https://doi.org/10.1007/s10086-017-1666-8) |
+| **Tipo** | Artigo experimental quantitativo |
+| **Fonte analisada** | PDF integral fornecido por Fabio Takwara |
 
----
+## 2. Estrutura e organização
 
-## 2. Natureza do Estudo
+O artigo contém introdução, materiais e métodos, resultados e discussão, conclusões e referências. A análise combina composição química, densidade, umidade de equilíbrio, estabilidade dimensional, absorção de água e flexão estática. Os oito códigos experimentais representam combinações de espécie/procedência, presença da epiderme e tratamento a vapor; não constituem um fatorial completo para todas as combinações possíveis.
 
-| Atributo | Descrição |
-|----------|-----------|
-| **Tipo** | Artigo de pesquisa empírica experimental |
-| **Abordagem** | Quantitativa — ensaios mecânicos e análises químicas com replicação (n = 9) |
-| **Delineamento** | 8 grupos experimentais (2 espécies × 2 procedências × 2 tratamentos), com e sem EPT, com e sem SHT |
-| **Local** | Taiwan (Floresta Experimental da National Taiwan University, Nan-Tou County) e China (Lin'an County, Zhejiang Province) |
-| **Objeto** | Colmos de bambu de 3 anos de idade |
+## 3. Problema e perguntas de pesquisa
 
----
+O trabalho pergunta como o descasque epidérmico (EPT) e o tratamento por vapor aquecido (SHT) modificam propriedades químicas, físicas e mecânicas de dois bambus de interesse econômico.
 
-## 3. Objetivo
+Questões examinadas:
 
-Avaliar os efeitos do descasque epidérmico (EPT) e do tratamento por vapor aquecido (SHT) nas propriedades químicas (extrativos, holocelulose, α-celulose, hemicelulose, lignina, cinzas), físicas (densidade, EMC, estabilidade dimensional) e mecânicas (MOE, MOR) de colmos de bambu moso e makino de Taiwan e China.
+- como EPT e SHT alteram celulose, hemicelulose, lignina, extrativos e cinzas;
+- como os tratamentos afetam densidade, umidade de equilíbrio e resposta à água;
+- se a manutenção da epiderme está associada a maior MOE e MOR;
+- quais diferenças aparecem entre makino de Taiwan e moso de Taiwan e da China.
 
----
+O artigo não formula as quatro hipóteses anteriormente atribuídas a ele; por isso elas foram retiradas desta revisão.
 
-## 4. Hipóteses (implícitas)
+## 4. Referencial teórico
 
-| Hipótese | Dimensão | Predição |
-|----------|----------|----------|
-| H1 — Efeito EPT | Química/Mecânica | O descasque altera a composição química e reduz a resistência mecânica |
-| H2 — Efeito SHT | Física/Mecânica | O tratamento a vapor reduz densidade, EMC e resistência mecânica |
-| H3 — Efeito espécie | Comparativa | Makino apresenta maior teor de celulose e melhor desempenho mecânico que moso |
-| H4 — Efeito procedência | Comparativa | Bambu moso de Taiwan difere do da China em composição química |
+Os autores situam o estudo na modificação de materiais lignocelulósicos, no tratamento térmico de madeira e bambu e na fabricação de elementos engenheirados. A epiderme é discutida como barreira à colagem e, ao mesmo tempo, como camada relevante para densidade, resistência e comportamento frente à água. A literatura citada também relaciona degradação de hemiceluloses e perda de massa à redução do desempenho mecânico.
 
----
+## 5. Metodologia
 
-## 5. Amostra
+| Elemento | Procedimento |
+|---|---|
+| **Materiais** | Colmos de três anos de *P. makinoi* e *P. pubescens* coletados em Taiwan; moso adicional de Zhejiang, China |
+| **Amostras** | Tiras de 20 × 2 × 1 cm; nove corpos de prova de colmos diferentes por condição |
+| **Preparação comum** | KOH a 2%, 100 °C por 30 min; secagem a 80 °C |
+| **Tratamento térmico** | Vapor a 120 °C por 6 h |
+| **Condicionamento inicial** | 20 °C e 65% de umidade relativa por duas semanas |
+| **Química** | Métodos ASTM para extrativos, holocelulose, α-celulose, lignina e cinzas |
+| **Flexão** | ASTM D1037; três pontos; vão de 144 mm; 3 mm/min; cálculo de MOE e MOR |
+| **Água e dimensão** | Inchamento, absorção de água e umidade de equilíbrio conforme ASTM D1037 |
+| **Estatística** | ANOVA e teste de Tukey; médias apresentadas com erro-padrão |
 
-| Atributo | Descrição |
-|----------|-----------|
-| **Espécies** | Moso bamboo (*Phyllostachys pubescens* Mazel) e Makino bamboo (*Phyllostachys makinoi* Hayata) |
-| **Idade** | 3 anos |
-| **Procedências** | Taiwan (Nan-Tou County) e China (Lin'an County, Zhejiang Province) |
-| **Tamanho amostral** | 9 corpos de prova por condição experimental |
-| **Grupos experimentais** | 8 condições (codificadas): TPmE (makino Taiwan c/ epiderme), TMosoE (moso Taiwan c/ epiderme), TMoso (moso Taiwan s/ epiderme), CMoso (moso China s/ epiderme), e respectivos tratados com SHT (TPmE-H, TMosoE-H, TMoso-H, CMoso-H) |
-| **Dimensões CP** | 20 × 2 × 1 cm (comprimento × largura × espessura) |
-| **Condicionamento** | 20°C, 65% UR por 2 semanas |
+Como todas as amostras receberam pré-tratamento alcalino, o experimento não permite isolar um efeito “puro” do vapor em material sem KOH.
 
----
+## 6. Principais achados
 
-## 6. Métodos
+- Extrativos aumentaram após o tratamento a vapor; holocelulose e α-celulose diminuíram.
+- O moso da China apresentou menos celulose e mais hemicelulose que os demais grupos.
+- A 120 °C por seis horas, as variações de lignina foram pequenas e não significativas.
+- A densidade caiu após SHT em todos os grupos; amostras com epiderme apresentaram densidade maior que as descascadas equivalentes.
+- A umidade de equilíbrio mostrou tendência geral de redução após SHT.
+- Amostras com epiderme alcançaram os maiores valores de MOE e MOR; ambos tenderam a cair após SHT.
+- O descasque aumentou absorção de água e prejudicou a estabilidade dimensional; o vapor reduziu a absorção nas amostras descascadas.
+- A seção sobre cinzas contém uma inconsistência textual: uma frase afirma redução após SHT, mas os valores, o resumo e a conclusão apontam aumento. A ficha registra a divergência em vez de ocultá-la.
 
-### 6.1. Pré-tratamento
+## 7. Avaliação crítica
 
-Todas as amostras foram pré-tratadas com solução alcalina de KOH 2% a 100°C por 30 min, seguidas de secagem em estufa a 80°C.
+### Contribuições
 
-### 6.2. Tratamentos
-
-| Tratamento | Sigla | Condições |
-|------------|-------|-----------|
-| **Descasque epidérmico** | EPT | Remoção mecânica da epiderme |
-| **Vapor aquecido** | SHT | 120°C por 6 h em fornalha a vapor |
-
-### 6.3. Análises Químicas
-
-Segundo normas ASTM:
-
-| Componente | Norma ASTM | Método |
-|------------|-----------|--------|
-| Extrativos (álcool-benzeno) | D 1107-56 | Extração Soxhlet |
-| Holocelulose | D 1104-56 | Método do clorito |
-| α-Celulose | D 1103-60 | Insolubilidade em NaOH 17,5% |
-| Hemicelulose | — | Calculada (holocelulose − α-celulose) |
-| Lignina Klason | D 1106-56 / D 1106-96 | Hidrólise ácida |
-| Lignina solúvel em ácido | D 1106-96 | Espectrofotometria UV |
-| Cinzas | D 1102-84 | Incineração a 575°C |
-| **Resultados expressos em** | % do peso seco em estufa |
-
-### 6.4. Ensaios Mecânicos
-
-| Parâmetro | Especificação |
-|-----------|--------------|
-| **Norma** | ASTM D-1037 |
-| **Ensaio** | Flexão estática 3 pontos (método de carga ao centro) |
-| **Equipamento** | Shimadzu UH-10A (Tóquio, Japão) — máquina universal de ensaios |
-| **Vão livre** | 144 mm (15× a espessura) |
-| **Velocidade** | 3 mm/min |
-| **Face tracionada** | Camada externa do bambu |
-
-### 6.5. Estabilidade Dimensional
-
-| Parâmetro | Procedimento |
-|-----------|-------------|
-| **Inchamento em espessura (TS%)** | Imersão em água (30 mm abaixo da superfície) por 2 e 24 h |
-| **Inchamento volumétrico (S%)** | Medidas de comprimento, largura e espessura antes/após imersão |
-| **Absorção de água (WA%)** | Ganho de peso após imersão |
-| **EMC** | Condicionamento a 20°C / 50% UR por 4 sem. → 20°C / 90% UR por 4 sem. |
-
-### 6.6. Análise Estatística
-
-| Técnica | Descrição |
-|---------|-----------|
-| **ANOVA** | Análise de variância |
-| **Teste de Tukey** | Comparações múltiplas entre médias (α = 0,05) |
-
----
-
-## 7. Principais Resultados
-
-### 7.1. Composição Química
-
-| Componente | Efeito EPT | Efeito SHT | Observação |
-|-----------|-----------|-----------|------------|
-| **Extrativos** | ↑ | ↑ | CMoso-H (China + SHT) = 10,1% — maior teor |
-| **Holocelulose** | ↓ | ↓ | Makino (TPmE) = 71,1% — maior; CMoso-H = 64,2% — menor |
-| **α-Celulose** | ↓ | ↓ | Makino (TPmE) = 57,7% — maior; CMoso-H = 42,8% — menor |
-| **Hemicelulose** | ↑ (inverso) | ↑ (inverso) | Moso China (CMoso) = 23,1% — maior |
-| **Lignina Klason** | ↓ (EPT) | ≈ sem alteração | Sem diferença significativa pós-SHT; epiderme concentra lignina |
-| **Lignina solúvel em ácido** | — | ≈ | Moso China > Taiwan (p < 0,05) |
-| **Cinzas** | ↑ | ↑ | CMoso-H = 1,65% — maior |
-
-> **Destaque:** O SHT a 120°C não degradou a lignina de forma significativa. Bambu makino apresentou consistentemente mais holocelulose e α-celulose que moso.
-
-### 7.2. Propriedades Físicas
-
-| Propriedade | Efeito EPT | Efeito SHT | Faixa observada |
-|------------|-----------|-----------|-----------------|
-| **Densidade** (g/cm³) | ↓ | ↓ | 0,66 (CMoso-H) — 0,84 (TMosoE) |
-| **EMC** (65% UR) | ↓ | ↓ | 9,59% (TPmE-H) — 10,56% (TMosoE) |
-| **TS% (inchamento espessura)** | ↑ (negativo) | ↓ (positivo) | 3,88% (CMoso-H) — 11,99% (TMoso) |
-| **S% (inchamento volumétrico)** | ↑ (negativo) | ↓ (positivo) | 7,90% (CMoso-H) — 16,54% (TPmE) |
-| **WA% (absorção água)** | ↑ significativo | ↓ significativo | 43,14% (TMosoE) — 74,34% (TMoso s/ epiderme) |
-
-### 7.3. Propriedades Mecânicas
-
-| Propriedade | Efeito EPT | Efeito SHT | Observação |
-|------------|-----------|-----------|------------|
-| **MOE** (módulo de elasticidade) | ↓ | ↓ (exceto TPmE) | Makino com epiderme intacta manteve maior MOE |
-| **MOR** (módulo de ruptura) | ↓ | ↓ | Mesma tendência: epiderme intacta → maior resistência |
-| **Relação celulose × resistência** | — | — | Makino (mais celulose) → melhor desempenho mecânico |
-
-> **Nota:** Resultados de MOE e MOR não apresentaram significância estatística (p > 0,05) em todas as comparações, indicando tendência, mas não diferença estatística robusta.
-
----
-
-## 8. Discussão e Principais Achados
-
-### 8.1. Efeito do Descasque (EPT)
-
-- O descasque remove a epiderme rica em lignina e sílica, expondo camadas internas com menor densidade de celulose
-- Aumenta a hidrofilicidade: WA% saltou de ~43% (c/ epiderme) para ~74% (s/ epiderme) no moso Taiwan
-- Compromete a estabilidade dimensional: maior inchamento em espessura e volume
-- Reduz MOE e MOR por eliminar a camada externa de maior resistência mecânica
-
-### 8.2. Efeito do Vapor Aquecido (SHT)
-
-- Reduz holocelulose e α-celulose por degradação térmica parcial dos polissacarídeos
-- Aumenta extrativos (subprodutos da degradação térmica)
-- Reduz densidade e EMC: efeito positivo para estabilidade dimensional
-- Diminui absorção de água em amostras descascadas
-- Efeito negativo na resistência mecânica (MOE e MOR)
-- Não afeta lignina de forma significativa a 120°C (diferente de tratamentos > 180°C)
-
-### 8.3. Diferenças entre Espécies
-
-| Espécie | Vantagens | Desvantagens |
-|---------|-----------|--------------|
-| **Makino** (Taiwan) | Mais holocelulose e α-celulose; maior MOE/MOR; menor hemicelulose; menor EMC | Menos abundante que moso |
-| **Moso Taiwan** | Maior densidade (c/ epiderme); maior teor de lignina na epiderme | Menor celulose que makino |
-| **Moso China** | Menor inchamento (TS% e S%) — mais estável dimensionalmente | Menor celulose; maior teor de cinzas; maior hemicelulose |
-
-### 8.4. Implicações Práticas
-
-- **Para produtos colados (glulam, scrimber):** o descasque é necessário para adesão, mas a perda de epiderme reduz resistência — sugere-se manter a epiderme quando possível ou compensar com maior densidade de colagem
-- **Para estabilidade dimensional:** SHT a 120°C é benéfico; EPT é prejudicial
-- **Para tratamento preservativo:** a remoção da epiderme facilita penetração de químicos (EPT com KOH), mas aumenta absorção de água — SHT pode mitigar esse efeito
-- **Escolha de espécie:** makino oferece melhor desempenho mecânico; moso China oferece maior estabilidade dimensional
-
----
-
-## 9. Conclusões
-
-- EPT e SHT aumentam teores de extrativos e cinzas, reduzem holocelulose e α-celulose
-- Lignina não é significativamente afetada por SHT a 120°C
-- EPT e SHT reduzem EMC e densidade
-- Bambu com epiderme intacta apresenta maior MOE e MOR, com ou sem SHT
-- SHT reduz MOE e MOR; makino com epiderme mantém resistência mesmo após SHT
-- EPT afeta negativamente a estabilidade dimensional; SHT a melhora
-- Descascamento aumenta absorção de água; SHT a reduz
-- Moso China apresenta menor celulose mas maior estabilidade dimensional
-- Makino (Taiwan) é superior em resistência mecânica devido a maior teor de celulose
+- Examina simultaneamente composição, resposta à água e flexão.
+- Mostra que remover a epiderme para favorecer processamento ou colagem envolve perdas mensuráveis.
+- Explicita espécie, procedência, idade, pré-tratamento e condição térmica.
 
 ### Limitações
 
-- Temperatura única de SHT (120°C) — sem varredura térmica para comparar efeitos
-- Amostras de moso China limitadas a uma procedência (Zhejiang)
-- Sem ensaios de durabilidade biológica ou intemperismo acelerado
-- Resultados mecânicos com tendências nem sempre estatisticamente significativas (p > 0,05)
-- Pré-tratamento alcalino (KOH) adiciona variável confundidora — efeito do EPT não é isolado
+- O conjunto de oito condições não é um fatorial completo de espécie, procedência, descasque e vapor.
+- Há uma única condição de SHT; não se pode estabelecer uma curva de temperatura ou tempo.
+- O KOH comum a todas as amostras é uma variável adicional do processo.
+- Não foram avaliadas durabilidade biológica, adesão, envelhecimento externo nem escala industrial.
+- Parte das diferenças mecânicas é apresentada como tendência; não se deve converter toda variação numérica em diferença estatisticamente robusta.
 
----
+## 8. Inserção no estado da arte
 
-## 10. Financiamento
+O artigo é uma referência útil para a interface entre preparação superficial, vapor e integridade do colmo. Para projetos Takwara, pode orientar delineamentos comparativos com e sem epiderme e com controles adequados. Não comprova a eficácia de tratamento Takwara, PU vegetal ou qualquer processo com espécie e equipamento diferentes.
 
-| Agência | Nº Processo | Finalidade |
-|---------|------------|------------|
-| Experimental Forest, College of Bioresource and Agriculture, National Taiwan University | 105-A01-5 | Suporte ao estudo |
-| Forestry Bureau (Taiwan) | — | Apoio financeiro |
-
----
-
-## 11. Palavras-chave
-
-**Português:** *Phyllostachys pubescens*; *Phyllostachys makinoi*; descasque epidérmico; tratamento por vapor; bambu moso; bambu makino; propriedades químicas; propriedades mecânicas; MOE; MOR; estabilidade dimensional; EMC.
-
-**Inglês (original):** *Phyllostachys pubescens*; *Phyllostachys makinoi*; Epidermal peeling treatment; Steam-heating treatment; Chemical properties; Mechanical properties.
-
----
-
-## 12. Referências Citadas Relevantes
-
-| Tema | Referência |
-|------|-----------|
-| Tratamento térmico de bambu moso | Zhao RJ, Jiang ZH, Hse CY, Shupe TF (2010) *J Trop Forest Sci* 22:197–201 |
-| Modificação térmica de madeira | Esteves B, Pereira H (2009) *BioResources* 4:370–404 |
-| Efeito térmico em bambu moso | Yang TH, Lee CH, Lee CJ, Cheng YW (2016) *Constr Build Mater* 119:251–259 |
-| Degradação térmica de polissacarídeos | Candelier K et al. (2013) *Polym Degrad Stab* 98:677–681 |
-| Análise química de madeira tratada termicamente | Boonstra MJ, Tjeerdsma B (2006) *Holz Roh Werkst* 64:204–211 |
-| Bambu laminado colado | Lee CH, Chung MJ, Lin CH, Yang TH (2012) *Constr Build Mater* 28:31–35 |
-
----
-
-> **Ficha elaborada em:** 2026-06-21
-> **Fonte:** CHUNG, M. J.; WANG, S. Y. Effects of peeling and steam-heating treatment on basic properties of two types of bamboo culms (*Phyllostachys makinoi* and *Phyllostachys pubescens*). *Journal of Wood Science*, v. 63, p. 473–482, 2017. DOI: 10.1007/s10086-017-1647-y.
-> **Ferramenta:** Hermes Agent
-> **Ref. local:** SCI_016_EFFECTS_PEELING_STEAM_BAMBOO.md
+**Referência ABNT:** CHUNG, Min jay; WANG, Sheng Yang. Effects of peeling and steam-heating treatment on basic properties of two types of bamboo culms (*Phyllostachys makinoi* and *Phyllostachys pubescens*). *Journal of Wood Science*, v. 63, p. 473–482, 2017. DOI: [10.1007/s10086-017-1647-y](https://doi.org/10.1007/s10086-017-1647-y).

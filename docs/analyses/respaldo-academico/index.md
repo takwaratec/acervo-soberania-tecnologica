@@ -1,40 +1,40 @@
-# Respaldo Acadêmico e Institucional
-
-Pesquisadores, professores e instituições parceiras que fundamentam e respaldam as propostas e projetos do ecossistema Tecnologia Takwara — incluindo currículos, linhas de pesquisa e vínculos institucionais.
-
-## Parceiros com Currículo e Vínculo
-
-- [Profa. Dra. Tânia Cristina da Silva Cruz — Universidade de Brasília (UnB/FUP)](perfil-tania-cruz.md)
-  Coordenadora do LaPCiS (Laboratório de Pesquisa em Ciências Sociais). Doutora em Política Científica e Tecnológica. Atua com tecnologias sociais, incubação de empreendimentos solidários, propriedade intelectual e inovação social. Coordena o projeto MQTF (consórcio UnB/UFAC/UFRR).
-
-- [Prof. Dr. Marcos Paron — IFSP](perfil-marcos-paron.md)
-  Doutor em Microbiologia, professor no IFSP. Coordenador do ECOSALA, articulação acadêmica e ecoformação.
-
-- [Prof. Dr. Vicente Borges — IFB](perfil-vicente-borges.md)
-  Doutor em Educação, professor no IFB. Especialista em bambu, MPTDF, transferência de tecnologia.
-
-- [Arq. André Blanco — TEIA](perfil-andre-blanco.md)
-  Arquiteto, diretor da TEIA - Tecnologia, Educação, Inovação e Ambiente. Frente: Fábrica Modelo (industrialização construção civil).
-
-- [Dra. Daniela Maciel — Embrapa Territorial](perfil-daniela-maciel.md)
-  Pesquisadora da Embrapa Territorial. Doutora em avaliação de impacto da pesquisa. Especialista em transferência de tecnologia, AgroRadarEval, TerImpact Ex-Ante, RRI/RRA. **Lattes:** http://lattes.cnpq.br/9196370833242212
-
-- [Dra. Ludmila de Araújo Correia — CAU/DF](perfil-ludmila-correia.md)
-  Arquiteta e Urbanista, Doutora pela FAU/UnB. Coordenadora da Comissão de ATHIS do CAU/DF. **Lattes:** http://lattes.cnpq.br/3699896854109315
-
-- [Prof. Dr. Antonio Bliska Jr. — UNICAMP/NIPE](perfil-bliska.md)
-  Pesquisador da UNICAMP, Núcleo Interdisciplinar de Planejamento Energético. Especialista em estufas, plasticultura, agricultura protegida, café e flores. **E-mail:** bliskajr@unicamp.br Referência em caracterização ótica de materiais para agricultura protegida.
-
-## Outros Parceiros
-
-- [Gisele Vilela — Embrapa](../ecosala/gisele-vilela.md)
-- [Joaquim Sando — MST](../ecosala/joaquim-sando.md)
-- [Raphaela Palma — ECOSALA](../ecosala/raphaela-palma.md)
-- [Luci Okino — ECOSALA](../ecosala/luci-okino.md)
-- [Murillo Miguel — Coletivo Terra Viva](../ecosala/murillo-miguel.md)
-- [Henrique Bueno — ECOSALA](../ecosala/henrique-bueno.md)
-- [Luis Felipe — ECOSALA](../ecosala/luis-felipe.md)
-
+---
+tipo_documental: indice
+estado_documental: curado
+data_revisao: 2026-07-22
+responsavel_curadoria: Fabio Takwara
 ---
 
-> *Este repositório de respaldo acadêmico reúne os currículos, linhas de pesquisa e vínculos institucionais dos parceiros que dão suporte científico e institucional às propostas e projetos do ecossistema Tecnologia Takwara, incluindo editais FINEP, CNPq e fundações de amparo à pesquisa.*
+# Perfis acadêmicos e técnicos
+
+Esta seção reúne perfis curatoriais de parceiros e convidados cujas trajetórias dialogam com os temas do Acervo. Os perfis documentam formação, vínculo e campos de atuação com base em fontes públicas. Cada página deve ser lida como registro de competência e produção, sem presumir vínculo entre a pessoa e todos os projetos citados no ecossistema.
+
+Os projetos são o ponto de encontro entre essas trajetórias. Cada profissional contribui com competências próprias para diagnóstico, formulação, execução ou avaliação. Soluções baseadas na natureza, ferramentas de gestão e tecnologias construtivas podem integrar uma iniciativa quando forem pertinentes ao problema, ao território e à governança estabelecida.
+
+## Perfis acadêmicos
+
+- [Tânia Cristina da Silva Cruz — UnB/FUP](perfil-tania-cruz.md)
+- [Marcos Eduardo Paron — IFSP](perfil-marcos-paron.md)
+- [Vicente de Paulo Borges Virgolino da Silva — IFB](perfil-vicente-borges.md)
+- [Daniela Maciel Pinto — Embrapa Territorial](perfil-daniela-maciel.md)
+- [Ludmila de Araújo Correia — CEUB/UnB](perfil-ludmila-correia.md)
+- [Antonio Bliska Junior — Unicamp/NIPE](perfil-bliska.md)
+- [Sônia Marise Salles Carvalho — PROFNIT/UnB](perfil-sonia-marise-carvalho.md)
+- [Georgia Patrícia da Silva Ferko — UFRR](perfil-georgia-ferko.md)
+- [Sonaira Souza da Silva — UFAC](perfil-sonaira-silva.md)
+- [Letícia Medeiros de Araújo — Ciências Ambientais e ACV](perfil-leticia-medeiros-araujo.md)
+
+## Perfil técnico-profissional
+
+- [André Blanco — arquitetura, ATHIS e organização profissional](perfil-andre-blanco.md)
+
+## Critério de leitura
+
+- títulos e vínculos são apresentados somente quando confirmados por fonte institucional;
+- produção acadêmica selecionada serve para situar a atuação, não para transferir autoridade a outro objeto;
+- participação em grupo, convite ou parceria não implica responsabilidade por documentos deste Acervo;
+- relações operacionais de projetos irmãos permanecem nos respectivos repositórios.
+
+## Critério de integração entre projetos e Acervo
+
+O Acervo preserva a trajetória acadêmica e as referências científicas que podem servir a diferentes iniciativas. Cargos de projeto, compromissos institucionais, orçamento, entregas e organização de equipe permanecem no repositório de cada projeto. Assim, uma mesma referência pode sustentar vários diagnósticos sem transformar uma tecnologia específica no centro de todas as ações.
