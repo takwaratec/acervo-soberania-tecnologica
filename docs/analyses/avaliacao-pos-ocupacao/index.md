@@ -1,13 +1,16 @@
-# Avaliação Pós-Ocupação (APO)
+# Avaliação pós-ocupação
 
-> **Resenha:** Estudos de avaliação pós-ocupação em habitação de interesse social — qualidade construtiva, conforto ambiental, resiliência e sustentabilidade. 3 fichas técnicas — 2014 a 2024.
+Este eixo reúne estudos sobre desempenho em uso, adaptação, conforto e capacidade de transformação da habitação.
 
-## Fichas
+## Fichas em revisão documental
 
-- [Perim (2014) — Sustentabilidade HIS + Planta Embrião](perim-2014-sustentabilidade-his.md)
-- [Thielke (2021) — APO Porto Alegre](thielke-2021-apo-porto-alegre.md)
-- [Otoni & Villa (2024) — Resiliência e Ampliabilidade](otoni-villa-2024-resiliencia-ampliabilidade.md)
+- [Otoni e Villa (2024) — resiliência, ampliabilidade e sistemas construtivos](otoni-villa-2024-resiliencia-ampliabilidade.md)
+- [Thielke (2021) — avaliação pós-ocupação do Conjunto Porto Novo](thielke-2021-apo-porto-alegre.md)
 
-## Estado da Arte
-
-→ [Acessar](estado-da-arte.md)
+A publicação da ficha indica que a fonte integral e a redação foram confrontadas; não equivale a homologação experimental dos resultados.
+---
+tipo_documental: indice
+estado_documental: em-revisao-documental
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
+---

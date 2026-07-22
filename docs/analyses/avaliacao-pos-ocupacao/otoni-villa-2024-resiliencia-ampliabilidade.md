@@ -1,4 +1,13 @@
-# Ficha Técnica: Resiliência, ampliabilidade e sistemas construtivos em habitações sociais: uma revisão de literatura
+---
+tipo_documental: ficha-cientifica
+estado_documental: em-revisao-documental
+fonte_primaria: artigo integral conferido, 18 páginas
+identificador: https://doi.org/10.46421/entac.v20i1.5801
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
+---
+
+# Resiliência, ampliabilidade e sistemas construtivos em habitações sociais
 
 > **Resumo:** Revisão sistemática da literatura que investiga a relação entre ampliabilidade e sistema construtivo em habitações sociais (HS), visando a promoção da resiliência no ambiente construído. O problema central: o sistema construtivo rígido (paredes de concreto moldadas *in loco*) adotado na produção habitacional brasileira impede ampliações seguras. As reformas e ampliações realizadas pelos moradores sem supervisão técnica geram patologias severas, desconforto térmico e riscos à saúde. A análise revelou um hiato na literatura quanto à correlação entre HS e resiliência com o sistema construtivo rígido. O artigo constitui a etapa (i) de uma pesquisa de mestrado que inclui ainda (ii) pesquisa empírica e (iii) proposição de soluções.
 
@@ -186,7 +195,7 @@ A maioria dos estudos sobre resiliência habitacional foca em aspectos socioespa
 
 ---
 
-## 9. Referências Citadas Relevantes
+### Referências citadas relevantes
 
 | Tema | Referências |
 |:-----|:------------|

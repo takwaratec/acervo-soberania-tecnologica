@@ -1,3 +1,10 @@
+---
+tipo_documental: material-didatico-institucional
+estado_documental: em-revisao-documental
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
+---
+
 # Metodologia
 
 ## Protocolo de Análise
@@ -69,6 +76,16 @@ Identificação de:
 - Conexão com outras fichas do mesmo eixo
 - Identificação de lacunas para pesquisa futura
 
+### Critério de contribuição para a pesquisa Takwara
+
+A contribuição de cada fonte é analisada como parte de um sistema que relaciona recursos materiais, conhecimento, território, trabalho, capacidade produtiva, manutenção e autonomia. O bambu e outros recursos vegetais não são tratados como soluções isoladas: seu valor depende das relações técnicas e sociais que permitem transformá-los com segurança, gerar conhecimento verificável e manter benefícios sob domínio das comunidades.
+
+Quando a fonte não estuda diretamente o bambu ou uma tecnologia Takwara, a ficha não força equivalências. Ela identifica a contribuição metodológica, os requisitos de validação e a parte do sistema que o estudo ajuda a compreender. A análise deve distinguir potencial de aplicação, evidência disponível e lacunas ainda abertas.
+
+### Regra de redação pública
+
+A versão publicada contém a curadoria final. Comentários sobre erros de fichas anteriores, quarentena, reconstrução, etapas de revisão ou decisões internas de triagem ficam restritos aos relatórios privados.
+
 ---
 
 ## Prompts utilizados
@@ -115,3 +132,9 @@ Cada ficha segue este formato:
 ## 8. Inserção no estado da arte
 [Conexões com outros trabalhos, relevância para o repositório]
 ```
+---
+tipo_documental: material-didatico-institucional
+estado_documental: em-revisao-documental
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
+---

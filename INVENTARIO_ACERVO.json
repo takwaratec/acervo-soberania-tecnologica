@@ -1,0 +1,1786 @@
+{
+  "generated_on": "2026-07-22",
+  "repository": "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica",
+  "definitions": {
+    "public_markdown": "arquivo .md sob docs/ incluído no build público",
+    "structured_1_to_8": "arquivo com os oito títulos numerados detectáveis",
+    "identified": "arquivo contendo DOI, ISBN, ISSN ou Handle detectável",
+    "analysis_document": "arquivo sob docs/analyses, sem presumir que seja ficha científica"
+  },
+  "counts": {
+    "public_markdown": 94,
+    "analysis_documents": 91,
+    "structured_1_to_8_all_docs": 70,
+    "structured_1_to_8_analysis": 69,
+    "identified_all_docs": 29,
+    "identified_analysis": 29
+  },
+  "by_group": {
+    "analyses": 91,
+    "raiz-docs": 3
+  },
+  "by_declared_status": {
+    "curado": 9,
+    "em-revisao-documental": 85
+  },
+  "by_declared_type": {
+    "documento-de-patente": 2,
+    "documento-institucional": 3,
+    "ficha-academica": 6,
+    "ficha-cientifica": 42,
+    "ficha-tecnica-de-produto": 2,
+    "indice": 10,
+    "laudo-ou-certificado-de-ensaio": 1,
+    "material-didatico-institucional": 3,
+    "norma-ou-regulamento": 1,
+    "perfil": 11,
+    "periodico-institucional": 3,
+    "resenha-academica": 9,
+    "visao-autoral": 1
+  },
+  "records": [
+    {
+      "path": "docs/analyses/avaliacao-pos-ocupacao/index.md",
+      "group": "analyses",
+      "bytes": 705,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "indice"
+    },
+    {
+      "path": "docs/analyses/avaliacao-pos-ocupacao/otoni-villa-2024-resiliencia-ampliabilidade.md",
+      "group": "analyses",
+      "bytes": 13782,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.46421/entac.v20i1.5801",
+        "10.46421/entac.v20i1.5801)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/avaliacao-pos-ocupacao/thielke-2021-apo-porto-alegre.md",
+      "group": "analyses",
+      "bytes": 3966,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-academica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/china-bamboo-connections-review-2019.md",
+      "group": "analyses",
+      "bytes": 5684,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.32604/jrm.2019.07647",
+        "10.32604/jrm.2019.07647)",
+        "10.32604/jrm.2019.07647)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/chung-wang-2017-peeling-steam-bamboo.md",
+      "group": "analyses",
+      "bytes": 6840,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1007/s10086-017-1647-y",
+        "10.1007/s10086-017-1647-y)",
+        "10.1007/s10086-017-1647-y).",
+        "10.1007/s10086-017-1666-8",
+        "10.1007/s10086-017-1666-8)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/costa-2015-tratamento-termico-dendrocalamus.md",
+      "group": "analyses",
+      "bytes": 9481,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-academica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/embrapa-2007-extrato-pirolenhoso.md",
+      "group": "analyses",
+      "bytes": 2146,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "documento-institucional"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-acv-bambu-unesp-araujo2025.md",
+      "group": "analyses",
+      "bytes": 6937,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.14295/bjs.v4i4.719",
+        "10.14295/bjs.v4i4.719)",
+        "10.14295/bjs.v4i4.719)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-desempenho-sismico-bambu-concreto-puma-2014.md",
+      "group": "analyses",
+      "bytes": 4612,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-efecto-humedad-guadua-gutierrez-2014.md",
+      "group": "analyses",
+      "bytes": 6141,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.22517/23447214.9117",
+        "10.22517/23447214.9117)",
+        "10.22517/23447214.9117)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-effects-heat-treatment-bamboo-scrimber.md",
+      "group": "analyses",
+      "bytes": 6936,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1007/s10086-016-1574-3",
+        "10.1007/s10086-016-1574-3)",
+        "10.1007/s10086-016-1574-3)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-heat-treatment-pdms-bamboo.md",
+      "group": "analyses",
+      "bytes": 6172,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1039/d0ra08713k",
+        "10.1039/d0ra08713k)",
+        "10.1039/d0ra08713k)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-high-temperature-saturated-steam-moso-bamboo.md",
+      "group": "analyses",
+      "bytes": 6551,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1186/s10086-020-01899-8",
+        "10.1186/s10086-020-01899-8)",
+        "10.1186/s10086-020-01899-8)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-rocket-stove-cfd.md",
+      "group": "analyses",
+      "bytes": 5686,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.2991/978-94-6463-284-2_3",
+        "10.2991/978-94-6463-284-2_3)",
+        "10.2991/978-94-6463-284-2_3)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/gauss-2023-tratamentos-bambu-palestra.md",
+      "group": "analyses",
+      "bytes": 1929,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "material-didatico-institucional"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/inbar-bru-v6n2-2025.md",
+      "group": "analyses",
+      "bytes": 1947,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "periodico-institucional"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/index.md",
+      "group": "analyses",
+      "bytes": 4515,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "indice"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/laroque-2022-liquido-pirolenhoso-pinus.md",
+      "group": "analyses",
+      "bytes": 2496,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/lima-2019-bambus-nativos-cadeia-conservacao.md",
+      "group": "analyses",
+      "bytes": 3046,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/marcal-2018-normas-internacionais-bambu.md",
+      "group": "analyses",
+      "bytes": 3058,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/martins-2017-licor-pirolenhoso-antifungico.md",
+      "group": "analyses",
+      "bytes": 2332,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/moreira-silva-2022-bambu-protendido.md",
+      "group": "analyses",
+      "bytes": 3610,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "documento-de-patente"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/neotropical-bamboo-review-2024.md",
+      "group": "analyses",
+      "bytes": 6066,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1080/19397038.2024.2427020",
+        "10.1080/19397038.2024.2427020)",
+        "10.1080/19397038.2024.2427020)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/nsr10-titulo-g-guadua.md",
+      "group": "analyses",
+      "bytes": 2367,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "norma-ou-regulamento"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/pandoli-ghavami-sa-2023-microrreator-bambu.md",
+      "group": "analyses",
+      "bytes": 3868,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "documento-de-patente"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/pena-2013-coleopteros-banisteriopsis.md",
+      "group": "analyses",
+      "bytes": 2584,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/pimentel-tratamento-bi-oleo-bambu.md",
+      "group": "analyses",
+      "bytes": 2461,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/reghin-2018-bambu-laminado-colado.md",
+      "group": "analyses",
+      "bytes": 2865,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/resenha-beraldo-bambu-pirolenhoso.md",
+      "group": "analyses",
+      "bytes": 7027,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.5380/rf.v44i1.30220",
+        "10.5380/rf.v44i1.30220)",
+        "10.5380/rf.v44i1.30220)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/revista-bambu-rbb-2022.md",
+      "group": "analyses",
+      "bytes": 1926,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "periodico-institucional"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/rusch-2019-paineis-bambu-laminado.md",
+      "group": "analyses",
+      "bytes": 2880,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1590/1983-40632019v4953714",
+        "10.1590/1983-40632019v4953714)",
+        "10.1590/1983-40632019v4953714)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/silva-2011-tratamento-pirolenhoso-bambu.md",
+      "group": "analyses",
+      "bytes": 2744,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/silveira-2015-controle-dinoderus.md",
+      "group": "analyses",
+      "bytes": 2586,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/bologna-aquino-2020-desmatamento-populacao.md",
+      "group": "analyses",
+      "bytes": 5714,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1038/s41598-020-63657-6",
+        "10.1038/s41598-020-63657-6)",
+        "10.1038/s41598-020-63657-6)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/ficha-biochar-negative-emissions-review.md",
+      "group": "analyses",
+      "bytes": 6250,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.3390/en18184898",
+        "10.3390/en18184898)",
+        "10.3390/en18184898)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/index.md",
+      "group": "analyses",
+      "bytes": 1390,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "indice"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/martins-2004-carbono-matas-ciliares.md",
+      "group": "analyses",
+      "bytes": 4004,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-academica"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/silva-2017-dinamica-incendios-acre.md",
+      "group": "analyses",
+      "bytes": 6735,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/silva-et-al-2017-incendios-dominancia-bambu.md",
+      "group": "analyses",
+      "bytes": 6652,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/silva-pereira-martins-2018-bioeconomia-numeros.md",
+      "group": "analyses",
+      "bytes": 4056,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "periodico-institucional"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/souza-et-al-2024-solo-sistemas-integrados.md",
+      "group": "analyses",
+      "bytes": 5083,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.3390/f15071078",
+        "10.3390/f15071078)",
+        "10.3390/f15071078)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/fundamentos/fernandes-1976-revolucao-burguesa-brasil.md",
+      "group": "analyses",
+      "bytes": 5676,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "curado",
+      "declared_type": "resenha-academica"
+    },
+    {
+      "path": "docs/analyses/fundamentos/freire-1968-manuscritos-pedagogia-oprimido.md",
+      "group": "analyses",
+      "bytes": 4059,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "curado",
+      "declared_type": "resenha-academica"
+    },
+    {
+      "path": "docs/analyses/fundamentos/fuller-1969-manual-nave-espacial-terra.md",
+      "group": "analyses",
+      "bytes": 6583,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "resenha-academica"
+    },
+    {
+      "path": "docs/analyses/fundamentos/holmgren-2002-principios-caminhos-permacultura.md",
+      "group": "analyses",
+      "bytes": 7190,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "resenha-academica"
+    },
+    {
+      "path": "docs/analyses/fundamentos/index.md",
+      "group": "analyses",
+      "bytes": 4787,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "curado",
+      "declared_type": "visao-autoral"
+    },
+    {
+      "path": "docs/analyses/fundamentos/mollison-1981-curso-design-permacultura.md",
+      "group": "analyses",
+      "bytes": 7309,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "material-didatico-institucional"
+    },
+    {
+      "path": "docs/analyses/fundamentos/montaigne-1580-ensaios.md",
+      "group": "analyses",
+      "bytes": 4169,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "curado",
+      "declared_type": "resenha-academica"
+    },
+    {
+      "path": "docs/analyses/fundamentos/morin-2005-ciencia-com-consciencia.md",
+      "group": "analyses",
+      "bytes": 3866,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [],
+      "declared_status": "curado",
+      "declared_type": "resenha-academica"
+    },
+    {
+      "path": "docs/analyses/fundamentos/ribeiro-1995-povo-brasileiro.md",
+      "group": "analyses",
+      "bytes": 4915,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "curado",
+      "declared_type": "resenha-academica"
+    },
+    {
+      "path": "docs/analyses/fundamentos/ribeiro-2014-teoria-do-brasil.md",
+      "group": "analyses",
+      "bytes": 4168,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "curado",
+      "declared_type": "resenha-academica"
+    },
+    {
+      "path": "docs/analyses/fundamentos/santos-2001-outra-globalizacao.md",
+      "group": "analyses",
+      "bytes": 3882,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [],
+      "declared_status": "curado",
+      "declared_type": "resenha-academica"
+    },
+    {
+      "path": "docs/analyses/fundamentos/santos-2021-cupula-geodesica-analise-numerica.md",
+      "group": "analyses",
+      "bytes": 2655,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/grandes-obras-amazonia/index.md",
+      "group": "analyses",
+      "bytes": 346,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "indice"
+    },
+    {
+      "path": "docs/analyses/index.md",
+      "group": "analyses",
+      "bytes": 1937,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "indice"
+    },
+    {
+      "path": "docs/analyses/percecao-social/index.md",
+      "group": "analyses",
+      "bytes": 710,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "indice"
+    },
+    {
+      "path": "docs/analyses/percecao-social/joyce-santos-2009.md",
+      "group": "analyses",
+      "bytes": 9980,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-academica"
+    },
+    {
+      "path": "docs/analyses/percecao-social/oliveira-villa-2024-covid-his.md",
+      "group": "analyses",
+      "bytes": 9149,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.20396/parc.v15i00.8674782",
+        "10.20396/parc.v15i00.8674782)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/ferreira-2023-politica-his-ponta-grossa.md",
+      "group": "analyses",
+      "bytes": 3937,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-academica"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/index.md",
+      "group": "analyses",
+      "bytes": 567,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "indice"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/simoes-leder-2024-assentamento-seriado.md",
+      "group": "analyses",
+      "bytes": 10403,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.22296/2317-1529.rbeur.202424pt",
+        "10.22296/2317-1529.rbeur.202424pt)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/SCI_014_POLYMERS_ALKALI_TREATMENT.md",
+      "group": "analyses",
+      "bytes": 6989,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.3390/polym14142769",
+        "10.3390/polym14142769)",
+        "10.3390/polym14142769)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/carvalho-2023-paineis-casca-mamona-pu.md",
+      "group": "analyses",
+      "bytes": 3465,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/cazella-2022-paineis-pinus-pet-pu.md",
+      "group": "analyses",
+      "bytes": 3308,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/certificado-ul94-imperveg-2010.md",
+      "group": "analyses",
+      "bytes": 3173,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "laudo-ou-certificado-de-ensaio"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/dias-2024-absorcao-fibras-compostos.md",
+      "group": "analyses",
+      "bytes": 3496,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/ficha-pibit-lucas-aciole-painel-acustico.md",
+      "group": "analyses",
+      "bytes": 4653,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/ficha-tecnica-imperveg-ug132a.md",
+      "group": "analyses",
+      "bytes": 3334,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-tecnica-de-produto"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/ficha-tecnica-mamonex-rd70.md",
+      "group": "analyses",
+      "bytes": 3102,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-tecnica-de-produto"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/index.md",
+      "group": "analyses",
+      "bytes": 3415,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "indice"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/leithold-2015-biodegradacao-bioespumas.md",
+      "group": "analyses",
+      "bytes": 3769,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-academica"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/lopes-2020-composto-bagaco-cana.md",
+      "group": "analyses",
+      "bytes": 3272,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/lopes-2020-osb-residuos-bambu.md",
+      "group": "analyses",
+      "bytes": 3379,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/melo-2023-composto-reparo-madeira.md",
+      "group": "analyses",
+      "bytes": 3786,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/naccache-tratamentos-bambu-concreto.md",
+      "group": "analyses",
+      "bytes": 3236,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/oliveira-2019-paineis-eucalipto-couro-pu.md",
+      "group": "analyses",
+      "bytes": 3162,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/vianna-1997-pu-mamona-tracao.md",
+      "group": "analyses",
+      "bytes": 2673,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/wei-et-al-2022-tubos-bambu-espuma-pu.md",
+      "group": "analyses",
+      "bytes": 5981,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.3390/polym14102006",
+        "10.3390/polym14102006)",
+        "10.3390/polym14102006)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/index.md",
+      "group": "analyses",
+      "bytes": 2654,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "curado",
+      "declared_type": "indice"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-andre-blanco.md",
+      "group": "analyses",
+      "bytes": 2105,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "perfil"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-bliska.md",
+      "group": "analyses",
+      "bytes": 1844,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "perfil"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-daniela-maciel.md",
+      "group": "analyses",
+      "bytes": 2126,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "perfil"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-georgia-ferko.md",
+      "group": "analyses",
+      "bytes": 2458,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.18227/2237-8057rarr.v17i1.8470)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "perfil"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-leticia-medeiros-araujo.md",
+      "group": "analyses",
+      "bytes": 2351,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.14295/bjs.v4i4.719)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "perfil"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-ludmila-correia.md",
+      "group": "analyses",
+      "bytes": 2042,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "perfil"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-marcos-paron.md",
+      "group": "analyses",
+      "bytes": 1879,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "perfil"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-sonaira-silva.md",
+      "group": "analyses",
+      "bytes": 2730,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "perfil"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-sonia-marise-carvalho.md",
+      "group": "analyses",
+      "bytes": 2513,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "perfil"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-tania-cruz.md",
+      "group": "analyses",
+      "bytes": 2180,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "perfil"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-vicente-borges.md",
+      "group": "analyses",
+      "bytes": 1947,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "perfil"
+    },
+    {
+      "path": "docs/analyses/visao-do-autor/index.md",
+      "group": "analyses",
+      "bytes": 615,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "indice"
+    },
+    {
+      "path": "docs/index.md",
+      "group": "raiz-docs",
+      "bytes": 3226,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "documento-institucional"
+    },
+    {
+      "path": "docs/metodologia.md",
+      "group": "raiz-docs",
+      "bytes": 6524,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "material-didatico-institucional"
+    },
+    {
+      "path": "docs/sobre.md",
+      "group": "raiz-docs",
+      "bytes": 1588,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "documento-institucional"
+    }
+  ]
+}

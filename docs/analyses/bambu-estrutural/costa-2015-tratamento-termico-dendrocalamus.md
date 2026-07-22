@@ -1,8 +1,18 @@
-# Ficha Técnica — Costa (2015)
+---
+tipo_documental: ficha-academica
+estado_documental: em-revisao-documental
+fonte_primaria: trabalho de conclusão de curso integral conferido, 37 páginas
+identificador: ausente-na-fonte
+proveniencia: capa e folha de identificação conferidas no original integral
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
+---
+
+# Tratamento térmico de *Dendrocalamus asper* para BLC — Costa (2015)
 
 **Referência completa:** COSTA, Amanda Monteiro. **Tratamento térmico de *Dendrocalamus asper* para confecção de Bambu Laminado Colado (BLC)**. 2015. 37 f. Trabalho de conclusão de curso (Graduação em Engenharia Florestal) — Universidade de Brasília, Brasília, 2015.
 
-**Arquivo:** `/Users/fabiotakwara/Documents/IFB Relatorio Final/Bibliografia Consultada/Amanda MonteiroCosta Tratamento térmico Dendrocalamus Asper (2015_UnB).pdf`
+O original integral foi preservado na área privada do Acervo. A fonte não apresenta DOI, ISBN ou Handle, mas contém autoria, instituição, natureza acadêmica e ano verificáveis.
 
 ---
 
@@ -139,21 +149,23 @@ O tratamento D (180 °C/4h) **piorou** as propriedades mecânicas.
 
 | Tratamento | MOR (MPa) | Desvio Padrão | Grupo estatístico |
 |---|---|---|---|
-| A (150 °C/2h) | **80,72** | 24,8 | **a** \* |
-| B (150 °C/4h) | 59,80 | 10,1 | b |
-| C (180 °C/2h) | 42,32 | 11,2 | b |
-| D (180 °C/4h) | 45,27 | 9,5 | b |
+| A (150 °C/2h) | **80,72** | 24,8 | a |
+| B (150 °C/4h) | 59,80 | 10,1 | **b** \* |
+| C (180 °C/2h) | 42,32 | 11,2 | **b** \* |
+| D (180 °C/4h) | 45,27 | 9,5 | **b** \* |
 | T (Testemunha) | 77,33 | 8,2 | b |
 
-\* O tratamento A melhorou o MOR; os demais (B, C, D) não diferiram da testemunha ou pioraram.
+\* A tabela da fonte marca B, C e D como diferentes da testemunha pelo teste de Dunnett, embora o texto imediatamente anterior diga que esses tratamentos não diferiram da testemunha. A ficha preserva essa inconsistência interna. O tratamento A apresentou o maior valor médio e grupo Tukey distinto, mas não recebeu a marca de Dunnett na tabela.
 
 ### 4.5. MOEd (Módulo de Elasticidade Dinâmico)
 
 - **Taliscas:** comportamento similar ao MOE estático; tratamento D piorou as propriedades.
 - **BLC:** não houve diferenças estatísticas significativas entre os tratamentos.
-- **Confiabilidade da estimativa:**
-  - Taliscas: R² = 0,558 (55,8%)
-  - BLC: R² = 0,058 (5,7%) — muito baixa
+- **Coeficiente informado nos gráficos como R:**
+  - Taliscas: R = 0,558
+  - BLC: R = 0,0578 — associação muito baixa
+
+A fonte interpreta esses valores como percentuais de “confiabilidade”. A ficha não os converte em R² porque os gráficos os rotulam apenas como R.
 
 ### 4.6. Efeito Temperatura × Tempo
 
@@ -174,7 +186,7 @@ O tratamento D (180 °C/4h) **piorou** as propriedades mecânicas.
 
 1. A **temperatura** foi a variável que mais afetou o tratamento térmico, tanto em taliscas quanto no BLC.
 2. Para as **taliscas**, o tratamento térmico **não se mostrou eficiente** para aumento da resistência à flexão estática.
-3. O tratamento térmico **melhorou as propriedades mecânicas dos BLCs**, sendo que o **melhor tratamento foi o A (150 °C durante 2 horas)**, que apresentou o maior MOE e MOR entre todos os tratamentos, superando a testemunha.
+3. A autora conclui que o tratamento térmico melhorou as propriedades mecânicas dos BLCs e identifica A (150 °C durante 2 horas) como o melhor tratamento. A leitura deve considerar a inconsistência estatística registrada na seção 4.4 e as rupturas observadas na linha de cola.
 4. **Sugestões:**
    - Maior controle da pressão na confecção dos BLCs para minimizar rompimentos na linha de cola.
    - Realização de testes de durabilidade (apodrecimento acelerado) para avaliar resistência a agentes degradadores.
@@ -197,4 +209,4 @@ Tratamento térmico; *Dendrocalamus asper*; taliscas; Bambu Laminado Colado (BLC
 
 ---
 
-*Ficha elaborada em 21/06/2026.*
+> **Revisão documental:** 14 de julho de 2026. Resultados, tabelas e conclusões confrontados com o original integral. A ausência de identificador persistente não impede a identificação deste trabalho acadêmico.

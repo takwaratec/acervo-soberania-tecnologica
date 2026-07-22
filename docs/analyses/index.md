@@ -1,45 +1,35 @@
+---
+tipo_documental: indice
+estado_documental: em-revisao-documental
+data_revisao: 2026-07-22
+responsavel_curadoria: Fabio Takwara
+---
+
 # Análises
 
-Cada tema possui sua própria página com a **resenha** (visão geral), as **fichas técnicas** individuais e o **estado da arte** completo.
+Esta seção reúne os documentos públicos do Acervo por eixo temático. A presença de um arquivo indica disponibilidade para consulta; o seu estado documental informa se a revisão já foi concluída.
 
----
+## Eixos
 
-## 📖 Artigo de Abertura
+- [Fundamentos do Acervo](fundamentos/index.md)
+- [Bambu estrutural e tratamentos](bambu-estrutural/index.md)
+- [Poliuretano vegetal](pu-vegetal/index.md)
+- [Percepção social em habitação](percecao-social/index.md)
+- [Avaliação pós-ocupação](avaliacao-pos-ocupacao/index.md)
+- [Política habitacional](politica-habitacional/index.md)
+- [Bioeconomia amazônica](bioeconomia-amazonica/index.md)
+- [Grandes obras e reassentamentos](grandes-obras-amazonia/index.md)
+- [Perfis acadêmicos e técnicos](respaldo-academico/index.md)
+- [Visão autoral](visao-do-autor/index.md)
 
-[**O Potencial do Bambu na Bioeconomia Brasileira**](artigo-bambu-potencial-bioeconomia.md) — artigo dissertativo que compila os achados centrais de 80+ fichas do repositório. Um panorama integrado sobre preservação, pirólise, biocompósitos, fitorremediação, créditos de carbono e bioeconomia comunitária do bambu.
+## Como interpretar o conteúdo
 
----
+- **Ficha científica ou acadêmica:** leitura estruturada de uma fonte integral cuja identidade documental foi conferida; DOI, ISBN e ISSN são registrados quando existirem, mas não são exigidos de toda natureza documental.
+- **Estado da arte:** síntese que relaciona várias referências.
+- **Perfil:** registro curatorial de trajetória e campo de atuação; não é ficha científica nem transfere autoridade para projetos do Acervo.
+- **Visão autoral:** formulação de Fabio Takwara, claramente separada do consenso científico.
+- **Em revisão:** documento ainda não homologado e que não deve ser citado como prova conclusiva.
 
-## 🌱 ECOSALA
+Consulte a [metodologia](../metodologia.md) e a governança documental na raiz do repositório antes de reutilizar o conteúdo.
 
-| Ficha | Conteúdo | TRL |
-|---|---|---|
-| [Fichas dos 11 Membros](ecosala/index.md) | Perfis, formação, produção científica | — |
-| [PU Vegetal Imperveg](ecosala/ficha-pu-vegetal-imperveg.md) | Poliuretano vegetal de mamona — 13 artigos/teses | 4-5 |
-| [Pirolenhoso Biofertilizante](ecosala/ficha-pirolenhoso-biofertilizante.md) | Ácido pirolenhoso como fungicida/bactericida | 5-6 |
-| [Biochar e Bioenergia](ecosala/ficha-biochar-bioenergia.md) | Biochar, briquetes, pellets, créditos de carbono | 7-8 |
-| [Biofiltro Águas Cinzas](ecosala/ficha-biofiltro-aguas-cinzas.md) | Wetlands construídos, vermifiltração | 4-5 |
-| [Fossa Séptica Ecológica](ecosala/ficha-fossa-septica-ecologica.md) | Fossa biodigestora Embrapa, fossa verde | 6-7 |
-| [Catamarã Biocompósito](ecosala/ficha-catamara-biocomposito.md) | Casco bambu+PU — estudo naval | 3-4 |
-| [Embarcações Solares](ecosala/ficha-embarcacoes-solares.md) | Barcos solares na América do Sul | 7-8 |
-| [Reavaliação TRL](ecosala/reavaliacao-trl-evidencias.md) | Análise comparativa TRL com evidências | — |
-| [Compósitos Alternativos](ecosala/compositos-alternativos-embarcacao.md) | Técnicas construtivas para embarcação | — |
-
-> ➡️ [**Vaga Lúmen (FINEP)**](https://github.com/takwaratec/fundo-vaga-lumen-2026) — Proposta completa no repositório irmão.
-> ➡️ [**MST Mário Lago**](https://takwaratec.github.io/plataforma-juventude-solidária-2026/) — Site do Viveiro-Educador Terra Viva.
-
----
-
-## 📚 Eixos Originais
-
-| Tema | Fichas | Período |
-|---|---|---|
-| [Percepção Social em HIS](percecao-social/index.md) | 5 | 2009-2024 |
-| [Avaliação Pós-Ocupação (APO)](avaliação-pos-ocupacao/index.md) | 3 | 2014-2024 |
-| [Política Habitacional](política-habitacional/index.md) | 3 | 2023-2024 |
-| [Grandes Obras e Reassentamento na Amazônia](grandes-obras-amazonia/index.md) | 3 | 2014-2022 |
-| [Bioeconomia Amazônica](bioeconomia-amazonica/index.md) | 21 | 2025-2026 |
-| [Tecnologia Takwara](tecnologia-takwara/index.md) | 59 | 1998-2025 |
-| [Catálogo IFB — 84 refs](tecnologia-takwara/catálogo-ifb-bambu.md) | Catálogo integrado à Tecnologia Takwara | 2002-2022 |
-
-> **Total: ~80 fichas técnicas — 9 eixos temáticos + artigo de abertura.**
+Os Cadernos de Revisão Ecológica e a gaveta Tecnologia Takwara permanecem fora desta publicação enquanto passam, respectivamente, por registro com DOI e revisão documental específica.

@@ -1,4 +1,13 @@
-# Ficha Técnica: Avaliação dos impactos da COVID-19 na qualidade da habitação social brasileira
+---
+tipo_documental: ficha-cientifica
+estado_documental: em-revisao-documental
+fonte_primaria: artigo integral conferido, 26 páginas
+identificador: https://doi.org/10.20396/parc.v15i00.8674782
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
+---
+
+# Impactos da COVID-19 na qualidade da habitação social brasileira
 
 > **Resumo:** APO quali-quantitativa em 2 conjuntos HIS em Uberlândia/MG. A pandemia de COVID-19 funcionou como *stress test* para a habitação social. Ambientes pequenos e insuficientes geram insatisfação; adaptações informais realizadas pelos moradores durante o isolamento levaram a problemas de umidade, má ventilação e insolação inadequada — fatores que aumentam a predisposição à contaminação. O estudo reforça a necessidade de ambientes construídos resilientes.
 
@@ -154,7 +163,7 @@ A maioria dos estudos de APO em HIS brasileira foi realizada em condições "nor
 
 ---
 
-## 9. Referências Citadas Relevantes
+### Referências citadas relevantes
 
 | Tema | Referências |
 |:-----|:------------|

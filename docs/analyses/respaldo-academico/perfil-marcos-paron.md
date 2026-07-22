@@ -1,39 +1,32 @@
-# Ficha científica — Prof. Dr. Marcos Eduardo Paron
+---
+tipo_documental: perfil
+categoria_perfil: academico-institucional
+estado_documental: em-revisao-documental
+identificador: http://lattes.cnpq.br/0794381559000287
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
+---
 
-## identificação
-| Campo | Dado |
-|---|---|
-| **Nome** | Marcos Eduardo Paron |
-| **formação** | Agronomia (UFLA), Mestrado em Solos (UFLA, 1995), Doutorado em Microbiologia do Solo (UNESP, 2002), Pos-Doutorado em Plantas Medicinais e Cervejaria |
-| **Instituicao** | IFSP — Instituto Federal de Sao Paulo, Campus Sertaozinho/Ribeirao Preto (18 anos) |
-| **Link Lattes** | http://lattes.cnpq.br/0794381559000287 |
-| **Funcao no grupo** | Idealizador do conceito EcoSala Movel. coordenação técnica, microbiologia de biofiltros, ecoformacao. |
+# Marcos Eduardo Paron
 
-## Artigos Publicados
-| Titulo | Periodico | Ano | DOI / Link |
-|---|---|---|---|
-| Biogas production potential in anaerobic digestion of swine manure in the municipality of Sertaozinho, SP | Revista de Estudos Ambientais | 2017 | 10.7867/1983-1501.2017v19n1p6-17 |
-| The Arnica Extract: a study proves analgesic and anti-inflammatory properties of Brazilian species | Revista Pesquisa FAPESP | 2001 | https://revistapesquisa.fapesp.br/en/the-arnica-extract/ |
-| Genetic erosion risk factors and the strategic points for conservation of Lychnophora ericoides | ResearchGate / Amigos da Natureza | — | https://www.researchgate.net/figure/FIGURA-4-produção-de-biomassa-e-razao-raiz-parte-aerea-de-plantas-de-L-ericoides_fig4_228208019 |
+## Identificação
 
-## Teses e Dissertacoes
-| Titulo | Tipo | Ano | Instituicao |
-|---|---|---|---|
-| Diversidade de fungos micorrizicos arbusculares em Lychnophora ericoides Mart. (Arnica-da-serra), efeitos da inoculacao e estudos de propagacao | Tese (Doutorado) | 2002 | UNESP |
-| Fosforo, nitrogenio e fungo micorrizico em especies arboreas em solo da area de influencia da usina hidreletrica Itutinga/Camargos, MG | Dissertacao (Mestrado) | 1995 | UFLA |
+Marcos Eduardo Paron é professor titular do Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, atualmente lotado no Campus Sertãozinho.
 
-## Projetos de Extensao
-| Titulo | Periodo | órgão |
-|---|---|---|
-| coordenação do Nucleo de Agroecologia (MDA) | 2010-2014 | IFSP/CNPq |
-| CVT — Centro Vocacional tecnológico (CNPq/MDA) | — | IFSP |
-| construção de ecossalas em Sao Roque e Sertaozinho | 2015-2023 | IFSP |
-| Projeto FAPESP — Lychnophora ericoides (Arnica-da-serra) | — | FAPESP (https://bv.fapesp.br/pt/pesquisador/36499/marcos-eduardo-paron/) |
-| Implantacao do curso técnico de Cervejaria | 2020 | IFSP Sertaozinho |
+## Formação e atuação
 
-## Referencias
-PARON, M. E. Diversidade de fungos micorrizicos arbusculares em Lychnophora ericoides Mart. (Arnica-da-serra). 2002. Tese (Doutorado) — UNESP, Jaboticabal.
+É engenheiro agrônomo pela Universidade Federal de Lavras, mestre em Ciência do Solo pela UFLA, doutor em Microbiologia pela Unesp e realizou pós-doutorado em Horticultura, com ênfase na conservação de recursos genéticos de plantas medicinais. Atua em agroecologia, microbiologia, fermentações, horticultura orgânica e processos de formação técnica.
 
-PARON, M. E. Fosforo, nitrogenio e fungo micorrizico em especies arboreas. 1995. Dissertacao (Mestrado) — UFLA, Lavras.
+## Contribuições verificáveis
 
-PARON, M. E. et al. Biogas production potential in anaerobic digestion of swine manure in the municipality of Sertaozinho, SP. Revista de Estudos Ambientais, v. 19, n. 1, p. 6-17, 2017. DOI: 10.7867/1983-1501.2017v19n1p6-17.
+A Biblioteca Virtual da FAPESP registra sua trajetória em pesquisa com *Lychnophora ericoides*, fungos micorrízicos e cultivo de plantas medicinais. O Portal Integra IFSP o identifica como docente do Campus Sertãozinho e reúne registros de projetos e competências institucionais.
+
+## Contribuição ao diagnóstico e à execução
+
+Sua experiência aproxima processos biológicos, formação técnica e práticas agroecológicas. Em projetos territoriais, contribui para relacionar matéria-prima, manejo, transformação, aprendizagem e uso local. Soluções baseadas na natureza podem ser selecionadas a partir desse diagnóstico, sem reduzir o projeto a um componente físico isolado.
+
+## Fontes públicas
+
+- [Perfil — Portal Integra IFSP](https://integra.ifsp.edu.br/ecossistema/pessoas/marcos-eduardo-paron/agro-ambientais)
+- [Perfil de pesquisa — Biblioteca Virtual da FAPESP](https://bv.fapesp.br/pt/pesquisador/36499/marcos-eduardo-paron/)
+- [Currículo Lattes](http://lattes.cnpq.br/0794381559000287)

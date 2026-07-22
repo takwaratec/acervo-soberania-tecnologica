@@ -1,116 +1,50 @@
-# AGENTS.md — Análises e Escrita Científica
+# AGENTS.md — Acervo Soberania Tecnológica
 
 ## Identidade
 
-Repositório central de **fichas técnicas, estados da arte, resenhas científicas e materiais didáticos** que embasam todos os projetos do ecossistema Takwara.
+Repositório de curadoria documental idealizado por Fabio Takwara. Reúne fichas científicas, resenhas, estados da arte e textos autorais sobre materiais renováveis, construção, habitação, território e bioeconomia.
 
-**Site:** https://takwaratec.github.io/Analises-e-escrita-cientifica/
+## Regras obrigatórias
 
----
+- Nunca fabricar citações, autoria, DOI, ISBN, ISSN ou resultados.
+- Ficha científica ou acadêmica só ingressa com fonte integral e identidade documental verificável. DOI, ISBN e ISSN devem ser registrados quando existirem, mas sua ausência não impede o ingresso de tese, dissertação, trabalho de evento, relatório ou outro documento cuja autoria, título, instituição, data e proveniência possam ser confirmados no original.
+- Laudos, certificados de ensaio e fichas de produto podem ingressar sem DOI/ISBN como tipos técnicos próprios, desde que tenham emissor, produto/amostra e identificador técnico verificável; nunca entram na contagem de fichas científicas.
+- Toda ficha científica publicada deve possuir as oito seções do método adotado pelo Acervo.
+- Não completar lacunas por inferência. A ausência de identificador persistente deve ser declarada, nunca preenchida por aproximação. Alertar Fabio quando faltar fonte, autoria ou metadado essencial.
+- Documento interno não serve como evidência pública.
+- Não inflar TRL nem apresentar proposta laboratorial como tecnologia aplicada.
+- Visão autoral deve ser declarada e separada dos achados das fontes.
+- Textos integrais protegidos, dados pessoais, contratos, normas e materiais brutos ficam fora de `docs/`.
+- Não misturar documentos de projetos irmãos. O Acervo pode conter a referência científica, mas não atas, perfis de equipes, propostas ou operação de outras frentes.
 
-## Objetivo do Agente
+## Estrutura pública
 
-Ao ser acionado neste repositório, seu papel é:
-
-1. **Manter fichas técnicas atualizadas** — cada ficha baseada em material bruto original (PDF, tese, artigo)
-2. **Organizar por eixos temáticos** — ECOSALA, Tecnologia Takwara, Bioeconomia, HIS, APO, Política Habitacional, Grandes Obras
-3. **Referenciar projetos irmãos** — Vaga Lúmen (FINEP), MST Mário Lago (Juventude Solidária), Mulheres_Bioeconomia_Amazonia (Zenodo)
-4. **Aplicar a triagem dos 200+ Prompts** — metodologia padronizada de análise: extração → mapeamento → referencial → metodologia → achados → crítica → estado da arte
-5. **Garantir integridade científica** — DOIs verificados, ABNT, sem fabricação de citações
-
----
-
-## Estrutura do Repositório
-
-```
-📂 docs/
-├── index.md                    → Página inicial com cards de navegação
-├── sobre.md                    → Propósito do repositório
-├── metodologia.md              → Protocolo 200+ Prompts
-├── assets/                     → CSS customizado
-├── prompts/                    → Metodologia de escrita
+```text
+docs/
+├── index.md
+├── sobre.md
+├── metodologia.md
+├── assets/stylesheets/
 └── analyses/
-    ├── index.md                → Portal das análises
-    ├── artigo-bambu-potencial-bioeconomia.md
-    ├── ecosala/                → Fichas do grupo ECOSALA (11 membros + tecnologias)
-    ├── tecnologia-takwara/     → Bambu, PU vegetal, compósitos, patentes (65 fichas)
-    ├── bioeconomia-amazonica/  → Cadeias sociobiodiversidade, MQTF (23 fichas)
-    ├── percecao-social/        → HIS, satisfação habitacional (7 fichas)
-    ├── avaliacao-pos-ocupacao/ → APO, conforto ambiental (5 fichas)
-    ├── politica-habitacional/  → PMCMV, ATHIS, direito à moradia (5 fichas)
-    └── grandes-obras-amazonia/ → Reassentamentos, hidrelétricas (5 fichas)
+    ├── fundamentos/
+    ├── bambu-estrutural/
+    ├── pu-vegetal/
+    ├── tecnologia-takwara/
+    ├── percecao-social/
+    ├── avaliacao-pos-ocupacao/
+    ├── politica-habitacional/
+    ├── bioeconomia-amazonica/
+    ├── grandes-obras-amazonia/
+    └── visao-do-autor/
 ```
 
----
+## Estados
 
-## Repositórios Irmãos
+Usar a taxonomia definida em `GOVERNANCA_DOCUMENTAL.md`. Nenhum script pode homologar conteúdo automaticamente.
 
-| Repositório | Conteúdo | Público |
-|---|---|---|
-| `github.com/takwaratec/ECOSALA` | Coletivo de 11 membros — atas, projetos | Grupo de pesquisa |
-| `github.com/takwaratec/fundo-vaga-lumen-2026` | Proposta FINEP Mais Inovação | FINEP/avaliadores |
-| `github.com/takwaratec/plataforma-juventude-solidaria-2026` | Viveiro-Educador Terra Viva (MST) | MST Mário Lago |
-| `github.com/takwaratec/projetos` → `Mulheres_Bioeconomia_Amazonia` | Zenodo DOI: 10.5281/zenodo.18827106 | Acadêmico |
+## Publicação
 
----
-
-## Ferramentas Disponíveis
-
-| Ferramenta | Função | Status |
-|---|---|---|
-| **Pandoc** | DOCX/ODT → MD | ✅ |
-| **PyMuPDF** (fitz) | Extração de texto de PDFs | ✅ |
-| **python-docx** | Leitura/escrita DOCX | ✅ |
-| **ffmpeg** (conda) | Conversão de áudio (opus → wav) | ✅ |
-| **faster-whisper** | Transcrição de áudio | ✅ | via `conda run -n whisper_env` |
-| **pdfplumber** | PDF tabular | ⏳ Pendente (rede) |
-
-**Workaround áudio:** Gateway Telegram já transcreve automaticamente.
-
----
-
-## Convenções para o Agente
-
-### Fichas técnicas
-- Cada ficha deve ter **fonte verificada** (DOI, PDF original, link)
-- NUNCA fabricar citações — atribuir sempre com honestidade
-- Formato: tabela de dados → análise → referências ABNT
-- Incluir data de elaboração e fonte
-
-### ❌ Regras para fichas científicas
-- **NUNCA** criar fichas de artigos/teses/PDFs sem autor, DOI/ISBN/ISSN identificados
-- **NUNCA** publicar documentos incompletos — se faltam dados essenciais, alertar o usuário
-- **Sempre** extrair conteúdo do PDF original antes de criar qualquer ficha
-- **Toda ficha** deve seguir o método Cavichioli (2025): 8 seções obrigatórias (Dados Gerais, Estrutura, Problema, Referencial Teórico, Metodologia, Achados, Avaliação Crítica, Inserção no Estado da Arte)
-
-### Fluxo de trabalho
-1. `git pull` — sincronizar
-2. Fazer alterações
-3. `git add + git commit -m "tipo: descrição"` + `git push`
-4. `mkdocs gh-deploy --clean` (se alterou docs/)
-
-### Triagem (200+ Prompts)
-Ao analisar um novo artigo/PDF:
-1. Extrair texto bruto (PyMuPDF)
-2. Mapear estrutura do documento
-3. Analisar referencial teórico
-4. Avaliar metodologia
-5. Extrair achados principais
-6. Avaliação crítica
-7. Inserir no estado da arte
-
----
-
-## Acervo em Números
-
-| Indicador | Total |
-|---|---|
-| Fichas técnicas | ~80 |
-| Catálogo IFB | 84 referências |
-| Eixos temáticos | 7 (ECOSALA + 6 originais) |
-| MAMONEX RD70, UG 132A, RQI | 3 fichas Imperveg |
-| Período coberto | 1998–2025 |
-
----
-
-*AGENTS.md mantido pelo Hermes Agent · Tecnologia Takwara · 2026*
+1. executar inventário e auditoria;
+2. executar `mkdocs build --strict`;
+3. revisar o diff e conteúdo privado;
+4. somente após autorização de Fabio: commit, push e deploy.
