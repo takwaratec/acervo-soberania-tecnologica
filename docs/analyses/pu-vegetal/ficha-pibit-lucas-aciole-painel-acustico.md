@@ -1,80 +1,63 @@
 ---
-tipo: Ficha Cavichiolli (8 secoes) - Relatorio de Iniciacao Cientifica (PIBIT)
-titulo: Painel Acustico de Baixo Custo e Impacto Ambiental para Espacos Abertos
-autor: Lucas Aciole Vanderlei Pereira
-orientacao: Profa. Ludmila de Araujo Correia
-instituicao: Centro Universitario de Brasilia (UniCEUB)
-programa: PIBIT
+tipo_documental: ficha-cientifica
+titulo: Painel acústico de baixo custo e impacto ambiental para espaços abertos
+autores: Lucas Aciole Vanderlei Pereira
 ano: 2020
-status: Ficha Completa
-licenca: CC BY 4.0
+identificador: Relatório final de pesquisa, UniCEUB
+estado_documental: em-revisao-documental
+fonte_primaria: PDF integral conferido
+pacote_fonte_privado: 2020-pereira-painel-acustico
+data_revisao: 2026-07-22
+responsavel_curadoria: Fabio Takwara
 ---
 
-# Ficha Cavichiolli: Painel Acustico com MAMONEX - Lucas Aciole & Ludmila Correia (UniCEUB, 2020)
+# Materiais vegetais para painel acústico - Pereira (2020)
 
-> Relatorio final de PIBIT sobre painel acustico utilizando espuma expansiva de PU vegetal de mamona (MAMONEX RD70) para isolamento sonoro em espacos abertos.
+> **Síntese:** O relatório de iniciação científica mede a absorção sonora de amostras de fibras vegetais, espuma expansiva MAMONEX RD70 e combinações entre esses materiais. Nas condições ensaiadas, as melhores respostas vieram das amostras multifibras sem poliuretano; a espuma isolada e a maioria das composições revestidas com ela tiveram desempenho inferior.
 
-## 1. Identificacao e Contexto
+## 1. Dados gerais
 
 | Campo | Dado |
-|-------|------|
-| **Titulo completo** | Painel Acustico de Baixo Custo e Impacto Ambiental para Espacos Abertos |
+|---|---|
 | **Autor** | Lucas Aciole Vanderlei Pereira |
-| **Orientadora** | Profa. Ludmila de Araujo Correia (CAU-DF / UniCEUB) |
-| **Instituicao** | Centro Universitario de Brasilia (UniCEUB) |
-| **Programa** | PIBIT - Iniciacao em Inovacao Tecnologica |
-| **Ano** | 2020 |
-| **Paginas** | 83 |
-| **Produto testado** | MAMONEX RD70 - espuma expansiva de PU vegetal (Imperveg) |
+| **Orientadora** | Ludmila de Araújo Correia |
+| **Instituição** | Centro Universitário de Brasília (UniCEUB) |
+| **Programa** | Programa de Iniciação Científica |
+| **Ano / extensão** | 2020 / 83 páginas no PDF conferido |
+| **Identificador** | Relatório institucional; o PDF não declara DOI, ISBN ou ISSN |
 
-## 2. Classificacao Tematica
+## 2. Estrutura e organização
 
-**Eixos:** PU Vegetal (MAMONEX) | Acustica | Construcao Civil
+O relatório apresenta o problema do ruído em espaços abertos de Brasília, revisa fundamentos acústicos, econômicos, ecológicos e normativos, descreve a produção das amostras, documenta os ensaios em tubo de impedância e compara os resultados por frequência e pelo coeficiente NRC.
 
-## 3. Resumo
+## 3. Problema e perguntas de pesquisa
 
-O estudo desenvolveu e testou um painel acustico de baixo custo utilizando a espuma expansiva de poliuretano vegetal MAMONEX RD70 (Imperveg) como elemento de absorcao sonora. O painel foi projetado para espacos abertos - escolas, auditórios comunitarios - visando alternativa de baixo impacto ambiental aos paineis convencionais (la de vidro, la de rocha, espumas petroquimicas).
+A pesquisa procura um material absorvedor de menor custo e impacto ambiental para integrar barreiras acústicas móveis destinadas a fontes sonoras em espaços abertos. A pergunta experimental é como fibras de bambu, coco, bananeira, agave e cana-de-açúcar, isoladas ou combinadas com espuma de poliuretano vegetal, se comportam em absorção sonora.
 
-## 4. Analise Critica
+## 4. Referencial teórico
 
-**Pontos Fortes:** Primeiro estudo sistematico de isolamento acustico do MAMONEX RD70. Materia-prima 100% vegetal e renovavel. Baixo custo. Aplicacao direta em HIS.
+O referencial combina propagação sonora, barreiras e materiais absorvedores, fibras vegetais e normas de medição e avaliação acústica. Entre as normas discutidas estão ISO 10534-2 e normas brasileiras sobre ruído, desempenho e terminologia.
 
-**Fragilidades:** Sem DOI. Sem dados comparativos padronizados (NBR). Escala laboratorial.
+## 5. Metodologia
 
-## 5. Dados Extraidos
+As amostras foram organizadas em quatro grupos: espuma MAMONEX RD70; espuma associada a uma fibra; placas de fibras aglomeradas sem espuma; e placas multifibras. A pesquisa mediu densidade, gramatura e coeficiente de absorção sonora entre 200 e 2.500 Hz em tubo de impedância BSWA SW 466, com inversão de microfones e repetições. Os resultados foram sintetizados também pelo NRC.
 
-| Parametro | Resultado |
-|-----------|-----------|
-| **Material** | MAMONEX RD70 (Imperveg) |
-| **Tipo** | Espuma expansiva de PU vegetal (oleo de mamona) |
-| **Expansao** | ~10x o volume |
-| **Resistencia compressao** | 70-200 MPa |
-| **Aplicacao** | Painel acustico para espacos abertos |
+## 6. Principais achados
 
-## 6. Conexoes com o Acervo
+- As amostras somente de espuma apresentaram NRC entre 0,21 e 0,25.
+- As composições de espuma com uma fibra variaram de 0,19 a 0,52; o relatório associa o revestimento das fibras a perdas de absorção em parte das amostras.
+- As amostras de fibras sem espuma apresentaram NRC entre 0,35 e 0,56.
+- As quatro amostras multifibras alcançaram NRC entre 0,53 e 0,67; o maior valor foi obtido pela combinação coco/cana-de-açúcar.
+- O trabalho recomenda investigar outras espessuras, aglomerantes e formas de aplicar a espuma sem obstruir a face absorvedora.
 
--  - MAMONEX e produto Imperveg
--  - Ficha tecnica do MAMONEX RD70
--  - Naccache & Ghavami - PU vegetal em matriz cimenticia
-- Perfil Ludmila Correia (ECOSALA) - Orientadora do PIBIT
+## 7. Avaliação crítica
 
-## 7. Aplicacoes Praticas
+O estudo tem mérito por documentar formulações, fabricação e medição laboratorial com resultados comparáveis dentro da campanha. Entretanto, ele caracteriza amostras, não uma barreira completa instalada. Não foram demonstrados isolamento global, desempenho ao tempo, resistência mecânica, fogo, durabilidade, custo de ciclo de vida ou conformidade de um produto acabado. Afirmações ambientais sobre os materiais também exigem avaliação própria.
 
-Paineis acusticos para escolas, auditórios e centros comunitarios em HIS. Isolamento termoacustico para sistema Techsus (opcao para Michel). Prototipo viavel no escopo FINEP Fabrica Modelo.
+## 8. Inserção no estado da arte
 
-## 8. Referencias
+O relatório é uma fonte experimental relevante para distinguir o potencial acústico das fibras do comportamento da espuma expansiva. Para a linha de pesquisa de materiais renováveis, ele orienta novas hipóteses de composição em camadas e reforça a necessidade de validar separadamente absorção, impermeabilização, durabilidade e segurança. Os resultados não sustentam apresentar a MAMONEX RD70, isoladamente, como absorvedor acústico eficiente.
 
-| Tipo | Localizacao |
-|------|-------------|
-| **PDF original** |  |
-| **Texto integral** | `_acervo_completo/transcricoes/anais_memoria/19___Relatorio__PIBIT_Barreira_Acustica_de_Baixo_Custo___CEUB_2021.txt` |
-| **Orientadora** | Ludmila de Araujo Correia - CAU-DF / UniCEUB |
-| **Produto** | MAMONEX RD70 - Imperveg (Aguai-SP) |
+**Referência:** PEREIRA, Lucas Aciole Vanderlei. *Painel acústico de baixo custo e impacto ambiental para espaços abertos*. 2020. 83 f. Relatório final de pesquisa de iniciação científica - Centro Universitário de Brasília, Brasília, 2020. Orientadora: Ludmila de Araújo Correia.
 
----
-
-> *Ficha Cavichiolli. Relatorio de IC sem DOI - incluido como estado-da-arte livre por relevancia cientifica para o Acervo.*
-
----
-
-**Link atualizado na VISTA_GERAL da Fabrica Modelo:** `docs/VISTA_GERAL.md` secao "Estudos Correlatos"
+> Fonte integral e extração por página preservadas em área privada para conferência documental.

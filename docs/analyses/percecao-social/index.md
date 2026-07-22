@@ -1,15 +1,16 @@
-# Percepção Social em HIS
+# Percepção social em habitação
 
-> **Resenha:** Estudos sobre a satisfação, impacto social e percepção de moradores beneficiários de programas habitacionais no Brasil, do Habitar Brasil-BID ao PMCMV. 5 fichas técnicas — 2009 a 2024.
+Este eixo reúne estudos sobre experiência dos moradores, reassentamento, qualidade de vida e adequação da moradia.
 
-## Fichas
+## Fichas em revisão documental
 
-- [Joyce Santos (2009) — CH Vargem Grande](joyce-santos-2009.md)
-- [Menezes & Mourão (2017) — PMCMV Qualidade de Vida](menezes-mourao-2017-pmcmv-qv.md)
-- [Procópio & Campos (2022) — IHAS](procopio-campos-2022-ihas.md)
-- [Nascimento & Brasil (2023) — PMCMV BH](nascimento-brasil-2023-pmcmv-bh.md)
-- [Oliveira & Villa (2024) — COVID-19 HIS](oliveira-villa-2024-covid-his.md)
+- [Santos (2009) — percepção social no Conjunto Habitacional Vargem Grande](joyce-santos-2009.md)
+- [Oliveira e Villa (2024) — impactos da COVID-19 na habitação social](oliveira-villa-2024-covid-his.md)
 
-## Estado da Arte
-
-→ [Acessar](estado-da-arte.md)
+A dissertação de Santos não possui identificador persistente no original. Seu ingresso foi baseado na fonte integral, na ficha catalográfica e na folha de aprovação.
+---
+tipo_documental: indice
+estado_documental: em-revisao-documental
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
+---

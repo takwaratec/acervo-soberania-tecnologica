@@ -1,47 +1,32 @@
-# Perfil: André Blanco
-
-## 1. Identificação
-
-| Campo | Dado |
-|-------|------|
-| **Nome** | André Blanco |
-| **Formação** | Arquitetura e Urbanismo (PUC Campinas), Especialização em Arquitetura Bioclimática (UPC Barcelona), Mestrado em Geociências (UNICAMP) |
-| **Instituição** | Labiapa (Gestão Comunitária de APA Joaquim Egídio), TEIA — Tecnologia, Educação, Inovação e Ambiente, CAU/SP |
-| **Função** | Bio-arquiteto. Diretor da TEIA. Conselheiro do CAU/SP. Frente: Fábrica Modelo (industrialização construção civil). |
-
-## 2. Atuação
-
-- Bioarquitetura e bioconstrução
-- Geodésicas de bambu — protótipo FAUUSP
-- Habitação social e comunitária (CDHU, Minha Casa Minha Vida)
-- Tintas minerais e revestimentos naturais
-- Captação de água atmosférica (coletores de neblina)
-- Gestão comunitária de APAs
-- Restauro de patrimônio histórico com técnicas naturais
-
-## 3. Projetos
-
-| # | Projeto | Ano | Instituição |
-|---|---------|-----|-------------|
-| 1 | Coletor de Umidade "A Gota D'Água" | 2026 | Escola de Engenharia Central, Piracicaba |
-| 2 | Oca do Curumim — estrutura de bambu para educação infantil | 2026 | Sesc / TEIA |
-| 3 | Geodésicas de bambu — protótipo | — | FAUUSP |
-| 4 | Casação Labiapa — restauro e bioconstrução | 2020-2025 | APA Joaquim Egídio, Campinas |
-| 5 | Projeto ACTA (PUC/Piracicaba) | — | PUC Campinas |
-| 6 | Projetos comunitários de habitação (CDHU, MCMV) | — | CAU / Labiapa |
-| 7 | Projeto "Ecoando" — ônibus itinerante | — | Labiapa |
-
-## 4. Parceria com a Fábrica Modelo
-
-André Blanco é o parceiro técnico principal da Fábrica Modelo, responsável pela articulação com construtoras, movimentos de moradia e a indústria da construção civil. Sua atuação inclui:
-
-- Articulação com o sistema Techsus (Faleiros) para industrialização
-- Contato com movimentos de moradia (CDHU, MCMV)
-- Captação de recursos e apresentação do projeto a investidores
-- Viabilidade técnica de sistemas construtivos alternativos
-
+---
+tipo_documental: perfil
+categoria_perfil: tecnico-profissional
+estado_documental: em-revisao-documental
+identificador: ausente-na-fonte
+proveniencia: atuação profissional verificada em fontes públicas institucionais
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
 ---
 
----
+# André Blanco
 
-> Perfil consolidado a partir de transcrições de áudio, documentos do repositório fabrica-modelo e pesquisa Gemini 07/2026. Dados de formação confirmados pelo próprio pesquisador. Pendentes: Lattes, e-mail, ORCID.
+## Identificação
+
+André Blanco é arquiteto e urbanista com atuação em organização profissional, habitação e relações entre projeto, canteiro e comunidade. Sua trajetória pública inclui atuação como conselheiro do CAU/SP e como diretor do Sindicato dos Arquitetos no Estado de São Paulo.
+
+## Atuação verificável
+
+Registros públicos o situam em iniciativas de assistência técnica, organização de arquitetos e diálogo com cooperativas e movimentos de moradia. Em 2023, participou, como diretor do SASP, de encontro na Cooperativa Braço Forte dedicado à formação, autonomia de trabalhadores e relações entre arquitetura e canteiro de obras.
+
+## Natureza do perfil
+
+Este é um perfil técnico-profissional, fundamentado na trajetória de André Blanco como arquiteto e em sua atuação pública no campo da organização profissional e da habitação.
+
+## Contribuição ao diagnóstico e à execução
+
+Sua experiência profissional aproxima tecnologia construtiva, organização do trabalho e capacidade comunitária. Em projetos sociais, contribui para que diagnóstico, projeto, fabricação, formação e manutenção sejam pensados conjuntamente, permitindo que trabalhadores e moradores participem da produção do ambiente construído. Materiais e sistemas são definidos conforme as necessidades, as condições do território e a viabilidade de cada iniciativa.
+
+## Fontes públicas
+
+- [SASP — visita à Cooperativa Braço Forte](https://sasp.arq.br/arquiteto-sergio-ferro-e-entidades-visitam-cooperativa-braco-forte/)
+- [Dissertação no Repositório da PUC-Campinas — registro de atuação no CAU/SP](https://repositorio.sis.puc-campinas.edu.br/xmlui/bitstream/handle/123456789/16908/eaad_ppgau_disserta%C3%A7%C3%A3o_Bastos_IO.pdf?isAllowed=y&sequence=1)

@@ -5,31 +5,33 @@ __pycache__/
 
 # Build
 site/
-*.pyc
 
-# OS
+# OS e editores
 .DS_Store
 Thumbs.db
-
-# IDE
 .vscode/
 .idea/
 
-# Environment
+# Ambiente
 .env
 .env.local
 
-# Copyrighted material — do not commit (ebooks da Dra. Nathalia Cavichiolli)
-[LIVRO]*.pdf
-*+200+Prompts*.pdf
-*2009Joyce*.pdf
+# Fontes integrais e documentos brutos
 *.pdf
-
-# Raw documents, transcriptions, quarantine — do not commit
+*.doc
+*.docx
+*.odt
 _pdfs_para_catalogar/
 _acervo_completo/
+
+# Conteúdo interno, privado ou em revisão
+_privado/
 _quarentena/
 _quarentena_old/
 _visao_autoral/
+.agent-instructions/
+planos/
+
+# Ferramentas legadas locais
 buscas_fontes.py
 clean_unlisted.py

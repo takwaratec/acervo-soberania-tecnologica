@@ -1,4 +1,13 @@
-# Ficha Técnica: Do assentamento irregular para a habitação seriada no Brasil
+---
+tipo_documental: ficha-cientifica
+estado_documental: em-revisao-documental
+fonte_primaria: artigo integral bilíngue conferido, 35 páginas
+identificador: https://doi.org/10.22296/2317-1529.rbeur.202424pt
+data_revisao: 2026-07-14
+responsavel_curadoria: Fabio Takwara
+---
+
+# Do assentamento irregular para a habitação seriada no Brasil
 
 > **Resumo:** Pesquisa de campo em 156 unidades habitacionais no Brasil analisa a adaptação de população vulnerável à habitação seriada (formal). Os resultados revelam dificuldades múltiplas — tamanho reduzido da unidade e do lote, impossibilidade de ampliação, baixa qualidade dos materiais, ausência de área para geração de renda, rompimento de laços sociais com a vizinhança original, falta de privacidade e fragmentação espacial com ocupação de recuos, afastamentos e áreas públicas. O processo é marcado por conflitos de vizinhança; 19% das unidades estavam ocupadas por não-beneficiários originais (venda ou aluguel), revelando a inadaptação ao modelo formal.
 
@@ -152,7 +161,7 @@ Poucos estudos brasileiros combinam (a) amostra ampla (156 unidades), (b) métod
 
 ---
 
-## 9. Referências Citadas Relevantes
+### Referências citadas relevantes
 
 | Tema | Referências |
 |:-----|:------------|
