@@ -13,3 +13,5 @@ estado_documental: revisado-com-fonte-integral
 data_revisao: 2026-07-23
 responsavel_curadoria: Fabio Takwara
 ---
+
+- [Conexões Estruturais e Biocompósitos em Bambu (v1.0)](manual-conexoes-estruturais-bambu.md) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21516647.svg)](https://doi.org/10.5281/zenodo.21516647) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21516480.svg)](https://doi.org/10.5281/zenodo.21516480) [![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](manual-conexoes-estruturais-bambu-en.md)
