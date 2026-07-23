@@ -26,7 +26,7 @@ responsavel_curadoria: Fabio Takwara
 *Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 2 — versão depositada 1.2, 23 jul. 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21514977.svg)](https://doi.org/10.5281/zenodo.21514977)
-[![English Version](https://img.shields.io/badge/Language-English_v1.2-blue.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/blob/main/publicacoes-zenodo/caderno-02-zenodo-en.md)
+[![English Version](https://img.shields.io/badge/Language-English_v1.2-blue.svg)](caderno-02-colmo-condicionado-componente-protegido-en.md)
 [![English PDF](https://img.shields.io/badge/PDF-English-red.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/raw/main/publicacoes-zenodo/caderno-02-zenodo-en.pdf)
 
 *Versão anterior publicada: [1.1 — DOI 10.5281/zenodo.21500145](https://doi.org/10.5281/zenodo.21500145)*

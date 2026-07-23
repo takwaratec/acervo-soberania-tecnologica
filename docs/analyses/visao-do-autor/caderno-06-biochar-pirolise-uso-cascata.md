@@ -24,7 +24,7 @@ responsavel_curadoria: Fabio Takwara
 *Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 6 — versão 1.0, 23 jul. 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515443.svg)](https://doi.org/10.5281/zenodo.21515443)
-[![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/blob/main/publicacoes-zenodo/caderno-06-zenodo-en.md)
+[![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](caderno-06-biochar-pirolise-uso-cascata-en.md)
 [![English PDF](https://img.shields.io/badge/PDF-English-red.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/raw/main/publicacoes-zenodo/caderno-06-zenodo-en.pdf)
 
 
