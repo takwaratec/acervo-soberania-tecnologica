@@ -6,6 +6,7 @@ titulo: O Bambu Brasileiro na Mira do Neocolonialismo: Dependência Tecnológica
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2025
+data_publicacao_original: 2025-10-15
 versao: 1.0
 estado_documental: edicao-revisada-para-acervo
 acesso: publico
@@ -26,7 +27,7 @@ identificador: https://doi.org/10.5281/zenodo.21516992
 
 **Fabio Takwara**  
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Ensaio Crítico-Autoral — Versão 1.0, 23 jul. 2026*  
+*Ensaio Crítico-Autoral — Versão 1.0 (Publicado originalmente em 15/10/2025, revisado em 23/07/2026)*  
 
 > **Nota de Contextualização e Soberania Tecnológica:** Este ensaio analisa criticamente a assimetria comercial de exportação de biomassa in natura e propõe o fortalecimento da soberania tecnológica brasileira através de Unidades de Beneficiamento Primário (UBPs) descentralizadas e autogestionárias. O modelo econômico de independência comunitária alinha-se ao Anexo 1 (DOI: [10.5281/zenodo.21515657](https://doi.org/10.5281/zenodo.21515657)).
 

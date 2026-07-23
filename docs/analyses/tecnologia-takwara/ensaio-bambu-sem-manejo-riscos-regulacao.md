@@ -6,6 +6,7 @@ titulo: Bambu Sem Manejo e Riscos de Toxicidade: Alerta Regulatório e Integrida
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2025
+data_publicacao_original: 2025-10-16
 versao: 1.0
 estado_documental: edicao-revisada-para-acervo
 acesso: publico
@@ -26,7 +27,7 @@ identificador: https://doi.org/10.5281/zenodo.21516897
 
 **Fabio Takwara**  
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Ensaio Crítico-Autoral — Versão 1.0, 23 jul. 2026*  
+*Ensaio Crítico-Autoral — Versão 1.0 (Publicado originalmente em 16/10/2025, revisado em 23/07/2026)*  
 
 > **Nota de Integridade Científica e Regulatória:** Este ensaio fundamenta-se nos resultados da Avaliação do Ciclo de Vida (ACV conforme ISO 14040/14044) conduzida pela UNESP e IFSP (Araujo et al., 2025), associando-os ao enquadramento do Sistema Brasileiro de Comércio de Emissões (SBCE — Lei nº 15.042/2024) para vetar a concessão de créditos de carbono a empreendimentos com passivos efluentes tóxicos.
 > **Ficha Científica Rastreável no Acervo:** Veja a análise detalhada e auditada do estudo de ACV da UNESP/IFSP em [Ficha Científica: Araujo et al. (2025) — ACV do Bambu no Acre](../bambu-estrutural/araujo-2025-acv-bambu-artesanal-acre.md) (DOI: [10.14295/bjs.v4i4.719](https://doi.org/10.14295/bjs.v4i4.719)) e o protocolo de vinagre pirolenhoso em [Ficha Científica: Silva / UNICAMP (2011)](../bambu-estrutural/silva-2011-conservacao-bambu-acido-pirolenhoso.md).

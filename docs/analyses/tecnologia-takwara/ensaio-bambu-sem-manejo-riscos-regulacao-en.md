@@ -6,6 +6,7 @@ titulo: Unmanaged Bamboo and Toxicity Risks: Regulatory Alert and Carbon Integri
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2025
+data_publicacao_original: 2025-10-16
 versao: 1.0
 estado_documental: edicao-revisada-para-acervo
 acesso: publico
