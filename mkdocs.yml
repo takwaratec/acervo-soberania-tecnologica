@@ -177,11 +177,27 @@ nav:
       - André Blanco: analyses/respaldo-academico/perfil-andre-blanco.md
   - Visão autoral:
       - Visão geral: analyses/visao-do-autor/index.md
-      - Caderno 1 — Preservação Socioecológica: analyses/visao-do-autor/caderno-01-preservacao-socioecologica-bambu.md
-      - Caderno 2 — Interfaces e PU Vegetal: analyses/visao-do-autor/caderno-02-colmo-condicionado-componente-protegido.md
-      - Caderno 3 — Capacidade Produtiva Territorial: analyses/visao-do-autor/caderno-03-capacidade-produtiva-territorial.md
-      - Caderno 4 — Protótipo à Conformidade: analyses/visao-do-autor/caderno-04-prototipo-conformidade-normas-ensaios.md
-      - Caderno 5 — Do Componente ao Habitar: analyses/visao-do-autor/caderno-05-do-componente-ao-habitar.md
-      - Caderno 6 — Biochar e Uso em Cascata: analyses/visao-do-autor/caderno-06-biochar-pirolise-uso-cascata.md
-      - Caderno 7 — Ciclo Fechado e Crise Planetária: analyses/visao-do-autor/caderno-07-ciclo-fechado-crise-planetaria.md
-      - Anexo 1 — Viabilidade Econômica Territorial: analyses/visao-do-autor/anexo-01-viabilidade-economica-territorial.md
+      - Caderno 1 — Preservação Socioecológica:
+          - Português (PT-BR): analyses/visao-do-autor/caderno-01-preservacao-socioecologica-bambu.md
+          - English (EN): analyses/visao-do-autor/caderno-01-preservacao-socioecologica-bambu-en.md
+      - Caderno 2 — Interfaces e PU Vegetal:
+          - Português (PT-BR): analyses/visao-do-autor/caderno-02-colmo-condicionado-componente-protegido.md
+          - English (EN): analyses/visao-do-autor/caderno-02-colmo-condicionado-componente-protegido-en.md
+      - Caderno 3 — Capacidade Produtiva Territorial:
+          - Português (PT-BR): analyses/visao-do-autor/caderno-03-capacidade-produtiva-territorial.md
+          - English (EN): analyses/visao-do-autor/caderno-03-capacidade-produtiva-territorial-en.md
+      - Caderno 4 — Protótipo à Conformidade:
+          - Português (PT-BR): analyses/visao-do-autor/caderno-04-prototipo-conformidade-normas-ensaios.md
+          - English (EN): analyses/visao-do-autor/caderno-04-prototipo-conformidade-normas-ensaios-en.md
+      - Caderno 5 — Do Componente ao Habitar:
+          - Português (PT-BR): analyses/visao-do-autor/caderno-05-do-componente-ao-habitar.md
+          - English (EN): analyses/visao-do-autor/caderno-05-do-componente-ao-habitar-en.md
+      - Caderno 6 — Biochar e Uso em Cascata:
+          - Português (PT-BR): analyses/visao-do-autor/caderno-06-biochar-pirolise-uso-cascata.md
+          - English (EN): analyses/visao-do-autor/caderno-06-biochar-pirolise-uso-cascata-en.md
+      - Caderno 7 — Ciclo Fechado e Crise Planetária:
+          - Português (PT-BR): analyses/visao-do-autor/caderno-07-ciclo-fechado-crise-planetaria.md
+          - English (EN): analyses/visao-do-autor/caderno-07-ciclo-fechado-crise-planetaria-en.md
+      - Anexo 1 — Viabilidade Econômica Territorial:
+          - Português (PT-BR): analyses/visao-do-autor/anexo-01-viabilidade-economica-territorial.md
+          - English (EN): analyses/visao-do-autor/anexo-01-viabilidade-economica-territorial-en.md

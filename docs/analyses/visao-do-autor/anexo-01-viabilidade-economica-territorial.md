@@ -24,7 +24,7 @@ responsavel_curadoria: Fabio Takwara
 *Instrumento complementar aos Cadernos de Revisão Ecológica e Soberania Tecnológica, Anexo 1 — versão 1.0, 23 jul. 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515657.svg)](https://doi.org/10.5281/zenodo.21515657)
-[![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/blob/main/publicacoes-zenodo/anexo-01-zenodo-en.md)
+[![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](anexo-01-viabilidade-economica-territorial-en.md)
 [![English PDF](https://img.shields.io/badge/PDF-English-red.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/raw/main/publicacoes-zenodo/anexo-01-zenodo-en.pdf)
 [![Model XLSX](https://img.shields.io/badge/Excel-Modelo_v0.1-green.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/raw/main/outputs/curadoria-cadernos-2026-07-22/modelo-viabilidade-economica-territorial-v0.1.xlsx)
 
