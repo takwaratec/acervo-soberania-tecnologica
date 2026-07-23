@@ -31,6 +31,7 @@ _quarentena_old/
 _visao_autoral/
 .agent-instructions/
 planos/
+arquivo_historico/
 
 # Ferramentas legadas locais
 buscas_fontes.py
