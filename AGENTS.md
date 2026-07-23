@@ -42,9 +42,15 @@ docs/
 
 Usar a taxonomia definida em `GOVERNANCA_DOCUMENTAL.md`. Nenhum script pode homologar conteúdo automaticamente.
 
-## Publicação
+## Publicação e Integridade Documental
 
-1. executar inventário e auditoria;
-2. executar `mkdocs build --strict`;
-3. revisar o diff e conteúdo privado;
-4. somente após autorização de Fabio: commit, push e deploy.
+- **Paridade entre Idiomas:** Toda publicação que possua versão em inglês (`-en.md`) deve obrigatoriamente manter paridade 1:1 de seções, anexos, tabelas e referências em relação à versão em português. Nunca publicar um resumo sintético na versão em português se a versão em inglês contiver a monografia expandida (ou vice-versa).
+- **Integridade de Seções e Referências:** Todo manual, cartilha ou ensaio técnico deve conter sua Seção de Referências Bibliográficas e DOIs ao final absoluto do documento. É proibido inserir blocos bibliográficos no meio de capítulos ou permitir que interpolações automatizadas quebrem a numeração sequencial das seções.
+- **Prevalência da Língua Portuguesa no Zenodo:** Em todos os depósitos do Zenodo, o arquivo principal em português (`01_...-pt-br.pdf` ou `01_...-pt-br.md`) deve ser posicionado em primeiro lugar e configurado explicitamente no parâmetro `preview_file` dos metadados para garantir que a pré-visualização padrão abra sempre em Português (PT-BR).
+
+## Fluxo de Publicação
+
+1. Executar inventário, verificação de paridade PT/EN e auditoria de seções/referências;
+2. Executar `mkdocs build --strict`;
+3. Revisar o diff e conteúdo privado;
+4. Somente após autorização de Fabio: commit, push e deploy.
