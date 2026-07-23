@@ -11,9 +11,10 @@ Esta seção reúne perfis curatoriais de parceiros e convidados cujas trajetór
 
 Os projetos são o ponto de encontro entre essas trajetórias. Cada profissional contribui com competências próprias para diagnóstico, formulação, execução ou avaliação. Soluções baseadas na natureza, ferramentas de gestão e tecnologias construtivas podem integrar uma iniciativa quando forem pertinentes ao problema, ao território e à governança estabelecida.
 
-## Perfis acadêmicos
+## Perfis acadêmicos e fichas de referência
 
 - [Tânia Cristina da Silva Cruz — UnB/FUP](perfil-tania-cruz.md)
+  - [Ficha científica: Trabalho, gênero e tecnologia social na economia popular solidária (Tese UnB, 2006)](tania-cruz-2006-economia-solidaria-tecnologia-social.md)
 - [Marcos Eduardo Paron — IFSP](perfil-marcos-paron.md)
 - [Vicente de Paulo Borges Virgolino da Silva — IFB](perfil-vicente-borges.md)
 - [Daniela Maciel Pinto — Embrapa Territorial](perfil-daniela-maciel.md)

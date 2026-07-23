@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-07-22",
+  "generated_on": "2026-07-23",
   "repository": "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica",
   "definitions": {
     "public_markdown": "arquivo .md sob docs/ incluído no build público",
@@ -166,7 +166,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/embrapa-2007-extrato-pirolenhoso.md",
       "group": "analyses",
-      "bytes": 2146,
+      "bytes": 2145,
       "sections": [
         "1",
         "2",
@@ -350,7 +350,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/gauss-2023-tratamentos-bambu-palestra.md",
       "group": "analyses",
-      "bytes": 1929,
+      "bytes": 1928,
       "sections": [
         "1",
         "2",
@@ -370,7 +370,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/inbar-bru-v6n2-2025.md",
       "group": "analyses",
-      "bytes": 1947,
+      "bytes": 1946,
       "sections": [
         "1",
         "2",
@@ -401,7 +401,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/laroque-2022-liquido-pirolenhoso-pinus.md",
       "group": "analyses",
-      "bytes": 2496,
+      "bytes": 2495,
       "sections": [
         "1",
         "2",
@@ -421,7 +421,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/lima-2019-bambus-nativos-cadeia-conservacao.md",
       "group": "analyses",
-      "bytes": 3046,
+      "bytes": 3045,
       "sections": [
         "1",
         "2",
@@ -441,7 +441,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/marcal-2018-normas-internacionais-bambu.md",
       "group": "analyses",
-      "bytes": 3058,
+      "bytes": 3057,
       "sections": [
         "1",
         "2",
@@ -461,7 +461,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/martins-2017-licor-pirolenhoso-antifungico.md",
       "group": "analyses",
-      "bytes": 2332,
+      "bytes": 2331,
       "sections": [
         "1",
         "2",
@@ -585,7 +585,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/pimentel-tratamento-bi-oleo-bambu.md",
       "group": "analyses",
-      "bytes": 2461,
+      "bytes": 2460,
       "sections": [
         "1",
         "2",
@@ -605,7 +605,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/reghin-2018-bambu-laminado-colado.md",
       "group": "analyses",
-      "bytes": 2865,
+      "bytes": 2864,
       "sections": [
         "1",
         "2",
@@ -649,7 +649,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/revista-bambu-rbb-2022.md",
       "group": "analyses",
-      "bytes": 1926,
+      "bytes": 1925,
       "sections": [
         "1",
         "2",
@@ -669,7 +669,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/rusch-2019-paineis-bambu-laminado.md",
       "group": "analyses",
-      "bytes": 2880,
+      "bytes": 2879,
       "sections": [
         "1",
         "2",
@@ -693,7 +693,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/silva-2011-tratamento-pirolenhoso-bambu.md",
       "group": "analyses",
-      "bytes": 2744,
+      "bytes": 2743,
       "sections": [
         "1",
         "2",
@@ -713,7 +713,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/silveira-2015-controle-dinoderus.md",
       "group": "analyses",
-      "bytes": 2586,
+      "bytes": 2585,
       "sections": [
         "1",
         "2",
@@ -1281,7 +1281,7 @@
     {
       "path": "docs/analyses/pu-vegetal/carvalho-2023-paineis-casca-mamona-pu.md",
       "group": "analyses",
-      "bytes": 3465,
+      "bytes": 3464,
       "sections": [
         "1",
         "2",
@@ -1301,7 +1301,7 @@
     {
       "path": "docs/analyses/pu-vegetal/cazella-2022-paineis-pinus-pet-pu.md",
       "group": "analyses",
-      "bytes": 3308,
+      "bytes": 3307,
       "sections": [
         "1",
         "2",
@@ -1321,7 +1321,7 @@
     {
       "path": "docs/analyses/pu-vegetal/certificado-ul94-imperveg-2010.md",
       "group": "analyses",
-      "bytes": 3173,
+      "bytes": 3172,
       "sections": [
         "1",
         "2",
@@ -1341,7 +1341,7 @@
     {
       "path": "docs/analyses/pu-vegetal/dias-2024-absorcao-fibras-compostos.md",
       "group": "analyses",
-      "bytes": 3496,
+      "bytes": 3495,
       "sections": [
         "1",
         "2",
@@ -1381,7 +1381,7 @@
     {
       "path": "docs/analyses/pu-vegetal/ficha-tecnica-imperveg-ug132a.md",
       "group": "analyses",
-      "bytes": 3334,
+      "bytes": 3333,
       "sections": [
         "1",
         "2",
@@ -1401,7 +1401,7 @@
     {
       "path": "docs/analyses/pu-vegetal/ficha-tecnica-mamonex-rd70.md",
       "group": "analyses",
-      "bytes": 3102,
+      "bytes": 3101,
       "sections": [
         "1",
         "2",
@@ -1452,7 +1452,7 @@
     {
       "path": "docs/analyses/pu-vegetal/lopes-2020-composto-bagaco-cana.md",
       "group": "analyses",
-      "bytes": 3272,
+      "bytes": 3271,
       "sections": [
         "1",
         "2",
@@ -1472,7 +1472,7 @@
     {
       "path": "docs/analyses/pu-vegetal/lopes-2020-osb-residuos-bambu.md",
       "group": "analyses",
-      "bytes": 3379,
+      "bytes": 3378,
       "sections": [
         "1",
         "2",
@@ -1492,7 +1492,7 @@
     {
       "path": "docs/analyses/pu-vegetal/melo-2023-composto-reparo-madeira.md",
       "group": "analyses",
-      "bytes": 3786,
+      "bytes": 3785,
       "sections": [
         "1",
         "2",
@@ -1512,7 +1512,7 @@
     {
       "path": "docs/analyses/pu-vegetal/naccache-tratamentos-bambu-concreto.md",
       "group": "analyses",
-      "bytes": 3236,
+      "bytes": 3235,
       "sections": [
         "1",
         "2",
@@ -1532,7 +1532,7 @@
     {
       "path": "docs/analyses/pu-vegetal/oliveira-2019-paineis-eucalipto-couro-pu.md",
       "group": "analyses",
-      "bytes": 3162,
+      "bytes": 3161,
       "sections": [
         "1",
         "2",
@@ -1552,7 +1552,7 @@
     {
       "path": "docs/analyses/pu-vegetal/vianna-1997-pu-mamona-tracao.md",
       "group": "analyses",
-      "bytes": 2673,
+      "bytes": 2672,
       "sections": [
         "1",
         "2",
@@ -1572,7 +1572,7 @@
     {
       "path": "docs/analyses/pu-vegetal/wei-et-al-2022-tubos-bambu-espuma-pu.md",
       "group": "analyses",
-      "bytes": 5981,
+      "bytes": 5980,
       "sections": [
         "1",
         "2",
@@ -1640,7 +1640,7 @@
     {
       "path": "docs/analyses/respaldo-academico/perfil-georgia-ferko.md",
       "group": "analyses",
-      "bytes": 2458,
+      "bytes": 2457,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": true,
@@ -1653,7 +1653,7 @@
     {
       "path": "docs/analyses/respaldo-academico/perfil-leticia-medeiros-araujo.md",
       "group": "analyses",
-      "bytes": 2351,
+      "bytes": 2350,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": true,
@@ -1699,7 +1699,7 @@
     {
       "path": "docs/analyses/respaldo-academico/perfil-sonia-marise-carvalho.md",
       "group": "analyses",
-      "bytes": 2513,
+      "bytes": 2512,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,

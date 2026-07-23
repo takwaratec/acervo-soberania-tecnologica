@@ -15,7 +15,7 @@ Cada referência inserida neste repositório passa por um fluxo padronizado de 7
 > 1. **NUNCA** crie fichas de artigos/teses/PDFs sem que os campos de **autor, DOI, ISBN, ISSN** ou outro meio de identificação estejam preenchidos. Documento sem autoria identificada **não entra no acervo**.
 > 2. **NUNCA** referencie documentos incompletos. Se faltam dados essenciais (autor, ano, título completo), a ficha **não é criada** até que o PDF original seja acessado.
 > 3. **Sempre que identificar dados faltantes**, alerte o usuário para dar acesso ao original antes de prosseguir.
-> 4. Toda ficha deve conter **8 seções obrigatórias** conforme método Cavichioli (2025) — se alguma seção não puder ser preenchida por falta de acesso ao PDF, a ficha não deve ser publicada.
+> 4. Toda ficha deve conter **8 seções obrigatórias** conforme método Cavichiolli (2025) — se alguma seção não puder ser preenchida por falta de acesso ao PDF, a ficha não deve ser publicada.
 
 ### Etapa 1 — Extração e leitura inicial
 
