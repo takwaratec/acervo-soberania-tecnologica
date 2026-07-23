@@ -15,3 +15,5 @@ responsavel_curadoria: Fabio Takwara
 ---
 
 - [Conexões Estruturais e Biocompósitos em Bambu (v1.0)](manual-conexoes-estruturais-bambu.md) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21516647.svg)](https://doi.org/10.5281/zenodo.21516647) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21516480.svg)](https://doi.org/10.5281/zenodo.21516480) [![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](manual-conexoes-estruturais-bambu-en.md)
+
+- [Tijolos Ecológicos e Blocos Prensados com Biochar (v1.0)](manual-tijolos-ecologicos-biochar.md) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21516722.svg)](https://doi.org/10.5281/zenodo.21516722) [![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](manual-tijolos-ecologicos-biochar-en.md)
