@@ -1,4 +1,4 @@
-# Inventário reproduzível do Acervo — 22/07/2026
+# Inventário reproduzível do Acervo — 23/07/2026
 
 > Este documento conta arquivos; não confunde volume documental com validação científica.
 

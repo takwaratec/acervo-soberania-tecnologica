@@ -1,0 +1,2651 @@
+{
+  "generated_on": "2026-07-23",
+  "input_files": 92,
+  "unique_documents": 92,
+  "duplicate_groups": [],
+  "class_counts": {
+    "ficha-1-a-8-com-pendencias": 26,
+    "ficha-estruturalmente-completa": 43,
+    "indice": 12,
+    "triagem-manual": 11
+  },
+  "status_counts": {
+    "curado": 9,
+    "em-revisao-documental": 83
+  },
+  "records": [
+    {
+      "path": "docs/analyses/avaliacao-pos-ocupacao/index.md",
+      "sha256": "e0e2f76eb9e4f7fafae5ac037e68d8b4d5b41f6bcf8236c2c7c881b234049647",
+      "bytes": 705,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "indice",
+      "recommendation": "manter-como-indice; não contar como ficha"
+    },
+    {
+      "path": "docs/analyses/avaliacao-pos-ocupacao/otoni-villa-2024-resiliencia-ampliabilidade.md",
+      "sha256": "5f2e6b881058ec62fef1003727f4404d577ec1de9223e9959d7fefa32972ed84",
+      "bytes": 13782,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 1539,
+        "2": 575,
+        "3": 2401,
+        "4": 1470,
+        "5": 2099,
+        "6": 871,
+        "7": 1473,
+        "8": 1582
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.46421/entac.v20i1.5801"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/avaliacao-pos-ocupacao/thielke-2021-apo-porto-alegre.md",
+      "sha256": "c874b2ff47b5a77d6dc9f2afebf081c2b0574abdd88d7c92cec996c8393b66ff",
+      "bytes": 3966,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 343,
+        "2": 263,
+        "3": 246,
+        "4": 275,
+        "5": 344,
+        "6": 535,
+        "7": 278,
+        "8": 933
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "https://hdl.handle.net/10183/235722"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/china-bamboo-connections-review-2019.md",
+      "sha256": "dfa85f223939458af6ea9d3152d4116f49b729fa5a9f27bfa3968d9375e822b1",
+      "bytes": 5684,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 781,
+        "2": 570,
+        "3": 444,
+        "4": 642,
+        "5": 406,
+        "6": 789,
+        "7": 519,
+        "8": 766
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.32604/jrm.2019.07647"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/chung-wang-2017-peeling-steam-bamboo.md",
+      "sha256": "1858c65b1747b6152bcd03381e1c22c8d4e8d73ec8a76790ec6a73d27049527e",
+      "bytes": 6840,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 663,
+        "2": 426,
+        "3": 628,
+        "4": 420,
+        "5": 968,
+        "6": 900,
+        "7": 784,
+        "8": 671
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.1007/s10086-017-1647-y",
+        "10.1007/s10086-017-1666-8"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/costa-2015-tratamento-termico-dendrocalamus.md",
+      "sha256": "ada4c4d2a785f8c1cd1b7d7b7005b52996b706a4a5e5affa60037ec0acd0d9ce",
+      "bytes": 9481,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 465,
+        "2": 181,
+        "3": 2018,
+        "4": 3365,
+        "5": 335,
+        "6": 736,
+        "7": 548,
+        "8": 425
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ausente na fonte; proveniência declarada"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/embrapa-2007-extrato-pirolenhoso.md",
+      "sha256": "a769bf6a11c4c21b0d3e8b8636ec1188e791f2172f77a8a0a2fb439df8ff954f",
+      "bytes": 2145,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 120,
+        "2": 117,
+        "3": 91,
+        "4": 89,
+        "5": 96,
+        "6": 226,
+        "7": 164,
+        "8": 333
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ISSN"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-acv-bambu-unesp-araujo2025.md",
+      "sha256": "b6a8688e61bc7a384a3788eec7b3842e0fc9d7ba25e9784d13c4a9939d3c42b1",
+      "bytes": 6937,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 719,
+        "2": 313,
+        "3": 560,
+        "4": 347,
+        "5": 914,
+        "6": 994,
+        "7": 900,
+        "8": 705
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.14295/bjs.v4i4.719"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-desempenho-sismico-bambu-concreto-puma-2014.md",
+      "sha256": "48580ab1eb92210ccbcc0933df82030b1ee63bc6ffc89d1c896fd4282352d0e7",
+      "bytes": 4612,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 340,
+        "2": 268,
+        "3": 269,
+        "4": 300,
+        "5": 472,
+        "6": 565,
+        "7": 421,
+        "8": 713
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ISSN"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-efecto-humedad-guadua-gutierrez-2014.md",
+      "sha256": "b15adff86de7e829c24c147ac9a7e9ba45a43682205c8382c76413b66cb3a5c8",
+      "bytes": 6141,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 622,
+        "2": 342,
+        "3": 486,
+        "4": 353,
+        "5": 760,
+        "6": 778,
+        "7": 713,
+        "8": 661
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.22517/23447214.9117",
+        "ISSN"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-effects-heat-treatment-bamboo-scrimber.md",
+      "sha256": "fd42b5774328c290d98459ce9c8f310e0291e735b094d0e81337023145d03c54",
+      "bytes": 6936,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 746,
+        "2": 301,
+        "3": 587,
+        "4": 427,
+        "5": 837,
+        "6": 870,
+        "7": 893,
+        "8": 908
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.1007/s10086-016-1574-3"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-heat-treatment-pdms-bamboo.md",
+      "sha256": "522604cb4d592880ca10dfc4796fc90bf4974c7e1261ab8fb0ddb84a9b6ae9fd",
+      "bytes": 6172,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 680,
+        "2": 237,
+        "3": 314,
+        "4": 369,
+        "5": 830,
+        "6": 730,
+        "7": 735,
+        "8": 887
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.1039/d0ra08713k"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-high-temperature-saturated-steam-moso-bamboo.md",
+      "sha256": "bb10d1169426ff65a1a30f5ce716255d5584a431c34ffe8db3202760c11a7cb4",
+      "bytes": 6551,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 693,
+        "2": 314,
+        "3": 361,
+        "4": 370,
+        "5": 782,
+        "6": 823,
+        "7": 847,
+        "8": 992
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.1186/s10086-020-01899-8"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-rocket-stove-cfd.md",
+      "sha256": "e0c1cdc5ac4ab4b49d9d92cb36843d2e552871c7a1f9b638784d32ca15aee227",
+      "bytes": 5686,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 719,
+        "2": 257,
+        "3": 310,
+        "4": 277,
+        "5": 644,
+        "6": 522,
+        "7": 771,
+        "8": 887
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.2991/978-94-6463-284-2_3",
+        "ISBN",
+        "ISSN"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/gauss-2023-tratamentos-bambu-palestra.md",
+      "sha256": "9e088df9841ac9c0b9217cfe88e8f47858568cace1e34d7c31147f3b79644486",
+      "bytes": 1928,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 90,
+        "2": 124,
+        "3": 69,
+        "4": 96,
+        "5": 123,
+        "6": 81,
+        "7": 181,
+        "8": 239
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": true,
+      "identifiers": [
+        "identificador técnico"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-secoes-substantivas"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/inbar-bru-v6n2-2025.md",
+      "sha256": "8ba4aa5e91daa981ddb23c7653b80e50d5eb7f1b9970358a11acbcde46c3eea0",
+      "bytes": 1946,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 115,
+        "2": 88,
+        "3": 91,
+        "4": 103,
+        "5": 136,
+        "6": 101,
+        "7": 162,
+        "8": 231
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "identificador técnico"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/index.md",
+      "sha256": "440f7e6bcffdcda54dab10f029e4601440fcc086cb3ba8bd036b51535af1800a",
+      "bytes": 4515,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "indice",
+      "recommendation": "manter-como-indice; não contar como ficha"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/laroque-2022-liquido-pirolenhoso-pinus.md",
+      "sha256": "fe8745fb0d1d4363f31965a4ef68a745884e1ee466ac6b4ab189f695a42e4ed7",
+      "bytes": 2495,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 106,
+        "2": 117,
+        "3": 124,
+        "4": 108,
+        "5": 125,
+        "6": 341,
+        "7": 140,
+        "8": 349
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/lima-2019-bambus-nativos-cadeia-conservacao.md",
+      "sha256": "261d4062c47fa83ac2b0987338d344cec077048f2ed90f3611318b926962ab9c",
+      "bytes": 3045,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 366,
+        "2": 134,
+        "3": 118,
+        "4": 148,
+        "5": 175,
+        "6": 439,
+        "7": 172,
+        "8": 406
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/marcal-2018-normas-internacionais-bambu.md",
+      "sha256": "1182048f8cb44d4b7dc437cf952090079708497729aa7231e10672545357b6b2",
+      "bytes": 3057,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 293,
+        "2": 124,
+        "3": 127,
+        "4": 121,
+        "5": 163,
+        "6": 427,
+        "7": 215,
+        "8": 451
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/martins-2017-licor-pirolenhoso-antifungico.md",
+      "sha256": "16b3b560acee4229cd62babba64b49024b1d384ddcf763bc20c3cc6199654e8a",
+      "bytes": 2331,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 69,
+        "2": 81,
+        "3": 104,
+        "4": 94,
+        "5": 98,
+        "6": 251,
+        "7": 164,
+        "8": 403
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental-e-secoes-substantivas"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/moreira-silva-2022-bambu-protendido.md",
+      "sha256": "8e664ceced494fa8a120a13ef29360de1bc91097f4b847ae564ca10bfdef9e0f",
+      "bytes": 3610,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 352,
+        "2": 212,
+        "3": 201,
+        "4": 290,
+        "5": 295,
+        "6": 368,
+        "7": 342,
+        "8": 834
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/neotropical-bamboo-review-2024.md",
+      "sha256": "68ace29a6d77d37482ad282d2527742fb808f471f80b3c62a8bb631399705ab6",
+      "bytes": 6066,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 886,
+        "2": 477,
+        "3": 511,
+        "4": 470,
+        "5": 434,
+        "6": 1037,
+        "7": 518,
+        "8": 934
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.1080/19397038.2024.2427020"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/nsr10-titulo-g-guadua.md",
+      "sha256": "5cc03b68a631c2960387c2d90495dd7c59cd31bf302242bf6ac6d1f5378b9e45",
+      "bytes": 2367,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 120,
+        "2": 149,
+        "3": 119,
+        "4": 151,
+        "5": 143,
+        "6": 181,
+        "7": 167,
+        "8": 338
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "identificador técnico"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/pandoli-ghavami-sa-2023-microrreator-bambu.md",
+      "sha256": "774bfbc2e5dd49d3cc4e68e8f5cd75f38636cc2bfad3121d2c382ca14655538e",
+      "bytes": 3868,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 390,
+        "2": 242,
+        "3": 202,
+        "4": 344,
+        "5": 396,
+        "6": 314,
+        "7": 323,
+        "8": 901
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/pena-2013-coleopteros-banisteriopsis.md",
+      "sha256": "0b4f0b0347bd3f9ad88ee0c5228fa043fecd142011aa19ae2b28cbcd82a67221",
+      "bytes": 2584,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 108,
+        "2": 118,
+        "3": 114,
+        "4": 104,
+        "5": 131,
+        "6": 362,
+        "7": 226,
+        "8": 389
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/pimentel-tratamento-bi-oleo-bambu.md",
+      "sha256": "d4e224e30564868488dd4b53f2a17199b8bdd05542bc1465d2b4bd760e8fe9c4",
+      "bytes": 2460,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 159,
+        "2": 79,
+        "3": 97,
+        "4": 97,
+        "5": 127,
+        "6": 312,
+        "7": 203,
+        "8": 307
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental-e-secoes-substantivas"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/reghin-2018-bambu-laminado-colado.md",
+      "sha256": "1b2d6937e74de84e759b832035ca2488573c502836e636ed18171cd500d21617",
+      "bytes": 2864,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 251,
+        "2": 118,
+        "3": 123,
+        "4": 107,
+        "5": 157,
+        "6": 354,
+        "7": 188,
+        "8": 395
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/resenha-beraldo-bambu-pirolenhoso.md",
+      "sha256": "f2ac79670e3655cc2716eef1370c916696aa1b6f5df411ae66bbfde2963f4383",
+      "bytes": 7027,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 541,
+        "2": 350,
+        "3": 515,
+        "4": 377,
+        "5": 1144,
+        "6": 863,
+        "7": 888,
+        "8": 866
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.5380/rf.v44i1.30220"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/revista-bambu-rbb-2022.md",
+      "sha256": "c832ee19006775f3bdd46a41481e6219bf990ed0c07741847fca1ffb4c7fe635",
+      "bytes": 1925,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 85,
+        "2": 136,
+        "3": 82,
+        "4": 126,
+        "5": 133,
+        "6": 75,
+        "7": 157,
+        "8": 237
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": true,
+      "identifiers": [
+        "identificador técnico"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-secoes-substantivas"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/rusch-2019-paineis-bambu-laminado.md",
+      "sha256": "baed951fe8fd92781c3f9ffd6c3c3503fc751b174d876835eb2d6b2a561f4386",
+      "bytes": 2879,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 275,
+        "2": 107,
+        "3": 127,
+        "4": 129,
+        "5": 189,
+        "6": 320,
+        "7": 209,
+        "8": 385
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.1590/1983-40632019v4953714"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/silva-2011-tratamento-pirolenhoso-bambu.md",
+      "sha256": "a53c220eda061da852825ade905473724a8d469da62e861eb364de2aa8d6be9d",
+      "bytes": 2743,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 114,
+        "2": 126,
+        "3": 130,
+        "4": 112,
+        "5": 160,
+        "6": 380,
+        "7": 180,
+        "8": 411
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/silveira-2015-controle-dinoderus.md",
+      "sha256": "b5065f51de405b3f34042ca84ad37c988b84359befe9ea2d75e0f762858ae090",
+      "bytes": 2585,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 177,
+        "2": 111,
+        "3": 108,
+        "4": 103,
+        "5": 174,
+        "6": 272,
+        "7": 170,
+        "8": 409
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/bologna-aquino-2020-desmatamento-populacao.md",
+      "sha256": "d589d5e63e0d8bbc5c2c21b157d0447defc10a96f2015e7292de41646452daaa",
+      "bytes": 5714,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 542,
+        "2": 488,
+        "3": 465,
+        "4": 633,
+        "5": 597,
+        "6": 588,
+        "7": 785,
+        "8": 794
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.1038/s41598-020-63657-6"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/ficha-biochar-negative-emissions-review.md",
+      "sha256": "80bdb7bbfcaee285b88ab5b61221f734ed1ed059c90bf9506d56198d43291139",
+      "bytes": 6250,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 570,
+        "2": 329,
+        "3": 500,
+        "4": 392,
+        "5": 572,
+        "6": 886,
+        "7": 823,
+        "8": 841
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.3390/en18184898"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/index.md",
+      "sha256": "c735c4a991268dedb08778c86bf369abc244b6720be6a000649ee4aa8c35bca1",
+      "bytes": 1390,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "indice",
+      "recommendation": "manter-como-indice; não contar como ficha"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/martins-2004-carbono-matas-ciliares.md",
+      "sha256": "5a79573dc4555534d92b51fa0897db73e93b3c4a1b421fee33d02237d12cd0b3",
+      "bytes": 4004,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 375,
+        "2": 262,
+        "3": 263,
+        "4": 253,
+        "5": 339,
+        "6": 471,
+        "7": 390,
+        "8": 860
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ausente na fonte; proveniência declarada"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/silva-2017-dinamica-incendios-acre.md",
+      "sha256": "53d8dbdb2c5f252a4ab7deac315bf5f5e51a5d335e40b716f200ccf1de441de8",
+      "bytes": 6735,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 687,
+        "2": 561,
+        "3": 441,
+        "4": 572,
+        "5": 783,
+        "6": 858,
+        "7": 931,
+        "8": 1049
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/silva-et-al-2017-incendios-dominancia-bambu.md",
+      "sha256": "82b56168cba5551f4ae80f165324c6afbe186e0ce7da05ae9ed44fb6e43d0f04",
+      "bytes": 6652,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 991,
+        "2": 486,
+        "3": 366,
+        "4": 514,
+        "5": 680,
+        "6": 718,
+        "7": 917,
+        "8": 1181
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ISBN"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/silva-pereira-martins-2018-bioeconomia-numeros.md",
+      "sha256": "6c640579bf9bd4c92d6179a61912ac88b62dff88f758bd4c3e4376e8fc192348",
+      "bytes": 4056,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 299,
+        "2": 251,
+        "3": 265,
+        "4": 337,
+        "5": 278,
+        "6": 612,
+        "7": 366,
+        "8": 883
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ISSN"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/souza-et-al-2024-solo-sistemas-integrados.md",
+      "sha256": "67afdb3a6a89c890ba2bbd6ff4f63ec6c81a5e6713dc2d4e22357982155bfe32",
+      "bytes": 5083,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 1077,
+        "2": 264,
+        "3": 319,
+        "4": 420,
+        "5": 475,
+        "6": 675,
+        "7": 439,
+        "8": 660
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.3390/f15071078"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/fundamentos/fernandes-1976-revolucao-burguesa-brasil.md",
+      "sha256": "1548f0bfcdde0fdc015b480a8993495c1f3e4f825ab9ee2df0724daac18395bc",
+      "bytes": 5676,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 471,
+        "2": 591,
+        "3": 329,
+        "4": 522,
+        "5": 406,
+        "6": 818,
+        "7": 564,
+        "8": 738
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ausente na fonte; proveniência declarada"
+      ],
+      "declared_status": "curado",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/fundamentos/freire-1968-manuscritos-pedagogia-oprimido.md",
+      "sha256": "f739ee00269c92d6eaa83a813424505e445f212156dfd7a5f9e40d0ce8e9d2a4",
+      "bytes": 4059,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 451,
+        "2": 335,
+        "3": 294,
+        "4": 225,
+        "5": 277,
+        "6": 449,
+        "7": 303,
+        "8": 581
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "identificador técnico",
+        "ausente na fonte; proveniência declarada"
+      ],
+      "declared_status": "curado",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/fundamentos/fuller-1969-manual-nave-espacial-terra.md",
+      "sha256": "581b6c060a01709a0c6a270935a151a6440e7fb94d3b05f956ce61deda76ed72",
+      "bytes": 6583,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 469,
+        "2": 473,
+        "3": 470,
+        "4": 628,
+        "5": 544,
+        "6": 1005,
+        "7": 728,
+        "8": 851
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ausente na fonte; proveniência declarada"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/fundamentos/holmgren-2002-principios-caminhos-permacultura.md",
+      "sha256": "debe63d2dd664c3a06bf8b2d7c6fb77b760697f17ef8f9c7720fd9533ca24624",
+      "bytes": 7190,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 574,
+        "2": 750,
+        "3": 549,
+        "4": 579,
+        "5": 617,
+        "6": 1029,
+        "7": 749,
+        "8": 923
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ISBN"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/fundamentos/index.md",
+      "sha256": "c64bf0509bcd9882f42dd38275c87f5f12938c15584363e9915bf18bca711d69",
+      "bytes": 4787,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "curado",
+      "document_class": "indice",
+      "recommendation": "manter-como-indice; não contar como ficha"
+    },
+    {
+      "path": "docs/analyses/fundamentos/mollison-1981-curso-design-permacultura.md",
+      "sha256": "69ce1edaae967a51db05bddf593d5ec2f65f392b0127adb64cbe3ba3b916a5fb",
+      "bytes": 7309,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 656,
+        "2": 798,
+        "3": 503,
+        "4": 726,
+        "5": 672,
+        "6": 843,
+        "7": 788,
+        "8": 921
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ausente na fonte; proveniência declarada"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/fundamentos/montaigne-1580-ensaios.md",
+      "sha256": "b89743d8638c8e37f9b713465105166ee2065025ee676420668cea232a2263d9",
+      "bytes": 4169,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 522,
+        "2": 311,
+        "3": 295,
+        "4": 304,
+        "5": 300,
+        "6": 399,
+        "7": 326,
+        "8": 618
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "identificador técnico",
+        "ausente na fonte; proveniência declarada"
+      ],
+      "declared_status": "curado",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/fundamentos/morin-2005-ciencia-com-consciencia.md",
+      "sha256": "a515db2102adccb6a7d736b58b0e33cb1979b582f8e092611a7058f762fe631a",
+      "bytes": 3866,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 362,
+        "2": 320,
+        "3": 291,
+        "4": 250,
+        "5": 306,
+        "6": 498,
+        "7": 311,
+        "8": 584
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ISBN"
+      ],
+      "declared_status": "curado",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/fundamentos/ribeiro-1995-povo-brasileiro.md",
+      "sha256": "87e58b1cb97a683ccabbb5826f5dcfc8adad8feaf6cfba6901b210e8dc09f31a",
+      "bytes": 4915,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 503,
+        "2": 490,
+        "3": 293,
+        "4": 317,
+        "5": 355,
+        "6": 705,
+        "7": 402,
+        "8": 705
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ausente na fonte; proveniência declarada"
+      ],
+      "declared_status": "curado",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/fundamentos/ribeiro-2014-teoria-do-brasil.md",
+      "sha256": "264176fe4c26b151efca618715df3acc036745fc07165d568feec8edab52f491",
+      "bytes": 4168,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 452,
+        "2": 323,
+        "3": 266,
+        "4": 288,
+        "5": 271,
+        "6": 539,
+        "7": 282,
+        "8": 579
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "identificador técnico",
+        "ausente na fonte; proveniência declarada"
+      ],
+      "declared_status": "curado",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/fundamentos/santos-2001-outra-globalizacao.md",
+      "sha256": "d971a8d4008b086ce321d9ae054caf02677ad092f15d092171e01bd56be85cf9",
+      "bytes": 3882,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 317,
+        "2": 338,
+        "3": 286,
+        "4": 258,
+        "5": 263,
+        "6": 585,
+        "7": 278,
+        "8": 565
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ISBN"
+      ],
+      "declared_status": "curado",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/fundamentos/santos-2021-cupula-geodesica-analise-numerica.md",
+      "sha256": "c21ef4a1b9bbcec602211add556fe3c63e98cc8ec1b6feaec0ce327fbeea8575",
+      "bytes": 2655,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 138,
+        "2": 89,
+        "3": 102,
+        "4": 86,
+        "5": 124,
+        "6": 303,
+        "7": 220,
+        "8": 425
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/grandes-obras-amazonia/index.md",
+      "sha256": "c113c0b0903701ea35d6b8fa3102271aaee0f919e520ff0415b953d3b847c05b",
+      "bytes": 346,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "indice",
+      "recommendation": "manter-como-indice; não contar como ficha"
+    },
+    {
+      "path": "docs/analyses/index.md",
+      "sha256": "7758bd66c4cf34633f508aa813662ea6b5ac7fd5fdd9e19b85af5131e4348871",
+      "bytes": 1937,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "indice",
+      "recommendation": "manter-como-indice; não contar como ficha"
+    },
+    {
+      "path": "docs/analyses/percecao-social/index.md",
+      "sha256": "bd9c65d3d0b67de250d4ad17e6253534c22c01a7e77727b09c153b6d7cb3cbe5",
+      "bytes": 710,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "indice",
+      "recommendation": "manter-como-indice; não contar como ficha"
+    },
+    {
+      "path": "docs/analyses/percecao-social/joyce-santos-2009.md",
+      "sha256": "f58f263dea03c76320c4409f5958fd50b4490bcdd0b0c0c1542136274877004e",
+      "bytes": 9980,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 993,
+        "2": 779,
+        "3": 855,
+        "4": 674,
+        "5": 1271,
+        "6": 951,
+        "7": 1687,
+        "8": 1024
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ausente na fonte; proveniência declarada"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/percecao-social/oliveira-villa-2024-covid-his.md",
+      "sha256": "9f7b11b97a732adec70b8dc62fed69fb372538a4f2b65840016d7ca4bbf803b3",
+      "bytes": 9149,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 1242,
+        "2": 391,
+        "3": 1228,
+        "4": 1024,
+        "5": 1160,
+        "6": 481,
+        "7": 1197,
+        "8": 1099
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.20396/parc.v15i00.8674782"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/ferreira-2023-politica-his-ponta-grossa.md",
+      "sha256": "980523212d8a622d1a002ae28f42a0d1a083d7c8bafbe833419dbbc9e7f249f9",
+      "bytes": 3937,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 354,
+        "2": 261,
+        "3": 223,
+        "4": 275,
+        "5": 288,
+        "6": 391,
+        "7": 442,
+        "8": 910
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/index.md",
+      "sha256": "77066ec249a923311e6618c79f39de3776af73de598e65dca2bf06308f1c8b62",
+      "bytes": 567,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "indice",
+      "recommendation": "manter-como-indice; não contar como ficha"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/simoes-leder-2024-assentamento-seriado.md",
+      "sha256": "06b65805c79f12229d02a01b885c32fe09fd154009cf9c8461da6d8088446d6b",
+      "bytes": 10403,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 1771,
+        "2": 335,
+        "3": 866,
+        "4": 1223,
+        "5": 1374,
+        "6": 783,
+        "7": 1306,
+        "8": 1108
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.22296/2317-1529.rbeur.202424pt"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/SCI_014_POLYMERS_ALKALI_TREATMENT.md",
+      "sha256": "1edff08d592a9998afb4c45730dc67ce9f2964c41d2b8a9182386a0784914f9b",
+      "bytes": 6989,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 796,
+        "2": 263,
+        "3": 489,
+        "4": 393,
+        "5": 852,
+        "6": 944,
+        "7": 819,
+        "8": 812
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.3390/polym14142769"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/carvalho-2023-paineis-casca-mamona-pu.md",
+      "sha256": "678cc632f94c395441ed1615ca99fd971bf0272d9a0f769e89b792d15e8075ed",
+      "bytes": 3464,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 368,
+        "2": 162,
+        "3": 159,
+        "4": 201,
+        "5": 207,
+        "6": 465,
+        "7": 259,
+        "8": 472
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/cazella-2022-paineis-pinus-pet-pu.md",
+      "sha256": "23fe5c4a142b7abe350ea40ab29de3faed297dd7f1275e1ad96ef695ff57c77c",
+      "bytes": 3307,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 315,
+        "2": 141,
+        "3": 133,
+        "4": 142,
+        "5": 197,
+        "6": 396,
+        "7": 262,
+        "8": 489
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/certificado-ul94-imperveg-2010.md",
+      "sha256": "cf9d899c7c36beddf4f99c83accd90f9b6e7121a68ca0795a584be081267d5f8",
+      "bytes": 3172,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 404,
+        "2": 240,
+        "3": 123,
+        "4": 158,
+        "5": 181,
+        "6": 270,
+        "7": 255,
+        "8": 414
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "identificador técnico"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/dias-2024-absorcao-fibras-compostos.md",
+      "sha256": "6ecc2cb0bd85591c90efc8ebf06957d7954f5145b566c2bb792ad98f19b209a2",
+      "bytes": 3495,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 407,
+        "2": 189,
+        "3": 161,
+        "4": 133,
+        "5": 201,
+        "6": 439,
+        "7": 256,
+        "8": 514
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/ficha-pibit-lucas-aciole-painel-acustico.md",
+      "sha256": "271e98ac441cb8cace5b1a78135d10e1520c49aa1166302d353530cc461cb474",
+      "bytes": 4653,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 383,
+        "2": 280,
+        "3": 345,
+        "4": 240,
+        "5": 379,
+        "6": 551,
+        "7": 444,
+        "8": 820
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/ficha-tecnica-imperveg-ug132a.md",
+      "sha256": "2821a5610c0f924d1defa687067d971e48c3fdf42757aa9307967188fb953a43",
+      "bytes": 3333,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 346,
+        "2": 216,
+        "3": 207,
+        "4": 240,
+        "5": 354,
+        "6": 214,
+        "7": 351,
+        "8": 328
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "identificador técnico"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/ficha-tecnica-mamonex-rd70.md",
+      "sha256": "04e432db1b95a0a5c8db7323f1248d6a7b302ad5132a21fdd7fc64e1f5fabd98",
+      "bytes": 3101,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 346,
+        "2": 137,
+        "3": 158,
+        "4": 164,
+        "5": 318,
+        "6": 249,
+        "7": 351,
+        "8": 337
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "identificador técnico"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/index.md",
+      "sha256": "baff4af0d57f147deaa582eee9b1f393f34eeae675113508c2b0f83f1c58e19b",
+      "bytes": 3415,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "indice",
+      "recommendation": "manter-como-indice; não contar como ficha"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/leithold-2015-biodegradacao-bioespumas.md",
+      "sha256": "7e1f4ad3ea6172e0003817549c1bbf6f243ed33c06b06d2623479b610b616087",
+      "bytes": 3769,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 364,
+        "2": 264,
+        "3": 163,
+        "4": 386,
+        "5": 379,
+        "6": 322,
+        "7": 357,
+        "8": 769
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "ausente na fonte; proveniência declarada"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/lopes-2020-composto-bagaco-cana.md",
+      "sha256": "55b6ea8b1c464b554991c80144e851d507b85f3443d4227c5287475895f8a33a",
+      "bytes": 3271,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 288,
+        "2": 176,
+        "3": 167,
+        "4": 146,
+        "5": 183,
+        "6": 531,
+        "7": 237,
+        "8": 395
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/lopes-2020-osb-residuos-bambu.md",
+      "sha256": "603d3b03e36c3484fcae50def2e314c57ed91aa4ff17f7739cc893c3eecc432f",
+      "bytes": 3378,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 326,
+        "2": 175,
+        "3": 157,
+        "4": 135,
+        "5": 221,
+        "6": 443,
+        "7": 217,
+        "8": 501
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/melo-2023-composto-reparo-madeira.md",
+      "sha256": "ba4498d1ceec3f0ebdcd45198068f27b7ec37e6b44fd4c40cc5fe07e1a20777f",
+      "bytes": 3785,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 379,
+        "2": 216,
+        "3": 178,
+        "4": 238,
+        "5": 287,
+        "6": 453,
+        "7": 266,
+        "8": 510
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/naccache-tratamentos-bambu-concreto.md",
+      "sha256": "0e00f0b3d162fdefa35a7de362e83ac759c6ec27666e83de2785308772cb3de7",
+      "bytes": 3235,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 338,
+        "2": 197,
+        "3": 136,
+        "4": 186,
+        "5": 217,
+        "6": 322,
+        "7": 273,
+        "8": 405
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/oliveira-2019-paineis-eucalipto-couro-pu.md",
+      "sha256": "c8ae471defdf461f6d212e5e61cbfe119d517feceddc1cb2b89e0b2b41324b5c",
+      "bytes": 3161,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 309,
+        "2": 167,
+        "3": 151,
+        "4": 145,
+        "5": 204,
+        "6": 324,
+        "7": 221,
+        "8": 423
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/vianna-1997-pu-mamona-tracao.md",
+      "sha256": "501bbae99913afe131b15348093155e8d2813f243c34c1e08c482c787bd757d9",
+      "bytes": 2672,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 127,
+        "2": 124,
+        "3": 108,
+        "4": 139,
+        "5": 118,
+        "6": 286,
+        "7": 224,
+        "8": 423
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-1-a-8-com-pendencias",
+      "recommendation": "revisar-identidade-documental"
+    },
+    {
+      "path": "docs/analyses/pu-vegetal/wei-et-al-2022-tubos-bambu-espuma-pu.md",
+      "sha256": "15cba34135626f47c6dc98efeec202247b725938472c6441d686818e74577482",
+      "bytes": 5980,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "section_lengths": {
+        "1": 518,
+        "2": 215,
+        "3": 357,
+        "4": 356,
+        "5": 601,
+        "6": 950,
+        "7": 868,
+        "8": 728
+      },
+      "has_sections_1_to_8": true,
+      "has_substantive_sections_1_to_8": true,
+      "has_author_marker": true,
+      "identifiers": [
+        "10.3390/polym14102006"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "ficha-estruturalmente-completa",
+      "recommendation": "revisao-humana-da-fonte-antes-de-homologar"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/index.md",
+      "sha256": "939b64c30abae041630ce2a7e5668b921298230d0bfdbe71e014f42e7768d25f",
+      "bytes": 2654,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "curado",
+      "document_class": "indice",
+      "recommendation": "manter-como-indice; não contar como ficha"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-andre-blanco.md",
+      "sha256": "113709c2f8911e0cc744ad8c60c058ce12e423902773746af1ac3478f513b16e",
+      "bytes": 2105,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [
+        "ausente na fonte; proveniência declarada"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "triagem-manual",
+      "recommendation": "confirmar-tipo-autoria-identificador-e-fonte"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-bliska.md",
+      "sha256": "4299643a20c710cc8e7ed22f73549427108e056eaeacd4888e18d490e6fdde37",
+      "bytes": 1844,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "triagem-manual",
+      "recommendation": "confirmar-tipo-autoria-identificador-e-fonte"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-daniela-maciel.md",
+      "sha256": "215267631018a65f4e7fb34e60fbd79a0b1cb59ec5dab98c40e7de887db4830a",
+      "bytes": 2126,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "triagem-manual",
+      "recommendation": "confirmar-tipo-autoria-identificador-e-fonte"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-georgia-ferko.md",
+      "sha256": "94afa5b1b0738644a3b89bc3e76dbd915af11bbb670f91cdd2955921138bfc96",
+      "bytes": 2457,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [
+        "10.18227/2237-8057rarr.v17i1.8470"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "triagem-manual",
+      "recommendation": "confirmar-tipo-autoria-identificador-e-fonte"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-leticia-medeiros-araujo.md",
+      "sha256": "9d9bb2f1a81729982da0f7acb43ae0c667ce07309b50277e91cdfe835017d1e1",
+      "bytes": 2350,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [
+        "10.14295/bjs.v4i4.719"
+      ],
+      "declared_status": "em-revisao-documental",
+      "document_class": "triagem-manual",
+      "recommendation": "confirmar-tipo-autoria-identificador-e-fonte"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-ludmila-correia.md",
+      "sha256": "d655f72290b922977419066ec7ac4d8510266be97e190cd3df9446dc748d6e1d",
+      "bytes": 2042,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "triagem-manual",
+      "recommendation": "confirmar-tipo-autoria-identificador-e-fonte"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-marcos-paron.md",
+      "sha256": "953da8eff8a4df8acdcad6853084d9a0b70f25ec2f42c3f5fbb8e9d1c2bcef41",
+      "bytes": 1879,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "triagem-manual",
+      "recommendation": "confirmar-tipo-autoria-identificador-e-fonte"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-sonaira-silva.md",
+      "sha256": "d1f902487339a61983a7c84ccc7290e995e87b03f68259f7c99f99f5f57d3c09",
+      "bytes": 2730,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "triagem-manual",
+      "recommendation": "confirmar-tipo-autoria-identificador-e-fonte"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-sonia-marise-carvalho.md",
+      "sha256": "f26780b78dbc2cddcc0adb0c3379fd5aba1bb1ca97009608359bc3a3116ad0ee",
+      "bytes": 2512,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "triagem-manual",
+      "recommendation": "confirmar-tipo-autoria-identificador-e-fonte"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-tania-cruz.md",
+      "sha256": "c520079fbf5d1651cc14aca947ce9d84c8d307172effaa1f4438dbccec406adc",
+      "bytes": 2180,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "triagem-manual",
+      "recommendation": "confirmar-tipo-autoria-identificador-e-fonte"
+    },
+    {
+      "path": "docs/analyses/respaldo-academico/perfil-vicente-borges.md",
+      "sha256": "aba197b0e07d5491ebb35146cff60e67f89079299773be4218eb3c09ff967a05",
+      "bytes": 1947,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "triagem-manual",
+      "recommendation": "confirmar-tipo-autoria-identificador-e-fonte"
+    },
+    {
+      "path": "docs/analyses/tecnologia-takwara/index.md",
+      "sha256": "aa5d95f8e1e07b67dc17a1e0a0f09f642bb0d2af8cd7f843503c3b32bd14e957",
+      "bytes": 736,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "indice",
+      "recommendation": "manter-como-indice; não contar como ficha"
+    },
+    {
+      "path": "docs/analyses/visao-do-autor/index.md",
+      "sha256": "39cfd2c744a76ae5a61b477965828efd27063f7d524834c413102db50f0cc5c4",
+      "bytes": 615,
+      "sections": [],
+      "section_lengths": {},
+      "has_sections_1_to_8": false,
+      "has_substantive_sections_1_to_8": false,
+      "has_author_marker": false,
+      "identifiers": [],
+      "declared_status": "em-revisao-documental",
+      "document_class": "indice",
+      "recommendation": "manter-como-indice; não contar como ficha"
+    }
+  ]
+}
