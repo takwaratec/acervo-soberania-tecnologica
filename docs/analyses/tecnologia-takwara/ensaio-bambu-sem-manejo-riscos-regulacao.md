@@ -36,7 +36,6 @@ identificador: https://doi.org/10.5281/zenodo.21516897
 # O Escândalo Silencioso do Bambu Brasileiro: Quando a Sustentabilidade Esconde Toxicidade…
 **93% do impacto ambiental da produção artesanal de bambu está associado à toxicidade carcinogênica humana. E quase ninguém está falando…**
 
-> *Publicado originalmente em [Medium](https://medium.com/@fabiotakwara/o-esc%C3%A2ndalo-silencioso-do-bambu-brasileiro-quando-a-sustentabilidade-esconde-toxicidade-b33acea60ccc) em 2025-10-16. Integrado ao acervo técnico estruturado (Advocacy 5.1).*
 
 ---
 
@@ -305,10 +304,8 @@ Por um bambu verdadeiramente sustentável.
 
 *Um relatório técnico completo, com todas as evidências científicas, análise detalhada dos impactos territoriais, projeções quantitativas da contaminação e recomendações específicas para cada agente do setor, está disponível em:*
 
-<https://resck.github.io/Takwara-Tech/bambu_toxico/>
 
 *Este artigo é fruto de uma investigação independente sobre as políticas públicas do setor de bambu no Brasil. As informações aqui apresentadas estão baseadas em fontes oficiais, pesquisas acadêmicas e documentos públicos. O jornalismo crítico e investigativo é essencial para a democracia e para a defesa da soberania nacional. Ciência Cidadâ a serviço de todos e todas.*
 
-**Veja mais em:** [**https://resck.github.io/Takwara-Tech/**](https://resck.github.io/Takwara-Tech/bambu_toxico/)[**Assine a Petição que pede a Regulamentação da Lei do Bambu**](https://www12.senado.leg.br/ecidadania/visualizacaoideia?id=205855)[**Confira a sugestão do Decreto de Regulamentação**](https://resck.github.io/Takwara-Tech/decreto-presidencial/)
 
 **#BambuSeguro #COP30 #BioeconomiaÉtica #ResponsabilidadeSocial #ToxicidadeCarcinogênicaSustentabilidadeReal
