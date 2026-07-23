@@ -5,6 +5,7 @@ Este eixo reúne estudos sobre experiência dos moradores, reassentamento, quali
 ## Fichas em revisão documental
 
 - [Santos (2009) — percepção social no Conjunto Habitacional Vargem Grande](joyce-santos-2009.md)
+- [Correia (2010) — conforto ambiental e relações subjetivas em HIS](ludmila-correia-2010-conforto-ambiental-his.md)
 - [Oliveira e Villa (2024) — impactos da COVID-19 na habitação social](oliveira-villa-2024-covid-his.md)
 
 A dissertação de Santos não possui identificador persistente no original. Seu ingresso foi baseado na fonte integral, na ficha catalográfica e na folha de aprovação.
