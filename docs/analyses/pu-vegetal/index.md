@@ -11,6 +11,13 @@ Esta gaveta reúne literatura acadêmica e documentação técnica sobre poliure
 
 Os tipos documentais são mantidos separados: tese, dissertação e relatório acadêmico formam o núcleo de análise científica; fichas de produto registram declarações do fabricante; laudos e certificados sustentam apenas o resultado da amostra ensaiada. A presença ou ausência de DOI não substitui essa classificação.
 
+## Síntese comparativa e cadernos publicados
+
+Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revisão Ecológica e Soberania Tecnológica**:
+
+- [Caderno 2 — Do colmo condicionado ao componente protegido: interfaces e PU vegetal (v1.2)](../visao-do-autor/caderno-02-colmo-condicionado-componente-protegido.md) | DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977)
+- [Caderno 7 — O ciclo que não termina no descarte: bambu, mamona e responsabilidade diante da crise planetária](../visao-do-autor/caderno-07-ciclo-fechado-crise-planetaria.md) | DOI: [10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567)
+
 ## Trabalhos acadêmicos com fonte integral conferida
 
 - [Tubos compósitos de bambu preenchidos com espuma de PU — Wei et al. (2022)](wei-et-al-2022-tubos-bambu-espuma-pu.md)
