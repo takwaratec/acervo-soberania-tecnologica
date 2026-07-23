@@ -67,8 +67,7 @@ plugins:
         'analyses/spaceship-earth-fuller.md': 'analyses/fundamentos/fuller-1969-manual-nave-espacial-terra.md'
         'sobre-o-autor/POL_neotropical-bamboo-review-2024.md': 'analyses/bambu-estrutural/neotropical-bamboo-review-2024.md'
 
-exclude_docs: |
-  analyses/tecnologia-takwara/
+exclude_docs: ""
 
 nav:
   - Início: index.md
@@ -175,6 +174,10 @@ nav:
       - Sonaira Souza da Silva: analyses/respaldo-academico/perfil-sonaira-silva.md
       - Letícia Medeiros de Araújo: analyses/respaldo-academico/perfil-leticia-medeiros-araujo.md
       - André Blanco: analyses/respaldo-academico/perfil-andre-blanco.md
+  - Tecnologia Takwara:
+      - Visão geral: analyses/tecnologia-takwara/index.md
+      - Bioeconomia Comunitária do Bambu: analyses/tecnologia-takwara/manual-bioeconomia-comunitaria-bambu.md
+      - Fitorremediação e Mercados de Carbono: analyses/tecnologia-takwara/manual-fitorremediacao-solos-degradados-bambu.md
   - Visão autoral:
       - Visão geral: analyses/visao-do-autor/index.md
       - Caderno 1 — Preservação Socioecológica:
