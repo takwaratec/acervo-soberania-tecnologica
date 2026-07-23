@@ -112,10 +112,38 @@ Reunioes comunitarias para nivelamento de expectativas, inventario de recursos e
 Redacao e aprovacao do Estatuto Social em Assembleia Geral de Fundacao.
 
 ### 🗒️ TEMPLATE DE ESTATUTO SOCIAL — ASSOCIAÇÃO DE MANEJADORES DE BAMBU
-*(Modelo juridico completo e preenchivel contendo clausulas de governanca, conselho fiscal, admissao de socios e destinacao do patrimonio ecologico).*
+
+```text
+ESTATUTO SOCIAL DA ASSOCIAÇÃO DE MANEJADORES E PRODUTORES DE BAMBU DE [NOME DO TERRITÓRIO]
+
+CAPÍTULO I — DA DENOMINAÇÃO, SEDE, FORO E FINS
+Art. 1º A Associação de Manejadores e Produtores de Bambu de [Território], fundada em [Data], é uma entidade civil de direito privado, sem fins lucrativos, com sede em [Município/UF].
+Art. 2º A Associação tem por finalidades:
+a) Promover o manejo ecológico sustentável do bambu conforme a NBR 16828;
+b) Organizar a cadeia produtiva local, beneficiamento e comercialização conjunta;
+c) Garantir o acesso equitativo aos equipamentos comunitários e biorrefinarias.
+
+CAPÍTULO II — DOS ASSOCIADOS, DIREITOS E DEVERES
+Art. 3º Podem ser associados agricultores familiares, extrativistas, artesãos e moradores do território.
+Art. 4º São deveres dos associados: respeitar o plano de manejo, zelar pelos equipamentos coletivos e participar das assembleias.
+
+CAPÍTULO III — DA GOVERNANÇA E ÓRGÃOS DELIBERATIVOS
+Art. 5º A Associação é composta por: Assembleia Geral, Diretoria Executiva e Conselho Fiscal.
+Art. 6º A Assembleia Geral é o órgão soberano, reunindo-se ordinariamente uma vez por ano e extraordinariamente quando convocada.
+```
 
 ### 🗒️ TEMPLATE DE CARTA DE INTENÇÃO — COOPERAÇÃO INTERMUNICIPAL
-*(Modelo de minuta para formalizacao de parcerias entre cooperativas comunitarias e prefeituras regionais para cessao de areas de secagem).*
+
+```text
+CARTA DE INTENÇÃO PARA COOPERAÇÃO TÉCNICA E DESENVOLVIMENTO DA BIOECONOMIA DO BAMBU
+
+Pelo presente instrumento, a PREFEITURA MUNICIPAL DE [MUNICÍPIO] e a ASSOCIAÇÃO DE MANEJADORES DE BAMBU DE [TERRITÓRIO] manifestam a intenção mútua de colaborar no desenvolvimento de projetos de bioeconomia, manejo sustentável e habitação de interesse social (ATHIS) utilizando tecnologias baseadas em bambu e biocompósitos vegetais.
+
+Compromissos acordados:
+1. Apoio logístico e cessão de uso de áreas públicas para secagem e imunização comunitária;
+2. Inclusão de componentes ecológicos de bambu nas compras públicas municipais;
+3. Assistência técnica e extensão rural integrada.
+```
 
 ### ETAPA 3 — Primeiro Produto e Primeiros Recursos (Meses 5–8)
 Operacao da primeira celula de imunizacao a vapor (0 Barg) e fornecimento do primeiro lote de colmos certificados.

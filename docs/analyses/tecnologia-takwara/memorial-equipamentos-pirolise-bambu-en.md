@@ -221,3 +221,12 @@ Este documento extrai as metragens e componentes dos memoriais técnicos (Série
 
 ---
 **🎋 Takwara — Avaliação Técnica de Ativos de Soberania**
+
+
+---
+
+## 5. References and DOIs
+
+* **TAKWARA, F. R.** *Do componente à capacidade produtiva territorial (Caderno 3).* Núcleo Takwara, 2026. DOI: [https://doi.org/10.5281/zenodo.21519993](https://doi.org/10.5281/zenodo.21519993).
+* **TAKWARA, F. R.** *Do protótipo à conformidade (Caderno 4).* Núcleo Takwara, 2026. DOI: [https://doi.org/10.5281/zenodo.21519998](https://doi.org/10.5281/zenodo.21519998).
+* **TAKWARA, F. R.** *Memorial de Engenharia Industrial e BoM de Equipamentos (T01 a T07).* Núcleo Takwara, 2026. DOI: [https://doi.org/10.5281/zenodo.21520027](https://doi.org/10.5281/zenodo.21520027).

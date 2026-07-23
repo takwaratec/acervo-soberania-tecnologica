@@ -227,3 +227,12 @@ Takwara, F. R. (2026). *Tijolos Ecológicos de Biomassa e Poliuretano Vegetal: B
 *   VASCONCELOS et al. (2020). Produção de tijolos ecológicos com resíduos de biomassa.
 *   VIEIRA, M. C.; PENTEADO, R. B.; LORENZONI, L. E.; FERNANDES, R. L. Desenvolvimento de tijolos ecológicos a partir de resíduos de biomassa de madeira. *Revista Brasileira de Energias Renováveis*, v. 1, n. 3, p. 67-76, 2012.
 *   Zabihzadeh, S. M., Pilla, S., Wimmer, R., & Gindl-Altmutter, W. (2018). Influence of a vegetable-based polyurethane binder on the properties of natural fiber composites. *Polymers*, 10(2), 152.
+
+---
+
+## 6. Referências Bibliográficas e DOIs
+
+* **ABNT NBR 10833:2012.** *Fabricação de tijolo e bloco ecológico de solo-cimento.* Rio de Janeiro: ABNT, 2012.
+* **LEI Nº 15.042, DE 9 DE DEZEMBRO DE 2024.** *Institui o Sistema Brasileiro de Comércio de Emissões de Gases de Efeito Estufa (SBCE).* Brasil, 2024.
+* **TAKWARA, F. R.** *Biochar de biomassa e uso em cascata do bambu (Caderno 6).* Núcleo Takwara, 2026. DOI: [https://doi.org/10.5281/zenodo.21520005](https://doi.org/10.5281/zenodo.21520005).
+* **TAKWARA, F. R.** *Manual de Tijolos Ecológicos e Blocos Prensados com Adição de Biochar e Fibras de Bambu.* Núcleo Takwara, 2026. DOI: [https://doi.org/10.5281/zenodo.21520024](https://doi.org/10.5281/zenodo.21520024).

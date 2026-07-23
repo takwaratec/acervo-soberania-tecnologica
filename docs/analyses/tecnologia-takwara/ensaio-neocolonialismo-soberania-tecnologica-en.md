@@ -188,3 +188,11 @@ O bambu brasileiro pode nos libertar. Mas só se tivermos coragem de questionar 
 **A floresta em pé pode ser mais valiosa do que derrubada. Mas só se formos nós, brasileiros, a controlar e beneficiar dessa riqueza.**
 
 *Este artigo é fruto de uma investigação independente sobre as políticas públicas do setor de bambu no Brasil. As informações aqui apresentadas estão baseadas em fontes oficiais, pesquisas acadêmicas e documentos públicos. O jornalismo crítico e investigativo é essencial para a democracia e para a defesa da soberania nacional.*
+
+
+---
+
+## 5. References and DOIs
+
+* **TAKWARA, F. R.** *Caderno 7 — Soberania Tecnológica e Matriz Externa (Caderno 7).* Núcleo Takwara, 2026. DOI: [https://doi.org/10.5281/zenodo.21520009](https://doi.org/10.5281/zenodo.21520009).
+* **TAKWARA, F. R.** *O Bambu Brasileiro na Mira do Neocolonialismo: Dependência Tecnológica e Autonomia Territorial.* Núcleo Takwara, 2026. DOI: [https://doi.org/10.5281/zenodo.21520031](https://doi.org/10.5281/zenodo.21520031).
