@@ -9,6 +9,13 @@ responsavel_curadoria: Fabio Takwara
 
 Esta gaveta organiza referências sobre cadeias de biomassa, bioenergia, carbono, território e economia da sociobiodiversidade.
 
+## Síntese comparativa e cadernos publicados
+
+Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revisão Ecológica e Soberania Tecnológica**:
+
+- [Caderno 6 — Biochar de biomassa e uso em cascata do bambu: solo, carbono, energia e coprodutos](../visao-do-autor/caderno-06-biochar-pirolise-uso-cascata.md) | DOI: [10.5281/zenodo.21515443](https://doi.org/10.5281/zenodo.21515443)
+- [Caderno 7 — O ciclo que não termina no descarte: bambu, mamona e responsabilidade diante da crise planetária](../visao-do-autor/caderno-07-ciclo-fechado-crise-planetaria.md) | DOI: [10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567)
+
 ## Ficha em revisão documental
 
 - [Biochar como estratégia de emissões negativas — Matarru e Shin (2025)](ficha-biochar-negative-emissions-review.md)

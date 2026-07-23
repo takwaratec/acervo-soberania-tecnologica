@@ -2,6 +2,12 @@
 
 Este eixo reúne estudos sobre experiência dos moradores, reassentamento, qualidade de vida e adequação da moradia.
 
+## Síntese comparativa e cadernos publicados
+
+Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revisão Ecológica e Soberania Tecnológica**:
+
+- [Caderno 5 — Do componente conforme ao habitar: diagnóstico, ATHIS, adaptabilidade e avaliação pós-ocupação](../visao-do-autor/caderno-05-do-componente-ao-habitar.md) | DOI: [10.5281/zenodo.21515383](https://doi.org/10.5281/zenodo.21515383)
+
 ## Fichas em revisão documental
 
 - [Santos (2009) — percepção social no Conjunto Habitacional Vargem Grande](joyce-santos-2009.md)
