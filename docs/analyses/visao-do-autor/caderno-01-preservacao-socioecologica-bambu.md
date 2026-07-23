@@ -30,7 +30,6 @@ financiamento: Esta publicação foi preparada no âmbito de proposta de financi
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21514736.svg)](https://doi.org/10.5281/zenodo.21514736)
 [![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](caderno-01-preservacao-socioecologica-bambu-en.md)
-[![English PDF](https://img.shields.io/badge/PDF-English-red.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/raw/main/publicacoes-zenodo/caderno-01-zenodo-en.pdf)
 
 *DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736)*
 

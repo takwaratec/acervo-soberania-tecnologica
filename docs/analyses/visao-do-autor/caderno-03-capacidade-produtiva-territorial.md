@@ -25,7 +25,6 @@ responsavel_curadoria: Fabio Takwara
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21514991.svg)](https://doi.org/10.5281/zenodo.21514991)
 [![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](caderno-03-capacidade-produtiva-territorial-en.md)
-[![English PDF](https://img.shields.io/badge/PDF-English-red.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/raw/main/publicacoes-zenodo/caderno-03-zenodo-en.pdf)
 
 
 > **Estado editorial:** Edição pública candidata preparada para depósito. Ainda não possui DOI. O texto apresenta uma arquitetura de pesquisa analítica e conceitual (TRL-3) e uma agenda de validação experimental para implantação descentralizada. Não afirma que o portfólio autoral esteja validado, certificado, patenteado, transferido ou operando como sistema industrial. Parâmetros específicos, configurações de equipamentos e roteiros operacionais detalhados permanecem restritos aos planos de desenvolvimento de P&D.

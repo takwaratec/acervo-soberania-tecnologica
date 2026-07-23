@@ -25,7 +25,6 @@ responsavel_curadoria: Fabio Takwara
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515567.svg)](https://doi.org/10.5281/zenodo.21515567)
 [![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](caderno-07-ciclo-fechado-crise-planetaria-en.md)
-[![English PDF](https://img.shields.io/badge/PDF-English-red.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/raw/main/publicacoes-zenodo/caderno-07-zenodo-en.pdf)
 
 
 > **Estado editorial:** Edição pública preparada para depósito no Zenodo. O texto reúne evidências publicadas, conclusões delimitadas dos seis cadernos anteriores e proposições autorais. Não demonstra ciclo fechado, desempenho ambiental superior, remoção de carbono, segurança de coprodutos ou validação do sistema bambu–PU vegetal.
