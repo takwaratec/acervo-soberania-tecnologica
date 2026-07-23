@@ -7,8 +7,8 @@ autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2026
 versao: 1.0
-estado_documental: publicado-no-zenodo
-identificador: https://doi.org/10.5281/zenodo.21515657
+estado_documental: edicao-publica-preparada-para-deposito
+identificador: pendente-de-atribuicao
 licenca_texto: CC-BY-4.0
 metodo: modelagem-economico-financeira-por-cenarios
 data_revisao: 2026-07-23
@@ -22,12 +22,6 @@ responsavel_curadoria: Fabio Takwara
 **Fabio Takwara**  
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
 *Instrumento complementar aos Cadernos de Revisão Ecológica e Soberania Tecnológica, Anexo 1 — versão 1.0, 23 jul. 2026*  
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515657.svg)](https://doi.org/10.5281/zenodo.21515657)
-[![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/blob/main/publicacoes-zenodo/anexo-01-zenodo-en.md)
-[![English PDF](https://img.shields.io/badge/PDF-English-red.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/raw/main/publicacoes-zenodo/anexo-01-zenodo-en.pdf)
-[![Model XLSX](https://img.shields.io/badge/Excel-Modelo_v0.1-green.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/raw/main/outputs/curadoria-cadernos-2026-07-22/modelo-viabilidade-economica-territorial-v0.1.xlsx)
-
 
 > **Estado editorial:** Edição pública preparada para depósito no Zenodo. Modelo metodológico sem dados de empreendimento. Não contém preços, demanda, produtividade, financiamento ou rentabilidade presumidos. Seu preenchimento não constitui recomendação de investimento, autorização para contrair dívida, garantia de mercado ou validação técnica de produto, equipamento ou processo.
 
@@ -251,4 +245,4 @@ O objetivo da modelagem não é provar que a proposta “fecha a conta”. É re
 
 ### Forma de citação
 
-TAKWARA, Fabio. *Matriz de viabilidade econômica e continuidade territorial: instrumento preenchível para pesquisa e pilotos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, Anexo 1, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21515657](https://doi.org/10.5281/zenodo.21515657).
+TAKWARA, Fabio. *Matriz de viabilidade econômica e continuidade territorial: instrumento preenchível para pesquisa e pilotos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, Anexo 1, versão 1.0, 23 jul. 2026. DOI pendente de atribuição.
