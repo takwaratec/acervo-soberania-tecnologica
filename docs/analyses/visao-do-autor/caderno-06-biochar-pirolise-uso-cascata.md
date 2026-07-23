@@ -25,7 +25,6 @@ responsavel_curadoria: Fabio Takwara
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515443.svg)](https://doi.org/10.5281/zenodo.21515443)
 [![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](caderno-06-biochar-pirolise-uso-cascata-en.md)
-[![English PDF](https://img.shields.io/badge/PDF-English-red.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/raw/main/publicacoes-zenodo/caderno-06-zenodo-en.pdf)
 
 
 > **Estado editorial:** Edição pública preparada para depósito no Zenodo. O texto organiza hipóteses e requisitos para pesquisa; não certifica biochar, fertilizante, condicionador de solo, combustível, remoção de carbono, reator ou coproduto e não autoriza aplicação agrícola ou operação térmica sem caracterização e responsabilidade competentes.

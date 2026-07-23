@@ -25,7 +25,6 @@ responsavel_curadoria: Fabio Takwara
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515361.svg)](https://doi.org/10.5281/zenodo.21515361)
 [![English Version](https://img.shields.io/badge/Language-English_v1.1-blue.svg)](caderno-04-prototipo-conformidade-normas-ensaios-en.md)
-[![English PDF](https://img.shields.io/badge/PDF-English-red.svg)](https://github.com/takwaratec/acervo-soberania-tecnologica/raw/main/publicacoes-zenodo/caderno-04-zenodo-en.pdf)
 
 
 > **Estado editorial:** Edição pública preparada para depósito no Zenodo. O texto organiza uma rota de investigação e conformidade; não constitui projeto estrutural, parecer jurídico, certificação, Documento de Avaliação Técnica, ART, RRT ou autorização de uso.
