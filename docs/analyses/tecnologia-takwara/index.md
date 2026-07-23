@@ -4,8 +4,8 @@ Esta gaveta reúne manuais técnicos, boletins autoral-científicos e memoriais 
 
 ## Manuais e Boletins Técnicos Autorais
 
-- [Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa](manual-bioeconomia-comunitaria-bambu.md) | Guia prático de governança, inventário comunitário, estruturas geodésicas e industrialização regional.
-- [Fitorremediação e Mercados de Carbono: O Bambu como Engenheiro Ecológico](manual-fitorremediacao-solos-degradados-bambu.md) | Guia de regeneração de solos degradados, fitoestabilização de metais pesados, biochar (VERRA VM0044) e Plan Vivo.
+- [Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa (v2.2)](manual-bioeconomia-comunitaria-bambu.md) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515712.svg)](https://doi.org/10.5281/zenodo.21515712)
+- [Fitorremediação e Mercados de Carbono: O Bambu como Engenheiro Ecológico (v2.2)](manual-fitorremediacao-solos-degradados-bambu.md) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515728.svg)](https://doi.org/10.5281/zenodo.21515728)
 
 ---
 tipo_documental: indice
