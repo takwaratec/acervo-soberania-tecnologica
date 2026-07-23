@@ -31,7 +31,7 @@ identificador: https://doi.org/10.5281/zenodo.21516722
 > **Declaração de Nível de Maturidade Tecnológica (TRL 3-4):** Em estrito respeito às normas de governança documental do Acervo, declara-se que as formulações apresentadas neste manual referem-se a ensaios de prototipagem em escala de laboratório/bancada. O produto final requer a homologação dos ensaios normativos de compressão (FICHA E-05 / ABNT NBR 8492), inércia térmica e reação ao fogo (FICHA E-10 / ABNT NBR 9442) descritos no Caderno 2 Versão ICT antes de qualquer aplicação industrial.
 
 author:
-- affiliation: Universidade de Brasília / Núcleo Takwara
+- affiliation: Núcleo Takwara
   name: Takwara, Fabio Resck
   orcid: 0000-0001-8815-3885
 date: '2026-03-05'
@@ -194,7 +194,7 @@ Embora desafios técnicos, de mercado e de infraestrutura precisem ser cuidadosa
 ## Como Citar
 
 **APA:**
-Takwara, F. R. (2026). *Tijolos Ecológicos de Biomassa e Poliuretano Vegetal: Biotecnologia Habitacional* (Versão 2.1). Boletim Técnico-Científico — Núcleo Takwara / Universidade de Brasília. https://doi.org/https://doi.org/10.5281/zenodo.21516722
+Takwara, F. R. (2026). *Tijolos Ecológicos de Biomassa e Poliuretano Vegetal: Biotecnologia Habitacional* (Versão 2.1). Boletim Técnico-Científico — Núcleo Takwara. https://doi.org/https://doi.org/10.5281/zenodo.21516722
 
 ---
 **🎋 Takwara — Sustainable Technology and Sovereignty in the Amazon**

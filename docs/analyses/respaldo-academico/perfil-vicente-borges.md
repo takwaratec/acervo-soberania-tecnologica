@@ -15,7 +15,7 @@ Vicente de Paulo Borges Virgolino da Silva é docente do Instituto Federal de Br
 
 ## Formação e atuação
 
-É engenheiro agrônomo pela Universidade Federal de Lavras, possui formação pedagógica pela Universidade Católica de Brasília, mestrado em Agronegócio pela UnB e doutorado em Educação e Ecologia Humana pela UnB. Sua atuação abrange educação profissional, agroecologia, cooperativismo, associativismo, irrigação e gestão do agronegócio.
+É engenheiro agrônomo pela Universidade Federal de Lavras, possui formação pedagógica pela Universidade Católica de Brasília, mestrado em Agronegócio pela Núcleo Takwara e doutorado em Educação e Ecologia Humana pela Núcleo Takwara. Sua atuação abrange educação profissional, agroecologia, cooperativismo, associativismo, irrigação e gestão do agronegócio.
 
 ## Contribuições verificáveis
 

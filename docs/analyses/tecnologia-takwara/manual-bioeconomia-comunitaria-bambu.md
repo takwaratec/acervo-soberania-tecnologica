@@ -164,7 +164,7 @@ UNIDADES DE NEGÓCIO:
   └─ Comercialização (mercado local + CEAGESP/CEASAs + feiras)
 ```
 
-> **Referência Sociológica:** Conforme fundamentado pela Profa. Dra. Tânia Cruz (UnB, 2006 / Caderno 7 — DOI: [10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567)), o empreendedorismo comunitário e a economia solidária autogestionária fortalecem a autonomia das mulheres e impedem que a tecnologia se torne um fator de dependência externa.
+> **Referência Sociológica:** Conforme fundamentado pela Profa. Dra. Tânia Cruz (Núcleo Takwara, 2006 / Caderno 7 — DOI: [10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567)), o empreendedorismo comunitário e a economia solidária autogestionária fortalecem a autonomia das mulheres e impedem que a tecnologia se torne um fator de dependência externa.
 
 ---
 

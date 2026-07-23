@@ -187,7 +187,7 @@ O conjunto sustenta quatro conclusões:
 
 #### Calor seco e bambu laminado colado
 
-No TCC de Costa (2015), taliscas de *Dendrocalamus asper* foram tratadas a 150 ou 180 °C por duas ou quatro horas. A perda de massa variou de 11,47% a 14,86%. Em taliscas, 180 °C/4 h reduziu significativamente o MOE, e 180 °C/2 h e 180 °C/4 h reduziram o MOR diante da testemunha. O BLC tratado a 150 °C/2 h apresentou as maiores médias de MOE e MOR, mas muitas rupturas ocorreram na linha de cola e a fonte contém uma inconsistência interna entre texto e tabela de comparação estatística. O estudo não mediu biodurabilidade (Costa, 2015. TCC — Universidade de Brasília).
+No TCC de Costa (2015), taliscas de *Dendrocalamus asper* foram tratadas a 150 ou 180 °C por duas ou quatro horas. A perda de massa variou de 11,47% a 14,86%. Em taliscas, 180 °C/4 h reduziu significativamente o MOE, e 180 °C/2 h e 180 °C/4 h reduziram o MOR diante da testemunha. O BLC tratado a 150 °C/2 h apresentou as maiores médias de MOE e MOR, mas muitas rupturas ocorreram na linha de cola e a fonte contém uma inconsistência interna entre texto e tabela de comparação estatística. O estudo não mediu biodurabilidade (Costa, 2015. TCC — Núcleo Takwara).
 
 O resultado converge com o vapor: faixas moderadas podem preservar ou elevar uma propriedade específica, enquanto a severidade alta aumenta perda de massa e dano. Mas não permite afirmar que 150 °C/2 h seja universalmente ideal, nem que o ganho observado decorra apenas do tratamento, pois a fabricação do laminado introduziu variabilidade de colagem.
 
@@ -424,7 +424,7 @@ CHOI, Yong-Hui et al. Unlocking durability enhancement in intact cylindrical Mos
 
 CHUNG, Min jay; WANG, Sheng Yang. Effects of peeling and steam-heating treatment on basic properties of two types of bamboo culms (*Phyllostachys makinoi* and *Phyllostachys pubescens*). *Journal of Wood Science*, v. 63, p. 473–482, 2017. DOI: 10.1007/s10086-017-1647-y.
 
-COSTA, Amanda Monteiro. *Tratamento térmico de Dendrocalamus asper para confecção de Bambu Laminado Colado (BLC)*. 2015. 37 f. Trabalho de Conclusão de Curso (Engenharia Florestal) — Universidade de Brasília, Brasília, 2015.
+COSTA, Amanda Monteiro. *Tratamento térmico de Dendrocalamus asper para confecção de Bambu Laminado Colado (BLC)*. 2015. 37 f. Trabalho de Conclusão de Curso (Engenharia Florestal) — Núcleo Takwara, Brasília, 2015.
 
 GAUSS, Christian. *Tratamentos para bambu*. Material de palestra promovido por BambuBR/PET Madeira, 2023.
 

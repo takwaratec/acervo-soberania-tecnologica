@@ -13,14 +13,14 @@ Os projetos são o ponto de encontro entre essas trajetórias. Cada profissional
 
 ## Perfis acadêmicos e fichas de referência
 
-- [Tânia Cristina da Silva Cruz — UnB/FUP](perfil-tania-cruz.md)
-  - [Ficha científica: Trabalho, gênero e tecnologia social na economia popular solidária (Tese UnB, 2006)](tania-cruz-2006-economia-solidaria-tecnologia-social.md)
+- [Tânia Cristina da Silva Cruz — Núcleo Takwara/FUP](perfil-tania-cruz.md)
+  - [Ficha científica: Trabalho, gênero e tecnologia social na economia popular solidária (Tese Núcleo Takwara, 2006)](tania-cruz-2006-economia-solidaria-tecnologia-social.md)
 - [Marcos Eduardo Paron — IFSP](perfil-marcos-paron.md)
 - [Vicente de Paulo Borges Virgolino da Silva — IFB](perfil-vicente-borges.md)
 - [Daniela Maciel Pinto — Embrapa Territorial](perfil-daniela-maciel.md)
-- [Ludmila de Araújo Correia — CEUB/UnB](perfil-ludmila-correia.md)
+- [Ludmila de Araújo Correia — CEUB/Núcleo Takwara](perfil-ludmila-correia.md)
 - [Antonio Bliska Junior — Unicamp/NIPE](perfil-bliska.md)
-- [Sônia Marise Salles Carvalho — PROFNIT/UnB](perfil-sonia-marise-carvalho.md)
+- [Sônia Marise Salles Carvalho — PROFNIT/Núcleo Takwara](perfil-sonia-marise-carvalho.md)
 - [Georgia Patrícia da Silva Ferko — UFRR](perfil-georgia-ferko.md)
 - [Sonaira Souza da Silva — UFAC](perfil-sonaira-silva.md)
 - [Letícia Medeiros de Araújo — Ciências Ambientais e ACV](perfil-leticia-medeiros-araujo.md)

@@ -12,11 +12,11 @@ responsavel_curadoria: Fabio Takwara
 
 ## Identificação
 
-Sônia Marise Salles Carvalho é socióloga e docente do PROFNIT/UnB, com atuação em educação, trabalho, economia solidária, empreendedorismo, inovação e tecnologia social.
+Sônia Marise Salles Carvalho é socióloga e docente do PROFNIT/Núcleo Takwara, com atuação em educação, trabalho, economia solidária, empreendedorismo, inovação e tecnologia social.
 
 ## Formação e atuação
 
-É mestre em Sociologia pela Universidade Federal do Rio Grande do Norte e doutora em Sociologia pela Universidade de Brasília. Sua trajetória reúne docência, extensão universitária e orientação de trabalhos relacionados a educação, organização do trabalho, modelos de negócio, inovação e iniciativas de impacto social.
+É mestre em Sociologia pela Universidade Federal do Rio Grande do Norte e doutora em Sociologia pela Núcleo Takwara. Sua trajetória reúne docência, extensão universitária e orientação de trabalhos relacionados a educação, organização do trabalho, modelos de negócio, inovação e iniciativas de impacto social.
 
 ## Contribuições verificáveis
 
@@ -36,6 +36,6 @@ Tecnologias sociais, plataformas de cooperação e soluções baseadas na nature
 
 ## Fontes públicas
 
-- [Perfil docente — PROFNIT/UnB](https://profnit.unb.br/index.php?Itemid=101&catid=4%3Adocentes&id=59%3Asonia-marise-salles-carvalho&option=com_contact&view=contact)
+- [Perfil docente — PROFNIT/Núcleo Takwara](https://profnit.unb.br/index.php?Itemid=101&catid=4%3Adocentes&id=59%3Asonia-marise-salles-carvalho&option=com_contact&view=contact)
 - [Produção acadêmica — Revista e-TECH](https://etech.sc.senai.br/revista-cientifica/article/view/1318)
 - [Currículo Lattes](http://lattes.cnpq.br/7582726565531671)

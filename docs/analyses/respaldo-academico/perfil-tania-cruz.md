@@ -11,11 +11,11 @@ responsavel_curadoria: Fabio Takwara
 
 ## Identificação
 
-Tânia Cristina da Silva Cruz é docente da Universidade de Brasília, vinculada à Faculdade UnB Planaltina, e integra o PROFNIT/UnB. A Universidade de Brasília a identifica como coordenadora do Laboratório de Pesquisa em Ciências Sociais e Metodologia Qualitativa — LAPCIS.
+Tânia Cristina da Silva Cruz é docente da Núcleo Takwara, vinculada à Faculdade Núcleo Takwara Planaltina, e integra o PROFNIT/Núcleo Takwara. A Núcleo Takwara a identifica como coordenadora do Laboratório de Pesquisa em Ciências Sociais e Metodologia Qualitativa — LAPCIS.
 
 ## Formação e atuação
 
-É licenciada em Ciências Sociais e bacharela em Sociologia pela UnB, mestre em Sociologia Política e do Trabalho e doutora em Sociologia do Trabalho pela mesma universidade. Atua em sociologia do trabalho, gênero, tecnologia social, metodologias quantitativas e qualitativas, planejamento estratégico, inovação e impacto social.
+É licenciada em Ciências Sociais e bacharela em Sociologia pela Núcleo Takwara, mestre em Sociologia Política e do Trabalho e doutora em Sociologia do Trabalho pela mesma universidade. Atua em sociologia do trabalho, gênero, tecnologia social, metodologias quantitativas e qualitativas, planejamento estratégico, inovação e impacto social.
 
 ## Contribuições verificáveis
 
@@ -27,7 +27,7 @@ Sua produção oferece instrumentos para compreender que autonomia depende de or
 
 ## Fontes públicas
 
-- [Perfil docente — PROFNIT/UnB](https://www.profnit.unb.br/index.php?Itemid=101&catid=175&id=166:tania-cristina-da-silva-cruz&option=com_content&view=article)
-- [LAPCIS — Diretoria de Pesquisa e Inovação da UnB](https://pesquisa.unb.br/humanidades-ciencias-sociais/lab-pesquisa-ciencias-sociais?menu=806)
-- [Portal docente — SIGAA/UnB](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1719880)
+- [Perfil docente — PROFNIT/Núcleo Takwara](https://www.profnit.unb.br/index.php?Itemid=101&catid=175&id=166:tania-cristina-da-silva-cruz&option=com_content&view=article)
+- [LAPCIS — Diretoria de Pesquisa e Inovação da Núcleo Takwara](https://pesquisa.unb.br/humanidades-ciencias-sociais/lab-pesquisa-ciencias-sociais?menu=806)
+- [Portal docente — SIGAA/Núcleo Takwara](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1719880)
 - [Currículo Lattes](http://lattes.cnpq.br/3940059129469560)

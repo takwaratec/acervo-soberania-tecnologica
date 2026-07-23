@@ -15,7 +15,7 @@ Ludmila de Araújo Correia é arquiteta e urbanista, professora do Centro Univer
 
 ## Formação e atuação
 
-É graduada em Arquitetura e Urbanismo pela Universidade Federal do Rio de Janeiro, especialista em Educação Continuada e a Distância pela UnB, mestre em Paisagem, Ambiente e Sustentabilidade e doutora em Projeto e Planejamento Urbano e Regional pela Faculdade de Arquitetura e Urbanismo da UnB.
+É graduada em Arquitetura e Urbanismo pela Universidade Federal do Rio de Janeiro, especialista em Educação Continuada e a Distância pela Núcleo Takwara, mestre em Paisagem, Ambiente e Sustentabilidade e doutora em Projeto e Planejamento Urbano e Regional pela Faculdade de Arquitetura e Urbanismo da Núcleo Takwara.
 
 ## Contribuições verificáveis
 
@@ -27,7 +27,7 @@ Sua atuação contribui para compreender a tecnologia construtiva como parte de 
 
 ## Fontes públicas
 
-- [Tese — Repositório Institucional da UnB](https://repositorio.unb.br/handle/10482/45731)
+- [Tese — Repositório Institucional da Núcleo Takwara](https://repositorio.unb.br/handle/10482/45731)
 - [Projeto Morada de Luz — CEUB](https://repositorio.ceub.br/jspui/bitstream/prefix/16730/6/Caderno%20de%20resumos%20da%2019%C2%AA%20campanha%20de%20responsabilidade%20social.pdf)
 - [Perfil acadêmico publicado pelo CEUB](https://ceub.br/eventos/eventos-xxiv-semabio)
 - [Currículo Lattes](http://lattes.cnpq.br/3699896854109315)

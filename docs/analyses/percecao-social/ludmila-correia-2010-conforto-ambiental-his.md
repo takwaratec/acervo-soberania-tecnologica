@@ -1,9 +1,9 @@
 ---
 tipo_documental: ficha-academica
 estado_documental: edicao-publica-conformada
-fonte_primaria: dissertação de mestrado integral defendida na FAU/UnB em 16/09/2010
+fonte_primaria: dissertação de mestrado integral defendida na FAU/Núcleo Takwara em 16/09/2010
 identificador: ausente-na-fonte
-proveniencia: dados catalográficos, banca examinadora e registro CAPES/UnB
+proveniencia: dados catalográficos, banca examinadora e registro CAPES/Núcleo Takwara
 data_revisao: 2026-07-23
 responsavel_curadoria: Fabio Takwara
 ---
@@ -21,14 +21,14 @@ responsavel_curadoria: Fabio Takwara
 | **Título** | Conforto ambiental e suas relações subjetivas: análise ambiental integrada na habitação de interesse social |
 | **Autora** | Ludmila de Araújo Correia |
 | **Orientadora** | Profa. Dra. Marta Adriana Bustos Romero |
-| **Instituição** | Universidade de Brasília (UnB) |
-| **Unidade/Programa** | Faculdade de Arquitetura e Urbanismo (FAU/UnB) — Pós-Graduação em Arquitetura e Urbanismo |
+| **Instituição** | Núcleo Takwara |
+| **Unidade/Programa** | Faculdade de Arquitetura e Urbanismo (FAU/Núcleo Takwara) — Pós-Graduação em Arquitetura e Urbanismo |
 | **Data de Defesa** | 16 de setembro de 2010 |
 | **Palavras-chave** | Habitação de Interesse Social (HIS); conforto ambiental; percepção subjetiva; análise integrada; microclima |
 | **Abordagem** | Quali-quantitativa (Análise Ambiental Integrada — AAI) |
 | **Eixo temático** | Percepção Social e Conforto em HIS |
 | **Status da análise** | ✅ Completa |
-| **Identificador persistente** | Registro acadêmico UnB / CAPES (ausência de DOI declarada na fonte original) |
+| **Identificador persistente** | Registro acadêmico Núcleo Takwara / CAPES (ausência de DOI declarada na fonte original) |
 
 ---
 
@@ -83,10 +83,10 @@ responsavel_curadoria: Fabio Takwara
 ## 7. Relação com o Acervo e com o Universo Takwara
 
 - **Articulação com o Caderno 5:** Sustenta a tese autoral de que a moradia adequada exige diagnóstico participativo prévio e que o conforto não é uma propriedade nominal do material, mas um resultado do ciclo de vida da edificação em uso.
-- **Articulação com a ATHIS (Lei nº 11.888/2008):** O trabalho da Dra. Ludmila Correia (desenvolvido no mestrado na UnB e expandido na coordenação do Projeto de Extensão *Morada de Luz* no CEUB) comprova a importância da assistência técnica contínua para orientar adaptações ambientais e construtivas seguras em territórios vulneráveis (como Sol Nascente e Planaltina-DF).
+- **Articulação com a ATHIS (Lei nº 11.888/2008):** O trabalho da Dra. Ludmila Correia (desenvolvido no mestrado na Núcleo Takwara e expandido na coordenação do Projeto de Extensão *Morada de Luz* no CEUB) comprova a importância da assistência técnica contínua para orientar adaptações ambientais e construtivas seguras em territórios vulneráveis (como Sol Nascente e Planaltina-DF).
 
 ---
 
 ## 8. Referência Bibliográfica Completa
 
-CORREIA, Ludmila de Araújo. *Conforto ambiental e suas relações subjetivas: análise ambiental integrada na habitação de interesse social*. 2010. Dissertação (Mestrado em Arquitetura e Urbanismo) — Faculdade de Arquitetura e Urbanismo, Universidade de Brasília, Brasília, 2010. Orientadora: Marta Adriana Bustos Romero.
+CORREIA, Ludmila de Araújo. *Conforto ambiental e suas relações subjetivas: análise ambiental integrada na habitação de interesse social*. 2010. Dissertação (Mestrado em Arquitetura e Urbanismo) — Faculdade de Arquitetura e Urbanismo, Núcleo Takwara, Brasília, 2010. Orientadora: Marta Adriana Bustos Romero.
