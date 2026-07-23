@@ -89,6 +89,11 @@ nav:
   - Análises: analyses/index.md
   - Bambu estrutural:
       - Visão geral: analyses/bambu-estrutural/index.md
+      - Fichas Científicas Auditadas:
+          - ACV Bambu Artesanal no Acre (Araujo et al. 2025): analyses/bambu-estrutural/araujo-2025-acv-bambu-artesanal-acre.md
+          - Propriedades e Tratamentos (Adier et al. 2023): analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md
+          - Tratamento Térmico a Vapor (Wang et al. 2020): analyses/bambu-estrutural/wang-2020-tratamento-termico-vapor-bambu.md
+          - Preservação por Ácido Pirolenhoso (Silva 2011): analyses/bambu-estrutural/silva-2011-conservacao-bambu-acido-pirolenhoso.md
       - Painéis laminados de bambu: analyses/bambu-estrutural/rusch-2019-paineis-bambu-laminado.md
       - Bambu laminado colado no Paraná: analyses/bambu-estrutural/reghin-2018-bambu-laminado-colado.md
       - Normas internacionais de bambu: analyses/bambu-estrutural/marcal-2018-normas-internacionais-bambu.md
@@ -191,6 +196,9 @@ nav:
       - Memorial de Equipamentos e BoM:
           - Português (PT-BR): analyses/tecnologia-takwara/memorial-equipamentos-pirolise-bambu.md
           - English (EN): analyses/tecnologia-takwara/memorial-equipamentos-pirolise-bambu-en.md
+      - Bambu Sem Manejo e Riscos de Toxicidade:
+          - Português (PT-BR): analyses/tecnologia-takwara/ensaio-bambu-sem-manejo-riscos-regulacao.md
+          - English (EN): analyses/tecnologia-takwara/ensaio-bambu-sem-manejo-riscos-regulacao-en.md
   - Visão autoral:
       - Visão geral: analyses/visao-do-autor/index.md
       - Caderno 1 — Preservação Socioecológica:

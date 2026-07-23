@@ -19,3 +19,5 @@ responsavel_curadoria: Fabio Takwara
 - [Tijolos Ecológicos e Blocos Prensados com Biochar (v1.0)](manual-tijolos-ecologicos-biochar.md) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21516722.svg)](https://doi.org/10.5281/zenodo.21516722) [![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](manual-tijolos-ecologicos-biochar-en.md)
 
 - [Memorial de Engenharia Industrial e BoM de Equipamentos (v1.0)](memorial-equipamentos-pirolise-bambu.md) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21516766.svg)](https://doi.org/10.5281/zenodo.21516766) [![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](memorial-equipamentos-pirolise-bambu-en.md)
+
+- [Bambu Sem Manejo e Riscos de Toxicidade (v1.0)](ensaio-bambu-sem-manejo-riscos-regulacao.md) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21516897.svg)](https://doi.org/10.5281/zenodo.21516897) [![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](ensaio-bambu-sem-manejo-riscos-regulacao-en.md)
