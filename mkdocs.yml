@@ -68,7 +68,6 @@ plugins:
         'sobre-o-autor/POL_neotropical-bamboo-review-2024.md': 'analyses/bambu-estrutural/neotropical-bamboo-review-2024.md'
 
 exclude_docs: |
-  cadernos-revisao-ecologica/
   analyses/tecnologia-takwara/
 
 nav:
