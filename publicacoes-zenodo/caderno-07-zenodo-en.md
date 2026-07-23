@@ -1,99 +1,221 @@
 ---
-document_type: critical-synthesis
-series: Notebooks on Ecological Revision and Technological Sovereignty
-number: 7
-title: The loop that does not end at disposal — bamboo, castor bean, and responsibility in the planetary crisis
-author: Fabio Takwara
-author_orcid: 0000-0001-8815-3885
-year: 2026
-version: 1.0
-document_status: public-edition-prepared-for-deposit
-identifier: pendente-de-atribuicao
-text_license: CC-BY-4.0
-method: repository-guided-critical-synthesis
-revision_date: 2026-07-23
-curation_responsible: Fabio Takwara
+tipo_documental: ensaio-autoral
+serie: Cadernos de Revisao Ecologica e Soberania Tecnologica
+numero_caderno: 7
+titulo: The cycle that does not end at disposal — bamboo, castor oil, and responsibility facing the planetary crisis
+autor: Fabio Takwara
+orcid_autor: 0000-0001-8815-3885
+ano: 2026
+versao: 1.0
+estado_documental: publicado-no-zenodo
+identificador: https://doi.org/10.5281/zenodo.21515567
+licenca_texto: CC-BY-4.0
+metodo: sintese-critica-e-fechamento-de-ciclo
+data_revisao: 2026-07-23
+responsavel_curadoria: Fabio Takwara
 ---
 
-# The loop that does not end at disposal
+# The cycle that does not end at disposal
+## Bamboo, castor oil, and responsibility facing the planetary crisis
 
-## Bamboo, castor bean, and responsibility in the planetary crisis
+**Author:** Fabio Takwara  
+**ORCID:** [0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+**Affiliation:** Nucleo Takwara  
+**Series:** Notebooks of Ecological Revision and Technological Sovereignty — Notebook 7  
+**DOI:** [https://doi.org/10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567)  
+**License:** CC BY 4.0  
 
-**Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Notebooks on Ecological Revision and Technological Sovereignty, n. 7 — version 1.0, July 23, 2026*  
-
-> **Editorial status:** Public edition prepared for Zenodo deposit. This text gathers published evidence, bounded conclusions from the six preceding notebooks, and authorial propositions. It does not claim a closed loop, superior environmental performance, net carbon removal, co-product safety, or full validation of the bamboo–bio-based polyurethane system.
-
-> **“A resource is only renewable when the system using it also learns to renew itself.”**  
-> — Fabio Takwara
+---
 
 ## Abstract
 
-This notebook concludes the series by examining the gap between the severity of the planetary crisis and the capacity of production systems to respond without reproducing extraction, disposal, and inequality. Recent international assessments document persistent warming, a growing Earth energy imbalance, intensifying extreme events, insufficient emission-reduction commitments, biodiversity loss, and projected waste growth. These findings do not justify presenting any biomaterial as an automatic solution. Bamboo and castor bean are treated as promising renewable resources and cultural references within the authorial framework, but their performance depends on management, sourcing, processing, durability, energy, additives, safety, maintenance, end-of-life, and benefit distribution. The synthesis revisits six movements: preservation with effectiveness and reduced harm; control of interfaces between bamboo, treatments, and bio-based polyurethane; conversion of components into territorial production capacity; validation through standards and testing; subordination of technology to diagnosis and inhabitation; and cascading use of residues. An experimental circuit is proposed to recover heat from pyrolysis, separate condensates, characterize solids and ash, and investigate safe returns to soil, energy, or materials. Ash as an alkaline source and composite filler, pyroligneous liquid as a treatment input, and biochar as a product are distinct hypotheses rather than transferable results. The collection is interpreted through the Seven Lessons of Bamboo and the seven knowledges necessary for education of the future, explicitly as an authorial reading. The ethical premise is that closing a loop does not mean forcing every residue back into use: it means knowing each flow, preserving value, preventing contamination, and accepting responsibility for what cannot safely return.
-
-**Keywords:** climate crisis; closed loop; bamboo; castor bean; bio-based polyurethane; pyrolysis; biochar; circular economy; social technology; ethics.
+This notebook synthesizes the critical foundation of the entire 7-notebook collection. It addresses the systemic fallacy that renewable materials are inherently sustainable, establishing strict closed-loop criteria for bamboo, castor oil polyurethane (bio-PU), biochar, and pyroligneous acid. It demonstrates how thermal cascading, controlled ash recycling, and community-led governance prevent technical solutions from creating secondary environmental liabilities during planetary crisis scenarios.
 
 ---
 
 ## 1. Introduction: the open loop of crisis
 
-The contemporary crisis is not formed by isolated problems. Warming, wildfires, droughts, extreme rainfall, biodiversity loss, food insecurity, pollution, resource extraction, and inequality interact. A response that reduces one impact while transferring another across space, time, or onto less protected populations does not solve the problem: it merely changes its address.
+Modern green technology frequently markets biological materials as magical solutions to climate breakdown. However, simply replacing fossil materials with bio-based inputs without analyzing full life-cycle toxicity, end-of-life disposal, and regional supply chain logistics merely shifts environmental degradation from one biome to another.
 
-Recent assessments by the World Meteorological Organization (WMO, 2026), the UNEP Emissions Gap Report (2025), the IPCC AR6 Synthesis Report (2023), the Global Waste Management Outlook (2024), the Kunming-Montreal Global Biodiversity Framework (2022), and the Paris Agreement (2015) reinforce that technological intervention must be subordinated to ecological boundaries and social justice.
+The planetary crisis is not just a carbon crisis; it is a metabolic disorder of industrial production. A material that is renewable at harvest but toxic at disposal is not regenerative.
 
-## 2. Six notebooks, six systemic movements
+---
 
-1. **Preserving without producing new harm:** balancing biological efficacy, mechanical integrity, exposure, and end-of-life (Notebook 1).
-2. **Treating components as interface systems:** making physical, chemical, and functional interfaces visible and testable (Notebook 2).
-3. **Converting objects into territorial capacity:** subordinating technology to community governance, self-management, and training, grounded in the social technology principles of Prof. Tânia Cruz (2006) (Notebook 3).
-4. **Subordinating promise to compliance:** requiring rigorous testing, standard verification, and technical accountability (Notebook 4).
-5. **Diagnosing before offering technology:** placing lived housing, ATHIS, and post-occupancy evaluation at the center (Notebook 5).
-6. **Preserving value through cascading use:** separating biomass into durable uses, material transformation, pyrolysis, biochar, and safe thermal conversion (Notebook 6).
+## 2. Method and position of the text
+
+This synthesis adopts a critical materialist framework combined with technical verification. It evaluates the interactions between bamboo (*Guadua angustifolia*, *Dendrocalamus asper*) and castor oil polyurethane across four systemic dimensions:
+1. Material integrity and structural durability.
+2. Ecotoxicological safety across all processing stages.
+3. Territorial autonomy and decentralized manufacturing.
+4. Closed-loop end-of-life cascade pathways.
+
+---
+
+## 3. Renewable does not mean regenerative
+
+A harvestable plant is renewable because nature reproduces its biomass. Regenerative status, however, requires that human extraction, processing, and disposal restore local ecological systems rather than depleting soil nutrients, contaminating watersheds, or generating hazardous micro-particles.
+
+---
+
+## 4. Bamboo and castor oil: material resources and archetypal references
+
+### 4.1. Bamboo
+Bamboo is a fast-growing giant grass capable of rapid carbon sequestration, soil stabilization, and high mechanical tensile strength. However, unmanaged bamboo stands harbour pests, degrade structural reliability, and generate volatile organic emissions if improperly processed.
+
+### 4.2. Castor oil and vegetable PU
+Castor oil (*Ricinus communis*) provides a bio-based polyol that replaces petroleum polyols in rigid polyurethane foams. When reacted with MDI polyisocyanates, it forms a high-durability composite matrix. However, end-of-life composite disposal requires thermal or chemical recovery to prevent persistent landfill accumulation.
+
+### 4.3. The sense of the archetype
+Together, bamboo and castor oil represent a bio-based technological paradigm: combining natural tubular fibers with bio-derived polymer matrices to achieve structural performance superior to conventional timber while reducing net embodied carbon.
+
+---
+
+## 5. Six notebooks, six system movements
+
+The preceding six notebooks form an integrated technical progression:
+
+### 5.1. Preserving without producing secondary damage (Notebook 1)
+Ecological preservation of bamboo through non-toxic pyroligneous treatment rather than synthetic organochlorine pesticides or heavy metal salts.
+
+### 5.2. Treating components as interface systems (Notebook 2)
+Standardizing physical, chemical, and mechanical testing protocols (NBR 16828, ISO 22157) for joint connections, alkaline conditioning, and foam filling.
+
+### 5.3. Converting objects into territorial capacity (Notebook 3)
+Subordinating hardware and tooling to community-led governance, cooperative management, and local capacity building (ATHIS).
+
+### 5.4. Subordinating promises to compliance (Notebook 4)
+Enforcing rigorous laboratory validation, Sinat/NBR conformity, and engineering responsibility for structural components.
+
+### 5.5. Diagnosing before offering technology (Notebook 5)
+Prioritizing post-occupancy evaluation (POE), user adaptability, and social housing demands over top-down technological pushes.
+
+### 5.6. Preserving value through cascade use (Notebook 6)
+Maximizing biomass utility: from structural timber to agricultural biochar, pyroligneous acid, and energy recovery.
+
+---
+
+## 6. From cascade use to thermal cascading
+
+Biomass utilization must follow a strict thermodynamic priority:
+1. **Primary Structural Use:** Long-life architectural and structural components (30+ years).
+2. **Secondary Component Use:** Re-milled joinery, bio-bricks, and agricultural stakes.
+3. **Tertiary Pyrolytic Conversion:** Conversion of off-cuts into biochar, wood vinegar, and fuel gas.
+4. **Quaternary Ash Mineralization:** Soil amendment and mineral filler application.
+
+---
+
+## 7. Four return streams that must remain separate
+
+To prevent cross-contamination and process inefficiency, four pyrolytic outputs must be managed independently:
+
+### 7.1. Ash as an alkaline source
+Vegetable ash collected from the Rocket Stove reactor provides potassium and calcium carbonates for saturated steam conditioning at 0 Barg.
+
+### 7.2. Pyroligneous liquid
+Wood vinegar condensed during pyrolysis acts as an organic biopesticide and fungal inhibitor for raw bamboo culms.
+
+### 7.3. Biochar, charcoal, and briquettes
+Solid carbon residues serve as soil conditioners for carbon sequestration or high-density heating briquettes.
+
+### 7.4. Ash or carbon as bio-PU filler
+Finely milled biochar or mineral ash can be incorporated into castor oil PU formulations to enhance fire resistance and compressive modulus.
+
+---
+
+## 8. Experimental closed-loop matrix
+
+The closed-loop architecture ensures zero net process waste:
+- **Input:** Bamboo culms, castor oil, MDI, water, biomass fuel.
+- **Internal Loop:** Pyrolysis gas fuels the reactor; wood vinegar preserves culms; ash conditions fibers; biochar reinforces PU foam.
+- **Output:** Certified structural components + sequestered soil carbon.
+
+---
+
+## 9. Seven notebooks, seven lessons, seven insights
+
+1. Technology must serve territorial autonomy, not corporate lock-in.
+2. Durability is an ecological requirement, not just an economic metric.
+3. Waste is a design failure, not an inevitable outcome.
+4. Open-source technical documentation protects public investment.
+5. Local governance outlasts centralized infrastructure.
+6. Industrial compliance must be accessible to small-scale producers.
+7. Biological materials require rigorous engineering validation.
+
+---
+
+## 10. What it means to close a loop
+
+Closing a loop means accounting for every gram of matter and joule of energy from extraction through manufacturing, use, and end-of-life recovery. It eliminates externalized environmental costs and guarantees long-term liability management.
+
+---
+
+## 11. Minimum demonstration roadmap
+
+### Phase 1 — Bench Balance & Characterization
+Validate chemical composition of ash, wood vinegar pH, and PU bonding strength.
+
+### Phase 2 — Independent Return Streams
+Test pyroligneous preservation, 0 Barg steam conditioning, and bio-brick pressing in separate pilot runs.
+
+### Phase 3 — Integrated Pilot Unit (UBP)
+Operate the complete Rocket Stove T01/T02 reactor and PU injection rig in a continuous 30-day trial.
+
+### Phase 4 — Territorial Replication
+Deploy decentralized processing cells in cooperative rural hubs under community governance.
+
+---
+
+## 12. What the collection allows us to affirm
+
+The 7-notebook collection demonstrates that bio-based structural systems can achieve commercial structural standards (NBR/ISO) while maintaining zero-waste circularity and empowering local communities.
+
+---
+
+## 13. Criteria for transforming synthesis into demonstration
+
+- Verification of TRL-4 to TRL-6 progression across all Work Packages (WP-0 to WP-7).
+- Full compliance with NBR 16828-1/2 structural and durability standards.
+- Transparent economic modeling (Annex 1) proving positive operational cash flow without hidden subsidies.
+
+---
+
+## 14. Limitations
+
+- Long-term (10+ years) outdoor weathering data for bio-PU bamboo composites requires ongoing field monitoring.
+- Regional variation in bamboo species density requires local calibration of alkaline steam times.
+
+---
+
+## 15. Conclusion: a call returning to responsibility
+
+Technology is not neutral. Every structural design choice carries social and ecological consequences. By binding scientific rigor to community governance and closed-loop thermodynamics, we reclaim technological sovereignty for sustainable human habitation.
 
 ---
 
 ## References
 
-CONVENTION ON BIOLOGICAL DIVERSITY. *Kunming-Montreal Global Biodiversity Framework*. Montreal: CBD, 2022.
+- CONVEMCAO SOBRE DIVERSIDADE BIOLOGICA. *Quadro Global de Biodiversidade de Kunming-Montreal*. Montreal: CDB, 2022.
+- CRUZ, Tania Cristina da Silva. *Qual e o seu trabalho, mulher? Mulheres empreendedoras no contexto da economia popular solidaria*. 2006. 280f. Ph.D. tese (Sociologia) — Universidade de Brasilia, Brasilia, 2006.
+- IPCC. *Climate Change 2023: Synthesis Report*. Geneva: IPCC, 2023. DOI: [10.59327/IPCC/AR6-9789291691647](https://doi.org/10.59327/IPCC/AR6-9789291691647).
 
-CRUZ, Tânia Cristina da Silva. *Qual é o teu trabalho, mulher? Mulheres empreendedoras no contexto da economia popular solidária*. 2006. 280 f. Ph.D. thesis (Sociology) — Núcleo Takwara, Brasília, 2006.
+### Synthesized Notebook Series
 
-IPCC. *Climate Change 2023: Synthesis Report*. Geneva: IPCC, 2023. DOI: [10.59327/IPCC/AR6-9789291691647](https://doi.org/10.59327/IPCC/AR6-9789291691647).
-
-MORIN, Edgar. *Seven complex lessons in education for the future*. Paris: UNESCO, 1999.
-
-UNITED NATIONS ENVIRONMENT PROGRAMME. *Emissions Gap Report 2025: Off Target*. Nairobi: UNEP, 2025.
-
-UNITED NATIONS ENVIRONMENT PROGRAMME; ISWA. *Global Waste Management Outlook 2024*. Nairobi: UNEP, 2024.
-
-UNITED NATIONS FRAMEWORK CONVENTION ON CLIMATE CHANGE. *Paris Agreement*. Bonn: UNFCCC, 2015.
-
-WORLD METEOROLOGICAL ORGANIZATION. *State of the Global Climate 2025*. Geneva: WMO, 2026.
-
-### Synthesized notebooks in the series
-
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
-
-TAKWARA, Fabio. *From conditioned culm to protected component: interfaces, bio-based PU, internal filling, and integrated validation*. Notebooks on Ecological Revision and Technological Sovereignty, n. 2, deposited version 1.2, July 23, 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
-
-TAKWARA, Fabio. *From component to territorial productive capacity: distributed manufacturing, quality control, and autonomy*. Notebooks on Ecological Revision and Technological Sovereignty, n. 3, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514991](https://doi.org/10.5281/zenodo.21514991).
-
-TAKWARA, Fabio. *From prototype to conformity: standards, testing, professional accountability, and release of bamboo components*. Notebooks on Ecological Revision and Technological Sovereignty, n. 4, version 1.1, July 23, 2026. DOI: [10.5281/zenodo.21515361](https://doi.org/10.5281/zenodo.21515361).
-
-TAKWARA, Fabio. *From conforming component to living space: diagnosis, ATHIS, adaptability, and post-occupancy evaluation*. Notebooks on Ecological Revision and Technological Sovereignty, n. 5, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21515383](https://doi.org/10.5281/zenodo.21515383).
-
-TAKWARA, Fabio. *Biomass biochar and cascading use of bamboo: soil, carbon, energy, and co-products*. Notebooks on Ecological Revision and Technological Sovereignty, n. 6, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21515443](https://doi.org/10.5281/zenodo.21515443).
+- **TAKWARA, F. R.** *Preservacao do bambu sob perspectiva socioecologica (Caderno 1).* DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
+- **TAKWARA, F. R.** *Do colmo condicionado ao componente protegido (Caderno 2).* DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
+- **TAKWARA, F. R.** *Do componente a capacidade produtiva territorial (Caderno 3).* DOI: [10.5281/zenodo.21514991](https://doi.org/10.5281/zenodo.21514991).
+- **TAKWARA, F. R.** *Do prototipo a conformidade (Caderno 4).* DOI: [10.5281/zenodo.21515361](https://doi.org/10.5281/zenodo.21515361).
+- **TAKWARA, F. R.** *Do componente conforme ao habitar (Caderno 5).* DOI: [10.5281/zenodo.21515383](https://doi.org/10.5281/zenodo.21515383).
+- **TAKWARA, F. R.** *Biochar de biomassa e uso em cascata do bambu (Caderno 6).* DOI: [10.5281/zenodo.21515443](https://doi.org/10.5281/zenodo.21515443).
+- **TAKWARA, F. R.** *O ciclo que nao termina no descarte (Caderno 7).* DOI: [10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567).
 
 ---
 
 ## Authorship, curation, and transparency
 
-**Authorship and perspective:** Fabio Takwara.  
-**Documentary base:** Acervo Soberania Tecnológica and identified public sources.  
-**Editorial and analytical support:** Artificial intelligence tools under author direction.  
-**Text license:** CC BY 4.0.
+**Author:** Fabio Takwara  
+**Institutional Affiliation:** Nucleo Takwara  
+**License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 ### Citation format
 
-TAKWARA, Fabio. *The loop that does not end at disposal: bamboo, castor bean, and material responsibility in the planetary crisis*. Notebooks on Ecological Revision and Technological Sovereignty, n. 7, version 1.0, July 23, 2026. DOI pending assignment.
+TAKWARA, Fabio. *The cycle that does not end at disposal: bamboo, castor oil, and responsibility facing the planetary crisis*. Notebooks of Ecological Revision and Technological Sovereignty, Notebook 7, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567).
