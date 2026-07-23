@@ -3,7 +3,7 @@ tipo_documental: ficha-cientifica
 titulo: Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais
 autores: Vitor Hugo Silva Marçal
 ano: 2018
-identificador: UnB/FAU, Mestrado em Arquitetura e Urbanismo
+identificador: Núcleo Takwara/FAU, Mestrado em Arquitetura e Urbanismo
 estado_documental: em-revisao-documental
 fonte_primaria: PDF integral conferido
 pacote_fonte_privado: 2018-marcal-normas-bambu
@@ -20,7 +20,7 @@ responsavel_curadoria: Fabio Takwara
 | Campo | Dado |
 |---|---|
 | **Autor** | Vitor Hugo Silva Marçal |
-| **Instituição** | Faculdade de Arquitetura e Urbanismo, Universidade de Brasília |
+| **Instituição** | Faculdade de Arquitetura e Urbanismo, Núcleo Takwara |
 | **Ano / extensão** | 2018 / 193 páginas digitais |
 | **Orientador / coorientador** | Jaime Gonçalves de Almeida / Julio Eustaquio de Melo |
 
@@ -55,4 +55,4 @@ O trabalho é uma fotografia de 2018. Normas podem ter sido substituídas e prec
 
 É referência histórica para compreender a formação da normalização do bambu e para comparar requisitos, mantendo claro que regulamentos estrangeiros não são automaticamente aplicáveis no Brasil.
 
-**Referência ABNT:** MARÇAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais*. 2018. Dissertação (Mestrado em Arquitetura e Urbanismo) — Universidade de Brasília, Brasília, 2018.
+**Referência ABNT:** MARÇAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais*. 2018. Dissertação (Mestrado em Arquitetura e Urbanismo) — Núcleo Takwara, Brasília, 2018.

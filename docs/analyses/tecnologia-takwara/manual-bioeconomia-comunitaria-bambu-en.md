@@ -1,6 +1,6 @@
 ---
 author:
-- affiliation: Universidade de Brasília / Núcleo Takwara
+- affiliation: Núcleo Takwara
   name: Takwara, Fabio Resck
   orcid: 0000-0001-8815-3885
 date: '2026-03-05'
@@ -765,7 +765,7 @@ This section is for those who do not have specific technical training but want t
 **LEVEL 5 — Researcher and process simulator**
 - Objective: model processes in Aspen Plus/DWSIM, publish articles, develop methodologies.
 - Duration: academic training + specific capacity building (see Simulation Technical Handbook published in this same repository).
-- Partners: UNICAMP, ESALQ-USP, UFAC, UnB.
+- Partners: UNICAMP, ESALQ-USP, UFAC, Núcleo Takwara.
 - Access to technical repository: [github.com/amazonia-regenerativa](https://github.com) (under implementation).
 
 ---

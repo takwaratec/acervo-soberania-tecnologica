@@ -514,7 +514,7 @@ INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. [ISO 11925-2:2026 — Reaction t
 
 INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. [ISO 5660-1:2015 — Reaction-to-fire tests — Heat release, smoke production and mass loss rate — Part 1](https://www.iso.org/standard/57957.html). Geneva: ISO, 2015. Emenda 1:2019.
 
-MARÇAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais*. 2018. Dissertação (Mestrado em Arquitetura e Urbanismo) — Universidade de Brasília, Brasília, 2018.
+MARÇAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais*. 2018. Dissertação (Mestrado em Arquitetura e Urbanismo) — Núcleo Takwara, Brasília, 2018.
 
 TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
 

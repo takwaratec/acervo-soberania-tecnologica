@@ -463,7 +463,7 @@ HONG, Chaokun et al. Review on connections for original bamboo structures. *Jour
 
 LIMA, Aline Lopes e. *Bambus nativos do Brasil: panorama das iniciativas para uma cadeia produtiva integrada à conservação*. 2019. Tese (Doutorado em Ambiente e Sociedade) — Universidade Estadual de Campinas, Campinas, 2019.
 
-MARCAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais*. 2018. Dissertação (Mestrado em Arquitetura e Urbanismo) — Universidade de Brasília, Brasília, 2018.
+MARCAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais*. 2018. Dissertação (Mestrado em Arquitetura e Urbanismo) — Núcleo Takwara, Brasília, 2018.
 
 MATARRU, Andre Amba; SHIN, Donghoon. Biochar Production Technology as a Negative Emission Strategy: A Review. *Energies*, v. 18, n. 18, art. 4898, 2025. DOI: 10.3390/en18184898.
 

@@ -33,7 +33,7 @@ identificador: https://doi.org/10.5281/zenodo.21516766
 
 ---
 author:
-- affiliation: Universidade de Brasília / Núcleo Takwara
+- affiliation: Núcleo Takwara
   name: Takwara, Fabio Resck
   orcid: 0000-0001-8815-3885
 date: '2026-03-06'
@@ -70,7 +70,7 @@ Estes ativos estão diretamente ligados à aquisição, fabricação e licenciam
 *   **Tamboreador de Varas (Abrasão Térmica):** Patente de Invenção (Industrial) e Modelo de Utilidade (Comunitário/IFB). Ativo validado com prototipagem TRL 7. Lote otimizado para **24 varas**, garantindo o abastecimento sincronizado de **duas Frangueiras (Resinadores T03)**.
 *   **Misturador de Biocompósitos (Betoneira Impermeável):** Sistema proprietário de aspersão tangencial de PU.
 *   **Prensa de Cassetes Intercambiáveis:** Máquina universal de compressão modular para múltiplos produtos (Tijolo, OSB, Telha).
-*   **Biorrefinaria de Reuso Comunitária:** Design modular baseado em tambores e bombonas (Projeto PEAC/UnB-IFB).
+*   **Biorrefinaria de Reuso Comunitária:** Design modular baseado em tambores e bombonas (Projeto PEAC/Núcleo Takwara-IFB).
 
 ### 2.2 PI de Processos (Contrapartida Intelectual Entregue)
 Ativos de conhecimento e protocolos metodológicos já consolidados e transferidos para a Plataforma como aporte de conhecimento:
@@ -87,7 +87,7 @@ Ativos de conhecimento e protocolos metodológicos já consolidados e transferid
 
 ## 3. Valoração e Sustentação Jurídica
 
-A valoração deste compêndio de PI baseia-se nos custos de Pesquisa e Desenvolvimento (P&D) acumulados desde **2012** (Projeto IFB/UnB, LaPeCFaZ e Núcleo Jesiel), bem como no valor de mercado de licenciamentos similares em bioindústrias: o aporte orçamentário da Plataforma 5.1, adotamos a lógica de **Custo de Fábrica + Valuation de Soberania (1.4x)**, utilizando médias de mercado da região Norte (Manaus/Rio Branco).
+A valoração deste compêndio de PI baseia-se nos custos de Pesquisa e Desenvolvimento (P&D) acumulados desde **2012** (Projeto IFB/Núcleo Takwara, LaPeCFaZ e Núcleo Jesiel), bem como no valor de mercado de licenciamentos similares em bioindústrias: o aporte orçamentário da Plataforma 5.1, adotamos a lógica de **Custo de Fábrica + Valuation de Soberania (1.4x)**, utilizando médias de mercado da região Norte (Manaus/Rio Branco).
 
 ### 3.1 Resumo de Contrapartida (Maquinário T02-T07)
 
@@ -102,7 +102,7 @@ A valoração deste compêndio de PI baseia-se nos custos de Pesquisa e Desenvol
 | **TOTAL MAQUINÁRIO** | | **R$ 288.008,00** |
 
 > [!TIP]
-> O detalhamento técnico de materiais, componentes e horas-técnica de cada item pode ser consultado no [BoM Industrial de Soberania](file:///Users/fabiotakwara/Documents/GitHub/UnB/Mulheres_Bioeconomia_Amazonia/docs/01_GOVERNANCA/TAK_orcamento-maquinario-bom.md).
+> O detalhamento técnico de materiais, componentes e horas-técnica de cada item pode ser consultado no [BoM Industrial de Soberania](file:///Users/fabiotakwara/Documents/GitHub/Núcleo Takwara/Mulheres_Bioeconomia_Amazonia/docs/01_GOVERNANCA/TAK_orcamento-maquinario-bom.md).
 
 *   **Redução de CAPEX:** O design proprietário simplificado (reuso) reduz o custo de instalação em até 60% comparado a maquinário importado.
 *   **Soberania Tecnológica:** A ausência de royalties para tecnologias estrangeiras e a manutenibilidade local conferem resiliência ao fluxo de caixa.
@@ -121,7 +121,7 @@ A valoração deste compêndio de PI baseia-se nos custos de Pesquisa e Desenvol
 ## Como Citar
 
 **APA:**
-Takwara, F. R. (2026). *Memorial de Contrapartida: Ativos de Propriedade Intelectual (Equipamentos e Processos)* (Versão 5.1). Documento Estratégico — Núcleo Takwara / Universidade de Brasília. https://doi.org/10.5281/zenodo.18827106
+Takwara, F. R. (2026). *Memorial de Contrapartida: Ativos de Propriedade Intelectual (Equipamentos e Processos)* (Versão 5.1). Documento Estratégico — Núcleo Takwara. https://doi.org/10.5281/zenodo.18827106
 
 
 ---
@@ -135,7 +135,7 @@ H.5281/zenodo.18827106
 
 # Bill of Materials (BoM) e Precificação de Contrapartida
 
-Este documento extrai as metragens e componentes dos memoriais técnicos (Série 08) e aplica os [Parâmetros de Referência Amazônia](file:///Users/fabiotakwara/Documents/GitHub/UnB/Mulheres_Bioeconomia_Amazonia/docs/01_GOVERNANCA/TAK_parametros-mercado-norte.md).
+Este documento extrai as metragens e componentes dos memoriais técnicos (Série 08) e aplica os [Parâmetros de Referência Amazônia](file:///Users/fabiotakwara/Documents/GitHub/Núcleo Takwara/Mulheres_Bioeconomia_Amazonia/docs/01_GOVERNANCA/TAK_parametros-mercado-norte.md).
 
 ---
 

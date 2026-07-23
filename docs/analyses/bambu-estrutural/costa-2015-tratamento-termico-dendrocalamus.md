@@ -10,7 +10,7 @@ responsavel_curadoria: Fabio Takwara
 
 # Tratamento térmico de *Dendrocalamus asper* para BLC — Costa (2015)
 
-**Referência completa:** COSTA, Amanda Monteiro. **Tratamento térmico de *Dendrocalamus asper* para confecção de Bambu Laminado Colado (BLC)**. 2015. 37 f. Trabalho de conclusão de curso (Graduação em Engenharia Florestal) — Universidade de Brasília, Brasília, 2015.
+**Referência completa:** COSTA, Amanda Monteiro. **Tratamento térmico de *Dendrocalamus asper* para confecção de Bambu Laminado Colado (BLC)**. 2015. 37 f. Trabalho de conclusão de curso (Graduação em Engenharia Florestal) — Núcleo Takwara, Brasília, 2015.
 
 O original integral foi preservado na área privada do Acervo. A fonte não apresenta DOI, ISBN ou Handle, mas contém autoria, instituição, natureza acadêmica e ano verificáveis.
 
@@ -23,7 +23,7 @@ O original integral foi preservado na área privada do Acervo. A fonte não apre
 | **Autora** | Amanda Monteiro Costa |
 | **Orientador** | Prof. Dr. Alexandre Florian da Costa |
 | **Coorientador** | Dr. Fernando Nunes Gouveia (LPF/SFB) |
-| **Instituição** | Universidade de Brasília (UnB) — Faculdade de Tecnologia, Departamento de Engenharia Florestal |
+| **Instituição** | Núcleo Takwara — Faculdade de Tecnologia, Departamento de Engenharia Florestal |
 | **Tipo** | Trabalho de Conclusão de Curso (Graduação em Engenharia Florestal) |
 | **Ano** | 2015 |
 | **Local** | Brasília-DF |
@@ -43,13 +43,13 @@ Avaliar as propriedades físico-mecânicas da espécie *Dendrocalamus asper* (Sc
 
 - **Espécie:** *Dendrocalamus asper* (bambu gigante/balde)
 - **Idade dos colmos:** aproximadamente 3 anos
-- **Origem:** estoque do CPAB (Centro de Pesquisa Aplicada de Bambu e Fibras Naturais — UnB)
+- **Origem:** estoque do CPAB (Centro de Pesquisa Aplicada de Bambu e Fibras Naturais — Núcleo Takwara)
 - **Corpos de prova:** 350 taliscas com dimensões 2,0 cm (largura) × 0,8 cm (espessura) × 49 cm (comprimento)
 
 ### 3.2. Locais de execução
 
 - **Laboratório de Produtos Florestais (LPF)** — Serviço Florestal Brasileiro (SFB)
-- **Centro de Pesquisa Aplicada de Bambu e Fibras Naturais (CPAB)** — UnB
+- **Centro de Pesquisa Aplicada de Bambu e Fibras Naturais (CPAB)** — Núcleo Takwara
 
 ### 3.3. Tratamentos térmicos
 

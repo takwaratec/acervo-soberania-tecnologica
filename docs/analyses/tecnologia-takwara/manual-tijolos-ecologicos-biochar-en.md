@@ -31,7 +31,7 @@ identificador: https://doi.org/10.5281/zenodo.21516722
 > **Technological Readiness Level Declaration (TRL 3-4):** In strict accordance with the repository documentation governance rules, it is declared that the formulations presented in this manual refer to laboratory/benchtop prototyping trials. The final product requires compliance testing for compressive strength (FORM E-05 / ABNT NBR 8492) and fire reaction (FORM E-10 / ABNT NBR 9442) as specified in Notebook 2 ICT Version before any industrial application.
 
 author:
-- affiliation: Universidade de Brasília / Núcleo Takwara
+- affiliation: Núcleo Takwara
   name: Takwara, Fabio Resck
   orcid: 0000-0001-8815-3885
 date: '2026-03-05'
@@ -193,7 +193,7 @@ Embora desafios técnicos, de mercado e de infraestrutura precisem ser cuidadosa
 ## Como Citar
 
 **APA:**
-Takwara, F. R. (2026). *Tijolos Ecológicos de Biomassa e Poliuretano Vegetal: Biotecnologia Habitacional* (Versão 2.1). Boletim Técnico-Científico — Núcleo Takwara / Universidade de Brasília. https://doi.org/https://doi.org/10.5281/zenodo.21516722
+Takwara, F. R. (2026). *Tijolos Ecológicos de Biomassa e Poliuretano Vegetal: Biotecnologia Habitacional* (Versão 2.1). Boletim Técnico-Científico — Núcleo Takwara. https://doi.org/https://doi.org/10.5281/zenodo.21516722
 
 ---
 **🎋 Takwara — Sustainable Technology and Sovereignty in the Amazon**

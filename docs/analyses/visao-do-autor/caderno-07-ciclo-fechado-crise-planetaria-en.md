@@ -61,7 +61,7 @@ Recent assessments by the World Meteorological Organization (WMO, 2026), the UNE
 
 CONVENTION ON BIOLOGICAL DIVERSITY. *Kunming-Montreal Global Biodiversity Framework*. Montreal: CBD, 2022.
 
-CRUZ, Tânia Cristina da Silva. *Qual é o teu trabalho, mulher? Mulheres empreendedoras no contexto da economia popular solidária*. 2006. 280 f. Ph.D. thesis (Sociology) — Universidade de Brasília, Brasília, 2006.
+CRUZ, Tânia Cristina da Silva. *Qual é o teu trabalho, mulher? Mulheres empreendedoras no contexto da economia popular solidária*. 2006. 280 f. Ph.D. thesis (Sociology) — Núcleo Takwara, Brasília, 2006.
 
 IPCC. *Climate Change 2023: Synthesis Report*. Geneva: IPCC, 2023. DOI: [10.59327/IPCC/AR6-9789291691647](https://doi.org/10.59327/IPCC/AR6-9789291691647).
 

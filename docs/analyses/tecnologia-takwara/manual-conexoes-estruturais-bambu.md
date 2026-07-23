@@ -1,6 +1,6 @@
 ---
 author:
-- affiliation: Universidade de Brasília / Núcleo Takwara
+- affiliation: Núcleo Takwara
   name: Takwara, Fabio Resck
   orcid: 0000-0001-8815-3885
 date: '2026-03-04'
@@ -156,4 +156,4 @@ O Sistema Takwara e seus painéis sanduíche embutem princípios construtivos ra
 ## COMO CITAR ESTE DOCUMENTO
 
 **APA:**
-Takwara, F. R. (2026). *Sistemas de Conexões Estruturais e Biocompósitos em Bambu* (Versão 2.1). Núcleo Takwara / Universidade de Brasília. https://doi.org/https://doi.org/10.5281/zenodo.21516480
+Takwara, F. R. (2026). *Sistemas de Conexões Estruturais e Biocompósitos em Bambu* (Versão 2.1). Núcleo Takwara. https://doi.org/https://doi.org/10.5281/zenodo.21516480

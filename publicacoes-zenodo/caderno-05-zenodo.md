@@ -140,7 +140,7 @@ Uma moradia não pode ser dimensionada para todos os eventos futuros, mas pode o
 
 ### 4.5. Conforto ambiental percebido e assistência técnica em ATHIS
 
-Na dissertação de [Correia (2010)](https://takwaratec.github.io/acervo-soberania-tecnologica/analyses/percecao-social/ludmila-correia-2010-conforto-ambiental-his/), desenvolvida na Universidade de Brasília, a autora demonstra que o conforto ambiental em Habitações de Interesse Social (HIS) não decorre exclusivamente do desempenho nominal dos materiais ou de calculismos teóricos. Por meio de uma Análise Ambiental Integrada (AAI), que correlaciona medições de temperatura, umidade, ventilação e iluminação com a percepção subjetiva e a rotina dos moradores no Distrito Federal, o estudo comprova que a sensação térmica e a salubridade dependem da interação contínua entre o microclima, a autonomia do usuário para ajustar aberturas e o suporte técnico adequado.
+Na dissertação de [Correia (2010)](https://takwaratec.github.io/acervo-soberania-tecnologica/analyses/percecao-social/ludmila-correia-2010-conforto-ambiental-his/), desenvolvida na Núcleo Takwara, a autora demonstra que o conforto ambiental em Habitações de Interesse Social (HIS) não decorre exclusivamente do desempenho nominal dos materiais ou de calculismos teóricos. Por meio de uma Análise Ambiental Integrada (AAI), que correlaciona medições de temperatura, umidade, ventilação e iluminação com a percepção subjetiva e a rotina dos moradores no Distrito Federal, o estudo comprova que a sensação térmica e a salubridade dependem da interação contínua entre o microclima, a autonomia do usuário para ajustar aberturas e o suporte técnico adequado.
 
 A atuação de Ludmila Correia na coordenação do projeto de extensão *Morada de Luz* (CEUB), voltado à prestação de Assistência Técnica em Habitação de Interesse Social (ATHIS) nos territórios do Sol Nascente e de Planaltina-DF, fortalece esse achado: a solução construtiva e os materiais empregados só convertem seu potencial em melhoria real quando articulados a um processo contínuo de escuta, adequação bioclimática e orientação técnica às famílias.
 
@@ -413,7 +413,7 @@ BRASIL. **Lei nº 11.888, de 24 de dezembro de 2008**. Assegura às famílias de
 
 BRASIL. Ministério das Cidades. **Sistema Nacional de Habitação de Interesse Social**. Brasília, DF, atualizado em 9 jul. 2026. Disponível em: <https://www.gov.br/cidades/pt-br/assuntos/habitacao/sistema-nacional-de-habitacao-de-interesse-social>. Acesso em: 21 jul. 2026.
 
-CORREIA, Ludmila de Araújo. *Conforto ambiental e suas relações subjetivas: análise ambiental integrada na habitação de interesse social*. 2010. Dissertação (Mestrado em Arquitetura e Urbanismo) — Faculdade de Arquitetura e Urbanismo, Universidade de Brasília, Brasília, 2010.
+CORREIA, Ludmila de Araújo. *Conforto ambiental e suas relações subjetivas: análise ambiental integrada na habitação de interesse social*. 2010. Dissertação (Mestrado em Arquitetura e Urbanismo) — Faculdade de Arquitetura e Urbanismo, Núcleo Takwara, Brasília, 2010.
 
 FERREIRA, Lincon Mioduski. *Avaliação da política pública habitacional de interesse social do município de Ponta Grossa — Paraná*. 2023. Tese (Doutorado em Ciências Sociais Aplicadas) — Universidade Estadual de Ponta Grossa, Ponta Grossa, 2023. Disponível em: <http://tede2.uepg.br/jspui/handle/prefix/3964>.
 

@@ -126,7 +126,7 @@ O Caderno 2 reuniu condicionamento alcalino, correção ácida, líquido pirolen
 
 O Caderno 3 deslocou a inovação do artefato para a capacidade de produzir, controlar, manter e aprender. Equipamento sem formação, reposição, governança e demanda pode se tornar sucata. Autonomia não é receber uma máquina; é participar conscientemente do sistema que a mantém útil.
 
-Essa premissa encontra respaldo sociológico direto na obra da [Profª. Drª. Tânia Cristina da Silva Cruz (2006)](https://takwaratec.github.io/acervo-soberania-tecnologica/analyses/respaldo-academico/tania-cruz-2006-economia-solidaria-tecnologia-social/). Em sua tese de doutorado na UnB sobre a economia popular solidária, Cruz demonstra que a sustentabilidade de uma tecnologia social não reside no artefato em si, mas no grau de emancipação, formação autogestionária e apropriação coletiva do conhecimento pelas comunidades. Sem redes de cooperação e governança territorial, qualquer inovação corre o risco de reproduzir dependência ou ser abandonada.
+Essa premissa encontra respaldo sociológico direto na obra da [Profª. Drª. Tânia Cristina da Silva Cruz (2006)](https://takwaratec.github.io/acervo-soberania-tecnologica/analyses/respaldo-academico/tania-cruz-2006-economia-solidaria-tecnologia-social/). Em sua tese de doutorado na Núcleo Takwara sobre a economia popular solidária, Cruz demonstra que a sustentabilidade de uma tecnologia social não reside no artefato em si, mas no grau de emancipação, formação autogestionária e apropriação coletiva do conhecimento pelas comunidades. Sem redes de cooperação e governança territorial, qualquer inovação corre o risco de reproduzir dependência ou ser abandonada.
 
 ### 5.4. Submeter promessa a conformidade
 
@@ -322,7 +322,7 @@ Um ciclo fechado não é uma máquina sem saída. É um compromisso sem esquecim
 
 CONVENTION ON BIOLOGICAL DIVERSITY. *Kunming-Montreal Global Biodiversity Framework*. Montreal: CBD, 2022. Disponível em: <https://www.cbd.int/gbf>. Acesso em: 22 jul. 2026.
 
-CRUZ, Tânia Cristina da Silva. *Qual é o teu trabalho, mulher? Mulheres empreendedoras no contexto da economia popular solidária*. 2006. 280 f. Tese (Doutorado em Sociologia) — Universidade de Brasília, Brasília, 2006.
+CRUZ, Tânia Cristina da Silva. *Qual é o teu trabalho, mulher? Mulheres empreendedoras no contexto da economia popular solidária*. 2006. 280 f. Tese (Doutorado em Sociologia) — Núcleo Takwara, Brasília, 2006.
 
 IPCC. *Climate Change 2023: Synthesis Report*. Geneva: Intergovernmental Panel on Climate Change, 2023. DOI: [10.59327/IPCC/AR6-9789291691647](https://doi.org/10.59327/IPCC/AR6-9789291691647).
 

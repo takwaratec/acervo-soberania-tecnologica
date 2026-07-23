@@ -886,10 +886,10 @@ CARDOSO, A. C. Infraestruturas, transportes e rede urbana na Amazônia. Cadernos
 ## Como citar este documento
 
 **ABNT:**
-TAKWARA, Fabio Resck. *Plataforma Amazônia Regenerativa v5.1: Saneamento Ecológico, Bambu Guadua spp., PET Reciclado e Bioindústrias Comunitárias de Baixo Carbono*. Série Técnica Plataforma Amazônia Regenerativa. Brasília: Núcleo Takwara / Universidade de Brasília, 2026. Relatório técnico. Disponível em: https://doi.org/10.5281/zenodo.18827106. Acesso em: 01 mar. 2026.
+TAKWARA, Fabio Resck. *Plataforma Amazônia Regenerativa v5.1: Saneamento Ecológico, Bambu Guadua spp., PET Reciclado e Bioindústrias Comunitárias de Baixo Carbono*. Série Técnica Plataforma Amazônia Regenerativa. Brasília: Núcleo Takwara, 2026. Relatório técnico. Disponível em: https://doi.org/10.5281/zenodo.18827106. Acesso em: 01 mar. 2026.
 
 **APA:**
-Takwara, F. R. (2026). *Plataforma Amazônia Regenerativa v5.1: Saneamento Ecológico, Bambu Guadua spp., PET Reciclado e Bioindústrias Comunitárias de Baixo Carbono* (Technical Report). Núcleo Takwara / Universidade de Brasília. https://doi.org/10.5281/zenodo.18827106
+Takwara, F. R. (2026). *Plataforma Amazônia Regenerativa v5.1: Saneamento Ecológico, Bambu Guadua spp., PET Reciclado e Bioindústrias Comunitárias de Baixo Carbono* (Technical Report). Núcleo Takwara. https://doi.org/10.5281/zenodo.18827106
 
 **Faz parte de:**
 Takwara, F. R. (2026). *Série Técnica Plataforma Amazônia Regenerativa* [Coleção Zenodo]. https://doi.org/10.5281/zenodo.18827106
