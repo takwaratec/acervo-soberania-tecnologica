@@ -23,11 +23,10 @@ responsavel_curadoria: Fabio Takwara
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
 *Manual Técnico-Autoral — Versão 2.2, 23 jul. 2026*  
 
-[![Licença: CC BY 4.0](https://img.shields.io/badge/Licenca-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515712.svg)](https://doi.org/10.5281/zenodo.21515712)
-[![Tipo](https://img.shields.io/badge/tipo-Boletim%20T%C3%A9cnico--Cient%C3%ADfico-teal)](#)
-[![Caderno 1](https://img.shields.io/badge/Ref-Caderno_1_DOI-blue.svg)](https://doi.org/10.5281/zenodo.21514736)
-[![Caderno 3](https://img.shields.io/badge/Ref-Caderno_3_DOI-blue.svg)](https://doi.org/10.5281/zenodo.21514991)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21516340.svg)](https://doi.org/10.5281/zenodo.21516340)
+[![English Version](https://img.shields.io/badge/Language-English_v2.2-blue.svg)](manual-bioeconomia-comunitaria-bambu-en.md)
+
+
 [![Anexo 1](https://img.shields.io/badge/Ref-Anexo_1_DOI-green.svg)](https://doi.org/10.5281/zenodo.21515657)
 
 ---

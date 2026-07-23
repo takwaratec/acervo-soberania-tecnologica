@@ -41,9 +41,11 @@ version: '2.1'
 ---
 # Phytoremediation and Carbon Markets: Bamboo as an Ecological Engineer
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18827106-blue.svg)](https://doi.org/10.5281/zenodo.18827106)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21516343.svg)](https://doi.org/10.5281/zenodo.21516343)
+[![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs_v2.2-green.svg)](manual-fitorremediacao-solos-degradados-bambu.md)
+
+
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![🇧🇷 PT](https://img.shields.io/badge/🇧🇷-Portuguese-green)](manual-fitorremediacao-solos-degradados-bambu.md) [![🇺🇸 EN](https://img.shields.io/badge/🇺🇸-English-blue)](manual-fitorremediacao-solos-degradados-bambu-en.md) [![🇪🇸 ES](https://img.shields.io/badge/🇪🇸-Spanish-orange)](#)
 ![Status](https://img.shields.io/badge/status-V2.1%20(Advocacy%205.1)-blue)
 ![Type](https://img.shields.io/badge/type-Technical--Scientific%20Bulletin-teal)
 
