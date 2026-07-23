@@ -71,3 +71,11 @@ estado_documental: em-revisao-documental
 data_revisao: 2026-07-14
 responsavel_curadoria: Fabio Takwara
 ---
+
+
+### 🔬 Fichas Científicas e Referências Auditadas
+
+- [Avaliação do Ciclo de Vida do Bambu Artesanal no Acre — Araujo et al. (2025)](araujo-2025-acv-bambu-artesanal-acre.md) | [![DOI](https://img.shields.io/badge/DOI-10.14295%2Fbjs.v4i4.719-blue.svg)](https://doi.org/10.14295/bjs.v4i4.719)
+- [Propriedades, Tratamento e Normatização do Bambu — Adier et al. (2023)](adier-2023-propriedades-tratamento-bambu.md) | [![DOI](https://img.shields.io/badge/DOI-10.3390%2Fbuildings13102449-blue.svg)](https://doi.org/10.3390/buildings13102449)
+- [Tratamento Térmico a Vapor Saturado em Bambu — Wang et al. (2020)](wang-2020-tratamento-termico-vapor-bambu.md) | [![DOI](https://img.shields.io/badge/DOI-10.1186%2Fs10086--020--01899--7-blue.svg)](https://doi.org/10.1186/s10086-020-01899-7)
+- [Conservação de Bambu por Ácido Pirolenhoso — Silva / UNICAMP (2011)](silva-2011-conservacao-bambu-acido-pirolenhoso.md) | [![UNICAMP](https://img.shields.io/badge/UNICAMP-FEAGRI--2011-red.svg)](https://www.feagri.unicamp.br/)
