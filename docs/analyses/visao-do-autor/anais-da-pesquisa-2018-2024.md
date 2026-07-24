@@ -71,7 +71,7 @@ Para assegurar a máxima fidelidade histórica, transparência e respeito à gov
 - **Identificador Documental:** Processo `23098.014691.2018-20` / Transcrições `08-_NOV-18`, `08a` e `08b`.
 - **Instituição / Campus:** **Instituto Federal de Brasília — Campus Planaltina** (Área de Engenharia Agrícola / Construções Rurais e Ambiência).
 - **Coordenação / Orientação Docente:** **Prof. Dr. Vicente Virgolino de Souza Neto**. **Responsável Técnico / Instrutor:** Fabio Takwara.
-- **Objetivos:** Construir uma unidade comunitária de tratamento autotérmico de bambu (Forno Rocket Stove T01) para imunização e secagem a vapor de leite de cinzas e tanino pirolenhoso.
+- **Objetivos:** Construir uma unidade comunitária de tratamento autotérmico de bambu (Forno Rocket Stove T01) para imunização e secagem a vapor de extrato pirolenhoso decantado.
 - **Escopo & Entregas:** Projeto executivo e montagem física da unidade de tratamento no Campus Planaltina do IFB; realização de 12 oficinas mensais de formação prática; desenvolvimento de vivências em agroecologia e bioconstrução.
 - **Público Atingido:** 15 estudantes do **Curso Superior de Tecnologia em Agroecologia** do IFB Campus Planaltina e 15 moradores assentados da reforma agrária do **Assentamento Pequeno William (PW)** (Planaltina/DF).
 
