@@ -146,7 +146,7 @@ Compromissos acordados:
 ```
 
 ### ETAPA 3 — Primeiro Produto e Primeiros Recursos (Meses 5–8)
-Operacao da primeira celula de imunizacao a vapor (0 Barg) e fornecimento do primeiro lote de colmos certificados.
+Operacao da primeira celula de imunizacao a vapor (pressão de trabalho do protótipo) e fornecimento do primeiro lote de colmos certificados.
 
 ---
 
@@ -196,7 +196,7 @@ Integracao entre o polo de tecnologia e propagacao vegetal do Sudeste (Holambra/
 ## 10. Trilha de Aperfeicoamento Pessoal: Qualificacao Tecnologica
 
 - **Nivel 1 (Manejador de Campo):** Colheita, secagem e triagem visual.
-- **Nivel 2 (Operador de Imunizacao):** Operacao do forno Rocket Stove, vapor alcalino a 0 Barg e imunizacao pirolenhosa.
+- **Nivel 2 (Operador de Imunizacao):** Operacao do forno Rocket Stove, vapor alcalino a pressão de trabalho do protótipo e imunizacao pirolenhosa.
 - **Nivel 3 (Mestre Construtor):** Montagem de estruturas espaciais, aplicacao de juntas Spin e injecao de PU Vegetal.
 
 ---
@@ -205,7 +205,7 @@ Integracao entre o polo de tecnologia e propagacao vegetal do Sudeste (Holambra/
 
 ## 11. Glossario Basico
 
-- **Alcalinizacao a Vapor:** Processo de exposicao da fibra de bambu a vapor saturado com extrato pirolenhoso decantado a 0 Barg para remocao de ceras e amido sem degradacao mecanica.
+- **Alcalinizacao a Vapor:** Processo de exposicao da fibra de bambu a vapor saturado com extrato pirolenhoso decantado a pressão de trabalho do protótipo para remocao de ceras e amido sem degradacao mecanica.
 - **Biochar:** Carvao vegetal altamente poroso produzido por pirolise, utilizado para melhoria do solo e sequestro de carbono.
 - **Condensado Pirolenhoso:** Extrato liquido condensado da fumaca da pirolise, rico em acido acetico e compostos fenolicos com acao imunizante natural.
 - **PU Vegetal:** Resina de Poliuretano derivada do oleo de mamona (*Ricinus communis*).

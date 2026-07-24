@@ -109,7 +109,7 @@ Biomass utilization must follow a strict thermodynamic priority:
 To prevent cross-contamination and process inefficiency, four pyrolytic outputs must be managed independently:
 
 ### 7.1. Ash as an alkaline source
-Vegetable ash collected from the Rocket Stove reactor provides potassium and calcium carbonates for saturated steam conditioning at 0 Barg.
+Vegetable ash collected from the Rocket Stove reactor provides potassium and calcium carbonates for saturated steam conditioning at pressão de trabalho do protótipo.
 
 ### 7.2. Pyroligneous liquid
 Wood vinegar condensed during pyrolysis acts as an organic biopesticide and fungal inhibitor for raw bamboo culms.
@@ -155,7 +155,7 @@ Closing a loop means accounting for every gram of matter and joule of energy fro
 Validate chemical composition of ash, wood vinegar pH, and PU bonding strength.
 
 ### Phase 2 — Independent Return Streams
-Test pyroligneous preservation, 0 Barg steam conditioning, and bio-brick pressing in separate pilot runs.
+Test pyroligneous preservation, pressão de trabalho do protótipo steam conditioning, and bio-brick pressing in separate pilot runs.
 
 ### Phase 3 — Integrated Pilot Unit (UBP)
 Operate the complete Rocket Stove T01/T02 reactor and PU injection rig in a continuous 30-day trial.

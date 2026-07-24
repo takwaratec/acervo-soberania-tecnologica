@@ -59,7 +59,7 @@ This instrument establishes a standardized methodology to evaluate the economic 
 
 | Item / Equipment | Specification | Unit Cost (BRL) | Quantity | Total (BRL) |
 |---|---|---|---|---|
-| **Reactor T01/T02 (Pyrolysis Unit)** | Autothermal 0 Barg reactor with heat exchanger coil | 45,000 | 1 | 45,000 |
+| **Reactor T01/T02 (Pyrolysis Unit)** | Autothermal pressão de trabalho do protótipo reactor with heat exchanger coil | 45,000 | 1 | 45,000 |
 | **Alkaline Vapor & Condensate Cell** | Stainless steel treatment chamber | 25,000 | 1 | 25,000 |
 | **High-Pressure PU Injection System** | Pneumatic metering unit for castor oil PU | 35,000 | 1 | 35,000 |
 | **Biochar Milling & Micro-Brick Press** | Hydraulic press for bio-bricks | 28,000 | 1 | 28,000 |
