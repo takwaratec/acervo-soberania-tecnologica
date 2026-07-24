@@ -205,7 +205,7 @@ Integracao entre o polo de tecnologia e propagacao vegetal do Sudeste (Holambra/
 
 ## 11. Glossario Basico
 
-- **Alcalinizacao a Vapor:** Processo de exposicao da fibra de bambu a vapor saturado com leite de cinzas a 0 Barg para remocao de ceras e amido sem degradacao mecanica.
+- **Alcalinizacao a Vapor:** Processo de exposicao da fibra de bambu a vapor saturado com extrato pirolenhoso decantado a 0 Barg para remocao de ceras e amido sem degradacao mecanica.
 - **Biochar:** Carvao vegetal altamente poroso produzido por pirolise, utilizado para melhoria do solo e sequestro de carbono.
 - **Condensado Pirolenhoso:** Extrato liquido condensado da fumaca da pirolise, rico em acido acetico e compostos fenolicos com acao imunizante natural.
 - **PU Vegetal:** Resina de Poliuretano derivada do oleo de mamona (*Ricinus communis*).
