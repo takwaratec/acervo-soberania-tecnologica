@@ -2,6 +2,48 @@
 
 Este documento define os estados usados no **Acervo Soberania Tecnológica**. O estado descreve a maturidade documental; ele não é uma nota de mérito científico nem uma declaração de validação tecnológica.
 
+## Gavetas lógicas aprovadas (2026-07-31)
+
+Estrutura de organização do Acervo, aprovada por Fabio Takwara. As gavetas
+públicas correspondem à árvore `docs/analyses/` e ao `nav` do MkDocs. As
+gavetas de quarentena e privadas ficam fora da árvore pública (`docs/`).
+
+### Públicas (9)
+
+| Código | Gaveta | Diretório |
+|--------|--------|-----------|
+| FND | Fundamentos | `docs/analyses/fundamentos/` |
+| BAM | Bambu estrutural | `docs/analyses/bambu-estrutural/` |
+| POL | Polímeros vegetais | `docs/analyses/pu-vegetal/` |
+| SOC | Habitação social (percepção, APO, política) | `docs/analyses/percecao-social/`, `avaliacao-pos-ocupacao/`, `politica-habitacional/` |
+| BIO | Bioeconomia amazônica | `docs/analyses/bioeconomia-amazonica/`, `grandes-obras-amazonia/` |
+| RAA | Reforma agrária e agrofloresta | `docs/analyses/reforma-agraria-agrofloresta/` |
+| TT | Tecnologia Takwara | `docs/analyses/tecnologia-takwara/` |
+| AUT | Visão do autor | `docs/analyses/visao-do-autor/` |
+| PER | Perfis acadêmicos | `docs/analyses/respaldo-academico/` |
+
+### Quarentena (4)
+
+| Código | Gaveta | Destino |
+|--------|--------|---------|
+| QDOI | Sem DOI | `_quarentena/_sem_doi/` |
+| Q+BAM/Q+POL/Q+SOC | Fontes auxiliares por área | `_quarentena/` (por área) |
+| Q+TT | Visão autoral Takwara | `_quarentena/` |
+| DEL | Para deleção autorizada | `_quarentena/_para_delecao_autorizada/` |
+
+### Privadas (4)
+
+| Código | Gaveta | Destino |
+|--------|--------|---------|
+| PRE | Pré-curadoria autoral | `_privado/acervo-autoral-fabio-takwara/pre-curadoria/` |
+| FAP | Fontes acadêmicas protegidas | `_privado/` |
+| DUP | Duplicatas | `_privado/` |
+| STB | Stubs | `_privado/` |
+
+**Regra de fronteira:** conteúdo de quarentena e privado nunca entra em
+`docs/`; `_privado/`, `_quarentena/` e `_acervo_completo/` estão fora do
+build e da indexação.
+
 ## Princípios
 
 - O PDF original é a fonte primária da ficha.
@@ -29,6 +71,29 @@ Este documento define os estados usados no **Acervo Soberania Tecnológica**. O 
 | `historico` | Registro de trajetória ou documento contextual | Conforme consentimento e sensibilidade | Remover dados pessoais desnecessários; atribuir corretamente |
 | `quarentena` | Documento inconsistente, fora de escopo ou legado ainda não auditado | Não | Corrigir, reclassificar ou descartar por decisão registrada |
 | `retirado-da-publicacao` | Conteúdo removido da árvore pública por privacidade, direito autoral ou erro | Não | Só retorna após autorização e saneamento documentado |
+
+### Valores em uso no acervo (levantamento 2026-07-31) e equivalência
+
+Alguns arquivos ainda usam valores anteriores à formalização da taxonomia.
+Eles permanecem válidos e são mapeados conforme abaixo. Na próxima revisão
+de cada ficha, o front matter deve ser atualizado para o estado canônico.
+
+| Valor encontrado | Contagem | Equivale a | Ação na próxima revisão |
+|---|---|---|---|
+| `em-revisao-documental` | 98 | `em-revisao-documental` | Manter |
+| `edicao-publica-conformada` | 16 | `homologado-documentalmente` | Atualizar para `homologado-documentalmente` |
+| `publicado-no-zenodo` | 12 | `homologado-documentalmente` | Atualizar para `homologado-documentalmente` |
+| `curado` | 11 | `homologado-documentalmente` | Atualizar para `homologado-documentalmente` |
+| `edicao-revisada-para-acervo` | 10 | `homologado-documentalmente` | Atualizar para `homologado-documentalmente` |
+| `revisado-com-fonte-integral` | 1 | `homologado-documentalmente` | Atualizar para `homologado-documentalmente` |
+| `depositado-no-zenodo` | 1 | `homologado-documentalmente` | Atualizar para `homologado-documentalmente` |
+| `publicado-no-acervo` | 1 | `homologado-documentalmente` | Atualizar para `homologado-documentalmente` |
+
+Observação: a publicação no Zenodo é um evento de depósito, não um estado
+de maturidade documental. Após a atualização do estado para
+`homologado-documentalmente`, o depósito pode ser registrado em campo
+próprio do front matter (`zenodo_doi:`), preservando o rastreio sem
+duplicar o conceito de estado.
 
 ## Tipos documentais
 

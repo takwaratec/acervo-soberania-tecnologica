@@ -41,7 +41,7 @@ Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revis
 
 ## Referência metodológica correlata
 
-- [Tratamento alcalino de fibras de capim-limão em biocompósito de amido e cera — Kamaruddin et al. (2022)](SCI_014_POLYMERS_ALKALI_TREATMENT.md)
+- [Tratamento alcalino de fibras de capim-limão em biocompósito de amido e cera — Kamaruddin et al. (2022)](kamaruddin-et-al-2022-tratamento-alcalino-capim-limao.md)
 
 O artigo de Kamaruddin et al. não estuda poliuretano nem bambu. Permanece nesta gaveta apenas como referência metodológica para tratamento de fibras e caracterização de biocompósitos, sem prova de equivalência com formulações Takwara.
 

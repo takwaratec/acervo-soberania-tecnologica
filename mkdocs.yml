@@ -66,6 +66,7 @@ plugins:
         'analyses/curso-design-permacultura-mollison.md': 'analyses/fundamentos/mollison-1981-curso-design-permacultura.md'
         'analyses/spaceship-earth-fuller.md': 'analyses/fundamentos/fuller-1969-manual-nave-espacial-terra.md'
         'sobre-o-autor/POL_neotropical-bamboo-review-2024.md': 'analyses/bambu-estrutural/neotropical-bamboo-review-2024.md'
+        'analyses/pu-vegetal/SCI_014_POLYMERS_ALKALI_TREATMENT.md': 'analyses/pu-vegetal/kamaruddin-et-al-2022-tratamento-alcalino-capim-limao.md'
 
 exclude_docs: ""
 
@@ -140,7 +141,7 @@ nav:
       - Certificado UL 94 V: analyses/pu-vegetal/certificado-ul94-imperveg-2010.md
       - Produto IMPERVEG UG 132 A: analyses/pu-vegetal/ficha-tecnica-imperveg-ug132a.md
       - Produto MAMONEX RD70: analyses/pu-vegetal/ficha-tecnica-mamonex-rd70.md
-      - Alcalinização de fibras em biocompósito: analyses/pu-vegetal/SCI_014_POLYMERS_ALKALI_TREATMENT.md
+      - Alcalinização de fibras em biocompósito: analyses/pu-vegetal/kamaruddin-et-al-2022-tratamento-alcalino-capim-limao.md
   - Habitação social:
       - Percepção social:
           - Visão geral: analyses/percecao-social/index.md
