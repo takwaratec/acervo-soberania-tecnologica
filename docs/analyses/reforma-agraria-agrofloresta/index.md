@@ -75,8 +75,8 @@ Fichas de registro bibliográfico derivadas do manifesto de referências citadas
 
 - [Petersen et al. (2017) — Método de Análise Econômico-Ecológica de Agroecossistemas](petersen-et-al-2017-metodo-analise-agroecossistemas.md)
 - [Lopes et al. (2018) — Enriquecimento de 500 quintais produtivos com espécies nativas](lopes-et-al-2018-enriquecimento-500-quintais.md)
-- [Miccolis et al. (2016) — Restauração Ecológica com Sistemas Agroflorestais (registro)](miccolis-et-al-2016-restauracao-ecologica-safs.md)
-- [Pessoa (1997) — A revanche camponesa: cotidiano e história em assentamentos de Goiás (registro)](pessoa-1997-revanche-camponesa.md)
+- [Miccolis et al. (2016) — Restauração Ecológica com Sistemas Agroflorestais: conciliar conservação com produção (ficha completa)](miccolis-et-al-2016-restauracao-ecologica-safs.md)
+- [Pessoa (1997) — A revanche camponesa: cotidiano e história em assentamentos de Goiás (ficha completa)](pessoa-1997-revanche-camponesa.md)
 - [Hillenkamp et al. (2025) — Raízes da Resistência: territórios feministas e agroecológicos](hillenkamp-et-al-2025-raizes-da-resistencia.md)
 - [Nascimento et al. (2018) — Produção agroecológica em assentamentos: soberania e segurança alimentar](nascimento-et-al-2018-producao-agroecologica-assentamentos.md)
 
