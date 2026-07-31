@@ -71,6 +71,10 @@ Fichas de registro bibliográfico derivadas do manifesto de referências citadas
 - [Veiga & Tourrand (2004) — Potencial e adoção de sistemas silvipastoris](veiga-2004-potencial-e-adocao-de-sistemas-silvipastoris-.md)
 - [Smith et al. (1998) — Experiências agroflorestais na Amazônia brasileira](smith-1998-experiencias-agroflorestais-na-amazonia-brasi.md)
 
+### Estado da arte
+
+- [Estado da arte: Reforma Agrária, Agroecologia e Sistemas Agroflorestais no Brasil](estado-da-arte.md)
+
 ### Fichas do Plano de Decoupagem/Fichamento Agroecologia (P1)
 
 - [Petersen et al. (2017) — Método de Análise Econômico-Ecológica de Agroecossistemas](petersen-et-al-2017-metodo-analise-agroecossistemas.md)
@@ -79,6 +83,18 @@ Fichas de registro bibliográfico derivadas do manifesto de referências citadas
 - [Pessoa (1997) — A revanche camponesa: cotidiano e história em assentamentos de Goiás (ficha completa)](pessoa-1997-revanche-camponesa.md)
 - [Hillenkamp et al. (2025) — Raízes da Resistência: territórios feministas e agroecológicos](hillenkamp-et-al-2025-raizes-da-resistencia.md)
 - [Nascimento et al. (2018) — Produção agroecológica em assentamentos: soberania e segurança alimentar](nascimento-et-al-2018-producao-agroecologica-assentamentos.md)
+
+### Fichas do Plano de Decoupagem/Fichamento Agroecologia (P2/P3/P4)
+
+- [Machín Sosa et al. (2012) — Revolução Agroecológica: Camponês a Camponês da ANAP em Cuba](machin-sosa-et-al-2012-revolucao-agroecologica.md)
+- [Souza et al. (2014) — Ferramentas participativas nos assentamentos Pirituba e Sepé Tiarajú](souza-et-al-2014-ferramentas-participativas.md)
+- [Souza & Schneider (2022) — Internalização da soberania alimentar: desafios do MST](souza-schneider-2022-internalizacao-soberania-alimentar.md)
+- [Marchetti et al. (2023) — Escola Egídio Brunetto e bioinsumos no Extremo Sul da Bahia](marchetti-et-al-2023-escola-egidio-brunetto-bioinsumos.md)
+- [Lobo et al. (2018) — Varal produtivo agroecológico (resolução da REF-AMB-01)](lobo-et-al-2018-varal-produtivo-agroecologico.md)
+- [Quintais produtivos — Assentamentos Agroecológicos do Extremo Sul da Bahia (2024)](quintais-produtivos-assentamentos-agroecologicos-2024.md)
+- [Promovendo a soberania alimentar — Assentamento Dois Riachões (2024)](promovendo-soberania-alimentar-dois-riachoes-2024.md)
+- [Agroecologia e soberania alimentar — PDS Mário Lago (2024)](agroecologia-soberania-alimentar-pds-mario-lago-2024.md)
+- [Oliveira (2003) — Crítica à Razão Dualista / O Ornitorrinco (registro + resenha)](oliveira-2003-critica-razao-dualista.md)
 
 #### Demais registros (24 refs citadas)
 

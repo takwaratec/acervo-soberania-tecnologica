@@ -14,6 +14,7 @@ Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revis
 - [Correia (2010) — conforto ambiental e relações subjetivas em HIS](ludmila-correia-2010-conforto-ambiental-his.md)
 - [Correia (2023) — Brasília sensível aos sons](ludmila-correia-2023-brasilia-sensivel-sons.md)
 - [Oliveira e Villa (2024) — impactos da COVID-19 na habitação social](oliveira-villa-2024-covid-his.md)
+- [Pazos et al. (2025) — aerolevantamento e SbN na escola do Sol Nascente](pazos-et-al-2025-aerolevantamento-sbn-sol-nascente.md)
 
 A dissertação de Santos não possui identificador persistente no original. Seu ingresso foi baseado na fonte integral, na ficha catalográfica e na folha de aprovação.
 ---

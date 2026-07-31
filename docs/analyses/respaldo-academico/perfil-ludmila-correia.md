@@ -42,7 +42,7 @@ Associação Panã Arquitetura Social.
 - **Aerolevantamento e SbN no Sol Nascente (2025):** coautora do artigo "O
   aerolevantamento como ferramenta para a implementação de soluções baseadas na
   natureza: o caso da escola no Sol Nascente", publicado na Revista de
-  Geopolítica.
+  Geopolítica (REGEO). [Ficha científica no Acervo](../percecao-social/pazos-et-al-2025-aerolevantamento-sbn-sol-nascente.md).
 - **CAU/DF e ATHIS:** atua como conselheira do CAU/DF e participa da promoção
   da ATHIS no Distrito Federal, incluindo a Formação em Exercício de ATHIS de
   2026.
