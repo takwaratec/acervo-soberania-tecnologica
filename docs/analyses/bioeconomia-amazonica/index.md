@@ -30,3 +30,10 @@ Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revis
 - [A bioeconomia brasileira em números — Silva, Pereira e Martins (2018)](silva-pereira-martins-2018-bioeconomia-numeros.md)
 
 Os documentos legados deste eixo foram preservados em quarentena até que fonte, autoria, identificador e conteúdo sejam conferidos individualmente.
+
+## Fichas da Bibliografia Complementar (2026-07-31)
+
+- [Sociobioeconomia e tecnologia social na Amazônia — Rodrigues et al. (2024)](sociobioeconomia-tecnologia-social-amazonia-2024.md)
+- [Plataformas digitais e bioeconomia amazônica — Silva et al. (2025)](plataformas-digitais-bioeconomia-amazonica-2025.md)
+- [Crescimento de árvores com terra preta amazônica — de Freitas et al. (2026)](dark-earths-crescimento-arvores-2026.md)
+- [Biochar e o eucalipto — Maia et al. (2021, cap. 13)](maia-biochar-eucalipto-2021.md)

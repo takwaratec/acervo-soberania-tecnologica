@@ -22,4 +22,10 @@ tipo_documental: indice
 estado_documental: em-revisao-documental
 data_revisao: 2026-07-14
 responsavel_curadoria: Fabio Takwara
+
+## Fichas da Bibliografia Complementar (2026-07-31)
+
+- [Método para avaliação da percepção de valor em HIS — Monteiro e Miron (2022)](monteiro-2022-metodo-percepcao-valor-his.md)
+- [Resiliência em HIS por APO e coprodução — Garrefa et al. (2021)](garrefa-2021-resiliencia-his-apo-coproducao.md)
+- [APO do conjunto Moradias União Ferroviária — Souza et al. (2014)](souza-2014-apo-moradias-uniao-ferroviaria.md)
 ---
