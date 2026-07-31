@@ -71,6 +71,15 @@ Fichas de registro bibliográfico derivadas do manifesto de referências citadas
 - [Veiga & Tourrand (2004) — Potencial e adoção de sistemas silvipastoris](veiga-2004-potencial-e-adocao-de-sistemas-silvipastoris-.md)
 - [Smith et al. (1998) — Experiências agroflorestais na Amazônia brasileira](smith-1998-experiencias-agroflorestais-na-amazonia-brasi.md)
 
+### Fichas do Plano de Decoupagem/Fichamento Agroecologia (P1)
+
+- [Petersen et al. (2017) — Método de Análise Econômico-Ecológica de Agroecossistemas](petersen-et-al-2017-metodo-analise-agroecossistemas.md)
+- [Lopes et al. (2018) — Enriquecimento de 500 quintais produtivos com espécies nativas](lopes-et-al-2018-enriquecimento-500-quintais.md)
+- [Miccolis et al. (2016) — Restauração Ecológica com Sistemas Agroflorestais (registro)](miccolis-et-al-2016-restauracao-ecologica-safs.md)
+- [Pessoa (1997) — A revanche camponesa: cotidiano e história em assentamentos de Goiás (registro)](pessoa-1997-revanche-camponesa.md)
+- [Hillenkamp et al. (2025) — Raízes da Resistência: territórios feministas e agroecológicos](hillenkamp-et-al-2025-raizes-da-resistencia.md)
+- [Nascimento et al. (2018) — Produção agroecológica em assentamentos: soberania e segurança alimentar](nascimento-et-al-2018-producao-agroecologica-assentamentos.md)
+
 #### Demais registros (24 refs citadas)
 
 - [Almeida (2008) — Vegetação secundária da Amazônia Legal (INPE)](almeida-2008-estimativa-da-area-de-ocorrencia-e-do-tempo-d.md)
