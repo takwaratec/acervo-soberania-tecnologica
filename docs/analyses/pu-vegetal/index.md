@@ -53,3 +53,11 @@ O artigo de Kamaruddin et al. não estuda poliuretano nem bambu. Permanece nesta
 - os resultados de Leithold Neto são restritos às bioespumas Kehl® e às condições descritas no TCC;
 - o estudo de Wei et al. usa tubos laminados com epóxi e não valida colmos naturais ou espuma vegetal;
 - PDFs integrais e extrações por página são preservados fora da árvore pública.
+
+## Fichas da Bibliografia Complementar (2026-07-31)
+
+- [Compósitos de poliuretana de mamona e quitosana — Medeiros (2023)](medeiros-2023-compositos-pu-quitosana.md)
+- [Painéis de Pinus + PET com adesivo PU de mamona — Silva Neto (2026)](silvaneto-2026-paineis-pinus-pet-pu.md)
+- [Resina PU de mamona na construção civil — Silva (1996, histórico)](silva-1996-resina-pu-mamona-construcao.md)
+- [PU de mamona com partículas de bambu — Marinho et al. (2013)](marinho-pu-mamona-bambu-polimeros.md)
+- [Propriedades elétrica, dielétrica e piezoelétrica de PU de mamona — Costa (2022)](costa-2022-propriedades-eletricas-pu-mamona.md)

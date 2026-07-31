@@ -34,6 +34,13 @@ Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revis
 - [Bambus lenhosos neotropicais para bioprodutos e bioenergia — Hernández-Mena et al. (2024)](neotropical-bamboo-review-2024.md)
 - [Estrutura mista de bambu e concreto sob excitação sísmica — Puma Alvarez (2014)](ficha-desempenho-sismico-bambu-concreto-puma-2014.md)
 
+### Fichas científicas e referências auditadas (com DOI)
+
+- [Avaliação do Ciclo de Vida do Bambu Artesanal no Acre — Araujo et al. (2025)](araujo-2025-acv-bambu-artesanal-acre.md) | DOI: [10.14295/bjs.v4i4.719](https://doi.org/10.14295/bjs.v4i4.719)
+- [Propriedades, Tratamento e Normatização do Bambu — Adier et al. (2023)](adier-2023-propriedades-tratamento-bambu.md) | DOI: [10.3390/buildings13102449](https://doi.org/10.3390/buildings13102449)
+- [Tratamento Térmico a Vapor Saturado em Bambu — Wang et al. (2020)](wang-2020-tratamento-termico-vapor-bambu.md) | DOI: [10.1186/s10086-020-01899-7](https://doi.org/10.1186/s10086-020-01899-7)
+- [Conservação de Bambu por Ácido Pirolenhoso — Silva / UNICAMP (2011)](silva-2011-conservacao-bambu-acido-pirolenhoso.md)
+
 ## Patentes e processos protegidos
 
 - [Elemento estrutural de bambu protendido — Moreira e Silva (PI 1106035-2 B1)](moreira-silva-2022-bambu-protendido.md)
@@ -65,17 +72,43 @@ Patentes são fontes tecnológicas primárias. Seus exemplos e reivindicações 
 - simulação, ensaio laboratorial e relato de experiência são evidências de naturezas diferentes;
 - resultados permanecem condicionados a espécie, formulação, amostra, método e escala;
 - os estados `em-revisao-documental` e `revisado-com-fonte-integral` não equivalem a validação experimental pelo Acervo.
----
-tipo_documental: indice
-estado_documental: em-revisao-documental
-data_revisao: 2026-07-14
-responsavel_curadoria: Fabio Takwara
----
 
+## Operação Bambu Brasil 2021–2026 (lote 2026-07-31)
 
-### 🔬 Fichas Científicas e Referências Auditadas
+Fichas geradas pela campanha de aquisição e fichamento de fontes recentes (2020–2025) sobre bambu: estruturas, materiais engenheirados, densificação, celulose, bioconcretos, durabilidade, ecologia, Amazônia, cadeia produtiva e mercado. Registro completo em `CONTROLE_ENDPOINTS.md`.
 
-- [Avaliação do Ciclo de Vida do Bambu Artesanal no Acre — Araujo et al. (2025)](araujo-2025-acv-bambu-artesanal-acre.md) | [![DOI](https://img.shields.io/badge/DOI-10.14295%2Fbjs.v4i4.719-blue.svg)](https://doi.org/10.14295/bjs.v4i4.719)
-- [Propriedades, Tratamento e Normatização do Bambu — Adier et al. (2023)](adier-2023-propriedades-tratamento-bambu.md) | [![DOI](https://img.shields.io/badge/DOI-10.3390%2Fbuildings13102449-blue.svg)](https://doi.org/10.3390/buildings13102449)
-- [Tratamento Térmico a Vapor Saturado em Bambu — Wang et al. (2020)](wang-2020-tratamento-termico-vapor-bambu.md) | [![DOI](https://img.shields.io/badge/DOI-10.1186%2Fs10086--020--01899--7-blue.svg)](https://doi.org/10.1186/s10086-020-01899-7)
-- [Conservação de Bambu por Ácido Pirolenhoso — Silva / UNICAMP (2011)](silva-2011-conservacao-bambu-acido-pirolenhoso.md) | [![UNICAMP](https://img.shields.io/badge/UNICAMP-FEAGRI--2011-red.svg)](https://www.feagri.unicamp.br/)
+### Estrutura e materiais
+
+- [Bambu: sistemas estruturais contemporâneos na prática arquitetônica — Bussinger (2024)](bussinger-2024-bambu-sistemas-estruturais.md)
+- [Caracterização das propriedades tecnológicas dos elementos de bambu densificado — Sá (2022)](sa-2022-densificacao-dendrocalamus-asper.md)
+- [Efeitos do pré-tratamento alcalino e método de secagem no processo de densificação do bambu — Godoy Júnior (2024)](godoy-junior-2024-pretratamento-alcalino-densificacao.md)
+- [Orientação e arranjos laterais de painéis de bambu achatado-densificado colado — Tarverdi (2024)](tarverdi-2024-paineis-bambu-achatado-colado.md)
+- [A industrialização do bambu e a sustentabilidade — Martins (2021)](martins-2021-industrializacao-bambu-laminado.md)
+- [Bambu engenheirado estrutural e cross-laminated bamboo (CLB) — Alves (2025)](alves-2025-bambu-engenheirado-clb.md)
+
+### Amazônia e espécies nativas
+
+- [Espécies nativas da Amazônia na construção civil — CONTECC (2025)](contecc-2025-especies-nativas-amazonia-construcao.md)
+- [Patologias em estruturas de bambu: Quiosque do Coco, Rio Branco-AC — Afonso (2025)](contecc-2025-patologias-quiosque-coco-rio-branco.md)
+- [Coleobrocas em *Bambusa* sp. na Amazônia Meridional — Oliveira, Silva e Garlet (2023)](bjb-2023-coleobrocas-bambusa-amazonia-meridional.md)
+- [Potencial antimicrobiano de bambu nativo da Amazônia (*Guadua aff. lynnclarkiae*) — Sola et al. (2023)](bjb-2023-antimicrobiano-guadua-amazonia.md)
+- [Compósito com fibras de bambu e resíduos industriais — Santos (2020)](santos-2020-composito-bambu-residuos-industriais.md)
+
+### Resíduos, bioeconomia e propagação
+
+- [Bioconcretos de bambu com partículas finas — Gangorra et al. (2024)](rmat-2024-bioconcreto-particulas-bambu.md)
+- [Polpa celulósica de espécies de bambu — Santos (2023)](santos-2023-polpa-celulosica-bambu.md)
+- [Tratamentos térmicos na durabilidade e propriedades mecânicas do bambu — Oliveira et al. (2025)](oliveira-2025-tratamentos-termicos-durabilidade.md)
+- [Minijardim clonal de *Bambusa vulgaris* in vitro — Teixeira et al. (2021)](cerne-2021-minijardim-clonal-bambusa-vulgaris.md)
+
+### Arquitetura e mercado
+
+- [Poética da narrativa tectônica em projetos que utilizam bambu — Santos (2024)](santos-2024-poetica-narrativa-tectonica-bambu.md)
+- [O bambu como matéria-prima promissora para o mercado brasileiro — Louredo et al. (2025)](louredo-2025-bambu-materia-prima-mercado-brasileiro.md)
+
+### Bibliografia complementar (BAMBU-COMP)
+
+- [Estruturas reticuladas de bambu laminado e fabricação digital — Ruggiero (2021)](ruggiero-2021-estruturas-reticuladas-bambu-laminado.md)
+- [Tratamento preservativo e modificação química do bambu — Gauss (2020)](gauss-2020-tratamento-preservativo-modificacao-quimica.md)
+- [Casa de painéis de bambu-argamassa — Cordero (1990, histórico)](cordero-1990-casa-paineis-bambu-argamassa.md)
+- [Substituição parcial do cimento por cinzas de bambu — Mendonça (2018)](mendonca-2018-substituicao-cimento-cinzas-bambu.md)

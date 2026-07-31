@@ -13,4 +13,9 @@ tipo_documental: indice
 estado_documental: em-revisao-documental
 data_revisao: 2026-07-14
 responsavel_curadoria: Fabio Takwara
+
+## Fichas da Bibliografia Complementar (2026-07-31)
+
+- [Método para avaliação técnica de áreas comuns de HIS — Rangel et al. (2020)](rangel-2020-metodo-avaliacao-areas-comuns-his.md)
+- [Benchmarking de construtibilidade de HIS — Abreu et al. (2025)](abreu-2025-benchmarking-construtibilidade-his.md)
 ---

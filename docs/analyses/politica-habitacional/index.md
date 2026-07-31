@@ -11,4 +11,9 @@ tipo_documental: indice
 estado_documental: em-revisao-documental
 data_revisao: 2026-07-14
 responsavel_curadoria: Fabio Takwara
+
+## Fichas da Bibliografia Complementar (2026-07-31)
+
+- [ATHIS: do discurso à construção da prática profissional — Cardoso e Lopes (2022)](cardoso-2022-athis-assessoria-assistencia.md)
+- [UHE Belo Monte: reassentamentos rurais e direito à moradia adequada — Chaves et al. (2019)](chaves-2019-belo-monte-reassentamentos-rurais.md)
 ---

@@ -95,6 +95,28 @@ nav:
           - Propriedades e Tratamentos (Adier et al. 2023): analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md
           - Tratamento Térmico a Vapor (Wang et al. 2020): analyses/bambu-estrutural/wang-2020-tratamento-termico-vapor-bambu.md
           - Preservação por Ácido Pirolenhoso (Silva 2011): analyses/bambu-estrutural/silva-2011-conservacao-bambu-acido-pirolenhoso.md
+      - Operação Bambu Brasil 2021–2026:
+          - Estrutura e materiais:
+              - Sistemas estruturais (Bussinger 2024): analyses/bambu-estrutural/bussinger-2024-bambu-sistemas-estruturais.md
+              - Densificação de D. asper (Sá 2022): analyses/bambu-estrutural/sa-2022-densificacao-dendrocalamus-asper.md
+              - Pré-tratamento alcalino (Godoy Júnior 2024): analyses/bambu-estrutural/godoy-junior-2024-pretratamento-alcalino-densificacao.md
+              - Painéis achatado-densificados (Tarverdi 2024): analyses/bambu-estrutural/tarverdi-2024-paineis-bambu-achatado-colado.md
+              - Industrialização do laminado (Martins 2021): analyses/bambu-estrutural/martins-2021-industrializacao-bambu-laminado.md
+              - Bambu engenheirado e CLB (Alves 2025): analyses/bambu-estrutural/alves-2025-bambu-engenheirado-clb.md
+          - Amazônia e espécies nativas:
+              - Espécies nativas na construção (CONTECC 2025): analyses/bambu-estrutural/contecc-2025-especies-nativas-amazonia-construcao.md
+              - Patologias no Quiosque do Coco (2025): analyses/bambu-estrutural/contecc-2025-patologias-quiosque-coco-rio-branco.md
+              - Coleobrocas em Bambusa (2023): analyses/bambu-estrutural/bjb-2023-coleobrocas-bambusa-amazonia-meridional.md
+              - Potencial antimicrobiano da Guadua (2023): analyses/bambu-estrutural/bjb-2023-antimicrobiano-guadua-amazonia.md
+              - Compósito com resíduos industriais (Santos 2020): analyses/bambu-estrutural/santos-2020-composito-bambu-residuos-industriais.md
+          - Resíduos, bioeconomia e propagação:
+              - Bioconcretos de bambu (2024): analyses/bambu-estrutural/rmat-2024-bioconcreto-particulas-bambu.md
+              - Polpa celulósica (Santos 2023): analyses/bambu-estrutural/santos-2023-polpa-celulosica-bambu.md
+              - Tratamentos térmicos e durabilidade (2025): analyses/bambu-estrutural/oliveira-2025-tratamentos-termicos-durabilidade.md
+              - Minijardim clonal de B. vulgaris (2021): analyses/bambu-estrutural/cerne-2021-minijardim-clonal-bambusa-vulgaris.md
+          - Arquitetura e mercado:
+              - Narrativa tectônica (Santos 2024): analyses/bambu-estrutural/santos-2024-poetica-narrativa-tectonica-bambu.md
+              - Mercado brasileiro (Louredo 2025): analyses/bambu-estrutural/louredo-2025-bambu-materia-prima-mercado-brasileiro.md
       - Painéis laminados de bambu: analyses/bambu-estrutural/rusch-2019-paineis-bambu-laminado.md
       - Bambu laminado colado no Paraná: analyses/bambu-estrutural/reghin-2018-bambu-laminado-colado.md
       - Normas internacionais de bambu: analyses/bambu-estrutural/marcal-2018-normas-internacionais-bambu.md
@@ -142,6 +164,11 @@ nav:
       - Produto IMPERVEG UG 132 A: analyses/pu-vegetal/ficha-tecnica-imperveg-ug132a.md
       - Produto MAMONEX RD70: analyses/pu-vegetal/ficha-tecnica-mamonex-rd70.md
       - Alcalinização de fibras em biocompósito: analyses/pu-vegetal/kamaruddin-et-al-2022-tratamento-alcalino-capim-limao.md
+      - Compósitos de PU de mamona e quitosana (Medeiros 2023): analyses/pu-vegetal/medeiros-2023-compositos-pu-quitosana.md
+      - Painéis de Pinus, PET e PU de mamona (Silva Neto 2026): analyses/pu-vegetal/silvaneto-2026-paineis-pinus-pet-pu.md
+      - Resina PU de mamona na construção (Silva 1996): analyses/pu-vegetal/silva-1996-resina-pu-mamona-construcao.md
+      - PU de mamona com partículas de bambu (Marinho 2013): analyses/pu-vegetal/marinho-pu-mamona-bambu-polimeros.md
+      - Propriedades elétricas de PU de mamona (Costa 2022): analyses/pu-vegetal/costa-2022-propriedades-eletricas-pu-mamona.md
   - Habitação social:
       - Percepção social:
           - Visão geral: analyses/percecao-social/index.md
@@ -150,14 +177,21 @@ nav:
           - Correia — Brasília sensível aos sons: analyses/percecao-social/ludmila-correia-2023-brasilia-sensivel-sons.md
           - Oliveira e Villa — COVID-19: analyses/percecao-social/oliveira-villa-2024-covid-his.md
           - Pazos et al. — aerolevantamento e SbN no Sol Nascente: analyses/percecao-social/pazos-et-al-2025-aerolevantamento-sbn-sol-nascente.md
+          - Monteiro e Miron — percepção de valor em HIS (2022): analyses/percecao-social/monteiro-2022-metodo-percepcao-valor-his.md
+          - Garrefa et al. — resiliência em HIS por APO (2021): analyses/percecao-social/garrefa-2021-resiliencia-his-apo-coproducao.md
+          - Souza et al. — APO Moradias União Ferroviária (2014): analyses/percecao-social/souza-2014-apo-moradias-uniao-ferroviaria.md
       - Avaliação pós-ocupação:
           - Visão geral: analyses/avaliacao-pos-ocupacao/index.md
           - Otoni e Villa — ampliabilidade: analyses/avaliacao-pos-ocupacao/otoni-villa-2024-resiliencia-ampliabilidade.md
           - Thielke — Conjunto Porto Novo: analyses/avaliacao-pos-ocupacao/thielke-2021-apo-porto-alegre.md
+          - Rangel et al. — áreas comuns de HIS (2020): analyses/avaliacao-pos-ocupacao/rangel-2020-metodo-avaliacao-areas-comuns-his.md
+          - Abreu et al. — benchmarking de construtibilidade (2025): analyses/avaliacao-pos-ocupacao/abreu-2025-benchmarking-construtibilidade-his.md
       - Política habitacional:
           - Visão geral: analyses/politica-habitacional/index.md
           - Simões e Leder — habitação seriada: analyses/politica-habitacional/simoes-leder-2024-assentamento-seriado.md
           - Ferreira — política HIS em Ponta Grossa: analyses/politica-habitacional/ferreira-2023-politica-his-ponta-grossa.md
+          - Cardoso e Lopes — ATHIS (2022): analyses/politica-habitacional/cardoso-2022-athis-assessoria-assistencia.md
+          - "Chaves et al. — Belo Monte: reassentamentos (2019)": analyses/politica-habitacional/chaves-2019-belo-monte-reassentamentos-rurais.md
   - Bioeconomia amazônica:
       - Bioeconomia: analyses/bioeconomia-amazonica/index.md
       - Biochar e emissões negativas: analyses/bioeconomia-amazonica/ficha-biochar-negative-emissions-review.md
@@ -165,9 +199,16 @@ nav:
       - Solo em sistemas integrados na Amazônia oriental: analyses/bioeconomia-amazonica/souza-et-al-2024-solo-sistemas-integrados.md
       - Carbono em matas ciliares: analyses/bioeconomia-amazonica/martins-2004-carbono-matas-ciliares.md
       - Incêndios florestais no Acre: analyses/bioeconomia-amazonica/silva-2017-dinamica-incendios-acre.md
+      - Sociobioeconomia e tecnologia social (2024): analyses/bioeconomia-amazonica/sociobioeconomia-tecnologia-social-amazonia-2024.md
+      - Plataformas digitais e bioeconomia (2025): analyses/bioeconomia-amazonica/plataformas-digitais-bioeconomia-amazonica-2025.md
+      - Terra preta e crescimento de árvores (2026): analyses/bioeconomia-amazonica/dark-earths-crescimento-arvores-2026.md
+      - Biochar e o eucalipto (Maia 2021): analyses/bioeconomia-amazonica/maia-biochar-eucalipto-2021.md
       - Incêndios e dominância do bambu: analyses/bioeconomia-amazonica/silva-et-al-2017-incendios-dominancia-bambu.md
       - Bioeconomia brasileira em números: analyses/bioeconomia-amazonica/silva-pereira-martins-2018-bioeconomia-numeros.md
       - Grandes obras: analyses/grandes-obras-amazonia/index.md
+      - Governança em megaprojetos (Pereira et al. 2023): analyses/grandes-obras-amazonia/pereira-2023-governanca-megaprojetos-amazonia.md
+      - Grandes Obras na Amazônia — caso de ensino (Wood Jr. e Morais 2021): analyses/grandes-obras-amazonia/wood-2021-caso-ensino-grandes-obras.md
+      - Retiradas triunfais e deslocados (Scott 2025): analyses/grandes-obras-amazonia/scott-2025-retiradas-triunfais-deslocados.md
   - Reforma Agrária e Agrofloresta:
       - Visão geral: analyses/reforma-agraria-agrofloresta/index.md
       - Estado da arte: analyses/reforma-agraria-agrofloresta/estado-da-arte.md
