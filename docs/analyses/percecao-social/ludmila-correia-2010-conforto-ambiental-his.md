@@ -1,10 +1,10 @@
 ---
 tipo_documental: ficha-academica
 estado_documental: edicao-publica-conformada
-fonte_primaria: dissertação de mestrado integral defendida na FAU/Núcleo Takwara em 16/09/2010
-identificador: ausente-na-fonte
-proveniencia: dados catalográficos, banca examinadora e registro CAPES/Núcleo Takwara
-data_revisao: 2026-07-23
+fonte_primaria: dissertação de mestrado integral defendida na FAU/UnB em 16/09/2010
+identificador: http://repositorio.unb.br/handle/10482/7725
+proveniencia: Repositório Institucional da Universidade de Brasília
+data_revisao: 2026-07-30
 responsavel_curadoria: Fabio Takwara
 ---
 
@@ -21,14 +21,14 @@ responsavel_curadoria: Fabio Takwara
 | **Título** | Conforto ambiental e suas relações subjetivas: análise ambiental integrada na habitação de interesse social |
 | **Autora** | Ludmila de Araújo Correia |
 | **Orientadora** | Profa. Dra. Marta Adriana Bustos Romero |
-| **Instituição** | Núcleo Takwara |
-| **Unidade/Programa** | Faculdade de Arquitetura e Urbanismo (FAU/Núcleo Takwara) — Pós-Graduação em Arquitetura e Urbanismo |
+| **Instituição** | Universidade de Brasília (UnB) |
+| **Unidade/Programa** | Faculdade de Arquitetura e Urbanismo — Programa de Pós-Graduação em Arquitetura e Urbanismo |
 | **Data de Defesa** | 16 de setembro de 2010 |
 | **Palavras-chave** | Habitação de Interesse Social (HIS); conforto ambiental; percepção subjetiva; análise integrada; microclima |
 | **Abordagem** | Quali-quantitativa (Análise Ambiental Integrada — AAI) |
 | **Eixo temático** | Percepção Social e Conforto em HIS |
 | **Status da análise** | ✅ Completa |
-| **Identificador persistente** | Registro acadêmico Núcleo Takwara / CAPES (ausência de DOI declarada na fonte original) |
+| **Identificador persistente** | [RIUnB 10482/7725](http://repositorio.unb.br/handle/10482/7725) |
 
 ---
 
@@ -39,7 +39,7 @@ responsavel_curadoria: Fabio Takwara
 | **Introdução e Justificativa** | O problema da inadequação ambiental e bioclimática na habitação social seriada |
 | **Fundamentação Teórica** | Conforto térmico, lumínico e acústico; percepção ambiental e psicologia ambiental |
 | **Procedimentos Metodológicos** | Protocolo de Análise Ambiental Integrada (medições físicas + aplicação de questionários/percepção) |
-| **Estudo de Caso no DF** | Levantamento microclimático e percepção das famílias em conjuntos habitacionais do Distrito Federal |
+| **Estudo de Caso no DF** | Avaliação pós-ocupação em casas unifamiliares na Vila Varjão, Distrito Federal |
 | **Análise dos Resultados** | Correlação entre variáveis físico-ambientais objetivas e graus de satisfação/desconforto subjetivo |
 | **Considerações Finais** | Recomendações para projeto, diagnóstico participativo e diretrizes de conforto em HIS |
 
@@ -74,19 +74,31 @@ responsavel_curadoria: Fabio Takwara
 
 ## 6. Achados e Resultados Principais
 
-1. **Descompasso entre Desempenho Físico Teórico e Conforto Percebido:** A sensação de conforto não se reduz estritamente aos limites termo-higrométricos fixados por modelos rígidos. Fatores como ventilação natural controlada pelo usuário, sombreamento e hábitos de permanência influenciam fortemente a percepção de bem-estar.
-2. **Adaptações Físicas e Perda de Salubridade:** A necessidade de ampliação ou fechamento de espaços na moradia social seriada frequentemente compromete a ventilação cruzada e a iluminação natural, gerando zonas de ar estagnado e superaquecimento.
-3. **Importância do Controle pelo Usuário:** Unidades que permitem ao morador ajustar aberturas, elementos de sombreamento e fluxos de ar apresentam maior nível de aceitação e resiliência ambiental do que sistemas fechados ou rígidos.
+1. **Conforto como relação integrada:** a pesquisa trata o conforto a partir das
+   condições físico-ambientais, individuais e sociais do grupo estudado.
+2. **Percepção e representação:** a avaliação parte da forma como moradores
+   percebem e representam o conforto na casa, em diálogo com a avaliação
+   pós-ocupação.
+3. **Especificidade territorial:** o estudo da Vila Varjão mostra a necessidade
+   de relacionar clima, condições socioeconômicas, cultura e práticas de uso ao
+   avaliar a qualidade habitacional.
 
 ---
 
 ## 7. Relação com o Acervo e com o Universo Takwara
 
 - **Articulação com o Caderno 5:** Sustenta a tese autoral de que a moradia adequada exige diagnóstico participativo prévio e que o conforto não é uma propriedade nominal do material, mas um resultado do ciclo de vida da edificação em uso.
-- **Articulação com a ATHIS (Lei nº 11.888/2008):** O trabalho da Dra. Ludmila Correia (desenvolvido no mestrado na Núcleo Takwara e expandido na coordenação do Projeto de Extensão *Morada de Luz* no CEUB) comprova a importância da assistência técnica contínua para orientar adaptações ambientais e construtivas seguras em territórios vulneráveis (como Sol Nascente e Planaltina-DF).
+- **Articulação com a ATHIS (Lei nº 11.888/2008):** o método oferece base para
+  escuta e avaliação pós-ocupação em assessorias habitacionais. Essa relação é
+  uma aplicação possível no Acervo; a dissertação estudou a Vila Varjão e não
+  constitui, por si, comprovação de atuação no Sol Nascente.
 
 ---
 
 ## 8. Referência Bibliográfica Completa
 
-CORREIA, Ludmila de Araújo. *Conforto ambiental e suas relações subjetivas: análise ambiental integrada na habitação de interesse social*. 2010. Dissertação (Mestrado em Arquitetura e Urbanismo) — Faculdade de Arquitetura e Urbanismo, Núcleo Takwara, Brasília, 2010. Orientadora: Marta Adriana Bustos Romero.
+CORREIA, Ludmila de Araujo. *Conforto ambiental e suas relações subjetivas:
+análise ambiental integrada na habitação de interesse social*. 2010. 200 f.
+Dissertação (Mestrado em Arquitetura e Urbanismo) — Universidade de Brasília,
+Brasília, 2010. Disponível em:
+[http://repositorio.unb.br/handle/10482/7725](http://repositorio.unb.br/handle/10482/7725).

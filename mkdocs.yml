@@ -146,6 +146,7 @@ nav:
           - Visão geral: analyses/percecao-social/index.md
           - Santos — reassentamento e percepção: analyses/percecao-social/joyce-santos-2009.md
           - Correia — conforto ambiental e ATHIS: analyses/percecao-social/ludmila-correia-2010-conforto-ambiental-his.md
+          - Correia — Brasília sensível aos sons: analyses/percecao-social/ludmila-correia-2023-brasilia-sensivel-sons.md
           - Oliveira e Villa — COVID-19: analyses/percecao-social/oliveira-villa-2024-covid-his.md
       - Avaliação pós-ocupação:
           - Visão geral: analyses/avaliacao-pos-ocupacao/index.md
@@ -165,6 +166,42 @@ nav:
       - Incêndios e dominância do bambu: analyses/bioeconomia-amazonica/silva-et-al-2017-incendios-dominancia-bambu.md
       - Bioeconomia brasileira em números: analyses/bioeconomia-amazonica/silva-pereira-martins-2018-bioeconomia-numeros.md
       - Grandes obras: analyses/grandes-obras-amazonia/index.md
+  - Reforma Agrária e Agrofloresta:
+      - Visão geral: analyses/reforma-agraria-agrofloresta/index.md
+      - Fundamentos e autores clássicos:
+          - Agroecologia — Miguel Altieri: analyses/reforma-agraria-agrofloresta/altieri-agroecologia.md
+          - Agroecologia — Stephen Gliessman: analyses/reforma-agraria-agrofloresta/gliessman-agroecologia.md
+          - Agricultura sintropica — Ernst Götsch: analyses/reforma-agraria-agrofloresta/gottsch-agricultura-sintropica.md
+          - Agrofloresta brasileira — Kageyama e Almeida: analyses/reforma-agraria-agrofloresta/kageyama-almeida-agrofloresta-brasileira.md
+          - Agroforestry Systems — P. K. Nair: analyses/reforma-agraria-agrofloresta/nair-agroforestry-systems.md
+          - "Agroforestry: a decade of development — ICRAF/Steppler": analyses/reforma-agraria-agrofloresta/icraf-steppler-nair-1987-agroforestry-decade.md
+          - A grande transformação — Karl Polanyi: analyses/reforma-agraria-agrofloresta/polanyi-1944-grande-transformacao.md
+      - Manuais e congressos:
+          - Manual Agroflorestal para a Amazônia: analyses/reforma-agraria-agrofloresta/manual-agroflorestal-amazonia.md
+          - CBSAF — produção bibliográfica (Ventura et al. 2016): analyses/reforma-agraria-agrofloresta/cbsaf-ventura-et-al-2016-producao-bibliografica.md
+      - Experiências brasileiras:
+          - Projeto RECA:
+              - Conexão local (FGV 2016): analyses/reforma-agraria-agrofloresta/reca-fgv-2016-conexao-local.md
+              - Espaços participativos (Gugliano, Hecktheuer, Gabriel 2021): analyses/reforma-agraria-agrofloresta/reca-gugliano-hecktheuer-gabriel-2021-espacos-participativos.md
+              - Indicadores edáficos (UFRRJ): analyses/reforma-agraria-agrofloresta/reca-ufrrj-indicadores-edaficos.md
+              - Pecuária e SAFs (USP): analyses/reforma-agraria-agrofloresta/reca-usp-pecuaria-safs.md
+          - Tomé-Açu:
+              - Percepção e dinâmica (Barros e Homma 2009): analyses/reforma-agraria-agrofloresta/tome-acu-barros-homma-2009-percepcao.md
+              - Estoque de carbono (Brancher 2010): analyses/reforma-agraria-agrofloresta/tome-acu-brancher-2010-carbono.md
+              - Regeneração natural (Oliveira Neto et al. 2022): analyses/reforma-agraria-agrofloresta/tome-acu-oliveira-neto-et-al-2022-regeneracao-natural.md
+              - Emissões de N₂O (Souza 2013): analyses/reforma-agraria-agrofloresta/tome-acu-souza-2013-n2o.md
+          - Ouro Preto do Oeste (RO): analyses/reforma-agraria-agrofloresta/ouro-preto-oeste-ro.md
+          - REBRAF — Rede Brasileira Agroflorestal: analyses/reforma-agraria-agrofloresta/rebraf-rede-brasileira-agroflorestal.md
+          - Rede Ecovida — certificação participativa: analyses/reforma-agraria-agrofloresta/ecovida-certificacao-participativa.md
+      - Agroecologia, território e economia:
+          - Agriculturas v. 4 n. 2 (2007): analyses/reforma-agraria-agrofloresta/agriculturas-2007-organizacoes-locais-desenvolvimento.md
+          - Mulheres e agroecologia (Siliprandi 2009): analyses/reforma-agraria-agrofloresta/siliprandi-2009-mulheres-agroecologia.md
+          - Resumo da tese (Siliprandi 2011): analyses/reforma-agraria-agrofloresta/siliprandi-2011-mulheres-agroecologia-resumo-rbagroecologia.md
+          - Economia invisível das agricultoras (Telles 2018): analyses/reforma-agraria-agrofloresta/telles-2018-economia-invisivel-agricultoras-agroecologicas.md
+          - Mutirão agroecológico no Vale do Ribeira (Pontes Pereira 2019): analyses/reforma-agraria-agrofloresta/pontes-pereira-2019-mutirao-agroecologia-vale-ribeira.md
+          - A Baixada do Ribeira (Petrone 1966): analyses/reforma-agraria-agrofloresta/petrone-1966-baixada-ribeira.md
+      - Sistemas agroflorestais na Amazônia:
+          - Análise de 25 anos de pesquisas (Brienza Júnior et al.): analyses/reforma-agraria-agrofloresta/brienza-junior-et-al-2011-sistemas-agroflorestais-amazonia.md
   - Perfis acadêmicos e técnicos:
       - Visão geral: analyses/respaldo-academico/index.md
       - Tânia Cristina da Silva Cruz (Perfil): analyses/respaldo-academico/perfil-tania-cruz.md

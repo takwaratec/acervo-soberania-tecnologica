@@ -28,6 +28,7 @@ Este acervo não apresenta curadoria documental como prova de aplicação comuni
 - [Poliuretano vegetal](analyses/pu-vegetal/index.md)
 - [Habitação social](analyses/percecao-social/index.md)
 - [Bioeconomia amazônica](analyses/bioeconomia-amazonica/index.md)
+- [Reforma Agrária e Agrofloresta](analyses/reforma-agraria-agrofloresta/index.md)
 - [Perfis acadêmicos e técnicos](analyses/respaldo-academico/index.md)
 - [Visão autoral](analyses/visao-do-autor/index.md)
 - [Todas as análises](analyses/index.md)

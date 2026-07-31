@@ -18,7 +18,7 @@ Os projetos são o ponto de encontro entre essas trajetórias. Cada profissional
 - [Marcos Eduardo Paron — IFSP](perfil-marcos-paron.md)
 - [Vicente de Paulo Borges Virgolino da Silva — IFB](perfil-vicente-borges.md)
 - [Daniela Maciel Pinto — Embrapa Territorial](perfil-daniela-maciel.md)
-- [Ludmila de Araújo Correia — CEUB/Núcleo Takwara](perfil-ludmila-correia.md)
+- [Ludmila de Araujo Correia — ATHIS/Panã/UnB](perfil-ludmila-correia.md)
 - [Antonio Bliska Junior — Unicamp/NIPE](perfil-bliska.md)
 - [Sônia Marise Salles Carvalho — PROFNIT/Núcleo Takwara](perfil-sonia-marise-carvalho.md)
 - [Georgia Patrícia da Silva Ferko — UFRR](perfil-georgia-ferko.md)
