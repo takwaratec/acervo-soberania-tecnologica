@@ -4,8 +4,7 @@ author:
   name: Takwara, Fabio Resck
   orcid: 0000-0001-8815-3885
 date: '2026-03-04'
-H.5281/zenodo.18827106
-H.5281/zenodo.18827106
+identificador: https://doi.org/10.5281/zenodo.21520019
 keywords:
 - biocompósitos
 - conexões de bambu
@@ -26,6 +25,10 @@ translations:
   pt: TAK_conexoes-estruturais-bambu.md
 type: Boletim Técnico-Científico
 version: '2.1'
+tipo_documental: manual-tecnico
+estado_documental: publicado-no-zenodo
+responsavel_curadoria: 'Fabio Takwara'
+
 ---
 # Solda Vegetal: Conexões Estruturais e Biocompósitos em Bambu
 

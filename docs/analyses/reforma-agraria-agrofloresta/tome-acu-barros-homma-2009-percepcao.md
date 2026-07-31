@@ -4,6 +4,8 @@ estado_documental: edicao-publica-conformada
 fonte_primaria: artigo em anais de congresso
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Barros & Homma (2009) — Percepção dos agricultores nipo-brasileiros de Tomé-Açu sobre SAFs

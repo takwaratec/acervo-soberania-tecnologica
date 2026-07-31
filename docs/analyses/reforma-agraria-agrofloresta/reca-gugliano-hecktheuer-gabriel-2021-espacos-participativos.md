@@ -4,6 +4,8 @@ estado_documental: edicao-publica-conformada
 fonte_primaria: artigo integral
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Gugliano, Hecktheuer & Gabriel (2021) — Espaços participativos no Projeto RECA

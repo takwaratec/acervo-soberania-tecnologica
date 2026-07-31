@@ -17,7 +17,9 @@ doi: 10.14295/bjs.v4i4.719
 instituicao: Universidade Estadual Paulista (UNESP) / Instituto Federal de São Paulo (IFSP)
 metodo: acv-iso-14040-14044
 data_fichamento: 2026-07-23
-responsavel_fichamento: Fabio Takwara
+responsavel_curadoria: Fabio Takwara
+estado_documental: em-revisao-documental
+
 ---
 
 # Ficha Científica: Avaliação do Ciclo de Vida da Produção Artesanal de Varas de Bambu na Amazônia (Araujo et al., 2025)

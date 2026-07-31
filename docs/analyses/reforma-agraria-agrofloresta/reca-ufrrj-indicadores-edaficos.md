@@ -4,6 +4,8 @@ estado_documental: em-revisao-documental
 fonte_primaria: dissertacao de mestrado integral
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # UFRRJ — Indicadores edáficos e potencial agrícola em áreas do RECA

@@ -2,7 +2,7 @@
 tipo_documental: ensaio-critico-autoral
 serie: Technical Series Tecnologia Takwara — Geopolitics and Technological Sovereignty
 numero: 7
-titulo: Brazilian Bamboo in the Crosshairs of Neocolonialism: Technological Dependence and Territorial Autonomy
+titulo: 'Brazilian Bamboo in the Crosshairs of Neocolonialism: Technological Dependence and Territorial Autonomy'
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2025

@@ -17,7 +17,9 @@ doi: 10.1186/s10086-020-01899-7
 instituicao: International Centre for Bamboo and Rattan (ICBR, Pequim, China)
 metodo: tratamento-termico-vapor-saturado
 data_fichamento: 2026-07-23
-responsavel_fichamento: Fabio Takwara
+responsavel_curadoria: Fabio Takwara
+estado_documental: em-revisao-documental
+
 ---
 
 # Ficha Científica: Tratamento Térmico com Vapor Saturado em Bambu (Wang et al., 2020)

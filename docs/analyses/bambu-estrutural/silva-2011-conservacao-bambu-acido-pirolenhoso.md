@@ -11,7 +11,10 @@ veiculo: Dissertação de Mestrado — Faculdade de Engenharia Agrícola (FEAGRI
 instituicao: Universidade Estadual de Campinas (UNICAMP)
 metodo: ensaio-imersao-extrato-pirolenhoso
 data_fichamento: 2026-07-23
-responsavel_fichamento: Fabio Takwara
+responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+estado_documental: em-revisao-documental
+
 ---
 
 # Ficha Científica: Conservação de Bambu por Ácido Pirolenhoso (Silva / UNICAMP, 2011)

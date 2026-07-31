@@ -17,7 +17,9 @@ doi: 10.3390/buildings13102449
 instituicao: De La Salle University (Manila, Filipinas)
 metodo: revisao-sistematica-prisma
 data_fichamento: 2026-07-23
-responsavel_fichamento: Fabio Takwara
+responsavel_curadoria: Fabio Takwara
+estado_documental: em-revisao-documental
+
 ---
 
 # Ficha Científica: Propriedades, Tratamentos e Normas do Bambu Construtivo (Adier et al., 2023)

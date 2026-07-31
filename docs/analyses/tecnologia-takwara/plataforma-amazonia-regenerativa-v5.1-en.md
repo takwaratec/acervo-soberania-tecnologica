@@ -2,7 +2,7 @@
 tipo_documental: memorial-tecnico-autoral
 serie: Technical Series Tecnologia Takwara — Platform Architecture
 numero: 8
-titulo: Regenerative Amazon Platform v5.1: Architectural Model, Modular Biorefineries, and MRV
+titulo: 'Regenerative Amazon Platform v5.1: Architectural Model, Modular Biorefineries, and MRV'
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2026

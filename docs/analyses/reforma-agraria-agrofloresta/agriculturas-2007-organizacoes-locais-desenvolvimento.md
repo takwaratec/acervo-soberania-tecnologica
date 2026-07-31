@@ -4,6 +4,8 @@ estado_documental: edicao-publica-conformada
 fonte_primaria: revista integral em numero tematico
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Revista Agriculturas, v. 4, n. 2 (jul. 2007) — Organizações locais na promoção do desenvolvimento

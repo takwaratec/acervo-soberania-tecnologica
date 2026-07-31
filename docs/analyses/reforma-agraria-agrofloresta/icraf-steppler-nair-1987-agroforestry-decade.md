@@ -4,6 +4,8 @@ estado_documental: edicao-publica-conformada
 fonte_primaria: livro integral
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Steppler & Nair (1987) — Agroforestry a Decade of Development

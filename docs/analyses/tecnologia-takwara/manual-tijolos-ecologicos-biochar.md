@@ -2,7 +2,7 @@
 tipo_documental: manual-tecnico-autoral
 serie: Série Técnica Tecnologia Takwara
 numero: 4
-titulo: Manual de Tijolos Ecológicos e Blocos Prensados com Adição de Biochar e Fibras de Bambu: Biotecnologia Habitacional
+titulo: 'Manual de Tijolos Ecológicos e Blocos Prensados com Adição de Biochar e Fibras de Bambu: Biotecnologia Habitacional'
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2026

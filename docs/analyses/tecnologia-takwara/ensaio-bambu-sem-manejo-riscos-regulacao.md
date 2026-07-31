@@ -2,7 +2,7 @@
 tipo_documental: ensaio-critico-autoral
 serie: Série Técnica Tecnologia Takwara — Advocacy e Regulamentação
 numero: 6
-titulo: Bambu Sem Manejo e Riscos de Toxicidade: Alerta Regulatório e Integridade de Carbono
+titulo: 'Bambu Sem Manejo e Riscos de Toxicidade: Alerta Regulatório e Integridade de Carbono'
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2025

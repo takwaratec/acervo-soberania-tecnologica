@@ -4,6 +4,8 @@ estado_documental: em-revisao-documental
 fonte_primaria: organizacao/instituicao
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # REBRAF — Rede Brasileira Agroflorestal

@@ -3,7 +3,9 @@ tipo_documental: ficha-academica
 estado_documental: edicao-publica-conformada
 fonte_primaria: resumo de tese publicado em revista
 data_revisao: 2026-07-31
-responsavel_curatoria: Fabio Takwara
+responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Siliprandi (2011) — Resumo da tese na Revista Brasileira de Agroecologia

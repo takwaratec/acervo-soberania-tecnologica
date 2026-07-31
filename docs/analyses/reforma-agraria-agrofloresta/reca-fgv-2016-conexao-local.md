@@ -4,6 +4,8 @@ estado_documental: edicao-publica-conformada
 fonte_primaria: relatorio tecnico
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # FGV (2016) — Projeto Conexão Local: Projeto RECA

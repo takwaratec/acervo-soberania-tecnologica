@@ -2,7 +2,7 @@
 tipo_documental: manual-tecnico-autoral
 serie: Technical Series Tecnologia Takwara
 numero: 4
-titulo: Manual of Ecological Bricks and Pressed Blocks with Biochar and Bamboo Fibers: Housing Biotechnology
+titulo: 'Manual of Ecological Bricks and Pressed Blocks with Biochar and Bamboo Fibers: Housing Biotechnology'
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2026

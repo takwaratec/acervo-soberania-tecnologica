@@ -2,7 +2,7 @@
 tipo_documental: memorial-tecnico-autoral
 serie: Série Técnica Tecnologia Takwara — Arquitetura de Plataforma
 numero: 8
-titulo: Plataforma Amazônia Regenerativa v5.1: Modelo Arquitetural, Biorrefinarias Modulares e MRV
+titulo: 'Plataforma Amazônia Regenerativa v5.1: Modelo Arquitetural, Biorrefinarias Modulares e MRV'
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2026

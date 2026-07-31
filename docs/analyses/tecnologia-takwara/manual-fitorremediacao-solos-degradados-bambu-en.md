@@ -4,8 +4,8 @@ author:
   name: Takwara, Fabio Resck
   orcid: 0000-0001-8815-3885
 date: '2026-03-04'
-H.5281/zenodo.18827106
-H.5281/zenodo.18827106
+identificador: https://doi.org/10.5281/zenodo.18827106
+identificador: https://doi.org/10.5281/zenodo.18827106
 keywords:
 - phytoremediation
 - heavy metals
@@ -38,6 +38,10 @@ translations:
   pt: TAK_manual-fitorremediacao-credito-carbono.md
 type: Technical-Scientific Bulletin
 version: '2.1'
+tipo_documental: manual-tecnico
+estado_documental: publicado-no-zenodo
+responsavel_curadoria: 'Fabio Takwara'
+
 ---
 # Phytoremediation and Carbon Markets: Bamboo as an Ecological Engineer
 

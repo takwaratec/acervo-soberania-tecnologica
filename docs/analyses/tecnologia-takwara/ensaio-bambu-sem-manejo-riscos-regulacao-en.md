@@ -2,7 +2,7 @@
 tipo_documental: ensaio-critico-autoral
 serie: Technical Series Tecnologia Takwara — Advocacy and Regulation
 numero: 6
-titulo: Unmanaged Bamboo and Toxicity Risks: Regulatory Alert and Carbon Integrity
+titulo: 'Unmanaged Bamboo and Toxicity Risks: Regulatory Alert and Carbon Integrity'
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2025

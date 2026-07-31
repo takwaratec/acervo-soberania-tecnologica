@@ -4,6 +4,8 @@ estado_documental: em-revisao-documental
 fonte_primaria: tese de doutorado integral
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # USP — A pecuária e os SAFs no Projeto RECA

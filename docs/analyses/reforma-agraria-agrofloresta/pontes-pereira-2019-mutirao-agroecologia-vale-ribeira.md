@@ -4,6 +4,8 @@ estado_documental: em-revisao-documental
 fonte_primaria: artigo eletronico em pagina web
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Pontes Pereira (2019) — Mutirão de práticas agroecológicas, economia feminista e solidária no Vale do Ribeira

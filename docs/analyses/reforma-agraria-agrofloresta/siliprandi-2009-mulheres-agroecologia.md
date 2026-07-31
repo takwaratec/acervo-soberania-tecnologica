@@ -4,6 +4,8 @@ estado_documental: edicao-publica-conformada
 fonte_primaria: tese de doutorado integral
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Siliprandi (2009) — Mulheres e agroecologia: a construção de novos sujeitos políticos na agricultura familiar

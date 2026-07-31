@@ -4,6 +4,8 @@ estado_documental: em-revisao-documental
 fonte_primaria: pagina institucional web
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Rede Ecovida de Agroecologia — Certificação participativa

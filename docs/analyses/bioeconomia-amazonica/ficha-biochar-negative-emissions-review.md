@@ -1,6 +1,6 @@
 ---
 tipo_documental: ficha-cientifica
-titulo: Biochar Production Technology as a Negative Emission Strategy: A Review
+titulo: 'Biochar Production Technology as a Negative Emission Strategy: A Review'
 autores: Andre Amba Matarru; Donghoon Shin
 ano: 2025
 doi: 10.3390/en18184898

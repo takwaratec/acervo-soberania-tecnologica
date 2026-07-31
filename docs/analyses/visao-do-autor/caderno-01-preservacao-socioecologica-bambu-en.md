@@ -18,6 +18,10 @@ target_trl: 4
 revision_date: 2026-07-23
 curation_responsible: Fabio Takwara
 funding: This publication was prepared within the scope of a R&D funding proposal. The documentary curation that underpins it is independent and prior to submission.
+tipo_documental: estado-da-arte-com-agenda-experimental
+estado_documental: publicado-no-zenodo
+responsavel_curadoria: 'Fabio Takwara'
+
 ---
 
 # Bamboo preservation from a socioecological perspective

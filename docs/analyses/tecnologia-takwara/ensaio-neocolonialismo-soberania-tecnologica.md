@@ -2,7 +2,7 @@
 tipo_documental: ensaio-critico-autoral
 serie: Série Técnica Tecnologia Takwara — Geopolítica e Soberania Tecnológica
 numero: 7
-titulo: O Bambu Brasileiro na Mira do Neocolonialismo: Dependência Tecnológica e Autonomia Territorial
+titulo: 'O Bambu Brasileiro na Mira do Neocolonialismo: Dependência Tecnológica e Autonomia Territorial'
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2025

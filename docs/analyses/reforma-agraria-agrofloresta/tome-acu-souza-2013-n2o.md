@@ -4,6 +4,8 @@ estado_documental: edicao-publica-conformada
 fonte_primaria: dissertacao de mestrado integral
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Souza (2013) — Fluxo de óxido nitroso (N2O) do solo em sistema agroflorestal em Tomé Açu

@@ -2,7 +2,7 @@
 tipo_documental: especificacao-tecnica-autoral
 serie: Série Técnica Tecnologia Takwara
 numero: 5
-titulo: Memorial de Engenharia Industrial e BoM de Equipamentos: Processamento, Pirólise e Reatores Takwara (T01 a T07)
+titulo: 'Memorial de Engenharia Industrial e BoM de Equipamentos: Processamento, Pirólise e Reatores Takwara (T01 a T07)'
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2026

@@ -4,7 +4,7 @@ author:
   name: Takwara, Fabio Resck
   orcid: 0000-0001-8815-3885
 date: '2026-03-05'
-H.5281/zenodo.18827106
+identificador: https://doi.org/10.5281/zenodo.18827106
 language: en
 license: CC BY 4.0
 series: Regenerative Amazon Platform Technical Series — Bioeconomy and Governance
@@ -16,6 +16,10 @@ translations:
   pt: TAK_manual-bioeconomia-bambu.md
 type: Technical-Scientific Bulletin
 version: '2.1'
+tipo_documental: cartilha-comunitaria
+estado_documental: publicado-no-zenodo
+responsavel_curadoria: 'Fabio Takwara'
+
 ---
 
 # Community Bamboo Bioeconomy: From Forest to Cooperative

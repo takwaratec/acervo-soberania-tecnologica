@@ -7,6 +7,8 @@ estado_documental: curado
 fonte_primaria: Tese de Doutorado em Sociologia (SOL/Núcleo Takwara)
 data_revisao: 2026-07-23
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Trabalho, gênero e tecnologia social na economia popular solidária

@@ -4,6 +4,8 @@ estado_documental: edicao-publica-conformada
 fonte_primaria: artigo integral
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Oliveira Neto et al. (2022) — Sistemas agroflorestais associados à regeneração natural em Tomé-Açu

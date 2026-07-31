@@ -4,6 +4,8 @@ estado_documental: edicao-publica-conformada
 fonte_primaria: dissertacao de mestrado integral
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Telles (2018) — Desvelando a economia invisível das agricultoras agroecológicas

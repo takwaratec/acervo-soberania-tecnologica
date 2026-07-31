@@ -4,6 +4,8 @@ estado_documental: em-revisao-documental
 fonte_primaria: obra comercial protegida por direitos autorais
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Polanyi (1944) — A grande transformação

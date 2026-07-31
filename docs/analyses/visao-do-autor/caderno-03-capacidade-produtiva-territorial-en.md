@@ -13,6 +13,10 @@ text_license: CC-BY-4.0
 method: repository-guided-documentary-scope-review
 revision_date: 2026-07-23
 curation_responsible: Fabio Takwara
+tipo_documental: estado-da-arte
+estado_documental: publicado-no-zenodo
+responsavel_curadoria: 'Fabio Takwara'
+
 ---
 
 # From component to territorial productive capacity

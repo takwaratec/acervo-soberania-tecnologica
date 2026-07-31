@@ -4,6 +4,8 @@ estado_documental: em-revisao-documental
 fonte_primaria: autores/obra agrofloresta brasileira
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+identificador: ausente-na-fonte
+
 ---
 
 # Paulo Kageyama & Gustavo G. H. de Almeida — Agrofloresta brasileira
