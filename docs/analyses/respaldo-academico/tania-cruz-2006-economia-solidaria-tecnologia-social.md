@@ -3,9 +3,9 @@ tipo_documental: ficha-cientifica
 titulo: Qual é o teu trabalho, mulher? Mulheres empreendedoras no contexto da economia popular solidária
 autores: Tânia Cristina da Silva Cruz
 ano: 2006
-estado_documental: curado
-fonte_primaria: Tese de Doutorado em Sociologia (SOL/Núcleo Takwara)
-data_revisao: 2026-07-23
+estado_documental: em-revisao-documental
+fonte_primaria: Tese de Doutorado em Sociologia (SOL/UnB); registro confirmado no Repositório Institucional da UnB (RIUnB)
+data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
 identificador: ausente-na-fonte
 
@@ -22,11 +22,11 @@ identificador: ausente-na-fonte
 | **Título original** | Qual é o teu trabalho, mulher? Mulheres empreendedoras no contexto da economia popular solidária |
 | **Autora** | Tânia Cristina da Silva Cruz |
 | **Grau/Tipo** | Tese (Doutorado em Sociologia) |
-| **Instituição** | Núcleo Takwara, Instituto de Ciências Sociais, Departamento de Sociologia |
+| **Instituição** | Universidade de Brasília (UnB), Instituto de Ciências Sociais, Departamento de Sociologia |
 | **Ano de defesa** | 2006 |
-| **Páginas** | 280 p. |
-| **Orientação** | Prof. Dr. Sávio Cavalcante / SOL-Núcleo Takwara |
-| **Identificador/Handle** | BDTD Núcleo Takwara / PPG-SOL |
+| **Páginas** | xiv, 396 f. (conforme registro no Repositório Institucional da UnB) |
+| **Orientação** | Profa. Dra. Berlindes Küchemann (SOL/UnB) |
+| **Identificador/Handle** | Repositório Institucional da UnB (RIUnB) / PPG-SOL |
 | **Fonte analisada** | Registro acadêmico e tese integral |
 
 ## 2. Estrutura e organização
@@ -78,6 +78,6 @@ O estudo fundamenta-se na Sociologia do Trabalho, nas teorias de Gênero, na Eco
 
 A obra de Tânia Cristina da Silva Cruz é referência fundamental no Acervo para o eixo de **tecnologia social, governança de empreendimentos comunitários e diagnóstico territorial**. Ela sustenta a premissa autoral do **Universo Takwara** de que o componente construtivo ou o equipamento de processamento de bambu só promovem soberania se estiverem inseridos em uma dinâmica de trabalho autogestionário, formação profissional e emancipação social do território.
 
-**Referência ABNT:** CRUZ, Tânia Cristina da Silva. *Qual é o teu trabalho, mulher? Mulheres empreendedoras no contexto da economia popular solidária*. 2006. 280 f. Tese (Doutorado em Sociologia) — Núcleo Takwara, Brasília, 2006.
+**Referência ABNT:** CRUZ, Tânia Cristina da Silva. *Qual é o teu trabalho, mulher? Mulheres empreendedoras no contexto da economia popular solidária*. 2006. xiv, 396 f. Tese (Doutorado em Sociologia) — Universidade de Brasília, Brasília, 2006.
 
-> Ficha estruturada pelo protocolo de oito seções do Acervo. Elaborada em 23/07/2026.
+> Ficha estruturada pelo protocolo de oito seções do Acervo. Elaborada em 23/07/2026. **Correção em 31/07/2026:** instituição corrigida para Universidade de Brasília (UnB); orientadora corrigida para Profa. Dra. Berlindes Küchemann (SOL/UnB); extensão corrigida para xiv, 396 f. (fonte: registro RIUnB). A atribuição anterior a "Núcleo Takwara" era incorreta — o Núcleo Takwara não é instituição de ensino e não possui vínculo com a UnB.
