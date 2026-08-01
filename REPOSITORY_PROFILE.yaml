@@ -1,0 +1,40 @@
+repositorio:
+  nome: acervo-soberania-tecnologica
+  organizacao: takwaratec
+  responsavel: Fabio Takwara
+
+perfis:
+  - documental
+  - pesquisa
+  - site
+
+modulos_obrigatorios:
+  - base
+  - seguranca
+  - documental
+  - publicacao
+
+modulos_opcionais:
+  - automacao
+
+publicacao:
+  publica_site: true
+  usa_mkdocs: true
+  usa_zenodo: true
+
+dados:
+  contem_dados_pessoais: false
+  contem_fontes_protegidas: true
+  armazena_binarios_no_git: false
+
+autoridade:
+  merge_humano_obrigatorio: true
+  publicacao_humana_obrigatoria: true
+  agentes_podem_abrir_pr: true
+
+comandos:
+  validar:
+    - "python3 scripts/inventariar_acervo.py ."
+    - "python3 scripts/validate_frontmatter.py"
+    - "mkdocs build --strict"
+    - "git ls-files | grep -Ei '\\.pdf$'"
