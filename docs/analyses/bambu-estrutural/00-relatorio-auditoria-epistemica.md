@@ -120,8 +120,8 @@ Os Anais são **memória histórica autoral** (tipo `memoria-historica`): docume
 ## 8. Síntese da auditoria
 
 - **9 documentos auditados** (Cadernos 1-7 + Anexo 1 + Anais da Pesquisa 2018–2024), 30 hipóteses mapeadas na matriz (H-BAM-001 a 030) e 14 registros empíricos documentados (E-BAM-001 a 014).
-- **3 pontos requerem correção material** (PR editorial separado): R-01 (TRL-3 do Caderno 1), R-03 (OPEX "até 50%" do Caderno 3), R-04 (circuito térmico sem combustíveis exógenos do Caderno 3).
-- **5 pontos de atenção** (podem permanecer como pendências na matriz, sem PR): R-02, R-05, R-06, R-07, R-08.
+- **6 pontos requerem correção material** (PR editorial separado): R-01 (TRL-3 do Caderno 1), R-02 (prova de conceito do Caderno 3), R-03 (OPEX "até 50%" do Caderno 3), R-04 (circuito térmico sem combustíveis exógenos do Caderno 3), R-09 (estado editorial do Caderno 3: "ainda não possui DOI" contradiz front matter publicado), R-10 (versão 1.0/1.1 e DOI divergente do Caderno 4).
+- **5 pontos de atenção** (podem permanecer como pendências na matriz, sem PR): R-05, R-06, R-07, R-08, R-ANAIS-01/R-ANAIS-02.
 - **Anais:** nenhum dos 14 registros foi usado como evidência de eficácia; parcerias atribuídas conforme coordenação formal documentada; encerramentos declarados (PEAC 2022; Nature recusado; CFDD sem liberação); o registro de 2019 ("10 anos de pesquisa empírica") é retrospectivo-documentado e sustenta o marco 2010; pendências abertas: P-01 (divergência nominal do docente IFB), P-02 (inventário 2010–2017), P-03 (conferência das transcrições), R-ANAIS-01 e R-ANAIS-02.
 - **Nenhum perfil pessoal usado como evidência.**
 - **Nenhuma passagem cultural usada como demonstração física.**

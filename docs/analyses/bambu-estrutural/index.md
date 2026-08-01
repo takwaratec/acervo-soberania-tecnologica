@@ -23,6 +23,15 @@ Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revis
 - [Caderno 1 — Preservação do bambu sob perspectiva socioecológica](../visao-do-autor/caderno-01-preservacao-socioecologica-bambu.md) | DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736)
 - [Caderno 2 — Do colmo condicionado ao componente protegido (v1.2)](../visao-do-autor/caderno-02-colmo-condicionado-componente-protegido.md) | DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977)
 - [Caderno 4 — Do protótipo à conformidade: normas, ensaios e liberação (v1.1)](../visao-do-autor/caderno-04-prototipo-conformidade-normas-ensaios.md) | DOI: [10.5281/zenodo.21515361](https://doi.org/10.5281/zenodo.21515361)
+
+## Rastreabilidade da pesquisa e agenda autoral
+
+- [Matriz de rastreabilidade entre evidências e hipóteses](00-matriz-rastreabilidade-evidencia-agenda-autoral.md)
+- [Linha do tempo da pesquisa empírica autoral](00a-linha-do-tempo-evidencia-empirica-autoral.md)
+- [Inventário do corpus autoral](00-inventario-corpus-autoral.md)
+- [Relatório de auditoria epistêmica](00-relatorio-auditoria-epistemica.md)
+- [Afirmações para revisão editorial](00-lista-afirmacoes-para-revisao.md)
+
 ## Materiais, estruturas e cadeia produtiva
 
 - [Tratamento térmico de *Dendrocalamus asper* para BLC — Costa (2015)](costa-2015-tratamento-termico-dendrocalamus.md)

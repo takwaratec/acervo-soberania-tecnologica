@@ -18,6 +18,8 @@ data_revisao: 2026-08-01
 | R-02 | Caderno 3 | Seção de arquitetura | "desde a prova de conceito analítica (TRL-3) até a demonstração operacional (TRL-7)" | Mesma questão do R-01: sem ensaio próprio, a etapa atual é analítica; o trecho já usa o qualificador "analítica", mas a associação direta a "TRL-3" pode induzir leitura de maturidade experimental | Manter "prova de conceito analítica", acrescentando "sem validação experimental própria até a presente data" |
 | R-03 | Caderno 3 | Resumo + seção de OPEX | "reduz a massa transportada de cada lote de bambu em até 50%"; "vantagem econômica estrutural"; "reduzindo drasticamente o OPEX" | Afirmação quantitativa ("até 50%") e superlativa ("estrutural", "drasticamente") sem modelagem de custo, balanço de massa real ou análise de sensibilidade; o próprio caderno rebaixa a afirmação na seção de limitações | Reformular para hipótese: "a redução da massa transportada (colmo verde 40-60% água) é hipótese a ser comprovada por balanço de massa real e análise de custo comparada (ver H-BAM-012 e Anexo 1)" |
 | R-04 | Caderno 3 | Seção de pirólise/circuito | "fechando o circuito térmico sem combustíveis exógenos" | Nenhuma medição de balanço térmico existe; a autossuficiência térmica é hipótese de projeto | Reformular para "hipótese a ser verificada por balanço térmico em bancada ou escala reduzida (ver H-BAM-013)" |
+| R-09 | Caderno 3 | Estado editorial | O corpo afirma "versão candidata 1.0... Ainda não possui DOI", mas o front matter registra DOI (10.5281/zenodo.21514991) e estado publicado-no-zenodo | Divergência entre estado editorial declarado e metadados publicados | Harmonizar o estado editorial com os metadados: ou remover "ainda não possui DOI" ou declarar a versão efetivamente depositada |
+| R-10 | Caderno 4 | Versão e DOI | Front matter declara versão 1.0, mas o selo da versão em inglês indica v1.1; Cadernos 6 e 7 citam "versão 1.1"; Caderno 5 cita o Caderno 4 com DOI 10.5281/zenodo.21515210, divergente do DOI declarado pelo próprio Caderno 4 (10.5281/zenodo.21515361) | Divergência de versão e de DOI entre documentos autorais | Definir a versão vigente (1.0 ou 1.1), unificar o DOI citado pelos Cadernos 5, 6 e 7 e atualizar o front matter; conferir no Zenodo a versão realmente depositada |
 
 ## Pendências recomendadas (prioridade MÉDIA — podem permanecer na matriz)
 
@@ -32,12 +34,12 @@ data_revisao: 2026-08-01
 
 | ID | Documento | Item | Motivo da aprovação |
 |---|---|---|---|
-| R-09 | Caderno 6 | Sequestro 25-50% | O caderno declara explicitamente "não é fator pronto para o bambu Takwara" — limite correto |
-| R-10 | Caderno 1, 3, 4, 7 | TRL-7 como alvo | Declarado como estratégia futura, não estado atual |
-| R-11 | Anexo 1 | Viabilidade econômica | Front matter declara método por cenários; é instrumento, não confirmação |
-| R-12 | Cadernos 1-7 | Perfis pessoais | Nenhum perfil usado como evidência de resultado |
-| R-13 | Cadernos 1-7 | Certificado UL 94 | Matriz registra bloqueio de alegação (H-BAM-018) — uso correto |
+| R-11 | Caderno 6 | Sequestro 25-50% | O caderno declara explicitamente "não é fator pronto para o bambu Takwara" — limite correto |
+| R-12 | Caderno 1, 3, 4, 7 | TRL-7 como alvo | Declarado como estratégia futura, não estado atual |
+| R-13 | Anexo 1 | Viabilidade econômica | Front matter declara método por cenários; é instrumento, não confirmação |
+| R-14 | Cadernos 1-7 | Perfis pessoais | Nenhum perfil usado como evidência de resultado |
+| R-15 | Cadernos 1-7 | Certificado UL 94 | Matriz registra bloqueio de alegação (H-BAM-018) — uso correto |
 
 ## Nota
 
-Esta lista não altera nenhum caderno. Se aprovada, abre-se o PR `v1.1/revisao-epistemica-cadernos` com as correções R-01 a R-04; as demais permanecem registradas na matriz como pendências.
+Esta lista não altera nenhum caderno. Se aprovada, abre-se o PR `v1.1/revisao-epistemica-cadernos` com as correções materiais **R-01 a R-04, R-09 e R-10** (seis correções: TRL-3, prova de conceito, OPEX, circuito térmico, estado editorial do Caderno 3 e versão/DOI do Caderno 4); as demais permanecem registradas na matriz como pendências.
