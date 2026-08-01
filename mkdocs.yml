@@ -90,6 +90,10 @@ nav:
   - Análises: analyses/index.md
   - Bambu estrutural:
       - Visão geral: analyses/bambu-estrutural/index.md
+      - Estado da Arte: analyses/bambu-estrutural/estado-da-arte.md
+      - Mapa de Evidências: analyses/bambu-estrutural/mapa-de-evidencias.md
+      - Mapa de Lacunas: analyses/bambu-estrutural/mapa-de-lacunas.md
+      - Agenda de Pesquisa: analyses/bambu-estrutural/agenda-de-pesquisa.md
       - Fichas Científicas Auditadas:
           - ACV Bambu Artesanal no Acre (Araujo et al. 2025): analyses/bambu-estrutural/araujo-2025-acv-bambu-artesanal-acre.md
           - Propriedades e Tratamentos (Adier et al. 2023): analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md

@@ -9,6 +9,13 @@ responsavel_curadoria: Fabio Takwara
 
 Esta gaveta reúne fichas documentais sobre propriedades, tratamentos, aplicações e cadeia produtiva do bambu. Permanecem públicas somente fichas cuja fonte integral e identificação foram conferidas.
 
+## Estado da arte e sínteses do eixo
+
+- [Estado da Arte — Bambu Estrutural](estado-da-arte.md)
+- [Mapa de Evidências — Bambu Estrutural](mapa-de-evidencias.md)
+- [Mapa de Lacunas — Bambu Estrutural](mapa-de-lacunas.md)
+- [Agenda de Pesquisa — Bambu Estrutural](agenda-de-pesquisa.md)
+
 ## Síntese comparativa e cadernos publicados
 
 Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revisão Ecológica e Soberania Tecnológica**:
