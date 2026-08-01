@@ -7,7 +7,7 @@ autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 orcid_autor: 0000-0001-8815-3885
 ano: 2026
-versao: 1.0
+versao: 1.1
 estado_documental: edicao-publica-candidata
 identificador: pendente-de-deposito
 licenca_texto: CC-BY-4.0
@@ -22,7 +22,7 @@ responsavel_curadoria: Fabio Takwara
 
 **Fabio Takwara**
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)
-*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3 — versão candidata 1.0, 23 jul. 2026*
+*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3 — versão 1.1 (em preparação para depósito), 1 ago. 2026*
 
 > **Estado editorial:** Edição pública candidata preparada para depósito. Ainda não possui DOI. O texto apresenta uma arquitetura de pesquisa analítica e conceitual (TRL-3) e uma agenda de validação experimental para implantação descentralizada. Não afirma que o portfólio autoral esteja validado, certificado, patenteado, transferido ou operando como sistema industrial. Parâmetros específicos, configurações de equipamentos e roteiros operacionais detalhados permanecem restritos aos planos de desenvolvimento de P&D.
 

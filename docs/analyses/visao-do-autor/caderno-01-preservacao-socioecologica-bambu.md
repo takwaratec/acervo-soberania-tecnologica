@@ -3,7 +3,7 @@ tipo_documental: estado-da-arte-com-agenda-experimental
 serie: Cadernos de Revisão Ecológica e Soberania Tecnológica
 numero: 1
 titulo: Preservação do bambu sob perspectiva socioecológica — eficácia, durabilidade, toxicidade e circularidade dos tratamentos
-subtitulo_zenodo: Prova de conceito (TRL-3) e agenda experimental para seleção informada de tratamentos preservativos
+subtitulo_zenodo: Prova de conceito analítica e documental (maturidade da agenda de pesquisa) e agenda experimental para seleção informada de tratamentos preservativos
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2026
@@ -13,7 +13,7 @@ identificador: 10.5281/zenodo.21514736
 doi_conceitual: 10.5281/zenodo.21514735
 licenca_texto: CC-BY-4.0
 metodo: revisao-de-escopo-documental-orientada-pelo-acervo
-nivel_maturidade_trl: 3
+nivel_maturidade_trl: agenda-de-pesquisa-sem-ensaioproprio
 trl_alvo: 4
 data_revisao: 2026-07-23
 responsavel_curadoria: Fabio Takwara
@@ -33,7 +33,7 @@ financiamento: Esta publicação foi preparada no âmbito de proposta de financi
 
 *DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736)*
 
-> **Nível de Maturidade Tecnológica (TRL):** Este caderno consolida a **prova de conceito (TRL-3)** para a seleção informada de tratamentos preservativos do bambu, com base em revisão de escopo documental de 17 fontes. A evidência compilada demonstra domínio do estado da arte, identifica lacunas críticas e propõe uma agenda experimental dirigida ao avanço para **TRL-4** (validação em ambiente laboratorial). O texto explicita o que a literatura já permite afirmar e, com igual clareza, o que ainda requer ensaio primário. Não constitui prescrição de uso, certificação, homologação ou recomendação de tratamento comercial.
+> **Nível de Maturidade Tecnológica (TRL):** Este caderno consolida uma **prova de conceito analítica e documental** para a seleção informada de tratamentos preservativos do bambu, com base em revisão de escopo documental de 17 fontes. A evidência compilada demonstra domínio do estado da arte, identifica lacunas críticas e propõe uma agenda experimental dirigida ao avanço para **TRL-4** (validação em ambiente laboratorial). A maturidade descrita é da *agenda de pesquisa* (hipótese formulada a partir do acervo); a maturidade da tecnologia não está determinada, pois este caderno não contém ensaio primário próprio com controles. O texto explicita o que a literatura já permite afirmar e, com igual clareza, o que ainda requer ensaio primário. Não constitui prescrição de uso, certificação, homologação ou recomendação de tratamento comercial.
 
 ## Resumo
 
@@ -51,13 +51,13 @@ This notebook examines what a corpus of 17 documents supports regarding thermal,
 
 ## 1. Nível de Maturidade Tecnológica e posição desta publicação
 
-Este caderno insere-se em uma estratégia de pesquisa que parte do TRL-3 (prova de conceito analítica e experimental) e tem como alvo o TRL-7 (demonstração em ambiente operacional). A presente publicação cumpre a função de **consolidar a base de conhecimento** que justifica e orienta as etapas seguintes:
+Este caderno insere-se em uma estratégia de pesquisa que parte da **prova de conceito analítica e documental** (maturidade da agenda de pesquisa; a maturidade da tecnologia não está determinada, pois não há ensaio primário próprio com controles) e tem como alvo o TRL-7 (demonstração em ambiente operacional). A presente publicação cumpre a função de **consolidar a base de conhecimento** que justifica e orienta as etapas seguintes:
 
 | TRL | Atividade | Status neste caderno |
 |---|---|---|
 | 1 | Princípios básicos observados | Consolidado pela literatura |
 | 2 | Formulação de conceito tecnológico | Consolidado pela literatura |
-| **3** | **Prova de conceito analítica e experimental** | **Este caderno — revisão de escopo que mapeia lacunas e sustenta hipóteses** |
+| 3 | Prova de conceito analítica e experimental | **Não atingido por ensaio próprio** — este caderno entrega prova de conceito *analítica e documental* (revisão de escopo que mapeia lacunas e sustenta hipóteses); a validação experimental exige os ensaios da agenda (seção 9) |
 | 4 | Validação em ambiente laboratorial | Agenda experimental proposta (seção 9) |
 | 5 | Validação em ambiente relevante | Fase posterior da agenda |
 | 6 | Demonstração em ambiente relevante | Fase posterior |

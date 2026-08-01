@@ -13,6 +13,8 @@ licenca_texto: CC-BY-4.0
 metodo: revisao-normativa-documental-orientada-pelo-acervo
 data_revisao: 2026-07-23
 responsavel_curadoria: Fabio Takwara
+nota_versao: 'verificar-versao-zenodo — R-10: divergências documentadas (front matter declara 1.0; selo EN indica v1.1; Cadernos 6/7 citam versão 1.1; Caderno 5 cita DOI 10.5281/zenodo.21515210, divergente do DOI declarado 10.5281/zenodo.21515361). Versão real do registro Zenodo 21515361 não confirmada via API em 2026-07-31 (consulta bloqueada no ambiente de trabalho); resolução editorial de Fabio pendente.'
+nota_editorial: 'P-01 resolvida (decisão de Fabio, 2026-08-01): o docente do IFB Campus Planaltina citado nos Anais como Prof. Dr. Vicente Virgolino de Souza Neto é a mesma pessoa do perfil do Acervo Vicente de Paulo Borges Virgolino da Silva (coordenador do Bacharelado em Agronomia). Forma canônica adotada: Vicente de Paulo Borges Virgolino da Silva. Os Anais não foram alterados (registro histórico).'
 ---
 
 # Do protótipo à conformidade

@@ -3,7 +3,7 @@ document_type: state-of-the-art-with-experimental-agenda
 series: Notebooks on Ecological Revision and Technological Sovereignty
 number: 1
 title: Bamboo preservation from a socioecological perspective — effectiveness, durability, toxicity, and circularity of treatments
-zenodo_subtitle: Proof of concept (TRL-3) and experimental agenda for informed selection of preservative treatments
+zenodo_subtitle: Analytical and documentary proof of concept (research-agenda maturity) and experimental agenda for informed selection of preservative treatments
 author: Fabio Takwara
 author_orcid: 0000-0001-8815-3885
 year: 2026
@@ -13,7 +13,7 @@ identifier: 10.5281/zenodo.21514736
 conceptual_doi: 10.5281/zenodo.21514735
 text_license: CC-BY-4.0
 method: repository-guided-documentary-scope-review
-trl_level: 3
+trl_level: research-agenda-no-primary-trial
 target_trl: 4
 revision_date: 2026-07-23
 curation_responsible: Fabio Takwara
@@ -37,7 +37,7 @@ responsavel_curadoria: 'Fabio Takwara'
 
 *DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736)*
 
-> **Technology Readiness Level (TRL):** This notebook consolidates a **proof of concept (TRL-3)** for the informed selection of bamboo preservative treatments, based on a documentary scope review of 17 sources. The compiled evidence demonstrates mastery of the state of the art, identifies critical gaps, and proposes an experimental agenda directed towards advancing to **TRL-4** (laboratory environment validation). The text explicitly details what literature already supports and, with equal clarity, what still requires primary testing. It does not constitute a prescription for use, certification, approval, or commercial treatment recommendation.
+> **Technology Readiness Level (TRL):** This notebook consolidates an **analytical and documentary proof of concept** for the informed selection of bamboo preservative treatments, based on a documentary scope review of 17 sources. The compiled evidence demonstrates mastery of the state of the art, identifies critical gaps, and proposes an experimental agenda directed towards advancing to **TRL-4** (laboratory environment validation). The maturity described is that of the *research agenda* (hypothesis formulated from the repository); the technology's maturity is not determined, as this notebook contains no primary trial with controls of its own. The text explicitly details what literature already supports and, with equal clarity, what still requires primary testing. It does not constitute a prescription for use, certification, approval, or commercial treatment recommendation.
 
 ## Abstract
 
@@ -49,7 +49,7 @@ This notebook examines what a corpus of 17 documents supports regarding thermal,
 
 ## 1. Technology Readiness Level and scope of this publication
 
-This notebook is part of a research strategy starting at TRL-3 (analytical and experimental proof of concept) and aiming at TRL-7 (demonstration in operational environment). The present publication serves to **consolidate the knowledge base** that justifies and guides the following stages:
+This notebook is part of a research strategy starting from the **analytical and documentary proof of concept** (research-agenda maturity; the technology's maturity is not determined, as there is no primary trial with controls of its own) and aiming at TRL-7 (demonstration in operational environment). The present publication serves to **consolidate the knowledge base** that justifies and guides the following stages:
 
 
 <table class="table table-bordered table-striped">
@@ -72,9 +72,9 @@ This notebook is part of a research strategy starting at TRL-3 (analytical and e
       <td>Consolidated by literature</td>
     </tr>
     <tr>
-      <td><strong>3</strong></td>
-      <td><strong>Analytical and experimental proof of concept</strong></td>
-      <td><strong>This notebook — scope review mapping gaps and supporting hypotheses</strong></td>
+      <td>3</td>
+      <td>Analytical and experimental proof of concept</td>
+      <td><strong>Not reached by a trial of its own</strong> — this notebook delivers an *analytical and documentary* proof of concept (scope review mapping gaps and supporting hypotheses); experimental validation requires the trials of the agenda (Section 10)</td>
     </tr>
     <tr>
       <td>4</td>
