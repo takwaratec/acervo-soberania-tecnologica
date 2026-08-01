@@ -21,13 +21,13 @@ responsavel_curadoria: Fabio Takwara
 
 **Fabio Takwara**
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)
-*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3 — versão 1.1 (em preparação para depósito), 1 ago. 2026*
+*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3 — versão 1.1, 1 ago. 2026*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738550.svg)](https://doi.org/10.5281/zenodo.21738550)
-[![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](caderno-03-capacidade-produtiva-territorial-en.md)
+[![English Version](https://img.shields.io/badge/Language-English_v1.1-blue.svg)](caderno-03-capacidade-produtiva-territorial-en.md)
 
 
-> **Estado editorial:** Edição pública candidata preparada para depósito. DOI de versão registrado no front matter (10.5281/zenodo.21514991); esta versão editorial está sendo preparada para novo depósito (New version) no Zenodo. O texto apresenta uma arquitetura de pesquisa analítica e conceitual (maturidade da agenda de pesquisa; maturidade da tecnologia não determinada) e uma agenda de validação experimental para implantação descentralizada. Não afirma que o portfólio autoral esteja validado, certificado, patenteado, transferido ou operando como sistema industrial. Parâmetros específicos, configurações de equipamentos e roteiros operacionais detalhados permanecem restritos aos planos de desenvolvimento de P&D.
+> **Estado editorial:** Edição pública publicada no Zenodo (versão 1.1, DOI [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550); depositada via New version; versão anterior: 10.5281/zenodo.21514991). O texto apresenta uma arquitetura de pesquisa analítica e conceitual (maturidade da agenda de pesquisa; maturidade da tecnologia não determinada) e uma agenda de validação experimental para implantação descentralizada. Não afirma que o portfólio autoral esteja validado, certificado, patenteado, transferido ou operando como sistema industrial. Parâmetros específicos, configurações de equipamentos e roteiros operacionais detalhados permanecem restritos aos planos de desenvolvimento de P&D.
 
 ## Resumo
 
@@ -483,7 +483,7 @@ SILVA, Martim Francisco de Oliveira e; PEREIRA, Felipe dos Santos; MARTINS, Jos�
 
 THIELKE, Caroline. *Avaliação pós-ocupação em habitação de interesse social: estudo de caso do Conjunto Habitacional Porto Novo*. 2021. Trabalho de Conclusão de Curso (Engenharia Civil) — Universidade Federal do Rio Grande do Sul, Porto Alegre, 2021. Disponível em: https://hdl.handle.net/10183/235722.
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.1, 1 ago. 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
 
 TAKWARA, Fabio. *Do colmo condicionado ao componente protegido: interfaces, PU vegetal, preenchimento interno e validação integrada*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 2, versão depositada 1.2, 23 jul. 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
 
@@ -495,8 +495,8 @@ TAKWARA, Fabio. *Do colmo condicionado ao componente protegido: interfaces, PU v
 **Base documental:** Acervo Soberania Tecnológica e fontes integrais identificadas nas referências.
 **Contribuição autoral:** formulação da capacidade produtiva territorial em seis circuitos, definição dos três Work Packages de validação experimental e leitura funcional do portfólio de equipamentos.
 **Apoio editorial e analítico:** ferramenta de inteligência artificial foi utilizada para localizar relações entre fontes, estruturar a matriz de evidências, verificar consistência e apoiar a redação. A perspectiva, a seleção interpretativa e a responsabilidade pela versão publicada permanecem com o autor.
-**Estado documental:** Versão 1.0 preparada para depósito no Zenodo sob licença CC-BY-4.0.
+**Estado documental:** Versão 1.1 publicada no Zenodo (DOI [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550)) sob licença CC-BY-4.0.
 
 ### Forma de citação
 
-TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura distribuída, controle de qualidade e autonomia*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
+TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura distribuída, controle de qualidade e autonomia*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3, versão 1.1, 1 ago. 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).

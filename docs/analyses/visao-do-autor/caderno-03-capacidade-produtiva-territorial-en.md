@@ -26,13 +26,13 @@ responsavel_curadoria: 'Fabio Takwara'
 
 **Fabio Takwara**  
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Notebooks on Ecological Revision and Technological Sovereignty, n. 3 — version 1.1 (in preparation for deposit), August 1, 2026*  
+*Notebooks on Ecological Revision and Technological Sovereignty, n. 3 — version 1.1, August 1, 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738550.svg)](https://doi.org/10.5281/zenodo.21738550)
 [![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green.svg)](caderno-03-capacidade-produtiva-territorial.md)
 
 
-> **Editorial status:** Public edition candidate prepared for deposit. Version DOI registered in the front matter (10.5281/zenodo.21514991); this editorial version is being prepared for a new deposit (New version) in Zenodo. This text presents an analytical and conceptual research architecture (research-agenda maturity; technology maturity not determined) and an experimental validation agenda for decentralized implementation. It does not claim that the authorial portfolio is validated, certified, patented, transferred, or operating as an industrial system. Specific parameters, equipment configurations, and detailed operational roadmaps remain restricted to R&D development plans.
+> **Editorial status:** Public edition published on Zenodo (version 1.1, DOI [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550); deposited via New version; previous version: 10.5281/zenodo.21514991). This text presents an analytical and conceptual research architecture (research-agenda maturity; technology maturity not determined) and an experimental validation agenda for decentralized implementation. It does not claim that the authorial portfolio is validated, certified, patented, transferred, or operating as an industrial system. Specific parameters, equipment configurations, and detailed operational roadmaps remain restricted to R&D development plans.
 
 ## Abstract
 
@@ -109,7 +109,7 @@ SILVA, Martim Francisco de Oliveira e; PEREIRA, Felipe dos Santos; MARTINS, Jos�
 
 THIELKE, Caroline. *Avaliação pós-ocupação em habitação de interesse social: estudo de caso do Conjunto Habitacional Porto Novo*. 2021. B.Sc. thesis — Federal University of Rio Grande do Sul, Porto Alegre, 2021.
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.1, August 1, 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
 
 TAKWARA, Fabio. *From conditioned culm to protected component: interfaces, bio-based PU, internal filling, and integrated validation*. Notebooks on Ecological Revision and Technological Sovereignty, n. 2, deposited version 1.2, July 23, 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
 
@@ -125,4 +125,4 @@ TAKWARA, Fabio. *From conditioned culm to protected component: interfaces, bio-b
 
 ### Citation format
 
-TAKWARA, Fabio. *From component to territorial productive capacity: distributed manufacturing, quality control, and autonomy*. Notebooks on Ecological Revision and Technological Sovereignty, n. 3, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
+TAKWARA, Fabio. *From component to territorial productive capacity: distributed manufacturing, quality control, and autonomy*. Notebooks on Ecological Revision and Technological Sovereignty, n. 3, version 1.1, August 1, 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).

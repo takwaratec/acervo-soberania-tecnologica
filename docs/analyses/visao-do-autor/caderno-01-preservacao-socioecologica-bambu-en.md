@@ -7,7 +7,7 @@ zenodo_subtitle: Analytical and documentary proof of concept (research-agenda ma
 author: Fabio Takwara
 author_orcid: 0000-0001-8815-3885
 year: 2026
-version: 1.0
+version: 1.1
 document_status: published-on-zenodo
 identifier: 10.5281/zenodo.21738428
 conceptual_doi: 10.5281/zenodo.21514735
@@ -15,7 +15,7 @@ text_license: CC-BY-4.0
 method: repository-guided-documentary-scope-review
 trl_level: research-agenda-no-primary-trial
 target_trl: 4
-revision_date: 2026-07-23
+revision_date: 2026-08-01
 curation_responsible: Fabio Takwara
 funding: This publication was prepared within the scope of a R&D funding proposal. The documentary curation that underpins it is independent and prior to submission.
 tipo_documental: estado-da-arte-com-agenda-experimental
@@ -30,7 +30,7 @@ responsavel_curadoria: 'Fabio Takwara'
 
 **Fabio Takwara**  
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Notebooks on Ecological Revision and Technological Sovereignty, n. 1 — version 1.0, July 23, 2026*  
+*Notebooks on Ecological Revision and Technological Sovereignty, n. 1 — version 1.1, August 1, 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738428.svg)](https://doi.org/10.5281/zenodo.21738428)
 [![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green.svg)](caderno-01-preservacao-socioecologica-bambu.md)
@@ -43,7 +43,7 @@ responsavel_curadoria: 'Fabio Takwara'
 
 This notebook examines what a corpus of 17 documents supports regarding thermal, chemical, and pyroligneous treatments applied to bamboo. The review was guided by the *Acervo Soberania Tecnológica* and expanded through a directed search for four primary research articles. Studies were compared across four inseparable dimensions: effectiveness against degrading organisms, physical and mechanical effects, environmental impact, and operational feasibility. No universally superior treatment was found. Moderate steam treatment provides the most promising convergence between lower moisture uptake, mechanical integrity, and improved durability, although responses depend on species, geometry, temperature, duration, and equipment. Borates have direct evidence of antifungal efficacy and may preserve mechanical performance, but they are leachable and require proper management of solutions, effluents, and residues. Tannin-boron formulations maintained laboratory resistance against fungi even after substantial boron leaching, without resolving scale and life-cycle questions. Pyroligneous liquid studies indicate biological activity under some conditions, but direct evidence for bamboo remains insufficient or inconclusive, while the chemical variability of condensates prevents treating them generically as safe products. The synthesis proposes that ecological preservation should be assessed through the function delivered over time, combining service life, structural safety, human and environmental exposure, repairability, local process control, and waste destination. A staged research agenda is presented to turn technological promises into verifiable comparisons.
 
-**Keywords:** bamboo; preservation; heat treatment; borates; pyroligneous liquid; durability; life-cycle assessment; TRL-3; social technology.
+**Keywords:** bamboo; preservation; heat treatment; borates; pyroligneous liquid; durability; life-cycle assessment; research-agenda maturity; social technology.
 
 ---
 
@@ -621,7 +621,7 @@ Preserving bamboo ecologically is not finding a "green" substance, but governing
 
 Moderate steam presents, within this corpus, the strongest experimental convergence between mechanical and biological performance, especially with advancing full round culm trials. It is not automatically simple, cheap, or low-impact: energy, equipment, and species must enter comparison. Borates provide a clear reference for antifungal efficacy and mechanical compatibility, but water reveals their limit, making effluents and waste a central part of technology. Tannin-boron showed promising residual protection, though failing to prevent ~82% boron leaching in analyzed study. Pyroligneous liquid possesses signals justifying research, not general validation; plant origin does not remove obligation to characterize composition and contaminants.
 
-**Position in R&D program:** This scope review constitutes proof of concept (TRL-3) for the bamboo–bio-based PU structural system preservation axis. Proposed experimental agenda in Section 10 and quantified hypotheses in Section 11 provide roadmap for laboratory validation phase (TRL-4), funding for which is subject of present proposal. By explicating what literature supports and what requires primary testing, the notebook reduces technological risk of subsequent stage and establishes objective criteria for advancing, correcting, or halting each line of inquiry.
+**Position in R&D program:** This scope review constitutes an analytical and documentary proof of concept (research-agenda maturity; technology maturity not determined) for the bamboo–bio-based PU structural system preservation axis. Proposed experimental agenda in Section 10 and quantified hypotheses in Section 11 provide roadmap for laboratory validation phase (TRL-4), funding for which is subject of present proposal. By explicating what literature supports and what requires primary testing, the notebook reduces technological risk of subsequent stage and establishes objective criteria for advancing, correcting, or halting each line of inquiry.
 
 ## References
 
@@ -666,10 +666,10 @@ ZHANG, Ying et al. Evaluating the comprehensive influences of heat treatment and
 **Authorship and perspective:** Fabio Takwara.  
 **Documentary base:** Acervo Soberania Tecnológica, full sources identified in references.  
 **Editorial and analytical support:** Artificial intelligence tools were used to locate relationships between sources, structure the comparative matrix, check internal consistency, and support drafting and translation. Interpretive selection, socioecological perspective, and responsibility for the published version remain with the author.  
-**Maturity level:** TRL-3 (analytical proof of concept). The proposed experimental agenda aims to advance to TRL-4.  
+**Maturity level:** analytical and documentary proof of concept (research-agenda maturity; technology maturity not determined). The proposed experimental agenda aims to advance to TRL-4.  
 **Funding:** This publication was prepared as part of an R&D funding proposal. The documentary curation that underpins it is independent and prior to submission.  
 **Publication:** Version deposited on Zenodo under CC-BY-4.0 license. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
 
 ### Citation
 
-TAKWARA, Fabio. *Bamboo preservation from a socioecological perspective: effectiveness, durability, toxicity, and circularity of treatments*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+TAKWARA, Fabio. *Bamboo preservation from a socioecological perspective: effectiveness, durability, toxicity, and circularity of treatments*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.1, August 1, 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).

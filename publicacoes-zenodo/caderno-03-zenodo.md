@@ -7,11 +7,12 @@ autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2026
 versao: 1.1
-estado_documental: edicao-publica-candidata
-identificador: pendente-de-deposito
+estado_documental: publicado-no-zenodo
+identificador: 10.5281/zenodo.21738550
+doi_conceitual: 10.5281/zenodo.21514990
 licenca_texto: CC-BY-4.0
 metodo: revisao-de-escopo-documental-orientada-pelo-acervo
-data_revisao: 2026-07-23
+data_revisao: 2026-08-01
 responsavel_curadoria: Fabio Takwara
 ---
 
@@ -21,13 +22,17 @@ responsavel_curadoria: Fabio Takwara
 
 **Fabio Takwara**
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)
-*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3 — versão 1.1 (em preparação para depósito), 1 ago. 2026*
+*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3 — versão 1.1, 1 ago. 2026*
 
-> **Estado editorial:** Edição pública candidata preparada para depósito. Ainda não possui DOI. O texto apresenta uma arquitetura de pesquisa analítica e conceitual (TRL-3) e uma agenda de validação experimental para implantação descentralizada. Não afirma que o portfólio autoral esteja validado, certificado, patenteado, transferido ou operando como sistema industrial. Parâmetros específicos, configurações de equipamentos e roteiros operacionais detalhados permanecem restritos aos planos de desenvolvimento de P&D.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738550.svg)](https://doi.org/10.5281/zenodo.21738550)
+[![English Version](https://img.shields.io/badge/Language-English_v1.1-blue.svg)](caderno-03-capacidade-produtiva-territorial-en.md)
+
+
+> **Estado editorial:** Edição pública publicada no Zenodo. DOI de versão desta edição: 10.5281/zenodo.21738550 (depositada via New version; versão anterior: 10.5281/zenodo.21514991). O texto apresenta uma arquitetura de pesquisa analítica e conceitual (maturidade da agenda de pesquisa; maturidade da tecnologia não determinada) e uma agenda de validação experimental para implantação descentralizada. Não afirma que o portfólio autoral esteja validado, certificado, patenteado, transferido ou operando como sistema industrial. Parâmetros específicos, configurações de equipamentos e roteiros operacionais detalhados permanecem restritos aos planos de desenvolvimento de P&D.
 
 ## Resumo
 
-Este caderno investiga as condições necessárias para que materiais, componentes e equipamentos se convertam em capacidade produtiva territorial sem reduzir autonomia à mera instalação de máquinas. A revisão articula estudos sobre cadeias de bambu integradas à conservação, rotas de bioprodutos e bioenergia, normalização de colmos, painéis, conexões, habitação adaptável, avaliação pós-ocupação, bioeconomia e princípios de desenho ecológico. O cruzamento mostra que a descentralização física da produção não assegura, por si, distribuição de poder, renda ou conhecimento. A evidência revisada indica que a manufatura distribuída de bambu possui vantagem econômica estrutural frente a plantas centralizadas: o colmo *in natura* contém entre 40% e 60% de água em massa, e o modelo descentralizado de beneficiamento no local de colheita elimina o transporte logístico dessa água por rodovias, reduzindo drasticamente o OPEX. A pirólise local dos resíduos de colmos e o aproveitamento de cinzas fornecem energia e insumos para o próprio processamento, fechando o circuito térmico sem combustíveis exógenos. A arquitetura proposta organiza essas funções em seis circuitos — territorial, material, produtivo, qualidade, aprendizagem e retorno — e define uma agenda de pesquisa e validação estruturada em sete etapas, que percorre os estados de desenvolvimento desde a prova de conceito analítica (TRL-3) até a demonstração operacional em ambiente real (TRL-7). A soberania tecnológica é definida como a capacidade coletiva de compreender, escolher, produzir, manter, adaptar, recusar e avaliar soluções.
+Este caderno investiga as condições necessárias para que materiais, componentes e equipamentos se convertam em capacidade produtiva territorial sem reduzir autonomia à mera instalação de máquinas. A revisão articula estudos sobre cadeias de bambu integradas à conservação, rotas de bioprodutos e bioenergia, normalização de colmos, painéis, conexões, habitação adaptável, avaliação pós-ocupação, bioeconomia e princípios de desenho ecológico. O cruzamento mostra que a descentralização física da produção não assegura, por si, distribuição de poder, renda ou conhecimento. A evidência revisada indica uma **hipótese de vantagem econômica estrutural** da manufatura distribuída de bambu frente a plantas centralizadas: o colmo *in natura* contém entre 40% e 60% de água em massa, e o modelo descentralizado de beneficiamento no local de colheita elimina o transporte logístico dessa água por rodovias, com potencial de redução do OPEX — vantagem que permanece **hipótese a ser comprovada por balanço de massa real e análise de custo comparada** (o próprio caderno a rebaixa na seção de limitações). A pirólise local dos resíduos de colmos e o aproveitamento de cinzas podem fornecer energia e insumos para o próprio processamento, com potencial de fechamento do circuito térmico sem combustíveis exógenos — também **hipótese a ser verificada por balanço térmico em bancada ou escala reduzida**. A arquitetura proposta organiza essas funções em seis circuitos — territorial, material, produtivo, qualidade, aprendizagem e retorno — e define uma agenda de pesquisa e validação estruturada em sete etapas, que percorre os estados de desenvolvimento desde a **prova de conceito analítica e documental (maturidade da agenda de pesquisa; sem validação experimental própria até a presente data)** até a demonstração operacional em ambiente real (TRL-7). A soberania tecnológica é definida como a capacidade coletiva de compreender, escolher, produzir, manter, adaptar, recusar e avaliar soluções.
 
 **Palavras-chave:** bambu; manufatura distribuída; cadeia produtiva; metrologia descentralizada; controle de qualidade; bioeconomia territorial; autonomia; OPEX logístico; TRL.
 
@@ -271,7 +276,7 @@ O modelo territorial proposto realiza o beneficiamento primário no ponto de col
 - **Secagem ativa no local**, alimentada pela pirólise dos resíduos do próprio colmo (serragem, refugos e palha), eliminando a necessidade de combustíveis externos;
 - **Aproveitamento das cinzas** da pirólise como insumo para a solução de condicionamento alcalino, fechando o circuito de materiais.
 
-Essa sequência transforma o que seriam custos de logística em insumos produtivos e reduz a massa transportada de cada lote de bambu em até 50%. A vantagem não é apenas de escala: é estrutural, porque qualquer planta centralizada transportando colmos verdes incorrerá nesses custos independentemente de sua eficiência interna.
+Essa sequência transforma o que seriam custos de logística em insumos produtivos e pode reduzir a massa transportada de cada lote de bambu em até 50% — **hipótese a ser comprovada por balanço de massa real e análise de custo comparada**. A vantagem é estrutural *em tese*: qualquer planta centralizada transportando colmos verdes incorrerá nesses custos independentemente de sua eficiência interna, mas a magnitude efetiva depende de cenário, distância, modal e escala.
 
 ## 6. Arquitetura proposta: seis circuitos interdependentes
 
@@ -408,8 +413,8 @@ Os indicadores finais precisam ser construídos com o território e ajustados ao
 - Cadeias de bambu dependem de redes, políticas, conhecimento, continuidade e protagonismo local.
 - Espécie, qualidade da biomassa e processamento condicionam produtos possíveis.
 - Produção descentralizada precisa de especificação, rastreabilidade e controle comparável entre unidades.
-- O colmo in natura contém 40–60% de água, e seu beneficiamento no ponto de colheita elimina o transporte dessa água, reduzindo estruturalmente o OPEX logístico frente a modelos centralizados.
-- A pirólise de resíduos do processamento pode fornecer energia para secagem e cinzas para condicionamento, fechando o circuito térmico e material localmente.
+- O colmo in natura contém 40–60% de água, e seu beneficiamento no ponto de colheita elimina o transporte dessa água, com potencial de redução estrutural do OPEX logístico frente a modelos centralizados — **hipótese a ser comprovada por balanço de massa e custo comparados**.
+- A pirólise de resíduos do processamento pode fornecer energia para secagem e cinzas para condicionamento, com potencial de fechamento do circuito térmico e material localmente — **hipótese a ser verificada por balanço térmico em bancada ou escala reduzida**.
 - Conexões e interfaces são pontos críticos de segurança e variabilidade.
 - Usuários adaptam soluções e precisam participar do diagnóstico e da avaliação.
 - Escala econômica da biomassa não demonstra distribuição territorial de benefícios.
@@ -445,7 +450,7 @@ A passagem do componente para a produção territorial não é um simples proble
 
 O portfólio autoral oferece uma hipótese relevante: organizar funções de transformação em módulos capazes de serem combinados conforme recursos e necessidades. Sua força não está em afirmar uma fábrica universal, mas em permitir que fluxos sejam redesenhados. Seu principal risco é tornar a coerência conceitual equivalente a maturidade técnica.
 
-A vantagem econômica estrutural do modelo descentralizado — eliminar o transporte da água do colmo verde e fechar o circuito térmico com os próprios resíduos — é um argumento verificável que diferencia esta arquitetura de alternativas convencionais centralizadas. Demonstrá-la numericamente, por meio dos WPs propostos, é a próxima contribuição necessária.
+A vantagem econômica estrutural do modelo descentralizado — eliminar o transporte da água do colmo verde e fechar o circuito térmico com os próprios resíduos — é um argumento verificável que diferencia esta arquitetura de alternativas convencionais centralizadas. Demonstrá-la numericamente, por meio dos WPs propostos, é a próxima contribuição necessária (o caderno a trata como hipótese até que os balanços sejam realizados).
 
 O cruzamento das fontes conduz a uma formulação mais exigente de soberania tecnológica: ampliar a capacidade coletiva de compreender o sistema, escolher alternativas, produzir com qualidade, manter, adaptar, recusar e avaliar. Uma tecnologia contribui para essa soberania quando permanece subordinada ao diagnóstico e quando conhecimento, valor e poder decisório crescem no território.
 
@@ -463,7 +468,7 @@ HONG, Chaokun et al. Review on connections for original bamboo structures. *Jour
 
 LIMA, Aline Lopes e. *Bambus nativos do Brasil: panorama das iniciativas para uma cadeia produtiva integrada à conservação*. 2019. Tese (Doutorado em Ambiente e Sociedade) — Universidade Estadual de Campinas, Campinas, 2019.
 
-MARCAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais*. 2018. Dissertação (Mestrado em Arquitetura e Urbanismo) — Núcleo Takwara, Brasília, 2018.
+MARCAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais*. 2018. Dissertação (Mestrado em Arquitetura e Urbanismo) — Universidade de Brasília, Brasília, 2018.
 
 MATARRU, Andre Amba; SHIN, Donghoon. Biochar Production Technology as a Negative Emission Strategy: A Review. *Energies*, v. 18, n. 18, art. 4898, 2025. DOI: 10.3390/en18184898.
 
@@ -479,7 +484,7 @@ SILVA, Martim Francisco de Oliveira e; PEREIRA, Felipe dos Santos; MARTINS, Jos�
 
 THIELKE, Caroline. *Avaliação pós-ocupação em habitação de interesse social: estudo de caso do Conjunto Habitacional Porto Novo*. 2021. Trabalho de Conclusão de Curso (Engenharia Civil) — Universidade Federal do Rio Grande do Sul, Porto Alegre, 2021. Disponível em: https://hdl.handle.net/10183/235722.
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.1, 1 ago. 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
 
 TAKWARA, Fabio. *Do colmo condicionado ao componente protegido: interfaces, PU vegetal, preenchimento interno e validação integrada*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 2, versão depositada 1.2, 23 jul. 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
 
@@ -491,8 +496,8 @@ TAKWARA, Fabio. *Do colmo condicionado ao componente protegido: interfaces, PU v
 **Base documental:** Acervo Soberania Tecnológica e fontes integrais identificadas nas referências.
 **Contribuição autoral:** formulação da capacidade produtiva territorial em seis circuitos, definição dos três Work Packages de validação experimental e leitura funcional do portfólio de equipamentos.
 **Apoio editorial e analítico:** ferramenta de inteligência artificial foi utilizada para localizar relações entre fontes, estruturar a matriz de evidências, verificar consistência e apoiar a redação. A perspectiva, a seleção interpretativa e a responsabilidade pela versão publicada permanecem com o autor.
-**Estado documental:** Versão 1.0 preparada para depósito no Zenodo sob licença CC-BY-4.0.
+**Estado documental:** Versão 1.1 publicada no Zenodo sob licença CC-BY-4.0.
 
 ### Forma de citação
 
-TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura distribuída, controle de qualidade e autonomia*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3, versão 1.0, 23 jul. 2026. DOI pendente de atribuição.
+TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura distribuída, controle de qualidade e autonomia*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3, versão 1.1, 1 ago. 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
