@@ -18,9 +18,9 @@ escopo:
   - bioconstrucao
 nao_constitui:
   - certificacao-de-tecnologias
-  - producao-academica-automatica
+  - substituicao-de-autoria-orientacao-ou-revisao-por-pares
   - colecao-indiscriminada-de-documentos
-resumo: "O Acervo Soberania Tecnológica é uma infraestrutura pública de conhecimento em desenvolvimento que transforma literatura científica, documentação técnica e memória de pesquisa em referências rastreáveis, comparáveis e utilizáveis. Este artigo apresenta a arquitetura curatorial do Acervo: o problema que ele resolve (conhecimento disperso e relações não verificáveis), o que ele permite fazer, como o conhecimento é organizado em camadas, o percurso da fonte original ao projeto, e os limites que definem o que o Acervo não é. O texto explicita o princípio de governança da evidência — separação entre evidência científica, síntese curatorial e formulação autoral — e o compromisso com a ciência aberta: métodos explícitos, revisão progressiva e colaboração humana com rastreabilidade."
+resumo: "O Acervo Soberania Tecnológica é uma infraestrutura pública de conhecimento em desenvolvimento que transforma literatura científica, documentação técnica e memória de pesquisa em referências rastreáveis, comparáveis e utilizáveis. Este artigo apresenta a arquitetura curatorial do Acervo: o problema que ele resolve (conhecimento disperso e relações não verificáveis), o que ele permite fazer, como o conhecimento é organizado em etapas e artefatos curatoriais, o percurso da fonte original ao projeto, e os limites que definem o que o Acervo não é. O texto explicita o princípio de governança da evidência — a separação em cinco camadas epistemológicas (evidência científica externa, evidência empírica autoral documentada, síntese curatorial, hipótese ou arquitetura autoral e validação científica própria delimitada) — e o compromisso com a ciência aberta: métodos explícitos, revisão progressiva e colaboração humana com rastreabilidade."
 palavras_chave:
   - acervo-curatorial
   - governanca-da-evidencia
@@ -37,7 +37,7 @@ palavras_chave:
 ORCID [0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)
 *Acervo Soberania Tecnológica — artigo curatorial, versão de trabalho, 1º de agosto de 2026*
 
-> **Resumo:** O Acervo Soberania Tecnológica é uma infraestrutura pública de conhecimento em desenvolvimento que transforma literatura científica, documentação técnica e memória de pesquisa em referências rastreáveis, comparáveis e utilizáveis. Este artigo apresenta a arquitetura curatorial do Acervo: o problema que ele resolve, o que ele permite fazer, como o conhecimento é organizado em camadas, o percurso da fonte original ao projeto, e os limites que definem o que o Acervo não é. O texto explicita o princípio de governança da evidência — separação entre evidência científica, síntese curatorial e formulação autoral — e o compromisso com a ciência aberta: métodos explícitos, revisão progressiva e colaboração humana com rastreabilidade.
+> **Resumo:** O Acervo Soberania Tecnológica é uma infraestrutura pública de conhecimento em desenvolvimento que transforma literatura científica, documentação técnica e memória de pesquisa em referências rastreáveis, comparáveis e utilizáveis. Este artigo apresenta a arquitetura curatorial do Acervo: o problema que ele resolve (conhecimento disperso e relações não verificáveis), o que ele permite fazer, como o conhecimento é organizado em etapas e artefatos curatoriais, o percurso da fonte original ao projeto, e os limites que definem o que o Acervo não é. O texto explicita o princípio de governança da evidência — a separação em cinco camadas epistemológicas (evidência científica externa, evidência empírica autoral documentada, síntese curatorial, hipótese ou arquitetura autoral e validação científica própria delimitada) — e o compromisso com a ciência aberta: métodos explícitos, revisão progressiva e colaboração humana com rastreabilidade.
 
 **Palavras-chave:** acervo curatorial; governança da evidência; ciência aberta; rastreabilidade; materiais renováveis; bioconstrução; tecnologia social.
 
@@ -76,7 +76,7 @@ O êxito do Acervo será medido menos pelo número de fichas e mais pelas pergun
 - apoiar projetos, TCCs, dissertações e teses;
 - estruturar agendas experimentais;
 - relacionar tecnologias, políticas públicas e territórios;
-- distinguir evidência científica, síntese curatorial e formulação autoral.
+- distinguir as cinco camadas epistemológicas adotadas pelo Acervo.
 
 ## 5. Para quem
 
@@ -92,7 +92,7 @@ O êxito do Acervo será medido menos pelo número de fichas e mais pelas pergun
 
 ## 6. Como o conhecimento é organizado
 
-O Acervo organiza o conhecimento em camadas, cada uma com função e estado documental próprios:
+O Acervo organiza o conhecimento em etapas e artefatos curatoriais, cada um com função e estado documental próprios:
 
 | Camada | Função |
 |---|---|
@@ -104,7 +104,7 @@ O Acervo organiza o conhecimento em camadas, cada uma com função e estado docu
 | **Perguntas de pesquisa** | formulações derivadas das lacunas, com porte e abordagem |
 | **Projetos e ensaios** | passagem da leitura à ação |
 
-Os **estados documentais** seguem a taxonomia canônica da governança do Acervo (por exemplo: em triagem, em revisão documental, em revisão editorial, publicado) e comunicam a situação de cada registro. A publicação no site ou no Zenodo é **evento editorial**, não estado de validação científica: um documento publicado pode permanecer em revisão documental, e a publicação não altera a camada epistemológica declarada.
+Os **estados documentais** seguem a taxonomia canônica da governança do Acervo — `recebido`, `identificacao-pendente`, `em-revisao-documental`, `homologado-documentalmente`, `visao-autoral`, `historico`, `quarentena` e `retirado-da-publicacao` — e comunicam a situação de cada registro. A publicação no site ou no Zenodo é **evento editorial separado**, não estado de validação científica: um documento publicado pode permanecer em `em-revisao-documental`, e a publicação não altera a camada epistemológica declarada.
 
 ## 7. Do documento ao projeto
 
@@ -157,9 +157,11 @@ Pesquisadores, estudantes, profissionais, autores e organizações podem contrib
 
 Nenhuma contribuição é publicada automaticamente: todas passam por identificação, rastreabilidade e revisão humana. O Acervo combina abertura à colaboração com controle rigoroso da proveniência.
 
+A orientação do Acervo dialoga com a Recomendação da UNESCO sobre Ciência Aberta (2021) e com os princípios FAIR de gestão de dados científicos (Wilkinson et al., 2016), buscando tornar os metadados e as sínteses localizáveis, acessíveis, interoperáveis e reutilizáveis na medida do possível. O Acervo não declara conformidade formal com esses instrumentos; eles funcionam como referência normativa para a prática curatorial. Abertura não significa redistribuição irrestrita: materiais protegidos por direitos autorais ou que contenham informações sensíveis não são redistribuídos sem autorização.
+
 ## 11. Limites, direitos e responsabilidade
 
-O Acervo é construído por um pesquisador cidadão, com métodos explícitos, revisão progressiva e abertura à colaboração. As interpretações e sínteses curatoriais são de responsabilidade do curador; os resultados e conclusões das fontes permanecem atribuídos aos seus autores. Direitos autorais das fontes são respeitados e indicados em cada registro.
+O Acervo é construído por um pesquisador cidadão, com métodos explícitos, revisão progressiva e abertura à colaboração. As interpretações e sínteses curatoriais são de responsabilidade do curador; os resultados e conclusões das fontes permanecem atribuídos aos seus autores. A governança do Acervo exige respeito aos direitos autorais, indicação de proveniência e não redistribuição de documentos protegidos sem autorização.
 
 A formulação adequada do Acervo, evitando tanto a modéstia excessiva quanto a grandiosidade, é: **uma infraestrutura pública de curadoria e conexão do conhecimento, construída por um pesquisador cidadão, com métodos explícitos, revisão progressiva e abertura à colaboração.**
 
@@ -169,7 +171,7 @@ Este ensaio descreve a arquitetura declarada do Acervo e o estado documental ver
 
 ## 13. Considerações finais
 
-O Acervo Soberania Tecnológica reúne, na data de corte desta análise, centenas de fichas estruturadas, estados da arte consolidados (Bambu Estrutural e Reforma Agrária e Agrofloresta), mapas de evidências e lacunas, agenda de pesquisa e matriz de rastreabilidade — produtos que vão além da catalogação isolada e que declaram mecanismos de rastreabilidade para as afirmações curatoriais. A arquitetura curatorial aqui descrita — camadas, estados documentais, separação dos corpus e vocabulário controlado — é o que permite que a síntese seja transparente, que as controvérsias sejam identificadas, comparadas, contextualizadas e registradas e que as lacunas se transformem em perguntas e projetos.
+O Acervo Soberania Tecnológica reúne, na data de corte desta análise, um conjunto amplo de fichas estruturadas, estados da arte consolidados (Bambu Estrutural e Reforma Agrária e Agrofloresta), mapas de evidências e lacunas, agenda de pesquisa e matriz de rastreabilidade — produtos que vão além da catalogação isolada e que declaram mecanismos de rastreabilidade para as afirmações curatoriais. A arquitetura curatorial aqui descrita — camadas, estados documentais, separação das camadas epistemológicas e vocabulário controlado — é o que permite que a síntese seja transparente, que as controvérsias sejam identificadas, comparadas, contextualizadas e registradas e que as lacunas se transformem em perguntas e projetos.
 
 O valor público do Acervo não está em encerrar discussões, mas em oferecer referências rastreáveis para que elas possam começar em bases honestas.
 
@@ -185,7 +187,7 @@ O valor público do Acervo não está em encerrar discussões, mas em oferecer r
 
 ---
 
-> **Nota de inserção no Acervo:** este artigo é uma reflexão curatorial sobre a arquitetura e a governança do Acervo Soberania Tecnológica. Ele não certifica tecnologias, não substitui autoria, orientação acadêmica, avaliação institucional ou revisão por pares, e não substitui as fontes originais. O texto declara os limites do Acervo com a mesma clareza com que apresenta suas capacidades.
+> **Nota de escopo:** este artigo é uma reflexão curatorial sobre a arquitetura e a governança do Acervo Soberania Tecnológica. Ele não certifica tecnologias, não substitui autoria, orientação acadêmica, avaliação institucional ou revisão por pares, e não substitui as fontes originais. O texto declara os limites do Acervo com a mesma clareza com que apresenta suas capacidades.
 
 ---
 

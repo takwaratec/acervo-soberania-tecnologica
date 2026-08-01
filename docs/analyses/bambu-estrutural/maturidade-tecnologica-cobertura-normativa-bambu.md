@@ -86,7 +86,7 @@ A escala TRL é usada como referência de maturidade tecnológica, **não** como
 
 ### 3.1. Regras conservadoras
 
-A ISO 16290:2013 define níveis de prontidão tecnológica e condições gerais para sua avaliação (ISO, 2013); o NASA NPR 7123.1D detalha critérios de sucesso para TRL 1 a 9 (NASA, 2013), e o Guia de Avaliação da Maturidade Tecnológica da ANEEL (2024) oferece uma referência brasileira para avaliações de maturidade (ANEEL, 2024). Para o Acervo, aplicam-se as seguintes regras conservadoras:
+A ISO 16290:2013 define níveis de prontidão tecnológica e condições gerais para sua avaliação (ISO, 2013); o NASA NPR 7123.1D detalha critérios de sucesso para TRL 1 a 9 (NASA, 2023), e o Guia de Avaliação da Maturidade Tecnológica da ANEEL (2024) oferece uma referência brasileira para avaliações de maturidade (ANEEL, 2024). Para o Acervo, aplicam-se as seguintes regras conservadoras:
 
 - TRL pertence a uma **tecnologia identificada**, não a um tema ou projeto inteiro;
 - TRL atual e TRL-alvo são campos distintos;
@@ -199,7 +199,7 @@ Mudança relevante de composição, geometria, tratamento, processo, aplicação
 
 ## 7. Teste de transferibilidade
 
-A evidência somente pode ser transferida integralmente quando houver correspondência suficiente nos campos críticos:
+A evidência somente pode ser considerada diretamente aplicável quando houver correspondência documentada suficiente entre os fatores críticos do estudo e o escopo da alegação pretendida:
 
 | Dimensão | Pergunta de comparabilidade |
 |---|---|
@@ -252,7 +252,7 @@ Toda relação entre fonte, experiência, norma e alegação deve usar um dos se
 | Evidência experimental | ausente / preliminar / delimitada | método, dados, controles e limites |
 | TRL | não determinado / 1–9 | critérios documentados do nível |
 | Cobertura normativa | ausente / parcial / direta | escopo e edição dos documentos aplicáveis |
-| Transferibilidade | insuficiente / parcial / integral | correspondência dos fatores críticos |
+| Aplicabilidade da evidência | insuficiente / parcial / direta sustentada | correspondência documentada dos fatores críticos com o escopo da alegação |
 | Prontidão regulatória | não avaliada / inicial / em desenvolvimento / demonstrada | rota, requisitos, responsáveis e documentos |
 | Prontidão de fabricação | não avaliada / inicial / em desenvolvimento / demonstrada | processo, tolerâncias, inspeção e repetibilidade |
 | Prontidão operacional | não avaliada / inicial / em desenvolvimento / demonstrada | operadores, manutenção, segurança e rotina |
@@ -322,7 +322,7 @@ Os limites deste artigo estão declarados na seção 12 e não são repetidos aq
 - ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **ABNT NBR 16828-2:2020 — Estruturas de bambu — Parte 2: Determinação das propriedades físicas e mecânicas do bambu**. Rio de Janeiro: ABNT, 2020. Consultar exemplar autorizado e vigência no Catálogo ABNT.
 - INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. **ISO 22156:2021 — Bamboo structures — Bamboo culms — Structural design**. Disponível em: <https://www.iso.org/standard/73831.html>.
 - INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. **ISO 16290:2013 — Space systems — Definition of the Technology Readiness Levels (TRLs) and their criteria of assessment**. Disponível em: <https://www.iso.org/standard/56064.html>.
-- NATIONAL AERONAUTICS AND SPACE ADMINISTRATION. **NPR 7123.1D — Appendix E: Technology Readiness Levels**. Disponível em: <https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7123_001D_&page_name=AppendixE>.
+- NATIONAL AERONAUTICS AND SPACE ADMINISTRATION. **NPR 7123.1D — Appendix E: Technology Readiness Levels**. 2023. Disponível em: <https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7123_001D_&page_name=AppendixE>.
 - AGÊNCIA NACIONAL DE ENERGIA ELÉTRICA. **Guia de Avaliação da Maturidade Tecnológica da ANEEL**. 2024. Disponível em: <https://www.gov.br/aneel/pt-br/assuntos/programa-de-pesquisa-desenvolvimento-e-inovacao/guia-de-avaliacao-da-maturidade-tecnologica-da-aneel>.
 - BRASIL. MINISTÉRIO DAS CIDADES. **SiNAT — Sistema Nacional de Avaliações Técnicas de Produtos Inovadores e Sistemas Convencionais**. Disponível em: <https://www.gov.br/cidades/pt-br/assuntos/habitacao/pbqp-h/sinat-sistema-nacional-de-avaliacoes-tecnicas-de-produtos-inovadores-e-sistemas-convencionais>.
 - TAKWARA, Fabio. **Do protótipo à conformidade — normas, ensaios, responsabilidade técnica e liberação de componentes de bambu**. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.2, 2026.
@@ -340,6 +340,6 @@ Os limites deste artigo estão declarados na seção 12 e não são repetidos aq
 
 **Apoio de IA:** ferramenta de inteligência artificial foi utilizada para localizar relações entre fontes, estruturar a matriz de evidências, verificar consistência, apoiar a redação e conferir referências. A perspectiva, a seleção interpretativa e a responsabilidade pela versão publicada permanecem com o autor.
 
-**Conflitos de interesse:** o autor mantém vínculo com a Ecolaborativa (PJ de P&D) e desenvolve o sistema construtivo bambu–PU vegetal no âmbito do Universo Takwara. Este artigo não avalia nem classifica esse sistema; a declaração de vínculo é feita por transparência.
+**Conflitos de interesse:** o autor mantém vínculos com a TakwaraTec, com a Ecolaborativa (PJ de P&D) e com o Universo Takwara, no âmbito do qual desenvolve o sistema construtivo bambu–PU vegetal. Este artigo não avalia nem classifica essas tecnologias; a declaração de vínculo é feita por transparência.
 
 **Licença:** CC-BY-4.0 (proposta para depósito; não reservado nesta etapa).
