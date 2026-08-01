@@ -75,6 +75,7 @@ Fichas de registro bibliográfico derivadas do manifesto de referências citadas
 
 - [Estado da Arte (Síntese Curatorial Baseada em Evidências)](estado-da-arte.md)
 - [Mapa de Evidências](mapa-de-evidencias.md)
+- [Mapa de Lacunas](mapa-de-lacunas.md)
 - [Agenda de Pesquisa](agenda-de-pesquisa.md)
 
 ### Fichas do Plano de Decoupagem/Fichamento Agroecologia (P1)
