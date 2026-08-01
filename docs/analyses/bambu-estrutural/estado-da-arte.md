@@ -333,3 +333,32 @@ As fichas citadas neste estado da arte são documentos do próprio Acervo, local
 - [Wang et al. (2020) — tratamento térmico a vapor saturado em bambu](ficha-high-temperature-saturated-steam-moso-bamboo.md)
 
 > **Nota metodológica:** este documento é uma síntese curatorial de fontes já fichadas. Números, citações e interpretações são atribuídos às respectivas fichas-fonte, todas com fonte integral conferida e em estado `em-revisao-documental`. Patentes, normas, revistas, circulares e palestras não entram na contagem científica; simulação, ensaio laboratorial e relato de experiência são evidências de naturezas diferentes; e nenhum estado documental equivale a validação experimental pelo Acervo. As duplicidades e divergências de registro apontadas em versões anteriores foram resolvidas em 2026-08-01 (ver seção 8).
+
+---
+
+## Relação com a agenda autoral
+
+As convergências, controvérsias e lacunas deste Estado da Arte dialogam com os Cadernos de Revisão Ecológica e Soberania Tecnológica e com outros instrumentos autorais de Fabio Takwara.
+
+Esses documentos formulam hipóteses, arquiteturas de investigação, critérios de decisão e agendas experimentais. Não constituem evidência independente de desempenho das tecnologias propostas e não entram na contagem de estudos que sustentam as conclusões deste Estado da Arte.
+
+A relação entre evidência externa e formulação autoral encontra-se registrada na [Matriz de Rastreabilidade](00-matriz-rastreabilidade-evidencia-agenda-autoral.md).
+
+## Fontes externas que sustentam a síntese evidencial
+
+As fontes externas que sustentam a síntese evidencial estão listadas na seção "Referências das fichas utilizadas" acima — artigos científicos, teses, dissertações, relatórios técnicos, normas, patentes, documentos institucionais e fontes históricas fichadas no eixo.
+
+## Corpus autoral relacionado
+
+Relações registradas na [Matriz de Rastreabilidade](00-matriz-rastreabilidade-evidencia-agenda-autoral.md) (coluna "Caderno relacionado" e fonte "Anexo 1"). Seguindo a regra de seleção do eixo, listam-se apenas os instrumentos com relação mapeada na matriz:
+
+- [Caderno 1 — Preservação do bambu sob perspectiva socioecológica](../visao-do-autor/caderno-01-preservacao-socioecologica-bambu.md) (H-BAM-002, 005, 007, 008, 009, 010, 011, 024) — preservação, tratamentos
+- [Caderno 2 — Do colmo condicionado ao componente protegido](../visao-do-autor/caderno-02-colmo-condicionado-componente-protegido.md) (H-BAM-001, 002, 003, 004, 005, 011, 018, 028) — interfaces, PU vegetal, preenchimento
+- [Caderno 3 — Do componente à capacidade produtiva territorial](../visao-do-autor/caderno-03-capacidade-produtiva-territorial.md) (H-BAM-012, 013, 014, 015, 016, 020, 025, 027) — produção, OPEX, cadeia
+- [Caderno 4 — Do protótipo à conformidade](../visao-do-autor/caderno-04-prototipo-conformidade-normas-ensaios.md) (H-BAM-004, 005, 016, 017, 018, 026) — normas, ensaios, liberação
+- [Caderno 5 — Do componente conforme ao habitar](../visao-do-autor/caderno-05-do-componente-ao-habitar.md) (H-BAM-019, 027) — conexão pontual com habitação (H-BAM-019) e viabilidade econômica (H-BAM-027)
+- [Caderno 6 — Biochar de biomassa e uso em cascata do bambu](../visao-do-autor/caderno-06-biochar-pirolise-uso-cascata.md) (H-BAM-006, 021, 022, 025, 027, 029) — pirólise, resíduos
+- [Caderno 7 — O ciclo que não termina no descarte](../visao-do-autor/caderno-07-ciclo-fechado-crise-planetaria.md) (H-BAM-001, 006, 013, 018, 022, 023, 030) — integração sistêmica
+- [Anexo 1 — Matriz de viabilidade econômica e continuidade territorial](../visao-do-autor/anexo-01-viabilidade-economica-territorial.md) (H-BAM-027; portão de evidência econômica, também referido em H-BAM-012)
+
+> **Nota de advertência:** Os Cadernos e o Anexo não foram contabilizados como evidência independente nas contagens deste Estado da Arte (a síntese utiliza exclusivamente as fichas externas do eixo). O DOI de cada depósito é identificador persistente, não indicador de força científica.

@@ -31,6 +31,7 @@ Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revis
 - [Inventário do corpus autoral](00-inventario-corpus-autoral.md)
 - [Relatório de auditoria epistêmica](00-relatorio-auditoria-epistemica.md)
 - [Afirmações para revisão editorial](00-lista-afirmacoes-para-revisao.md)
+- [Estado da Arte — Relação com a agenda autoral](estado-da-arte.md#relacao-com-a-agenda-autoral)
 
 ## Materiais, estruturas e cadeia produtiva
 
