@@ -10,7 +10,14 @@ Aplica as regras de GOVERNANCA_DOCUMENTAL.md:
 Uso:
     python3 scripts/validate_frontmatter.py [--docs DIR] [--strict] [--quiet]
 
-Exit code: 0 = ok, 1 = problemas encontrados.
+Classificação dos problemas:
+- ERRO: viola regra obrigatória; falha em qualquer modo.
+- AVISO: estado documental legado mapeado na governança; exibido sempre,
+  mas só provoca exit 1 quando `--strict` está ativo.
+
+Exit code:
+- 0 = sem erros reais (avisos legados podem existir, se sem `--strict`);
+- 1 = há erros reais, ou avisos promovidos a erro por `--strict`.
 """
 
 import argparse
@@ -34,7 +41,7 @@ ESTADOS_CANONICOS = {
     "retirado-da-publicacao",
 }
 
-# Valores legados aceitos (mapeados na governança; aviso, não erro)
+# Valores legados aceitos (mapeados na governança; aviso, não erro por padrão)
 ESTADOS_LEGADOS = {
     "edicao-publica-conformada": "homologado-documentalmente",
     "publicado-no-zenodo": "homologado-documentalmente",
@@ -92,48 +99,54 @@ def parse_frontmatter(path):
 
 
 def validar_arquivo(path, strict):
-    """Retorna lista de problemas (string) para um arquivo."""
-    problemas = []
+    """Retorna (erros, avisos) para um arquivo.
+
+    - `erros`: problemas que falham em qualquer modo (lista de strings);
+    - `avisos`: estados legados; só promovidos a erro quando `strict=True`.
+    """
+    erros = []
+    avisos = []
     rel = os.path.relpath(path, args.docs)
 
-    # Páginas estruturais do site não exigem front matter de ficha
     if os.path.basename(rel) in ("index.md", "sobre.md", "metodologia.md"):
-        return problemas
+        return erros, avisos
 
     data, err = parse_frontmatter(path)
     if err:
-        return [f"{os.path.basename(path)}: {err}"]
+        return [f"{os.path.basename(path)}: {err}"], avisos
     if not isinstance(data, dict):
-        return [f"{os.path.basename(path)}: front matter não é um mapeamento"]
-
-    rel = os.path.relpath(path, args.docs)
+        return [f"{os.path.basename(path)}: front matter não é um mapeamento"], avisos
 
     # Campos obrigatórios universais
     for campo in ("tipo_documental", "estado_documental", "responsavel_curadoria"):
         if campo not in data:
-            problemas.append(f"{rel}: campo obrigatório ausente: {campo}")
+            erros.append(f"{rel}: campo obrigatório ausente: {campo}")
 
     tipo = data.get("tipo_documental")
     if tipo and tipo not in TIPOS_DOCUMENTAIS:
-        problemas.append(f"{rel}: tipo_documental fora da taxonomia: {tipo}")
+        erros.append(f"{rel}: tipo_documental fora da taxonomia: {tipo}")
 
     estado = data.get("estado_documental")
     if estado:
         if estado in ESTADOS_LEGADOS:
-            problemas.append(
+            msg = (
                 f"{rel}: estado legado '{estado}' (equivale a "
                 f"'{ESTADOS_LEGADOS[estado]}'; atualizar na próxima revisão) — AVISO"
             )
+            if strict:
+                erros.append(msg)
+            else:
+                avisos.append(msg)
         elif estado not in ESTADOS_CANONICOS:
-            problemas.append(f"{rel}: estado_documental fora da taxonomia: {estado}")
+            erros.append(f"{rel}: estado_documental fora da taxonomia: {estado}")
 
     # Identificador: exigir doi/isbn/issn/url OU identificador declarado ausente
     if tipo in ("ficha-cientifica", "ficha-academica", "resenha-academica"):
         tem_id = any(k in data for k in ("doi", "isbn", "issn", "url", "identificador"))
         if not tem_id:
-            problemas.append(f"{rel}: ficha sem identificador (doi/isbn/issn/url/identificador)")
+            erros.append(f"{rel}: ficha sem identificador (doi/isbn/issn/url/identificador)")
 
-    return problemas
+    return erros, avisos
 
 
 def main():
@@ -144,7 +157,8 @@ def main():
     ap.add_argument("--quiet", action="store_true", help="só imprime resumo")
     args = ap.parse_args()
 
-    problemas_totais = []
+    erros_totais = []
+    avisos_totais = []
     arquivos = 0
     for root, dirs, files in os.walk(args.docs):
         # Podar diretórios proibidos durante o walk
@@ -154,8 +168,9 @@ def main():
                 continue
             arquivos += 1
             path = os.path.join(root, fname)
-            problemas = validar_arquivo(path, args.strict)
-            problemas_totais.extend(problemas)
+            erros, avisos = validar_arquivo(path, args.strict)
+            erros_totais.extend(erros)
+            avisos_totais.extend(avisos)
 
     # Conteúdo privado na árvore pública
     privados = []
@@ -167,15 +182,17 @@ def main():
                     privados.append(os.path.relpath(path, args.docs))
 
     if not args.quiet:
-        for p in problemas_totais:
+        for p in erros_totais:
+            print(f"  {p}")
+        for p in avisos_totais:
             print(f"  {p}")
         for p in privados:
             print(f"  🔒 conteúdo privado em docs/: {p}")
 
     print(f"\nArquivos .md verificados: {arquivos}")
-    print(f"Problemas: {len(problemas_totais)} | Privados em docs/: {len(privados)}")
+    print(f"Erros: {len(erros_totais)} | Avisos: {len(avisos_totais)} | Privados em docs/: {len(privados)}")
 
-    return 1 if (problemas_totais or privados) else 0
+    return 1 if (erros_totais or privados) else 0
 
 
 if __name__ == "__main__":
