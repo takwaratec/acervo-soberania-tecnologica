@@ -90,11 +90,15 @@ nav:
   - Análises: analyses/index.md
   - Bambu estrutural:
       - Visão geral: analyses/bambu-estrutural/index.md
+      - Estado da Arte: analyses/bambu-estrutural/estado-da-arte.md
+      - Mapa de Evidências: analyses/bambu-estrutural/mapa-de-evidencias.md
+      - Mapa de Lacunas: analyses/bambu-estrutural/mapa-de-lacunas.md
+      - Agenda de Pesquisa: analyses/bambu-estrutural/agenda-de-pesquisa.md
       - Fichas Científicas Auditadas:
-          - ACV Bambu Artesanal no Acre (Araujo et al. 2025): analyses/bambu-estrutural/araujo-2025-acv-bambu-artesanal-acre.md
+          - ACV Bambu Artesanal no Acre (Araujo et al. 2025): analyses/bambu-estrutural/ficha-acv-bambu-unesp-araujo2025.md
           - Propriedades e Tratamentos (Adier et al. 2023): analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md
-          - Tratamento Térmico a Vapor (Wang et al. 2020): analyses/bambu-estrutural/wang-2020-tratamento-termico-vapor-bambu.md
-          - Preservação por Ácido Pirolenhoso (Silva 2011): analyses/bambu-estrutural/silva-2011-conservacao-bambu-acido-pirolenhoso.md
+          - Tratamento Térmico a Vapor (Wang et al. 2020): analyses/bambu-estrutural/ficha-high-temperature-saturated-steam-moso-bamboo.md
+          - Preservação por Ácido Pirolenhoso (Silva 2011): analyses/bambu-estrutural/silva-2011-tratamento-pirolenhoso-bambu.md
       - Operação Bambu Brasil 2021–2026:
           - Estrutura e materiais:
               - Sistemas estruturais (Bussinger 2024): analyses/bambu-estrutural/bussinger-2024-bambu-sistemas-estruturais.md

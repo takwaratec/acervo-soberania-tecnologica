@@ -34,6 +34,21 @@ INVENTARIO_ACERVO.md        # contagem reproduzível
 GOVERNANCA_DOCUMENTAL.md    # estados e taxonomia
 ```
 
+## Artefatos permanentes por eixo
+
+Cada eixo consolidado deve produzir cinco artefatos permanentes (regra de governança aprovada por Fabio em 2026-08-01):
+
+1. **Fichas documentais** — a base, com fonte integral conferida;
+2. **Estado da Arte** — subtítulo "Síntese Curatorial Baseada em Evidências"; tipo documental permanece `estado-da-arte` (sem novo tipo na taxonomia);
+3. **Mapa de Evidências** — tema × nível de confiança × nº de estudos;
+4. **Agenda de Pesquisa** — lacunas → perguntas → métodos → prioridades;
+5. **Mapa de Conhecimento** — conexões com outros eixos, quando houver 3-4 eixos consolidados.
+
+Regras derivadas:
+- O Estado da Arte inclui: Resumo Executivo (✓/⚠/✗), tabela-resumo de evidências, níveis de confiança (escala curatorial inspirada no GRADE, sem adoção formal), linha do tempo e convergências + controvérsias.
+- Controvérsias internas da gaveta devem ser **resolvidas** (verificar PDF original + Crossref; distinguir falha da curadoria de divergência real de fonte) antes de serem registradas como controvérsia.
+- A rede de citações ("relaciona_se_com") pertence à camada de dados das fichas, não ao Estado da Arte; será explorada no Acervo Web.
+
 ## Regras locais obrigatórias
 
 - Nunca fabricar citações, autoria, DOI, ISBN, ISSN ou resultados.

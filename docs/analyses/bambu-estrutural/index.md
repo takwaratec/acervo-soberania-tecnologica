@@ -9,6 +9,13 @@ responsavel_curadoria: Fabio Takwara
 
 Esta gaveta reúne fichas documentais sobre propriedades, tratamentos, aplicações e cadeia produtiva do bambu. Permanecem públicas somente fichas cuja fonte integral e identificação foram conferidas.
 
+## Estado da arte e sínteses do eixo
+
+- [Estado da Arte — Bambu Estrutural (Síntese Curatorial Baseada em Evidências)](estado-da-arte.md)
+- [Mapa de Evidências — Bambu Estrutural](mapa-de-evidencias.md)
+- [Mapa de Lacunas — Bambu Estrutural](mapa-de-lacunas.md)
+- [Agenda de Pesquisa — Bambu Estrutural](agenda-de-pesquisa.md)
+
 ## Síntese comparativa e cadernos publicados
 
 Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revisão Ecológica e Soberania Tecnológica**:
@@ -36,10 +43,9 @@ Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revis
 
 ### Fichas científicas e referências auditadas (com DOI)
 
-- [Avaliação do Ciclo de Vida do Bambu Artesanal no Acre — Araujo et al. (2025)](araujo-2025-acv-bambu-artesanal-acre.md) | DOI: [10.14295/bjs.v4i4.719](https://doi.org/10.14295/bjs.v4i4.719)
+- [Avaliação do Ciclo de Vida do Bambu Artesanal no Acre — Araujo et al. (2025)](ficha-acv-bambu-unesp-araujo2025.md) | DOI: [10.14295/bjs.v4i4.719](https://doi.org/10.14295/bjs.v4i4.719)
 - [Propriedades, Tratamento e Normatização do Bambu — Adier et al. (2023)](adier-2023-propriedades-tratamento-bambu.md) | DOI: [10.3390/buildings13102449](https://doi.org/10.3390/buildings13102449)
-- [Tratamento Térmico a Vapor Saturado em Bambu — Wang et al. (2020)](wang-2020-tratamento-termico-vapor-bambu.md) | DOI: [10.1186/s10086-020-01899-7](https://doi.org/10.1186/s10086-020-01899-7)
-- [Conservação de Bambu por Ácido Pirolenhoso — Silva / UNICAMP (2011)](silva-2011-conservacao-bambu-acido-pirolenhoso.md)
+- [Tratamento Térmico a Vapor Saturado em Bambu — Wang et al. (2020)](ficha-high-temperature-saturated-steam-moso-bamboo.md) | DOI: [10.1186/s10086-020-01899-8](https://doi.org/10.1186/s10086-020-01899-8)
 
 ## Patentes e processos protegidos
 
