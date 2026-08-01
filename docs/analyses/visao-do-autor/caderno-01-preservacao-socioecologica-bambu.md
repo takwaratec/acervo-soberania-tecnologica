@@ -9,7 +9,7 @@ orcid_autor: 0000-0001-8815-3885
 ano: 2026
 versao: 1.0
 estado_documental: publicado-no-zenodo
-identificador: 10.5281/zenodo.21514736
+identificador: 10.5281/zenodo.21738428
 doi_conceitual: 10.5281/zenodo.21514735
 licenca_texto: CC-BY-4.0
 metodo: revisao-de-escopo-documental-orientada-pelo-acervo
@@ -28,10 +28,10 @@ financiamento: Esta publicação foi preparada no âmbito de proposta de financi
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
 *Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1 — versão 1.0, 23 jul. 2026*  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21514736.svg)](https://doi.org/10.5281/zenodo.21514736)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738428.svg)](https://doi.org/10.5281/zenodo.21738428)
 [![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](caderno-01-preservacao-socioecologica-bambu-en.md)
 
-*DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736)*
+*DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428)*
 
 > **Nível de Maturidade Tecnológica (TRL):** Este caderno consolida uma **prova de conceito analítica e documental** para a seleção informada de tratamentos preservativos do bambu, com base em revisão de escopo documental de 17 fontes. A evidência compilada demonstra domínio do estado da arte, identifica lacunas críticas e propõe uma agenda experimental dirigida ao avanço para **TRL-4** (validação em ambiente laboratorial). A maturidade descrita é da *agenda de pesquisa* (hipótese formulada a partir do acervo); a maturidade da tecnologia não está determinada, pois este caderno não contém ensaio primário próprio com controles. O texto explicita o que a literatura já permite afirmar e, com igual clareza, o que ainda requer ensaio primário. Não constitui prescrição de uso, certificação, homologação ou recomendação de tratamento comercial.
 
@@ -463,8 +463,8 @@ ZHANG, Ying et al. Evaluating the comprehensive influences of heat treatment and
 **Apoio editorial e analítico:** ferramenta de inteligência artificial foi utilizada para localizar relações entre fontes, estruturar a matriz comparativa, conferir consistência interna e apoiar a redação. A seleção interpretativa, a perspectiva socioecológica e a responsabilidade pela versão publicada permanecem com o autor.  
 **Nível de maturidade:** TRL-3 (prova de conceito analítica). A agenda experimental proposta visa o avanço ao TRL-4.  
 **Financiamento:** Esta publicação foi preparada como parte de uma proposta de financiamento de P&D. O trabalho de curadoria documental que a fundamenta é independente e anterior à submissão.  
-**Publicação:** Versão depositada no Zenodo sob licença CC-BY-4.0. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
+**Publicação:** Versão depositada no Zenodo sob licença CC-BY-4.0. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
 
 ### Citação
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão depositada 1.0, 22 jul. 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão depositada 1.0, 22 jul. 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).

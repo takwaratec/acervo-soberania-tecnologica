@@ -8,9 +8,7 @@ author_orcid: 0000-0001-8815-3885
 year: 2026
 version: 1.1
 document_status: published-on-zenodo
-identifier: https://doi.org/10.5281/zenodo.21515361
-conceptual_doi: 10.5281/zenodo.21515209
-previous_version_doi: 10.5281/zenodo.21515210
+identifier: https://doi.org/10.5281/zenodo.21738559
 text_license: CC-BY-4.0
 method: repository-guided-normative-scope-review
 revision_date: 2026-08-01
@@ -31,7 +29,7 @@ editorial_note: 'P-01 resolved (decision by Fabio, 2026-08-01): the IFB Campus P
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
 *Notebooks on Ecological Revision and Technological Sovereignty, n. 4 — version 1.0, July 23, 2026*  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515361.svg)](https://doi.org/10.5281/zenodo.21515361)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738559.svg)](https://doi.org/10.5281/zenodo.21738559)
 [![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green.svg)](caderno-04-prototipo-conformidade-normas-ensaios.md)
 
 
@@ -86,11 +84,11 @@ INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. *ISO 22157:2019 — Bamboo struc
 
 MARÇAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais*. 2018. M.Sc. thesis — University of Brasília, Brasília, 2018.
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
 
 TAKWARA, Fabio. *From conditioned culm to protected component: interfaces, bio-based PU, internal filling, and integrated validation*. Notebooks on Ecological Revision and Technological Sovereignty, n. 2, deposited version 1.2, July 23, 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
 
-TAKWARA, Fabio. *From component to territorial productive capacity: distributed manufacturing, quality control, and autonomy*. Notebooks on Ecological Revision and Technological Sovereignty, n. 3, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514991](https://doi.org/10.5281/zenodo.21514991).
+TAKWARA, Fabio. *From component to territorial productive capacity: distributed manufacturing, quality control, and autonomy*. Notebooks on Ecological Revision and Technological Sovereignty, n. 3, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
 
 ---
 
@@ -104,4 +102,4 @@ TAKWARA, Fabio. *From component to territorial productive capacity: distributed 
 
 ### Citation format
 
-TAKWARA, Fabio. *From prototype to conformity: standards, testing, professional accountability, and release of bamboo components*. Notebooks on Ecological Revision and Technological Sovereignty, n. 4, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21515361](https://doi.org/10.5281/zenodo.21515361).
+TAKWARA, Fabio. *From prototype to conformity: standards, testing, professional accountability, and release of bamboo components*. Notebooks on Ecological Revision and Technological Sovereignty, n. 4, version 1.1, July 23, 2026. DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).

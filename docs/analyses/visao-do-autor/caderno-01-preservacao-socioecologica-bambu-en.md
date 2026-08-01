@@ -9,7 +9,7 @@ author_orcid: 0000-0001-8815-3885
 year: 2026
 version: 1.0
 document_status: published-on-zenodo
-identifier: 10.5281/zenodo.21514736
+identifier: 10.5281/zenodo.21738428
 conceptual_doi: 10.5281/zenodo.21514735
 text_license: CC-BY-4.0
 method: repository-guided-documentary-scope-review
@@ -32,10 +32,10 @@ responsavel_curadoria: 'Fabio Takwara'
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
 *Notebooks on Ecological Revision and Technological Sovereignty, n. 1 — version 1.0, July 23, 2026*  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21514736.svg)](https://doi.org/10.5281/zenodo.21514736)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738428.svg)](https://doi.org/10.5281/zenodo.21738428)
 [![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green.svg)](caderno-01-preservacao-socioecologica-bambu.md)
 
-*DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736)*
+*DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428)*
 
 > **Technology Readiness Level (TRL):** This notebook consolidates an **analytical and documentary proof of concept** for the informed selection of bamboo preservative treatments, based on a documentary scope review of 17 sources. The compiled evidence demonstrates mastery of the state of the art, identifies critical gaps, and proposes an experimental agenda directed towards advancing to **TRL-4** (laboratory environment validation). The maturity described is that of the *research agenda* (hypothesis formulated from the repository); the technology's maturity is not determined, as this notebook contains no primary trial with controls of its own. The text explicitly details what literature already supports and, with equal clarity, what still requires primary testing. It does not constitute a prescription for use, certification, approval, or commercial treatment recommendation.
 
@@ -668,8 +668,8 @@ ZHANG, Ying et al. Evaluating the comprehensive influences of heat treatment and
 **Editorial and analytical support:** Artificial intelligence tools were used to locate relationships between sources, structure the comparative matrix, check internal consistency, and support drafting and translation. Interpretive selection, socioecological perspective, and responsibility for the published version remain with the author.  
 **Maturity level:** TRL-3 (analytical proof of concept). The proposed experimental agenda aims to advance to TRL-4.  
 **Funding:** This publication was prepared as part of an R&D funding proposal. The documentary curation that underpins it is independent and prior to submission.  
-**Publication:** Version deposited on Zenodo under CC-BY-4.0 license. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
+**Publication:** Version deposited on Zenodo under CC-BY-4.0 license. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
 
 ### Citation
 
-TAKWARA, Fabio. *Bamboo preservation from a socioecological perspective: effectiveness, durability, toxicity, and circularity of treatments*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
+TAKWARA, Fabio. *Bamboo preservation from a socioecological perspective: effectiveness, durability, toxicity, and circularity of treatments*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).

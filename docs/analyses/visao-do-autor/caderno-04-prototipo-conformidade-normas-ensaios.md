@@ -8,9 +8,7 @@ orcid_autor: 0000-0001-8815-3885
 ano: 2026
 versao: 1.1
 estado_documental: publicado-no-zenodo
-identificador: https://doi.org/10.5281/zenodo.21515361
-doi_conceitual: 10.5281/zenodo.21515209
-doi_versao_anterior: 10.5281/zenodo.21515210
+identificador: 10.5281/zenodo.21738559
 licenca_texto: CC-BY-4.0
 metodo: revisao-normativa-documental-orientada-pelo-acervo
 data_revisao: 2026-08-01
@@ -27,7 +25,7 @@ nota_editorial: 'P-01 resolvida (decisão de Fabio, 2026-08-01): o docente do IF
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
 *Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4 — versão 1.1, 23 jul. 2026*  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515361.svg)](https://doi.org/10.5281/zenodo.21515361)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738559.svg)](https://doi.org/10.5281/zenodo.21738559)
 [![English Version](https://img.shields.io/badge/Language-English_v1.1-blue.svg)](caderno-04-prototipo-conformidade-normas-ensaios-en.md)
 
 
@@ -524,11 +522,11 @@ INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. [ISO 5660-1:2015 — Reaction-to
 
 MARÇAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais*. 2018. Dissertação (Mestrado em Arquitetura e Urbanismo) — Universidade de Brasília, Brasília, 2018.
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
 
 TAKWARA, Fabio. *Do colmo condicionado ao componente protegido: interfaces, PU vegetal, preenchimento interno e validação integrada*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 2, versão depositada 1.2, 23 jul. 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
 
-TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura distribuída, controle de qualidade e autonomia*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21514991](https://doi.org/10.5281/zenodo.21514991).
+TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura distribuída, controle de qualidade e autonomia*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
 
 ---
 
@@ -542,4 +540,4 @@ TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura d
 
 ### Forma de citação
 
-TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21515361](https://doi.org/10.5281/zenodo.21515361).
+TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).
