@@ -21,13 +21,11 @@ responsavel_curadoria: Fabio Takwara
 
 **Fabio Takwara**
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)
-*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3 — versão 1.1, 1 ago. 2026*
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738550.svg)](https://doi.org/10.5281/zenodo.21738550)
-[![English Version](https://img.shields.io/badge/Language-English_v1.1-blue.svg)](caderno-03-capacidade-produtiva-territorial-en.md)
+*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3 — versão 1.1 (em preparação para depósito), 1 ago. 2026*
 
 
-> **Estado editorial:** Edição pública publicada no Zenodo (versão 1.1, DOI [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550); depositada via New version; versão anterior: 10.5281/zenodo.21514991). O texto apresenta uma arquitetura de pesquisa analítica e conceitual (maturidade da agenda de pesquisa; maturidade da tecnologia não determinada) e uma agenda de validação experimental para implantação descentralizada. Não afirma que o portfólio autoral esteja validado, certificado, patenteado, transferido ou operando como sistema industrial. Parâmetros específicos, configurações de equipamentos e roteiros operacionais detalhados permanecem restritos aos planos de desenvolvimento de P&D.
+
+> **Estado editorial:** Edição pública candidata preparada para depósito. DOI de versão desta edição: 10.5281/zenodo.21738550 (depositada via New version; versão anterior: 10.5281/zenodo.21514991). O texto apresenta uma arquitetura de pesquisa analítica e conceitual (maturidade da agenda de pesquisa; maturidade da tecnologia não determinada) e uma agenda de validação experimental para implantação descentralizada. Não afirma que o portfólio autoral esteja validado, certificado, patenteado, transferido ou operando como sistema industrial. Parâmetros específicos, configurações de equipamentos e roteiros operacionais detalhados permanecem restritos aos planos de desenvolvimento de P&D.
 
 ## Resumo
 
@@ -503,7 +501,7 @@ TAKWARA, Fabio. *Do colmo condicionado ao componente protegido: interfaces, PU v
 **Base documental:** Acervo Soberania Tecnológica e fontes integrais identificadas nas referências.
 **Contribuição autoral:** formulação da capacidade produtiva territorial em seis circuitos, definição dos três Work Packages de validação experimental e leitura funcional do portfólio de equipamentos.
 **Apoio editorial e analítico:** ferramenta de inteligência artificial foi utilizada para localizar relações entre fontes, estruturar a matriz de evidências, verificar consistência e apoiar a redação. A perspectiva, a seleção interpretativa e a responsabilidade pela versão publicada permanecem com o autor.
-**Estado documental:** Versão 1.1 publicada no Zenodo (DOI [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550)) sob licença CC-BY-4.0.
+**Estado documental:** Versão 1.0 preparada para depósito no Zenodo sob licença CC-BY-4.0.
 
 ### Forma de citação
 
