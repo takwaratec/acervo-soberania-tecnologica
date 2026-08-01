@@ -1,0 +1,9 @@
+# CODEOWNERS — Acervo Soberania Tecnológica
+
+/AGENTS.md                                  @fabio-takwara
+/AGENTS_BASE.md                             @fabio-takwara
+/AGENTS_LOCAL.md                            @fabio-takwara
+/GOVERNANCA_VERSION.yaml                    @fabio-takwara
+/REPOSITORY_PROFILE.yaml                    @fabio-takwara
+/.github/workflows/governance-*             @fabio-takwara
+/docs/                                      @fabio-takwara
