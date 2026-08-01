@@ -16,11 +16,6 @@ escopo:
   - ciencia-aberta
   - rastreabilidade
   - bioconstrucao
-relacoes_controladas:
-  - delimita
-  - organiza
-  - sustenta_parcialmente
-  - gera_hipotese
 nao_constitui:
   - certificacao-de-tecnologias
   - producao-academica-automatica
@@ -101,7 +96,7 @@ O Acervo organiza o conhecimento em camadas, cada uma com função e estado docu
 
 | Camada | Função |
 |---|---|
-| **Fonte original** | documento primário identificado por título, autor, ano, DOI ou endpoint |
+| **Fonte original** | documento primário identificado por título, autor, ano, identificador persistente, endereço público ou proveniência documentada |
 | **Ficha rastreável** | registro estruturado com síntese, método, dados, limites e cadeia de custódia |
 | **Comparação entre fontes** | confronto de achados, controvérsias e convergências |
 | **Estado da arte** | síntese curatorial baseada em evidências com níveis de confiança |
@@ -109,7 +104,7 @@ O Acervo organiza o conhecimento em camadas, cada uma com função e estado docu
 | **Perguntas de pesquisa** | formulações derivadas das lacunas, com porte e abordagem |
 | **Projetos e ensaios** | passagem da leitura à ação |
 
-Os **estados documentais** comunicam a situação editorial de cada registro (por exemplo: em triagem, em revisão documental, validado, publicado) e impedem que fichas em revisão sejam lidas como consenso.
+Os **estados documentais** seguem a taxonomia canônica da governança do Acervo (por exemplo: em triagem, em revisão documental, em revisão editorial, publicado) e comunicam a situação de cada registro. A publicação no site ou no Zenodo é **evento editorial**, não estado de validação científica: um documento publicado pode permanecer em revisão documental, e a publicação não altera a camada epistemológica declarada.
 
 ## 7. Do documento ao projeto
 
@@ -135,13 +130,15 @@ Projetos e ensaios
 
 ## 8. Governança da evidência
 
-O princípio central da governança do Acervo é a **separação dos corpus**:
+O princípio central da governança do Acervo é a **separação em cinco camadas epistemológicas**:
 
-- **evidência científica:** resultados de estudos, ensaios e experiências com método, dados e limites documentados — contam para a síntese;
+- **evidência científica externa:** resultados de estudos, ensaios e experiências de terceiros, com método, dados e limites documentados — contam para a síntese;
+- **evidência empírica autoral documentada:** atividades realizadas pelo autor nas condições documentadas (oficinas, prototipagem, observação) — demonstram realização, não desempenho generalizável;
 - **síntese curatorial:** interpretações, comparações e estados da arte produzidos pelo Acervo — tornam a evidência utilizável, mas não criam evidência nova;
-- **formulação autoral:** hipóteses, arquiteturas de investigação e agendas experimentais — podem ser investigáveis, mas não constituem validação por si mesmas.
+- **hipótese ou arquitetura autoral:** formulações, arquiteturas de investigação e agendas experimentais — podem ser investigáveis, mas não constituem validação por si mesmas;
+- **validação científica própria delimitada:** resultados obtidos pelo autor com protocolo, controles, repetição e limites documentados — o único nível em que verbos de demonstração podem ser empregados sobre o sistema autoral.
 
-Cada artefato declara sua camada epistemológica e seu estado documental. Documentos autorais não são contabilizados como evidência independente. Verbos que afirmam demonstração ("demonstra", "valida", "certifica") são reservados a resultados com método e controles próprios.
+Cada artefato declara sua camada epistemológica e seu estado documental. Documentos autorais não são contabilizados como evidência independente. Verbos que afirmam demonstração ("demonstra", "valida", "certifica", "comprova") são reservados a alegações sobre o sistema autoral sustentadas por validação científica própria delimitada. Resultados de terceiros podem ser descritos, desde que atribuídos aos seus autores e delimitados ao objeto e método de cada estudo.
 
 ## 9. O que este Acervo não é
 
@@ -150,9 +147,9 @@ Cada artefato declara sua camada epistemológica e seu estado documental. Docume
 - não certifica tecnologias;
 - não atribui à TakwaraTec resultados obtidos por terceiros;
 - não apresenta fichas em revisão como consenso;
-- não produz trabalhos acadêmicos para submissão automática.
+- não substitui autoria, orientação acadêmica, avaliação institucional ou revisão por pares.
 
-O Acervo não substitui as fontes originais: cada ficha aponta para o documento primário, e o leitor deve consultar a fonte original pelo DOI ou endpoint. As interpretações curatoriais são marcadas como tais.
+O Acervo não substitui as fontes originais: cada ficha aponta para o documento primário, e o leitor deve consultar a fonte original pelo DOI, identificador persistente, endereço público ou proveniência documentada. As interpretações curatoriais são marcadas como tais.
 
 ## 10. Ciência aberta e colaboração
 
@@ -168,11 +165,11 @@ A formulação adequada do Acervo, evitando tanto a modéstia excessiva quanto a
 
 ## 12. Limitações deste ensaio
 
-Este ensaio descreve a arquitetura declarada do Acervo e o estado documental verificado até 1º de agosto de 2026. Ele não certifica tecnologias, não produz trabalhos acadêmicos para submissão automática, não substitui as fontes originais e não representa validação institucional externa. A implementação completa dos eixos e a consolidação de todos os estados da arte permanecem em desenvolvimento; afirmações sobre eixos ainda não consolidados no repositório público devem ser lidas como descrição de arquitetura, não como descrição de realização. As dimensões e camadas apresentadas são categorias analíticas do Acervo, não escalas oficiais de nenhum organismo.
+Este ensaio descreve a arquitetura declarada do Acervo e o estado documental verificado até 1º de agosto de 2026. Ele não certifica tecnologias, não substitui autoria, orientação acadêmica, avaliação institucional ou revisão por pares, não substitui as fontes originais e não representa validação institucional externa. A implementação completa dos eixos e a consolidação de todos os estados da arte permanecem em desenvolvimento; afirmações sobre eixos ainda não consolidados no repositório público devem ser lidas como descrição de arquitetura, não como descrição de realização. As dimensões e camadas apresentadas são categorias analíticas do Acervo, não escalas oficiais de nenhum organismo.
 
 ## 13. Considerações finais
 
-O Acervo Soberania Tecnológica ultrapassou a fase de simples catalogação: ele produz conhecimento derivado do próprio acervo, preservando a rastreabilidade de cada afirmação. A arquitetura curatorial aqui descrita — camadas, estados documentais, separação dos corpus e vocabulário controlado — é o que permite que a síntese seja transparente, que as controvérsias sejam resolvidas antes de registradas e que as lacunas se transformem em perguntas e projetos.
+O Acervo Soberania Tecnológica reúne, na data de corte desta análise, centenas de fichas estruturadas, estados da arte consolidados (Bambu Estrutural e Reforma Agrária e Agrofloresta), mapas de evidências e lacunas, agenda de pesquisa e matriz de rastreabilidade — produtos que vão além da catalogação isolada e que declaram mecanismos de rastreabilidade para as afirmações curatoriais. A arquitetura curatorial aqui descrita — camadas, estados documentais, separação dos corpus e vocabulário controlado — é o que permite que a síntese seja transparente, que as controvérsias sejam identificadas, comparadas, contextualizadas e registradas e que as lacunas se transformem em perguntas e projetos.
 
 O valor público do Acervo não está em encerrar discussões, mas em oferecer referências rastreáveis para que elas possam começar em bases honestas.
 
@@ -182,13 +179,13 @@ O valor público do Acervo não está em encerrar discussões, mas em oferecer r
 - TAKWARA, Fabio. **Matriz de rastreabilidade entre evidências e hipóteses do Universo Takwara — eixo Bambu**. Acervo Soberania Tecnológica, 2026.
 - TAKWARA, Fabio. **Estado da Arte — Bambu Estrutural (Síntese Curatorial Baseada em Evidências)**. Acervo Soberania Tecnológica, 2026.
 - TAKWARA, Fabio. **Estado da Arte — Reforma Agrária e Agrofloresta (Síntese Curatorial Baseada em Evidências)**. Acervo Soberania Tecnológica, 2026.
-- TAKWARA, Fabio. **Estado da Arte — Poliuretano Vegetal (Síntese Curatorial Baseada em Evidências)**. Acervo Soberania Tecnológica, 2026.
-- TAKWARA, Fabio. **Estado da Arte — Bioeconomia Amazônica (Síntese Curatorial Baseada em Evidências)**. Acervo Soberania Tecnológica, 2026.
-- TAKWARA, Fabio. **Estado da Arte — Habitação Social (Síntese Curatorial Baseada em Evidências)**. Acervo Soberania Tecnológica, 2026.
+
+- UNESCO. **Recommendation on Open Science**. Paris: UNESCO, 2021. Disponível em: <https://unesdoc.unesco.org/ark:/48223/pf0000379949>.
+- WILKINSON, M. D. et al. **The FAIR Guiding Principles for scientific data management and stewardship**. Scientific Data, v. 3, 160018, 2016. DOI: <https://doi.org/10.1038/sdata.2016.18>.
 
 ---
 
-> **Nota de inserção no Acervo:** este artigo é uma reflexão curatorial sobre a arquitetura e a governança do Acervo Soberania Tecnológica. Ele não certifica tecnologias, não produz trabalhos acadêmicos para submissão automática e não substitui as fontes originais. O texto declara os limites do Acervo com a mesma clareza com que apresenta suas capacidades.
+> **Nota de inserção no Acervo:** este artigo é uma reflexão curatorial sobre a arquitetura e a governança do Acervo Soberania Tecnológica. Ele não certifica tecnologias, não substitui autoria, orientação acadêmica, avaliação institucional ou revisão por pares, e não substitui as fontes originais. O texto declara os limites do Acervo com a mesma clareza com que apresenta suas capacidades.
 
 ---
 

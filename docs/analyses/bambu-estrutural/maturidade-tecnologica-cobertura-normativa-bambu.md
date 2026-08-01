@@ -4,7 +4,7 @@ tipo_documental: visao-autoral
 natureza_documental: artigo-metodologico
 estado_documental: em-revisao-documental
 camada_epistemica: sintese-curatorial
-metodo: leitura-critica-oito-secoes-orientada-pelo-acervo
+metodo: revisao-normativa-documental-orientada-pelo-acervo
 data_revisao: 2026-08-01
 responsavel_curadoria: Fabio Takwara
 autor_artigo: Fabio Takwara
@@ -16,12 +16,6 @@ escopo:
   - maturidade-tecnologica
   - cobertura-normativa
   - transferibilidade-da-evidencia
-relacoes_controladas:
-  - delimita
-  - nao_cobre
-  - exige_validacao
-  - orienta_ensaio
-  - bloqueia_alegacao
 nao_constitui:
   - certificacao
   - homologacao
@@ -37,7 +31,7 @@ palavras_chave:
   - cobertura-normativa
   - transferibilidade-da-evidencia
   - ABNT NBR 16828
-  - tecnologia-sociavel
+  - tecnologia-social
   - avaliacao-por-desempenho
 ---
 
@@ -90,9 +84,9 @@ A escala TRL é usada como referência de maturidade tecnológica, **não** como
 8. sistema final qualificado;
 9. sistema comprovado em operação.
 
-### 2.1. Regras conservadoras
+### 3.1. Regras conservadoras
 
-Para o Acervo, aplicam-se as seguintes regras:
+A ISO 16290:2013 define níveis de prontidão tecnológica e condições gerais para sua avaliação (ISO, 2013); o NASA NPR 7123.1D detalha critérios de sucesso para TRL 1 a 9 (NASA, 2013), e o Guia de Avaliação da Maturidade Tecnológica da ANEEL (2024) oferece uma referência brasileira para avaliações de maturidade (ANEEL, 2024). Para o Acervo, aplicam-se as seguintes regras conservadoras:
 
 - TRL pertence a uma **tecnologia identificada**, não a um tema ou projeto inteiro;
 - TRL atual e TRL-alvo são campos distintos;
@@ -102,7 +96,7 @@ Para o Acervo, aplicam-se as seguintes regras:
 - "não determinado" é uma classificação aceitável quando a evidência é insuficiente;
 - o financiador ou organismo avaliador pode adotar critérios próprios e decidir se a evidência apresentada é suficiente.
 
-### 2.2. Consequências para a cadeia de evidências
+### 3.2. Consequências para a cadeia de evidências
 
 - revisão bibliográfica organiza a agenda, mas não equivale a TRL 3;
 - protótipo construído sem medição suficiente demonstra fabricação, não desempenho generalizável;
@@ -126,7 +120,7 @@ A abordagem examina:
 7. temporalidade da edição normativa;
 8. necessidade de normas complementares, ensaios específicos ou avaliação por desempenho.
 
-### 3.1. Relação entre as abordagens
+### 4.1. Relação entre as abordagens
 
 Cobertura normativa e maturidade tecnológica são dimensões relacionadas, mas não equivalentes:
 
@@ -138,7 +132,7 @@ Cobertura normativa e maturidade tecnológica são dimensões relacionadas, mas 
 | Protótipo construído sem medições controladas | Demonstra fabricação ou funcionamento observado | Não demonstra conformidade |
 | Sistema avaliado por desempenho com controle de produção | Pode sustentar níveis elevados, conforme a demonstração realizada | Cobertura específica ao produto, titular, processo e validade |
 
-### 3.2. Funções documentais distintas
+### 4.2. Funções documentais distintas
 
 | Documento | Pode sustentar | Não sustenta automaticamente |
 |---|---|---|
@@ -176,11 +170,11 @@ O texto integral das normas deve ser consultado em exemplar autorizado e sua vig
 
 A ISO 22156:2021 aplica-se ao projeto de estruturas cuja estrutura resistente principal seja feita com bambu roliço ou a determinados sistemas de painéis de cisalhamento com estrutura de colmos. Seu escopo público declara requisitos de resistência mecânica, utilização e durabilidade, admite experiência previamente estabelecida e abordagens documentadas de *design by testing*, e exclui produtos engenheirados e materiais reforçados nos quais o bambu não seja o constituinte resistente principal.
 
-A norma internacional oferece referência comparativa, linguagem de projeto, reconhecimento de valores característicos obtidos experimentalmente e possibilidade de projeto documentado por ensaio. Ela não substitui automaticamente a norma brasileira, a legislação, a aceitação de autoridades, a avaliação de produto inovador ou a responsabilidade técnica aplicável no Brasil.
+Na data de corte desta análise (1º de agosto de 2026), a ISO 22156:2021 encontra-se publicada, mas em revisão sistemática pela ISO; sua edição vigente deve ser conferida no catálogo oficial antes de uso em projeto. A norma internacional oferece referência comparativa, linguagem de projeto, reconhecimento de valores característicos obtidos experimentalmente e possibilidade de projeto documentado por ensaio (ISO, 2021). Ela não substitui automaticamente a norma brasileira, a legislação, a aceitação de autoridades, a avaliação de produto inovador ou a responsabilidade técnica aplicável no Brasil.
 
 ### 5.2. Avaliação por desempenho: SiNAT/PBQP-H
 
-O Sistema Nacional de Avaliações Técnicas de Produtos Inovadores e Sistemas Convencionais — SiNAT, no âmbito do PBQP-H, organiza a avaliação de produtos e sistemas construtivos inovadores sem cobertura prescritiva suficiente. A rota envolve, conforme o caso: identificação de diretriz aplicável; contratação de Instituição Técnica Avaliadora; avaliação de projeto; realização ou acompanhamento de ensaios; emissão de Relatório Técnico de Avaliação; auditoria do controle de qualidade do processo produtivo; apreciação nos colegiados do SiNAT; eventual emissão de DATec.
+O Sistema Nacional de Avaliações Técnicas de Produtos Inovadores e Sistemas Convencionais — SiNAT, no âmbito do PBQP-H, organiza (BRASIL, Ministério das Cidades, s.d.) a avaliação de produtos e sistemas construtivos inovadores sem cobertura prescritiva suficiente. A rota envolve, conforme o caso: identificação de diretriz aplicável; contratação de Instituição Técnica Avaliadora; avaliação de projeto; realização ou acompanhamento de ensaios; emissão de Relatório Técnico de Avaliação; auditoria do controle de qualidade do processo produtivo; apreciação nos colegiados do SiNAT; eventual emissão de DATec.
 
 A ausência de norma prescritiva específica **não significa liberdade de alegação**. Em soluções inovadoras, ela pode ampliar a necessidade de demonstração por desempenho, rastreabilidade do produto e controle da produção.
 
@@ -223,7 +217,7 @@ A evidência somente pode ser transferida integralmente quando houver correspond
 
 Resultado do teste:
 
-- **transferibilidade integral:** evidência diretamente aplicável;
+- **aplicabilidade direta sustentada:** evidência diretamente aplicável **somente ao escopo delimitado** (objeto, função, configuração, processo e ambiente declarados);
 - **transferibilidade parcial:** evidência oferece antecedente ou sustenta mecanismo;
 - **transferibilidade insuficiente:** evidência não cobre o objeto;
 - **evidência contraditória:** evidência diverge ou contradiz a alegação.
@@ -320,7 +314,7 @@ A maturidade de um projeto de bioconstrução ou engenharia com bambu deve ser a
 
 A conformidade deve ser construída **por camadas**: norma de material não valida automaticamente componente ou edificação; ensaio do colmo não valida automaticamente interface, ligação ou sistema; resultado de outra espécie ou geometria exige análise de comparabilidade; certificado de insumo não classifica o componente final. Toda alegação deve conservar a ligação entre objeto, método, evidência, limite e responsável.
 
-Este artigo não classifica tecnologias específicas, não substitui o texto integral das normas, não define valores de cálculo, não estabelece critérios de aceitação estrutural, não seleciona laboratórios, não determina a rota regulatória de um produto concreto, não avalia responsabilidade profissional, não confirma que uma solução é segura, durável, econômica ou replicável, e não representa decisão da ABNT, ISO, SiNAT, BNDES ou qualquer financiador.
+Os limites deste artigo estão declarados na seção 12 e não são repetidos aqui.
 
 ## Referências
 
@@ -336,7 +330,7 @@ Este artigo não classifica tecnologias específicas, não substitui o texto int
 
 ---
 
-> **Nota de inserção no Acervo:** este artigo é uma síntese curatorial derivada do método de leitura crítica em oito seções do Acervo Soberania Tecnológica. Ele não constitui certificação, homologação, parecer estrutural, parecer jurídico, Documento de Avaliação Técnica ou reconhecimento de TRL por financiador. O texto delimita o que as fontes, normas, experiências e ensaios permitem afirmar; não reduz a trajetória da bioconstrução brasileira à data de uma norma e não transforma tradição, plausibilidade ou documentação autoral em validação automática.
+> **Nota de escopo:** este artigo é uma síntese curatorial derivada do método de leitura crítica em oito seções do Acervo Soberania Tecnológica. Ele não constitui certificação, homologação, parecer estrutural, parecer jurídico, Documento de Avaliação Técnica ou reconhecimento de TRL por financiador. O texto delimita o que as fontes, normas, experiências e ensaios permitem afirmar; não reduz a trajetória da bioconstrução brasileira à data de uma norma e não transforma tradição, plausibilidade ou documentação autoral em validação automática.
 
 ---
 
