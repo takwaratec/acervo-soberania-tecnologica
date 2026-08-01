@@ -6,17 +6,19 @@ title: From prototype to conformity — standards, testing, professional account
 author: Fabio Takwara
 author_orcid: 0000-0001-8815-3885
 year: 2026
-version: 1.0
+version: 1.1
 document_status: published-on-zenodo
 identifier: https://doi.org/10.5281/zenodo.21515361
+conceptual_doi: 10.5281/zenodo.21515209
+previous_version_doi: 10.5281/zenodo.21515210
 text_license: CC-BY-4.0
 method: repository-guided-normative-scope-review
-revision_date: 2026-07-23
+revision_date: 2026-08-01
 curation_responsible: Fabio Takwara
 tipo_documental: estado-da-arte
 estado_documental: publicado-no-zenodo
 responsavel_curadoria: 'Fabio Takwara'
-nota_versao: 'verificar-versao-zenodo — R-10: divergences documented (front matter declares 1.0; EN badge indicates v1.1; Notebooks 6/7 cite version 1.1; Notebook 5 cites DOI 10.5281/zenodo.21515210, divergent from the declared DOI 10.5281/zenodo.21515361). Real version of Zenodo record 21515361 not confirmed via API on 2026-07-31 (query blocked in the working environment); editorial resolution by Fabio pending.'
+nota_versao: 'resolved — R-10: Zenodo API query (2026-08-01) confirms current version 1.1 (DOI 10.5281/zenodo.21515361, conceptual 10.5281/zenodo.21515209); DOI 10.5281/zenodo.21515210 cited by Notebook 5 is version 1.0 (correct as citation of the previous version). Front matter updated to 1.1.'
 editorial_note: 'P-01 resolved (decision by Fabio, 2026-08-01): the IFB Campus Planaltina faculty member cited in the Anais as Prof. Dr. Vicente Virgolino de Souza Neto is the same person as the Acervo profile Vicente de Paulo Borges Virgolino da Silva (coordinator of the Agronomy undergraduate program). Canonical form adopted: Vicente de Paulo Borges Virgolino da Silva. The Anais were not altered (historical record).'
 
 ---

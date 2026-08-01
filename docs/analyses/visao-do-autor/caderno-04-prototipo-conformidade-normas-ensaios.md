@@ -6,14 +6,16 @@ titulo: Do protótipo à conformidade — normas, ensaios, responsabilidade téc
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2026
-versao: 1.0
+versao: 1.1
 estado_documental: publicado-no-zenodo
 identificador: https://doi.org/10.5281/zenodo.21515361
+doi_conceitual: 10.5281/zenodo.21515209
+doi_versao_anterior: 10.5281/zenodo.21515210
 licenca_texto: CC-BY-4.0
 metodo: revisao-normativa-documental-orientada-pelo-acervo
-data_revisao: 2026-07-23
+data_revisao: 2026-08-01
 responsavel_curadoria: Fabio Takwara
-nota_versao: 'verificar-versao-zenodo — R-10: divergências documentadas (front matter declara 1.0; selo EN indica v1.1; Cadernos 6/7 citam versão 1.1; Caderno 5 cita DOI 10.5281/zenodo.21515210, divergente do DOI declarado 10.5281/zenodo.21515361). Versão real do registro Zenodo 21515361 não confirmada via API em 2026-07-31 (consulta bloqueada no ambiente de trabalho); resolução editorial de Fabio pendente.'
+nota_versao: 'resolvida — R-10: consulta à API Zenodo (2026-08-01) confirma versão vigente 1.1 (DOI 10.5281/zenodo.21515361, conceitual 10.5281/zenodo.21515209); o DOI 10.5281/zenodo.21515210 citado pelo Caderno 5 é a versão 1.0 (correto como citação da versão anterior). Front matter atualizado para 1.1.'
 nota_editorial: 'P-01 resolvida (decisão de Fabio, 2026-08-01): o docente do IFB Campus Planaltina citado nos Anais como Prof. Dr. Vicente Virgolino de Souza Neto é a mesma pessoa do perfil do Acervo Vicente de Paulo Borges Virgolino da Silva (coordenador do Bacharelado em Agronomia). Forma canônica adotada: Vicente de Paulo Borges Virgolino da Silva. Os Anais não foram alterados (registro histórico).'
 ---
 
@@ -23,7 +25,7 @@ nota_editorial: 'P-01 resolvida (decisão de Fabio, 2026-08-01): o docente do IF
 
 **Fabio Takwara**  
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4 — versão 1.0, 23 jul. 2026*  
+*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4 — versão 1.1, 23 jul. 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515361.svg)](https://doi.org/10.5281/zenodo.21515361)
 [![English Version](https://img.shields.io/badge/Language-English_v1.1-blue.svg)](caderno-04-prototipo-conformidade-normas-ensaios-en.md)
