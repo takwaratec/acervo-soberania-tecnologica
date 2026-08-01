@@ -1,35 +1,65 @@
 # Acervo Soberania Tecnológica
 
-Curadoria documental de Fabio Takwara sobre bambu estrutural, poliuretano vegetal de mamona, habitação social, bioeconomia amazônica e tecnologias regenerativas.
+Infraestrutura pública de curadoria e conexão do conhecimento sobre materiais renováveis, construção, território, agroecologia e tecnologias regenerativas — construída por um pesquisador cidadão, com métodos explícitos, revisão progressiva e abertura à colaboração.
+
+## Acesso público
 
 **Site:** https://takwaratec.github.io/acervo-soberania-tecnologica/
 
-## Finalidade
+O site é a experiência pública principal. Este repositório guarda a infraestrutura e o histórico da curadoria.
 
-O Acervo organiza referências públicas e leituras críticas que apoiam as frentes de pesquisa cidadã do ecossistema Takwara. Ele documenta uma trajetória autodidata de cerca de quatro décadas com rastreabilidade, atribuição e distinção clara entre:
+## Por que este repositório existe
 
-- achados publicados pelos autores das fontes;
-- análise e síntese curatorial;
-- formulações autorais de Fabio Takwara;
-- documentos históricos ou institucionais;
-- fontes privadas usadas apenas no trabalho interno.
+A literatura relevante para tecnologias regenerativas encontra-se dispersa entre artigos, teses, relatórios, normas, documentos institucionais e experiências territoriais. Localizar uma fonte é relativamente fácil; compreender como ela se relaciona com outras fontes, quais métodos utilizou, quais limites apresenta e onde ainda existem lacunas exige um trabalho adicional de curadoria.
 
-O repositório é uma prova conceitual de capacidade de curadoria e articulação documental. Não substitui revisão por pares, replicação experimental, certificação, vínculo acadêmico formal ou validação de tecnologia em campo.
+O Acervo existe para tornar esse trabalho cumulativo e público. Não se trata de guardar PDFs, mas de organizar relações e condições de uso do conhecimento.
 
-## Como o conteúdo é organizado
+## Utilidade
 
-O número real do acervo é gerado por script e publicado no arquivo [`INVENTARIO_ACERVO.md`](INVENTARIO_ACERVO.md). A contagem separa arquivos Markdown, candidatos a análise, documentos com oito seções detectáveis e documentos com identificador público. Índices, perfis, estados da arte e textos institucionais não são somados como se fossem fichas científicas.
+O Acervo permite:
 
-Os principais eixos públicos estão em `docs/analyses/`:
+- localizar fontes por tema, território, material e método;
+- comparar achados e limitações;
+- identificar lacunas de pesquisa;
+- montar bibliografias fundamentadas;
+- apoiar projetos, TCCs, dissertações e teses;
+- estruturar agendas experimentais;
+- relacionar tecnologias, políticas públicas e territórios;
+- distinguir evidência científica, síntese curatorial e formulação autoral.
 
-- bambu estrutural e tratamentos;
-- poliuretano vegetal;
-- tecnologia Takwara;
-- habitação social e avaliação pós-ocupação;
-- bioeconomia amazônica e grandes obras;
-- fundamentos e perfis de referência.
+### Para quem
 
-As sínteses transversais são publicadas na série `docs/cadernos-revisao-ecologica/`. A coleção pública reúne, nesta etapa, cinco manuscritos em revisão: preservação socioecológica do bambu; transformação de componentes e equipamentos em capacidade produtiva territorial; rota do protótipo à conformidade normativa; passagem do componente conforme ao habitar, mediante diagnóstico, assistência técnica, adaptabilidade e avaliação pós-ocupação; e uso em cascata dos resíduos limpos por pirólise, com biochar, energia e coprodutos. As versões atuais ainda não possuem DOI.
+- estudantes e orientadores;
+- pesquisadores;
+- profissionais de arquitetura e engenharia;
+- organizações comunitárias;
+- agricultores e agentes agroflorestais;
+- formuladores de políticas;
+- instituições de ensino;
+- parceiros interessados em P&D;
+- pessoas que desejam contribuir com revisão e fontes.
+
+### Como começar
+
+1. Leia um [estado da arte](docs/analyses/reforma-agraria-agrofloresta/estado-da-arte.md).
+2. Abra as fichas que sustentam a síntese.
+3. Confira o estado documental de cada ficha.
+4. Consulte a fonte original pelo DOI ou endpoint.
+5. Verifique as lacunas indicadas.
+6. Envie correções ou referências complementares.
+
+## Eixos
+
+O conteúdo público está em `docs/analyses/`:
+
+- [Fundamentos](docs/analyses/fundamentos/index.md);
+- [Bambu estrutural e tratamentos](docs/analyses/bambu-estrutural/index.md);
+- [Poliuretano vegetal](docs/analyses/pu-vegetal/index.md);
+- [Habitação social — percepção, APO e política](docs/analyses/percecao-social/index.md);
+- [Bioeconomia amazônica e grandes obras](docs/analyses/bioeconomia-amazonica/index.md);
+- [Reforma agrária e agrofloresta](docs/analyses/reforma-agraria-agrofloresta/index.md);
+- [Perfis acadêmicos e técnicos](docs/analyses/respaldo-academico/index.md);
+- [Visão autoral](docs/analyses/visao-do-autor/index.md).
 
 ## Método documental
 
@@ -46,26 +76,56 @@ As fichas usam uma adaptação do método Cavichiolli em oito seções:
 
 Uma ficha só pode ser homologada documentalmente quando a fonte integral foi conferida, a autoria e o identificador público foram verificados quando existentes — ou a proveniência acadêmica/técnica foi confirmada quando não há DOI, ISBN ou ISSN —, e as oito seções têm conteúdo substantivo. Consulte [`GOVERNANCA_DOCUMENTAL.md`](GOVERNANCA_DOCUMENTAL.md) e [`docs/metodologia.md`](docs/metodologia.md).
 
-## Estados documentais
+## Estados e níveis de evidência
 
 O acervo usa estados explícitos como `identificacao-pendente`, `extracao-preliminar`, `em-revisao-documental`, `homologado-documentalmente`, `visao-autoral`, `historico`, `protegido-privado` e `quarentena`.
 
 Esses estados indicam maturidade documental. Não indicam TRL, eficácia aplicada, reconhecimento institucional ou consenso científico.
 
-## Reproduzir a contagem
+## Estrutura do repositório
+
+```text
+docs/
+├── index.md            # página inicial
+├── sobre.md
+├── metodologia.md
+└── analyses/           # fichas, estados da arte e análises por eixo
+scripts/                # inventário e validação
+INVENTARIO_ACERVO.md    # contagem reproduzível
+GOVERNANCA_DOCUMENTAL.md
+```
+
+Fontes integrais, PDFs e materiais brutos permanecem fora do Git, em armazenamento privado e controlado.
+
+## Como contribuir
+
+Pesquisadores, estudantes, profissionais, autores e organizações podem contribuir indicando fontes, corrigindo metadados, revisando interpretações, propondo relações entre eixos ou apresentando documentos para triagem.
+
+Nenhuma contribuição é publicada automaticamente: todas passam por identificação, rastreabilidade e revisão humana.
+
+## Reproduzir e validar
 
 ```bash
+# Inventário
 python3 scripts/inventariar_acervo.py . \
   --markdown INVENTARIO_ACERVO.md \
   --json INVENTARIO_ACERVO.json
+
+# Validação de front matter
+python3 scripts/validate_frontmatter.py
+
+# Build
+mkdocs build --strict
 ```
 
-## Direitos e atribuição
+## Direitos
 
 Os textos curatoriais originais de Fabio Takwara podem receber licença própria quando isso estiver indicado. Artigos, livros, normas, imagens, marcas, citações e demais conteúdos de terceiros permanecem sob os direitos de seus titulares. O repositório não redistribui deliberadamente obras integrais protegidas.
 
-## Responsabilidade
+## Governança e responsabilidade
 
 **Idealização e curadoria:** Fabio Takwara — pesquisador cidadão e autodidata.
 
 **Assistência documental:** ferramentas computacionais e agentes de IA, sempre sujeitas a revisão humana e sem autoria atribuída indevidamente às fontes analisadas.
+
+O objetivo não é construir a maior coleção de documentos. É criar condições para que outras pessoas encontrem evidências, compreendam limites e formulem novas pesquisas sem precisar reiniciar todo o percurso bibliográfico. O êxito do Acervo será medido menos pelo número de fichas e mais pelas perguntas, projetos, revisões e colaborações que ele conseguir tornar possíveis.
