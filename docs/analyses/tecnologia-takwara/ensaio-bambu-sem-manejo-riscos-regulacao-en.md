@@ -30,7 +30,7 @@ identificador: https://doi.org/10.5281/zenodo.21516897
 *Critical Essay — Version 1.0, July 23, 2026*  
 
 > **Scientific and Regulatory Integrity Note:** This essay is grounded in the results of the Life Cycle Assessment (LCA per ISO 14040/14044) conducted by UNESP and IFSP (Araujo et al., 2025), associating them with the framework of the Brazilian Emissions Trading System (SBCE — Law 15.042/2024) to veto the issuance of carbon credits to projects with toxic effluent liabilities.
-> **Traceable Scientific Card in Repository:** See the detailed and audited analysis of the UNESP/IFSP LCA study in [Scientific Card: Araujo et al. (2025) — Bamboo LCA in Acre](../bambu-estrutural/araujo-2025-acv-bambu-artesanal-acre.md) (DOI: [10.14295/bjs.v4i4.719](https://doi.org/10.14295/bjs.v4i4.719)) and the pyroligneous acid protocol in [Scientific Card: Silva / UNICAMP (2011)](../bambu-estrutural/silva-2011-conservacao-bambu-acido-pirolenhoso.md).
+> **Traceable Scientific Card in Repository:** See the detailed and audited analysis of the UNESP/IFSP LCA study in [Scientific Card: Araujo et al. (2025) — Bamboo LCA in Acre](../bambu-estrutural/ficha-acv-bambu-unesp-araujo2025.md) (DOI: [10.14295/bjs.v4i4.719](https://doi.org/10.14295/bjs.v4i4.719)) and the pyroligneous acid protocol in [Scientific Card: Silva / UNICAMP (2011)](../bambu-estrutural/silva-2011-tratamento-pirolenhoso-bambu.md).
 
 
 

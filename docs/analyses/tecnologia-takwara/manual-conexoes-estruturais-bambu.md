@@ -78,7 +78,7 @@ Nesse sentido, a tecnologia construtiva depende intrinsicamente do processo prel
 
 Integrado ao processo térmico, o uso de **ácido pirolenhoso** (produto líquido resultante da condensação da fumaça da pirólise orgânica) eleva a proteção do bambu a um estado de imunidade prolongada. Rico em compostos fenólicos e ácidos orgânicos, o vapor saturado ou o banho com vinagre de bambu atua como um presevativo natural, fungicida, bactericida e inseticida de altíssima eficiência.
 
-Estudos sobre o desempenho deste subproduto confirmam que a imersão das taliscas de bambu em soluções desse ácido garante uma proteção real contra biodecomposições e o ataque fatal da broca-do-bambu (*Dinoderus minutus*), substituindo com eficiência a forte pegada tóxica e de carbono deixada pelos sais e banhos químicos convencionais do mercado [(Silva, 2011)](#). A combinação do alinhamento estrutural térmico com a saturação do selo pirolenhoso dota a peça de segurança primária integral para que o fechamento definitivo se dê com a película de mamona nas vigas HIS.
+Estudos sobre o desempenho deste subproduto foram avaliados em ensaios laboratoriais de imersão de taliscas de bambu em soluções de ácido pirolenhoso [(Silva, 2011)](#), com resultados que não permitiram demonstrar durabilidade nem diferença estatística entre diluições — a própria dissertação conclui que o ensaio não demonstrou eficácia de campo; ver [Ficha Científica: Silva / UNICAMP (2011)](../bambu-estrutural/silva-2011-tratamento-pirolenhoso-bambu.md). A combinação do alinhamento estrutural térmico com a saturação do selo pirolenhoso é apresentada nesta visão autoral como hipótese de projeto, não como eficácia demonstrada, e deve ser validada experimentalmente antes de qualquer uso em vigas HIS.
 
 ## 4. Conexões para Estruturas de Grande Porte (Vigas, Tesouras e Treliças)
 
@@ -143,7 +143,7 @@ O Sistema Takwara e seus painéis sanduíche embutem princípios construtivos ra
 *   **PAIVA, J. R.; TANNURI, E. A. O.** *Utilização do Bambu na Construção Civil.* Revista da Madeira, n. 89, p. 32-38, 2004.
 *   **QIU, Z. et al.** *Mechanical properties and microstructure of bamboo.* Journal of Materials Science, 2020. (Reforço à resistência compressiva superior à madeira em decorrência da matriz lignocelulósica).
 *   **SILVA, A. G.; MEDEIROS, P. H. A.; CAVALCANTE, E. G.** *Utilização do bambu na construção civil.* Revista Ambiente Construído, v. 10, n. 2, p. 53-66, 2010.
-*   **SILVA, R. G.** *Conservação de taliscas, estacas e lascas de três espécies de bambu pela imersão em soluções de ácido pirolenhoso.* Dissertação (Mestrado) - Universidade Estadual de Campinas (UNICAMP), 2011.
+*   **SILVA, R. G.** *Tratamento de bambu com ácido pirolenhoso contra a deterioração por brocas.* Dissertação (Mestrado em Engenharia Agrícola) — Universidade Estadual de Campinas (UNICAMP), 2011.
 *   **WANG, X. et al.** *Effect of high-temperature saturated steam treatment on the physical, chemical, and mechanical properties of moso bamboo.* Journal of Wood Science, v. 66, n. 52, 2020.
 
 ---
