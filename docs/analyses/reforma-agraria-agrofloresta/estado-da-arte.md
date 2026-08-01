@@ -1,9 +1,10 @@
 ---
 tipo_documental: estado-da-arte
 estado_documental: em-revisao-documental
-autores: Fabio Takwara
+fonte_primaria: fichas do eixo com fonte integral conferida (66 fichas)
+titulo: "Estado da Arte — Reforma Agrária, Agroecologia e Sistemas Agroflorestais no Brasil"
+data_revisao: 2026-08-01
 responsavel_curadoria: Fabio Takwara
-data_revisao: 2026-07-31
 gaveta: reforma-agraria-agrofloresta
 fontes_analisadas: 31
 fontes_registro: 35
@@ -11,9 +12,62 @@ fontes_registro: 35
 
 # Estado da Arte: Reforma Agrária, Agroecologia e Sistemas Agroflorestais no Brasil
 
+*Síntese Curatorial Baseada em Evidências*
+
 ## Síntese
 
-Esta síntese organiza o conjunto documental da gaveta `reforma-agraria-agrofloresta` em seis eixos, cobrindo o recorte 1966–2025. O fundo é composto por 66 fichas: **31 com texto integral ou análise de conteúdo conferida** (14 em estado `edicao-publica-conformada` e 17 em `em-revisao-documental`) e **35 registros bibliográficos** sem texto integral analisado. O recorte privilegia fontes brasileiras (e um conjunto cubano de referência metodológica) sobre agroecologia, reforma agrária, sistemas agroflorestais (SAFs), soberania alimentar e economia feminista. A escrita segue a regra do Acervo: **não fabricar dados** — onde a fonte é um registro, ela aparece como tal; onde é análise de conteúdo, as afirmações são atribuídas à ficha-fonte.
+Esta síntese organiza o conjunto documental da gaveta `reforma-agraria-agrofloresta` em seis eixos, cobrindo o recorte 1966–2025. O fundo é composto por 66 fichas: **31 com texto integral ou análise de conteúdo conferida** (14 em estado `edicao-publica-conformada` e 17 em `em-revisao-documental`) e **35 registros bibliográficos** sem texto integral analisado. O recorte privilegia fontes brasileiras (e um conjunto cubano de referência metodológica) sobre agroecologia, reforma agrária, sistemas agroflorestais (SAFs), soberania alimentar e economia feminista. A escrita segue a regra do Acervo: **não fabricar dados** — onde a fonte é um registro, ela aparece como tal; onde é análise de conteúdo, as afirmações são atribuídas à ficha-fonte. Os 35 registros **não sustentam afirmações de conteúdo**: aparecem apenas como indicadores de campo bibliográfico ou pendência.
+
+## Resumo Executivo
+
+- ✓ **Forte evidência** — a reforma agrária não se resume à titulação: a reprodução social cotidiana, os conflitos de geração e a inserção no mercado condicionam a estabilização camponesa ([Pessoa 1997](pessoa-1997-revanche-camponesa.md); [Petrone 1966](petrone-1966-baixada-ribeira.md); [Souza & Schneider 2022](souza-schneider-2022-internalizacao-soberania-alimentar.md)).
+- ✓ **Forte evidência** — o método participativo é transversal ao conjunto documental: da análise econômico-ecológica de agroecossistemas da AS-PTA ([Petersen et al. 2017](petersen-et-al-2017-metodo-analise-agroecossistemas.md)) ao Camponês a Camponês cubano ([Machín Sosa et al. 2012](machin-sosa-et-al-2012-revolucao-agroecologica.md)) e às ferramentas aplicadas em assentamentos paulistas ([Souza et al. 2014](souza-et-al-2014-ferramentas-participativas.md)).
+- ✓ **Forte evidência** — os quintais produtivos do Extremo Sul da Bahia funcionam como unidades de soberania alimentar e centros de irradiação de biodiversidade ([Lopes et al. 2018](lopes-et-al-2018-enriquecimento-500-quintais.md); [Quintais Produtivos 2024](quintais-produtivos-assentamentos-agroecologicos-2024.md); [Nascimento et al. 2018](nascimento-et-al-2018-producao-agroecologica-assentamentos.md)).
+- ✓ **Forte evidência** — a economia feminista e o trabalho invisível das agricultoras são dimensões centrais da agroecologia ([Telles 2018](telles-2018-economia-invisivel-agricultoras-agroecologicas.md); [Siliprandi 2009](siliprandi-2009-mulheres-agroecologia.md); [Hillenkamp et al. 2025](hillenkamp-et-al-2025-raizes-da-resistencia.md)).
+- ⚠ **Evidência moderada** — SAFs como restauração produtiva: recomendações consolidadas em guia técnico ([Miccolis et al. 2016](miccolis-et-al-2016-restauracao-ecologica-safs.md)) e indícios biogeoquímicos em Tomé-Açu ([Brancher 2010](tome-acu-brancher-2010-carbono.md); [Souza 2013](tome-acu-souza-2013-n2o.md); [Oliveira Neto et al. 2022](tome-acu-oliveira-neto-et-al-2022-regeneracao-natural.md)), com parte das fontes ainda em revisão documental.
+- ⚠ **Evidência moderada** — a soberania alimentar é interiorizada como discurso, mas não se converte automaticamente em prática produtiva ([Souza & Schneider 2022](souza-schneider-2022-internalizacao-soberania-alimentar.md)) — em tensão com os casos baianos de prática consolidada ([Dois Riachões 2024](promovendo-soberania-alimentar-dois-riachoes-2024.md); [PDS Mário Lago 2024](agroecologia-soberania-alimentar-pds-mario-lago-2024.md)).
+- ✗ **Sem evidência (na gaveta)** — funcionamento normativo detalhado da certificação participativa: Ecovida e SPG/MAPA permanecem registros, sem documento normativo integral analisado ([Ecovida](ecovida-certificacao-participativa.md)).
+- ✗ **Sem evidência** — economia quantitativa consolidada dos assentamentos: os resumos baianos são descritivos, sem balanços econômicos (ver seção 9, lacuna L7).
+- ✗ **Sem evidência** — o período 1970–1990 da luta pela terra: a gaveta não contém fontes sobre ocupações, militância e formação dos assentamentos nesse intervalo (ver seção 9, lacuna L6).
+
+## Mapa de evidências (resumo)
+
+Contagem por eixo sobre as 66 fichas da gaveta; fichas que dialogam com mais de um eixo foram alocadas no eixo principal de leitura deste documento. Apenas as 31 fichas com texto integral ou análise de conteúdo conferida sustentam afirmações; os 35 registros são indicados separadamente como **não analisados**.
+
+| Tema | Evidência | Nº de estudos |
+|---|---|---|
+| Campesinato, reforma agrária e território | Confiança moderada (fontes densas; lacuna 1970–1990) | 4 |
+| Agroecologia e transição sociotécnica | Confiança moderada (métodos participativos convergentes) | 3 |
+| Mulheres, agroecologia e economia feminista | Confiança moderada a alta (eixo mais maduro da gaveta) | 5 |
+| SAFs e restauração produtiva | Confiança moderada (maior massa bibliográfica; estados documentais diversos) | 12 |
+| Assentamentos, quintais e soberania alimentar | Confiança baixa a moderada (resumos de congresso descritivos) | 7 |
+| Panorama institucional e certificação | Evidência insuficiente (apenas registros) | 0 |
+| Registros bibliográficos sem texto integral | Não analisados — não sustentam afirmações | 35 |
+| **Total** |  | **66** |
+
+**Níveis de confiança (escala curatorial, inspirada no GRADE, sem adoção formal — decisão do curador):** *Confiança alta* — múltiplas fichas independentes e convergentes; *Confiança moderada* — evidência consistente, porém limitada em número, escopo ou natureza (estudo de caso, relato de experiência ou registro documental); *Confiança baixa* — poucas fontes ou fontes de natureza frágil; *Hipótese promissora* — achado expressivo aguardando validação em escala ou desenho comparativo; *Evidência insuficiente* — a gaveta não contém base documental para a afirmação (ex.: funcionamento normativo da certificação participativa, período 1970–1990, economia quantitativa dos assentamentos).
+
+## Linha do tempo (1966–2025)
+
+- **1966** — [Petrone](petrone-1966-baixada-ribeira.md): *A Baixada do Ribeira* (USP) — antecedente histórico do eixo.
+- **1987** — [ICRAF / Steppler & Nair](icraf-steppler-nair-1987-agroforestry-decade.md): *Agroforestry: A Decade of Development* — consolidação da agenda internacional de agrofloresta.
+- **1997** — [Pessoa](pessoa-1997-revanche-camponesa.md): tese *A revanche camponesa* (UNICAMP), sobre assentamentos de Goiás (campo 1994–1996).
+- **2003** — [Oliveira](oliveira-2003-critica-razao-dualista.md): *Crítica à Razão Dualista / O Ornitorrinco* (Boitempo) — registro via resenha acadêmica.
+- **2007** — [Revista Agriculturas v. 4 n. 2 (AS-PTA)](agriculturas-2007-organizacoes-locais-desenvolvimento.md): organizações locais e desenvolvimento.
+- **2009** — [Siliprandi](siliprandi-2009-mulheres-agroecologia.md): tese sobre mulheres como sujeito político na ANA (UnB); [Barros & Homma](tome-acu-barros-homma-2009-percepcao.md): percepção de 96 agricultores nipo-brasileiros sobre SAFs em Tomé-Açu.
+- **2010** — [Brancher](tome-acu-brancher-2010-carbono.md): estoque e ciclagem de carbono em SAFs de Tomé-Açu (UFPA).
+- **2011** — [Siliprandi](siliprandi-2011-mulheres-agroecologia-resumo-rbagroecologia.md): resumo da tese na RBA; [Brienza Júnior et al.](brienza-junior-et-al-2011-sistemas-agroflorestais-amazonia.md): análise de 25 anos de pesquisas em SAFs na Amazônia.
+- **2012** — [Machín Sosa et al.](machin-sosa-et-al-2012-revolucao-agroecologica.md): *Revolução Agroecológica* (MACAC/ANAP, Cuba; 1.ª ed. em português, 2012 conforme ficha CIP).
+- **2013** — [Souza](tome-acu-souza-2013-n2o.md): fluxos de N₂O do solo em SAF de Tomé-Açu (UFPA).
+- **2014** — [Souza et al.](souza-et-al-2014-ferramentas-participativas.md): ferramentas participativas nos assentamentos Pirituba e Sepé Tiarajú (RBA v. 9 n. 1).
+- **2016** — [Miccolis et al.](miccolis-et-al-2016-restauracao-ecologica-safs.md): restauração ecológica com SAFs no Cerrado e na Caatinga (ISPN/ICRAF); [CBSAF / Ventura et al.](cbsaf-ventura-et-al-2016-producao-bibliografica.md): produção bibliográfica dos CBSAFs 1994–2013; [FGV](reca-fgv-2016-conexao-local.md): relatório Conexão Local sobre o Projeto RECA.
+- **2017** — [Petersen et al.](petersen-et-al-2017-metodo-analise-agroecossistemas.md): método de análise econômico-ecológica de agroecossistemas (AS-PTA).
+- **2018** — [Nascimento et al.](nascimento-et-al-2018-producao-agroecologica-assentamentos.md): produção agroecológica e soberania no ES da Bahia; [Lopes et al.](lopes-et-al-2018-enriquecimento-500-quintais.md): enriquecimento de 500 quintais com nativas; [Lobo et al.](lobo-et-al-2018-varal-produtivo-agroecologico.md): varal produtivo agroecológico; [Telles](telles-2018-economia-invisivel-agricultoras-agroecologicas.md): economia invisível das agricultoras de Barra do Turvo (UFV).
+- **2021** — [Gugliano, Hecktheuer & Gabriel](reca-gugliano-hecktheuer-gabriel-2021-espacos-participativos.md): espaços participativos no Projeto RECA.
+- **2022** — [Souza & Schneider](souza-schneider-2022-internalizacao-soberania-alimentar.md): internalização da soberania alimentar no MST (Oeste do Paraná); [Oliveira Neto et al.](tome-acu-oliveira-neto-et-al-2022-regeneracao-natural.md): SAFs associados à regeneração natural em Tomé-Açu.
+- **2023** — [Marchetti et al.](marchetti-et-al-2023-escola-egidio-brunetto-bioinsumos.md): EPAAEB e bioinsumos no Extremo Sul da Bahia.
+- **2024** — [Quintais Produtivos](quintais-produtivos-assentamentos-agroecologicos-2024.md): serviços ecossistêmicos de 18 quintais; [Dois Riachões](promovendo-soberania-alimentar-dois-riachoes-2024.md): cacau cabruca agroecológico e mulheres agricultoras; [PDS Mário Lago](agroecologia-soberania-alimentar-pds-mario-lago-2024.md): EBIA e soberania alimentar em Ribeirão Preto-SP.
+- **2025** — [Hillenkamp et al.](hillenkamp-et-al-2025-raizes-da-resistencia.md): *Raízes da Resistência* — territórios feministas e agroecológicos no Brasil (Expressão Popular/IRD).
 
 ---
 
@@ -45,7 +99,7 @@ A [ficha de Souza & Schneider (2022)](souza-schneider-2022-internalizacao-sobera
 
 ### 2.4. Estado deste eixo
 
-Este eixo está bem sustentado por três fontes densas (Pessoa, Petrone, Souza & Schneider) e uma quarta de registro (Oliveira, via resenha). A lacuna principal é a **ausência de fontes sobre o período 1970–1990** (ocupações, militância, criação dos assentamentos), o que impede uma narrativa contínua.
+**Confiança moderada** (fontes densas, porém poucas; recorte regional). Este eixo está bem sustentado por três fontes densas (Pessoa, Petrone, Souza & Schneider) e uma quarta de registro (Oliveira, via resenha — que **não** sustenta citações do texto integral da obra). A lacuna principal é a **ausência de fontes sobre o período 1970–1990** (ocupações, militância, criação dos assentamentos), o que impede uma narrativa contínua (lacuna L6).
 
 ---
 
@@ -65,7 +119,7 @@ A [ficha de Souza et al. (2014)](souza-et-al-2014-ferramentas-participativas.md)
 
 ### 3.4. Estado deste eixo
 
-O eixo tem três pilares analíticos sólidos (método de análise, método CAC, ferramentas participativas). Os autores clássicos (Altieri, Gliessman, Götsch, Nair, Kageyama & Almeida) estão na gaveta como **registros**, não como fontes integrais analisadas — o estado da arte não pode atribuir a eles argumentos detalhados.
+**Confiança moderada** (métodos participativos convergentes entre fontes independentes). O eixo tem três pilares analíticos sólidos (método de análise, método CAC, ferramentas participativas). Os autores clássicos (Altieri, Gliessman, Götsch, Nair, Kageyama & Almeida) estão na gaveta como **registros**, não como fontes integrais analisadas — o estado da arte não pode atribuir a eles argumentos detalhados (lacuna L2).
 
 ---
 
@@ -85,7 +139,7 @@ A [ficha de Hillenkamp et al. (2025)](hillenkamp-et-al-2025-raizes-da-resistenci
 
 ### 4.4. Estado deste eixo
 
-Este é o eixo **mais maduro** da gaveta: quatro fontes integrais densas e complementares. A principal limitação é a ausência de fontes que tratem especificamente de **gênero e agrofloresta** (SAFs, quintais florestais, manejo de frutíferas), deixando a interface mulheres–árvores–reforma agrária subexplorada.
+**Confiança moderada a alta** (eixo mais maduro da gaveta). Este é o eixo **mais maduro** da gaveta: cinco fontes integrais densas e complementares (Siliprandi 2009; Siliprandi 2011; Agriculturas 2007; Telles 2018; Hillenkamp et al. 2025). A principal limitação é a ausência de fontes que tratem especificamente de **gênero e agrofloresta** (SAFs, quintais florestais, manejo de frutíferas), deixando a interface mulheres–árvores–reforma agrária subexplorada.
 
 ---
 
@@ -105,11 +159,11 @@ A [ficha de Miccolis et al. (2016)](miccolis-et-al-2016-restauracao-ecologica-sa
 
 ### 5.4. RECA e organização social
 
-A gaveta também inclui o caso [RECA](rebraf-rede-brasileira-agroflorestal.md) (Rede de Cooperativas da Amazônia): [FGV (2016)](reca-fgv-2016-conexao-local.md), [Gugliano, Hecktheuer & Gabriel (2021)](reca-gugliano-hecktheuer-gabriel-2021-espacos-participativos.md), [UFRRJ (indicadores edáficos)](reca-ufrrj-indicadores-edaficos.md) e [USP (pecuária e SAFs)](reca-usp-pecuaria-safs.md). O conjunto permite afirmar que a RECA é tanto um **arranjo produtivo** (cocoa, açaí, cupuaçu, madeira) quanto um **dispositivo institucional** de participação e comercialização coletiva. As fichas UFRRJ e USP são integrais mas ainda em revisão.
+A gaveta também inclui o caso [RECA](reca-fgv-2016-conexao-local.md) (Rede de Cooperativas da Amazônia): [FGV (2016)](reca-fgv-2016-conexao-local.md), [Gugliano, Hecktheuer & Gabriel (2021)](reca-gugliano-hecktheuer-gabriel-2021-espacos-participativos.md), [UFRRJ (indicadores edáficos)](reca-ufrrj-indicadores-edaficos.md) e [USP (pecuária e SAFs)](reca-usp-pecuaria-safs.md). O conjunto permite afirmar que a RECA é tanto um **arranjo produtivo** (cocoa, açaí, cupuaçu, madeira) quanto um **dispositivo institucional** de participação e comercialização coletiva. As fichas UFRRJ e USP são integrais mas ainda em revisão (lacuna L4).
 
 ### 5.5. Estado deste eixo
 
-O eixo tem a **maior massa bibliográfica** (7 fontes analisadas + registros), mas também a maior **diversidade de estados documentais**. A controvérsia central — SAFs como restauração produtiva vs. conservação estrita — pode ser mediada por Miccolis e pelos dados de Tomé-Açu, desde que se declare que a maior parte das fontes amazônicas ainda está em revisão curatorial.
+**Confiança moderada** (maior massa bibliográfica da gaveta, com diversidade de estados documentais). O eixo tem a **maior massa bibliográfica** (12 fichas analisadas + registros), mas também a maior **diversidade de estados documentais**. A controvérsia central — SAFs como restauração produtiva vs. conservação estrita — pode ser mediada por Miccolis e pelos dados de Tomé-Açu, desde que se declare que a maior parte das fontes amazônicas ainda está em revisão curatorial.
 
 ---
 
@@ -139,7 +193,7 @@ A [ficha de Marchetti et al. (2023)](marchetti-et-al-2023-escola-egidio-brunetto
 
 ### 6.6. Estado deste eixo
 
-Este é o eixo que **melhor sustenta uma síntese** — não apenas justaposição de fontes. As sete fichas partilham território, instituições, método participativo e vocabulário (quintais, varal produtivo, soberania alimentar, bioinsumos, cacau cabruca). A limitação é a **fragilidade das evidências**: a maioria são resumos expandidos de anais de congresso (5–6 páginas), descritivos e sem desenho comparativo ou controles experimentais. O estado da arte deve declarar isso explicitamente.
+**Confiança baixa a moderada** (corpo coeso, porém descritivo). Este é o eixo que **melhor sustenta uma síntese** — não apenas justaposição de fontes. As sete fichas partilham território, instituições, método participativo e vocabulário (quintais, varal produtivo, soberania alimentar, bioinsumos, cacau cabruca). A limitação é a **fragilidade das evidências**: a maioria são resumos expandidos de anais de congresso (5–6 páginas), descritivos e sem desenho comparativo ou controles experimentais (lacuna L7).
 
 ---
 
@@ -155,7 +209,18 @@ A [ficha de Rede Ecovida](ecovida-certificacao-participativa.md) é um **registr
 
 ### 7.3. Estado deste eixo
 
-O eixo é mais fraco que os demais. A produção acadêmica está mapeada (Brienza, CBSAF), mas a **dimensão político-institucional** (SPG, PAA, INCRA, política de orgânicos) depende de registros pontuais e não permite síntese aprofundada.
+**Confiança baixa / evidência insuficiente** (dimensão político-institucional apoiada apenas em registros). O eixo é mais fraco que os demais. A produção acadêmica está mapeada (Brienza, CBSAF), mas a **dimensão político-institucional** (SPG, PAA, INCRA, política de orgânicos) depende de registros pontuais e não permite síntese aprofundada (lacuna L1).
+
+---
+
+## Convergências do conjunto documental
+
+- **Método participativo como espinha dorsal.** Fichas independentes convergem para a construção coletiva do conhecimento como condição da transição agroecológica — da análise econômico-ecológica de agroecossistemas ([Petersen et al. 2017](petersen-et-al-2017-metodo-analise-agroecossistemas.md)) ao Camponês a Camponês de massas ([Machín Sosa et al. 2012](machin-sosa-et-al-2012-revolucao-agroecologica.md)), às ferramentas em assentamentos paulistas ([Souza et al. 2014](souza-et-al-2014-ferramentas-participativas.md)), ao varal produtivo baiano ([Lobo et al. 2018](lobo-et-al-2018-varal-produtivo-agroecologico.md)) e ao diagnóstico participativo da restauração ([Miccolis et al. 2016](miccolis-et-al-2016-restauracao-ecologica-safs.md)).
+- **Mulheres e economia feminista como chave de leitura.** A invisibilização do trabalho das mulheres é tratada como problema analítico central em fontes independentes ([Siliprandi 2009](siliprandi-2009-mulheres-agroecologia.md); [Telles 2018](telles-2018-economia-invisivel-agricultoras-agroecologicas.md); [Hillenkamp et al. 2025](hillenkamp-et-al-2025-raizes-da-resistencia.md)) e fundamenta o próprio método da AS-PTA ([Petersen et al. 2017](petersen-et-al-2017-metodo-analise-agroecossistemas.md)).
+- **Quintais como unidades de soberania alimentar.** O quintal produtivo aparece como centro de irradiação de biodiversidade e base da segurança alimentar em fichas de territórios e anos diferentes ([Lopes et al. 2018](lopes-et-al-2018-enriquecimento-500-quintais.md); [Nascimento et al. 2018](nascimento-et-al-2018-producao-agroecologica-assentamentos.md); [Quintais Produtivos 2024](quintais-produtivos-assentamentos-agroecologicos-2024.md)).
+- **SAFs como restauração produtiva.** A mediação entre conservação e produção é sustentada por fichas independentes: guia técnico para Cerrado e Caatinga ([Miccolis et al. 2016](miccolis-et-al-2016-restauracao-ecologica-safs.md)), dados biogeoquímicos de Tomé-Açu ([Brancher 2010](tome-acu-brancher-2010-carbono.md); [Souza 2013](tome-acu-souza-2013-n2o.md); [Oliveira Neto et al. 2022](tome-acu-oliveira-neto-et-al-2022-regeneracao-natural.md)) e o caso institucional do [RECA](reca-fgv-2016-conexao-local.md).
+- **Reforma agrária como reprodução social.** A estabilização camponesa depende do cotidiano, do mercado e das políticas — não apenas da titulação — em convergência entre [Petrone 1966](petrone-1966-baixada-ribeira.md), [Pessoa 1997](pessoa-1997-revanche-camponesa.md) e [Souza & Schneider 2022](souza-schneider-2022-internalizacao-soberania-alimentar.md).
+- **Discurso e prática da soberania alimentar como tensão empírica.** A distância entre discurso e prática documentada no Oeste do Paraná ([Souza & Schneider 2022](souza-schneider-2022-internalizacao-soberania-alimentar.md)) contrasta com os casos baianos de prática consolidada ([Lopes et al. 2018](lopes-et-al-2018-enriquecimento-500-quintais.md); [Dois Riachões 2024](promovendo-soberania-alimentar-dois-riachoes-2024.md); [PDS Mário Lago 2024](agroecologia-soberania-alimentar-pds-mario-lago-2024.md)) — a mediação é territorial e institucional, não automática.
 
 ---
 
@@ -175,13 +240,13 @@ O eixo é mais fraco que os demais. A produção acadêmica está mapeada (Brien
 
 ## 9. Lacunas e pendências
 
-1. **Certificação participativa**: Ecovida e SPG/MAPA carecem de documento normativo integral analisado.
-2. **Autores clássicos**: Altieri, Gliessman, Götsch, Nair, Kageyama & Almeida são registros, não fontes analisadas.
-3. **Referências do artigo Brienza**: 24 registros sem texto integral analisado.
-4. **RECA UFRRJ e USP**: fontes integrais em revisão documental.
-5. **Polanyi (1944)**: obra comercial protegida, sem texto integral.
-6. **Período 1970–1990**: ausência de fontes sobre ocupações, militância e formação dos assentamentos.
-7. **Economia quantitativa dos assentamentos**: os resumos baianos são descritivos; não há balanços econômicos consolidados.
+1. **L1 — Certificação participativa**: Ecovida e SPG/MAPA carecem de documento normativo integral analisado.
+2. **L2 — Autores clássicos**: Altieri, Gliessman, Götsch, Nair, Kageyama & Almeida são registros, não fontes analisadas.
+3. **L3 — Referências do artigo Brienza**: 24 registros sem texto integral analisado.
+4. **L4 — RECA UFRRJ e USP**: fontes integrais em revisão documental.
+5. **L5 — Polanyi (1944)**: obra comercial protegida, sem texto integral.
+6. **L6 — Período 1970–1990**: ausência de fontes sobre ocupações, militância e formação dos assentamentos.
+7. **L7 — Economia quantitativa dos assentamentos**: os resumos baianos são descritivos; não há balanços econômicos consolidados.
 
 ---
 
