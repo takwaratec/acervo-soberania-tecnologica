@@ -11,7 +11,7 @@ Esta gaveta reúne fichas documentais sobre propriedades, tratamentos, aplicaç�
 
 ## Estado da arte e sínteses do eixo
 
-- [Estado da Arte — Bambu Estrutural](estado-da-arte.md)
+- [Estado da Arte — Bambu Estrutural (Síntese Curatorial Baseada em Evidências)](estado-da-arte.md)
 - [Mapa de Evidências — Bambu Estrutural](mapa-de-evidencias.md)
 - [Mapa de Lacunas — Bambu Estrutural](mapa-de-lacunas.md)
 - [Agenda de Pesquisa — Bambu Estrutural](agenda-de-pesquisa.md)
