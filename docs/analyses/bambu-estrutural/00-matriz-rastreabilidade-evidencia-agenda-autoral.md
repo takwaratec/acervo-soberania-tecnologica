@@ -8,15 +8,19 @@ data_revisao: 2026-08-01
 
 # Matriz de rastreabilidade entre evidências e hipóteses do Universo Takwara
 
-*Artefato 00 do eixo Bambu — ponte formal entre o Estado da Arte, os Cadernos autorais, o Mapa de Lacunas, a Agenda de Pesquisa e os ensaios futuros (orientação, seção 4). Elaborada em 2026-08-01 a partir da leitura integral dos oito documentos autorais e das fichas da gaveta `bambu-estrutural`.*
+*Artefato 00 do eixo Bambu — ponte formal entre o Estado da Arte, os Cadernos autorais, o Mapa de Lacunas, a Agenda de Pesquisa e os ensaios futuros (orientação, seção 4). Elaborada em 2026-08-01 a partir da leitura integral dos oito documentos autorais, dos [Anais da Pesquisa e Trajetória de Extensão (2018–2024)](../visao-do-autor/anais-da-pesquisa-2018-2024.md) e das fichas da gaveta `bambu-estrutural`. A camada de evidência empírica autoral documentada segue o COMPLEMENTO_ORIENTACOES_PRE_PR_EVIDENCIA_EMPIRICA_AUTORAL.md; o detalhamento cronológico está em [00a-linha-do-tempo-evidencia-empirica-autoral.md](00a-linha-do-tempo-evidencia-empirica-autoral.md).*
 
 ## 1. Regras de leitura
 
-- **Camadas:** a camada evidencial responde ao que as fontes externas permitem afirmar; a camada autoral responde ao que Fabio Takwara suspeita, relaciona ou propõe; somente ensaios, pilotos e avaliações futuras responderão pelo que o sistema autoral demonstra.
-- **Os Cadernos não são evidência independente:** relacionam-se às fichas, mas não entram na contagem de estudos (orientação, seção 3.3). Nenhuma linha desta matriz usa um caderno para confirmar uma conclusão derivada das mesmas fichas.
-- **Verbos restritos:** para o sistema autoral, não se aplicam "demonstra", "confirma", "comprova", "valida", "certifica", "homologa" ou "garante" sem resultado próprio. Formulação-padrão: *a fonte torna a hipótese investigável, mas não demonstra o sistema autoral*.
+- **Camadas:** a matriz opera com cinco camadas (complemento, seção 2): (1) evidência científica externa — resultados de terceiros em fontes rastreáveis; (2) evidência empírica autoral documentada — registros dos Anais 2018–2024 do que Fabio Takwara realizou, construiu ou observou; (3) síntese curatorial; (4) hipótese ou arquitetura autoral — formulação ainda não demonstrada no conjunto pretendido; (5) validação científica própria — resultado medido sob protocolo com controles, inexistente até a presente data.
+- **Evidência empírica autoral documentada não é hipótese, mas também não é validação científica:** os registros E-BAM-001 a 014 (seção 3) documentam oficinas, manejo, protótipos, unidade de tratamento, construção em escala real, apoio técnico a pesquisa acadêmica e registros institucionais. Eles sustentam a *realização* da atividade nas condições documentadas; não sustentam desempenho generalizável, conformidade, segurança, durabilidade ou superioridade frente a alternativas.
+- **Regra de linguagem (complemento, seção 3):** atividade realizada e documentada = "experiência empírica autoral documentada"; protótipo construído sem medição suficiente = "demonstração empírica de fabricação"; funcionamento observado sem protocolo comparativo = "observação empírica"; resultado medido sem controles suficientes = "evidência experimental preliminar"; resultado com protocolo e controles = "evidência científica própria delimitada"; integração não realizada = "hipótese ou arquitetura autoral"; desempenho não testado = "alegação bloqueada".
+- **Campos empíricos:** os registros da seção 3 declaram, por linha: `natureza_da_evidencia`, `data_da_atividade`, `data_do_registro`, `instituicao_parceira`, `natureza_da_parceria`, `papel_autoral`, `objeto_empirico`, `escala`, `observacao_registrada`, `medicao_disponivel`, `controles`, `repeticao`, `documento_de_prova`, `cadeia_de_custodia`, `limite_da_inferencia`, `relacao_com_fonte_externa`.
+- **Vocabulário de `natureza_da_evidencia`:** externa; evidencia-empirica-de-extensao; evidencia-empirica-territorial; demonstracao-empirica-de-prototipo; demonstracao-empirica-em-escala-real; experiencia-empirica-autoral-documentada; observacao-empirica; evidencia-experimental-preliminar; evidencia-cientifica-propria-delimitada; pesquisa-academica-de-terceiros-com-contribuicao-tecnica-autoral; registro-institucional; hipotese-ou-arquitetura-autoral.
+- **Os Cadernos não são evidência independente:** relacionam-se às fichas, mas não entram na contagem de estudos (orientação, seção 3.3). O mesmo vale para os Anais: são memória histórica e registro de realização, não evidência de eficácia. Nenhuma linha desta matriz usa um caderno ou um registro dos Anais para confirmar uma conclusão derivada das mesmas fichas.
+- **Verbos restritos:** para o sistema autoral, não se aplicam "demonstra", "confirma", "comprova", "valida", "certifica", "homologa" ou "garante" sem resultado próprio. Formulação-padrão: *a fonte torna a hipótese investigável, mas não demonstra o sistema autoral*; *a experiência empírica demonstra que a atividade foi realizada nas condições documentadas, não o desempenho generalizável*.
 - **Vocabulário controlado de relações:** fundamenta_contexto, oferece_antecedente, sustenta_mecanismo, torna_investigavel, sustenta_parcialmente, delimita, converge_com, diverge_de, contradiz, nao_cobre, exige_validacao, gera_hipotese, orienta_ensaio, bloqueia_alegacao.
-- **Situação:** proposta (hipótese formulada, sem ensaio), em-revisao (formulação do caderno precisa de rebaixamento ou correção), aprovada-para-agenda (critério incorporado à agenda experimental ou aos portões), em-ensaio (ensaio em curso — nenhuma linha nesta versão), refutada ou suspensa.
+- **Situação:** proposta (hipótese formulada, sem ensaio), em-revisao (formulação do caderno precisa de rebaixamento ou correção), aprovada-para-agenda (critério incorporado à agenda experimental ou aos portões), em-ensaio (ensaio em curso — nenhuma linha nesta versão), refutada ou suspensa; **evidencia-documentada** (atividade realizada e documentada nos Anais — situação reservada aos registros E-BAM da seção 3; não implica validação de desempenho). As hipóteses H-BAM mantêm situação relativa ao núcleo de desempenho não medido, mesmo quando correspondem a atividade realizada (ver tabela de reclassificação, seção 3.1).
 - **Nível de divulgação:** publico (todo o conteúdo é público), publico-sem-parametros-habilitantes (a formulação é pública, mas parâmetros habilitantes do sistema autoral não são divulgados), restrito-pd (geometrias, formulações ou configurações protegíveis permanecem no P&D).
 
 ## 2. Matriz evidência–hipótese
@@ -54,9 +58,71 @@ data_revisao: 2026-08-01
 | H-BAM-029 | pirolise | [Rocket stove CFD (2023)](ficha-rocket-stove-cfd.md) | Parâmetros geométricos e de isolamento de fogão foguete elevam temperatura simulada sob a panela; a simulação substitui a combustão real por fluxo de ar quente a 700 °C | Resultado exclusivamente computacional, sem protótipo comparativo, teste de eficiência térmica ou medição de emissões | Converge com a utilidade do desenho como orientação; o desempenho real não está documentado | Parâmetros de isolamento e geometria identificados em simulação CFD devem ser validados em bancada com teste normalizado de eficiência de cocção (WBT), consumo específico de biomassa e monitoramento de CO e material particulado | [Caderno 6](../visao-do-autor/caderno-06-biochar-pirolise-uso-cascata.md) | orienta_ensaio | WBT em bancada, consumo específico, emissões de CO e particulados, balanço térmico real, comparativo com e sem isolamento | baixo — o caderno exige a validação antes de qualquer aplicação | publico | proposta |
 | H-BAM-030 | pirolise | [ACV Araujo (2025)](ficha-acv-bambu-unesp-araujo2025.md); [Neotropical (2024)](neotropical-bamboo-review-2024.md) | O ciclo de vida de cadeias de bambu pode concentrar impacto no tratamento e no descarte; rotas termoquímicas distribuem a biomassa entre sólido, condensáveis, gases e cinzas | Nenhuma ficha fecha balanços de massa e energia de um circuito integrado; "ciclo fechado" não está demonstrado em nenhuma fonte | Convergência: circularidade sem balanços é intenção; os cadernos declaram a não demonstração | O ciclo do sistema autoral só pode ser chamado fechado depois que balanços de massa e energia mostrarem para onde cada fluxo foi, com destino seguro e responsabilidade pelas saídas | [Caderno 7](../visao-do-autor/caderno-07-ciclo-fechado-crise-planetaria.md) | exige_validacao | Balanços de massa e energia por fluxo, caracterização de coprodutos, destino seguro, comparação com alternativas reais, ACV do circuito completo | baixo — critério de honestidade declarado pelo próprio caderno | publico | aprovada-para-agenda |
 
-## 3. Leitura agregada
+## 3. Registros de evidência empírica autoral documentada (Anais 2018–2024)
 
-### 3.1. Contagem por tipo de relação
+*Camada 2 da arquitetura epistemológica (complemento, seção 2). Os registros E-BAM-001 a 014 correspondem aos 14 registros dos [Anais](../visao-do-autor/anais-da-pesquisa-2018-2024.md) e possuem situação `evidencia-documentada` — atividade realizada e documentada, sem implicar validação de desempenho. O detalhamento cronológico por período, com resultado observável e limite por registro, está em [00a-linha-do-tempo-evidencia-empirica-autoral.md](00a-linha-do-tempo-evidencia-empirica-autoral.md). A fase 2010–2017 permanece declarada como marco autoral inicial (2010), com grau de rastreabilidade `retrospectivo-documentado` (referência de 2019 aos "10 anos de pesquisa empírica") e `pendente-de-verificacao` para documentos primários (tarefa `inventario-pre-institucional-2010-2017`).*
+
+### 3.1. Reclassificação das hipóteses a partir dos Anais
+
+As hipóteses abaixo ganharam `natureza_da_evidencia` ampliada (externa + tipo empírico correspondente) quando a suspeita autoral corresponde a atividade efetivamente realizada, construída ou observada nos Anais. A **situação permanece relativa ao núcleo de desempenho não medido**: nenhum registro dos Anais contém medição com controles capaz de sustentar as hipóteses de desempenho; por isso nenhuma linha H-BAM foi promovida a `evidencia-documentada`. A ausência de medição não é evidência negativa — é delimitação do que o registro sustenta.
+
+| ID | natureza_da_evidencia (antes) | natureza_da_evidencia (agora) | Registro empírico | Situação (núcleo de desempenho) | Justificativa (somente dados dos Anais) |
+|---|---|---|---|---|---|
+| H-BAM-001 | externa | externa + experiencia-empirica-autoral-documentada | E-BAM-003 | proposta (mantida) | O LaPeCFaS desenvolveu "pesquisas empíricas de imunização autotérmica com caldo alcalino e extrato pirolenhoso"; o processo foi realizado, mas a hipótese específica (solução de cinzas caracterizada, sem dano ao colmo) não foi medida |
+| H-BAM-002 | externa | externa + experiencia-empirica-autoral-documentada | E-BAM-003 | proposta (mantida) | Extrato pirolenhoso usado em processos empíricos no LaPeCFaS; sem caracterização por lote nem bioensaio registrado |
+| H-BAM-003 | externa | externa + pesquisa-academica-de-terceiros-com-contribuicao-tecnica-autoral | E-BAM-011 | proposta (mantida) | PIBITI/UniCEUB: painel sanduíche bambu–PU de mamona prototipado com contribuição autoral (prototipagem e apoio técnico); resultados acústicos pertencem ao relatório acadêmico; a interface do colmo condicionado não foi ensaiada |
+| H-BAM-007 | externa | externa + demonstracao-empirica-de-prototipo | E-BAM-004 | proposta (mantida) | Unidade de tratamento por vapor alcalino (Forno Rocket Stove T01) projetada e montada no IFB; sem ensaio mecânico ou fúngico dos colmos |
+| H-BAM-009 | externa | externa + experiencia-empirica-autoral-documentada | E-BAM-003, E-BAM-004 | proposta (mantida) | Uso empírico de pirolenhoso (decantado) na unidade T01 e em processos do LaPeCFaS; sem caracterização nem IC50 medido |
+| H-BAM-013 | externa | externa + demonstracao-empirica-de-prototipo | E-BAM-004, E-BAM-008 | em-revisao (mantida) | Unidade T01 montada e forno ecológico de imunização com funcionamento observado e divulgado (set/2019); a autossuficiência térmica não foi medida por balanço energético |
+| H-BAM-014 | externa | externa + evidencia-empirica-de-extensao | E-BAM-001, E-BAM-003, E-BAM-004 | proposta (mantida) | Múltiplas oficinas realizadas (FUP 2018; 12 PEAC; 12 IFB) com públicos e operadores diversos; sem medição dimensional de peças |
+| H-BAM-016 | externa | externa + demonstracao-empirica-em-escala-real | E-BAM-001, E-BAM-006 | aprovada-para-agenda (mantida) | Protótipos 1:1 (oficina FUP) e obra em escala real (Mutirão do Bem Viver, Xukuru do Ororubá) documentam capacidade de construir e proveniência; nenhum ensaio de conexão existe |
+| H-BAM-019 | externa | externa + demonstracao-empirica-em-escala-real | E-BAM-006 | proposta (mantida) | Construção autoportante em contexto territorial indígena (colmo roliço, hiperadobe, fechamento em terra); o ciclo de sete momentos como método não foi aplicado nem avaliado |
+| H-BAM-020 | externa | externa + evidencia-empirica-territorial | E-BAM-003 | proposta (mantida) | Manejo autorizado de touceiras exóticas invasoras na ESECAE/IBRAM com uso da biomassa em atividades posteriores; espécies nativas amazônicas seguem sem caracterização |
+| H-BAM-029 | externa | externa + demonstracao-empirica-de-prototipo | E-BAM-004, E-BAM-008 | proposta (mantida) | Forno Rocket Stove T01 construído (materialização de fogão foguete) e funcionamento observado; sem WBT, consumo específico ou emissões |
+
+Hipóteses **sem registro correspondente nos Anais** — permanecem com `natureza_da_evidencia: externa` e situação inalterada: H-BAM-004, 005, 006, 008, 010, 011, 012, 015, 017, 018, 021, 022, 023, 024, 025, 026, 027, 028, 030. A ausência de registro não é evidência negativa; é ausência de documentação no período inventariado.
+
+### 3.2. Tabela dos registros empíricos — identificação e contexto
+
+| ID | natureza_da_evidencia | data_da_atividade | data_do_registro | instituicao_parceira | natureza_da_parceria | papel_autoral | objeto_empirico | escala |
+|---|---|---|---|---|---|---|---|---|
+| E-BAM-001 | evidencia-empirica-de-extensao | 2018-04 a 2018-05 | 2018 (transcrições `01-_ABR-18` e `01a-_Mai18`); curadoria 2026 | FUP/UnB | extensão, formação | instrutor | curso de manuseio do bambu; maquetes e protótipos 1:1; apostilas | protótipo / 1:1 |
+| E-BAM-002 | evidencia-empirica-de-extensao (registro institucional de formalização) | 2018-05 | 2018 (transcrição `02-MAI-18`); curadoria 2026 | DEX/UnB | extensão | proponente | cadastro SIEX 60015 da ação de extensão | não aplicável |
+| E-BAM-003 | evidencia-empirica-de-extensao; experiencia-empirica-autoral-documentada | 2018-07 a 2022 (PEAC; encerramento 2022) | 2018 (transcrições `03-_JUL-18`, `04-_JUL-18`, `05-_SET-18`, `09-_DEZ-18`); 2019 (`12_-_AGO-19`) | FUP/UnB; IBRAM/ESECAE; Acordo UnB/MPT (PAJ 000608.2009.10.000/8-01) | extensão, manejo, formação | instrutor técnico (coordenação geral: Profª. Dra. Tânia Cristina da Silva Cruz) | canteiro experimental; processos empíricos de imunização autotérmica com caldo alcalino e extrato pirolenhoso; 12 oficinas | unidade piloto / campo |
+| E-BAM-004 | demonstracao-empirica-de-prototipo | 2018-11 a 2020 (PROGRUPOS 41/RIFB/2018; certificado jan/2020) | 2018 (transcrições `08-_NOV-18`, `08a`, `08b`); 2020 (`16_-_JAN-20`) | IFB Campus Planaltina | extensão, formação | responsável técnico / instrutor (coordenação/orientação docente conforme Anais) | Forno Rocket Stove T01 — unidade comunitária de tratamento autotérmico (imunização e secagem a vapor de pirolenhoso decantado) | unidade piloto |
+| E-BAM-005 | registro institucional (mérito técnico sem execução) | 2018-10 | 2018 (transcrição `06a-_OUT-18`); curadoria 2026 | CFDD / Ministério da Justiça | proposta a edital público (sem execução) | proponente | proposta técnica e financeira — Centro de Referência em Tecnologias Sociais do Bambu | não aplicável |
+| E-BAM-006 | demonstracao-empirica-em-escala-real | 2018-12 a 2019-01 | 2018/2019 (transcrições `09-_DEZ-18`, `10_-_Jan_-19`); curadoria 2026 | Comunidade Indígena Xukuru do Ororubá (Sobradinho/DF); no âmbito do LaPeCFaS/FUP | extensão, construção comunitária | instrutor / execução técnica | espaço comunitário autoportante (colmo roliço, hiperadobe, fechamento em terra) | 1:1 / campo |
+| E-BAM-007 | registro institucional (pleito) | 2019-03 | 2019 (transcrição `10a-_MAR-19`); curadoria 2026 | CLDF — Gabinete do Dep. Fábio Felix | interlocução institucional (pleito de emenda para ATHIS) | proponente | solicitação de emenda parlamentar | não aplicável |
+| E-BAM-008 | evidencia-empirica-de-extensao; observacao-empirica | 2019-09-18 | 2019 (transcrições `13-_SET-19`, `14-_SET-19`); curadoria 2026 | evento público (contexto da trajetória FUP/IFB) | extensão, divulgação científica | autor / instrutor | 1º Mutirão Agro Tecnológico Social; forno ecológico de imunização em funcionamento | campo / 1:1 |
+| E-BAM-009 | documento institucional de competência | 2020-01 | 2020 (transcrição `16_-_JAN-20`); curadoria 2026 | PRAD/IFB Campus Planaltina | certificação institucional de competência | titular do certificado | competência técnica no ensino e montagem de unidades de tratamento de bambu | não aplicável |
+| E-BAM-010 | hipotese-ou-arquitetura-autoral (proposta não executada) | 2020-04 | 2020 (transcrição `17-_ABR-20`); curadoria 2026 | ENAP | submissão a maratona de soluções | proponente | proposta de módulos pré-fabricados de bambu imunizado (COVID-19) | não aplicável (proposta) |
+| E-BAM-011 | pesquisa-academica-de-terceiros-com-contribuicao-tecnica-autoral | 2020 a 2021 | 2021 (transcrição `19_-_Relatorio_PIBIT_CEUB_2021`); curadoria 2026 | UniCEUB (PIBITI) | pesquisa, apoio técnico, prototipagem | prototipagem e apoio técnico (Takwara/Ecolaborativa); bolsista: Lucas Aciole Vanderlei Pereira; orientação: Profª. Dra. Ludmila de Araújo Correia | painel sanduíche bambu–PU de mamona; ensaios em tubo de impedância; medições de paisagem sonora (SQN 410) | amostra / bancada |
+| E-BAM-012 | registro institucional (encerramento) | 2022 | 2020 (transcrição `18_-_JUL-20_RESPOSTA_PRAD`); processo de encerramento 2022 | UnB (reitoria) | encerramento de vínculo de extensão | ex-integrante (vínculo encerrado) | encerramento formal do PEAC 60224 e desmobilização do LaPeCFaS | não aplicável |
+| E-BAM-013 | registro institucional (recusa formal) | 2023 a 2024 | 2024 (transcrição `2023_-_Nature-Awards-2024`); curadoria 2026 | Nature Awards; Takwara Tech/Ecolaborativa (apoiadas pela incubadora Órbitas do CEFET-MG) | submissão autônoma a prêmio internacional | proponente (portfólio autônomo) | candidatura ao Nature Awards Science in Sport / Inclusive Science | não aplicável |
+| E-BAM-014 | registro de curadoria / publicação defensiva | 2026 | 2026 | Zenodo | depósito público | autor / depositante | Série Autoral de Cadernos (1–7), Anexo 1 e Manuais Técnicos (DOIs 10.5281/zenodo.21519985 a 21520032) | não aplicável |
+
+### 3.3. Tabela dos registros empíricos — observação, prova e limite
+
+| ID | observacao_registrada | medicao_disponivel | controles | repeticao | documento_de_prova | cadeia_de_custodia | limite_da_inferencia | relacao_com_fonte_externa |
+|---|---|---|---|---|---|---|---|---|
+| E-BAM-001 | 35 participantes (LEDC/UnB e agricultores rurais) concluíram curso de 40 h; maquetes e protótipos 1:1 confeccionados | não | ausentes | única (curso de 2018) | transcrições `01-_ABR-18_Oficina_FUP`, `01a-_Mai18_Relatorio_Curso` | transcrições integrais preservadas em `_privado/fontes-documentais/anais-pesquisa-takwara-2018-2024/` | não sustenta eficácia estrutural, durabilidade ou replicabilidade técnica | H-BAM-014 (contexto de oficinas); H-BAM-016 (protótipos 1:1) |
+| E-BAM-002 | ação de extensão homologada no SIEX | não aplicável | não aplicáveis | não documentada | transcrição `02-MAI-18_SIEX-60015` | idem | documento administrativo; não mede tecnologia | sem relação direta com hipóteses de desempenho |
+| E-BAM-003 | canteiro implantado; 12 oficinas executadas; 120 participantes externos certificados; processos empíricos de imunização (caldo alcalino, extrato pirolenhoso) desenvolvidos | não | ausentes | múltipla (12 oficinas) | transcrições `03-_JUL-18`, `04-_JUL-18`, `05-_SET-18_Memorando_IBRAM`, `09-_DEZ-18`, `12_-_AGO-19_Relatorio_final` | idem | não sustenta eficácia preservativa, autotermia ou estabilidade de processo; o manejo não sustenta sustentabilidade ecológica da ESECAE | H-BAM-001, 002, 009 (processos empíricos); H-BAM-020 (manejo e origem da biomassa) |
+| E-BAM-004 | unidade T01 projetada e montada; 12 oficinas mensais; 15 estudantes e 15 assentados do Pequeno William formados | não | ausentes | múltipla (12 oficinas) | processo `23098.014691.2018-20`; transcrições `08-_NOV-18`, `08a`, `08b`; certificado `16_-_JAN-20_Certificado_IFB` | idem | não sustenta autotermia comprovada, eficácia preservativa, estabilidade, segurança operacional ou conformidade industrial | H-BAM-007, 009, 013, 029 (tratamento por vapor e fogão foguete) |
+| E-BAM-005 | aprovação de mérito técnico; sem liberação de recursos; sem execução orçamentária | não aplicável | não aplicáveis | única | transcrição `06a-_OUT-18_Edital_CFDD` | idem | não é evidência de viabilidade econômica nem de desempenho técnico | H-BAM-012, 027 (sem suporte econômico) |
+| E-BAM-006 | obra comunitária construída em escala real com colmo roliço, hiperadobe e fechamento em terra | não | ausentes | única | transcrições `09-_DEZ-18`, `10_-_Jan_-19_Relatorio_LaPeCFaS` | idem | não sustenta desempenho estrutural, atendimento normativo, durabilidade, segurança de uso ou replicação | H-BAM-016 (proveniência, não capacidade); H-BAM-019 (contexto territorial) |
+| E-BAM-007 | pleito formalizado; desdobramento não registrado | não aplicável | não aplicáveis | única | transcrição `10a-_MAR-19_DEP_FABIO_FELIX` | idem | sem execução documentada | sem relação direta com hipóteses de desempenho |
+| E-BAM-008 | mutirão realizado (18/09/2019); funcionamento do forno ecológico de imunização observado e divulgado | não | ausentes (observação sem protocolo comparativo) | única (1º mutirão) | transcrições `13-_SET-19_ARTIGO_Relato_Popular`, `14-_SET-19_Mutirao_Tecnologico` | idem | observação sem protocolo; não sustenta eficiência térmica, autotermia ou eficácia preservativa; "10 anos de pesquisa empírica" é registro retrospectivo (marco 2010) | H-BAM-013, 029 (funcionamento observado do forno) |
+| E-BAM-009 | documento oficial emitido pela PRAD/IFB atestando competência técnica | não aplicável | não aplicáveis | única | transcrição `16_-_JAN-20_Certificado_IFB` | idem | atesta competência profissional; não certifica desempenho, conformidade ou segurança de produto | H-BAM-017, 026 (sem efeito de conformidade de produto) |
+| E-BAM-010 | submissão registrada; execução não documentada | não aplicável | não aplicáveis | única | transcrição `17-_ABR-20_ENAP_DESAFIOS` | idem | proposta não executada; permanece arquitetura autoral | sem relação direta com hipóteses de desempenho |
+| E-BAM-011 | protótipo de painel bambu–PU fabricado; ensaios em tubo de impedância e medições de paisagem sonora (SQN 410) executados no âmbito acadêmico | sim — no relatório acadêmico (tubo de impedância BSWA SW 466, 200–2.500 Hz, NRC) | existentes no relatório acadêmico (repetições documentadas na campanha) | múltipla (repetições de medição no relatório) | transcrição `19_-_Relatorio_PIBIT_CEUB_2021`; [ficha-pibit-lucas-aciole-painel-acustico.md](../pu-vegetal/ficha-pibit-lucas-aciole-painel-acustico.md) | idem; relatório acadêmico com fonte integral conferida no Acervo | resultados pertencem ao relatório acadêmico; caracterizam amostras, não barreira instalada; não demonstram o componente autoral nem conformidade | H-BAM-003 (associação bambu–PU prototipada por terceiros com contribuição autoral) |
+| E-BAM-012 | encerramento definitivo do PEAC por determinação da reitoria; desmobilização do LaPeCFaS | não aplicável | não aplicáveis | única | transcrição `18_-_JUL-20_RESPOSTA_PRAD`; processo de encerramento (2022) | idem | vínculo com a UnB encerrado em 2022; não sugerir vínculo atual | salvaguarda institucional (complemento, seção 8) |
+| E-BAM-013 | recusa formal de mérito por ausência de vínculo acadêmico ativo | não aplicável | não aplicáveis | única | transcrição `2023_-_Nature-Awards-2024` | idem | a recusa não avalia a tecnologia; confirma ausência de vínculo acadêmico | salvaguarda institucional (complemento, seção 8) |
+| E-BAM-014 | DOIs depositados (10.5281/zenodo.21519985 a 21520032) formalizando anterioridade autoral | não aplicável | não aplicáveis | única | registros Zenodo (DOIs) | depósito público; série também publicada em `docs/analyses/visao-do-autor/` | depósito não é patente, certificação nem validação científica; não eleva TRL | orientação, seção 7.4 (publicação defensiva) |
+
+## 4. Leitura agregada
+
+### 4.1. Contagem por tipo de relação
 
 | Relação | Linhas |
 |---|---|
@@ -73,26 +139,33 @@ data_revisao: 2026-08-01
 | orienta_ensaio | H-BAM-009, 013, 029 |
 | nao_cobre | H-BAM-023 |
 
-### 3.2. Contagem por risco de extrapolação
+### 4.2. Contagem por risco de extrapolação
 
 - **baixo:** H-BAM-002, 005, 015, 016, 017, 018, 019, 022, 024, 026, 028, 029, 030 (13)
 - **moderado:** H-BAM-001, 003, 004, 006, 007, 008, 009, 010, 014, 020, 021, 025, 027 (13)
 - **alto:** H-BAM-011, 012, 013, 023 (4)
 
-### 3.3. Contagem por nível de divulgação
+### 4.3. Contagem por nível de divulgação
 
 - **publico:** 23 linhas
 - **publico-sem-parametros-habilitantes:** H-BAM-001, 003, 004, 013, 014 (5)
 - **restrito-pd:** H-BAM-016, 023 (2)
 
-### 3.4. Contagem por situação
+### 4.4. Contagem por situação
 
 - **proposta:** 19 linhas
 - **em-revisao:** H-BAM-012, 013, 023, 027 (4)
 - **aprovada-para-agenda:** H-BAM-005, 016, 017, 018, 022, 026, 030 (7)
 - **em-ensaio / refutada / suspensa:** nenhuma linha nesta versão
 
-## 4. Evidência ainda necessária (lacunas do sistema autoral)
+### 4.5. Contagem por natureza da evidência (camada empírica)
+
+- **Registros E-BAM com situação `evidencia-documentada`:** 14 (E-BAM-001 a 014).
+- **Hipóteses com natureza ampliada (externa + tipo empírico):** 11 (H-BAM-001, 002, 003, 007, 009, 013, 014, 016, 019, 020, 029).
+- **Hipóteses sem registro correspondente nos Anais (natureza permanece `externa`):** 19.
+- **Registros com medição disponível:** 1 (E-BAM-011, medição do relatório acadêmico PIBITI — atribuída a terceiros com contribuição técnica autoral). Nenhum registro empírico autoral contém medição própria com controles.
+
+## 5. Evidência ainda necessária (lacunas do sistema autoral)
 
 Síntese das colunas "evidência faltante", organizada por eixo (orientação, seção 9.2):
 
@@ -104,7 +177,7 @@ Síntese das colunas "evidência faltante", organizada por eixo (orientação, s
 - **Economia:** preenchimento do Anexo 1 com demanda, CAPEX, OPEX, capital de giro e cenário restritivo; custo logístico comparado (verde vs beneficiado).
 - **Habitação:** piloto do ciclo de sete momentos com linha de base, avaliação ética e APO com retorno.
 
-## 5. Alegações bloqueadas até resultado próprio
+## 6. Alegações bloqueadas até resultado próprio
 
 Conforme a seção 2 (verbos restritos) e a orientação (seção 5.2), as seguintes formulações não podem ser aplicadas ao sistema autoral enquanto não existir ensaio, piloto ou avaliação própria:
 
@@ -122,8 +195,19 @@ Conforme a seção 2 (verbos restritos) e a orientação (seção 5.2), as segui
 
 Nenhuma destas alegações consta dos cadernos como resultado; onde o texto autoral se aproxima de formulação forte (resumos dos Cadernos 1 e 3), a auditoria registra a necessidade de rebaixamento — ver [00-relatorio-auditoria-epistemica.md](00-relatorio-auditoria-epistemica.md) e [00-lista-afirmacoes-para-revisao.md](00-lista-afirmacoes-para-revisao.md).
 
-## 6. Notas de circularidade
+Os registros dos Anais tampouco sustentam alegações de desempenho. Estão bloqueadas até resultado próprio, medição com controles ou protocolo:
+
+- "as oficinas demonstram eficácia estrutural ou durabilidade das técnicas" (E-BAM-001, 003);
+- "o manejo na ESECAE demonstra sustentabilidade ecológica ou balanço de biomassa" (E-BAM-003);
+- "a usina T01 é autotérmica comprovada" ou "o forno ecológico tem eficiência definida" (E-BAM-004, 008);
+- "o Mutirão do Bem Viver demonstra desempenho estrutural ou atendimento normativo" (E-BAM-006);
+- "o certificado IFB valida as tecnologias" (E-BAM-009);
+- "o PIBITI valida o componente autoral" — os resultados acústicos pertencem ao relatório acadêmico e caracterizam amostras (E-BAM-011);
+- "os depósitos Zenodo certificam ou validam o sistema" (E-BAM-014).
+
+## 7. Notas de circularidade
 
 - Nenhuma linha desta matriz usa um caderno autoral como fonte de evidência; os cadernos aparecem apenas na coluna "Caderno relacionado", como formulação.
+- Nenhuma linha desta matriz usa um registro dos Anais como evidência de eficácia; os registros E-BAM (seção 3) documentam realização, construção e observação, com limites explícitos por linha.
 - As fichas citadas são documentos do próprio Acervo com fonte integral conferida, em estado `em-revisao-documental`; o peso de cada uma segue sua natureza (ficha científica, acadêmica, institucional, patente, norma ou periódico), conforme o [estado-da-arte.md](estado-da-arte.md).
 - O Estado da Arte pode relacionar-se aos Cadernos, mas deve declará-los como sínteses e formulações autorais derivadas do Acervo, não como evidência independente (orientação, seção 3.4).
