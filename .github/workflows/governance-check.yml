@@ -19,7 +19,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Inventário
-        run: python3 scripts/inventariar_acervo.py . --json /tmp/inventario.json
+        run: python3 scripts/inventariar_acervo.py . --markdown /tmp/inventario.md --json /tmp/inventario.json
       - name: Front matter
         run: python3 scripts/validate_frontmatter.py
       - name: Build estrito
