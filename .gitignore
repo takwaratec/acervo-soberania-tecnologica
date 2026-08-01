@@ -36,3 +36,6 @@ arquivo_historico/
 # Ferramentas legadas locais
 buscas_fontes.py
 clean_unlisted.py
+
+# Pasta de depósito Zenodo (não versionada — apenas preparação de depósito)
+publicacoes-zenodo/deposito-*/
