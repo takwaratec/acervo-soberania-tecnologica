@@ -1,0 +1,105 @@
+---
+tipo_documental: estado-da-arte-com-agenda-experimental
+estado_documental: em-revisao-documental
+fonte_primaria: estado-da-arte do eixo + fichas com fonte integral conferida
+titulo: "Mapa de Evidências — Poliuretano Vegetal"
+data_revisao: 2026-08-01
+responsavel_curadoria: Fabio Takwara
+---
+
+# Mapa de Evidências: Poliuretano Vegetal
+
+## O que este documento responde
+
+Este mapa organiza, por subtema, **o que as fontes da gaveta sustentam** — cada afirmação é atribuída às fichas-fonte correspondentes, com o nível de evidência e as limitações declaradas nas próprias fontes ou registradas pelas fichas. É um documento derivado do [estado da arte do eixo](estado-da-arte.md) e não acrescenta dados: todo número, autor e ano citado provém de uma ficha com fonte integral conferida.
+
+**Nota metodológica e de classificação da evidência.** Os níveis usados abaixo seguem a distinção analítica do estado da arte: ensaios laboratoriais com replicação sustentam mais do que relatos exploratórios; fichas técnicas de produto sustentam apenas declarações do fabricante; laudos e certificados sustentam apenas o resultado da amostra ensaiada; simulação, ensaio laboratorial e relato de experiência são evidências de naturezas diferentes. Nenhum estado documental do Acervo equivale a validação experimental. Afirmações de síntese feitas pela curadoria estão marcadas como **interpretação curatorial**. O relatório PIBITI é pesquisa acadêmica de terceiros (UniCEUB): os resultados pertencem ao relatório, e a participação de Fabio Takwara/Ecolaborativa na prototipagem não converte a ficha em validação autoral.
+
+---
+
+## 1. Matriz poliuretana de mamona: caracterização e comportamento
+
+| O que as fontes sustentam | Fichas-fonte | Nível de evidência | Limitações declaradas |
+|---|---|---|---|
+| PUs de óleo de mamona (poliol OM/TEA/EG com MDI ou HDI; IAc 4,74 mgKOH/g; IOH 305 mgKOH/g; %NCO 36% MDI / 50% HDI) são estáveis termicamente até ~170 °C; compósitos com quitosana, entre 188 e 206 °C; Tg ~6 °C (PU) e ~16 °C (compósitos) | [medeiros-2023-compositos-pu-quitosana](medeiros-2023-compositos-pu-quitosana.md) | Tese (caracterização química/térmica da matriz) | Aplicação principal biomédica (citotoxicidade, adesão celular) — **não extrapolar para construção**; ficha usada apenas como fundamento químico |
+| Permissividade relativa do PUR de mamona puro de ~14 a 1 kHz; comportamento de sólido desordenado dependente da frequência; d33 de 176±13 pC/N (bifásico) e 210±12 pC/N (trifásico, com MWCNT a 4,70% vol., abaixo do limiar de percolação de ~4,741% vol.) | [costa-2022-propriedades-eletricas-pu-mamona](costa-2022-propriedades-eletricas-pu-mamona.md) | Dissertação (caracterização elétrica/dielétrica da matriz) | Não é aplicação construtiva (sensor de saúde estrutural); rota com PZT (chumbo) e clorofórmio; testes de sensor de bancada; DOI não declarado na fonte |
+| Em tração comparativa, a PU de mamona foi a menos resistente e a mais flexível entre PU, silicone e espuma sintética; a malha tubular aumentou resistência e reduziu elasticidade; a PU com malha foi considerada mais adequada para luvas de soquete protético | [vianna-1997-pu-mamona-tracao](vianna-1997-pu-mamona-tracao.md) | Dissertação (ensaio laboratorial) | Formulação e aplicação biomédica de 1997; não transferível a adesivos e compósitos estruturais; origem vegetal não implica desempenho superior |
+| Resina PU de mamona em impregnação de matrizes de cimento: absorção de água reduzida ~98% (até 99% no traço rico), abrasão ~70% maior, compressão até ~2x, tração >55% (traços 1:3 e 1:4), alcalinidade mantida, resistência química a meios agressivos; em impermeabilização, aplicações reais em lajes (1995-1996) e UV 1200 h sem alteração visual | [silva-1996-resina-pu-mamona-construcao](silva-1996-resina-pu-mamona-construcao.md) | Dissertação histórica (EESC-USP, 1996; ensaios laboratoriais + aplicações reais) | Formulações de 1996 não transferíveis a produtos atuais; resina não usada como modificado por reatividade com água; impregnação **não torna o concreto totalmente impermeável**; scan antigo com OCR imperfeito e trechos ilegíveis |
+| Bioespumas Kehl® expostas em solo por 30 dias apresentaram perda de massa de até 17% e alterações morfológicas/espectroscópicas compatíveis com maior degradação que o EPS nas condições ensaiadas | [leithold-2015-biodegradacao-bioespumas](leithold-2015-biodegradacao-bioespumas.md) | TCC (exploratório, 30 dias em solo) | Não demonstra mineralização completa; sem ecotoxicidade, produtos de degradação, lixiviação ou balanço de carbono; poliol não identificado; amostras não identificadas como produtos Imperveg |
+
+**Estado do subtema (síntese do estado da arte).** A matriz PU de mamona é quimicamente caracterizável e termicamente estável até ~170 °C, com comportamento elétrico/dielétrico de sólido desordenado e desempenho à tração inferior a elastômeros comparados na aplicação biomédica específica. **Interpretação curatorial:** as fichas de caracterização (Medeiros 2023; Costa 2022; Vianna 1997) entram na gaveta como fundamento de matriz, não como evidência de aplicação construtiva; a única ficha de aplicação construtiva (Silva 1996) é histórica e laboratorial, com registro de aplicações reais de impermeabilização.
+
+---
+
+## 2. Painéis aglomerados com adesivo de PU de mamona
+
+| O que as fontes sustentam | Fichas-fonte | Nível de evidência | Limitações declaradas |
+|---|---|---|---|
+| Painéis de casca de mamona (selvagem e melhorada) com PU: melhor combinação experimental de 20% de resina e 1,377 MPa; casca melhorada com melhor compactação e conjunto físico-mecânico; selvagem com melhor adesão interna; **somente adesão interna e inchamento atenderam aos requisitos da NBR 14810 considerados pelo autor** | [carvalho-2023-paineis-casca-mamona-pu](carvalho-2023-paineis-casca-mamona-pu.md) | Dissertação (ensaios laboratoriais) | Leitura normativa parcial do autor; durabilidade, envelhecimento e desempenho térmico/acústico declarados como trabalhos futuros; sem homologação de produto |
+| Painéis de Pinus e PET com PU: referência sem PET não classificou (inchamento em 24 h); misturas com PET receberam P2, P4 ou P6; 50% Pinus / 50% PET / 10% adesivo classificada como P6 na comparação ABNT do trabalho; MEV indicou melhor envolvimento das partículas com 10% de adesivo | [cazella-2022-paineis-pinus-pet-pu](cazella-2022-paineis-pinus-pet-pu.md) | Dissertação (ensaios laboratoriais; NBR 14810-2 e ANSI A208.1) | Classificação depende das condições de fabricação, edição normativa e lote; durabilidade e escala industrial fora do escopo; leitura normativa do autor |
+| Em painéis de Pinus com 10% de PET e 25% de PUR, a elevação da temperatura de prensagem de 80 °C para 100 °C reduziu inchamento em espessura (24 h) de 21,43% para 17,61% e umidade de 6,92% para 5,36%, e aumentou tensão máxima de 3,89 para 7,16 MPa e MOE de 1.401 para 1.873 MPa | [silvaneto-2026-paineis-pinus-pet-pu](silvaneto-2026-paineis-pinus-pet-pu.md) | Dissertação (ensaios laboratoriais, NBR 14810-2:2024; revisão PRISMA 2020 com 61 estudos) | Uma única proporção de adesivo (25%) e PET (10%); apenas duas temperaturas (80/100 °C) |
+| Painéis de eucalipto e couro com PU: tratamento T3 atendeu ao conjunto físico-mecânico usado pelo autor e foi classificado como P4 para condições secas (NBR 14810/2013); T1 com não conformidades de absorção e inchamento; aumento de couro associado a maior absorção e inchamento | [oliveira-2019-paineis-eucalipto-couro-pu](oliveira-2019-paineis-eucalipto-couro-pu.md) | Dissertação (ensaios laboratoriais) | Autor recomenda ajustes de umidade, teor de resina, granulometria, temperatura, pressão e densidade; classificação não generalizável; leitura normativa do autor |
+
+**Estado do subtema (síntese do estado da arte).** O PU de mamona aglutina painéis de múltiplos resíduos com leituras normativas parciais (P4, P6), e o desempenho é função de formulação e processo, não do adesivo isolado. **Interpretação curatorial:** nenhuma ficha atende a todos os critérios de uma edição normativa vigente com replicação estatística; as classificações citadas são leituras dos autores das condições ensaiadas, e não há dados de durabilidade, envelhecimento ou escala industrial na gaveta.
+
+---
+
+## 3. Compósitos com fibras e partículas vegetais
+
+| O que as fontes sustentam | Fichas-fonte | Nível de evidência | Limitações declaradas |
+|---|---|---|---|
+| Compósitos de baixa densidade de bagaço de cana com PU: formulação com 30% de fibra com melhor conjunto físico-mecânico; inchamento abaixo de 30%; umidade abaixo da faixa normativa; todas as formulações atingiram tração perpendicular usada; **MOE não atingiu o mínimo da CS 236** e só 30% de fibra atingiu o MOR citado; 10% e 20% com segregação durante a cura | [lopes-2020-composto-bagaco-cana](lopes-2020-composto-bagaco-cana.md) | Dissertação (ensaios laboratoriais, com liofilização) | Viabilidade experimental condicionada a ajustes de liofilização, repetição, envelhecimento e validação para aplicação definida |
+| Compósitos de resíduos fibrosos de bambu com PU vegetal: absorção cresceu com o volume de fibra (OSB absorveu mais); flexão, arrancamento de parafuso e impacto favoreceram os compósitos; tração perpendicular abaixo da literatura citada; **interface fibra–matriz fraca**; 20% de fibras retraiu menos que 40% e que o OSB | [lopes-2020-osb-residuos-bambu](lopes-2020-osb-residuos-bambu.md) | Dissertação (ensaios laboratoriais com OSB comercial como referência) | Controle comercial fortalece a comparação mas não homologa o material; escala de laboratório; necessidade de novos ensaios |
+| Compósito de partículas de Pinus e eucalipto com PU para reparo de fendas em madeira: maior fluidez que a alternativa comparada, melhor penetração em regiões profundas das fendas, resistência à compressão considerada promissora pelo autor | [melo-2023-composto-reparo-madeira](melo-2023-composto-reparo-madeira.md) | Dissertação profissional (ensaios laboratoriais) | Aplicação localizada e formulações específicas; **sem envelhecimento prolongado, validação de campo ou certificação do sistema reparado**; sem elevação automática de TRL |
+| Compósitos de PU com fibras vegetais brasileiras (juta, sisal, coco, rami, piaçava, malva, agave): fibras e vazios influenciaram a entrada de água; **todos os compósitos ainda absorviam ao fim de 168 h**; PU/piaçava, PU/rami e PU/juta mais próximos da estabilização; curvas iniciais compatíveis com difusão aproximadamente fickiana, sem saturação observada | [dias-2024-absorcao-fibras-compostos](dias-2024-absorcao-fibras-compostos.md) | Tese (ensaio laboratorial de imersão até 168 h) | 168 h não demonstram durabilidade externa; desempenho depende de fibra, teor, vazios, fabricação, exposição e envelhecimento; não certifica produto comercial |
+| Tratamento alcalino (NaOH 3%, 6%, 9%) de fibras de capim-limão em biocompósito de amido e cera: 6% com melhor conjunto mecânico (tração 19,89 MPa; flexão 30,06 MPa; impacto 13,31 kJ/m²); 9% danificou fibras e prejudicou tração e flexão; cristalinidade 37,7% → 47,9% (6%) → 45,2% (9%) | [kamaruddin-et-al-2022-tratamento-alcalino-capim-limao](kamaruddin-et-al-2022-tratamento-alcalino-capim-limao.md) | Artigo experimental (referência metodológica correlata) | **Não estuda bambu nem poliuretano**; sistema laboratorial específico; 6% não é "receita ótima" transferível; não eleva TRL |
+
+**Estado do subtema (síntese do estado da arte).** As fichas sustentam o reaproveitamento de resíduos em matrizes de PU de mamona com ganhos pontuais de desempenho e o papel do PU como barreira parcial de umidade. **Interpretação curatorial:** o subtema não sustenta impermeabilidade ou durabilidade externa automática (Dias 2024), equivalência a produtos homologados (Lopes OSB), desempenho estrutural certificado (Melo 2023) nem transferência da referência metodológica de alcalinização (Kamaruddin 2022) para compósitos de PU sem novo experimento.
+
+---
+
+## 4. A interface bambu–PU: compósitos, preenchimento e tratamentos superficiais
+
+| O que as fontes sustentam | Fichas-fonte | Nível de evidência | Limitações declaradas |
+|---|---|---|---|
+| Compósitos de PU de mamona (POLIBOND/Cequil) com partículas de bambu *D. giganteus* (10-20% PU; 90 °C; 6,25 MPa): aumento do teor de resina reduziu umidade (9,9% → 8,8%), absorção de água (68,3% → 22,9%) e inchamento (16,3% → 12,3%), elevou Shore D (65,8 → 67,7); termogravimetria sugere interação química bambu–PU na polimerização in situ | [marinho-pu-mamona-bambu-polimeros](marinho-pu-mamona-bambu-polimeros.md) | Artigo experimental (SciELO/*Polímeros*) | **Sem propriedades mecânicas (tração, flexão, compressão)** — lacuna indicada pelos próprios autores; dispersão não homogênea; defeitos de processo não quantificados; bambu de uma única procedência e idade (4 anos) |
+| Tubos de lâminas de bambu moso com epóxi preenchidos com espuma rígida de PU (31,5 kg/m³): carga última +2,5% a +40,8%; tensão de pico +11,0% a +37,1%; rigidez inicial pouco alterada; **ruptura mais súbita (frágil) e menor capacidade de deformação final**; nem todos superaram os vazios em energia absorvida/eficiência de esmagamento | [wei-et-al-2022-tubos-bambu-espuma-pu](wei-et-al-2022-tubos-bambu-espuma-pu.md) | Artigo experimental (compressão axial; 36 tubos, 12 grupos) | Objeto é tubo engenheirado de lâminas e epóxi, **não colmo natural**; espuma petroquímica de 31,5 kg/m³ (não MAMONEX RD70); sem nós, diafragmas ou irregularidade anatômica; sem envelhecimento, fogo ou exposição externa; não transferível quantitativamente ao componente bambu–PU |
+| Em 24 corpos de bambu (in natura, Sikadur, Sikadur com areia, resina de mamona), os recobertos tiveram menor variação de massa; Sikadur e resina de mamona reduziram a absorção; o nó geralmente aumentou a absorção; o estudo recomenda impermeabilização antes do uso do bambu em concreto | [naccache-tratamentos-bambu-concreto](naccache-tratamentos-bambu-concreto.md) | Relatório institucional (PUC-Rio, s.d.; ensaio exploratório) | Amostra pequena e acompanhamento curto; **sem ensaio de aderência bambu–concreto, resistência estrutural, envelhecimento ou biodeterioração**; valores não convertíveis em certificação ou equivalência entre produtos |
+
+**Estado do subtema (síntese do estado da arte).** O PU de mamona atua como barreira de umidade e agente de adesão em compósitos com partículas de bambu; o preenchimento com espuma eleva condicionalmente a carga de pico de tubos compósitos; recobrimentos superficiais reduzem a absorção do bambu. **Interpretação curatorial:** o subtema sustenta plausibilidade, mas **nenhuma ficha valida o componente bambu–PU** — faltam mecânica dos compósitos (declarada pelos autores de Marinho et al. 2013), preenchimento em colmos naturais com espuma vegetal e eficácia de tratamentos superficiais em serviço.
+
+---
+
+## 5. Acústica: painel de materiais vegetais e espuma expansiva (PIBITI)
+
+| O que as fontes sustentam | Fichas-fonte | Nível de evidência | Limitações declaradas |
+|---|---|---|---|
+| No tubo de impedância (200–2.500 Hz, NRC), amostras somente de espuma MAMONEX RD70 obtiveram NRC 0,21–0,25; espuma com uma fibra, 0,19–0,52 (revestimento associado a perdas de absorção em parte das amostras); fibras sem espuma, 0,35–0,56; multifibras, 0,53–0,67 (maior: coco/cana-de-açúcar) | [ficha-pibit-lucas-aciole-painel-acustico](ficha-pibit-lucas-aciole-painel-acustico.md) | Relatório de iniciação científica (PIBITI UniCEUB; medição laboratorial comparável dentro da campanha) | Caracteriza **amostras, não barreira completa instalada**; sem isolamento global, desempenho ao tempo, mecânica, fogo, durabilidade ou custo de ciclo de vida; **não sustenta a MAMONEX RD70 isolada como absorvedor acústico eficiente**; pesquisa de terceiros (bolsista Lucas Aciole Vanderlei Pereira; orientadora Ludmila de Araújo Correia) com apoio técnico de Fabio Takwara/Ecolaborativa — resultados atribuídos ao relatório, sem validação autoral |
+
+**Estado do subtema (síntese do estado da arte).** As fibras vegetais apresentam potencial acústico superior à espuma isolada nas condições ensaiadas. **Interpretação curatorial:** o resultado orienta novas hipóteses de composição em camadas (aplicar a espuma sem obstruir a face absorvedora), mas o desempenho de barreira instalada permanece sem evidência na gaveta.
+
+---
+
+## 6. Produtos comerciais e certificação
+
+| O que as fontes sustentam | Fichas-fonte | Nível de evidência | Limitações declaradas |
+|---|---|---|---|
+| A IMPERVEG UG 132 A é declarada resina impermeabilizante bicomponente de PU de mamona (A+B, 100% sólidos, 1:2 volumétrica), com tensão de ruptura à tração de 2 MPa, módulo de deformação de 10 MPa e alongamento na ruptura de aproximadamente 25% | [ficha-tecnica-imperveg-ug132a](ficha-tecnica-imperveg-ug132a.md) | Ficha técnica de produto (declarações do fabricante) | Sem método de ensaio, lote, incerteza, data ou versão; menções à NBR 9575/2003 e Portaria MS 518 são declarações comerciais sem laudo; atoxicidade, potabilidade, estanqueidade, UV e resistência química exigem verificação; valores não extensíveis a compósitos |
+| A MAMONEX RD70 é declarada resina expansiva rígida bicomponente de PU de mamona (A+B 1:1; expansão por CO₂, sem CFC), com densidade em expansão livre de 70 kg/m³, compressão a 10% de 0,25 MPa, absorção após 48 h de 0,01% em volume, condutividade térmica de 0,0452 W/(m·K) e tração direta de 0,12 MPa | [ficha-tecnica-mamonex-rd70](ficha-tecnica-mamonex-rd70.md) | Ficha técnica de produto (declarações do fabricante) | Biodegradabilidade, ausência de toxicidade, resistência química e não propagação de chama permanecem declarações até ligadas a laudos identificados; sem método de ensaio, lote ou data; valores não extensíveis a compósitos |
+| A amostra de poliuretano LCP100267 recebeu classificação V-2 no ensaio UL 94 V do certificado LCP10-000227 (2010): maior tempo individual de queima de 13 s; soma t1+t2 de 34 s; maior t2+t3 de 5 s; não atingiu o suporte; algodão queimado por gotas/fagulhas | [certificado-ul94-imperveg-2010](certificado-ul94-imperveg-2010.md) | Laudo/certificado de ensaio (amostra isolada) | Resultado **restrito à amostra LCP100267**; amostragem atribuída ao cliente; V-2 ≠ "incombustível" nem "não propaga chama"; associação a grau comercial exige rastreabilidade adicional; **não se transfere a outros produtos, lotes, espessuras ou compósitos — em particular, não confere flamabilidade ao componente bambu–PU (bloqueio de alegação)** |
+
+**Estado do subtema (síntese do estado da arte).** O eixo sustenta apenas a frase "a amostra LCP100267 recebeu classificação V-2 segundo o certificado LCP10-000227". **Interpretação curatorial:** fichas de produto não comprovam desempenho de todo PU de mamona nem de compósitos que o utilizem; qualquer alegação de comportamento ao fogo do componente bambu–PU exige ensaio próprio com rastreabilidade de lote.
+
+---
+
+## 7. Síntese do mapa
+
+Três constatações fortes emergem do conjunto (todas sustentadas por fichas):
+
+1. **O PU de mamona é uma barreira parcial de umidade em materiais lignocelulósicos**, convergente entre fichas independentes e décadas distintas (1996–2026) — com o contraponto de que a absorção não é eliminada ([dias-2024-absorcao-fibras-compostos](dias-2024-absorcao-fibras-compostos.md); [silva-1996-resina-pu-mamona-construcao](silva-1996-resina-pu-mamona-construcao.md)).
+2. **A valorização de resíduos em painéis e compósitos tem evidência de bancada consistente**, com leituras normativas parciais (P4, P6) e lacunas declaradas de mecânica, durabilidade e escala ([marinho-pu-mamona-bambu-polimeros](marinho-pu-mamona-bambu-polimeros.md); [carvalho-2023-paineis-casca-mamona-pu](carvalho-2023-paineis-casca-mamona-pu.md); [cazella-2022-paineis-pinus-pet-pu](cazella-2022-paineis-pinus-pet-pu.md); [silvaneto-2026-paineis-pinus-pet-pu](silvaneto-2026-paineis-pinus-pet-pu.md); [oliveira-2019-paineis-eucalipto-couro-pu](oliveira-2019-paineis-eucalipto-couro-pu.md); [lopes-2020-osb-residuos-bambu](lopes-2020-osb-residuos-bambu.md)).
+3. **A interface bambu–PU tem base documental para plausibilidade, não para validação** — faltam mecânica dos compósitos, preenchimento em colmos naturais com espuma vegetal e ensaio de fogo do componente.
+
+Duas constatações honestas complementam: a **flamabilidade do componente bambu–PU está bloqueada** (certificado UL 94 é de amostra isolada — [certificado-ul94-imperveg-2010](certificado-ul94-imperveg-2010.md)), e o **desempenho acústico da espuma expansiva isolada é inferior ao das fibras** no relatório PIBITI ([ficha-pibit-lucas-aciole-painel-acustico](ficha-pibit-lucas-aciole-painel-acustico.md)). **Interpretação curatorial:** o mapa distingue evidência de bancada (painéis e compósitos), declaração de fabricante (fichas de produto) e certificação de amostra (UL 94) — nenhuma das três equivale a conformidade normativa de produto ou componente.
+
+O que **não** sabemos está sistematizado no [Mapa de Lacunas](mapa-de-lacunas.md); o que investigar a seguir, no [Agenda de Pesquisa](agenda-de-pesquisa.md).
