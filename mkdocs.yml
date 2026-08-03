@@ -179,29 +179,6 @@ nav:
       - Resina PU de mamona na construção (Silva 1996): analyses/pu-vegetal/silva-1996-resina-pu-mamona-construcao.md
       - PU de mamona com partículas de bambu (Marinho 2013): analyses/pu-vegetal/marinho-pu-mamona-bambu-polimeros.md
       - Propriedades elétricas de PU de mamona (Costa 2022): analyses/pu-vegetal/costa-2022-propriedades-eletricas-pu-mamona.md
-  - Habitação social:
-      - Percepção social:
-          - Visão geral: analyses/percecao-social/index.md
-          - Santos — reassentamento e percepção: analyses/percecao-social/joyce-santos-2009.md
-          - Correia — conforto ambiental e ATHIS: analyses/percecao-social/ludmila-correia-2010-conforto-ambiental-his.md
-          - Correia — Brasília sensível aos sons: analyses/percecao-social/ludmila-correia-2023-brasilia-sensivel-sons.md
-          - Oliveira e Villa — COVID-19: analyses/percecao-social/oliveira-villa-2024-covid-his.md
-          - Pazos et al. — aerolevantamento e SbN no Sol Nascente: analyses/percecao-social/pazos-et-al-2025-aerolevantamento-sbn-sol-nascente.md
-          - Monteiro e Miron — percepção de valor em HIS (2022): analyses/percecao-social/monteiro-2022-metodo-percepcao-valor-his.md
-          - Garrefa et al. — resiliência em HIS por APO (2021): analyses/percecao-social/garrefa-2021-resiliencia-his-apo-coproducao.md
-          - Souza et al. — APO Moradias União Ferroviária (2014): analyses/percecao-social/souza-2014-apo-moradias-uniao-ferroviaria.md
-      - Avaliação pós-ocupação:
-          - Visão geral: analyses/avaliacao-pos-ocupacao/index.md
-          - Otoni e Villa — ampliabilidade: analyses/avaliacao-pos-ocupacao/otoni-villa-2024-resiliencia-ampliabilidade.md
-          - Thielke — Conjunto Porto Novo: analyses/avaliacao-pos-ocupacao/thielke-2021-apo-porto-alegre.md
-          - Rangel et al. — áreas comuns de HIS (2020): analyses/avaliacao-pos-ocupacao/rangel-2020-metodo-avaliacao-areas-comuns-his.md
-          - Abreu et al. — benchmarking de construtibilidade (2025): analyses/avaliacao-pos-ocupacao/abreu-2025-benchmarking-construtibilidade-his.md
-      - Política habitacional:
-          - Visão geral: analyses/politica-habitacional/index.md
-          - Simões e Leder — habitação seriada: analyses/politica-habitacional/simoes-leder-2024-assentamento-seriado.md
-          - Ferreira — política HIS em Ponta Grossa: analyses/politica-habitacional/ferreira-2023-politica-his-ponta-grossa.md
-          - Cardoso e Lopes — ATHIS (2022): analyses/politica-habitacional/cardoso-2022-athis-assessoria-assistencia.md
-          - "Chaves et al. — Belo Monte: reassentamentos (2019)": analyses/politica-habitacional/chaves-2019-belo-monte-reassentamentos-rurais.md
   - Bioeconomia amazônica:
       - Visão geral: analyses/bioeconomia-amazonica/index.md
       - Estado da Arte (Síntese Curatorial Baseada em Evidências): analyses/bioeconomia-amazonica/estado-da-arte.md
@@ -229,6 +206,28 @@ nav:
       - Mapa de Evidências: analyses/habitacao-social/mapa-de-evidencias.md
       - Mapa de Lacunas: analyses/habitacao-social/mapa-de-lacunas.md
       - Agenda de Pesquisa: analyses/habitacao-social/agenda-de-pesquisa.md
+      - Percepção social:
+          - Visão geral: analyses/percecao-social/index.md
+          - Santos — reassentamento e percepção: analyses/percecao-social/joyce-santos-2009.md
+          - Correia — conforto ambiental e ATHIS: analyses/percecao-social/ludmila-correia-2010-conforto-ambiental-his.md
+          - Correia — Brasília sensível aos sons: analyses/percecao-social/ludmila-correia-2023-brasilia-sensivel-sons.md
+          - Oliveira e Villa — COVID-19: analyses/percecao-social/oliveira-villa-2024-covid-his.md
+          - Pazos et al. — aerolevantamento e SbN no Sol Nascente: analyses/percecao-social/pazos-et-al-2025-aerolevantamento-sbn-sol-nascente.md
+          - Monteiro e Miron — percepção de valor em HIS (2022): analyses/percecao-social/monteiro-2022-metodo-percepcao-valor-his.md
+          - Garrefa et al. — resiliência em HIS por APO (2021): analyses/percecao-social/garrefa-2021-resiliencia-his-apo-coproducao.md
+          - Souza et al. — APO Moradias União Ferroviária (2014): analyses/percecao-social/souza-2014-apo-moradias-uniao-ferroviaria.md
+      - Avaliação pós-ocupação:
+          - Visão geral: analyses/avaliacao-pos-ocupacao/index.md
+          - Otoni e Villa — ampliabilidade: analyses/avaliacao-pos-ocupacao/otoni-villa-2024-resiliencia-ampliabilidade.md
+          - Thielke — Conjunto Porto Novo: analyses/avaliacao-pos-ocupacao/thielke-2021-apo-porto-alegre.md
+          - Rangel et al. — áreas comuns de HIS (2020): analyses/avaliacao-pos-ocupacao/rangel-2020-metodo-avaliacao-areas-comuns-his.md
+          - Abreu et al. — benchmarking de construtibilidade (2025): analyses/avaliacao-pos-ocupacao/abreu-2025-benchmarking-construtibilidade-his.md
+      - Política habitacional:
+          - Visão geral: analyses/politica-habitacional/index.md
+          - Simões e Leder — habitação seriada: analyses/politica-habitacional/simoes-leder-2024-assentamento-seriado.md
+          - Ferreira — política HIS em Ponta Grossa: analyses/politica-habitacional/ferreira-2023-politica-his-ponta-grossa.md
+          - Cardoso e Lopes — ATHIS (2022): analyses/politica-habitacional/cardoso-2022-athis-assessoria-assistencia.md
+          - "Chaves et al. — Belo Monte: reassentamentos (2019)": analyses/politica-habitacional/chaves-2019-belo-monte-reassentamentos-rurais.md
   - Reforma Agrária e Agrofloresta:
       - Visão geral: analyses/reforma-agraria-agrofloresta/index.md
       - Estado da Arte (Síntese Curatorial Baseada em Evidências): analyses/reforma-agraria-agrofloresta/estado-da-arte.md
