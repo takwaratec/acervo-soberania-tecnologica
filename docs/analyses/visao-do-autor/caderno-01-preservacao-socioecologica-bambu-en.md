@@ -7,7 +7,7 @@ zenodo_subtitle: Analytical and documentary proof of concept (research-agenda ma
 author: Fabio Takwara
 author_orcid: 0000-0001-8815-3885
 year: 2026
-version: 1.1
+version: 1.2
 document_status: published-on-zenodo
 identifier: 10.5281/zenodo.21738428
 conceptual_doi: 10.5281/zenodo.21514735
@@ -30,7 +30,7 @@ responsavel_curadoria: 'Fabio Takwara'
 
 **Fabio Takwara**  
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Notebooks on Ecological Revision and Technological Sovereignty, n. 1 — version 1.1, August 1, 2026*  
+*Notebooks on Ecological Revision and Technological Sovereignty, n. 1 — version 1.2, August 3, 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738428.svg)](https://doi.org/10.5281/zenodo.21738428)
 [![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green.svg)](caderno-01-preservacao-socioecologica-bambu.md)
@@ -672,4 +672,4 @@ ZHANG, Ying et al. Evaluating the comprehensive influences of heat treatment and
 
 ### Citation
 
-TAKWARA, Fabio. *Bamboo preservation from a socioecological perspective: effectiveness, durability, toxicity, and circularity of treatments*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.1, August 1, 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+TAKWARA, Fabio. *Bamboo preservation from a socioecological perspective: effectiveness, durability, toxicity, and circularity of treatments*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.2, August 3, 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).

@@ -6,14 +6,14 @@ titulo: Do protótipo à conformidade — normas, ensaios, responsabilidade téc
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2026
-versao: 1.2
+versao: 1.3
 estado_documental: publicado-no-zenodo
 identificador: 10.5281/zenodo.21738559
 licenca_texto: CC-BY-4.0
 metodo: revisao-normativa-documental-orientada-pelo-acervo
 data_revisao: 2026-08-01
 responsavel_curadoria: Fabio Takwara
-nota_versao: 'resolvida — R-10: consulta à API Zenodo (2026-08-01) confirma que o registro 10.5281/zenodo.21515361 correspondia à versão 1.1 e que o novo depósito (DOI 10.5281/zenodo.21738559) é a versão 1.2, conforme o campo version do Zenodo (conceitual 10.5281/zenodo.21515209); o DOI 10.5281/zenodo.21515210 citado pelo Caderno 5 é a versão 1.0 (correto como citação da versão anterior). Front matter atualizado para 1.2.'
+nota_versao: 'resolvida — R-10: consulta à API Zenodo (2026-08-01) confirma que o registro 10.5281/zenodo.21515361 correspondia à versão 1.1 e que o novo depósito (DOI 10.5281/zenodo.21738559) é a versão 1.2, conforme o campo version do Zenodo (conceitual 10.5281/zenodo.21515209); o DOI 10.5281/zenodo.21515210 citado pelo Caderno 5 é a versão 1.0 (correto como citação da versão anterior). Front matter atualizado para 1.2. Edição 1.3 (03/08/2026): correção material editorial do rodapé (Edição pública publicada) e do estado editorial — nenhuma mudança científica.'
 nota_editorial: 'P-01 resolvida (decisão de Fabio, 2026-08-01): o docente do IFB Campus Planaltina citado nos Anais como Prof. Dr. Vicente Virgolino de Souza Neto é a mesma pessoa do perfil do Acervo Vicente de Paulo Borges Virgolino da Silva (coordenador do Bacharelado em Agronomia). Forma canônica adotada: Vicente de Paulo Borges Virgolino da Silva. Os Anais não foram alterados (registro histórico).'
 ---
 
@@ -23,13 +23,13 @@ nota_editorial: 'P-01 resolvida (decisão de Fabio, 2026-08-01): o docente do IF
 
 **Fabio Takwara**  
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4 — versão 1.2, 1 ago. 2026*  
+*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4 — versão 1.3, 3 ago. 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738559.svg)](https://doi.org/10.5281/zenodo.21738559)
 [![English Version](https://img.shields.io/badge/Language-English_v1.2-blue.svg)](caderno-04-prototipo-conformidade-normas-ensaios-en.md)
 
 
-> **Estado editorial:** Edição pública publicada no Zenodo (versão 1.2, DOI [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559)). O texto organiza uma rota de investigação e conformidade; não constitui projeto estrutural, parecer jurídico, certificação, Documento de Avaliação Técnica, ART, RRT ou autorização de uso.
+> **Estado editorial:** Edição pública publicada no Zenodo. DOI de versão desta edição: [10.5281/zenodo.0000000](https://doi.org/10.5281/zenodo.0000000) — **a inserir após a reserva (portão P2)**; New version do registro 10.5281/zenodo.21738559; versão anterior: 10.5281/zenodo.21738559 (v1.2). O texto organiza uma rota de investigação e conformidade; não constitui projeto estrutural, parecer jurídico, certificação, Documento de Avaliação Técnica, ART, RRT ou autorização de uso.
 
 ## Resumo
 
@@ -540,4 +540,4 @@ TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura d
 
 ### Forma de citação
 
-TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.2, 1 ago. 2026. DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).
+TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.3, 3 ago. 2026. DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).

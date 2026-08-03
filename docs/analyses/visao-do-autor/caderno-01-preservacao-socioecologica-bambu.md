@@ -7,7 +7,7 @@ subtitulo_zenodo: Prova de conceito analítica e documental (maturidade da agend
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2026
-versao: 1.1
+versao: 1.2
 estado_documental: publicado-no-zenodo
 identificador: 10.5281/zenodo.21738428
 doi_conceitual: 10.5281/zenodo.21514735
@@ -26,7 +26,7 @@ financiamento: Esta publicação foi preparada no âmbito de proposta de financi
 
 **Fabio Takwara**  
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1 — versão 1.1, 1 ago. 2026*  
+*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1 — versão 1.2, 3 ago. 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738428.svg)](https://doi.org/10.5281/zenodo.21738428)
 [![English Version](https://img.shields.io/badge/Language-English_v1.1-blue.svg)](caderno-01-preservacao-socioecologica-bambu-en.md)
@@ -467,4 +467,4 @@ ZHANG, Ying et al. Evaluating the comprehensive influences of heat treatment and
 
 ### Citação
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão depositada 1.0, 22 jul. 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.2, 3 ago. 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
