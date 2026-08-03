@@ -3,19 +3,19 @@ tipo_documental: estado-da-arte-com-agenda-experimental
 serie: Cadernos de Revisão Ecológica e Soberania Tecnológica
 numero: 1
 titulo: Preservação do bambu sob perspectiva socioecológica — eficácia, durabilidade, toxicidade e circularidade dos tratamentos
-subtitulo_zenodo: Prova de conceito (TRL-3) e agenda experimental para seleção informada de tratamentos preservativos
+subtitulo_zenodo: Prova de conceito analítica e documental (maturidade da agenda de pesquisa) e agenda experimental para seleção informada de tratamentos preservativos
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
 ano: 2026
-versao: 1.0
-estado_documental: edicao-publica-preparada-para-deposito
-identificador: 10.5281/zenodo.21514736
+versao: 1.1
+estado_documental: publicado-no-zenodo
+identificador: 10.5281/zenodo.21738428
 doi_conceitual: 10.5281/zenodo.21514735
 licenca_texto: CC-BY-4.0
 metodo: revisao-de-escopo-documental-orientada-pelo-acervo
-nivel_maturidade_trl: 3
+nivel_maturidade_trl: agenda-de-pesquisa-sem-ensaioproprio
 trl_alvo: 4
-data_revisao: 2026-07-23
+data_revisao: 2026-08-01
 responsavel_curadoria: Fabio Takwara
 financiamento: Esta publicação foi preparada no âmbito de proposta de financiamento de P&D. O trabalho de curadoria documental que a fundamenta é independente e anterior à submissão.
 ---
@@ -26,34 +26,38 @@ financiamento: Esta publicação foi preparada no âmbito de proposta de financi
 
 **Fabio Takwara**  
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1 — versão 1.0, 23 jul. 2026*  
-*DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736)*
+*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1 — versão 1.1, 1 ago. 2026*  
 
-> **Nível de Maturidade Tecnológica (TRL):** Este caderno consolida a **prova de conceito (TRL-3)** para a seleção informada de tratamentos preservativos do bambu, com base em revisão de escopo documental de 17 fontes. A evidência compilada demonstra domínio do estado da arte, identifica lacunas críticas e propõe uma agenda experimental dirigida ao avanço para **TRL-4** (validação em ambiente laboratorial). O texto explicita o que a literatura já permite afirmar e, com igual clareza, o que ainda requer ensaio primário. Não constitui prescrição de uso, certificação, homologação ou recomendação de tratamento comercial.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738428.svg)](https://doi.org/10.5281/zenodo.21738428)
+[![English Version](https://img.shields.io/badge/Language-English_v1.1-blue.svg)](caderno-01-preservacao-socioecologica-bambu-en.md)
+
+*DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428)*
+
+> **Nível de Maturidade Tecnológica (TRL):** Este caderno consolida uma **prova de conceito analítica e documental** para a seleção informada de tratamentos preservativos do bambu, com base em revisão de escopo documental de 17 fontes. A evidência compilada demonstra domínio do estado da arte, identifica lacunas críticas e propõe uma agenda experimental dirigida ao avanço para **TRL-4** (validação em ambiente laboratorial). A maturidade descrita é da *agenda de pesquisa* (hipótese formulada a partir do acervo); a maturidade da tecnologia não está determinada, pois este caderno não contém ensaio primário próprio com controles. O texto explicita o que a literatura já permite afirmar e, com igual clareza, o que ainda requer ensaio primário. Não constitui prescrição de uso, certificação, homologação ou recomendação de tratamento comercial.
 
 ## Resumo
 
 Este caderno examina o que um conjunto de 17 documentos permite afirmar sobre tratamentos térmicos, químicos e pirolenhosos aplicados ao bambu. A revisão foi orientada pelo Acervo Soberania Tecnológica e ampliada por busca dirigida de quatro artigos primários. Os estudos foram comparados em quatro dimensões inseparáveis: eficácia contra organismos degradadores, efeito físico-mecânico, impacto ambiental e viabilidade operacional. O cruzamento mostra que não existe, no corpus, um tratamento universalmente superior. O vapor em faixa moderada apresenta a convergência mais promissora entre redução de umidade, preservação mecânica e ganho de durabilidade, mas a resposta depende de espécie, geometria, temperatura, tempo e equipamento. Boratos possuem evidência direta de eficácia antifúngica e podem preservar o desempenho mecânico, porém são lixiviáveis e exigem gestão de solução, efluentes e resíduos. Formulações tanino-boro mantiveram desempenho contra fungos mesmo após grande lixiviação de boro em ensaio laboratorial, sem encerrar as questões de formulação, escala e ciclo de vida. Os estudos com líquido ou ácido pirolenhoso sugerem atividade biológica em algumas condições, mas a evidência direta em bambu permanece insuficiente ou inconclusiva, e a variabilidade química do condensado impede tratá-lo genericamente como produto seguro. A síntese propõe que a preservação ecológica seja avaliada pela função entregue ao longo do tempo, combinando vida útil, segurança estrutural, exposição humana e ambiental, reparabilidade, capacidade local de controle e destino dos resíduos. O resultado é uma agenda experimental destinada a converter promessas em comparações verificáveis.
 
-**Palavras-chave:** bambu; preservação; tratamento térmico; boratos; líquido pirolenhoso; durabilidade; avaliação de ciclo de vida; TRL-3; tecnologia social.
+**Palavras-chave:** bambu; preservação; tratamento térmico; boratos; líquido pirolenhoso; durabilidade; avaliação de ciclo de vida; maturidade da agenda de pesquisa; tecnologia social.
 
 ## Abstract
 
 This notebook examines what a corpus of 17 documents supports regarding thermal, chemical, and pyroligneous treatments applied to bamboo. The review was guided by the *Acervo Soberania Tecnológica* and expanded through a directed search for four primary research articles. Studies were compared across four inseparable dimensions: effectiveness against degrading organisms, physical and mechanical effects, environmental impact, and operational feasibility. No universally superior treatment was found. Moderate steam treatment provides the most promising convergence between lower moisture uptake, mechanical integrity, and improved durability, although responses depend on species, geometry, temperature, duration, and equipment. Borates have direct evidence of antifungal efficacy and may preserve mechanical performance, but they are leachable and require proper management of solutions, effluents, and residues. Tannin-boron formulations maintained laboratory resistance against fungi even after substantial boron leaching, without resolving scale and life-cycle questions. Pyroligneous liquid studies indicate biological activity under some conditions, but direct evidence for bamboo remains insufficient or inconclusive, while the chemical variability of condensates prevents treating them generically as safe products. The synthesis proposes that ecological preservation should be assessed through the function delivered over time, combining service life, structural safety, human and environmental exposure, repairability, local process control, and waste destination. A staged research agenda is presented to turn technological promises into verifiable comparisons.
 
-**Keywords:** bamboo; preservation; heat treatment; borates; pyroligneous liquid; durability; life-cycle assessment; TRL-3; social technology.
+**Keywords:** bamboo; preservation; heat treatment; borates; pyroligneous liquid; durability; life-cycle assessment; research-agenda maturity; social technology.
 
 ---
 
 ## 1. Nível de Maturidade Tecnológica e posição desta publicação
 
-Este caderno insere-se em uma estratégia de pesquisa que parte do TRL-3 (prova de conceito analítica e experimental) e tem como alvo o TRL-7 (demonstração em ambiente operacional). A presente publicação cumpre a função de **consolidar a base de conhecimento** que justifica e orienta as etapas seguintes:
+Este caderno insere-se em uma estratégia de pesquisa que parte da **prova de conceito analítica e documental** (maturidade da agenda de pesquisa; a maturidade da tecnologia não está determinada, pois não há ensaio primário próprio com controles) e tem como alvo o TRL-7 (demonstração em ambiente operacional). A presente publicação cumpre a função de **consolidar a base de conhecimento** que justifica e orienta as etapas seguintes:
 
 | TRL | Atividade | Status neste caderno |
 |---|---|---|
 | 1 | Princípios básicos observados | Consolidado pela literatura |
 | 2 | Formulação de conceito tecnológico | Consolidado pela literatura |
-| **3** | **Prova de conceito analítica e experimental** | **Este caderno — revisão de escopo que mapeia lacunas e sustenta hipóteses** |
+| 3 | Prova de conceito analítica e experimental | **Não atingido por ensaio próprio** — este caderno entrega prova de conceito *analítica e documental* (revisão de escopo que mapeia lacunas e sustenta hipóteses); a validação experimental exige os ensaios da agenda (seção 9) |
 | 4 | Validação em ambiente laboratorial | Agenda experimental proposta (seção 9) |
 | 5 | Validação em ambiente relevante | Fase posterior da agenda |
 | 6 | Demonstração em ambiente relevante | Fase posterior |
@@ -187,7 +191,7 @@ O conjunto sustenta quatro conclusões:
 
 #### Calor seco e bambu laminado colado
 
-No TCC de Costa (2015), taliscas de *Dendrocalamus asper* foram tratadas a 150 ou 180 °C por duas ou quatro horas. A perda de massa variou de 11,47% a 14,86%. Em taliscas, 180 °C/4 h reduziu significativamente o MOE, e 180 °C/2 h e 180 °C/4 h reduziram o MOR diante da testemunha. O BLC tratado a 150 °C/2 h apresentou as maiores médias de MOE e MOR, mas muitas rupturas ocorreram na linha de cola e a fonte contém uma inconsistência interna entre texto e tabela de comparação estatística. O estudo não mediu biodurabilidade (Costa, 2015. TCC — Núcleo Takwara).
+No TCC de Costa (2015), taliscas de *Dendrocalamus asper* foram tratadas a 150 ou 180 °C por duas ou quatro horas. A perda de massa variou de 11,47% a 14,86%. Em taliscas, 180 °C/4 h reduziu significativamente o MOE, e 180 °C/2 h e 180 °C/4 h reduziram o MOR diante da testemunha. O BLC tratado a 150 °C/2 h apresentou as maiores médias de MOE e MOR, mas muitas rupturas ocorreram na linha de cola e a fonte contém uma inconsistência interna entre texto e tabela de comparação estatística. O estudo não mediu biodurabilidade (Costa, 2015. TCC — UnB).
 
 O resultado converge com o vapor: faixas moderadas podem preservar ou elevar uma propriedade específica, enquanto a severidade alta aumenta perda de massa e dano. Mas não permite afirmar que 150 °C/2 h seja universalmente ideal, nem que o ganho observado decorra apenas do tratamento, pois a fabricação do laminado introduziu variabilidade de colagem.
 
@@ -412,7 +416,7 @@ Preservar bambu de forma ecológica não é encontrar uma substância "verde", m
 
 O vapor moderado apresenta hoje, dentro deste corpus, a convergência experimental mais forte entre desempenho mecânico e biológico, especialmente com o avanço de ensaios em colmos inteiros. Ele não é automaticamente simples, barato ou de baixo impacto: energia, equipamento e espécie ainda precisam entrar na comparação. Boratos oferecem uma referência clara de eficácia antifúngica e compatibilidade mecânica, mas a água revela seu limite e transforma efluentes e resíduos em parte central da tecnologia. Tanino-boro mostrou proteção residual promissora, embora não tenha evitado a lixiviação de cerca de 82% do boro no estudo analisado. O líquido pirolenhoso possui sinais que justificam pesquisa, não uma validação geral; sua origem vegetal não remove a obrigação de caracterizar composição e contaminantes.
 
-**Posição no programa de P&D:** Esta revisão de escopo constitui a prova de conceito (TRL-3) do eixo de preservação do sistema construtivo bambu–PU vegetal. A agenda experimental proposta na seção 10 e as hipóteses quantificadas na seção 11 fornecem o roteiro para a fase de validação laboratorial (TRL-4), cujo financiamento é objeto da presente proposta. Ao explicitar o que a literatura já permite afirmar e o que ainda requer ensaio primário, o caderno reduz o risco tecnológico da etapa seguinte e estabelece critérios objetivos para a decisão de avanço, correção ou interrupção de cada linha de investigação.
+**Posição no programa de P&D:** Esta revisão de escopo constitui a prova de conceito analítica e documental (maturidade da agenda de pesquisa; maturidade da tecnologia não determinada) do eixo de preservação do sistema construtivo bambu–PU vegetal. A agenda experimental proposta na seção 10 e as hipóteses quantificadas na seção 11 fornecem o roteiro para a fase de validação laboratorial (TRL-4), cujo financiamento é objeto da presente proposta. Ao explicitar o que a literatura já permite afirmar e o que ainda requer ensaio primário, o caderno reduz o risco tecnológico da etapa seguinte e estabelece critérios objetivos para a decisão de avanço, correção ou interrupção de cada linha de investigação.
 
 ## Referências
 
@@ -424,7 +428,7 @@ CHOI, Yong-Hui et al. Unlocking durability enhancement in intact cylindrical Mos
 
 CHUNG, Min jay; WANG, Sheng Yang. Effects of peeling and steam-heating treatment on basic properties of two types of bamboo culms (*Phyllostachys makinoi* and *Phyllostachys pubescens*). *Journal of Wood Science*, v. 63, p. 473–482, 2017. DOI: 10.1007/s10086-017-1647-y.
 
-COSTA, Amanda Monteiro. *Tratamento térmico de Dendrocalamus asper para confecção de Bambu Laminado Colado (BLC)*. 2015. 37 f. Trabalho de Conclusão de Curso (Engenharia Florestal) — Núcleo Takwara, Brasília, 2015.
+COSTA, Amanda Monteiro. *Tratamento térmico de Dendrocalamus asper para confecção de Bambu Laminado Colado (BLC)*. 2015. 37 f. Trabalho de Conclusão de Curso (Engenharia Florestal) — Universidade de Brasília, Brasília, 2015.
 
 GAUSS, Christian. *Tratamentos para bambu*. Material de palestra promovido por BambuBR/PET Madeira, 2023.
 
@@ -457,10 +461,10 @@ ZHANG, Ying et al. Evaluating the comprehensive influences of heat treatment and
 **Autoria e perspectiva:** Fabio Takwara.  
 **Base documental:** Acervo Soberania Tecnológica, fontes integrais identificadas nas referências.  
 **Apoio editorial e analítico:** ferramenta de inteligência artificial foi utilizada para localizar relações entre fontes, estruturar a matriz comparativa, conferir consistência interna e apoiar a redação. A seleção interpretativa, a perspectiva socioecológica e a responsabilidade pela versão publicada permanecem com o autor.  
-**Nível de maturidade:** TRL-3 (prova de conceito analítica). A agenda experimental proposta visa o avanço ao TRL-4.  
+**Nível de maturidade:** prova de conceito analítica e documental (maturidade da agenda de pesquisa; maturidade da tecnologia não determinada). A agenda experimental proposta visa o avanço ao TRL-4.  
 **Financiamento:** Esta publicação foi preparada como parte de uma proposta de financiamento de P&D. O trabalho de curadoria documental que a fundamenta é independente e anterior à submissão.  
-**Publicação:** Versão depositada no Zenodo sob licença CC-BY-4.0. DOI pendente de atribuição.
+**Publicação:** Versão depositada no Zenodo sob licença CC-BY-4.0. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
 
 ### Citação
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão depositada 1.0, 22 jul. 2026. DOI pendente de atribuição.
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão depositada 1.1, 1 ago. 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
