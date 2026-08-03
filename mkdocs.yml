@@ -203,7 +203,11 @@ nav:
           - Cardoso e Lopes — ATHIS (2022): analyses/politica-habitacional/cardoso-2022-athis-assessoria-assistencia.md
           - "Chaves et al. — Belo Monte: reassentamentos (2019)": analyses/politica-habitacional/chaves-2019-belo-monte-reassentamentos-rurais.md
   - Bioeconomia amazônica:
-      - Bioeconomia: analyses/bioeconomia-amazonica/index.md
+      - Visão geral: analyses/bioeconomia-amazonica/index.md
+      - Estado da Arte (Síntese Curatorial Baseada em Evidências): analyses/bioeconomia-amazonica/estado-da-arte.md
+      - Mapa de Evidências: analyses/bioeconomia-amazonica/mapa-de-evidencias.md
+      - Mapa de Lacunas: analyses/bioeconomia-amazonica/mapa-de-lacunas.md
+      - Agenda de Pesquisa: analyses/bioeconomia-amazonica/agenda-de-pesquisa.md
       - Biochar e emissões negativas: analyses/bioeconomia-amazonica/ficha-biochar-negative-emissions-review.md
       - Desmatamento e sustentabilidade populacional: analyses/bioeconomia-amazonica/bologna-aquino-2020-desmatamento-populacao.md
       - Solo em sistemas integrados na Amazônia oriental: analyses/bioeconomia-amazonica/souza-et-al-2024-solo-sistemas-integrados.md
