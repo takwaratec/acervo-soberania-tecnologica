@@ -4,7 +4,7 @@ series: Notebooks on Ecological Revision and Technological Sovereignty
 number: 4
 title: From prototype to conformity — standards, testing, professional accountability, and release of bamboo components
 author: Fabio Takwara
-author_orcid: 0000-0001-8815-3885
+author_orcid: 0009-0002-6044-2583
 year: 2026
 version: 1.3
 document_status: published-on-zenodo
@@ -26,7 +26,7 @@ editorial_note: 'P-01 resolved (decision by Fabio, 2026-08-01): the IFB Campus P
 ## Standards, testing, professional accountability, and release of bamboo components
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Notebooks on Ecological Revision and Technological Sovereignty, n. 4 — version 1.3, August 3, 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738559.svg)](https://doi.org/10.5281/zenodo.21738559)

@@ -4,11 +4,11 @@ serie: Cadernos de Revisão Ecológica e Soberania Tecnológica
 numero: 4
 titulo: Do protótipo à conformidade — normas, ensaios, responsabilidade técnica e liberação de componentes de bambu
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.3
 estado_documental: publicado-no-zenodo
-identificador: 10.5281/zenodo.21738559
+identificador: 10.5281/zenodo.21778047
 licenca_texto: CC-BY-4.0
 metodo: revisao-normativa-documental-orientada-pelo-acervo
 data_revisao: 2026-08-01
@@ -22,14 +22,14 @@ nota_editorial: 'P-01 resolvida (decisão de Fabio, 2026-08-01): o docente do IF
 ## Normas, ensaios, responsabilidade técnica e liberação de componentes de bambu
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4 — versão 1.3, 3 ago. 2026*  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738559.svg)](https://doi.org/10.5281/zenodo.21738559)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21778047.svg)](https://doi.org/10.5281/zenodo.21778047)
 [![English Version](https://img.shields.io/badge/Language-English_v1.2-blue.svg)](caderno-04-prototipo-conformidade-normas-ensaios-en.md)
 
 
-> **Estado editorial:** Edição pública publicada no Zenodo. DOI de versão desta edição: [10.5281/zenodo.0000000](https://doi.org/10.5281/zenodo.0000000) — **a inserir após a reserva (portão P2)**; New version do registro 10.5281/zenodo.21738559; versão anterior: 10.5281/zenodo.21738559 (v1.2). O texto organiza uma rota de investigação e conformidade; não constitui projeto estrutural, parecer jurídico, certificação, Documento de Avaliação Técnica, ART, RRT ou autorização de uso.
+> **Estado editorial:** Edição pública publicada no Zenodo. DOI de versão desta edição: [10.5281/zenodo.21778047](https://doi.org/10.5281/zenodo.21778047); New version do registro 10.5281/zenodo.21738559; versão anterior: 10.5281/zenodo.21738559 (v1.2). O texto organiza uma rota de investigação e conformidade; não constitui projeto estrutural, parecer jurídico, certificação, Documento de Avaliação Técnica, ART, RRT ou autorização de uso.
 
 ## Resumo
 
@@ -540,4 +540,4 @@ TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura d
 
 ### Forma de citação
 
-TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.3, 3 ago. 2026. DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).
+TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.3, 3 ago. 2026. DOI: [10.5281/zenodo.21778047](https://doi.org/10.5281/zenodo.21778047).
