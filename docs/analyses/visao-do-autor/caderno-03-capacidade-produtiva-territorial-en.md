@@ -6,13 +6,14 @@ title: From component to territorial productive capacity — distributed manufac
 author: Fabio Takwara
 author_orcid: 0000-0001-8815-3885
 year: 2026
-version: 1.0
+version: 1.1
 document_status: published-on-zenodo
-identifier: https://doi.org/10.5281/zenodo.21514991
+identifier: https://doi.org/10.5281/zenodo.21738550
 text_license: CC-BY-4.0
 method: repository-guided-documentary-scope-review
 revision_date: 2026-07-23
 curation_responsible: Fabio Takwara
+editorial_note: 'P-01 resolved (decision by Fabio, 2026-08-01): the IFB Campus Planaltina faculty member cited in the Anais as Prof. Dr. Vicente Virgolino de Souza Neto is the same person as the Acervo profile Vicente de Paulo Borges Virgolino da Silva (coordinator of the Agronomy undergraduate program). Canonical form adopted: Vicente de Paulo Borges Virgolino da Silva. The Anais were not altered (historical record).'
 tipo_documental: estado-da-arte
 estado_documental: publicado-no-zenodo
 responsavel_curadoria: 'Fabio Takwara'
@@ -25,17 +26,17 @@ responsavel_curadoria: 'Fabio Takwara'
 
 **Fabio Takwara**  
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Notebooks on Ecological Revision and Technological Sovereignty, n. 3 — version 1.0, July 23, 2026*  
+*Notebooks on Ecological Revision and Technological Sovereignty, n. 3 — version 1.1, August 1, 2026*  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21514991.svg)](https://doi.org/10.5281/zenodo.21514991)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738550.svg)](https://doi.org/10.5281/zenodo.21738550)
 [![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green.svg)](caderno-03-capacidade-produtiva-territorial.md)
 
 
-> **Editorial status:** Public edition prepared for Zenodo deposit. This text presents an analytical and conceptual research architecture (TRL-3) and an experimental validation agenda for decentralized implementation. Specific parameters, equipment configurations, and detailed operational roadmaps remain restricted to R&D development plans.
+> **Editorial status:** Public edition published on Zenodo (version 1.1, DOI [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550); deposited via New version; previous version: 10.5281/zenodo.21514991). This text presents an analytical and conceptual research architecture (research-agenda maturity; technology maturity not determined) and an experimental validation agenda for decentralized implementation. It does not claim that the authorial portfolio is validated, certified, patented, transferred, or operating as an industrial system. Specific parameters, equipment configurations, and detailed operational roadmaps remain restricted to R&D development plans.
 
 ## Abstract
 
-This notebook examines the conditions under which materials, components, and equipment may become territorial productive capacity without reducing autonomy to the installation of machinery. The review connects studies on conservation-oriented bamboo value chains, biobased products and energy, culm standardization, panels, connections, adaptable housing, post-occupancy evaluation, bioeconomy, and ecological design principles. Cross-referencing the evidence reveals a structural economic advantage of decentralized bamboo manufacturing over centralized plants: fresh culms contain between 40% and 60% water by mass, and processing them at the harvest site eliminates the logistical transport of this water by road, substantially reducing operational expenditure (OPEX). Local pyrolysis of culm residues and ash recovery supply heat and inputs for the processing itself, closing the thermal circuit without external fuels. The proposed architecture organizes these functions into six interconnected circuits — territorial, material, productive, quality, learning, and feedback — and defines a research and validation agenda structured in seven stages, spanning from analytical proof of concept (TRL-3) to operational demonstration in a real environment (TRL-7). Technological sovereignty is defined as the collective capacity to understand, choose, produce, maintain, adapt, refuse, and evaluate solutions.
+This notebook examines the conditions under which materials, components, and equipment may become territorial productive capacity without reducing autonomy to the installation of machinery. The review connects studies on conservation-oriented bamboo value chains, biobased products and energy, culm standardization, panels, connections, adaptable housing, post-occupancy evaluation, bioeconomy, and ecological design principles. Cross-referencing the evidence indicates a **hypothesis of structural economic advantage** of decentralized bamboo manufacturing over centralized plants: fresh culms contain between 40% and 60% water by mass, and processing them at the harvest site eliminates the logistical transport of this water by road, with potential to reduce operational expenditure (OPEX) — an advantage that remains a **hypothesis to be proven by real mass balance and comparative cost analysis** (the notebook itself downgrades it in the limitations section). Local pyrolysis of culm residues and ash recovery may supply heat and inputs for the processing itself, with potential for closing the thermal circuit without external fuels — also a **hypothesis to be verified by thermal balance at bench or reduced scale**. The proposed architecture organizes these functions into six interconnected circuits — territorial, material, productive, quality, learning, and feedback — and defines a research and validation agenda structured in seven stages, spanning from **analytical and documentary proof of concept (research-agenda maturity; no experimental validation of its own to date)** to operational demonstration in a real environment (TRL-7). Technological sovereignty is defined as the collective capacity to understand, choose, produce, maintain, adapt, refuse, and evaluate solutions.
 
 **Keywords:** bamboo; distributed manufacturing; value chain; decentralized metrology; quality control; territorial bioeconomy; autonomy; logistical OPEX; TRL.
 
@@ -66,15 +67,17 @@ In the **Takwara Universe**, territorial capacity operates through six interconn
 
 ---
 
-## 3. Structural economic advantage: elimination of water transport OPEX
+## 3. Hypothesis of structural economic advantage: potential elimination of water transport OPEX
 
 Freshly harvested bamboo culms contain **40% to 60% water by mass**. In conventional centralized manufacturing, green culms are transported long distances by truck to a central plant, meaning nearly half of the freight expenditure (OPEX) pays for transporting water.
 
 Decentralized primary processing at the harvest site:
-- eliminates water transport freight;
-- reduces raw mass by ~50% prior to long-distance transport;
-- utilizes local culm offcuts for on-site pyrolysis (supplying thermal energy for drying and ash for conditioning);
-- drastically lowers transport-related carbon emissions.
+- may eliminate water transport freight;
+- may reduce the raw mass transported over long distances by up to 50% — **hypothesis to be proven by real mass balance and comparative cost analysis**;
+- can utilize local culm offcuts for on-site pyrolysis (potentially supplying thermal energy for drying and ash for conditioning);
+- may lower transport-related carbon emissions.
+
+The effective magnitude of these gains depends on scenario, distance, transport mode, and scale; the notebook treats them as hypotheses until mass and thermal balances are carried out.
 
 ---
 
@@ -106,7 +109,7 @@ SILVA, Martim Francisco de Oliveira e; PEREIRA, Felipe dos Santos; MARTINS, Jos�
 
 THIELKE, Caroline. *Avaliação pós-ocupação em habitação de interesse social: estudo de caso do Conjunto Habitacional Porto Novo*. 2021. B.Sc. thesis — Federal University of Rio Grande do Sul, Porto Alegre, 2021.
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.1, August 1, 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
 
 TAKWARA, Fabio. *From conditioned culm to protected component: interfaces, bio-based PU, internal filling, and integrated validation*. Notebooks on Ecological Revision and Technological Sovereignty, n. 2, deposited version 1.2, July 23, 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
 
@@ -122,4 +125,4 @@ TAKWARA, Fabio. *From conditioned culm to protected component: interfaces, bio-b
 
 ### Citation format
 
-TAKWARA, Fabio. *From component to territorial productive capacity: distributed manufacturing, quality control, and autonomy*. Notebooks on Ecological Revision and Technological Sovereignty, n. 3, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514991](https://doi.org/10.5281/zenodo.21514991).
+TAKWARA, Fabio. *From component to territorial productive capacity: distributed manufacturing, quality control, and autonomy*. Notebooks on Ecological Revision and Technological Sovereignty, n. 3, version 1.1, August 1, 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
