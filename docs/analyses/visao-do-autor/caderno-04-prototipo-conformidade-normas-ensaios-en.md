@@ -8,7 +8,7 @@ author_orcid: 0009-0002-6044-2583
 year: 2026
 version: 1.4
 document_status: published-on-zenodo
-identifier: https://doi.org/10.5281/zenodo.21778047
+identifier: https://doi.org/10.5281/zenodo.21780878
 text_license: CC-BY-4.0
 method: repository-guided-normative-scope-review
 revision_date: 2026-08-01
@@ -28,10 +28,10 @@ editorial_note: 'P-01 resolved (decision by Fabio, 2026-08-01): the IFB Campus P
 [ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Notebooks on Ecological Revision and Technological Sovereignty, n. 4 — version 1.4, August 3, 2026*  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21778047.svg)](https://doi.org/10.5281/zenodo.21778047)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21780878.svg)](https://doi.org/10.5281/zenodo.21780878)
 [![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green.svg)](caderno-04-prototipo-conformidade-normas-ensaios.md)
 
-> **Editorial status:** Public edition published on Zenodo. DOI of this edition's version: [10.5281/zenodo.0000000](https://doi.org/10.5281/zenodo.0000000) — **to be inserted after DOI reservation (gate P2)**; New version of record 10.5281/zenodo.21778047 (v1.3, Portuguese); English integral translation of v1.3. This text organizes a roadmap for research and conformity; it does not constitute a structural engineering design, legal opinion, certification, Technical Assessment Document (DATec), or technical responsibility record (ART/RRT).
+> **Editorial status:** Public edition published on Zenodo. DOI of this edition's version: [10.5281/zenodo.21780878](https://doi.org/10.5281/zenodo.21780878); New version of record 10.5281/zenodo.21778047 (v1.3, Portuguese); English integral translation of v1.3. This text organizes a roadmap for research and conformity; it does not constitute a structural engineering design, legal opinion, certification, Technical Assessment Document (DATec), or technical responsibility record (ART/RRT).
 
 ## Abstract
 
@@ -536,4 +536,4 @@ TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura d
 
 ### Citation format
 
-TAKWARA, Fabio. *From prototype to conformity: standards, testing, professional accountability, and release of bamboo components*. Notebooks on Ecological Revision and Technological Sovereignty, n. 4, version 1.4, August 3, 2026. DOI: [10.5281/zenodo.21778047](https://doi.org/10.5281/zenodo.21778047).
+TAKWARA, Fabio. *From prototype to conformity: standards, testing, professional accountability, and release of bamboo components*. Notebooks on Ecological Revision and Technological Sovereignty, n. 4, version 1.4, August 3, 2026. DOI: [10.5281/zenodo.21780878](https://doi.org/10.5281/zenodo.21780878).
