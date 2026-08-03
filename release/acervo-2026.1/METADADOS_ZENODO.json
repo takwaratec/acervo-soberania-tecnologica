@@ -1,0 +1,29 @@
+{
+  "titulo": "Acervo Soberania Tecnológica — Edição 2026.1",
+  "descricao": "Coleção curada de referência do Acervo Soberania Tecnológica: estados da arte, mapas e agendas (Bambu Estrutural, Poliuretano Vegetal, Bioeconomia Amazônica, Habitação Social, Reforma Agrária e Agrofloresta), Cadernos de Revisão Ecológica e Soberania Tecnológica (1-7), artefatos autorais da Tecnologia Takwara, metodologia e governança documental. DOI identifica; não comprova força científica.",
+  "versao": "2026.1",
+  "licenca": "cc-by-4.0",
+  "criadores": [
+    {
+      "nome": "Fabio Takwara",
+      "orcid": "PENDENTE"
+    }
+  ],
+  "palavras_chave": [
+    "soberania tecnológica",
+    "bambu",
+    "bioeconomia",
+    "habitação social",
+    "reforma agrária",
+    "curadoria documental"
+  ],
+  "idioma": "pt-BR",
+  "comunidade": "PENDENTE (a definir)",
+  "relacoes": {
+    "conceitual": "PENDENTE (reservar DOI na Frente H)",
+    "versao_anterior": "N/A (primeira edição da coleção)"
+  },
+  "arquivos_previstos": [
+    "acervo-soberania-tecnologica-2026.1.zip"
+  ]
+}

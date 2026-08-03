@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Se você usar estes dados, cite-os conforme indicado. DOI identifica; não comprova força científica."
+title: "Acervo Soberania Tecnológica — Edição 2026.1"
+type: dataset
+authors:
+  - family-names: "Takwara"
+    given-names: "Fabio"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # a preencher com ORCID real
+date-released: "2026-08-03"
+version: "2026.1"
+license: CC-BY-4.0
+keywords:
+  - soberania tecnológica
+  - bambu
+  - bioeconomia
+  - habitação social
+  - reforma agrária
+  - curadoria documental
+preferred-citation:
+  title: "Acervo Soberania Tecnológica — Edição 2026.1"
+  authors:
+    - family-names: "Takwara"
+      given-names: "Fabio"
+  year: 2026
+  type: dataset
+  version: "2026.1"
