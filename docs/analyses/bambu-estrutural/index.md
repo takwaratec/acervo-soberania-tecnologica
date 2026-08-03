@@ -20,9 +20,9 @@ Esta gaveta reúne fichas documentais sobre propriedades, tratamentos, aplicaç�
 
 Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revisão Ecológica e Soberania Tecnológica**:
 
-- [Caderno 1 — Preservação do bambu sob perspectiva socioecológica](../visao-do-autor/caderno-01-preservacao-socioecologica-bambu.md) | DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736)
+- [Caderno 1 — Preservação do bambu sob perspectiva socioecológica](../visao-do-autor/caderno-01-preservacao-socioecologica-bambu.md) | DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428)
 - [Caderno 2 — Do colmo condicionado ao componente protegido (v1.2)](../visao-do-autor/caderno-02-colmo-condicionado-componente-protegido.md) | DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977)
-- [Caderno 4 — Do protótipo à conformidade: normas, ensaios e liberação (v1.1)](../visao-do-autor/caderno-04-prototipo-conformidade-normas-ensaios.md) | DOI: [10.5281/zenodo.21515361](https://doi.org/10.5281/zenodo.21515361)
+- [Caderno 4 — Do protótipo à conformidade: normas, ensaios e liberação (v1.1)](../visao-do-autor/caderno-04-prototipo-conformidade-normas-ensaios.md) | DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559)
 
 ## Rastreabilidade da pesquisa e agenda autoral
 

@@ -1,19 +1,21 @@
 ---
+titulo: Do protótipo à conformidade — normas, ensaios, responsabilidade técnica e liberação de componentes de bambu
 tipo_documental: estado-da-arte
 serie: Cadernos de Revisão Ecológica e Soberania Tecnológica
 numero: 4
-titulo: Do protótipo à conformidade — normas, ensaios, responsabilidade técnica e liberação de componentes de bambu
 autor: Fabio Takwara
 orcid_autor: 0000-0001-8815-3885
-orcid_autor: 0000-0001-8815-3885
 ano: 2026
-versao: 1.0
-estado_documental: edicao-publica-preparada-para-deposito
-identificador: pendente-de-atribuicao
+versao: 1.2
+estado_documental: publicado-no-zenodo
+identificador: 10.5281/zenodo.21738559
+doi_conceitual: 10.5281/zenodo.21515209
+doi_versao_anterior: 10.5281/zenodo.21515210
 licenca_texto: CC-BY-4.0
 metodo: revisao-normativa-documental-orientada-pelo-acervo
-data_revisao: 2026-07-23
+data_revisao: 2026-08-01
 responsavel_curadoria: Fabio Takwara
+nota_versao: 'resolved — R-10: Zenodo API query (2026-08-01) confirms that record 10.5281/zenodo.21515361 corresponded to version 1.1 and that the new deposit (DOI 10.5281/zenodo.21738559) is version 1.2, according to the Zenodo version field (conceptual DOI 10.5281/zenodo.21515209); DOI 10.5281/zenodo.21515210 cited by Notebook 5 is version 1.0 (correct as citation of the previous version). Front matter updated to 1.2.'
 ---
 
 # Do protótipo à conformidade
@@ -22,9 +24,12 @@ responsavel_curadoria: Fabio Takwara
 
 **Fabio Takwara**  
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4 — versão 1.0, 23 jul. 2026*  
+*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4 — versão 1.2, 1 ago. 2026*  
 
-> **Estado editorial:** Edição pública preparada para depósito no Zenodo. O texto organiza uma rota de investigação e conformidade; não constitui projeto estrutural, parecer jurídico, certificação, Documento de Avaliação Técnica, ART, RRT ou autorização de uso.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738559.svg)](https://doi.org/10.5281/zenodo.21738559)
+[![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green.svg)](caderno-04-prototipo-conformidade-normas-ensaios.md)
+
+> **Estado editorial:** Edição pública publicada no Zenodo (versão 1.2, DOI [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559)). O texto organiza uma rota de investigação e conformidade; não constitui projeto estrutural, parecer jurídico, certificação, Documento de Avaliação Técnica, ART, RRT ou autorização de uso.
 
 ## Abstract
 
@@ -517,11 +522,11 @@ INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. [ISO 5660-1:2015 — Reaction-to
 
 MARÇAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais*. 2018. Dissertação (Mestrado em Arquitetura e Urbanismo) — Núcleo Takwara, Brasília, 2018.
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.1, 1 ago. 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
 
 TAKWARA, Fabio. *Do colmo condicionado ao componente protegido: interfaces, PU vegetal, preenchimento interno e validação integrada*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 2, versão depositada 1.2, 23 jul. 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
 
-TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura distribuída, controle de qualidade e autonomia*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21514991](https://doi.org/10.5281/zenodo.21514991).
+TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura distribuída, controle de qualidade e autonomia*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3, versão 1.1, 1 ago. 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
 
 ---
 
@@ -535,4 +540,4 @@ TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura d
 
 ### Forma de citação
 
-TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.0, 23 jul. 2026. DOI pendente de atribuição.
+TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.2, 1 ago. 2026. DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).

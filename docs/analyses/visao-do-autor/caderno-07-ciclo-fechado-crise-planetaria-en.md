@@ -200,10 +200,10 @@ Technology is not neutral. Every structural design choice carries social and eco
 
 ### Synthesized Notebook Series
 
-- **TAKWARA, F. R.** *Preservacao do bambu sob perspectiva socioecologica (Caderno 1).* DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
+- **TAKWARA, F. R.** *Preservacao do bambu sob perspectiva socioecologica (Caderno 1).* DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
 - **TAKWARA, F. R.** *Do colmo condicionado ao componente protegido (Caderno 2).* DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
-- **TAKWARA, F. R.** *Do componente a capacidade produtiva territorial (Caderno 3).* DOI: [10.5281/zenodo.21514991](https://doi.org/10.5281/zenodo.21514991).
-- **TAKWARA, F. R.** *Do prototipo a conformidade (Caderno 4).* DOI: [10.5281/zenodo.21515361](https://doi.org/10.5281/zenodo.21515361).
+- **TAKWARA, F. R.** *Do componente a capacidade produtiva territorial (Caderno 3).* DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
+- **TAKWARA, F. R.** *Do prototipo a conformidade (Caderno 4).* DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).
 - **TAKWARA, F. R.** *Do componente conforme ao habitar (Caderno 5).* DOI: [10.5281/zenodo.21515383](https://doi.org/10.5281/zenodo.21515383).
 - **TAKWARA, F. R.** *Biochar de biomassa e uso em cascata do bambu (Caderno 6).* DOI: [10.5281/zenodo.21515443](https://doi.org/10.5281/zenodo.21515443).
 - **TAKWARA, F. R.** *O ciclo que nao termina no descarte (Caderno 7).* DOI: [10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567).
