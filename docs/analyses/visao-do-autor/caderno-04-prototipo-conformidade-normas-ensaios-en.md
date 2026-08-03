@@ -6,16 +6,18 @@ title: From prototype to conformity — standards, testing, professional account
 author: Fabio Takwara
 author_orcid: 0000-0001-8815-3885
 year: 2026
-version: 1.0
+version: 1.2
 document_status: published-on-zenodo
-identifier: https://doi.org/10.5281/zenodo.21515361
+identifier: https://doi.org/10.5281/zenodo.21738559
 text_license: CC-BY-4.0
 method: repository-guided-normative-scope-review
-revision_date: 2026-07-23
+revision_date: 2026-08-01
 curation_responsible: Fabio Takwara
 tipo_documental: estado-da-arte
 estado_documental: publicado-no-zenodo
 responsavel_curadoria: 'Fabio Takwara'
+nota_versao: 'resolved — R-10: Zenodo API query (2026-08-01) confirms that record 10.5281/zenodo.21515361 corresponded to version 1.1 and that the new deposit (DOI 10.5281/zenodo.21738559) is version 1.2, according to the Zenodo version field (conceptual DOI 10.5281/zenodo.21515209); DOI 10.5281/zenodo.21515210 cited by Notebook 5 is version 1.0 (correct as citation of the previous version). Front matter updated to 1.2.'
+editorial_note: 'P-01 resolved (decision by Fabio, 2026-08-01): the IFB Campus Planaltina faculty member cited in the Anais as Prof. Dr. Vicente Virgolino de Souza Neto is the same person as the Acervo profile Vicente de Paulo Borges Virgolino da Silva (coordinator of the Agronomy undergraduate program). Canonical form adopted: Vicente de Paulo Borges Virgolino da Silva. The Anais were not altered (historical record).'
 
 ---
 
@@ -25,13 +27,13 @@ responsavel_curadoria: 'Fabio Takwara'
 
 **Fabio Takwara**  
 [ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Notebooks on Ecological Revision and Technological Sovereignty, n. 4 — version 1.0, July 23, 2026*  
+*Notebooks on Ecological Revision and Technological Sovereignty, n. 4 — version 1.2, August 1, 2026*  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515361.svg)](https://doi.org/10.5281/zenodo.21515361)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738559.svg)](https://doi.org/10.5281/zenodo.21738559)
 [![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green.svg)](caderno-04-prototipo-conformidade-normas-ensaios.md)
 
 
-> **Editorial status:** Public edition prepared for Zenodo deposit. This text organizes a roadmap for research and conformity; it does not constitute a structural engineering design, legal opinion, certification, Technical Assessment Document (DATec), or technical responsibility record (ART/RRT).
+> **Editorial status:** Public edition published on Zenodo (version 1.2, DOI [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559)). This text organizes a roadmap for research and conformity; it does not constitute a structural engineering design, legal opinion, certification, Technical Assessment Document (DATec), or technical responsibility record (ART/RRT).
 
 ## Abstract
 
@@ -82,11 +84,11 @@ INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. *ISO 22157:2019 — Bamboo struc
 
 MARÇAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais*. 2018. M.Sc. thesis — University of Brasília, Brasília, 2018.
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.1, August 1, 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
 
 TAKWARA, Fabio. *From conditioned culm to protected component: interfaces, bio-based PU, internal filling, and integrated validation*. Notebooks on Ecological Revision and Technological Sovereignty, n. 2, deposited version 1.2, July 23, 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
 
-TAKWARA, Fabio. *From component to territorial productive capacity: distributed manufacturing, quality control, and autonomy*. Notebooks on Ecological Revision and Technological Sovereignty, n. 3, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514991](https://doi.org/10.5281/zenodo.21514991).
+TAKWARA, Fabio. *From component to territorial productive capacity: distributed manufacturing, quality control, and autonomy*. Notebooks on Ecological Revision and Technological Sovereignty, n. 3, version 1.1, August 1, 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
 
 ---
 
@@ -100,4 +102,4 @@ TAKWARA, Fabio. *From component to territorial productive capacity: distributed 
 
 ### Citation format
 
-TAKWARA, Fabio. *From prototype to conformity: standards, testing, professional accountability, and release of bamboo components*. Notebooks on Ecological Revision and Technological Sovereignty, n. 4, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21515361](https://doi.org/10.5281/zenodo.21515361).
+TAKWARA, Fabio. *From prototype to conformity: standards, testing, professional accountability, and release of bamboo components*. Notebooks on Ecological Revision and Technological Sovereignty, n. 4, version 1.2, August 1, 2026. DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).
