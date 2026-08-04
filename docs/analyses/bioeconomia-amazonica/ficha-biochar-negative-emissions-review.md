@@ -98,4 +98,4 @@ A revisão funciona como mapa de entrada para o eixo biochar/bioenergia e comple
 
 **Referência ABNT:** MATARRU, Andre Amba; SHIN, Donghoon. Biochar Production Technology as a Negative Emission Strategy: A Review. *Energies*, v. 18, n. 18, art. 4898, 2025. DOI: [10.3390/en18184898](https://doi.org/10.3390/en18184898).
 
-> Ficha estruturada pelo protocolo de oito seções adotado pelo Acervo, inspirado nos materiais de Nathalia Cavichiolli. Conteúdo extraído do PDF integral; elaboração em 13/07/2026.
+> Ficha estruturada pelo protocolo de oito seções adotado pelo Acervo, com revisão humana e conferência da fonte integral. Conteúdo extraído do PDF integral; elaboração em 13/07/2026.

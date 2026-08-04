@@ -89,4 +89,4 @@ O estudo dialoga com modificação térmica de materiais lignocelulósicos, degr
 
 **Referência ABNT:** WANG, Xinzhou et al. Effect of high-temperature saturated steam treatment on the physical, chemical, and mechanical properties of moso bamboo. *Journal of Wood Science*, v. 66, art. 52, 2020. DOI: [10.1186/s10086-020-01899-8](https://doi.org/10.1186/s10086-020-01899-8).
 
-> Ficha estruturada pelo protocolo de oito seções adotado pelo Acervo, inspirado nos materiais de Nathalia Cavichiolli. Conteúdo extraído do PDF integral e conferido no registro oficial; elaboração em 13/07/2026.
+> Ficha estruturada pelo protocolo de oito seções adotado pelo Acervo, com revisão humana e conferência da fonte integral. Conteúdo extraído do PDF integral e conferido no registro oficial; elaboração em 13/07/2026.

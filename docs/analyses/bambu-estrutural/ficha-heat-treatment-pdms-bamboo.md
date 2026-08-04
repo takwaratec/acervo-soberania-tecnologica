@@ -90,4 +90,4 @@ O artigo amplia o estado da arte sobre meios líquidos de tratamento térmico e 
 
 **Referência ABNT:** ZHANG, Ying et al. Evaluating the comprehensive influences of heat treatment and polydimethylsiloxane on integrated performance of bamboo timber. *RSC Advances*, v. 10, n. 71, p. 43438–43446, 2020. DOI: [10.1039/d0ra08713k](https://doi.org/10.1039/d0ra08713k).
 
-> Ficha estruturada pelo protocolo de oito seções adotado pelo Acervo, inspirado nos materiais de Nathalia Cavichiolli. Conteúdo extraído do PDF integral original; elaboração em 13/07/2026.
+> Ficha estruturada pelo protocolo de oito seções adotado pelo Acervo, com revisão humana e conferência da fonte integral. Conteúdo extraído do PDF integral original; elaboração em 13/07/2026.
