@@ -79,13 +79,13 @@ SANTOS, Joyce Costa. *A percepção dos atores sociais frente à intervenção p
 
 SIMÕES, Gianna Monteiro Farias; LEDER, Solange Maria. Do assentamento irregular para a habitação seriada no Brasil. *Revista Brasileira de Estudos Urbanos e Regionais*, v. 26, n. 1, 2024. DOI: [10.22296/2317-1529.rbeur.202424pt](https://doi.org/10.22296/2317-1529.rbeur.202424pt).
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
 
 TAKWARA, Fabio. *From conditioned culm to protected component: interfaces, bio-based PU, internal filling, and integrated validation*. Notebooks on Ecological Revision and Technological Sovereignty, n. 2, deposited version 1.2, July 23, 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
 
-TAKWARA, Fabio. *From component to territorial productive capacity: distributed manufacturing, quality control, and autonomy*. Notebooks on Ecological Revision and Technological Sovereignty, n. 3, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
+TAKWARA, Fabio. *From component to territorial productive capacity: distributed manufacturing, quality control, and autonomy*. Notebooks on Ecological Revision and Technological Sovereignty, n. 3, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514991](https://doi.org/10.5281/zenodo.21514991).
 
-TAKWARA, Fabio. *From prototype to conformity: standards, testing, professional accountability, and release of bamboo components*. Notebooks on Ecological Revision and Technological Sovereignty, n. 4, version 1.1, July 23, 2026. DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).
+TAKWARA, Fabio. *From prototype to conformity: standards, testing, professional accountability, and release of bamboo components*. Notebooks on Ecological Revision and Technological Sovereignty, n. 4, version 1.4, August 3, 2026. DOI: [10.5281/zenodo.21780878](https://doi.org/10.5281/zenodo.21780878).
 
 THIELKE, Caroline. *Avaliação pós-ocupação em habitação de interesse social: estudo de caso do Conjunto Habitacional Porto Novo*. 2021. B.Sc. thesis — Federal University of Rio Grande do Sul, Porto Alegre, 2021.
 

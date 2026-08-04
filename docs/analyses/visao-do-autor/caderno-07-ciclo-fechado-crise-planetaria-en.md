@@ -21,7 +21,7 @@ responsavel_curadoria: Fabio Takwara
 **Author:** Fabio Takwara  
 **ORCID:** [0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 **Affiliation:** Nucleo Takwara  
-**Series:** Notebooks of Ecological Revision and Technological Sovereignty — Notebook 7  
+**Series:** Notebooks on Ecological Revision and Technological Sovereignty — Notebook 7  
 **DOI:** [https://doi.org/10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567)  
 **License:** CC BY 4.0  
 
@@ -200,13 +200,13 @@ Technology is not neutral. Every structural design choice carries social and eco
 
 ### Synthesized Notebook Series
 
-- **TAKWARA, F. R.** *Preservacao do bambu sob perspectiva socioecologica (Caderno 1).* DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
-- **TAKWARA, F. R.** *Do colmo condicionado ao componente protegido (Caderno 2).* DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
-- **TAKWARA, F. R.** *Do componente a capacidade produtiva territorial (Caderno 3).* DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
-- **TAKWARA, F. R.** *Do prototipo a conformidade (Caderno 4).* DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).
-- **TAKWARA, F. R.** *Do componente conforme ao habitar (Caderno 5).* DOI: [10.5281/zenodo.21515383](https://doi.org/10.5281/zenodo.21515383).
-- **TAKWARA, F. R.** *Biochar de biomassa e uso em cascata do bambu (Caderno 6).* DOI: [10.5281/zenodo.21515443](https://doi.org/10.5281/zenodo.21515443).
-- **TAKWARA, F. R.** *O ciclo que nao termina no descarte (Caderno 7).* DOI: [10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567).
+- **TAKWARA, Fabio.** *Preservacao do bambu sob perspectiva socioecologica (Caderno 1).* DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+- **TAKWARA, Fabio.** *Do colmo condicionado ao componente protegido (Caderno 2).* DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
+- **TAKWARA, Fabio.** *Do componente a capacidade produtiva territorial (Caderno 3).* DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
+- **TAKWARA, Fabio.** *Do prototipo a conformidade (Caderno 4).* DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).
+- **TAKWARA, Fabio.** *Do componente conforme ao habitar (Caderno 5).* DOI: [10.5281/zenodo.21515383](https://doi.org/10.5281/zenodo.21515383).
+- **TAKWARA, Fabio.** *Biochar de biomassa e uso em cascata do bambu (Caderno 6).* DOI: [10.5281/zenodo.21515443](https://doi.org/10.5281/zenodo.21515443).
+- **TAKWARA, Fabio.** *O ciclo que nao termina no descarte (Caderno 7).* DOI: [10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567).
 
 ---
 
@@ -218,4 +218,4 @@ Technology is not neutral. Every structural design choice carries social and eco
 
 ### Citation format
 
-TAKWARA, Fabio. *The cycle that does not end at disposal: bamboo, castor oil, and responsibility facing the planetary crisis*. Notebooks of Ecological Revision and Technological Sovereignty, Notebook 7, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567).
+TAKWARA, Fabio. *The cycle that does not end at disposal: bamboo, castor oil, and responsibility facing the planetary crisis*. Notebooks on Ecological Revision and Technological Sovereignty, Notebook 7, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567).
