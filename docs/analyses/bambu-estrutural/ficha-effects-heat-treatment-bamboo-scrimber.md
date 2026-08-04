@@ -97,4 +97,4 @@ O estudo ocupa a interface entre modificação térmica e compósitos densificad
 
 **Referência ABNT:** SHANGGUAN, Weiwei; GONG, Yingchun; ZHAO, Rongjun; REN, Haiqing. Effects of heat treatment on the properties of bamboo scrimber. *Journal of Wood Science*, v. 62, p. 383–391, 2016. DOI: [10.1007/s10086-016-1574-3](https://doi.org/10.1007/s10086-016-1574-3).
 
-> Ficha estruturada pelo protocolo de oito seções adotado pelo Acervo, inspirado nos materiais de Nathalia Cavichiolli. Conteúdo extraído do PDF integral; redação e avaliação crítica elaboradas em 13/07/2026.
+> Ficha estruturada pelo protocolo de oito seções adotado pelo Acervo, com revisão humana e conferência da fonte integral. Conteúdo extraído do PDF integral; redação e avaliação crítica elaboradas em 13/07/2026.

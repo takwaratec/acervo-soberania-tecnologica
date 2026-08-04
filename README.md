@@ -63,7 +63,7 @@ O conteúdo público está em `docs/analyses/`:
 
 ## Método documental
 
-As fichas usam uma adaptação do método Cavichiolli em oito seções:
+As fichas seguem um protocolo próprio de oito seções, com revisão humana, conferência da fonte integral e regras de rastreabilidade documental:
 
 1. dados gerais;
 2. estrutura e organização;

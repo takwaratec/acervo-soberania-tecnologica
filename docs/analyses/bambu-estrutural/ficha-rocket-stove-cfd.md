@@ -91,4 +91,4 @@ O estudo é pertinente ao eixo de bioenergia e fornos ecológicos como referênc
 
 **Referência ABNT:** STEFANDITYA, Yotam et al. Design of Rocket Stove with Computational Fluid Dynamics (CFD) Simulation. In: BOROBUDUR INTERNATIONAL SYMPOSIUM ON SCIENCE AND TECHNOLOGY, 4., 2022. *Proceedings [...]*. Atlantis Press, 2023. p. 12–19. DOI: [10.2991/978-94-6463-284-2_3](https://doi.org/10.2991/978-94-6463-284-2_3).
 
-> Ficha estruturada pelo protocolo de oito seções adotado pelo Acervo, inspirado nos materiais de Nathalia Cavichiolli. Conteúdo extraído do PDF integral; elaboração em 13/07/2026.
+> Ficha estruturada pelo protocolo de oito seções adotado pelo Acervo, com revisão humana e conferência da fonte integral. Conteúdo extraído do PDF integral; elaboração em 13/07/2026.

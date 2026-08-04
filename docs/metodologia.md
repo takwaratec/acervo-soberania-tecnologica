@@ -9,13 +9,15 @@ responsavel_curadoria: Fabio Takwara
 
 ## Protocolo de Análise
 
-Cada referência inserida neste repositório passa por um fluxo padronizado de 7 etapas, baseado nos **200+ Prompts para Escrever Artigos Científicos** (Cavichiolli, 2025) e adaptado para análise de trabalhos acadêmicos:
+Cada referência inserida neste repositório passa por um fluxo padronizado de 7 etapas, inspirado em diretrizes públicas de escrita acadêmica e de uso ético de inteligência artificial em pesquisa, de Nathalia Cavichiolli de Oliveira, e adaptado para análise de trabalhos acadêmicos:
+
+> **Declaração:** o Acervo Soberania Tecnológica não possui parceria, endosso ou autorização presumida de Nathalia Cavichiolli de Oliveira. A referência a diretrizes metodológicas é genérica e meramente indicativa: nenhum prompt, bloco, código, material comercial ou conteúdo operacional da autora é reproduzido, resumido ou vinculado a este repositório.
 
 > ⚠️ **REGRAS OBRIGATÓRIAS:** 
 > 1. **NUNCA** crie fichas de artigos/teses/PDFs sem que os campos de **autor, DOI, ISBN, ISSN** ou outro meio de identificação estejam preenchidos. Documento sem autoria identificada **não entra no acervo**.
 > 2. **NUNCA** referencie documentos incompletos. Se faltam dados essenciais (autor, ano, título completo), a ficha **não é criada** até que o PDF original seja acessado.
 > 3. **Sempre que identificar dados faltantes**, alerte o usuário para dar acesso ao original antes de prosseguir.
-> 4. Toda ficha deve conter **8 seções obrigatórias** conforme método Cavichiolli (2025) — se alguma seção não puder ser preenchida por falta de acesso ao PDF, a ficha não deve ser publicada.
+> 4. Toda ficha deve conter **8 seções obrigatórias** conforme a estrutura de oito seções adotada pelo Acervo, inspirada em diretrizes públicas associadas ao trabalho de Nathalia Cavichiolli de Oliveira e adaptada às regras próprias de conferência documental e revisão humana — se alguma seção não puder ser preenchida por falta de acesso ao PDF, a ficha não deve ser publicada.
 
 ### Etapa 1 — Extração e leitura inicial
 
@@ -88,19 +90,6 @@ A versão publicada contém a curadoria final. Comentários sobre erros de ficha
 
 ---
 
-## Prompts utilizados
-
-A análise aplica os seguintes prompts do ebook (ver [wiki de prompts](https://fabiotakwara.github.io/Analises-e-escrita-cientifica/prompts/)):
-
-| Seção do ebook | Prompt aplicado |
-|----------------|-----------------|
-| B1 — Revisão de Literatura | Planejamento de busca, Estado da arte, Mapa de controvérsias |
-| B2 — Processo de Publicação | Análise de adequação, Verificação de conformidade, Análise de impacto |
-| B3 — Normas Técnicas | Validação ABNT, Consistência terminológica |
-| A2 — Metodologia | Prompt de aprimoramento + prompts específicos |
-
----
-
 ## Template da ficha técnica
 
 Cada ficha segue este formato:
@@ -132,9 +121,3 @@ Cada ficha segue este formato:
 ## 8. Inserção no estado da arte
 [Conexões com outros trabalhos, relevância para o repositório]
 ```
----
-tipo_documental: material-didatico-institucional
-estado_documental: em-revisao-documental
-data_revisao: 2026-07-14
-responsavel_curadoria: Fabio Takwara
----
