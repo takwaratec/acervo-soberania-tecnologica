@@ -141,7 +141,7 @@ Não constitui evidência para bambu estrutural, PU vegetal, biomateriais, piró
 
 ## Relações
 
-- Plano de decoupagem: `PLANO_DECOUPAGEM_FICHAMENTO_AGROECOLOGIA.md`, **item 5.5** ("Internalização da Soberania Alimentar: Desafios do MST" — fontes complementares localizadas durante a busca), com DOI e página institucional conferidos; a ficha ingressa também pelo perfil temático soberania alimentar/agroecologia do eixo;
+- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública.
 - Proveniência: PDF baixado do portal da revista Retratos de Assentamentos (retratosdeassentamentos.com) em 2026-07-31 e conferido integralmente (34 páginas; hash SHA-256 `e652806c...`); ISSN 1516-8182 registrado conforme capa do PDF; DOI conferido no PDF e no plano;
 - Observação curatorial: o artigo é fonte primária de evidência sobre a relação MST-soberania alimentar, mas suas conclusões dizem respeito ao recorte Oeste do Paraná (10 entrevistas) — não devem ser generalizadas para o movimento como um todo sem outras fontes.
 

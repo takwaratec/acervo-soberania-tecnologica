@@ -146,4 +146,4 @@ O trabalho integra a linhagem experimental do grupo de Pirassununga (Gauss, Kadi
 ## Relações
 
 - **Conexão com tecnologias do Acervo:** **evidência direta.** A densificação termo-hidro-mecânica de bambu é tecnologia correlata ao processamento de bambu engenheirado previsto nas tecnologias do Acervo (Tecnologia Takwara); a dissertação fornece parâmetros de processo (140 °C, 5 MPa, 15 min, umidade 5–10%), propriedades resultantes (MOR até ~312 MPa, MOE 31,44 GPa no grupo com casca), ganho de aproveitamento de matéria-prima e as ressalvas de estabilidade dimensional (absorção de água e inchamento radial), que devem ser consideradas no projeto de painéis e na especificação de tratamentos complementares.
-- **Proveniência:** PDF integral obtido do repositório de teses da USP em 2026-07-31; hash SHA-256 abreviado a308eee0fdd4; texto integral preservado em `_privado/fontes-academicas/2022-sa-densificacao-dendrocalamus-asper/`.
+- **Proveniência:** PDF integral obtido do repositório de teses da USP em 2026-07-31; hash SHA-256 abreviado a308eee0fdd4; texto integral preservado em documentação privada do acervo.

@@ -26,7 +26,6 @@ palavras_chave:
   - caracterização da matriz polimérica
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 nota: "Documento usado APENAS para caracterização da matriz polimérica de PU de mamona (comportamento elétrico/dielétrico da matriz). NÃO é aplicação construtiva: o compósito 1-3 com bastões de PZT e MWCNT visa sensor de saúde estrutural."
 ---
 
@@ -111,4 +110,4 @@ A ficha entra no eixo PU vegetal exclusivamente como caracterização da matriz 
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** metodologica (uso restrito à caracterização da matriz polimérica de PU de mamona; não é aplicação construtiva).
-- **Proveniência:** download 2026-07-31 via API do Repositório Unesp; 88 páginas conferidas; hash f07a0f941166; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (PU-COMP-006); autor, orientador, coorientador e título completos confirmados na folha de rosto; DOI não declarado na fonte.
+- **Proveniência:** download 2026-07-31 via API do Repositório Unesp; 88 páginas conferidas; hash f07a0f941166; operação de fichamento curatorial (PU-COMP-006); autor, orientador, coorientador e título completos confirmados na folha de rosto; DOI não declarado na fonte.

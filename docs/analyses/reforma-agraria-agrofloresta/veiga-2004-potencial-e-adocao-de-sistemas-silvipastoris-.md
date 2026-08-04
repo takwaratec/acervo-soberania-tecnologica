@@ -34,4 +34,4 @@ Documento correlato na Infoteca-e: 'Sistemas silvipastoris na Amazônia Oriental
 ## Relações
 
 - Artigo-fonte: `brienza-junior-et-al-2011-sistemas-agroflorestais-amazonia.md`
-- Manifesto: `_privado/inventarios/MANIFESTO_BRIENZA_REFERENCIAS_CITADAS.md` (não commitado)
+- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública.

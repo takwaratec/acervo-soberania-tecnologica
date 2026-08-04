@@ -113,7 +113,7 @@ Os Anais são **memória histórica autoral** (tipo `memoria-historica`): docume
 |---|---|---|
 | P-01 | Divergência nominal do docente do IFB entre os Anais ("Vicente Virgolino de Souza Neto") e o perfil do Acervo ("Vicente de Paulo Borges Virgolino da Silva") | **RESOLVIDA (decisão de Fabio, 2026-08-01):** o docente é o professor Vicente Virgolino, cuja ficha perfil está no Acervo (`respaldo-academico/perfil-vicente-borges.md`); identidade confirmada pelo autor. Os Anais (registro histórico) permanecem intocados; a forma canônica passa a ser a do perfil |
 | P-02 | Inventário da fase 2010–2017 | Executar a tarefa `inventario-pre-institucional-2010-2017` (documentos primários, grau de rastreabilidade por item, sem reconstrução narrativa) |
-| P-03 | Conferência das transcrições na quarentena | Verificar as transcrições integrais em `_privado/fontes-documentais/anais-pesquisa-takwara-2018-2024/` contra os 23 PDFs originais antes de promover qualquer registro a `primario-contemporaneo` |
+| P-03 | Conferência das transcrições na quarentena | Verificar as transcrições integrais em documentação privada (fora da árvore pública) contra os 23 PDFs originais antes de promover qualquer registro a `primario-contemporaneo` |
 | R-ANAIS-01 | Parâmetros dos processos empíricos de imunização (caldo alcalino, pirolenhoso) não registrados nos Anais | Registrar parâmetros e observações em instrumento próprio antes de qualquer uso em ensaio futuro |
 | R-ANAIS-02 | Autotermia da unidade T01 sem balanço energético | Não empregar o termo "autotérmico" como resultado; mantê-lo como descrição do projeto e alvo de medição (H-BAM-013) |
 

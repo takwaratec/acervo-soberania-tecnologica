@@ -144,4 +144,4 @@ Para assegurar a máxima fidelidade histórica, transparência e respeito à gov
 ## 3. Rastreabilidade das Transcrições Integrais na Quarentena
 
 Todas as transcrições completas dos 23 PDFs originais estão preservadas para auditoria em:  
-`_privado/fontes-documentais/anais-pesquisa-takwara-2018-2024/`
+documentação privada (fora da árvore pública)

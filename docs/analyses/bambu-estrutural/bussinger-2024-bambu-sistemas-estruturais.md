@@ -133,4 +133,4 @@ A dissertação se insere na produção recente sobre arquitetura contemporânea
 ## Relações
 
 - **Conexão com tecnologias do Acervo:** **referência metodológica.** A dissertação fornece critérios verificáveis de durabilidade (classes de serviço da ISO 22156, teor de umidade de equilíbrio, prevenção de fissuras), classificação de varas (ABNT NBR 17043:2023: conicidade ≤ 1%, encurvamento L/100, critérios de descarte por fissuras) e controle de qualidade ao longo do beneficiamento, além de documentar conectores contemporâneos (violino, passarinho, peças metálicas aparafusadas, preenchimento com argamassa) — subsídio direto para os critérios técnicos dos manuais de conexões estruturais e de tratamento do bambu da Tecnologia Takwara.
-- **Proveniência:** PDF integral obtido do repositório de teses da USP em 2026-07-31; hash SHA-256 abreviado bb08fb125ca6; texto integral preservado em `_privado/fontes-academicas/2024-bussinger-bambu-sistemas-estruturais/`.
+- **Proveniência:** PDF integral obtido do repositório de teses da USP em 2026-07-31; hash SHA-256 abreviado bb08fb125ca6; texto integral preservado em documentação privada do acervo.

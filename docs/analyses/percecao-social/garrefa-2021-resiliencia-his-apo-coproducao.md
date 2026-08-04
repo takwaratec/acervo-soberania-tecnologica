@@ -23,7 +23,6 @@ palavras_chave:
   - Minha Casa Minha Vida
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 # Resilience in social housing developments through post-occupancy evaluation and co-production
@@ -172,4 +171,4 @@ Cinco ordens/categorias urbanas de avaliação (adaptadas pelo grupo MORA desde 
 
 **Conexão TTR:** metodologica — fornece um protocolo replicável de APO avançada + coprodução para diagnosticar vulnerabilidades e capacidades adaptativas em conjuntos habitacionais, diretamente utilizável na avaliação de desempenho social de soluções construtivas do Acervo.
 
-**Nota de proveniência:** ficha elaborada a partir da extração integral do PDF em `_privado/fontes-academicas/2021-garrefa-resiliencia-his-apo-coproducao/extracao.md` e dos metadados em `metadados.json` (pacote PSH-COMP-002). Autores confirmados na folha de rosto (p. 151). Divergência de autoria com o metadado do pacote declarada na seção 1. Licença CC BY declarada na p. 175. Data de acesso: 2026-07-31.
+**Nota de proveniência:** ficha elaborada a partir da extração integral do PDF em documentação privada do acervo e dos metadados do pacote (PSH-COMP-002). Autores confirmados na folha de rosto (p. 151). Divergência de autoria com o metadado do pacote declarada na seção 1. Licença CC BY declarada na p. 175. Data de acesso: 2026-07-31.

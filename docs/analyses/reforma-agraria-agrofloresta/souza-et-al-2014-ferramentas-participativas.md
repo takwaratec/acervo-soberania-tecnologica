@@ -151,7 +151,7 @@ Não constitui evidência para bambu estrutural, PU vegetal, biomateriais, piró
 
 ## Relações
 
-- Plano de decoupagem: `PLANO_DECOUPAGEM_FICHAMENTO_AGROECOLOGIA.md` — o artigo não consta nominalmente no plano; ingressa pelo eixo de metodologias participativas (ferramentas participativas da RBA, referido no item 3.1 e na seção 8 da ficha Petersen et al. 2017), em linha com a decoupagem contínua do eixo Reforma Agrária e Agrofloresta;
+- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública.
 - Proveniência: PDF baixado do portal de periódicos da Universidade de Brasília (periódicos.unb.br) em 2026-07-31 e conferido integralmente (14 páginas; hash SHA-256 `f79b2fdd...`); metadados de volume, número, páginas, ISSN e data de aceite conferidos no próprio PDF;
 - Observação: DOI registrado conforme identificação do plano de trabalho (10.33240/rba.v9i1.49660); a página de acesso do periódico deve ser consultada para confirmação final do DOI.
 

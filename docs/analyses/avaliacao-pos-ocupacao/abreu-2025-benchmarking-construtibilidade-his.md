@@ -23,7 +23,6 @@ palavras_chave:
   - habitação de interesse social
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 # Constructability assessment of social housing projects in Brazil: a quantitative benchmarking system
@@ -161,4 +160,4 @@ O artigo está organizado em: Abstract/Resumo; Introduction; Literature review (
 
 **Conexão TTR:** metodologica — fornece sistema de indicadores e benchmarks quantitativos de construtibilidade para HIS, instrumento de medição de desempenho aplicável à avaliação de soluções construtivas propostas pelo Acervo (padronização, produtividade, planejamento da produção).
 
-**Nota de proveniência:** ficha elaborada a partir da extração integral do PDF em `_privado/fontes-academicas/2025-abreu-benchmarking-construtibilidade-his/extracao.md` e dos metadados em `metadados.json` (pacote APO-COMP-003). Licença CC BY declarada na p. 23. Data de acesso: 2026-07-31.
+**Nota de proveniência:** ficha elaborada a partir da extração integral do PDF em documentação privada do acervo e dos metadados do pacote (APO-COMP-003). Licença CC BY declarada na p. 23. Data de acesso: 2026-07-31.

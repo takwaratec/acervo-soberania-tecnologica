@@ -138,7 +138,7 @@ Não constitui evidência para tecnologias do Acervo (bambu, PU, biochar); a con
 
 ## Relações
 
-- Plano de decoupagem: `PLANO_DECOUPAGEM_FICHAMENTO_AGROECOLOGIA.md` (item 3.7, prioridade máxima)
+- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública.
 - Endpoint verificado: Editora Expressão Popular (download cortesia confirmado em 2026-07-31)
 - Direitos: todos reservados (© Expressão Popular, 2025) — reprodução integral requer autorização; registrar apenas metadados e análise própria
 

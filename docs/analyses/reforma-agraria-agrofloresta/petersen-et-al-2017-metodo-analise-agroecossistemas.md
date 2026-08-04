@@ -131,7 +131,7 @@ Não constitui evidência para bambu estrutural, PU vegetal, biomateriais, piró
 
 ## Relações
 
-- Plano de decoupagem: `PLANO_DECOUPAGEM_FICHAMENTO_AGROECOLOGIA.md` (item 3.1, prioridade máxima)
+- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública.
 - Endpoint verificado: AS-PTA (download direto confirmado em 2026-07-31)
 - Direitos: obra institucional da AS-PTA; uso integral exige verificação de licença
 

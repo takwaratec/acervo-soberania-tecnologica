@@ -25,7 +25,6 @@ palavras_chave:
   - durabilidade
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Tese de doutorado (FZEA-USP, financiada pela FAPESP 2016/26022-9 e 2018/18571-8) sobre tratamento preservativo e modificação química do bambu para fins estruturais. O trabalho quantifica a retenção de boro (DOT) em *Dendrocalamus asper*: 14,79 kg/m³ (solução 5%) e 21,79 kg/m³ (8%), acima das recomendações AWPA (2,7 kg/m³) e IS 401:2001 (5 kg/m³) para uso interno; e mostra que o tratamento com tanino/hexamina/boro (T10HB5) manteve baixa perda de massa por fungos mesmo após lixiviação (7,58% para *Pycnoporus sanguineus* e 1,35% para *Gloeophyllum trabeum*, vs. 15,03%/10,52% da referência lixiviada).
@@ -92,4 +91,4 @@ A tese é referência central para o eixo de preservação do bambu do Acervo, c
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** direta (tratamento preservativo e modificação química do bambu).
-- **Proveniência:** download 2026-07-31 via teses USP; 333 páginas conferidas; hash dfc13c3c…; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (BAMBU-COMP-003 / FUND-COMP-002).
+- **Proveniência:** download 2026-07-31 via teses USP; 333 páginas conferidas; hash dfc13c3c…; operação de fichamento curatorial (BAMBU-COMP-003 / FUND-COMP-002).

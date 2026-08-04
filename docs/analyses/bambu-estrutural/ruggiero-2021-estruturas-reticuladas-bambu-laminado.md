@@ -24,7 +24,6 @@ palavras_chave:
   - simulação estrutural
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Tese de doutorado (FAU-USP, aprovada em 19/11/2021) que investiga o emprego do bambu laminado em estruturas reticuladas, com ênfase na fabricação digital como meio de viabilizar a complexidade geométrica. A autora valida a viabilidade do bambu laminado em estruturas reticuladas por simulações (Karamba 3D) de uma estrutura com três secções de laminado (10x3,8 / 10x7,6 / 15,2x7,6 cm → massas 445 / 892 / 1355 kg; deslocamentos máximos 13,94 / 3,76 / 1,71 cm) sem colapso em nenhuma opção, relacionando a fabricação digital ao controle de qualidade e à reprodutibilidade.
@@ -89,4 +88,4 @@ A tese amplia o eixo de bambu laminado do Acervo (Rusch 2019, Reghin 2018, Marti
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** direta (bambu laminado em estruturas reticuladas; fabricação digital como via de controle de qualidade).
-- **Proveniência:** download 2026-07-31 via teses USP; 297 páginas conferidas; hash 0b9a526c…; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (BAMBU-COMP-002).
+- **Proveniência:** download 2026-07-31 via teses USP; 297 páginas conferidas; hash 0b9a526c…; operação de fichamento curatorial (BAMBU-COMP-002).

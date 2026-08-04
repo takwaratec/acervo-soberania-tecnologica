@@ -161,7 +161,7 @@ A fonte não constitui evidência para bambu estrutural, PU vegetal, biomateriai
 
 ## Relações
 
-- Plano de decoupagem: `PLANO_DECOUPAGEM_FICHAMENTO_AGROECOLOGIA.md` (item 3.3, prioridade alta — "Revolução Agroecológica: o Movimento de Camponês a Camponês da ANAP em Cuba"; usos previstos: metodologia Camponês a Camponês, formação horizontal, intercâmbios, promotores camponeses, soberania alimentar, difusão social da agroecologia);
+- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública.
 - **Divergência de ano (observação de proveniência):** o item 3.3 do plano de decoupagem registrava "1. ed. em língua portuguesa. Brasil, 2011", e a página de créditos do PDF (p. 5) traz "Primeira edição em língua portuguesa: Brasil, 2011". Contudo, a ficha CIP e a folha de rosto do PDF indicam "São Paulo: Outras Expressões, 2012" (1. ed.), com ISBN 978-85-64421-20-2. Adotou-se **2012** como ano da edição em português, conforme a ficha CIP do arquivo efetivamente baixado; o ano de 2011 fica registrado como dado do plano/nota de créditos, não como ano catalográfico;
 - Endpoint verificado: página institucional do MST confirmada; PDF baixado em 2026-07-31 e conferido integralmente (153 páginas digitalizadas; hash SHA-256 `cf2fc80e...`);
 - Direitos: reprodução autorizada para fins não comerciais citando a fonte (declarado na p. 5 do PDF); obra original © 2010 ANAP e La Vía Campesina.

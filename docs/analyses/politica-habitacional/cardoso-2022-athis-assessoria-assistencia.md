@@ -25,7 +25,6 @@ palavras_chave:
   - prática profissional
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Artigo da RBEUR (v.24, e202210pt, 2022) que propõe um diálogo entre as noções de Assessoria e Assistência Técnica para Habitação de Interesse Social (ATHIS), tendo como ponto comum a atividade de arquitetos e urbanistas. Comenta o histórico de ações da área, a Lei 11.888/2008 e a construção da prática profissional, distinguindo assessoria (vínculo com movimentos e autogestão) de assistência técnica (serviço público), e discutindo a agenda institucional da ATHIS no Brasil.
@@ -88,4 +87,4 @@ Fonte estruturante do eixo de política habitacional do Acervo, complementando a
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** contextual (marco legal e prática profissional da ATHIS).
-- **Proveniência:** download 2026-07-31 via SciELO (RBEUR); 24 páginas conferidas; hash 8191426d…; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (PH-COMP-001 / FUND-COMP-003).
+- **Proveniência:** download 2026-07-31 via SciELO (RBEUR); 24 páginas conferidas; hash 8191426d…; operação de fichamento curatorial (PH-COMP-001 / FUND-COMP-003).

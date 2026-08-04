@@ -129,8 +129,7 @@ Não constitui evidência para bambu estrutural, PU vegetal, biomateriais ou bio
 
 ## Relações
 
-- Plano de decoupagem: `PLANO_DECOUPAGEM_FICHAMENTO_AGROECOLOGIA.md` (item 4.2 — referência ambígua 2, agora identificada)
-- Auditoria: `_privado/auditoria-agroecologia-2026/referencias_ambiguas.csv` (REF-AMB-02: identificado-com-seguranca)
+- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública.
 - Endpoint verificado: Cadernos de Agroecologia (ABA) — download direto confirmado em 2026-07-31
 - Direitos: CC BY-SA 4.0
 

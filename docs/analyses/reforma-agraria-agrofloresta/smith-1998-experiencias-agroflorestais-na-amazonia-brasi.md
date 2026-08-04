@@ -32,4 +32,4 @@ NÃO LOCALIZADO PDF integral. Relatório PPG7 (1998, 146 p.) não encontrado em 
 ## Relações
 
 - Artigo-fonte: `brienza-junior-et-al-2011-sistemas-agroflorestais-amazonia.md`
-- Manifesto: `_privado/inventarios/MANIFESTO_BRIENZA_REFERENCIAS_CITADAS.md` (não commitado)
+- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública.

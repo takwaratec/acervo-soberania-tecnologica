@@ -30,7 +30,6 @@ palavras_chave:
   - termogravimetria
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Artigo técnico-científico (Polímeros, vol. 23, n. 2, p. 201-205, 2013) que produz e caracteriza compósitos de resina poliuretana à base de óleo de mamona (POLIBOND, da Cequil) com partículas de bambu *Dendrocalamus giganteus* (10, 15 e 20% de PU em peso, prensados a 90 °C e 6,25 MPa). O aumento do teor de resina reduziu teor de umidade (9,9% → 8,8%), absorção de água (68,3% → 22,9%) e inchamento (16,3% → 12,3%), elevou a dureza Shore D (65,8 → 67,7) e a termogravimetria indicou interação química entre bambu e PU na polimerização in situ. O objetivo declarado é aproveitar resíduos da manufatura do bambu com uma resina sem compostos orgânicos voláteis.
@@ -116,4 +115,4 @@ Insere-se no eixo PU vegetal como evidência de que o PU de mamona atua como bar
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** direta (compósito bambu + PU de mamona).
-- **Proveniência:** download 2026-07-31 via SciELO; 5 páginas conferidas; hash 092addc3841a; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (PU-COMP-005); ano (2013), autores, DOI e ISSN confirmados na folha de rosto do PDF.
+- **Proveniência:** download 2026-07-31 via SciELO; 5 páginas conferidas; hash 092addc3841a; operação de fichamento curatorial (PU-COMP-005); ano (2013), autores, DOI e ISSN confirmados na folha de rosto do PDF.

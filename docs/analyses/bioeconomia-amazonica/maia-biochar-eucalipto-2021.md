@@ -29,7 +29,6 @@ palavras_chave:
   - terra preta de índio
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Capítulo 13 (p. 589-610) do livro "O eucalipto e a Embrapa: quatro décadas de pesquisa e desenvolvimento" (Embrapa Florestas, 2021), de autoria de Claudia Maria Branco de Freitas Maia, Marcela Guiotoku, Ricardo Trippia dos Guimarães Peixoto e Lucília Maria Parron Vargas. O capítulo define biochar (matriz heterogênea rica em carbono aromático, produzida por pirólise de biomassa obtida por critérios sustentáveis, para uso agropecuário ou florestal), situa sua origem conceitual nas Terras Pretas de Índio amazônicas (carbono pirogênico + fertilidade de longa duração) e revisa a pesquisa brasileira com eucalipto: composição química da madeira, efeito da temperatura de pirólise na qualidade do carvão, uso em substratos de mudas e em plantios (caso Embrapa/empresa reflorestadora no Paraná), além das lacunas de padronização analítica e regulamentação no Brasil.
@@ -110,4 +109,4 @@ A ficha ancora a definição e o estado da arte do biochar no Acervo, com víncu
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** direta (biochar — definição, pirólise, carbono estável e uso florestal; linha bioeconomia do Acervo).
-- **Proveniência:** download 2026-07-31 via Alice/Embrapa; 22 páginas conferidas; hash 2551cad3d99a; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (BIOAM-COMP-006); autores completos confirmados na folha de rosto do capítulo (p. 1), incluindo a quarta autora Lucília Maria Parron Vargas; DOI/ISSN/ISBN não declarados na fonte.
+- **Proveniência:** download 2026-07-31 via Alice/Embrapa; 22 páginas conferidas; hash 2551cad3d99a; operação de fichamento curatorial (BIOAM-COMP-006); autores completos confirmados na folha de rosto do capítulo (p. 1), incluindo a quarta autora Lucília Maria Parron Vargas; DOI/ISSN/ISBN não declarados na fonte.

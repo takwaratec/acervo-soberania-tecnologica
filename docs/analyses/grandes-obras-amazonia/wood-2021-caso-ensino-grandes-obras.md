@@ -27,7 +27,6 @@ palavras_chave:
   - grandes-obras
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 # Ficha GOA-002: Grandes Obras na Amazônia — caso de ensino sobre engajamento de atores sociais (Wood Jr. & Morais, 2021)
@@ -143,4 +142,4 @@ No Acervo, a ficha deve ser usada como material didático e inventário de diret
 
 **Conexão TTR: contextual** — não há relação técnica com a plataforma Tecnologia Takwara (bambu, pirólise, biochar, construção com biomateriais). A conexão é contextual: as 25 diretrizes e o processo de engajamento descritos delimitam o ambiente institucional e as exigências socioambientais que qualquer iniciativa construtiva de base local na Amazônia precisa considerar.
 
-**Nota de proveniência** — Ficha criada em 2026-07-31 a partir da leitura integral do PDF (13 p.), pasta-fonte `_privado/fontes-academicas/2021-wood-morais-caso-ensino-grandes-obras/` (extracao.md e metadados.json, id GOA-COMP-002). Operação: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO. Autores conferidos na folha de rosto (p. 1): Thomaz Wood Jr. e Dafne Oliveira Carlos de Morais (os metadados da pasta-fonte traziam placeholder "+ coautores"). Atenção à curadoria: o slug da pasta-fonte ("boehs") não corresponde a nenhum autor do caso; sugere-se renomear para `2021-wood-morais-caso-ensino-grandes-obras-amazonia`. Estado: em-revisao-documental — aguarda revisão humana antes de homologação.
+**Nota de proveniência** — Ficha criada em 2026-07-31 a partir da leitura integral do PDF (13 p.), pasta-fonte privada (extracao.md e metadados.json, id GOA-COMP-002). Autores conferidos na folha de rosto (p. 1): Thomaz Wood Jr. e Dafne Oliveira Carlos de Morais (os metadados da pasta-fonte traziam placeholder "+ coautores"). Estado: em-revisao-documental — aguarda revisão humana antes de homologação.

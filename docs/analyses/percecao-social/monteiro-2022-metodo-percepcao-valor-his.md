@@ -23,7 +23,6 @@ palavras_chave:
   - laddering
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 # Proposta de um método para avaliação da percepção de valor de técnicos e de usuários em Habitação de Interesse Social
@@ -168,4 +167,4 @@ O artigo segue a estrutura clássica de periódico com seções: Resumo/Abstract
 
 **Conexão TTR:** metodologica — o artigo fornece método replicável (questionário, planejamento amostral, laddering, MHV) para avaliar percepção de valor em HIS, aplicável como referência de instrumentos de avaliação de desempenho social de soluções construtivas.
 
-**Nota de proveniência:** ficha elaborada a partir da extração integral do PDF em `_privado/fontes-academicas/2022-monteiro-metodo-percepcao-valor-his/extracao.md` e dos metadados em `metadados.json` (pacote PSH-COMP-001). Nenhum dado foi obtido fora dessas fontes. Divergências de DOI/ano entre o cabeçalho do PDF e o registro do pacote foram declaradas nas seções 1 e 7. Data de acesso: 2026-07-31.
+**Nota de proveniência:** ficha elaborada a partir da extração integral do PDF em documentação privada do acervo e dos metadados do pacote (PSH-COMP-001). Nenhum dado foi obtido fora dessas fontes. Divergências de DOI/ano entre o cabeçalho do PDF e o registro do pacote foram declaradas nas seções 1 e 7. Data de acesso: 2026-07-31.
