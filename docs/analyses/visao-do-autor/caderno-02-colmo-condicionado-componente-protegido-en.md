@@ -122,7 +122,7 @@ SALIH, A. A.; ZULKIFLI, R.; AZHARI, C. H. Tensile properties and microstructure 
 
 SILVEIRA, Edilson Soares da. *Avaliação do controle sustentável do caruncho Dinoderus minutus Fabr. 1775 em pós-colheita de bambu*. 2015. Ph.D. thesis — Dom Bosco Catholic University, Campo Grande, 2015.
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
 
 WEI, Yang et al. Mechanical behavior of foam-filled bamboo composite tubes under axial compression. *Polymers*, v. 14, n. 10, 2006, 2022. DOI: [10.3390/polym14102006](https://doi.org/10.3390/polym14102006).
 

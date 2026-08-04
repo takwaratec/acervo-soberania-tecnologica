@@ -338,13 +338,13 @@ WORLD METEOROLOGICAL ORGANIZATION. *State of the Global Climate 2025*. Geneva: W
 
 ### Cadernos da série sintetizados
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.2, 3 ago. 2026. DOI: [10.5281/zenodo.21778046](https://doi.org/10.5281/zenodo.21778046).
 
 TAKWARA, Fabio. *Do colmo condicionado ao componente protegido: interfaces, PU vegetal, preenchimento interno e validação integrada*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 2, versão depositada 1.2, 23 jul. 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
 
-TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura distribuída, controle de qualidade e autonomia*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
+TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura distribuída, controle de qualidade e autonomia*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3, versão 1.1, 1 ago. 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
 
-TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.1, 23 jul. 2026. DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).
+TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.4, 3 ago. 2026. DOI: [10.5281/zenodo.21780878](https://doi.org/10.5281/zenodo.21780878).
 
 TAKWARA, Fabio. *Do componente conforme ao habitar: diagnóstico, ATHIS, adaptabilidade e avaliação pós-ocupação*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 5, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21515383](https://doi.org/10.5281/zenodo.21515383).
 

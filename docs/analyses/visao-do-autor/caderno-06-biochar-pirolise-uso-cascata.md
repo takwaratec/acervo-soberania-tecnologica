@@ -333,13 +333,13 @@ RODRIGUES, Leonor et al. The importance of biochar quality and pyrolysis yield f
 
 STEFANDITYA, Yotam et al. Design of Rocket Stove with Computational Fluid Dynamics (CFD) Simulation. In: BOROBUDUR INTERNATIONAL SYMPOSIUM ON SCIENCE AND TECHNOLOGY, 4., 2022. *Proceedings [...]*. Atlantis Press, 2023. p. 12–19. DOI: [10.2991/978-94-6463-284-2_3](https://doi.org/10.2991/978-94-6463-284-2_3).
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
 
 TAKWARA, Fabio. *Do colmo condicionado ao componente protegido: interfaces, PU vegetal, preenchimento interno e validação integrada*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 2, versão depositada 1.2, 23 jul. 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
 
-TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura distribuída, controle de qualidade e autonomia*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
+TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura distribuída, controle de qualidade e autonomia*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21514991](https://doi.org/10.5281/zenodo.21514991).
 
-TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.1, 23 jul. 2026. DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).
+TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.1, 23 jul. 2026. DOI: [10.5281/zenodo.21515361](https://doi.org/10.5281/zenodo.21515361).
 
 TAKWARA, Fabio. *Do componente conforme ao habitar: diagnóstico, ATHIS, adaptabilidade e avaliação pós-ocupação*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 5, versão 1.0, 23 jul. 2026. DOI: [10.5281/zenodo.21515383](https://doi.org/10.5281/zenodo.21515383).
 

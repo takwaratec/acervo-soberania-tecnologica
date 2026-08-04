@@ -81,13 +81,13 @@ RODRIGUES, Leonor et al. The importance of biochar quality and pyrolysis yield f
 
 STEFANDITYA, Yotam et al. Design of Rocket Stove with Computational Fluid Dynamics (CFD) Simulation. In: BIS-STE 2022. *Proceedings [...]*. Atlantis Press, 2023. p. 12–19. DOI: [10.2991/978-94-6463-284-2_3](https://doi.org/10.2991/978-94-6463-284-2_3).
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Notebooks on Ecological Revision and Technological Sovereignty, n. 1, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514736](https://doi.org/10.5281/zenodo.21514736).
 
 TAKWARA, Fabio. *From conditioned culm to protected component: interfaces, bio-based PU, internal filling, and integrated validation*. Notebooks on Ecological Revision and Technological Sovereignty, n. 2, deposited version 1.2, July 23, 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
 
-TAKWARA, Fabio. *From component to territorial productive capacity: distributed manufacturing, quality control, and autonomy*. Notebooks on Ecological Revision and Technological Sovereignty, n. 3, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21738550](https://doi.org/10.5281/zenodo.21738550).
+TAKWARA, Fabio. *From component to territorial productive capacity: distributed manufacturing, quality control, and autonomy*. Notebooks on Ecological Revision and Technological Sovereignty, n. 3, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21514991](https://doi.org/10.5281/zenodo.21514991).
 
-TAKWARA, Fabio. *From prototype to conformity: standards, testing, professional accountability, and release of bamboo components*. Notebooks on Ecological Revision and Technological Sovereignty, n. 4, version 1.1, July 23, 2026. DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).
+TAKWARA, Fabio. *From prototype to conformity: standards, testing, professional accountability, and release of bamboo components*. Notebooks on Ecological Revision and Technological Sovereignty, n. 4, version 1.1, July 23, 2026. DOI: [10.5281/zenodo.21515361](https://doi.org/10.5281/zenodo.21515361).
 
 TAKWARA, Fabio. *From conforming component to living space: diagnosis, ATHIS, adaptability, and post-occupancy evaluation*. Notebooks on Ecological Revision and Technological Sovereignty, n. 5, version 1.0, July 23, 2026. DOI: [10.5281/zenodo.21515383](https://doi.org/10.5281/zenodo.21515383).
 
