@@ -26,7 +26,6 @@ palavras_chave:
   - reassentamento
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 # Ficha GOA-004: Retiradas triunfais e populações deslocadas por projetos de desenvolvimento (Scott, 2025)
@@ -132,4 +131,4 @@ O conceito de "retirada triunfal" pode instrumentalizar a leitura do Acervo sobr
 
 **Conexão TTR: contextual** — não há relação técnica com a plataforma Tecnologia Takwara (bambu, pirólise, biochar, construção com biomateriais). A conexão é contextual: o artigo fornece a chave crítica sobre como grandes projetos tratam territórios e populações — relevante para situar qualquer proposta construtiva de base local na Amazônia frente às dinâmicas de apropriação territorial, deslocamento e resistência descritas.
 
-**Nota de proveniência** — Ficha criada em 2026-07-31 a partir da leitura integral do PDF (20 p.), pasta-fonte `_privado/fontes-academicas/2025-scott-retiradas-triunfais-deslocados/` (extracao.md e metadados.json, id GOA-COMP-004). Operação: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO. Autor conferido na folha de rosto (p. 1): Parry Scott (UFPE-PPGA). Atenção à curadoria: o slug da pasta-fonte ("zhoury") não corresponde ao autor do artigo (Andréa Zhouri é citada apenas como referência bibliográfica); sugere-se renomear para `2025-scott-retiradas-triunfais-deslocados`. A licença CC BY 4.0 está declarada na p. 1 do PDF. Estado: em-revisao-documental — aguarda revisão humana antes de homologação.
+**Nota de proveniência** — Ficha criada em 2026-07-31 a partir da leitura integral do PDF (20 p.), pasta-fonte privada (extracao.md e metadados.json, id GOA-COMP-004). Autor conferido na folha de rosto (p. 1): Parry Scott (UFPE-PPGA). A licença CC BY 4.0 está declarada na p. 1 do PDF. Estado: em-revisao-documental — aguarda revisão humana antes de homologação.

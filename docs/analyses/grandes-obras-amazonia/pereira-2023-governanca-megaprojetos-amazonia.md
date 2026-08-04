@@ -29,7 +29,6 @@ palavras_chave:
   - amazonia
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 # Ficha GOA-001: Arranjos de governança e sustentabilidade socioambiental em megaprojetos na Amazônia (Pereira, Gomide, Machado & Ibiapino, 2023)
@@ -55,7 +54,7 @@ operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 | **Data de acesso** | 2026-07-31 |
 | **Hash SHA-256** | `a76ccbebe79d1b8071559143aea42f0b53b7e4da3189d0285b52411fd5aed2cb` |
 
-**Nota de autoria:** conferida na folha de rosto (p. 1 do PDF). A filiação de Marcela Ibiapino é a Universidade Federal de Goiás (UFG), não o IPEA. Os metadados da pasta-fonte registram o slug `2023-pereira-governanca-megaprojetos-amazonia`; o sobrenome "Cavalcante" não corresponde a nenhum autor do artigo — o primeiro autor confirmado é Ana Karine Pereira. Recomenda-se alinhar o slug da pasta-fonte ao autor real em revisão futura.
+**Nota de autoria:** conferida na folha de rosto (p. 1 do PDF). A filiação de Marcela Ibiapino é a Universidade Federal de Goiás (UFG), não o IPEA. Os metadados internos registravam o sobrenome "Cavalcante", que não corresponde a nenhum autor do artigo — o primeiro autor confirmado é Ana Karine Pereira.
 
 ## 2. Estrutura e organização
 
@@ -135,4 +134,4 @@ O artigo fornece evidência empírica sobre *como* a participação social opera
 
 **Conexão TTR: contextual** — não há relação técnica com a plataforma Tecnologia Takwara (bambu, pirólise, biochar, construção com biomateriais). A conexão é contextual: o artigo descreve o ambiente institucional e os arranjos de governança em que grandes obras na Amazônia são decididas e implementadas, fornecendo leitura crítica sobre participação social e desenvolvimento territorial que contextualiza a atuação da plataforma na região.
 
-**Nota de proveniência** — Ficha criada em 2026-07-31 a partir da leitura integral do PDF (27 p.), pasta-fonte `_privado/fontes-academicas/2023-pereira-governanca-megaprojetos-amazonia/` (extracao.md e metadados.json, id GOA-COMP-001). Operação: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO. Autores conferidos na folha de rosto (p. 1). Atenção à curadoria: o slug da pasta-fonte ("cavalcante") não corresponde a nenhum autor do artigo; sugere-se renomear para `2023-pereira-governanca-megaprojetos-amazonia`. Estado: em-revisao-documental — aguarda revisão humana antes de homologação.
+**Nota de proveniência** — Ficha criada em 2026-07-31 a partir da leitura integral do PDF (27 p.), pasta-fonte privada (extracao.md e metadados.json, id GOA-COMP-001). Autores conferidos na folha de rosto (p. 1). Estado: em-revisao-documental — aguarda revisão humana antes de homologação.

@@ -29,7 +29,6 @@ palavras_chave:
   - construção civil
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Dissertação pioneira (EESC-USP, 1996, defesa em 29/02/1996) sobre o uso da resina poliuretana à base de óleo de mamona na construção civil, cobrindo quatro modalidades: impregnação de matrizes de cimento (detalhada), concreto resina (massa específica normal e baixa), sistemas de impermeabilização de coberturas e uso como adesivo. Os ensaios mostraram ganhos expressivos nas argamassas impregnadas (absorção de água reduzida em cerca de 98%, resistência à abrasão cerca de 70% maior, compressão até ~2x), boa resistência química frente a meios agressivos e manutenção da alcalinidade da matriz. Documento digitalizado de scan antigo, com OCR imperfeito; trechos de tabelas estão ilegíveis no scan e não foram reconstruídos por inferência.
@@ -122,4 +121,4 @@ O concreto de cimento Portland é poroso e suscetível à penetração de água 
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** direta (resina PU de mamona em aplicações construtivas: impregnação, concreto resina, impermeabilização, aderência).
-- **Proveniência:** download 2026-07-31 da Biblioteca Digital de Teses e Dissertações da USP; 175 páginas digitalizadas conferidas (ficha catalográfica declara 163 p.); hash fd3fcc50eb4e; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (PU-COMP-004); scan antigo com OCR imperfeito — trechos marcados como ilegíveis no scan.
+- **Proveniência:** download 2026-07-31 da Biblioteca Digital de Teses e Dissertações da USP; 175 páginas digitalizadas conferidas (ficha catalográfica declara 163 p.); hash fd3fcc50eb4e; operação de fichamento curatorial (PU-COMP-004); scan antigo com OCR imperfeito — trechos marcados como ilegíveis no scan.

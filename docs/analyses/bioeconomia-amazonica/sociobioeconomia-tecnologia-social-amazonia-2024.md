@@ -28,7 +28,6 @@ palavras_chave:
   - cadeia da borracha
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Artigo teórico-empírico (RAC, v. 28, n. 6, e240223, 2024) que propõe um framework analítico integrando a sociobioeconomia (concepção contra-hegemônica de bioeconomia defendida por movimentos sociais amazônicos) à abordagem de tecnologia social, ancorada no conceito de sistema tecnológico social (Thomas, Dagnino, Juárez). O framework articula três dimensões da sociobioeconomia — social, bioterritorial e econômica (12 propriedades) — a um eixo transversal tecnológico. Foi aplicado à cadeia da borracha natural no Pará (caso Poloprobio, com três tecnologias sociais integradas: Encauchados de Vegetais da Amazônia, Cernambi Virgem Ecológico e metodologia de reaplicação), evidenciando viabilidade analítica inicial. Autores confirmados na folha: Diana Cruz Rodrigues (autora correspondente), Artur da Silva Ribeiro e João Paulo dos Santos da Silva (Universidade da Amazônia) e Cláudia Souza Passador (USP/FEA-RP).
@@ -109,4 +108,4 @@ No eixo bioeconomia amazônica, a ficha fornece a moldura conceitual para avalia
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** contextual (política/território — framework de sociobioeconomia e sistema tecnológico social para a Amazônia).
-- **Proveniência:** download 2026-07-31 via SciELO; 16 páginas conferidas; hash 830e4924a63d; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (BIOAM-COMP-002); autores completos confirmados na folha de rosto (p. 1 e p. 15); licença CC BY 4.0 declarada na p. 15.
+- **Proveniência:** download 2026-07-31 via SciELO; 16 páginas conferidas; hash 830e4924a63d; operação de fichamento curatorial (BIOAM-COMP-002); autores completos confirmados na folha de rosto (p. 1 e p. 15); licença CC BY 4.0 declarada na p. 15.

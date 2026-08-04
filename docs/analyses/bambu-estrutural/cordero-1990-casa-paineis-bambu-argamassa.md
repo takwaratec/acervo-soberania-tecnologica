@@ -24,7 +24,6 @@ palavras_chave:
   - desempenho térmico
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Dissertação histórica (EESC-USP, 1990; digitalizada em 2026) que desenvolve e ensaia um sistema construtivo de painéis de bambu-argamassa para habitação de baixa renda. Foram ensaiadas 16 vigas de bambu-argamassa (3 x 20 x 120 cm) com régua de *Bambusa gigantea*, tratamentos CCA, Pentox e frio asfalto; a impermeabilização com frio asfalto deu a menor absorção de água (2,3% vs. 3,8% da testemunha, p. 70) e o melhor desempenho em flexão; a conclusão (p. 112) aponta o sistema como alternativa viável. Scan com OCR imperfeito — trechos ilegíveis marcados.
@@ -87,4 +86,4 @@ Registro histórico fundamental para o eixo de bambu estrutural: documenta a tra
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** analogia-tecnica (painéis de bambu-argamassa; histórico que precede os bioconcretos atuais).
-- **Proveniência:** download 2026-07-31 via teses USP; 154 páginas (scan) conferidas; hash 41baaf2b…; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (BAMBU-COMP-006; tipo historico).
+- **Proveniência:** download 2026-07-31 via teses USP; 154 páginas (scan) conferidas; hash 41baaf2b…; operação de fichamento curatorial (BAMBU-COMP-006; tipo historico).

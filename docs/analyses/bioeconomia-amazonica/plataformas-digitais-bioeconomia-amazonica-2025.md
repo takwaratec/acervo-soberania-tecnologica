@@ -29,7 +29,6 @@ palavras_chave:
   - sustentabilidade
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Revisão sistemática de literatura (Gestão & Produção, v. 32, e14724, 2025) baseada em 56 artigos (Scopus, Web of Science e SciELO; 2018-2024) sobre como plataformas digitais podem valorizar produtos florestais não madeireiros (PFNMs) na Amazônia. Os achados indicam que blockchain e Internet das Coisas (IoT) aprimoram rastreabilidade, autenticidade e conformidade sustentável, e que inteligência artificial apoia previsão de demanda e acesso a mercado. Os autores propõem um framework de plataforma digital com quatro pilares: rastreabilidade e autenticação; previsão de demanda e gestão de mercado; capacitação comunitária; e monitoramento ambiental com certificações sustentáveis. Barreiras estruturais (infraestrutura tecnológica, conectividade, capacidade local) permanecem como desafios centrais. Autores confirmados na folha: Júlio César Klipel Silva, Rodrigo Duarte Soliani, Genildo Cavalcante Ferreira-Júnior (IFAC/PROFNIT), Nataša Lovrić (University of Eastern Finland) e Mario Sérgio Pedroza Lobão (IFAC) — Pedro Munari figura apenas como editor-chefe do periódico.
@@ -115,4 +114,4 @@ No eixo bioeconomia amazônica, a ficha complementa a de Rodrigues et al. (2024)
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** contextual (PFNM, cadeias de valor, rastreabilidade e plataformas digitais na Amazônia).
-- **Proveniência:** download 2026-07-31 via SciELO; 22 páginas conferidas; hash f609df07a427; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (BIOAM-COMP-003); autores completos confirmados na folha de rosto (p. 1 e p. 22); licença CC BY 4.0 declarada na p. 1.
+- **Proveniência:** download 2026-07-31 via SciELO; 22 páginas conferidas; hash f609df07a427; operação de fichamento curatorial (BIOAM-COMP-003); autores completos confirmados na folha de rosto (p. 1 e p. 22); licença CC BY 4.0 declarada na p. 1.

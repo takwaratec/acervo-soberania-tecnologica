@@ -150,7 +150,7 @@ Relação com demais eixos do Acervo: o uso de SAFs como estratégia de produç�
 
 ## Relações
 
-- Plano de decoupagem: `PLANO_DECOUPAGEM_FICHAMENTO_AGROECOLOGIA.md` (item 3.5, prioridade máxima)
+- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública.
 - Ficha evoluída de registro para 8 seções em 2026-07-31 com PDF integral (266 p.); autores conforme folha de rosto
 - Proveniência: PDF fornecido pelo curador (download manual 2026-07-31); registro público em ResearchGate 311766381
 - Direitos: obra institucional ISPN/ICRAF; uso integral exige verificação de licença

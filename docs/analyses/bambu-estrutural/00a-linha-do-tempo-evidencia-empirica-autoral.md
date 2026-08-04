@@ -106,7 +106,7 @@ Conforme o complemento (seção 8), os artefatos do eixo preservam:
 
 ## 7. Cadeia de custódia
 
-As transcrições integrais dos 23 PDFs originais estão preservadas para auditoria em `_privado/fontes-documentais/anais-pesquisa-takwara-2018-2024/` (quarentena, fora da árvore pública), conforme os Anais (seção 3). Os documentos de prova citados na tabela referem-se às transcrições identificadas nos Anais; a conferência do original é pré-condição para promover qualquer registro a `primario-contemporaneo`.
+As transcrições integrais dos 23 PDFs originais estão preservadas para auditoria em documentação privada (fora da árvore pública) (quarentena, fora da árvore pública), conforme os Anais (seção 3). Os documentos de prova citados na tabela referem-se às transcrições identificadas nos Anais; a conferência do original é pré-condição para promover qualquer registro a `primario-contemporaneo`.
 
 ## 8. Relação com os demais artefatos 00
 

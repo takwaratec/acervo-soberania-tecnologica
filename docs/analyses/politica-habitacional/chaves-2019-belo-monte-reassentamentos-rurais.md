@@ -26,7 +26,6 @@ palavras_chave:
   - deslocamento compulsório
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Artigo da Revista Direito GV (v.15 n.2, e1913, maio-ago 2019) sobre os reassentamentos rurais da UHE Belo Monte. Os autores analisam o processo de reassentamento à luz do direito à moradia adequada — que compreende não só condições objetivas da habitação, mas também as redes de relações sociais, os locais de realização dos meios de vida e a participação social dos atingidos — discutindo os limites do reassentamento como resposta aos deslocamentos compulsórios.
@@ -89,4 +88,4 @@ Fonte estruturante para reabrir o eixo de grandes obras e reassentamentos do Ace
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** contextual (reassentamentos de grandes obras; direito à moradia adequada).
-- **Proveniência:** download 2026-07-31 via SciELO (Direito GV); 27 páginas conferidas; hash 53ca6685…; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (PH-COMP-003 / GOA-COMP-003 — mesma obra).
+- **Proveniência:** download 2026-07-31 via SciELO (Direito GV); 27 páginas conferidas; hash 53ca6685…; operação de fichamento curatorial (PH-COMP-003 / GOA-COMP-003 — mesma obra).

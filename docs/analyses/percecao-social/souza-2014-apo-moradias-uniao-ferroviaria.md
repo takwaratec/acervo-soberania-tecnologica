@@ -23,7 +23,6 @@ palavras_chave:
   - reassentamento
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 # Avaliação Pós-Ocupação do conjunto habitacional Moradias União Ferroviária Bolsão Audi/União, Curitiba (PR)
@@ -48,7 +47,6 @@ operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 | **Objeto** | Conjunto habitacional Moradias União Ferroviária (MUF), Curitiba/PR |
 | **Identificador do pacote** | PSH-COMP-003 |
 
-> **Nota sobre o slug do pacote:** o diretório `_privado/fontes-academicas/` nomeia o pacote como `2014-souza-apo-moradias-uniao-ferroviaria`, mas a folha de rosto do PDF indica como autores **Schäfer, E. F. & Gomide, F. P. B.** — o slug não corresponde à autoria real (a corrigir na curadoria). O `metadados.json` registra "(autores - confirmar na folha de rosto)", o que esta ficha faz.
 
 ---
 
@@ -168,4 +166,4 @@ O artigo está organizado em: Resumo/Abstract; Introdução; referencial em trê
 
 **Conexão TTR:** metodologica (APO) — a ficha documenta um protocolo de APO indicativa aplicado a saneamento em HIS, com instrumentos (questionário de 14 itens, amostragem a 90% de confiança, entrevistas técnicas) reaproveitáveis em avaliações de campo do Acervo.
 
-**Nota de proveniência:** ficha elaborada a partir da extração integral do PDF em `_privado/fontes-academicas/2014-souza-apo-moradias-uniao-ferroviaria/extracao.md` e dos metadados em `metadados.json` (pacote PSH-COMP-003). Autores confirmados na folha de rosto (p. 155). Divergências de DOI e de slug/autoria declaradas nas seções 1 e 7. Data de acesso: 2026-07-31.
+**Nota de proveniência:** ficha elaborada a partir da extração integral do PDF em documentação privada do acervo e dos metadados do pacote (PSH-COMP-003). Autores confirmados na folha de rosto (p. 155). Divergências de DOI e de slug/autoria declaradas nas seções 1 e 7. Data de acesso: 2026-07-31.

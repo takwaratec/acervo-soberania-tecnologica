@@ -31,7 +31,6 @@ palavras_chave:
   - biochar
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Estudo experimental de campo (BMC Ecology and Evolution, 2026, 26:15) que testou pela primeira vez, em condições de campo para restauração florestal, o uso de Terra Preta Amazônica (ADE) como bio-inóculo microbiano em pequeno volume (mudas produzidas em 290 cm³ de ADE). Em 180 dias, *Schizolobium amazonicum* cresceu ~20% mais em altura (caule ~15% maior) e *Handroanthus avellanedae* ~55% mais em altura (caule ~88% maior) em relação ao controle. O mecanismo identificado foi a reestruturação do microbioma da rizosfera: a ADE atuou como solo supressivo, depletando gêneros oportunistas e patogênicos (fungo Lasiodiplodia, bactéria Pseudoxanthomonas) e promovendo agentes de biocontrole e promoção de crescimento (Metarhizium, Tomentella, Rhizobium, Enterobacter). Autores confirmados na folha: Anderson Santos de Freitas (CENA-USP, correspondente), Guilherme Lucio Martins, Juan Andrés de Domini, Rogério Eiji Hanada (INPA), Aleksander Westphal Muniz (Embrapa Amazônia Ocidental) e Siu Mui Tsai (CENA-USP).
@@ -120,4 +119,4 @@ A ficha ancora a conexão entre terra preta amazônica, microbioma e restauraç�
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** contextual (bioeconomia/restauração — terra preta amazônica, microbioma e crescimento arbóreo).
-- **Proveniência:** download 2026-07-31 via Alice/Embrapa; 12 páginas conferidas; hash 04af62a6c3b2; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (BIOAM-COMP-004); autores completos confirmados na folha de rosto (p. 1); licença CC BY-NC-ND 4.0 declarada na p. 1; DOI confirmado na p. 1.
+- **Proveniência:** download 2026-07-31 via Alice/Embrapa; 12 páginas conferidas; hash 04af62a6c3b2; operação de fichamento curatorial (BIOAM-COMP-004); autores completos confirmados na folha de rosto (p. 1); licença CC BY-NC-ND 4.0 declarada na p. 1; DOI confirmado na p. 1.

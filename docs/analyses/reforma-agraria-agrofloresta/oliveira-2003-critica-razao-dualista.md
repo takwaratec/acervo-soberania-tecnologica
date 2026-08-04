@@ -138,7 +138,7 @@ Não constitui evidência para bambu estrutural, PU vegetal, biomateriais, piró
 
 ## Relações
 
-- Plano de decoupagem: `PLANO_DECOUPAGEM_FICHAMENTO_AGROECOLOGIA.md`, **item 3.8** ("Crítica à Razão Dualista / O Ornitorrinco") — situação "acesso restrito ou comercial": metadados confirmados (ISBN 978-85-7559-036-2; Boitempo), sem endpoint público integral oficial. **Conduta do agente seguida nesta ficha: não baixar cópias não autorizadas; registrar somente metadados e resenhas acadêmicas; utilizar exemplar adquirido ou acesso bibliotecário para a obra integral; não inserir texto integral em `docs/`.** A resenha (https://tidsskrift.dk/dialogos/article/view/113643; DOI 10.7146/dl.v6i11.113643) foi indicada pelo próprio plano como fonte auxiliar aberta, com a ressalva de que "a resenha não substitui a obra original" — ressalva reproduzida na seção 7 desta ficha;
+- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública.
 - Proveniência: PDF da resenha baixado de tidsskrift.dk (Diálogos Latinoamericanos n. 11) em 2026-07-31 e conferido integralmente (5 páginas; hash SHA-256 `f24e8247...`); metadados da obra conferidos no plano (item 3.8) e na página da editora (boitempoeditorial.com.br);
 - Observação curatorial: para uso pleno da obra (citações diretas, capítulos, argumentação completa), o Acervo depende de exemplar adquirido ou acesso bibliotecário; esta ficha permanece como registro de referência enquanto isso não ocorrer. Não confundir o DOI registrado (10.7146/dl.v6i11.113643) com DOI da obra — a obra é comercial e não possui DOI declarado nas fontes consultadas.
 

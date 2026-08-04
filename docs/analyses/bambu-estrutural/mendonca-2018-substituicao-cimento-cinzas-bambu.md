@@ -24,7 +24,6 @@ palavras_chave:
   - argamassa
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Dissertação (UFPA-PPGEC, 2018, orientador Alcebíades Negrão Macêdo) que investiga a substituição parcial do cimento Portland por cinzas de bambu. A cinza de colmo de *Bambusa vulgaris* calcinada a 600 °C obteve índice de desempenho com cimento Portland aos 28 dias superior ao exigido pela NBR 12653 (ABNT 2014), com ganho de resistência à compressão das argamassas entre 10 e 15% e consumo de hidróxido de cálcio mais expressivo com 10% de substituição (resumo, p. vi-vii).
@@ -88,4 +87,4 @@ Complementa o eixo de resíduos e materiais do Acervo (compósito UFPA 2020, bio
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** direta (cinzas de bambu e valorização de resíduos na construção).
-- **Proveniência:** download 2026-07-31 via Repositório UFPA; 96 páginas conferidas; hash 65858cdc…; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (BAMBU-COMP-007; fundamento anterior à janela).
+- **Proveniência:** download 2026-07-31 via Repositório UFPA; 96 páginas conferidas; hash 65858cdc…; operação de fichamento curatorial (BAMBU-COMP-007; fundamento anterior à janela).

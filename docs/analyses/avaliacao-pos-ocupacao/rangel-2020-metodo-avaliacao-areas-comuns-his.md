@@ -23,7 +23,6 @@ palavras_chave:
   - manifestações patológicas
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 # Método para a avaliação técnica da qualidade pós-ocupação de áreas de uso comum de Habitações de Interesse Social
@@ -160,4 +159,4 @@ O artigo está organizado em: Resumo/Abstract; Introdução; Revisão bibliográ
 
 **Conexão TTR:** metodologica — fornece instrumento de inspeção visual com índices de ocorrência/gravidade e indicador de impacto, diretamente aplicável à avaliação de qualidade pós-ocupação de áreas comuns de soluções construtivas do Acervo.
 
-**Nota de proveniência:** ficha elaborada a partir da extração integral do PDF em `_privado/fontes-academicas/2020-rangel-metodo-avaliacao-areas-comuns-his/extracao.md` e dos metadados em `metadados.json` (pacote APO-COMP-001). Licença CC BY declarada na p. 194. Data de acesso: 2026-07-31.
+**Nota de proveniência:** ficha elaborada a partir da extração integral do PDF em documentação privada do acervo e dos metadados do pacote (APO-COMP-001). Licença CC BY declarada na p. 194. Data de acesso: 2026-07-31.

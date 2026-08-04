@@ -137,7 +137,7 @@ Não constitui evidência para bambu estrutural, PU vegetal, biomateriais, piró
 
 ## Relações
 
-- Plano de decoupagem: `PLANO_DECOUPAGEM_FICHAMENTO_AGROECOLOGIA.md` — o artigo não consta nominalmente no plano; ingressa pelo eixo de transição agroecológica e soberania alimentar, complementando os itens 3.2 (Enriquecimento de 500 quintais produtivos) e 3.3 (Revolução Agroecológica da ANAP), com os quais compartilha método e agenda;
+- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública.
 - Proveniência: PDF baixado do portal de periódicos da Universidade de Brasília (periódicos.unb.br) em 2026-07-31 e conferido integralmente (21 páginas; hash SHA-256 `6ed17ede...`); metadados de volume, número, páginas, ISSN, DOI e data de publicação conferidos na primeira página do PDF;
 - Observação: a página de acesso do periódico deve ser consultada para confirmação final do DOI e da política de licenciamento vigente.
 

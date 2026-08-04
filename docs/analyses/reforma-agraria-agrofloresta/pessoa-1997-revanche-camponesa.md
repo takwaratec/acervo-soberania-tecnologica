@@ -151,7 +151,7 @@ Relação com demais eixos do Acervo: fornece contexto social e histórico para 
 
 ## Relações
 
-- Plano de decoupagem: `PLANO_DECOUPAGEM_FICHAMENTO_AGROECOLOGIA.md` (item 3.4, prioridade alta — "A Revanche Camponesa")
+- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública.
 - Tarefas do plano atendidas: baixar pelo repositório da Unicamp ✅; registrar orientador (Carlos Rodrigues Brandão), programa (Antropologia Social) e data (junho 1997) ✅; distinguir etnografia, história e interpretação política ✅ (seções 3, 5 e 6); não reduzir a tese a justificativa genérica de projetos ✅
 - Ficha evoluída de registro para 8 seções em 2026-07-31 com PDF integral (scan; leitura por OCR seletivo das páginas-chave)
 - Proveniência: PDF fornecido pelo curador (download manual em navegador validado, 2026-07-31); registro institucional Unicamp confirmado

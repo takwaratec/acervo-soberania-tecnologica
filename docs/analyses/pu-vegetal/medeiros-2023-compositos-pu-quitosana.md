@@ -25,7 +25,6 @@ palavras_chave:
   - caracterização
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Tese de doutorado (IQSC-USP, 2023, orientador Eder Tadeu Gomes Cavalheiro) sobre compósitos de poliuretana derivada de óleo de mamona e quitosana. Preparadas PUs com diferentes razões OH/NCO, com poliol de óleo de mamona (OM), trietanolamina (TEA) e etilenoglicol (EG), e isocianatos MDI e HDI (IAc 4,74 mgKOH/g; IOH 305 mgKOH/g; %NCO 36% MDI / 50% HDI). Os compósitos com quitosana (PUQP) foram estáveis termicamente até ~170 °C (compósitos 188-206 °C), com Tg ~6 °C (PU) e ~16 °C (compósitos). ATENÇÃO CURATORIAL: a aplicação principal é biomaterial (citotoxicidade, adesão celular) — esta ficha usa a obra apenas como fundamento químico e de caracterização da matriz PU de mamona.
@@ -95,4 +94,4 @@ Usada apenas como **fundamento químico e de caracterização da matriz poliuret
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** metodologica (caracterização química/térmica da PU de mamona; aplicação biomédica — não extrapolar para construção).
-- **Proveniência:** download 2026-07-31 via teses USP; 213 páginas conferidas; hash d9c1319a…; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (PU-COMP-002).
+- **Proveniência:** download 2026-07-31 via teses USP; 213 páginas conferidas; hash d9c1319a…; operação de fichamento curatorial (PU-COMP-002).

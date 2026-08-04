@@ -23,7 +23,6 @@ palavras_chave:
   - temperatura de prensagem
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
-operacao: BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO
 ---
 
 > **Síntese:** Dissertação (Unesp-Ilha Solteira, 2026) que investiga a influência da temperatura de prensagem (80 °C e 100 °C) nas propriedades de painéis aglomerados de partículas de *Pinus* spp. com 10% de PET reciclado e 25% de adesivo poliuretano à base de óleo de mamona (PUR), avaliados pela ABNT NBR 14810-2:2024. A elevação da temperatura reduziu o inchamento em espessura (24h) de 21,43% para 17,61%, o teor de umidade de 6,92% para 5,36%, e aumentou a tensão máxima de 3,89 para 7,16 MPa e o módulo de elasticidade de 1.401 para 1.873 MPa. Inclui revisão sistemática PRISMA 2020 com 61 estudos (ScienceDirect e Periódicos CAPES).
@@ -89,4 +88,4 @@ Complementa diretamente o eixo PU vegetal do Acervo (painéis com adesivo de mam
 ## Relações
 
 - **Conexão com tecnologias do Acervo (TTR):** direta (painéis aglomerados com adesivo PU de mamona).
-- **Proveniência:** download 2026-07-31 via API Repositório Unesp; 99 páginas conferidas; hash 6fe8f138…; operação BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO (PU-COMP-003).
+- **Proveniência:** download 2026-07-31 via API Repositório Unesp; 99 páginas conferidas; hash 6fe8f138…; operação de fichamento curatorial (PU-COMP-003).

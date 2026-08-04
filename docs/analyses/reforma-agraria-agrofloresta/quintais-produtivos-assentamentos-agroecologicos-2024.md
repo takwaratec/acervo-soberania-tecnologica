@@ -140,7 +140,7 @@ Não constitui evidência para bambu estrutural, PU vegetal, biomateriais, piró
 
 ## Relações
 
-- Plano de decoupagem: `PLANO_DECOUPAGEM_FICHAMENTO_AGROECOLOGIA.md`, **item 5.1** — "Os Quintais Produtivos como Ferramenta de Fortalecimento do Projeto dos Assentamentos Agroecologicos" (uso: serviços ecossistêmicos, biodiversidade, soberania alimentar, análise de quintais e solos);
+- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública.
 - Proveniência: PDF baixado do portal dos Cadernos de Agroecologia (cadernos.aba-agroecologia.org.br) em 2026-07-31 e conferido integralmente (6 páginas; hash SHA-256 `ec1a359e...`); título, autoria, ISSN e edição conferidos na folha de rosto do texto extraído;
 - Observação: DOI não declarado na fonte; a página do periódico deve ser consultada para confirmação final do DOI e da política de licenciamento vigente.
 
