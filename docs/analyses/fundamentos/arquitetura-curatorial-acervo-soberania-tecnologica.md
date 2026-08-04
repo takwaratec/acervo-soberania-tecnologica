@@ -31,6 +31,8 @@ palavras_chave:
   - tecnologia-social
 ---
 
+[English](arquitetura-curatorial-acervo-soberania-tecnologica-en.md) · [Español](arquitetura-curatorial-acervo-soberania-tecnologica-es.md)
+
 # Acervo Soberania Tecnológica: arquitetura curatorial, governança da evidência e ciência aberta
 
 **Fabio Takwara**
