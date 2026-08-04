@@ -76,6 +76,10 @@ nav:
   - Metodologia: metodologia.md
   - Fundamentos do Acervo:
       - Visão geral: analyses/fundamentos/index.md
+      - Artigos metodológicos:
+          - Arquitetura curatorial — PT-BR: analyses/fundamentos/arquitetura-curatorial-acervo-soberania-tecnologica.md
+          - English version: analyses/fundamentos/arquitetura-curatorial-acervo-soberania-tecnologica-en.md
+          - Versión en español: analyses/fundamentos/arquitetura-curatorial-acervo-soberania-tecnologica-es.md
       - Curso de design em permacultura — Mollison: analyses/fundamentos/mollison-1981-curso-design-permacultura.md
       - Princípios e caminhos da permacultura — Holmgren: analyses/fundamentos/holmgren-2002-principios-caminhos-permacultura.md
       - Manual da Nave Espacial Terra — Fuller: analyses/fundamentos/fuller-1969-manual-nave-espacial-terra.md
@@ -96,6 +100,10 @@ nav:
       - Linha do Tempo Empírica: analyses/bambu-estrutural/00a-linha-do-tempo-evidencia-empirica-autoral.md
       - Mapa de Lacunas: analyses/bambu-estrutural/mapa-de-lacunas.md
       - Agenda de Pesquisa: analyses/bambu-estrutural/agenda-de-pesquisa.md
+      - Artigos metodológicos:
+          - Maturidade tecnológica — PT-BR: analyses/bambu-estrutural/maturidade-tecnologica-cobertura-normativa-bambu.md
+          - English version: analyses/bambu-estrutural/maturidade-tecnologica-cobertura-normativa-bambu-en.md
+          - Versión en español: analyses/bambu-estrutural/maturidade-tecnologica-cobertura-normativa-bambu-es.md
       - Fichas Científicas Auditadas:
           - ACV Bambu Artesanal no Acre (Araujo et al. 2025): analyses/bambu-estrutural/ficha-acv-bambu-unesp-araujo2025.md
           - Propriedades e Tratamentos (Adier et al. 2023): analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md
