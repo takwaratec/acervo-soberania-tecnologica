@@ -33,7 +33,7 @@ idioma: en
 traducao_de: docs/analyses/fundamentos/arquitetura-curatorial-acervo-soberania-tecnologica.md
 ---
 
-[Português (original)](arquitetura-curatorial-acervo-soberania-tecnologica.md) · [Español](arquitetura-curatorial-acervo-soberania-tecnologica-es.md)
+[![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green.svg)](arquitetura-curatorial-acervo-soberania-tecnologica.md) · [![Versión en Español](https://img.shields.io/badge/Language-Spanish-yellow.svg)](arquitetura-curatorial-acervo-soberania-tecnologica-es.md)
 
 # Acervo Soberania Tecnológica: curatorial architecture, evidence governance, and open science
 

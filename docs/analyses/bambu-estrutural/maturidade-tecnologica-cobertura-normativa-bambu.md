@@ -35,7 +35,7 @@ palavras_chave:
   - avaliacao-por-desempenho
 ---
 
-[English](maturidade-tecnologica-cobertura-normativa-bambu-en.md) · [Español](maturidade-tecnologica-cobertura-normativa-bambu-es.md)
+[![English Version](https://img.shields.io/badge/Language-English-blue.svg)](maturidade-tecnologica-cobertura-normativa-bambu-en.md) · [![Versión en Español](https://img.shields.io/badge/Language-Spanish-yellow.svg)](maturidade-tecnologica-cobertura-normativa-bambu-es.md)
 
 # Maturidade tecnológica, cobertura normativa e transferibilidade da evidência na bioconstrução com bambu no Brasil
 

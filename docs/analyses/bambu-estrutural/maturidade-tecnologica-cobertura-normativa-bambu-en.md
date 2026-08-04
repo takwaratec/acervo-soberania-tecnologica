@@ -37,7 +37,7 @@ idioma: en
 traducao_de: docs/analyses/bambu-estrutural/maturidade-tecnologica-cobertura-normativa-bambu.md
 ---
 
-[Português (original)](maturidade-tecnologica-cobertura-normativa-bambu.md) · [Español](maturidade-tecnologica-cobertura-normativa-bambu-es.md)
+[![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green.svg)](maturidade-tecnologica-cobertura-normativa-bambu.md) · [![Versión en Español](https://img.shields.io/badge/Language-Spanish-yellow.svg)](maturidade-tecnologica-cobertura-normativa-bambu-es.md)
 
 # Technological maturity, regulatory coverage, and transferability of evidence in bamboo bioconstruction in Brazil
 
