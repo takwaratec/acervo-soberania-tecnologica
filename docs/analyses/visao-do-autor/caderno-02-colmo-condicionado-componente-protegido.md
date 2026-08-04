@@ -4,7 +4,7 @@ serie: Cadernos de Revisão Ecológica e Soberania Tecnológica
 numero: 2
 titulo: Do colmo condicionado ao componente protegido — interfaces, PU vegetal, preenchimento interno e validação integrada
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.2
 estado_documental: depositado-no-zenodo
@@ -22,7 +22,7 @@ responsavel_curadoria: Fabio Takwara
 ## Interfaces, PU vegetal, preenchimento interno e validação integrada
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 2 — versão depositada 1.2, 23 jul. 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21514977.svg)](https://doi.org/10.5281/zenodo.21514977)

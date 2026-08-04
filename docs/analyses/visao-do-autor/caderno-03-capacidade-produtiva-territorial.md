@@ -4,7 +4,7 @@ serie: Cadernos de Revisão Ecológica e Soberania Tecnológica
 numero: 3
 titulo: Do componente à capacidade produtiva territorial — manufatura distribuída, controle de qualidade e autonomia
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.1
 estado_documental: publicado-no-zenodo
@@ -20,7 +20,7 @@ responsavel_curadoria: Fabio Takwara
 ## Manufatura distribuída, controle de qualidade e autonomia
 
 **Fabio Takwara**
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)
 *Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 3 — versão 1.1, 1 ago. 2026*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738550.svg)](https://doi.org/10.5281/zenodo.21738550)

@@ -4,7 +4,7 @@ series: Notebooks on Ecological Revision and Technological Sovereignty
 number: 3
 title: From component to territorial productive capacity — distributed manufacturing, quality control, and autonomy
 author: Fabio Takwara
-author_orcid: 0000-0001-8815-3885
+author_orcid: 0009-0002-6044-2583
 year: 2026
 version: 1.1
 document_status: published-on-zenodo
@@ -25,7 +25,7 @@ responsavel_curadoria: 'Fabio Takwara'
 ## Distributed manufacturing, quality control, and autonomy
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Notebooks on Ecological Revision and Technological Sovereignty, n. 3 — version 1.1, August 1, 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738550.svg)](https://doi.org/10.5281/zenodo.21738550)
