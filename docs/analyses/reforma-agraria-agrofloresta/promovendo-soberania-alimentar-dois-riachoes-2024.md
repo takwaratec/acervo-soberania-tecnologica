@@ -40,7 +40,7 @@ responsavel_curadoria: Fabio Takwara
 
 | Campo | Dado |
 |---|---|
-| **Autores** | Larissa da Silva Santana (Instituto Federal da Bahia — IFBA; ls98silva@gmail.com); Hingryd Inácio de Freitas (Instituto Federal da Bahia — IFBA; hifgeo@gmail.com) |
+| **Autores** | Larissa da Silva Santana (Instituto Federal da Bahia — IFBA); Hingryd Inácio de Freitas (Instituto Federal da Bahia — IFBA) |
 | **Título** | Promovendo a soberania alimentar: a experiência agroecológica do Assentamento Dois Riachões, no Litoral Sul da Bahia |
 | **Periódico** | Cadernos de Agroecologia — Anais do XII Congresso Brasileiro de Agroecologia, Rio de Janeiro/RJ, v. 19, n. 1 |
 | **Ano** | 2024 |

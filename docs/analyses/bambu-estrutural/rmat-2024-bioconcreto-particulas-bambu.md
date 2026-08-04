@@ -63,7 +63,7 @@ operacao: OPERACAO_BAMBU_BRASIL_2021_2026
 
 Artigo original em 17 páginas, estruturado em: RESUMO/ABSTRACT bilíngues com palavras-chave; 1. Introdução; 2. Materiais e Métodos (2.1 Bio-agregados de Bambu; 2.2 Caracterização Morfológica das Partículas; 2.3 Materiais Cimentícios e Aditivos; 2.4 Produção dos Bioconcretos de Bambu; 2.5 Métodos — ar incorporado, índice de consistência, retração por secagem, teor de umidade, resistência à compressão, absorção por capilaridade); 3. Resultados; 4. Conclusões; 5. Agradecimentos; 6. Bibliografia (61 itens). Contém 3 tabelas (Tabela 1: composição química e perda ao fogo dos materiais cimentícios; Tabela 2: proporção em massa por m³ de bioconcreto; Tabela 3: resistência à compressão e módulos de elasticidade aos 7, 28 e 90 dias) e 9 figuras (morfologias, imagens binárias, curvas de retração, compressão e absorção capilar).
 
-Autoria: três pesquisadores do NUMATS/UFRJ (Rio de Janeiro) e uma pesquisadora da Eletrobras Furnas (Goiânia); autor responsável: Bruno Menezes da Cunha Gomes (brunocunhaeng@gmail.com). Apoio: projeto de P&D FURNAS ANEEL n. 0394-1719-2017 ("Uso de bio-concretos e bio-MMFs de baixo impacto ambiental visando o aumento da eficiência energética de prédios públicos") e parceria COPPETEC/UFRJ (p. 14).
+Autoria: três pesquisadores do NUMATS/UFRJ (Rio de Janeiro) e uma pesquisadora da Eletrobras Furnas (Goiânia); autor responsável: Bruno Menezes da Cunha Gomes. Apoio: projeto de P&D FURNAS ANEEL n. 0394-1719-2017 ("Uso de bio-concretos e bio-MMFs de baixo impacto ambiental visando o aumento da eficiência energética de prédios públicos") e parceria COPPETEC/UFRJ (p. 14).
 
 ## 3. Problema e perguntas de pesquisa
 
