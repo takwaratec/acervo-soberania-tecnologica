@@ -102,7 +102,7 @@ A valoração deste compêndio de PI baseia-se nos custos de Pesquisa e Desenvol
 | **TOTAL MAQUINÁRIO** | | **R$ 288.008,00** |
 
 > [!TIP]
-> O detalhamento técnico de materiais, componentes e horas-técnica de cada item pode ser consultado no [BoM Industrial de Soberania](file:///Users/fabiotakwara/Documents/GitHub/Núcleo Takwara/Mulheres_Bioeconomia_Amazonia/docs/01_GOVERNANCA/TAK_orcamento-maquinario-bom.md).
+> The technical breakdown of materials, components and labor-hours for each item is kept in private operational documentation and is not part of the public release.
 
 *   **Redução de CAPEX:** O design proprietário simplificado (reuso) reduz o custo de instalação em até 60% comparado a maquinário importado.
 *   **Soberania Tecnológica:** A ausência de royalties para tecnologias estrangeiras e a manutenibilidade local conferem resiliência ao fluxo de caixa.
@@ -135,7 +135,7 @@ H.5281/zenodo.18827106
 
 # Bill of Materials (BoM) e Precificação de Contrapartida
 
-Este documento extrai as metragens e componentes dos memoriais técnicos (Série 08) e aplica os [Parâmetros de Referência Amazônia](file:///Users/fabiotakwara/Documents/GitHub/Núcleo Takwara/Mulheres_Bioeconomia_Amazonia/docs/01_GOVERNANCA/TAK_parametros-mercado-norte.md).
+This document extracts the measurements and components from the technical memorials (Series 08) and applies market reference parameters kept in private documentation.
 
 ---
 
