@@ -9,6 +9,7 @@ data_revisao: 2026-08-04
 responsavel_curadoria: Fabio Takwara
 autor_artigo: Fabio Takwara
 orcid_autor: 0009-0002-6044-2583
+identificador: 10.5281/zenodo.21797806
 contabilizar_como_evidencia_independente: false
 escopo:
   - arquitetura-curatorial
@@ -33,6 +34,7 @@ idioma: en
 traducao_de: docs/analyses/fundamentos/arquitetura-curatorial-acervo-soberania-tecnologica.md
 ---
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21797806.svg)](https://doi.org/10.5281/zenodo.21797806)
 [![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green.svg)](arquitetura-curatorial-acervo-soberania-tecnologica.md) · [![Versión en Español](https://img.shields.io/badge/Language-Spanish-yellow.svg)](arquitetura-curatorial-acervo-soberania-tecnologica-es.md)
 
 # Acervo Soberania Tecnológica: curatorial architecture, evidence governance, and open science
@@ -42,6 +44,9 @@ ORCID [0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)
 *Acervo Soberania Tecnológica — curatorial article, working version, August 1, 2026*
 
 Acervo Soberania Tecnológica: <https://takwaratec.github.io/acervo-soberania-tecnologica> (public published interface; the GitHub repository, at <https://github.com/takwaratec/acervo-soberania-tecnologica>, contains the development history).
+
+*Note: Edition 2026.1 constitutes a reference version of the collection; the present methodological articles are later texts describing and disseminating the architecture of the Acervo.*
+*DOI: [10.5281/zenodo.21797806](https://doi.org/10.5281/zenodo.21797806)*
 
 > **Abstract:** The Acervo Soberania Tecnológica is a public knowledge infrastructure under development that transforms scientific literature, technical documentation, and research memory into traceable, comparable, and usable references. This article presents the curatorial architecture of the Acervo: the problem it solves (dispersed knowledge and non-verifiable relations), what it allows one to do, how knowledge is organized into curatorial stages and artifacts, the path from the original source to the project, and the limits that define what the Acervo is not. The text makes explicit the principle of evidence governance — the separation into five epistemological layers (external scientific evidence, documented authorial empirical evidence, curatorial synthesis, authorial hypothesis or architecture, and delimited scientific validation of one's own) — and the commitment to open science: explicit methods, progressive review, and human collaboration with traceability.
 
@@ -183,6 +188,7 @@ The public value of the Acervo is not in closing discussions, but in offering tr
 
 ## References
 
+- ACERVO SOBERANIA TECNOLÓGICA. **Edição 2026.1**. Zenodo, 2026. DOI: <https://doi.org/10.5281/zenodo.21777147>.
 - TAKWARA, Fabio. **Governança documental do Acervo Soberania Tecnológica**. Acervo Soberania Tecnológica, 2026.
 - TAKWARA, Fabio. **Matriz de rastreabilidade entre evidências e hipóteses do Universo Takwara — eixo Bambu**. Acervo Soberania Tecnológica, 2026.
 - TAKWARA, Fabio. **Estado da Arte — Bambu Estrutural (Síntese Curatorial Baseada em Evidências)**. Acervo Soberania Tecnológica, 2026.

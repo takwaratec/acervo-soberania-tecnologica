@@ -9,6 +9,7 @@ data_revisao: 2026-08-04
 responsavel_curadoria: Fabio Takwara
 autor_artigo: Fabio Takwara
 orcid_autor: 0009-0002-6044-2583
+identificador: 10.5281/zenodo.21797804
 contabilizar_como_evidencia_independente: false
 escopo:
   - bioconstrucao
@@ -35,6 +36,7 @@ palavras_chave:
   - avaliacao-por-desempenho
 ---
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21797804.svg)](https://doi.org/10.5281/zenodo.21797804)
 [![English Version](https://img.shields.io/badge/Language-English-blue.svg)](maturidade-tecnologica-cobertura-normativa-bambu-en.md) · [![Versión en Español](https://img.shields.io/badge/Language-Spanish-yellow.svg)](maturidade-tecnologica-cobertura-normativa-bambu-es.md)
 
 # Maturidade tecnológica, cobertura normativa e transferibilidade da evidência na bioconstrução com bambu no Brasil
@@ -44,6 +46,9 @@ ORCID [0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)
 *Acervo Soberania Tecnológica — artigo curatorial, versão de trabalho, 1º de agosto de 2026*
 
 Acervo Soberania Tecnológica: <https://takwaratec.github.io/acervo-soberania-tecnologica> (interface pública publicada; o repositório GitHub, em <https://github.com/takwaratec/acervo-soberania-tecnologica>, contém o histórico de desenvolvimento).
+
+*Nota: a Edição 2026.1 constitui uma versão de referência da coleção; os presentes artigos metodológicos são textos posteriores de descrição e divulgação da arquitetura do Acervo.*
+*DOI: [10.5281/zenodo.21797804](https://doi.org/10.5281/zenodo.21797804)*
 
 > **Resumo:** A publicação da ABNT NBR 16828:2020 marcou um avanço necessário para a engenharia com colmos de bambu no Brasil, mas sua existência não avalia retrospectivamente as obras anteriores nem valida automaticamente sistemas híbridos, compósitos, tratamentos ou processos específicos. Este artigo estabelece duas abordagens complementares de avaliação: a primeira distingue maturidade tecnológica, experiência empírica, validação científica, prontidão regulatória e conformidade; a segunda delimita o alcance das normas e a possibilidade de transferir resultados entre espécies, materiais, geometrias, tratamentos, ligações, processos e sistemas construtivos. O texto adota o vocabulário controlado de relações do Acervo, define um teste de transferibilidade em onze dimensões e impede que a ausência de cobertura normativa seja confundida com ausência de maturidade — ou que a tradição de uso seja confundida com conformidade demonstrada.
 
@@ -322,6 +327,7 @@ Os limites deste artigo estão declarados na seção 12 e não são repetidos aq
 
 ## Referências
 
+- ACERVO SOBERANIA TECNOLÓGICA. **Edição 2026.1**. Zenodo, 2026. DOI: <https://doi.org/10.5281/zenodo.21777147>.
 - ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **ABNT NBR 16828-1:2020 — Estruturas de bambu — Parte 1: Projeto**. Rio de Janeiro: ABNT, 2020. Consultar exemplar autorizado e vigência no Catálogo ABNT.
 - ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **ABNT NBR 16828-2:2020 — Estruturas de bambu — Parte 2: Determinação das propriedades físicas e mecânicas do bambu**. Rio de Janeiro: ABNT, 2020. Consultar exemplar autorizado e vigência no Catálogo ABNT.
 - INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. **ISO 22156:2021 — Bamboo structures — Bamboo culms — Structural design**. Disponível em: <https://www.iso.org/standard/73831.html>.
