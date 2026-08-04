@@ -5,10 +5,10 @@ natureza_documental: artigo-metodologico
 estado_documental: em-revisao-documental
 camada_epistemica: sintese-curatorial
 metodo: revisao-normativa-documental-orientada-pelo-acervo
-data_revisao: 2026-08-01
+data_revisao: 2026-08-04
 responsavel_curadoria: Fabio Takwara
 autor_artigo: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 contabilizar_como_evidencia_independente: false
 escopo:
   - bioconstrucao
@@ -35,13 +35,13 @@ palavras_chave:
   - avaliacao-por-desempenho
 ---
 
-[English](maturidade-tecnologica-cobertura-normativa-bambu-en.md) · [Español](maturidade-tecnologica-cobertura-normativa-bambu-es.md)
-
 # Maturidade tecnológica, cobertura normativa e transferibilidade da evidência na bioconstrução com bambu no Brasil
 
 **Fabio Takwara**
-ORCID [0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)
+ORCID [0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)
 *Acervo Soberania Tecnológica — artigo curatorial, versão de trabalho, 1º de agosto de 2026*
+
+Acervo Soberania Tecnológica: <https://takwaratec.github.io/acervo-soberania-tecnologica> (interface pública publicada; o repositório GitHub, em <https://github.com/takwaratec/acervo-soberania-tecnologica>, contém o histórico de desenvolvimento).
 
 > **Resumo:** A publicação da ABNT NBR 16828:2020 marcou um avanço necessário para a engenharia com colmos de bambu no Brasil, mas sua existência não avalia retrospectivamente as obras anteriores nem valida automaticamente sistemas híbridos, compósitos, tratamentos ou processos específicos. Este artigo estabelece duas abordagens complementares de avaliação: a primeira distingue maturidade tecnológica, experiência empírica, validação científica, prontidão regulatória e conformidade; a segunda delimita o alcance das normas e a possibilidade de transferir resultados entre espécies, materiais, geometrias, tratamentos, ligações, processos e sistemas construtivos. O texto adota o vocabulário controlado de relações do Acervo, define um teste de transferibilidade em onze dimensões e impede que a ausência de cobertura normativa seja confundida com ausência de maturidade — ou que a tradição de uso seja confundida com conformidade demonstrada.
 
@@ -327,7 +327,7 @@ Os limites deste artigo estão declarados na seção 12 e não são repetidos aq
 - NATIONAL AERONAUTICS AND SPACE ADMINISTRATION. **NPR 7123.1D — Appendix E: Technology Readiness Levels**. 2023. Disponível em: <https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7123_001D_&page_name=AppendixE>.
 - AGÊNCIA NACIONAL DE ENERGIA ELÉTRICA. **Guia de Avaliação da Maturidade Tecnológica da ANEEL**. 2024. Disponível em: <https://www.gov.br/aneel/pt-br/assuntos/programa-de-pesquisa-desenvolvimento-e-inovacao/guia-de-avaliacao-da-maturidade-tecnologica-da-aneel>.
 - BRASIL. MINISTÉRIO DAS CIDADES. **SiNAT — Sistema Nacional de Avaliações Técnicas de Produtos Inovadores e Sistemas Convencionais**. Disponível em: <https://www.gov.br/cidades/pt-br/assuntos/habitacao/pbqp-h/sinat-sistema-nacional-de-avaliacoes-tecnicas-de-produtos-inovadores-e-sistemas-convencionais>.
-- TAKWARA, Fabio. **Do protótipo à conformidade — normas, ensaios, responsabilidade técnica e liberação de componentes de bambu**. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.2, 2026.
+- TAKWARA, Fabio. **Do protótipo à conformidade — normas, ensaios, responsabilidade técnica e liberação de componentes de bambu**. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.4, 2026. DOI: <https://doi.org/10.5281/zenodo.21780878>.
 - TAKWARA, Fabio. **Matriz de rastreabilidade entre evidências e hipóteses do Universo Takwara — eixo Bambu**. Acervo Soberania Tecnológica, 2026.
 
 ---

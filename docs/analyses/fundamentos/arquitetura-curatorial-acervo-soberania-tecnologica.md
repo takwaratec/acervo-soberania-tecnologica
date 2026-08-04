@@ -5,10 +5,10 @@ natureza_documental: ensaio-critico-autoral
 estado_documental: em-revisao-documental
 camada_epistemica: sintese-curatorial
 metodo: reflexao-curatorial-orientada-pelo-acervo
-data_revisao: 2026-08-01
+data_revisao: 2026-08-04
 responsavel_curadoria: Fabio Takwara
 autor_artigo: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 contabilizar_como_evidencia_independente: false
 escopo:
   - arquitetura-curatorial
@@ -31,13 +31,13 @@ palavras_chave:
   - tecnologia-social
 ---
 
-[English](arquitetura-curatorial-acervo-soberania-tecnologica-en.md) · [Español](arquitetura-curatorial-acervo-soberania-tecnologica-es.md)
-
 # Acervo Soberania Tecnológica: arquitetura curatorial, governança da evidência e ciência aberta
 
 **Fabio Takwara**
-ORCID [0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)
+ORCID [0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)
 *Acervo Soberania Tecnológica — artigo curatorial, versão de trabalho, 1º de agosto de 2026*
+
+Acervo Soberania Tecnológica: <https://takwaratec.github.io/acervo-soberania-tecnologica> (interface pública publicada; o repositório GitHub, em <https://github.com/takwaratec/acervo-soberania-tecnologica>, contém o histórico de desenvolvimento).
 
 > **Resumo:** O Acervo Soberania Tecnológica é uma infraestrutura pública de conhecimento em desenvolvimento que transforma literatura científica, documentação técnica e memória de pesquisa em referências rastreáveis, comparáveis e utilizáveis. Este artigo apresenta a arquitetura curatorial do Acervo: o problema que ele resolve (conhecimento disperso e relações não verificáveis), o que ele permite fazer, como o conhecimento é organizado em etapas e artefatos curatoriais, o percurso da fonte original ao projeto, e os limites que definem o que o Acervo não é. O texto explicita o princípio de governança da evidência — a separação em cinco camadas epistemológicas (evidência científica externa, evidência empírica autoral documentada, síntese curatorial, hipótese ou arquitetura autoral e validação científica própria delimitada) — e o compromisso com a ciência aberta: métodos explícitos, revisão progressiva e colaboração humana com rastreabilidade.
 
@@ -106,7 +106,7 @@ O Acervo organiza o conhecimento em etapas e artefatos curatoriais, cada um com 
 | **Perguntas de pesquisa** | formulações derivadas das lacunas, com porte e abordagem |
 | **Projetos e ensaios** | passagem da leitura à ação |
 
-Os **estados documentais** seguem a taxonomia canônica da governança do Acervo — `recebido`, `identificacao-pendente`, `em-revisao-documental`, `homologado-documentalmente`, `visao-autoral`, `historico`, `quarentena` e `retirado-da-publicacao` — e comunicam a situação de cada registro. A publicação no site ou no Zenodo é **evento editorial separado**, não estado de validação científica: um documento publicado pode permanecer em `em-revisao-documental`, e a publicação não altera a camada epistemológica declarada.
+Os **estados documentais** seguem a taxonomia canônica da governança do Acervo — `recebido`, `identificacao-pendente`, `protegido-privado`, `duplicata-fonte-auxiliar`, `extracao-preliminar`, `em-revisao-documental`, `homologado-documentalmente`, `visao-autoral`, `historico`, `quarentena` e `retirado-da-publicacao` — e comunicam a situação de cada registro. Valores anteriores à formalização da taxonomia (como `edicao-publica-conformada`, `edicao-revisada-para-acervo`, `publicado-no-acervo` e `publicado-no-zenodo`) permanecem em arquivos históricos por compatibilidade e possuem equivalência documentada, sendo atualizados para o estado canônico na próxima revisão de cada ficha. A publicação no site ou no Zenodo é **evento editorial separado**, não estado de validação científica: um documento publicado pode permanecer em `em-revisao-documental`, e a publicação não altera a camada epistemológica declarada.
 
 ## 7. Do documento ao projeto
 
