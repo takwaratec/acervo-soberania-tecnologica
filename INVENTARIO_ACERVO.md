@@ -1,4 +1,4 @@
-# Inventário reproduzível do Acervo — 31/07/2026
+# Inventário reproduzível do Acervo — 03/08/2026
 
 > Este documento conta arquivos; não confunde volume documental com validação científica.
 
@@ -6,16 +6,16 @@
 
 | Medida | Total | Definição operacional |
 |---|---:|---|
-| Markdown público | 227 | Arquivos `.md` sob `docs/` incluídos no build |
-| Documentos em `analyses` | 224 | Arquivos sob `docs/analyses/`; incluem fichas, perfis e índices |
-| Estrutura numerada 1–8 em `analyses` | 171 | Os oito títulos numerados foram detectados; o conteúdo ainda exige revisão humana |
-| Identificador público em `analyses` | 104 | DOI, ISBN, ISSN ou Handle detectável no arquivo |
+| Markdown público | 249 | Arquivos `.md` sob `docs/` incluídos no build |
+| Documentos em `analyses` | 246 | Arquivos sob `docs/analyses/`; incluem fichas, perfis e índices |
+| Estrutura numerada 1–8 em `analyses` | 177 | Os oito títulos numerados foram detectados; o conteúdo ainda exige revisão humana |
+| Identificador público em `analyses` | 108 | DOI, ISBN, ISSN ou Handle detectável no arquivo |
 
 ## Distribuição do Markdown público
 
 | Diretório inicial | Arquivos |
 |---|---:|
-| `analyses` | 224 |
+| `analyses` | 246 |
 | `raiz-docs` | 3 |
 
 ## Estados explicitamente declarados
@@ -25,7 +25,7 @@
 | `curado` | 10 |
 | `depositado-no-zenodo` | 1 |
 | `edicao-publica-conformada` | 16 |
-| `em-revisao-documental` | 184 |
+| `em-revisao-documental` | 206 |
 | `publicado-no-acervo` | 1 |
 | `publicado-no-zenodo` | 15 |
 
@@ -36,14 +36,14 @@
 | `documento-de-patente` | 2 |
 | `documento-institucional` | 8 |
 | `ensaio-autoral` | 1 |
-| `estado-da-arte` | 11 |
-| `estado-da-arte-com-agenda-experimental` | 2 |
+| `estado-da-arte` | 15 |
+| `estado-da-arte-com-agenda-experimental` | 17 |
 | `ficha-academica` | 78 |
-| `ficha-cientifica` | 79 |
+| `ficha-cientifica` | 76 |
 | `ficha-tecnica-de-produto` | 2 |
 | `indice` | 10 |
-| `indice-tematico` | 1 |
-| `instrumento-de-pesquisa` | 2 |
+| `indice-tematico` | 2 |
+| `instrumento-de-pesquisa` | 7 |
 | `laudo-ou-certificado-de-ensaio` | 1 |
 | `material-didatico-institucional` | 3 |
 | `memoria-historica` | 1 |
