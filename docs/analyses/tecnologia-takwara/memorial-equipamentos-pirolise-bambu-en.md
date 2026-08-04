@@ -4,7 +4,7 @@ serie: Technical Series Tecnologia Takwara
 numero: 5
 titulo: 'Industrial Engineering Memorial and Equipment BoM: Processing, Pyrolysis, and Takwara Reactors (T01 to T07)'
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.0
 estado_documental: edicao-revisada-para-acervo
@@ -25,7 +25,7 @@ identificador: https://doi.org/10.5281/zenodo.21516766
 ## Biomass Processing, Pyrolysis, Steam Drying, and Intellectual Property Governance
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Technical Specification — Version 1.0, July 23, 2026*  
 
 > **Intellectual Property Notice and Competition Safeguards:** This memorial consolidates the specifications of machinery, reactors, and the Bill of Materials (BoM) of the Takwara bamboo processing line. Financial documentation and production sizing align with the Economic Feasibility Matrix of Annex 1 (DOI: [10.5281/zenodo.21515657](https://doi.org/10.5281/zenodo.21515657)).
@@ -35,7 +35,7 @@ identificador: https://doi.org/10.5281/zenodo.21516766
 author:
 - affiliation: Núcleo Takwara
   name: Takwara, Fabio Resck
-  orcid: 0000-0001-8815-3885
+  orcid: 0009-0002-6044-2583
 date: '2026-03-06'
 H.5281/zenodo.18827106
 keywords:

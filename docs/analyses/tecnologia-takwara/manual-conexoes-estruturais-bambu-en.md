@@ -3,7 +3,7 @@ tipo_documental: manual-tecnico
 serie: Cadernos de Revisao Ecologica e Soberania Tecnologica
 titulo: Plant-Based Weld — Structural Connections and Biocomposites in Bamboo
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.0
 estado_documental: publicado-no-zenodo
@@ -18,7 +18,7 @@ responsavel_curadoria: Fabio Takwara
 ## Technical Manual for Assembly Interfaces, Castor Oil Polyurethane, and Structural Modularity
 
 **Author:** Fabio Takwara  
-**ORCID:** [0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+**ORCID:** [0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 **Affiliation:** Nucleo Takwara  
 **DOI:** [https://doi.org/10.5281/zenodo.21520019](https://doi.org/10.5281/zenodo.21520019)  
 **License:** CC BY 4.0  

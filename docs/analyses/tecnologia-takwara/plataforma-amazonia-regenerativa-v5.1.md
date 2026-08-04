@@ -4,7 +4,7 @@ serie: Série Técnica Tecnologia Takwara — Arquitetura de Plataforma
 numero: 8
 titulo: 'Plataforma Amazônia Regenerativa v5.1: Modelo Arquitetural, Biorrefinarias Modulares e MRV'
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 5.1
 estado_documental: edicao-revisada-para-acervo
@@ -23,7 +23,7 @@ identificador: https://doi.org/10.5281/zenodo.21517050
 
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Memorial Técnico-Autoral — Versão 5.1, 23 jul. 2026*  
 
 > **Aviso de Governança de Plataforma:** Este memorial consolida o modelo arquitetural integral da Plataforma Amazônia Regenerativa v5.1, integrando as Unidades de Beneficiamento Primário (UBPs), a Teoria da Autogestão Comunitária (Cruz, 2006) e a esteira tecnológica fundamentada nos Cadernos 1 a 7 e Anexo 1 (DOI: [10.5281/zenodo.21515657](https://doi.org/10.5281/zenodo.21515657)).

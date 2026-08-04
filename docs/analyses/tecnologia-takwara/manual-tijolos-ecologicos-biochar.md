@@ -4,7 +4,7 @@ serie: Série Técnica Tecnologia Takwara
 numero: 4
 titulo: 'Manual de Tijolos Ecológicos e Blocos Prensados com Adição de Biochar e Fibras de Bambu: Biotecnologia Habitacional'
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.0
 estado_documental: edicao-revisada-para-acervo
@@ -25,7 +25,7 @@ identificador: https://doi.org/10.5281/zenodo.21516722
 ## Biotecnologia Habitacional, Salvaguardas de TRL e Mercado Regulado de Carbono (SBCE)
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Manual Técnico-Autoral — Versão 1.0, 23 jul. 2026*  
 
 > **Declaração de Nível de Maturidade Tecnológica (TRL 3-4):** Em estrito respeito às normas de governança documental do Acervo, declara-se que as formulações apresentadas neste manual referem-se a ensaios de prototipagem em escala de laboratório/bancada. O produto final requer a homologação dos ensaios normativos de compressão (FICHA E-05 / ABNT NBR 8492), inércia térmica e reação ao fogo (FICHA E-10 / ABNT NBR 9442) descritos no Caderno 2 Versão ICT antes de qualquer aplicação industrial.
@@ -33,7 +33,7 @@ identificador: https://doi.org/10.5281/zenodo.21516722
 author:
 - affiliation: Núcleo Takwara
   name: Takwara, Fabio Resck
-  orcid: 0000-0001-8815-3885
+  orcid: 0009-0002-6044-2583
 date: '2026-03-05'
 H.5281/zenodo.18827106
 H.5281/zenodo.18827106

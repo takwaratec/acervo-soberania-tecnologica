@@ -3,7 +3,7 @@ tipo_documental: ensaio-tecnico
 serie: Cadernos de Revisao Ecologica e Soberania Tecnologica
 titulo: Regeneracao de Solos Degradados, Fitorremediacao e Mercados de Carbono — O Bambu como Engenheiro Ecologico
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.0
 estado_documental: publicado-no-zenodo
@@ -18,7 +18,7 @@ responsavel_curadoria: Fabio Takwara
 ## O Bambu como Engenheiro Ecologico em Sistemas Integrados
 
 **Autor:** Fabio Takwara  
-**ORCID:** [0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+**ORCID:** [0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 **Filiacao:** Nucleo Takwara  
 **DOI:** [https://doi.org/10.5281/zenodo.21516343](https://doi.org/10.5281/zenodo.21516343)  
 **Licenca:** CC BY 4.0  

@@ -4,7 +4,7 @@ serie: Technical Series Tecnologia Takwara
 numero: 4
 titulo: 'Manual of Ecological Bricks and Pressed Blocks with Biochar and Bamboo Fibers: Housing Biotechnology'
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.0
 estado_documental: edicao-revisada-para-acervo
@@ -25,7 +25,7 @@ identificador: https://doi.org/10.5281/zenodo.21516722
 ## Housing Biotechnology, TRL Safeguards, and Regulated Carbon Markets (SBCE)
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Technical Manual — Version 1.0, July 23, 2026*  
 
 > **Technological Readiness Level Declaration (TRL 3-4):** In strict accordance with the repository documentation governance rules, it is declared that the formulations presented in this manual refer to laboratory/benchtop prototyping trials. The final product requires compliance testing for compressive strength (FORM E-05 / ABNT NBR 8492) and fire reaction (FORM E-10 / ABNT NBR 9442) as specified in Notebook 2 ICT Version before any industrial application.
@@ -33,7 +33,7 @@ identificador: https://doi.org/10.5281/zenodo.21516722
 author:
 - affiliation: Núcleo Takwara
   name: Takwara, Fabio Resck
-  orcid: 0000-0001-8815-3885
+  orcid: 0009-0002-6044-2583
 date: '2026-03-05'
 H.5281/zenodo.18827106
 H.5281/zenodo.18827106

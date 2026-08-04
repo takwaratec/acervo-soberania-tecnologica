@@ -3,7 +3,7 @@ tipo_documental: cartilha-comunitaria
 serie: Cadernos de Revisao Ecologica e Soberania Tecnologica
 titulo: Cartilha de Bioeconomia Comunitaria do Bambu — Da Floresta a Cooperativa
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.0
 estado_documental: publicado-no-zenodo
@@ -18,7 +18,7 @@ responsavel_curadoria: Fabio Takwara
 ## Da Floresta a Cooperativa: Guia Pratico de Autogestao e Autonomia Territorial
 
 **Autor:** Fabio Takwara  
-**ORCID:** [0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+**ORCID:** [0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 **Filiacao:** Nucleo Takwara  
 **DOI:** [https://doi.org/10.5281/zenodo.21516340](https://doi.org/10.5281/zenodo.21516340)  
 **Licenca:** CC BY 4.0  
