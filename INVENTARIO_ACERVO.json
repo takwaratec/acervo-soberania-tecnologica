@@ -4987,7 +4987,7 @@
     {
       "path": "docs/analyses/visao-do-autor/caderno-07-ciclo-fechado-crise-planetaria.md",
       "group": "analyses",
-      "bytes": 34721,
+      "bytes": 34718,
       "sections": [
         "1",
         "2",
@@ -5001,14 +5001,8 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": true,
       "dois": [
-        "10.5281/zenodo.21514736",
-        "10.5281/zenodo.21514736).",
         "10.5281/zenodo.21514977",
         "10.5281/zenodo.21514977).",
-        "10.5281/zenodo.21514991",
-        "10.5281/zenodo.21514991).",
-        "10.5281/zenodo.21515361",
-        "10.5281/zenodo.21515361).",
         "10.5281/zenodo.21515383",
         "10.5281/zenodo.21515383).",
         "10.5281/zenodo.21515443",
@@ -5017,6 +5011,12 @@
         "10.5281/zenodo.21515567)",
         "10.5281/zenodo.21515567).",
         "10.5281/zenodo.21515567.svg)",
+        "10.5281/zenodo.21738550",
+        "10.5281/zenodo.21738550).",
+        "10.5281/zenodo.21778046",
+        "10.5281/zenodo.21778046).",
+        "10.5281/zenodo.21780878",
+        "10.5281/zenodo.21780878).",
         "10.59327/IPCC/AR6-9789291691647",
         "10.59327/IPCC/AR6-9789291691647)."
       ],
