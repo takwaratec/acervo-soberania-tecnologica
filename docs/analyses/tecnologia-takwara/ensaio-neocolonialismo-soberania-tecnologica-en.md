@@ -4,7 +4,7 @@ serie: Technical Series Tecnologia Takwara — Geopolitics and Technological Sov
 numero: 7
 titulo: 'Brazilian Bamboo in the Crosshairs of Neocolonialism: Technological Dependence and Territorial Autonomy'
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2025
 data_publicacao_original: 2025-10-15
 versao: 1.0
@@ -26,7 +26,7 @@ identificador: https://doi.org/10.5281/zenodo.21516992
 ## Biomass Geopolitics, New Brazilian Industry (NIB), and the Building of Community Autonomy
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Critical Essay — Version 1.0, July 23, 2026*  
 
 > **Contextualization and Technological Sovereignty Note:** This essay critically analyzes the commercial asymmetry of exporting raw biomass and proposes strengthening Brazilian technological sovereignty through decentralized, self-managed Primary Processing Units (UBPs). The economic model of community independence aligns with Annex 1 (DOI: [10.5281/zenodo.21515657](https://doi.org/10.5281/zenodo.21515657)).

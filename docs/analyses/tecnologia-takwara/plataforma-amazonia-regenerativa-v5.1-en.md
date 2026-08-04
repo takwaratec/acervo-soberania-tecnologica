@@ -4,7 +4,7 @@ serie: Technical Series Tecnologia Takwara — Platform Architecture
 numero: 8
 titulo: 'Regenerative Amazon Platform v5.1: Architectural Model, Modular Biorefineries, and MRV'
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 5.1
 estado_documental: edicao-revisada-para-acervo
@@ -23,7 +23,7 @@ identificador: https://doi.org/10.5281/zenodo.21517050
 
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Technical Memorial — Version 5.1, July 23, 2026*  
 
 > **Platform Governance Notice:** This memorial consolidates the comprehensive architectural model of the Regenerative Amazon Platform v5.1, integrating Primary Processing Units (UBPs), Community Self-Management Theory (Cruz, 2006), and the technology pipeline established in Notebooks 1 to 7 and Annex 1 (DOI: [10.5281/zenodo.21515657](https://doi.org/10.5281/zenodo.21515657)).

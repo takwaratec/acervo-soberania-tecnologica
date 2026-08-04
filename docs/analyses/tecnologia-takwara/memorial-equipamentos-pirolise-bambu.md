@@ -4,7 +4,7 @@ serie: Série Técnica Tecnologia Takwara
 numero: 5
 titulo: 'Memorial de Engenharia Industrial e BoM de Equipamentos: Processamento, Pirólise e Reatores Takwara (T01 a T07)'
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.0
 estado_documental: edicao-revisada-para-acervo
@@ -25,7 +25,7 @@ identificador: https://doi.org/10.5281/zenodo.21516766
 ## Processamento de Biomassa, Pirólise, Secagem a Vapor e Governança de Propriedade Intelectual
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Especificação Técnica-Autoral — Versão 1.0, 23 jul. 2026*  
 
 > **Aviso de Propriedade Intelectual e Salvaguardas Concorrenciais:** O presente memorial consolida as especificações de máquinas, reatores e a Bill of Materials (BoM) da esteira de processamento de bambu Takwara. A documentação financeira e de dimensionamento produtivo alinha-se à Matriz de Viabilidade Econômica do Anexo 1 (DOI: [10.5281/zenodo.21515657](https://doi.org/10.5281/zenodo.21515657)).
@@ -35,7 +35,7 @@ identificador: https://doi.org/10.5281/zenodo.21516766
 author:
 - affiliation: Núcleo Takwara
   name: Takwara, Fabio Resck
-  orcid: 0000-0001-8815-3885
+  orcid: 0009-0002-6044-2583
 date: '2026-03-06'
 H.5281/zenodo.18827106
 keywords:

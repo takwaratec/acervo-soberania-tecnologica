@@ -4,7 +4,7 @@ serie: Technical Series Tecnologia Takwara — Advocacy and Regulation
 numero: 6
 titulo: 'Unmanaged Bamboo and Toxicity Risks: Regulatory Alert and Carbon Integrity'
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2025
 data_publicacao_original: 2025-10-16
 versao: 1.0
@@ -26,7 +26,7 @@ identificador: https://doi.org/10.5281/zenodo.21516897
 ## Life Cycle Assessment (UNESP/IFSP 2025), Regulated Market (SBCE Law 15.042/2024), and Ecological Transition
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Critical Essay — Version 1.0, July 23, 2026*  
 
 > **Scientific and Regulatory Integrity Note:** This essay is grounded in the results of the Life Cycle Assessment (LCA per ISO 14040/14044) conducted by UNESP and IFSP (Araujo et al., 2025), associating them with the framework of the Brazilian Emissions Trading System (SBCE — Law 15.042/2024) to veto the issuance of carbon credits to projects with toxic effluent liabilities.

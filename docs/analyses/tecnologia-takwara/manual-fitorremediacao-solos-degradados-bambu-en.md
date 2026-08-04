@@ -2,7 +2,7 @@
 author:
 - affiliation: Núcleo Takwara
   name: Takwara, Fabio Resck
-  orcid: 0000-0001-8815-3885
+  orcid: 0009-0002-6044-2583
 date: '2026-03-04'
 identificador: https://doi.org/10.5281/zenodo.18827106
 identificador: https://doi.org/10.5281/zenodo.18827106

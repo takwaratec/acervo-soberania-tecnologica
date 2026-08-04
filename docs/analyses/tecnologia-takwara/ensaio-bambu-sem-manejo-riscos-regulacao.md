@@ -4,7 +4,7 @@ serie: Série Técnica Tecnologia Takwara — Advocacy e Regulamentação
 numero: 6
 titulo: 'Bambu Sem Manejo e Riscos de Toxicidade: Alerta Regulatório e Integridade de Carbono'
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2025
 data_publicacao_original: 2025-10-16
 versao: 1.0
@@ -26,7 +26,7 @@ identificador: https://doi.org/10.5281/zenodo.21516897
 ## Avaliação do Ciclo de Vida (UNESP/IFSP 2025), Mercado Regulado (SBCE Lei 15.042/2024) e a Transição Ecológica
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Ensaio Crítico-Autoral — Versão 1.0 (Publicado originalmente em 16/10/2025, revisado em 23/07/2026)*  
 
 > **Nota de Integridade Científica e Regulatória:** Este ensaio fundamenta-se nos resultados da Avaliação do Ciclo de Vida (ACV conforme ISO 14040/14044) conduzida pela UNESP e IFSP (Araujo et al., 2025), associando-os ao enquadramento do Sistema Brasileiro de Comércio de Emissões (SBCE — Lei nº 15.042/2024) para vetar a concessão de créditos de carbono a empreendimentos com passivos efluentes tóxicos.
