@@ -40,7 +40,7 @@ responsavel_curadoria: Fabio Takwara
 
 | Campo | Dado |
 |---|---|
-| **Autores** | Ana Claudia Olartechea Veron (Universidade Federal de São Carlos — UFSCar; anaveron@estudante.ufscar.br); Joelson Gonçalves de Carvalho (Universidade Federal de São Carlos — UFSCar; joelson@ufscar.br) |
+| **Autores** | Ana Claudia Olartechea Veron (Universidade Federal de São Carlos — UFSCar); Joelson Gonçalves de Carvalho (Universidade Federal de São Carlos — UFSCar) |
 | **Título** | Agroecologia e soberania alimentar: o caso do PDS Mário Lago |
 | **Periódico** | Cadernos de Agroecologia — Anais do XII Congresso Brasileiro de Agroecologia, Rio de Janeiro/RJ, v. 19, n. 1 |
 | **Ano** | 2024 |

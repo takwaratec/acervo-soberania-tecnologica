@@ -40,7 +40,7 @@ responsavel_curadoria: Fabio Takwara
 
 | Campo | Dado |
 |---|---|
-| **Autores** | Felipe Otávio Campelo Silva (Universidade Federal do Sul da Bahia — UFSB e Escola Popular de Agroecologia e Agrofloresta Egídio Brunetto — EPAAEB; campelo.felipe@hotmail.com); Paulo Rogério Lopes (Universidade Federal do Paraná — UFPR; agroecologialopes@gmail.com) |
+| **Autores** | Felipe Otávio Campelo Silva (Universidade Federal do Sul da Bahia — UFSB e Escola Popular de Agroecologia e Agrofloresta Egídio Brunetto — EPAAEB); Paulo Rogério Lopes (Universidade Federal do Paraná — UFPR) |
 | **Título** | Os quintais produtivos como ferramenta de fortalecimento do Projeto dos Assentamentos Agroecológicos do Extremo Sul da Bahia |
 | **Periódico** | Cadernos de Agroecologia — Anais do XII Congresso Brasileiro de Agroecologia, Rio de Janeiro/RJ, v. 19, n. 1 |
 | **Ano** | 2024 |

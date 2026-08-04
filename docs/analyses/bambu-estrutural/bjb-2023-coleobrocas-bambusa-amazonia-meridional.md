@@ -60,7 +60,7 @@ operacao: OPERACAO_BAMBU_BRASIL_2021_2026
 
 Artigo original em 5 páginas, estruturado em: Abstract e Resumo bilíngues com palavras-chave; 1. Introduction; 2. Methods (2.1 Methodological procedures; 2.2 Data analysis); 3. Results; 4. Discussion; 5. Conclusion; References (24 itens). Contém 2 tabelas: Tabela 1 (número de indivíduos por espécie de coleobroca coletada) e Tabela 2 (índices de diversidade, equitabilidade e dominância) — p. 3.
 
-Autoria: três pesquisadores vinculados à UNEMAT (Curso de Engenharia Florestal e PPG em Biodiversidade e Agroecossistemas Amazônicos) e ao IFMT, todos em Alta Floresta-MT; autora de correspondência: J. Garlet (julianagarlet@unemat.br) — p. 1.
+Autoria: três pesquisadores vinculados à UNEMAT (Curso de Engenharia Florestal e PPG em Biodiversidade e Agroecossistemas Amazônicos) e ao IFMT, todos em Alta Floresta-MT; autora de correspondência: J. Garlet — p. 1.
 
 ## 3. Problema e perguntas de pesquisa
 

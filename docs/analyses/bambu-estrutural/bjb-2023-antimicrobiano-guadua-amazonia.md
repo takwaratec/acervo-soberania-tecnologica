@@ -67,7 +67,7 @@ operacao: OPERACAO_BAMBU_BRASIL_2021_2026
 
 Artigo original em 7 páginas, estruturado em: Abstract e Resumo bilíngues com palavras-chave; 1. Introduction; 2. Materials and Methods (2.1 Characterization of the study area; 2.2 Obtaining plant extracts; 2.3 Minimum inhibitory concentration and minimum bactericidal concentration); 3. Results; 4. Discussion; Acknowledgements; References (cerca de 40 itens). Contém 1 tabela (Tabela 1: atividade antibacteriana dos extratos de folhas e colmos — MIC e MBC) e 1 figura (Figura 1: resultado do teste bactericida/bacteriostático) — p. 3. O Material Suplementar (Tabela S1: rendimento dos extratos) acompanha o artigo online.
 
-Autoria: oito pesquisadores vinculados à UFAC em três unidades (Centro de Ciências Biológicas e da Natureza; PPG em Ciência, Inovação e Tecnologia para a Amazônia; Centro de Ciências da Saúde e Desporto); autora de correspondência: B. K. A. Silva (berenice.silva@ufac.br) — p. 1. Agradecimentos à FUNTAC (coleta e infraestrutura de laboratório de sementes) e à UFAC (bolsas PIBIC/UFAC e demanda social) — p. 5.
+Autoria: oito pesquisadores vinculados à UFAC em três unidades (Centro de Ciências Biológicas e da Natureza; PPG em Ciência, Inovação e Tecnologia para a Amazônia; Centro de Ciências da Saúde e Desporto); autora de correspondência: B. K. A. Silva — p. 1. Agradecimentos à FUNTAC (coleta e infraestrutura de laboratório de sementes) e à UFAC (bolsas PIBIC/UFAC e demanda social) — p. 5.
 
 ## 3. Problema e perguntas de pesquisa
 
