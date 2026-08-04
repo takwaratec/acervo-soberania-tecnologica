@@ -6,14 +6,14 @@ titulo: Do protótipo à conformidade — normas, ensaios, responsabilidade téc
 autor: Fabio Takwara
 orcid_autor: 0009-0002-6044-2583
 ano: 2026
-versao: 1.3
+versao: 1.4
 estado_documental: publicado-no-zenodo
-identificador: 10.5281/zenodo.21778047
+identificador: 10.5281/zenodo.21780878
 licenca_texto: CC-BY-4.0
 metodo: revisao-normativa-documental-orientada-pelo-acervo
 data_revisao: 2026-08-01
 responsavel_curadoria: Fabio Takwara
-nota_versao: 'resolvida — R-10: consulta à API Zenodo (2026-08-01) confirma que o registro 10.5281/zenodo.21515361 correspondia à versão 1.1 e que o novo depósito (DOI 10.5281/zenodo.21738559) é a versão 1.2, conforme o campo version do Zenodo (conceitual 10.5281/zenodo.21515209); o DOI 10.5281/zenodo.21515210 citado pelo Caderno 5 é a versão 1.0 (correto como citação da versão anterior). Front matter atualizado para 1.2. Edição 1.3 (03/08/2026): correção material editorial do rodapé (Edição pública publicada) e do estado editorial — nenhuma mudança científica.'
+nota_versao: 'resolvida — R-10: consulta à API Zenodo (2026-08-01) confirma que o registro 10.5281/zenodo.21515361 correspondia à versão 1.1 e que o novo depósito (DOI 10.5281/zenodo.21738559) é a versão 1.2, conforme o campo version do Zenodo (conceitual 10.5281/zenodo.21515209); o DOI 10.5281/zenodo.21515210 citado pelo Caderno 5 é a versão 1.0 (correto como citação da versão anterior). Front matter atualizado para 1.2. Edição 1.3 (03/08/2026): correção material editorial do rodapé (Edição pública publicada) e do estado editorial — nenhuma mudança científica. Edição 1.4 (03/08/2026): New version com tradução integral EN (DOI 10.5281/zenodo.21780878); correção editorial "processo controlled" → "processo controlado"; referência ao Caderno 1 atualizada para a v1.2 — nenhuma mudança científica.'
 nota_editorial: 'P-01 resolvida (decisão de Fabio, 2026-08-01): o docente do IFB Campus Planaltina citado nos Anais como Prof. Dr. Vicente Virgolino de Souza Neto é a mesma pessoa do perfil do Acervo Vicente de Paulo Borges Virgolino da Silva (coordenador do Bacharelado em Agronomia). Forma canônica adotada: Vicente de Paulo Borges Virgolino da Silva. Os Anais não foram alterados (registro histórico).'
 ---
 
@@ -23,13 +23,13 @@ nota_editorial: 'P-01 resolvida (decisão de Fabio, 2026-08-01): o docente do IF
 
 **Fabio Takwara**  
 [ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
-*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4 — versão 1.3, 3 ago. 2026*  
+*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4 — versão 1.4, 3 ago. 2026*  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21778047.svg)](https://doi.org/10.5281/zenodo.21778047)
-[![English Version](https://img.shields.io/badge/Language-English_v1.2-blue.svg)](caderno-04-prototipo-conformidade-normas-ensaios-en.md)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21780878.svg)](https://doi.org/10.5281/zenodo.21780878)
+[![English Version](https://img.shields.io/badge/Language-English_v1.4-blue.svg)](caderno-04-prototipo-conformidade-normas-ensaios-en.md)
 
 
-> **Estado editorial:** Edição pública publicada no Zenodo. DOI de versão desta edição: [10.5281/zenodo.21778047](https://doi.org/10.5281/zenodo.21778047); New version do registro 10.5281/zenodo.21738559; versão anterior: 10.5281/zenodo.21738559 (v1.2). O texto organiza uma rota de investigação e conformidade; não constitui projeto estrutural, parecer jurídico, certificação, Documento de Avaliação Técnica, ART, RRT ou autorização de uso.
+> **Estado editorial:** Edição pública publicada no Zenodo. DOI de versão desta edição: [10.5281/zenodo.21780878](https://doi.org/10.5281/zenodo.21780878); New version do registro 10.5281/zenodo.21778047; versão anterior: 10.5281/zenodo.21778047 (v1.3). O texto organiza uma rota de investigação e conformidade; não constitui projeto estrutural, parecer jurídico, certificação, Documento de Avaliação Técnica, ART, RRT ou autorização de uso.
 
 ## Resumo
 
@@ -480,7 +480,7 @@ Protótipo, patente, DOI, ART, RRT, certificado, relatório de ensaio e DATec pe
 
 ## 15. Conclusão
 
-O protótipo demonstra que uma configuração pode ser construída. A conformidade exige demonstrar que uma versão identificada cumpre requisitos definidos, sob processo controlled, para aplicação e exposição delimitadas. Entre esses dois estados existe uma cadeia de decisões que nenhuma norma isolada substitui.
+O protótipo demonstra que uma configuração pode ser construída. A conformidade exige demonstrar que uma versão identificada cumpre requisitos definidos, sob processo controlado, para aplicação e exposição delimitadas. Entre esses dois estados existe uma cadeia de decisões que nenhuma norma isolada substitui.
 
 O mapa normativo confirma que há base sólida para colmos estruturais e um campo internacional crescente para produtos engenheirados de bambu. Confirma também uma lacuna: o componente híbrido bambu–PU–espuma atravessa escopos diferentes e precisa ser avaliado como sistema de interfaces. Usar uma norma fora de seu objeto pode produzir aparência de rigor sem segurança correspondente.
 
@@ -522,7 +522,7 @@ INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. [ISO 5660-1:2015 — Reaction-to
 
 MARÇAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais*. 2018. Dissertação (Mestrado em Arquitetura e Urbanismo) — Universidade de Brasília, Brasília, 2018.
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.1, 1 ago. 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.2, 3 ago. 2026. DOI: [10.5281/zenodo.21778046](https://doi.org/10.5281/zenodo.21778046).
 
 TAKWARA, Fabio. *Do colmo condicionado ao componente protegido: interfaces, PU vegetal, preenchimento interno e validação integrada*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 2, versão depositada 1.2, 23 jul. 2026. DOI: [10.5281/zenodo.21514977](https://doi.org/10.5281/zenodo.21514977).
 
@@ -540,4 +540,4 @@ TAKWARA, Fabio. *Do componente à capacidade produtiva territorial: manufatura d
 
 ### Forma de citação
 
-TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.3, 3 ago. 2026. DOI: [10.5281/zenodo.21778047](https://doi.org/10.5281/zenodo.21778047).
+TAKWARA, Fabio. *Do protótipo à conformidade: normas, ensaios, responsabilidade técnica e liberação de componentes de bambu*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 4, versão 1.4, 3 ago. 2026. DOI: [10.5281/zenodo.21780878](https://doi.org/10.5281/zenodo.21780878).
