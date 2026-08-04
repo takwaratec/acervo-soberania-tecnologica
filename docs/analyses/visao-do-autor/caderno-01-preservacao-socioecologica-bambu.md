@@ -5,11 +5,11 @@ numero: 1
 titulo: Preservação do bambu sob perspectiva socioecológica — eficácia, durabilidade, toxicidade e circularidade dos tratamentos
 subtitulo_zenodo: Prova de conceito analítica e documental (maturidade da agenda de pesquisa) e agenda experimental para seleção informada de tratamentos preservativos
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
-versao: 1.1
+versao: 1.2
 estado_documental: publicado-no-zenodo
-identificador: 10.5281/zenodo.21738428
+identificador: 10.5281/zenodo.21778046
 doi_conceitual: 10.5281/zenodo.21514735
 licenca_texto: CC-BY-4.0
 metodo: revisao-de-escopo-documental-orientada-pelo-acervo
@@ -25,13 +25,13 @@ financiamento: Esta publicação foi preparada no âmbito de proposta de financi
 ## Eficácia, durabilidade, toxicidade e circularidade dos tratamentos
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1 — versão 1.1, 1 ago. 2026*  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
+*Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1 — versão 1.2, 3 ago. 2026*  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738428.svg)](https://doi.org/10.5281/zenodo.21738428)
-[![English Version](https://img.shields.io/badge/Language-English_v1.1-blue.svg)](caderno-01-preservacao-socioecologica-bambu-en.md)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21778046.svg)](https://doi.org/10.5281/zenodo.21778046)
+[![English Version](https://img.shields.io/badge/Language-English_v1.2-blue.svg)](caderno-01-preservacao-socioecologica-bambu-en.md)
 
-*DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428)*
+*DOI: [10.5281/zenodo.21778046](https://doi.org/10.5281/zenodo.21778046)*
 
 > **Nível de Maturidade Tecnológica (TRL):** Este caderno consolida uma **prova de conceito analítica e documental** para a seleção informada de tratamentos preservativos do bambu, com base em revisão de escopo documental de 17 fontes. A evidência compilada demonstra domínio do estado da arte, identifica lacunas críticas e propõe uma agenda experimental dirigida ao avanço para **TRL-4** (validação em ambiente laboratorial). A maturidade descrita é da *agenda de pesquisa* (hipótese formulada a partir do acervo); a maturidade da tecnologia não está determinada, pois este caderno não contém ensaio primário próprio com controles. O texto explicita o que a literatura já permite afirmar e, com igual clareza, o que ainda requer ensaio primário. Não constitui prescrição de uso, certificação, homologação ou recomendação de tratamento comercial.
 
@@ -463,8 +463,8 @@ ZHANG, Ying et al. Evaluating the comprehensive influences of heat treatment and
 **Apoio editorial e analítico:** ferramenta de inteligência artificial foi utilizada para localizar relações entre fontes, estruturar a matriz comparativa, conferir consistência interna e apoiar a redação. A seleção interpretativa, a perspectiva socioecológica e a responsabilidade pela versão publicada permanecem com o autor.  
 **Nível de maturidade:** prova de conceito analítica e documental (maturidade da agenda de pesquisa; maturidade da tecnologia não determinada). A agenda experimental proposta visa o avanço ao TRL-4.  
 **Financiamento:** Esta publicação foi preparada como parte de uma proposta de financiamento de P&D. O trabalho de curadoria documental que a fundamenta é independente e anterior à submissão.  
-**Publicação:** Versão depositada no Zenodo sob licença CC-BY-4.0. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+**Publicação:** Versão depositada no Zenodo sob licença CC-BY-4.0. DOI: [10.5281/zenodo.21778046](https://doi.org/10.5281/zenodo.21778046).
 
 ### Citação
 
-TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão depositada 1.0, 22 jul. 2026. DOI: [10.5281/zenodo.21738428](https://doi.org/10.5281/zenodo.21738428).
+TAKWARA, Fabio. *Preservação do bambu sob perspectiva socioecológica: eficácia, durabilidade, toxicidade e circularidade dos tratamentos*. Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 1, versão 1.2, 3 ago. 2026. DOI: [10.5281/zenodo.21778046](https://doi.org/10.5281/zenodo.21778046).

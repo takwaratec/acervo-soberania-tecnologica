@@ -4,9 +4,9 @@ series: Notebooks on Ecological Revision and Technological Sovereignty
 number: 4
 title: From prototype to conformity — standards, testing, professional accountability, and release of bamboo components
 author: Fabio Takwara
-author_orcid: 0000-0001-8815-3885
+author_orcid: 0009-0002-6044-2583
 year: 2026
-version: 1.2
+version: 1.3
 document_status: published-on-zenodo
 identifier: https://doi.org/10.5281/zenodo.21738559
 text_license: CC-BY-4.0
@@ -16,7 +16,7 @@ curation_responsible: Fabio Takwara
 tipo_documental: estado-da-arte
 estado_documental: publicado-no-zenodo
 responsavel_curadoria: 'Fabio Takwara'
-nota_versao: 'resolved — R-10: Zenodo API query (2026-08-01) confirms that record 10.5281/zenodo.21515361 corresponded to version 1.1 and that the new deposit (DOI 10.5281/zenodo.21738559) is version 1.2, according to the Zenodo version field (conceptual DOI 10.5281/zenodo.21515209); DOI 10.5281/zenodo.21515210 cited by Notebook 5 is version 1.0 (correct as citation of the previous version). Front matter updated to 1.2.'
+nota_versao: 'resolved — R-10: Zenodo API query (2026-08-01) confirms that record 10.5281/zenodo.21515361 corresponded to version 1.1 and that the new deposit (DOI 10.5281/zenodo.21738559) is version 1.2, according to the Zenodo version field (conceptual DOI 10.5281/zenodo.21515209); DOI 10.5281/zenodo.21515210 cited by Notebook 5 is version 1.0 (correct as citation of the previous version). Front matter updated to 1.2. Edition 1.3 (2026-08-03): material editorial correction of the page header (Public edition published) and editorial status — no scientific change.'
 editorial_note: 'P-01 resolved (decision by Fabio, 2026-08-01): the IFB Campus Planaltina faculty member cited in the Anais as Prof. Dr. Vicente Virgolino de Souza Neto is the same person as the Acervo profile Vicente de Paulo Borges Virgolino da Silva (coordinator of the Agronomy undergraduate program). Canonical form adopted: Vicente de Paulo Borges Virgolino da Silva. The Anais were not altered (historical record).'
 
 ---
@@ -26,14 +26,14 @@ editorial_note: 'P-01 resolved (decision by Fabio, 2026-08-01): the IFB Campus P
 ## Standards, testing, professional accountability, and release of bamboo components
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
-*Notebooks on Ecological Revision and Technological Sovereignty, n. 4 — version 1.2, August 1, 2026*  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
+*Notebooks on Ecological Revision and Technological Sovereignty, n. 4 — version 1.3, August 3, 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21738559.svg)](https://doi.org/10.5281/zenodo.21738559)
 [![Versão em Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green.svg)](caderno-04-prototipo-conformidade-normas-ensaios.md)
 
 
-> **Editorial status:** Public edition published on Zenodo (version 1.2, DOI [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559)). This text organizes a roadmap for research and conformity; it does not constitute a structural engineering design, legal opinion, certification, Technical Assessment Document (DATec), or technical responsibility record (ART/RRT).
+> **Editorial status:** Public edition published on Zenodo. DOI of this edition's version: [10.5281/zenodo.0000000](https://doi.org/10.5281/zenodo.0000000) — **to be inserted after DOI reservation (gate P2)**; New version of record 10.5281/zenodo.21738559; previous version: 10.5281/zenodo.21738559 (v1.2). This text organizes a roadmap for research and conformity; it does not constitute a structural engineering design, legal opinion, certification, Technical Assessment Document (DATec), or technical responsibility record (ART/RRT).
 
 ## Abstract
 
@@ -102,4 +102,4 @@ TAKWARA, Fabio. *From component to territorial productive capacity: distributed 
 
 ### Citation format
 
-TAKWARA, Fabio. *From prototype to conformity: standards, testing, professional accountability, and release of bamboo components*. Notebooks on Ecological Revision and Technological Sovereignty, n. 4, version 1.2, August 1, 2026. DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).
+TAKWARA, Fabio. *From prototype to conformity: standards, testing, professional accountability, and release of bamboo components*. Notebooks on Ecological Revision and Technological Sovereignty, n. 4, version 1.3, August 3, 2026. DOI: [10.5281/zenodo.21738559](https://doi.org/10.5281/zenodo.21738559).
