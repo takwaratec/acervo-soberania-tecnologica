@@ -3,7 +3,7 @@ tipo_documental: memoria-historica
 serie: Cadernos de Revisao Ecologica e Soberania Tecnologica
 titulo: Anais da Pesquisa e Trajetoria de Extensao (2018–2024) — Inventario Integral e Rastreabilidade Documental
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 3.0
 estado_documental: publicado-no-acervo
@@ -16,7 +16,7 @@ responsavel_curadoria: Fabio Takwara
 ## Registros Documentais Integrais, Projetos de Extensao, Suporte Academico e Salvaguardas Factuais
 
 **Curadoria Autoral:** Fabio Takwara  
-**ORCID:** [0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+**ORCID:** [0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 **Filiacao:** Nucleo Takwara / ex-Instrutor e Pesquisador do LaPeCFaS (FUP/UnB) e IFB  
 
 ---

@@ -4,7 +4,7 @@ serie: Cadernos de Revisao Ecologica e Soberania Tecnologica
 numero_caderno: 7
 titulo: The cycle that does not end at disposal — bamboo, castor oil, and responsibility facing the planetary crisis
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.0
 estado_documental: publicado-no-zenodo
@@ -19,7 +19,7 @@ responsavel_curadoria: Fabio Takwara
 ## Bamboo, castor oil, and responsibility facing the planetary crisis
 
 **Author:** Fabio Takwara  
-**ORCID:** [0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+**ORCID:** [0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 **Affiliation:** Nucleo Takwara  
 **Series:** Notebooks of Ecological Revision and Technological Sovereignty — Notebook 7  
 **DOI:** [https://doi.org/10.5281/zenodo.21515567](https://doi.org/10.5281/zenodo.21515567)  

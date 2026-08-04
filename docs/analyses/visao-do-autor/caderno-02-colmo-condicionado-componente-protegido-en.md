@@ -4,7 +4,7 @@ series: Notebooks on Ecological Revision and Technological Sovereignty
 number: 2
 title: From conditioned culm to protected component — interfaces, bio-based PU, internal filling, and integrated validation
 author: Fabio Takwara
-author_orcid: 0000-0001-8815-3885
+author_orcid: 0009-0002-6044-2583
 year: 2026
 version: 1.2
 document_status: deposited-on-zenodo
@@ -25,7 +25,7 @@ responsavel_curadoria: 'Fabio Takwara'
 ## Interfaces, bio-based PU, internal filling, and integrated validation
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Notebooks on Ecological Revision and Technological Sovereignty, n. 2 — deposited version 1.2, July 23, 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21514977.svg)](https://doi.org/10.5281/zenodo.21514977)

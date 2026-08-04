@@ -4,7 +4,7 @@ series: Notebooks on Ecological Revision and Technological Sovereignty
 number: 6
 title: Biomass biochar and cascading use of bamboo — soil, carbon, energy, and co-products
 author: Fabio Takwara
-author_orcid: 0000-0001-8815-3885
+author_orcid: 0009-0002-6044-2583
 year: 2026
 version: 1.0
 document_status: published-on-zenodo
@@ -24,7 +24,7 @@ responsavel_curadoria: 'Fabio Takwara'
 ## Soil, carbon, energy, and co-products
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Notebooks on Ecological Revision and Technological Sovereignty, n. 6 — version 1.0, July 23, 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515443.svg)](https://doi.org/10.5281/zenodo.21515443)

@@ -4,7 +4,7 @@ serie: Cadernos de Revisão Ecológica e Soberania Tecnológica
 numero: 7
 titulo: O ciclo que não termina no descarte — bambu, mamona e responsabilidade diante da crise planetária
 autor: Fabio Takwara
-orcid_autor: 0000-0001-8815-3885
+orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.0
 estado_documental: publicado-no-zenodo
@@ -20,7 +20,7 @@ responsavel_curadoria: Fabio Takwara
 ## Bambu, mamona e responsabilidade diante da crise planetária
 
 **Fabio Takwara**  
-[ORCID 0000-0001-8815-3885](https://orcid.org/0000-0001-8815-3885)  
+[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
 *Cadernos de Revisão Ecológica e Soberania Tecnológica, n. 7 — versão 1.0, 23 jul. 2026*  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515567.svg)](https://doi.org/10.5281/zenodo.21515567)
