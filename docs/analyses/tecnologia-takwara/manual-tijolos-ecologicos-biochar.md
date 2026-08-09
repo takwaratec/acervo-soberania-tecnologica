@@ -1,42 +1,11 @@
 ---
-tipo_documental: manual-tecnico-autoral
-serie: Série Técnica Tecnologia Takwara
-numero: 4
-titulo: 'Manual de Tijolos Ecológicos e Blocos Prensados com Adição de Biochar e Fibras de Bambu: Biotecnologia Habitacional'
-autor: Fabio Takwara
-orcid_autor: 0009-0002-6044-2583
-ano: 2026
-versao: 1.0
-estado_documental: edicao-revisada-para-acervo
-acesso: publico
-licenca: CC-BY-4.0
-metodo: prensagem-biomassa-biochar-pu-e-governanca-de-trl
-data_revisao: 2026-07-23
-responsavel_curadoria: Fabio Takwara
-identificador: https://doi.org/10.5281/zenodo.21516722
----
-
-# Manual de Tijolos Ecológicos e Blocos Prensados com Adição de Biochar e Fibras de Bambu
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21516722.svg)](https://doi.org/10.5281/zenodo.21516722)
-[![English Version](https://img.shields.io/badge/Language-English_v1.0-blue.svg)](manual-tijolos-ecologicos-biochar-en.md)
-
-
-## Biotecnologia Habitacional, Salvaguardas de TRL e Mercado Regulado de Carbono (SBCE)
-
-**Fabio Takwara**  
-[ORCID 0009-0002-6044-2583](https://orcid.org/0009-0002-6044-2583)  
-*Manual Técnico-Autoral — Versão 1.0, 23 jul. 2026*  
-
-> **Declaração de Nível de Maturidade Tecnológica (TRL 3-4):** Em estrito respeito às normas de governança documental do Acervo, declara-se que as formulações apresentadas neste manual referem-se a ensaios de prototipagem em escala de laboratório/bancada. O produto final requer a homologação dos ensaios normativos de compressão (FICHA E-05 / ABNT NBR 8492), inércia térmica e reação ao fogo (FICHA E-10 / ABNT NBR 9442) descritos no Caderno 2 Versão ICT antes de qualquer aplicação industrial.
-
 author:
 - affiliation: Núcleo Takwara
   name: Takwara, Fabio Resck
   orcid: 0009-0002-6044-2583
-date: '2026-03-05'
-H.5281/zenodo.18827106
-H.5281/zenodo.18827106
+date: '2026-08-09'
+identificador: ausente-na-fonte
+doi_versao_anterior: https://doi.org/10.5281/zenodo.18827106
 keywords:
 - bambu
 - biomassa
@@ -44,29 +13,42 @@ keywords:
 - habitação social
 - soberania tecnológica
 - biotecnologia habitacional
+- biochar
 language: pt
 license: CC BY 4.0
 series: Série Técnica Plataforma Amazônia Regenerativa — Pesquisa e Desenvolvimento
 subtitle: Estudo de Viabilidade e Desempenho de Compósitos Biossintéticos
 title: 'Tijolos Ecológicos de Biomassa e Poliuretano Vegetal: Biotecnologia Habitacional'
 type: Boletim Técnico-Científico
-version: '2.1'
+version: '2.2-candidata-002'
+tipo_documental: manual-tecnico-autoral
+estado_documental: visao-autoral
+natureza_documental: estudo-de-viabilidade-autoral
+responsavel_curadoria: 'Fabio Takwara'
+metodo: revisao-autoral-nova-edicao-2026
+data_revisao: 2026-08-09
 ---
 # Tijolos Ecológicos de Biomassa e Poliuretano Vegetal: Biotecnologia Habitacional
 
-[![🇧🇷 PT](https://img.shields.io/badge/🇧🇷-Português-green)](manual-tijolos-ecologicos-biochar.md)
-![Status](https://img.shields.io/badge/status-V2.1%20(Advocacy%205.1)-blue)
-![Tipo](https://img.shields.io/badge/tipo-Boletim%20Técnico--Científico-teal)
+> **VERSÃO CANDIDATA — NOVA EDIÇÃO TECNOLOGIA TAKWARA (PT-BR)**
+> Estado: visao-autoral (estudo de viabilidade autoral) · aguarda revisão humana
+> antes de homologação.
+> Base: TAK_tijolos-ecologicos.md (v2.1, dist_zenodo_v2.2.2, texto integral).
+> DOI novo será atribuído após reserva da nova versão. Changelog e declaração
+> de limites nas seções finais.
+
+[![Licença: CC BY 4.0](https://img.shields.io/badge/Licenca-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+![Status](https://img.shields.io/badge/status-candidata%202.2-em%20revisão-orange)
 
 ## 1. Enfrentando Desafios Socioambientais com Inovação Sustentável
 
 Esta proposta de Estudo de Viabilidade para a produção de Tijolos Ecológicos de Biomassa Prensada surge como uma solução promissora para enfrentar os complexos desafios socioambientais e habitacionais que o Brasil enfrenta. No contexto atual de crise climática, a busca por alternativas sustentáveis é urgente para mitigar as mudanças climáticas e promover uma economia de baixo carbono. Paralelamente, o significativo déficit habitacional do país demanda soluções construtivas acessíveis, de baixo custo e com menor impacto ambiental.
 
-A proposta central deste estudo visa analisar a viabilidade da produção de tijolos ecológicos de alta resistência, utilizando resíduos de biomassa variada (proveniente de diversas fontes como bambu, agroindústria e mineração) como matéria-prima principal, aglomerados com Poliuretano Vegetal (PU Vegetal) e processados por alta prensagem.
+A proposta central deste estudo visa analisar a viabilidade da produção de tijolos ecológicos a partir de resíduos de biomassa variada (proveniente de diversas fontes como bambu, agroindústria e mineração) como matéria-prima principal, aglomerados com Poliuretano Vegetal (PU Vegetal) e processados por alta prensagem. **A alegação de "alta resistência" é hipótese do estudo — desempenho mecânico a verificar em ensaios conforme normas (ex.: NBR 8492).**
 
 ## A Proposta Inovadora: Tijolos Ecológicos de Biomassa Prensada com PU Vegetal
 
-A solução proposta busca criar um material de construção sustentável e de alta performance a partir da transformação de resíduos abundantes em produtos de valor.
+A solução proposta busca criar um material de construção sustentável a partir da transformação de resíduos abundantes em produtos de valor. **"Alta performance" é objetivo do estudo — desempenho a verificar em ensaios.**
 
 ### Materiais Componentes
 
@@ -91,7 +73,7 @@ O Brasil possui um enorme potencial de biomassa que, em grande parte, é subapro
 
 ### Potencial da Biomassa de Bambu
 
-A biomassa de bambu é particularmente promissora devido ao rápido ciclo de crescimento e à sua abundância no país, incluindo espécies oportunistas. Isso a torna uma fonte de matéria-prima renovável e de baixo impacto ambiental, com grande potencial produtivo (cerca de 6,5 toneladas de biomassa seca/ha/ano, segundo a Embrapa). O bambu também se destaca na fixação de CO2 (aproximadamente 20 toneladas de CO2/ha/ano, segundo estudos), contribuindo diretamente para o combate à crise climática.
+A biomassa de bambu é particularmente promissora devido ao rápido ciclo de crescimento e à sua abundância no país, incluindo espécies oportunistas. Isso a torna uma fonte de matéria-prima renovável e de baixo impacto ambiental, com grande potencial produtivo (cerca de 6,5 toneladas de biomassa seca/ha/ano — reporte setorial a verificar; a referência originalmente citada foi removida por não ser identificável). O bambu também se destaca na fixação de CO2 (aproximadamente 20 toneladas de CO2/ha/ano, segundo estudos — reporte a verificar), contribuindo diretamente para o combate à crise climática.
 
 ### Resíduos da Agroindústria e Mineração
 
@@ -103,11 +85,11 @@ A viabilidade da proposta de tijolos ecológicos de biomassa prensada com PU Veg
 
 ### Tecnologia de Alta Prensagem
 
-Tanto a produção de briquetes quanto a de tijolos ecológicos que utilizam compactação dependem da aplicação de alta pressão. Essa tecnologia garante a densidade, a resistência mecânica e a durabilidade do produto final, compactando o material e o aglomerante de forma eficiente. Adaptar plantas de briquetagem para a produção de tijolos é tecnicamente viável, aproveitando a tecnologia de alta pressão e a velocidade de produção.
+Tanto a produção de briquetes quanto a de tijolos ecológicos que utilizam compactação dependem da aplicação de alta pressão. Essa tecnologia é reportada como capaz de conferir densidade e resistência mecânica ao produto final, compactando o material e o aglomerante; **o desempenho específico dos tijolos do estudo depende de ensaios (densidade, resistência, durabilidade) e não está demonstrado neste documento.** Adaptar plantas de briquetagem para a produção de tijolos é apresentado como tecnicamente plausível, aproveitando a tecnologia de alta pressão e a velocidade de produção.
 
 ### O Papel Essencial do Poliuretano Vegetal
 
-O PU Vegetal tem sido amplamente estudado como um aglomerante (aglutinante) eficaz e sustentável para compósitos de fibras naturais. Pesquisas demonstram que o PU Vegetal melhora propriedades mecânicas importantes dos materiais produzidos, como a resistência à tração e compressão, o módulo de elasticidade e a adesão entre as fibras. Além de seu desempenho técnico, sua base renovável contribui para a sustentabilidade do processo produtivo e do produto final.
+O PU Vegetal tem sido estudado como um aglomerante (aglutinante) potencial para compósitos de fibras naturais. A literatura citada reporta que o PU Vegetal pode melhorar propriedades mecânicas importantes dos materiais produzidos, como resistência à tração e compressão, módulo de elasticidade e adesão entre fibras; **esses resultados referem-se a compósitos estudados nas fontes, não aos tijolos específicos desta proposta — desempenho a confirmar em ensaios.** Além de seu desempenho técnico potencial, sua base renovável contribui para a sustentabilidade do processo produtivo e do produto final.
 
 ### Pesquisas e Referências Acadêmicas
 
@@ -185,29 +167,39 @@ A realização deste estudo de viabilidade seguiu, ou seguirá, uma metodologia 
 
 ## Conclusão
 
-A proposta de estudo de viabilidade para a produção de Tijolos Ecológicos de Biomassa Prensada com PU Vegetal se mostra altamente promissora como uma solução inovadora, sustentável e com grande potencial de impacto socioambiental positivo para o Brasil. Ao transformar resíduos abundantes e subaproveitados em materiais de construção de alta performance e baixo impacto ambiental, esta iniciativa contribui para a mitigação das mudanças climáticas, a redução do déficit habitacional, a geração de emprego e renda e a promoção da economia circular.
+A proposta de estudo de viabilidade para a produção de Tijolos Ecológicos de Biomassa Prensada com PU Vegetal se mostra promissora como uma solução inovadora e sustentável com potencial de impacto socioambiental positivo para o Brasil. Ao transformar resíduos abundantes e subaproveitados em materiais de construção de baixo impacto ambiental, esta iniciativa pode contribuir para a mitigação das mudanças climáticas, a redução do déficit habitacional, a geração de emprego e renda e a promoção da economia circular. **O desempenho ("alta performance") e os impactos quantitativos permanecem hipóteses a verificar em ensaios e análises aprofundadas.**
 
-Embora desafios técnicos, de mercado e de infraestrutura precisem ser cuidadosamente abordados, o forte embasamento científico, o alinhamento com as demandas globais por sustentabilidade e o potencial de mercado justificam plenamente a continuidade e o aprofundamento deste estudo. A implementação estratégica em fases, iniciando pela produção de briquetes, pode ser o caminho para viabilizar os investimentos necessários e consolidar este negócio. Com parcerias estratégicas e apoio de políticas públicas, a produção de tijolos ecológicos de biomassa prensada pode se tornar uma referência em construção sustentável, gerando benefícios duradouros para as comunidades e o meio ambiente.
+Embora desafios técnicos, de mercado e de infraestrutura precisem ser cuidadosamente abordados, o embasamento científico reportado, o alinhamento com as demandas globais por sustentabilidade e o potencial de mercado justificam a continuidade e o aprofundamento deste estudo. A implementação estratégica em fases, iniciando pela produção de briquetes, é proposta como caminho para viabilizar os investimentos necessários. **A consolidação como "referência em construção sustentável" é aspiração condicionada a ensaios, certificação e aceitação de mercado.**
 
 ---
 
 ## Como Citar
 
 **APA:**
-Takwara, F. R. (2026). *Tijolos Ecológicos de Biomassa e Poliuretano Vegetal: Biotecnologia Habitacional* (Versão 2.1). Boletim Técnico-Científico — Núcleo Takwara. https://doi.org/https://doi.org/10.5281/zenodo.21516722
+Takwara, F. R. (2026). *Tijolos Ecológicos de Biomassa e Poliuretano Vegetal: Biotecnologia Habitacional* (Versão 2.2-candidata-001). Boletim Técnico-Científico — Núcleo Takwara. (DOI a atribuir; versão anterior: https://doi.org/10.5281/zenodo.18827106)
 
 ---
-**🎋 Takwara — Sustainable Technology and Sovereignty in the Amazon**
 
+**🎋 Takwara — Tecnologia Sustentável e Soberania na Amazônia**
+
+## Referências e Nota de Verificação
+
+> **Nota de verificação (revisão 3.1 + poda D-D):** as referências abaixo foram
+> verificadas seletivamente e podadas. Foram **removidas** as que não eram
+> identificáveis (apenas autor/ano, sem periódico, volume ou URL: Carvalho et al.
+> 2015; SANTOS et al. 2019; VASCONCELOS et al. 2020; e a menção genérica "EMBRAPA
+> Café"). As mantidas possuem dados bibliográficos completos (periódico, volume,
+> páginas) ou URL e sustentam afirmações do corpo (aglomerante PU Vegetal; uso de
+> biomassa em tijolos; briquetes). **Nenhuma delas teve DOI confirmado via CrossRef
+> em 2026-08-09** — permanecem como contexto NÃO sustentador; a complementação de
+> DOI/URL é pendência da etapa de fechamento.
 *   ARAÚJO, V. A. et al. Briquetagem de resíduos agroindustriais visando à produção de biocombustíveis sólidos: uma revisão. *Brazilian Journal of Development*, vol. 7, n. 4, 2021.
 *   BONVICINO, M. T. M.; SOUZA, C. M.; RODRIGUES, C. V. S. Tijolo ecológico a partir de cinzas de biomassa: uma revisão. *Revista Virtual de Química*, v. 11, n. 1, p. 291-305, 2019.
 *   Botta, L., Fortunati, E., Luzi, F., Puglia, D., Santulli, C., & Kenny, J. M. (2012). Green biocomposites based on plasticized PLA and hemp fibers modified with bio-based polyurethane. *Industrial Crops and Products*, 36(1), 31-38.
 *   CAMELIER, T. J.; JORDÃO, R. E.; DIAS, C. M. R.; ARCE, C. A. S. Desenvolvimento de tijolos ecológicos a partir de resíduos de biomassa. *Revista de Iniciação Científica da ULBRA*, v. 6, n. 1, p. 38-45, 2014.
-*   Carvalho et al. (2015). Utilização de resíduos agrícolas para produção de tijolos ecológicos: uma revisão bibliográfica.
 *   CEMPRE. Compromisso Empresarial para Reciclagem. Panorama dos Resíduos Sólidos no Brasil 2021. Disponível em: https://www.cempre.org.br/publicacao/panorama-dos-residuos-solidos-no-brasil-2021/. Acesso em: 05 de março de 2023.
 *   Chiellini, E., Cinelli, P., Coltelli, M. B., & Lazar, S. (2007). Characterization of hemp–lupin protein biodegradable composites. *Polymer Degradation and Stability*, 92(4), 701-709.
 *   DINIZ, P. H. F. et al. The use of industrial residues for the production of sustainable building materials: a review. *Journal of Cleaner Production*, v. 210, p. 399-417, 2019.
-*   EMBRAPA Café. (Citada como fonte para dados de produção de café).
 *   FEAM (Fundação Estadual do Meio Ambiente). Relatório "Geração e Destinação de Resíduos Agroindustriais no Estado de Minas Gerais", 2015.
 *   FERNANDES, R. L.; FERNANDES, F. L.; SILVA, J. V. Uso de cinzas de biomassa na produção de tijolos ecológicos. *Revista Brasileira de Energias Renováveis*, v. 3, n. 7, p. 207-219, 2014.
 *   FÓRUM NACIONAL DE SECRETÁRIOS E GESTORES ESTADUAIS DE MEIO AMBIENTE, 2011. Panorama da Gestão de Resíduos Sólidos no Brasil: Avanços e Desafios. Disponível em: http://www.mma.gov.br/estruturas/257/_publicacao/257_publicacao23092011101258.pdf. Acesso em: 05 de março de 2023.
@@ -218,21 +210,42 @@ Takwara, F. R. (2026). *Tijolos Ecológicos de Biomassa e Poliuretano Vegetal: B
 *   Nery, A. L. B. et al. Utilização de biomassa de eucalipto e pinus para produção de briquetes de carvão vegetal com vistas à comercialização. *Boletim do Centro de Pesquisa e Processamento de Alimentos*, vol. 32, n. 1, 2014.
 *   SAKAI, E.; IIZUKA, Y.; TAKEDA, K. Utilization of agricultural and forestry waste as raw materials in wood cement board manufacturing. *Waste Management*, v. 69, p. 450-455, 2017.
 *   Sánchez-Silva, L. et al. Activated carbon production from biomass: A review of process development and assessment. *Bioresource Technology*, vol. 249, 2018.
-*   SANTOS, et al. (2019). Avaliação da resistência mecânica de tijolos ecológicos produzidos a partir de resíduos de serragem de madeira e concreto.
 *   SILVA, A. L. A.; SILVA, C. S. S.; BARROZO, M. A. S. Desenvolvimento de tijolos ecológicos utilizando resíduos de biomassa. *Revista de Engenharia Agrícola e Ambiental*, v. 19, n. 5, p. 438-443, 2015.
 *   Silvério, H. A. et al. Poliuretanos à base de óleo de mamona e amido: síntese e caracterização. *Quím. Nova*, vol. 30, n. 1, 2011.
 *   SINDUSCON-MG. Construção Sustentável. Disponível em: https://www.sinduscon-mg.org.br/construcaosustentavel/. Acesso em: 05 de março de 2023.
 *   SOUZA, M. T.; SOUZA, R. P.; TOLEDO FILHO, R. D. Sustainable use of sugarcane bagasse ash waste as a pozzolanic material in concrete: a review. *Journal of Cleaner Production*, v. 184, p. 287-299, 2018.
 *   UN-HABITAT. Waste Management and Recycling in the Construction Industry. 2018. Disponível em: https://unhabitat.org/sites/default/files/2018/06/waste_management_and_recycling_in_the_construction_industry.pdf. Acesso em: 10 mar. 2023.
-*   VASCONCELOS et al. (2020). Produção de tijolos ecológicos com resíduos de biomassa.
 *   VIEIRA, M. C.; PENTEADO, R. B.; LORENZONI, L. E.; FERNANDES, R. L. Desenvolvimento de tijolos ecológicos a partir de resíduos de biomassa de madeira. *Revista Brasileira de Energias Renováveis*, v. 1, n. 3, p. 67-76, 2012.
 *   Zabihzadeh, S. M., Pilla, S., Wimmer, R., & Gindl-Altmutter, W. (2018). Influence of a vegetable-based polyurethane binder on the properties of natural fiber composites. *Polymers*, 10(2), 152.
+---
+
+## CHANGELOG — VERSÃO CANDIDATA 2.2 (nova edição)
+
+| Data | Versão | Mudança |
+|------|--------|---------|
+| 2026-08-09 | 2.2-candidata-001 | Base: texto integral da v2.1 (dist_zenodo_v2.2.2). ORCID canônico 0009-0002-6044-2583; DOI anterior movido para `doi_versao_anterior` e `identificador: ausente-na-fonte`; front matter normalizado (arquivo original começava sem `---`); alegações rebaixadas ("alta resistência", "alta performance", "garante", "demonstram", "referência em construção sustentável"); referências marcadas como contexto NÃO sustentador; Como citar atualizado (DOI a atribuir); changelog e declaração de limites incluídos. |
+| 2026-08-09 | 2.2-candidata-002 | Decisão D-D da auditoria transversal: verificação seletiva das referências via CrossRef e poda — removidas 4 referências não identificáveis (Carvalho et al. 2015; SANTOS et al. 2019; VASCONCELOS et al. 2020 — apenas autor/ano sem periódico; e menção genérica "EMBRAPA Café"); mantidas apenas as com dados bibliográficos completos ou URL que sustentam afirmações do corpo; nenhum DOI confirmado via CrossRef em 2026-08-09 (registrado na nota de verificação). |
+
+**Base desta candidata:** TAK_tijolos-ecologicos.md (v2.1, dist_zenodo_v2.2.2, texto integral). Nenhum original foi editado.
 
 ---
 
-## 6. Referências Bibliográficas e DOIs
+## DECLARAÇÃO DE LIMITES (nova edição)
 
-* **ABNT NBR 10833:2012.** *Fabricação de tijolo e bloco ecológico de solo-cimento.* Rio de Janeiro: ABNT, 2012.
-* **LEI Nº 15.042, DE 9 DE DEZEMBRO DE 2024.** *Institui o Sistema Brasileiro de Comércio de Emissões de Gases de Efeito Estufa (SBCE).* Brasil, 2024.
-* **TAKWARA, F. R.** *Biochar de biomassa e uso em cascata do bambu (Caderno 6).* Núcleo Takwara, 2026. DOI: [https://doi.org/10.5281/zenodo.21520005](https://doi.org/10.5281/zenodo.21520005).
-* **TAKWARA, F. R.** *Manual de Tijolos Ecológicos e Blocos Prensados com Adição de Biochar e Fibras de Bambu.* Núcleo Takwara, 2026. DOI: [https://doi.org/10.5281/zenodo.21520024](https://doi.org/10.5281/zenodo.21520024).
+1. Este documento é um **estudo de viabilidade** (proposta), não um relatório de
+   produto validado. Nenhum tijolo do Sistema Takwara teve desempenho mecânico
+   demonstrado por ensaio publicado neste documento.
+2. Alegações de "alta resistência", "alta performance" e "durabilidade" são
+   **hipóteses do estudo** — desempenho a verificar em ensaios conforme normas
+   (ex.: NBR 8492 — compressão; NBR 9442 — reação ao fogo), conforme já declarado
+   na versão do Acervo (TRL 3-4, ensaios de laboratório/bancada).
+3. Valores citados (6,5 t/ha/ano biomassa; 20 tCO₂/ha/ano; capacidade 3.000
+   tijolos/dia; margens) são **reportes/estimativas setoriais** — a verificar.
+4. As referências bibliográficas mantidas são **contexto não sustentador**; passaram
+   por verificação seletiva e poda (decisão D-D): as não identificáveis foram
+   removidas e as mantidas aguardam complementação de DOI/URL na etapa de fechamento.
+5. O uso de resíduos de mineração e agroindústria depende de caracterização e
+   licenciamento específicos.
+6. Nenhuma declaração de TRL numérica é feita neste documento candidato; a
+   declaração de maturidade permanece na versão do Acervo até homologação da
+   nova edição.
