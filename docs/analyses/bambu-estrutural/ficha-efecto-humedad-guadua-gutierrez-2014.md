@@ -3,11 +3,12 @@ tipo_documental: ficha-cientifica
 titulo: Efecto del contenido de humedad en la resistencia a tensión paralela a la fibra del bambú Guadua angustifolia Kunth
 autores: Mateo Gutiérrez-González; Caori Patricia Takeuchi-Tam
 ano: 2014
-doi: 10.22517/23447214.9117
+identificador: sem-doi-registrado
 issn: 0122-1701
 estado_documental: em-revisao-documental
 fonte_primaria: PDF integral conferido
 data_revisao: 2026-07-14
+nota_versao: "DOI anterior (10.22517/23447214.9117) retornava 404 no CrossRef e no doi.org em 2026-08-09; marcado como sem-doi-registrado até confirmação na plataforma da revista (Scientia et Technica, UTP). Não substituído por aproximação (frente separada de correção de DOIs)."
 responsavel_curadoria: Fabio Takwara
 ---
 
