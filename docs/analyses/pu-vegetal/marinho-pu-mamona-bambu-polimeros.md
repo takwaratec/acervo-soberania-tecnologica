@@ -13,11 +13,12 @@ autores:
 ano: 2013
 instituicao: UTFPR (PPG em Engenharia Mecânica e de Materiais)
 tipo: artigo
-doi: 10.4322/S0104-14282013005000007
+doi: 10.1590/s0104-14282013005000007
 issn: 0104-1428
 identificador: Polímeros, vol. 23, n. 2, p. 201-205, 2013
 endpoint_pdf: https://www.scielo.br/j/po/a/qdLxjK4LzjNcz5r9rzZXKcC/?format=pdf&lang=pt&ilang=pt_BR
 pagina_registro: https://www.scielo.br/j/po/a/qdLxjK4LzjNcz5r9rzZXKcC/
+nota_versao: "DOI corrigido em 2026-08-09 (frente separada): o DOI anterior (10.4322/S0104-14282013005000007) retornava 404 no CrossRef; o DOI vigente 10.1590/s0104-14282013005000007 foi confirmado via CrossRef (Polímeros, 2013)."
 hash_sha256: 092addc3841aafeddd5cb538faadb2e0765f3f19b7fc2f9287c8b022da3ba7df
 data_acesso: 2026-07-31
 licenca: nao declarado na fonte
