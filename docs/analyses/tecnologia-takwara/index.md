@@ -4,6 +4,8 @@ Esta gaveta reúne manuais técnicos, boletins autoral-científicos e memoriais 
 
 ## Manuais e Boletins Técnicos Autorais
 
+- [Relatório Executivo: Plataforma Amazônia Regenerativa e Inovações (candidata 2.2)](relatorio-executivo-plataforma.md) *(DOI a atribuir na nova reserva)*
+
 - [Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa (v2.2)](manual-bioeconomia-comunitaria-bambu.md) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515712.svg)](https://doi.org/10.5281/zenodo.21515712)
 - [Fitorremediação e Mercados de Carbono: O Bambu como Engenheiro Ecológico (v2.2)](manual-fitorremediacao-solos-degradados-bambu.md) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21515728.svg)](https://doi.org/10.5281/zenodo.21515728)
 
