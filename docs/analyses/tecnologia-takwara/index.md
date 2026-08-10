@@ -2,6 +2,20 @@
 
 Esta gaveta reúne manuais técnicos, boletins autoral-científicos e memoriais desenvolvidos por Fabio Takwara.
 
+## Cartilhas autorais de Tecnologia Takwara
+
+> **Documentos de síntese, proposta e divulgação.** Não constituem certificação experimental, validação tecnológica ou prova de patenteabilidade. Em revisão documental até homologação.
+
+| Documento | Idioma | Versão | Estado |
+|---|---|---|---|
+| ⭐ [Bioeconomia Comunitária do Bambu](manual-bioeconomia-comunitaria-bambu.md) | PT-BR | 2.2-candidata-005 | em-revisao-documental (auditada) |
+| ⭐ [Fitorremediação e Mercados de Carbono](manual-fitorremediacao-solos-degradados-bambu.md) | PT-BR | 2.2-candidata-004 | em-revisao-documental (auditada) |
+| [Conexões Estruturais em Bambu Roliço](manual-conexoes-estruturais-bambu.md) | PT-BR | 2.2-candidata-002 | em-revisao-documental |
+| [Tijolos Ecológicos com Biochar](manual-tijolos-ecologicos-biochar.md) | PT-BR | 2.2-candidata-002 | em-revisao-documental |
+| [Relatório Executivo: Plataforma Amazônia Regenerativa](relatorio-executivo-plataforma.md) | PT-BR | candidata 2.2 | em-revisao-documental |
+
+⭐ = auditadas botânica e factualmente (homologação 001; correções aplicadas).
+
 ## Manuais e Boletins Técnicos Autorais
 
 - [Relatório Executivo: Plataforma Amazônia Regenerativa e Inovações (candidata 2.2)](relatorio-executivo-plataforma.md) *(DOI a atribuir na nova reserva)*
