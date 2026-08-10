@@ -80,7 +80,7 @@ Implantar e validar uma plataforma integrada de saneamento ecológico, manejo ec
 
 1. Universalizar o acesso a saneamento ecológico em comunidades selecionadas de várzea e áreas rurais, por meio da implantação e validação de protótipos de Banheiro Seco Modular (BSM) e Banheiro Ecológico Ribeirinho (BER), integrados a logística reversa, compostagem classe A e monitoramento epidemiológico, tratados como componente de pesquisa‑ação com gestão de risco.  
      
-2. Estruturar, em parceria com instituições científicas e órgãos ambientais acreanos, uma cadeia de manejo ecológico de bambu Guadua spp. que considere o ciclo de mortalidade em massa, defina áreas permanentes de atuação e planeje rotas terrestres e hidroviárias de escoamento, servindo de base para a instalação progressiva de novas biorrefinarias de base ao redor da mancha de bambu no estado.
+2. Estruturar, em colaboração pretendida com instituições científicas e órgãos ambientais acreanos, uma cadeia de manejo ecológico de bambu Guadua spp. que considere o ciclo de mortalidade em massa, defina áreas permanentes de atuação e planeje rotas terrestres e hidroviárias de escoamento, servindo de base para a instalação progressiva de novas biorrefinarias de base ao redor da mancha de bambu no estado.
 
 3. Implantar biorrefinarias comunitárias de carvão ativado, biochar, extrato pirolenhoso e briquetes a partir de Guadua spp. e resíduos agroextrativistas (açaí, castanha, babaçu), substituindo lenha nativa e combustíveis fósseis em usos térmicos regionais, como primeiro núcleo industrial replicável na borda da mancha de bambu, com delimitação de área de atuação, rotas terrestres e hidroviárias definida, ainda na Fase 1, pelo comitê gestor em articulação com instituições parceiras, governo do estado e prefeituras.  
      
@@ -253,7 +253,7 @@ Os módulos BSM/BER serão combinados com sistemas de captação de água de chu
 
 ## 6.2 Impactos esperados e mitigação
 
-Espera‑se, nas comunidades‑piloto, redução significativa da contaminação fecal difusa e das doenças de veiculação hídrica, medida por indicadores de DRSAI, qualidade da água e percepção de risco, com monitoramento em parceria com serviços de saúde locais. O risco tecnológico e social associado à adoção de soluções ainda não consolidadas é mitigado pelo desenho em pesquisa‑ação do Componente 0, pelos marcos de decisão de 12, 24 e 36 meses e pela possibilidade de ajustes ou limitação de escala sem comprometer a viabilidade da biorrefinaria e da linha de biocompósitos. Assim, o saneamento ecológico só se consolida como mercado âncora na Fase 3 se os gatilhos de desempenho previamente definidos forem alcançados, preservando o núcleo industrial em cenários conservadores.
+Espera‑se, nas comunidades‑piloto, redução significativa da contaminação fecal difusa e das doenças de veiculação hídrica, medida por indicadores de DRSAI, qualidade da água e percepção de risco, com monitoramento em colaboração pretendida com serviços de saúde locais. O risco tecnológico e social associado à adoção de soluções ainda não consolidadas é mitigado pelo desenho em pesquisa‑ação do Componente 0, pelos marcos de decisão de 12, 24 e 36 meses e pela possibilidade de ajustes ou limitação de escala sem comprometer a viabilidade da biorrefinaria e da linha de biocompósitos. Assim, o saneamento ecológico só se consolida como mercado âncora na Fase 3 se os gatilhos de desempenho previamente definidos forem alcançados, preservando o núcleo industrial em cenários conservadores.
 
 
 ---
@@ -262,7 +262,7 @@ Espera‑se, nas comunidades‑piloto, redução significativa da contaminação
 
 ## 7.1 Diretrizes de manejo ecológico de Guadua spp.
 
-O projeto propõe manejo de Guadua spp. com zoneamento ecológico, limites de extração por talhão, manutenção de parcelas de controle e monitoramento de regeneração e biodiversidade, em diálogo com órgãos ambientais (SEMA/IMAC, ICMBio) e marcos regulatórios florestais. O desenho da cadeia de manejo é construído em parceria com instituições científicas acreanas, considerando os ciclos de mortalidade em massa descritos por Sonaira Souza da Silva e planejando áreas permanentes de atuação e rotas terrestres e hidroviárias de escoamento como base para a instalação progressiva de novas biorrefinarias na borda da mancha de bambu no estado.
+O projeto propõe manejo de Guadua spp. com zoneamento ecológico, limites de extração por talhão, manutenção de parcelas de controle e monitoramento de regeneração e biodiversidade, em diálogo com órgãos ambientais (SEMA/IMAC, ICMBio) e marcos regulatórios florestais. O desenho da cadeia de manejo é construído em colaboração pretendida com instituições científicas acreanas, considerando os ciclos de mortalidade em massa descritos por Sonaira Souza da Silva e planejando áreas permanentes de atuação e rotas terrestres e hidroviárias de escoamento como base para a instalação progressiva de novas biorrefinarias na borda da mancha de bambu no estado.
 
 Como resposta ao peso estrutural da logística na Amazônia, o manejo incorpora Unidades de Beneficiamento Primário (UBPs) próximas às áreas de corte, dedicadas a etapas de rachamento, picagem e pré‑secagem do bambu e de outros resíduos agroextrativistas, reduzindo significativamente volume e umidade da biomassa antes do transporte. Essa estratégia de processamento primário descentralizado segue a lógica de “transportar o suco, não a laranja inteira”: concentrar energia e valor em pontos mais próximos das comunidades, diminuindo o custo por tonelada útil transportada, o consumo de diesel e o desgaste de estradas e ramais. As UBPs funcionam, ainda, como micropolos de trabalho e aprendizagem em manejo e beneficiamento, articulando geração de renda local à estratégia de mitigação de incêndios e restauração ecológica.
 
@@ -413,11 +413,11 @@ Foram simulados cenários de estresse específicos, incluindo redução de recei
 
 As principais lacunas a endereçar em estudos complementares incluem, com respectivos responsáveis indicativos:
 
-- Consolidação de protocolos de validação de BSM/BER com métricas epidemiológicas, sociais e de custo‑efetividade, a cargo do núcleo de saneamento em parceria com secretarias municipais de saúde, vigilância sanitária e instituições de pesquisa.
+- Consolidação de protocolos de validação de BSM/BER com métricas epidemiológicas, sociais e de custo‑efetividade, a cargo do núcleo de saneamento em colaboração pretendida com secretarias municipais de saúde, vigilância sanitária e instituições de pesquisa.
 
 - Elaboração e implementação de planos de manejo de Guadua spp. com monitoramento de biodiversidade, regeneração e risco de fogo, conduzidos pelo núcleo de manejo, cooperativas de manejo e instituições científicas acreanas, em diálogo com órgãos ambientais.
 
-- Modelagem detalhada de créditos de carbono de biochar (metodologias, custos de MRV, repartição de benefícios, riscos de mercado), liderada pelo núcleo de bioeconomia em parceria com especialistas em carbono e potenciais desenvolvedores de projetos.
+- Modelagem detalhada de créditos de carbono de biochar (metodologias, custos de MRV, repartição de benefícios, riscos de mercado), liderada pelo núcleo de bioeconomia em colaboração pretendida com especialistas em carbono e potenciais desenvolvedores de projetos.
 
 - Estudos de ACV e desempenho termo‑higroscópico e mecânico de domos e compósitos bambu–PU–PET em comparação a sistemas convencionais, sob responsabilidade dos núcleos de tecnologias regenerativas e arquitetura, em colaboração com universidades e laboratórios acreditados.
 
