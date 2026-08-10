@@ -1,9 +1,9 @@
 ---
 tipo_documental: estado-da-arte
 estado_documental: em-revisao-documental
-fonte_primaria: fichas do eixo com fonte integral conferida (51 fichas)
+fonte_primaria: fichas do eixo com fonte integral conferida (53 fichas)
 titulo: "Estado da Arte — Bambu Estrutural"
-data_revisao: 2026-08-01
+data_revisao: 2026-08-10
 responsavel_curadoria: Fabio Takwara
 ---
 
@@ -13,7 +13,7 @@ responsavel_curadoria: Fabio Takwara
 
 ## Síntese
 
-Esta síntese organiza o conjunto documental da gaveta `bambu-estrutural` em sete eixos temáticos, cobrindo o recorte 1990–2025 (com um documento histórico de 1990 digitalizado em 2026). O fundo é composto por **51 fichas**, todas com fonte integral conferida (PDF integral ou edição integral) e todas em estado `em-revisao-documental`: 27 fichas científicas, 14 fichas acadêmicas, 4 documentos institucionais, 2 periódicos institucionais, 2 documentos de patente, 1 norma estrangeira e 1 material didático. O recorte cobre propriedades do material, tratamento térmico e preservação, transformação industrial (densificação, laminados, painéis e CLB), compósitos e materiais derivados, estruturas e sistemas construtivos, pragas e durabilidade, e a frente normativa, patentária e de mercado no Brasil. A escrita segue a regra do Acervo: **não fabricar dados** — todo número, autor e ano citado provém de uma ficha; interpretações curatoriais são marcadas como tais. Onde as fichas registram resultados divergentes, o texto os declara, em vez de ocultá-los.
+Esta síntese organiza o conjunto documental da gaveta `bambu-estrutural` em sete eixos temáticos, cobrindo o recorte 1990–2025 (com um documento histórico de 1990 digitalizado em 2026). O fundo é composto por **53 fichas e documentos com fonte integral conferida** (29 fichas científicas, 14 fichas acadêmicas, 4 documentos institucionais, 2 periódicos institucionais, 2 documentos de patente, 1 norma estrangeira e 1 material didático), todas em estado `em-revisao-documental` — além de 3 estados da arte complementares (agenda de pesquisa, mapa de evidências, mapa de lacunas), 3 documentos de natureza `visao-autoral` e instrumentos de pesquisa (5) referenciados separadamente e excluídos da contagem. O recorte cobre propriedades do material, tratamento térmico e preservação, transformação industrial (densificação, laminados, painéis e CLB), compósitos e materiais derivados, estruturas e sistemas construtivos, pragas e durabilidade, fitorremediação, e a frente normativa, patentária e de mercado no Brasil. A escrita segue a regra do Acervo: **não fabricar dados** — todo número, autor e ano citado provém de uma ficha; interpretações curatoriais são marcadas como tais. Onde as fichas registram resultados divergentes, o texto os declara, em vez de ocultá-los.
 
 ## Resumo Executivo
 
@@ -207,21 +207,42 @@ A [ficha de Gutiérrez-González e Takeuchi-Tam (2014)](ficha-efecto-humedad-gua
 
 ---
 
-## 7. Normas, patentes, mercado e industrialização no Brasil
+## 7. Fitorremediação
 
-### 7.1. Panorama normativo
+### 7.1. Cobre e chumbo em bambu-mossô (fontes primárias integrais)
+
+A gaveta passou a incluir a frente de fitorremediação, com duas fichas de fonte primária integral:
+
+- A [ficha de Chen et al. (2015)](ficha-chen-2015-cu-moso-fitorremediacao.md) — cobre (Cu) em *Phyllostachys pubescens* (moso): experimento de vaso (2 meses, 0–600 mg/kg Cu) com BAF radicular entre **0,54 e 1,41** e TF entre **0,07 e 0,23** (Tabela 3, p. 4–5); o artigo conclui que o moso **não é hiperacumulador** de Cu; a hidroponia (Tabela 4) mede apenas enzimas (SOD/POD/MDA) e prolina, sem BAF/TF.
+- A [ficha de Liu et al. (2015)](ficha-liu-2015-pb-moso-fitorremediacao.md) — chumbo (Pb) em *P. pubescens* (moso): hidroponia (30 dias, 0–400 µmol/L Pb) com BCF entre **10,97 e 37,64** e TF entre **0,07 e 0,37**; concentração máxima de **4.282,8 mg/kg** na raiz (400 µmol/L); todos os TF < 1 e BCF > 10.
+
+Ambas são **experimentais e específicas das condições do ensaio** (vaso/hidroponia; mudas jovens; solução nutritiva). **Não constituem recomendação geral de fitorremediação**, não atestam desempenho em solo real e não equivalem a certificação. As fichas registram a definição literal dos fatores (BAF = tecido/solo; TF = CS/CR, BCF = Cp/Cm) e a nota nomenclatural (*P. pubescens* = sinônimo de *P. edulis*, GBIF).
+
+### 7.2. Fontes pendentes ou privadas (NÃO contadas como evidência)
+
+As seguintes fontes de fitorremediação **não integram** este estado da arte até confirmação por fonte primária integral (regra da GOVERNANCA_DOCUMENTAL.md): a revisão Nemenyi (2022) — privada, com divergências a resolver (Zn FT, Pb, Cu 3,04); Bian 2017 (paywall); Liu 2014 (Zn, paywall); Li 2016 (Cd, paywall); Li 2014 (26.388 mg/kg, não localizada); Zhang 2011 (P. fortunei, não localizada); Torres 2008 (não verificada). Nenhum valor dessas fontes é citado como fato.
+
+### 7.3. Estado deste eixo
+
+**Confiança moderada e escopo restrito**: duas fontes primárias integrais (Cu e Pb em moso, condições de ensaio específicas); evidência insuficiente para generalizar a bambus nativos, solos reais ou outras espécies. **Lacuna central:** ausência de ensaios de campo e de fichas para espécies nativas (*Guadua* spp.) com fonte integral confirmada.
+
+---
+
+## 8. Normas, patentes, mercado e industrialização no Brasil
+
+### 8.1. Panorama normativo
 
 A [dissertação de Marçal (2018)](marcal-2018-normas-internacionais-bambu.md) compara normas internacionais e nacionais estrangeiras aplicáveis ao bambu-colmo: as normas compartilham tendências, mas adaptam espécies, parâmetros e práticas a realidades locais; a variabilidade, a conicidade e a ausência de padronização industrial aumentam a complexidade de projeto e execução; o autor destaca a **norma equatoriana como referência ampla** no recorte temporal estudado; e uma cadeia capaz de entregar colmos maduros, selecionados, preservados e secos é condição relevante para a normalização. A [ficha NSR-10, Título G (2010)](nsr10-titulo-g-guadua.md) registra o regulamento colombiano de construção sismo-resistente que **reconhece a guadua como material estrutural regulado** (156 páginas na cópia conferida), integrando matéria-prima, preservação, cálculo e execução — com a ressalva da ficha de que a norma estrangeira não autoriza dimensionar obras brasileiras nem substitui ABNT e responsabilidade técnica. A [revisão de Adier et al. (2023)](adier-2023-propriedades-tratamento-bambu.md) mapeia a evolução dos códigos (ISO 22157, ABNT NBR 16828, NSR-10) e aponta como principal lacuna da engenharia contemporânea de bambu a falta de **preenchimentos sustentáveis não friáveis nas conexões** para impedir o cisalhamento nos nós. As fichas brasileiras de ensaio e industrialização citam as normas NBR 16828-1/2 (Oliveira 2025), NBR 7190/97, NBR 9531/86 e NBR 16828 (Martins 2021), e a ficha de Louredo et al. (2025) registra as normas **NBR 16828:2020 e NBR 17043:2023**.
 
-### 7.2. Cadeia produtiva e mercado
+### 8.2. Cadeia produtiva e mercado
 
 A [tese de Lima (2019)](lima-2019-bambus-nativos-cadeia-conservacao.md) mapeou **222 iniciativas** produtivas e de PD&I com bambus nativos (concentradas no Acre, Sudeste e Sul), com estudo de caso de 23 iniciativas no Acre (entrevistas 2014–2016): arranjos institucionais, políticas e experiência prévia favoreceram as iniciativas; financiamento insuficiente, descontinuidade, conhecimento limitado e entraves regulatórios apareceram como restrições; e a autora observa menor protagonismo de atores locais e socioambientais nas redes analisadas. A [ficha de Louredo, Pantoja e Teixeira (2025)](louredo-2025-bambu-materia-prima-mercado-brasileiro.md) — trabalho exploratório do XVIII EBRAMEM — compila estimativas da fonte: **258 espécies nativas (35 gêneros, 68% endêmicas)**; reservas de *Guadua* no Acre estimadas em **21,8 bilhões de hastes (800,1 milhões de m³, 62% do território estadual)**; oferta natural avaliada em **4,4 bilhões de dólares para placas e 778,5 milhões de dólares para carvão**; e registra o marco legal (Lei nº 12.484/2011 — PNMCB), as normas NBR 16828:2020 e NBR 17043:2023 e a atuação da Rede Brasileira do Bambu. A [Revista Bambu (RBB, n. 3, 2022)](revista-bambu-rbb-2022.md) e o [Bamboo and Rattan Update (INBAR, v. 6, n. 2, 2025)](inbar-bru-v6n2-2025.md) são registros de periódicos institucionais: úteis para mapear atores e agendas (Seminário Nacional do Bambu, Rede Brasileira do Bambu; ação climática, restauração, meios de vida, substituição de plásticos), mas, como registram as próprias fichas, não devem ter números de mercado ou impacto reutilizados como evidência científica sem fonte primária. A [ficha de Teixeira et al. (2021)](cerne-2021-minijardim-clonal-bambusa-vulgaris.md) cobre a base da cadeia: protocolo de micropropagação de *Bambusa vulgaris* em sistema semi-hidropônico, com 21,9% de estabelecimento in vitro dos segmentos nodais (9 coletas entre abril de 2017 e março de 2018), ambiente de estufa como melhor doador (28,4%, contra 20,1% a campo e 14,3% em casa de sombra), contaminação fúngica como principal fator de mortalidade, **80,0% de sobrevivência e 50,0% de enraizamento adventício** no meio MS sem antibiótico, e ausência de variação somaclonal por marcadores ISSR após 16 subcultivos (~10 meses).
 
-### 7.3. Patentes
+### 8.3. Patentes
 
 As duas cartas-patente da gaveta são fontes tecnológicas primárias, fora da contagem científica: a [protensão externa de colmos de bambu (UFMG)](moreira-silva-2022-bambu-protendido.md) e o [microrreator capilar de bambu (Faculdades Católicas)](pandoli-ghavami-sa-2023-microrreator-bambu.md). Ambas as fichas registram que a concessão protege novidade e atividade inventiva no escopo das reivindicações, mas **não certifica desempenho para uso geral** — faltam, nos documentos, séries de corpos de prova, comparação estatística, identificação botânica (espécie ausente em ambas), durabilidade e protocolo normativo.
 
-### 7.4. Estado deste eixo
+### 8.4. Estado deste eixo
 
 **Confiança moderada** (registro documental); estimativas de mercado não auditadas por estudos independentes. As fichas sustentam que o Brasil tem marco legal (PNMCB, Lei nº 12.484/2011), normas ABNT em vigor para estruturas de bambu (NBR 16828:2020; NBR 17043:2023) e rede institucional ativa (Rede Brasileira do Bambu, INBAR), mas que a cadeia enfrenta **barreiras estruturais**: ausência de plantações comerciais, rendimento baixo de beneficiamento (~30%), adesivos importados, falta de norma específica para o BaLC, PNMCB não regulamentada (Martins 2021; Louredo 2025; Lima 2019) e lacuna de normas para materiais engenheirados como o CLB (Alves 2025). As estimativas de oferta e valor de mercado (Louredo 2025) são da fonte, de caráter exploratório, e **não foram auditadas por estudos independentes** na gaveta.
 
@@ -238,7 +259,7 @@ As duas cartas-patente da gaveta são fontes tecnológicas primárias, fora da c
 
 ---
 
-## 8. Controvérsias e lacunas
+## 9. Controvérsias e lacunas
 
 ### Controvérsias
 
@@ -264,7 +285,7 @@ As duas cartas-patente da gaveta são fontes tecnológicas primárias, fora da c
 
 ---
 
-## 9. Síntese e inserção no Acervo
+## 10. Síntese e inserção no Acervo
 
 O conjunto documental sustenta três constatações fortes. **Primeira:** o tratamento térmico é a rota de preservação mais bem documentada da gaveta — múltiplas fichas independentes (Costa 2015; Wang et al. 2020; Oliveira et al. 2025; Shangguan et al. 2016) convergem para uma janela operacional em que estabilidade dimensional e durabilidade melhoram sem perda mecânica relevante, e para a existência de um limite de severidade além do qual o material degrada. **Segunda:** a transformação industrial (densificação, laminados, painéis, CLB) tem evidência de bancada promissora — com números expressivos, como MOR de ~312 MPa no densificado de Sá (2022) e 239,24 MPa no painel de Tarverdi (2024) —, mas esbarra em barreiras normativas e de escala no Brasil documentadas por Martins (2021) e Alves (2025). **Terceira:** a durabilidade em obra depende tanto do tratamento quanto do projeto, do controle de umidade e da manutenção (Bussinger 2024; Afonso 2025).
 
