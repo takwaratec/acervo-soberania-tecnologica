@@ -1,7 +1,7 @@
 ---
 author:
 - affiliation: Núcleo Takwara
-  name: Takwara, Fabio Resck
+  name: Takwara, Fabio
   orcid: 0009-0002-6044-2583
 date: '2026-08-09'
 identificador: ausente-na-fonte
@@ -27,8 +27,8 @@ series: Série Técnica Plataforma Amazônia Regenerativa — Bioeconomia Comuni
 subtitle: Guia Prático de Governança e Industrialização Regional
 title: 'Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa'
 type: Boletim Técnico-Científico
-version: '2.2-candidata-003'
-tipo_documental: cartilha-comunitaria
+version: '2.2-candidata-004'
+tipo_documental: visao-autoral
 estado_documental: em-revisao-documental
 responsavel_curadoria: 'Fabio Takwara'
 metodo: revisao-autoral-nova-edicao-2026
@@ -84,7 +84,7 @@ Você não precisa ler tudo de uma vez. Cada seção termina com **"Próximo pas
 
 ### O bambu "problema" que é na verdade um ativo
 
-Em todo o Brasil, o bambu cresce onde ninguém pediu — e custa caro quando ignorado. Na Região Metropolitana de Campinas (RMC), mais de **12.000 hectares** de *Phyllostachys aurea* (bambu-dourado, cana-da-índia) consomem R$ 180 milhões por ano em manejo ou prejuízo por inação. No Acre, 4,5 a 7 milhões de hectares de *Guadua* nativa aguardam uma cadeia produtiva que transforme passivo florestal em soberania econômica. Em fragmentos urbanos de Curitiba, São Paulo e Taubaté, *Phyllostachys aurea* é classificada como espécie exótica invasora Categoria I — proibida de plantar, mas já instalada e crescendo.
+Em todo o Brasil, o bambu cresce onde ninguém pediu — e custa caro quando ignorado. Na Região Metropolitana de Campinas (RMC), mais de **12.000 hectares** de *Phyllostachys aurea* (bambu-dourado, cana-da-índia) consomem R$ 180 milhões por ano em manejo ou prejuízo por inação *(estimativa autoral a validar — sem fonte auditada; verificar na etapa de fechamento)*. No Acre, 4,5 a 7 milhões de hectares de *Guadua* nativa aguardam uma cadeia produtiva que transforme passivo florestal em soberania econômica *(ocorrência amazônica reportada; natividade e área a confirmar com fonte botânica)*. Em fragmentos urbanos de Curitiba, São Paulo e Taubaté, *Phyllostachys aurea* é classificada como espécie exótica invasora Categoria I — proibida de plantar, mas já instalada e crescendo *(classificação de invasividade a verificar com fonte jurisdicional)*.
 
 **O paradoxo é o ponto de partida:** o mesmo bambu que é um problema ecológico e um custo para quem o tem, é a matéria-prima de uma cadeia industrial de baixo carbono que inclui briquetes, biochar, compósitos, habitação social, estufas geodésicas, créditos de carbono e metanol verde.
 
@@ -103,18 +103,20 @@ A primeira pergunta não é "como industrializo isso?" A primeira pergunta é: *
 
 | Espécie | Nome popular | Colmo | Comportamento | Uso prioritário |
 | :-- | :-- | :-- | :-- | :-- |
-| *Phyllostachys aurea* | Bambu-dourado, cana-da-índia | 2–4,5 cm diâm. / 6–12 m alt. — **vara útil máx. 3 m** (trecho sem conicidade extrema) | Invasora (rizoma leptomorfo) | Pirólise, biochar, cabos, estruturas V1–V3 até ⌀ 12m |
-| *Phyllostachys edulis* | Bambu-mossô | 6–10 cm diâm. / **colmos até 12 m** — vara útil até 6 m+ | Invasora potencial (muito comum no BR) | Estrutura, celulose, brotos, domos grandes (V3 ≥ ⌀ 14m, V4) |
-| *Bambusa vulgaris* | Bambu-comum | 8–12 cm / 15–25 m | Exótica, agressiva | Construção, energia, movelaria |
-| *Guadua angustifolia* | Guadua colombiana | 10–22 cm / 15–30 m | Nativa (Amazônia) | Construção civil (NBR 16828) |
-| *Guadua weberbaueri* | Taboca | 5–12 cm / 10–18 m | Nativa (Amazônia, Acre) | Pirólise, biochar, briquetes |
-| *Dendrocalamus asper* | Bambu-gigante | 12–20 cm / 20–30 m | Exótica, cultivada | Brotos, painéis, construção |
+| *Phyllostachys aurea* | Bambu-dourado, cana-da-índia | 2–4,5 cm diâm. / 6–12 m alt. — **vara útil máx. 3 m** (trecho sem conicidade extrema) | Rizoma leptomorfo (alastrante); classificação de invasividade a verificar com fonte jurisdicional | Pirólise, biochar, cabos, estruturas V1–V3 até ⌀ 12m |
+| *Phyllostachys edulis* | Bambu-mossô | 6–10 cm diâm. / **colmos até 12 m** — vara útil até 6 m+ | Alastrante (rizoma leptomorfo), com manejo de contenção; classificação de invasividade a verificar com fonte jurisdicional | Estrutura, celulose, brotos, domos grandes (V3 ≥ ⌀ 14m, V4) |
+| *Bambusa vulgaris* | Bambu-comum | 8–12 cm / 15–25 m | Exótica (nativa do Sudeste Asiático); geralmente cespitoso/paquimorfo — comportamento de manejo a avaliar localmente | Construção, energia, movelaria |
+| *Guadua angustifolia* | Guadua colombiana | 10–22 cm / 15–30 m | Nativa da região norte dos Andes (Colômbia–Peru, Venezuela, Trinidad e Tobago); introduzida/cultivada em partes do Brasil | Construção civil (NBR 16828) |
+| *Guadua weberbaueri* | Taboca | 5–12 cm / 10–18 m | Ocorrência amazônica reportada; natividade regional a confirmar com fonte botânica (ex.: Embrapa Acre) | Pirólise, biochar, briquetes |
+| *Dendrocalamus asper* | Bambu-gigante | 12–20 cm / 20–30 m | Exótica (nativa do Sudeste Asiático); geralmente cespitoso/paquimorfo — comportamento de manejo a avaliar localmente | Brotos, painéis, construção |
 
-**Como identificar no campo — 3 perguntas rápidas:**
+**Como fazer uma triagem inicial — sem substituir identificação botânica**
 
-1. O bambu cresce em **moita fechada** (touceira compacta)? → Provável *Bambusa* ou *Guadua* (rizoma paquimorfo — mais fácil de controlar)
-2. O bambu **rasteja pelo solo** e invade vizinhos? → Provável *Phyllostachys* (rizoma leptomorfo — exige contenção ou manejo ativo)
-3. O colmo tem **sulco lateral** em cada nó alternado? → *Phyllostachys* confirmada
+1. A planta forma uma touceira compacta ou vários colmos próximos? Isso sugere um bambu cespitoso, geralmente associado a rizomas paquimorfos. Exemplos frequentes incluem *Bambusa vulgaris*, *Dendrocalamus asper* e várias espécies de *Guadua*. **A forma da touceira não identifica a espécie.**
+2. Surgem colmos a vários metros da touceira original, ligados por brotações subterrâneas? Esse padrão sugere rizoma leptomorfo ou comportamento alastrante, comum em *Phyllostachys*. **Ainda assim, confirme por caracteres do colmo, ramos, bainhas e rizoma.**
+3. Existe um sulco longitudinal alternado acima dos nós, associado à inserção dos ramos? Esse é um indício compatível com *Phyllostachys*, **mas não deve ser usado sozinho para confirmar a identificação.**
+
+Para registrar a ocorrência, fotografe a touceira, a base do colmo, os nós, os ramos, as bainhas e o rizoma exposto. Registre também distância entre colmos, direção de expansão e coordenadas. **A identificação definitiva exige especialista ou coleção botânica de referência.**
 
 > 📱 **Ferramenta gratuita:** instale o aplicativo **PlantNet** (disponível em iOS e Android — [plantnet.org](https://plantnet.org)) para identificação fotográfica de espécies. Para bambus específicos, use também o **speciesLink** do CRIA: [splink.cria.org.br](https://splink.cria.org.br)
 
@@ -148,7 +150,7 @@ Município/Estado: ______________________
 [ ] Phyllostachys aurea (bambu-dourado / cana-da-índia)
 [ ] Phyllostachys edulis (bambu-mossô)
 [ ] Bambusa vulgaris (bambu-comum)
-[ ] Guadua spp. (nativa amazônica)
+[ ] Guadua spp. (ocorrência amazônica reportada; natividade a confirmar por especialista)
 [ ] Dendrocalamus asper (bambu-gigante)
 [ ] Não sei identificar — enviei foto
 
@@ -215,8 +217,9 @@ DEGRAU 4 ─── Compósitos BambuPU (painéis OSB, tijolos, telhas)
 DEGRAU 3 ─── Biochar certificado (VERRA VM0044) + Créditos de CO₂
              ──────────────────────────────────── R$ 800–1.200/t + R$ 100/tCO₂e
               ↑
-DEGRAU 2 ─── Bambu tratado "Sem Veneno" + Extrato Pirolenhoso
+DEGRAU 2 ─── Bambu tratado "Sem Veneno"* + Extrato Pirolenhoso
              ──────────────────────────────────── R$ 8–25/colmo + R$ 80/L EP
+             *"sem veneno" = formulação autoral: tratamento térmico e preservação sem uso de biocidas convencionais, com desempenho, durabilidade e segurança a confirmar por ensaios e conforme a aplicação. A expressão não significa ausência absoluta de substâncias químicas nem comprova segurança ou durabilidade.
               ↑
 DEGRAU 1 ─── Cabo de enxada Takwara (produto de entrada)
              ──────────────────────────────────── R$ 15 custo / R$ 35–50 venda
@@ -241,7 +244,7 @@ DEGRAU 0 ─── Bambu bruto colhido + Broto de bambu comestível
 
 Porque o bambu que você tem no quintal pode se tornar uma casa, uma estufa ou um abrigo emergencial — sem cimento, sem ferramentas elétricas, sem mão de obra especializada — se você souber cortá-lo no comprimento certo. A geometria não é abstração: é a lista de compras da sua obra.
 
-A chave é o **domo geodésico**: uma estrutura autoportante derivada do icosaedro (um dos cinco sólidos platônicos), que distribui as forças por toda a superfície triangulada, sem precisar de pilares internos. O resultado é a estrutura com **maior volume / menor quantidade de material** já inventada — e que pode ser içada e realocada por um grupo de pessoas sem equipamento pesado.
+A chave é o **domo geodésico**: uma estrutura autoportante derivada do icosaedro (um dos cinco sólidos platônicos), que distribui as forças por toda a superfície triangulada, sem precisar de pilares internos. O resultado é uma estrutura de **alta relação volume/materia** (eficiência reconhecida na literatura desde a tradição de Fuller) — e que pode ser içada e realocada por um grupo de pessoas sem equipamento pesado.
 
 > 🏛️ **Legado brasileiro:** O Prof. Emérito **José Luiz Mendes Ripper** (1935–2025) e o Dr. **Lucas Alves Ripper** do LILD/PUC-Rio desenvolveram a junta tipo **"Spin"** — em vez de conectores metálicos caros, a ponta de cada vara de bambu se apoia sobre a vara adjacente criando uma espiral, solidarizada com corda e torniquete de madeira. O custo das conexões cai ao valor da corda. O anfiteatro da PUC-Rio (200 m², 1.400 kg, 7 kg/m²) foi montado em 25 dias sem nenhum equipamento pesado.
 >
@@ -342,7 +345,7 @@ A inovação do LILD/PUC-Rio que tornou possível construir domos em comunidades
 > frequências V2; Sistema Takwara para V3+ — limite ainda não determinado por fonte
 > técnica, sujeito a ensaios comparativos.
 
-> 📐 **Ferramenta de cálculo gratuita:** [geodesic-dome-calculator.com](https://geodesic-dome-calculator.com) — insira frequência, truncagem e diâmetro desejado; o site gera a lista completa de comprimentos de vara com os ângulos de dobra. Os coeficientes de truncagem empregados nesta edição são **reservados para avaliação de propriedade intelectual**.
+> 📐 **Ferramenta de cálculo:** ferramenta online de cálculo geodésico a indicar (o link anterior não resolve mais; pendência registrada para o portão de publicação). Os coeficientes de truncagem empregados nesta edição são **reservados para avaliação de propriedade intelectual**.
 
 ### Próximo passo concreto
 
@@ -384,7 +387,7 @@ Uma cooperativa não substitui essa rede. Ela a **qualifica e otimiza**: oferece
 
 ### A Cooperativa integrada à Plataforma: modelo de governança híbrida
 
-A Plataforma Amazônia Regenerativa definiu um modelo de **gestão sombra** que é replicável em qualquer polo regional:
+A Plataforma Amazônia Regenerativa definiu um modelo de **gestão sombra** que é replicável em qualquer polo regional *(modelo de governança proposto pelo autor, sujeito a validação institucional, jurídica, econômica e territorial — não apresentado como modelo comprovado)*:
 
 ```
 ASSEMBLEIA GERAL DE COOPERADOS
@@ -550,7 +553,7 @@ Os abaixo assinados, representantes de [NOME DAS INSTITUIÇÕES], manifestam for
 1. Colmo de bambu selecionado (Ø 3–5 cm, 4–5 anos de idade, sem fissuras)
 2. Tratamento térmico por vapor (câmara artesanal ou forno modular de processamento térmico em desenvolvimento)
 3. Fio de aço galvanizado para reforço interno (bitola reservada para avaliação de propriedade intelectual)
-4. PU Vegetal derivado do óleo de mamona (insumo de fornecedor a confirmar na etapa de fechamento)
+4. PU Vegetal derivado do óleo de mamona (insumo de fornecedor a confirmar; associação possível, interface a validar — ver Caderno 2)
 5. Molde de cabo (pode ser feito em madeira por qualquer marceneiro)
 
 **Custo de produção (estimativa autoral):** R$ 12–18 por unidade
@@ -732,7 +735,7 @@ O Brasil tem duas grandes "massas de bambu" com lógicas distintas e complementa
 
 ```
 POLO MATA ATLÂNTICA — Interior e Litoral (SP · RJ · MG · PR · SC · RS)
-Espécie: Phyllostachys aurea (invasora → recurso) + Bambusa vulgaris + Dendrocalamus
+Espécie: Phyllostachys aurea (espécie exótica com potencial de uso; classificação de invasividade a verificar) + Bambusa vulgaris + Dendrocalamus
 Escala: 100.000+ ha estimados em fragmentos urbanos e periurbanos
 Municípios-núcleo: Campinas, Jundiaí, Mogi das Cruzes, São José dos Campos,
   Taubaté, Juiz de Fora, Nova Friburgo, Curitiba, Joinville, Vale do Ribeira,
@@ -753,7 +756,7 @@ Vitrine: COP30 — "Da Espécie Problema ao Ativo Comunitário"
             ↕ INTERCÂMBIO DE TECNOLOGIA, PESSOAS E METODOLOGIA ↕
 
 POLO AMAZÔNICO — Acre (Amazônia Legal)
-Espécie: Guadua weberbaueri / G. sarcocarpa (nativa)
+Espécie: Guadua weberbaueri / G. sarcocarpa (ocorrência amazônica reportada; natividade a confirmar com fonte botânica regional)
 Escala: 4,5–7 milhões ha / 21,8 bilhões de hastes
 Hub: Biorrefinaria modular + UBPs descentralizadas
 Parceiros: UFAC, Embrapa Acre, SEMA/AC, ICMBio
@@ -788,7 +791,7 @@ Esta seção é para quem não tem formação técnica específica mas quer part
 
 - Objetivo: identificar, colher e vender bambu tratado
 - Duração: oficina de 4 horas (presencial ou online)
-- Conteúdo: identificação de espécies, técnicas de colheita seletiva, tratamento artesanal por vapor, primeiros produtos (cabo de enxada, broto de bambu)
+- Conteúdo: identificação de espécies, técnicas de colheita seletiva, tratamento artesanal por vapor (controle de processo a validar — ver Caderno 1), primeiros produtos (cabo de enxada, broto de bambu)
 - Certificação: **Declaração de Participação** emitida pela Associação/Cooperativa
 - Onde: workshops mensais do Domo Voador ou sede da cooperativa local
 
@@ -814,7 +817,7 @@ Esta seção é para quem não tem formação técnica específica mas quer part
 - Duração: curso de 80 horas + prática de montagem (3 estruturas)
 - Conteúdo: geometria geodésica, cálculo de frequências, dimensionamento de varas, conexões PU de mamona, normas ABNT NBR 16828, projeto de HIS
 - Certificação: **Certificado de Projetista Takwara em Estruturas Geodésicas**
-- Ferramenta online gratuita: [geodesic-dome-calculator.com](https://geodesic-dome-calculator.com)
+- Ferramenta online gratuita: a indicar (link anterior não resolve; pendência registrada para o portão de publicação)
 
 **NÍVEL 5 — Pesquisador e simulador de processos**
 
@@ -858,6 +861,16 @@ Esta seção é para quem não tem formação técnica específica mas quer part
 
 ## 12. Referências e Links de Acesso Direto
 
+**Cadernos de Soberania Ecológica (Núcleo Takwara — links unidirecionais desta cartilha)**
+
+- Caderno 1 — Preservação do bambu sob perspectiva socioecológica (v1.2): [caderno-01-preservacao-socioecologica-bambu](../visao-do-autor/caderno-01-preservacao-socioecologica-bambu.md) · DOI: 10.5281/zenodo.21778046
+- Caderno 2 — Do colmo condicionado ao componente protegido (v1.2): [caderno-02-colmo-condicionado-componente-protegido](../visao-do-autor/caderno-02-colmo-condicionado-componente-protegido.md) · DOI: 10.5281/zenodo.21514977
+- Caderno 3 — Da componente à capacidade produtiva territorial (v1.1): [caderno-03-capacidade-produtiva-territorial](../visao-do-autor/caderno-03-capacidade-produtiva-territorial.md) · DOI: 10.5281/zenodo.21738550
+- Caderno 4 — Do protótipo à conformidade (v1.4): [caderno-04-prototipo-conformidade-normas-ensaios](../visao-do-autor/caderno-04-prototipo-conformidade-normas-ensaios.md) · DOI: 10.5281/zenodo.21780878
+- Caderno 5 — Do componente conforme ao habitar (v1.0): [caderno-05-do-componente-ao-habitar](../visao-do-autor/caderno-05-do-componente-ao-habitar.md) · DOI: 10.5281/zenodo.21515383
+- Caderno 6 — Biochar de biomassa e uso em cascata do bambu (v1.0): [caderno-06-biochar-pirolise-uso-cascata](../visao-do-autor/caderno-06-biochar-pirolise-uso-cascata.md) · DOI: 10.5281/zenodo.21515443
+- Caderno 7 — O ciclo que não termina no descarte (v1.0): [caderno-07-ciclo-fechado-crise-planetaria](../visao-do-autor/caderno-07-ciclo-fechado-crise-planetaria.md) · DOI: 10.5281/zenodo.21515567
+
 **Legislação**
 
 - Lei 12.484/2011 — Política Nacional do Bambu: [planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12484.htm](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12484.htm)
@@ -890,7 +903,7 @@ Esta seção é para quem não tem formação técnica específica mas quer part
 **Insumos da Tecnologia Takwara**
 
 - PU Vegetal derivado do óleo de mamona (insumo de fornecedor a confirmar na etapa de fechamento)
-- Cálculo de domos geodésicos: [geodesic-dome-calculator.com](https://geodesic-dome-calculator.com)
+- Cálculo de domos geodésicos: ferramenta online a indicar (link anterior não resolve; pendência registrada)
 
 **Apoio Institucional**
 
@@ -918,13 +931,13 @@ Esta seção é para quem não tem formação técnica específica mas quer part
 ## Como citar esta cartilha
 
 **ABNT:**
-TAKWARA, Fabio Resck. *Cartilha de Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa — Um Guia Prático para Qualquer Pessoa, em Qualquer Bioma*. Série Técnica Plataforma Amazônia Regenerativa — Aplicabilidade Nacional. Brasília: Núcleo Takwara, 2026. (Versão candidata 2.2 — DOI a atribuir após reserva da nova versão; versão anterior: https://doi.org/10.5281/zenodo.18827106)
+TAKWARA, Fabio. *Cartilha de Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa — Um Guia Prático para Qualquer Pessoa, em Qualquer Bioma*. Série Técnica Plataforma Amazônia Regenerativa — Aplicabilidade Nacional. Brasília: Núcleo Takwara, 2026. (Versão candidata 2.2-candidata-004 — DOI a atribuir após reserva da nova versão; versão anterior: https://doi.org/10.5281/zenodo.18827106)
 
 **APA:**
-Takwara, F. R. (2026). *Cartilha de Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa* (Versão 2.2-candidata-001). Núcleo Takwara. (DOI a atribuir)
+Takwara, F. (2026). *Cartilha de Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa* (Versão 2.2-candidata-004). Núcleo Takwara. (DOI a atribuir)
 
 **Faz parte de:**
-Takwara, F. R. (2026). *Série Técnica Plataforma Amazônia Regenerativa* [Coleção Zenodo]. https://doi.org/10.5281/zenodo.18827106
+Takwara, F. (2026). *Série Técnica Plataforma Amazônia Regenerativa* [Coleção Zenodo]. https://doi.org/10.5281/zenodo.18827106
 
 **Documentos relacionados na coleção:**
 - Memorial Técnico: Sistema Integrado de Pirólise e Tratamento de Bambu — https://doi.org/10.5281/zenodo.18827106
@@ -938,7 +951,7 @@ Takwara, F. R. (2026). *Série Técnica Plataforma Amazônia Regenerativa* [Cole
 |------|--------|---------|
 | 2026-08-09 | 2.2-candidata-001 | Base: texto integral da v2.1 (decisão D1 — PT integral). Correção material Junta Spin: distinção explícita entre Junta Spin (LILD/PUC-Rio, Ripper) e Sistema Takwara (ponteira/cabo semiflexível), nas seções 3 e ESTRUTURA; limite V2 como critério de projeto proposto (hipótese, sem fonte). ORCID canônico 0009-0002-6044-2583; DOI anterior movido para `doi_versao_anterior` e `identificador: ausente-na-fonte`; erros "RR$"→"R$" corrigidos; alegações de desempenho do cabo de enxada rebaixadas a especificações autorais a verificar; custos/margem marcados como estimativas autorais; changelog e declaração de limites incluídos. |
 | 2026-08-09 | 2.2-candidata-002 | Decisões da auditoria transversal: **D-B** — três histórias comunitárias nominativas (Dona Conceição; Aldeia Tekoa Porã; Grupo Semear) rotuladas como "relato ilustrativo não verificado", sem valor de testemunho documental ou evidência validada; **D-C** — parâmetros habilitantes removidos da versão pública e reservados para avaliação de propriedade intelectual (tabelas geodésicas com contagens de varas, tipos, conectores e coeficientes de truncagem, inclusive as derivadas de especificações técnicas de terceiros; bitola do fio de aço galvanizado; menção "forno Takwara"→"forno modular de processamento térmico em desenvolvimento"). |
-| 2026-08-09 | 2.2-candidata-003 | Pendências pré-fechamento: removido endpoint github.com/amazonia-regenerativa (URL inexistente — HTTP 404 em 2026-08-09); removidas citações da marca MAMONEX RD70 (Imperveg) por ausência de autorização de citação pública — PU Vegetal citado apenas como insumo genérico (fornecedor a confirmar). |
+| 2026-08-09 | 2.2-candidata-004 | Homologação Fase 6 (auditoria botânica e factual): correção da distribuição de Guadua angustifolia (Kew POWO — nativa dos Andes do norte; introduzida no Brasil); chaves de identificação substituídas por triagem inicial (hábito ≠ diagnóstico de gênero); classificações de invasividade qualificadas ("a verificar com fonte jurisdicional"); "sem veneno" definido como formulação autoral (não comprova segurança/durabilidade); modelo de governança declarado hipótese autoral a validar; superlativo da geodésica suavizado; links mortos (geodesic-dome-calculator) removidos com pendência; autor público "Fabio Takwara" (ORCID canônico); links unidirecionais para os Cadernos 1-7 adicionados. |
 
 **Base desta candidata:** TAK_manual-bioeconomia-bambu.md (v2.1, dist_zenodo_v2.2.2, texto integral). Nenhum original foi editado.
 
