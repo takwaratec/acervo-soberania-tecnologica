@@ -10,6 +10,7 @@ autores:
   - Ongpeng, Jason Maximino C.
 ano: 2023
 veiculo: Buildings
+fonte_primaria: PDF integral conferido (original.pdf, 9,7 MB, SHA-256 eb4d6d2c9d9a847a6d8ecbc998b7ebe6122e95012f625b39b58d05e9ae2e1127; MDPI open access — https://doi.org/10.3390/buildings13102449; acesso 2026-07-16)
 volume: 13
 numero: 10
 paginas: 2449
