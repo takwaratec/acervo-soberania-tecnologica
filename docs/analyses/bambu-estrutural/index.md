@@ -53,6 +53,8 @@ Os estudos desta seção fundamentam a síntese crítica dos **Cadernos de Revis
 
 ### Fichas científicas e referências auditadas (com DOI)
 
+- [Fitorremediação — Cobre em Moso — Chen et al. (2015)](ficha-chen-2015-cu-moso-fitorremediacao.md) | DOI: [10.1038/srep13554](https://doi.org/10.1038/srep13554)
+- [Fitorremediação — Chumbo em Moso — Liu et al. (2015)](ficha-liu-2015-pb-moso-fitorremediacao.md) | DOI: [10.1631/jzus.B1400107](https://doi.org/10.1631/jzus.B1400107)
 - [Avaliação do Ciclo de Vida do Bambu Artesanal no Acre — Araujo et al. (2025)](ficha-acv-bambu-unesp-araujo2025.md) | DOI: [10.14295/bjs.v4i4.719](https://doi.org/10.14295/bjs.v4i4.719)
 - [Propriedades, Tratamento e Normatização do Bambu — Adier et al. (2023)](adier-2023-propriedades-tratamento-bambu.md) | DOI: [10.3390/buildings13102449](https://doi.org/10.3390/buildings13102449)
 - [Tratamento Térmico a Vapor Saturado em Bambu — Wang et al. (2020)](ficha-high-temperature-saturated-steam-moso-bamboo.md) | DOI: [10.1186/s10086-020-01899-8](https://doi.org/10.1186/s10086-020-01899-8)
