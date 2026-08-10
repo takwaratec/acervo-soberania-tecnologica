@@ -5,7 +5,6 @@ author:
   orcid: 0009-0002-6044-2583
 date: '2026-03-04'
 identificador: https://doi.org/10.5281/zenodo.18827106
-identificador: https://doi.org/10.5281/zenodo.18827106
 keywords:
 - phytoremediation
 - heavy metals
@@ -39,7 +38,9 @@ translations:
 type: Technical-Scientific Bulletin
 version: '2.1'
 tipo_documental: manual-tecnico
-estado_documental: publicado-no-zenodo
+estado_documental: historico
+data_revisao: 2026-08-10
+nota_traducao: "Tradução da versão PT-BR 2.1. A versão PT-BR 2.2-candidata-004 está em revisão documental e ainda não possui tradução correspondente."
 responsavel_curadoria: 'Fabio Takwara'
 
 ---
