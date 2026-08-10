@@ -17,7 +17,9 @@ translations:
 type: Technical-Scientific Bulletin
 version: '2.1'
 tipo_documental: cartilha-comunitaria
-estado_documental: publicado-no-zenodo
+estado_documental: historico
+data_revisao: 2026-08-10
+nota_traducao: "Tradução da versão PT-BR 2.1. A versão PT-BR 2.2-candidata-005 está em revisão documental e ainda não possui tradução correspondente."
 responsavel_curadoria: 'Fabio Takwara'
 
 ---
