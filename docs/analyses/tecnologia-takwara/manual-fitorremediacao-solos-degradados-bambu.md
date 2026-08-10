@@ -107,8 +107,8 @@ A eficácia da fitorremediação não é uniforme. A tabela a seguir consolida d
 
 | Espécie | Metal | Estudo reportado | Achado qualitativo | Status da confirmação |
 | :-- | :-- | :-- | :-- | :-- |
-| *Phyllostachys pubescens* (moso) | Cu | Chen et al., *Sci. Rep.* 5:13554, 2015 (DOI 10.1038/srep13554) | Retenção radicular de Cu; BAF raiz >1 apenas em 100 mg/kg; TF<1 (não hiperacumulador) | ✅ Lido integralmente |
-| *Phyllostachys pubescens* (moso) | Pb | Liu et al., *J. Zhejiang Univ. Sci. B* 16(2):123-130, 2015 (DOI 10.1631/jzus.B1400107) | BCF 10,97–37,64; TF<1; retenção radicular | ✅ Lido integralmente |
+| *Phyllostachys pubescens* (moso) | Cu | [Chen et al., *Sci. Rep.* 5:13554, 2015 (DOI 10.1038/srep13554)](../bambu-estrutural/ficha-chen-2015-cu-moso-fitorremediacao.md) | Retenção radicular de Cu; BAF raiz >1 apenas em 100 mg/kg; TF<1 (não hiperacumulador) | ✅ Lido integralmente — estudo experimental de vaso, específico das condições do ensaio; não valida a cartilha |
+| *Phyllostachys pubescens* (moso) | Pb | [Liu et al., *J. Zhejiang Univ. Sci. B* 16(2):123-130, 2015 (DOI 10.1631/jzus.B1400107)](../bambu-estrutural/ficha-liu-2015-pb-moso-fitorremediacao.md) | BCF 10,97–37,64; TF<1; retenção radicular | ✅ Lido integralmente — estudo experimental de hidroponia, específico das condições do ensaio; não valida a cartilha |
 | *Phyllostachys edulis* (moso) | Zn, Cd, Pb | Bian et al., *Environ. Sci. Pollut. Res.*, 2017 (DOI 10.1007/s11356-017-0326-2) | Intercropping com *Sedum*; valores não extraídos | ⏳ Leitura integral pendente (acesso Springer) |
 | *Guadua angustifolia* | Zn, Cd | Torres et al., *Química Nova* 31(1):24-27, 2008 (sem DOI) | Reportado fitoestabilização; valores não confirmados | ⏳ Fonte não localizada (PDF UFAL é dissertação correlata de Barros 2007) |
 | *Guadua angustifolia* | Zn, Cd | Barros, Dissertação UFAL/PPGQB, 2007 (repositório UFAL) | Potencial de fitorremediação de Zn/Cd | ⏳ Documento correlato — decidir se entra como fonte |

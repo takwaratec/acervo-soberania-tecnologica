@@ -872,6 +872,10 @@ Esta seção é para quem não tem formação técnica específica mas quer part
 - Caderno 6 — Biochar de biomassa e uso em cascata do bambu (v1.0): [caderno-06-biochar-pirolise-uso-cascata](../visao-do-autor/caderno-06-biochar-pirolise-uso-cascata.md) · DOI: 10.5281/zenodo.21515443
 - Caderno 7 — O ciclo que não termina no descarte (v1.0): [caderno-07-ciclo-fechado-crise-planetaria](../visao-do-autor/caderno-07-ciclo-fechado-crise-planetaria.md) · DOI: 10.5281/zenodo.21515567
 
+**Estado da arte (síntese curatorial — delimita o que esta cartilha pode alegar)**
+
+- [Estado da Arte — Bambu Estrutural](../bambu-estrutural/estado-da-arte.md) — síntese curatorial com corpus declarado (53 fichas, recorte 1990–2025); esta cartilha é visão autoral e não substitui a síntese curatorial nem equivale a evidência independente.
+
 **Legislação**
 
 - Lei 12.484/2011 — Política Nacional do Bambu: [planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12484.htm](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12484.htm)
