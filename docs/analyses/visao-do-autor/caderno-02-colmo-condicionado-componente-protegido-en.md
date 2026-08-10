@@ -7,6 +7,8 @@ author: Fabio Takwara
 author_orcid: 0009-0002-6044-2583
 year: 2026
 version: 1.2
+identifier: 10.5281/zenodo.21514977
+data_revisao: 2026-07-23
 document_status: deposited-on-zenodo
 previous_version_doi: 10.5281/zenodo.21500145
 conceptual_doi: 10.5281/zenodo.21500144

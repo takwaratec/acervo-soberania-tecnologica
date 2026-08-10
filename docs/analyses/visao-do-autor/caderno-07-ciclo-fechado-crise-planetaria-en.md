@@ -13,6 +13,8 @@ licenca_texto: CC-BY-4.0
 metodo: sintese-critica-e-fechamento-de-ciclo
 data_revisao: 2026-07-23
 responsavel_curadoria: Fabio Takwara
+version: 1.0
+identifier: 10.5281/zenodo.21515567
 ---
 
 # The cycle that does not end at disposal
