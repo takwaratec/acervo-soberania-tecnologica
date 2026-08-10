@@ -3,11 +3,11 @@ tipo_documental: estado-da-arte
 estado_documental: em-revisao-documental
 fonte_primaria: fichas do eixo com fonte integral conferida (66 fichas)
 titulo: "Estado da Arte — Reforma Agrária, Agroecologia e Sistemas Agroflorestais no Brasil"
-data_revisao: 2026-08-01
+data_revisao: 2026-08-10
 responsavel_curadoria: Fabio Takwara
 gaveta: reforma-agraria-agrofloresta
-fontes_analisadas: 31
-fontes_registro: 35
+fontes_analisadas: 27
+fontes_registro: 39
 ---
 
 # Estado da Arte: Reforma Agrária, Agroecologia e Sistemas Agroflorestais no Brasil
@@ -16,7 +16,7 @@ fontes_registro: 35
 
 ## Síntese
 
-Esta síntese organiza o conjunto documental da gaveta `reforma-agraria-agrofloresta` em seis eixos, cobrindo o recorte 1966–2025. O fundo é composto por 66 fichas: **31 com texto integral ou análise de conteúdo conferida** (14 em estado `edicao-publica-conformada` e 17 em `em-revisao-documental`) e **35 registros bibliográficos** sem texto integral analisado. O recorte privilegia fontes brasileiras (e um conjunto cubano de referência metodológica) sobre agroecologia, reforma agrária, sistemas agroflorestais (SAFs), soberania alimentar e economia feminista. A escrita segue a regra do Acervo: **não fabricar dados** — onde a fonte é um registro, ela aparece como tal; onde é análise de conteúdo, as afirmações são atribuídas à ficha-fonte. Os 35 registros **não sustentam afirmações de conteúdo**: aparecem apenas como indicadores de campo bibliográfico ou pendência.
+Esta síntese organiza o conjunto documental da gaveta `reforma-agraria-agrofloresta` em seis eixos, cobrindo o recorte 1966–2025. O fundo é composto por 66 fichas: **27 com texto integral ou análise de conteúdo conferida** (10 em estado `edicao-publica-conformada` e 17 em `em-revisao-documental`) e **39 registros bibliográficos** sem texto integral analisado (4 nas conformadas e 35 em revisão). O recorte privilegia fontes brasileiras (e um conjunto cubano de referência metodológica) sobre agroecologia, reforma agrária, sistemas agroflorestais (SAFs), soberania alimentar e economia feminista. A escrita segue a regra do Acervo: **não fabricar dados** — onde a fonte é um registro, ela aparece como tal; onde é análise de conteúdo, as afirmações são atribuídas à ficha-fonte. Os 39 registros **não sustentam afirmações de conteúdo**: aparecem apenas como indicadores de campo bibliográfico ou pendência.
 
 ## Resumo Executivo
 
@@ -32,7 +32,7 @@ Esta síntese organiza o conjunto documental da gaveta `reforma-agraria-agroflor
 
 ## Mapa de evidências (resumo)
 
-Contagem por eixo sobre as 66 fichas da gaveta; fichas que dialogam com mais de um eixo foram alocadas no eixo principal de leitura deste documento. Apenas as 31 fichas com texto integral ou análise de conteúdo conferida sustentam afirmações; os 35 registros são indicados separadamente como **não analisados**.
+Contagem por eixo sobre as 66 fichas da gaveta; fichas que dialogam com mais de um eixo foram alocadas no eixo principal de leitura deste documento. Apenas as 27 fichas com texto integral ou análise de conteúdo conferida sustentam afirmações; os 39 registros são indicados separadamente como **não analisados**.
 
 | Tema | Evidência | Nº de estudos |
 |---|---|---|
@@ -287,4 +287,4 @@ As fichas citadas neste estado da arte são documentos do próprio Acervo, local
 - [PDS Mário Lago (2024) — agroecologia e soberania alimentar](agroecologia-soberania-alimentar-pds-mario-lago-2024.md)
 - [Dois Riachões (2024) — promovendo a soberania alimentar](promovendo-soberania-alimentar-dois-riachoes-2024.md)
 
-> **Nota metodológica:** este documento é uma síntese curatorial de fontes já fichadas. Números, citações e interpretações são atribuídos às respectivas fichas-fonte. Registros sem texto integral são tratados como indicadores bibliográficos, não como evidência analisada. A gaveta está em curadoria contínua: 31 fontes analisadas, 35 registros.
+> **Nota metodológica:** este documento é uma síntese curatorial de fontes já fichadas. Números, citações e interpretações são atribuídos às respectivas fichas-fonte. Registros sem texto integral são tratados como indicadores bibliográficos, não como evidência analisada. A gaveta está em curadoria contínua: 27 fontes analisadas, 39 registros.

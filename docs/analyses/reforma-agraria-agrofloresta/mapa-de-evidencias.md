@@ -3,7 +3,7 @@ tipo_documental: estado-da-arte-com-agenda-experimental
 estado_documental: em-revisao-documental
 fonte_primaria: estado-da-arte do eixo + fichas com fonte integral conferida (66 fichas)
 titulo: "Mapa de Evidências — Reforma Agrária, Agroecologia e Sistemas Agroflorestais no Brasil"
-data_revisao: 2026-08-01
+data_revisao: 2026-08-10
 responsavel_curadoria: Fabio Takwara
 ---
 
@@ -15,8 +15,8 @@ Este mapa organiza, por eixo temático, **o que as fontes da gaveta sustentam** 
 
 **Nota metodológica e de classificação da evidência.** A gaveta opera com **duas classes documentais** que não se confundem:
 
-- **31 fichas com texto integral ou análise de conteúdo conferida** (14 em `edicao-publica-conformada` e 17 em `em-revisao-documental`) — **sustentam afirmações**, com peso condicionado pela natureza da fonte (tese/dissertação integral, artigo integral, livro integral, resumo expandido de congresso, relato de experiência);
-- **35 registros bibliográficos** sem texto integral analisado (autores clássicos, 24 referências do manifesto do artigo de Brienza, página institucional da Rede Ecovida, obra protegida de Polanyi, entre outros) — **não sustentam afirmações de conteúdo**; aparecem apenas como indicadores de campo bibliográfico ou pendência.
+- **27 fichas com texto integral ou análise de conteúdo conferida** (10 em `edicao-publica-conformada` e 17 em `em-revisao-documental`) — **sustentam afirmações**, com peso condicionado pela natureza da fonte (tese/dissertação integral, artigo integral, livro integral, resumo expandido de congresso, relato de experiência);
+- **39 registros bibliográficos** sem texto integral analisado (autores clássicos, 24 referências do manifesto do artigo de Brienza, página institucional da Rede Ecovida, obra protegida de Polanyi, entre outros) — **não sustentam afirmações de conteúdo**; aparecem apenas como indicadores de campo bibliográfico ou pendência.
 
 Nenhum estado documental do Acervo equivale a validação experimental. Afirmações de síntese feitas pela curadoria estão marcadas como **interpretação curatorial**.
 
@@ -119,4 +119,4 @@ Três constatações fortes emergem do conjunto (todas sustentadas por múltipla
 
 Duas constatações honestas complementam: a **restauração produtiva com SAFs** é bem recomendada, mas tem base biogeoquímica local e parcialmente em revisão (lacuna L4); e a **certificação participativa** permanece sem documento normativo integral analisado (lacuna L1). **Interpretação curatorial:** a gaveta sustenta síntese qualitativa sólida — e nenhuma inferência quantitativa consolidada sobre economia dos assentamentos (lacuna L7).
 
-Os 35 registros bibliográficos da gaveta (autores clássicos, referências do artigo de Brienza, Rede Ecovida, Polanyi 1944, entre outros) **não sustentam nenhuma das afirmações acima** e permanecem pendências de curadoria (lacunas L2, L3 e L5 do [estado da arte](estado-da-arte.md)).
+Os 39 registros bibliográficos da gaveta (autores clássicos, referências do artigo de Brienza, Rede Ecovida, Polanyi 1944, entre outros) **não sustentam nenhuma das afirmações acima** e permanecem pendências de curadoria (lacunas L2, L3 e L5 do [estado da arte](estado-da-arte.md)).
