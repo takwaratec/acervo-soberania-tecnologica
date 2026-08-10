@@ -150,6 +150,57 @@ Uma ficha só recebe `homologado-documentalmente` quando uma revisão humana con
 
 Homologação documental não significa replicação experimental, revisão por pares do texto curatorial, reconhecimento institucional ou elevação de TRL.
 
+## Fluxo de solicitação de fontes
+
+Para fontes com paywall ou não localizadas, o fluxo é:
+
+1. **Solicitação legítima** ao autor/instituição/biblioteca (minutas em _privado; envio pelo titular; o agente NÃO envia mensagens em nome do autor).
+2. **Recebimento**: arquivar o PDF/HTML em `_privado/fontes-*`, calcular SHA-256, registrar URL, data e condição de acesso (licença/uso).
+3. **Leitura integral** do texto; conferir espécie, órgão, contaminante, concentração, unidade, método, tabela e página.
+4. **Matriz de alegações** atualizada com o status do valor (confirmado / divergente / não localizado / não aplicável).
+5. **Ficha candidata** (somente com fonte integral): `tipo_documental: ficha-cientifica`, `estado_documental: em-revisao-documental`, declaração de limites, DOI/URL verificável, nenhum valor sem correspondência primária.
+6. **Revisão humana cruzada** antes de qualquer PR.
+7. **Homologação** documental apenas após matriz final e decisão explícita.
+
+NUNCA contornar paywall, CAPTCHA ou autenticação. Fontes não localizadas permanecem "não confirmado" — não substituir referências por aproximação.
+
+## Classificação de fichas parciais
+
+| Classe | Definição | Ação |
+|---|---|---|
+| Pública e completa | Fonte primária lida integralmente; valores com correspondência par a par | Merge em docs/ (fluxo normal) |
+| Secundária divergente | Revisão/compilação com valores não reconciliados com a fonte primária | Privada até reconciliação (ex.: Nemenyi 2022) |
+| Texto integral pendente | Fonte primária identificada (DOI) mas paywall/sem texto | Solicitação legítima; nenhum valor fixado |
+| Fonte não localizada | Sem DOI e sem texto em bases indexadas | CNKI/revistas/bibliotecas/solicitação; status "não confirmado" |
+| Não verificada | Referência sem confirmação documental (ex.: Torres 2008) | Investigação manual; NÃO substituir por obra correlata sem prova de equivalência |
+
+## Regra de fonte primária integral
+
+- Nenhum valor numérico é fixado como fato sem leitura integral da fonte primária com correspondência exata: espécie × órgão × contaminante × concentração × unidade × método × tabela/página.
+- Revisões secundárias (ex.: Nemenyi 2022) servem apenas para rastreabilidade e localização da fonte primária — NÃO substituem a fonte primária.
+- Se a fonte primária divergir da secundária, registrar AMBOS os valores e não escolher por inferência.
+
+## Protocolo de reconciliação de valores
+
+1. Identificar o valor alegado (fonte secundária/cartilha).
+2. Localizar a fonte primária (DOI/URL ou título).
+3. Ler integralmente; extrair: espécie, órgão, metal, concentração, unidade, método, condições experimentais (hidroponia/solo, duração, níveis), tabela e página.
+4. Comparar par a par com o valor alegado.
+5. Classificar: confirmado (igual), divergente (diferente — registrar ambos), em aberto (sem fonte), não aplicável.
+6. Só então atualizar a matriz de alegações e, posteriormente, tabelas das cartilhas (com espécie+órgão+metal+método+unidade+contexto).
+
+## Critérios de promoção de estado documental (complemento)
+
+Além dos 7 critérios da seção Homologação (título/autoria, identificador, leitura integral, oito seções, distinção achado×curadoria, sem transcrição indevida, links válidos), a promoção de `em-revisao-documental` para `homologado-documentalmente` exige:
+
+1. Matriz de alegações com status final (sem valores "em aberto" fixados como fatos).
+2. Fontes primárias confirmadas para todos os valores numéricos publicados.
+3. Divergências de fontes secundárias resolvidas ou declaradas como divergentes (não escolhidas por inferência).
+4. Decisão humana explícita (revisão cruzada final + autorização verbal/escrita do titular).
+5. Nenhum paywall contornado; todas as fontes com proveniência (SHA-256, URL, data, condição de acesso).
+
+A homologação NÃO significa validação experimental, certificação de desempenho ou prova de patenteabilidade.
+
 ## Identificação por natureza documental
 
 | Natureza | Identificação mínima |
