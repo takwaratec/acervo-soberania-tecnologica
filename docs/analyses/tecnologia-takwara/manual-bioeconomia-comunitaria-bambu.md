@@ -27,7 +27,7 @@ series: Série Técnica Plataforma Amazônia Regenerativa — Bioeconomia Comuni
 subtitle: Guia Prático de Governança e Industrialização Regional
 title: 'Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa'
 type: Boletim Técnico-Científico
-version: '2.2-candidata-004'
+version: '2.2-candidata-005'
 tipo_documental: visao-autoral
 estado_documental: em-revisao-documental
 responsavel_curadoria: 'Fabio Takwara'
@@ -103,8 +103,8 @@ A primeira pergunta não é "como industrializo isso?" A primeira pergunta é: *
 
 | Espécie | Nome popular | Colmo | Comportamento | Uso prioritário |
 | :-- | :-- | :-- | :-- | :-- |
-| *Phyllostachys aurea* | Bambu-dourado, cana-da-índia | 2–4,5 cm diâm. / 6–12 m alt. — **vara útil máx. 3 m** (trecho sem conicidade extrema) | Rizoma leptomorfo (alastrante); classificação de invasividade a verificar com fonte jurisdicional | Pirólise, biochar, cabos, estruturas V1–V3 até ⌀ 12m |
-| *Phyllostachys edulis* | Bambu-mossô | 6–10 cm diâm. / **colmos até 12 m** — vara útil até 6 m+ | Alastrante (rizoma leptomorfo), com manejo de contenção; classificação de invasividade a verificar com fonte jurisdicional | Estrutura, celulose, brotos, domos grandes (V3 ≥ ⌀ 14m, V4) |
+| *Phyllostachys aurea* | Bambu-dourado, cana-da-índia | 2–4,5 cm diâm. / 6–12 m alt. — **vara útil máx. 3 m** (trecho sem conicidade extrema) | Rizoma leptomorfo (alastrante); classificação de invasividade a verificar com fonte jurisdicional | Pirólise, biochar, cabos; estruturas de frequências iniciais/intermediárias (hipótese de projeto a dimensionar e ensaiar) |
+| *Phyllostachys edulis* | Bambu-mossô | 6–10 cm diâm. / **colmos até 12 m** — vara útil até 6 m+ | Alastrante (rizoma leptomorfo), com manejo de contenção; classificação de invasividade a verificar com fonte jurisdicional | Estrutura, celulose, brotos; domos de maior vão (hipótese de projeto a dimensionar e ensaiar) |
 | *Bambusa vulgaris* | Bambu-comum | 8–12 cm / 15–25 m | Exótica (nativa do Sudeste Asiático); geralmente cespitoso/paquimorfo — comportamento de manejo a avaliar localmente | Construção, energia, movelaria |
 | *Guadua angustifolia* | Guadua colombiana | 10–22 cm / 15–30 m | Nativa da região norte dos Andes (Colômbia–Peru, Venezuela, Trinidad e Tobago); introduzida/cultivada em partes do Brasil | Construção civil (NBR 16828) |
 | *Guadua weberbaueri* | Taboca | 5–12 cm / 10–18 m | Ocorrência amazônica reportada; natividade regional a confirmar com fonte botânica (ex.: Embrapa Acre) | Pirólise, biochar, briquetes |
@@ -244,7 +244,7 @@ DEGRAU 0 ─── Bambu bruto colhido + Broto de bambu comestível
 
 Porque o bambu que você tem no quintal pode se tornar uma casa, uma estufa ou um abrigo emergencial — sem cimento, sem ferramentas elétricas, sem mão de obra especializada — se você souber cortá-lo no comprimento certo. A geometria não é abstração: é a lista de compras da sua obra.
 
-A chave é o **domo geodésico**: uma estrutura autoportante derivada do icosaedro (um dos cinco sólidos platônicos), que distribui as forças por toda a superfície triangulada, sem precisar de pilares internos. O resultado é uma estrutura de **alta relação volume/materia** (eficiência reconhecida na literatura desde a tradição de Fuller) — e que pode ser içada e realocada por um grupo de pessoas sem equipamento pesado.
+A chave é o **domo geodésico**: uma estrutura autoportante derivada do icosaedro (um dos cinco sólidos platônicos), que distribui as forças por toda a superfície triangulada, sem precisar de pilares internos. O resultado é uma estrutura de **alta relação volume/materia** (eficiência reconhecida na literatura desde a tradição de Fuller) — e que, em cenário/proposta de projeto, pode ser içada e realocada por um grupo de pessoas sem equipamento pesado (capacidade de içamento e logística a validar por dimensionamento e ensaio).
 
 > 🏛️ **Legado brasileiro:** O Prof. Emérito **José Luiz Mendes Ripper** (1935–2025) e o Dr. **Lucas Alves Ripper** do LILD/PUC-Rio desenvolveram a junta tipo **"Spin"** — em vez de conectores metálicos caros, a ponta de cada vara de bambu se apoia sobre a vara adjacente criando uma espiral, solidarizada com corda e torniquete de madeira. O custo das conexões cai ao valor da corda. O anfiteatro da PUC-Rio (200 m², 1.400 kg, 7 kg/m²) foi montado em 25 dias sem nenhum equipamento pesado.
 >
@@ -289,7 +289,7 @@ O **icosaedro completo** é uma figura fechada. Ao remover o anel inferior de ar
 - **Um único comprimento de vara** — todas as varas são iguais. Você corta uma, corta todas. Zero erros de medição.
 - **Poucos tipos de conector** — apenas dois tipos de vértice (cintura e topo/base)
 - **Sem equador plano natural**: a forma cria uma base de pontos de apoio no solo, naturalmente estável
-- **Montagem documentada:** voluntários sem experiência em construção montaram módulos em menos de 3 horas
+- **Montagem documentada (cenário/proposta, não resultado demonstrado):** voluntários sem experiência em construção teriam como meta montar módulos em menos de 3 horas — a validar em prática supervisionada e registrada
 
 > 💡 **Conexão com sua floresta:**
 >
@@ -298,14 +298,14 @@ O **icosaedro completo** é uma figura fechada. Ao remover o anel inferior de ar
 > central** — só o trecho central tem diâmetro estável e sem conicidade extrema. Base e
 > topo são descartados ou usados para biochar/briquetes. Um colmo médio rende **~2 varas
 > aproveitáveis**.
-> ✅ **Espécie ideal para as frequências iniciais e intermediárias** — as varas
-> necessárias cabem com sobra dentro do limite de aproveitamento.
+> ✅ **Espécie indicada como hipótese de projeto para as frequências iniciais e intermediárias** — as varas
+> necessárias cabem com sobra dentro do limite de aproveitamento (a confirmar por dimensionamento e ensaios).
 >
 > 🟢 ***Phyllostachys edulis* (bambu-mossô):**
 > Colmo de **6–10 cm de diâmetro** e até **12 m de comprimento** — vara estrutural útil
 > superior à da *P. aurea*, com diâmetro uniforme muito maior.
-> ✅ **Espécie ideal para as frequências de maior vão** — com diâmetro e resistência
-> superiores ao *P. aurea*.
+> ✅ **Espécie indicada como hipótese de projeto para as frequências de maior vão** — com diâmetro e resistência
+> superiores ao *P. aurea* (a confirmar por dimensionamento e ensaios).
 
 ---
 
@@ -322,8 +322,9 @@ O **Domo Voador** é a estrutura padrão da Plataforma Amazônia Regenerativa pa
 > 🚁 **Por que "Domo Voador"?** A estrutura V3 5/8 de grande formato pode ser
 > pré-montada no chão, içada por helicóptero ou guindaste simples, e pousada sobre uma
 > base preparada em área de catástrofe. Em Brumadinho, Petrópolis ou em qualquer área de
-> alagamento, isso significa: **abrigo digno para dezenas de pessoas em menos de 48
-> horas**, com os colmos de bambu tratado cabendo em um caminhão baú pequeno.
+> alagamento, isso significaria, em cenário de projeto: **abrigo para dezenas de pessoas em menos de 48
+> horas — cenário/proposta a validar por dimensionamento, logística e ensaio; não é resultado demonstrado**,
+> com os colmos de bambu tratado cabendo em um caminhão baú pequeno.
 
 ---
 
@@ -406,7 +407,7 @@ UNIDADES DE NEGÓCIO:
   └─ Comercialização (mercado local + CEAGESP/CEASAs + feiras + exportação)
 ```
 
-**Por que mulheres na liderança do conselho?** Não é apenas equidade — é estratégia de acesso a financiamento. O BNDES, o Fundo Amazônia e o Fundo Clima exigem ou valorizam fortemente a participação feminina em posições de decisão como critério de adicionalidade social. Projetos com cooperativas de mulheres na liderança têm **taxa de aprovação 40% maior** em editais de bioeconomia.
+**Por que mulheres na liderança do conselho?** Não é apenas equidade — é também uma hipótese autoral de estratégia de acesso a financiamento: alguns editais (BNDES, Fundo Amazônia, Fundo Clima) valorizam a participação feminina em posições de decisão como critério de adicionalidade social — **a verificar no edital vigente**. A alegação de **taxa de aprovação 40% maior** para cooperativas de mulheres é **estimativa autoral sem fonte auditada — a validar antes de uso como argumento formal**.
 
 
 ---
@@ -626,7 +627,7 @@ Esta seção foi escrita para quem nunca acessou um edital de fomento. Cada font
 
 **Link direto:** [fundoamazonia.gov.br/pt/chamadas-publicas](https://www.fundoamazonia.gov.br/pt/chamadas-publicas/)
 
-**Requisito chave:** O projeto deve demonstrar **adicionalidade** — ou seja, provar que as atividades não ocorreriam sem o financiamento. A rastreabilidade via SMGA (GitHub/GEE) e as cartas de intenção assinadas são evidências diretas de adicionalidade.
+**Requisito chave (a verificar no edital vigente):** o projeto deve demonstrar **adicionalidade** — ou seja, provar que as atividades não ocorreriam sem o financiamento. A rastreabilidade via SMGA (GitHub/GEE) e as cartas de intenção assinadas são propostas de evidência de adicionalidade da Plataforma; os critérios formais devem ser confirmados no edital/chamada pública.
 
 
 ---
@@ -931,10 +932,10 @@ Esta seção é para quem não tem formação técnica específica mas quer part
 ## Como citar esta cartilha
 
 **ABNT:**
-TAKWARA, Fabio. *Cartilha de Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa — Um Guia Prático para Qualquer Pessoa, em Qualquer Bioma*. Série Técnica Plataforma Amazônia Regenerativa — Aplicabilidade Nacional. Brasília: Núcleo Takwara, 2026. (Versão candidata 2.2-candidata-004 — DOI a atribuir após reserva da nova versão; versão anterior: https://doi.org/10.5281/zenodo.18827106)
+TAKWARA, Fabio. *Cartilha de Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa — Um Guia Prático para Qualquer Pessoa, em Qualquer Bioma*. Série Técnica Plataforma Amazônia Regenerativa — Aplicabilidade Nacional. Brasília: Núcleo Takwara, 2026. (Versão candidata 2.2-candidata-005 — DOI a atribuir após reserva da nova versão; versão anterior: https://doi.org/10.5281/zenodo.18827106)
 
 **APA:**
-Takwara, F. (2026). *Cartilha de Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa* (Versão 2.2-candidata-004). Núcleo Takwara. (DOI a atribuir)
+Takwara, F. (2026). *Cartilha de Bioeconomia Comunitária do Bambu: Da Floresta à Cooperativa* (Versão 2.2-candidata-005). Núcleo Takwara. (DOI a atribuir)
 
 **Faz parte de:**
 Takwara, F. (2026). *Série Técnica Plataforma Amazônia Regenerativa* [Coleção Zenodo]. https://doi.org/10.5281/zenodo.18827106
@@ -951,7 +952,7 @@ Takwara, F. (2026). *Série Técnica Plataforma Amazônia Regenerativa* [Coleç�
 |------|--------|---------|
 | 2026-08-09 | 2.2-candidata-001 | Base: texto integral da v2.1 (decisão D1 — PT integral). Correção material Junta Spin: distinção explícita entre Junta Spin (LILD/PUC-Rio, Ripper) e Sistema Takwara (ponteira/cabo semiflexível), nas seções 3 e ESTRUTURA; limite V2 como critério de projeto proposto (hipótese, sem fonte). ORCID canônico 0009-0002-6044-2583; DOI anterior movido para `doi_versao_anterior` e `identificador: ausente-na-fonte`; erros "RR$"→"R$" corrigidos; alegações de desempenho do cabo de enxada rebaixadas a especificações autorais a verificar; custos/margem marcados como estimativas autorais; changelog e declaração de limites incluídos. |
 | 2026-08-09 | 2.2-candidata-002 | Decisões da auditoria transversal: **D-B** — três histórias comunitárias nominativas (Dona Conceição; Aldeia Tekoa Porã; Grupo Semear) rotuladas como "relato ilustrativo não verificado", sem valor de testemunho documental ou evidência validada; **D-C** — parâmetros habilitantes removidos da versão pública e reservados para avaliação de propriedade intelectual (tabelas geodésicas com contagens de varas, tipos, conectores e coeficientes de truncagem, inclusive as derivadas de especificações técnicas de terceiros; bitola do fio de aço galvanizado; menção "forno Takwara"→"forno modular de processamento térmico em desenvolvimento"). |
-| 2026-08-09 | 2.2-candidata-004 | Homologação Fase 6 (auditoria botânica e factual): correção da distribuição de Guadua angustifolia (Kew POWO — nativa dos Andes do norte; introduzida no Brasil); chaves de identificação substituídas por triagem inicial (hábito ≠ diagnóstico de gênero); classificações de invasividade qualificadas ("a verificar com fonte jurisdicional"); "sem veneno" definido como formulação autoral (não comprova segurança/durabilidade); modelo de governança declarado hipótese autoral a validar; superlativo da geodésica suavizado; links mortos (geodesic-dome-calculator) removidos com pendência; autor público "Fabio Takwara" (ORCID canônico); links unidirecionais para os Cadernos 1-7 adicionados. |
+| 2026-08-09 | 2.2-candidata-005 | Ajustes de qualificação da leitura final (pré-homologação): taxa de aprovação "40% maior" para cooperativas de mulheres marcada como estimativa autoral sem fonte (a validar); participação feminina em editais → "a verificar no edital vigente"; promessas operacionais (içamento, montagem <3h, abrigo <48h) marcadas como cenário/proposta a validar, não resultado demonstrado; indicações de espécie por frequência estrutural (V1–V3, V3/V4, "espécie ideal") reformuladas como hipótese de projeto a dimensionar e ensaiar; adicionalidade BNDES/Fundo Amazônia → critérios a confirmar no edital vigente. Parâmetros de PI permanecem fora da árvore pública. |
 
 **Base desta candidata:** TAK_manual-bioeconomia-bambu.md (v2.1, dist_zenodo_v2.2.2, texto integral). Nenhum original foi editado.
 

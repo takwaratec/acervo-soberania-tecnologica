@@ -30,7 +30,7 @@ related_works:
 series: Série Técnica Plataforma Amazônia Regenerativa — Restauração e Carbono
 title: 'Fitorremediação e Mercados de Carbono: O Bambu como Engenheiro Ecológico'
 type: Boletim Técnico-Científico
-version: '2.2-candidata-003'
+version: '2.2-candidata-004'
 tipo_documental: visao-autoral
 estado_documental: em-revisao-documental
 responsavel_curadoria: 'Fabio Takwara'
@@ -119,7 +119,7 @@ A eficácia da fitorremediação não é uniforme. A tabela a seguir consolida d
 
 
 
-> ⚠️ **Nota para o projetista de restauração:** *Phyllostachys* spp. são eficazes na fitorremediação, mas **não devem ser plantadas em novas áreas** em função do comportamento alastrante (rizoma leptomorfo) e da classificação de invasividade a verificar com fonte jurisdicional. Use-as apenas onde já existem — o manejo e a colheita da biomassa já instalada é, por si só, uma forma de fitoextração. Para plantio novo em áreas degradadas, use exclusivamente **espécies nativas do bioma**, incluindo *Guadua* spp. nativas quando disponíveis.
+> ⚠️ **Nota para o projetista de restauração:** *Phyllostachys* spp. têm potencial investigado/reportado em estudos de fitorremediação; o uso depende de espécie, metal, método e contexto (ver tabela 1.3 — status de confirmação por estudo). **Não devem ser plantadas em novas áreas** em função do comportamento alastrante (rizoma leptomorfo) e da classificação de invasividade a verificar com fonte jurisdicional. Use-as apenas onde já existem — o manejo e a colheita da biomassa já instalada é, por si só, uma forma de fitoextração. Para plantio novo em áreas degradadas, use exclusivamente **espécies nativas do bioma**, incluindo *Guadua* spp. nativas quando disponíveis.
 
 ### 1.4 O Ciclo de Remediação Virtuoso: Da Planta ao Carvão à Água
 
@@ -180,7 +180,7 @@ O uso de espécies exóticas com rizomas alastrantes (leptomorfos) em projetos d
 
 O *Guadua angustifolia* é reportado na literatura entre os bambus com maior estoque de carbono em ecossistemas completos — **estoque de carbono reportado na literatura; valor e fonte a confirmar** *(possível origem: inventários de G. angustifolia na Colômbia — Eur. J. Forest Res. 2006, DOI 10.1007/s10342-006-0129-3)*. A literatura de *Guadua* também chama atenção para a fração edáfica do carbono (raízes, rizomas e matéria orgânica acumulada), a confirmar com a mesma fonte.
 
-Isso muda completamente o argumento do sequestro de carbono com bambu. Enquanto projetos de eucalipto e bambu exótico competem por taxas de acúmulo de biomassa aérea (tipicamente 5–18 tC/ha/ano), a *Guadua* nativa oferece um estoque de carbono edáfico extraordinariamente estável e permanente — exatamente o tipo de carbono que os mercados de alta qualidade (Gold Standard, Plan Vivo, VERRA) remuneram com prêmio.
+Isso muda o argumento do sequestro de carbono com bambu. Enquanto projetos de eucalipto e bambu exótico competem por taxas de acúmulo de biomassa aérea (tipicamente 5–18 tC/ha/ano, faixas reportadas na literatura), espécies de *Guadua* efetivamente nativas do bioma (ex.: *G. weberbaueri*, *G. paraguayana*) podem oferecer estoques de carbono edáfico estáveis — valor e fonte a confirmar por espécie (ver §2.2). O prêmio de mercado (Gold Standard, Plan Vivo, VERRA) depende de certificação e validação caso a caso, não de uma característica automática da espécie.
 
 **Comparativo de estratégias de restauração e sequestro:**
 
@@ -254,7 +254,7 @@ A Plataforma Amazônia Regenerativa adota um modelo de **seis níveis progressiv
 
 **A Plataforma opera no Nível 4 como ponto de partida, com visão de Nível 5.** Isso significa que os créditos de carbono são o *mecanismo de financiamento*, não o objetivo primário. O objetivo é a restauração ecológica e o desenvolvimento comunitário sustentável.
 
-Essa posição não é apenas ética — é uma decisão de negócios inteligente. Projetos de Nível 4 e 5 têm acesso a fundos multilaterais (GCF, Fundo Amazônia) que exigem salvaguardas socioambientais rigorosas, e geram créditos com prêmio de preço que podem ser 3–8× maiores que os créditos de Nível 1.
+Essa posição não é apenas ética — é uma decisão de negócios. Projetos de Nível 4 e 5 buscam acesso a fundos multilaterais (GCF, Fundo Amazônia) que exigem salvaguardas socioambientais; o prêmio de preço (3–8× maior que Nível 1) é **estimativa de mercado a verificar caso a caso**, não garantia.
 
 ### 4.2 Biochar: O Carbono que Fica para Sempre
 
@@ -295,12 +295,12 @@ A escolha do padrão de certificação é uma decisão estratégica que afeta cu
 | **VCS (Verra)** | Quantificação de carbono (tCO₂e) | Opcional — nenhum por padrão | Baixa (desenhado para grande escala) | Alta | VCS + CCB (padrão de mercado) |
 | **CCB (Verra)** | Co-benefícios (Clima, Comunidade, Biodiversidade) | É o próprio padrão | Média | Média (add-on ao VCS) | Add-on para VCS |
 | **Gold Standard** | Carbono + Co-benefícios (ODS) | **Obrigatório** desde a concepção | Média | Alta | Padrão Nível 4 por design |
-| **Plan Vivo** | Meios de vida comunitários + carbono | **Obrigatório** e central (partilha de benefícios) | **Alta** — desenhado para este público | **Baixa** — menor custo | **Ideal para cooperativas e Nível 4/5** |
+| **Plan Vivo** | Meios de vida comunitários + carbono | Central (partilha de benefícios — critérios a verificar no padrão vigente) | **Alta** — desenhado para este público | **Baixa** — menor custo | **Ideal para cooperativas e Nível 4/5** |
 | **Social Carbon** | Co-benefícios (6 dimensões) | É o padrão de co-benefício | Média | Média (add-on ao VCS) | Add-on brasileiro para VCS; desenvolvido no Brasil |
 
 
 
-**Recomendação estratégica para cooperativas comunitárias:** o **Plan Vivo** é o padrão mais alinhado à filosofia da Plataforma. Foi desenhado especificamente para pequenos produtores que manejam suas terras com mão de obra familiar, com forte ênfase na partilha justa de benefícios e na melhoria dos meios de vida. Para projetos que também incluem créditos de biochar (VM0044), a combinação **Plan Vivo + VERRA VM0044** oferece a maior amplitude de certificação com o menor custo de conformidade.
+**Recomendação estratégica (hipótese autoral a validar com o padrão vigente):** o **Plan Vivo** é o padrão mais alinhado à filosofia da Plataforma, por ter sido desenhado para pequenos produtores com ênfase na partilha de benefícios. Para projetos que também incluem créditos de biochar (VM0044), a combinação **Plan Vivo + VERRA VM0044** é apontada como promissora — elegibilidade, custos e amplitude de certificação devem ser confirmados nos padrões atuais.
 
 Link Plan Vivo: [planvivo.org](https://www.planvivo.org)
 Link Gold Standard: [goldstandard.org](https://www.goldstandard.org)
@@ -517,10 +517,10 @@ Brotos jovens de bambu contêm a **taxifilina**, um glicosídeo cianogênico que
 ## Como citar este documento
 
 **ABNT:**
-TAKWARA, Fabio. *Regeneração de Solos Degradados, Fitorremediação e Mercados de Carbono: O Bambu como Engenheiro Ecológico — Do Solo Contaminado ao Crédito Certificado*. Série Técnica Plataforma Amazônia Regenerativa — Aplicabilidade Nacional. Brasília: Núcleo Takwara, 2026. (Versão candidata 2.2-candidata-003 — DOI a atribuir após reserva da nova versão; versão anterior: https://doi.org/10.5281/zenodo.18827106)
+TAKWARA, Fabio. *Regeneração de Solos Degradados, Fitorremediação e Mercados de Carbono: O Bambu como Engenheiro Ecológico — Do Solo Contaminado ao Crédito Certificado*. Série Técnica Plataforma Amazônia Regenerativa — Aplicabilidade Nacional. Brasília: Núcleo Takwara, 2026. (Versão candidata 2.2-candidata-004 — DOI a atribuir após reserva da nova versão; versão anterior: https://doi.org/10.5281/zenodo.18827106)
 
 **APA:**
-Takwara, F. (2026). *Regeneração de Solos Degradados, Fitorremediação e Mercados de Carbono* (Versão 2.2-candidata-003). Núcleo Takwara. (DOI a atribuir)
+Takwara, F. (2026). *Regeneração de Solos Degradados, Fitorremediação e Mercados de Carbono* (Versão 2.2-candidata-004). Núcleo Takwara. (DOI a atribuir)
 
 **Faz parte de:**
 Takwara, F. (2026). *Série Técnica Plataforma Amazônia Regenerativa* [Coleção Zenodo]. https://doi.org/10.5281/zenodo.18827106
@@ -537,7 +537,7 @@ Takwara, F. (2026). *Série Técnica Plataforma Amazônia Regenerativa* [Coleç�
 | Data | Versão | Mudança |
 |------|--------|---------|
 | 2026-08-09 | 2.2-candidata-001 | Base: texto integral da v2.1 (decisão D1 — PT integral). ORCID canônico 0009-0002-6044-2583; DOI anterior movido para `doi_versao_anterior` e `identificador: ausente-na-fonte`; título da Seção 3 rebaixado de "TÉCNICAS... VALIDADAS" para "TÉCNICAS... (reportadas na literatura)"; "comprovadamente eficaz" → "reportado na literatura como eficaz"; badges de tradução/DOI removidos (EN/ES em rodada futura D3); Como citar atualizado (DOI a atribuir); changelog e declaração de limites incluídos. |
-| 2026-08-09 | 2.2-candidata-003 | Homologação Fase 6 (auditoria botânica e factual): tabela 1.3 reformulada — valores FBC/FT numéricos removidos por falta de confirmação par a par (tabela qualitativa provisória com status de confirmação por estudo; 26.388 mg/kg e P. fortunei removidos); correção da distribuição de Guadua angustifolia (Kew POWO — nativa dos Andes do norte; introduzida no Brasil; uso em restauração apenas de espécies nativas do bioma); 672,3 tC/ha e "78% no solo" substituídos por "estoque de carbono reportado na literatura; valor e fonte a confirmar"; afirmação de padrão geral FBC>1/FT<1 substituída por "alguns estudos reportam retenção radicular ou FT<1 em condições específicas; sem base para padrão geral"; diagrama do ciclo com FT<1 qualificado (confirmar por espécie, metal e método); transplante de rizomas rebaixado a hipótese condicionada; classificações de invasividade qualificadas; adsorção de metais por biochar qualificada; limites de HCN suavizados (FSANZ/FAO — confirmar por análise); autor público "Fabio Takwara" (ORCID canônico; APA atualizado para Takwara, F.); links unidirecionais para os Cadernos 1-7 adicionados. |
+| 2026-08-09 | 2.2-candidata-004 | Ajustes de qualificação da leitura final (pré-homologação): *Phyllostachys* spp. "são eficazes" → "têm potencial investigado/reportado; o uso depende de espécie, metal, método e contexto"; alegação de Guadua nativa com estoque específico limitada a espécies nativas confirmadas do bioma e fonte a confirmar; prêmio de mercado 3–8× marcado como estimativa a verificar; Plan Vivo "obrigatório" → critérios a verificar no padrão vigente; recomendação Plan Vivo+VM0044 → hipótese autoral a validar. Parâmetros de PI permanecem fora da árvore pública. |
 
 **Base desta candidata:** TAK_manual-fitorremediacao-credito-carbono.md (v2.1, dist_zenodo_v2.2.2, texto integral). Nenhum original foi editado.
 
