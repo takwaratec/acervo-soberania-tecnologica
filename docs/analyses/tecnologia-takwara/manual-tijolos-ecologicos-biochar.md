@@ -22,7 +22,7 @@ title: 'Tijolos Ecológicos de Biomassa e Poliuretano Vegetal: Biotecnologia Hab
 type: Boletim Técnico-Científico
 version: '2.2-candidata-002'
 tipo_documental: manual-tecnico-autoral
-estado_documental: visao-autoral
+estado_documental: em-revisao-documental
 natureza_documental: estudo-de-viabilidade-autoral
 responsavel_curadoria: 'Fabio Takwara'
 metodo: revisao-autoral-nova-edicao-2026
