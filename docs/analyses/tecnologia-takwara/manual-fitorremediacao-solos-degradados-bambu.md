@@ -1,7 +1,7 @@
 ---
 author:
 - affiliation: Núcleo Takwara
-  name: Takwara, Fabio Resck
+  name: Takwara, Fabio
   orcid: 0009-0002-6044-2583
 date: '2026-08-09'
 identificador: ausente-na-fonte
@@ -30,8 +30,8 @@ related_works:
 series: Série Técnica Plataforma Amazônia Regenerativa — Restauração e Carbono
 title: 'Fitorremediação e Mercados de Carbono: O Bambu como Engenheiro Ecológico'
 type: Boletim Técnico-Científico
-version: '2.2-candidata-002'
-tipo_documental: ensaio-tecnico
+version: '2.2-candidata-003'
+tipo_documental: visao-autoral
 estado_documental: em-revisao-documental
 responsavel_curadoria: 'Fabio Takwara'
 metodo: revisao-autoral-nova-edicao-2026
@@ -98,27 +98,28 @@ $$
 FT = \frac{[\text{Metal}]_{\text{partes aéreas}}}{[\text{Metal}]_{\text{raízes}}}
 $$
 
-O padrão consistente observado em diversas espécies de bambu — incluindo *Guadua angustifolia* e *Phyllostachys edulis* — é um **FBC radicular > 1** (o bambu acumula ativamente o metal, concentrando-o nas raízes acima do nível do solo) e um **FT < 1** (o bambu *impede ativamente* que esse metal chegue aos colmos e folhas). Isso não é acidente — é uma defesa evolutiva deliberada que permite à planta sobreviver em solos tóxicos enquanto concentra o perigo no sistema subterrâneo, longe da cadeia alimentar.
+Alguns estudos reportam retenção radicular ou FT inferior a 1 em determinadas espécies, metais e condições experimentais; não há base, nesta edição, para afirmar um padrão geral entre bambus. **Confirmação por espécie, metal e método: ver tabela 1.3 (status de confirmação por estudo).**
 
 ### 1.3 Desempenho por Espécie e Contaminante
 
 A eficácia da fitorremediação não é uniforme. A tabela a seguir consolida dados da literatura científica para orientar a seleção de espécies em projetos de remediação:
 
 
-| Espécie | Metal | Parte da Planta | FBC | FT | Interpretação |
-| :-- | :-- | :-- | :-- | :-- | :-- |
-| *Phyllostachys edulis* (Moso) | Cu | Raiz | 3,04 | 0,22 | Fitoestabilização eficaz |
-| *Phyllostachys edulis* (Moso) | Zn | Raiz | **21,60** | 0,12 | Acumulação extraordinária |
-| *Phyllostachys edulis* (Moso) | Cd | Raiz | 1,33 | 0,29 | Fitoestabilização |
-| *Phyllostachys edulis* (Moso) | Pb | Raiz | 10,70 | 0,03 | Excelente contenção |
-| *Guadua angustifolia* | Zn | Raiz | > 1 | < 1 | Fitoestabilização (redução de 65,5% no solo em 180 dias) |
-| *Guadua angustifolia* | Cd | Raiz | > 1 | < 1 | Fitoestabilização (redução de 60,2% no solo em 180 dias) |
-| *Phyllostachys praecox* | Pb | Raiz | Alto | < 1 | Acumulação radical de chumbo: até 26.388 mg/kg nas raízes |
-| *Pleioblastus fortunei* | Pb | Folha | 2,48 | 1,31 | Potencial de fitoextração de chumbo |
+| Espécie | Metal | Estudo reportado | Achado qualitativo | Status da confirmação |
+| :-- | :-- | :-- | :-- | :-- |
+| *Phyllostachys pubescens* (moso) | Cu | Chen et al., *Sci. Rep.* 5:13554, 2015 (DOI 10.1038/srep13554) | Retenção radicular de Cu; BAF raiz >1 apenas em 100 mg/kg; TF<1 (não hiperacumulador) | ✅ Lido integralmente |
+| *Phyllostachys pubescens* (moso) | Pb | Liu et al., *J. Zhejiang Univ. Sci. B* 16(2):123-130, 2015 (DOI 10.1631/jzus.B1400107) | BCF 10,97–37,64; TF<1; retenção radicular | ✅ Lido integralmente |
+| *Phyllostachys edulis* (moso) | Zn, Cd, Pb | Bian et al., *Environ. Sci. Pollut. Res.*, 2017 (DOI 10.1007/s11356-017-0326-2) | Intercropping com *Sedum*; valores não extraídos | ⏳ Leitura integral pendente (acesso Springer) |
+| *Guadua angustifolia* | Zn, Cd | Torres et al., *Química Nova* 31(1):24-27, 2008 (sem DOI) | Reportado fitoestabilização; valores não confirmados | ⏳ Fonte não localizada (PDF UFAL é dissertação correlata de Barros 2007) |
+| *Guadua angustifolia* | Zn, Cd | Barros, Dissertação UFAL/PPGQB, 2007 (repositório UFAL) | Potencial de fitorremediação de Zn/Cd | ⏳ Documento correlato — decidir se entra como fonte |
+| — | — | Nemenyi et al., *Acta Agraria Debreceniensis*, 2022 (DOI 10.34101/actaagrar/1/10311) | Revisão contextual | ⚪ Revisão, não fonte primária |
+| — | — | Bian et al., *Chemosphere* 246:125750, 2020 (DOI 10.1016/j.chemosphere.2019.125750) | Revisão contextual | ⚪ Revisão, não fonte primária |
+
+> ⚠️ **Nota de confirmação (homologação 2026-08-09):** os valores numéricos de FBC/FT anteriormente listados nesta tabela foram **removidos por não terem confirmação par a par** (leitura integral das fontes). Valores de Zn/Cd e *Guadua* permanecem pendentes de leitura integral (Bian 2017, Torres 2008). Nenhum valor deve ser usado como dado factual antes da confirmação por fonte.
 
 
 
-> ⚠️ **Nota para o projetista de restauração:** *Phyllostachys* spp. são eficazes na fitorremediação, mas **não devem ser plantadas em novas áreas** em função do seu comportamento invasor. Use-as apenas onde já existem — o manejo e a colheita da biomassa já instalada é, por si só, uma forma de fitoextração. Para plantio novo em áreas degradadas, use exclusivamente **espécies nativas**, especialmente *Guadua* spp.
+> ⚠️ **Nota para o projetista de restauração:** *Phyllostachys* spp. são eficazes na fitorremediação, mas **não devem ser plantadas em novas áreas** em função do comportamento alastrante (rizoma leptomorfo) e da classificação de invasividade a verificar com fonte jurisdicional. Use-as apenas onde já existem — o manejo e a colheita da biomassa já instalada é, por si só, uma forma de fitoextração. Para plantio novo em áreas degradadas, use exclusivamente **espécies nativas do bioma**, incluindo *Guadua* spp. nativas quando disponíveis.
 
 ### 1.4 O Ciclo de Remediação Virtuoso: Da Planta ao Carvão à Água
 
@@ -128,7 +129,7 @@ A fitorremediação com bambu abre caminho para um conceito de alto valor estrat
 [SOLO CONTAMINADO (Pb, Cd, Zn, As)]
         ↓
 [BAMBUZAL — Fitoestabilização]
-  ├─ Raízes e rizomas imobilizam metais pesados (FT < 1)
+  ├─ Raízes e rizomas podem reter metais em determinadas condições experimentais; comportamento e FT devem ser confirmados por espécie, metal e método
   ├─ Colmos aéreos com baixa concentração de metais
   └─ Sistema radicular estabiliza fisicamente o solo; evita erosão e lixiviação
         ↓
@@ -142,7 +143,7 @@ A fitorremediação com bambu abre caminho para um conceito de alto valor estrat
   └─ EXTRATO PIROLENHOSO → defensivo agrícola / conservante de biomassa
         ↓
 [BIOCHAR APLICADO A EFLUENTES DE INDÚSTRIA / MINERAÇÃO]
-  → adsorve os mesmos metais que o bambu retirou do solo
+  → adsorve metais de efluentes (adsorção por biochar reportada na literatura; eficácia para o cenário específico a validar)
         ↓
 [BIOCHAR EXAURIDO → INCORPORAÇÃO AO SOLO REMEDIADO]
   → completa o ciclo: a planta iniciou a recuperação do solo; o biochar finaliza
@@ -160,14 +161,14 @@ Este ciclo transforma a fitorremediação de um processo de longo prazo e custo 
 
 A primeira e mais crítica decisão de um projeto de restauração ecológica com bambu é a seleção de espécie. O critério é simples e inegociável: **use espécies nativas**.
 
-O uso de espécies exóticas com rizomas alastrantes (leptomorfos) em projetos de restauração é considerado um **risco crítico de contaminação biológica**, que pode invalidar o projeto perante certificadores, gerar passivo ambiental e comprometer o acesso a financiamentos públicos que exigem conformidade com o Código Florestal.
+O uso de espécies exóticas com rizomas alastrantes (leptomorfos) em projetos de restauração é considerado um **risco de contaminação biológica** e de não conformidade com critérios de restauração com espécies nativas; o impacto perante certificadores e financiamentos públicos deve ser verificado caso a caso (exigência de conformidade com o Código Florestal).
 
 **Espécies recomendadas para restauração e plantio produtivo no Brasil:**
 
 
 | Espécie | Região | Rizoma | Uso prioritário | Estoque de carbono |
 | :-- | :-- | :-- | :-- | :-- |
-| *Guadua angustifolia* | Amazônia, Norte, Centro-Oeste | Paquimorfo | Construção civil, biochar, restauração | 672,3 tC/ha total (78% no solo) |
+| *Guadua angustifolia* | Nativa da região norte dos Andes (Colômbia–Peru, Venezuela, Trinidad e Tobago); introduzida/cultivada no Brasil | Paquimorfo | Construção civil, biochar | Estoque de carbono reportado na literatura; valor e fonte a confirmar |
 | *Guadua weberbaueri* | Amazônia Sul-Ocidental (Acre) | Paquimorfo | Pirólise, briquetes, HIS | Amplo estoque amazônico |
 | *Guadua paraguayana* | Centro-Oeste, Sul | Paquimorfo | Restauração de matas ciliares, biochar | Alta estabilidade no solo |
 | *Guadua chacoensis* | Pantanal, Centro-Oeste | Paquimorfo | Restauração, uso estrutural | Boa biomassa aérea |
@@ -177,7 +178,7 @@ O uso de espécies exóticas com rizomas alastrantes (leptomorfos) em projetos d
 
 ### 2.2 O Caso da Guadua: Por que ela é o ativo mais subestimado da bioeconomia brasileira
 
-O *Guadua angustifolia* é a espécie de bambu com o maior estoque total de carbono registrado na literatura científica: **672,3 tC/ha** em um ecossistema completo. O dado mais surpreendente é que **78% desse carbono está no solo** — em raízes, rizomas e matéria orgânica acumulada — e não na biomassa aérea.
+O *Guadua angustifolia* é reportado na literatura entre os bambus com maior estoque de carbono em ecossistemas completos — **estoque de carbono reportado na literatura; valor e fonte a confirmar** *(possível origem: inventários de G. angustifolia na Colômbia — Eur. J. Forest Res. 2006, DOI 10.1007/s10342-006-0129-3)*. A literatura de *Guadua* também chama atenção para a fração edáfica do carbono (raízes, rizomas e matéria orgânica acumulada), a confirmar com a mesma fonte.
 
 Isso muda completamente o argumento do sequestro de carbono com bambu. Enquanto projetos de eucalipto e bambu exótico competem por taxas de acúmulo de biomassa aérea (tipicamente 5–18 tC/ha/ano), a *Guadua* nativa oferece um estoque de carbono edáfico extraordinariamente estável e permanente — exatamente o tipo de carbono que os mercados de alta qualidade (Gold Standard, Plan Vivo, VERRA) remuneram com prêmio.
 
@@ -187,7 +188,7 @@ Isso muda completamente o argumento do sequestro de carbono com bambu. Enquanto 
 | Estratégia | Sequestro (tC/ha/ano) | Estoque Total (Ecossistema) | Risco Socioambiental | Viabilidade Econômica |
 | :-- | :-- | :-- | :-- | :-- |
 | Bambu exótico (*Phyllostachys*) | 4,9–18 (biomassa aérea) | Alto (aéreo) | **Crítico:** invasor, suprime regeneração nativa | Biochar industrial; risco de transporte |
-| Bambu nativo (*Guadua* spp.) | ~12,5 (biomassa aérea) | **Excepcional:** 672,3 tC/ha (78% no solo) | Baixo (quando manejado como PFNM) | **Alta e local:** construção, biochar, PFNM |
+| Bambu nativo (*Guadua* spp.) | ~12,5 (biomassa aérea) | **Excepcional:** estoque de carbono reportado na literatura (valor e fonte a confirmar) | Baixo (quando manejado como PFNM) | **Alta e local:** construção, biochar, PFNM |
 | Restauração mista (nativas diversas) | Variável | Médio a alto (longo prazo) | Baixo | Emergente: sementes, SAFs, óleos, frutos |
 | Eucalipto | Superior ao *Pinus*; 2,7–4,6× coníferas | Alto (aéreo) | Médio: alto consumo hídrico, baixa biodiversidade | Muito alta: celulose, madeira, carvão |
 
@@ -230,7 +231,7 @@ Antes de planejar qualquer intervenção, o gestor precisa saber exatamente o qu
 *Custo:* R\$ 8.000–18.000/ha
 *Vantagem:* maior controle da composição e velocidade inicial de estabelecimento.
 
-> 💡 **Para o projetista:** a estratégia mais eficiente de custo-benefício para a maioria dos projetos comunitários é a **combinação de RNA + Muvuca**, com plantio de mudas apenas nos "bolsões" de degradação severa dentro da área maior. A *Guadua* pode ser introduzida em faixas ripárias por transplante de rizomas — técnica de baixo custo e alta sobrevivência.
+> 💡 **Para o projetista:** a estratégia mais eficiente de custo-benefício para a maioria dos projetos comunitários é a **combinação de RNA + Muvuca**, com plantio de mudas apenas nos "bolsões" de degradação severa dentro da área maior. A introdução de *Guadua* em faixas ripárias pode ser avaliada por transplante de rizomas, **desde que** (1) a espécie seja nativa do bioma local (ex.: *G. weberbaueri* no Acre, *G. paraguayana* no Centro-Oeste — não *G. angustifolia*, que é introduzida no Brasil), (2) a técnica de propagação seja validada com fonte, e (3) a sobrevivência seja verificada em campo. **Hipótese condicionada, não fato.**
 
 
 ---
@@ -449,12 +450,21 @@ Brotos jovens de bambu contêm a **taxifilina**, um glicosídeo cianogênico que
 
 
 
-**Regra prática:** fatie o broto, descarte as folhas externas, ferva por 30 minutos em água abundante (descartando a água). O resultado é um alimento com excelente perfil nutricional: rico em fibras, potássio, proteínas e baixo teor de gordura — e com HCN abaixo de qualquer limite de segurança alimentar internacional.
+**Regra prática:** fatie o broto, descarte as folhas externas, ferva por 30 minutos em água abundante (descartando a água). O resultado é um alimento com excelente perfil nutricional: rico em fibras, potássio, proteínas e baixo teor de gordura — e com HCN abaixo dos limites de segurança alimentar reportados pelas principais agências (ex.: FSANZ/FAO) — confirmar por análise laboratorial.
 
 
 ---
 
 ## REFERÊNCIAS DESTA SEÇÃO
+
+**Cadernos de Soberania Ecológica (Núcleo Takwara — links unidirecionais deste documento)**
+
+- Caderno 1 — Preservação do bambu sob perspectiva socioecológica (v1.2, limites do "sem veneno" e de tratamentos): [caderno-01-preservacao-socioecologica-bambu](../visao-do-autor/caderno-01-preservacao-socioecologica-bambu.md) · DOI: 10.5281/zenodo.21778046
+- Caderno 2 — Do colmo condicionado ao componente protegido (v1.2, biochar, vapor e PU): [caderno-02-colmo-condicionado-componente-protegido](../visao-do-autor/caderno-02-colmo-condicionado-componente-protegido.md) · DOI: 10.5281/zenodo.21514977
+- Caderno 3 — Da componente à capacidade produtiva territorial (v1.1): [caderno-03-capacidade-produtiva-territorial](../visao-do-autor/caderno-03-capacidade-produtiva-territorial.md) · DOI: 10.5281/zenodo.21738550
+- Caderno 4 — Do protótipo à conformidade (v1.4, requisitos normativos): [caderno-04-prototipo-conformidade-normas-ensaios](../visao-do-autor/caderno-04-prototipo-conformidade-normas-ensaios.md) · DOI: 10.5281/zenodo.21780878
+- Caderno 6 — Biochar de biomassa e uso em cascata do bambu (v1.0): [caderno-06-biochar-pirolise-uso-cascata](../visao-do-autor/caderno-06-biochar-pirolise-uso-cascata.md) · DOI: 10.5281/zenodo.21515443
+- Caderno 7 — O ciclo que não termina no descarte (v1.0, ciclo fechado e adsorção): [caderno-07-ciclo-fechado-crise-planetaria](../visao-do-autor/caderno-07-ciclo-fechado-crise-planetaria.md) · DOI: 10.5281/zenodo.21515567
 
 > **Nota de verificação (poda D-D):** verificação seletiva via CrossRef em 2026-08-09.
 > DOIs confirmados: BIAN 2020, NEMENYI 2022 e CHONGTHAM 2011 (adicionados abaixo).
@@ -507,13 +517,13 @@ Brotos jovens de bambu contêm a **taxifilina**, um glicosídeo cianogênico que
 ## Como citar este documento
 
 **ABNT:**
-TAKWARA, Fabio Resck. *Regeneração de Solos Degradados, Fitorremediação e Mercados de Carbono: O Bambu como Engenheiro Ecológico — Do Solo Contaminado ao Crédito Certificado*. Série Técnica Plataforma Amazônia Regenerativa — Aplicabilidade Nacional. Brasília: Núcleo Takwara, 2026. (Versão candidata 2.2 — DOI a atribuir após reserva da nova versão; versão anterior: https://doi.org/10.5281/zenodo.18827106)
+TAKWARA, Fabio. *Regeneração de Solos Degradados, Fitorremediação e Mercados de Carbono: O Bambu como Engenheiro Ecológico — Do Solo Contaminado ao Crédito Certificado*. Série Técnica Plataforma Amazônia Regenerativa — Aplicabilidade Nacional. Brasília: Núcleo Takwara, 2026. (Versão candidata 2.2-candidata-003 — DOI a atribuir após reserva da nova versão; versão anterior: https://doi.org/10.5281/zenodo.18827106)
 
 **APA:**
-Takwara, F. R. (2026). *Regeneração de Solos Degradados, Fitorremediação e Mercados de Carbono* (Versão 2.2-candidata-001). Núcleo Takwara. (DOI a atribuir)
+Takwara, F. (2026). *Regeneração de Solos Degradados, Fitorremediação e Mercados de Carbono* (Versão 2.2-candidata-003). Núcleo Takwara. (DOI a atribuir)
 
 **Faz parte de:**
-Takwara, F. R. (2026). *Série Técnica Plataforma Amazônia Regenerativa* [Coleção Zenodo]. https://doi.org/10.5281/zenodo.18827106
+Takwara, F. (2026). *Série Técnica Plataforma Amazônia Regenerativa* [Coleção Zenodo]. https://doi.org/10.5281/zenodo.18827106
 
 **Documentos relacionados na coleção:**
 - Cartilha de Bioeconomia Comunitária do Bambu — https://doi.org/10.5281/zenodo.18827106
@@ -527,7 +537,7 @@ Takwara, F. R. (2026). *Série Técnica Plataforma Amazônia Regenerativa* [Cole
 | Data | Versão | Mudança |
 |------|--------|---------|
 | 2026-08-09 | 2.2-candidata-001 | Base: texto integral da v2.1 (decisão D1 — PT integral). ORCID canônico 0009-0002-6044-2583; DOI anterior movido para `doi_versao_anterior` e `identificador: ausente-na-fonte`; título da Seção 3 rebaixado de "TÉCNICAS... VALIDADAS" para "TÉCNICAS... (reportadas na literatura)"; "comprovadamente eficaz" → "reportado na literatura como eficaz"; badges de tradução/DOI removidos (EN/ES em rodada futura D3); Como citar atualizado (DOI a atribuir); changelog e declaração de limites incluídos. |
-| 2026-08-09 | 2.2-candidata-002 | Decisão D-D da auditoria transversal: verificação seletiva das referências via CrossRef — DOIs adicionados a BIAN 2020, NEMENYI 2022 e CHONGTHAM 2011; WANG 2023 marcada como DOI não confirmado (volume/página coincidem com registro existente, mas título registrado difere); TORRES 2008, FERREIRA 1995 e FSANZ 2004 mantidas com verificação pendente; parâmetro térmico citado na fórmula de carbono removido por decisão D-C (reservado para avaliação de propriedade intelectual). |
+| 2026-08-09 | 2.2-candidata-003 | Homologação Fase 6 (auditoria botânica e factual): tabela 1.3 reformulada — valores FBC/FT numéricos removidos por falta de confirmação par a par (tabela qualitativa provisória com status de confirmação por estudo; 26.388 mg/kg e P. fortunei removidos); correção da distribuição de Guadua angustifolia (Kew POWO — nativa dos Andes do norte; introduzida no Brasil; uso em restauração apenas de espécies nativas do bioma); 672,3 tC/ha e "78% no solo" substituídos por "estoque de carbono reportado na literatura; valor e fonte a confirmar"; afirmação de padrão geral FBC>1/FT<1 substituída por "alguns estudos reportam retenção radicular ou FT<1 em condições específicas; sem base para padrão geral"; diagrama do ciclo com FT<1 qualificado (confirmar por espécie, metal e método); transplante de rizomas rebaixado a hipótese condicionada; classificações de invasividade qualificadas; adsorção de metais por biochar qualificada; limites de HCN suavizados (FSANZ/FAO — confirmar por análise); autor público "Fabio Takwara" (ORCID canônico; APA atualizado para Takwara, F.); links unidirecionais para os Cadernos 1-7 adicionados. |
 
 **Base desta candidata:** TAK_manual-fitorremediacao-credito-carbono.md (v2.1, dist_zenodo_v2.2.2, texto integral). Nenhum original foi editado.
 
