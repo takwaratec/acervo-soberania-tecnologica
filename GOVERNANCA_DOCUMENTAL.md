@@ -214,6 +214,24 @@ A homologação NÃO significa validação experimental, certificação de desem
 
 Laudos e fichas de produto sustentam apenas as propriedades e condições que documentam. Alegações comerciais sem método, norma ou relatório associado devem ser apresentadas como declaração do fabricante.
 
+## Metadados e paridade multilíngue
+
+Regras para versões em outros idiomas (EN/ES) e metadados:
+
+1. **Tradução histórica versus tradução da versão corrente.** Uma tradução que corresponde a uma edição antiga publicada (ex.: PT 2.1) é classificada como `historico` — NÃO como `em-revisao-documental` (isso sugeriria que a tradução nunca foi publicada). A `nota_traducao` deve declarar a correspondência e que a versão PT atual está em revisão sem tradução correspondente.
+
+2. **Uso de `historico`.** Aplicável a versões antigas publicadas, preservando o fato da publicação sem promovê-las ao estado da versão corrente.
+
+3. **Distinção estado × natureza × depósito.** `estado_documental` (grau de conferência), `tipo_documental`/`natureza_documental` (tipo) e depósito Zenodo (evento, campo `zenodo_doi`/`identificador`) são atributos distintos e não devem ser confundidos no front matter.
+
+4. **Paridade obrigatória entre idiomas.** Quando a tradução corresponde à MESMA edição, `version`, `identifier` e `data_revisao` devem espelhar a versão PT. Traduções de edições diferentes declaram a própria versão via `nota_traducao`.
+
+5. **Proibição de promoção automática.** Uma tradução antiga NÃO é promovida automaticamente à versão PT atual; cada idioma/versão corresponde ao depósito correto.
+
+6. **Correção de metadados sem alterar conteúdo científico.** Identificadores duplicados, campos ausentes e formatos inconsistentes são corrigidos sem tocar no conteúdo — sempre em PRs pequenos agrupados por problema.
+
+7. **Cadernos EN podem espelhar os metadados PT** somente quando forem traduções da mesma edição (paridade verificada arquivo a arquivo).
+
 ## Regra de publicação
 
 - `docs/` é a árvore pública do MkDocs.
