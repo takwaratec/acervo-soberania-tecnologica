@@ -1,13 +1,13 @@
 ---
-tipo_documental: ficha-cientifica
+tipo_documental: ficha-academica
 titulo: Bambu laminado colado — produção, caracterização e aceitação cultural na região Noroeste do Paraná
 autores: José Ricardo Reghin Filho
 ano: 2018
 identificador: UEM, Mestrado em Engenharia Urbana
-estado_documental: em-revisao-documental
+estado_documental: homologado-documentalmente
 fonte_primaria: PDF integral conferido
 pacote_fonte_privado: 2018-reghin-bambu-laminado-colado
-data_revisao: 2026-07-14
+data_revisao: 2026-08-19
 responsavel_curadoria: Fabio Takwara
 ---
 
@@ -39,19 +39,20 @@ Discute bambu laminado, adesivos, tratamento, normas de madeira e aceitação de
 
 ## 5. Metodologia
 
-Produz lâminas de *Dendrocalamus giganteus* coladas com PU à base de óleo de mamona, realiza caracterização físico-mecânica e aplica questionário de opinião.
+Produz lâminas de *Dendrocalamus giganteus* coladas com PU à base de óleo de mamona (440 g/m²), realiza caracterização físico-mecânica e aplica questionário de opinião.
 
 ## 6. Principais achados
 
 - Densidade aparente de 0,79 g/cm³ no material produzido.
-- Resistência média à compressão paralela de 74,67 MPa.
+- Resistência média à compressão paralela de 74,67 MPa (média de 18 corpos de prova, área 600 mm², teor de umidade 13,38%).
+- O cisalhamento na lâmina de cola foi de 7,81 MPa (corpos de prova de lâmina de cola, adesivo PU de mamona fixado a 440 g/m²).
 - O autor relata boa aderência do adesivo no conjunto ensaiado.
 - Falta de equipamentos, padronização, mão de obra e oferta comercial dificultou o processo.
 - A pesquisa de opinião indicou necessidade de maior divulgação técnico-científica.
 
 ## 7. Avaliação crítica
 
-A comparação com espécies de madeira contextualiza, mas não constitui equivalência normativa. A amostra, o processo manual e a ausência de envelhecimento acelerado limitam a generalização.
+A comparação com espécies de madeira contextualiza, mas não constitui equivalência normativa. A amostra, o processo manual e a ausência de envelhecimento acelerado limitam a generalização. MOE e MOR não foram medidos no estudo (insuficiência de taliscas usinadas); permanecem como lacuna.
 
 ## 8. Inserção no estado da arte
 
