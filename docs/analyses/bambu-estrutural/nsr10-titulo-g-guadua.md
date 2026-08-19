@@ -4,16 +4,16 @@ titulo: NSR-10 — Título G, estruturas de madeira e estruturas de guadua
 entidade_responsavel: República da Colômbia
 ano: 2010
 identificador_tecnico: Reglamento Colombiano de Construcción Sismo Resistente NSR-10, Título G
-estado_documental: em-revisao-documental
+estado_documental: homologado-documentalmente
 fonte_primaria: PDF integral conferido
 pacote_fonte_privado: 2010-nsr10-titulo-g
-data_revisao: 2026-07-14
+data_revisao: 2026-08-19
 responsavel_curadoria: Fabio Takwara
 ---
 
 # NSR-10 — requisitos colombianos para madeira e guadua
 
-> **Natureza:** Registro curatorial de regulamento estrangeiro. A cópia de 2010 não substitui consulta à versão oficial vigente nem é norma aplicável automaticamente no Brasil.
+> **Natureza:** Registro curatorial de regulamento estrangeiro. A cópia de 2010 não substitui consulta à versão oficial vigente. Válida no escopo e nas condições da própria NSR-10; não constitui validade geral nem requisito para o Brasil. Não é norma aplicável automaticamente no Brasil.
 
 ## 1. Identificação
 
@@ -33,7 +33,7 @@ Relaciona propriedades de projeto, controle de qualidade, durabilidade, elemento
 
 ## 5. Escopo relativo à guadua
 
-O capítulo específico delimita espécie, qualidade, teor de umidade, proteção, dimensionamento e detalhes construtivos admitidos no regulamento.
+O capítulo específico delimita espécie, qualidade, teor de umidade, proteção, dimensionamento e detalhes construtivos admitidos no regulamento. Os valores de projeto (esforços admissíveis, módulos de elasticidade, massa específica e coeficientes) não são usados como evidência pública por serem específicos da Colômbia e dependentes de conferência visual.
 
 ## 6. Contribuições documentais
 
@@ -43,7 +43,7 @@ O capítulo específico delimita espécie, qualidade, teor de umidade, proteçã
 
 ## 7. Avaliação crítica
 
-Trata-se de norma técnica, não de publicação científica. Sua vigência e as exigências aplicáveis devem ser verificadas oficialmente antes de qualquer uso profissional.
+Trata-se de norma técnica, não de publicação científica. Sua vigência e as exigências aplicáveis devem ser verificadas oficialmente antes de qualquer uso profissional. A frente sísmica permanece hipótese ainda não validada para o contexto brasileiro.
 
 ## 8. Uso no acervo
 
