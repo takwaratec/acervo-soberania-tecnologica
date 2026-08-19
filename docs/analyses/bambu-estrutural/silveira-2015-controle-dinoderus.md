@@ -1,19 +1,19 @@
 ---
-tipo_documental: ficha-cientifica
+tipo_documental: ficha-academica
 titulo: Avaliação do controle sustentável do caruncho Dinoderus minutus em pós-colheita de bambu
 autores: Edilson Soares da Silveira
 ano: 2015
 identificador: UCDB, Doutorado em Ciências Ambientais e Sustentabilidade Agropecuária
-estado_documental: em-revisao-documental
+estado_documental: homologado-documentalmente
 fonte_primaria: PDF integral conferido
 pacote_fonte_privado: 2015-silveira-controle-dinoderus
-data_revisao: 2026-07-14
+data_revisao: 2026-08-19
 responsavel_curadoria: Fabio Takwara
 ---
 
 # Estratégias experimentais de controle de *Dinoderus minutus*
 
-> **Síntese:** A tese reúne experimentos sobre captura, líquido da castanha de caju e exposição eletromagnética. Os resultados devem ser lidos por capítulo: não formam uma validação única de “controle sustentável”.
+> **Síntese:** A tese reúne experimentos sobre captura, líquido da castanha de caju e exposição eletromagnética. Os resultados devem ser lidos por capítulo: não formam uma validação única de "controle sustentável".
 
 ## 1. Dados gerais
 
@@ -33,7 +33,7 @@ Abrange biologia de Bostrichidae, amido do bambu, armadilhas, repelência e mét
 
 ## 5. Metodologia
 
-Inclui armadilhas em alturas e condições ambientais distintas e experimentos específicos com alternativas de controle. Cada delineamento possui amostras e variáveis próprias.
+Inclui armadilhas em alturas e condições ambientais distintas e experimentos específicos com alternativas de controle. Cada delineamento possui amostras e variáveis próprias. Os experimentos próprios (captura, repelente LCC e ondas eletromagnéticas) são relatados separadamente; resultados de eficácia atribuídos a outros autores não são incorporados como resultados da tese.
 
 ## 6. Principais achados
 
@@ -44,7 +44,7 @@ Inclui armadilhas em alturas e condições ambientais distintas e experimentos e
 
 ## 7. Avaliação crítica
 
-Não se deve resumir a tese como comprovação universal de LCC, ondas eletromagnéticas ou armadilhas. A interpretação requer os resultados e limitações de cada experimento.
+Não se deve resumir a tese como comprovação universal de LCC, ondas eletromagnéticas ou armadilhas. A interpretação requer os resultados e limitações de cada experimento. Percentuais de eficácia citados na revisão (ex.: 94–98%) pertencem a autores referenciados e não são resultados próprios da tese.
 
 ## 8. Inserção no estado da arte
 
