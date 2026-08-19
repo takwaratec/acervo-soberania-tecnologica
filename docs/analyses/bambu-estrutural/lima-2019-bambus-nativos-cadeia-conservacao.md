@@ -1,13 +1,13 @@
 ---
-tipo_documental: ficha-cientifica
+tipo_documental: ficha-academica
 titulo: Bambus nativos do Brasil — panorama das iniciativas para uma cadeia produtiva integrada à conservação
 autores: Aline Lopes e Lima
 ano: 2019
 identificador: Unicamp, Doutorado em Ambiente e Sociedade
-estado_documental: em-revisao-documental
+estado_documental: homologado-documentalmente
 fonte_primaria: PDF integral conferido
 pacote_fonte_privado: 2019-lima-bambus-nativos-brasil
-data_revisao: 2026-07-14
+data_revisao: 2026-08-19
 responsavel_curadoria: Fabio Takwara
 ---
 
@@ -44,6 +44,7 @@ Usa dados secundários, cadeia de referência e entrevistas semiestruturadas ent
 
 ## 6. Principais achados
 
+- Registra 35 gêneros e 258 espécies nativas de bambus, conforme a Flora do Brasil consultada em 2016 (não se trata de contagem atual automática).
 - Foram identificadas 222 iniciativas, concentradas no Acre, Sudeste e Sul.
 - Predominaram usos artesanais e informais de espécies lenhosas.
 - Arranjos institucionais, políticas e experiência prévia favoreceram iniciativas.
