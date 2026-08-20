@@ -21,6 +21,10 @@ conferidos, e sem alegações genéricas de resistência.
 
 - [Continuidade através da mudança: adaptação comunitária das casas de bambu Dai —
   Hao & Shinohara (2026)](hao-shinohara-2026-dai.md)
+- [Casas em forma de barco do povo indígena Li em Hainan — Ma et al.
+  (2025)](ma-etal-2025-li-hainan.md)
+- [Construções vernáculas em terra: a taipa de mão — Cordeiro et al.
+  (2019)](cordeiro-2019-taipa-de-mao.md)
 
 ## Limites documentais
 
