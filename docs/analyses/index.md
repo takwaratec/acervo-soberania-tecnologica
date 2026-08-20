@@ -13,6 +13,7 @@ Esta seção reúne os documentos públicos do Acervo por eixo temático. A pres
 
 - [Fundamentos do Acervo](fundamentos/index.md)
 - [Bambu estrutural e tratamentos](bambu-estrutural/index.md)
+- [Arquitetura vernacular em bambu](arquitetura-vernacular/index.md)
 - [Poliuretano vegetal](pu-vegetal/index.md)
 - [Percepção social em habitação](percecao-social/index.md)
 - [Avaliação pós-ocupação](avaliacao-pos-ocupacao/index.md)
