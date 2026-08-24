@@ -230,6 +230,48 @@ O conjunto também impõe duas constatações honestas. A eficácia da política
 
 **Interpretação curatorial:** os próximos passos naturais do eixo são (i) priorizar as lacunas L2 (monitoramento pós-ocupação) e L3 (correlação sistema construtivo × resiliência), as mais custosas; (ii) converter os protocolos metodológicos da gaveta (APO, MHV, AAI, aerolevantamento) em instrumentos reutilizáveis de avaliação de desempenho social; e (iii) resolver as divergências documentais registradas pelas fichas (autoria de Schäfer & Gomide, DOI/ano de Monteiro & Miron, autoria de Garrefa et al.) na próxima rodada de curadoria.
 
+### 9.1. Implicações para políticas públicas
+
+As evidências do eixo apontam, de forma **dirigida por lacunas e sem recomendar eficácia de política que o corpus não contém**, as seguintes frentes de política pública:
+
+- **Assistência técnica universalizada (ATHIS, Lei 11.888/2008)** — a convergência mais robusta é a de que a mediação técnica entre tipologia seriada e modos de vida reduz os riscos patológicos da autoconstrução, sem romantizá-la nem criminalizá-la ([Cardoso & Lopes 2022](../politica-habitacional/cardoso-2022-athis-assessoria-assistencia.md); interpretação curatorial da Controvérsia 1); porém o eixo não contém estudo de caso de assessorias em funcionamento (lacuna L8 — avaliação empírica da implementação da ATHIS).
+- **Monitoramento pós-ocupação institucionalizado** — todos os APOs do eixo são acadêmicos/indicativos (lacuna L2 — monitoramento pós-ocupação institucionalizado); uma política que institucionalize o follow-up permitiria retroalimentar projeto, produção e manutenção (Rangel et al. 2020; Otoni & Villa 2024).
+- **Avaliação de política em escala nacional** — a única avaliação longitudinal é municipal (Ponta Grossa, [Ferreira 2023](../politica-habitacional/ferreira-2023-politica-his-ponta-grossa.md)); não há série nacional comparável (lacuna L1 — avaliação longitudinal de política habitacional em escala nacional), de modo que decisões de financiamento da HIS carecem de leitura de eficácia no nível da política federal.
+- **Política local ausente como restrição à resiliência** — as vulnerabilidades socioeconômicas e a ausência de políticas locais aparecem como freio à capacidade adaptativa ([Garrefa et al. 2021](../percecao-social/garrefa-2021-resiliencia-his-apo-coproducao.md)); o contraponto institucional é a coprodução com os moradores, não a entrega "para eles".
+- **Conectividade de agendas federais de habitação** — trata-se **apenas de alinhamento temático de agenda**, sem documento normativo que sustente a relação: a interface com as frentes de soberania material (bambu estrutural, tecnologia Takwara e bioeconomia) é **aproximação futura de agenda**, não evidência de eficácia do eixo; não há norma, programa ou ficha no eixo que estabeleça vínculo funcional entre essas frentes e a eficácia da HIS (ver §9.3).
+
+**Nota curatorial:** estas são **implicações dirigidas por lacunas**, não recomendações embasadas em evidência de eficácia que o corpus não contém.
+
+### 9.2. Sustentabilidade material, social e ambiental
+
+- **Dimensão social (forte no eixo):** o eixo documenta, com confiança moderada, o desempenho **social** da habitação — adequação à vida, resiliência, percepção de valor, conforto. Esta é a principal "sustentabilidade" mensurada: a capacidade de a unidade sustentar os modos de vida ao longo do tempo.
+- **Dimensão ambiental (fraca no eixo):** o eixo **não contém** avaliação de ciclo de vida, consumo de materiais, emissões, energia ou resíduos das soluções construtivas de HIS. As Soluções Baseadas na Natureza propostas ([Pazos et al. 2025](../percecao-social/pazos-et-al-2025-aerolevantamento-sbn-sol-nascente.md)) são diagnósticas e **não têm implementação monitorada** (lacuna L5 — implementação e monitoramento de SbN); adaptações informais geram passivos ambientais (entulho, impermeabilização do solo, perda de ventilação/privacidade — [Garrefa et al. 2021](../percecao-social/garrefa-2021-resiliencia-his-apo-coproducao.md)).
+- **Não há "sustentabilidade automática" por material renovável:** nenhuma ficha do eixo demonstra que bambu, ou qualquer material vegetal, torna a HIS automaticamente mais sustentável; isso é **hipótese a validar**, não evidência do eixo.
+- **Limite:** concluir daqui que "habitação social com materiais renováveis é mais sustentável" extrapolaria o escopo; tal afirmação exigiria ACV comparativa e séries de desempenho que o corpus não contém.
+
+### 9.3. Limites de transferência entre estudos, territórios e programas
+
+As evidências do eixo referem-se a **estudos de caso localizados**, não a leis universais:
+
+- **Restrita a recortes regionais e amostras pequenas:** Ponta Grossa (n=1 série municipal), Shopping Park (Uberlândia), Vargem Grande e Porto Novo (Belo Monte/PA), Moradias União Ferroviária (MUF, Caxias do Sul), Sol Nascente (DF), EHIS de Porto Alegre (n=15–91) — **transferibilidade limitada** (lacuna L6 — amostras pequenas e recortes regionais).
+- **Programa específico:** grande parte refere-se ao **PMCMV**, com tipologias e lógica de financiamento próprias — generalizar para outros programas (ou para produção informal não financiada) seria extrapolação.
+- **Bancada/pesquisa ≠ política implementada:** os benchmarks de construtibilidade ([Abreu et al. 2025](../avaliacao-pos-ocupacao/abreu-2025-benchmarking-construtibilidade-his.md)) refletem a **prática corrente** (metas setoriais), não padrões de excelência; os protocolos (APO/MHV/AAI/aerolevantamento) são instrumentos de avaliação, não comprovação de eficácia de política em si.
+- **Materiais e território:** nenhuma conclusão do eixo pode ser **transferida para outro território ou programa** sem repetir a APO local e a leitura do contexto institucional.
+
+**Separação evidência × hipótese × agenda (contrato do Acervo):**
+
+| Tipo | O que o eixo sustenta | Exemplos |
+|---|---|---|
+| **Evidência** | fatos com fonte integral conferida e método | inadequação tipologia × vida (92,3%–98% alteram); 19% migram para não-beneficiários; sistema rígido limita ampliação; benchmarks de construtibilidade (prática corrente) |
+| **Hipótese** | relações propostas, não comprovadas pelo eixo | que a ATHIS reduz riscos patológicos; que materiais renováveis tornam a HIS mais sustentável; que SbN melhoram o ambiente se implementadas |
+| **Agenda** | próximos passos e aproximações futuras | monitoramento pós-ocupação (lacuna L2 — monitoramento pós-ocupação institucionalizado); ACV de materiais em HIS (ausente); interface com bambu/Takwara/bioeconomia como frente futura; conexão com CLPI/consulta cultural quando houver contexto indígena/tradicional |
+
+**Nota sobre referências cruzadas:** as conexões com **reforma agrária/agrofloresta**, **arquitetura
+vernacular**, **bioeconomia** e **CLPI (consulta livre, prévia e informada)** são **candidaturas de
+aproximação/agenda**, não relações hoje documentadas no corpo do eixo; serão registradas como tais
+no mapa geral de referências cruzadas, **sem equivalência automática** e sem atribuir ao eixo
+conteúdo que ele não contém.
+
 ---
 
 ## Referências das fichas utilizadas
