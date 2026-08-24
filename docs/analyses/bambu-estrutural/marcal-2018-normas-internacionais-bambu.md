@@ -28,7 +28,7 @@ interpretacao: "Ficha acadêmica HISTÓRICA e ANALÍTICA — não é manual de c
 | **Instituição** | Universidade de Brasília (UnB), Faculdade de Arquitetura e Urbanismo (PPG-FAU) |
 | **Ano / extensão** | 2018 / 193 páginas digitais |
 | **Orientador / coorientador** | Jaime Gonçalves de Almeida / Julio Eustaquio de Melo |
-| **Fonte integral** | PDF privado conferido (193 p.), em `_privado/fontes-academicas/2018-marcal-normas-internacionais-bambu/` |
+| **Fonte integral** | Fonte integral conferida em cópia privada controlada; direitos e condições de uso registrados internamente. |
 
 ## 2. Estrutura e organização
 
