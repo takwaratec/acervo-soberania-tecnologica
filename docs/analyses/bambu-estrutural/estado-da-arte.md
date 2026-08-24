@@ -5,6 +5,7 @@ fonte_primaria: fichas do eixo com fonte integral conferida (54 fichas — 53 co
 titulo: "Estado da Arte — Bambu Estrutural"
 data_revisao: 2026-08-21
 responsavel_curadoria: Fabio Takwara
+gaveta: bambu-estrutural
 ---
 
 # Estado da Arte: Bambu Estrutural
