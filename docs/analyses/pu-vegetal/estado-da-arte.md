@@ -1,7 +1,7 @@
 ---
 tipo_documental: estado-da-arte
 estado_documental: em-revisao-documental
-fonte_primaria: fichas do eixo com fonte integral conferida (21 fichas)
+fonte_primaria: "22 fichas — inclui Barbirato et al. (2022), OSB de Dendrocalamus asper com PU de mamona; DOI 10.5902/1980509846908; CC BY-NC 4.0"
 titulo: "Estado da Arte — Poliuretano Vegetal"
 data_revisao: 2026-08-01
 responsavel_curadoria: Fabio Takwara
@@ -13,12 +13,12 @@ responsavel_curadoria: Fabio Takwara
 
 ## Síntese
 
-Esta síntese organiza o conjunto documental da gaveta `pu-vegetal` em sete eixos temáticos, cobrindo o recorte 1996–2026 (com um documento histórico de 1996 digitalizado em 2026 e um relatório sem data declarada). O fundo é composto por **21 fichas**, todas com fonte integral conferida e em estado `em-revisao-documental`: 13 fichas científicas, 5 fichas acadêmicas, 2 fichas técnicas de produto e 1 laudo/certificado de ensaio. O recorte cobre a matriz poliuretana de mamona (química, térmica, elétrica e mecânica), as aplicações construtivas históricas da resina, os produtos comerciais Imperveg e suas declarações, a biodegradação de bioespumas, painéis aglomerados com adesivo de PU de mamona, compósitos com fibras e partículas vegetais, a interface bambu–PU (compósitos, preenchimento e tratamentos superficiais), o desempenho acústico de materiais vegetais e a frente de certificação e conformidade. A escrita segue a regra do Acervo: **não fabricar dados** — todo número, autor e ano citado provém de uma ficha; interpretações curatoriais são marcadas como tais. Onde as fichas registram resultados divergentes ou limites explícitos (como o certificado UL 94 restrito à amostra isolada), o texto os declara, em vez de ocultá-los.
+Esta síntese organiza o conjunto documental da gaveta `pu-vegetal` em sete eixos temáticos, cobrindo o recorte 1996–2026 (com um documento histórico de 1996 digitalizado em 2026 e um relatório sem data declarada). O fundo reúne fichas e documentos com fonte integral conferida. O recorte cobre a matriz poliuretana de mamona (química, térmica, elétrica e mecânica), as aplicações construtivas históricas da resina, os produtos comerciais Imperveg e suas declarações, a biodegradação de bioespumas, painéis aglomerados com adesivo de PU de mamona, compósitos com fibras e partículas vegetais, a interface bambu–PU (compósitos, preenchimento e tratamentos superficiais), o desempenho acústico de materiais vegetais e a frente de certificação e conformidade. A escrita segue a regra do Acervo: **não fabricar dados** — todo número, autor e ano citado provém de uma ficha; interpretações curatoriais são marcadas como tais. Onde as fichas registram resultados divergentes ou limites explícitos (como o certificado UL 94 restrito à amostra isolada), o texto os declara, em vez de ocultá-los.
 
 ## Resumo Executivo
 
 - ✓ **Evidência convergente (bancada)** — o PU de mamona atua como barreira parcial de umidade e agente de adesão em materiais lignocelulósicos: redução de absorção de água de 68,3% para 22,9% com o aumento do teor de resina ([Marinho et al. 2013](marinho-pu-mamona-bambu-polimeros.md)) e de inchamento em espessura com a elevação da temperatura de prensagem ([Silva Neto 2026](silvaneto-2026-paineis-pinus-pet-pu.md)), em linha com os dados históricos de impregnação de [Silva (1996)](silva-1996-resina-pu-mamona-construcao.md).
-- ✓ **Evidência de bancada (moderada)** — painéis aglomerados com adesivo de PU de mamona atingem leituras normativas parciais (P6 em [Cazella 2022](cazella-2022-paineis-pinus-pet-pu.md); P4 em [Oliveira 2019](oliveira-2019-paineis-eucalipto-couro-pu.md)), sempre condicionadas à formulação e à leitura dos autores.
+- ✓ **Evidência de bancada (moderada)** — alguns painéis aglomerados com adesivo de PU de mamona atenderam **parcialmente** aos critérios de classificação utilizados nos estudos: [Oliveira (2019)](oliveira-2019-paineis-eucalipto-couro-pu.md) classificou uma formulação como **P4**, classe de painel estrutural para uso em ambiente seco, segundo a NBR 14810 adotada no trabalho; [Cazella (2022)](cazella-2022-paineis-pinus-pet-pu.md) classificou algumas misturas com PET como **P2, P4 ou P6**, sendo P6 uma classe de maior exigência para painel estrutural em ambiente seco. Essas são **classificações experimentais das formulações e corpos de prova avaliados**; não equivalem a certificação de produto, conformidade normativa integral ou desempenho em obra. *(Nota: as classes P2–P6 são categorias de desempenho de painéis previstas na norma utilizada pelos autores — ABNT NBR 14810 —, não nomes de formulações nem níveis de TRL. Além disso, as edições da NBR 14810 adotadas por cada estudo **não são uniformes** — Silva Neto (2026) cita explicitamente a NBR 14810-2:2024, enquanto Cazella (2022), Oliveira (2019) e Carvalho (2023) não declaram o ano na ficha —, de modo que as classes P2–P6 citadas **só são comparáveis entre estudos após verificar a edição adotada**.)*
 - ⚠ **Evidência moderada** — a caracterização da matriz PU de mamona é consistente em química/térmica ([Medeiros 2023](medeiros-2023-compositos-pu-quitosana.md)), elétrica/dielétrica ([Costa 2022](costa-2022-propriedades-eletricas-pu-mamona.md)) e mecânica ([Vianna 1997](vianna-1997-pu-mamona-tracao.md)), com uso restrito a fundamento de matriz — sem equivalência construtiva demonstrada.
 - ⚠ **Evidência moderada (laboratorial)** — o preenchimento com espuma rígida de PU eleva a carga de pico de tubos compósitos de bambu em parte das configurações, com ruptura mais frágil ([Wei et al. 2022](wei-et-al-2022-tubos-bambu-espuma-pu.md)) — estudo com lâminas e epóxi, não com colmos naturais nem espuma vegetal.
 - ⚠ **Evidência insuficiente para conformidade** — as classificações normativas dos painéis (NBR 14810) são leituras dos autores das condições ensaiadas; em [Carvalho (2023)](carvalho-2023-paineis-casca-mamona-pu.md), apenas adesão interna e inchamento atenderam aos requisitos considerados.
@@ -28,7 +28,7 @@ Esta síntese organiza o conjunto documental da gaveta `pu-vegetal` em sete eixo
 
 ## Mapa de evidências (resumo)
 
-Contagem por tema sobre as 21 fichas da gaveta; fichas que dialogam com mais de um eixo foram alocadas no eixo principal de leitura deste documento.
+Contagem por tema sobre as 22 fichas da gaveta; fichas que dialogam com mais de um eixo foram alocadas no eixo principal de leitura deste documento.
 
 | Tema | Evidência | Nº de fichas |
 |---|---|---|
@@ -41,7 +41,7 @@ Contagem por tema sobre as 21 fichas da gaveta; fichas que dialogam com mais de 
 | PU + bambu (compósitos, preenchimento, tratamentos) | Moderada (bancada); insuficiente (transferência a colmos naturais) | 3 |
 | Acústica (painel de materiais vegetais) | Moderada (medição em amostras; sem sistema completo) | 1 |
 | Certificação e flamabilidade | Restrita à amostra isolada (V-2, LCP100267) | 1 |
-| **Total** |  | **21** |
+| **Total** |  | **22** |
 
 **Níveis de confiança (escala curatorial, inspirada no GRADE, sem adoção formal — decisão do curador):** *Confiança alta* — múltiplas fichas independentes e convergentes; *Confiança moderada* — evidência consistente, porém limitada em número, escopo ou natureza (bancada, exploração ou registro documental); *Confiança baixa* — poucas fontes ou fontes de natureza frágil; *Hipótese promissora* — desempenho expressivo em bancada aguardando validação em escala e norma; *Evidência insuficiente* — a gaveta não contém base documental para a afirmação (ex.: conformidade normativa integral de painéis, flamabilidade do componente bambu–PU, durabilidade externa de longo prazo).
 
@@ -70,9 +70,9 @@ A gaveta foi construída em três movimentos de curadoria, conforme o [índice d
 2. **Referência metodológica correlata** — [Kamaruddin et al. (2022)](kamaruddin-et-al-2022-tratamento-alcalino-capim-limao.md), artigo sobre tratamento alcalino de fibras de capim-limão em biocompósito de amido e cera, que não estuda poliuretano nem bambu e permanece na gaveta apenas como referência metodológica, sem prova de equivalência com formulações do Acervo.
 3. **Bibliografia complementar por eixo (PU-COMP, lote 2026-07-31)** — Silva (1996, histórico), Marinho et al. (2013), Costa (2022), Medeiros (2023) e Silva Neto (2026).
 
-A **contabilidade documental** é a seguinte (fichas, excluído o índice): 13 `ficha-cientifica`, 5 `ficha-academica`, 2 `ficha-tecnica-de-produto` e 1 `laudo-ou-certificado-de-ensaio`. Seguindo os limites documentais declarados no [índice](index.md): valores das fichas comerciais são declarações do fabricante enquanto não associados a laudo identificado; o certificado UL 94 refere-se exclusivamente à amostra LCP100267; resultados de teses e dissertações permanecem condicionados às formulações e escalas estudadas; os resultados de Leithold Neto são restritos às bioespumas Kehl® e às condições descritas no TCC; e o estudo de Wei et al. usa tubos laminados com epóxi e não valida colmos naturais ou espuma vegetal.
+A **contabilidade documental** é a seguinte (fichas, excluído o índice): 14 `ficha-cientifica`, 5 `ficha-academica`, 2 `ficha-tecnica-de-produto` e 1 `laudo-ou-certificado-de-ensaio`. Seguindo os limites documentais declarados no [índice](index.md): valores das fichas comerciais são declarações do fabricante enquanto não associados a laudo identificado; o certificado UL 94 refere-se exclusivamente à amostra LCP100267; resultados de teses e dissertações permanecem condicionados às formulações e escalas estudadas; os resultados de Leithold Neto são restritos às bioespumas Kehl® e às condições descritas no TCC; e o estudo de Wei et al. usa tubos laminados com epóxi e não valida colmos naturais ou espuma vegetal.
 
-A **distinção analítica** adotada é a mesma dos demais estados da arte do Acervo: uma ficha soma ao estado da arte enquanto argumento quando sustenta a citação com trecho do texto integral — condição atendida por todas as 21 fichas, já que todas tiveram fonte integral conferida. Ainda assim, a natureza da fonte condiciona o peso da afirmação: ensaios laboratoriais com replicação sustentam mais do que relatos exploratórios; fichas técnicas de produto sustentam apenas declarações do fabricante; laudos e certificados sustentam apenas o resultado da amostra ensaiada. **Evidência de bancada não equivale a certificação, e certificação de amostra não equivale a conformidade normativa de produto ou componente.**
+A **distinção analítica** adotada é a mesma dos demais estados da arte do Acervo: uma ficha soma ao estado da arte enquanto argumento quando sustenta a citação com trecho do texto integral — condição atendida por todas as 22 fichas, já que todas tiveram fonte integral conferida. Ainda assim, a natureza da fonte condiciona o peso da afirmação: ensaios laboratoriais com replicação sustentam mais do que relatos exploratórios; fichas técnicas de produto sustentam apenas declarações do fabricante; laudos e certificados sustentam apenas o resultado da amostra ensaiada. **Evidência de bancada não equivale a certificação, e certificação de amostra não equivale a conformidade normativa de produto ou componente.**
 
 ---
 
@@ -118,9 +118,83 @@ A [dissertação de Carvalho (2023)](carvalho-2023-paineis-casca-mamona-pu.md) (
 
 A [dissertação de Cazella (2022)](cazella-2022-paineis-pinus-pet-pu.md) (Unesp) avaliou a substituição parcial de partículas de Pinus por PET reciclado (0%, 30% e 50%) com adesivo PU de mamona (5% e 10%): a referência sem PET não obteve classificação pela NBR usada, sobretudo pelo inchamento em 24 h; as misturas com PET receberam classificações P2, P4 ou P6, e a mistura 50% Pinus / 50% PET / 10% adesivo teve o melhor conjunto, classificada como **P6** na comparação ABNT do trabalho, com MEV indicando melhor envolvimento das partículas nas misturas com 10% de adesivo. A [dissertação de Silva Neto (2026)](silvaneto-2026-paineis-pinus-pet-pu.md) (Unesp) investigou a influência da temperatura de prensagem (80 °C e 100 °C) em painéis de Pinus com 10% de PET e 25% de adesivo PUR de mamona, avaliados pela ABNT NBR 14810-2:2024, com revisão sistemática PRISMA 2020 (61 estudos): a elevação da temperatura reduziu o inchamento em espessura (24 h) de 21,43% para 17,61% e o teor de umidade de 6,92% para 5,36%, e aumentou a tensão máxima de 3,89 para 7,16 MPa e o módulo de elasticidade de 1.401 para 1.873 MPa. A ficha registra as limitações: uma única proporção de adesivo (25%) e PET (10%) e apenas duas temperaturas.
 
-### 3.3. Estado deste eixo
+> **Distinção PET × PU (não confundir):** nos painéis Pinus-PET, o **PET** (poli(tereftalato de etileno), polímero de base majoritariamente fóssil) é usado como **reforço de partículas de enchimento** aglutinado pela **matriz/resina PU de mamona**. Ele **não é "PU pet"**, não integra a química do poliuretano e não converte o sistema em "poliuretano em fabricação petroquímica": o PU usado é o de mamona, e o PET permanece um componente de enchimento de natureza distinta. As classificações P2–P6 obtidas nessas misturas (ver seção 3.4 e controvérsia 3 da seção 8) referem-se ao painel composto, não à matriz PU isolada.
+
+### 3.3. OSB de bambu com adesivo de PU de mamona (Barbirato et al. 2022)
+
+O [artigo de Barbirato et al. (2022)](barbirato-2022-osb-bambu-pu.md) (*Ciência Florestal*,
+v. 32, n. 1, p. 187-205, DOI 10.5902/1980509846908, licença **CC BY-NC 4.0**) de autoria de
+*Barbirato, G. H. A.; Gauss, C.; Lopes Junior, W. E.; Martins, R.; Fiorelli, J.* produziu painéis
+OSB de média densidade (~650 kg/m³) a partir de bambu *Dendrocalamus asper* aglomerado com resina
+poliuretana de óleo de mamona, em quatro teores de resina (8%, 10%, 12% e 15%), com 10 corpos de
+prova por condição. Para o teor de 12% (T3), o painel apresentou o melhor conjunto físico-mecânico
+do estudo: absorção de água (24 h) de 28,94%, inchamento em espessura (24 h) de 9,70%, resistência
+à flexão (MOR) longitudinal de 49,75 MPa, módulo de elasticidade (MOE) longitudinal de 8.393 MPa e
+resistência à tração interna (IB) de 1,38 MPa. Na comparação com a norma europeia EN 300 (2002),
+todos os tratamentos atenderam ao mínimo para OSB tipo 1, e os teores de 10%, 12% e 15% foram
+considerados pelos autores como atendendo a aplicações estruturais, com ótimo em 12%. A ficha
+registra uma **divergência interna declarada no próprio artigo** sobre o detalhamento da
+classificação por tratamento: a seção de resultados indica T3 e T4 como tipo 4, enquanto um trecho
+da discussão restringe os do tipo 4 a T2 e T3 — por isso este estado da arte reporta "tipo 1 como
+mínimo e teores de 10/12/15% como estruturais", sem afirmar "tipo 4" como fato universal. Registra
+também os limites de transferência: **resultados específicos da espécie (D. asper), do teor de
+resina, da densidade alvo e do método do artigo** — não autorizam generalização a outras espécies
+nem equivalência com produto estrutural validado em obra, e a categoria estrutural é classificação
+experimental por ensaio de laboratório (EN 300 2002), não certificação de produto.
+
+### 3.4. Estado deste eixo
 
 **Confiança moderada** (bancada); **evidência insuficiente para conformidade integral**. As fichas sustentam que o PU de mamona aglutina painéis de múltiplos resíduos (casca de mamona, eucalipto, couro, Pinus, PET) com leituras normativas parciais (P4, P6), e que o desempenho é função da formulação e do processo (teor de resina, pressão, temperatura, granulometria) — não propriedade universal do adesivo. O eixo **não sustenta** homologação de produto: nenhuma ficha atende a todos os critérios de uma edição normativa vigente com replicação estatística, e as classificações citadas são leituras dos autores das condições ensaiadas. Não há dados de durabilidade, envelhecimento ou escala industrial na gaveta.
+
+### 3.5. Condição transversal de comparabilidade: impermeabilização e absorção do PU vegetal
+
+Os resultados de impermeabilização e de adsorção/absorção de umidade obtidos nas fichas deste eixo
+(não só nos painéis, mas também nos revestimentos da seção 2.4 e nos compósitos das seções 4 e 5)
+**não podem ser tratados como propriedades universais do PU vegetal** nem comparados entre si como
+se fossem o mesmo parâmetro medido em condições idênticas. As diferenças observadas entre estudos
+podem decorrer das variáveis abaixo — e **não necessariamente de superioridade de uma formulação**
+sobre outra:
+
+- **Tipo de aplicação e substrato** — impermeabilização de laje, impregnação de concreto, painel
+  particulado, compósito de fibra ou bambu: cada subestrato responde de forma diferente ao mesmo
+  sistema de PU;
+- **Número e espessura das camadas** — camada única vs. múltiplas demãos; espessura do filme/colchão;
+- **Preparação da fibra e pH da superfície** — limpeza, secagem, granulometria, tratamento prévio e
+  pH do substrato alteram a adesão e a absorção;
+- **Ancoragem em base levemente alcalina (hipótese, não regra do bambu)** — a ancoragem pode ser
+  favorecida quando o substrato oferece uma base levemente alcalina, mas isso é **hipótese/condição
+  dependente da formulação, da preparação e do substrato**, e não uma regra geral do bambu;
+- **Método de aplicação** — **aplicação industrial por *airless* e corpos de prova pincelados/Hand
+  Lay-up são condições de aplicação distintas**, cuja comparação direta **não é válida sem controle**
+  de espessura, massa aplicada, viscosidade, pressão, tempo aberto e condições de cura; a espessura
+  real e o teor de vazios resultantes diferem entre os métodos;
+- **Proporção dos componentes e respeito ao pot life** — relação poliol/isocianato e janela de
+  aplicação afetam a reticulação e, portanto, a barreira de umidade;
+- **Umidade relativa e temperatura durante aplicação e cura** — condições ambiente alteram a
+  reação isocianato/água e a formação do filme;
+- **Tempo e condições de cura** — dias à temperatura ambiente vs. cura acelerada/controlada após
+  prensagem;
+- **Rugosidade, absorção e umidade inicial do substrato** (em especial do bambu) — maior rugosidade
+  e umidade inicial elevam a absorção e dificultam a ancoragem;
+- **Método específico de ensaio e unidade de comparação** — comparar apenas resultados medidos com
+  o **mesmo método e a mesma unidade**, separando dois grupos de desempenho:
+  - **absorção/impermeabilização**: ensaio de imersão (24 h/48 h/168 h), inchamento em espessura,
+    teor de umidade, permeabilidade;
+  - **desempenho acústico**: **NRC (coeficiente de absorção acústica) e ensaios de impedância / tubo
+    de impedância** — dimensão distinta, não comparável com os métodos de absorção de água.
+
+A leitura curatorial correta separa **três camadas** que este estado da arte mantém distintas:
+
+1. **Desempenho observado no corpo de prova** — o que o ensaio mediu naquela condição específica
+   (valor factual da ficha, com seu método e unidade);
+2. **Transferibilidade para aplicação industrial** — não demonstrada por nenhuma ficha da gaveta
+   (escala, *airless*, produção contínua e durabilidade em campo estão fora de bancada);
+3. **Hipótese de otimização ainda não validada** — sugestões de formulação, espessura e método que
+   os autores levantam como trabalhos futuros **não são** desempenho verificado.
+
+Regra do eixo: **nenhuma diferença entre valores de absorção/impermeabilização deve ser lida como
+ prova de superioridade de formulação** sem controle das variáveis acima; e nenhum valor de bancada
+ equivale a impermeabilidade/estanqueidade industrial demonstrada.
 
 ---
 
@@ -194,7 +268,39 @@ Como detalhado na seção 2.5, as fichas [IMPERVEG UG 132 A](ficha-tecnica-imper
 
 ### 7.3. Estado deste eixo
 
-**Evidência restrita à amostra ensaiada** (certificação); **declarações não comprovadas** (fichas de produto). O eixo sustenta apenas a frase: "a amostra LCP100267 recebeu classificação V-2 segundo o certificado LCP10-000227". Não sustenta conformidade normativa de produtos, flamabilidade de compósitos bambu–PU, nem qualquer alegação comercial não lastreada por laudo identificado.
+**Evidência restrita à amostra ensaiada** (certificação); **declarações não comprovadas** (fichas de produto). O eixo sustenta apenas a frase: "a amostra LCP100267 recebeu classificação V-2 segundo o certificado LCP10-000227". Não sustenta conformidade normativa de produtos, flamabilidade de compostos bambu–PU, nem qualquer alegação comercial não lastreada por laudo identificado.
+
+### 7.4. Sustentabilidade condicionada do PU de mamona
+
+A origem vegetal do poliol **não torna o sistema automaticamente mais sustentável**. Este estado da arte registra a **sustentabilidade como hipótese condicionada**, a ser avaliada pela cadeia completa, sem conclusão ambiental definitiva:
+
+- **Insumos e dependência industrial** — a formulação usa poliol de óleo de mamona e **pré-polímero/isocianato** (MDI ou equivalente). A afirmação de que o MDI não é fabricado no Brasil **precisa ser verificada por dados oficiais** (produção, comércio exterior, cadeia) antes de entrar como fato; neste EDA fica registrado provisoriamente: *"a dependência brasileira de MDI e de outros intermediários do PU deve ser verificada por dados oficiais de produção, comércio exterior e cadeia industrial"*;
+- **Periculosidade do isocianato** — a toxicológica ocupacional do isocianato **depende do composto, da concentração, da exposição e da forma de aplicação**; o perigo durante fabricação/aplicação **não equivale automaticamente ao risco do produto curado**; ventilação, EPIs, cura, armazenamento e descarte fazem parte da avaliação;
+- **VOCs e emissões** — não há, no corpus, medição controlada de compostos orgânicos voláteis em aplicação/cura comparável entre sistemas;
+- **Energia e transporte** — a síntese e a logística dos insumos (incluída a possível importação de intermediários) não são quantificadas;
+- **Lixiviação, resíduos e fim de vida** — a degradação documentada é exploratória (Leithold Neto 2015, 30 dias, sem mineralização completa); não há classificação de resíduos (ex.: Classe 1) nem balanço de ciclo de vida;
+- **Durabilidade e fim de vida** — sem ensaios de longa duração no eixo;
+- **ACV comparativa** — **inexistente no corpus atual**. Por isso, **não se pode afirmar** "menor dano ambiental ou toxicológico" em relação a vernizes voláteis, resinas minerais ou sistemas petroquímicos sem comparação controlada por unidade funcional.
+
+Redação curatorial adotada: *"O PU de mamona pode reduzir determinados impactos em comparação com sistemas convencionais em condições específicas, mas não há, no corpus atual, ACV comparativa suficiente para afirmar menor dano ambiental ou toxicológico de forma geral."* O eixo trata o PU vegetal como **potencial de transição** ou **hipótese de diversificação da matriz de insumos**, nunca como conclusão ambiental já comprovada.
+
+### 7.5. Implicações para políticas públicas e transição de matrizes
+
+A partir das lacunas acima, o EDA registra as seguintes frentes de política pública (como **agenda dirigida por lacunas**, não como recomendações embasadas em evidência de eficácia que o corpus não contém):
+
+- incentivo ao **cultivo sustentável da mamona**;
+- **pesquisa agronômica e cadeias de fornecimento nacionais** (poliol, pré-polímeros e intermediários);
+- desenvolvimento de **pré-polímeros e sistemas de menor risco ocupacional**;
+- **redução da dependência de intermediários importados** (MDI e demais isocianatos), mediante dados oficiais de produção e comércio exterior;
+- implantação de **laboratórios** para toxicidade, VOCs, lixiviação, durabilidade e ciclos de vida (ACV);
+- **critérios de compras públicas** ancorados em evidência e em laudos identificados;
+- apoio a **cooperativas e processamento local**;
+- **comparação sistemática** com vernizes, resinas minerais e sistemas petroquímicos;
+- **protocolos de segurança** para aplicação e descarte.
+
+Formulação curatorial de síntese: *"O PU de mamona constitui uma rota potencial para diversificar a matriz de insumos, mas sua sustentabilidade não decorre apenas da origem vegetal do poliol. É necessário avaliar a cadeia completa, incluindo isocianatos, energia, importações, exposição ocupacional, VOCs, durabilidade e fim de vida. A agenda pública deve apoiar a produção renovável sem antecipar a conclusão de que o sistema completo seja de menor impacto."*
+
+Nesta subseção, **estudos inconclusivos justificam novos ensaios, não conclusões negativas definitivas nem promoção automática da técnica.**
 
 ---
 
@@ -245,7 +351,7 @@ O conjunto documental sustenta três constatações fortes. **Primeira:** o PU d
 
 O conjunto também impõe três constatações honestas. A **flamabilidade do componente bambu–PU está bloqueada**: o único certificado da gaveta (UL 94 V, amostra LCP100267, 2010) é de amostra isolada e não se transfere. O **desempenho acústico da espuma expansiva é inferior ao das fibras** no relatório PIBITI, que permanece pesquisa acadêmica de terceiros com apoio técnico — atribuída ao relatório, não contada como validação autoral. E a **"sustentabilidade" do PU de mamona não é automática**: origem vegetal não implica desempenho superior nem biodegradabilidade demonstrada, e a rota de síntese documentada envolve insumos de restrição ambiental.
 
-No Acervo, o eixo permanece uma gaveta de **evidência atribuída a fontes acadêmicas, documentação técnica e um certificado de amostra** — sem corpus autoral dedicado, e sem seção própria de agenda autoral neste estado da arte. **Interpretação curatorial:** os próximos passos naturais da gaveta são (i) converter este estado da arte em Mapa de Evidências, Mapa de Lacunas e Agenda de Pesquisa; e (ii) priorizar a aquisição de fontes — ou a execução de ensaios próprios — nas frentes mais custosas: ensaio de fogo do componente bambu–PU, caracterização mecânica de compósitos bambu–PU e ensaios de longa duração em uso externo.
+No Acervo, o eixo permanece uma gaveta de **evidência atribuída a fontes acadêmicas, documentação técnica e um certificado de amostra** — sem corpus autoral dedicado, e sem seção própria de agenda autoral neste estado da arte. **Interpretação curatorial:** os próximos passos naturais da gaveta são (i) converter este estado da arte em Mapa de Evidências, Mapa de Lacunas e Agenda de Pesquisa; (ii) priorizar a aquisição de fontes — ou a execução de ensaios próprios — nas frentes mais custosas: ensaio de fogo do componente bambu–PU, caracterização mecânica de compósitos bambu–PU, ensaios de longa duração em uso externo, e **ACV comparativa e avaliação toxicológica** (ver seção 7.4); e (iii) apoiar a **agenda de políticas públicas** da seção 7.5 — cultivo sustentável da mamona, pesquisa e processamento nacionais (poliol/pré-polímeros), redução da dependência de intermediários importados, laboratórios de toxicidade/VOCs/ACV/durabilidade, protocolos de aplicação segura e apoio a cadeias cooperativas e produção local. Em todas essas frentes, **estudos inconclusivos justificam novos ensaios, não conclusões negativas definitivas nem promoção automática da técnica**.
 
 ---
 
@@ -253,6 +359,7 @@ No Acervo, o eixo permanece uma gaveta de **evidência atribuída a fontes acad�
 
 As fichas citadas neste estado da arte são documentos do próprio Acervo, localizados na mesma gaveta:
 
+- [Barbirato et al. (2022) — OSB de bambu D. asper com resina PU de mamona](barbirato-2022-osb-bambu-pu.md)
 - [Carvalho (2023) — painéis de casca de mamona e PU](carvalho-2023-paineis-casca-mamona-pu.md)
 - [Cazella (2022) — painéis de Pinus e PET com PU](cazella-2022-paineis-pinus-pet-pu.md)
 - [Certificado LCP10-000227 — flamabilidade UL 94 V (2010)](certificado-ul94-imperveg-2010.md)
