@@ -392,6 +392,28 @@ As duas cartas-patente da gaveta são fontes tecnológicas primárias, fora da c
 
 **Confiança moderada** (registro documental); estimativas de mercado não auditadas por estudos independentes. As fichas sustentam que o Brasil tem marco legal (PNMCB, Lei nº 12.484/2011), normas ABNT em vigor para estruturas de bambu (NBR 16828:2020; NBR 17043:2023) e rede institucional ativa (Rede Brasileira do Bambu, INBAR), mas que a cadeia enfrenta **barreiras estruturais**: ausência de plantações comerciais, rendimento baixo de beneficiamento (~30%), adesivos importados, falta de norma específica para o BaLC, PNMCB não regulamentada (Martins 2021; Louredo 2025; Lima 2019) e lacuna de normas para materiais engenheirados como o CLB (Alves 2025). As estimativas de oferta e valor de mercado (Louredo 2025) são da fonte, de caráter exploratório, e **não foram auditadas por estudos independentes** na gaveta.
 
+### 8.5. Políticas públicas e soberania tecnológica
+
+O acervo sustenta uma **agenda de políticas**, não uma política pronta. A Lei nº 12.484/2011, as normas brasileiras citadas pelas fichas e os registros da cadeia produtiva mostram que já existem marcos e iniciativas, mas não demonstram, por si só, uma cadeia nacional integrada de produção, preservação, ensaio, projeto, execução, manutenção e destinação final do bambu estrutural. Uma política responsável deveria articular pesquisa com espécies brasileiras, formação profissional, laboratórios, rastreabilidade de colmos, compras públicas experimentais, assistência técnica e monitoramento pós-ocupação.
+
+O apoio público ao cultivo e ao beneficiamento deve ser condicionado a manejo, diversidade genética, direitos territoriais, segurança ocupacional, tratamento e destinação de resíduos. A adoção de normas estrangeiras pode orientar perguntas e métodos comparáveis, mas não substitui validação brasileira nem deve produzir dependência tecnológica automática. A agenda de cooperativas, unidades semi-industriais e cadeias locais permanece **hipótese de organização produtiva** a ser avaliada por estudos econômicos, ambientais e sociais próprios.
+
+### 8.6. Sustentabilidade material, ambiental e de ciclo de vida
+
+O bambu **não é automaticamente sustentável**. A ACV de Araujo et al. (2025), no sistema artesanal estudado, aponta impacto relevante associado a efluentes borados, lixiviação e resíduos contaminados; esses resultados são do **modelo e da unidade analisados**, não uma taxa universal para todo tratamento. O EDA deve considerar, em qualquer comparação, origem e toxicidade dos preservantes, lixiviação, aparas e resíduos potencialmente Classe 1, consumo de água, energia e combustível, transporte, VOCs quando houver formulações aplicáveis, durabilidade, manutenção e fim de vida.
+
+Tratamentos térmicos, pirolenhoso, vapor, alcalinização e outras rotas aparecem como **caminhos de pesquisa**, não como alternativas já comprovadamente superiores. A comparação só será válida com espécie, teor de umidade, método de aplicação, concentração, tempo/temperatura, desempenho, toxicidade e ACV definidos de forma comparável. Sem esse conjunto, não se pode afirmar menor pegada de carbono, menor toxicidade ou superioridade ambiental.
+
+### 8.7. Evidência, hipótese e agenda
+
+| Camada | O que o acervo permite dizer |
+|---|---|
+| **Evidência** | Há dados de cadeia, tratamentos, ensaios, normas e uma ACV localizada, cada qual restrito ao seu método e contexto. |
+| **Hipótese** | Rotas de menor impacto, manejo nacional, tratamento térmico/vapor e cadeias cooperativas podem reduzir passivos, mas ainda exigem comparação controlada. |
+| **Agenda** | Ensaios de lixiviação e toxicidade; ACV comparativa; inventário de energia/transporte; protocolos de resíduos; durabilidade; espécies brasileiras; custos e governança de cadeias locais. |
+
+Nenhuma dessas agendas equivale a certificação, segurança estrutural, TRL ou política pública validada.
+
 ---
 
 ## Convergências do conjunto documental
