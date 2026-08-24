@@ -185,6 +185,10 @@ de merge.
 > com a transição às evidências técnicas (§2–§8). Ficam posicionados entre a
 > Abertura editorial e o §2 técnico, mantidos intactos.
 
+### Nota curatorial de registro (2026-08-01)
+
+> **Nota curatorial de registro (2026-08-01):** as divergências de registro apontadas em versões anteriores deste documento foram resolvidas — fichas fabricadas foram removidas da gaveta (Silva 2011 "conservação"; Wang 2020 com DOI inexistente) e a duplicata de ACV foi reconciliada (Araujo 2025), com o material preservado em backup privado. A gaveta opera, desde então, com uma única ficha por obra; ver log de correção (arquivo privado).
+
 ## Mapa de evidências (resumo)
 
 Contagem por tema sobre as 51 fichas da gaveta; fichas que dialogam com mais de um eixo foram alocadas no eixo principal de leitura deste documento.
