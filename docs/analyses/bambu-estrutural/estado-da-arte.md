@@ -12,6 +12,8 @@ gaveta: bambu-estrutural
 
 *Síntese Curatorial Baseada em Evidências*
 
+🌐 Idiomas: **PT** · [EN](estado-da-arte-en.md) · [ES](estado-da-arte-es.md)
+
 ### Parte 1 — Resumo executivo
 
 O eixo **bambu-estrutural** reúne a evidência documental disponível sobre o uso
