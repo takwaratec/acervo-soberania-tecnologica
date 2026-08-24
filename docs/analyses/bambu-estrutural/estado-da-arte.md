@@ -1,9 +1,9 @@
 ---
 tipo_documental: estado-da-arte
 estado_documental: em-revisao-documental
-fonte_primaria: fichas do eixo com fonte integral conferida (53 fichas)
+fonte_primaria: fichas do eixo com fonte integral conferida (54 fichas — 53 contabilizadas + Pereira 2012)
 titulo: "Estado da Arte — Bambu Estrutural"
-data_revisao: 2026-08-10
+data_revisao: 2026-08-21
 responsavel_curadoria: Fabio Takwara
 ---
 
@@ -11,19 +11,183 @@ responsavel_curadoria: Fabio Takwara
 
 *Síntese Curatorial Baseada em Evidências*
 
-## Síntese
+### Parte 1 — Resumo executivo
 
-Esta síntese organiza o conjunto documental da gaveta `bambu-estrutural` em sete eixos temáticos, cobrindo o recorte 1990–2025 (com um documento histórico de 1990 digitalizado em 2026). O fundo é composto por **53 fichas e documentos com fonte integral conferida** (29 fichas científicas, 14 fichas acadêmicas, 4 documentos institucionais, 2 periódicos institucionais, 2 documentos de patente, 1 norma estrangeira e 1 material didático), todas em estado `em-revisao-documental` — além de 3 estados da arte complementares (agenda de pesquisa, mapa de evidências, mapa de lacunas), 3 documentos de natureza `visao-autoral` e instrumentos de pesquisa (5) referenciados separadamente e excluídos da contagem. O recorte cobre propriedades do material, tratamento térmico e preservação, transformação industrial (densificação, laminados, painéis e CLB), compósitos e materiais derivados, estruturas e sistemas construtivos, pragas e durabilidade, fitorremediação, e a frente normativa, patentária e de mercado no Brasil. A escrita segue a regra do Acervo: **não fabricar dados** — todo número, autor e ano citado provém de uma ficha; interpretações curatoriais são marcadas como tais. Onde as fichas registram resultados divergentes, o texto os declara, em vez de ocultá-los.
+O eixo **bambu-estrutural** reúne a evidência documental disponível sobre o uso
+estrutural do bambu, organizada em sete eixos temáticos que cobrem o recorte
+1990–2025 (com um documento histórico de 1990 digitalizado em 2026). A questão
+central é dupla: (a) até que ponto as propriedades e o desempenho do bambu
+sustentam o uso como material estrutural; e (b) quais lacunas de evidência,
+normalização e validação precisam ser resolvidas antes que o material possa
+reivindicar conformidade ou segurança de engenharia plena.
 
-## Resumo Executivo
+**Corpus científico.** O corpus do eixo é composto por **54 fichas e documentos
+com fonte integral conferida** — 53 já contabilizadas, acrescidas da ficha
+**Pereira 2012** (promovida em 2026-08-19). As demais cinco fichas da promoção P0
+de 2026-08-19 (BLaC/Reghin, D. minutus/Silveira, pirolenhoso/Silva 2011, bambus
+nativos/Lima, NSR-10) já pertenciam ao corpus e foram apenas promovidas/revisadas.
+Estado documental das 54: **49 em `em-revisao-documental` e 5 em
+`homologado-documentalmente`** (as cinco fichas P0 promovidas). **Documentos
+complementares** (não contados como corpus): 3 de `visao-autoral`, instrumentos de
+pesquisa (5) e, por regra documental, patentes, normas, revistas, circulares e
+palestras.
 
-- ✓ **Forte evidência** — o tratamento térmico melhora estabilidade dimensional e durabilidade, com janela operacional: acima de certa severidade as propriedades mecânicas caem (Costa 2015; Wang et al. 2020; Oliveira et al. 2025; Shangguan et al. 2016 — convergência de fichas independentes).
-- ✓ **Forte evidência** — densificação e laminados atingem desempenho mecânico expressivo em bancada (Sá 2022; Tarverdi 2024; Rusch et al. 2019; Reghin Filho 2018).
-- ⚠ **Evidência moderada** — CLB e bambu engenheirado são promissores, com lacunas de padronização e normas (Alves 2025).
-- ⚠ **Evidência moderada** — estruturas e conexões em bambu (Bussinger 2024; Hong et al. 2019).
-- ⚠ **Evidência insuficiente para conformidade** — pirolenhoso como preservante (Silva 2011 inconclusivo; Laroque 2022 reprovou; Matsuoka & Beraldo 2014 inconclusivo).
-- ✗ **Sem evidência** — sustentabilidade automática do bambu: na ACV de Araujo et al. (2025), os efluentes borados dominam o impacto do processamento.
-- ✗ **Sem evidência** — eficácia de campo de longo prazo de qualquer tratamento (a gaveta só contém ensaios de laboratório ou de curta duração).
+Em síntese, a **síntese curatorial do conjunto** converge — nas condições
+estudadas pelas fontes — para: (i) **tratamento térmico** melhora estabilidade
+dimensional e retarda o ataque biológico dentro de uma janela operacional, além da
+qual as propriedades mecânicas caem (o conjunto converge nos ensaios registrados;
+ver §9 para divergências de severidade-limite); (ii) **densificação e laminados**
+atingem desempenho mecânico expressivo em bancada (o conjunto documental sustenta;
+aguardando escala); (iii) **CLB e bambu engenheirado** são promissores, mas carecem
+de padronização e normas (as fontes apontam essas lacunas); (iv) **estruturas e
+conexões** mostram prática acumulada, porém validação em escala real ainda
+insuficiente; (v) **pirolenhoso como preservante** tem evidência insuficiente para
+conformidade (Silva 2011 inconclusivo; Laroque 2022 reprovou; Matsuoka & Beraldo
+2014 inconclusivo).
+
+Dois achados negativos são centrais: **não há evidência de sustentabilidade
+automática** do bambu (a ACV de Araujo et al. 2025 mostra os efluentes borados
+dominando o impacto do processamento) e **não há evidência de eficácia de campo de
+longo prazo** de nenhum tratamento (o eixo contém apenas ensaios de laboratório ou
+de curta duração).
+
+### Parte 2 — Por que o tema importa
+
+O bambu aparece, em boa parte dos debates, como material "sustentável" e como
+candidato estrutural para habitação e infraestrutura. Este eixo parte de uma
+pergunta mais exigente: **o que a evidência documental realmente permite afirmar
+sobre o uso estrutural do bambu?** A relevância é prática — materiais naturais
+renováveis estão na agenda de habitação popular e de bioeconomia —, mas a decisão
+de engenharia exige dados, contexto e limites, não apenas o atributo "verde".
+
+O eixo conversa, no Acervo, com a agenda autoral (cadernos de revisão ecológica,
+matriz de viabilidade) e com as frentes de normalização e ensaio. Toda a síntese
+segue a regra do Acervo: **não fabricar dados** — todo número, autor e ano citado
+provém de uma ficha; interpretações curatoriais são marcadas como tais. Onde as
+fichas registram resultados divergentes, o texto os declara, em vez de ocultá-los.
+
+### Parte 3 — O que o acervo reúne
+
+**Corpus e exemplos complementares.** O eixo reúne **54 fichas e documentos com
+fonte integral conferida** (53 contabilizadas + Pereira 2012, promovida em
+2026-08-19; 49 em-revisao + 5 homologado). Além do corpus, existem 3 documentos de
+`visao-autoral`, instrumentos de pesquisa (5) e complementos documentais (patentes,
+normas, revistas, circulares, palestras) — referenciados separadamente e excluídos
+da contagem científica. Todas as fichas do corpus tiveram fonte integral conferida.
+
+**Escopo e recorte.** O recorte cobre 1990–2025, em sete eixos: propriedades do
+material e tratamento; transformação industrial (densificação, laminados, CLB e
+painéis); compósitos e materiais derivados (bioconcreto, cinzas, polpa, resíduos);
+estruturas e sistemas construtivos; pragas, durabilidade e proteção;
+fitorremediação; e a frente normativa, patentária e de mercado no Brasil.
+
+**Limites de contagem (separação explícita).**
+- **54** = corpus científico (fichas com fonte integral conferida, inclusive Pereira 2012).
+- **51** = contagem do **Mapa de Evidências por tema**, distinta do corpus literal.
+- **27** = composição da contabilidade documental do §1 de recorte (número de
+  `ficha-cientifica` da tipologia), com ressalva pré-existente de que a sinópse
+  também declara "29".
+- As inconsistências **53 vs 51** e **29 vs 27** permanecem como **pendência
+  curatorial dedicada** (ver fim do documento), não resolvidas incidentalmente.
+
+**Distinção analítica (preservada).** Uma ficha soma ao estado da arte enquanto
+argumento quando sustenta a citação com trecho do texto integral — condição
+atendida por todas as fichas do corpus. A natureza da fonte condiciona o peso da
+afirmação: ensaios normatizados com replicação sustentam mais do que relatos
+exploratórios; documentos institucionais e patentes sustentam existência de
+processo ou proteção, não desempenho validado. Patentes, normas, revistas,
+circulares e palestras não entram na contagem científica.
+
+### Parte 4 — Principais convergências e diferenças
+
+**Síntese curatorial do conjunto** (não validação estatística), nas condições
+documentadas pelas fontes:
+
+- **Janela térmica.** As fontes convergem em que o tratamento térmico melhora
+  estabilidade dimensional e retarda o ataque biológico numa janela operacional,
+  e em que há um limite de severidade além do qual o material degrada (ex.: 180 °C/
+  4 h em estufa em Costa 2015; 180 °C/30 min em vapor em Wang et al. 2020; >170 °C
+  no *bamboo scrimber* em Shangguan et al. 2016 — divergências de severidade
+  declaradas na seção 9).
+- **Desempenho mecânico do bambu transformado.** Em bancada, densificação e
+  laminados atingem resistências à flexão muito superiores às do colmo natural
+  (D. asper densificado com casca: MOR ~312 MPa, MOE 31,44 GPa, Sá 2022; painel
+  achatado-densificado P IN-IN: MOR 239,24 MPa, MOE 25.032 MPa, Tarverdi 2024),
+  com orientação das lâminas e manutenção da casca como condicionantes (Rusch et
+  al. 2019; Reghin Filho 2018).
+- **Durabilidade como sistema.** Em obra, a durabilidade depende do projeto —
+  controle de umidade, redundância estrutural, inspeção e manutenção — tanto
+  quanto do tratamento (Bussinger 2024; Afonso 2025; Gutiérrez-González e Takeuchi-
+  Tam 2014).
+- **Norma brasileira como barreira.** A falta de normas específicas para materiais
+  engenheirados e a regulamentação pendente do PNMCB aparecem como entraves em
+  fichas independentes (Marçal 2018; Martins 2021; Alves 2025; CONTECC 2025 nativas).
+- **Impacto ambiental do processamento químico.** A "sustentabilidade" não é
+  automática: o tratamento químico gera passivos (efluentes borados, lixiviação)
+  que podem dominar o impacto do ciclo de vida (Araujo et al. 2025; Gauss 2020).
+- **Pirolenhoso sem conformidade.** Nenhuma ficha demonstra eficácia normativa do
+  pirolenhoso: inconclusivo em bambu (Silva 2011), inconclusivo em solo (Matsuoka &
+  Beraldo 2014), reprovado pelo critério normativo aplicado em pinus (Laroque 2022)
+  — a Circular Embrapa 65 (2007) registra que não demonstra segurança ou eficácia.
+
+As **diferenças/controvérsias** são declaradas, não ocultadas (detalhadas na seção
+9, preservada): severidade-limite da janela térmica; pirolenhoso demonstrado vs
+inconclusivo; "bambu sustentável" vs passivos do processamento; evidência de
+bancada vs escala industrial.
+
+### Parte 5 — Evidências técnicas (transição)
+
+As seções que seguem apresentam os dados, métodos e desempenho de cada eixo —
+propriedades do material, tratamento térmico e preservação (**§2**), transformação
+industrial — densificação, laminados, CLB e painéis (**§3**), compósitos e
+materiais derivados (**§4**), estruturas e sistemas construtivos (**§5**), pragas,
+durabilidade e proteção (**§6**), fitorremediação (**§7**), e a frente normativa,
+patentária, de mercado e industrialização (**§8**). Cada número é atribuído à
+ficha de origem e o nível de confiança de cada eixo é explicitado como **síntese
+curatorial do conjunto** (escala GRADE inspirada, sem adoção formal — decisão do
+curador), não como validação estatística. Estas seções técnicas mantêm o rigor
+integral do documento e não são alteradas por esta reescrita.
+
+### Parte 6 — Lacunas, riscos e próximos passos
+
+O conjunto documental (ver §9 e §10 preservados) registra lacunas prioritárias:
+1. Ensaios de campo de longa duração (intemperismo, fungos, insetos) para
+   tratamentos térmicos e pirolenhoso — o eixo só contém ensaios de laboratório ou
+   de curta duração.
+2. Normas brasileiras específicas para BaLC, bambu densificado e CLB;
+   regulamentação do PNMCB (Martins 2021; Alves 2025).
+3. Dados de durabilidade e padronização do CLB (lacuna declarada em Alves 2025).
+4. Caracterização mecânica própria de espécies nativas amazônicas — hoje por
+   analogia com G. angustifolia e D. giganteus (CONTECC 2025).
+5. ACV de rotas alternativas de tratamento (Boucherie, pirolenhoso, térmico) — a
+   própria ACV de Araujo et al. (2025) declara não tê-las avaliado.
+6. Validação estrutural em escala real — sísmica (Puma Alvarez 2014, escala 1:20),
+   protensão (patente UFMG), reticuladas (Ruggiero 2021, simulação).
+7. Auditoria independente das estimativas de mercado (Louredo 2025).
+
+**Riscos e gates.** Nenhum número sustenta alegação universal; nada aqui valida
+segurança de engenharia plena, conformidade normativa do pirolenhoso, eficácia de
+campo de longo prazo ou certificação de patentes. Estados documentais permanecem
+`em-revisao-documental` ou `homologado-documentalmente` (conforme o arquivo). A
+atualização dos estados da arte e a promoção de fichas exigem portão dedicado,
+revisão humana e, quando aplicável, PR isolado com CI/build strict e autorização
+de merge.
+
+---
+
+### Nota editorial — instrumentos preservados
+
+> As duas seções seguintes — **Mapa de evidências (resumo)** e **Linha do tempo
+> (1990–2025)** — são instrumentos do EDA **preservados integralmente**. Eles
+> fornecem rastreabilidade histórica e uma contagem temática independente (total
+> **51** no Mapa de Evidências). **Não são o corpus científico** (54 fichas com
+> fonte integral conferida); constituem instrumentos que dialogam com a Parte 4 e
+> com a transição às evidências técnicas (§2–§8). Ficam posicionados entre a
+> Abertura editorial e o §2 técnico, mantidos intactos.
+
+### Nota curatorial de registro (2026-08-01)
+
+> **Nota curatorial de registro (2026-08-01):** as divergências de registro apontadas em versões anteriores deste documento foram resolvidas — fichas fabricadas foram removidas da gaveta (Silva 2011 "conservação"; Wang 2020 com DOI inexistente) e a duplicata de ACV foi reconciliada (Araujo 2025), com o material preservado em backup privado. A gaveta opera, desde então, com uma única ficha por obra; ver log de correção (arquivo privado).
 
 ## Mapa de evidências (resumo)
 
@@ -44,7 +208,6 @@ Contagem por tema sobre as 51 fichas da gaveta; fichas que dialogam com mais de 
 | **Total** |  | **51** |
 
 **Níveis de confiança (escala curatorial, inspirada no GRADE, sem adoção formal — decisão do curador):** *Confiança alta* — múltiplas fichas independentes e convergentes; *Confiança moderada* — evidência consistente, porém limitada em número, escopo ou natureza (bancada, exploração ou registro documental); *Confiança baixa* — poucas fontes ou fontes de natureza frágil; *Hipótese promissora* — desempenho expressivo em bancada aguardando validação em escala e norma; *Evidência insuficiente* — a gaveta não contém base documental para a afirmação (ex.: conformidade normativa do pirolenhoso, eficácia de campo de longo prazo, sustentabilidade automática).
-
 ## Linha do tempo (1990–2025)
 
 - **1990** — [Cordero (EESC-USP)](cordero-1990-casa-paineis-bambu-argamassa.md): painéis de bambu-argamassa — antecedente histórico do eixo.
@@ -64,25 +227,6 @@ Contagem por tema sobre as 51 fichas da gaveta; fichas que dialogam com mais de 
 - **2023** — [BJB](bjb-2023-coleobrocas-bambusa-amazonia-meridional.md): coleobrocas na Amazônia Meridional; [BJB](bjb-2023-antimicrobiano-guadua-amazonia.md): potencial antimicrobiano de *Guadua* nativa; [Pandoli et al.](pandoli-ghavami-sa-2023-microrreator-bambu.md): patente do microrreator capilar (concessão); [Santos](santos-2023-polpa-celulosica-bambu.md): polpa celulósica; [Adier et al.](adier-2023-propriedades-tratamento-bambu.md): revisão de propriedades e tratamento; [Gauss](gauss-2023-tratamentos-bambu-palestra.md): palestra (material didático); [Stefanditya et al.](ficha-rocket-stove-cfd.md): fogão foguete avaliado por CFD.
 - **2024** — [Bussinger](bussinger-2024-bambu-sistemas-estruturais.md): sistemas estruturais paulistas; [Tarverdi](tarverdi-2024-paineis-bambu-achatado-colado.md): painéis achatado-densificados; [Hernández-Mena et al.](neotropical-bamboo-review-2024.md): revisão neotropical; [RMAT](rmat-2024-bioconcreto-particulas-bambu.md): bioconcreto; [Santos](santos-2024-poetica-narrativa-tectonica-bambu.md): tectônica; [Godoy Júnior](godoy-junior-2024-pretratamento-alcalino-densificacao.md): pré-tratamento alcalino e densificação.
 - **2025** — [Alves](alves-2025-bambu-engenheirado-clb.md): CLB; [Oliveira et al.](oliveira-2025-tratamentos-termicos-durabilidade.md): tratamentos térmicos e durabilidade; [Louredo et al.](louredo-2025-bambu-materia-prima-mercado-brasileiro.md): mercado; [CONTECC](contecc-2025-especies-nativas-amazonia-construcao.md): espécies nativas; [CONTECC](contecc-2025-patologias-quiosque-coco-rio-branco.md): patologias em obra; [INBAR](inbar-bru-v6n2-2025.md): periódico institucional; [Araujo et al.](ficha-acv-bambu-unesp-araujo2025.md): ACV.
-
----
-
-## 1. Recorte, metodologia e contabilidade de fontes
-
-A gaveta foi construída em três movimentos de curadoria, conforme o [índice do eixo](index.md):
-
-1. **Fichas clássicas do eixo** — tratamentos térmico e preservativo, laminados colados, painéis, normas internacionais, ácido pirolenhoso, controle de *Dinoderus minutus* e documentação institucional (Costa 2015; Rusch 2019; Reghin 2018; Marçal 2018; Lima 2019; fichas de vapor, PDMS, *scrimber*, ACV, umidade, conexões; patentes; NSR-10; Circular Embrapa 65; revistas; palestra de Gauss).
-2. **Bibliografia complementar por eixo (BAMBU-COMP)** — tese de Gauss (2020), tese de Ruggiero (2021), Cordero (1990, histórico) e Mendonça (2018).
-3. **Operação Bambu Brasil 2021–2026 (lote 2026-07-31)** — estruturas e materiais engenheirados, densificação, CLB, bioconcretos, polpa celulósica, durabilidade, espécies nativas da Amazônia, patologias, mercado e cadeia produtiva.
-
-A **contabilidade documental** é a seguinte (fichas, excluído o índice): 27 `ficha-cientifica`, 14 `ficha-academica`, 4 `documento-institucional` (Circular Embrapa 65, Louredo et al. 2025, duas fichas CONTECC 2025), 2 `periodico-institucional` (Revista Bambu/RBB e INBAR/Bamboo and Rattan Update), 2 `documento-de-patente` (UFMG e Faculdades Católicas), 1 `norma-ou-regulamento` (NSR-10, Título G) e 1 `material-didatico-institucional` (palestra de Gauss 2023). Seguindo os limites documentais declarados no [índice](index.md): patentes, normas, revistas, circulares e palestras **não entram na contagem científica**; simulação, ensaio laboratorial e relato de experiência são evidências de naturezas diferentes; e os estados `em-revisao-documental` não equivalem a validação experimental pelo Acervo.
-
-A **distinção analítica** adotada é a mesma dos demais estados da arte do Acervo: uma ficha soma ao estado da arte enquanto argumento quando sustenta a citação com trecho do texto integral — condição atendida por todas as 51 fichas, já que todas tiveram fonte integral conferida. Ainda assim, a natureza da fonte condiciona o peso da afirmação: ensaios normatizados com replicação sustentam mais do que relatos exploratórios; documentos institucionais e patentes sustentam existência de processo ou proteção, não desempenho validado.
-
-**Nota curatorial de registro (2026-08-01):** as divergências de registro apontadas em versões anteriores deste documento foram resolvidas — fichas fabricadas foram removidas da gaveta (Silva 2011 "conservação"; Wang 2020 com DOI inexistente) e a duplicata de ACV foi reconciliada (Araujo 2025), com o material preservado em backup privado. A gaveta opera, desde então, com uma única ficha por obra; ver log de correção (arquivo privado).
-
----
-
 ## 2. Material bambu: propriedades, tratamento térmico e preservação
 
 ### 2.1. Propriedades físicas e mecânicas do colmo
