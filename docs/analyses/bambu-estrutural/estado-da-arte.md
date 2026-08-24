@@ -21,16 +21,11 @@ sustentam o uso como material estrutural; e (b) quais lacunas de evidência,
 normalização e validação precisam ser resolvidas antes que o material possa
 reivindicar conformidade ou segurança de engenharia plena.
 
-**Corpus científico.** O corpus do eixo é composto por **54 fichas e documentos
-com fonte integral conferida** — 53 já contabilizadas, acrescidas da ficha
-**Pereira 2012** (promovida em 2026-08-19). As demais cinco fichas da promoção P0
-de 2026-08-19 (BLaC/Reghin, D. minutus/Silveira, pirolenhoso/Silva 2011, bambus
-nativos/Lima, NSR-10) já pertenciam ao corpus e foram apenas promovidas/revisadas.
-Estado documental das 54: **49 em `em-revisao-documental` e 5 em
-`homologado-documentalmente`** (as cinco fichas P0 promovidas). **Documentos
-complementares** (não contados como corpus): 3 de `visao-autoral`, instrumentos de
-pesquisa (5) e, por regra documental, patentes, normas, revistas, circulares e
-palestras.
+**Corpus científico.** O eixo reúne fichas e documentos com fonte integral conferida
+sobre propriedades do bambu, tratamentos, transformação industrial, compósitos,
+estruturas e durabilidade. Normas, documentos de mercado, materiais autorais,
+instrumentos de pesquisa, patentes, periódicos, circulares e materiais didáticos são
+tratados separadamente, conforme sua natureza e função documental.
 
 Em síntese, a **síntese curatorial do conjunto** converge — nas condições
 estudadas pelas fontes — para: (i) **tratamento térmico** melhora estabilidade
