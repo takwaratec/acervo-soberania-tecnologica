@@ -26,6 +26,12 @@ conferidos, e sem alegações genéricas de resistência.
 - [Construções vernáculas em terra: a taipa de mão — Cordeiro et al.
   (2019)](cordeiro-2019-taipa-de-mao.md)
 
+## Estado da arte
+
+- [Estado da Arte — Arquitetura Vernacular (PT)](estado-da-arte.md)
+- [Estado da Arte — Vernacular Architecture (EN)](estado-da-arte-en.md)
+- [Estado del Arte — Arquitectura Vernácula (ES)](estado-da-arte-es.md)
+
 ## Limites documentais
 
 - o conteúdo público limita-se ao resumo Nível 1 e à referência;
