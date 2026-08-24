@@ -41,9 +41,11 @@ responsavel_curadoria: Fabio Takwara
 > EN 300 (2002) para OSB tipo 1, e os teores de 10%, 12% e 15% foram considerados pelos autores
 > como atendendo a aplicações estruturais — com ótimo em 12% (T3): melhor conjunto físico-mecânico
 > (MOR longitudinal 49,75 MPa; MOE longitudinal 8.393 MPa; IB 1,38 MPa; WA 24 h 28,94%; TS 24 h
-> 9,70%). Material sem formaldeído, abrindo oportunidade para engenharia de bambu livre de resinas
-> fósseis tóxicas. O artigo apresenta **divergência interna** sobre o detalhamento da classificação
-> por tratamento (ver §6 e §7); este estado da arte reporta a forma conservadora.
+> 9,70%). A formulação estudada **não utilizou formaldeído como componente declarado do adesivo**. Isso
+> constitui uma característica da composição analisada, não uma demonstração de baixa toxicidade, menor
+> pegada de carbono ou adequação estrutural em escala real. O artigo apresenta **divergência interna**
+> sobre o detalhamento da classificação por tratamento (ver §6 e §7); este estado da arte reporta a
+> forma conservadora.
 
 # Ficha: Barbirato et al. (2022) — OSB de bambu D. asper com PU de mamona
 
@@ -145,7 +147,8 @@ menos resina para aglomeração.
 conservadoras: "todas as condições atingiram tipo 1; painéis com **10%, 12% e 15%** atendem a
 aplicações estruturais".
 - Por isso esta ficha reporta a forma conservadora: **tipo 1 como mínimo; teores 10/12/15% como
-estruturais na leitura dos autores**, sem afirmar "tipo 4" como fato universal do estudo.
+compatíveis com aplicações estruturais na leitura dos autores**, sem afirmar "tipo 4" como fato
+universal do estudo.
 
 **Tendência:** o aumento do teor de resina reduziu WA e TS e elevou/escalonou as propriedades
 mecânicas até um ótimo; T3 (12%) apresentou o melhor conjunto físico-mecânico.
@@ -171,11 +174,13 @@ sobre o detalhamento por tratamento (Resultados vs Discussão) — reportada com
 ## 8. Inserção no estado da arte
 
 Insere-se no eixo PU vegetal como evidência de que bambu *Dendrocalamus asper* + resina poliuretana
-de mamona produzem painéis OSB viáveis, com todos os tratamentos atendendo ao mínimo EN 300 tipo 1
-e teores de 10/12/15% considerados estruturais pelos autores. **Não é duplicata de Lopes 2020**
-(dissertação, OSB de resíduos de bambu, sem DOI); complementa-a com dado de artigo revisado/DOI e
-espécie dedicada. Resultados condicionados à espécie, teor, densidade e método — sem declarar TRL
-nem eficiência universal. Conexão TTR: **direta** (bambu + PU de mamona, painel OSB).
+de mamona produzem, **nas condições experimentais descritas, painéis OSB com resultados compatíveis
+com os critérios de comparação adotados pelos autores**, com todos os tratamentos atendendo ao
+mínimo EN 300 tipo 1 e teores de 10/12/15% considerados pelos autores como compatíveis com
+aplicações estruturais **segundo a comparação experimental realizada**. **Não é duplicata de Lopes
+2020** (dissertação, OSB de resíduos de bambu, sem DOI); complementa-a com dado de artigo
+revisado/DOI e espécie dedicada. Resultados condicionados à espécie, teor, densidade e método — sem
+declarar TRL nem eficiência universal. Conexão TTR: **direta** (bambu + PU de mamona, painel OSB).
 
 **Referência ABNT:** BARBIRATO, G. H. A.; GAUSS, C.; LOPES JUNIOR, W. E.; MARTINS, R.; FIORELLI, J.
 Optimization of castor oil polyurethane resin content of OSB panel made of *Dendrocalamus asper*
@@ -194,8 +199,6 @@ apenas o **footer genérico do periódico**, não a licença do artigo. Implica�
 reprodução/distribuição/síntese **não comercial** com atribuição; **uso comercial exige permissão
 adicional**. Compatível com a ficha do Acervo (síntese curatorial não comercial), devendo manter
 atribuição (Barbirato et al., *Ciência Florestal*, DOI) e declarar a licença.
-- **Proveniência:** descoberta via auditoria MQTF/P13 (SCI_027) como referência ausente; verificação
-externa 2026-08-24 confirmou DOI (Crossref/OpenAlex/Unpaywall, is_oa gold cc-by-nc), endpoint
-oficial e PDF integral 19 p.; non-duplicata de Lopes 2020. SHA-256 `8ce7fcd3...c64cdb3`.
-- **Estado:** ficha em `em-revisao-documental`; preparada em worktree isolado (2026-08-24);
-publicação/inclusão no EDA a ser decidida junto da confirmação final de direitos e contabilidade.
+- **Proveniência:** artigo técnico-científico publicado em *Ciência Florestal* (Universidade Federal
+  de Santa Maria), v. 32, n. 1, p. 187-205, 2022. DOI [10.5902/1980509846908](https://doi.org/10.5902/1980509846908);
+  na integral de 19 páginas conferida; licença **CC BY-NC 4.0**.
