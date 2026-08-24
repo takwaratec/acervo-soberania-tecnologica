@@ -118,6 +118,8 @@ A [dissertação de Carvalho (2023)](carvalho-2023-paineis-casca-mamona-pu.md) (
 
 A [dissertação de Cazella (2022)](cazella-2022-paineis-pinus-pet-pu.md) (Unesp) avaliou a substituição parcial de partículas de Pinus por PET reciclado (0%, 30% e 50%) com adesivo PU de mamona (5% e 10%): a referência sem PET não obteve classificação pela NBR usada, sobretudo pelo inchamento em 24 h; as misturas com PET receberam classificações P2, P4 ou P6, e a mistura 50% Pinus / 50% PET / 10% adesivo teve o melhor conjunto, classificada como **P6** na comparação ABNT do trabalho, com MEV indicando melhor envolvimento das partículas nas misturas com 10% de adesivo. A [dissertação de Silva Neto (2026)](silvaneto-2026-paineis-pinus-pet-pu.md) (Unesp) investigou a influência da temperatura de prensagem (80 °C e 100 °C) em painéis de Pinus com 10% de PET e 25% de adesivo PUR de mamona, avaliados pela ABNT NBR 14810-2:2024, com revisão sistemática PRISMA 2020 (61 estudos): a elevação da temperatura reduziu o inchamento em espessura (24 h) de 21,43% para 17,61% e o teor de umidade de 6,92% para 5,36%, e aumentou a tensão máxima de 3,89 para 7,16 MPa e o módulo de elasticidade de 1.401 para 1.873 MPa. A ficha registra as limitações: uma única proporção de adesivo (25%) e PET (10%) e apenas duas temperaturas.
 
+> **Distinção PET × PU (não confundir):** nos painéis Pinus-PET, o **PET** (poli(tereftalato de etileno), polímero de base majoritariamente fóssil) é usado como **reforço de partículas de enchimento** aglutinado pela **matriz/resina PU de mamona**. Ele **não é "PU pet"**, não integra a química do poliuretano e não converte o sistema em "poliuretano em fabricação petroquímica": o PU usado é o de mamona, e o PET permanece um componente de enchimento de natureza distinta. As classificações P2–P6 obtidas nessas misturas (ver seção 3.4 e controvérsia 3 da seção 8) referem-se ao painel composto, não à matriz PU isolada.
+
 ### 3.3. OSB de bambu com adesivo de PU de mamona (Barbirato et al. 2022)
 
 O [artigo de Barbirato et al. (2022)](barbirato-2022-osb-bambu-pu.md) (*Ciência Florestal*,
@@ -266,7 +268,39 @@ Como detalhado na seção 2.5, as fichas [IMPERVEG UG 132 A](ficha-tecnica-imper
 
 ### 7.3. Estado deste eixo
 
-**Evidência restrita à amostra ensaiada** (certificação); **declarações não comprovadas** (fichas de produto). O eixo sustenta apenas a frase: "a amostra LCP100267 recebeu classificação V-2 segundo o certificado LCP10-000227". Não sustenta conformidade normativa de produtos, flamabilidade de compósitos bambu–PU, nem qualquer alegação comercial não lastreada por laudo identificado.
+**Evidência restrita à amostra ensaiada** (certificação); **declarações não comprovadas** (fichas de produto). O eixo sustenta apenas a frase: "a amostra LCP100267 recebeu classificação V-2 segundo o certificado LCP10-000227". Não sustenta conformidade normativa de produtos, flamabilidade de compostos bambu–PU, nem qualquer alegação comercial não lastreada por laudo identificado.
+
+### 7.4. Sustentabilidade condicionada do PU de mamona
+
+A origem vegetal do poliol **não torna o sistema automaticamente mais sustentável**. Este estado da arte registra a **sustentabilidade como hipótese condicionada**, a ser avaliada pela cadeia completa, sem conclusão ambiental definitiva:
+
+- **Insumos e dependência industrial** — a formulação usa poliol de óleo de mamona e **pré-polímero/isocianato** (MDI ou equivalente). A afirmação de que o MDI não é fabricado no Brasil **precisa ser verificada por dados oficiais** (produção, comércio exterior, cadeia) antes de entrar como fato; neste EDA fica registrado provisoriamente: *"a dependência brasileira de MDI e de outros intermediários do PU deve ser verificada por dados oficiais de produção, comércio exterior e cadeia industrial"*;
+- **Periculosidade do isocianato** — a toxicológica ocupacional do isocianato **depende do composto, da concentração, da exposição e da forma de aplicação**; o perigo durante fabricação/aplicação **não equivale automaticamente ao risco do produto curado**; ventilação, EPIs, cura, armazenamento e descarte fazem parte da avaliação;
+- **VOCs e emissões** — não há, no corpus, medição controlada de compostos orgânicos voláteis em aplicação/cura comparável entre sistemas;
+- **Energia e transporte** — a síntese e a logística dos insumos (incluída a possível importação de intermediários) não são quantificadas;
+- **Lixiviação, resíduos e fim de vida** — a degradação documentada é exploratória (Leithold Neto 2015, 30 dias, sem mineralização completa); não há classificação de resíduos (ex.: Classe 1) nem balanço de ciclo de vida;
+- **Durabilidade e fim de vida** — sem ensaios de longa duração no eixo;
+- **ACV comparativa** — **inexistente no corpus atual**. Por isso, **não se pode afirmar** "menor dano ambiental ou toxicológico" em relação a vernizes voláteis, resinas minerais ou sistemas petroquímicos sem comparação controlada por unidade funcional.
+
+Redação curatorial adotada: *"O PU de mamona pode reduzir determinados impactos em comparação com sistemas convencionais em condições específicas, mas não há, no corpus atual, ACV comparativa suficiente para afirmar menor dano ambiental ou toxicológico de forma geral."* O eixo trata o PU vegetal como **potencial de transição** ou **hipótese de diversificação da matriz de insumos**, nunca como conclusão ambiental já comprovada.
+
+### 7.5. Implicações para políticas públicas e transição de matrizes
+
+A partir das lacunas acima, o EDA registra as seguintes frentes de política pública (como **agenda dirigida por lacunas**, não como recomendações embasadas em evidência de eficácia que o corpus não contém):
+
+- incentivo ao **cultivo sustentável da mamona**;
+- **pesquisa agronômica e cadeias de fornecimento nacionais** (poliol, pré-polímeros e intermediários);
+- desenvolvimento de **pré-polímeros e sistemas de menor risco ocupacional**;
+- **redução da dependência de intermediários importados** (MDI e demais isocianatos), mediante dados oficiais de produção e comércio exterior;
+- implantação de **laboratórios** para toxicidade, VOCs, lixiviação, durabilidade e ciclos de vida (ACV);
+- **critérios de compras públicas** ancorados em evidência e em laudos identificados;
+- apoio a **cooperativas e processamento local**;
+- **comparação sistemática** com vernizes, resinas minerais e sistemas petroquímicos;
+- **protocolos de segurança** para aplicação e descarte.
+
+Formulação curatorial de síntese: *"O PU de mamona constitui uma rota potencial para diversificar a matriz de insumos, mas sua sustentabilidade não decorre apenas da origem vegetal do poliol. É necessário avaliar a cadeia completa, incluindo isocianatos, energia, importações, exposição ocupacional, VOCs, durabilidade e fim de vida. A agenda pública deve apoiar a produção renovável sem antecipar a conclusão de que o sistema completo seja de menor impacto."*
+
+Nesta subseção, **estudos inconclusivos justificam novos ensaios, não conclusões negativas definitivas nem promoção automática da técnica.**
 
 ---
 
@@ -317,7 +351,7 @@ O conjunto documental sustenta três constatações fortes. **Primeira:** o PU d
 
 O conjunto também impõe três constatações honestas. A **flamabilidade do componente bambu–PU está bloqueada**: o único certificado da gaveta (UL 94 V, amostra LCP100267, 2010) é de amostra isolada e não se transfere. O **desempenho acústico da espuma expansiva é inferior ao das fibras** no relatório PIBITI, que permanece pesquisa acadêmica de terceiros com apoio técnico — atribuída ao relatório, não contada como validação autoral. E a **"sustentabilidade" do PU de mamona não é automática**: origem vegetal não implica desempenho superior nem biodegradabilidade demonstrada, e a rota de síntese documentada envolve insumos de restrição ambiental.
 
-No Acervo, o eixo permanece uma gaveta de **evidência atribuída a fontes acadêmicas, documentação técnica e um certificado de amostra** — sem corpus autoral dedicado, e sem seção própria de agenda autoral neste estado da arte. **Interpretação curatorial:** os próximos passos naturais da gaveta são (i) converter este estado da arte em Mapa de Evidências, Mapa de Lacunas e Agenda de Pesquisa; e (ii) priorizar a aquisição de fontes — ou a execução de ensaios próprios — nas frentes mais custosas: ensaio de fogo do componente bambu–PU, caracterização mecânica de compósitos bambu–PU e ensaios de longa duração em uso externo.
+No Acervo, o eixo permanece uma gaveta de **evidência atribuída a fontes acadêmicas, documentação técnica e um certificado de amostra** — sem corpus autoral dedicado, e sem seção própria de agenda autoral neste estado da arte. **Interpretação curatorial:** os próximos passos naturais da gaveta são (i) converter este estado da arte em Mapa de Evidências, Mapa de Lacunas e Agenda de Pesquisa; (ii) priorizar a aquisição de fontes — ou a execução de ensaios próprios — nas frentes mais custosas: ensaio de fogo do componente bambu–PU, caracterização mecânica de compósitos bambu–PU, ensaios de longa duração em uso externo, e **ACV comparativa e avaliação toxicológica** (ver seção 7.4); e (iii) apoiar a **agenda de políticas públicas** da seção 7.5 — cultivo sustentável da mamona, pesquisa e processamento nacionais (poliol/pré-polímeros), redução da dependência de intermediários importados, laboratórios de toxicidade/VOCs/ACV/durabilidade, protocolos de aplicação segura e apoio a cadeias cooperativas e produção local. Em todas essas frentes, **estudos inconclusivos justificam novos ensaios, não conclusões negativas definitivas nem promoção automática da técnica**.
 
 ---
 
