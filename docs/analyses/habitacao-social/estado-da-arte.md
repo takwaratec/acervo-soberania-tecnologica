@@ -14,6 +14,8 @@ fontes_registro: 0
 
 *Síntese Curatorial Baseada em Evidências*
 
+🌐 Idiomas: **PT** · [EN](estado-da-arte-en.md) · [ES](estado-da-arte-es.md)
+
 ## Síntese
 
 Esta síntese organiza o conjunto documental do eixo Habitação Social — gaveta agregadora construída a partir de fichas de três gavetas de origem: `avaliacao-pos-ocupacao`, `politica-habitacional` e `percecao-social`, todas com **fonte integral conferida** (artigos, teses, dissertações e TCC em PDF integral ou edição integral) e, portanto, capazes de sustentar afirmações. O recorte cobre **2009–2025** e privilegia fontes brasileiras sobre habitação de interesse social (HIS): política e provisão habitacional, ATHIS e assessoria técnica, reassentamentos e direito à moradia, qualidade construtiva e construtibilidade, avaliação pós-ocupação (APO), percepção social e valor, conforto ambiental, resiliência e adaptabilidade, saúde e pandemia, e instrumentos de diagnóstico territorial. A escrita segue a regra do Acervo: **não fabricar dados** — todo número, autor e ano citado provém de uma ficha; interpretações curatoriais são marcadas como tais. Onde as fichas registram divergências documentais (autoria, DOI, ano), o texto as declara, em vez de ocultá-las.
