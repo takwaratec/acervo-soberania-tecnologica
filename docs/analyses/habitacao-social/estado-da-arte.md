@@ -230,6 +230,52 @@ O conjunto também impõe duas constatações honestas. A eficácia da política
 
 **Interpretação curatorial:** os próximos passos naturais do eixo são (i) priorizar as lacunas L2 (monitoramento pós-ocupação) e L3 (correlação sistema construtivo × resiliência), as mais custosas; (ii) converter os protocolos metodológicos da gaveta (APO, MHV, AAI, aerolevantamento) em instrumentos reutilizáveis de avaliação de desempenho social; e (iii) resolver as divergências documentais registradas pelas fichas (autoria de Schäfer & Gomide, DOI/ano de Monteiro & Miron, autoria de Garrefa et al.) na próxima rodada de curadoria.
 
+### 9.1. Implicações para políticas públicas
+
+As evidências do eixo apontam, de forma **dirigida por lacunas e sem atribuir eficácia a políticas que o corpus não avaliou**, as seguintes frentes de política pública:
+
+- **Assistência técnica universalizada (ATHIS, Lei nº 11.888/2008)** — a convergência mais robusta é a inadequação entre tipologia seriada e modos de vida. A mediação técnica pode enfrentar os riscos patológicos das adaptações informais sem romantizá-las nem criminalizá-las ([Cardoso & Lopes 2022](../politica-habitacional/cardoso-2022-athis-assessoria-assistencia.md); interpretação curatorial da Controvérsia 1); porém, o eixo não contém estudo de caso de assessorias em funcionamento (lacuna L8 — avaliação empírica da implementação da ATHIS).
+- **Monitoramento pós-ocupação institucionalizado** — todos os APOs do eixo são acadêmicos ou indicativos (lacuna L2 — monitoramento pós-ocupação institucionalizado). Uma política que institucionalize o acompanhamento poderia retroalimentar projeto, produção, manutenção e adaptação; essa utilidade é uma **recomendação condicional**, não eficácia demonstrada por programa público no corpus ([Rangel et al. 2020](../avaliacao-pos-ocupacao/rangel-2020-metodo-avaliacao-areas-comuns-his.md); [Garrefa et al. 2021](../percecao-social/garrefa-2021-resiliencia-his-apo-coproducao.md)).
+- **Avaliação de política em escala nacional** — a única avaliação longitudinal é municipal, em Ponta Grossa/PR ([Ferreira 2023](../politica-habitacional/ferreira-2023-politica-his-ponta-grossa.md)); não há série nacional comparável (lacuna L1 — avaliação longitudinal da política habitacional em escala nacional). Portanto, o eixo não autoriza generalizar a ineficácia municipal para a política brasileira nem prescrever um modelo nacional de financiamento.
+- **Coprodução e participação social** — a ausência de políticas locais aparece como restrição à capacidade adaptativa, enquanto a coprodução com moradores é proposta como mediação ([Garrefa et al. 2021](../percecao-social/garrefa-2021-resiliencia-his-apo-coproducao.md)). Nos reassentamentos, participação, meios de vida e acompanhamento condicionam a moradia adequada ([Chaves, Monzoni & Artuso 2019](../politica-habitacional/chaves-2019-belo-monte-reassentamentos-rurais.md)); o corpus não mede a eficácia comparada de diferentes desenhos participativos.
+- **Compras e programas públicos experimentais** — critérios de construtibilidade, ampliabilidade, acessibilidade, manutenção e APO podem informar pilotos com monitoramento, mas os benchmarks disponíveis refletem a **prática corrente**, não padrões de excelência ([Abreu, Marchiori & Signor 2025](../avaliacao-pos-ocupacao/abreu-2025-benchmarking-construtibilidade-his.md)). Qualquer adoção deve manter gates de desempenho, custo, segurança, participação e avaliação pós-ocupação.
+
+**Nota curatorial:** essas são implicações dirigidas por lacunas e recomendações condicionais. Não constituem política pronta, certificação, orientação executiva universal nem evidência de eficácia nacional.
+
+### 9.2. Sustentabilidade material, social e ambiental
+
+- **Dimensão social — cobertura moderada:** o eixo documenta adequação aos modos de vida, resiliência, percepção de valor, conforto, vínculos territoriais e capacidade de adaptação. Essa é a dimensão de sustentabilidade mais bem coberta: a capacidade de a moradia sustentar a vida cotidiana ao longo do tempo, sem reduzir sustentabilidade social à entrega física da unidade.
+- **Dimensão material — cobertura parcial:** construtibilidade, manifestações patológicas, manutenção e ampliabilidade mostram que desempenho e durabilidade dependem do ciclo completo — projeto, produção, uso, reparo e adaptação ([Abreu, Marchiori & Signor 2025](../avaliacao-pos-ocupacao/abreu-2025-benchmarking-construtibilidade-his.md); [Rangel et al. 2020](../avaliacao-pos-ocupacao/rangel-2020-metodo-avaliacao-areas-comuns-his.md); [Otoni & Villa 2024](../avaliacao-pos-ocupacao/otoni-villa-2024-resiliencia-ampliabilidade.md)). O corpus não contém inventário material completo nem comparação entre sistemas por unidade funcional.
+- **Dimensão ambiental — cobertura insuficiente:** o eixo não contém ACV comparativa, carbono incorporado, consumo de energia e água, emissões de matérias-primas e transporte, VOCs, toxicidade, lixiviação, classificação de resíduos, manutenção ambientalmente contabilizada ou fim de vida das soluções construtivas de HIS.
+- **SbN ainda sem verificação de implementação:** as Soluções Baseadas na Natureza propostas para o Sol Nascente são resultado de diagnóstico territorial e não têm implementação nem monitoramento avaliados (lacuna L5 — implementação e monitoramento de SbN; [Pazos et al. 2025](../percecao-social/pazos-et-al-2025-aerolevantamento-sbn-sol-nascente.md)).
+- **Adaptações também podem criar passivos:** entulho, impermeabilização do solo e perda de ventilação ou privacidade aparecem como novas vulnerabilidades das adaptações informais ([Garrefa et al. 2021](../percecao-social/garrefa-2021-resiliencia-his-apo-coproducao.md)).
+- **Nenhuma sustentabilidade automática por origem do material:** nenhuma ficha do eixo demonstra que bambu, PU vegetal ou qualquer material renovável torne a HIS automaticamente sustentável. Alegações como “baixo carbono”, “verde”, “não tóxico” ou “mais sustentável” exigiriam ACV comparativa, durabilidade, manutenção, exposição ocupacional, transporte e fim de vida em condições equivalentes.
+
+**Limite curatorial:** o eixo permite discutir sustentabilidade social e alguns condicionantes materiais; não permite concluir superioridade ambiental de material ou sistema construtivo.
+
+### 9.3. Limites de transferência e separação entre evidência, hipótese e agenda
+
+As evidências referem-se a estudos localizados e não constituem leis universais:
+
+- **Recortes regionais e amostras limitadas:** Ponta Grossa/PR (uma série municipal), Shopping Park em Uberlândia/MG, Vargem Grande em Montes Claros/MG, Porto Novo em Porto Alegre/RS, Moradias União Ferroviária em Curitiba/PR, Sol Nascente no DF e EHIS de Porto Alegre apresentam contextos institucionais, territoriais e amostrais distintos (lacuna L6 — amostras pequenas e recortes regionais).
+- **Programas e tipologias específicas:** parte relevante do corpus aborda PMCMV, Habitar Brasil-BID e SNHIS. Generalizar resultados para outros programas, territórios ou produção informal não financiada exige nova leitura institucional e APO local.
+- **Instrumento de avaliação não equivale a política eficaz:** APO, MHV, AAI e aerolevantamento são métodos e instrumentos; sua existência não comprova eficácia de uma política, de uma solução construtiva ou da implementação de uma SbN.
+- **Benchmark não equivale a excelência:** os valores de construtibilidade refletem a amostra e a prática corrente de 2018; não são certificação, limite normativo ou padrão universal ([Abreu, Marchiori & Signor 2025](../avaliacao-pos-ocupacao/abreu-2025-benchmarking-construtibilidade-his.md)).
+- **Material, componente e edifício não são equivalentes:** nenhuma conclusão do eixo sobre desempenho social pode ser transferida automaticamente para um material, componente, protótipo ou sistema sem avaliação do edifício em uso, contexto territorial e manutenção.
+
+| Camada | O que o eixo permite dizer | Exemplos |
+|---|---|---|
+| **Evidência** | Achados atribuídos a fontes integrais e aos respectivos métodos e recortes | alterações frequentes nas unidades; 19% de ocupação por não beneficiários no caso estudado; limitações de ampliabilidade; benchmarks de construtibilidade como prática corrente |
+| **Hipótese** | Relações plausíveis ainda não demonstradas pelo corpus em desenho comparativo | ATHIS reduzir riscos das adaptações; SbN melhorar o ambiente após implementação; materiais renováveis reduzir impactos ambientais |
+| **Agenda** | Investigações, pilotos e dados necessários | monitoramento pós-ocupação; avaliação da implementação da ATHIS; ACV comparativa; custos de adaptação; correlação sistema construtivo × resiliência; monitoramento de SbN |
+
+### 9.4. Referências normativas, documentais, direitos e conexões entre eixos
+
+- **Naturezas documentais distintas:** a Lei nº 11.888/2008, as NBR 15575 e NBR 9050 citadas pelas fichas, artigos, teses, dissertações, TCCs, certificados e fichas de produto não são evidências equivalentes. Neste eixo, as normas aparecem mediadas pelas fichas e pelos métodos dos estudos; o EDA não reproduz seus textos integrais nem declara conformidade de empreendimento específico.
+- **Revisão de direitos:** nenhuma norma protegida ou fonte integral é redistribuída neste EDA. Links apontam para análises próprias do Acervo; direitos das obras analisadas permanecem com seus titulares. Qualquer ampliação normativa exige conferir versão, vigência, escopo, endpoint oficial e condição legítima de acesso.
+- **Conexões já documentadas:** as interfaces com o [Caderno 5 — Do componente ao habitar](../visao-do-autor/caderno-05-do-componente-ao-habitar.md) e com a ficha de [Pereira (2020) — painel acústico](../pu-vegetal/ficha-pibit-lucas-aciole-painel-acustico.md) são curatoriais e estão declaradas neste documento; não transformam corpus autoral em evidência científica.
+- **Conexões candidatas:** reforma agrária/agrofloresta, arquitetura vernacular, bioeconomia e CLPI são aproximações futuras de contexto ou agenda. Não há, no corpus atual, equivalência automática nem evidência de eficácia que autorize incorporar seus achados à HIS sem fonte e método próprios.
+
 ---
 
 ## Referências das fichas utilizadas
