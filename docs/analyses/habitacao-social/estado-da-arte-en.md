@@ -15,6 +15,8 @@ idioma: en
 
 *Evidence-Based Curatorial Synthesis*
 
+🌐 Languages: [PT](estado-da-arte.md) · **EN** · [ES](estado-da-arte-es.md)
+
 ## Synthesis
 
 This synthesis organizes the documentary set of the Social Housing axis — aggregate section constructed from records from three source sections: `avaliacao-pos-ocupacao`, `politica-habitacional` and `percecao-social`, all with **full source checked** (articles, theses, dissertations and TCC in full PDF or full edition) and, therefore, capable of supporting statements. The cutout covers **2009–2025** and privileges Brazilian sources on social housing (HIS): housing policy and provision, ATHIS and technical advice, resettlement and right to housing, constructive quality and constructability, post-occupancy assessment (APO), social perception and value, environmental comfort, resilience and adaptability, health and pandemic, and territorial diagnosis instruments. The writing follows the Archive rules: **do not fabricate data** — every number, author and year cited comes from a file; curatorial interpretations are marked as such. Where the records record documentary discrepancies (authorship, DOI, year), the text declares them, instead of hiding them.

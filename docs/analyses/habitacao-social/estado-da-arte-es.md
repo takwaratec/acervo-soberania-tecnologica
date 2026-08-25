@@ -15,6 +15,8 @@ idioma: es
 
 *Síntesis Curatorial Basada en Evidencias*
 
+🌐 Idiomas: [PT](estado-da-arte.md) · [EN](estado-da-arte-en.md) · **ES**
+
 ## Resumen
 
 Esta síntesis organiza el conjunto documental del eje Vivienda Social — sección agregadora construida a partir de fichas de tres secciones de origen: `avaliacao-pos-ocupacao`, `politica-habitacional` y `percecao-social`, todas con **fuente integral comprobada** (artículos, tesis, disertaciones y TCC en PDF integral o edición integral) y, por tanto, con capacidad de sustentar afirmaciones. El recorte cubre **2009–2025** y privilegia las fuentes brasileñas sobre vivienda de interés social (HIS): política y provisión de vivienda, ATHIS y asesoría técnica, reasentamiento y derecho a la vivienda, calidad constructiva y constructibilidad, evaluación post-ocupación (APO), percepción y valor social, confort ambiental, resiliencia y adaptabilidad, salud y pandemia, e instrumentos de diagnóstico territorial. La redacción sigue la regla del Acervo: **no fabricar datos** — cada número, autor y año citado proviene de una ficha; las interpretaciones curatoriales están marcadas como tales. Cuando las fichas registran discrepancias documentales (autoría, DOI, año), el texto las declara, en lugar de ocultarlas.
