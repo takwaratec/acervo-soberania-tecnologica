@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-08-03",
-  "repository": "/private/tmp/citacoes",
+  "generated_on": "2026-08-27",
+  "repository": "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica-pr-bambu-ago27",
   "definitions": {
     "public_markdown": "arquivo .md sob docs/ incluído no build público",
     "structured_1_to_8": "arquivo com os oito títulos numerados detectáveis",
@@ -8,52 +8,194 @@
     "analysis_document": "arquivo sob docs/analyses, sem presumir que seja ficha científica"
   },
   "counts": {
-    "public_markdown": 249,
-    "analysis_documents": 246,
-    "structured_1_to_8_all_docs": 178,
-    "structured_1_to_8_analysis": 177,
-    "identified_all_docs": 108,
-    "identified_analysis": 108
+    "public_markdown": 278,
+    "analysis_documents": 273,
+    "structured_1_to_8_all_docs": 189,
+    "structured_1_to_8_analysis": 188,
+    "identified_all_docs": 130,
+    "identified_analysis": 130
   },
   "by_group": {
-    "analyses": 246,
-    "raiz-docs": 3
+    "analyses": 273,
+    "raiz-docs": 5
   },
   "by_declared_status": {
     "curado": 10,
     "depositado-no-zenodo": 1,
     "edicao-publica-conformada": 16,
-    "em-revisao-documental": 206,
+    "em-revisao-documental": 224,
+    "homologado-documentalmente": 11,
     "publicado-no-acervo": 1,
     "publicado-no-zenodo": 15
   },
   "by_declared_type": {
     "documento-de-patente": 2,
-    "documento-institucional": 8,
+    "documento-institucional": 13,
     "ensaio-autoral": 1,
-    "estado-da-arte": 15,
+    "estado-da-arte": 22,
     "estado-da-arte-com-agenda-experimental": 17,
-    "ficha-academica": 78,
-    "ficha-cientifica": 76,
+    "ficha-academica": 84,
+    "ficha-cientifica": 82,
     "ficha-tecnica-de-produto": 2,
-    "indice": 10,
+    "indice": 11,
     "indice-tematico": 2,
     "instrumento-de-pesquisa": 7,
     "laudo-ou-certificado-de-ensaio": 1,
     "material-didatico-institucional": 3,
     "memoria-historica": 1,
     "norma-ou-regulamento": 1,
-    "perfil": 11,
+    "perfil": 12,
     "periodico-institucional": 3,
     "resenha-academica": 9,
     "sintese-critica": 1,
-    "visao-autoral": 1
+    "visao-autoral": 4
   },
   "records": [
     {
+      "path": "docs/analyses/arquitetura-vernacular/cordeiro-2019-taipa-de-mao.md",
+      "group": "analyses",
+      "bytes": 4319,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.20396/parc.v10i0.8651212",
+        "10.20396/parc.v10i0.8651212)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/arquitetura-vernacular/estado-da-arte-en.md",
+      "group": "analyses",
+      "bytes": 9515,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1186/s13002-025-00818-9",
+        "10.1186/s13002-025-00818-9)",
+        "10.1186/s13002-025-00818-9.",
+        "10.1186/s43238-026-00250-2",
+        "10.1186/s43238-026-00250-2)",
+        "10.1186/s43238-026-00250-2.",
+        "10.20396/parc.v10i0.8651212",
+        "10.20396/parc.v10i0.8651212)",
+        "10.20396/parc.v10i0.8651212."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "estado-da-arte"
+    },
+    {
+      "path": "docs/analyses/arquitetura-vernacular/estado-da-arte-es.md",
+      "group": "analyses",
+      "bytes": 10034,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1186/s13002-025-00818-9",
+        "10.1186/s13002-025-00818-9)",
+        "10.1186/s13002-025-00818-9.",
+        "10.1186/s43238-026-00250-2",
+        "10.1186/s43238-026-00250-2)",
+        "10.1186/s43238-026-00250-2.",
+        "10.20396/parc.v10i0.8651212",
+        "10.20396/parc.v10i0.8651212)",
+        "10.20396/parc.v10i0.8651212."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "estado-da-arte"
+    },
+    {
+      "path": "docs/analyses/arquitetura-vernacular/estado-da-arte.md",
+      "group": "analyses",
+      "bytes": 9630,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1186/s13002-025-00818-9",
+        "10.1186/s13002-025-00818-9)",
+        "10.1186/s13002-025-00818-9.",
+        "10.1186/s43238-026-00250-2",
+        "10.1186/s43238-026-00250-2)",
+        "10.1186/s43238-026-00250-2.",
+        "10.20396/parc.v10i0.8651212",
+        "10.20396/parc.v10i0.8651212)",
+        "10.20396/parc.v10i0.8651212."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "estado-da-arte"
+    },
+    {
+      "path": "docs/analyses/arquitetura-vernacular/hao-shinohara-2026-dai.md",
+      "group": "analyses",
+      "bytes": 7065,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1186/s43238-026-00250-2",
+        "10.1186/s43238-026-00250-2)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/arquitetura-vernacular/index.md",
+      "group": "analyses",
+      "bytes": 1735,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "indice"
+    },
+    {
+      "path": "docs/analyses/arquitetura-vernacular/ma-etal-2025-li-hainan.md",
+      "group": "analyses",
+      "bytes": 7396,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1186/s13002-025-00818-9",
+        "10.1186/s13002-025-00818-9)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
       "path": "docs/analyses/avaliacao-pos-ocupacao/abreu-2025-benchmarking-construtibilidade-his.md",
       "group": "analyses",
-      "bytes": 14536,
+      "bytes": 14420,
       "sections": [
         "1",
         "2",
@@ -109,7 +251,7 @@
     {
       "path": "docs/analyses/avaliacao-pos-ocupacao/rangel-2020-metodo-avaliacao-areas-comuns-his.md",
       "group": "analyses",
-      "bytes": 14398,
+      "bytes": 14282,
       "sections": [
         "1",
         "2",
@@ -151,7 +293,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/00-inventario-corpus-autoral.md",
       "group": "analyses",
-      "bytes": 10720,
+      "bytes": 10706,
       "sections": [
         "1",
         "2",
@@ -212,7 +354,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/00-matriz-rastreabilidade-evidencia-agenda-autoral.md",
       "group": "analyses",
-      "bytes": 69170,
+      "bytes": 69156,
       "sections": [
         "1",
         "2",
@@ -233,7 +375,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/00-relatorio-auditoria-epistemica.md",
       "group": "analyses",
-      "bytes": 17618,
+      "bytes": 17604,
       "sections": [
         "1",
         "2",
@@ -253,7 +395,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/00a-linha-do-tempo-evidencia-empirica-autoral.md",
       "group": "analyses",
-      "bytes": 19976,
+      "bytes": 19962,
       "sections": [
         "1",
         "2",
@@ -275,7 +417,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md",
       "group": "analyses",
-      "bytes": 3609,
+      "bytes": 3828,
       "sections": [
         "1",
         "2",
@@ -290,7 +432,8 @@
       "has_public_identifier": true,
       "dois": [
         "10.3390/buildings13102449",
-        "10.3390/buildings13102449)"
+        "10.3390/buildings13102449)",
+        "10.3390/buildings13102449;"
       ],
       "declared_status": "em-revisao-documental",
       "declared_type": "ficha-cientifica"
@@ -334,7 +477,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/bjb-2023-antimicrobiano-guadua-amazonia.md",
       "group": "analyses",
-      "bytes": 16949,
+      "bytes": 16865,
       "sections": [
         "1",
         "2",
@@ -356,7 +499,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/bjb-2023-coleobrocas-bambusa-amazonia-meridional.md",
       "group": "analyses",
-      "bytes": 13344,
+      "bytes": 13253,
       "sections": [
         "1",
         "2",
@@ -378,7 +521,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/bussinger-2024-bambu-sistemas-estruturais.md",
       "group": "analyses",
-      "bytes": 15918,
+      "bytes": 15879,
       "sections": [
         "1",
         "2",
@@ -398,9 +541,22 @@
       "declared_type": "ficha-academica"
     },
     {
+      "path": "docs/analyses/bambu-estrutural/carvalho-2013-florestas-bambu-sudoeste-amazonico.md",
+      "group": "analyses",
+      "bytes": 10855,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1371/journal.pone.0054852"
+      ],
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-cientifica"
+    },
+    {
       "path": "docs/analyses/bambu-estrutural/cerne-2021-minijardim-clonal-bambusa-vulgaris.md",
       "group": "analyses",
-      "bytes": 19349,
+      "bytes": 19306,
       "sections": [
         "1",
         "2",
@@ -472,7 +628,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/contecc-2025-especies-nativas-amazonia-construcao.md",
       "group": "analyses",
-      "bytes": 11440,
+      "bytes": 11374,
       "sections": [
         "1",
         "2",
@@ -492,7 +648,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/contecc-2025-patologias-quiosque-coco-rio-branco.md",
       "group": "analyses",
-      "bytes": 13730,
+      "bytes": 13665,
       "sections": [
         "1",
         "2",
@@ -512,7 +668,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/cordero-1990-casa-paineis-bambu-argamassa.md",
       "group": "analyses",
-      "bytes": 4409,
+      "bytes": 4354,
       "sections": [
         "1",
         "2",
@@ -572,11 +728,10 @@
       "declared_type": "documento-institucional"
     },
     {
-      "path": "docs/analyses/bambu-estrutural/estado-da-arte.md",
+      "path": "docs/analyses/bambu-estrutural/estado-da-arte-en.md",
       "group": "analyses",
-      "bytes": 66590,
+      "bytes": 78785,
       "sections": [
-        "1",
         "2",
         "3",
         "4",
@@ -585,11 +740,77 @@
         "7",
         "8"
       ],
-      "has_sections_1_to_8": true,
+      "has_sections_1_to_8": false,
       "has_public_identifier": false,
       "dois": [],
       "declared_status": "em-revisao-documental",
       "declared_type": "estado-da-arte"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/estado-da-arte-es.md",
+      "group": "analyses",
+      "bytes": 82219,
+      "sections": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "estado-da-arte"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/estado-da-arte.md",
+      "group": "analyses",
+      "bytes": 80719,
+      "sections": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "estado-da-arte"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/fadrique-2021-fenologia-ciclo-florestas-bambu.md",
+      "group": "analyses",
+      "bytes": 11749,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1111/1365-2745.13512",
+        "10.1111/1365-2745.13512."
+      ],
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ferreira-kalliola-ruokolainen-2020-bambu-clima-uso-florestal.md",
+      "group": "analyses",
+      "bytes": 12428,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1007/s13280-019-01299-3",
+        "10.1007/s13280-019-01299-3."
+      ],
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-cientifica"
     },
     {
       "path": "docs/analyses/bambu-estrutural/ficha-acv-bambu-unesp-araujo2025.md",
@@ -611,6 +832,28 @@
         "10.14295/bjs.v4i4.719",
         "10.14295/bjs.v4i4.719)",
         "10.14295/bjs.v4i4.719)."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/ficha-chen-2015-cu-moso-fitorremediacao.md",
+      "group": "analyses",
+      "bytes": 5553,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1038/srep13554",
+        "10.1038/srep13554)"
       ],
       "declared_status": "em-revisao-documental",
       "declared_type": "ficha-cientifica"
@@ -638,7 +881,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/ficha-efecto-humedad-guadua-gutierrez-2014.md",
       "group": "analyses",
-      "bytes": 6141,
+      "bytes": 6436,
       "sections": [
         "1",
         "2",
@@ -662,7 +905,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/ficha-effects-heat-treatment-bamboo-scrimber.md",
       "group": "analyses",
-      "bytes": 6936,
+      "bytes": 6941,
       "sections": [
         "1",
         "2",
@@ -686,7 +929,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/ficha-heat-treatment-pdms-bamboo.md",
       "group": "analyses",
-      "bytes": 6172,
+      "bytes": 6177,
       "sections": [
         "1",
         "2",
@@ -710,7 +953,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/ficha-high-temperature-saturated-steam-moso-bamboo.md",
       "group": "analyses",
-      "bytes": 6551,
+      "bytes": 6556,
       "sections": [
         "1",
         "2",
@@ -732,9 +975,31 @@
       "declared_type": "ficha-cientifica"
     },
     {
+      "path": "docs/analyses/bambu-estrutural/ficha-liu-2015-pb-moso-fitorremediacao.md",
+      "group": "analyses",
+      "bytes": 4914,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1631/jzus.B1400107",
+        "10.1631/jzus.B1400107)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
       "path": "docs/analyses/bambu-estrutural/ficha-rocket-stove-cfd.md",
       "group": "analyses",
-      "bytes": 5686,
+      "bytes": 5691,
       "sections": [
         "1",
         "2",
@@ -758,7 +1023,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/gauss-2020-tratamento-preservativo-modificacao-quimica.md",
       "group": "analyses",
-      "bytes": 4981,
+      "bytes": 4926,
       "sections": [
         "1",
         "2",
@@ -800,7 +1065,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/godoy-junior-2024-pretratamento-alcalino-densificacao.md",
       "group": "analyses",
-      "bytes": 21859,
+      "bytes": 21808,
       "sections": [
         "1",
         "2",
@@ -842,15 +1107,19 @@
     {
       "path": "docs/analyses/bambu-estrutural/index.md",
       "group": "analyses",
-      "bytes": 10203,
+      "bytes": 10548,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": true,
       "dois": [
+        "10.1038/srep13554",
+        "10.1038/srep13554)",
         "10.1186/s10086-020-01899-8",
         "10.1186/s10086-020-01899-8)",
         "10.14295/bjs.v4i4.719",
         "10.14295/bjs.v4i4.719)",
+        "10.1631/jzus.B1400107",
+        "10.1631/jzus.B1400107)",
         "10.3390/buildings13102449",
         "10.3390/buildings13102449)",
         "10.5281/zenodo.21514977",
@@ -886,7 +1155,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/lima-2019-bambus-nativos-cadeia-conservacao.md",
       "group": "analyses",
-      "bytes": 3045,
+      "bytes": 5044,
       "sections": [
         "1",
         "2",
@@ -900,13 +1169,13 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": false,
       "dois": [],
-      "declared_status": "em-revisao-documental",
-      "declared_type": "ficha-cientifica"
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-academica"
     },
     {
       "path": "docs/analyses/bambu-estrutural/louredo-2025-bambu-materia-prima-mercado-brasileiro.md",
       "group": "analyses",
-      "bytes": 13965,
+      "bytes": 13897,
       "sections": [
         "1",
         "2",
@@ -970,7 +1239,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/marcal-2018-normas-internacionais-bambu.md",
       "group": "analyses",
-      "bytes": 3063,
+      "bytes": 6123,
       "sections": [
         "1",
         "2",
@@ -1028,9 +1297,87 @@
       "declared_type": "ficha-academica"
     },
     {
+      "path": "docs/analyses/bambu-estrutural/maturidade-tecnologica-cobertura-normativa-bambu-en.md",
+      "group": "analyses",
+      "bytes": 28101,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.5281/zenodo.21777147",
+        "10.5281/zenodo.21780878",
+        "10.5281/zenodo.21797804",
+        "10.5281/zenodo.21797804)",
+        "10.5281/zenodo.21797804.svg)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "visao-autoral"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/maturidade-tecnologica-cobertura-normativa-bambu-es.md",
+      "group": "analyses",
+      "bytes": 29011,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.5281/zenodo.21777147",
+        "10.5281/zenodo.21780878",
+        "10.5281/zenodo.21797804",
+        "10.5281/zenodo.21797804)",
+        "10.5281/zenodo.21797804.svg)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "visao-autoral"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/maturidade-tecnologica-cobertura-normativa-bambu.md",
+      "group": "analyses",
+      "bytes": 28578,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.5281/zenodo.21777147",
+        "10.5281/zenodo.21780878",
+        "10.5281/zenodo.21797804",
+        "10.5281/zenodo.21797804)",
+        "10.5281/zenodo.21797804.svg)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "visao-autoral"
+    },
+    {
       "path": "docs/analyses/bambu-estrutural/mendonca-2018-substituicao-cimento-cinzas-bambu.md",
       "group": "analyses",
-      "bytes": 4450,
+      "bytes": 4395,
       "sections": [
         "1",
         "2",
@@ -1045,6 +1392,17 @@
       "has_public_identifier": false,
       "dois": [],
       "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-academica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/miranda-silva-2020-floracao-regeneracao-taboca-gigante.md",
+      "group": "analyses",
+      "bytes": 11164,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "homologado-documentalmente",
       "declared_type": "ficha-academica"
     },
     {
@@ -1094,7 +1452,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/nsr10-titulo-g-guadua.md",
       "group": "analyses",
-      "bytes": 2367,
+      "bytes": 2798,
       "sections": [
         "1",
         "2",
@@ -1108,13 +1466,13 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": false,
       "dois": [],
-      "declared_status": "em-revisao-documental",
+      "declared_status": "homologado-documentalmente",
       "declared_type": "norma-ou-regulamento"
     },
     {
       "path": "docs/analyses/bambu-estrutural/oliveira-2025-tratamentos-termicos-durabilidade.md",
       "group": "analyses",
-      "bytes": 16706,
+      "bytes": 16667,
       "sections": [
         "1",
         "2",
@@ -1175,6 +1533,26 @@
       "declared_type": "ficha-cientifica"
     },
     {
+      "path": "docs/analyses/bambu-estrutural/pereira-2012-projeto-bambu.md",
+      "group": "analyses",
+      "bytes": 3962,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-academica"
+    },
+    {
       "path": "docs/analyses/bambu-estrutural/pimentel-tratamento-bi-oleo-bambu.md",
       "group": "analyses",
       "bytes": 2460,
@@ -1197,7 +1575,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/reghin-2018-bambu-laminado-colado.md",
       "group": "analyses",
-      "bytes": 2864,
+      "bytes": 3184,
       "sections": [
         "1",
         "2",
@@ -1211,8 +1589,8 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": false,
       "dois": [],
-      "declared_status": "em-revisao-documental",
-      "declared_type": "ficha-cientifica"
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-academica"
     },
     {
       "path": "docs/analyses/bambu-estrutural/resenha-beraldo-bambu-pirolenhoso.md",
@@ -1261,7 +1639,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/rmat-2024-bioconcreto-particulas-bambu.md",
       "group": "analyses",
-      "bytes": 18529,
+      "bytes": 18448,
       "sections": [
         "1",
         "2",
@@ -1283,7 +1661,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/ruggiero-2021-estruturas-reticuladas-bambu-laminado.md",
       "group": "analyses",
-      "bytes": 5192,
+      "bytes": 5137,
       "sections": [
         "1",
         "2",
@@ -1329,7 +1707,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/sa-2022-densificacao-dendrocalamus-asper.md",
       "group": "analyses",
-      "bytes": 16953,
+      "bytes": 16915,
       "sections": [
         "1",
         "2",
@@ -1351,7 +1729,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/santos-2020-composito-bambu-residuos-industriais.md",
       "group": "analyses",
-      "bytes": 17807,
+      "bytes": 17742,
       "sections": [
         "1",
         "2",
@@ -1371,7 +1749,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/santos-2023-polpa-celulosica-bambu.md",
       "group": "analyses",
-      "bytes": 20353,
+      "bytes": 20321,
       "sections": [
         "1",
         "2",
@@ -1393,7 +1771,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/santos-2024-poetica-narrativa-tectonica-bambu.md",
       "group": "analyses",
-      "bytes": 14509,
+      "bytes": 14447,
       "sections": [
         "1",
         "2",
@@ -1413,7 +1791,7 @@
     {
       "path": "docs/analyses/bambu-estrutural/silva-2011-tratamento-pirolenhoso-bambu.md",
       "group": "analyses",
-      "bytes": 2743,
+      "bytes": 2917,
       "sections": [
         "1",
         "2",
@@ -1427,13 +1805,13 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": false,
       "dois": [],
-      "declared_status": "em-revisao-documental",
-      "declared_type": "ficha-cientifica"
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-academica"
     },
     {
       "path": "docs/analyses/bambu-estrutural/silveira-2015-controle-dinoderus.md",
       "group": "analyses",
-      "bytes": 2585,
+      "bytes": 2930,
       "sections": [
         "1",
         "2",
@@ -1447,8 +1825,8 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": false,
       "dois": [],
-      "declared_status": "em-revisao-documental",
-      "declared_type": "ficha-cientifica"
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-academica"
     },
     {
       "path": "docs/analyses/bambu-estrutural/tarverdi-2024-paineis-bambu-achatado-colado.md",
@@ -1471,6 +1849,20 @@
       ],
       "declared_status": "em-revisao-documental",
       "declared_type": "ficha-academica"
+    },
+    {
+      "path": "docs/analyses/bambu-estrutural/van-doninck-2020-ciclos-floracao-landsat.md",
+      "group": "analyses",
+      "bytes": 16799,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1016/j.jag.2020.102196",
+        "10.1016/j.jag.2020.102196."
+      ],
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-cientifica"
     },
     {
       "path": "docs/analyses/bioeconomia-amazonica/agenda-de-pesquisa.md",
@@ -1515,7 +1907,7 @@
     {
       "path": "docs/analyses/bioeconomia-amazonica/dark-earths-crescimento-arvores-2026.md",
       "group": "analyses",
-      "bytes": 13041,
+      "bytes": 12986,
       "sections": [
         "1",
         "2",
@@ -1539,7 +1931,7 @@
     {
       "path": "docs/analyses/bioeconomia-amazonica/estado-da-arte.md",
       "group": "analyses",
-      "bytes": 49455,
+      "bytes": 49233,
       "sections": [
         "1",
         "2",
@@ -1559,7 +1951,7 @@
     {
       "path": "docs/analyses/bioeconomia-amazonica/ficha-biochar-negative-emissions-review.md",
       "group": "analyses",
-      "bytes": 6252,
+      "bytes": 6257,
       "sections": [
         "1",
         "2",
@@ -1599,7 +1991,7 @@
     {
       "path": "docs/analyses/bioeconomia-amazonica/maia-biochar-eucalipto-2021.md",
       "group": "analyses",
-      "bytes": 12651,
+      "bytes": 12596,
       "sections": [
         "1",
         "2",
@@ -1676,7 +2068,7 @@
     {
       "path": "docs/analyses/bioeconomia-amazonica/plataformas-digitais-bioeconomia-amazonica-2025.md",
       "group": "analyses",
-      "bytes": 11357,
+      "bytes": 11302,
       "sections": [
         "1",
         "2",
@@ -1760,7 +2152,7 @@
     {
       "path": "docs/analyses/bioeconomia-amazonica/sociobioeconomia-tecnologia-social-amazonia-2024.md",
       "group": "analyses",
-      "bytes": 12168,
+      "bytes": 12113,
       "sections": [
         "1",
         "2",
@@ -1805,6 +2197,84 @@
       ],
       "declared_status": "em-revisao-documental",
       "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/fundamentos/arquitetura-curatorial-acervo-soberania-tecnologica-en.md",
+      "group": "analyses",
+      "bytes": 18088,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1038/sdata.2016.18",
+        "10.5281/zenodo.21777147",
+        "10.5281/zenodo.21797806",
+        "10.5281/zenodo.21797806)",
+        "10.5281/zenodo.21797806.svg)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "documento-institucional"
+    },
+    {
+      "path": "docs/analyses/fundamentos/arquitetura-curatorial-acervo-soberania-tecnologica-es.md",
+      "group": "analyses",
+      "bytes": 18816,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1038/sdata.2016.18",
+        "10.5281/zenodo.21777147",
+        "10.5281/zenodo.21797806",
+        "10.5281/zenodo.21797806)",
+        "10.5281/zenodo.21797806.svg)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "documento-institucional"
+    },
+    {
+      "path": "docs/analyses/fundamentos/arquitetura-curatorial-acervo-soberania-tecnologica.md",
+      "group": "analyses",
+      "bytes": 18441,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1038/sdata.2016.18",
+        "10.5281/zenodo.21777147",
+        "10.5281/zenodo.21797806",
+        "10.5281/zenodo.21797806)",
+        "10.5281/zenodo.21797806.svg)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "documento-institucional"
     },
     {
       "path": "docs/analyses/fundamentos/fernandes-1976-revolucao-burguesa-brasil.md",
@@ -2051,7 +2521,7 @@
     {
       "path": "docs/analyses/grandes-obras-amazonia/pereira-2023-governanca-megaprojetos-amazonia.md",
       "group": "analyses",
-      "bytes": 16130,
+      "bytes": 15660,
       "sections": [
         "1",
         "2",
@@ -2074,7 +2544,7 @@
     {
       "path": "docs/analyses/grandes-obras-amazonia/scott-2025-retiradas-triunfais-deslocados.md",
       "group": "analyses",
-      "bytes": 16916,
+      "bytes": 16530,
       "sections": [
         "1",
         "2",
@@ -2097,7 +2567,7 @@
     {
       "path": "docs/analyses/grandes-obras-amazonia/wood-2021-caso-ensino-grandes-obras.md",
       "group": "analyses",
-      "bytes": 15720,
+      "bytes": 15386,
       "sections": [
         "1",
         "2",
@@ -2134,9 +2604,53 @@
       "declared_type": "estado-da-arte-com-agenda-experimental"
     },
     {
+      "path": "docs/analyses/habitacao-social/estado-da-arte-en.md",
+      "group": "analyses",
+      "bytes": 59328,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.5281/zenodo.21515383)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "estado-da-arte"
+    },
+    {
+      "path": "docs/analyses/habitacao-social/estado-da-arte-es.md",
+      "group": "analyses",
+      "bytes": 62198,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.5281/zenodo.21515383)"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "estado-da-arte"
+    },
+    {
       "path": "docs/analyses/habitacao-social/estado-da-arte.md",
       "group": "analyses",
-      "bytes": 50801,
+      "bytes": 60385,
       "sections": [
         "1",
         "2",
@@ -2202,7 +2716,7 @@
     {
       "path": "docs/analyses/index.md",
       "group": "analyses",
-      "bytes": 1937,
+      "bytes": 2006,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -2213,7 +2727,7 @@
     {
       "path": "docs/analyses/percecao-social/garrefa-2021-resiliencia-his-apo-coproducao.md",
       "group": "analyses",
-      "bytes": 16059,
+      "bytes": 15945,
       "sections": [
         "1",
         "2",
@@ -2309,7 +2823,7 @@
     {
       "path": "docs/analyses/percecao-social/monteiro-2022-metodo-percepcao-valor-his.md",
       "group": "analyses",
-      "bytes": 15266,
+      "bytes": 15155,
       "sections": [
         "1",
         "2",
@@ -2378,7 +2892,7 @@
     {
       "path": "docs/analyses/percecao-social/souza-2014-apo-moradias-uniao-ferroviaria.md",
       "group": "analyses",
-      "bytes": 13959,
+      "bytes": 13452,
       "sections": [
         "1",
         "2",
@@ -2401,7 +2915,7 @@
     {
       "path": "docs/analyses/politica-habitacional/cardoso-2022-athis-assessoria-assistencia.md",
       "group": "analyses",
-      "bytes": 4505,
+      "bytes": 4450,
       "sections": [
         "1",
         "2",
@@ -2423,7 +2937,7 @@
     {
       "path": "docs/analyses/politica-habitacional/chaves-2019-belo-monte-reassentamentos-rurais.md",
       "group": "analyses",
-      "bytes": 4592,
+      "bytes": 4537,
       "sections": [
         "1",
         "2",
@@ -2511,6 +3025,32 @@
       "declared_type": "estado-da-arte-com-agenda-experimental"
     },
     {
+      "path": "docs/analyses/pu-vegetal/barbirato-2022-osb-bambu-pu.md",
+      "group": "analyses",
+      "bytes": 12746,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.5902/1980509846908",
+        "10.5902/1980509846908)",
+        "10.5902/1980509846908).",
+        "10.5902/1980509846908);",
+        "10.5902/1980509846908."
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
       "path": "docs/analyses/pu-vegetal/carvalho-2023-paineis-casca-mamona-pu.md",
       "group": "analyses",
       "bytes": 3464,
@@ -2573,7 +3113,7 @@
     {
       "path": "docs/analyses/pu-vegetal/costa-2022-propriedades-eletricas-pu-mamona.md",
       "group": "analyses",
-      "bytes": 10406,
+      "bytes": 10351,
       "sections": [
         "1",
         "2",
@@ -2613,7 +3153,7 @@
     {
       "path": "docs/analyses/pu-vegetal/estado-da-arte.md",
       "group": "analyses",
-      "bytes": 50896,
+      "bytes": 63182,
       "sections": [
         "1",
         "2",
@@ -2625,8 +3165,11 @@
         "8"
       ],
       "has_sections_1_to_8": true,
-      "has_public_identifier": false,
-      "dois": [],
+      "has_public_identifier": true,
+      "dois": [
+        "10.5902/1980509846908",
+        "10.5902/1980509846908;"
+      ],
       "declared_status": "em-revisao-documental",
       "declared_type": "estado-da-arte"
     },
@@ -2830,7 +3373,7 @@
     {
       "path": "docs/analyses/pu-vegetal/marinho-pu-mamona-bambu-polimeros.md",
       "group": "analyses",
-      "bytes": 9883,
+      "bytes": 10060,
       "sections": [
         "1",
         "2",
@@ -2844,6 +3387,7 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": true,
       "dois": [
+        "10.1590/s0104-14282013005000007",
         "10.4322/S0104-14282013005000007",
         "10.4322/S0104-14282013005000007)",
         "10.4322/S0104-14282013005000007)."
@@ -2854,7 +3398,7 @@
     {
       "path": "docs/analyses/pu-vegetal/medeiros-2023-compositos-pu-quitosana.md",
       "group": "analyses",
-      "bytes": 5836,
+      "bytes": 5781,
       "sections": [
         "1",
         "2",
@@ -2936,7 +3480,7 @@
     {
       "path": "docs/analyses/pu-vegetal/silva-1996-resina-pu-mamona-construcao.md",
       "group": "analyses",
-      "bytes": 12261,
+      "bytes": 12206,
       "sections": [
         "1",
         "2",
@@ -2960,7 +3504,7 @@
     {
       "path": "docs/analyses/pu-vegetal/silvaneto-2026-paineis-pinus-pet-pu.md",
       "group": "analyses",
-      "bytes": 4688,
+      "bytes": 4633,
       "sections": [
         "1",
         "2",
@@ -3060,7 +3604,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/agroecologia-soberania-alimentar-pds-mario-lago-2024.md",
       "group": "analyses",
-      "bytes": 16502,
+      "bytes": 16355,
       "sections": [
         "1",
         "2",
@@ -3080,7 +3624,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/almeida-2008-estimativa-da-area-de-ocorrencia-e-do-tempo-d.md",
       "group": "analyses",
-      "bytes": 1185,
+      "bytes": 1224,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3111,7 +3655,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/arcoverde-2004-diagnostico-socio-economico-em-areas-de-peque.md",
       "group": "analyses",
-      "bytes": 1243,
+      "bytes": 1282,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3122,7 +3666,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/avila-1992-diagnosis-and-design-methodology.md",
       "group": "analyses",
-      "bytes": 1190,
+      "bytes": 1229,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3133,7 +3677,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/barreto-2006-human-pressure-on-the-brazilian-amazon-forest.md",
       "group": "analyses",
-      "bytes": 1145,
+      "bytes": 1184,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3164,7 +3708,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/bryant-1997-the-last-frontier-forests-ecosystems-and-econ.md",
       "group": "analyses",
-      "bytes": 1113,
+      "bytes": 1152,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3175,7 +3719,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/canas-2004-cmaptools-a-knowledge-modeling-and-sharing-en.md",
       "group": "analyses",
-      "bytes": 1425,
+      "bytes": 1464,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3186,7 +3730,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/carvalho-1998-sistemas-de-pastejo-rotacionado-intensivo-man.md",
       "group": "analyses",
-      "bytes": 1087,
+      "bytes": 1126,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3217,7 +3761,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/cochrane-1998a-forest-fires-in-the-brazilian-amazon.md",
       "group": "analyses",
-      "bytes": 1025,
+      "bytes": 1064,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3228,7 +3772,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/cochrane-1998b-fire-as-a-recurrent-event-in-tropical-forests.md",
       "group": "analyses",
-      "bytes": 1125,
+      "bytes": 1164,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3239,7 +3783,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/cravo-2005-sistema-bragantino-agricultura-sustentavel-pa.md",
       "group": "analyses",
-      "bytes": 1713,
+      "bytes": 1752,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3250,7 +3794,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/dubois-1996-manual-agroflorestal-para-a-amazonia.md",
       "group": "analyses",
-      "bytes": 1359,
+      "bytes": 1398,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3281,7 +3825,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/estado-da-arte.md",
       "group": "analyses",
-      "bytes": 38768,
+      "bytes": 38805,
       "sections": [
         "1",
         "2",
@@ -3341,7 +3885,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/hillenkamp-et-al-2025-raizes-da-resistencia.md",
       "group": "analyses",
-      "bytes": 9065,
+      "bytes": 9098,
       "sections": [
         "1",
         "2",
@@ -3392,7 +3936,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/inpe-2009-prodes-digital-monitoramento-da-floresta-amaz.md",
       "group": "analyses",
-      "bytes": 1116,
+      "bytes": 1155,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3403,7 +3947,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/junior-1999-biomass-dynamics-of-fallow-vegetation-enriche.md",
       "group": "analyses",
-      "bytes": 1102,
+      "bytes": 1141,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3434,7 +3978,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/kaimowitz-1998-economic-models-of-tropical-deforestation-a-r.md",
       "group": "analyses",
-      "bytes": 1055,
+      "bytes": 1094,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3445,7 +3989,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/kato-1998a-fire-free-land-preparation-as-an-alternative-.md",
       "group": "analyses",
-      "bytes": 1173,
+      "bytes": 1212,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3456,7 +4000,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/kato-1998b-fire-free-land-preparation-as-an-alternative-.md",
       "group": "analyses",
-      "bytes": 1162,
+      "bytes": 1201,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3467,7 +4011,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/lobo-et-al-2018-varal-produtivo-agroecologico.md",
       "group": "analyses",
-      "bytes": 18396,
+      "bytes": 18247,
       "sections": [
         "1",
         "2",
@@ -3487,7 +4031,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/lopes-et-al-2018-enriquecimento-500-quintais.md",
       "group": "analyses",
-      "bytes": 8299,
+      "bytes": 8332,
       "sections": [
         "1",
         "2",
@@ -3507,7 +4051,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/machin-sosa-et-al-2012-revolucao-agroecologica.md",
       "group": "analyses",
-      "bytes": 22374,
+      "bytes": 22156,
       "sections": [
         "1",
         "2",
@@ -3527,7 +4071,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/maneschy-2005-uma-analise-sobre-sistemas-silvipastoris-na-a.md",
       "group": "analyses",
-      "bytes": 1606,
+      "bytes": 1645,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3591,7 +4135,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/marchetti-et-al-2023-escola-egidio-brunetto-bioinsumos.md",
       "group": "analyses",
-      "bytes": 20422,
+      "bytes": 20207,
       "sections": [
         "1",
         "2",
@@ -3613,7 +4157,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/miccolis-et-al-2016-restauracao-ecologica-safs.md",
       "group": "analyses",
-      "bytes": 15879,
+      "bytes": 15912,
       "sections": [
         "1",
         "2",
@@ -3653,7 +4197,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/nascimento-et-al-2018-producao-agroecologica-assentamentos.md",
       "group": "analyses",
-      "bytes": 8339,
+      "bytes": 8227,
       "sections": [
         "1",
         "2",
@@ -3673,7 +4217,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/oliveira-2003-critica-razao-dualista.md",
       "group": "analyses",
-      "bytes": 21407,
+      "bytes": 20746,
       "sections": [
         "1",
         "2",
@@ -3696,7 +4240,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/oriental-2003-pesquisa-desenvolvimento-ian-ipean-cpatu-embr.md",
       "group": "analyses",
-      "bytes": 1117,
+      "bytes": 1156,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -3727,7 +4271,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/pessoa-1997-revanche-camponesa.md",
       "group": "analyses",
-      "bytes": 17487,
+      "bytes": 17496,
       "sections": [
         "1",
         "2",
@@ -3749,7 +4293,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/petersen-et-al-2017-metodo-analise-agroecossistemas.md",
       "group": "analyses",
-      "bytes": 10504,
+      "bytes": 10537,
       "sections": [
         "1",
         "2",
@@ -3829,7 +4373,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/promovendo-soberania-alimentar-dois-riachoes-2024.md",
       "group": "analyses",
-      "bytes": 16932,
+      "bytes": 16762,
       "sections": [
         "1",
         "2",
@@ -3849,7 +4393,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/quintais-produtivos-assentamentos-agroecologicos-2024.md",
       "group": "analyses",
-      "bytes": 16630,
+      "bytes": 16415,
       "sections": [
         "1",
         "2",
@@ -3972,7 +4516,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/sa-1989-meteorology-applied-to-agroforestry-systems-i.md",
       "group": "analyses",
-      "bytes": 1259,
+      "bytes": 1298,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -4023,7 +4567,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/smith-1998-experiencias-agroflorestais-na-amazonia-brasi.md",
       "group": "analyses",
-      "bytes": 1446,
+      "bytes": 1485,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -4034,7 +4578,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/sorrensen-2000-linking-smallholder-land-use-and-fire-activit.md",
       "group": "analyses",
-      "bytes": 1094,
+      "bytes": 1133,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -4045,7 +4589,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/souza-et-al-2014-ferramentas-participativas.md",
       "group": "analyses",
-      "bytes": 18688,
+      "bytes": 18473,
       "sections": [
         "1",
         "2",
@@ -4068,7 +4612,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/souza-schneider-2022-internalizacao-soberania-alimentar.md",
       "group": "analyses",
-      "bytes": 20231,
+      "bytes": 20032,
       "sections": [
         "1",
         "2",
@@ -4193,7 +4737,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/trecenti-2008-integracao-lavoura-pecuaria-silvicultura.md",
       "group": "analyses",
-      "bytes": 1163,
+      "bytes": 1202,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -4204,7 +4748,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/veiga-2004-potencial-e-adocao-de-sistemas-silvipastoris-.md",
       "group": "analyses",
-      "bytes": 1660,
+      "bytes": 1699,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -4215,7 +4759,7 @@
     {
       "path": "docs/analyses/reforma-agraria-agrofloresta/vosti-2002-agricultural-intensification-by-smallholders-.md",
       "group": "analyses",
-      "bytes": 1237,
+      "bytes": 1276,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
@@ -4319,6 +4863,17 @@
       "declared_type": "perfil"
     },
     {
+      "path": "docs/analyses/respaldo-academico/perfil-nathalia-cavichiolli-de-oliveira.md",
+      "group": "analyses",
+      "bytes": 2859,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "perfil"
+    },
+    {
       "path": "docs/analyses/respaldo-academico/perfil-sonaira-silva.md",
       "group": "analyses",
       "bytes": 2730,
@@ -4385,7 +4940,7 @@
     {
       "path": "docs/analyses/visao-do-autor/anais-da-pesquisa-2018-2024.md",
       "group": "analyses",
-      "bytes": 14001,
+      "bytes": 13987,
       "sections": [
         "1",
         "2",
@@ -4465,7 +5020,7 @@
     {
       "path": "docs/analyses/visao-do-autor/caderno-01-preservacao-socioecologica-bambu-en.md",
       "group": "analyses",
-      "bytes": 54428,
+      "bytes": 54453,
       "sections": [
         "1",
         "2",
@@ -4553,7 +5108,7 @@
     {
       "path": "docs/analyses/visao-do-autor/caderno-02-colmo-condicionado-componente-protegido-en.md",
       "group": "analyses",
-      "bytes": 12803,
+      "bytes": 12864,
       "sections": [
         "1",
         "2",
@@ -4635,7 +5190,7 @@
     {
       "path": "docs/analyses/visao-do-autor/caderno-03-capacidade-produtiva-territorial-en.md",
       "group": "analyses",
-      "bytes": 12186,
+      "bytes": 12195,
       "sections": [
         "1",
         "2",
@@ -4708,7 +5263,7 @@
     {
       "path": "docs/analyses/visao-do-autor/caderno-04-prototipo-conformidade-normas-ensaios-en.md",
       "group": "analyses",
-      "bytes": 44049,
+      "bytes": 44058,
       "sections": [
         "1",
         "2",
@@ -4784,7 +5339,7 @@
     {
       "path": "docs/analyses/visao-do-autor/caderno-05-do-componente-ao-habitar-en.md",
       "group": "analyses",
-      "bytes": 9142,
+      "bytes": 9167,
       "sections": [
         "1",
         "2"
@@ -4856,7 +5411,7 @@
     {
       "path": "docs/analyses/visao-do-autor/caderno-06-biochar-pirolise-uso-cascata-en.md",
       "group": "analyses",
-      "bytes": 8619,
+      "bytes": 8644,
       "sections": [
         "1",
         "2"
@@ -4949,7 +5504,7 @@
     {
       "path": "docs/analyses/visao-do-autor/caderno-07-ciclo-fechado-crise-planetaria-en.md",
       "group": "analyses",
-      "bytes": 11735,
+      "bytes": 11784,
       "sections": [
         "1",
         "2",
@@ -5052,6 +5607,28 @@
       "declared_type": "indice"
     },
     {
+      "path": "docs/apresentacao-do-acervo.md",
+      "group": "raiz-docs",
+      "bytes": 2924,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "documento-institucional"
+    },
+    {
+      "path": "docs/como-navegar-no-acervo.md",
+      "group": "raiz-docs",
+      "bytes": 5704,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "documento-institucional"
+    },
+    {
       "path": "docs/index.md",
       "group": "raiz-docs",
       "bytes": 7148,
@@ -5065,7 +5642,7 @@
     {
       "path": "docs/metodologia.md",
       "group": "raiz-docs",
-      "bytes": 6525,
+      "bytes": 6383,
       "sections": [
         "1",
         "2",
