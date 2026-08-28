@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-08-27",
-  "repository": "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica-pr-bambu-ago27",
+  "generated_on": "2026-08-28",
+  "repository": "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica",
   "definitions": {
     "public_markdown": "arquivo .md sob docs/ incluído no build público",
     "structured_1_to_8": "arquivo com os oito títulos numerados detectáveis",
@@ -8,23 +8,23 @@
     "analysis_document": "arquivo sob docs/analyses, sem presumir que seja ficha científica"
   },
   "counts": {
-    "public_markdown": 278,
-    "analysis_documents": 273,
-    "structured_1_to_8_all_docs": 189,
-    "structured_1_to_8_analysis": 188,
-    "identified_all_docs": 130,
-    "identified_analysis": 130
+    "public_markdown": 286,
+    "analysis_documents": 281,
+    "structured_1_to_8_all_docs": 191,
+    "structured_1_to_8_analysis": 190,
+    "identified_all_docs": 132,
+    "identified_analysis": 132
   },
   "by_group": {
-    "analyses": 273,
+    "analyses": 281,
     "raiz-docs": 5
   },
   "by_declared_status": {
     "curado": 10,
     "depositado-no-zenodo": 1,
     "edicao-publica-conformada": 16,
-    "em-revisao-documental": 224,
-    "homologado-documentalmente": 11,
+    "em-revisao-documental": 226,
+    "homologado-documentalmente": 17,
     "publicado-no-acervo": 1,
     "publicado-no-zenodo": 15
   },
@@ -32,12 +32,12 @@
     "documento-de-patente": 2,
     "documento-institucional": 13,
     "ensaio-autoral": 1,
-    "estado-da-arte": 22,
+    "estado-da-arte": 24,
     "estado-da-arte-com-agenda-experimental": 17,
-    "ficha-academica": 84,
-    "ficha-cientifica": 82,
+    "ficha-academica": 88,
+    "ficha-cientifica": 83,
     "ficha-tecnica-de-produto": 2,
-    "indice": 11,
+    "indice": 12,
     "indice-tematico": 2,
     "instrumento-de-pesquisa": 7,
     "laudo-ou-certificado-de-ensaio": 1,
@@ -1929,9 +1929,49 @@
       "declared_type": "ficha-cientifica"
     },
     {
+      "path": "docs/analyses/bioeconomia-amazonica/estado-da-arte-en.md",
+      "group": "analyses",
+      "bytes": 56397,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "estado-da-arte"
+    },
+    {
+      "path": "docs/analyses/bioeconomia-amazonica/estado-da-arte-es.md",
+      "group": "analyses",
+      "bytes": 60223,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "estado-da-arte"
+    },
+    {
       "path": "docs/analyses/bioeconomia-amazonica/estado-da-arte.md",
       "group": "analyses",
-      "bytes": 49233,
+      "bytes": 57781,
       "sections": [
         "1",
         "2",
@@ -2197,6 +2237,76 @@
       ],
       "declared_status": "em-revisao-documental",
       "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/cooperacao-brasil-china/abramovay-1985-progresso-tecnico-industria.md",
+      "group": "analyses",
+      "bytes": 14602,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/cooperacao-brasil-china/cabral-2021-patrimonio-cientifico-embrapa.md",
+      "group": "analyses",
+      "bytes": 9515,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1111/dpr.12531"
+      ],
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-academica"
+    },
+    {
+      "path": "docs/analyses/cooperacao-brasil-china/gaona-2025-diplomacia-cultural-foz-china.md",
+      "group": "analyses",
+      "bytes": 17013,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-academica"
+    },
+    {
+      "path": "docs/analyses/cooperacao-brasil-china/index.md",
+      "group": "analyses",
+      "bytes": 1769,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "indice"
+    },
+    {
+      "path": "docs/analyses/cooperacao-brasil-china/ribeiro-2016-politica-ciencia-tecnologia-embrapa-semiarido.md",
+      "group": "analyses",
+      "bytes": 14361,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": true,
+      "dois": [
+        "10.1590/S0102-8529.2016380200008"
+      ],
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-academica"
+    },
+    {
+      "path": "docs/analyses/cooperacao-brasil-china/sa-2016-cooperacao-antimalaricos-brasil-china.md",
+      "group": "analyses",
+      "bytes": 12243,
+      "sections": [],
+      "has_sections_1_to_8": false,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "homologado-documentalmente",
+      "declared_type": "ficha-academica"
     },
     {
       "path": "docs/analyses/fundamentos/arquitetura-curatorial-acervo-soberania-tecnologica-en.md",
@@ -2716,7 +2826,7 @@
     {
       "path": "docs/analyses/index.md",
       "group": "analyses",
-      "bytes": 2006,
+      "bytes": 2072,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,

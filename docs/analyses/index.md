@@ -12,6 +12,7 @@ Esta seção reúne os documentos públicos do Acervo por eixo temático. A pres
 ## Eixos
 
 - [Fundamentos do Acervo](fundamentos/index.md)
+- [Cooperação Brasil–China](cooperacao-brasil-china/index.md)
 - [Bambu estrutural e tratamentos](bambu-estrutural/index.md)
 - [Arquitetura vernacular em bambu](arquitetura-vernacular/index.md)
 - [Poliuretano vegetal](pu-vegetal/index.md)
