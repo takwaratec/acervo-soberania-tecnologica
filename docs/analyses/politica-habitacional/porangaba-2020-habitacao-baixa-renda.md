@@ -1,7 +1,7 @@
 ---
 tipo_documental: ficha-cientifica
 natureza_fonte: artigo científico
-estado_documental: em-revisao-documental
+estado_documental: homologado-documentalmente
 titulo: "A habitação para a população de baixa renda no Brasil: termos e conceitos difundidos pela Política Nacional de Habitação"
 autor: "Alexsandro Tenório Porangaba"
 instituicao: "Universidade Federal de Sergipe, Departamento de Engenharia Civil, Aracaju, SE, Brasil"

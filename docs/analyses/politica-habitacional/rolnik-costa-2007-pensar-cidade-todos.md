@@ -1,6 +1,6 @@
 ---
 tipo_documental: documento-historico
-estado_documental: em-revisao-documental
+estado_documental: homologado-documentalmente
 titulo: "Pensar a cidade como lugar para todos"
 entrevistada: "Raquel Rolnik"
 entrevistador: "Carlos Costa"

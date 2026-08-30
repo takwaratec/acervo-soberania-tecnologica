@@ -1,7 +1,7 @@
 ---
 tipo_documental: resenha-academica
 natureza_fonte: resenha acadêmica de obra
-estado_documental: em-revisao-documental
+estado_documental: homologado-documentalmente
 titulo: "Jane Jacobs: Morte e vida de grandes cidades"
 autor: "Thayanna Paula Neves Barros; Érica Corrêa Monteiro"
 instituicao: "Universidade Federal do Pará — Núcleo de Altos Estudos Amazônicos (NAEA), PPGDSTU"

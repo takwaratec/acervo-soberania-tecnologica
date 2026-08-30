@@ -11,7 +11,7 @@ idioma: "Português"
 paginas_pdf: 750
 extensao_bibliografica: "750 f."
 sistema_de_citacao_paginas: "paginação impressa/editorial da obra, indicada nas citações como p.; distinta das páginas físicas do PDF"
-estado_documental: "em-revisao-documental"
+estado_documental: "homologado-documentalmente"
 identificador: ausente-na-fonte
 fonte_primaria: "PDF integral conferido"
 data_revisao: 2026-08-30

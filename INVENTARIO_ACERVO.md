@@ -25,8 +25,8 @@
 | `curado` | 10 |
 | `depositado-no-zenodo` | 1 |
 | `edicao-publica-conformada` | 16 |
-| `em-revisao-documental` | 236 |
-| `homologado-documentalmente` | 17 |
+| `em-revisao-documental` | 226 |
+| `homologado-documentalmente` | 27 |
 | `publicado-no-acervo` | 1 |
 | `publicado-no-zenodo` | 15 |
 

@@ -1,7 +1,7 @@
 ---
 tipo_documental: ficha-cientifica
 natureza_fonte: artigo científico teórico-interpretativo
-estado_documental: em-revisao-documental
+estado_documental: homologado-documentalmente
 titulo: "O meio construído e as cidades na obra de Jane Jacobs"
 autor: "Edilson Luis de Oliveira"
 instituicao: "Programa de Pós-graduação em Geografia, Universidade Estadual de Londrina (UEL)"
