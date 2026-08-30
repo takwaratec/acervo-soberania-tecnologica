@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-08-28",
+  "generated_on": "2026-08-30",
   "repository": "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica",
   "definitions": {
     "public_markdown": "arquivo .md sob docs/ incluído no build público",
@@ -8,34 +8,35 @@
     "analysis_document": "arquivo sob docs/analyses, sem presumir que seja ficha científica"
   },
   "counts": {
-    "public_markdown": 286,
-    "analysis_documents": 281,
-    "structured_1_to_8_all_docs": 191,
-    "structured_1_to_8_analysis": 190,
-    "identified_all_docs": 132,
-    "identified_analysis": 132
+    "public_markdown": 296,
+    "analysis_documents": 291,
+    "structured_1_to_8_all_docs": 201,
+    "structured_1_to_8_analysis": 200,
+    "identified_all_docs": 135,
+    "identified_analysis": 135
   },
   "by_group": {
-    "analyses": 281,
+    "analyses": 291,
     "raiz-docs": 5
   },
   "by_declared_status": {
     "curado": 10,
     "depositado-no-zenodo": 1,
     "edicao-publica-conformada": 16,
-    "em-revisao-documental": 226,
+    "em-revisao-documental": 236,
     "homologado-documentalmente": 17,
     "publicado-no-acervo": 1,
     "publicado-no-zenodo": 15
   },
   "by_declared_type": {
     "documento-de-patente": 2,
+    "documento-historico": 1,
     "documento-institucional": 13,
     "ensaio-autoral": 1,
     "estado-da-arte": 24,
     "estado-da-arte-com-agenda-experimental": 17,
-    "ficha-academica": 88,
-    "ficha-cientifica": 83,
+    "ficha-academica": 89,
+    "ficha-cientifica": 89,
     "ficha-tecnica-de-produto": 2,
     "indice": 12,
     "indice-tematico": 2,
@@ -46,7 +47,7 @@
     "norma-ou-regulamento": 1,
     "perfil": 12,
     "periodico-institucional": 3,
-    "resenha-academica": 9,
+    "resenha-academica": 11,
     "sintese-critica": 1,
     "visao-autoral": 4
   },
@@ -3023,6 +3024,46 @@
       "declared_type": "ficha-cientifica"
     },
     {
+      "path": "docs/analyses/politica-habitacional/barros-2012-formacao-profissional-construcao.md",
+      "group": "analyses",
+      "bytes": 16657,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-academica"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/barros-monteiro-2022-jane-jacobs.md",
+      "group": "analyses",
+      "bytes": 16673,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "resenha-academica"
+    },
+    {
       "path": "docs/analyses/politica-habitacional/cardoso-2022-athis-assessoria-assistencia.md",
       "group": "analyses",
       "bytes": 4450,
@@ -3087,13 +3128,179 @@
     {
       "path": "docs/analyses/politica-habitacional/index.md",
       "group": "analyses",
-      "bytes": 906,
+      "bytes": 2402,
       "sections": [],
       "has_sections_1_to_8": false,
       "has_public_identifier": false,
       "dois": [],
       "declared_status": "em-revisao-documental",
       "declared_type": "indice"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/maricato-2000-urbanismo-periferia-globalizada.md",
+      "group": "analyses",
+      "bytes": 27411,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/maricato-2003-metropole-legislacao-desigualdade.md",
+      "group": "analyses",
+      "bytes": 27817,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/maricato-2011-metropoles-desgovernadas.md",
+      "group": "analyses",
+      "bytes": 14882,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/oliveira-2020-meio-construido-jane-jacobs.md",
+      "group": "analyses",
+      "bytes": 23175,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.26895/geosaberes.v11i0.826"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/porangaba-2020-habitacao-baixa-renda.md",
+      "group": "analyses",
+      "bytes": 18790,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.22296/2317-1529.rbeur.202038"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/ribeiro-1999-origens-habitacao-social-bonduki.md",
+      "group": "analyses",
+      "bytes": 15459,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": true,
+      "dois": [
+        "10.22296/2317-1529.1999n1p177"
+      ],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "resenha-academica"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/rolnik-1999-exclusao-territorial-violencia.md",
+      "group": "analyses",
+      "bytes": 20811,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "ficha-cientifica"
+    },
+    {
+      "path": "docs/analyses/politica-habitacional/rolnik-costa-2007-pensar-cidade-todos.md",
+      "group": "analyses",
+      "bytes": 16871,
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "has_sections_1_to_8": true,
+      "has_public_identifier": false,
+      "dois": [],
+      "declared_status": "em-revisao-documental",
+      "declared_type": "documento-historico"
     },
     {
       "path": "docs/analyses/politica-habitacional/simoes-leder-2024-assentamento-seriado.md",
