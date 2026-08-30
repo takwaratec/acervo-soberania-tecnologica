@@ -1,6 +1,6 @@
 ---
 tipo_documental: ficha-cientifica
-estado_documental: em-revisao-documental
+estado_documental: homologado-documentalmente
 natureza_fonte: artigo científico
 titulo: "Metrópoles desgovernadas"
 autor: "Ermínia Maricato"

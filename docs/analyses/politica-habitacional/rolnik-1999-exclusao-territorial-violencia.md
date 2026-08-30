@@ -1,6 +1,6 @@
 ---
 tipo_documental: ficha-cientifica
-estado_documental: em-revisao-documental
+estado_documental: homologado-documentalmente
 titulo: "Exclusão territorial e violência"
 autor: "Raquel Rolnik"
 afiliação: "Professora de Planejamento e Coordenadora do curso de mestrado em urbanismo da PUC–Campinas"

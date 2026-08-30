@@ -23,8 +23,8 @@
     "curado": 10,
     "depositado-no-zenodo": 1,
     "edicao-publica-conformada": 16,
-    "em-revisao-documental": 236,
-    "homologado-documentalmente": 17,
+    "em-revisao-documental": 226,
+    "homologado-documentalmente": 27,
     "publicado-no-acervo": 1,
     "publicado-no-zenodo": 15
   },
@@ -3026,7 +3026,7 @@
     {
       "path": "docs/analyses/politica-habitacional/barros-2012-formacao-profissional-construcao.md",
       "group": "analyses",
-      "bytes": 16657,
+      "bytes": 16662,
       "sections": [
         "1",
         "2",
@@ -3040,13 +3040,13 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": false,
       "dois": [],
-      "declared_status": "em-revisao-documental",
+      "declared_status": "homologado-documentalmente",
       "declared_type": "ficha-academica"
     },
     {
       "path": "docs/analyses/politica-habitacional/barros-monteiro-2022-jane-jacobs.md",
       "group": "analyses",
-      "bytes": 16673,
+      "bytes": 16678,
       "sections": [
         "1",
         "2",
@@ -3060,7 +3060,7 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": false,
       "dois": [],
-      "declared_status": "em-revisao-documental",
+      "declared_status": "homologado-documentalmente",
       "declared_type": "resenha-academica"
     },
     {
@@ -3139,7 +3139,7 @@
     {
       "path": "docs/analyses/politica-habitacional/maricato-2000-urbanismo-periferia-globalizada.md",
       "group": "analyses",
-      "bytes": 27411,
+      "bytes": 27416,
       "sections": [
         "1",
         "2",
@@ -3153,13 +3153,13 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": false,
       "dois": [],
-      "declared_status": "em-revisao-documental",
+      "declared_status": "homologado-documentalmente",
       "declared_type": "ficha-cientifica"
     },
     {
       "path": "docs/analyses/politica-habitacional/maricato-2003-metropole-legislacao-desigualdade.md",
       "group": "analyses",
-      "bytes": 27817,
+      "bytes": 27822,
       "sections": [
         "1",
         "2",
@@ -3173,13 +3173,13 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": false,
       "dois": [],
-      "declared_status": "em-revisao-documental",
+      "declared_status": "homologado-documentalmente",
       "declared_type": "ficha-cientifica"
     },
     {
       "path": "docs/analyses/politica-habitacional/maricato-2011-metropoles-desgovernadas.md",
       "group": "analyses",
-      "bytes": 14882,
+      "bytes": 14887,
       "sections": [
         "1",
         "2",
@@ -3193,13 +3193,13 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": false,
       "dois": [],
-      "declared_status": "em-revisao-documental",
+      "declared_status": "homologado-documentalmente",
       "declared_type": "ficha-cientifica"
     },
     {
       "path": "docs/analyses/politica-habitacional/oliveira-2020-meio-construido-jane-jacobs.md",
       "group": "analyses",
-      "bytes": 23175,
+      "bytes": 23180,
       "sections": [
         "1",
         "2",
@@ -3215,13 +3215,13 @@
       "dois": [
         "10.26895/geosaberes.v11i0.826"
       ],
-      "declared_status": "em-revisao-documental",
+      "declared_status": "homologado-documentalmente",
       "declared_type": "ficha-cientifica"
     },
     {
       "path": "docs/analyses/politica-habitacional/porangaba-2020-habitacao-baixa-renda.md",
       "group": "analyses",
-      "bytes": 18790,
+      "bytes": 18795,
       "sections": [
         "1",
         "2",
@@ -3237,13 +3237,13 @@
       "dois": [
         "10.22296/2317-1529.rbeur.202038"
       ],
-      "declared_status": "em-revisao-documental",
+      "declared_status": "homologado-documentalmente",
       "declared_type": "ficha-cientifica"
     },
     {
       "path": "docs/analyses/politica-habitacional/ribeiro-1999-origens-habitacao-social-bonduki.md",
       "group": "analyses",
-      "bytes": 15459,
+      "bytes": 15464,
       "sections": [
         "1",
         "2",
@@ -3259,13 +3259,13 @@
       "dois": [
         "10.22296/2317-1529.1999n1p177"
       ],
-      "declared_status": "em-revisao-documental",
+      "declared_status": "homologado-documentalmente",
       "declared_type": "resenha-academica"
     },
     {
       "path": "docs/analyses/politica-habitacional/rolnik-1999-exclusao-territorial-violencia.md",
       "group": "analyses",
-      "bytes": 20811,
+      "bytes": 20816,
       "sections": [
         "1",
         "2",
@@ -3279,13 +3279,13 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": false,
       "dois": [],
-      "declared_status": "em-revisao-documental",
+      "declared_status": "homologado-documentalmente",
       "declared_type": "ficha-cientifica"
     },
     {
       "path": "docs/analyses/politica-habitacional/rolnik-costa-2007-pensar-cidade-todos.md",
       "group": "analyses",
-      "bytes": 16871,
+      "bytes": 16876,
       "sections": [
         "1",
         "2",
@@ -3299,7 +3299,7 @@
       "has_sections_1_to_8": true,
       "has_public_identifier": false,
       "dois": [],
-      "declared_status": "em-revisao-documental",
+      "declared_status": "homologado-documentalmente",
       "declared_type": "documento-historico"
     },
     {

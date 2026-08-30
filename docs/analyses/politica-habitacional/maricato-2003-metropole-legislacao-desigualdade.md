@@ -1,7 +1,7 @@
 ---
 tipo_documental: ficha-cientifica
 natureza_fonte: artigo científico
-estado_documental: em-revisao-documental
+estado_documental: homologado-documentalmente
 titulo: "Metrópole, legislação e desigualdade"
 autor: "Ermínia Maricato"
 instituicao: "Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo (FAU-USP)"

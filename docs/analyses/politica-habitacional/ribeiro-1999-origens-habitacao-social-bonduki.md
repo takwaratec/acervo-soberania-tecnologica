@@ -1,6 +1,6 @@
 ---
 tipo_documental: resenha-academica
-estado_documental: em-revisao-documental
+estado_documental: homologado-documentalmente
 titulo_resenhado: "Origens da habitação social no Brasil: arquitetura moderna, lei do inquilinato e difusão da casa própria"
 autor_da_obra: "Nabil Bonduki"
 edicao_da_obra: "São Paulo: Estação Liberdade, 1998"
