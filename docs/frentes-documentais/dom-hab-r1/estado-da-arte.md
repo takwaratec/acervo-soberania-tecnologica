@@ -1,7 +1,7 @@
 ---
 title: Estado da Arte — DOM-HAB-R1
 tipo_documental: estado-da-arte
-estado_documental: em-revisao-documental
+estado_documental: homologado-documentalmente
 responsavel_curadoria: Fabio Takwara
 ---
 
@@ -13,7 +13,7 @@ O corpus documenta domos como uma família heterogênea de soluções: cascas fi
 
 ## 2. Genealogia tecnológica
 
-Fuller (1954) e South (1979) registram fundamentos históricos e construtivos para estruturas espaciais e domos. As fontes posteriores deslocam o foco para desempenho: Park et al. estudam pressão de vento em domos esféricos; Faghih e Bahadori, desempenho térmico de coberturas abobadadas; González-Avilés et al., benefícios energéticos de domos geodésicos; e Velasco Vega, desempenho térmico de uma casca fina de concreto enterrada.
+Fuller (1954) e South (1979) registram fundamentos históricos e construtivos para estruturas espaciais e domos, em linhagens tecnológicas diferentes. As fontes posteriores deslocam o foco para desempenho: Park et al. estudam pressão de vento em domos esféricos; Faghih e Bahadori, desempenho térmico de coberturas abobadadas; González-Avilés et al., benefícios energéticos de acomodações turísticas com domos geodésicos; e Velasco Vega, desempenho térmico de uma casca fina de concreto enterrada.
 
 ## 3. Geometria e comportamento aerodinâmico
 
@@ -21,15 +21,17 @@ A geometria curva aparece no corpus como variável relevante para distribuição
 
 ## 4. Desempenho termoenergético
 
-As fontes térmicas convergem na relevância de massa térmica, isolamento e interação com o solo. Faghih e Bahadori tratam de coberturas domadas; González-Avilés et al. discutem benefícios energéticos de domos geodésicos; Velasco Vega combina modelagem transiente e comparação experimental para um domo de concreto com espuma de poliuretano aplicada por aspersão e cobertura de solo. Os resultados são específicos dos envelopes, parâmetros e climas estudados.
+As fontes térmicas convergem na relevância de massa térmica, isolamento e interação com o solo, mas não estudam o mesmo sistema. Faghih e Bahadori tratam de coberturas abobadadas. González-Avilés et al. comparam uma acomodação prismática, um domo geodésico único (Caso 2) e dois domos geodésicos com usos diferenciados (Caso 3), todos com a mesma área ocupável e solução construtiva, em Murcia, Espanha. A fonte relata 5.215 Wh/m² contra 10.025 Wh/m² de consumo específico de resfriamento no Caso 3 e Caso 2, respectivamente, diferença de 52%; também relata 60.966 Wh/m² contra 70.534 Wh/m² no consumo anual agregado, aproximadamente 14%. A comparação combina número de volumes, volume interno, distribuição de usos, ganhos internos, juntas, infiltração e geometria; não atribui a diferença exclusivamente à forma do domo.
+
+Velasco Vega estuda um domo de casca fina de concreto com SPF externo e cobertura de solo em Provo, Utah. O modelo transiente unidimensional indica aumento do atraso de fase e redução do fator de decremento com o aumento da cobertura de solo; o SPF externo é a principal camada de resistência térmica no envelope analisado. A validação experimental é limitada e a geometria curva não foi incorporada ao modelo. Esses resultados não são diretamente transferíveis ao Sistema Takwara.
 
 ## 5. Cascas, isolamento e materiais celulares
 
-Mncwango e Allopi documentam habitações com poliestireno expandido. Chen e Tai estudam poliuretano derivado de óleo de mamona com carvão de bambu, enquanto Mohd Radzi Ali et al. estudam espuma de poliuretano com fibra de bambu. Essas fontes informam materiais e propriedades de corpos de prova ou sistemas particulares; não demonstram, isoladamente, uma envoltória habitacional completa.
+Mncwango e Allopi documentam propriedades de poliestireno expandido para aplicações construtivas. Chen e Tai estudam poliuretano derivado de óleo de mamona com carvão de bambu, enquanto Mohd Radzi Ali et al. estudam espuma de poliuretano com fibra de bambu. Essas fontes informam materiais e propriedades de corpos de prova ou sistemas particulares; não demonstram, isoladamente, resistência à água, reação ao fogo, durabilidade ou superioridade térmica de um conjunto habitacional alternativo. Qualquer afirmação quantitativa deve permanecer vinculada ao localizador da ficha correspondente.
 
 ## 6. Segurança, vento extremo e limites normativos
 
-FEMA P-361 fornece referência normativa e de desempenho para espaços seguros contra tornados e furacões. É uma referência de segurança para determinado uso e ameaça, não uma certificação de qualquer domo ou sistema alternativo. A aplicação exige verificar edição, jurisdição, carregamentos, detalhes construtivos e demais normas aplicáveis.
+FEMA P-361 fornece referência normativa e de desempenho para espaços seguros contra tornados e furacões. É uma referência de segurança para determinado uso e ameaça, não uma certificação de qualquer domo ou sistema alternativo. A aplicação exige verificar edição, jurisdição, carregamentos, detalhes construtivos e demais normas aplicáveis. A ISO 1182:2020 avalia não combustibilidade sob condições especificadas; isoladamente, não caracteriza o desempenho completo do conjunto bambu–PU montado.
 
 ## 7. Convergências documentais
 
@@ -37,6 +39,8 @@ FEMA P-361 fornece referência normativa e de desempenho para espaços seguros c
 - Geometria e implantação influenciam cargas ambientais e desempenho.
 - Materiais celulares podem exercer papel importante na resistência térmica.
 - Resultados confiáveis dependem de condições de contorno, escala, clima e configuração claramente descritos.
+
+As fontes sobre bambu e poliuretano sustentam apenas propriedades e comportamentos dos materiais e configurações efetivamente estudados. Não há, neste corpus, demonstração do conjunto bambu–PU em uma cúpula habitacional.
 
 ## 8. Divergências e não-transferibilidades
 
@@ -66,3 +70,4 @@ As fontes podem orientar hipóteses sobre geometria, isolamento, massa térmica 
 - [FEMA P-361 (2021)](../../analyses/fundamentos/fema-2021-safe-rooms-tornadoes-hurricanes.md)
 - [Chen & Tai (2018)](../../analyses/pu-vegetal/chen-tai-2018-castor-oil-polyurethane-bamboo-charcoal.md)
 - [Mohd Radzi Ali et al. (2026)](../../analyses/pu-vegetal/mohd-radzi-ali-et-al-2026-bamboo-fibre-polyurethane-foam.md)
+
