@@ -90,7 +90,9 @@ nav:
           - FEMA P-361 (2021): analyses/fundamentos/fema-2021-safe-rooms-tornadoes-hurricanes.md
           - Chen & Tai (2018): analyses/pu-vegetal/chen-tai-2018-castor-oil-polyurethane-bamboo-charcoal.md
           - Mohd Radzi Ali et al. (2026): analyses/pu-vegetal/mohd-radzi-ali-et-al-2026-bamboo-fibre-polyurethane-foam.md
-      - Publicações derivadas: frentes-documentais/dom-hab-r1/publicacoes/index.md
+      - Publicações derivadas:
+             - Índice: frentes-documentais/dom-hab-r1/publicacoes/index.md
+             - Resenha científico-autoral: frentes-documentais/dom-hab-r1/publicacoes/domos-bambu-pu-resenha.md
   - Fundamentos do Acervo:
       - Visão geral: analyses/fundamentos/index.md
       - Artigos metodológicos:

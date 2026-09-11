@@ -12,6 +12,8 @@ Sua pergunta documental é: que evidências publicadas descrevem o comportamento
 
 O corpus reúne patentes e precedentes históricos, estudos de aerodinâmica, análises térmicas, pesquisas sobre materiais e envoltórias e referências normativas de segurança.
 
+**Status da frente:** ativa e documentalmente consolidada. O DOI do artigo autoral ainda não foi atribuído; o depósito arquivístico no Zenodo está planejado para etapa posterior.
+
 ## Composição do corpus
 
 As dez fichas da frente cobrem quatro famílias: história e patentes; aerodinâmica; desempenho termoenergético; materiais, envoltórias e segurança normativa. Os tipos de evidência incluem descrição histórica, modelagem numérica, validação experimental, caracterização de materiais, documentação de patente e orientação normativa.

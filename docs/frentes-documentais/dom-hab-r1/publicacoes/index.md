@@ -4,12 +4,16 @@ title: Publicações derivadas — DOM-HAB-R1
 
 # Publicações derivadas
 
-## Artigo em preparação
+## Resenha científico-autoral
 
 **Título:** *Domos, bambu e poliuretano vegetal: genealogia tecnológica, evidências e agenda brasileira para sistemas habitacionais resilientes*
 
-**Estado:** em preparação.
+**Estado:** versão web publicada.
 
 **DOI:** ainda não atribuído.
 
-Esta página registra a relação pública com a frente documental. O artigo é uma publicação autoral distinta das fontes e das fichas; sua preparação não altera o corpus nem substitui a consulta às fontes originais.
+**Próxima etapa:** depósito arquivístico no Zenodo, em etapa posterior.
+
+[Ler a resenha científico-autoral](domos-bambu-pu-resenha.md)
+
+O artigo é uma publicação autoral distinta das fontes e das fichas; sua publicação web não altera o corpus nem substitui a consulta às fontes originais.
