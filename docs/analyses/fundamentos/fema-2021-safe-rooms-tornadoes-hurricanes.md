@@ -32,9 +32,8 @@ FEMA/ICC != certificação de domos. Guidance não homologa geometria habitacion
 
 ## Relação com o artigo Zenodo
 
-Esta ficha integra a base documental utilizada no artigo “Domos, bambu e poliuretano vegetal: genealogia tecnológica, evidências e agenda brasileira para sistemas habitacionais resilientes”. Relação: contextualizes. DOI do artigo: PLACEHOLDER_AT_THIS_STAGE.
+Esta ficha integra a base documental utilizada no artigo “Domos, bambu e poliuretano vegetal: genealogia tecnológica, evidências e agenda brasileira para sistemas habitacionais resilientes”. Relação: contextualizes. DOI do artigo: ainda não atribuído.
 
 ## Proveniência
 
-FONTE_PRIMARIA != FICHA_PUBLICA. Esta ficha resume criticamente a fonte e não substitui a consulta ao documento original.
-
+Esta ficha é uma síntese crítica derivada e não substitui a consulta à fonte original.
