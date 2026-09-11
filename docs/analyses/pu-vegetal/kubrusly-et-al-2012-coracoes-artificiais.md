@@ -1,5 +1,5 @@
 ---
-tipo_documental: artigo-cientifico
+tipo_documental: ficha-cientifica
 titulo: "Biocompatibilidade do polímero da mamona comparada ao implante de titânio para corações artificiais. Estudo experimental em cobaias"
 autores:
   - "Luiz Fernando Kubrusly"
@@ -24,6 +24,7 @@ data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"
 homologador: "fabio-takwara"
+responsavel_curadoria: "Fabio Takwara"
 ---
 
 # Biocompatibilidade do polímero da mamona comparada ao implante de titânio para corações artificiais. Estudo experimental em cobaias (Kubrusly et al., 2012)

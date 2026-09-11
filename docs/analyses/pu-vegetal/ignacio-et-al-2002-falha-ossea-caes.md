@@ -1,5 +1,5 @@
 ---
-tipo_documental: artigo-cientifico
+tipo_documental: ficha-cientifica
 titulo: "Utilização da poliuretana da mamona nas formas compacta e porosa no preenchimento de falha óssea: estudo experimental em cães"
 autores:
   - "Helencar Ignácio"
@@ -20,6 +20,8 @@ data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"
 homologador: "fabio-takwara"
+identificador: "ausente-na-fonte"
+responsavel_curadoria: "Fabio Takwara"
 ---
 
 # Utilização da Poliuretana da Mamona nas Formas Compacta e Porosa no Preenchimento de Falha Óssea: Estudo Experimental em Cães (Ignácio, Mazzer, Barbieri & Chierice, 2002)

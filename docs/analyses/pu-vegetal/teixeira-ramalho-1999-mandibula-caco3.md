@@ -1,5 +1,5 @@
 ---
-tipo_documental: artigo-cientifico
+tipo_documental: ficha-cientifica
 titulo: "Reação à resina vegetal de mamona durante o processo de reparo em defeitos ósseos induzidos no corpo da mandíbula"
 autores:
   - "Hílcia Mezzalira Teixeira"
@@ -18,6 +18,8 @@ data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"
 homologador: "fabio-takwara"
+identificador: "ausente-na-fonte"
+responsavel_curadoria: "Fabio Takwara"
 ---
 
 # Reação à Resina Vegetal de Mamona durante o Processo de Reparo em Defeitos Ósseos Induzidos no Corpo da Mandíbula (Teixeira & Ramalho, 1999)

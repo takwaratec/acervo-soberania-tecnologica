@@ -1,5 +1,5 @@
 ---
-tipo_documental: patente
+tipo_documental: documento-de-patente
 titulo: "US Patent 8,338,498 B2: Polymeric bone defect filler"
 numero_patente: "US 8,338,498 B2"
 data_concessao: "2012-12-25"
@@ -20,6 +20,7 @@ data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"
 homologador: "fabio-takwara"
+responsavel_curadoria: "Fabio Takwara"
 ---
 
 # US Patent 8,338,498 B2: Polymeric bone defect filler (Deslauriers et al. / Doctors Research Group, 2012)
