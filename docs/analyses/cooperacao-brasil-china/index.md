@@ -25,11 +25,17 @@ endosso institucional ou prova de eficácia das iniciativas descritas.
 - [Diplomacia cultural entre Foz do Iguaçu e a China — Gaona (2025)](gaona-2025-diplomacia-cultural-foz-china.md)
 - [Progresso técnico: a indústria é o caminho? — Abramovay (1985)](abramovay-1985-progresso-tecnico-industria.md)
 - [Produtos naturais e antimaláricos: cooperação Brasil–China — Sá (2016)](sa-2016-cooperacao-antimalaricos-brasil-china.md)
+- [Estado da Arte AGO27 — cooperação e bambu](estado-da-arte-bam-chn-ago27.md)
+- [O Brasil e a República Popular da China — Becard (2008)](becard-2008-brasil-china-politica-externa-comparada.md)
+- [Centro Brasil-China de Nanotecnologia — CBCIN (2020)](cbcin-2020-centro-brasil-china-nanotecnologia.md)
+- [Chamada CNPq/MCTI nº 66/2013 — Rede de Bambu](chamada-cnpq-66-2013-rede-nacional-bambu.md)
+- [História do INPE](inpe-historia-origem-corrida-espacial.md)
+- [Relatório Embrapa — Gestão 1999](embrapa-relatorio-atividades-1999.md)
+- [Relatório SRI/Embrapa — 1992](sri-embrapa-relatorio-1992-ano-i.md)
+- [Avaliação do PPA 2012–2015 — bambu (2013)](ppa-2013-relatorio-anual-avaliacao-bambu.md)
 
 ## Limites do lote
 
-O recorte ainda não esgota o corpus privado da frente China–Brasil. Relatórios
-institucionais, documentos administrativos, uma monografia e um relatório
-governamental composto permanecem em processamento ou aguardam decisão
-documental. Eles não são representados aqui como fontes já revisadas.
-
+O recorte ainda não esgota o corpus privado da frente China–Brasil. As fichas
+com restrições preservam seus limites de escopo e não equivalem a prova de
+transferência tecnológica ou de resultados socioeconômicos.

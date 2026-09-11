@@ -1,21 +1,17 @@
 ---
-tipo_documental: ficha-academica
+tipo_documental: documento-institucional
 estado_documental: homologado-documentalmente
-gaveta: cooperacao-brasil-china
-fonte_primaria: PDF integral conferido
-data_revisao: 2026-08-27
 responsavel_curadoria: Fabio Takwara
-autoria: Ivone Manzali de Sá
-titulo: "Produtos naturais e antimaláricos: a cooperação científica entre Brasil e China na década de 1980"
-ano: 2016
-publicacao: "Anais do Instituto de Higiene e Medicina Tropical, volume 15, páginas 141–146"
-afiliacao_autora: não localizada na fonte
-identificador: ausente-na-fonte
-licenca: não declarada na fonte
-idioma: português e inglês no título/resumo/abstract
-paginas_pdf: 6
-paginacao_editorial: "141–146"
-sistema_citacao_paginas: "paginação editorial dos Anais do IHMT"
+title: "Produtos naturais e antimaláricos: a cooperação científica entre Brasil e China na década de 1980"
+document_type: ficha-documental
+front: cooperacao-brasil-china
+source_author: "Ivone Manzali de Sá"
+source_year: "2016"
+source_type: artigo-anais
+documentary_status: homologada
+bamboo_relevance: "sem relevância setorial para bambu — cooperação em saúde/antimaláricos"
+public_provenance: "Anais do Instituto de Higiene e Medicina Tropical, v.15, p.141-146, 2016. Fonte institucional pública a confirmar."
+last_reviewed: 2026-09-11
 ---
 
 # 1. Dados gerais
@@ -110,4 +106,3 @@ O artigo contribui para a história da cooperação científica Brasil–China a
 # 9. Relações
 
 Relaciona-se à cooperação científica e tecnológica Brasil–China, à Fiocruz, ao CPQBA/Unicamp, à Medicina Tradicional Chinesa, à artemisinina e à história da saúde pública internacional. Relaciona-se também ao eixo de transferência de tecnologia, mas somente no sentido de propostas, debates, financiamento recusado e resultado incompleto documentados pela fonte; não autoriza afirmar conclusão ou eficácia. A Figura 1 conecta a narrativa a intercâmbios institucionais; a Figura 2 conecta-a ao simpósio de 10–14 de dezembro de 1989.
-

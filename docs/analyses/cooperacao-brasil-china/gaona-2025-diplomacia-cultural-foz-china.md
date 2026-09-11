@@ -1,22 +1,17 @@
 ---
-tipo_documental: ficha-academica
+tipo_documental: documento-institucional
 estado_documental: homologado-documentalmente
-gaveta: cooperacao-brasil-china
-fonte_primaria: PDF integral conferido
-data_revisao: 2026-08-27
 responsavel_curadoria: Fabio Takwara
-autoria: Kevin Rene Mallorquin Gaona
-titulo: "Entre onças e pandas: a relação de Foz do Iguaçu e a China através da diplomacia cultural"
-ano: 2025
-instituicao: "Universidade Federal da Integração Latino-Americana (UNILA), Instituto Latino-Americano de Economia, Sociedade e Política (ILAESP)"
-curso: "Relações Internacionais e Integração"
-natureza: "Trabalho de Conclusão de Curso — requisito parcial para Bacharel em Relações Internacionais e Integração"
-identificador: ausente-na-fonte
-licenca: não declarada na fonte
-idioma: português
-paginas_pdf: 75
-paginacao_editorial: "1–71, com folhas preliminares sem paginação editorial contínua"
-sistema_citacao_paginas: "paginação interna do trabalho, indicada separadamente da folha física do PDF"
+title: "Entre onças e pandas: a relação de Foz do Iguaçu e a China através da diplomacia cultural"
+document_type: ficha-documental
+front: cooperacao-brasil-china
+source_author: "Kevin Rene Mallorquin Gaona"
+source_year: "2025"
+source_type: trabalho-conclusao-curso
+documentary_status: homologada
+bamboo_relevance: "sem relevância setorial para bambu — diplomacia cultural local"
+public_provenance: "Universidade Federal da Integração Latino-Americana (UNILA), Instituto Latino-Americano de Economia, Sociedade e Política. Trabalho de Conclusão de Curso, 2025. Fonte institucional pública a confirmar."
+last_reviewed: 2026-09-11
 ---
 
 # 1. Dados gerais
@@ -185,4 +180,3 @@ A contribuição do TCC está em conectar diplomacia cultural, paradiplomacia e 
 # 9. Relações
 
 Relaciona-se tematicamente à diplomacia cultural, à paradiplomacia municipal, ao PLARIFI, à irmanação Foz–Xiamen, à cooperação Sul–Sul e à BRI. Relaciona-se documentalmente às referências de Villarruel (2019), Xia (2022), Mauss (2003), aos decretos municipais citados e aos registros da Diretoria de Assuntos Internacionais, todos mantidos como camadas de evidência atribuídas ao TCC. O vínculo com a China–Brasil é municipal, cultural e histórico; não equivale a prova de política nacional, eficácia diplomática ou transferência tecnológica.
-
