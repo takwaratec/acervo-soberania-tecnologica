@@ -3,12 +3,13 @@ ficha_id: FICHA_P03-01_Castor_Oil_PU_Bamboo_Charcoal
 titulo: Castor Oil-Based Polyurethane Resin for Low-Density Composites with Bamboo Charcoal
 eixo: PU-COMP-BIO-R1
 tipo_documental: ficha-cientifica
-estado_documental: candidato-a-homologacao
+estado_documental: homologado-documentalmente
 fonte_primaria: 10.3390/polym10101100
 identificador: 10.3390/polym10101100
 doi: 10.3390/polym10101100
 source_url: https://doi.org/10.3390/polym10101100
 data_revisao: 2026-09-11
+responsavel_curadoria: Fabio Takwara
 proveniencia: fonte integral e identidade documental conferidas no acervo privado
 ---
 

@@ -2,13 +2,14 @@
 ficha_id: FICHA_A08_FEMA_P361_2021
 titulo: Safe Rooms for Tornadoes and Hurricanes
 eixo: DOM-HAB-R1
-tipo_documental: ficha documental/guidance técnico
-estado_documental: candidato-a-homologacao
+tipo_documental: manual-tecnico
+estado_documental: homologado-documentalmente
 fonte_primaria: FEMA P-361 (2021)
 identificador: FEMA P-361 (2021)
 doi: NOT_VERIFIED
 source_url: https://www.fema.gov
 data_revisao: 2026-09-11
+responsavel_curadoria: Fabio Takwara
 proveniencia: fonte integral e identidade documental conferidas no acervo privado
 ---
 

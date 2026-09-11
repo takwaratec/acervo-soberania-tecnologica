@@ -3,12 +3,13 @@ ficha_id: FICHA_A07_Mncwango_2019_EPS
 titulo: A Laboratory Investigation and an Appraisal of the Viability of Expanded Polystyrene Dwellings
 eixo: DOM-HAB-R1
 tipo_documental: ficha-cientifica
-estado_documental: candidato-a-homologacao
+estado_documental: homologado-documentalmente
 fonte_primaria: 10.2495/CMEM-V7-N3-212-225
 identificador: 10.2495/CMEM-V7-N3-212-225
 doi: 10.2495/CMEM-V7-N3-212-225
 source_url: https://doi.org/10.2495/CMEM-V7-N3-212-225
 data_revisao: 2026-09-11
+responsavel_curadoria: Fabio Takwara
 proveniencia: fonte integral e identidade documental conferidas no acervo privado
 ---
 

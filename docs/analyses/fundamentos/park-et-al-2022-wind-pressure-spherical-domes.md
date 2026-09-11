@@ -3,12 +3,13 @@ ficha_id: FICHA_A03-S1_Park_2022_Wind_Pressure_Spherical_Domes
 titulo: Wind Pressure Characteristics Based on the Rise–Span Ratio of Spherical Domes with Openings on the Roof
 eixo: DOM-HAB-R1
 tipo_documental: ficha-cientifica
-estado_documental: candidato-a-homologacao
+estado_documental: homologado-documentalmente
 fonte_primaria: 10.3390/buildings12050576
 identificador: 10.3390/buildings12050576
 doi: 10.3390/buildings12050576
 source_url: https://doi.org/10.3390/buildings12050576
 data_revisao: 2026-09-11
+responsavel_curadoria: Fabio Takwara
 proveniencia: fonte integral e identidade documental conferidas no acervo privado
 ---
 

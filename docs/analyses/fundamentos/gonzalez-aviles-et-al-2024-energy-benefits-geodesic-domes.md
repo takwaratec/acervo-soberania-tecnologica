@@ -3,12 +3,13 @@ ficha_id: FICHA_A05_Gonzalez_Aviles_2024_Energy_Benefits_Geodesic_Domes
 titulo: Energy Benefits of Tourist Accommodation Using Geodesic Domes
 eixo: DOM-HAB-R1
 tipo_documental: ficha-cientifica
-estado_documental: candidato-a-homologacao
+estado_documental: homologado-documentalmente
 fonte_primaria: 10.3390/buildings14020505
 identificador: 10.3390/buildings14020505
 doi: 10.3390/buildings14020505
 source_url: https://doi.org/10.3390/buildings14020505
 data_revisao: 2026-09-11
+responsavel_curadoria: Fabio Takwara
 proveniencia: fonte integral e identidade documental conferidas no acervo privado
 ---
 

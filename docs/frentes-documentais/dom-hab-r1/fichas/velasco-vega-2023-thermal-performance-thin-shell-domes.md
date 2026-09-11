@@ -1,12 +1,13 @@
 ---
 titulo: Thermal Performance of Thin-Shell Concrete Dome Structures
 tipo_documental: ficha-academica
-estado_documental: ficha-documental-publicada
+estado_documental: homologado-documentalmente
 fonte_primaria: Honors Thesis, Brigham Young University, 2023
 identificador: https://scholarsarchive.byu.edu/studentpub_uht/316/
 doi: null
 source_url: https://scholarsarchive.byu.edu/studentpub_uht/316/
 data_revisao: 2026-09-11
+responsavel_curadoria: Fabio Takwara
 proveniencia: BYU ScholarsArchive; registro 316; fonte integral preservada; camada textual parcial
 ---
 

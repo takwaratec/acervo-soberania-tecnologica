@@ -1,5 +1,8 @@
 ---
 title: Estado da Arte — DOM-HAB-R1
+tipo_documental: estado-da-arte
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio Takwara
 ---
 
 # Estado da Arte — DOM-HAB-R1

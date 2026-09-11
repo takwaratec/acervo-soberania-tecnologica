@@ -3,12 +3,13 @@ ficha_id: FICHA_A04-S1_WREC_2011
 titulo: Thermal Performance Evaluation of Domed Roofs
 eixo: DOM-HAB-R1
 tipo_documental: ficha-cientifica
-estado_documental: candidato-a-homologacao
+estado_documental: homologado-documentalmente
 fonte_primaria: 10.3384/ecp110571946
 identificador: 10.3384/ecp110571946
 doi: 10.3384/ecp110571946
 source_url: https://ep.liu.se/ecp/057/vol8/027/ecp57vol8_027.pdf
 data_revisao: 2026-09-11
+responsavel_curadoria: Fabio Takwara
 proveniencia: fonte integral e identidade documental conferidas no acervo privado
 ---
 

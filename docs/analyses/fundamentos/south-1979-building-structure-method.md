@@ -2,13 +2,14 @@
 ficha_id: FICHA_A02_South_US4155967A
 titulo: Building Structure and Method of Making Same
 eixo: DOM-HAB-R1
-tipo_documental: ficha documental/patentária
-estado_documental: candidato-a-homologacao
+tipo_documental: documento-de-patente
+estado_documental: homologado-documentalmente
 fonte_primaria: US4155967A
 identificador: US4155967A
 doi: NOT_VERIFIED
 source_url: https://patents.google.com/patent/US4155967A
 data_revisao: 2026-09-11
+responsavel_curadoria: Fabio Takwara
 proveniencia: fonte integral e identidade documental conferidas no acervo privado
 ---
 

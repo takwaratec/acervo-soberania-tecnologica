@@ -3,12 +3,13 @@ ficha_id: FICHA_P03-02_Bamboo_Fibre_PU_Foam
 titulo: Improving Polyurethane Foam Composites through Bamboo Fibre Reinforcement
 eixo: PU-COMP-BIO-R1
 tipo_documental: ficha-cientifica
-estado_documental: candidato-a-homologacao
+estado_documental: homologado-documentalmente
 fonte_primaria: 10.15376/biores.21.3.5768-5784
 identificador: 10.15376/biores.21.3.5768-5784
 doi: 10.15376/biores.21.3.5768-5784
 source_url: https://doi.org/10.15376/biores.21.3.5768-5784
 data_revisao: 2026-09-11
+responsavel_curadoria: Fabio Takwara
 proveniencia: fonte integral e identidade documental conferidas no acervo privado
 ---
 
