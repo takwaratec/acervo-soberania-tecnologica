@@ -9,9 +9,8 @@ responsavel_curadoria: Fabio Takwara
 **Pacote:** BAM-CHN-001 — lote AGO27 China-Brasil
 **Corpus:** 12 fichas homologadas/homologadas-com-restrições (4 homologadas + 8 com restrições), matrizes de claims/eventos/números, reconciliações, fontes públicas validadas
 **Data:** 2026-09-11
-**Autor síntese:** Curadoria documental (HERMES) — síntese intermediária canônica
+**Autor síntese:** Curadoria documental — síntese intermediária canônica
 **Status:** Estado da Arte — não é artigo final; não homologa novo status; não reescreve artigo
-**Protocolo:** PADRAO_PESQUISA_DOCUMENTAL_v1.4
 
 ---
 
@@ -26,7 +25,7 @@ Recorte 1974-2021, foco 2011-2013 para bambu. Corpus exclusivo AGO27 (12 fichas)
 - **Homologadas (4):** Cabral 2021 (DPR DOI 10.1111/dpr.12531), Gaona 2025 (UNILA 75pp), Ribeiro 2016 (Contexto Int. DOI 10.1590/S0102-8529.2016380200008), Sá 2016 (Anais IHMT v15 p141-146)
 - **Homologadas-com-restrições (8):** Abramovay 1985 (Cadernos Dif. Tecnol. 2(2):233-245), CBCIN 2020 (MCTI ISBN 978-85-88063-68-6), PPA 2013 (DSF 05/06/2014 p.75), Becard 2008 (FUNAG ISBN 978-85-7631-110-2), Chamada CNPq 66/2013 (15pp), INPE História (gov.br/inpe 29/07/2021), Embrapa 1999 (52pp), SRI/Embrapa 1992 (31pp)
 
-Matrizes de apoio: BAM_CHN_AGO27_CLAIM_MATRIX_V2.tsv, NUMERIC_MATRIX_V1.tsv, COOPERATION_EVENTS_V1.tsv, PUBLIC_SOURCE_MATRIX_V3.tsv, reconciliações Embrapa 1992/1999 e Abramovay 1985. Nenhuma fonte não homologada usada.
+Matrizes de apoio: matrizes de claims, numéricas, de eventos de cooperação e de fontes públicas, com reconciliações documentais. Nenhuma fonte não homologada usada.
 
 ## 3. Método de revisão
 
@@ -163,11 +162,11 @@ Estado da Arte sustenta camada intermediária para o artigo sem reescrevê-lo:
 
 ## 18. Claims seguros para o artigo (ver MATRIX artigo)
 
-Ver arquivo `BAM_CHN_STATE_OF_ART_ARTICLE_SAFE_CLAIMS_V1.tsv` — 7 claims com SUPPORT_LEVEL e fichas-base, com restrições.
+Ver arquivo de claims seguros para o artigo — 7 claims com nível de sustentação e fichas-base, com restrições.
 
 ## 19. Claims que o artigo NÃO pode fazer (ver MATRIX proibidos)
 
-Ver arquivo `BAM_CHN_STATE_OF_ART_ARTICLE_FORBIDDEN_CLAIMS_V1.tsv` — 8 proibições com motivo.
+Ver arquivo de claims vedados ao artigo — 8 proibições com motivo.
 
 ## 20. Conclusão do Estado da Arte
 
