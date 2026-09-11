@@ -1,6 +1,6 @@
 ---
-tipo_documental: artigo-periodico
-estado_documental: homologada
+tipo_documental: documento-institucional
+estado_documental: homologado-documentalmente
 responsavel_curadoria: Fabio Takwara
 title: "Brazilian Science and Technology Policy and the Case of Embrapa Semiarid"
 document_type: ficha-documental

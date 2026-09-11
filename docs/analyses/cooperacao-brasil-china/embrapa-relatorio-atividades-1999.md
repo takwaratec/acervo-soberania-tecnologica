@@ -1,6 +1,6 @@
 ---
-tipo_documental: relatorio-institucional
-estado_documental: homologada-com-restricoes
+tipo_documental: documento-institucional
+estado_documental: homologado-documentalmente
 responsavel_curadoria: Fabio Takwara
 title: "Relatório de Atividades — Gestão 1999 (Embrapa)"
 document_type: ficha-documental

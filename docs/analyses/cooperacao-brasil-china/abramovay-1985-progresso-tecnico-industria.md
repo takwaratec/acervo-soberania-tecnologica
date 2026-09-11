@@ -1,6 +1,6 @@
 ---
-tipo_documental: artigo-periodico
-estado_documental: homologada-com-restricoes
+tipo_documental: documento-institucional
+estado_documental: homologado-documentalmente
 responsavel_curadoria: Fabio Takwara
 title: "Progresso técnico: a indústria é o caminho?"
 document_type: ficha-documental

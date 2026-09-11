@@ -1,6 +1,6 @@
 ---
-tipo_documental: artigo-anais
-estado_documental: homologada
+tipo_documental: documento-institucional
+estado_documental: homologado-documentalmente
 responsavel_curadoria: Fabio Takwara
 title: "Produtos naturais e antimaláricos: a cooperação científica entre Brasil e China na década de 1980"
 document_type: ficha-documental

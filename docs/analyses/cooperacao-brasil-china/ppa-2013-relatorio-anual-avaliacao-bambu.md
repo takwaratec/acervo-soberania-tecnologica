@@ -1,6 +1,6 @@
 ---
-tipo_documental: relatorio-oficial
-estado_documental: homologada-com-restricoes
+tipo_documental: documento-institucional
+estado_documental: homologado-documentalmente
 responsavel_curadoria: Fabio Takwara
 title: "Relatório Anual de Avaliação do PPA 2012-2015, Ano-Base 2013 — Programas de Desenvolvimento Produtivo e Ambiental (trecho bambu)"
 document_type: ficha-documental
