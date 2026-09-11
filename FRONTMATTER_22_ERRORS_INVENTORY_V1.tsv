@@ -1,0 +1,22 @@
+FILE	PATH	ERROR_TYPE	MISSING_OR_INVALID_FIELD	CURRENT_VALUE	EXPECTED_SCHEMA	OUT_OF_SCOPE_SCIENTIFIC_CONTENT
+saran-et-al-2014-mmp2.md	docs/analyses/pu-vegetal/saran-et-al-2014-mmp2.md	MISSING_REQUIRED_FIELD	responsavel_curadoria	 absent	string; required	YES
+saran-et-al-2014-mmp2.md	docs/analyses/pu-vegetal/saran-et-al-2014-mmp2.md	INVALID_ENUM	tipo_documental	artigo-cientifico	ficha-cientifica	YES
+kubrusly-et-al-2012-coracoes-artificiais.md	docs/analyses/pu-vegetal/kubrusly-et-al-2012-coracoes-artificiais.md	MISSING_REQUIRED_FIELD	responsavel_curadoria	 absent	string; required	YES
+kubrusly-et-al-2012-coracoes-artificiais.md	docs/analyses/pu-vegetal/kubrusly-et-al-2012-coracoes-artificiais.md	INVALID_ENUM	tipo_documental	artigo-cientifico	ficha-cientifica	YES
+patente-us-8338498-kryptonite.md	docs/analyses/pu-vegetal/patente-us-8338498-kryptonite.md	MISSING_REQUIRED_FIELD	responsavel_curadoria	 absent	string; required	YES
+patente-us-8338498-kryptonite.md	docs/analyses/pu-vegetal/patente-us-8338498-kryptonite.md	INVALID_ENUM	tipo_documental	patente	documento-de-patente	YES
+fda-k091382-kryptonite.md	docs/analyses/pu-vegetal/fda-k091382-kryptonite.md	MISSING_REQUIRED_FIELD	responsavel_curadoria	 absent	string; required	YES
+fda-k091382-kryptonite.md	docs/analyses/pu-vegetal/fda-k091382-kryptonite.md	INVALID_ENUM	tipo_documental	documento-regulatorio	documento-institucional	YES
+teixeira-kuramae-ramalho-1999-mandibula-sem-caco3.md	docs/analyses/pu-vegetal/teixeira-kuramae-ramalho-1999-mandibula-sem-caco3.md	MISSING_REQUIRED_FIELD	responsavel_curadoria	 absent	string; required	YES
+teixeira-kuramae-ramalho-1999-mandibula-sem-caco3.md	docs/analyses/pu-vegetal/teixeira-kuramae-ramalho-1999-mandibula-sem-caco3.md	INVALID_ENUM	tipo_documental	artigo-cientifico	ficha-cientifica	YES
+saran-2011-osteogenese.md	docs/analyses/pu-vegetal/saran-2011-osteogenese.md	MISSING_REQUIRED_FIELD	responsavel_curadoria	 absent	string; required	YES
+saran-2011-osteogenese.md	docs/analyses/pu-vegetal/saran-2011-osteogenese.md	INVALID_ENUM	tipo_documental	tese-doutorado	ficha-academica	YES
+gurgel-et-al-2011-orbital-reconstruction.md	docs/analyses/pu-vegetal/gurgel-et-al-2011-orbital-reconstruction.md	MISSING_REQUIRED_FIELD	responsavel_curadoria	 absent	string; required	YES
+gurgel-et-al-2011-orbital-reconstruction.md	docs/analyses/pu-vegetal/gurgel-et-al-2011-orbital-reconstruction.md	INVALID_ENUM	tipo_documental	relato-de-caso	ficha-cientifica	YES
+ignacio-et-al-2002-falha-ossea-caes.md	docs/analyses/pu-vegetal/ignacio-et-al-2002-falha-ossea-caes.md	MISSING_REQUIRED_FIELD	responsavel_curadoria	 absent	string; required	YES
+ignacio-et-al-2002-falha-ossea-caes.md	docs/analyses/pu-vegetal/ignacio-et-al-2002-falha-ossea-caes.md	INVALID_ENUM	tipo_documental	artigo-cientifico	ficha-cientifica	YES
+frascino-braile-2003-cranioplastia.md	docs/analyses/pu-vegetal/frascino-braile-2003-cranioplastia.md	MISSING_REQUIRED_FIELD	responsavel_curadoria	 absent	string; required	YES
+frascino-braile-2003-cranioplastia.md	docs/analyses/pu-vegetal/frascino-braile-2003-cranioplastia.md	INVALID_ENUM	tipo_documental	artigo-cientifico	ficha-cientifica	YES
+dontos-2005-fio-lifting-biologico.md	docs/analyses/pu-vegetal/dontos-2005-fio-lifting-biologico.md	MISSING_REQUIRED_FIELD	responsavel_curadoria	 absent	string; required	YES
+teixeira-ramalho-1999-mandibula-caco3.md	docs/analyses/pu-vegetal/teixeira-ramalho-1999-mandibula-caco3.md	MISSING_REQUIRED_FIELD	responsavel_curadoria	 absent	string; required	YES
+teixeira-ramalho-1999-mandibula-caco3.md	docs/analyses/pu-vegetal/teixeira-ramalho-1999-mandibula-caco3.md	INVALID_ENUM	tipo_documental	artigo-cientifico	ficha-cientifica	YES

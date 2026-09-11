@@ -1,5 +1,5 @@
 ---
-tipo_documental: artigo-cientifico
+tipo_documental: ficha-cientifica
 titulo: "Castor oil polymer induces bone formation with high matrix metalloproteinase-2 expression"
 autores:
   - "Wallace Rocha Saran"
@@ -23,6 +23,7 @@ data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"
 homologador: "fabio-takwara"
+responsavel_curadoria: "Fabio Takwara"
 ---
 
 # Castor oil polymer induces bone formation with high matrix metalloproteinase-2 expression (Saran et al., 2014)

@@ -19,6 +19,8 @@ data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"
 homologador: "fabio-takwara"
+responsavel_curadoria: "Fabio Takwara"
+identificador: "ausente-na-fonte"
 ---
 
 # “FIO LIFTING BIOLÓGICO” (fio serrilhado de poliuretana do óleo de mamona) Avaliação de sua biocompatibilidade e eficácia no rejuvenescimento facial (Dontos, 2005)
