@@ -1,4 +1,7 @@
 ---
+tipo_documental: pagina-institucional
+estado_documental: homologada-com-restricoes
+responsavel_curadoria: Fabio Takwara
 title: "História — A origem do INPE na corrida espacial"
 document_type: ficha-documental
 front: cooperacao-brasil-china

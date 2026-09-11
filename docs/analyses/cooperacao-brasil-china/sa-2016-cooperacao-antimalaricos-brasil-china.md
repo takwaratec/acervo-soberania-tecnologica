@@ -1,4 +1,7 @@
 ---
+tipo_documental: artigo-anais
+estado_documental: homologada
+responsavel_curadoria: Fabio Takwara
 title: "Produtos naturais e antimaláricos: a cooperação científica entre Brasil e China na década de 1980"
 document_type: ficha-documental
 front: cooperacao-brasil-china
@@ -103,4 +106,3 @@ O artigo contribui para a história da cooperação científica Brasil–China a
 # 9. Relações
 
 Relaciona-se à cooperação científica e tecnológica Brasil–China, à Fiocruz, ao CPQBA/Unicamp, à Medicina Tradicional Chinesa, à artemisinina e à história da saúde pública internacional. Relaciona-se também ao eixo de transferência de tecnologia, mas somente no sentido de propostas, debates, financiamento recusado e resultado incompleto documentados pela fonte; não autoriza afirmar conclusão ou eficácia. A Figura 1 conecta a narrativa a intercâmbios institucionais; a Figura 2 conecta-a ao simpósio de 10–14 de dezembro de 1989.
-

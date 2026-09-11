@@ -1,4 +1,7 @@
 ---
+tipo_documental: trabalho-conclusao-curso
+estado_documental: homologada
+responsavel_curadoria: Fabio Takwara
 title: "Entre onças e pandas: a relação de Foz do Iguaçu e a China através da diplomacia cultural"
 document_type: ficha-documental
 front: cooperacao-brasil-china
@@ -177,4 +180,3 @@ A contribuição do TCC está em conectar diplomacia cultural, paradiplomacia e 
 # 9. Relações
 
 Relaciona-se tematicamente à diplomacia cultural, à paradiplomacia municipal, ao PLARIFI, à irmanação Foz–Xiamen, à cooperação Sul–Sul e à BRI. Relaciona-se documentalmente às referências de Villarruel (2019), Xia (2022), Mauss (2003), aos decretos municipais citados e aos registros da Diretoria de Assuntos Internacionais, todos mantidos como camadas de evidência atribuídas ao TCC. O vínculo com a China–Brasil é municipal, cultural e histórico; não equivale a prova de política nacional, eficácia diplomática ou transferência tecnológica.
-

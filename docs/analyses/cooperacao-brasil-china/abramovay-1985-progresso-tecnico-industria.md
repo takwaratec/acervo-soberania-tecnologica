@@ -1,4 +1,7 @@
 ---
+tipo_documental: artigo-periodico
+estado_documental: homologada-com-restricoes
+responsavel_curadoria: Fabio Takwara
 title: "Progresso técnico: a indústria é o caminho?"
 document_type: ficha-documental
 front: cooperacao-brasil-china
@@ -103,4 +106,3 @@ A interpretação editorial é que o texto funciona melhor como fonte histórica
 Relaciona-se aos debates sobre agricultura familiar e camponesa, extensão rural, reforma agrária, tecnologias apropriadas, sistemas agrários, industrialização e distribuição social dos resultados técnicos. Essas relações são temáticas e históricas; não constituem prova de parceria, continuidade institucional, eficácia técnica, superioridade de práticas ou aplicabilidade contemporânea.
 
 A relação mais forte é conceitual: pesquisa e extensão aparecem como instituições que deveriam partir dos sistemas e objetivos dos agricultores. A relação com tecnologias atuais é apenas uma possibilidade de investigação, condicionada à especificidade ecológica, econômica, social e institucional de cada caso. Não há, nesta fonte, demonstração de transferência para o presente.
-
