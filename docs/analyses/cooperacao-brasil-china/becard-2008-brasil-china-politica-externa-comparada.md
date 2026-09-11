@@ -1,6 +1,6 @@
 ---
-tipo_documental: livro-monografia
-estado_documental: homologada-com-restricoes
+tipo_documental: documento-institucional
+estado_documental: homologado-documentalmente
 responsavel_curadoria: Fabio Takwara
 title: "O Brasil e a República Popular da China: política externa comparada e relações bilaterais (1974-2004)"
 document_type: ficha-documental

@@ -1,6 +1,6 @@
 ---
 tipo_documental: estado-da-arte
-estado_documental: homologado-com-restricoes
+estado_documental: homologado-documentalmente
 responsavel_curadoria: Fabio Takwara
 ---
 

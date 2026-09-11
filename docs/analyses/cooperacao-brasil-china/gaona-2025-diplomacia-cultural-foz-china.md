@@ -1,6 +1,6 @@
 ---
-tipo_documental: trabalho-conclusao-curso
-estado_documental: homologada
+tipo_documental: documento-institucional
+estado_documental: homologado-documentalmente
 responsavel_curadoria: Fabio Takwara
 title: "Entre onças e pandas: a relação de Foz do Iguaçu e a China através da diplomacia cultural"
 document_type: ficha-documental

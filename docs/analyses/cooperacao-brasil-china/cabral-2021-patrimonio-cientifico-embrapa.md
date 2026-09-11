@@ -1,6 +1,6 @@
 ---
-tipo_documental: artigo-periodico
-estado_documental: homologada
+tipo_documental: documento-institucional
+estado_documental: homologado-documentalmente
 responsavel_curadoria: Fabio Takwara
 title: "Embrapa and the construction of scientific heritage in Brazilian agriculture: Sowing memory"
 document_type: ficha-documental

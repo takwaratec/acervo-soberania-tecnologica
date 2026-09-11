@@ -1,6 +1,6 @@
 ---
-tipo_documental: relatorio-institucional
-estado_documental: homologada-com-restricoes
+tipo_documental: documento-institucional
+estado_documental: homologado-documentalmente
 responsavel_curadoria: Fabio Takwara
 title: "Secretaria de Relações Internacionais — Relatório de Atividades de 1992 — Ano I (Embrapa)"
 document_type: ficha-documental
