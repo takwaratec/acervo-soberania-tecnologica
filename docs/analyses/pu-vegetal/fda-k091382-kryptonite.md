@@ -1,5 +1,5 @@
 ---
-tipo_documental: documento-regulatorio
+tipo_documental: documento-institucional
 titulo: "510(k) Premarket Notification K091382: Kryptonite Bone Cement"
 orgao_regulador: "Food and Drug Administration (FDA)"
 solicitante: "Doctors Research Group, Inc."
@@ -18,6 +18,7 @@ data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"
 homologador: "fabio-takwara"
+responsavel_curadoria: "Fabio Takwara"
 ---
 
 # 510(k) Premarket Notification K091382: Kryptonite Bone Cement (FDA / Doctors Research Group, 2009)

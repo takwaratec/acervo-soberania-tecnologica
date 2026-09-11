@@ -1,5 +1,5 @@
 ---
-tipo_documental: relato-de-caso
+tipo_documental: ficha-cientifica
 titulo: "Ricinus communis membrane for orbital reconstruction"
 autores:
   - "João Daniel Caliman e Gurgel"
@@ -21,6 +21,8 @@ data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"
 homologador: "fabio-takwara"
+identificador: "ausente-na-fonte"
+responsavel_curadoria: "Fabio Takwara"
 ---
 
 # Ricinus Communis Membrane for Orbital Reconstruction (Gurgel et al., 2011)

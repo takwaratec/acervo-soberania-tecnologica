@@ -1,22 +1,22 @@
 ---
-tipo_documental: ficha-cientifica
+tipo_documental: documento-institucional
 estado_documental: homologado-documentalmente
-gaveta: cooperacao-brasil-china
-fonte_primaria: artigo integral em periódico, cotejado com a fonte autorizada
-natureza_documental: ensaio teórico e histórico, sem experimento próprio
-data_revisao: 2026-08-28
 responsavel_curadoria: Fabio Takwara
-autoria: Ricardo Abramovay
-ano: 1985
-titulo: "Progresso técnico: a indústria é o caminho?"
-publicacao: "Cadernos de Difusão de Tecnologia, Brasília, 2(2):233–245, maio/ago. 1985"
-identificador: ausente-na-fonte
-licenca: não declarada na fonte
-idioma: português e inglês (resumo e abstract)
-paginacao_editorial: 233–245
-paginas_pdf: 13 páginas físicas
-sistema_citacao_paginas: paginação editorial impressa
+title: "Progresso técnico: a indústria é o caminho?"
+document_type: ficha-documental
+front: cooperacao-brasil-china
+source_author: "Ricardo Abramovay"
+source_year: "1985"
+source_type: artigo-periodico
+documentary_status: homologada-com-restricoes
+bamboo_relevance: "sem relevância setorial para bambu — enquadramento teórico e histórico sobre progresso técnico e agricultura"
+public_provenance: "Cadernos de Difusão de Tecnologia, Brasília, v.2, n.2, p.233-245, maio/ago. 1985. Fonte institucional pública a confirmar."
+last_reviewed: 2026-09-11
 ---
+
+> **Restrição:** Ensaio teórico de 1985; não constitui evidência sobre bambu, China, PNMCB ou cooperação Brasil-China em bambu. Transferência apenas como pergunta analítica.
+
+> **Nota bibliográfica:** Texto em português; resumos em português reproduzido, inglês/francês/espanhol existentes na edição impressa sem reprodução autorizada neste exemplar (p.1).
 
 # 1. Dados gerais
 
@@ -106,4 +106,3 @@ A interpretação editorial é que o texto funciona melhor como fonte histórica
 Relaciona-se aos debates sobre agricultura familiar e camponesa, extensão rural, reforma agrária, tecnologias apropriadas, sistemas agrários, industrialização e distribuição social dos resultados técnicos. Essas relações são temáticas e históricas; não constituem prova de parceria, continuidade institucional, eficácia técnica, superioridade de práticas ou aplicabilidade contemporânea.
 
 A relação mais forte é conceitual: pesquisa e extensão aparecem como instituições que deveriam partir dos sistemas e objetivos dos agricultores. A relação com tecnologias atuais é apenas uma possibilidade de investigação, condicionada à especificidade ecológica, econômica, social e institucional de cada caso. Não há, nesta fonte, demonstração de transferência para o presente.
-
