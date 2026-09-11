@@ -2,13 +2,14 @@
 ficha_id: FICHA_A08_FEMA_P361_2021
 titulo: Safe Rooms for Tornadoes and Hurricanes
 eixo: DOM-HAB-R1
-tipo_documental: ficha documental/guidance técnico
-estado_documental: candidato-a-homologacao
+tipo_documental: manual-tecnico
+estado_documental: homologado-documentalmente
 fonte_primaria: FEMA P-361 (2021)
 identificador: FEMA P-361 (2021)
 doi: NOT_VERIFIED
 source_url: https://www.fema.gov
 data_revisao: 2026-09-11
+responsavel_curadoria: Fabio Takwara
 proveniencia: fonte integral e identidade documental conferidas no acervo privado
 ---
 
@@ -32,9 +33,8 @@ FEMA/ICC != certificação de domos. Guidance não homologa geometria habitacion
 
 ## Relação com o artigo Zenodo
 
-Esta ficha integra a base documental utilizada no artigo “Domos, bambu e poliuretano vegetal: genealogia tecnológica, evidências e agenda brasileira para sistemas habitacionais resilientes”. Relação: contextualizes. DOI do artigo: PLACEHOLDER_AT_THIS_STAGE.
+Esta ficha integra a base documental utilizada no artigo “Domos, bambu e poliuretano vegetal: genealogia tecnológica, evidências e agenda brasileira para sistemas habitacionais resilientes”. Relação: contextualizes. DOI do artigo: ainda não atribuído.
 
 ## Proveniência
 
-FONTE_PRIMARIA != FICHA_PUBLICA. Esta ficha resume criticamente a fonte e não substitui a consulta ao documento original.
-
+Esta ficha é uma síntese crítica derivada e não substitui a consulta à fonte original.

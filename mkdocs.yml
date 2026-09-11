@@ -76,6 +76,21 @@ nav:
   - Apresentação do Acervo: apresentacao-do-acervo.md
   - Sobre: sobre.md
   - Metodologia: metodologia.md
+  - Domos e Habitação Alternativa:
+      - Visão geral: frentes-documentais/dom-hab-r1/index.md
+      - Estado da Arte: frentes-documentais/dom-hab-r1/estado-da-arte.md
+      - Fichas:
+          - Velasco Vega (2023): frentes-documentais/dom-hab-r1/fichas/velasco-vega-2023-thermal-performance-thin-shell-domes.md
+          - Fuller (1954): analyses/fundamentos/fuller-1954-building-construction.md
+          - South (1979): analyses/fundamentos/south-1979-building-structure-method.md
+          - Park et al. (2022): analyses/fundamentos/park-et-al-2022-wind-pressure-spherical-domes.md
+          - Faghih & Bahadori (2011): analyses/fundamentos/faghih-bahadori-2011-thermal-performance-domed-roofs.md
+          - González-Avilés et al. (2024): analyses/fundamentos/gonzalez-aviles-et-al-2024-energy-benefits-geodesic-domes.md
+          - Mncwango & Allopi (2019): analyses/fundamentos/mncwango-allopi-2019-expanded-polystyrene-dwellings.md
+          - FEMA P-361 (2021): analyses/fundamentos/fema-2021-safe-rooms-tornadoes-hurricanes.md
+          - Chen & Tai (2018): analyses/pu-vegetal/chen-tai-2018-castor-oil-polyurethane-bamboo-charcoal.md
+          - Mohd Radzi Ali et al. (2026): analyses/pu-vegetal/mohd-radzi-ali-et-al-2026-bamboo-fibre-polyurethane-foam.md
+      - Publicações derivadas: frentes-documentais/dom-hab-r1/publicacoes/index.md
   - Fundamentos do Acervo:
       - Visão geral: analyses/fundamentos/index.md
       - Artigos metodológicos:

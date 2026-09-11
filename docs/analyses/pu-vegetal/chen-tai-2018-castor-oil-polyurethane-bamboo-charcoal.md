@@ -3,12 +3,13 @@ ficha_id: FICHA_P03-01_Castor_Oil_PU_Bamboo_Charcoal
 titulo: Castor Oil-Based Polyurethane Resin for Low-Density Composites with Bamboo Charcoal
 eixo: PU-COMP-BIO-R1
 tipo_documental: ficha-cientifica
-estado_documental: candidato-a-homologacao
+estado_documental: homologado-documentalmente
 fonte_primaria: 10.3390/polym10101100
 identificador: 10.3390/polym10101100
 doi: 10.3390/polym10101100
 source_url: https://doi.org/10.3390/polym10101100
 data_revisao: 2026-09-11
+responsavel_curadoria: Fabio Takwara
 proveniencia: fonte integral e identidade documental conferidas no acervo privado
 ---
 
@@ -32,9 +33,8 @@ Carvão != colmo; compósito prensado != interface in situ; PMDI != integralment
 
 ## Relação com o artigo Zenodo
 
-Esta ficha integra a base documental utilizada no artigo “Domos, bambu e poliuretano vegetal: genealogia tecnológica, evidências e agenda brasileira para sistemas habitacionais resilientes”. Relação: supports. DOI do artigo: PLACEHOLDER_AT_THIS_STAGE.
+Esta ficha integra a base documental utilizada no artigo “Domos, bambu e poliuretano vegetal: genealogia tecnológica, evidências e agenda brasileira para sistemas habitacionais resilientes”. Relação: supports. DOI do artigo: ainda não atribuído.
 
 ## Proveniência
 
-FONTE_PRIMARIA != FICHA_PUBLICA. Esta ficha resume criticamente a fonte e não substitui a consulta ao documento original.
-
+Esta ficha é uma síntese crítica derivada e não substitui a consulta à fonte original.

@@ -2,13 +2,14 @@
 ficha_id: FICHA_A01_Fuller_US2682235A
 titulo: Building Construction
 eixo: DOM-HAB-R1
-tipo_documental: ficha documental/patentária
-estado_documental: candidato-a-homologacao
+tipo_documental: documento-de-patente
+estado_documental: homologado-documentalmente
 fonte_primaria: US2682235A
 identificador: US2682235A
 doi: NOT_VERIFIED
 source_url: https://patents.google.com/patent/US2682235
 data_revisao: 2026-09-11
+responsavel_curadoria: Fabio Takwara
 proveniencia: fonte integral e identidade documental conferidas no acervo privado
 ---
 
@@ -32,9 +33,8 @@ PATENT_DISCLOSURE != PERFORMANCE_VALIDATION. Não demonstra desempenho térmico,
 
 ## Relação com o artigo Zenodo
 
-Esta ficha integra a base documental utilizada no artigo “Domos, bambu e poliuretano vegetal: genealogia tecnológica, evidências e agenda brasileira para sistemas habitacionais resilientes”. Relação: historical_reference. DOI do artigo: PLACEHOLDER_AT_THIS_STAGE.
+Esta ficha integra a base documental utilizada no artigo “Domos, bambu e poliuretano vegetal: genealogia tecnológica, evidências e agenda brasileira para sistemas habitacionais resilientes”. Relação: historical_reference. DOI do artigo: ainda não atribuído.
 
 ## Proveniência
 
-FONTE_PRIMARIA != FICHA_PUBLICA. Esta ficha resume criticamente a fonte e não substitui a consulta ao documento original.
-
+Esta ficha é uma síntese crítica derivada e não substitui a consulta à fonte original.
