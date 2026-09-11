@@ -1,5 +1,5 @@
 ---
-tipo_documental: artigo-cientifico
+tipo_documental: ficha-cientifica
 titulo: "Implante de Resina Poliuretana Vegetal em Cranioplastia - Estudo Experimental em Coelhos"
 autores:
   - "Luiz Fernando Frascino"
@@ -18,6 +18,8 @@ data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"
 homologador: "fabio-takwara"
+identificador: "ausente-na-fonte"
+responsavel_curadoria: "Fabio Takwara"
 ---
 
 # Implante de Resina Poliuretana Vegetal em Cranioplastia - Estudo Experimental em Coelhos (Frascino & Braile, 2003)

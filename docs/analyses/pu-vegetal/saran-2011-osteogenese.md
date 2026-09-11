@@ -1,5 +1,5 @@
 ---
-tipo_documental: tese-doutorado
+tipo_documental: ficha-academica
 titulo: "ESTUDOS DE FENÔMENOS DE OSTEOGÊNESE EM IMPLANTES DE POLÍMERO VEGETAL"
 autores:
   - "Wallace Rocha Saran"
@@ -18,6 +18,8 @@ data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"
 homologador: "fabio-takwara"
+identificador: "ausente-na-fonte"
+responsavel_curadoria: "Fabio Takwara"
 ---
 
 # ESTUDOS DE FENÔMENOS DE OSTEOGÊNESE EM IMPLANTES DE POLÍMERO VEGETAL (Saran, 2011)
