@@ -93,6 +93,13 @@ nav:
       - Teoria do Brasil — Darcy Ribeiro: analyses/fundamentos/ribeiro-2014-teoria-do-brasil.md
       - Por uma outra globalização — Milton Santos: analyses/fundamentos/santos-2001-outra-globalizacao.md
       - Análise numérica de cúpula geodésica: analyses/fundamentos/santos-2021-cupula-geodesica-analise-numerica.md
+      - Building Construction — Fuller (1954): analyses/fundamentos/fuller-1954-building-construction.md
+      - Building Structure and Method — South (1979): analyses/fundamentos/south-1979-building-structure-method.md
+      - Wind Pressure in Spherical Domes — Park et al. (2022): analyses/fundamentos/park-et-al-2022-wind-pressure-spherical-domes.md
+      - Thermal Performance of Domed Roofs — Faghih & Bahadori (2011): analyses/fundamentos/faghih-bahadori-2011-thermal-performance-domed-roofs.md
+      - Energy Benefits of Geodesic Domes — González-Avilés et al. (2024): analyses/fundamentos/gonzalez-aviles-et-al-2024-energy-benefits-geodesic-domes.md
+      - Expanded Polystyrene Dwellings — Mncwango & Allopi (2019): analyses/fundamentos/mncwango-allopi-2019-expanded-polystyrene-dwellings.md
+      - FEMA P-361 Safe Rooms (2021): analyses/fundamentos/fema-2021-safe-rooms-tornadoes-hurricanes.md
   - Análises: analyses/index.md
   - Bambu estrutural:
       - Visão geral: analyses/bambu-estrutural/index.md
@@ -173,8 +180,17 @@ nav:
       - Estado da Arte (PT): analyses/arquitetura-vernacular/estado-da-arte.md
       - State of the Art (EN): analyses/arquitetura-vernacular/estado-da-arte-en.md
       - Estado del Arte (ES): analyses/arquitetura-vernacular/estado-da-arte-es.md
+  - Cooperação Brasil–China:
+      - Visão geral: analyses/cooperacao-brasil-china/index.md
+      - Política de CT&I e Embrapa Semiárido (Ribeiro 2016): analyses/cooperacao-brasil-china/ribeiro-2016-politica-ciencia-tecnologia-embrapa-semiarido.md
+      - Patrimônio científico da Embrapa (Cabral 2021): analyses/cooperacao-brasil-china/cabral-2021-patrimonio-cientifico-embrapa.md
+      - Diplomacia cultural Foz–China (Gaona 2025): analyses/cooperacao-brasil-china/gaona-2025-diplomacia-cultural-foz-china.md
+      - Progresso técnico e autonomia (Abramovay 1985): analyses/cooperacao-brasil-china/abramovay-1985-progresso-tecnico-industria.md
+      - Cooperação em antimaláricos Brasil–China (Sá 2016): analyses/cooperacao-brasil-china/sa-2016-cooperacao-antimalaricos-brasil-china.md
   - Poliuretano vegetal:
       - Visão geral: analyses/pu-vegetal/index.md
+      - PU de mamona e carvão de bambu — Chen & Tai (2018): analyses/pu-vegetal/chen-tai-2018-castor-oil-polyurethane-bamboo-charcoal.md
+      - Fibra de bambu em espuma PU — Mohd Radzi Ali et al. (2026): analyses/pu-vegetal/mohd-radzi-ali-et-al-2026-bamboo-fibre-polyurethane-foam.md
       - Estado da Arte: analyses/pu-vegetal/estado-da-arte.md
       - Mapa de Evidências: analyses/pu-vegetal/mapa-de-evidencias.md
       - Mapa de Lacunas: analyses/pu-vegetal/mapa-de-lacunas.md
@@ -245,6 +261,16 @@ nav:
           - Abreu et al. — benchmarking de construtibilidade (2025): analyses/avaliacao-pos-ocupacao/abreu-2025-benchmarking-construtibilidade-his.md
       - Política habitacional:
           - Visão geral: analyses/politica-habitacional/index.md
+          - Porangaba — habitação e população de baixa renda: analyses/politica-habitacional/porangaba-2020-habitacao-baixa-renda.md
+          - Maricato — metrópole, legislação e desigualdade: analyses/politica-habitacional/maricato-2003-metropole-legislacao-desigualdade.md
+          - Maricato — urbanismo na periferia globalizada: analyses/politica-habitacional/maricato-2000-urbanismo-periferia-globalizada.md
+          - Maricato — metrópoles desgovernadas: analyses/politica-habitacional/maricato-2011-metropoles-desgovernadas.md
+          - Rolnik — exclusão territorial e violência: analyses/politica-habitacional/rolnik-1999-exclusao-territorial-violencia.md
+          - Rolnik e Costa — pensar a cidade para todos: analyses/politica-habitacional/rolnik-costa-2007-pensar-cidade-todos.md
+          - Barros — formação profissional na construção civil: analyses/politica-habitacional/barros-2012-formacao-profissional-construcao.md
+          - Ribeiro — origens da habitação social no Brasil: analyses/politica-habitacional/ribeiro-1999-origens-habitacao-social-bonduki.md
+          - Barros e Monteiro — Jane Jacobs: analyses/politica-habitacional/barros-monteiro-2022-jane-jacobs.md
+          - Oliveira — meio construído e Jane Jacobs: analyses/politica-habitacional/oliveira-2020-meio-construido-jane-jacobs.md
           - Simões e Leder — habitação seriada: analyses/politica-habitacional/simoes-leder-2024-assentamento-seriado.md
           - Ferreira — política HIS em Ponta Grossa: analyses/politica-habitacional/ferreira-2023-politica-his-ponta-grossa.md
           - Cardoso e Lopes — ATHIS (2022): analyses/politica-habitacional/cardoso-2022-athis-assessoria-assistencia.md
