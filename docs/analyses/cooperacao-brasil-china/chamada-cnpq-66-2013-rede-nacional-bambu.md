@@ -1,4 +1,7 @@
 ---
+tipo_documental: edital-de-fomento
+estado_documental: homologada-com-restricoes
+responsavel_curadoria: Fabio Takwara
 title: "Chamada MCTI/Ação Transversal/CNPq nº 66/2013 — Rede Nacional de Pesquisa e Desenvolvimento do Bambu"
 document_type: ficha-documental
 front: cooperacao-brasil-china

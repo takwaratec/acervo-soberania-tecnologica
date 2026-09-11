@@ -1,4 +1,7 @@
 ---
+tipo_documental: artigo-periodico
+estado_documental: homologada
+responsavel_curadoria: Fabio Takwara
 title: "Brazilian Science and Technology Policy and the Case of Embrapa Semiarid"
 document_type: ficha-documental
 front: cooperacao-brasil-china
@@ -163,4 +166,3 @@ O artigo contribui ao conectar política de CT&I, cooperação internacional e p
 # 9. Relações
 
 Relaciona-se à ENCTI 2012–2015, à cooperação internacional em CT&I, à Embrapa Semiárido/CPATSA, à cooperação Sul–Sul e à avaliação histórica de iniciativas de pesquisa e transferência técnica. As fontes documentais, entrevistas e referências mobilizadas pela autora permanecem camadas atribuídas ao artigo, não fontes primárias independentemente conferidas. A ficha não contém bibliografia integral.
-

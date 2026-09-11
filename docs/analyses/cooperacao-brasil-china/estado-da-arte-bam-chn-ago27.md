@@ -1,3 +1,9 @@
+---
+tipo_documental: estado-da-arte
+estado_documental: homologado-com-restricoes
+responsavel_curadoria: Fabio Takwara
+---
+
 # Estado da Arte — Cooperação Brasil-China e cadeia do bambu no Brasil: trajetória, capacidades institucionais e condições de possibilidade
 
 **Pacote:** BAM-CHN-001 — lote AGO27 China-Brasil

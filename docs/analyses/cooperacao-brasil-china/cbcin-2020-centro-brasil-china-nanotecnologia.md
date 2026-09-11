@@ -1,4 +1,7 @@
 ---
+tipo_documental: documento-institucional
+estado_documental: homologada-com-restricoes
+responsavel_curadoria: Fabio Takwara
 title: "Centro Brasil-China de Pesquisa e Inovação em Nanotecnologia (CBCIN, 2020)"
 document_type: ficha-documental
 front: cooperacao-brasil-china

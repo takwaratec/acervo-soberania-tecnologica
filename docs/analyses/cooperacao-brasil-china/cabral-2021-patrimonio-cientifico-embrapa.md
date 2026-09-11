@@ -1,4 +1,7 @@
 ---
+tipo_documental: artigo-periodico
+estado_documental: homologada
+responsavel_curadoria: Fabio Takwara
 title: "Embrapa and the construction of scientific heritage in Brazilian agriculture: Sowing memory"
 document_type: ficha-documental
 front: cooperacao-brasil-china
@@ -93,4 +96,3 @@ A contribuição está em conectar memória institucional, patrimônio científi
 # 9. Relações
 
 Relaciona-se à história institucional da Embrapa, à agricultura brasileira, à Revolução Verde Tropical, à memória científica, ao banco de sementes e às relações entre pesquisadores e agricultores indígenas. Relaciona-se ao eixo China–Brasil apenas como contexto comparativo da ciência agrícola brasileira; não demonstra cooperação bilateral, transferência tecnológica ou resultado de política externa. Citações autor–ano necessárias permanecem no corpo; a bibliografia integral não foi incluída.
-

@@ -1,4 +1,7 @@
 ---
+tipo_documental: relatorio-institucional
+estado_documental: homologada-com-restricoes
+responsavel_curadoria: Fabio Takwara
 title: "Relatório de Atividades — Gestão 1999 (Embrapa)"
 document_type: ficha-documental
 front: cooperacao-brasil-china
