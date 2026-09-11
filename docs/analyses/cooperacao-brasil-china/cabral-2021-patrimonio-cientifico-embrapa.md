@@ -1,27 +1,14 @@
 ---
-tipo_documental: ficha-academica
-estado_documental: homologado-documentalmente
-gaveta: cooperacao-brasil-china
-fonte_primaria: PDF integral conferido
-data_revisao: 2026-08-27
-responsavel_curadoria: Fabio Takwara
-autoria: Lídia Cabral
-ano: 2021
-titulo: "Embrapa and the construction of scientific heritage in Brazilian agriculture: Sowing memory"
-periodico: "Development Policy Review, 39, 789–810"
-doi: "10.1111/dpr.12531"
-identificador: "https://doi.org/10.1111/dpr.12531"
-afiliação_autora: "Institute of Development Studies"
-pais_afiliacao_autora: "não localizado na fonte"
-pais_objeto_estudo: Brasil
-licenca: "Creative Commons Attribution License"
-recebido: 2020-06-02
-aceito: 2020-10-24
-copyright: 2020
-idioma: inglês
-paginas_pdf: 22
-paginacao_editorial: "789–810"
-sistema_citacao_paginas: "paginação impressa do periódico"
+title: "Embrapa and the construction of scientific heritage in Brazilian agriculture: Sowing memory"
+document_type: ficha-documental
+front: cooperacao-brasil-china
+source_author: "Lídia Cabral"
+source_year: "2021"
+source_type: artigo-periodico
+documentary_status: homologada
+bamboo_relevance: "sem relevância setorial para bambu — patrimônio científico da Embrapa"
+public_provenance: "Development Policy Review, v.39, p.789-810, 2021. DOI https://doi.org/10.1111/dpr.12531"
+last_reviewed: 2026-09-11
 ---
 
 # 1. Dados gerais

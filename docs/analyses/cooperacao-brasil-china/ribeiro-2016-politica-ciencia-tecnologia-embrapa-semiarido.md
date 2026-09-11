@@ -1,22 +1,14 @@
 ---
-tipo_documental: ficha-academica
-estado_documental: homologado-documentalmente
-gaveta: cooperacao-brasil-china
-fonte_primaria: PDF integral conferido
-data_revisao: 2026-08-27
-responsavel_curadoria: Fabio Takwara
-autoria: Maria Clotilde Ribeiro
-ano: 2016
-titulo: "Brazilian Science and Technology Policy and the Case of Embrapa Semiarid"
-periodico: "Contexto Internacional, 38(2), 2016, pp. 685–710"
-doi: "10.1590/S0102-8529.2016380200008"
-identificador: "https://doi.org/10.1590/S0102-8529.2016380200008"
-licenca: "Creative Commons Attribution-NonCommercial 4.0 International"
-instituicao: "Universidade Federal do Vale do São Francisco (UNIVASF)"
-idioma: inglês
-paginas_pdf: 26
-paginacao_editorial: "685–710"
-sistema_citacao_paginas: "paginação impressa do periódico"
+title: "Brazilian Science and Technology Policy and the Case of Embrapa Semiarid"
+document_type: ficha-documental
+front: cooperacao-brasil-china
+source_author: "Maria Clotilde Ribeiro"
+source_year: "2016"
+source_type: artigo-periodico
+documentary_status: homologada
+bamboo_relevance: "relevância indireta para bambu — política de C&T e Embrapa Semiárido"
+public_provenance: "Contexto Internacional, v.38, n.2, p.685-710, 2016. DOI https://doi.org/10.1590/S0102-8529.2016380200008"
+last_reviewed: 2026-09-11
 ---
 
 # 1. Dados gerais
