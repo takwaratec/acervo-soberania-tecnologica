@@ -1,114 +1,118 @@
 ---
 tipo_documental: estado-da-arte-com-agenda-experimental
 estado_documental: em-revisao-documental
-fonte_primaria: estado-da-arte do eixo + fichas com fonte integral conferida
-titulo: "Agenda de Pesquisa — Poliuretano Vegetal"
-data_revisao: 2026-08-01
+data_revisao: 2026-09-05
 responsavel_curadoria: Fabio Takwara
+frente_referencia: PU-COMP-BIO-R1
 ---
 
 # Agenda de Pesquisa: Poliuretano Vegetal
 
 ## O que este documento responde
 
-Esta agenda conecta as lacunas do [Mapa de Lacunas](mapa-de-lacunas.md) a **perguntas de pesquisa acionáveis**, organizadas por prioridade (alta, média, exploratória). Cada item indica a pergunta, a justificativa (lacuna que endereça), a abordagem sugerida e as fichas de partida. Os itens foram dimensionados para diferentes portes de execução: TCC/iniciação científica, dissertação, projeto de P&D, ensaios de fogo e política pública. Nenhum item propõe reexecutar o que a gaveta já sustenta; todos partem do que falta.
+Esta agenda converte as lacunas do [Mapa de Lacunas](mapa-de-lacunas.md) em **perguntas de pesquisa testáveis e acionáveis**, estruturadas em duas frentes:
 
-**Nota metodológica.** A priorização é curatorial e segue dois critérios: (i) custo da lacuna para o eixo (quanto a ausência de evidência limita decisões de projeto, norma e política) e (ii) viabilidade de execução (tempo, financiamento, acesso a laboratório e campo). A numeração das lacunas refere-se ao [Mapa de Lacunas](mapa-de-lacunas.md) (L1–L13) e, entre parênteses, às lacunas da seção 8 do [estado da arte](estado-da-arte.md). O relatório PIBITI ([Pereira 2020](ficha-pibit-lucas-aciole-painel-acustico.md)) é pesquisa de terceiros (UniCEUB) e figura apenas como ponto de partida — resultados novos devem ser atribuídos a quem os executar.
+1. **Seção I: Frente PU-COMP-BIO-R1 (Biomateriais e Soberania Tecnológica)** — perguntas RQ1 a RQ8, priorizadas nas classes P0, P1 e P2 conforme conflito de evidência, incerteza científica, reprodutibilidade, relevância clínica e resolubilidade documental;
+2. **Seção II: Frente de Materiais Lignocelulósicos e Construção Civil** — perguntas de pesquisa A1 a A3, M1 a M5 e E1 a E3 sobre compósitos com bambu, painéis aglomerados/OSB, acústica, durabilidade externa e certificação comercial.
+
+**Nota metodológica:** A priorização não é baseada em prestígio ou interesse narrativo, mas no rigor do método científico: responder primeiro às incertezas que impedem a interpretação dos dados já existentes (P0), depois às necessárias para a reprodutibilidade e aplicação prática (P1), e por fim ao esclarecimento documental e historiográfico (P2).
 
 ---
 
-## 1. Prioridade alta
+# SEÇÃO I — Frente PU-COMP-BIO-R1 (Biomateriais e Soberania Tecnológica)
 
-Itens que fecham as lacunas mais custosas do eixo ou destravam a base documental. Exigem ensaio, laboratório ou articulação institucional — e financiamento.
+## 1. Prioridade P0: Necessário para Interpretar a Evidência Existente
+*(Conflito de evidência, incerteza biológica crítica e demarcação de conceitos)*
+
+### RQ1 (P0) — Quais variáveis de formulação explicam a diferença entre aposição/integração óssea e encapsulamento fibroso persistente?
+- **Pergunta:** Sob condições padronizadas, a formação de cápsula fibrosa conjuntiva persistente observada em cães ([B08](ignacio-et-al-2002-falha-ossea-caes.md)) versus a aposição óssea lamelar madura observada em coelhos ([A07](saran-2011-osteogenese.md), [A08](saran-et-al-2014-mmp2.md)) é determinada primariamente pelo nível de carga mecânica no sítio de implantação, pela espécie animal ou por diferenças na proporção de $CaCO_3$ e na porosidade do implante?
+- **Justificativa:** Endereça a lacuna crítica GAP_03 e o contraste probatório material entre estudos favoráveis e restritivos do acervo.
+- **Abordagem experimental:** Estudo pré-clínico em modelo animal de grande porte (canino ou ovino) comparando leito sob solicitação de carga dinâmica (metáfise de fêmur) versus leito sem solicitação de carga (calvária), utilizando implantes com a mesma formulação e desenho (compacto e poroso), avaliados por histomorfometria e microtomografia computadorizada ($\mu$CT) aos 3, 6 e 12 meses.
+- **Fontes de partida:** [ignacio-et-al-2002-falha-ossea-caes](ignacio-et-al-2002-falha-ossea-caes.md); [saran-2011-osteogenese](saran-2011-osteogenese.md); [saran-et-al-2014-mmp2](saran-et-al-2014-mmp2.md); [frascino-braile-2003-cranioplastia](frascino-braile-2003-cranioplastia.md).
+
+### RQ4 (P0) — Quais achados representam biotolerância, osteocondução, osteopromoção ou verdadeira osteoindução intrínseca?
+- **Pergunta:** A resina de poliuretana vegetal acrescida de carbonato de cálcio possui capacidade intrínseca de induzir a diferenciação osteogênica *de novo* em sítios ectópicos desprovidos de células ósseas (osteoindução verdadeira) ou sua atuação restringe-se a servir de arcabouço condutor em leitos ósseos receptores (osteocondução e osteopromoção)?
+- **Justificativa:** Endereça a lacuna conceitual GAP_04, evitando classificar interpretações autorais sobre osteoindução como fatos consolidados sem teste em sítio não esquelético.
+- **Abordagem experimental:** Ensaio padronizado de implantação ectópica (muscular e subcutânea) em roedores, confrontando a formulação de PU de mamona com $CaCO_3$ contra controle negativo (polietileno poroso) e controle positivo (rhBMP-2 em esponja de colágeno), com análises histológicas e dosagem de fosfatase alcalina tecidual aos 14, 28 e 56 dias.
+- **Fontes de partida:** [saran-2011-osteogenese](saran-2011-osteogenese.md); [frascino-braile-2003-cranioplastia](frascino-braile-2003-cranioplastia.md); [ignacio-et-al-2002-falha-ossea-caes](ignacio-et-al-2002-falha-ossea-caes.md).
+
+### RQ2 (P0) — Qual é o efeito independente do $CaCO_3$ quando formulação, arquitetura, sítio de implantação e tempo de seguimento são controlados?
+- **Pergunta:** Controlando rigorosamente a estequiometria do prepolímero de PU, a porosidade e o sítio cirúrgico, qual é o impacto biológico específico da variação na concentração de carbonato de cálcio (0%, 25%, 30% e 50%) na velocidade de neoformação óssea e na resistência mecânica da interface osso-implante?
+- **Justificativa:** Endereça a lacuna GAP_02, testando a hipótese autoral de que o $CaCO_3$ atua como atrativo químico para a deposição mineral ou se seu efeito é secundário à alteração da rugosidade e cinética exotérmica.
+- **Abordagem experimental:** Planejamento fatorial em modelo de defeito ósseo em coelhos, comparando corpos de prova padronizados variando unicamente o teor de carga inorgânica mineral, avaliados por histomorfometria e ensaios de cisalhamento (*push-out*).
+- **Fontes de partida:** [teixeira-ramalho-1999-mandibula-caco3](teixeira-ramalho-1999-mandibula-caco3.md); [teixeira-kuramae-ramalho-1999-mandibula-sem-caco3](teixeira-kuramae-ramalho-1999-mandibula-sem-caco3.md); [frascino-braile-2003-cranioplastia](frascino-braile-2003-cranioplastia.md); [patente-us-8338498-kryptonite](patente-us-8338498-kryptonite.md).
+
+---
+
+## 2. Prioridade P1: Necessário para Reprodutibilidade e Aplicação Clínica
+*(Padronização de especificações, conformidade regulatória e evidência humana)*
+
+### RQ3 (P1) — Como blocos densos, implantes porosos, hastes, membranas, fios e resinas de cura in situ diferem biológica e mecanicamente?
+- **Pergunta:** De que maneira a conformação física e a técnica de processamento cirúrgico (bloco maciço, bloco poroso, haste intramedular, membrana fina de 0,5 mm, fio serrilhado e resina líquida com polimerização *in situ*) condicionam a resposta inflamatória tecidual e as propriedades biomecânicas locais?
+- **Justificativa:** Endereça as lacunas GAP_01 e GAP_10, estabelecendo um mapa comparativo sistemático entre as diversas morfologias de implante do corpus.
+- **Abordagem experimental:** Bateria de ensaios físicos normatizados (ISO 10993 e ASTM F451/F543) avaliando cinética exotérmica de presa, contração volumétrica, módulo de compressão e ensaios in vitro de viabilidade celular (citotoxicidade direta e extratos) para cada forma física.
+- **Fontes de partida:** [araujo-1992-pu-oleoquimicos](araujo-1992-pu-oleoquimicos.md); [dontos-2005-fio-lifting-biologico](dontos-2005-fio-lifting-biologico.md); [gurgel-et-al-2011-orbital-reconstruction](gurgel-et-al-2011-orbital-reconstruction.md); [ignacio-et-al-2002-falha-ossea-caes](ignacio-et-al-2002-falha-ossea-caes.md).
+
+### RQ5 (P1) — Uma especificação material padronizada consegue reproduzir achados pré-clínicos favoráveis em laboratórios independentes e diferentes espécies?
+- **Pergunta:** O estabelecimento de uma monografia técnica com especificações analíticas fechadas para a resina de PU de mamona com $CaCO_3$ permite que centros de pesquisa independentes reproduzam os achados de biocompatibilidade e osteocondução sem desvios inter-lotes?
+- **Justificativa:** Endereça as lacunas GAP_01 e GAP_07, sendo essencial para garantir a confiabilidade científica e regulatória necessária para o avanço da biotecnologia nacional.
+- **Abordagem experimental:** Estudo multicêntrico interlaboratorial (*round-robin*) com formulação produzida sob Boas Práticas de Fabricação (BPF), caracterizada por espectrometria de massa, FTIR e cromatografia de permeação em gel (GPC), testada em ensaios pré-clínicos cegados em ao menos três instituições acadêmicas distintas.
+- **Fontes de partida:** [araujo-1992-pu-oleoquimicos](araujo-1992-pu-oleoquimicos.md); [saran-2011-osteogenese](saran-2011-osteogenese.md); [fda-k091382-kryptonite](fda-k091382-kryptonite.md).
+
+### RQ6 (P1) — Qual evidência clínica humana controlada é necessária para estabelecer indicação cirúrgica específica e segurança de longo prazo?
+- **Pergunta:** Quais protocolos cirúrgicos, métricas de desfecho primário e tempos de acompanhamento clínico em seres humanos são metodologicamente obrigatórios para comprovar a não inferioridade ou superioridade da PU de mamona em indicações craniomaxilofaciais selecionadas (como assoalho orbitário ou perdas de calvária)?
+- **Justificativa:** Endereça as lacunas GAP_05 e GAP_06, superando a carência de séries clínicas controladas no acervo.
+- **Abordagem experimental:** Desenho de ensaio clínico Fase II/III multicêntrico, prospectivo, randomizado, comparando a membrana de PU vegetal contra telas de titânio ou malhas absorvíveis comerciais em reconstrução orbitária pós-trauma, com seguimento de $\ge 36$ meses, avaliação tomográfica volumétrica seriada e rastreio toxicológico sérico.
+- **Fontes de partida:** [dontos-2005-fio-lifting-biologico](dontos-2005-fio-lifting-biologico.md); [gurgel-et-al-2011-orbital-reconstruction](gurgel-et-al-2011-orbital-reconstruction.md); [fda-k091382-kryptonite](fda-k091382-kryptonite.md).
+
+---
+
+## 3. Prioridade P2: Esclarecimento Histórico e de Transferência Tecnológica
+*(Resolubilidade documental, custódia de patrimônio científico e historiografia)*
+
+### RQ7 (P2) — Registros documentais, patentários e societários conseguem estabelecer ou refutar uma cadeia formal de transferência de tecnologia envolvendo USP, Poliquil e produtos comerciais subsequentes?
+- **Pergunta:** A semelhança entre a química de compósitos de poliuretana de mamona desenvolvida na USP e o produto norte-americano Kryptonite decorre de uma rota formal de transferência tecnológica internacional, de vínculos comerciais não documentados na literatura aberta ou de desenvolvimentos industriais paralelos e independentes baseados em domínio público?
+- **Justificativa:** Endereça a lacuna GAP_08, assegurando a fidelidade documental contra mitos genealógicos ou acusações infundadas de apropriação indevida.
+- **Abordagem metodológica:** Auditoria documental em cartórios de registro, acervo da Agência USP de Inovação, banco de dados do INPI, relatórios de prestação de contas do convênio PADCT/CNPq e registros da FDA e USPTO.
+- **Fontes de partida:** [kubrusly-et-al-2012-coracoes-artificiais](kubrusly-et-al-2012-coracoes-artificiais.md); [fda-k091382-kryptonite](fda-k091382-kryptonite.md); [patente-us-8338498-kryptonite](patente-us-8338498-kryptonite.md).
+
+### RQ8 (P2) — Registros primários contemporâneos conseguem resolver a tensão cronológica entre 1983 e 1984 como marco inaugural das pesquisas?
+- **Pergunta:** Existem relatórios técnicos, livros de laboratório ou registros de protocolos de pesquisa no IFQSC-USP contemporâneos aos anos de 1983 e 1984 que esclareçam se as investigações com polímeros de mamona iniciaram-se formalmente em 1983 (como afirmado em A01) ou em 1984 (como afirmado em B08, A06, A05 e A07)?
+- **Justificativa:** Endereça a lacuna GAP_09, buscando o fechamento factual da cronologia inaugural do biopolímero no acervo.
+- **Abordagem metodológica:** Levantamento arquivístico presencial ou digital junto ao arquivo histórico do Instituto de Química de São Carlos (IQSC-USP) e arquivos de processos antigos da FAPESP e CNPq.
+- **Fontes de partida:** [araujo-1992-pu-oleoquimicos](araujo-1992-pu-oleoquimicos.md); [ignacio-et-al-2002-falha-ossea-caes](ignacio-et-al-2002-falha-ossea-caes.md); [frascino-braile-2003-cranioplastia](frascino-braile-2003-cranioplastia.md); [saran-2011-osteogenese](saran-2011-osteogenese.md).
+
+---
+
+# SEÇÃO II — Frente de Materiais Lignocelulósicos e Construção Civil
+
+## 4. Prioridade Alta: Bloqueios Normativos e de Aplicação Construtiva
 
 ### A1. Ensaios de fogo do componente bambu–PU com rastreabilidade de lote
-- **Pergunta:** qual é o comportamento ao fogo do componente bambu–PU (formulação definida, espessura e lote identificados) em norma de flamabilidade aplicável (ex.: UL 94 ou ABNT correlata), e como ele se compara aos critérios V-0/V-1/V-2?
-- **Justificativa:** fecha a **lacuna L5** (lacuna 4 do estado da arte): o certificado UL 94 ([certificado-ul94-imperveg-2010](certificado-ul94-imperveg-2010.md)) refere-se **apenas à amostra isolada LCP100267** (V-2, 2010) e não se transfere; o bloqueio de alegação só cai com ensaio próprio do componente real.
-- **Abordagem:** ensaio de flamabilidade do componente bambu–PU (corpos de prova do componente real, com identificação de lote, espessura e formulação), protocolo e relatório com rastreabilidade documentada; porte: **ensaios de fogo** (laboratório credenciado) ou projeto de P&D com parceria institucional.
-- **Fontes de partida:** [certificado-ul94-imperveg-2010](certificado-ul94-imperveg-2010.md) (protocolo e critérios V-0/V-1/V-2); [ficha-tecnica-mamonex-rd70](ficha-tecnica-mamonex-rd70.md) (alegação de não propagação de chama a verificar); [ficha-tecnica-imperveg-ug132a](ficha-tecnica-imperveg-ug132a.md).
+- **Pergunta:** Qual é o comportamento ao fogo do componente bambu–PU em norma de flamabilidade aplicável (UL 94 ou ABNT correlata), e como ele se compara aos critérios normativos exigidos na construção civil?
+- **Justificativa:** Fecha a lacuna L4 (bloqueio do certificado UL 94 isolado [LCP100267](certificado-ul94-imperveg-2010.md)).
+- **Abordagem:** Ensaios de reação ao fogo sobre corpos de prova do compósito real com rastreabilidade de formulação e espessura em laboratório credenciado.
+- **Fontes de partida:** [certificado-ul94-imperveg-2010](certificado-ul94-imperveg-2010.md); [ficha-tecnica-mamonex-rd70](ficha-tecnica-mamonex-rd70.md).
 
 ### A2. Caracterização mecânica completa de compósitos bambu–PU
-- **Pergunta:** quais são as propriedades mecânicas (tração, flexão, compressão, dureza) de compósitos de PU de mamona com partículas de bambu, com controle de homogeneidade de dispersão e replicação estatística?
-- **Justificativa:** fecha a **lacuna L4** (lacuna 3 do estado da arte), declarada pelos próprios autores de [marinho-pu-mamona-bambu-polimeros](marinho-pu-mamona-bambu-polimeros.md): a ficha mais próxima do componente bambu–PU não apresenta mecânica, e a dispersão das partículas não foi homogênea.
-- **Abordagem:** reprodução do processo de [marinho-pu-mamona-bambu-polimeros](marinho-pu-mamona-bambu-polimeros.md) (teores de 10/15/20% de PU; 90 °C; 6,25 MPa) com ensaios mecânicos normatizados, medição de homogeneidade (densidade por região, MEV quantitativo) e análise estatística; porte: **dissertação** ou TCC ampliado com laboratório de materiais.
-- **Fontes de partida:** [marinho-pu-mamona-bambu-polimeros](marinho-pu-mamona-bambu-polimeros.md); [lopes-2020-osb-residuos-bambu](lopes-2020-osb-residuos-bambu.md) (bateria mecânica com referência comercial).
+- **Pergunta:** Quais são as propriedades mecânicas de tração, flexão estática e compressão de compósitos de resina de mamona com partículas de bambu?
+- **Justificativa:** Fecha a lacuna L3, declarada pelos próprios autores de [Marinho et al. (2013)](marinho-pu-mamona-bambu-polimeros.md).
+- **Abordagem:** Reprodução do processo com ensaios mecânicos normatizados e análise de homogeneidade de dispersão por MEV.
+- **Fontes de partida:** [marinho-pu-mamona-bambu-polimeros](marinho-pu-mamona-bambu-polimeros.md); [lopes-2020-osb-residuos-bambu](lopes-2020-osb-residuos-bambu.md).
 
-### A3. Ensaios de longa duração em uso externo de painéis e compósitos de PU vegetal
-- **Pergunta:** sob intemperismo e ciclagem de umidade por ≥ 12 meses, painéis e compósitos de PU de mamona (incluindo formulações com PET e fibras vegetais) mantêm propriedades físicas e mecânicas, e em que magnitude ocorre a absorção residual registrada?
-- **Justificativa:** fecha a **lacuna L1** (lacuna 1 do estado da arte): a única ficha com exposição prolongada ([dias-2024-absorcao-fibras-compostos](dias-2024-absorcao-fibras-compostos.md)) declara 168 h insuficientes para saturação; o uso externo declarado permanece sem respaldo.
-- **Abordagem:** protocolo de exposição (campo multi-sítio ou câmara de intemperismo) com medições periódicas de absorção, inchamento, massa, mecânica residual e inspeção biológica, partindo das formulações das fichas da gaveta; porte: **projeto de P&D (≥ 12 meses)** ou dissertação com parceria de laboratório.
-- **Fontes de partida:** [dias-2024-absorcao-fibras-compostos](dias-2024-absorcao-fibras-compostos.md); [silvaneto-2026-paineis-pinus-pet-pu](silvaneto-2026-paineis-pinus-pet-pu.md); [cazella-2022-paineis-pinus-pet-pu](cazella-2022-paineis-pinus-pet-pu.md); [marinho-pu-mamona-bambu-polimeros](marinho-pu-mamona-bambu-polimeros.md).
-
----
-
-## 2. Prioridade média
-
-Itens que consolidam o conhecimento do eixo em frentes específicas. Executáveis como dissertação, TCC ampliado ou projeto de médio porte.
-
-### M1. Conformidade normativa integral de painéis com PU de mamona
-- **Pergunta:** aplicando a bateria completa da NBR 14810 (edição vigente) com replicação e análise estatística, alguma formulação da gaveta — casca de mamona, Pinus+PET, eucalipto+couro — atinge conformidade integral, e em qual classe?
-- **Justificativa:** fecha a **lacuna L2** (lacuna 2 do estado da arte): as classificações P4/P6 são leituras parciais dos autores; em [carvalho-2023-paineis-casca-mamona-pu](carvalho-2023-paineis-casca-mamona-pu.md), apenas adesão interna e inchamento atenderam aos requisitos considerados.
-- **Abordagem:** campanha de ensaios normativos completos (densidade, umidade, absorção, inchamento, adesão interna, tração perpendicular, flexão) com número adequado de corpos de prova e replicação de lotes; porte: **dissertação** com laboratório de painéis.
-- **Fontes de partida:** [carvalho-2023-paineis-casca-mamona-pu](carvalho-2023-paineis-casca-mamona-pu.md); [cazella-2022-paineis-pinus-pet-pu](cazella-2022-paineis-pinus-pet-pu.md); [silvaneto-2026-paineis-pinus-pet-pu](silvaneto-2026-paineis-pinus-pet-pu.md) (protocolo NBR 14810-2:2024); [oliveira-2019-paineis-eucalipto-couro-pu](oliveira-2019-paineis-eucalipto-couro-pu.md).
-
-### M2. Preenchimento de colmos naturais com espuma vegetal (MAMONEX RD70)
-- **Pergunta:** em colmos naturais preenchidos com espuma vegetal de densidade conhecida (MAMONEX RD70), o ganho condicionado de carga de pico registrado em tubos engenheirados se reproduz — e quais são os modos de ruptura, a umidade aprisionada e a adesão à parede?
-- **Justificativa:** fecha a **lacuna L6** (lacuna 6 do estado da arte): [wei-et-al-2022-tubos-bambu-espuma-pu](wei-et-al-2022-tubos-bambu-espuma-pu.md) usa lâminas, epóxi e espuma de 31,5 kg/m³ — o estudo deve orientar o desenho do ensaio, não funcionar como prova de desempenho.
-- **Abordagem:** ensaios de compressão axial (e flexão, se cabível) de colmos naturais vazios × preenchidos, com controles, medição de densidade da espuma, umidade e modos de ruptura; porte: **dissertação** com laboratório de estruturas.
-- **Fontes de partida:** [wei-et-al-2022-tubos-bambu-espuma-pu](wei-et-al-2022-tubos-bambu-espuma-pu.md) (desenho experimental e controles); [ficha-tecnica-mamonex-rd70](ficha-tecnica-mamonex-rd70.md) (valores declarados a conferir por lote).
-
-### M3. Desempenho acústico de barreira completa com materiais vegetais
-- **Pergunta:** uma barreira acústica móvel construída com as combinações do relatório PIBITI (multifibras e composições em camadas com espuma aplicada sem obstruir a face absorvedora) mantém, em câmara reverberante e em instalação real, a absorção medida em tubo de impedância — e qual é o isolamento global?
-- **Justificativa:** fecha a **lacuna L8** (lacuna 5 do estado da arte): o PIBITI caracteriza amostras, não barreira instalada; e a espuma isolada (NRC 0,21–0,25) foi inferior às fibras — a composição em camadas precisa de validação.
-- **Abordagem:** ensaios de câmara reverberante (absorção em área), medições de isolamento de barreira completa, durabilidade ao tempo e ensaios de fogo do painel acabado; porte: **dissertação** ou projeto de P&D com câmara acústica.
-- **Fontes de partida:** [ficha-pibit-lucas-aciole-painel-acustico](ficha-pibit-lucas-aciole-painel-acustico.md) (relatório de terceiros — UniCEUB; recomendações de espessuras, aglomerantes e aplicação da espuma).
-
-### M4. Aderência bambu–concreto e durabilidade de tratamentos superficiais
-- **Pergunta:** com amostragem adequada e exposição prolongada, a resina de mamona como recobrimento do bambu para uso em concreto mantém a redução de absorção registrada e proporciona aderência bambu–concreto comparável aos demais tratamentos avaliados?
-- **Justificativa:** fecha a **lacuna L7** (lacuna 7 do estado da arte): [naccache-tratamentos-bambu-concreto](naccache-tratamentos-bambu-concreto.md) tem amostra pequena, acompanhamento curto e nenhum ensaio de aderência ou durabilidade.
-- **Abordagem:** ensaios de aderência (pull-out) bambu–concreto com os quatro grupos do relatório, exposição prolongada e caracterização do recobrimento; porte: **TCC ampliado** ou dissertação com laboratório de estruturas.
-- **Fontes de partida:** [naccache-tratamentos-bambu-concreto](naccache-tratamentos-bambu-concreto.md); [silva-1996-resina-pu-mamona-construcao](silva-1996-resina-pu-mamona-construcao.md) (adesividade da resina em matrizes cimentícias, linha de base histórica).
-
-### M5. Fim de vida: respirometria, ecotoxicidade e laudos de alegações comerciais
-- **Pergunta:** em protocolos robustos (respirometria, ecotoxicidade, caracterização química), as bioespumas e os produtos Imperveg degradam de fato, em que taxa, e com quais produtos de degradação — e as alegações comerciais (biodegradabilidade, não propagação de chama, atoxicidade) resistem a laudos identificados por lote?
-- **Justificativa:** fecha as **lacunas L9 e L10** (lacunas 8 e 9 do estado da arte): [leithold-2015-biodegradacao-bioespumas](leithold-2015-biodegradacao-bioespumas.md) não demonstra mineralização completa e não identifica o poliol; as fichas de produto declaram sem laudo.
-- **Abordagem:** respirometria e ensaios de ecotoxicidade das formulações de interesse, identificação do poliol, e obtenção/execução de laudos por lote para as alegações comerciais; porte: **dissertação** (química ambiental) + ação de **política pública**/fiscalização de alegações de produto.
-- **Fontes de partida:** [leithold-2015-biodegradacao-bioespumas](leithold-2015-biodegradacao-bioespumas.md); [ficha-tecnica-mamonex-rd70](ficha-tecnica-mamonex-rd70.md); [ficha-tecnica-imperveg-ug132a](ficha-tecnica-imperveg-ug132a.md).
+### A3. Ensaios de longa duração em uso externo de painéis e compósitos
+- **Pergunta:** Sob intemperismo natural e ciclagem de umidade por $\ge 12$ meses, compósitos de PU de mamona mantêm estabilidade dimensional e propriedades mecânicas residuais?
+- **Justificativa:** Fecha a lacuna L1: [Dias (2024)](dias-2024-absorcao-fibras-compostos.md) demonstra absorção contínua após 168 h.
+- **Abordagem:** Protocolo de envelhecimento acelerado em câmara e exposição em campo com medições periódicas de propriedades residuais.
+- **Fontes de partida:** [dias-2024-absorcao-fibras-compostos](dias-2024-absorcao-fibras-compostos.md); [silvaneto-2026-paineis-pinus-pet-pu](silvaneto-2026-paineis-pinus-pet-pu.md).
 
 ---
 
-## 3. Prioridade exploratória
+## 5. Prioridade Média e Exploratória
 
-Itens de fronteira, viáveis como iniciação científica/TCC ou dependentes de parcerias específicas. Não são menos importantes — são menos maduros ou de escopo mais estreito.
-
-### E1. Reprodução independente e extensão da campanha acústica do PIBITI
-- **Pergunta:** as combinações multifibras do relatório PIBITI (NRC 0,53–0,67, maior em coco/cana-de-açúcar) se reproduzem em nova campanha com variação de espessura e aglomerantes, e qual é a contribuição isolada da espuma quando aplicada em camadas?
-- **Justificativa:** fecha parcialmente a **lacuna L8** (lacuna 5): o relatório recomenda investigar outras espessuras, aglomerantes e formas de aplicar a espuma sem obstruir a face absorvedora; a reprodução é o primeiro passo antes do sistema completo (M3).
-- **Abordagem:** nova campanha em tubo de impedância com variação controlada de espessura, aglomerante e geometria de aplicação da espuma; porte: **TCC/iniciação científica** com tubo de impedância.
-- **Fontes de partida:** [ficha-pibit-lucas-aciole-painel-acustico](ficha-pibit-lucas-aciole-painel-acustico.md) (relatório de terceiros — UniCEUB).
-
-### E2. Aplicação do tratamento alcalino de fibras (Kamaruddin) a compósitos de PU de mamona
-- **Pergunta:** a alcalinização de fibras vegetais brasileiras em faixas controladas (em torno de 6% de NaOH, com controles) melhora a interface fibra–matriz e o desempenho de compósitos de PU de mamona, mantendo ou reduzindo a absorção de água?
-- **Justificativa:** testa, em matriz de PU (não amilácea), a referência metodológica da gaveta — [kamaruddin-et-al-2022-tratamento-alcalino-capim-limao](kamaruddin-et-al-2022-tratamento-alcalino-capim-limao.md) registra que a condição de 6% não é transferível sem novo experimento; a interface fraca de [lopes-2020-osb-residuos-bambu](lopes-2020-osb-residuos-bambu.md) é o problema alvo.
-- **Abordagem:** planejamento fatorial de concentração de NaOH × tempo sobre fibras selecionadas, compósitos com PU de mamona, ensaios de interface (MEV), mecânica e absorção; porte: **TCC ampliado** ou dissertação com laboratório de materiais.
-- **Fontes de partida:** [kamaruddin-et-al-2022-tratamento-alcalino-capim-limao](kamaruddin-et-al-2022-tratamento-alcalino-capim-limao.md); [lopes-2020-osb-residuos-bambu](lopes-2020-osb-residuos-bambu.md); [dias-2024-absorcao-fibras-compostos](dias-2024-absorcao-fibras-compostos.md).
-
-### E3. Revisão sistemática da literatura de PU vegetal em materiais de construção
-- **Pergunta:** seguindo o protocolo PRISMA 2020 (como em [silvaneto-2026-paineis-pinus-pet-pu](silvaneto-2026-paineis-pinus-pet-pu.md)), qual é o panorama internacional das evidências de painéis e compósitos com adesivo de PU de mamona — e quais lacunas a gaveta ainda não cobre?
-- **Justificativa:** consolida o eixo e identifica fontes novas para aquisição; a gaveta é majoritariamente brasileira e a revisão existente (61 estudos) é interna a uma dissertação.
-- **Abordagem:** revisão sistemática (PRISMA 2020; bases ScienceDirect e Periódicos CAPES como ponto de partida) com extração padronizada de propriedades, formulações e normas; porte: **TCC/iniciação científica** ou base para projeto de P&D.
-- **Fontes de partida:** [silvaneto-2026-paineis-pinus-pet-pu](silvaneto-2026-paineis-pinus-pet-pu.md) (protocolo e bases); [marinho-pu-mamona-bambu-polimeros](marinho-pu-mamona-bambu-polimeros.md).
-
-### E4. Viabilidade econômica de unidade piloto de painéis com PU de mamona
-- **Pergunta:** com dados primários de custo de resina, resíduos e energia, uma unidade piloto brasileira de painéis com PU de mamona é viável economicamente (CAPEX/OPEX), considerando os parâmetros de processo das fichas da gaveta?
-- **Justificativa:** fecha a **lacuna L3** (lacuna 10 do estado da arte): nenhuma ficha cobre produção contínua ou custos; a valorização de resíduos só se converte em política pública com números de custo e retorno.
-- **Abordagem:** estudo de viabilidade (CAPEX/OPEX) com dados primários de mercado, simulação de escala a partir dos parâmetros de processo das fichas; porte: **P&D** ou dissertação com parceria industrial, e subsídio a **política pública** de fomento.
-- **Fontes de partida:** [carvalho-2023-paineis-casca-mamona-pu](carvalho-2023-paineis-casca-mamona-pu.md); [cazella-2022-paineis-pinus-pet-pu](cazella-2022-paineis-pinus-pet-pu.md); [silvaneto-2026-paineis-pinus-pet-pu](silvaneto-2026-paineis-pinus-pet-pu.md); [oliveira-2019-paineis-eucalipto-couro-pu](oliveira-2019-paineis-eucalipto-couro-pu.md).
-
----
-
-## 4. Síntese da agenda
-
-A leitura curatorial da agenda em três movimentos: **primeiro**, destravar o componente bambu–PU, que concentra as lacunas mais custosas do eixo — ensaio de fogo com rastreabilidade (A1), que substitui o bloqueio do certificado UL 94 por evidência própria, e caracterização mecânica dos compósitos bambu–PU (A2), declarada como lacuna pelos próprios autores de Marinho et al. (2013); **em paralelo**, iniciar os ensaios de longa duração em uso externo (A3), que condicionam qualquer finalidade externa declarada. Na sequência, os itens médios consolidam frentes específicas (conformidade normativa dos painéis, preenchimento de colmos com espuma vegetal, barreira acústica completa, aderência bambu–concreto e fim de vida), e os exploratórios abrem frentes novas de baixo custo de entrada (reprodução acústica, alcalinização de fibras, revisão sistemática e viabilidade econômica).
-
-Cada item desta agenda é candidato a TCC, dissertação, projeto de P&D, ensaios de fogo ou política pública — e todos citam, como ponto de partida obrigatório, as fichas da gaveta, que permanecem a fonte de evidência atribuída do eixo. A execução de qualquer item deve manter a regra do Acervo: dados novos entram como novas fichas com fonte integral conferida, interpretações curatoriais permanecem marcadas como tais, e nenhum resultado de bancada ou de amostra equivale a conformidade normativa sem o ensaio correspondente.
+- **M1. Conformidade normativa integral de painéis aglomerados:** bateria completa da NBR 14810 vigente com análise estatística formal (lacuna L2);
+- **M2. Preenchimento de colmos naturais de bambu com espuma vegetal:** ensaios de compressão axial em colmos naturais com nós preenchidos com MAMONEX RD70 (lacuna L5);
+- **M3. Desempenho acústico de barreira completa:** medições em câmara reverberante de sistema real instalado (lacuna L7);
+- **M4. Aderência bambu–concreto e durabilidade de tratamentos superficiais:** ensaios de *pull-out* e durabilidade da resina de mamona em meio cimentício alcalino (lacuna L6);
+- **M5. Fim de vida, respirometria e laudos de alegações comerciais:** ensaios padronizados de biodegradação em solo por $\ge 180$ dias e emissão de laudos acreditados para produtos Imperveg (lacunas L8 e L9);
+- **E1 a E3. Investigações exploratórias:** reprodução acústica com variação de espessura de fibras vegetais, tratamento químico alcalino de fibras brasileiras e revisão sistemática PRISMA da literatura de biopoliuretanas na construção.
