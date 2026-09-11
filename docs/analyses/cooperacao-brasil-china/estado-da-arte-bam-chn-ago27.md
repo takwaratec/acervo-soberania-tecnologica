@@ -172,7 +172,7 @@ Ver arquivo de claims vedados ao artigo — 8 proibições com motivo.
 
 O corpus AGO27 documenta **desenho institucional consistente** da política brasileira do bambu em 2011-2013 (PNMCB → MoU MCTI-MOST → Chamada 66/2013 com 6 núcleos, governança, linhas temáticas e critérios) e **contatos históricos** Brasil-China em longa duração com densidade variável e rupturas documentadas (1974 normalização, 23 atos 1980s, esfriamento 1990-94 p.304, retomada 2011 MoU, mas 1992/1999 6 missões sem projetos). Não documenta **implantação dos núcleos, desembolso, absorção industrial ou transferência tecnológica de bambu**. Casos-controle intersetoriais (CBERS — espacial binacional; CBCIN — nanotecnologia; Wuxi — fabricação de sensores no exterior) como BENCHMARKS_INSTITUCIONAIS_INTERSETORIAIS mostram que transferência profunda exige centro binacional dedicado, divisão formal de trabalho e continuidade — condições sem evidência para bambu. A hipótese de que a assimetria decorre também de condições de possibilidade (trajetória, escala, coordenação, financiamento contínuo) permanece **plausível e não rejeitada**, com suporte convergente mas não conclusivo, e não deve ser reduzida a "falta de vontade" nem a "vocação" — preserva-se a hipótese de que condições de possibilidade prevalecem sobre explicação voluntarista. A **hipótese de trajetória compatível com o corpus** é a de desenvolvimento seletivo e regionalizado, compatível com capacidades institucionais demonstradas, agricultura familiar e bioeconomia — não a de réplica da escala industrial chinesa. Esta formulação é hipótese qualificada, não conclusão documentalmente provada; tudo o que exceder permanece hipótese aberta ou lacuna.
 
-## 21. Referências rastreáveis às fichas
+## 21. Referências documentais do corpus
 
 - Abramovay 1985: 13pp p.233-245 — quadro teórico
 - Becard 2008: 330pp pp.83,103-111,131,141-142,151,304
@@ -186,7 +186,6 @@ O corpus AGO27 documenta **desenho institucional consistente** da política bras
 - INPE: gov.br/inpe 29/07/2021 pp.1-3
 - Embrapa 1999: p.20
 - SRI 1992: pp.6,18-19
-- Matrizes: BAM_CHN_AGO27_*_V2/V1/V3, reconciliações V1, audits V1
 
 ---
-*Estado da Arte — 12 fichas, 0 claims não sustentados, captura não confirmada (CAPTURE_CONFIRMED=NO). TRACEABILITY=100%.*
+*Estado da Arte — 12 fichas, 0 claims não sustentados, captura não confirmada. TRACEABILITY=100%.*
