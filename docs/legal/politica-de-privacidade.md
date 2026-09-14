@@ -1,3 +1,9 @@
+---
+tipo_documental: documento-institucional
+estado_documental: homologado-documentalmente
+responsavel_curadoria: "Fabio Takwara / TakwaraTec"
+---
+
 # Política de Privacidade — TakwaraTec Instagram Automation
 
 **Última atualização:** 13 de setembro de 2026
