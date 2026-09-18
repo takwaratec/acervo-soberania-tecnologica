@@ -1,3 +1,12 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+data_revisao: 2026-09-18
+responsavel_curadoria: Fabio Takwara
+titulo: "ADR Acervo Arquitetura Relacional R1"
+autor: Fabio Takwara
+resumo: "ADR raiz do R1 conceitual da arquitetura relacional do Acervo."
+---
 # ADR Acervo Arquitetura Relacional R1
 
 > **STATUS:** PROPOSTA_ARQUITETURAL_R1 (conceitual, NÃO implementada)

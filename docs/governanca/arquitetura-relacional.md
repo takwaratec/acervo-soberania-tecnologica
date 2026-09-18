@@ -1,3 +1,12 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+data_revisao: 2026-09-18
+responsavel_curadoria: Fabio Takwara
+titulo: "Arquitetura relacional do Acervo (R1 — conceitual)"
+autor: Fabio Takwara
+resumo: "Visão geral da arquitetura relacional R1 (conceitual)."
+---
 # Arquitetura relacional do Acervo (R1 — conceitual)
 
 > **STATUS:** PROPOSTA_ARQUITETURAL_R1 (conceitual, NÃO implementada)

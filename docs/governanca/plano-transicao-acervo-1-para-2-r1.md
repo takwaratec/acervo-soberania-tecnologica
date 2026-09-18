@@ -1,3 +1,12 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+data_revisao: 2026-09-18
+responsavel_curadoria: Fabio Takwara
+titulo: "Plano de Transição Acervo 1 → 2 (R1)"
+autor: Fabio Takwara
+resumo: "Sequência sugerida de evolução do Acervo 1 para o Acervo 2."
+---
 # Plano de Transição Acervo 1 → 2 (R1)
 
 > **STATUS:** PROPOSTA_ARQUITETURAL_R1 (conceitual, NÃO implementada)

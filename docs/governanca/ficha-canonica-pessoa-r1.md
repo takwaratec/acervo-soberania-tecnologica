@@ -1,3 +1,12 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+data_revisao: 2026-09-18
+responsavel_curadoria: Fabio Takwara
+titulo: "Ficha Canônica de Pessoa R1"
+autor: Fabio Takwara
+resumo: "Schema conceitual PESSOA_R1."
+---
 # Ficha Canônica de Pessoa R1
 
 > **STATUS:** PROPOSTA_ARQUITETURAL_R1 (conceitual, NÃO implementada)

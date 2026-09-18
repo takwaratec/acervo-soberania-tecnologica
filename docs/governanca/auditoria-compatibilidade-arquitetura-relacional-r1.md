@@ -1,3 +1,12 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+data_revisao: 2026-09-18
+responsavel_curadoria: Fabio Takwara
+titulo: "Auditoria de Compatibilidade — Arquitetura Relacional R1"
+autor: Fabio Takwara
+resumo: "Auditoria de compatibilidade entre a proposta R1 e a governança existente."
+---
 # Auditoria de Compatibilidade — Arquitetura Relacional R1
 
 > **STATUS:** PROPOSTA_ARQUITETURAL_R1 (conceitual, NÃO implementada)

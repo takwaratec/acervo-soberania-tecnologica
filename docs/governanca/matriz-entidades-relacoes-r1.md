@@ -1,3 +1,12 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+data_revisao: 2026-09-18
+responsavel_curadoria: Fabio Takwara
+titulo: "Matriz Entidades × Relações R1"
+autor: Fabio Takwara
+resumo: "Matriz de entidades e relações tipificadas (R1 conceitual)."
+---
 # Matriz Entidades × Relações R1
 
 > **STATUS:** PROPOSTA_ARQUITETURAL_R1 (conceitual, NÃO implementada)
