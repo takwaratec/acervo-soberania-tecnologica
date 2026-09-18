@@ -76,6 +76,13 @@ nav:
   - Apresentação do Acervo: apresentacao-do-acervo.md
   - Sobre: sobre.md
   - Metodologia: metodologia.md
+  - Arquitetura relacional (R1 conceitual):
+      - Visão geral: governanca/arquitetura-relacional.md
+      - ADR R1: governanca/adr-acervo-arquitetura-relacional-r1.md
+      - Ficha canônica de pessoa (R1): governanca/ficha-canonica-pessoa-r1.md
+      - Matriz entidades × relações (R1): governanca/matriz-entidades-relacoes-r1.md
+      - Plano de transição (R1): governanca/plano-transicao-acervo-1-para-2-r1.md
+      - Auditoria de compatibilidade (R1): governanca/auditoria-compatibilidade-arquitetura-relacional-r1.md
   - Domos e Habitação Alternativa:
       - Visão geral: frentes-documentais/dom-hab-r1/index.md
       - Estado da Arte: frentes-documentais/dom-hab-r1/estado-da-arte.md
