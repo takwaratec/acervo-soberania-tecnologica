@@ -129,3 +129,11 @@ Os textos curatoriais originais de Fabio Takwara podem receber licença própria
 **Assistência documental:** ferramentas computacionais e agentes de IA, sempre sujeitas a revisão humana e sem autoria atribuída indevidamente às fontes analisadas.
 
 O objetivo não é construir a maior coleção de documentos. É criar condições para que outras pessoas encontrem evidências, compreendam limites e formulem novas pesquisas sem precisar reiniciar todo o percurso bibliográfico. O êxito do Acervo será medido menos pelo número de fichas e mais pelas perguntas, projetos, revisões e colaborações que ele conseguir tornar possíveis.
+
+## Arquitetura relacional
+
+A curadoria é organizada em gavetas temáticas (`docs/analyses/`), mas o Acervo está evoluindo para uma arquitetura relacional em que cada entidade canônica (pessoa, documento, tema, território, instituição, tecnologia) pode ser navegada por diferentes dimensões sem duplicação. O modelo é **R1 conceitual**: a implementação ainda não foi autorizada e nenhuma migração de fichas foi realizada.
+
+As decisões arquiteturais estão publicadas em [`docs/governanca/`](governanca/arquitetura-relacional.md), onde constam o ADR raiz, a ficha canônica de pessoa, a matriz de entidades × relações, o plano de transição e a auditoria de compatibilidade. Cada documento declara `STATUS=PROPOSTA_ARQUITETURAL_R1`, `IMPLEMENTACAO=NAO_AUTORIZADA` e `MIGRACAO=NAO_AUTORIZADA`.
+
+Princípios vinculantes: a chave canônica da entidade é o `INTERNAL_STABLE_ID` (criado e governado pelo Acervo, persistente, independente de fornecedores externos como DOI/ORCID/ROR/Wikidata); identificadores externos são apenas aliases, crosswalks e chaves de reconciliação; nenhuma migração física de arquivos é realizada sem ADR que a autorize; nenhum insight arquitetural deve permanecer apenas em chat.
