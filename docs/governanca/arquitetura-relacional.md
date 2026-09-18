@@ -124,6 +124,7 @@ docs(contribution): definir pipeline público de contribuição
 | P2_A | ADR de coexistência `ENTITY_DOCUMENT` × `ENTITY_PERSON` (schemas próprios, estados compatíveis, proveniência própria) | ADR_R2 futuro |
 | P2_B | Governança do vocabulário controlado (THEME / TERRITORY / INSTITUTION): namespace, versionamento, política de redirect | ADR_R2 futuro |
 | P2_C | Mapeamento entre `WEB_PROFILE_ID` (Acervo Web) e `INTERNAL_STABLE_ID` (Acervo Científico) | ADR_WEB_R1 |
+| P2_D_resolvido_R1 | ADR normativo da sintaxe do `INTERNAL_STABLE_ID` (`adr-internal-stable-id-syntax-r1.md`); inclui a regra vinculante `ENTIDADE_PESSOA != FICHA_CIENTIFICA` (PERSON como nó relacional, não como ficha) | revisão Codex pendente |
 
 ## 11. Não-objetivos desta rodada
 
@@ -141,5 +142,6 @@ docs(contribution): definir pipeline público de contribuição
 - `matriz-entidades-relacoes-r1.md` — matriz de entidades e relações.
 - `plano-transicao-acervo-1-para-2-r1.md` — sequência de transição R0→R5.
 - `auditoria-compatibilidade-arquitetura-relacional-r1.md` — auditoria de compatibilidade com governança atual.
+- `adr-internal-stable-id-syntax-r1.md` — ADR normativo da sintaxe do `INTERNAL_STABLE_ID` (resolução do P2_D).
 
 Cada documento declara `STATUS=PROPOSTA_ARQUITETURAL_R1`, `IMPLEMENTACAO=NAO_AUTORIZADA`, `MIGRACAO=NAO_AUTORIZADA` no topo.
