@@ -8,6 +8,10 @@ Repositório de curadoria documental idealizado por Fabio Takwara. Reúne fichas
 
 Infraestrutura pública de curadoria e conexão do conhecimento: transformar literatura científica, documentação técnica e memória de pesquisa em referências rastreáveis, comparáveis e utilizáveis na formulação de novos estudos, projetos, experimentos e políticas.
 
+## Roteamento de modelos e execução
+
+Antes de executar qualquer GOAL, agentes devem obedecer `GOVERNANCA_ROTEAMENTO_MODELOS_TAKWARATEC_R1.md`.
+
 ## Estrutura do repositório
 
 ```text
