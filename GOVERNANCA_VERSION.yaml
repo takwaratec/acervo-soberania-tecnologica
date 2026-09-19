@@ -1,7 +1,7 @@
 governanca:
   origem: takwaratec/mentoria-takwara
-  versao_instalada: 1.0.0
-  versao_requerida: ">=1.0.0 <2.0.0"
+  versao_instalada: 1.1.0
+  versao_requerida: ">=1.1.0 <2.0.0"
   commit_origem: "0000000000000000000000000000000000000000"
   sincronizado_em: "2026-07-31"
   sincronizado_por: "agente-governanca"
