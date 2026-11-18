@@ -1,5 +1,5 @@
 ---
-tipo_documental: matriz-comparativa
+tipo_documental: sintese-critica
 estado_documental: em-revisao-documental
 fonte_primaria: 12 PDFs integrais conferidos, com texto extraído página a página
 titulo: "Matriz Comparativa — Propriedades Mecânicas de Bambu Lenhoso: Ásia × América do Sul"
@@ -142,6 +142,7 @@ Resultados do artigo (Tabela 2, flexão estática de 3 pontos): *P. aurea* ating
 | Estudos com ensaio mecânico de gênero nativo não-*Guadua* | **1** (*Chusquea culeou*, 2009) |
 | Estudos que declaram nativas brasileiras e usam espécies asiáticas | **1** (Scharfenberg 2024) |
 | Espécies de *Merostachys*, *Apoclada*, *Eremocaulon*, *Glaziophyton* com dado mecânico | **0** |
+| Documentos identificados como relevantes e **não obtidos** | **1** — *Dendrocalamus asper* vs duas *Guadua* (2024), ScienceDirect bloqueado (403 na máquina local; CPE00001 no dispositivo móvel). Declarado na seção 1 e no limite 2 da seção 7 |
 
 ---
 
@@ -186,9 +187,13 @@ Resultados do artigo (Tabela 2, flexão estática de 3 pontos): *P. aurea* ating
 
 ## 8. Consequência para a L21 do mapa de lacunas
 
-A lacuna L21 ("Caracterização mecânica própria de espécies nativas amazônicas") **permanece aberta, mas com outro recorte**. A redação atual nomeia *Guadua weberbaueri* como exemplo do que falta — e *G. weberbaueri* já tem ensaio mecânico publicado (Rodríguez-Sotelo 2023), ainda que sob normas peruana e colombiana, não brasileira.
+A lacuna L21 ("Caracterização mecânica própria de espécies nativas amazônicas") **permanece ABERTA**. Este documento não a fecha, e o motivo é preciso: a L21 pede, textualmente, **campanha de ensaios mecânicos e físicos (NBR 16828-1/2)** das espécies nativas, com identificação botânica e procedência. As seis espécies aqui reunidas são **valores de literatura**, produzidos sob normas distintas (NTC 5525, NTP, NBR 16828, ISO 22157) e em campanhas isoladas — não constituem a campanha que a lacuna descreve. Reunir literatura não é executar campanha.
 
-A reescrita da L21 é matéria de documento próprio e será feita em separado, conforme decisão do soberano. Este documento entrega apenas as três distinções que aquela reescrita precisa carregar: **cobertura de espécie** (o que existe além de *Guadua*), **cobertura normativa** (quem tem norma de projeto, não apenas ensaio) e **comparabilidade** (o que pode ser somado sem correção).
+O que a matriz acrescenta à L21 é outra coisa: a redação atual nomeia *Guadua weberbaueri* como exemplo do que falta, e *G. weberbaueri* já tem ensaio mecânico publicado (Rodríguez-Sotelo 2023), ainda que sob normas peruana e colombiana, não brasileira. Ou seja, a L21 acerta o diagnóstico e erra o alvo: o que falta não é conhecimento da espécie, é **ensaio na norma brasileira** — e, para os gêneros fora de *Guadua*, é conhecimento de qualquer natureza.
+
+O achado 3 muda a forma da lacuna: o mapa hoje trata o risco como geográfico; o dado indica que o risco é **intra-gênero** (6,1× dentro de *Guadua* contra 1,15× entre continentes). Dimensionar uma nativa com propriedades de outra espécie do mesmo gênero é extrapolação não verificada — e é o risco que o número sustenta.
+
+A reescrita da L21 é matéria de documento próprio e será feita em separado, conforme decisão do soberano. Este documento entrega as três distinções que aquela reescrita precisa carregar: **cobertura de espécie** (o que existe além de *Guadua*), **cobertura normativa** (quem tem norma de projeto, não apenas ensaio) e **comparabilidade** (o que pode ser somado sem correção).
 
 ---
 
