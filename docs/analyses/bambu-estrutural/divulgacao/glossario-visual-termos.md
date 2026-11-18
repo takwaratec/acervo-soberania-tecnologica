@@ -28,7 +28,7 @@ O critério: se a pessoa nunca abriu um livro de engenharia, ela precisa entende
 
 **A escala do corpus:** Guadua cede 57,8 mm num vão de 2.600 mm — o vão dividido por 45. Moso cede 172,8 mm no mesmo vão — o vão dividido por 15. O Moso verga três vezes mais.
 
-**A tradução da unidade:** "vão dividido por 250" é a régua usual em norma de madeira para piso. Em 2,6 m, isso são 10 mm. O Moso cede 17 vezes esse limite antes de romper; a Guadua, quase 6 vezes.
+**A tradução da unidade:** "vão dividido por 250" é a régua usual em norma de madeira para piso — em 2,6 m, 10 mm. Vale como ordem de grandeza, não como veredito: os ensaios medem flecha **no rompimento**, não flecha de serviço sob carga de projeto. Dizer que a peça "viola a norma" exigiria a carga admissível e o critério de serviço, que os artigos não dão. O que se pode afirmar é que, no colapso, o Moso já cedeu 173 mm e a Guadua 58 mm — a diferença de comportamento é grande e na direção que o texto indica.
 
 ---
 

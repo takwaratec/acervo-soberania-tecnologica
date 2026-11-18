@@ -1,10 +1,10 @@
 ---
 tipo_documental: material-didatico-institucional
-titulo: "Carrossel 2 — 240 artigos, um buraco no meio (12 slides)"
+titulo: "Carrossel 2 — 254 artigos, um buraco no meio (12 slides)"
 autores: Fabio Takwara (curadoria); Hermes Agent (redação)
 ano: 2026
 estado_documental: em-revisao-documental
-fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 240 artigos), custodiados em _privado/
+fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 254 artigos), custodiados em _privado/
 data_revisao: 2026-11-18
 nota_versao: "Padrão de front matter e de citação de fontes AINDA NÃO DEFINIDO para material de divulgação do MTCC; está sob escrutínio de auditoria externa. Proveniência declarada em texto corrido no corpo do documento. Não tratar este front matter como formato homologado."
 responsavel_curadoria: Fabio Takwara
@@ -20,7 +20,7 @@ Objetivo: mostrar que a pesquisa de bambu estrutural mediu o colmo e esqueceu a 
 
 ## Slide 1 — Capa
 
-**240 artigos. Um buraco no meio.**
+**254 artigos. Um buraco no meio.**
 
 A pesquisa de bambu estrutural mede tudo — menos a peça que decide se a estrutura fica de pé.
 
@@ -30,7 +30,7 @@ A pesquisa de bambu estrutural mede tudo — menos a peça que decide se a estru
 
 **A coleção**
 
-240 artigos da *Advances in Bamboo Science*, 16 volumes.
+254 artigos da *Advances in Bamboo Science*, 16 volumes.
 
 29 deles são de estrutura e engenharia.
 
@@ -106,7 +106,7 @@ Praticamente não caiu.
 
 Em português: essa geometria não serve para resistir a carga transversal no plano.
 
-Tradução prática: a ligação que muita gente usa é a que a norma reprova.
+Tradução prática: a geometria testada não serve para carga transversal — conclusão dos autores sobre o ensaio, não uma proibição da norma.
 
 ---
 
@@ -164,4 +164,4 @@ Mais caracterização de material não move essa resposta.
 - **Slide 8** é o mais compartilhável: citação direta com tradução.
 - **Slide 9** é o que o público técnico vai salvar — é raro ver o efeito do tamanho de amostra explicado em linguagem simples.
 - Evitar tom alarmista: o carrossel diz que a pesquisa é boa, e aponta o que ela não cobre.
-- Legenda sugerida: *240 artigos depois, o gargalo do bambu estrutural cabe em duas palavras: falta ligação. →*
+- Legenda sugerida: *254 artigos depois, o gargalo do bambu estrutural cabe em duas palavras: falta ligação. →*

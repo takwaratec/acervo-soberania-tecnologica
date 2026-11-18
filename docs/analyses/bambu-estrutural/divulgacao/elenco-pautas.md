@@ -4,7 +4,7 @@ titulo: "Elenco de pautas possíveis a partir da coleção Advances in Bamboo Sc
 autores: Fabio Takwara (curadoria); Hermes Agent (redação)
 ano: 2026
 estado_documental: em-revisao-documental
-fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 240 artigos), custodiados em _privado/
+fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 254 artigos), custodiados em _privado/
 data_revisao: 2026-11-18
 nota_versao: "Padrão de front matter e de citação de fontes AINDA NÃO DEFINIDO para material de divulgação do MTCC; está sob escrutínio de auditoria externa. Proveniência declarada em texto corrido no corpo do documento. Não tratar este front matter como formato homologado."
 responsavel_curadoria: Fabio Takwara
@@ -12,7 +12,7 @@ responsavel_curadoria: Fabio Takwara
 
 # Elenco de pautas possíveis a partir da coleção
 
-**240 artigos · Advances in Bamboo Science (16 volumes) + 12 estudos de mecânica**
+**254 artigos · Advances in Bamboo Science (16 volumes) + 12 estudos de mecânica**
 
 Classificação por **prontidão**, não por interesse. "Pronto" significa: os números existem no corpus, verificáveis, e não exigem busca externa.
 
@@ -23,7 +23,7 @@ Classificação por **prontidão**, não por interesse. "Pronto" significa: os n
 ### A1. Bambu estrutural: medimos o colmo, esquecemos a ligação
 **Formato:** artigo de blog (feito) + carrossel 2 (feito)
 
-O achado central da frente. 240 artigos, 1 artigo de ligação, 0 treliças. Números de Harries 2022: 469 Nm de média virando 65 Nm característico; característico zera com n < 10.
+O achado central da frente. 254 artigos, 1 artigo de ligação, 0 treliças. Números de Harries 2022: 469 Nm de média virando 65 Nm característico; característico zera com n < 10.
 
 **Por que funciona:** contraria a expectativa ("falta pesquisa") com um dado específico e defensável.
 

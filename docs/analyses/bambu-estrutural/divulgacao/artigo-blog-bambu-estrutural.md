@@ -1,16 +1,16 @@
 ---
 tipo_documental: ensaio-autoral
-titulo: "Artigo educativo de blog — o que 240 artigos de bambu medem e o que não medem"
+titulo: "Artigo educativo de blog — o que 254 artigos de bambu medem e o que não medem"
 autores: Fabio Takwara (curadoria); Hermes Agent (redação)
 ano: 2026
 estado_documental: em-revisao-documental
-fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 240 artigos), custodiados em _privado/
+fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 254 artigos), custodiados em _privado/
 data_revisao: 2026-11-18
 nota_versao: "Padrão de front matter e de citação de fontes AINDA NÃO DEFINIDO para material de divulgação do MTCC; está sob escrutínio de auditoria externa. Proveniência declarada em texto corrido no corpo do documento. Não tratar este front matter como formato homologado."
 responsavel_curadoria: Fabio Takwara
 ---
 
-# O que 240 artigos sobre bambu dizem — e o que ainda ninguém mediu
+# O que 254 artigos sobre bambu dizem — e o que ainda ninguém mediu
 
 *Artigo educativo · blog do Acervo / Amanac*
 
@@ -18,7 +18,9 @@ responsavel_curadoria: Fabio Takwara
 
 ## A pergunta que iniciou tudo
 
-Quem procura bambu estrutural no Brasil esbarra sempre na mesma frase: "falta pesquisa". A frase é verdadeira e inútil, porque não diz o que falta. Este levantamento atravessou 240 artigos publicados na *Advances in Bamboo Science*, a principal revista científica da área, mais 12 estudos de mecânica que não estavam na coleção. O que encontrei não foi ausência de pesquisa. Foi uma pesquisa com um ponto cego muito específico.
+Quem procura bambu estrutural no Brasil esbarra sempre na mesma frase: "falta pesquisa". A frase é verdadeira e inútil, porque não diz o que falta. Este levantamento atravessou 254 artigos publicados na *Advances in Bamboo Science*, a principal revista científica da área, mais 12 estudos de mecânica. O que encontrei não foi ausência de pesquisa. Foi uma pesquisa com um ponto cego muito específico.
+
+Uma ressalva de método, antes de tudo: a **classificação temática dos 254 foi feita pelo título dos arquivos**, e a **leitura integral por conteúdo cobre 12 documentos**. Onde este texto disser "não existe", leia "não aparece entre os documentos lidos integralmente, e a busca por título nos 254 não encontrou". É mais fraco que uma varredura completa, e é o que a frente efetivamente mediu.
 
 Este texto é sobre esse ponto cego — e sobre por que ele importa para quem vai construir, não só para quem vai escrever artigo científico.
 
@@ -37,7 +39,7 @@ A segunda régua, que confunde mais gente: **tensão não é carga**. Um colmo d
 
 ---
 
-## O que os 240 artigos medem
+## O que os 254 artigos medem
 
 A coleção se divide assim:
 
@@ -67,11 +69,11 @@ O bambu tem a primeira camada completa e a terceira vazia.
 
 **Coluna (colmo inteiro).** Drury e colegas (2023, *Sustainability* 15:6472) ensaiaram cinco espécies sob ISO 22157, em colmo inteiro, e declararam o objetivo em palavras explícitas: avaliar o comportamento de compressão "como colunas estruturais em edifícios modernos". Madake, Moso, Guadua, Tali e Black Java, entre 54 e 89 MPa. É o dado mais próximo de dimensionar um pilar que existe hoje.
 
-**Viga (colmo inteiro).** Franck e colegas (2026, *Discover Applied Sciences* 8:1048) ensaiaram Moso e Guadua em flexão de quatro pontos, com vão de 2,6 metros e correlação de imagem digital. Moso rompeu a 77 MPa com flecha de 173 mm — vão dividido por 15. Guadua rompeu a 56 MPa com flecha de 58 mm — vão dividido por 45. A Guadua é 1,37 vez menos resistente e 1,8 vez mais rígida. Em viga, quem governa o projeto é a flecha, não a ruptura: a espécie "mais fraca" pode ser a escolha certa.
+**Viga (colmo inteiro).** Franck e colegas (2026, *Discover Applied Sciences* 8:1048) ensaiaram Moso e Guadua em flexão de quatro pontos, com vão de 2,6 metros e correlação de imagem digital. Moso rompeu a 77 MPa com flecha de 173 mm — vão dividido por 15. Guadua rompeu a 56 MPa com flecha de 58 mm — vão dividido por 45. A Guadua é 1,37 vez menos resistente e 1,8 vez mais rígida. O módulo tem dois valores no artigo e não são divergência: **19,76 GPa** é o internó da Guadua contra **10,45 GPa** do internó do Moso; **20,31 contra 10,99 GPa** é a média das duas condições ensaiadas (com e sem nó). A razão é praticamente a mesma nas duas leituras — 1,89 e 1,85. Em viga, quem governa o projeto é a flecha, não a ruptura: a espécie "mais fraca" pode ser a escolha certa.
 
 **Viga de lâminas.** Scharfenberg e colegas (2024, *Forests* 15:580) isolaram o que nenhum outro fez: a face do colmo importa. Lâmina com superfície externa tracionada e nó presente chegou a 367 MPa em *Phyllostachys aurea* — contra 202 MPa da pior configuração. Foi o único estudo que tratou face e nó como variáveis de projeto, e não como detalhe.
 
-**Viga laminada colada.** Kumar e colegas (2025, *Advances in Bamboo Science* 12, 100183) fabricaram vigas de *Bambusa spinosa* com adesivo fenol-formaldeído e encontraram o ponto ótimo de colheita: colmo de 40 a 50 mm de diâmetro, parede de 5 a 7 mm, colhido 3 metros acima da base, com 3 a 4 anos. As vigas de 50×100×800 mm atingiram 125 kNm de momento máximo; as de 50×125×800 mm, 174 kNm. Aderência do adesivo: 15,45 MPa. Uma imersão de 7 dias em solução salina melhorou as propriedades e afastou fungos.
+**Viga laminada colada.** Kumar e colegas (2025, *Advances in Bamboo Science* 12, 100183) fabricaram vigas de *Bambusa spinosa* com adesivo fenol-formaldeído e encontraram o ponto ótimo de colheita: colmo de 40 a 50 mm de diâmetro, parede de 5 a 7 mm, colhido 3 metros acima da base, com 3 a 4 anos. O artigo reporta momento máximo de 125,37 kN·m e 174,38 kN·m para as duas seções, calculados por fórmula própria e conferidos por elementos finitos — **mas esses valores são incompatíveis com a própria seção ensaiada**: uma viga de 50×125 mm com 174 kN·m exigiria tensão de 1,34 GPa, dez vezes acima dos 146,78 MPa de flexão que o mesmo artigo mede. O dado utilizável é a tensão (146,78 MPa) e a aderência do adesivo (15,45 MPa); o momento reportado fica registrado como inconsistência da fonte, não como resultado. Uma imersão de 7 dias em solução salina melhorou as propriedades e afastou fungos.
 
 **Viga de ripas.** Vasconcelos e colegas (2026, *Advances in Bamboo Science* 15, 100228) montaram vigas de ripas de *Dendrocalamus asper* e descobriram algo contraintuitivo: ripas de Moso, que vão melhor em tração, deram o pior resultado em flexão. E o reforço com barras roscadas — que confina as ripas — foi o que mais melhorou o desempenho. Não houve correlação direta entre volume de fibra e resistência do elemento.
 
@@ -79,13 +81,13 @@ O bambu tem a primeira camada completa e a terceira vazia.
 
 **Agora o que não existe:**
 
-**Ligação.** Um único artigo na coleção inteira. Harries, Rogers e Brancaccio (2022, *Advances in Bamboo Science* 1, 100003) testaram uma ligação boca-de-peixe parafusada seguindo o protocolo de ensaio completo da ISO 22156. O resultado é um alerta: a variação foi tão alta que os valores característicos desabaram. Momento de escoamento médio de 469 Nm virou **65 Nm** característico. Rigidez rotacional média de 31.390 Nm/rad virou **29.050** — praticamente não caiu. E o mais duro: os autores calculam que, mantendo a mesma média e o mesmo coeficiente de variação, **o valor característico cai a zero se o número de corpos de prova for menor que 10.**
+**Ligação.** Um único artigo encontrado, e ele está entre os 12 lidos integralmente. Harries, Rogers e Brancaccio (2022, *Advances in Bamboo Science* 1, 100003) testaram uma ligação boca-de-peixe parafusada seguindo o protocolo de ensaio completo da ISO 22156. O resultado é um alerta: a variação foi tão alta que os valores característicos desabaram. Momento de escoamento médio de 469 Nm virou **65 Nm** característico. Rigidez rotacional média de 31.390 Nm/rad virou **29.050** — praticamente não caiu. E o mais duro: os autores calculam que, mantendo a mesma média e o mesmo coeficiente de variação, **o valor característico cai a zero se o número de corpos de prova for menor que 10.**
 
 A conclusão dos autores é sem meias palavras: a geometria boca-de-peixe é "ill-suited" — inadequada — para resistir a cargas transversais no plano.
 
 **Treliça.** Nenhuma foi ensaiada. A palavra aparece uma vez em toda a coleção estrutural, num parágrafo de introdução do artigo de Franck dizendo que "a chave para boas ligações em elementos portantes, por exemplo tesouras, é conhecer o material e saber trabalhá-lo".
 
-**Flambagem de coluna de bambu inteiro.** Existe um artigo, mas sobre *bambu scrimber* — compósito industrial, não colmo. Goonewardena e colegas (2024, *Advances in Bamboo Science* 7, 100082) analisaram a literatura e concluíram que a falha dominante é cisalhamento, que a flambagem local ("kinking") reduz a capacidade dos colmos curtos, que há efeito de tamanho com boa correlação com o volume, e que **seções de tamanho estrutural (100×100 mm ou maiores) praticamente não foram estudadas.**
+**Flambagem de coluna.** Existem dois artigos, ambos sobre compósito industrial — nenhum sobre colmo inteiro. Goonewardena e colegas (2024, *Advances in Bamboo Science* 7, 100082) analisaram a literatura sobre *scrimber*: falha dominante por cisalhamento, flambagem local reduzindo a capacidade dos curtos, efeito de tamanho com boa correlação com o volume, e seções de 100×100 mm ou maiores praticamente não estudadas. Manggapis e colegas (2026, *Advances in Bamboo Science* 16) ensaiaram colunas de bambu laminado de *Bambusa spinosa* e acharam relação inversa entre esbeltez e capacidade, com correlação direta entre excentricidade e concentração de tensão. Os próprios autores classificam a equação como calibração preliminar daquela espécie, não modelo geral — o erro ficou acima de vários modelos já publicados.
 
 **Pórtico ou sistema montado.** Nada.
 
@@ -103,7 +105,7 @@ E a estatística é cruel nesse ponto específico. A ligação tem coeficiente d
 
 ## Onde isso deixa o Brasil
 
-A coleção tem 240 artigos de 16 volumes. Nenhum deles ensaia ligação de bambu nativo brasileiro. Nenhum deles ensaia treliça. Nenhum deles ensaia pórtico.
+A coleção tem 254 artigos de 16 volumes. Nenhum deles ensaia ligação de bambu nativo brasileiro. Nenhum deles ensaia treliça. Nenhum deles ensaia pórtico.
 
 O que existe de brasileiro é caracterização de material: *Guadua chacoensis* sob a ABNT NBR 16828 (Rocha & Kikuti, 2024 — compressão de 26,2 MPa, tração de 60,1 MPa); quatro espécies nativas do sul do país com caracterização química, sem dado mecânico (Guiotoku e colegas, 2024); e três espécies asiáticas ensaiadas em Uberaba sob a alegação — incorreta — de que seriam nativas do Brasil (Scharfenberg e colegas, 2024, cuja restrição de uso está registrada em ficha própria).
 
@@ -117,7 +119,7 @@ Quatro conclusões práticas, tiradas diretamente dos artigos:
 
 **1. Escolha por rigidez, não por resistência.** Para vencer vão, a flecha governa. Guadua deflete vão/45; Moso, vão/15. A resistência maior do Moso não compensa a flecha.
 
-**2. Nunca dimensione com a média.** A Guadua em Villavicencio tem média de 57,5 MPa, valor característico de 37,0 e admissível de 17,8 pela NSR-10 colombiana. Redução de 3,2 vezes. Projetar com a média é projetar uma estrutura três vezes mais carregada do que a norma permite.
+**2. Nunca dimensione com a média.** Em Villavicencio (Colômbia), a Guadua tem média de 100 MPa em compressão paralela, valor característico próximo de 58 MPa e esforço admissível de **17,8 MPa** na porção basal (Rincon & Choque 2025). A redução da média ao admissível é de **5,6 vezes**. No ensaio das Filipinas, o mesmo tipo de cascata vai de 57,5 MPa de média a 37,0 MPa característico (Panti et al. 2024) — redução de 1,55 vezes, antes do fator de segurança. Projetar com a média é projetar uma estrutura várias vezes mais carregada do que a norma permite.
 
 **3. Trate a ligação como o elemento mais crítico, porque ela é.** Peça ao fornecedor ensaios de ligação, não só de colmo. Se ele não tiver, o dimensionamento da treliça será especulação.
 
@@ -131,4 +133,4 @@ Falta medir a ligação e o nó — não o colmo. Todo o resto da pesquisa de ba
 
 ---
 
-*Este artigo é parte da frente MTCC-Bambu-Science, conduzida sobre a coleção Advances in Bamboo Science (16 volumes, 240 artigos) custodiada no Acervo Soberania Tecnológica. Todos os números citados vêm dos artigos originais, com volume, página e DOI registrados na matriz comparativa. Nada aqui é homologação de produto nem recomendação de uso estrutural sem projeto de engenheiro responsável.*
+*Este artigo é parte da frente MTCC-Bambu-Science, conduzida sobre a coleção Advances in Bamboo Science (16 volumes, 254 artigos) custodiada no Acervo Soberania Tecnológica. Todos os números citados vêm dos artigos originais, com volume, página e DOI registrados na matriz comparativa. Nada aqui é homologação de produto nem recomendação de uso estrutural sem projeto de engenheiro responsável.*

@@ -4,7 +4,7 @@ titulo: "Prompts de imagem — artigo de blog e três carrosséis"
 autores: Fabio Takwara (curadoria); Hermes Agent (redação)
 ano: 2026
 estado_documental: em-revisao-documental
-fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 240 artigos), custodiados em _privado/
+fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 254 artigos), custodiados em _privado/
 data_revisao: 2026-11-18
 nota_versao: "Padrão de front matter e de citação de fontes AINDA NÃO DEFINIDO para material de divulgação do MTCC; está sob escrutínio de auditoria externa. Proveniência declarada em texto corrido no corpo do documento. Não tratar este front matter como formato homologado."
 responsavel_curadoria: Fabio Takwara
@@ -31,6 +31,8 @@ Nenhum original é reproduzido — cada prompt descreve o **esquema**, não a fi
 ---
 
 # PARTE 1 — Imagens do artigo de blog
+
+> **Regra de uso de cada prompt abaixo.** O bloco de código é a instrução **visual**: composição, luz, paleta, proporção. Toda menção a texto, número ou rótulo é **marcação de onde a tipografia entra depois**, na composição — não instrução para o modelo desenhar letras. Ao colar o prompt no gerador, remova as frases de texto e componha-as em editor. Modelos de imagem erram acento, unidade e número, e uma figura com "60 MPa" escrito errado contradiz o texto que ela ilustra.
 
 Formato horizontal 16:9, exceto a hero.
 
@@ -85,7 +87,7 @@ Quatro colmos curtos de bambu, em pé, lado a lado, sobre fundo branco infinito,
 ## A8 · Isométrico das três camadas
 
 ```
-Ilustração isométrica limpa, fundo creme. Três blocos empilhados verticalmente, separados por espaço: base "MATERIAL" com um corpo de prova cilíndrico pequeno; meio "ELEMENTO" com um colmo longo como viga; topo "SISTEMA" com uma treliça de bambu montada. Os dois blocos de baixo estão preenchidos; o de cima está apenas em contorno tracejado, vazado, com uma linha "0 de 240". Traço fino, paleta marrom-bambu e cinza, um único acento vermelho no bloco vazio.
+Ilustração isométrica limpa, fundo creme. Três blocos empilhados verticalmente, separados por espaço: base "MATERIAL" com um corpo de prova cilíndrico pequeno; meio "ELEMENTO" com um colmo longo como viga; topo "SISTEMA" com uma treliça de bambu montada. Os dois blocos de baixo estão preenchidos; o de cima está apenas em contorno tracejado, vazado, com uma linha "0 de 254". Traço fino, paleta marrom-bambu e cinza, um único acento vermelho no bloco vazio.
 ```
 
 ## A9 · Encerramento — três regras
@@ -162,11 +164,11 @@ Slide vertical 4:5 tipográfico. Fundo creme. Três regras numeradas em corpo m�
 
 ---
 
-# PARTE 3 — Carrossel 2 · "240 artigos, um buraco no meio"
+# PARTE 3 — Carrossel 2 · "254 artigos, um buraco no meio"
 
 ## S1 · Capa
 ```
-Slide vertical 4:5. Fundo branco. No centro, uma grade de 240 pequenos retângulos cinza-claro formando um bloco denso, tipo mosaico. Exatamente um dos retângulos está preenchido de vermelho. Tipografia grande sobre o mosaico: "240 artigos. Um buraco no meio." Sem outros elementos.
+Slide vertical 4:5. Fundo branco. No centro, uma grade de 240 pequenos retângulos cinza-claro formando um bloco denso, tipo mosaico. Exatamente um dos retângulos está preenchido de vermelho. Tipografia grande sobre o mosaico: "254 artigos. Um buraco no meio." Sem outros elementos.
 ```
 
 ## S2 · Contexto
@@ -186,7 +188,7 @@ Slide vertical 4:5, três pequenas fotografias em grade vertical: um colmo em co
 
 ## S5 · O que não existe
 ```
-Slide vertical 4:5, tipografia dominante. Quatro linhas, cada uma com um rótulo à esquerda e um número grande à direita: "ligação 1/240", "treliça 0", "pórtico 0", "flambagem de colmo 0". Os três zeros em vermelho. Fundo creme, linhas separadoras finas.
+Slide vertical 4:5, tipografia dominante. Quatro linhas, cada uma com um rótulo à esquerda e um número grande à direita: "ligação 1/254", "treliça 0", "pórtico 0", "flambagem de colmo 0". Os três zeros em vermelho. Fundo creme, linhas separadoras finas.
 ```
 
 ## S6 · O único artigo de ligação
@@ -296,7 +298,7 @@ Slide vertical 4:5 tipográfico. Fundo creme. Quatro itens numerados em corpo pe
 
 **Comparações são o formato mais forte.** Todos os slides-chave dos três carrosséis são comparações de pares: fino × grosso (C1-S6), dentro × fora da norma (C1-S9), existe × não existe (C2-S5), face externa × interna (C3-S5). Se for gerar apenas uma imagem por carrossel, gere a comparação.
 
-**O que não pedir ao gerador.** Não peça texto longo dentro da imagem — modelos erram acentuação e números. Gere a imagem sem texto e componha a tipografia depois. Os rótulos nos prompts acima são âncoras de composição, não instruções para o modelo desenhar letras.
+**O que não pedir ao gerador.** Cada prompt acima cita rótulos, valores e legendas; **nenhum deles deve ser desenhado pelo modelo**. Use as citações como marcador de posição e de proporção — onde o número entra, que tamanho relativo ele tem — e componha a tipografia em editor. A regra é verificável: depois de gerar, procure letras na imagem; se houver alguma, a imagem não serve para compor.
 
 **Originais como referência de proporção, não de cópia.** As amostras R1–R5 mostram geometria verdadeira (colmo de 80 mm, vão de 2.600 mm, nó a cada 30 cm). Use-as para calibrar proporção; o desenho é novo.
 
