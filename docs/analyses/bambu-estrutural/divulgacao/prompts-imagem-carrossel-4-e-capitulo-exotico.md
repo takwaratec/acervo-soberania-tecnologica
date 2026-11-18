@@ -68,8 +68,8 @@ mais ralas. Terra em tons de marrom e ocre, rizoma em bege-claro destacado. Cort
 ```
 Vertical 4:5. Mesma composição e mesmo enquadramento do slide S4 (dossel fechado em camada única), mudando apenas
 a paleta de espécie: colmos mais finos e folhagem mais clara e rendada, típica de bambu herbáceo nativo. A
-repetição do enquadramento é o argumento: o comportamento é idêntico, a origem é que muda. Verde-oliva mais claro,
-bege mais quente.
+repetição do enquadramento compara forma de ocupação, não grau de dano: as duas fecham dossel em camada única;
+o que muda é a origem da espécie. Verde-oliva mais claro, bege mais quente.
 ```
 
 ## S8 · 'Vittata' — o nome que engana

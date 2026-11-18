@@ -28,30 +28,38 @@ Três termos são usados para a mesma coisa, e cada um carrega uma consequência
 
 **Exótica** — a espécie não é daqui. Origem estrangeira, sem juízo sobre comportamento. É o termo mais descritivo e mais frouxo: uma planta exótica num quintal é outra ocupando uma encosta têm o mesmo rótulo.
 
-**Naturalizada** — chegou de fora, mas se reproduz sozinha e se mantém no território sem que ninguém a plante. O termo é técnico, da ecologia de invasões, e descreve um estado, não um veredito. "Naturalizada" é o que o Bambusa vulgaris é em grande parte do Brasil.
+**Naturalizada** — chegou de fora, mas se reproduz sozinha e se mantém no território sem que ninguém a plante. O termo é técnico, da ecologia de invasões, e descreve um estado, não um veredito. "Naturalizada" é o que a coleção registra para o Bambusa vulgaris onde ela tem observação — e é o exemplo da Tanzânia, não do Brasil.
 
-**Invasora** — o termo que muda tudo, porque supõe dano: se espalha, domina e desloca o que estava ali. É a categoria que aciona política pública, monitoramento é obrigação de manejo.
+**Invasora** — o termo mais forte, e o mais mal usado: supõe **dano**, não apenas expansão. Na ecologia de invasões, uma exótica só é invasora quando sua introdução ou dispersão ameaça a diversidade biológica — espalhar-se não basta.
 
-A confusão aparece porque os três são usados como sinônimos na conversa informal e como categorias distintas na norma. Quem escreve "bambu exótico" quer dizer as três coisas ao mesmo tempo.
+A confusão aparece porque os três são usados como sinônimos na conversa informal. Quem escreve "bambu exótico" costuma querer dizer as três coisas ao mesmo tempo.
 
-## O que a coleção mede — é o que ela não mede
+> **O que este texto NÃO afirma.** Que "invasora" crie automaticamente obrigação legal: isso depende de norma, jurisdição e listagem oficial, que este texto não cita nem substitui. O que se afirma é mais modesto — a categoria muda **a conversa** (de "planta sem dono" para "planta com comportamento registrado"), e é por aí que passa qualquer política pública.
 
-A coleção custodiada é a principal base aberta sobre bambu no mundo, e tem 254 artigos em 16 volumes. Varri o texto
+## O que a coleção mede — e o que ela não mede
+
+A coleção custodiada tem 254 artigos em 16 volumes e é uma das principais revistas abertas da área — não é toda a literatura de bambu do mundo. Varri o texto
 integral dos 254 para contar de que gênero cada artigo fala:
 
-- **Bambusa** — 164 artigos (1.932 menções). É o gênero mais discutido da coleção.
-- **Phyllostachys** — 158 artigos (1.023 menções).
-- **Dendrocalamus** — 144 artigos.
+- **Bambusa** — 164 artigos (1.982 menções). É o gênero mais discutido da coleção.
+- **Phyllostachys** — 159 artigos (1.040 menções).
+- **Dendrocalamus** — 146 artigos.
 - **Gigantochloa** — 64 artigos.
 - **Guadua** — 58 artigos.
 - **Chusquea** — 9 artigos.
 - **Merostachys** — 6 artigos.
 
 O contraste com as nativas sul-americanas é o achado: **Guadua** aparece em 58 artigos, **Chusquea** em 9 e
-**Merostachys** em 6. O gênero mais falado do mundo na literatura aberta de bambu é justamente o que o Brasil
-trata como planta sem dono.
+**Merostachys** em 6. O gênero mais discutido **nesta coleção** (164 dos 254 artigos) é justamente o que a peça original
+tratava como inexistente no Brasil.
 
-> **Aviso de leitura.** Isso mede o que a coleção *discute*, não o que cresce no Brasil. A coleção é dominada por
+> **Método reproduzível.** `_geradores/varrer_generos.py` extrai o texto integral de cada PDF e conta menções de
+> gênero com regex de palavra inteira (`\bGenero\b`), registrando artigo por artigo em `generos_por_artigo.json`.
+> As contagens **se sobrepõem** — um artigo pode citar vários gêneros — e não somam 254. Menção em lista de
+> referências também conta; é por isso que o número mede "em quantos artigos o gênero é discutido", não
+> "quantos artigos são sobre o gênero".
+
+> **Aviso de leitura.** Isso mede o que a coleção *discute*, não o que cresce no Brasil, nem autoriza falar de "literatura mundial": a coleção é uma revista, com 254 artigos. A coleção é dominada por
 > autores da Ásia e da África e não tem um artigo de censo da flora brasileira. Dizer "o Brasil tem X de bambu
 > exótico" com base aqui seria inventar denominador.
 
@@ -72,7 +80,7 @@ afirmar:
 
 **O que a coleção diz sobre o "bambu brasileiro".** Sobre *Bambusa vulgaris* 'Vittata' há um artigo inteiro (Vol 7, n. 100068) — e ele abre chamando a planta de *"a woody bamboo species of Asian origin"*. A coleção não reconhece o 'Vittata' como brasileiro. Registra a origem asiática e discute o florescimento de um exemplar cultivado na Argentina.
 
-**O que a coleção diz sobre Phyllostachys no Brasil.** Nada substantivo. O gênero aparece 1.023 vezes, em 158 artigos, e nenhum deles trata da expansão do gênero em território brasileiro. Onde a coleção toca o Brasil, é para falar de adequação agroclimática com *Bambusa vulgaris* como referência — não de invasão.
+**O que a coleção diz sobre Phyllostachys no Brasil.** Nada substantivo. O gênero aparece 1.040 vezes, em 159 artigos, e nenhum deles trata da expansão do gênero em território brasileiro. Onde a coleção toca o Brasil, é para falar de adequação agroclimática com *Bambusa vulgaris* como referência — não de invasão.
 
 ## O que isso significa para a catalogação
 
@@ -95,7 +103,7 @@ E há um contraexemplo que fecha o raciocínio: o único estudo brasileiro da co
 
 - **Não queime nem aplique herbicida em área grande.** Rizoma sobrevive e rebrota; o custo ambiental não fecha a conta.
 - **Corte rente, todo ano, no mesmo período.** É o manejo que a própria planta recompensa — e cada corte é matéria-prima.
-- **Transforme o corte em cadeia produtiva.** Colmo cortado vira cerca, tutor, artesanato, briquete, carvão, painel. Bambu tem mais de três mil usos catalogados, é uma espécie naturalizada certamente serve a algum deles.
+- **Transforme o corte em cadeia produtiva.** Colmo cortado vira cerca, tutor, artesanato, briquete, carvão, painel. Os usos conhecidos do bambu vão de cerca a painel — a cartilha de bioeconomia do Acervo reúne essa lista e, quando publicada, é a referência desta frase. Hoje ela é **premissa**, não medição deste texto: nenhum artigo da coleção faz o censo dos usos, e nada garante que toda espécie sirva a algum deles.
 - **Organize quem corta.** Cooperativa de manejo de exótica invasora junta três coisas que normalmente competem: controle, renda e rastreabilidade.
 
 Este é um alerta prático, não uma receita técnica de erradicação: erradicação exige diagnóstico de espécie e de sítio, e projeto de responsável técnico. O que se afirma aqui é mais simples — **bambuzal abandonado que se alastra é, antes de tudo, matéria-prima sem uso.**
@@ -112,9 +120,9 @@ Este é um alerta prático, não uma receita técnica de erradicação: erradica
 | Afirmação | Fonte (coleção custodiada) |
 |---|---|
 | 25 espécies na Tanzânia, 5 indígenas e 20 exóticas; *B. bambos* e *B. vulgaris* naturalizados | *Palms and bamboos of Tanzania*, ABS 16 (2026) 100250, p. 4–5 |
-| *D. asper*, *B. spinosa*, *G. levis* naturalizadas nas Filipinas; disputa sobre *G. levis* | *Morphological and mechanical properties of three commercially…*, ABS 11 (2025), p. 6 e 8 |
+| *D. asper*, *B. spinosa*, *G. levis* naturalizadas nas Filipinas; disputa sobre *G. levis* | *Morphological and mechanical properties of three commercially important bamboo species…*, ABS 11 (2025) 100160, DOI 10.1016/j.bamboo.2025.100160, p. 6 e 8 |
 | *P. edulis* invade florestas vizinhas; rizoma como mecanismo | *Unlocking the hidden power of bamboo rhizomes*, ABS 10 (2025) 100122, p. 8 |
-| 232 espécies introduzidas, 12 invasoras; medo "exagerado"; manejo pela colheita | *Ecological restoration of fragile Eastern Himalayan lands…*, ABS 13 (2025) 100203, p. 10–11, citando Canavan et al. (2016) |
+| 232 espécies introduzidas, 12 invasoras; medo "exagerado"; manejo pela colheita | *Ecological restoration of fragile Eastern Himalayan lands…*, ABS 13 (2025) 100203, p. 10–11 — que cita **Canavan, S., Paterson, J., Lambertini, C., Kumar, R., Meyerson, L.A., 2017.** *AoB PLANTS* 9(1), plw078, DOI 10.1093/aobpla/plw078 (a referência primária; o ano 2016 é do aceite) |
 | Quatro nativas do sul do Brasil; *M. skvortzovii* e *C. meyeriana* como invasoras dominantes | Guiotoku et al., ABS 7 (2024) 100075, resumo e p. 1 |
 | *B. vulgaris* 'Vittata' descrita como de origem asiática | *Flowering of Bambusa vulgaris 'Vittata'*, ABS 7 (2024) 100068, p. 1 |
 | Menção por gênero nos 254 PDFs | Varredura de texto integral por `pypdf`, 254/254 arquivos |

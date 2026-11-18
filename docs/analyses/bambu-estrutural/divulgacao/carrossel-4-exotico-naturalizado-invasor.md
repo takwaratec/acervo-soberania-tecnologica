@@ -44,9 +44,9 @@ No corpus: *"Bambusa bambos and B. vulgaris have become naturalized"* — Tanzâ
 
 ## Slide 4
 
-**Invasora** = se espalha e domina.
+**Invasora** = se espalha **e causa dano**.
 
-É o termo que supõe dano — e é o único que aciona obrigação de manejo.
+Espalhar-se não basta: na ecologia de invasões, a espécie precisa ameaçar a diversidade biológica do lugar.
 
 Usar "invasora" para qualquer exótica esvazia o termo.
 
@@ -78,7 +78,7 @@ O mecanismo é o rizoma: o mesmo que faz ele ser fácil de propagar.
 
 *Merostachys skvortzovii* e *Chusquea meyeriana* — descritas como "dominant invasive species" por Embrapa, no único artigo da coleção sobre bambus nativos do Brasil.
 
-Dominância não é privilégio de planta estrangeira.
+Dominância não é privilégio de planta estrangeira — e elas não são "exóticas invasoras", porque não são exóticas.
 
 ---
 
@@ -98,7 +98,7 @@ A coleção registra a mesma espécie como *"a woody bamboo species of Asian ori
 
 Bambusa aparece em **164 dos 254 artigos**.
 
-Nos 158 de Phyllostachys, nenhum trata da expansão do gênero no Brasil.
+Nos 159 de Phyllostachys, nenhum trata da expansão do gênero no Brasil.
 
 ---
 
@@ -114,19 +114,19 @@ Para a espécie naturalizada, o manejo *é* a colheita: cortar o colmo é o que 
 
 ## Slide 11
 
-**Se você conhece um bambuzal abandonado que se alastra: forme uma cooperativa.**
+**Se você conhece um bambuzal abandonado que se alastra: o uso é o manejo.**
 
-Não queime, não jogue herbicida em área grande — o rizoma sobrevive e rebrota.
+Cortar e usar é a recomendação que a literatura registra para bambu — cada corte é matéria-prima.
 
-Corte rente todo ano, no mesmo período. Cada corte é matéria-prima.
+Cooperativa de manejo junta controle, renda e rastreabilidade.
 
 ---
 
 ## Slide 12
 
-**Bambu tem mais de três mil usos catalogados.**
+**Os usos do bambu vão de cerca a painel.**
 
-Cerca, tutor, artesanato, briquete, carvão, painel. Uma espécie naturalizada certamente serve a algum.
+Cerca, tutor, artesanato, briquete, carvão, painel. A cartilha de bioeconomia do Acervo reúne a lista — é a referência desta frase quando for publicada.
 
 **Bambuzal abandonado é, antes de tudo, matéria-prima sem uso.**
 
@@ -154,3 +154,5 @@ Cerca, tutor, artesanato, briquete, carvão, painel. Uma espécie naturalizada c
 | 8 | *Flowering of Bambusa vulgaris 'Vittata'*, ABS 7 (2024) 100068, p. 1 |
 | 9 | Varredura de texto integral, 254/254 PDFs |
 | 10 | ABS 13 (2025) 100203, p. 11 |
+
+> **Premissa declarada.** A periodicidade de corte e a vedação ao fogo são orientação prática, não resultado da coleção: nenhum artigo auditado testou protocolo de erradicação de bambu exótico no Brasil.

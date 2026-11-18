@@ -162,7 +162,9 @@ Entre continentes: 1,15 vez.
 ---
 
 ## Notas de produção
-> **Alerta — bambuzal abandonado.** Se você conhece um bambuzal que ninguém cuida e está se alastrando, o caminho não é queimar nem aplicar herbicida em área grande (o rizoma sobrevive e rebrota): é cortar rente todo ano e dar uso ao colmo. Bambu tem mais de três mil usos catalogados, e uma espécie naturalizada serve a algum deles. Cooperativa de manejo de exótica invasora junta controle, renda e rastreabilidade.
+> **Alerta — bambuzal abandonado.** Se você conhece um bambuzal que ninguém cuida e está se alastrando, o uso é o manejo que dá certo: o artigo do Himalaia registra, para bambu, que *invasiveness can be managed by regular harvesting and utilizing the benefits*. Colmo cortado vira cerca, tutor, artesanato, briquete, carvão, painel — e a cartilha de bioeconomia do Acervo reúne os usos (é dela que sai a lista, quando publicada). Cooperativa de manejo junta três coisas que normalmente competem: controle, renda e rastreabilidade.
+>
+> **O que é premissa aqui, não medição:** a periodicidade de corte, a vedação ao fogo e a garantia de que toda espécie naturalizada tenha uso comercial são orientação prática — nenhum artigo da coleção testou protocolo de erradicação de bambu exótico no Brasil.
 
 
 - **Slide 5–7** formam o miolo: a inversão é o que faz a pessoa salvar o carrossel.
