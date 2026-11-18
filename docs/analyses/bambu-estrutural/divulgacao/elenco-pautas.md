@@ -187,7 +187,7 @@ verificados e fonte com página.
 
 | Pauta | Entrega | Esforço | Alcance |
 |---|---|---|---|
-| `capitulo-bambu-exotico-naturalizado-invasor.md` | capítulo de 8 seções, 6 seções | feito | alto — fecha lacuna apontada pelo soberano |
+| `capitulo-bambu-exotico-naturalizado-invasor.md` | capítulo de 8 seções | feito | alto — fecha lacuna apontada pelo soberano |
 | `carrossel-4-exotico-naturalizado-invasor.md` | 12 slides | feito | alto — pauta social, não só técnica |
 | `prompts-imagem-carrossel-4-e-capitulo-exotico.md` | 12 prompts + 6 do capítulo | feito | — |
 | Alerta de cooperativa de manejo | inserido em artigo + 3 carrosséis | feito | alto — chamada prática |

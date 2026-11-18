@@ -20,7 +20,7 @@ data: 2026-11-18
 
 **Você tem um bambuzal que ninguém cuida — e ele está se alastrando.**
 
-Chamar essa planta de exótica, naturalizada ou invasora muda o que a lei permite fazer com ela.
+Chamar essa planta de exótica, naturalizada ou invasora muda a conversa antes de qualquer decisão.
 
 ---
 
@@ -58,7 +58,7 @@ Usar "invasora" para qualquer exótica esvazia o termo.
 
 **12 foram identificadas como invasoras.**
 
-Para Canavan et al. (2016), o medo da invasão do bambu é "exagerado" — na maioria dos casos.
+Para Canavan et al. (2017), o medo da invasão do bambu é "exagerado" — na maioria dos casos.
 
 ---
 
@@ -86,15 +86,15 @@ Dominância não é privilégio de planta estrangeira — e elas não são "exó
 
 **"Bambu brasileiro" não significa nativo.**
 
-*Bambusa vulgaris* 'Vittata' — o Vittata — é chamado de bambu brasileiro porque se aclimatou aqui.
+*Bambusa vulgaris* 'Vittata' — o Vittata — circula no país como "bambu brasileiro".
 
-A coleção registra a mesma espécie como *"a woody bamboo species of Asian origin"*.
+A coleção registra a mesma espécie como *"a woody bamboo species of Asian origin"*. O apelido é uso popular; a origem botânica é asiática.
 
 ---
 
 ## Slide 9
 
-**O gênero mais estudado do mundo é justamente o que o Brasil trata como planta sem dono.**
+**O gênero mais estudado nesta coleção é justamente o que a peça original tratava como inexistente no Brasil.**
 
 Bambusa aparece em **164 dos 254 artigos**.
 
@@ -104,9 +104,9 @@ Nos 159 de Phyllostachys, nenhum trata da expansão do gênero no Brasil.
 
 ## Slide 10
 
-**A saída não é erradicar. É colher.**
+**Uma alternativa ao controle puramente químico: colher.**
 
-Para a espécie naturalizada, o manejo *é* a colheita: cortar o colmo é o que a planta responde.
+Para bambu, o manejo por colheita regular aparece na literatura como caminho — *"invasiveness can be managed by regular harvesting and utilizing the benefits"*.
 
 *"Invasiveness can be managed by regular harvesting and utilizing the benefits."*
 
@@ -141,14 +141,14 @@ Cerca, tutor, artesanato, briquete, carvão, painel. A cartilha de bioeconomia d
 - **Slide de maior alcance social:** 11 — o chamado à cooperativa. Se a peça for cortada para stories, é este que sobrevive junto com o 1.
 - **Tom:** slide 6 e 7 existem para impedir que a peça vire "todo exótico é invasor" ou "todo nativo é bom". Não simplificar.
 - **O que evitar:** não citar o 'Vittata' como nativo em nenhuma hipótese; é o erro que a coleção corrige.
-- **Legenda sugerida:** "O nome que você usa para aquele bambuzal decide se ele é problema ou matéria-prima. Exótica, naturalizada e invasora são três coisas diferentes — e só uma delas tem número no Brasil."
+- **Legenda sugerida:** "O nome que você usa para aquele bambuzal muda a conversa: exótica, naturalizada e invasora são três coisas diferentes. A coleção de bambu mede bem a primeira e a terceira em outros países; sobre o Brasil, ela não mede nenhuma."
 
 ## Fontes
 
 | Slide | Fonte |
 |---|---|
 | 3 | *Palms and bamboos of Tanzania*, ABS 16 (2026) 100250, p. 4–5 |
-| 5 | *Ecological restoration of fragile Eastern Himalayan lands*, ABS 13 (2025) 100203, p. 10–11, citando Canavan et al. (2016) |
+| 5 | *Ecological restoration of fragile Eastern Himalayan lands*, ABS 13 (2025) 100203, p. 10–11, citando Canavan et al. (2017) |
 | 6 | *Unlocking the hidden power of bamboo rhizomes*, ABS 10 (2025) 100122, p. 8 |
 | 7 | Guiotoku et al., ABS 7 (2024) 100075, resumo |
 | 8 | *Flowering of Bambusa vulgaris 'Vittata'*, ABS 7 (2024) 100068, p. 1 |

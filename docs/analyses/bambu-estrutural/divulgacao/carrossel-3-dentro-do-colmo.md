@@ -155,9 +155,9 @@ Aderência medida: **15,45 MPa**.
 ---
 
 ## Notas de produção
-> **Alerta — bambuzal abandonado.** Se você conhece um bambuzal que ninguém cuida e está se alastrando, o uso é o manejo que dá certo: o artigo do Himalaia registra, para bambu, que *invasiveness can be managed by regular harvesting and utilizing the benefits*. Colmo cortado vira cerca, tutor, artesanato, briquete, carvão, painel — e a cartilha de bioeconomia do Acervo reúne os usos (é dela que sai a lista, quando publicada). Cooperativa de manejo junta três coisas que normalmente competem: controle, renda e rastreabilidade.
+> **Alerta — bambuzal abandonado.** Se você conhece um bambuzal que ninguém cuida e está se alastrando, a literatura registra a colheita regular como alternativa ao controle puramente químico ou mecânico — *invasiveness can be managed by regular harvesting and utilizing the benefits* (ABS 13, 2025, 100203). Colmo cortado vira cerca, tutor, artesanato, briquete, carvão, painel; a cartilha de bioeconomia do Acervo reúne essa lista e, quando publicada, é a referência da frase.
 >
-> **O que é premissa aqui, não medição:** a periodicidade de corte, a vedação ao fogo e a garantia de que toda espécie naturalizada tenha uso comercial são orientação prática — nenhum artigo da coleção testou protocolo de erradicação de bambu exótico no Brasil.
+> **O que é premissa aqui, não medição:** o ciclo de corte anual e a organização em cooperativa são **proposta** deste material — nenhum artigo da coleção testou protocolo de erradicação de bambu exótico no Brasil, nem avaliou cooperativa de manejo.
 
 
 - **Slide 5** é o gancho técnico mais forte: um número de 367 MPa impressiona e é verdadeiro.
