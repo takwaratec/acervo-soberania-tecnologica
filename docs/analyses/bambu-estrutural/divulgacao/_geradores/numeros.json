@@ -1,0 +1,131 @@
+{
+ "drury": {
+  "Madake": {
+   "fc_MPa": 88.9,
+   "kgf_cm2": 907,
+   "area_mm2": 739.0,
+   "carga": {
+    "kN": 65.7,
+    "tf": 6.7
+   }
+  },
+  "Moso": {
+   "fc_MPa": 69.88,
+   "kgf_cm2": 713,
+   "area_mm2": 1605.0,
+   "carga": {
+    "kN": 112.2,
+    "tf": 11.44
+   }
+  },
+  "Guadua": {
+   "fc_MPa": 60.73,
+   "kgf_cm2": 619,
+   "area_mm2": 1728.0,
+   "carga": {
+    "kN": 104.9,
+    "tf": 10.7
+   }
+  },
+  "Tali": {
+   "fc_MPa": 59.08,
+   "kgf_cm2": 602,
+   "area_mm2": 1939.0,
+   "carga": {
+    "kN": 114.6,
+    "tf": 11.68
+   }
+  },
+  "BlackJava": {
+   "fc_MPa": 54.62,
+   "kgf_cm2": 557,
+   "area_mm2": 1511.0,
+   "carga": {
+    "kN": 82.5,
+    "tf": 8.42
+   }
+  }
+ },
+ "panti": {
+  "B. blumeana": {
+   "fck_MPa": 46.63,
+   "kgf_cm2": 475,
+   "fator_media_para_fck": 1.52,
+   "carga_em_colmo_80": {
+    "kN": 80.6,
+    "tf": 8.22
+   }
+  },
+  "B. vulgaris": {
+   "fck_MPa": 40.35,
+   "kgf_cm2": 411,
+   "fator_media_para_fck": 1.52,
+   "carga_em_colmo_80": {
+    "kN": 69.7,
+    "tf": 7.11
+   }
+  },
+  "D. asper": {
+   "fck_MPa": 40.21,
+   "kgf_cm2": 410,
+   "fator_media_para_fck": 1.48,
+   "carga_em_colmo_80": {
+    "kN": 69.5,
+    "tf": 7.09
+   }
+  },
+  "G. angustifolia": {
+   "fck_MPa": 36.99,
+   "kgf_cm2": 377,
+   "fator_media_para_fck": 1.56,
+   "carga_em_colmo_80": {
+    "kN": 63.9,
+    "tf": 6.52
+   }
+  }
+ },
+ "franck": {
+  "Moso": {
+   "FkN": 143.39,
+   "tf": 14.62,
+   "fc_MPa": 66.72,
+   "MOE_GPa": 10.45,
+   "fm_MPa": 76.97,
+   "fletor_tf": 0.66,
+   "deflexao_mm": 172.79
+  },
+  "Guadua": {
+   "FkN": 171.2,
+   "tf": 17.46,
+   "fc_MPa": 66.35,
+   "MOE_GPa": 19.76,
+   "fm_MPa": 56.23,
+   "fletor_tf": 0.51,
+   "deflexao_mm": 57.83
+  },
+  "razao_MOE": 1.89,
+  "razao_fletor": 1.37,
+  "razao_deflexao": 2.99
+ },
+ "controles": {
+  "reducao_media_caracteristico": 1.56,
+  "reducao_caracteristico_admissivel": 2.08,
+  "reducao_media_admissivel": 3.23,
+  "carga_admissivel_colmo_80": {
+   "kN": 30.8,
+   "tf": 3.14
+  },
+  "carga_media_colmo_80": {
+   "kN": 99.4,
+   "tf": 10.14
+  },
+  "carga_caract_colmo_80": {
+   "kN": 63.9,
+   "tf": 6.52
+  },
+  "kgf_cm2_por_mpa": 10.197162,
+  "mpa_200_em_kgf_cm2": 2039,
+  "mpa_200_em_tf_cm2": 2.04,
+  "carro_1200kg_2cm2_kgf_cm2": 600
+ }
+}
