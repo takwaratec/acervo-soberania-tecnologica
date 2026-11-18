@@ -29,6 +29,7 @@ PAGINAS = [
     ("p-contagem", "Contagem"),
     ("p-achados", "Achados"),
     ("p-limites", "Limites"),
+    ("p-adendo", "Bambu exótico"),
     ("p-l21", "L21"),
     ("p-estruturas", "Estruturas"),
     ("p-artefatos", "Artefatos"),
@@ -147,8 +148,16 @@ def md_para_html(md):
         if l.strip() == "":
             i += 1
             continue
-        out.append("<p>" + inline(l.strip()) + "</p>")
+        # Parágrafo quebrado em várias linhas (hard wrap do .md) precisa ser juntado
+        # antes do inline: senão cada linha vira um <p> e o **negrito** nunca fecha.
+        bloco = [l.strip()]
         i += 1
+        while i < len(linhas) and linhas[i].strip() and not re.match(
+            r"^(#|\||>|\s*[-*]\s|\s*\d+\.\s|---)", linhas[i].strip()
+        ):
+            bloco.append(linhas[i].strip())
+            i += 1
+        out.append("<p>" + inline(" ".join(bloco)) + "</p>")
     return limpar_numeros("\n".join(out))
 
 
@@ -878,6 +887,10 @@ def garantir_rotulos(h):
 def main():
     matriz = ler("matriz.md")
     ficha = ler("ficha.md")
+    try:
+        adendo = ler("adendo.md")
+    except FileNotFoundError:
+        adendo = ""
 
     corpo = {}
 
@@ -906,15 +919,15 @@ pull requests abertos.</p>
   <li><strong>Não é estado da arte homologado.</strong> Documento em revisão documental.</li>
   <li><strong>Não é revisão sistemática.</strong> Doze documentos não esgotam a literatura; a busca foi por
       citação e repositório, não por varredura de bases indexadas.</li>
-  <li><strong>Não fecha a lacuna L21.</strong> Ela permanece aberta — e a página 11 explica por quê.</li>
+  <li><strong>Não fecha a lacuna L21.</strong> Ela permanece aberta — e a página 12 explica por quê.</li>
   <li><strong>Não corrige fonte de terceiro.</strong> A divergência encontrada está registrada, não
       consertada.</li>
 </ul>
 
 <h3>Como ler</h3>
-<p>Catorze páginas, na ordem em que o raciocínio foi construído. Se você tem cinco minutos, leia as páginas
+<p>Quinze páginas, na ordem em que o raciocínio foi construído. Se você tem cinco minutos, leia as páginas
 <strong>08 (A inversão)</strong>, <strong>10 (Achados)</strong> e <strong>12 (L21)</strong> — são as que
-mudam decisão. Para a pergunta sobre tesoura, treliça, viga e coluna, a <strong>13</strong>. Para conferir espécie por espécie, com as equivalências em toneladas, a página
+mudam decisão. Para a pergunta sobre tesoura, treliça, viga e coluna, a <strong>14</strong>. Para conferir espécie por espécie, com as equivalências em toneladas, a página
 <strong>06</strong>. A matriz crua fica na <strong>05</strong>.</p>
 
 <div class="note"><strong>Uma frase que resume o percurso</strong>
@@ -1105,6 +1118,8 @@ versionada; a ficha é restrição de uso de uma fonte. Uma não depende da outr
 <div class="note"><strong>Aguardando decisão</strong>
 Autorizar o merge dos dois PRs. Depois disso, o próximo passo é o PR da L21 reescrita citando a matriz.</div>
 """
+
+    corpo["p-adendo"] = md_para_html(corte(ler("adendo.md"), "# Duas fontes, dois escopos", None))
 
     corpo["p-artefatos"] += (
         "<h3>Custódia dos documentos</h3>"

@@ -84,17 +84,17 @@ Dominância não é privilégio de planta estrangeira — e elas não são "exó
 
 ## Slide 8
 
-**"Bambu brasileiro" não significa nativo.**
+**O Vittata: o nome que o país deu e o nome que a revista registrou.**
 
-*Bambusa vulgaris* 'Vittata' — o Vittata — circula no país como "bambu brasileiro".
+*Bambusa vulgaris* 'Vittata' circula no Brasil como "bambu brasileiro" — nome de uso.
 
-A coleção registra a mesma espécie como *"a woody bamboo species of Asian origin"*. O apelido é uso popular; a origem botânica é asiática.
+A revista registra a espécie como *"a woody bamboo species of Asian origin"*. Duas camadas do mesmo bambu: o nome que o território construiu e a origem botânica que a ciência registra.
 
 ---
 
 ## Slide 9
 
-**O gênero mais mencionado nesta coleção é justamente o que a peça original tratava como inexistente no Brasil.**
+**O gênero mais mencionado nesta coleção é um dos que mais se espalham pelo Brasil.**
 
 Bambusa é mencionado em **164 dos 254 artigos** — menção, não estudo dedicado.
 
