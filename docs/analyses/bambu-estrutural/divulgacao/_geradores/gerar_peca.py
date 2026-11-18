@@ -45,7 +45,13 @@ def inline(t):
     t = esc(t)
     t = re.sub(r"`([^`]+)`", r"<code>\1</code>", t)
     t = re.sub(r"\*\*\*([^*\n]+?)\*\*\*", r"<em><strong>\1</strong></em>", t)
-    t = re.sub(r"(?<![\w*])\*\*([^*\n]+?)\*\*(?![\w*])", r"<strong>\1</strong>", t)
+    # negrito que contem italico dentro: **texto *com* enfase** -> preserva o interno
+    t = re.sub(
+        r"(?<![\w*])\*\*(.+?)\*\*(?![\w*])",
+        lambda m: "<strong>" + re.sub(r"(?<![\w*])\*([^*\n]+?)\*(?![\w*])", r"<em>\1</em>", m.group(1)) + "</strong>",
+        t,
+        flags=re.S,
+    )
     t = re.sub(r"(?<![\w*])\*([^*\n]+?)\*(?![\w*])", r"<em>\1</em>", t)
     t = re.sub(r"(?<![\w_])_([^_\n]+?)_(?![\w_])", r"<em>\1</em>", t)
     return t
@@ -130,15 +136,32 @@ def md_para_html(md):
         if re.match(r"^\s*[-*]\s+", l):
             out.append("<ul>")
             while i < len(linhas) and re.match(r"^\s*[-*]\s+", linhas[i]):
-                out.append("<li>" + inline(re.sub(r"^\s*[-*]\s+", "", linhas[i])) + "</li>")
+                # item pode continuar na linha seguinte (hard wrap do .md), indentado
+                item = re.sub(r"^\s*[-*]\s+", "", linhas[i])
                 i += 1
+                while (
+                    i < len(linhas)
+                    and linhas[i].strip()
+                    and not re.match(r"^(\s*[-*]\s+|\s*\d+\.\s+|#|\||>|---)", linhas[i])
+                ):
+                    item += " " + linhas[i].strip()
+                    i += 1
+                out.append("<li>" + inline(item) + "</li>")
             out.append("</ul>")
             continue
         if re.match(r"^\s*\d+\.\s+", l):
             out.append("<ol>")
             while i < len(linhas) and re.match(r"^\s*\d+\.\s+", linhas[i]):
-                out.append("<li>" + inline(re.sub(r"^\s*\d+\.\s+", "", linhas[i])) + "</li>")
+                item = re.sub(r"^\s*\d+\.\s+", "", linhas[i])
                 i += 1
+                while (
+                    i < len(linhas)
+                    and linhas[i].strip()
+                    and not re.match(r"^(\s*[-*]\s+|\s*\d+\.\s+|#|\||>|---)", linhas[i])
+                ):
+                    item += " " + linhas[i].strip()
+                    i += 1
+                out.append("<li>" + inline(item) + "</li>")
             out.append("</ol>")
             continue
         if l.strip() == "---":
@@ -1119,7 +1142,7 @@ versionada; a ficha é restrição de uso de uma fonte. Uma não depende da outr
 Autorizar o merge dos dois PRs. Depois disso, o próximo passo é o PR da L21 reescrita citando a matriz.</div>
 """
 
-    corpo["p-adendo"] = md_para_html(corte(ler("adendo.md"), "# Duas fontes, dois escopos", None))
+    corpo["p-adendo"] = md_para_html(corte(ler("adendo.md"), "## Duas espécies, dois comportamentos", None))
 
     corpo["p-artefatos"] += (
         "<h3>Custódia dos documentos</h3>"
