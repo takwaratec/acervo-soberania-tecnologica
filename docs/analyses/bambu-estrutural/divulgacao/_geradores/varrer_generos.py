@@ -30,7 +30,7 @@ GENEROS = [
 
 # Radicais de naturalizacao/invasao. Case-insensitive (o texto tem
 # "Invasive" em titulo e "naturalized" em prosa).
-TERMOS = ["naturali", "invasive", "exotic", "allen"]
+TERMOS = ["naturali", "invasive", "exotic", "alien"]  # "allen" era erro de digitacao: contava outro radical
 
 # Abaixo disto, a pagina e tratada como sem camada de texto.
 MIN_CHARS_PAGINA = 40

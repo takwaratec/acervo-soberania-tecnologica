@@ -59,7 +59,7 @@
     "naturali": 1,
     "invasive": 3,
     "exotic": 1,
-    "allen": 1
+    "alien": 2
    }
   },
   {
@@ -72,9 +72,7 @@
    "generos": {
     "Guadua": 2
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol1",
@@ -156,8 +154,7 @@
    },
    "naturalizacao": {
     "invasive": 1,
-    "exotic": 1,
-    "allen": 2
+    "exotic": 1
    }
   },
   {
@@ -172,8 +169,7 @@
     "Guadua": 1
    },
    "naturalizacao": {
-    "invasive": 1,
-    "allen": 1
+    "invasive": 1
    }
   },
   {
@@ -184,9 +180,7 @@
    "chars": 54728,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol10",
@@ -199,9 +193,7 @@
     "Phyllostachys": 3,
     "Guadua": 1
    },
-   "naturalizacao": {
-    "allen": 12
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol10",
@@ -217,7 +209,7 @@
     "Guadua": 1
    },
    "naturalizacao": {
-    "allen": 1
+    "alien": 1
    }
   },
   {
@@ -243,9 +235,7 @@
    "generos": {
     "Phyllostachys": 17
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol10",
@@ -255,9 +245,7 @@
    "chars": 38330,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 5
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol10",
@@ -281,9 +269,7 @@
    "generos": {
     "Phyllostachys": 3
    },
-   "naturalizacao": {
-    "allen": 6
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol10",
@@ -310,9 +296,7 @@
     "Phyllostachys": 2,
     "Dendrocalamus": 12
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol10",
@@ -325,9 +309,7 @@
     "Bambusa": 16,
     "Dendrocalamus": 9
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol10",
@@ -342,8 +324,7 @@
     "Dendrocalamus": 4
    },
    "naturalizacao": {
-    "exotic": 1,
-    "allen": 12
+    "exotic": 1
    }
   },
   {
@@ -364,7 +345,7 @@
    "naturalizacao": {
     "invasive": 7,
     "exotic": 1,
-    "allen": 2
+    "alien": 2
    }
   },
   {
@@ -378,8 +359,7 @@
     "Bambusa": 16
    },
    "naturalizacao": {
-    "exotic": 1,
-    "allen": 1
+    "exotic": 1
    }
   },
   {
@@ -390,9 +370,7 @@
    "chars": 47647,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -406,9 +384,7 @@
     "Dendrocalamus": 3,
     "Gigantochloa": 1
    },
-   "naturalizacao": {
-    "allen": 13
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -445,8 +421,7 @@
     "Dendrocalamus": 30
    },
    "naturalizacao": {
-    "invasive": 5,
-    "allen": 25
+    "invasive": 5
    }
   },
   {
@@ -463,8 +438,7 @@
     "Gigantochloa": 5
    },
    "naturalizacao": {
-    "exotic": 1,
-    "allen": 4
+    "exotic": 1
    }
   },
   {
@@ -480,8 +454,7 @@
     "Dendrocalamus": 22
    },
    "naturalizacao": {
-    "exotic": 1,
-    "allen": 1
+    "exotic": 1
    }
   },
   {
@@ -495,9 +468,7 @@
     "Dendrocalamus": 20,
     "Guadua": 5
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -509,9 +480,7 @@
    "generos": {
     "Bambusa": 1
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -523,9 +492,7 @@
    "generos": {
     "Bambusa": 13
    },
-   "naturalizacao": {
-    "allen": 6
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -538,9 +505,7 @@
     "Bambusa": 11,
     "Gigantochloa": 1
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -550,9 +515,7 @@
    "chars": 70795,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -567,9 +530,7 @@
     "Dendrocalamus": 3,
     "Gigantochloa": 1
    },
-   "naturalizacao": {
-    "allen": 13
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -583,9 +544,7 @@
     "Phyllostachys": 13,
     "Dendrocalamus": 2
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -611,8 +570,7 @@
     "Dendrocalamus": 26
    },
    "naturalizacao": {
-    "exotic": 1,
-    "allen": 1
+    "exotic": 1
    }
   },
   {
@@ -627,9 +585,7 @@
     "Phyllostachys": 1,
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 7
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -655,9 +611,7 @@
     "Phyllostachys": 2,
     "Guadua": 1
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -727,9 +681,7 @@
     "Phyllostachys": 1,
     "Dendrocalamus": 16
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -743,9 +695,7 @@
     "Dendrocalamus": 1,
     "Gigantochloa": 1
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -808,8 +758,7 @@
    },
    "naturalizacao": {
     "naturali": 1,
-    "invasive": 1,
-    "allen": 4
+    "invasive": 1
    }
   },
   {
@@ -822,9 +771,7 @@
    "generos": {
     "Bambusa": 2
    },
-   "naturalizacao": {
-    "allen": 4
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -839,8 +786,7 @@
     "Gigantochloa": 3
    },
    "naturalizacao": {
-    "exotic": 1,
-    "allen": 2
+    "exotic": 1
    }
   },
   {
@@ -856,9 +802,7 @@
     "Dendrocalamus": 4,
     "Gigantochloa": 5
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -871,9 +815,7 @@
     "Bambusa": 3,
     "Phyllostachys": 2
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -895,9 +837,7 @@
    "chars": 41898,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 5
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol11",
@@ -910,9 +850,7 @@
     "Bambusa": 17,
     "Phyllostachys": 3
    },
-   "naturalizacao": {
-    "allen": 7
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -928,8 +866,7 @@
     "Chusquea": 3
    },
    "naturalizacao": {
-    "exotic": 2,
-    "allen": 1
+    "exotic": 2
    }
   },
   {
@@ -961,9 +898,7 @@
     "Gigantochloa": 2,
     "Guadua": 2
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -992,9 +927,7 @@
     "Dendrocalamus": 4,
     "Guadua": 21
    },
-   "naturalizacao": {
-    "allen": 4
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -1037,9 +970,7 @@
     "Phyllostachys": 1,
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -1049,9 +980,7 @@
    "chars": 79457,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 4
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -1066,9 +995,7 @@
     "Dendrocalamus": 9,
     "Gigantochloa": 10
    },
-   "naturalizacao": {
-    "allen": 12
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -1081,9 +1008,7 @@
     "Bambusa": 1,
     "Phyllostachys": 2
    },
-   "naturalizacao": {
-    "allen": 4
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -1124,9 +1049,7 @@
    "generos": {
     "Bambusa": 19
    },
-   "naturalizacao": {
-    "allen": 4
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -1143,8 +1066,7 @@
    },
    "naturalizacao": {
     "naturali": 1,
-    "exotic": 1,
-    "allen": 6
+    "exotic": 1
    }
   },
   {
@@ -1157,9 +1079,7 @@
    "generos": {
     "Bambusa": 8
    },
-   "naturalizacao": {
-    "allen": 4
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -1172,9 +1092,7 @@
     "Bambusa": 13,
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 4
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -1190,9 +1108,7 @@
     "Gigantochloa": 3,
     "Guadua": 1
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -1204,9 +1120,7 @@
    "generos": {
     "Phyllostachys": 4
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -1220,9 +1134,7 @@
     "Phyllostachys": 6,
     "Dendrocalamus": 8
    },
-   "naturalizacao": {
-    "allen": 28
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -1234,9 +1146,7 @@
    "generos": {
     "Phyllostachys": 1
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol12",
@@ -1290,9 +1200,7 @@
    "generos": {
     "Bambusa": 1
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol13",
@@ -1302,9 +1210,7 @@
    "chars": 56617,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol13",
@@ -1319,9 +1225,7 @@
     "Dendrocalamus": 4,
     "Gigantochloa": 44
    },
-   "naturalizacao": {
-    "allen": 5
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol13",
@@ -1334,9 +1238,7 @@
     "Bambusa": 7,
     "Dendrocalamus": 4
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol13",
@@ -1363,9 +1265,7 @@
     "Bambusa": 1,
     "Phyllostachys": 5
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol13",
@@ -1379,9 +1279,7 @@
     "Phyllostachys": 4,
     "Dendrocalamus": 6
    },
-   "naturalizacao": {
-    "allen": 5
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol13",
@@ -1399,7 +1297,7 @@
    },
    "naturalizacao": {
     "invasive": 8,
-    "allen": 5
+    "alien": 2
    }
   },
   {
@@ -1437,9 +1335,7 @@
     "Phyllostachys": 1,
     "Dendrocalamus": 3
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol13",
@@ -1456,8 +1352,7 @@
     "Guadua": 1
    },
    "naturalizacao": {
-    "exotic": 1,
-    "allen": 8
+    "exotic": 1
    }
   },
   {
@@ -1481,9 +1376,7 @@
     "Phyllostachys": 5,
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol13",
@@ -1497,9 +1390,7 @@
     "Phyllostachys": 2,
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol13",
@@ -1515,9 +1406,7 @@
     "Gigantochloa": 6,
     "Guadua": 10
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1533,9 +1422,7 @@
     "Gigantochloa": 1,
     "Guadua": 1
    },
-   "naturalizacao": {
-    "allen": 4
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1549,9 +1436,7 @@
     "Phyllostachys": 1,
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 6
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1566,9 +1451,7 @@
     "Dendrocalamus": 37,
     "Gigantochloa": 7
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1582,8 +1465,7 @@
     "Phyllostachys": 2
    },
    "naturalizacao": {
-    "invasive": 1,
-    "allen": 2
+    "invasive": 1
    }
   },
   {
@@ -1623,9 +1505,7 @@
     "Phyllostachys": 1,
     "Dendrocalamus": 13
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1638,9 +1518,7 @@
     "Phyllostachys": 1,
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1655,9 +1533,7 @@
     "Dendrocalamus": 3,
     "Gigantochloa": 8
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1693,9 +1569,7 @@
    "generos": {
     "Bambusa": 8
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1705,9 +1579,7 @@
    "chars": 63026,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 26
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1719,9 +1591,7 @@
    "generos": {
     "Bambusa": 2
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1735,9 +1605,7 @@
     "Phyllostachys": 3,
     "Guadua": 2
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1751,9 +1619,7 @@
     "Dendrocalamus": 13,
     "Gigantochloa": 1
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1769,9 +1635,7 @@
     "Gigantochloa": 3,
     "Guadua": 3
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1784,9 +1648,7 @@
     "Phyllostachys": 2,
     "Gigantochloa": 1
    },
-   "naturalizacao": {
-    "allen": 13
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1813,9 +1675,7 @@
    "generos": {
     "Phyllostachys": 1
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol15",
@@ -1830,9 +1690,7 @@
     "Dendrocalamus": 1,
     "Gigantochloa": 30
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol16",
@@ -1847,9 +1705,7 @@
     "Dendrocalamus": 8,
     "Guadua": 2
    },
-   "naturalizacao": {
-    "allen": 4
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol16",
@@ -1862,9 +1718,7 @@
     "Bambusa": 10,
     "Dendrocalamus": 9
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol16",
@@ -1893,8 +1747,7 @@
     "Gigantochloa": 1
    },
    "naturalizacao": {
-    "exotic": 1,
-    "allen": 2
+    "exotic": 1
    }
   },
   {
@@ -1908,8 +1761,7 @@
     "Phyllostachys": 9
    },
    "naturalizacao": {
-    "invasive": 1,
-    "allen": 1
+    "invasive": 1
    }
   },
   {
@@ -1922,9 +1774,7 @@
    "generos": {
     "Phyllostachys": 7
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol16",
@@ -1940,8 +1790,7 @@
    "naturalizacao": {
     "naturali": 1,
     "invasive": 1,
-    "exotic": 2,
-    "allen": 19
+    "exotic": 2
    }
   },
   {
@@ -1954,9 +1803,7 @@
    "generos": {
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol16",
@@ -1969,9 +1816,7 @@
     "Bambusa": 8,
     "Phyllostachys": 2
    },
-   "naturalizacao": {
-    "allen": 4
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol16",
@@ -1989,7 +1834,8 @@
    "naturalizacao": {
     "naturali": 3,
     "invasive": 4,
-    "exotic": 42
+    "exotic": 42,
+    "alien": 1
    }
   },
   {
@@ -2003,9 +1849,7 @@
     "Bambusa": 1,
     "Phyllostachys": 1
    },
-   "naturalizacao": {
-    "allen": 7
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol2",
@@ -2042,9 +1886,7 @@
    "chars": 46791,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol2",
@@ -2072,9 +1914,7 @@
     "Bambusa": 3,
     "Guadua": 1
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol2",
@@ -2128,9 +1968,7 @@
    "generos": {
     "Chusquea": 4
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol3",
@@ -2176,9 +2014,7 @@
     "Phyllostachys": 1,
     "Guadua": 1
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol3",
@@ -2190,9 +2026,7 @@
    "generos": {
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol3",
@@ -2218,8 +2052,7 @@
     "Dendrocalamus": 2
    },
    "naturalizacao": {
-    "exotic": 2,
-    "allen": 3
+    "exotic": 2
    }
   },
   {
@@ -2236,9 +2069,7 @@
     "Gigantochloa": 10,
     "Guadua": 9
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol3",
@@ -2254,8 +2085,7 @@
    },
    "naturalizacao": {
     "invasive": 1,
-    "exotic": 3,
-    "allen": 1
+    "exotic": 3
    }
   },
   {
@@ -2270,9 +2100,7 @@
     "Phyllostachys": 1,
     "Dendrocalamus": 3
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol4",
@@ -2287,8 +2115,7 @@
     "Dendrocalamus": 27
    },
    "naturalizacao": {
-    "invasive": 2,
-    "allen": 2
+    "invasive": 2
    }
   },
   {
@@ -2303,9 +2130,7 @@
     "Dendrocalamus": 6,
     "Guadua": 2
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol4",
@@ -2329,9 +2154,7 @@
     "Phyllostachys": 4,
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol4",
@@ -2377,8 +2200,7 @@
     "Guadua": 2
    },
    "naturalizacao": {
-    "exotic": 6,
-    "allen": 5
+    "exotic": 6
    }
   },
   {
@@ -2403,9 +2225,7 @@
    "generos": {
     "Gigantochloa": 2
    },
-   "naturalizacao": {
-    "allen": 22
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol4",
@@ -2420,9 +2240,7 @@
     "Dendrocalamus": 3,
     "Gigantochloa": 1
    },
-   "naturalizacao": {
-    "allen": 30
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol4",
@@ -2436,9 +2254,7 @@
     "Phyllostachys": 2,
     "Dendrocalamus": 2
    },
-   "naturalizacao": {
-    "allen": 9
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol5",
@@ -2452,9 +2268,7 @@
     "Dendrocalamus": 6,
     "Guadua": 7
    },
-   "naturalizacao": {
-    "allen": 5
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol5",
@@ -2483,8 +2297,7 @@
     "Phyllostachys": 4
    },
    "naturalizacao": {
-    "exotic": 1,
-    "allen": 15
+    "exotic": 1
    }
   },
   {
@@ -2497,9 +2310,7 @@
    "generos": {
     "Bambusa": 1
    },
-   "naturalizacao": {
-    "allen": 5
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol5",
@@ -2509,9 +2320,7 @@
    "chars": 42919,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol5",
@@ -2523,9 +2332,7 @@
    "generos": {
     "Bambusa": 2
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol5",
@@ -2535,9 +2342,7 @@
    "chars": 48393,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol5",
@@ -2611,9 +2416,7 @@
     "Merostachys": 1,
     "Chusquea": 1
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol5",
@@ -2640,8 +2443,7 @@
     "Chusquea": 14
    },
    "naturalizacao": {
-    "naturali": 4,
-    "allen": 1
+    "naturali": 4
    }
   },
   {
@@ -2655,9 +2457,7 @@
     "Bambusa": 5,
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol6",
@@ -2705,9 +2505,7 @@
     "Dendrocalamus": 1,
     "Gigantochloa": 1
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol6",
@@ -2727,9 +2525,7 @@
    "chars": 41422,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol6",
@@ -2742,9 +2538,7 @@
     "Bambusa": 10,
     "Phyllostachys": 14
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol6",
@@ -2757,9 +2551,7 @@
     "Bambusa": 11,
     "Dendrocalamus": 2
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol6",
@@ -2774,9 +2566,7 @@
     "Dendrocalamus": 1,
     "Gigantochloa": 1
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol6",
@@ -2789,9 +2579,7 @@
     "Bambusa": 1,
     "Dendrocalamus": 3
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol7",
@@ -2806,9 +2594,7 @@
     "Dendrocalamus": 8,
     "Gigantochloa": 4
    },
-   "naturalizacao": {
-    "allen": 4
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol7",
@@ -2822,9 +2608,7 @@
     "Phyllostachys": 3,
     "Chusquea": 1
    },
-   "naturalizacao": {
-    "allen": 21
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol7",
@@ -2839,8 +2623,7 @@
     "Dendrocalamus": 2
    },
    "naturalizacao": {
-    "invasive": 1,
-    "allen": 4
+    "invasive": 1
    }
   },
   {
@@ -2857,9 +2640,7 @@
     "Gigantochloa": 10,
     "Guadua": 3
    },
-   "naturalizacao": {
-    "allen": 7
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol7",
@@ -2869,9 +2650,7 @@
    "chars": 68018,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 11
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol7",
@@ -2939,9 +2718,7 @@
     "Dendrocalamus": 12,
     "Gigantochloa": 16
    },
-   "naturalizacao": {
-    "allen": 11
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol7",
@@ -2984,7 +2761,7 @@
     "Dendrocalamus": 1
    },
    "naturalizacao": {
-    "allen": 1
+    "alien": 1
    }
   },
   {
@@ -3039,9 +2816,7 @@
     "Dendrocalamus": 2,
     "Guadua": 2
    },
-   "naturalizacao": {
-    "allen": 6
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol7",
@@ -3068,9 +2843,7 @@
     "Phyllostachys": 16,
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol7",
@@ -3112,9 +2885,7 @@
    "chars": 41330,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol7",
@@ -3129,9 +2900,7 @@
     "Dendrocalamus": 2,
     "Guadua": 3
    },
-   "naturalizacao": {
-    "allen": 6
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol7",
@@ -3159,9 +2928,7 @@
     "Phyllostachys": 1,
     "Gigantochloa": 2
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol8",
@@ -3176,8 +2943,7 @@
     "Dendrocalamus": 11
    },
    "naturalizacao": {
-    "invasive": 1,
-    "allen": 8
+    "invasive": 1
    }
   },
   {
@@ -3191,8 +2957,7 @@
     "Phyllostachys": 10
    },
    "naturalizacao": {
-    "invasive": 1,
-    "allen": 1
+    "invasive": 1
    }
   },
   {
@@ -3205,9 +2970,7 @@
    "generos": {
     "Gigantochloa": 1
    },
-   "naturalizacao": {
-    "allen": 5
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol8",
@@ -3232,9 +2995,7 @@
    "generos": {
     "Bambusa": 8
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol8",
@@ -3249,9 +3010,7 @@
     "Dendrocalamus": 2,
     "Gigantochloa": 7
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol8",
@@ -3264,9 +3023,7 @@
     "Phyllostachys": 1,
     "Dendrocalamus": 3
    },
-   "naturalizacao": {
-    "allen": 6
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol8",
@@ -3348,8 +3105,7 @@
     "Guadua": 1
    },
    "naturalizacao": {
-    "invasive": 1,
-    "allen": 4
+    "invasive": 1
    }
   },
   {
@@ -3365,9 +3121,7 @@
     "Dendrocalamus": 4,
     "Guadua": 2
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol8",
@@ -3379,9 +3133,7 @@
    "generos": {
     "Phyllostachys": 6
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol8",
@@ -3391,9 +3143,7 @@
    "chars": 38731,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol9",
@@ -3430,9 +3180,7 @@
    "generos": {
     "Phyllostachys": 2
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol9",
@@ -3446,9 +3194,7 @@
     "Phyllostachys": 3,
     "Dendrocalamus": 9
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol9",
@@ -3462,9 +3208,7 @@
     "Phyllostachys": 2,
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol9",
@@ -3477,9 +3221,7 @@
     "Bambusa": 88,
     "Dendrocalamus": 31
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol9",
@@ -3536,9 +3278,7 @@
     "Phyllostachys": 1,
     "Guadua": 2
    },
-   "naturalizacao": {
-    "allen": 6
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol9",
@@ -3565,9 +3305,7 @@
     "Dendrocalamus": 1,
     "Guadua": 1
    },
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol9",
@@ -3577,9 +3315,7 @@
    "chars": 31388,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 2
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "Vol9",
@@ -3620,9 +3356,7 @@
    "chars": 66100,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 13
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "vol14",
@@ -3651,9 +3385,7 @@
     "Bambusa": 5,
     "Dendrocalamus": 13
    },
-   "naturalizacao": {
-    "allen": 1
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "vol14",
@@ -3682,8 +3414,7 @@
     "Phyllostachys": 1
    },
    "naturalizacao": {
-    "invasive": 1,
-    "allen": 4
+    "invasive": 1
    }
   },
   {
@@ -3700,8 +3431,7 @@
     "Guadua": 2
    },
    "naturalizacao": {
-    "naturali": 1,
-    "allen": 4
+    "naturali": 1
    }
   },
   {
@@ -3715,8 +3445,7 @@
     "Phyllostachys": 25
    },
    "naturalizacao": {
-    "invasive": 1,
-    "allen": 1
+    "invasive": 1
    }
   },
   {
@@ -3741,9 +3470,7 @@
    "chars": 55189,
    "paginas_sem_texto": [],
    "generos": {},
-   "naturalizacao": {
-    "allen": 4
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "vol14",
@@ -3780,9 +3507,7 @@
     "Phyllostachys": 1,
     "Dendrocalamus": 1
    },
-   "naturalizacao": {
-    "allen": 23
-   }
+   "naturalizacao": {}
   },
   {
    "volume": "vol14",
@@ -3798,8 +3523,7 @@
     "Guadua": 1
    },
    "naturalizacao": {
-    "exotic": 1,
-    "allen": 19
+    "exotic": 1
    }
   },
   {
@@ -3816,9 +3540,7 @@
     "Gigantochloa": 2,
     "Guadua": 2
    },
-   "naturalizacao": {
-    "allen": 3
-   }
+   "naturalizacao": {}
   }
  ]
 }

@@ -1,5 +1,5 @@
 ---
-titulo: "Carrossel 4 — Bambu exótico, naturalizado, invasor: o nome muda o que fazer"
+titulo: "Carrossel 4 — Bambu exótico, naturalizado, invasor: três nomes, três conversas"
 tipo_documental: material-didatico-institucional
 natureza: derivado
 frente: BAMBU-SCIENCE
@@ -7,7 +7,7 @@ versao: 1
 data: 2026-11-18
 ---
 
-# Carrossel 4 — O nome muda o que você pode fazer
+# Carrossel 4 — Três nomes, três conversas
 
 *12 slides · Instagram · derivado da coleção Advances in Bamboo Science (254 PDFs)*
 
@@ -94,11 +94,11 @@ A coleção registra a mesma espécie como *"a woody bamboo species of Asian ori
 
 ## Slide 9
 
-**O gênero mais estudado nesta coleção é justamente o que a peça original tratava como inexistente no Brasil.**
+**O gênero mais mencionado nesta coleção é justamente o que a peça original tratava como inexistente no Brasil.**
 
-Bambusa aparece em **164 dos 254 artigos**.
+Bambusa é mencionado em **164 dos 254 artigos** — menção, não estudo dedicado.
 
-Nos 159 de Phyllostachys, nenhum trata da expansão do gênero no Brasil.
+Nos 159 de Phyllostachys, nenhum encontrado que trate da expansão do gênero no Brasil.
 
 ---
 
@@ -114,11 +114,11 @@ Para bambu, o manejo por colheita regular aparece na literatura como caminho —
 
 ## Slide 11
 
-**Se você conhece um bambuzal abandonado que se alastra: o uso é o manejo.**
+**Se você conhece um bambuzal abandonado que se alastra: uma hipótese é o uso.**
 
-Cortar e usar é a recomendação que a literatura registra para bambu — cada corte é matéria-prima.
+A literatura registra a colheita regular como alternativa ao controle químico para bambu — não como solução garantida.
 
-Cooperativa de manejo junta controle, renda e rastreabilidade.
+A cooperativa é **proposta** deste material, não resultado medido.
 
 ---
 
@@ -155,4 +155,4 @@ Cerca, tutor, artesanato, briquete, carvão, painel. A cartilha de bioeconomia d
 | 9 | Varredura de texto integral, 254/254 PDFs |
 | 10 | ABS 13 (2025) 100203, p. 11 |
 
-> **Premissa declarada.** A periodicidade de corte e a vedação ao fogo são orientação prática, não resultado da coleção: nenhum artigo auditado testou protocolo de erradicação de bambu exótico no Brasil.
+> **Premissa declarada.** O ciclo anual de corte e a recomendação de não usar fogo nem herbicida em área grande são orientação prática deste material, não resultado da coleção: nenhum artigo auditado testou protocolo de erradicação de bambu exótico no Brasil.

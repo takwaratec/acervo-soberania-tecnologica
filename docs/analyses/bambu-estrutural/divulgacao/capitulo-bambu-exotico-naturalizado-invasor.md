@@ -10,7 +10,7 @@ data: 2026-11-18
 > **Nota de proveniência e limites.** Este arquivo é um derivado didático da coleção *Advances in Bamboo
 > Science* custodiada (254 PDFs, 16 volumes). A classificação de origem das espécies é **variável entre
 > autores** — este texto não resolve a divergência taxonômica, ele a descreve. Não é homologação, nem
-> recomendação de manejo, nem censo da flora brasileira: mede o que a coleção discute. O padrao de front
+> recomendação de manejo, nem censo da flora brasileira: mede o que a coleção discute. O padrão de front
 > matter e de citação de fontes ainda NÃO foi definido pela governança e está sob escrutínio de auditoria
 > externa; este formato não deve ser tratado como homologado.
 
@@ -24,9 +24,9 @@ Quando um bambu asiático chega ao Brasil e se espalha sozinho há décadas, ele
 palavra que descreve uma origem — e passa a ter comportamento de planta estabelecida no território. Aí a
 nomenclatura se divide — e a divisão não é acadêmica: ela muda o que se discute fazer com a planta.
 
-Três termos são usados para a mesma coisa, e cada um carrega uma consequência diferente:
+Três termos são usados na conversa como se fossem a mesma coisa — e cada um carrega uma consequência diferente:
 
-**Exótica** — a espécie não é daqui. Origem estrangeira, sem juízo sobre comportamento. É o termo mais descritivo e mais frouxo: uma planta exótica num quintal é outra ocupando uma encosta têm o mesmo rótulo.
+**Exótica** — a espécie não é daqui. Origem estrangeira, sem juízo sobre comportamento. É o termo mais descritivo e mais frouxo: uma planta exótica num quintal e outra ocupando uma encosta têm o mesmo rótulo.
 
 **Naturalizada** — chegou de fora, mas se reproduz sozinha e se mantém no território sem que ninguém a plante. O termo é técnico, da ecologia de invasões, e descreve um estado, não um veredito. "Naturalizada" é o que a coleção registra para o Bambusa vulgaris onde ela tem observação — e é o exemplo da Tanzânia, não do Brasil.
 
@@ -34,14 +34,14 @@ Três termos são usados para a mesma coisa, e cada um carrega uma consequência
 
 A confusão aparece porque os três são usados como sinônimos na conversa informal. Quem escreve "bambu exótico" costuma querer dizer as três coisas ao mesmo tempo.
 
-> **O que este texto NÃO afirma.** Que o nome, por si, mude o que a lei permite ou exige. Ele muda **a conversa** — e a conversa é o que precede a regra. Classificação, regra aplicável, jurisdição e ação concreta são quatro coisas distintas, e nenhuma delas é automática: a definição de espécie exótica invasora está na Convenção sobre Diversidade Biológica (introdução ou dispersão que ameaça a diversidade biológica), a classificação de uma espécie concreta depende de avaliação e de ato do órgão competente, e a obrigação de controlar ou erradicar depende da norma aplicável ao local. Este texto não cita norma brasileira específica porque não pesquisou o ordenamento vigente — e, sem pesquisar, afirmar obrigação legal seria inventar.
+> **O que este texto NÃO afirma.** Que o nome, por si, mude o que a lei permite ou exige. Ele muda **a conversa** — e a conversa é o que precede a regra. Classificação, regra aplicável, jurisdição e ação concreta são quatro coisas distintas, e nenhuma delas é automática: a definição de espécie exótica invasora está na Convenção sobre Diversidade Biológica (introdução ou dispersão que ameaça a diversidade biológica), a classificação de uma espécie concreta, em qualquer país, costuma depender de avaliação técnica e de ato de autoridade competente — não é autoatribuída por quem descreve a planta; e a obrigação de controlar ou erradicar depende da norma aplicável ao local. Este texto não cita norma brasileira específica porque não pesquisou o ordenamento vigente — e, sem pesquisar, afirmar obrigação legal seria inventar.
 
 ## O que a coleção mede — e o que ela não mede
 
-A coleção custodiada tem 254 artigos em 16 volumes, todos de acesso aberto (licenças CC BY ou CC BY-NC na primeira página de cada PDF). Não é toda a literatura de bambu do mundo. Varri o texto
+A coleção custodiada tem 254 artigos em 16 volumes, de acesso aberto (licença declarada na primeira página de cada PDF; não verifiquei as 254 individualmente). Não é toda a literatura de bambu do mundo. Varri o texto
 integral dos 254 para contar de que gênero cada artigo fala:
 
-- **Bambusa** — 164 artigos (1.982 menções). É o gênero mais discutido da coleção.
+- **Bambusa** — mencionado em 164 artigos, 1.982 menções. É o gênero mais **mencionado** da coleção.
 - **Phyllostachys** — 159 artigos (1.040 menções).
 - **Dendrocalamus** — 146 artigos.
 - **Gigantochloa** — 64 artigos.
@@ -50,15 +50,16 @@ integral dos 254 para contar de que gênero cada artigo fala:
 - **Merostachys** — 6 artigos.
 
 O contraste com as nativas sul-americanas é o achado: **Guadua** aparece em 58 artigos, **Chusquea** em 9 e
-**Merostachys** em 6. O gênero mais discutido **nesta coleção** (164 dos 254 artigos) é justamente o que a peça original
-tratava como inexistente no Brasil.
+**Merostachys** em 6. O gênero mais **mencionado** nesta coleção (em 164 dos 254 artigos) é justamente o que a peça original
+tratava como inexistente no Brasil. Menção não é estudo: a contagem inclui listas de referência.
 
 > **Método reproduzível.** `_geradores/varrer_generos.py` extrai o texto integral de cada PDF e conta menções de
 > gênero com regex de palavra inteira (`\bGenero\b`), registrando artigo por artigo em `generos_por_artigo.json`.
-> O JSON registra sha256 e tamanho de cada PDF (fixa o insumo), versão de plataforma, Python e pypdf (fixa o
-> extrator) e o diagnóstico de páginas sem camada de texto. Rodado duas vezes em ambientes diferentes
-> (Python 3.13/pypdf 6.14 e Python 3.14/pypdf 7.1): **mesmos números**, 254 PDFs lidos, zero erro, zero página
-> sem texto — a coleção tem camada de texto em todas as páginas, então não há subestimação por falta de OCR.
+> O JSON registra sha256 e tamanho de cada PDF (fixa o insumo), versão de Python, pypdf e plataforma (fixa o
+> extrator) e diagnóstico de páginas sem camada de texto. Duas execuções independentes, guardadas no repositório
+> como `generos_por_artigo.json` e `generos_por_artigo_run2.json` com o log de cada uma: **mesmos totais e zero
+> divergência artigo por artigo nos 254**. Nenhuma página ficou abaixo do limiar de 40 caracteres — o que mostra
+> que toda página produziu texto extraível, não que todo conteúdo substantivo esteja na camada textual.
 >
 > As contagens **se sobrepõem** — um artigo pode citar vários gêneros — e não somam 254. Menção em lista de
 > referências também conta; é por isso que o número mede "em quantos artigos o gênero é discutido", não
@@ -77,7 +78,7 @@ afirmar:
 
 **O que é naturalizado, dito com ressalva de disputa.** O artigo sobre três espécies comerciais das Filipinas descreve *D. asper*, *B. spinosa* e *G. levis* como naturalizadas — e registra a divergência: há autor que considera *G. levis* nativa das Filipinas, contra suspeitas anteriores de introdução. Ou seja, "naturalizada" também é uma classificação em disputa, não um fato datado.
 
-**O que é potencial invasor, dito com mecanismo.** O artigo sobre rizomas descreve o *Phyllostachys edulis* invadindo florestas vizinhas: forma camada única de folhagem, alcança o dossel das árvores é as supera por competição. O mecanismo apontado é o rizoma — a mesma estrutura que faz o bambu ser bom de propagar é a que faz ele ser difícil de conter.
+**O que é potencial invasor, dito com mecanismo.** O artigo sobre rizomas descreve o *Phyllostachys edulis* invadindo florestas vizinhas: forma camada única de folhagem, alcança o dossel das árvores e as supera por competição. O mecanismo apontado é o rizoma — a mesma estrutura que faz o bambu ser bom de propagar é a que faz ele ser difícil de conter.
 
 **O que é invasor, dito com número — e com ceticismo.** O artigo sobre restauração no Himalaia cita Canavan et al. (2017): **232 espécies foram introduzidas fora da sua área nativa e apenas 12 foram identificadas como invasoras**. O texto registra que, para esses autores, *"fears of its invasiveness are exaggerated"*. E propõe a saída que interessa para o manejo: *"invasiveness can be managed by regular harvesting and utilizing the benefits"*.
 
@@ -85,7 +86,7 @@ afirmar:
 
 **O que a coleção diz sobre o "bambu brasileiro".** Sobre *Bambusa vulgaris* 'Vittata' há um artigo inteiro (Vol 7, n. 100068) — e ele abre chamando a planta de *"a woody bamboo species of Asian origin"*. A coleção não reconhece o 'Vittata' como brasileiro. Registra a origem asiática e discute o florescimento de um exemplar cultivado na Argentina.
 
-**O que a coleção diz sobre Phyllostachys no Brasil.** Nada substantivo. O gênero aparece 1.040 vezes, em 159 artigos, e nenhum deles trata da expansão do gênero em território brasileiro. Onde a coleção toca o Brasil, é para falar de adequação agroclimática com *Bambusa vulgaris* como referência — não de invasão.
+**O que a coleção diz sobre Phyllostachys no Brasil.** Nada substantivo. O gênero aparece 1.040 vezes, em 159 artigos; não encontrei entre eles artigo que trate da expansão do gênero em território brasileiro. A busca foi leitura dos trechos que cruzam o gênero com "Brazil" — não há artefato que classifique artigo por artigo o tema de cada um dos 159. Onde a coleção toca o Brasil, é para falar de adequação agroclimática com *Bambusa vulgaris* como referência — não de invasão.
 
 ## O que isso significa para a catalogação
 
@@ -100,9 +101,9 @@ responde em lugares diferentes e nem sempre no mesmo artigo:
 
 ## O bambuzal que ninguém cuida
 
-O achado prático do corpus é uma inversão de sinal. Se a espécie é naturalizada e tem comportamento oportunista, o manejo **é** a colheita: cortar o colmo é o que a planta responde, e uso é o que contém a expansão. O artigo do Himalaia nomeia essa lógica ("regular harvesting and utilizing the benefits"), e ela importa aqui porque desloca o problema de "como erradicar" para "como usar antes que se espalhe mais".
+O achado prático do corpus é uma inversão de sinal. Se a espécie é naturalizada e tem comportamento oportunista, a **hipótese** que a literatura sugere é usar a colheita como manejo: cortar e dar destino ao colmo. É hipótese fundamentada numa recomendação de artigo, não resultado de experimento — a coleção não mediu se a colheita contém a expansão, nem em quanto tempo. O artigo do Himalaia nomeia essa lógica ("regular harvesting and utilizing the benefits"), e ela importa aqui porque desloca o problema de "como erradicar" para "como usar antes que se espalhe mais".
 
-E há um contraexemplo que fecha o raciocínio: o único estudo brasileiro da coleção sobre bambus nativos descreve duas espécies **nativas** do sul do país como invasoras dominantes. O problema de dominância não é privilégio de planta estrangeira, é a solução tampouco pode ser só "voltar ao nativo".
+E há um contraexemplo que fecha o raciocínio: o único estudo brasileiro da coleção sobre bambus nativos descreve duas espécies **nativas** do sul do país como invasoras dominantes. O problema de dominância não é privilégio de planta estrangeira, e a solução tampouco pode ser só "voltar ao nativo".
 
 **O que se pode dizer com o que está medido, e o que é proposta:**
 
@@ -110,7 +111,7 @@ E há um contraexemplo que fecha o raciocínio: o único estudo brasileiro da co
 - **O que é proposta deste texto, não resultado de estudo:** usar o corte como estratégia de contenção, em ciclo anual, e organizar quem corta em cooperativa. Não há, na coleção, protocolo testado de erradicação nem avaliação de cooperativa de manejo de bambu exótico no Brasil. Quem for executar precisa de diagnóstico de espécie e de sítio e de responsável técnico.
 - **O que não se afirma:** que colher resolva a expansão, que queimar ou herbicida esteja vedado por norma, ou que toda espécie naturalizada tenha uso comercial viável.
 
-Este é um alerta prático, não uma receita técnica de erradicação: erradicação exige diagnóstico de espécie e de sítio, e projeto de responsável técnico. O que se afirma aqui é mais simples — **bambuzal abandonado que se alastra é, antes de tudo, matéria-prima sem uso.**
+Este é um alerta prático, não uma receita técnica de erradicação. Recomendação deste material — não requisito legal citado: qualquer intervenção em bambuzal de porte deve começar por diagnóstico de espécie e de sítio, e contar com responsável técnico. O que se afirma aqui é mais simples — **bambuzal abandonado que se alastra é, antes de tudo, matéria-prima sem uso.**
 
 ## O que falta, e é honesto dizer
 
