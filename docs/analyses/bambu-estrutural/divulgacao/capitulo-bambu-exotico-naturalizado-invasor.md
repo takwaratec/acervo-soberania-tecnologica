@@ -57,12 +57,19 @@ tratava como inexistente no Brasil. Menção não é estudo: a contagem inclui l
 > gênero com regex de palavra inteira (`\bGenero\b`), registrando artigo por artigo em `generos_por_artigo.json`.
 > O JSON registra sha256 e tamanho de cada PDF (fixa o insumo), versão de Python, pypdf e plataforma (fixa o
 > extrator) e diagnóstico de páginas sem camada de texto. Duas execuções independentes, guardadas no repositório
-> como `generos_por_artigo.json` e `generos_por_artigo_run2.json` com o log de cada uma: **mesmos totais e zero
-> divergência artigo por artigo nos 254**. Nenhuma página ficou abaixo do limiar de 40 caracteres — o que mostra
-> que toda página produziu texto extraível, não que todo conteúdo substantivo esteja na camada textual.
+> como `generos_por_artigo.json` e `generos_por_artigo_run2.json`, com o log de cada uma: **mesmos totais e zero
+> divergência artigo por artigo nos 254**.
+>
+> **Limite da verificação de ambiente:** as duas execuções rodaram no MESMO interpretador (Python 3.13.5, pypdf
+> 6.14.2). A tentativa de repetir no interpretador do sistema (Python 3.9.6) **falhou** — `pypdf` não está
+> instalado ali. Portanto o que está provado é **determinismo** (mesma entrada, mesmo resultado), não
+> **portabilidade** entre versões de biblioteca.
+>
+> Nenhuma página ficou abaixo do limiar de 40 caracteres — o que mostra que toda página produziu texto extraível,
+> não que todo conteúdo substantivo esteja na camada textual.
 >
 > As contagens **se sobrepõem** — um artigo pode citar vários gêneros — e não somam 254. Menção em lista de
-> referências também conta; é por isso que o número mede "em quantos artigos o gênero é discutido", não
+> referências também conta; é por isso que o número mede "em quantos artigos o gênero é mencionado", não
 > "quantos artigos são sobre o gênero".
 
 > **Aviso de leitura.** Isso mede o que a coleção *discute*, não o que cresce no Brasil, nem autoriza falar de "literatura mundial": a coleção é uma revista, com 254 artigos. A maioria dos autores parece ser da Ásia e da África —
