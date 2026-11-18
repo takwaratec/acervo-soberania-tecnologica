@@ -198,10 +198,12 @@ CUIDADOS = [
      "60,73 MPa, suporta 10,7 tf num colmo Ø80. Tensão é força dividida por área; colmo mais "
      "grosso tem mais área. Comparar só a tensão premia o colmo fino."),
     ("Média não é valor de projeto",
-     "A mesma Guadua aparece com média de 57,5 MPa e valor característico de 37,0 MPa (Panti). "
-     "A NSR-10 leva o característico a esforço admissível de 17,8 MPa. Do valor de 57,5 ao de "
-     "17,8 há uma redução de 3,2×. Citar a média como se fosse capacidade de projeto exagera "
-     "a carga admissível em mais de três vezes."),
+     "Dois estudos, duas cadeias — misturá-las produz um número que não existe. Nas Filipinas (Panti 2024), "
+     "a Guadua tem média de 57,5 MPa e característico de 37,0 MPa: redução de 1,56 vez, antes do fator de "
+     "segurança. Em Villavicencio (Rincon 2025), a média é de 100 MPa e o admissível pela NSR-10 fica em "
+     "17,8 MPa: redução de 5,6 vezes. O característico de um estudo não se divide pelo admissível de outro — "
+     "a razão entre eles não significa nada. Em qualquer dos dois casos, citar a média como capacidade de "
+     "projeto exagera a carga admissível."),
     ("A norma muda o número",
      "Moso aparece com 69,88 MPa (ISO 22157, colmo inteiro), 66,72 MPa (Franck, colmo inteiro "
      "com DIC) e 54 MPa de média / 40 MPa característico (JG/T 199, corpo pequeno). Guadua: "

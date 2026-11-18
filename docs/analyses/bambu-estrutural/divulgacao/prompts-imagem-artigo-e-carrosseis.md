@@ -168,7 +168,7 @@ Slide vertical 4:5 tipográfico. Fundo creme. Três regras numeradas em corpo m�
 
 ## S1 · Capa
 ```
-Slide vertical 4:5. Fundo branco. No centro, uma grade de 240 pequenos retângulos cinza-claro formando um bloco denso, tipo mosaico. Exatamente um dos retângulos está preenchido de vermelho. Tipografia grande sobre o mosaico: "254 artigos. Um buraco no meio." Sem outros elementos.
+Slide vertical 4:5. Fundo branco. No centro, uma grade de 254 pequenos retângulos cinza-claro formando um bloco denso, tipo mosaico. Exatamente um dos retângulos está preenchido de vermelho. Tipografia grande sobre o mosaico: "254 artigos. Um buraco no meio." Sem outros elementos.
 ```
 
 ## S2 · Contexto

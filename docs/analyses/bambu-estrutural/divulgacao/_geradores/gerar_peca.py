@@ -473,15 +473,15 @@ def pagina_especies():
         )
     h.append("</tbody></table></div>")
     h.append(
-        '<div class="note"><strong>Redução em cascata — o número que mais se cita errado</strong>'
-        f'Guadua em Villavicencio: média {g(57.53)} MPa, característico {g(36.99)} MPa '
-        f'(÷{g(N["controles"]["reducao_media_caracteristico"]).replace(",0","")}) e esforço admissível '
-        f'{g(17.8)} MPa pela NSR-10 (÷{g(N["controles"]["reducao_caracteristico_admissivel"]).replace(",0","")}). '
-        f'Do valor médio ao admissível há uma redução de {g(N["controles"]["reducao_media_admissivel"]).replace(",0","")}×. '
-        f'Em carga: {g(N["controles"]["carga_media_colmo_80"]["tf"])} tf de média, '
-        f'{g(N["controles"]["carga_caract_colmo_80"]["tf"])} tf de característica, '
-        f'{g(N["controles"]["carga_admissivel_colmo_80"]["tf"])} tf de admissível — num colmo Ø80. '
-        "Dimensionar com a média é projetar uma estrutura três vezes mais carregada do que a norma permite.</div>"
+        '<div class="note"><strong>Redução em cascata — o número que mais se cita errado</strong>' 
+        f'Guadua das Filipinas: média {g(57.53)} MPa, característico {g(36.99)} MPa ' 
+        f'(÷{g(N["controles"]["reducao_media_caracteristico"]).replace(",0","")}). ' 
+        f'Guadua de Villavicencio: média 100 MPa, admissível {g(17.8)} MPa pela NSR-10 — ' 
+        f'redução de {g(N["controles"]["reducao_media_admissivel"]).replace(",0","")}×. ' 
+        f'Em carga, no ensaio filipino, num colmo Ø80: {g(N["controles"]["carga_media_colmo_80"]["tf"])} tf de média, ' 
+        f'{g(N["controles"]["carga_caract_colmo_80"]["tf"])} tf de característica, ' 
+        f'{g(N["controles"]["carga_admissivel_colmo_80"]["tf"])} tf de admissível. ' 
+        "Dimensionar com a média é projetar uma estrutura várias vezes mais carregada do que a norma permite.</div>"
     )
     h.append(f"<p><strong>Uso declarado pela fonte (Panti):</strong> {DADOS.USO_FONTE['panti']}</p>")
 
@@ -846,6 +846,35 @@ def pagina_estruturas():
     return "".join(h)
 
 
+
+def garantir_rotulos(h):
+    """Toda <td> recebe data-l derivado do <th> da própria coluna.
+
+    Tabela empilhada em tela estreita mostra valor sem nome quando falta data-l;
+    corrigir o HTML à mão se perde na próxima geração, então o rótulo é derivado aqui.
+    """
+    def _tab(m):
+        tab = m.group(0)
+        ths = re.findall(r"<th[^>]*>(.*?)</th>", tab, re.S)
+        ths = [re.sub(r"<[^>]+>", "", x).strip() for x in ths]
+        if not ths:
+            return tab
+        linha = [0]
+
+        def _tr(mt):
+            linha[0] = 0
+            def _td(md):
+                k = linha[0]
+                linha[0] += 1
+                if "data-l=" in md.group(1) or k >= len(ths):
+                    return md.group(0)
+                return md.group(0).replace("<td", f'<td data-l="{ths[k]}"', 1)
+            return re.sub(r"<td([^>]*)>", _td, mt.group(0))
+        corpo = re.sub(r"<tr>.*?</tr>", _tr, tab, flags=re.S)
+        return corpo
+    return re.sub(r"<table>.*?</table>", _tab, h, flags=re.S)
+
+
 def main():
     matriz = ler("matriz.md")
     ficha = ler("ficha.md")
@@ -1127,6 +1156,7 @@ Autorizar o merge dos dois PRs. Depois disso, o próximo passo é o PR da L21 re
 </html>
 """
     saida = os.path.join(W, "comparativo-mecanica-bambu.html")
+    doc = garantir_rotulos(doc)
     with open(saida, "w", encoding="utf-8") as f:
         f.write(doc)
     print("gerado:", saida, len(doc), "chars")

@@ -109,8 +109,11 @@
  },
  "controles": {
   "reducao_media_caracteristico": 1.56,
-  "reducao_caracteristico_admissivel": 2.08,
-  "reducao_media_admissivel": 3.23,
+  "reducao_media_caracteristico_fonte": "Panti 2024 (Filipinas)",
+  "reducao_media_admissivel": 5.62,
+  "reducao_media_admissivel_fonte": "Rincon 2025 (Villavicencio): 100 MPa -> 17,80 MPa",
+  "reducao_caracteristico_admissivel": null,
+  "nota_reducao": "caracteristico de Panti e admissivel de Rincon sao de estudos diferentes; a razao entre eles nao tem significado.",
   "carga_admissivel_colmo_80": {
    "kN": 30.8,
    "tf": 3.14

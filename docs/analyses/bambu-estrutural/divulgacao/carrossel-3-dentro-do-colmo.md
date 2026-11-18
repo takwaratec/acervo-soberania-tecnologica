@@ -4,7 +4,7 @@ titulo: "Carrossel 3 — Bambu não é madeira (12 slides)"
 autores: Fabio Takwara (curadoria); Hermes Agent (redação)
 ano: 2026
 estado_documental: em-revisao-documental
-fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 240 artigos), custodiados em _privado/
+fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 254 artigos), custodiados em _privado/
 data_revisao: 2026-11-18
 nota_versao: "Padrão de front matter e de citação de fontes AINDA NÃO DEFINIDO para material de divulgação do MTCC; está sob escrutínio de auditoria externa. Proveniência declarada em texto corrido no corpo do documento. Não tratar este front matter como formato homologado."
 responsavel_curadoria: Fabio Takwara

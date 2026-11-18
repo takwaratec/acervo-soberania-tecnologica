@@ -1,6 +1,6 @@
 ---
 tipo_documental: ensaio-autoral
-titulo: "Artigo educativo de blog — o que 254 artigos de bambu medem e o que não medem"
+titulo: "Artigo educativo de blog — o que 254 artigos de bambu medem e o que eles não mediram"
 autores: Fabio Takwara (curadoria); Hermes Agent (redação)
 ano: 2026
 estado_documental: em-revisao-documental
@@ -10,7 +10,7 @@ nota_versao: "Padrão de front matter e de citação de fontes AINDA NÃO DEFINI
 responsavel_curadoria: Fabio Takwara
 ---
 
-# O que 254 artigos sobre bambu dizem — e o que ainda ninguém mediu
+# O que 254 artigos sobre bambu dizem — e o que eles não mediram
 
 *Artigo educativo · blog do Acervo / Amanac*
 
@@ -18,7 +18,7 @@ responsavel_curadoria: Fabio Takwara
 
 ## A pergunta que iniciou tudo
 
-Quem procura bambu estrutural no Brasil esbarra sempre na mesma frase: "falta pesquisa". A frase é verdadeira e inútil, porque não diz o que falta. Este levantamento atravessou 254 artigos publicados na *Advances in Bamboo Science*, a principal revista científica da área, mais 12 estudos de mecânica. O que encontrei não foi ausência de pesquisa. Foi uma pesquisa com um ponto cego muito específico.
+Quem procura bambu estrutural no Brasil esbarra sempre na mesma frase: "falta pesquisa". A frase é verdadeira e inútil, porque não diz o que falta. Este levantamento atravessou 254 artigos publicados na *Advances in Bamboo Science*, uma das principais revistas científicas abertas da área, mais 12 estudos de mecânica. O que encontrei não foi ausência de pesquisa. Foi uma pesquisa com um ponto cego muito específico.
 
 Uma ressalva de método, antes de tudo: a **classificação temática dos 254 foi feita pelo título dos arquivos**, e a **leitura integral por conteúdo cobre 12 documentos**. Onde este texto disser "não existe", leia "não aparece entre os documentos lidos integralmente, e a busca por título nos 254 não encontrou". É mais fraco que uma varredura completa, e é o que a frente efetivamente mediu.
 
@@ -85,7 +85,7 @@ O bambu tem a primeira camada completa e a terceira vazia.
 
 A conclusão dos autores é sem meias palavras: a geometria boca-de-peixe é "ill-suited" — inadequada — para resistir a cargas transversais no plano.
 
-**Treliça.** Nenhuma foi ensaiada. A palavra aparece uma vez em toda a coleção estrutural, num parágrafo de introdução do artigo de Franck dizendo que "a chave para boas ligações em elementos portantes, por exemplo tesouras, é conhecer o material e saber trabalhá-lo".
+**Treliça.** Nenhuma foi ensaiada — nem entre os 12 lidos integralmente, nem entre os 254 títulos. A palavra aparece uma vez nos 12 textos lidos, num parágrafo de introdução do artigo de Franck dizendo que "a chave para boas ligações em elementos portantes, por exemplo tesouras, é conhecer o material e saber trabalhá-lo". A busca por título nos 254 não encontrou artigo dedicado a treliça; a frequência da palavra no interior dos outros 242 não foi medida.
 
 **Flambagem de coluna.** Existem dois artigos, ambos sobre compósito industrial — nenhum sobre colmo inteiro. Goonewardena e colegas (2024, *Advances in Bamboo Science* 7, 100082) analisaram a literatura sobre *scrimber*: falha dominante por cisalhamento, flambagem local reduzindo a capacidade dos curtos, efeito de tamanho com boa correlação com o volume, e seções de 100×100 mm ou maiores praticamente não estudadas. Manggapis e colegas (2026, *Advances in Bamboo Science* 16) ensaiaram colunas de bambu laminado de *Bambusa spinosa* e acharam relação inversa entre esbeltez e capacidade, com correlação direta entre excentricidade e concentração de tensão. Os próprios autores classificam a equação como calibração preliminar daquela espécie, não modelo geral — o erro ficou acima de vários modelos já publicados.
 

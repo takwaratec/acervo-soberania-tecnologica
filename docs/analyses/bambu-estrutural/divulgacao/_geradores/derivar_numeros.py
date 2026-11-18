@@ -105,12 +105,18 @@ def main():
     out["franck"]["razao_deflexao"] = round(FRANCK["Moso"]["dmax"] / FRANCK["Guadua"]["dmax"], 2)
 
     # Reduções sucessivas: média → característico → admissível
-    m, ck, adm = 57.53, 36.99, 17.80
+    # DUAS fontes distintas: 57,53/36,99 sao de PANTI (Filipinas); 17,80 e de RINCON (Villavicencio).
+    # Misturar as duas produz um 3,2x que nao existe em artigo nenhum.
+    m, ck = 57.53, 36.99          # Panti 2024, Tabela 6
+    m_vil, adm_vil = 100.0, 17.80  # Rincon 2025, Tabela 7 (media) e Tabela 12 (admissivel basal)
     out["controles"] = {
         "reducao_media_caracteristico": round(m / ck, 2),
-        "reducao_caracteristico_admissivel": round(ck / adm, 2),
-        "reducao_media_admissivel": round(m / adm, 2),
-        "carga_admissivel_colmo_80": carga_por_colmo(adm, AREAS["Guadua"]),
+        "reducao_media_caracteristico_fonte": "Panti 2024 (Filipinas)",
+        "reducao_media_admissivel": round(m_vil / adm_vil, 2),
+        "reducao_media_admissivel_fonte": "Rincon 2025 (Villavicencio): 100 MPa -> 17,80 MPa",
+        "reducao_caracteristico_admissivel": None,
+        "nota_reducao": "caracteristico de Panti e admissivel de Rincon sao de estudos diferentes; a razao entre eles nao tem significado.",
+        "carga_admissivel_colmo_80": carga_por_colmo(adm_vil, AREAS["Guadua"]),
         "carga_media_colmo_80": carga_por_colmo(m, AREAS["Guadua"]),
         "carga_caract_colmo_80": carga_por_colmo(ck, AREAS["Guadua"]),
         "kgf_cm2_por_mpa": KGF_CM2_POR_MPA,

@@ -4,7 +4,7 @@ titulo: "Glossário visual — termos técnicos do artigo em linguagem comum"
 autores: Fabio Takwara (curadoria); Hermes Agent (redação)
 ano: 2026
 estado_documental: em-revisao-documental
-fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 240 artigos), custodiados em _privado/
+fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 254 artigos), custodiados em _privado/
 data_revisao: 2026-11-18
 nota_versao: "Padrão de front matter e de citação de fontes AINDA NÃO DEFINIDO para material de divulgação do MTCC; está sob escrutínio de auditoria externa. Proveniência declarada em texto corrido no corpo do documento. Não tratar este front matter como formato homologado."
 responsavel_curadoria: Fabio Takwara
@@ -106,7 +106,7 @@ O critério: se a pessoa nunca abriu um livro de engenharia, ela precisa entende
 
 **A figura:** a nota de corte de um concurso. A média da turma não decide quem passa — o corte decide. O valor característico é o corte: ele ignora os melhores resultados e se protege contra os piores.
 
-**A escala do corpus:** Guadua em Villavicencio — média 57,5 MPa, característico 37,0 MPa. O corte é 36% menor que a média.
+**A escala do corpus:** Guadua das Filipinas — média 57,5 MPa, característico 37,0 MPa (Panti 2024). O corte é 36% menor que a média. Em Villavicencio, o admissível de 17,8 MPa sai de uma média de 100 MPa (Rincon 2025).
 
 ---
 
@@ -116,7 +116,7 @@ O critério: se a pessoa nunca abriu um livro de engenharia, ela precisa entende
 
 **A figura:** o peso máximo de um elevador. O cabo pode aguentar 10 toneladas, mas o elevador é homologado para 1. A diferença é a margem para o cabo envelhecer, para o uso ser irregular e para o imprevisto acontecer.
 
-**A escala do corpus:** característico 37,0 MPa → admissível 17,8 MPa pela norma colombiana. Do valor de laboratório ao de projeto: 3,2 vezes menos.
+**A escala do corpus:** em Villavicencio, média de 100 MPa → admissível de 17,8 MPa pela norma colombiana: **5,6 vezes menos**. Nas Filipinas, característico de 37,0 MPa sobre média de 57,5: 1,55 vez.
 
 **A figura complementar:** é a diferença entre "quanto o cabo aguenta antes de arrebentar" e "quanto o elevador pode levar".
 

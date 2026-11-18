@@ -48,7 +48,7 @@ Ruptura por fenda como padrão (49 de 195 registros), face externa tracionada va
 ### A4. Viga laminada colada: a receita que funciona
 **Formato:** artigo técnico + carrossel
 
-Kumar 2025 (ABS 12, 100183): colmo de 40–50 mm, parede de 5–7 mm, 3 m de altura, 3–4 anos, imersão salina de 7 dias, fenol-formaldeído a 2 MPa. Momentos de 125 e 174 kNm; aderência de 15,45 MPa.
+Kumar 2025 (ABS 12, 100183): colmo de 40–50 mm, parede de 5–7 mm, 3 m de altura, 3–4 anos, imersão salina de 7 dias, fenol-formaldeído a 2 MPa. Flexão de 146,78 MPa; aderência de 15,45 MPa. **Ressalva:** o momento que o artigo reporta (125,37 e 174,38 kN·m) é incompatível com a seção ensaiada — exigiria 1,34 GPa contra os 130,66 MPa que o próprio artigo mede para a seção maior. Usar a tensão, não o momento.
 
 **Por que funciona:** é receita, não conceito. Fotografável.
 

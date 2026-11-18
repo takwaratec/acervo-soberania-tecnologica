@@ -56,7 +56,7 @@ Bambu tem a primeira. Tem parte da segunda. A terceira está vazia.
 
 **Viga:** Moso × Guadua em vão de 2,6 m, com flecha medida.
 
-**Viga laminada:** *Bambusa spinosa*, 125 a 174 kNm de momento.
+**Viga laminada:** *Bambusa spinosa*, 146,78 MPa de flexão (o momento que o artigo reporta é incompatível com a seção — ver ressalva).
 
 Isso é sério e bem feito.
 
@@ -64,7 +64,7 @@ Isso é sério e bem feito.
 
 ## Slide 5 — O que não existe
 
-**Ligação: 1 artigo em 240.**
+**Ligação: 1 artigo em 254.**
 
 **Treliça: nenhuma.**
 

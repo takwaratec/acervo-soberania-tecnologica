@@ -4,7 +4,7 @@ titulo: "Carrossel 1 — Quanto aguenta um bambu (12 slides)"
 autores: Fabio Takwara (curadoria); Hermes Agent (redação)
 ano: 2026
 estado_documental: em-revisao-documental
-fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 240 artigos), custodiados em _privado/
+fonte_primaria: corpus de 12 PDFs integrais + coleção Advances in Bamboo Science (16 volumes, 254 artigos), custodiados em _privado/
 data_revisao: 2026-11-18
 nota_versao: "Padrão de front matter e de citação de fontes AINDA NÃO DEFINIDO para material de divulgação do MTCC; está sob escrutínio de auditoria externa. Proveniência declarada em texto corrido no corpo do documento. Não tratar este front matter como formato homologado."
 responsavel_curadoria: Fabio Takwara
@@ -110,21 +110,22 @@ Quem dimensiona viga olha **flecha**. Quem dimensiona pilar olha **flambagem**. 
 
 ## Slide 9 — O segundo erro: usar a média
 
-**Guadua em Villavicencio:**
+**Guadua em Villavicencio (Colômbia):**
 
-Média: **57,5 MPa**
-Característico: **37,0 MPa**
+Média: **100 MPa**
 Admissível (NSR-10): **17,8 MPa**
 
-Do laboratório à obra: **3,2 vezes menos**.
+Do laboratório à obra: **5,6 vezes menos**.
+
+*(No ensaio das Filipinas, o mesmo tipo de redução vai de 57,5 MPa de média a 37,0 MPa característico — 1,55 vez, antes do fator de segurança.)*
 
 ---
 
 ## Slide 10 — O que isso significa
 
-**Projetar com a média é projetar 3 vezes mais carregado do que a norma permite.**
+**Projetar com a média é projetar várias vezes mais carregado do que a norma permite.**
 
-Em toneladas, num colmo de 80 mm:
+No ensaio das Filipinas, num colmo de 80 mm:
 
 Média: 10,1 tf
 Característico: 6,5 tf
