@@ -180,3 +180,19 @@ A coleção tem 3 artigos de artesanato/cultura, todos fora do Brasil (Gana, Ín
 **"Bambu é mais resistente que aço e concreto."** Aparece em material de divulgação, e os artigos do corpus não sustentam — Scharfenberg afirma algo próximo na introdução, mas o dado do próprio artigo é de lâmina de 1 cm, não de estrutura. Produzir isso queimaria a credibilidade da frente inteira no primeiro comentário de um engenheiro.
 
 **"10 espécies brasileiras que você não conhece."** A coleção sustenta 4 nativas com dado químico e 1 com dado mecânico. Um post de 10 seria invenção.
+## Bloco E — fechamento de lacuna de nomenclatura (2026-11-18)
+
+Cinco pautas derivadas da varredura de exotismo/naturalização nos 254 PDFs. Todas em **A (prontas)** — números já
+verificados e fonte com página.
+
+| Pauta | Entrega | Esforço | Alcance |
+|---|---|---|---|
+| `capitulo-bambu-exotico-naturalizado-invasor.md` | capítulo de 124 linhas, 6 seções | feito | alto — fecha lacuna apontada pelo soberano |
+| `carrossel-4-exotico-naturalizado-invasor.md` | 12 slides | feito | alto — pauta social, não só técnica |
+| `prompts-imagem-carrossel-4-e-capitulo-exotico.md` | 12 prompts + 6 do capítulo | feito | — |
+| Alerta de cooperativa de manejo | inserido em artigo + 3 carrosséis | feito | alto — chamada prática |
+| Mapa Bambusa × Phyllostachys no Brasil | exige fonte fora do corpus (herbário, IBGE, literatura nacional) | alto | médio — hoje **não** dá para produzir só com a coleção |
+
+**O que NÃO recomendo produzir:** qualquer afirmação de área ocupada por bambu exótico no Brasil. A coleção não tem
+censo nacional, e estimar a partir da proporção de artigos seria inventar denominador. Quando houver fonte de
+herbário ou levantamento nacional, a pauta entra.

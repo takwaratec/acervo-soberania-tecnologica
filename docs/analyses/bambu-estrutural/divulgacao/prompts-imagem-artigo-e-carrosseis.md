@@ -144,7 +144,7 @@ Slide vertical 4:5, tipografia dominante. Fundo creme escuro. Texto central em c
 
 ## S9 · Usar a média
 ```
-Slide vertical 4:5, três barras horizontais empilhadas, decrescentes: 57,5 / 37,0 / 17,8 MPa, cada uma com o rótulo ao lado. A terceira barra marcada com uma linha tracejada "limite da norma". Fundo branco, barras em bege-bambu com a última em vermelho suave.
+Slide vertical 4:5, DOIS blocos separados por espaço vazio, cada um com sua própria barra — não uma sequência única. Bloco superior: uma barra só, rótulo "Filipinas: média 100 MPa → admissível 17,8 MPa". Bloco inferior: duas barras curtas e próximas, rótulos "média 57,5" e "característico 37,0". O espaço entre os blocos é a informação: são estudos diferentes e as barras não se comparam. Fundo branco, bege-bambu, a barra do admissível em vermelho suave.
 ```
 
 ## S10 · O que isso significa

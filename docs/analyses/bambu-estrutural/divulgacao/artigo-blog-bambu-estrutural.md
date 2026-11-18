@@ -119,7 +119,7 @@ Quatro conclusões práticas, tiradas diretamente dos artigos:
 
 **1. Escolha por rigidez, não por resistência.** Para vencer vão, a flecha governa. Guadua deflete vão/45; Moso, vão/15. A resistência maior do Moso não compensa a flecha.
 
-**2. Nunca dimensione com a média.** Em Villavicencio (Colômbia), a Guadua tem média de 100 MPa em compressão paralela, valor característico próximo de 58 MPa e esforço admissível de **17,8 MPa** na porção basal (Rincon & Choque 2025). A redução da média ao admissível é de **5,6 vezes**. No ensaio das Filipinas, o mesmo tipo de cascata vai de 57,5 MPa de média a 37,0 MPa característico (Panti et al. 2024) — redução de 1,55 vezes, antes do fator de segurança. Projetar com a média é projetar uma estrutura várias vezes mais carregada do que a norma permite.
+**2. Nunca dimensione com a média.** Em Villavicencio (Colômbia), a Guadua tem média de 100 MPa em compressão paralela, valor característico próximo de 58 MPa e esforço admissível de **17,8 MPa** na porção basal (Rincon & Choque 2025). A redução da média ao admissível é de **5,6 vezes**. No ensaio das Filipinas, o mesmo tipo de cascata vai de 57,5 MPa de média a 37,0 MPa característico (Panti et al. 2024) — redução de 1,56 vezes, antes do fator de segurança. Projetar com a média é projetar uma estrutura várias vezes mais carregada do que a norma permite.
 
 **3. Trate a ligação como o elemento mais crítico, porque ela é.** Peça ao fornecedor ensaios de ligação, não só de colmo. Se ele não tiver, o dimensionamento da treliça será especulação.
 
@@ -134,3 +134,5 @@ Falta medir a ligação e o nó — não o colmo. Todo o resto da pesquisa de ba
 ---
 
 *Este artigo é parte da frente MTCC-Bambu-Science, conduzida sobre a coleção Advances in Bamboo Science (16 volumes, 254 artigos) custodiada no Acervo Soberania Tecnológica. Todos os números citados vêm dos artigos originais, com volume, página e DOI registrados na matriz comparativa. Nada aqui é homologação de produto nem recomendação de uso estrutural sem projeto de engenheiro responsável.*
+
+> **Alerta — bambuzal abandonado.** Se você conhece um bambuzal que ninguém cuida e está se alastrando, o caminho não é queimar nem aplicar herbicida em área grande (o rizoma sobrevive e rebrota): é cortar rente todo ano e dar uso ao colmo. Bambu tem mais de três mil usos catalogados, e uma espécie naturalizada serve a algum deles. Cooperativa de manejo de exótica invasora junta controle, renda e rastreabilidade.

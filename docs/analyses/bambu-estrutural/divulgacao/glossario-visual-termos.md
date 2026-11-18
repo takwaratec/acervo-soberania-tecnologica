@@ -116,7 +116,7 @@ O critério: se a pessoa nunca abriu um livro de engenharia, ela precisa entende
 
 **A figura:** o peso máximo de um elevador. O cabo pode aguentar 10 toneladas, mas o elevador é homologado para 1. A diferença é a margem para o cabo envelhecer, para o uso ser irregular e para o imprevisto acontecer.
 
-**A escala do corpus:** em Villavicencio, média de 100 MPa → admissível de 17,8 MPa pela norma colombiana: **5,6 vezes menos**. Nas Filipinas, característico de 37,0 MPa sobre média de 57,5: 1,55 vez.
+**A escala do corpus:** em Villavicencio, média de 100 MPa → admissível de 17,8 MPa pela norma colombiana: **5,6 vezes menos**. Nas Filipinas, característico de 37,0 MPa sobre média de 57,5: 1,56 vez.
 
 **A figura complementar:** é a diferença entre "quanto o cabo aguenta antes de arrebentar" e "quanto o elevador pode levar".
 

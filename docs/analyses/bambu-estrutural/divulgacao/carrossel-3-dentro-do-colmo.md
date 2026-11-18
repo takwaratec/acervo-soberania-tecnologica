@@ -155,6 +155,8 @@ Aderência medida: **15,45 MPa**.
 ---
 
 ## Notas de produção
+> **Alerta — bambuzal abandonado.** Se você conhece um bambuzal que ninguém cuida e está se alastrando, o caminho não é queimar nem aplicar herbicida em área grande (o rizoma sobrevive e rebrota): é cortar rente todo ano e dar uso ao colmo. Bambu tem mais de três mil usos catalogados, e uma espécie naturalizada serve a algum deles. Cooperativa de manejo de exótica invasora junta controle, renda e rastreabilidade.
+
 
 - **Slide 5** é o gancho técnico mais forte: um número de 367 MPa impressiona e é verdadeiro.
 - **Slide 7–8** funcionam bem com imagem macro de colmo mostrando a casca x miolo.
