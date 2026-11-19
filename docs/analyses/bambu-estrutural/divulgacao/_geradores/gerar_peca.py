@@ -31,7 +31,7 @@ PAGINAS = [
     ("p-limites", "Limites"),
     ("p-adendo", "Bambu exótico"),
     ("p-artigo", "Artigo didático"),
-    ("p-l21", "L21"),
+    ("p-l21", "Lacuna 21"),
     ("p-estruturas", "Estruturas"),
     ("p-artefatos", "Artefatos"),
     ("p-c5", "Carrossel 1"),
@@ -619,7 +619,7 @@ def pagina_especies():
 
     h.append('<div class="card" style="margin:16px 0">')
     h.append('<div class="tag">Rodríguez-Sotelo 2023 · NTC 5525 + NTP · Ucayali, Peru</div>')
-    h.append("<h4>Três Guaduas amazônicas — a mesma norma, o mesmo laboratório, seis vezes de diferença</h4>")
+    h.append("<h4>Três Guaduas amazônicas — a mesma norma, o mesmo laboratório, e uma dispersão que ninguém esperava</h4>")
     h.append('<div class="tabwrap"><table><thead><tr>'
              "<th>Espécie</th><th>Flexão MoR (média)</th><th>Melhor nível do colmo</th>"
              "<th>MOE em flexão</th><th>Cisalhamento (c/ nó)</th></tr></thead><tbody>")
@@ -647,7 +647,7 @@ def pagina_especies():
         f"<em>G. weberbaueri</em> {g(NUM.RODRIGUEZ['G. weberbaueri']['MoR'])} MPa. "
         f"Razão de {g(NUM.RODRIGUEZ['G. superba']['MoR']/NUM.RODRIGUEZ['G. weberbaueri']['MoR'])}× entre duas "
         "espécies do mesmo gênero, do mesmo país, ensaiadas no mesmo laboratório. "
-        "Compare com a diferença entre continentes (1,15×): a variação interna é seis vezes maior. "
+        "Compare com a diferença entre continentes (1,15×): a variação interna é 3,5 vezes maior. "
         "Escolher 'Guadua' como se fosse uma espécie só é o erro que esse número desfaz.</div>"
     )
     h.append(f"<p><strong>Uso declarado pela fonte:</strong> {DADOS.USO_FONTE['rodriguez']}</p>")

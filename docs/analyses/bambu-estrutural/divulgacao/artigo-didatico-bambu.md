@@ -186,7 +186,7 @@ matéria-prima.
 | Moso MOE 10,45 GPa; Guadua 19,76 GPa (internó); 1,89× | Franck et al., 2026 |
 | *P. aurea*: 84% colmos, 92% área basal, 91% volume, 90% biomassa em 120 dias; não erradicou | Carvalho, Sanquetta & Corte, *Ciência Florestal*, 30(3):907–915, 2020. DOI 10.5902/1980509837089 |
 | *P. aurea* "competindo com plantas nativas"; *B. vulgaris* em áreas abandonadas | Plano de Manejo do Parque Estadual Restinga de Bertioga (SP), p. 29 e 44 |
-| *P. aurea* categoria I (proíbe transporte, cultivo, propagação, comércio) | Portaria IAP nº 59/2015 (PR) — lista vigente |
+| *P. aurea* categoria I (proíbe transporte, cultivo, propagação, comércio, doação e aquisição) | Portaria IAP nº 59/2015 (PR) — lista vigente |
 | *P. aurea* categoria 2 (uso em condições controladas, regulamentado) | Portaria SEMA nº 79/2013 (RS) |
 | L21: campanha NBR 16828-1/2 em nativas amazônicas | `mapa-de-lacunas.md`, eixo bambu-estrutural |
 
