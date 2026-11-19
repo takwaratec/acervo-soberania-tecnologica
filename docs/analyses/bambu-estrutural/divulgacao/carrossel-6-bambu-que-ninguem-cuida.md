@@ -15,7 +15,7 @@ formato: 4:5 · Instagram · 12 slides
 
 **Ele voltou.**
 
-Um parque no Paraná testou tudo. E descobriu o tamanho exato do problema.
+Um parque no Paraná testou cinco formas de conter. E descobriu o tamanho exato do problema.
 
 *Fonte: Carvalho, Sanquetta & Corte, Ciência Florestal, 2020.*
 
@@ -55,17 +55,11 @@ Prazo: 120 dias.
 
 ## Slide 4
 
-**O resultado.**
+**O resultado: 84%.**
 
-Redução média dos colmos: **84%**.
+Redução média do número de colmos, em 120 dias.
 
-Área basal: **92%**.
-
-Volume: **91%**.
-
-Biomassa: **90%**.
-
-Funcionou. Todos funcionaram.
+Área basal caiu 92% — a área basal é a soma da seção de todos os colmos: quanto de "parede de bambu" existe por metro quadrado.
 
 *Fonte: Ciência Florestal, 2020.*
 
@@ -79,7 +73,7 @@ Funcionou. Todos funcionaram.
 
 Citação direta do artigo.
 
-**84% em quatro meses. Os 16% que sobram voltam.**
+**84% em quatro meses. E não acabou.**
 
 *Fonte: Ciência Florestal, 2020, conclusão.*
 
@@ -127,13 +121,13 @@ Bertioga (SP): *"o bambu-vara-de-pescar requer maior cuidado, pois foi mais ampl
 
 **E o mais duro: em um estado é proibido.**
 
-Paraná, categoria I: **proíbe o plantio e o uso**.
+Paraná, **categoria I**: proíbe transporte, cultivo, propagação, comércio, doação e aquisição.
 
-Rio Grande do Sul, categoria 2: **admite uso consagrado**.
+Rio Grande do Sul, **categoria 2**: pode ser usada em condições controladas, sujeita a regulamentação específica.
 
-O mesmo bambu. Regras opostas.
+O mesmo bambu. Regras diferentes.
 
-*Fontes: Portaria IAP nº 125/2009 (PR); Portaria SEMA nº 79/2013 (RS).*
+*Fontes: Portaria IAP nº 59/2015 (PR, que reconhece a lista revisada); Portaria SEMA nº 79/2013 (RS).*
 
 ---
 
@@ -155,15 +149,13 @@ Corte único reduz 84% e rebrota. Você vai cortar de novo.
 
 **A conta que ninguém fez.**
 
-Bambu tem mais de 3 mil usos conhecidos.
-
 Cada corte que vira lixo é uma vez que você vai parar de cortar.
 
 Cada corte que vira produto é uma vez a mais que você volta.
 
 **O manejo tem que fechar a conta.**
 
-*Premissa declarada. Fonte dos usos: cartilha de bioeconomia do Acervo.*
+*Premissa declarada: proposta deste material. A coleção não mediu se a colheita contém a expansão.*
 
 ---
 
@@ -179,7 +171,7 @@ Cada corte que vira produto é uma vez a mais que você volta.
 
 **Não é sobre arrancar. É sobre usar.**
 
-*Fontes na legenda.*
+*Os passos 3 a 5 são proposta deste material, não resultado de estudo. Fontes na legenda.*
 
 ---
 
@@ -206,10 +198,10 @@ tempo ("100 anos") ajuda muito.
 > Esse é o achado central de um estudo de 2020 da UFPR. Testaram cinco tratamentos mecânicos, todos reduziram mais de
 > 84% dos colmos em 120 dias — e nenhum erradicou a espécie.
 >
-> A razão é o rizoma: cortar o colmo é cortar a folha. A raiz continua embaixo da terra, e num fragmento de Curitiba
-> os pesquisadores observaram rizomas esperando clareira por mais de um século.
+> A razão é o rizoma: cortar o colmo é cortar a folha. O rizoma continua embaixo da terra — e num fragmento de
+> Curitiba os pesquisadores observaram rizomas esperando clareira por mais de um século.
 >
-> O que isso muda? Que controle de bambu não é uma intervenção. É rotina. E se cada corte vira produto, a rotina se
-> paga.
+> O que isso muda? Que controle de bambu não é uma intervenção, é rotina. E se cada corte vira produto, a rotina se
+> paga — essa última parte é a minha leitura econômica, não medição do estudo.
 >
 > #bambu #especiesinvasoras #meioambiente #recuperacaoflorestal #bioeconomia

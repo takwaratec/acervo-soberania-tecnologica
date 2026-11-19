@@ -92,8 +92,11 @@ O que a auditoria interna encontrou, e o que isso diz sobre o material:
   do ordenamento brasileiro.
 - **Rodada 6:** bug real no script (`allen` em vez de `alien`); devolutiva sobre afirmação do interlocutor em vez de
   registro do que a fonte diz.
+- **Rodada 7:** 9 furos no material novo — valor de região do colmo trocado (13,77 é média, não base); portaria
+  paranaense citada na versão revogada; termos técnicos sem explicação; proposta apresentada como conclusão da
+  literatura; slide com quatro indicadores.
 
-**Pergunta que este histórico convida:** o material corrigiu o suficiente, ou ainda carrega padrão de erro? A sexta
+**Pergunta que este histórico convida:** o material corrigiu o suficiente, ou ainda carrega padrão de erro? A sétima
 rodada encontrou um erro de digitação que alterava a medição — se ainda houver, procure por esse tipo: constante
 escrita à mão, número que não vem do script, razão entre estudos diferentes.
 

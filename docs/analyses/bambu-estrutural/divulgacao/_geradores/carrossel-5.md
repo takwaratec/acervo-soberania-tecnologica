@@ -25,7 +25,7 @@ São dois tipos. E a diferença começa no chão.
 
 **Tipo 1: o bambu que fica.**
 
-Raiz curta e grossa. Os colmos saem grudados, formando uma moita.
+Rizoma curto e grosso. Os colmos saem grudados, formando uma moita.
 
 Ele fica onde você planta. Ano após ano, no mesmo lugar.
 
@@ -39,11 +39,13 @@ Ele fica onde você planta. Ano após ano, no mesmo lugar.
 
 **Tipo 2: o bambu que sai andando.**
 
-A raiz é um rizoma comprido que corre embaixo da terra. Os colmos nascem a metros de distância.
+O rizoma é comprido e fino, corre embaixo da terra. Os colmos nascem a metros de distância.
 
 Ele não fica onde você planta. Ele escolhe.
 
 É o *Phyllostachys aurea* — bambu-dourado, cana-da-índia, vara-de-pescar.
+
+*Rizoma é caule subterrâneo, não raiz.*
 
 *Fonte: Rios & Farias, Enciclopédia Biosfera, 2021.*
 
@@ -85,13 +87,11 @@ A engenharia mede resistência em megapascal (MPa).
 
 Bambu nos estudos: **55 a 90 MPa**.
 
-Concreto comum: 20 a 40 MPa.
-
-Aço: acima de 400 MPa.
+Concreto comum: 20 a 40 MPa. Aço: acima de 400 MPa.
 
 **Melhor que concreto. Pior que aço.** E essa frase sozinha não constrói nada.
 
-*Fonte: Drury & Padfield, Advances in Bamboo Science, 2023.*
+*Fonte do bambu: Drury & Padfield, 2023. Concreto e aço são referências correntes de engenharia, não medidas neste levantamento.*
 
 ---
 
@@ -159,11 +159,11 @@ Guadua vergou **57,83 mm**.
 
 As duas podem ser fortes. Só uma fica reta.
 
-A Guadua tem módulo de 19,76 GPa contra 10,45 do moso — **1,89 vez mais rígida**.
+Rigidez se mede pelo **módulo de elasticidade**: quanto o material resiste a entortar. Guadua 19,76 GPa, moso 10,45 — **1,89 vez mais rígida**.
 
 É isso que faz ela vergar três vezes menos.
 
-*Fonte: Franck et al., 2026. Módulo de elasticidade (MOE), internó.*
+*Fonte: Franck et al., 2026. Medido no internó (trecho reto entre dois nós) — o local muda o valor, por isso se declara.*
 
 ---
 

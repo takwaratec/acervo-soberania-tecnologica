@@ -1,5 +1,5 @@
 ---
-titulo: "Carrossel 3 — A L21: a lacuna que ninguém explica"
+titulo: "Carrossel 3 — A lacuna 21: o bambu que ninguém sabe quanto aguenta"
 tipo_documental: material-didatico-institucional
 natureza: derivado
 frente: BAMBU-SCIENCE
@@ -7,15 +7,17 @@ data: 2026-11-18
 formato: 4:5 · Instagram · 12 slides
 ---
 
-# Carrossel 3 — A L21
+# Carrossel 3 — A lacuna 21
 
 ## Slide 1
 
-**Existe um bambu brasileiro que nenhum engenheiro sabe quanto aguenta.**
+**Existe um bambu brasileiro que nenhum engenheiro sabe quanto aguenta na norma brasileira.**
 
 Ele está na Amazônia. E já foi ensaiado — só que com a norma de outro país.
 
-*Fonte: mapa de lacunas do eixo bambu-estrutural do Acervo, item L21.*
+**Isso tem nome no Acervo: é a lacuna 21.**
+
+*Fonte: mapa de lacunas do eixo bambu-estrutural do Acervo.*
 
 ---
 
@@ -35,11 +37,11 @@ Cada item tem um número. **L é de lacuna. 21 é a posição na lista.**
 
 ## Slide 3
 
-**O que a L21 diz.**
+**O que a lacuna 21 diz.**
 
-Existe uma lacuna chamada **"caracterização mecânica própria de espécies nativas amazônicas"**.
+O nome dela é **"caracterização mecânica própria de espécies nativas amazônicas"**.
 
-Em português: **não existe medição de resistência das espécies nativas feita com a norma brasileira.**
+Em português: **o Acervo não encontrou campanha de ensaios mecânicos e físicos, na norma brasileira, com as espécies nativas da Amazônia identificadas botanicamente e com procedência declarada.**
 
 *Fonte: mapa de lacunas, L21.*
 
@@ -67,9 +69,9 @@ Se o número não existe, o engenheiro usa o número de outra espécie.
 
 É a norma que define como ensaiar e como dimensionar.
 
-O que a L21 pede é uma **campanha de ensaios** nessa norma, nas espécies nativas.
+O que a lacuna 21 pede é uma **campanha de ensaios** nessa norma, nas espécies nativas.
 
-*Fonte: mapa de lacunas, L21.*
+*Os valores em MPa deste carrossel medem força por área: 1 MPa é cerca de 10 kg em cada centímetro quadrado.*
 
 ---
 
@@ -77,13 +79,17 @@ O que a L21 pede é uma **campanha de ensaios** nessa norma, nas espécies nativ
 
 **O que já existe.**
 
-A *Guadua weberbaueri* já foi ensaiada. Na base do colmo, **13,77 MPa** em flexão.
+Três espécies do mesmo gênero, ensaiadas juntas no Peru:
 
-*Guadua superba*, mesma região: **84,49 MPa**.
+*Guadua superba*: **84,49 MPa** (na base do colmo).
 
-**Seis vezes de diferença dentro do mesmo gênero.**
+*G. weberbaueri*: **13,77 MPa** (média).
 
-*Fonte: Rodríguez-Sotelo et al., 2023, Ucayali, Peru. Flexão estática, MoR, base do colmo.*
+*G. lynnclarkiae*: **21,01 MPa** (média).
+
+**Valores de regiões diferentes do colmo não se dividem.** A diferença é real; a razão, não.
+
+*Fonte: Rodríguez-Sotelo et al., 2023, Ucayali, Peru. Flexão estática (MoR = resistência à flexão).*
 
 ---
 
@@ -91,13 +97,13 @@ A *Guadua weberbaueri* já foi ensaiada. Na base do colmo, **13,77 MPa** em flex
 
 **E o que isso revela.**
 
-"Bambu" não é um material. É um gênero com mais de 1.600 espécies.
+"Bambu" não é um material, nem uma espécie. É uma subfamília de gramíneas com **1.662 espécies**.
 
 Usar o número de uma para dimensionar a outra é como usar a resistência do pinho para calcular o ipê.
 
-**A L21 existe porque esse erro é comum.**
+**A lacuna 21 existe porque esse erro é comum.**
 
-*Premissa declarada: analogia ilustrativa deste material.*
+*Fonte do número: Rios & Farias, 2021, p. 1, citando Canavan et al. Premissa declarada: a analogia é ilustrativa.*
 
 ---
 
@@ -123,7 +129,9 @@ Mesmo que a campanha fosse feita amanhã, o resultado seria **caracterização d
 
 Resistência do bambu, não aptidão da peça.
 
-Para ligação, viga e coluna, falta outra coisa: ensaio de **componente**, não de corpo de prova.
+*Corpo de prova é o pedaço padronizado que vai para a máquina de ensaio. Componente é a peça montada — a ligação, a viga, a coluna. São dois ensaios diferentes.*
+
+Para ligação, viga e coluna, falta o segundo: ensaio de **componente**.
 
 *Fonte: mapa de lacunas e aba Estruturas do levantamento.*
 

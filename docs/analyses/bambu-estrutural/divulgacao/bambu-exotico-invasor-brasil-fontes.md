@@ -33,12 +33,16 @@ A diferença de rizoma explica tudo o que vem depois.
 
 ## O que o Paraná decidiu
 
-O Instituto Ambiental do Paraná classificou **Phyllostachys aurea na categoria I da lista estadual de exóticas
-invasoras — a mais restritiva, que proíbe o plantio e o uso da espécie** (Portaria IAP nº 125/2009, conforme
-registrado em Rios & Farias, 2021, p. 3). A lista foi reconhecida pela Portaria IAP nº 59/2015, que mantém a
-categoria I para Floresta Ombrófila Mista, Savana e Estepe.
+O Paraná mantém uma lista estadual de espécies exóticas invasoras, reconhecida pela **Portaria IAP nº 59/2015**, e
+*Phyllostachys aurea* está na **categoria I** para Floresta Ombrófila Mista, Savana e Estepe. Pela definição oficial
+da própria lista, categoria I significa que a espécie **tem proibidos o transporte, a criação, a soltura ou
+translocação, o cultivo, a propagação por qualquer forma de reprodução, o comércio, a doação ou a aquisição
+intencional sob qualquer forma** (Instituto Água e Terra, lista de espécies exóticas invasoras do Paraná).
 
-É o ato mais duro que existe no país contra um bambu: **proibição de plantar e de usar**.
+Rios & Farias (2021, p. 3), escrevendo sob a norma anterior, resumem como "proíbe o plantio e o uso" — a lista
+oficial revisada é mais específica: proíbe o cultivo e a propagação, e não menciona o uso de material já colhido.
+
+É a classificação mais restritiva que um bambu recebe no país.
 
 ## O que aconteceu no Parque Estadual de Vila Velha
 
@@ -114,14 +118,15 @@ O documento trata de exóticas invasoras em geral e **não nomeia o bambu**. Nã
 
 | Norma | O que faz |
 |---|---|
-| Portaria IAP nº 125/2009 (PR) | Lista estadual de exóticas invasoras; *P. aurea* na categoria I (proíbe plantio e uso) |
-| Portaria IAP nº 59/2015 (PR) | Reconhece a lista estadual revisada, mantendo a categoria I |
-| Portaria SEMA nº 79/2013 (RS) | Lista estadual; *P. aurea* na **categoria 2** (valor comercial ou uso consagrado) |
+| Portaria IAP nº 59/2015 (PR) — vigente | Reconhece a lista estadual revisada; *P. aurea* na categoria I (proíbe transporte, cultivo, propagação, comércio, doação, aquisição) |
+| Portaria IAP nº 125/2009 (PR) — revisão anterior | Versão da lista que antecedeu a de 2015; citada por Rios & Farias 2021 |
+| Portaria SEMA nº 79/2013 (RS) | Lista estadual; *P. aurea* na **categoria 2** — uso em condições controladas, sujeito a regulamentação específica |
 | Decreto nº 9.073/2017 | Promulga a Convenção sobre Diversidade Biológica, que trata de exóticas invasoras |
 | Guia de orientação do ICMBio (v4) | Orienta manejo de exóticas invasoras em unidades de conservação federais |
 
-**O ponto que o país ainda não resolveu:** a mesma espécie está na **categoria I no Paraná** (proibida) e na
-**categoria 2 no Rio Grande do Sul** (uso consagrado admitido). Não há classificação nacional uniforme para bambu.
+**O ponto que o país ainda não resolveu:** a mesma espécie é **categoria I no Paraná** (transporte, cultivo e
+comércio proibidos) e **categoria 2 no Rio Grande do Sul** (uso permitido sob condições controladas e regulamentação
+específica). Não há classificação nacional uniforme para bambu.
 
 ## O caminho que os estudos apontam
 
@@ -143,8 +148,9 @@ O que os documentos sustentam, em ordem:
 
 1. **Identifique a espécie.** Colmo saindo a metros da touceira, ligado por rizoma subterrâneo, é leptomorfo —
    provavelmente *Phyllostachys*. Touceira compacta é paquimorfo — provavelmente *Bambusa*. O manejo é diferente.
-2. **Verifique a classificação no seu estado.** No Paraná, *P. aurea* está na categoria I (plantio e uso proibidos).
-   No Rio Grande do Sul, categoria 2 (uso consagrado admitido). O mesmo bambu, regras diferentes.
+2. **Verifique a classificação no seu estado.** No Paraná, *P. aurea* é categoria I: transporte, cultivo, propagação
+   e comércio proibidos. No Rio Grande do Sul, categoria 2: uso em condições controladas, sujeito a regulamentação. O
+   mesmo bambu, regras diferentes.
 3. **Corte não erradica.** Reduz 84% em quatro meses e rebrota. Programe controle continuado, não intervenção única.
 4. **Comece pela borda.** É onde o bambu está de fato avançando sobre a vegetação nativa.
 5. **Dê destino ao colmo cortado.** Colheita regular é o manejo que a literatura registra para bambu, e cada corte é

@@ -1063,6 +1063,10 @@ prova e reportam valores característicos — Oldhamii <strong>50</strong>, Moso
     corpo["p-l21"] = md_para_html(corte(matriz, "## 8. Consequência", "---"))
     corpo["p-l21"] = (
         "<h3>A lacuna permanece aberta — e por um motivo específico</h3>"
+        + '<div class="note"><strong>Antes: o que é "L21"</strong>\n'
+        "O Acervo mantém um mapa de lacunas: a lista do que falta na pesquisa brasileira de bambu, item por item. "
+        "<strong>O L é de lacuna; o 21 é a posição dela nessa lista.</strong> É um endereço, não um código interno. "
+        "A lacuna 21 se chama <em>caracterização mecânica própria de espécies nativas amazônicas</em>.</div>"
         + corpo["p-l21"]
         + """
 <div class="danger"><strong>O que a L21 pede, literalmente</strong>
