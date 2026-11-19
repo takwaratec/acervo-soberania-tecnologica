@@ -160,15 +160,19 @@ O que saiu:
 | Grandeza | Média | Variação (COV) | Valor característico |
 |---|---|---|---|
 | Carga máxima F<sub>max</sub> | 1.428 N | **0,29** | 693 N |
-| Momento máximo M<sub>max</sub> | 807 N·m | 0,28 | 393 N·m |
-| Carga de escoamento F<sub>y</sub> | 831 N | **0,48** | — |
-| Momento de escoamento M<sub>y</sub> | 469 N·m | **0,47** | 115 N·m |
+| Momento máximo M<sub>max</sub> | 807 N·m | 0,28 | **393 N·m** |
+| Carga de escoamento F<sub>y</sub> | 831 N | **0,48** | 115 N |
+| Momento de escoamento M<sub>y</sub> | 469 N·m | **0,47** | **65 N·m** |
 | Rigidez elástica K<sub>e</sub> | 99 N/mm | **0,46** | — |
 | Rigidez rotacional K<sub>θ</sub> | 31.390 N·m/rad | 0,41 | 29.050 (normal) / 26.740 (lognormal) |
 | Tensão aparente na fibra extrema | — | 0,27 | — |
 
+Confira a coerência da tabela com a conta que a norma manda fazer: valor característico = média × (1 − 1,834 ×
+variação). Para o momento máximo, 807 × (1 − 1,834 × 0,28) = **393**. Para o momento de escoamento, 469 × (1 −
+1,834 × 0,47) = **65**. Os dois batem.
+
 Olhe a coluna do meio. A média do momento máximo é 807 N·m. O valor característico é **393 N·m** — menos da metade.
-E o momento de escoamento cai de 469 para **115 N·m**: um quarto.
+E o momento de escoamento cai de 469 para **65 N·m**: um sétimo.
 
 O artigo explica o mecanismo com clareza incomum. Esse 0,27 de variação na compressão do material **desaparece
 diante do 0,47 de variação do escoamento da ligação**. A ligação não herda a qualidade do material: ela multiplica a
