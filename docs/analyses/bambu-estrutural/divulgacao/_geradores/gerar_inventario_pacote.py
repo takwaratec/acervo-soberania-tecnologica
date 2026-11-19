@@ -31,6 +31,7 @@ BASE = "docs/analyses/bambu-estrutural"
 GERADORES = f"{BASE}/divulgacao/_geradores"
 SAIDA = f"{GERADORES}/INVENTARIO_PACOTE_SOL.json"
 EU = f"{GERADORES}/gerar_inventario_pacote.py"
+VERIFICADOR = f"{GERADORES}/verificar_inventario.py"
 
 
 def sh(*cmd: str) -> str:
@@ -45,7 +46,7 @@ def commits_de(path: str, ref: str, removido: bool) -> str:
 
 
 def no_escopo(path: str) -> bool:
-    if path in (EU, SAIDA):
+    if path in (EU, VERIFICADOR, SAIDA):
         return False
     if path.startswith(GERADORES + "/"):
         return True
@@ -131,6 +132,7 @@ def main() -> int:
         "exclusao_declarada": [
             f"{EU} — o hash do gerador nao existe antes de ele ser gravado",
             f"{SAIDA} — um inventario nao pode conter o proprio hash; os demais itens sao verificaveis",
+            f"{VERIFICADOR} — ferramenta que confere o inventario nao pode ser certificada por ele",
         ],
         "commit": commit,
         "arvore": arvore,
