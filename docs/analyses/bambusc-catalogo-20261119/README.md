@@ -29,7 +29,8 @@ arquivos foram encontrados. A fonte citável é a obra assinada.
 
 - **67 obras** listadas em `/recomendacoes/`, em 7 seções.
 - **41 endpoints** de arquivo medidos: **20 íntegros**, **21 mortos**, 4 links locais
-  inválidos (`file:///C:/Users/arqui/...`) — nenhum link morto foi promovido a inexistente.
+  inválidos — o site publica caminhos locais de máquina, do tipo `file:///C:/Users/arqui/...`,
+  transcrito aqui como achado e **não** como caminho desta máquina — nenhum link morto foi promovido a inexistente.
 - **52 links mortos varridos** depois: **10 recuperados** (8 pela migração da revista MIX
   Sustentável de `nexos.ufsc.br` para `ojs.sites.ufsc.br`, 2 que só falhavam por acento
   não codificado na URL).

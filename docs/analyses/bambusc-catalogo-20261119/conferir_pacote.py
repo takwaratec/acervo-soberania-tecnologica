@@ -99,10 +99,36 @@ def main():
         if "bytes" in it and len(dados) != it["bytes"]:
             problemas.append(f"TAMANHO {cam}: manifesto {it['bytes']} B, disco {len(dados)} B")
 
+    # orfao: arquivo no diretorio que o manifesto NAO declara. Gate de completude que
+    # enumera so a lista que o autor escreveu aprova o proprio esquecimento — o orfao
+    # nao entra no denominador e o placar sai cheio com o buraco intacto.
+    declarados = {it["path"] for it in inv}
+    dir_rel = os.path.dirname(REL)
+    ignorar = set((man.get("exclusao_declarada") or {}).keys())
+    orfaos = []
+    if os.path.isdir(os.path.join(a.repo, dir_rel)):
+        for raiz, _, arqs in os.walk(os.path.join(a.repo, dir_rel)):
+            for arq in arqs:
+                if arq.startswith("."):
+                    continue
+                caminho = os.path.relpath(os.path.join(raiz, arq), a.repo).replace(os.sep, "/")
+                if caminho in declarados:
+                    continue
+                if os.path.basename(caminho) in ignorar:
+                    continue
+                orfaos.append(caminho)
+    for o in sorted(orfaos):
+        problemas.append(f"ORFAO {o}: existe no diretorio e nao esta no manifesto")
+
     print(f"manifesto: {REL}")
-    print(f"origem da leitura: {origem}")
-    print(f"commit declarado: {man.get('commit_na_geracao')}")
-    print(f"entradas: {len(inv)}  conferidas: {len(inv) - len([p for p in problemas if p.startswith(('AUSENTE','DIVERGE','VAZIO'))])}")
+    print(f"MEDIDO em: {origem}   <-- os sha256 abaixo foram lidos daqui")
+    print(f"DECLARADO no manifesto: {man.get('commit_na_geracao')}   <-- rotulo escrito pelo gerador, "
+          f"nao commit em que se mediu")
+    if a.commit and a.commit != man.get("commit_na_geracao"):
+        print(f"ATENCAO: o commit medido ({a.commit[:12]}) difere do declarado no manifesto "
+              f"({str(man.get('commit_na_geracao'))[:12]}) — os dois numeros descrevem coisas diferentes")
+    print(f"inventario: {len(inv)} entradas   conferidas: "
+          f"{len([i for i in inv if not any(i['path'] in p for p in problemas)])}   orfaos: {len(orfaos)}")
     for p in problemas:
         print(f"  PROBLEMA {p}")
     return 0 if not problemas else 1

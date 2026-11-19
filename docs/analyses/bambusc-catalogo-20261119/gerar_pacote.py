@@ -41,12 +41,14 @@ def rev(spec):
 
 
 itens = []
-for nome in sorted(os.listdir(DIR)):
-    p = os.path.join(DIR, nome)
-    if not os.path.isfile(p) or nome in EXCLUIDOS:
-        continue
-    itens.append({"path": f"docs/analyses/bambusc-catalogo-20261119/{nome}",
-                  "sha256": sha(p), "bytes": os.path.getsize(p)})
+for raiz, _, arqs in os.walk(DIR):
+    for nome in sorted(arqs):
+        p = os.path.join(raiz, nome)
+        rel = os.path.relpath(p, ACERVO).replace(os.sep, "/")
+        if nome in EXCLUIDOS or nome.startswith("."):
+            continue
+        itens.append({"path": rel, "sha256": sha(p), "bytes": os.path.getsize(p)})
+itens.sort(key=lambda i: i["path"])
 
 man = {
     "schema": "TAKWARATEC/PACOTE_DE_AUDITORIA/1",

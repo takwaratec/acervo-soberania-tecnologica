@@ -4,8 +4,8 @@
  "task": "BAMBU-BAMBUSC-CATALOGO-20261119-R1",
  "repo": "takwaratec/acervo-soberania-tecnologica",
  "branch": "bambusc/catalogo-20261119-r1",
- "commit_na_geracao": "45aaa1205ba4292f458459888956fa9cb9c2783c",
- "arvore_na_geracao": "4cc6f2391e8ab719223bd23b92cfe39077bba3e7",
+ "commit_na_geracao": "57356d87307b2fe9f728ea56bf4a450d33b43264",
+ "arvore_na_geracao": "c768b0af13e39c3e631d57c1245c5ce66259babd",
  "gerado_em": "2026-11-19",
  "exclusao_declarada": {
   "PACOTE_AUDITORIA.json": "declara o sha256 dos outros arquivos; o proprio sha nao existe antes de gravar (impossibilidade de construcao)",
@@ -16,8 +16,8 @@
  "inventario": [
   {
    "path": "docs/analyses/bambusc-catalogo-20261119/00_COMO_AUDITAR.md",
-   "sha256": "ec3ead0d8e3e74db328961c8c151edba58c0cec0201a8bc767a5a54c766457ea",
-   "bytes": 4847
+   "sha256": "c0a9dd9464a4e9e833c020c830f8df9e6dfb11d0b56b2c67e81270fa78e8f217",
+   "bytes": 6108
   },
   {
    "path": "docs/analyses/bambusc-catalogo-20261119/01_IDENTIDADE_E_CONTRATO.md",
@@ -56,13 +56,28 @@
   },
   {
    "path": "docs/analyses/bambusc-catalogo-20261119/README.md",
-   "sha256": "741cb0f8dd71d959c83062263662ca76188d1ad7f256bad4dfd7191c67e4236a",
-   "bytes": 6927
+   "sha256": "a0c479e5906805123ae3f80c39bb6d4ef033da87bf0dd2e24a7265bc16e3ca50",
+   "bytes": 7051
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/RESULTADO_BAMBU-BAMBUSC-CATALOGO-20261119-R1.json",
+   "sha256": "f054bdd56ccc5d6236d2ae2dd9af911e65f8384f80d58db19fd8294a6753ec80",
+   "bytes": 5003
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/arquivos-prova/CITACOES_DE_PROVA.json",
+   "sha256": "165d44d5fe704c90ac0b5baca56644d4a23578e27dd4a9af607fb6378385a51e",
+   "bytes": 20633
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/arquivos-prova/CITACOES_DE_PROVA.md",
+   "sha256": "11b7eceab0457e98d941b8a9e15da3158671f02355de75ed2a4f63696042533f",
+   "bytes": 8636
   },
   {
    "path": "docs/analyses/bambusc-catalogo-20261119/conferir_pacote.py",
-   "sha256": "7e3987dc57f8c84c5f9de6d5d74028c1f99b96a01016e8662435d44dd728bd8b",
-   "bytes": 4079
+   "sha256": "d120194727cdecd29832a827f255b8e5055fdb2e214f0bb258995a101eb8531c",
+   "bytes": 5524
   }
  ]
 }

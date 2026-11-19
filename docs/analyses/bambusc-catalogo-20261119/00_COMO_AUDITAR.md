@@ -41,7 +41,24 @@ Clone **completo**, não `--depth 1`: o verificador lê do commit que o manifest
 **A peça central é `arquivos-prova/`.** Cada número publicado no README tem ali o trecho
 literal da fonte e a página. Você confere o número contra a citação (exata) e a citação
 contra a obra (pela DOI, que é pública). **Nada neste pacote pede confiança na palavra do
-executor.**
+executor — com as duas exceções declaradas abaixo.**
+
+### Exceções ao round-trip "citação → obra pela DOI" (2 de 11)
+
+O round-trip fecha em **9 das 11** obras. Nas duas abaixo ele não fecha do seu lado, e o
+motivo é da fonte ou do índice, não do pacote:
+
+| obra | registro | por que não fecha | o que você confere |
+|---|---|---|---|
+| Jaramillo et al. 2020 (pérgola de bicicletário UFSC) | DOI 10.24133/ciencia.v22i1.1271 | a DOI resolve para **página de login** da Revista CIENCIA, não para o PDF | a citação **contra a citação** e o **metadado** (ISSN 1390-1117, v. 22, n. 1) — não contra o texto integral |
+| Reis & Clerici 2019 (broto comestível) | **ISBN 978-65-900237-0-4** (livro, sem DOI) | livro não tem DOI; ISBN não abre texto | a citação contra a citação e o **metadado** (ISBN, editora, ano) — não contra o texto integral |
+
+Atenuantes que não compensam a exceção, mas devem ser ditos: a Jaramillo é a **única das 11
+com licença declarada (CC BY)**, e nenhuma citação de **número** vem da Reis & Clerici — o
+uso dela é de contexto.
+
+Consequência: para essas duas, `round_trip_doi = NAO_FECHA` em `CITACOES_DE_PROVA.json`, e a
+frase "nada pede confiança na minha palavra" vale **com essa exceção ao lado**.
 
 ## 3. O que você NÃO consegue conferir, e por quê
 
