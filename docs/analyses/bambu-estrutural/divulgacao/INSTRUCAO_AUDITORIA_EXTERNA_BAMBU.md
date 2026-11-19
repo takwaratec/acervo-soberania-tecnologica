@@ -135,7 +135,7 @@ texto**? A rodada 3 reprovou por isso.
 **cada referência completa** do material contra o registro público (DOI resolve, autor confere).
 
 3.2. Lei e norma estão caracterizadas corretamente? O material afirma que o Paraná proíbe plantio e uso (categoria I)
-e que o RS admite uso consagrado (categoria 2). Verifique nas portarias citadas.
+e que no RS a categoria 2 permite uso em condições controladas, sujeito a regulamentação específica. Verifique nas portarias citadas.
 
 3.3. O material alega efeito jurídico no Brasil sem ter pesquisado o ordenamento? A rodada 5 reprovou exatamente isso.
 
