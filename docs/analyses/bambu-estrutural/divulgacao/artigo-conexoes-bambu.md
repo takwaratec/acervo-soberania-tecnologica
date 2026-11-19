@@ -20,7 +20,7 @@ suporta, por que a média engana. Aquele texto era sobre o material.
 
 Este é sobre **o encontro**. O momento em que dois bambus precisam virar uma estrutura. E ali a conversa muda de
 assunto, porque o bambu tem uma vantagem e uma desvantagem que são a mesma coisa: ele é um tubo de fibra longa. A fibra
-corre de ponta a ponta. No sentido da fibra ele é excelente; atravessado, é uma matriz que não segura quase nada.
+corre de ponta a ponta. No sentido da fibra ele é excelente; atravessado, é um feixe de canais que não segura quase nada.
 
 Muitas conexões obrigam a força a sair do sentido da fibra — e é aí que começa o problema. A exceção é a conexão que
 trabalha por compressão ao longo da fibra, apoiando a ponta de um colmo na outra: essa não fura nem atravessa nada.
@@ -28,6 +28,12 @@ trabalha por compressão ao longo da fibra, apoiando a ponta de um colmo na outr
 O que este texto faz: mostra o que já foi medido sobre conexões de bambu, com números, e onde a medição ainda não
 chegou. Não é revisão científica nem manual de projeto — é leitura para quem quer entender por que a conexão é o
 ponto difícil, e o que se sabe de fato a respeito.
+
+Uma ressalva de abrangência, e ela vale: isto **não é uma varredura sistemática da literatura**. Os estudos aqui
+citados foram encontrados por leitura dirigida e por referências que se repetem entre artigos — não por busca formal
+em base indexada, com critérios, datas e filtros declarados. Existe literatura sobre conexões de bambu que este texto
+não leu, em chinês e em espanhol, em periódicos que não apareceram. O que está escrito aqui se sustenta pelo que foi
+lido; o que não foi lido não está coberto.
 
 ---
 
@@ -106,7 +112,7 @@ Com isso, o texto pode usar os termos sem parar para explicá-los.
 Quando você fura um bambu para passar um parafuso, está cortando fibra longa. A fibra resiste muito no comprimento;
 no furo, ela se rompe antes do que se esperaria, porque não há fibra atravessada costurando o material de volta.
 
-Um dos artigos da coleção enumera por que a ligação é o ponto fraco. Vale ler devagar, porque cada item é uma
+Barrile e Genovese (2024) enumeram por que a ligação é o ponto fraco. Vale ler devagar, porque cada item é uma
 consequência de geometria, não de má qualidade:
 
 - **Os dois bambus não são iguais.** Diâmetro, espessura de parede e seção variam de colmo para colmo. Você está
@@ -597,23 +603,24 @@ característico continua inutilizável; e uma amostra estatisticamente suficient
 normativa onde a norma exige outra coisa. O que o leitor precisa saber é que **os dois números existem e medem coisas diferentes** — mas quem citar um sem o
 outro vai confundir requisito com estatística.
 
-O **não obtido** desta frente continua valendo, mas agora com o contorno certo.
+**Um artigo ficou de fora, e vale dizer qual.**
 
-O artigo é: **Rivera-Segura, R.; Moya, R.; Gaitán-Álvarez, J.; Granados-Gamboa, M. (2024).** *Analysis of the
+O estudo é: **Rivera-Segura, R.; Moya, R.; Gaitán-Álvarez, J.; Granados-Gamboa, M. (2024).** *Analysis of the
 physical-mechanical properties of Dendrocalamus asper (Schult.) versus two Guadua angustifolia (Kunth) varieties,
 South and Caribe in the Atlantic Region of Costa Rica.* Advances in Bamboo Science **6**, 100057. DOI
 10.1016/j.bamboo.2024.100057.
 
-Os metadados foram confirmados em registro público (fev. 2024) e o resumo foi lido. **O texto completo não foi
-obtido** — o ScienceDirect bloqueou o acesso nesta máquina e no celular.
+Consegui confirmar seus dados de publicação e ler o resumo. **O texto completo não foi obtido** — a editora bloqueou
+o acesso.
 
 E aqui está o ponto que importa para este artigo: **pelo resumo, ele não trata de conexões.** Ele compara
 propriedades físico-mecânicas do colmo — umidade, densidade, flexão, tração, diâmetro, espessura de parede — em três
 materiais plantados no mesmo sítio, na Costa Rica. Uma das conclusões é que as duas variedades de *G. angustifolia*
 quase não diferem entre si.
 
-Ou seja: essa lacuna **não é deste artigo**. Ela pesa na matriz comparativa de propriedades do colmo, que é o
-primeiro texto. Aqui fica registrada como limitação declarada, e não como dado faltante de ligação.
+E há um alívio parcial: **pelo resumo, esse artigo não trata de conexões.** Ele compara propriedades do colmo em três
+materiais plantados no mesmo sítio, na Costa Rica. Então a lacuna não é de ligação — é de propriedade do material, e
+fica registrada aqui como limitação, sem fingir que foi lida.
 
 ---
 
@@ -635,15 +642,14 @@ aberto. Elas valem para qualquer sistema novo que chegue com a mesma pretensão,
 o artigo de referência tem 20 ligações físicas gerando 40 curvas.
 - **Qual o modo de ruptura?** Flexível não significa seguro. O ensaio do Harries parou no limite de flecha e não viu
   ruptura; é a lacuna que qualquer sistema novo teria de preencher com observação do seu próprio modo de falha.
-- **E o cisalhamento no nó?** A L14 continua aberta: a lacuna declarada pela literatura é preenchimento sustentável
+- **E o cisalhamento no nó?** A lacuna segue aberta: o que falta, segundo a literatura, é preenchimento sustentável
   **não friável**. Um sistema flexível que se apresente como preenchimento é julgado exatamente aí.
-- **E a durabilidade?** Persiste para todos: quanto uma ligação perde em dez anos, em ambiente úmido. O boletim já
-  declara a blindagem com ácido pirolenhoso como hipótese, e a
-  Silva (2011) — não a circular da Embrapa, que é
-  orientação técnica, não ensaio — registra o resultado inconclusivo.
+- **E a durabilidade?** Persiste para todos: quanto uma ligação perde em dez anos, em ambiente úmido. Uma proteção
+  com ácido pirolenhoso é proposta como hipótese, e Silva (2011) registra resultado inconclusivo sobre ela — ensaio,
+  não recomendação de fabricante.
 
 Nenhuma dessas perguntas é objeção. São a régua que este artigo construiu, aplicada a qualquer sistema novo — e é
-exatamente o padrão que o próprio boletim declara: especificação autoral com desempenho **a verificar**.
+exatamente o padrão que essa linha de pesquisa declara: proposta com desempenho **a verificar**.
 
 ---
 
@@ -682,17 +688,24 @@ conexões, os cinco indicadores quantitativos e a conclusão de que nenhuma solu
 **Bussinger, M. (2024).** *Sistemas estruturais contemporâneos em bambu* (dissertação, Universidade de São Paulo). —
 16 obras paulistas de 2003 a 2023: conectores em uso, abandono do boca-de-peixe, fissuras e controle de qualidade.
 
-**Adier e colegas (2023).** Revisão sistemática sobre propriedades, tratamento e normatização do bambu. *Buildings*,
-v. 13. — A lacuna do preenchimento sustentável não friável.
+**Adier, D. C. e colegas (2023).** *Properties, Treatment and Standardization of Bamboo: a systematic review.*
+*Buildings*, v. 13, n. 10, 2449. DOI 10.3390/buildings13102449. — A lacuna do preenchimento sustentável não friável.
 
-**Marçal, V. H. S. (2018).** Comparação de normas internacionais para o bambu-colmo (Universidade de Brasília). — A
-leitura de ~30 ensaios na norma equatoriana e a genealogia normativa.
+**Marçal, V. H. S. (2018).** *Comparação de normas internacionais para o bambu-colmo* (dissertação, Universidade de
+Brasília). — A leitura de ~30 ensaios na norma equatoriana e a genealogia normativa (ISO, Colômbia, Peru, Equador,
+Índia).
 
-**Afonso (2025).** Inspeção do Quiosque do Coco, Parque do Tucumã, Rio Branco-AC (trabalho apresentado em congresso).
-— As 55 peças estruturais, 11 anos de construção sem manutenção programada, 2 conexões executadas incorretamente.
+**Afonso (2025).** *Patologias em estrutura de cobertura em bambu: o Quiosque do Coco, Parque do Tucumã, Rio Branco-AC.*
+Trabalho apresentado em congresso de engenharia civil. — As 55 peças estruturais, 11 anos de construção sem
+manutenção programada e 2 conexões executadas incorretamente.
 
-**Silva (2011).** Tratamento pirolenhoso em bambu laminado colado (Unicamp). — O ensaio inconclusivo sobre eficácia
-contra brocas.
+**Silva (2011).** *Tratamento pirolenhoso em bambu laminado colado* (dissertação, Universidade Estadual de Campinas).
+— O ensaio que não demonstrou eficácia contra brocas em condição de campo.
+
+**Normas citadas.** ABNT NBR 16828 — Projeto de estruturas de bambu (2020); ABNT NBR 17043:2023 —
+classificação de varas de bambu; ISO 22156:2021 — *Bamboo structures: structural design*; ISO 22157 — determinação das
+propriedades físicas e mecânicas do colmo; ISO 16670 — ensaio cíclico de ligações com conector mecânico; ISO 12122 —
+determinação de valores característicos.
 
 Um artigo ficou fora, e é bom dizer qual: **Rivera-Segura, Moya, Gaitán-Álvarez e Granados-Gamboa (2024)**, sobre
 propriedades físico-mecânicas de *Dendrocalamus asper* comparado a duas variedades de *Guadua angustifolia* na Costa
