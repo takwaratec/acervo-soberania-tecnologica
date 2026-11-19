@@ -17,8 +17,9 @@ que ninguém cuida.
 
 ## Primeiro: o bambu é oco. E isso muda tudo
 
-O colmo do bambu é um tubo. A parede tem dois ou três centímetros de espessura, na ordem de grandeza dos bambus de
-porte — varia com a espécie e com a idade do colmo. É daí que vem a resistência dele — e também o limite.
+O colmo do bambu é um tubo. Nos bambus de porte que aparecem neste levantamento, a parede tem ordem de grandeza de
+dois a três centímetros — varia com a espécie e com a idade do colmo, e não foi medida aqui. É daí que vem a
+resistência dele — e também o limite.
 
 Uma imagem ajuda. Pegue um canudo de papel e apoie nas duas mãos. Empurre o meio com o dedo: ele verga. Agora pegue
 o mesmo canudo em pé e ponha peso em cima: ele aguenta muito mais. O bambu funciona assim. Deitado, vence pelo
@@ -29,8 +30,9 @@ quadrado. Para ter ideia: 200 MPa é como apoiar 2 toneladas num centímetro qua
 
 O bambu que aparece nos estudos fica entre 55 e 90 MPa de compressão.
 
-Para dar escala, duas referências correntes de engenharia — **não medidas neste levantamento**: concreto comum fica
-entre 20 e 40 MPa; aço estrutural passa de 400 MPa.
+Para dar escala, duas referências correntes de engenharia — **valores de ordem de grandeza, não medidos neste
+levantamento e sem fonte primária citada aqui**: concreto comum fica entre 20 e 40 MPa; aço estrutural passa de
+400 MPa. Quem precisa de número de projeto usa a norma do material, não este texto.
 
 **O bambu é melhor que o concreto e pior que o aço** — e essa frase, sozinha, não serve para construir nada. Porque
 o número depende de qual bambu, de qual parte do colmo, de quanta umidade, e de como a peça é montada.
@@ -135,7 +137,7 @@ cuidado, pois foi mais amplamente disperso e observado em áreas degradadas de c
 plantas nativas**".
 
 E no **Paraná**, o *Phyllostachys aurea* está na **categoria I** da lista estadual de exóticas invasoras — a mais
-restritiva: **proíbe o transporte, o cultivo, a propagação e o comércio da espécie**.
+restritiva: **proíbe o transporte, o cultivo, a propagação, o comércio, a doação e a aquisição da espécie**.
 
 No **Rio Grande do Sul**, a mesma espécie está na **categoria 2**: pode ser usada em condições controladas, sujeita a
 regulamentação específica.
@@ -155,9 +157,9 @@ a colheita contém a expansão, nem em quanto tempo.**
 
 **1. Identifique a espécie.** Colmo nascendo longe da moita é alastrante. Todos juntos é touceira.
 
-**2. Verifique a regra do seu estado.** No Paraná, o bambu-dourado é categoria I: transporte, cultivo, propagação e
-comércio proibidos. No Rio Grande do Sul, categoria 2: uso em condições controladas. O mesmo bambu, regras
-diferentes.
+**2. Verifique a regra do seu estado.** No Paraná, o bambu-dourado é categoria I: transporte, cultivo, propagação,
+comércio, doação e aquisição proibidos. No Rio Grande do Sul, categoria 2: uso permitido em condições controladas,
+sujeito a regulamentação específica. O mesmo bambu, regras diferentes.
 
 **3. Programe controle continuado.** Corte único não resolve. Reduz 84% e volta.
 

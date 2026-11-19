@@ -25,7 +25,7 @@ São dois tipos. E a diferença começa no chão.
 
 **Tipo 1: o bambu que fica.**
 
-Rizoma curto e grosso. Os colmos saem grudados, formando uma moita.
+O rizoma (o caule que corre debaixo da terra) é curto e grosso. Os colmos saem grudados, formando uma moita.
 
 Ele fica onde você planta. Ano após ano, no mesmo lugar.
 

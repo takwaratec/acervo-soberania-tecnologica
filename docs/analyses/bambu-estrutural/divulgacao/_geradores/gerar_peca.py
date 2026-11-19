@@ -399,8 +399,22 @@ def limpar_numeros(h):
     return re.sub(r"<h3>(\d+(?:\.\d+)*)\.?\s+", "<h3>", h)
 
 
+# Fontes canônicas fora de _geradores/. Cópia local envelhece calada: a matriz já foi
+# corrigida na fonte e o gerador continuou lendo a versão antiga.
+FONTES = {
+    "matriz.md": os.path.join(W, "..", "..", "matriz-comparativa-mecanica-asia-america-sul.md"),
+    "ficha.md": os.path.join(W, "..", "..", "scharfenberg-2024-flexao-tres-especies-brasil.md"),
+    "adendo.md": os.path.join(W, "..", "bambu-exotico-invasor-brasil-fontes.md"),
+    "artigo.md": os.path.join(W, "..", "artigo-didatico-bambu.md"),
+    "carrossel-5.md": os.path.join(W, "..", "carrossel-5-seu-bambu-aguenta.md"),
+    "carrossel-6.md": os.path.join(W, "..", "carrossel-6-bambu-que-ninguem-cuida.md"),
+    "carrossel-7.md": os.path.join(W, "..", "carrossel-7-lacuna-l21.md"),
+}
+
+
 def ler(nome):
-    with open(os.path.join(W, nome), encoding="utf-8") as f:
+    alvo = FONTES.get(nome, os.path.join(W, nome))
+    with open(alvo, encoding="utf-8") as f:
         return f.read()
 
 
@@ -932,7 +946,7 @@ apareceu num lugar que não era o esperado, <em>dentro</em> do gênero <em>Guadu
 <div class="kpis">
   <div class="kpi"><div class="n">12</div><div class="l">PDFs lidos integralmente</div></div>
   <div class="kpi"><div class="n">4</div><div class="l">comparativos entre continentes</div></div>
-  <div class="kpi"><div class="n">6,1×</div><div class="l">variação dentro de Guadua</div></div>
+  <div class="kpi"><div class="n">1,53×</div><div class="l">variação dentro de Guadua</div></div>
   <div class="kpi"><div class="n">1,15×</div><div class="l">diferença entre continentes</div></div>
 </div>
 
@@ -1027,15 +1041,17 @@ a pergunta "qual continente tem o bambu mais resistente".</p>
   </div>
   <div class="card">
     <div class="tag">Rodríguez-Sotelo 2023 · mesma norma, mesmo laboratório</div>
-    <h4>Dentro de Guadua: 6,1×</h4>
-    <p>Flexão, mesma região e mesmo ensaio: <em>G. superba</em> <strong>84,49</strong> MPa contra
-    <em>G. weberbaueri</em> <strong>13,77</strong> MPa.</p>
+    <h4>Dentro de Guadua: 1,53×</h4>
+    <p>Flexão, mesma norma, mesmo laboratório, <strong>mesma região do colmo</strong> (média):
+    <em>G. lynnclarkiae</em> <strong>21,01</strong> MPa contra <em>G. weberbaueri</em> <strong>13,77</strong> MPa.</p>
+    <p class="fine">Os extremos do mesmo estudo vão de 13,77 (média de <em>G. weberbaueri</em>) a 84,49 (base de
+    <em>G. superba</em>) — 6,1×, mas aí se divide base por média. Não é comparação válida, e não é a que se usa aqui.</p>
   </div>
 </div>
 
 <div class="okbox"><strong>A frase que se pode escrever</strong>
-A variação dentro do gênero <em>Guadua</em> (6,1×) é <strong>maior</strong> que qualquer diferença entre
-continentes medida (1,15×). Perguntar "o bambu asiático é mais resistente que o sul-americano?" é uma
+A variação dentro do gênero <em>Guadua</em> (1,53×, comparando a mesma região do colmo) é <strong>maior</strong> que
+qualquer diferença entre continentes medida (1,15×). Perguntar "o bambu asiático é mais resistente que o sul-americano?" é uma
 pergunta mal formada — a dispersão interna do gênero engole o efeito continental.</div>
 
 <div class="note"><strong>Consequência prática</strong>
@@ -1062,11 +1078,12 @@ prova e reportam valores característicos — Oldhamii <strong>50</strong>, Moso
 
     corpo["p-l21"] = md_para_html(corte(matriz, "## 8. Consequência", "---"))
     corpo["p-l21"] = (
-        "<h3>A lacuna permanece aberta — e por um motivo específico</h3>"
-        + '<div class="note"><strong>Antes: o que é "L21"</strong>\n'
+        '<div class="note"><strong>A lacuna 21, por extenso</strong>\n'
         "O Acervo mantém um mapa de lacunas: a lista do que falta na pesquisa brasileira de bambu, item por item. "
-        "<strong>O L é de lacuna; o 21 é a posição dela nessa lista.</strong> É um endereço, não um código interno. "
-        "A lacuna 21 se chama <em>caracterização mecânica própria de espécies nativas amazônicas</em>.</div>"
+        "Esta é a <strong>lacuna número 21</strong> dessa lista — <em>caracterização mecânica própria de espécies "
+        "nativas amazônicas</em>. No resto do documento ela aparece abreviada como <strong>L21</strong>: "
+        "<strong>L</strong> de lacuna, <strong>21</strong> de posição. É um endereço, não um código interno.</div>"
+        "<h3>A lacuna permanece aberta — e por um motivo específico</h3>"
         + corpo["p-l21"]
         + """
 <div class="danger"><strong>O que a L21 pede, literalmente</strong>

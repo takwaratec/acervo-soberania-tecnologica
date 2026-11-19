@@ -164,13 +164,20 @@ Resultados do artigo (Tabela 2, flexão estática de 3 pontos): *P. aurea* ating
 
 ### Achado 3 — A variação dentro do gênero *Guadua* supera qualquer diferença entre continentes
 
-**Fato.** Em flexão estática, sob a mesma norma e no mesmo laboratório, *G. superba* atinge **84,49** MPa e *G. weberbaueri* **13,77** MPa (Rodríguez-Sotelo 2023, p.12–13) — razão de **6,1×**.
+**Fato.** Em flexão estática, sob a mesma norma e no mesmo laboratório, três espécies de *Guadua* foram ensaiadas
+juntas (Rodríguez-Sotelo 2023, p.12–13): *G. superba* **84,49** MPa na base do colmo, *G. lynnclarkiae* **21,01** MPa
+na média e *G. weberbaueri* **13,77** MPa na média. Comparando **as duas médias** — mesma região do colmo — a razão é
+**1,53×**. Comparando os extremos do estudo (84,49 basal contra 13,77 média) a razão seria **6,1×**, mas aí se divide
+base por média, o que não é comparação válida.
 
 **Fato.** Na comparação mais controlada do corpus (mesmo protocolo ISO 22157, mesmo laboratório), Guadua e Moso diferem em **9 MPa** na média de compressão (60,73 contra 69,88; Drury 2023) e ficam **praticamente idênticos** no ensaio alemão (66,35 contra 66,72; Franck 2026).
 
 **Fato.** Onde a diferença é grande e consistente é na **rigidez**: Guadua tem MOE de compressão **20,31** GPa contra **10,99** GPa do Moso — quase o dobro (Franck 2026, p.11).
 
-**Interpretação curatorial.** A pergunta "bambu asiático é mais resistente que sul-americano?" é mal formada. A variação intra-gênero (6,1×) é maior que qualquer diferença intercontinental medida (1,15×). O eixo com sinal real não é resistência, é **rigidez e variabilidade**: Guadua é mais rígida, e o gênero tem dispersão interna que domina qualquer média continental.
+**Interpretação curatorial.** A pergunta "bambu asiático é mais resistente que sul-americano?" é mal formada. A
+variação intra-gênero (1,53× em comparação de mesma região; e 1,53× dentro de *G. superba* só mudando a posição do
+colmo) já supera qualquer diferença intercontinental medida (1,15× — moso 69,88 contra *G. angustifolia* 60,73 na
+mesma norma, Drury 2023). O eixo com sinal real não é resistência, é **rigidez e variabilidade**: Guadua é mais rígida, e o gênero tem dispersão interna que domina qualquer média continental.
 
 ---
 
@@ -191,7 +198,7 @@ A lacuna L21 ("Caracterização mecânica própria de espécies nativas amazôni
 
 O que a matriz acrescenta à L21 é outra coisa: a redação atual nomeia *Guadua weberbaueri* como exemplo do que falta, e *G. weberbaueri* já tem ensaio mecânico publicado (Rodríguez-Sotelo 2023), ainda que sob normas peruana e colombiana, não brasileira. Ou seja, a L21 acerta o diagnóstico e erra o alvo: o que falta não é conhecimento da espécie, é **ensaio na norma brasileira** — e, para os gêneros fora de *Guadua*, é conhecimento de qualquer natureza.
 
-O achado 3 muda a forma da lacuna: o mapa hoje trata o risco como geográfico; o dado indica que o risco é **intra-gênero** (6,1× dentro de *Guadua* contra 1,15× entre continentes). Dimensionar uma nativa com propriedades de outra espécie do mesmo gênero é extrapolação não verificada — e é o risco que o número sustenta.
+O achado 3 muda a forma da lacuna: o mapa hoje trata o risco como geográfico; o dado indica que o risco é **intra-gênero** (1,53× dentro de *Guadua* na mesma região do colmo, contra 1,15× entre continentes). Dimensionar uma nativa com propriedades de outra espécie do mesmo gênero é extrapolação não verificada — e é o risco que o número sustenta.
 
 A reescrita da L21 é matéria de documento próprio e será feita em separado, conforme decisão do soberano. Este documento entrega as três distinções que aquela reescrita precisa carregar: **cobertura de espécie** (o que existe além de *Guadua*), **cobertura normativa** (quem tem norma de projeto, não apenas ensaio) e **comparabilidade** (o que pode ser somado sem correção).
 

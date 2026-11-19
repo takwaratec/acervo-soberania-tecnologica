@@ -59,7 +59,7 @@ Prazo: 120 dias.
 
 Redução média do número de colmos, em 120 dias.
 
-Área basal caiu 92% — a área basal é a soma da seção de todos os colmos: quanto de "parede de bambu" existe por metro quadrado.
+Área basal caiu 92% — área basal é a soma da área da seção de todos os colmos vivos numa parcela. É uma medida de quanto bambu está de pé, não de quanto material há na parede.
 
 *Fonte: Ciência Florestal, 2020.*
 
