@@ -124,9 +124,9 @@ O documento trata de exóticas invasoras em geral e **não nomeia o bambu**. Nã
 | Decreto nº 9.073/2017 | Promulga a Convenção sobre Diversidade Biológica, que trata de exóticas invasoras |
 | Guia de orientação do ICMBio (v4) | Orienta manejo de exóticas invasoras em unidades de conservação federais |
 
-**O ponto que o país ainda não resolveu:** a mesma espécie é **categoria I no Paraná** (transporte, cultivo e
-comércio proibidos) e **categoria 2 no Rio Grande do Sul** (uso permitido sob condições controladas e regulamentação
-específica). Não há classificação nacional uniforme para bambu.
+**O ponto que o país ainda não resolveu:** a mesma espécie é **categoria I no Paraná** — proibidos transporte,
+cultivo, propagação, comércio, doação e aquisição — e **categoria 2 no Rio Grande do Sul**, onde o uso é permitido sob
+condições controladas e regulamentação específica. Não há classificação nacional uniforme para bambu.
 
 ## O caminho que os estudos apontam
 
@@ -148,9 +148,9 @@ O que os documentos sustentam, em ordem:
 
 1. **Identifique a espécie.** Colmo saindo a metros da touceira, ligado por rizoma subterrâneo, é leptomorfo —
    provavelmente *Phyllostachys*. Touceira compacta é paquimorfo — provavelmente *Bambusa*. O manejo é diferente.
-2. **Verifique a classificação no seu estado.** No Paraná, *P. aurea* é categoria I: transporte, cultivo, propagação
-   e comércio proibidos. No Rio Grande do Sul, categoria 2: uso em condições controladas, sujeito a regulamentação. O
-   mesmo bambu, regras diferentes.
+2. **Verifique a classificação no seu estado.** No Paraná, *P. aurea* é categoria I: proibidos transporte, cultivo,
+   propagação, comércio, doação e aquisição. No Rio Grande do Sul, categoria 2: uso em condições controladas, sujeito a
+   regulamentação específica. O mesmo bambu, regras diferentes.
 3. **Corte não erradica.** Reduz 84% em quatro meses e rebrota. Programe controle continuado, não intervenção única.
 4. **Comece pela borda.** É onde o bambu está de fato avançando sobre a vegetação nativa.
 5. **Dê destino ao colmo cortado.** Colheita regular é o manejo que a literatura registra para bambu, e cada corte é
