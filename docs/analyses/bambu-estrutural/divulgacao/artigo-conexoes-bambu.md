@@ -25,9 +25,9 @@ muda de assunto, porque o bambu tem uma vantagem e uma desvantagem que são a me
 longa. A fibra corre de ponta a ponta. No sentido da fibra, ele é excelente. No sentido atravessado, é uma matriz
 que não segura quase nada.
 
-A maioria das conexões obriga a força a sair do sentido da fibra. Começa aí o problema — com uma exceção que a
-própria norma registra: há conexão que trabalha por **compressão ao longo da fibra**, apoiando a ponta de um colmo na
-outra. Essa é a que menos sofre.
+Muitas conexões obrigam a força a sair do sentido da fibra, e é aí que começa o problema. A exceção que a própria
+norma registra é a conexão que trabalha por **compressão ao longo da fibra** — apoiar a ponta de um colmo na outra —
+que não fura nem atravessa a fibra.
 
 **Uma separação necessária.** O Acervo tem um boletim técnico autoral sobre conexões — *Solda Vegetal: Conexões
 Estruturais e Biocompósitos em Bambu* — que descreve uma **proposta** de sistema de fixação com poliuretano vegetal,
@@ -81,8 +81,11 @@ Este texto usa um punhado de termos técnicos. Explico todos aqui, uma vez, para
   Quase sempre menor que a média.
 - **Curva característica**: a curva de resposta (momento-rotação, carga-flecha) já corrigida para baixo pela margem
   estatística. É a curva da tabela, não a do ensaio.
-- **Confiança de 75%**: significa que, repetindo o ensaio muitas vezes, o valor calculado ficaria abaixo do real em
-  cerca de três de cada quatro vezes. Não é garantia — é uma aposta com 25% de chance de errar para o lado inseguro.
+- **PGA** (aceleração de pico do solo): a maior aceleração que o chão atinge durante um terremoto, medida em
+  múltiplos de g (a gravidade). PGA 0,4g é quatro décimos da gravidade.
+- **Confiança de 75%**: é uma propriedade do **procedimento**, não desta amostra. Diz que, se você repetisse esse
+  mesmo procedimento de cálculo muitas vezes, em cerca de três de cada quatro o valor estimado ficaria abaixo do
+  valor real. Não é probabilidade sobre o número que está nesta tabela — é sobre o método que o produziu.
 - **Normalização**: corrigir uma medida pelas dimensões da peça (diâmetro, vão), para poder comparar com outra de
   tamanho diferente.
 - **Curva de envelope** (ou de esqueleto): a curva que sobra quando você pega o pico de cada ciclo de carga e liga
@@ -328,8 +331,9 @@ preciso ser preciso sobre o material, porque ele **não** é colmo roliço.
 O estudo é de **bambu laminado colado**: tiras cortadas do colmo, secas e coladas em **seção retangular**. A ligação
 pilar-viga é feita com **chapas de aço em T parafusadas**, com chapas de reforço atrás. Ou seja: não é a mesma família
 do bambu roliço dos outros artigos deste texto. É bambu transformado em material de seção regular, ligado com peça de
-aço. Isso tem duas consequências para quem lê: a ligação deixa de ser "circular e oca", que era o problema do item 1;
-e ganha um componente que precisa ser dimensionado — o aço.
+aço. Isso tem duas consequências para quem lê: a **restrição do colmo roliço** que abriu este texto — circular e oco,
+difícil de apoiar conector — **não se aplica a esse material**, porque a seção é retangular e maciça; e aparece um
+componente novo que precisa ser dimensionado, o aço.
 
 O que eles fizeram: modelaram numericamente, e para a ligação pilar-viga propuseram um método simplificado usando um
 modelo histerético do tipo *Pinching4* no OpenSEES — nome que descreve o fenômeno: **pinçamento**. Pinçamento é a
@@ -388,10 +392,11 @@ O número que importa para este artigo está na revisão de literatura que eles 
 naquele ensaio, vigas com **ligações longitudinais** apresentaram **redução de 63,87% na capacidade máxima de carga
 em flexão**.
 
-Sessenta e três por cento de perda. Vale delimitar o que é e o que não é: o ensaio de Zhou comparou **um corpo
-conectado com um corpo íntegro**, numa configuração específica de viga. Não é uma lei geral do bambu, e outros
-arranjos do mesmo tipo de estudo tiveram resultado diferente. O que o número estabelece é que, **naquele arranjo**, a
-ligação longitudinal foi o fator dominante — não que toda ligação custa 63%.
+Sessenta e três por cento de perda. Vale delimitar o que é e o que não é: o estudo comparou uma **configuração de
+viga conectada** com a **configuração íntegra correspondente**, num arranjo específico. Não é uma lei geral do bambu —
+outras configurações estudadas pelos mesmos autores, inclusive vigas de dois colmos, tiveram resultado diferente. O
+que o número estabelece é que, **naquele arranjo**, a ligação longitudinal foi o fator dominante — não que toda
+ligação custa 63%.
 
 Vale registrar também o que a mesma revisão descreve do lado positivo: arame de aço e reforços equivalentes, quando
 bem usados, recuperam desempenho — e Ghavami (1995) relatou **aumento de 400% na carga última** de vigas de concreto
@@ -448,9 +453,9 @@ afirmar que a causa é "o encontro" está indo além da fonte.
 **Normalize pela geometria antes de comparar estudos.** Diâmetro, espessura e vão mudam o número. Comparar ligações
 sem normalizar é comparar medidas de coisas diferentes.
 
-**Trate a ligação como item de projeto, com o mesmo peso da peça.** Um ensaio registrou 63,87% de perda com ligação
-longitudinal. Não é lei geral, é o pior caso medido — e basta para mostrar que a ligação pode dominar o
-comportamento.
+**Trate a ligação como item de projeto, com o mesmo peso da peça.** Uma configuração de viga com ligação longitudinal
+registrou 63,87% de perda, **naquele arranjo específico**. Não é lei geral, mas basta para mostrar que a ligação pode
+dominar o comportamento.
 
 **Não conte com o nó como reforço automático.** A evidência disponível mostra efeito na rigidez global, não um
 reforço simples de ligação.
