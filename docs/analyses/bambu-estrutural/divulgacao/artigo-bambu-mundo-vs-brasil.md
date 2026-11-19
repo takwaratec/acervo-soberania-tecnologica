@@ -252,10 +252,9 @@ teria critérios de busca, datas, filtros e contagem de triagem. Este texto não
 **Não esgota o assunto.** Doze documentos são um recorte. Existe literatura não lida aqui, em chinês, em espanhol, em
 periódicos que não apareceram.
 
-**Um artigo relevante não foi obtido.** Um estudo de 2024 comparou o *Dendrocalamus asper* com duas variedades de
-*Guadua angustifolia* na Costa Rica. Li apenas o resumo; o texto completo estava bloqueado. Pelo resumo, ele também
-não resolve a questão — compara propriedades do colmo, não espécies nativas em condição de obra. Mas fica registrado
-como lacuna, não como ausência discreta.
+**Há literatura que este texto não alcançou.** Parte do que existe sobre bambu está em periódicos fechados, em chinês e
+em espanhol, e não foi acessada aqui. O que está escrito se sustenta pelo que foi lido; o que não foi lido não está
+citado.
 
 **Não diz que a norma brasileira está errada.** Diz que a base de dados publicada sobre bambu no Brasil é pequena — e
 que ninguém deveria precisar adivinhar de onde vêm os coeficientes. São afirmações diferentes, e a segunda é a que os
@@ -341,7 +340,3 @@ registro botânico internacional (*Plants of the World Online*, Kew). O caráter
 enquadramento de *Bambusa vulgaris* como exótica estabelecida aparecem em documentos ambientais oficiais brasileiros,
 em plano de manejo de unidade de conservação e no guia de manejo de espécies exóticas invasoras do ICMBio. A distinção
 de comportamento entre as duas vem do tipo de rizoma, tratado na literatura botânica sobre o gênero.
-
-E o artigo que ficou de fora: **Rivera-Segura, Moya, Gaitán-Álvarez e Granados-Gamboa (2024)**, sobre propriedades
-físico-mecânicas do *Dendrocalamus asper* comparado a duas variedades de *Guadua angustifolia* na Costa Rica. Lido
-apenas no resumo; texto completo bloqueado.

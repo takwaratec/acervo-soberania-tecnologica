@@ -461,9 +461,8 @@ Um artigo de 2026 da PUC-Rio mediu vigas estruturais feitas de ripas de bambu em
 asper*, *Phyllostachys edulis* e *Phyllostachys reticulata*. Capacidade entre **9 kN e 16 kN**; melhor média com o
 *D. asper*, **14,4 kN** contra 12,2 kN do *P. edulis*. 
 
-O número que importa para este artigo está na revisão de literatura que eles fazem, citando Zhou e colegas (2022):
-naquele ensaio, vigas com **ligações longitudinais** apresentaram **redução de 63,87% na capacidade máxima de carga
-em flexão**. 
+O número que importa para este artigo está na revisão de literatura que eles fazem: em um dos ensaios que resumem,
+vigas com **ligações longitudinais** apresentaram **redução de 63,87% na capacidade máxima de carga em flexão**.
 
 Sessenta e três por cento de perda. Vale delimitar o que é e o que não é: o estudo comparou uma **configuração de
 viga conectada** com a **configuração íntegra correspondente**, num arranjo específico. Não é uma lei geral do bambu —
@@ -471,10 +470,10 @@ outras configurações estudadas pelos mesmos autores, inclusive vigas de dois c
 que o número estabelece é que, **naquele arranjo**, a ligação longitudinal foi o fator dominante — não que toda
 ligação custa 63%.
 
-Vale registrar também o que a mesma revisão descreve do lado positivo: arame de aço e reforços equivalentes, quando
-bem usados, recuperam desempenho — e Ghavami (1995) relatou **aumento de 400% na carga última** de vigas de concreto
-reforçadas com bambu, comparadas às mesmas vigas sem reforço. Ligação ruim destrói; ligação boa não é enfeite, é
-estrutura.
+Vale registrar também o lado positivo que a mesma revisão descreve: arame de aço e reforços equivalentes, quando bem
+usados, recuperam desempenho — e um dos ensaios que ela resume relata **aumento de 400% na carga última** de vigas de
+concreto reforçadas com bambu, comparadas às mesmas vigas sem reforço. Ligação ruim destrói; ligação boa não é enfeite,
+é estrutura.
 
 ### E há o caso brasileiro em que a conexão apareceu como patologia
 
@@ -485,10 +484,9 @@ longa), fotodegradação em todas, fungos manchadores em todas — e, entre as c
 incorreta**.
 
 Duas em 55 não é o problema dominante, e o texto não deve sugerir que seja: sol, chuva, umidade e falta de manutenção
-fizeram muito mais estrago. Mas o item está na lista, registrado por inspeção técnica em obra real no território de
-atuação do Takwara.
-Conexão errada não é hipótese de laboratório: apareceu numa inspeção de campo, registrada em trabalho de congresso
-com estudo de caso e inspeção visual e tátil — não em laudo pericial.
+fizeram muito mais estrago. Mas o item está na lista. Conexão errada não é hipótese de laboratório: apareceu numa
+inspeção de campo em obra real, registrada em trabalho de congresso, com estudo de caso e inspeção visual e tátil —
+não em laudo pericial.
 
 ---
 
@@ -605,18 +603,6 @@ característico continua inutilizável; e uma amostra estatisticamente suficient
 normativa onde a norma exige outra coisa. O que o leitor precisa saber é que **os dois números existem e medem coisas diferentes** — mas quem citar um sem o
 outro vai confundir requisito com estatística.
 
-**Um artigo ficou de fora, e vale dizer qual.**
-
-Rivera-Segura, Moya, Gaitán-Álvarez e Granados-Gamboa (2024) publicaram, na Costa Rica, uma comparação das
-propriedades físico-mecânicas do *Dendrocalamus asper* com duas variedades de *Guadua angustifolia*. Confirmei os dados
-de publicação e li o resumo; **o texto completo não foi obtido**, porque a editora bloqueou o acesso.
-
-O ponto que importa: **pelo resumo, ele não trata de conexões.** Compara propriedades do colmo — umidade, densidade,
-flexão, tração, diâmetro, espessura de parede — de três materiais plantados no mesmo sítio. Então a lacuna não é de
-ligação; é de propriedade do material. Fica registrada assim, como limitação, sem fingir que foi lida.
-
-A referência completa está na lista de fontes, no fim.
-
 ---
 
 ## 13. As perguntas que valem para qualquer sistema novo
@@ -650,8 +636,7 @@ exatamente o padrão que essa linha de pesquisa declara: uma proposta, com desem
 
 ## Fontes
 
-Para quem quiser ir ao original. Todas foram lidas integralmente, com o texto extraído página a página — **com duas
-exceções declaradas**, uma ao fim da lista e outra na nota sobre Zhou.
+Para quem quiser ir ao original. Todas foram lidas integralmente, com o texto extraído página a página.
 
 **Harries, K.; Rogers, C.; Brancaccio, M. (2022).** *Bamboo joint capacity determined by ISO 22156 'complete joint
 testing' provisions.* Advances in Bamboo Science, v. 1, 100003. Universidade de Pittsburgh. — É o artigo que sustenta
@@ -670,8 +655,8 @@ Advances in Bamboo Science, v. 2, 100011. Universidade do Sudeste, Nanjing. — 
 em T, vinte sismos em três intensidades.
 
 **Vasconcelos, P.Q.F.; Paciornik, S.; Silva, F.A. (2026).** *Mechanical behaviour of bamboo slat structural beams.*
-Advances in Bamboo Science, v. 15, 100228. PUC-Rio. — Capacidades de 9 a 16 kN; cita a perda de 63,87% com ligações
-longitudinais (Zhou e colegas, 2022)[^z] e o ganho de 400% com reforço (Ghavami, 1995)[^g].
+Advances in Bamboo Science, v. 15, 100228. PUC-Rio. — Capacidades de 9 a 16 kN; é de onde vêm, por sua revisão de
+literatura, a perda de 63,87% com ligações longitudinais e o ganho de 400% com reforço.
 
 **Seixas, M.; Cardoso, D.; Moreira, L.E.; Paciornik, S. (2024).** *Influence of elastic properties and nodes on the
 flexural behaviour of bamboo culms.* Advances in Bamboo Science, v. 9, 100100. PUC-Rio e UFMG. — Nós tornam o colmo
@@ -704,14 +689,4 @@ varas de bambu; ISO 22156:2021 — *Bamboo structures: structural design*; ISO 2
 characteristics and ductility from test data* (documento técnico, referência para determinar propriedades de ligação a
 partir de dados de ensaio).
 
-[^g]: Ghavami, K. (1995). *Ultimate load behaviour of bamboo-reinforced lightweight concrete beams.* Cement and
-    Concrete Composites, v. 17, n. 4. — O ganho de 400% na carga última.
 
-[^z]: Zhou e colegas (2022) — estudo citado na revisão de Vasconcelos e colegas, não lido diretamente para este texto.
-    O valor de 63,87% é reportado como está na revisão, e é assim que deve ser lido: número de segunda mão.
-
-**Rivera-Segura, R.; Moya, R.; Gaitán-Álvarez, J.; Granados-Gamboa, M. (2024).** *Analysis of the physical-mechanical
-properties of Dendrocalamus asper (Schult.) versus two Guadua angustifolia (Kunth) varieties, South and Caribe in the
-Atlantic Region of Costa Rica.* Advances in Bamboo Science, v. 6, 100057. DOI 10.1016/j.bamboo.2024.100057. — Lido
-apenas no resumo; texto completo bloqueado pela editora. Não fornece número a este artigo e, pelo resumo, não trata de
-conexões.
