@@ -85,6 +85,13 @@ Este texto usa um punhado de termos técnicos. Explico todos aqui, uma vez, para
   para cima e para baixo e some na média.
 - **Condições de contorno**: como a peça está presa nas pontas durante o ensaio — apoiada, engastada, livre. Muda o
   resultado mesmo com o mesmo material.
+- **Distribuição normal / lognormal**: dois jeitos de descrever como os resultados se espalham. A normal é a curva em
+  sino simétrica; a lognormal é assimétrica, com cauda longa de um lado. Quando os dados têm cauda, usar a segunda
+  dá valor característico diferente.
+- **Flexão de quatro pontos**: ensaio em que a peça é apoiada em dois pontos e carregada em outros dois, entre eles.
+  Assim o trecho do meio fica sob momento constante, sem força de corte atrapalhando.
+- **Teoria de Timoshenko**: modelo de cálculo de viga que leva em conta que a peça também se deforma por cisalhamento
+  ao dobrar — não só por alongamento das fibras.
 
 Com isso, o texto pode usar os termos sem parar para explicá-los.
 
@@ -257,9 +264,9 @@ varia cerca de 1,7 vez mais que o material.
 
 Uma ressalva honesta sobre essa comparação: são **grandezas diferentes** medidas em **corpos de prova diferentes** —
 a compressão vem de 6 a 7 amostras de bambu, o escoamento de 40 curvas de envelope. Os dois números não provam por si que "a
-ligação multiplica a dispersão"; mostram que, neste programa, a ligação foi a fonte de variação dominante. A
-explicação provável é intuitiva (dois colmos que variam, um conector que varia, um furo que varia), mas provável não
-é medido.
+ligação multiplica a dispersão"; mostram que, neste programa, a ligação apresentou variação maior. A explicação
+intuitiva — dois colmos que variam, um conector que varia, um furo que varia — é plausível, e o artigo não a testa.
+Plausível não é medido.
 
 E há um segundo ponto, ainda mais incômodo, sobre **tamanho de amostra**.
 
@@ -316,14 +323,16 @@ modelo histerético do tipo *Pinching4* no OpenSEES — nome que descreve o fen�
 perda de rigidez que aparece no ciclo de volta, quando a ligação já se deformou e não volta pelo mesmo caminho. É a
 assinatura de uma ligação que folgou.
 
-Os parâmetros do modelo foram **calibrados com resultados de ensaio**. Com isso rodaram análise dinâmica não linear
-no tempo, com **vinte sismos** em três intensidades.
+Os parâmetros do modelo foram **calibrados com resultados de ensaio**. Com isso rodaram uma **análise dinâmica não
+linear no tempo** — simulação em que a estrutura responde passo a passo a cada instante de um terremoto, admitindo que
+ela já se deformou e não volta pelo mesmo caminho — com **vinte sismos** em três intensidades.
 
 As conclusões dos autores:
 
 1. O modelo calibrado reproduziu razoavelmente a histerese da ligação, inclusive o pinçamento e a degradação.
-2. Sob os sismos das diferentes probabilidades de excedência em 50 anos, o pórtico atendeu aos estados-limite
-   alvo.
+2. Sob os sismos das diferentes **probabilidades de excedência em 50 anos** — o artigo usa três níveis, com aceleração
+   de pico de 0,07g, 0,1g e 0,4g, correspondentes às chances de 63,2%, 10% e 2% de serem superados em meio século — o
+   pórtico atendeu aos estados-limite alvo. Para comparação: 0,4g é ordem de grandeza de sismo forte.
 3. A distorção entre pavimentos ficou bem distribuída na altura — padrão de deformação razoável.
 
 O ponto para o leitor leigo: **a ligação é o que se modela, não o bambu.** No modelo sísmico, o material entra com
@@ -381,8 +390,8 @@ automática, e um artigo brasileiro de 2024 mediu isso.
 
 Seixas e colegas ensaiaram *Phyllostachys aurea* em flexão de quatro pontos, comparando modelos de cálculo com e sem
 o efeito dos nós. A conclusão: **os nós influenciaram a resposta à flexão, tornando o colmo mais flexível** — e o
-modelo que levava os nós em conta (Timoshenko ajustado com rigidez rotacional por nó) foi o que descreveu melhor o
-comportamento real.
+modelo que levava os nós em conta (a teoria de Timoshenko, ajustada com uma rigidez rotacional para cada nó) foi o
+que descreveu melhor o comportamento real.
 
 Mais flexível, não mais rígido. Para o desenho de ligação, isso significa que "colocar o conector junto ao nó" não é
 garantia. O nó traz anastomose de vasos e reforço local, sim — mas a resposta global do colmo muda, e mudar a
@@ -413,10 +422,10 @@ impraticável na interação. Se o projeto não tem ligação de catálogo, o en
 zero. É a informação mais acionável do artigo do Harries.
 
 **Espere variação maior que a do material.** Se a compressão do colmo varia 0,27 e o escoamento da ligação varia
-0,48, a hipótese mais provável é que a variação nasça do encontro, não da medição. Não é conclusão fechada: o artigo
-lista controle de ensaio, fabricação do corpo de prova, geometria e condições de contorno como fontes possíveis de
-erro sistemático, **sem dizer qual delas foi a culpada aqui** — e registra que o controle deste ensaio era muito bom,
-porque a máquina era servo-hidráulica. Ou seja: o artigo lista as suspeitas e não elege a causa.
+0,48, a variação da ligação é maior. **Por quê, o artigo não responde.** Ele lista as fontes possíveis de erro
+sistemático — controle de ensaio, fabricação do corpo de prova, geometria, condições de contorno — e não elege a
+culpada; registra ainda que o controle deste ensaio era muito bom, porque a máquina era servo-hidráulica. Quem
+afirmar que a causa é "o encontro" está indo além da fonte.
 
 **Normalize pela geometria antes de comparar estudos.** Diâmetro, espessura e vão mudam o número. Comparar ligações
 sem normalizar é comparar medidas de coisas diferentes.
@@ -488,7 +497,10 @@ primeiro texto. Aqui fica registrada como limitação declarada, e não como dad
   flexural behaviour of bamboo culms.* Advances in Bamboo Science 9, 100100. PUC-Rio e UFMG. — nós tornam o colmo
   mais flexível; ruptura frágil por cisalhamento e tração perpendicular à fibra.
 
-Todas as citações são de artigos da coleção *Advances in Bamboo Science*, lidos integralmente com texto paginado.
+Todas as citações de resultado são de artigos da coleção *Advances in Bamboo Science* **lidos integralmente**, com
+texto extraído página a página. **Uma exceção, declarada:** o artigo de Rivera-Segura e colegas (2024) foi lido
+apenas no resumo público — o texto completo está bloqueado pelo ScienceDirect. Ele não fornece nenhum número citado
+neste artigo; aparece só para delimitar uma lacuna.
 **Onde conferir:** os 254 PDFs estão custodiados no Drive, em `CustodiaAcervo/bambu-science-r1/pdf/` (remoto
 `gdrive-custodia:`), nomeados `BAM-001.pdf` a `BAM-254.pdf`. O manifesto com `sha256`, volume e tamanho de cada
 um está no repositório de governança — `takwaratec/TakwaraTec-Laboratorio-Editorial`, branch
