@@ -328,8 +328,8 @@ Science, v. 7, 100075. — Quatro nativas brasileiras, sem ensaio mecânico.
 **Scharfenberg e colegas (2024).** *The Flexural Strength of Three Bamboo Species from Brazil.* Forests, v. 15, n. 4,
 580. — O caso em que "nativo do Brasil" é atribuído a três espécies asiáticas.
 
-**Bussinger, M. (2024).** *Sistemas estruturais contemporâneos em bambu* (dissertação, Universidade de São Paulo). —
-16 obras paulistas entre 2003 e 2023, cinco espécies, uma nativa.
+**Bussinger, M. (2024).** *Bambu: sistemas estruturais contemporâneos na prática arquitetônica* (dissertação,
+Universidade de São Paulo). — 16 obras paulistas entre 2003 e 2023, cinco espécies, uma nativa.
 
 **Normas citadas.** ABNT NBR 16828 — projeto de estruturas de bambu (2020); ISO 22156:2021 — *Bamboo structures:
 structural design*; ISO 22157:2019 — determinação das propriedades físicas e mecânicas do colmo; ISO 12122 — determinação

@@ -167,8 +167,9 @@ está na tabela.** Ela não proíbe a ligação nova. Ela exige que você a qual
 ## 3. Os seis grupos: a norma organiza por caminho da força
 
 
-Harries lembra que Janssen propôs, em 2000, classificar ligação de bambu pelo **mecanismo de transferência de
-força**, e que a classificação foi refinada por Widyowijatnoko e adotada pela ISO 22156 em 2021.
+A classificação que a norma usa hoje não é nova, e Harries e colegas reconstroem sua origem: a ideia de classificar
+ligação de bambu pelo **mecanismo de transferência de força** vem de trabalhos anteriores, foi refinada ao longo dos
+anos 2000 e acabou adotada pela ISO 22156 em 2021.
 
 A ideia é engenhosa e simples: em vez de dar nome à peça (parafuso, corda, luva), você pergunta **como a força
 entra no colmo**. Três perguntas decidem tudo:
@@ -470,23 +471,22 @@ outras configurações estudadas pelos mesmos autores, inclusive vigas de dois c
 que o número estabelece é que, **naquele arranjo**, a ligação longitudinal foi o fator dominante — não que toda
 ligação custa 63%.
 
-Vale registrar também o lado positivo que a mesma revisão descreve: arame de aço e reforços equivalentes, quando bem
-usados, recuperam desempenho — e um dos ensaios que ela resume relata **aumento de 400% na carga última** de vigas de
-concreto reforçadas com bambu, comparadas às mesmas vigas sem reforço. Ligação ruim destrói; ligação boa não é enfeite,
-é estrutura.
+Vale registrar também o lado positivo. No próprio ensaio de Vasconcelos e colegas, os reforços testados — cintas
+metálicas e barras roscadas — aumentaram a rigidez do elemento, e o arame aparece ali só como amarração de montagem,
+retirado depois. E um dos ensaios que a revisão deles resume relata **aumento de 400% na carga última** de vigas de
+concreto reforçadas com bambu, comparadas às mesmas vigas sem reforço. Ligação ruim destrói; ligação boa não é
+enfeite, é estrutura.
 
 ### E há o caso brasileiro em que a conexão apareceu como patologia
 
-A inspeção do Quiosque do Coco, no Parque do Tucumã, em Rio Branco-AC,
-examinou uma cobertura em bambu nativo (*Guadua* sp.) com cerca de **11 anos** de construída e sem manutenção
-programada. O resultado foi severo: **100% das 55 peças estruturais afetadas**, com fissuras em todas (98% do tipo
+Afonso (2025) inspecionou o Quiosque do Coco, no Parque do Tucumã, em Rio Branco-AC: uma cobertura em bambu nativo
+(*Guadua* sp.) com cerca de **11 anos** de construída e sem manutenção programada. O resultado foi severo: **100% das 55 peças estruturais afetadas**, com fissuras em todas (98% do tipo
 longa), fotodegradação em todas, fungos manchadores em todas — e, entre as causas apontadas, **2 peças com conexão
 incorreta**.
 
-Duas em 55 não é o problema dominante, e o texto não deve sugerir que seja: sol, chuva, umidade e falta de manutenção
-fizeram muito mais estrago. Mas o item está na lista. Conexão errada não é hipótese de laboratório: apareceu numa
-inspeção de campo em obra real, registrada em trabalho de congresso, com estudo de caso e inspeção visual e tátil —
-não em laudo pericial.
+Duas em 55 não é o problema dominante — sol, chuva, umidade e falta de manutenção fizeram muito mais estrago. Mas o
+item está na lista. Conexão errada não é hipótese de laboratório: apareceu numa inspeção de campo em obra real,
+registrada em trabalho de congresso, com estudo de caso e inspeção visual e tátil — não em laudo pericial.
 
 ---
 
@@ -666,8 +666,9 @@ mais flexível; ruptura frágil por cisalhamento e tração perpendicular à fib
 connections for original bamboo structures.* Journal of Renewable Materials, v. 7, n. 8, p. 713–730. — Taxonomia das
 conexões, os cinco indicadores quantitativos e a conclusão de que nenhuma solução reúne tudo.
 
-**Bussinger, M. (2024).** *Sistemas estruturais contemporâneos em bambu* (dissertação, Universidade de São Paulo). —
-16 obras paulistas de 2003 a 2023: conectores em uso, abandono do boca-de-peixe, fissuras e controle de qualidade.
+**Bussinger, M. (2024).** *Bambu: sistemas estruturais contemporâneos na prática arquitetônica* (dissertação,
+Universidade de São Paulo). — 16 obras paulistas de 2003 a 2023: conectores em uso, abandono do boca-de-peixe,
+fissuras e controle de qualidade.
 
 **Adier, D. C. e colegas (2023).** *Properties, Treatment and Standardization of Bamboo: a systematic review.*
 *Buildings*, v. 13, n. 10, 2449. DOI 10.3390/buildings13102449. — A lacuna do preenchimento sustentável não friável.
