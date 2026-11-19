@@ -440,8 +440,11 @@ mediu — a hipótese segue aberta.
 
 Nada aqui é recomendação de projeto — este é material de divulgação. Mas o que a literatura permite afirmar:
 
-**Ensaie a ligação, não só o colmo.** O caminho da cláusula 10.2 existe porque o cálculo por componente é
-impraticável na interação. Se o projeto não tem ligação de catálogo, o ensaio completo é o caminho normativo.
+**Qualifique a ligação, não só o colmo.** A norma pede qualificação por uma de duas vias. Se a ligação não está na
+tabela, ainda há caminho sem ensaiar a ligação inteira: a via 10.3, quando o modo de falha é bem compreendido e a
+capacidade do componente se correlaciona com segurança com o comportamento da ligação. O ensaio completo (10.2) entra
+quando essa correlação não é confiável — é o caso do exemplo deste artigo, em que quatro mecanismos interagem ao mesmo
+tempo.
 
 **Conte os corpos de prova antes de começar.** Com variação alta, amostra pequena não dá número conservador: dá
 zero. É a informação mais acionável do artigo do Harries.
