@@ -1,0 +1,53 @@
+{
+ "schema": "TAKWARATEC/PACOTE_DE_AUDITORIA/1",
+ "frente": "BAMBU-BAMBUSC",
+ "task": "BAMBU-BAMBUSC-CATALOGO-20261119-R1",
+ "repo": "takwaratec/acervo-soberania-tecnologica",
+ "branch": "bambusc/catalogo-20261119-r1",
+ "commit_na_geracao": "c36aaffa92b1a1146ee3a2cf5069aa2205cb0371",
+ "arvore_na_geracao": "52aaef0dce9a18f3c033c912cfb9b17a43cc169c",
+ "gerado_em": "2026-11-19",
+ "exclusao_declarada": {
+  "PACOTE_AUDITORIA.json": "declara o sha256 dos outros arquivos; o proprio sha nao existe antes de gravar (impossibilidade de construcao)",
+  "gerar_pacote.py": "produz o manifesto; excluido declaradamente para que o pacote possa ser regerado"
+ },
+ "convencao": "o manifesto descreve os arquivos irmaos do diretorio; quando o commit declarado ja contem esta versao, a conferencia fecha 100%. Regere e recommite sempre que um arquivo do diretorio mudar.",
+ "como_conferir": "python3 docs/analyses/bambusc-catalogo-20261119/conferir_pacote.py --repo . [--commit <sha>]",
+ "inventario": [
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/00_COMO_AUDITAR.md",
+   "sha256": "ec3ead0d8e3e74db328961c8c151edba58c0cec0201a8bc767a5a54c766457ea",
+   "bytes": 4847
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/01_IDENTIDADE_E_CONTRATO.md",
+   "sha256": "75bbbc3c9aaea69663fa856ffc3285c027ad2ced8279170313cafb3ff1fbe976",
+   "bytes": 3071
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/02_CONTRATO_DE_LEITURA.md",
+   "sha256": "af9994a16d65d30d6a795c316cd20e9bf16836a2b23efe8b139516ef2d34d422",
+   "bytes": 10381
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/03_MATRIZ_POR_EIXO.md",
+   "sha256": "e8b94e2fa564248ed0b99d6d7c28fe4df72d08e62a926bdf8e42dd0221e24d3a",
+   "bytes": 5716
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/04_ESTADO_DA_ARTE_DAS_FICHAS.md",
+   "sha256": "24a5fe495a758599b96dd7450da136ff1c562409fb28e5dd7320a3cc1adc182b",
+   "bytes": 5539
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/INDICE_FICHAS.json",
+   "sha256": "7a8f4f4c9cc4c01c301ec7777ad0bb819e1826eaabd3d6957de6a3e560f2f6c1",
+   "bytes": 11650
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/conferir_pacote.py",
+   "sha256": "7e3987dc57f8c84c5f9de6d5d74028c1f99b96a01016e8662435d44dd728bd8b",
+   "bytes": 4079
+  }
+ ]
+}
