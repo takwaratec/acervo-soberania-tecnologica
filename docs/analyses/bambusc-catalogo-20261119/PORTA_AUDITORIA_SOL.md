@@ -3,9 +3,9 @@
 ```
 FRENTE=BAMBU-BAMBUSC
 TASK=BAMBU-BAMBUSC-CATALOGO-20261119-R1
-PR=http://github.com/takwaratec/acervo-soberania-tecnologica/pull/99
+PR=https://github.com/takwaratec/acervo-soberania-tecnologica/pull/99
 OBJETO_AUDITADO=takwaratec/acervo-soberania-tecnologica @ bambusc/catalogo-20261119-r1
-ALVO_COMMIT=067831ef972802b72d1053ac740083ebe2e11e09   (40 hex)
+ALVO_COMMIT=067831ef972802b72d1053ac740083ebe2e11e09   (README) | f7e975429b6966e93399942fab864982c0f6976e (head do branch: inclui esta porta)
 PONTEIRO_DO_LEDGER=takwaratec/TakwaraTec-Laboratorio-Editorial ref r4-claims
   sha_no_despacho=4666cab9  (estado RETORNO)
 EXECUTOR=HERMES_OPENCODE
