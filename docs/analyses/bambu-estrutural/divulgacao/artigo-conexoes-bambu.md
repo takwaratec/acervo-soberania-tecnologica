@@ -650,7 +650,8 @@ exatamente o padrão que essa linha de pesquisa declara: uma proposta, com desem
 
 ## Fontes
 
-Para quem quiser ir ao original. Todas foram lidas integralmente, com o texto extraído página a página.
+Para quem quiser ir ao original. Todas foram lidas integralmente, com o texto extraído página a página — **com uma
+exceção declarada**, ao fim da lista.
 
 **Harries, K.; Rogers, C.; Brancaccio, M. (2022).** *Bamboo joint capacity determined by ISO 22156 'complete joint
 testing' provisions.* Advances in Bamboo Science, v. 1, 100003. Universidade de Pittsburgh. — É o artigo que sustenta
@@ -698,10 +699,8 @@ manutenção programada e 2 conexões executadas incorretamente.
 — O ensaio que não demonstrou eficácia contra brocas em condição de campo.
 
 **Normas citadas.** ABNT NBR 16828 — projeto de estruturas de bambu (2020); ABNT NBR 17043:2023 — classificação de
-varas de bambu; ISO 22156:2021 — *Bamboo structures: structural design*; ISO 22157-1:2017 — determinação das
-propriedades físicas e mecânicas do colmo; ISO 16670:2003 — ensaio cíclico de ligações com conector mecânico; ISO
-12122-1:2014 e ISO 12122-5:2018 — determinação de valores característicos; ISO/TR 21141 — documento técnico sobre
-determinação de propriedades de ligações.
+varas de bambu; ISO 22156:2021 — *Bamboo structures: structural design*; ISO 22157:2019 — determinação das propriedades físicas e mecânicas do colmo; ISO 16670:2003 — ensaio cíclico de ligações com conector mecânico; ISO
+12122-1:2014 e ISO 12122-5:2018 — determinação de valores característicos; ISO/TR 21141:2022 — *Timber structures: structural joints; determining strength and stiffness of joints made with mechanical fasteners* (documento técnico, usado por referência à determinação de propriedades de ligação).
 
 [^g]: Ghavami, K. (1995). *Ultimate load behaviour of bamboo-reinforced lightweight concrete beams.* Cement and
     Concrete Composites, v. 17, n. 4. — O ganho de 400% na carga última.
