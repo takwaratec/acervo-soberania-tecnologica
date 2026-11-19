@@ -4,8 +4,8 @@
  "task": "BAMBU-BAMBUSC-CATALOGO-20261119-R1",
  "repo": "takwaratec/acervo-soberania-tecnologica",
  "branch": "bambusc/catalogo-20261119-r1",
- "commit_na_geracao": "9fee0bef6c4d12cb6781290557dcd7438bf50279",
- "arvore_na_geracao": "44e19213767154b08daaa3eb267be9ef348033a9",
+ "commit_na_geracao": "45aaa1205ba4292f458459888956fa9cb9c2783c",
+ "arvore_na_geracao": "4cc6f2391e8ab719223bd23b92cfe39077bba3e7",
  "gerado_em": "2026-11-19",
  "exclusao_declarada": {
   "PACOTE_AUDITORIA.json": "declara o sha256 dos outros arquivos; o proprio sha nao existe antes de gravar (impossibilidade de construcao)",
