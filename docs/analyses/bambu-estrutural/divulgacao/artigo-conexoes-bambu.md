@@ -57,8 +57,8 @@ Biocompósitos em Bambu*, que descreve um sistema de fixação com poliuretano v
 repete e não o contradiz. Mas o problema que ele ataca é o mesmo que este texto descreve: o boletim aponta o
 chumbamento cimentício e os conectores metálicos rígidos como o gargalo, e propõe uma fixação flexível no lugar. Onde
 este texto diz "a ligação varia 0,47", é medição de terceiro; onde o boletim diz "propõe-se a resolver o gargalo", é
-proposta declarada como proposta. As camadas não se misturam — e o artigo diz, no fim, o que a proposta da casa
-precisa provar para deixar de ser proposta.
+proposta declarada como proposta. As camadas não se misturam — e o artigo lista, no fim, as perguntas que qualquer sistema
+novo teria de responder, inclusive ela.
 
 **O que este artigo NÃO é:** não é revisão sistemática. A camada base não tem protocolo declarado de busca (a própria
 ficha de Hong registra isso como limitação), e a camada nova é leitura dirigida de uma coleção, não de todas as
@@ -136,6 +136,9 @@ Com isso, o texto pode usar os termos sem parar para explicá-los.
 ---
 
 ## 1. O problema em uma frase: um tubo oco que não gosta de ser furado
+
+> **Escopo desta seção.** O diagnóstico geométrico é da **camada base** (Hong 2019). A enumeração dos cinco motivos e o
+> valor de cisalhamento (~12 MPa) vêm da **camada nova** (*Advances in Bamboo Science*, não homologada).
 
 Quando você fura um bambu para passar um parafuso, está cortando fibra longa. A fibra resiste muito no comprimento;
 no furo, ela se rompe antes do que se esperaria, porque não há fibra atravessada costurando o material de volta.
@@ -308,7 +311,13 @@ rotacional, e corrigiram pela geometria do colmo. A normalização melhorou pouc
 parecidos (variação de geometria abaixo de 0,10). Melhorou mais na rigidez: cerca de 11% de redução na variação.
 
 Depois calcularam os valores característicos. O valor característico não é a média — é o valor que se adota em
-projeto, um piso estatístico. Para amostra de 40, o fator é 1,834.
+projeto, com margem estatística. Para **amostra de 40**, o fator é 1,834.
+
+**Atenção à unidade de `n`, porque é aqui que quase todo mundo se perde.** O `n = 40` do artigo é o número de
+**curvas de envelope** — uma por sentido de carregamento —, não o número de ligações físicas. As ligações físicas são
+**20**. Quando este texto falar em `n`, é sempre **curva**. E a fonte registra mais um número que importa: a ISO 16670
+recomenda **mínimo de seis corpos de prova**, que é bem menos que 40 — e é justamente por isso que o efeito do tamanho
+de amostra, mostrado adiante, precisa ser levado a sério.
 
 O que saiu — e aqui é importante separar **dois métodos**, porque o artigo usa os dois:
 
@@ -566,8 +575,8 @@ mediu — a hipótese segue aberta.
 
 ## 11. O que fazer, na prática, com o que está medido
 
-> **Escopo desta seção.** As recomendações derivam do conjunto; os números citados são das seções anteriores e
-> carregam o mesmo status.
+> **Escopo desta seção.** As recomendações derivam do conjunto. Os números citados vêm das seções anteriores: os do
+> ensaio de ligação são **camada nova** (não homologada); a referência a norma e a prática de obra são **camada base**.
 
 Nada aqui é recomendação de projeto — este é material de divulgação. Mas o que a literatura permite afirmar:
 
@@ -599,6 +608,10 @@ reforço simples de ligação.
 ---
 
 ## 12. O que continua faltando
+
+> **Escopo desta seção.** As lacunas aqui são síntese deste artigo. Onde cada uma se apoia numa fonte, a seção diz
+> qual: a L14 é **camada base** (Adier 2023, mapa de lacunas); o tamanho de amostra e a ausência de catálogo são
+> **camada nova** (*Advances in Bamboo Science*, não homologada); a inspeção pós-obra é **camada base** (Bussinger).
 
 **A amostra.** Ligação de bambu quase nunca tem amostra grande, e o próprio artigo que demonstra o método tem
 **vinte ligações físicas**, e o limite é prático, não teórico. O artigo transforma essas vinte em quarenta
@@ -644,7 +657,8 @@ diferentes:
 
 - **30** responde "a norma aceita?". É requisito documental de uma jurisdição.
 - **9** responde "a estatística fecha?". E, como a seção 5 mostra, depende da variação. Com a variação de 0,47
-  medida aqui: **com 9 corpos de prova ou menos, o valor característico é zero**; com **10**, ele deixa de ser zero.
+  medida aqui: **com 9 curvas ou menos, o valor característico é zero**; com **10 curvas**, ele deixa de ser zero.
+  (Em ligações físicas, metade disso — porque cada ligação gera duas curvas.)
   Nove não é mínimo — é a última contagem em que o resultado ainda é inutilizável.
 
 Nenhum dos dois substitui o outro. Um ensaio com 30 corpos de prova pode ter variação tão alta que o
@@ -675,6 +689,10 @@ primeiro texto. Aqui fica registrada como limitação declarada, e não como dad
 
 ## 13. As perguntas que valem para qualquer sistema novo
 
+> **Escopo desta seção.** As perguntas nascem do conjunto do artigo. Os números de referência (COV 0,47, limiar de 10
+> curvas, 30 ensaios de Marçal) vêm das seções anteriores com o status que elas declaram — camada nova para o ensaio,
+> camada base para Marçal.
+
 O boletim *Solda Vegetal* propõe substituir o chumbamento cimentício e os conectores metálicos rígidos por fixação
 flexível com poliuretano vegetal. Este artigo não avalia essa proposta — nem a recomenda, nem a reprova.
 
@@ -684,10 +702,11 @@ chegasse com a mesma pretensão — e é assim que devem ser lidas:
 
 - **Por qual via a ligação seria qualificada?** Por componente (10.3), com correlação demonstrada, ou por ensaio
   completo (10.2), com campanha própria. Duas referências de naturezas diferentes orientam o tamanho: a conta
-  estatística deste artigo indica que **abaixo de 10 corpos de prova** o valor característico cai a zero com a
+  estatística deste artigo indica que **abaixo de 10 curvas** o valor característico cai a zero com a
   variação medida; a leitura de Marçal da norma equatoriana pede **30 ensaios**.
 - **Qual a variação esperada?** A ligação ensaiada neste artigo variou 0,47 — e é essa variação que decide o quanto a
-  amostra precisa ser grande. Sem COV declarado, não há como dimensionar a campanha.
+  amostra precisa ser grande. Sem COV declarado, não há como dimensionar a campanha. A conta é feita em **curvas**, e
+o artigo de referência tem 20 ligações físicas gerando 40 curvas.
 - **Qual o modo de ruptura?** Flexível não significa seguro. O ensaio do Harries parou no limite de flecha e não viu
   ruptura; é a lacuna que qualquer sistema novo teria de preencher com observação do seu próprio modo de falha.
 - **E o cisalhamento no nó?** A L14 continua aberta: a lacuna declarada pela literatura é preenchimento sustentável
