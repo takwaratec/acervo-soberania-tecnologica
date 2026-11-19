@@ -9,7 +9,7 @@ fonte_primaria: fichas do Acervo Soberania Tecnologica, gaveta bambu-estrutural 
 fonte_secundaria: 254 PDFs da colecao Advances in Bamboo Science; inventario e sha256 em
   takwaratec/TakwaraTec-Laboratorio-Editorial, branch bambu-science/decupagem-20261118-r1,
   ops/command-center/task-results/BAMBU-SCIENCE/MANIFESTO_CUSTODIA_PDFS.txt -- camada nova, nao homologada
-camadas: [release-1-acervo, bamboo-science-nao-homologada]
+camadas: [release-1-acervo, bamboo-science-nao-homologada, proposta-autoral]
 nota_homologacao: "As fichas da colecao Bamboo Science NAO estao homologadas (todas em
   em-revisao-documental). Todo dado vindo delas e marcado no corpo como (BS)."
 versao: 2
@@ -172,7 +172,7 @@ artigo acrescenta é o detalhamento de cada motivo; o diagnóstico não é novo 
 Até pouco tempo, cada projeto de bambu inventava sua ligação. O artigo de 2022 assinado por Kent Harries e dois
 colegas da Universidade de Pittsburgh diz isso sem rodeio: existem muitos estudos de ligação de bambu, **muitos
 sobre conexões patenteadas**, e a maioria é pontual — o comportamento medido não se transporta para outra geometria
-nem outra condição. Além disso, poucos estudos têm amostra estatisticamente significativa.
+nem outra condição. Além disso, poucos estudos têm amostra estatisticamente significativa. (BS)
 
 A resposta normativa veio com a **ISO 22156**, a norma internacional de projeto estrutural em bambu-colmo. O trecho
 que interessa aqui é a **cláusula 10**, a de ligações. E ela oferece dois caminhos:
@@ -189,7 +189,13 @@ norma manda **qualificar a ligação** — e oferece duas vias: o ensaio complet
 corroboradas por ensaio (10.3). O que ela não permite é usar a ligação sem qualificação.
 
 Isso tem uma consequência prática que o artigo original não esconde: **a norma diz o que fazer quando a ligação não
-está na tabela.** Ela não proíbe a ligação nova. Ela exige que você a ensaie.
+está na tabela.** Ela não proíbe a ligação nova. Ela exige que você a qualifique. (BS)
+
+> **Nota de camada.** A ISO 22156 como documento normativo também está na camada base: a
+> [ficha do NSR-10](../nsr10-titulo-g-guadua.md) e a [ficha de Marçal](../marcal-2018-normas-internacionais-bambu.md)
+> registram a ISO 22156 na genealogia normativa, e a [dissertação de Bussinger](../bussinger-2024-bambu-sistemas-estruturais.md)
+> a usa como referência de análise. O que vem **só** da coleção nova é a leitura das cláusulas 10.2, 10.3, 10.10–10.12
+> e o efeito do tamanho de amostra.
 
 ---
 
@@ -388,7 +394,7 @@ os casos em que essa correlação não é confiável.
 
 O ensaio do Harries é cíclico justamente porque ligação de bambu não trabalha só parada. Um artigo de 2023 da
 Universidade do Sudeste, em Nanjing, avaliou o comportamento sísmico de um pórtico de **três pavimentos** — e aqui é
-preciso ser preciso sobre o material, porque ele **não** é colmo roliço.
+preciso ser preciso sobre o material, porque ele **não** é colmo roliço. (BS)
 
 O estudo é de **bambu laminado colado**: tiras cortadas do colmo, secas e coladas em **seção retangular**. A ligação
 pilar-viga é feita com **chapas de aço em T parafusadas**, com chapas de reforço atrás. Ou seja: não é a mesma família
@@ -414,7 +420,7 @@ As conclusões dos autores:
    estados-limite alvo. Para comparação: a intensidade máxima usada é ordem de grandeza de sismo forte.
    *(Divergência interna da fonte, declarada: o texto diz PGA de 0,07g, 0,1g e 0,4g; a legenda da figura 6 e a tabela
    4 dizem 0,07g, **0,2g** e 0,4g para o nível intermediário. Não é possível decidir qual vale sem os autores.)*
-3. A distorção entre pavimentos ficou bem distribuída na altura — padrão de deformação razoável.
+3. A distorção entre pavimentos ficou bem distribuída na altura — padrão de deformação razoável. (BS)
 
 O ponto para o leitor leigo: no modelo sísmico, **o material entra com suas propriedades e a ligação entra com
 parâmetros calibrados em ensaio** — porque a ligação não se deduz da resistência do bambu. O estudo modela as duas
@@ -425,7 +431,7 @@ coisas, não só uma. Quem projeta bambu para sismo precisa de dados de ligaçã
 ## 8. A tradição já sabia — e a norma deu nome ao que ela fazia
 
 Um artigo de revisão de 2024 sobre arquitetura de bambu organiza as ligações tradicionais em **três modos**, e cada
-um tem o seu defeito, declarado com honestidade:
+um tem o seu defeito, declarado com honestidade. (BS)
 
 **Encaixe.** Imita o encaixe de madeira tradicional, com conexão elegante e aparência limpa. Problema: o colmo é
 oco, e **fazer o entalhe destrói a estabilidade da estrutura**. Você abre a peça para encaixar e enfraquece onde
@@ -454,7 +460,8 @@ Aqui o Acervo tem dado de campo, não de laboratório. A [dissertação de Bussi
   geométrico explícito. As estruturas de colmo, conclui ela, **não são naturalmente padronizáveis**.
 - **O conector "boca-de-peixe" foi abandonado.** Desaparece progressivamente das obras a partir de 2003,
   possivelmente por incompatibilidade com as espécies usadas no Brasil, propensão a fissuras e dificuldade de
-  execução. É um sistema que saiu de uso por acumulação de problemas, não por decreto.
+  execução. É um sistema que saiu de uso **nas obras paulistas estudadas** — por acumulação de problemas, não por decreto. O
+recorte é São Paulo, 2003–2023; o artigo não afirma que o abandono tenha acontecido no mundo.
 - **Fissura em todas as varas de todos os casos.** Não é exceção: é regra. O que reforça a tese deste artigo — o
   colmo fissura, e a ligação é onde a fissura tem consequência estrutural.
 - **Nível tecnológico médio.** A maioria dos projetos usa conectores de nível tecnológico médio; nenhum caso no nível
@@ -497,14 +504,15 @@ incorreta**.
 
 Duas em 55 não é o problema dominante, e o texto não deve sugerir que seja: sol, chuva, umidade e falta de manutenção
 fizeram muito mais estrago. Mas o item está na lista, registrado por inspeção técnica em obra real no território de
-atuação do Acervo. Conexão errada não é hipótese de laboratório — é item de laudo.
+atuação do Acervo. Conexão errada não é hipótese de laboratório: apareceu numa inspeção de campo, registrada em trabalho de congresso
+com estudo de caso e inspeção visual e tátil — não em laudo pericial.
 
 ---
 
 ## 10. O nó do colmo: nem sempre ele ajuda
 
 Existe uma confusão comum: "o nó do bambu é o reforço natural, então ligação perto do nó é melhor". A relação não é
-automática, e um artigo brasileiro de 2024 mediu isso.
+automática, e um artigo brasileiro de 2024 — da coleção nova, não da gaveta — mediu isso. (BS)
 
 Seixas e colegas ensaiaram *Phyllostachys aurea* em flexão de quatro pontos, comparando modelos de cálculo com e sem
 o efeito dos nós. A conclusão: **os nós influenciaram a resposta à flexão, tornando o colmo mais flexível** — e o
@@ -518,7 +526,7 @@ rigidez muda como a força chega à ligação.
 O mesmo artigo descreve o modo de ruptura do colmo, e ele é relevante para conexão: o bambu **não se dobra como aço,
 madeira ou compósito polimérico**. Ele fratura de forma frágil ao longo do eixo neutro, por uma combinação de
 cisalhamento e tração perpendicular à fibra perto do ponto de aplicação da carga, podendo vir antes amassamento e
-flambagem local com lascas.
+flambagem local com lascas. (BS)
 
 Leia de novo: **tração perpendicular à fibra**. É o esforço que uma ligação provoca quando fura ou aperta o colmo.
 
@@ -566,18 +574,22 @@ reforço simples de ligação.
 **A amostra.** Ligação de bambu quase nunca tem amostra grande, e o próprio artigo que demonstra o método tem
 **vinte ligações físicas**, e o limite é prático, não teórico. O artigo transforma essas vinte em quarenta
 resultados porque ensaia cada uma nos dois sentidos — carregando para um lado e para o outro — e trata a curva de
-ida e a de volta como dados separados. Confira na seção 5: são 20 ligações e 40 curvas.
+ida e a de volta como dados separados. Confira na seção 5: são 20 ligações e 40 curvas. (BS)
 
 **Ligação padronizada com número publicado.** A maioria dos estudos, como o próprio Harries registra, é de conexão
-patenteada ou pontual. Falta catálogo aberto de ligação com capacidade característica publicada, no formato em que
-um projetista consiga usar.
+patenteada ou pontual. (BS) Falta catálogo aberto de ligação com capacidade característica publicada, no formato em
+que um projetista consiga usar. A [ficha de Hong](../china-bamboo-connections-review-2019.md) chega à mesma
+conclusão por outro caminho: **nenhuma solução reúne plenamente** capacidade, rigidez, durabilidade, facilidade
+construtiva e baixo custo.
 
 **Ensaio de ligação em espécie brasileira.** A coleção cobre ligação em Guadua colombiana, em bambu laminado, em
 ripa. O que existe de ligação ensaiada sob norma brasileira, em espécie nativa, é bem menos.
 
 **Durabilidade da ligação.** O artigo de arquitetura diz que a amarração solta e não dura; o de monitoramento fala da
-necessidade de inspeção por degradação. O que falta é número: quanto uma ligação perde em dez anos, em ambiente
-úmido.
+necessidade de inspeção por degradação. (BS) O que falta é número: quanto uma ligação perde em dez anos, em ambiente
+úmido. A [dissertação de Bussinger](../bussinger-2024-bambu-sistemas-estruturais.md) reforça a mesma necessidade a
+partir de obra real: inspeção pós-obra é condição de durabilidade, e fissura apareceu em **todas** as varas de
+**todos** os 16 casos.
 
 **Preenchimento que não seja friável — a lacuna já estava catalogada.** O [mapa de lacunas do próprio
 Acervo](../mapa-de-lacunas.md) registra a **L14**: a [revisão de Adier e colegas
@@ -589,15 +601,27 @@ vezes maior (Hong 2019).
 
 ### Dois números da casa que não se encontram
 
-Aqui vale um aviso que só é possível dar quem lê as duas coisas. A [ficha de Marçal
-(2018)](../marcal-2018-normas-internacionais-bambu.md) registra, **como leitura do autor e não como exigência
-universal**, que a norma equatoriana pede verificação por estudo científico com **pelo menos 30 ensaios** para
-ligações alternativas. O método do Harries, lido aqui, chega a **9 corpos de prova**. Trinta contra nove.
+Aqui vale um aviso que só é possível dar quem lê as duas coisas — e que é fácil de ler errado.
 
-Não são a mesma norma nem a mesma espécie, e portanto **não há contradição** — há duas réguas diferentes convivendo
-no acervo. Mas um projetista que abrir só uma das duas fichas vai achar que a outra está errada. Este artigo não
-arbitra qual vale: registra que a diferença existe, que ela depende da norma de origem, e que quem dimensionar em
-território brasileiro deve descobrir primeiro qual régua o seu responsável técnico adota.
+A [ficha de Marçal (2018)](../marcal-2018-normas-internacionais-bambu.md) registra, **como leitura do autor e não
+como exigência universal**, que a norma equatoriana pede verificação por estudo científico com **pelo menos 30
+ensaios** para ligações alternativas.
+
+O número **9** que aparece neste artigo em outro lugar **não é um piso normativo**, e a comparação entre os dois
+não deve ser feita como se fossem a mesma grandeza. Marçal fala de **exigência de norma**: quantos ensaios a norma
+pede para aceitar uma ligação alternativa. O 9 sai de uma **conta estatística** — quantos corpos de prova são
+necessários para que o valor característico não caia a zero, dada uma variação medida. São perguntas de naturezas
+diferentes:
+
+- **30** responde "a norma aceita?". É requisito documental de uma jurisdição.
+- **9** responde "a estatística fecha?". E, como a seção 5 mostra, depende da variação: com variação de 0,47, **até
+  9 o valor característico é zero** — nove não é mínimo, é o limiar em que ele começa a ser diferente de zero.
+
+Nenhum dos dois substitui o outro. Um ensaio com 30 corpos de prova pode ter variação tão alta que o
+característico continua inutilizável; e uma amostra estatisticamente suficiente não vale como qualificação
+normativa onde a norma exige outra coisa. O que o leitor precisa saber é que **os dois números existem, medem coisas
+diferentes, e nenhuma das fichas do acervo que os registra está errada** — mas quem citar um sem o outro vai
+confundir requisito com estatística.
 
 O **não obtido** desta frente continua valendo, mas agora com o contorno certo.
 
@@ -619,11 +643,12 @@ primeiro texto. Aqui fica registrada como limitação declarada, e não como dad
 
 ---
 
-## 13. O que a proposta da casa teria de provar
+## 13. As perguntas que a proposta da casa terá de responder
 
 O boletim *Solda Vegetal* propõe substituir o chumbamento cimentício e os conectores metálicos rígidos por fixação
-flexível com poliuretano vegetal. Este artigo não avalia essa proposta — mas deixou no caminho as perguntas que ela
-terá de responder, todas derivadas do que está medido acima:
+flexível com poliuretano vegetal. Este artigo não avalia essa proposta. Mas o caminho percorrido até aqui deixa um conjunto de perguntas técnicas que
+qualquer proposta de fixação flexível teria de responder — as mesmas que este texto faria a um sistema de terceiro.
+Elas estão listadas não como exigência de resultado, e sim como mapa do que a literatura ainda não respondeu:
 
 - **Vai passar pela via 10.2 ou pela 10.3?** Se for por componente, precisa demonstrar a correlação com segurança. Se
   for por ensaio completo, precisa de campanha própria — e, pelo método lido aqui, **nove corpos de prova** é o piso;
@@ -633,13 +658,15 @@ terá de responder, todas derivadas do que está medido acima:
 - **Qual o modo de ruptura?** Flexível não significa seguro. O ensaio do Harries parou no limite de flecha e não viu
   ruptura — a proposta precisará mostrar onde e como rompe, e se rompe dúctil.
 - **E o cisalhamento no nó?** A L14 continua aberta: a lacuna declarada pela literatura é preenchimento sustentável
-  **não friável**. Se o PU vegetal for esse preenchimento, é ali que a proposta será julgada.
-- **E a durabilidade?** O boletim já declara a blindagem com ácido pirolenhoso como hipótese, e a ficha da Embrapa
-  registra ensaio inconclusivo. A fixação flexível herda a mesma pergunta: quanto perde em dez anos, em ambiente
-  úmido.
+  **não friável**. Se o PU vegetal for esse preenchimento, é aí que a evidência sobre ele seria decisiva.
+- **E a durabilidade?** O boletim já declara a blindagem com ácido pirolenhoso como hipótese, e a
+  [ficha de Silva (2011)](../silva-2011-tratamento-pirolenhoso-bambu.md) — não a circular da Embrapa, que é
+  orientação técnica, não ensaio — registra o resultado inconclusivo. A fixação flexível herda a mesma pergunta:
+  quanto perde em dez anos, em ambiente úmido.
 
-Nada disso é objeção à proposta. É a régua que este artigo construiu, aplicada a ela em voz alta — porque é o padrão
-que o próprio boletim declara: especificação autoral com desempenho **a verificar**.
+Nada aqui é objeção à proposta — é a mesma régua que o artigo aplicou aos sistemas de terceiro, aplicada em voz
+alta a qualquer sistema novo. E é precisamente o padrão que o próprio boletim declara: especificação autoral com
+desempenho **a verificar**.
 
 ---
 
@@ -692,9 +719,13 @@ Leitura integral, texto extraído página a página. **Uma exceção declarada:*
 ### Camada autoral
 
 - **Takwara, F. R.** — *Solda Vegetal: Conexões Estruturais e Biocompósitos em Bambu.* Série Técnica Plataforma
-  Amazônia Regenerativa, v. 2.2-candidata-004, estado `em-revisao-documental`. DOI da versão anterior:
+  Amazônia Regenerativa, estado `em-revisao-documental`. DOI da versão anterior:
   [10.5281/zenodo.21520019](https://doi.org/10.5281/zenodo.21520019). — citado aqui **apenas** como proposta
   declarada, na seção 13. Não é fonte de nenhum dado.
+
+  *Versão: o front matter do documento registra `2.2-candidata-004`, mas duas passagens do corpo (o changelog e a
+  forma de citar) ainda grafam `2.2-candidata-002`. A inconsistência é da fonte, não desta citação — este artigo
+  registra as duas grafias em vez de escolher uma.*
 
 **Onde conferir os PDFs.** Os 254 arquivos estão custodiados no Drive, em `CustodiaAcervo/bambu-science-r1/pdf/`
 (remoto `gdrive-custodia:`), nomeados `BAM-001.pdf` a `BAM-254.pdf`. O manifesto com `sha256`, volume e tamanho de
