@@ -4,7 +4,9 @@ subtitulo: "O primeiro artigo falou do bambu. Este fala do ponto onde ele se enc
 tipo_documental: material-didatico-institucional
 estado_documental: em-revisao-documental
 responsavel_curadoria: pendente — nao designado
-fonte_primaria: 254 PDFs da coleção Advances in Bamboo Science; inventário e sha256 em MANIFESTO_CUSTODIA_PDFS.txt (frente BAMBU-SCIENCE)
+fonte_primaria: 254 PDFs da coleção Advances in Bamboo Science; inventário e sha256 em
+  takwaratec/TakwaraTec-Laboratorio-Editorial, branch bambu-science/decupagem-20261118-r1,
+  ops/command-center/task-results/BAMBU-SCIENCE/MANIFESTO_CUSTODIA_PDFS.txt
 material: didatico
 publico: leigo
 versao: 1
@@ -442,6 +444,10 @@ busca não verificada**, não como referência: se ele tiver dado de ligação, 
   flexural behaviour of bamboo culms.* Advances in Bamboo Science 9, 100100. PUC-Rio e UFMG. — nós tornam o colmo
   mais flexível; ruptura frágil por cisalhamento e tração perpendicular à fibra.
 
-Todas as citações são de artigos da coleção *Advances in Bamboo Science*, lidos integralmente com texto paginado. Os
-PDFs estão custodiados no Drive da frente (`CustodiaAcervo/bambu-science-r1/pdf/`), com sha256 no manifesto do
-repositório, para quem quiser conferir o número contra o original.
+Todas as citações são de artigos da coleção *Advances in Bamboo Science*, lidos integralmente com texto paginado.
+**Onde conferir:** os 254 PDFs estão custodiados no Drive, em `CustodiaAcervo/bambu-science-r1/pdf/` (remoto
+`gdrive-custodia:`), nomeados `BAM-001.pdf` a `BAM-254.pdf`. O manifesto com `sha256`, volume e tamanho de cada
+um está no repositório de governança — `takwaratec/TakwaraTec-Laboratorio-Editorial`, branch
+`bambu-science/decupagem-20261118-r1`, arquivo `ops/command-center/task-results/BAMBU-SCIENCE/MANIFESTO_CUSTODIA_PDFS.txt`
+— e **não** neste repositório, onde não há binário. Cruze manifesto e Drive pelo ID do arquivo; título de artigo
+de coleção é truncado e quase idêntico entre irmãos.
