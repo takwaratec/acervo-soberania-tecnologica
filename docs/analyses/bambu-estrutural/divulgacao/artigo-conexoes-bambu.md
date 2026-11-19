@@ -25,7 +25,9 @@ muda de assunto, porque o bambu tem uma vantagem e uma desvantagem que são a me
 longa. A fibra corre de ponta a ponta. No sentido da fibra, ele é excelente. No sentido atravessado, é uma matriz
 que não segura quase nada.
 
-Toda conexão obriga a força a sair do sentido da fibra. Começa aí o problema.
+A maioria das conexões obriga a força a sair do sentido da fibra. Começa aí o problema — com uma exceção que a
+própria norma registra: há conexão que trabalha por **compressão ao longo da fibra**, apoiando a ponta de um colmo na
+outra. Essa é a que menos sofre.
 
 **Uma separação necessária.** O Acervo tem um boletim técnico autoral sobre conexões — *Solda Vegetal: Conexões
 Estruturais e Biocompósitos em Bambu* — que descreve uma **proposta** de sistema de fixação com poliuretano vegetal,
@@ -77,6 +79,10 @@ Este texto usa um punhado de termos técnicos. Explico todos aqui, uma vez, para
   resultados — ou seja, de cada 20 medidas, uma é pior.
 - **Valor característico**: o número que se adota em projeto, calculado a partir da amostra com margem estatística.
   Quase sempre menor que a média.
+- **Curva característica**: a curva de resposta (momento-rotação, carga-flecha) já corrigida para baixo pela margem
+  estatística. É a curva da tabela, não a do ensaio.
+- **Confiança de 75%**: significa que, repetindo o ensaio muitas vezes, o valor calculado ficaria abaixo do real em
+  cerca de três de cada quatro vezes. Não é garantia — é uma aposta com 25% de chance de errar para o lado inseguro.
 - **Normalização**: corrigir uma medida pelas dimensões da peça (diâmetro, vão), para poder comparar com outra de
   tamanho diferente.
 - **Curva de envelope** (ou de esqueleto): a curva que sobra quando você pega o pico de cada ciclo de carga e liga
@@ -316,7 +322,14 @@ os casos em que essa correlação não é confiável — que, segundo o artigo, 
 ## 7. O que acontece com a ligação quando a estrutura balança
 
 O ensaio do Harries é cíclico justamente porque ligação de bambu não trabalha só parada. Um artigo de 2023 da
-Universidade do Sudeste, em Nanjing, avaliou o comportamento sísmico de um pórtico de bambu de **três pavimentos**.
+Universidade do Sudeste, em Nanjing, avaliou o comportamento sísmico de um pórtico de **três pavimentos** — e aqui é
+preciso ser preciso sobre o material, porque ele **não** é colmo roliço.
+
+O estudo é de **bambu laminado colado**: tiras cortadas do colmo, secas e coladas em **seção retangular**. A ligação
+pilar-viga é feita com **chapas de aço em T parafusadas**, com chapas de reforço atrás. Ou seja: não é a mesma família
+do bambu roliço dos outros artigos deste texto. É bambu transformado em material de seção regular, ligado com peça de
+aço. Isso tem duas consequências para quem lê: a ligação deixa de ser "circular e oca", que era o problema do item 1;
+e ganha um componente que precisa ser dimensionado — o aço.
 
 O que eles fizeram: modelaram numericamente, e para a ligação pilar-viga propuseram um método simplificado usando um
 modelo histerético do tipo *Pinching4* no OpenSEES — nome que descreve o fenômeno: **pinçamento**. Pinçamento é a
@@ -331,13 +344,15 @@ As conclusões dos autores:
 
 1. O modelo calibrado reproduziu razoavelmente a histerese da ligação, inclusive o pinçamento e a degradação.
 2. Sob os sismos das diferentes **probabilidades de excedência em 50 anos** — o artigo usa três níveis, com aceleração
-   de pico de 0,07g, 0,1g e 0,4g, correspondentes às chances de 63,2%, 10% e 2% de serem superados em meio século — o
-   pórtico atendeu aos estados-limite alvo. Para comparação: 0,4g é ordem de grandeza de sismo forte.
+   de pico correspondentes às chances de 63,2%, 10% e 2% de serem superados em meio século — o pórtico atendeu aos
+   estados-limite alvo. Para comparação: a intensidade máxima usada é ordem de grandeza de sismo forte.
+   *(Divergência interna da fonte, declarada: o texto diz PGA de 0,07g, 0,1g e 0,4g; a legenda da figura 6 e a tabela
+   4 dizem 0,07g, **0,2g** e 0,4g para o nível intermediário. Não é possível decidir qual vale sem os autores.)*
 3. A distorção entre pavimentos ficou bem distribuída na altura — padrão de deformação razoável.
 
-O ponto para o leitor leigo: **a ligação é o que se modela, não o bambu.** No modelo sísmico, o material entra com
-suas propriedades; **a ligação entra com parâmetros calibrados em ensaio**, porque não dá para deduzi-los. Quem
-projeta bambu para sismo precisa de dados de ligação, não só de resistência de colmo.
+O ponto para o leitor leigo: no modelo sísmico, **o material entra com suas propriedades e a ligação entra com
+parâmetros calibrados em ensaio** — porque a ligação não se deduz da resistência do bambu. O estudo modela as duas
+coisas, não só uma. Quem projeta bambu para sismo precisa de dados de ligação, não só de resistência de colmo.
 
 ---
 
@@ -370,11 +385,13 @@ asper*, *Phyllostachys edulis* e *Phyllostachys reticulata*. Capacidade entre **
 *D. asper*, **14,4 kN** contra 12,2 kN do *P. edulis*.
 
 O número que importa para este artigo está na revisão de literatura que eles fazem, citando Zhou e colegas (2022):
-vigas múltiplas de bambu **com ligações longitudinais** apresentaram **redução de 63,87% na capacidade máxima de
-carga em flexão**.
+naquele ensaio, vigas com **ligações longitudinais** apresentaram **redução de 63,87% na capacidade máxima de carga
+em flexão**.
 
-Sessenta e três por cento. Não por causa de defeito no bambu: por causa do **encontro** entre os bambus. É a
-quantificação da ideia que este artigo inteiro defende.
+Sessenta e três por cento de perda. Vale delimitar o que é e o que não é: o ensaio de Zhou comparou **um corpo
+conectado com um corpo íntegro**, numa configuração específica de viga. Não é uma lei geral do bambu, e outros
+arranjos do mesmo tipo de estudo tiveram resultado diferente. O que o número estabelece é que, **naquele arranjo**, a
+ligação longitudinal foi o fator dominante — não que toda ligação custa 63%.
 
 Vale registrar também o que a mesma revisão descreve do lado positivo: arame de aço e reforços equivalentes, quando
 bem usados, recuperam desempenho — e Ghavami (1995) relatou **aumento de 400% na carga última** de vigas de concreto
@@ -407,7 +424,8 @@ Leia de novo: **tração perpendicular à fibra**. É o esforço que uma ligaç�
 A coincidência é sugestiva, mas precisa de ressalva: o ensaio de ligação descrito neste artigo **não levou os corpos
 de prova à ruptura** — parou no limite de flecha. Então não há, ali, observação direta do modo de ruptura da ligação
 para comparar. O que se pode dizer é mais modesto e continua útil: **o colmo rompe por fragilidade fora do sentido da
-fibra, e é exatamente esse o esforço que a ligação impõe.** Se a ligação rompe do mesmo modo, este artigo não mediu.
+fibra, e a ligação é um dos pontos em que esse esforço é imposto.** Se a ligação rompe do mesmo modo, este artigo não
+mediu — a hipótese segue aberta.
 
 ---
 
@@ -430,8 +448,9 @@ afirmar que a causa é "o encontro" está indo além da fonte.
 **Normalize pela geometria antes de comparar estudos.** Diâmetro, espessura e vão mudam o número. Comparar ligações
 sem normalizar é comparar medidas de coisas diferentes.
 
-**Trate a ligação como item de projeto, com o mesmo peso da peça.** Sessenta e três por cento de perda em viga com
-ligação longitudinal não é detalhe construtivo. É o comportamento dominante.
+**Trate a ligação como item de projeto, com o mesmo peso da peça.** Um ensaio registrou 63,87% de perda com ligação
+longitudinal. Não é lei geral, é o pior caso medido — e basta para mostrar que a ligação pode dominar o
+comportamento.
 
 **Não conte com o nó como reforço automático.** A evidência disponível mostra efeito na rigidez global, não um
 reforço simples de ligação.
