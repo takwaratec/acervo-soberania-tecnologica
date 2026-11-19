@@ -1,12 +1,18 @@
 ---
 titulo: "As conexões: onde o bambu para de ser material e vira problema"
-subtitulo: "O primeiro artigo falou do bambu. Este fala do ponto onde ele se encontra com outra coisa"
+subtitulo: "O primeiro artigo falou do bambu. Este fala do ponto onde ele se encontra com outra coisa — e do que o Acervo já sabia sobre isso"
 tipo_documental: material-didatico-institucional
 estado_documental: em-revisao-documental
 responsavel_curadoria: pendente — nao designado
-fonte_primaria: 254 PDFs da coleção Advances in Bamboo Science; inventário e sha256 em
+fonte_primaria: fichas do Acervo Soberania Tecnologica, gaveta bambu-estrutural (Release 1),
+  docs/analyses/bambu-estrutural/ -- camada de base
+fonte_secundaria: 254 PDFs da colecao Advances in Bamboo Science; inventario e sha256 em
   takwaratec/TakwaraTec-Laboratorio-Editorial, branch bambu-science/decupagem-20261118-r1,
-  ops/command-center/task-results/BAMBU-SCIENCE/MANIFESTO_CUSTODIA_PDFS.txt
+  ops/command-center/task-results/BAMBU-SCIENCE/MANIFESTO_CUSTODIA_PDFS.txt -- camada nova, nao homologada
+camadas: [release-1-acervo, bamboo-science-nao-homologada]
+nota_homologacao: "As fichas da colecao Bamboo Science NAO estao homologadas (todas em
+  em-revisao-documental). Todo dado vindo delas e marcado no corpo como (BS)."
+versao: 2
 material: didatico
 publico: leigo
 versao: 1
@@ -29,12 +35,35 @@ Muitas conexões obrigam a força a sair do sentido da fibra, e é aí que come�
 norma registra é a conexão que trabalha por **compressão ao longo da fibra** — apoiar a ponta de um colmo na outra —
 que não fura nem atravessa a fibra.
 
-**Uma separação necessária.** O Acervo tem um boletim técnico autoral sobre conexões — *Solda Vegetal: Conexões
-Estruturais e Biocompósitos em Bambu* — que descreve uma **proposta** de sistema de fixação com poliuretano vegetal,
-declarado ali como especificação autoral com desempenho a verificar. Este artigo é outra coisa: ele **não descreve
-nem avalia aquele sistema**, não o repete e não o contradiz. Ele reporta **o que a literatura científica mediu sobre
-conexões de bambu**. Onde este texto diz "a ligação varia 0,47", é medição publicada; onde o boletim diz "propõe-se
-a resolver o gargalo", é proposta declarada como proposta. As duas camadas não se misturam.
+## Três camadas de evidência — e qual sustenta o quê
+
+Este texto junta material de procedências diferentes, e a diferença importa. Tudo que aparece no corpo leva uma
+marca de origem. Sem ela, o leitor não sabe o peso do que está lendo.
+
+**Camada base — as fichas do Acervo (gaveta `bambu-estrutural`).** É o que o Acervo já catalogou antes desta frente:
+a revisão de conexões de Hong e colegas (2019), a dissertação de Bussinger (2024) sobre 16 obras paulistas, a revisão
+sistemática de Adier e colegas (2023), a comparação normativa de Marçal (2018), a ficha do NSR-10 colombiano, a
+inspeção do Quiosque do Coco em Rio Branco. Quando este artigo diz uma coisa que essas fichas já diziam, é delas que
+vem. **Nenhuma marca** aparece nesses trechos, porque é a camada de referência.
+
+**Camada nova — a coleção *Advances in Bamboo Science*.** 254 PDFs triados nesta frente, dos quais 12 viraram fonte
+de dado. **Estão todos em `em-revisao-documental`: nenhuma ficha desta coleção foi homologada.** Por isso, todo dado
+que vem deles aparece marcado com **(BS)** — código de origem no fim da frase ou da linha da tabela. (BS) quer dizer:
+*medição publicada, ainda não homologada pelo Acervo*. Leia como leitura de fonte primária por um curador, não como
+ficha conferida.
+
+**Camada autoral — a proposta da casa.** O Acervo tem um boletim técnico, *Solda Vegetal: Conexões Estruturais e
+Biocompósitos em Bambu*, que descreve um sistema de fixação com poliuretano vegetal, declarado ali como
+**especificação autoral com desempenho a verificar**. Este artigo **não descreve nem avalia aquele sistema**, não o
+repete e não o contradiz. Mas o problema que ele ataca é o mesmo que este texto descreve: o boletim aponta o
+chumbamento cimentício e os conectores metálicos rígidos como o gargalo, e propõe uma fixação flexível no lugar. Onde
+este texto diz "a ligação varia 0,47", é medição de terceiro; onde o boletim diz "propõe-se a resolver o gargalo", é
+proposta declarada como proposta. As camadas não se misturam — e o artigo diz, no fim, o que a proposta da casa
+precisa provar para deixar de ser proposta.
+
+**O que este artigo NÃO é:** não é revisão sistemática. A camada base não tem protocolo declarado de busca (a própria
+ficha de Hong registra isso como limitação), e a camada nova é leitura dirigida de uma coleção, não de todas as
+coleções. É ensaio de divulgação ancorado em fichas — com a origem de cada afirmação à vista.
 
 ---
 
@@ -122,12 +151,19 @@ consequência de geometria, não de má qualidade:
 - **A superfície externa é lisa e rígida.** Aquilo que protege o colmo da chuva também atrapalha a aderência de
   cola ou resina.
 - **A resistência ao cisalhamento é baixa.** Cisalhamento é a força que tenta "deslizar" uma camada sobre a outra.
-  A literatura citada pelo artigo registra ordens de grandeza em torno de **12 MPa** nesse modo.
+  A literatura citada pelo artigo registra ordens de grandeza em torno de **12 MPa** nesse modo. (BS)
 - **O material é ortotrópico.** Palavra difícil para uma coisa simples: ele responde de forma diferente conforme a
   direção da força. A fibra só existe no comprimento. Logo, a distribuição de esforço na ligação sai desigual.
 
 Nada disso se resolve com "usar bambu melhor". São propriedades do colmo, e a ligação tem que ser desenhada em
 volta delas.
+
+**E o Acervo já tinha isso catalogado.** A [ficha de Hong e colegas
+(2019)](../china-bamboo-connections-review-2019.md) — *Review on connections for original bamboo structures*,
+*Journal of Renewable Materials*, v. 7, n. 8 — abre exatamente com este diagnóstico: geometria tubular, parede
+relativamente fina, anisotropia e variabilidade dos colmos dificultam a transferência confiável de esforços e a
+padronização de componentes. A ficha classifica isso como o problema estrutural central das conexões. O que este
+artigo acrescenta é o detalhamento de cada motivo; o diagnóstico não é novo na casa.
 
 ---
 
@@ -175,11 +211,35 @@ entra no colmo**. Três perguntas decidem tudo:
 
 Dessa combinação saem **seis grupos**. O grupo 1 serve principalmente para transmitir compressão; os grupos 2, 3 e
 4 para tração. E o artigo registra um número que dá a dimensão do assunto: **dezessete combinações** dos grupos 1 a
-4 já foram identificadas em ligações de bambu conhecidas.
+4 já foram identificadas em ligações de bambu conhecidas. (BS)
 
 Um detalhe que quase ninguém nota: o **grupo 5 não se combina** facilmente com os outros. E o grupo 6, quando
 combina, geralmente combina com o grupo 3 — porque o que ele traz é pré-tensão, e pré-tensão serve para aumentar
 atrito, que é justamente o que o grupo 3 faz.
+
+### O que a gaveta já tinha sobre esses grupos — e com números
+
+A [ficha de Hong e colegas (2019)](../china-bamboo-connections-review-2019.md) organiza o mesmo assunto por outra
+via: duas famílias tradicionais (encaixes e amarrações) e quatro grupos de soluções modernas — juntas parafusadas;
+juntas com perfis ou chapas de aço; juntas reforçadas por preenchimento; e outras soluções, incluindo reforços
+poliméricos, componentes de madeira e peças personalizadas. É uma taxonomia vizinha à da norma, não idêntica, e
+serve para conversar com a literatura mais antiga.
+
+E ela traz cinco números que este artigo não teria como produzir:
+
+| O que foi comparado | Ganho relatado |
+|---|---:|
+| Rigidez, três juntas com componentes de aço frente às tradicionais | mínimo **29%** |
+| Resistência, no mesmo conjunto | mínimo **250%** |
+| Resistência ao cisalhamento, reforço CFRP de camada única | **18,4%** |
+| Capacidade, juntas com braçadeiras de madeira | aprox. **40%** |
+| Massa, em certas juntas preenchidas com argamassa | **≥ 2,5 vezes** |
+
+Duas ressalvas que a própria ficha faz e que valem repetir: os números pertencem a estudos específicos compilados pela
+revisão e **não se generalizam** para outra espécie, geometria ou sistema; e a revisão conclui que **nenhuma solução
+reúne plenamente** capacidade, rigidez, durabilidade, facilidade construtiva e baixo custo. Aquele último número —
+massa 2,5 vezes maior — é o preço escondido do preenchimento: enche o vazio e resolve o cisalhamento, mas a peça
+deixa de ser leve.
 
 ---
 
@@ -192,7 +252,7 @@ Os números do bambu usado, medidos sob a ISO 22157:
 
 - umidade 11,4% (variação 0,02)
 - densidade 757 kg/m³
-- compressão paralela à fibra **43,0 MPa**, com variação de **0,27**
+- compressão paralela à fibra **43,0 MPa**, com variação de **0,27** (BS)
 - módulo de compressão 7.390 MPa
 - cisalhamento 11,0 MPa
 - compressão perpendicular 9,9 MPa
@@ -240,8 +300,8 @@ equação do 5º percentil com k = 1,834 (amostra de 40):**
 
 | Grandeza | Média | Variação (COV) | Valor característico |
 |---|---|---|---|
-| Momento máximo M<sub>max</sub> | 807 N·m | 0,28 | **393 N·m** |
-| Momento de escoamento M<sub>y</sub> | 469 N·m | **0,47** | **65 N·m** |
+| Momento máximo M<sub>max</sub> | 807 N·m | 0,28 | **393 N·m** | (BS)
+| Momento de escoamento M<sub>y</sub> | 469 N·m | **0,47** | **65 N·m** | (BS)
 | Rigidez rotacional K<sub>θ</sub> | 31.390 N·m/rad | 0,41 | 29.050 (normal) / 26.740 (lognormal) |
 
 Confira a conta: 807 × (1 − 1,834 × 0,28) = **393**. E 469 × (1 − 1,834 × 0,47) = **65**. As duas batem.
@@ -256,7 +316,7 @@ diferentes, dois fatores diferentes** — e misturar os dois é o erro clássico
 | Grandeza | Média | Curva característica | Queda |
 |---|---|---|---|
 | Carga máxima F<sub>max</sub> | 1.428 N | **693 N** | 51% |
-| Carga de escoamento F<sub>y</sub> | 831 N | **115 N** | 86% |
+| Carga de escoamento F<sub>y</sub> | 831 N | **115 N** | 86% | (BS)
 
 Aqui a queda não sai de média × fator: sai da **curva característica inteira**, construída a partir da relação
 momento-rotação. Note a diferença entre a média e a curva característica na carga máxima — 1.428 contra 693 — e na
@@ -382,17 +442,39 @@ Repare que os três defeitos são o mesmo problema visto de ângulos diferentes:
 caminho da ruptura**. A tradição compensa isso com geometria e redundância. A norma compensa com ensaio e fator de
 segurança. Nenhuma das duas elimina o problema.
 
+### O que aconteceu de fato nas obras brasileiras
+
+Aqui o Acervo tem dado de campo, não de laboratório. A [dissertação de Bussinger
+(2024)](../bussinger-2024-bambu-sistemas-estruturais.md) examinou **16 obras construídas no estado de São Paulo entre
+2003 e 2023** com colmo como elemento estrutural principal. Quatro achados mudam a conversa:
+
+- **Mais de um conector por estrutura, sem correlação com a forma.** A autora observa o uso frequente de mais de um
+  tipo de conexão para montar um conector, e mais de um tipo de conector em cada estrutura, **sem relação clara entre
+  a forma da estrutura e o detalhe escolhido**. Ou seja: na prática, a escolha do conector não seguiu um critério
+  geométrico explícito. As estruturas de colmo, conclui ela, **não são naturalmente padronizáveis**.
+- **O conector "boca-de-peixe" foi abandonado.** Desaparece progressivamente das obras a partir de 2003,
+  possivelmente por incompatibilidade com as espécies usadas no Brasil, propensão a fissuras e dificuldade de
+  execução. É um sistema que saiu de uso por acumulação de problemas, não por decreto.
+- **Fissura em todas as varas de todos os casos.** Não é exceção: é regra. O que reforça a tese deste artigo — o
+  colmo fissura, e a ligação é onde a fissura tem consequência estrutural.
+- **Nível tecnológico médio.** A maioria dos projetos usa conectores de nível tecnológico médio; nenhum caso no nível
+  baixo e apenas dois no nível alto.
+
+E a ficha da dissertação registra as normas que a autora usou como referência: **ABNT NBR 16828**, **ABNT NBR
+17043:2023** (classificação de varas, com conicidade ≤ 1% e encurvamento L/100) e **ISO 22156:2021**. É a ponte entre
+a norma que este artigo discute e a obra que existe no Brasil.
+
 ---
 
 ## 9. O que a ligação faz com a estrutura inteira: o dado mais duro
 
 Um artigo de 2026 da PUC-Rio mediu vigas estruturais feitas de ripas de bambu em três espécies — *Dendrocalamus
 asper*, *Phyllostachys edulis* e *Phyllostachys reticulata*. Capacidade entre **9 kN e 16 kN**; melhor média com o
-*D. asper*, **14,4 kN** contra 12,2 kN do *P. edulis*.
+*D. asper*, **14,4 kN** contra 12,2 kN do *P. edulis*. (BS)
 
 O número que importa para este artigo está na revisão de literatura que eles fazem, citando Zhou e colegas (2022):
 naquele ensaio, vigas com **ligações longitudinais** apresentaram **redução de 63,87% na capacidade máxima de carga
-em flexão**.
+em flexão**. (BS)
 
 Sessenta e três por cento de perda. Vale delimitar o que é e o que não é: o estudo comparou uma **configuração de
 viga conectada** com a **configuração íntegra correspondente**, num arranjo específico. Não é uma lei geral do bambu —
@@ -402,8 +484,20 @@ ligação custa 63%.
 
 Vale registrar também o que a mesma revisão descreve do lado positivo: arame de aço e reforços equivalentes, quando
 bem usados, recuperam desempenho — e Ghavami (1995) relatou **aumento de 400% na carga última** de vigas de concreto
-reforçadas com bambu, comparadas às mesmas vigas sem reforço. Ligação ruim destrói; ligação boa não é enfeite, é
+reforçadas com bambu (BS), comparadas às mesmas vigas sem reforço. Ligação ruim destrói; ligação boa não é enfeite, é
 estrutura.
+
+### E há o caso brasileiro em que a conexão apareceu como patologia
+
+A [inspeção do Quiosque do Coco, no Parque do Tucumã, em Rio Branco-AC](../contecc-2025-patologias-quiosque-coco-rio-branco.md),
+examinou uma cobertura em bambu nativo (*Guadua* sp.) com cerca de **11 anos** de construída e sem manutenção
+programada. O resultado foi severo: **100% das 55 peças estruturais afetadas**, com fissuras em todas (98% do tipo
+longa), fotodegradação em todas, fungos manchadores em todas — e, entre as causas apontadas, **2 peças com conexão
+incorreta**.
+
+Duas em 55 não é o problema dominante, e o texto não deve sugerir que seja: sol, chuva, umidade e falta de manutenção
+fizeram muito mais estrago. Mas o item está na lista, registrado por inspeção técnica em obra real no território de
+atuação do Acervo. Conexão errada não é hipótese de laboratório — é item de laudo.
 
 ---
 
@@ -485,6 +579,26 @@ ripa. O que existe de ligação ensaiada sob norma brasileira, em espécie nativ
 necessidade de inspeção por degradação. O que falta é número: quanto uma ligação perde em dez anos, em ambiente
 úmido.
 
+**Preenchimento que não seja friável — a lacuna já estava catalogada.** O [mapa de lacunas do próprio
+Acervo](../mapa-de-lacunas.md) registra a **L14**: a [revisão de Adier e colegas
+(2023)](../adier-2023-propriedades-tratamento-bambu.md) aponta como **principal lacuna da engenharia contemporânea de
+bambu** a falta de preenchimentos sustentáveis **não friáveis** nas conexões, para impedir o cisalhamento nos nós. Não
+é uma lacuna que este artigo descobriu — é uma lacuna que a gaveta já declarava, e que merece ser dita em voz alta
+porque diz o tamanho do problema. E o preço do preenchimento convencional já está medido: massa pelo menos 2,5
+vezes maior (Hong 2019).
+
+### Dois números da casa que não se encontram
+
+Aqui vale um aviso que só é possível dar quem lê as duas coisas. A [ficha de Marçal
+(2018)](../marcal-2018-normas-internacionais-bambu.md) registra, **como leitura do autor e não como exigência
+universal**, que a norma equatoriana pede verificação por estudo científico com **pelo menos 30 ensaios** para
+ligações alternativas. O método do Harries, lido aqui, chega a **9 corpos de prova**. Trinta contra nove.
+
+Não são a mesma norma nem a mesma espécie, e portanto **não há contradição** — há duas réguas diferentes convivendo
+no acervo. Mas um projetista que abrir só uma das duas fichas vai achar que a outra está errada. Este artigo não
+arbitra qual vale: registra que a diferença existe, que ela depende da norma de origem, e que quem dimensionar em
+território brasileiro deve descobrir primeiro qual régua o seu responsável técnico adota.
+
 O **não obtido** desta frente continua valendo, mas agora com o contorno certo.
 
 O artigo é: **Rivera-Segura, R.; Moya, R.; Gaitán-Álvarez, J.; Granados-Gamboa, M. (2024).** *Analysis of the
@@ -505,34 +619,86 @@ primeiro texto. Aqui fica registrada como limitação declarada, e não como dad
 
 ---
 
-## Fontes deste artigo, em ordem de uso
+## 13. O que a proposta da casa teria de provar
+
+O boletim *Solda Vegetal* propõe substituir o chumbamento cimentício e os conectores metálicos rígidos por fixação
+flexível com poliuretano vegetal. Este artigo não avalia essa proposta — mas deixou no caminho as perguntas que ela
+terá de responder, todas derivadas do que está medido acima:
+
+- **Vai passar pela via 10.2 ou pela 10.3?** Se for por componente, precisa demonstrar a correlação com segurança. Se
+  for por ensaio completo, precisa de campanha própria — e, pelo método lido aqui, **nove corpos de prova** é o piso;
+  pela leitura de Marçal da norma equatoriana, **trinta**.
+- **Qual a variação?** A proposta precisa de COV declarado. A ligação ensaiada neste artigo variou 0,47; com variação
+  nesse patamar, amostra pequena **zera o valor característico**.
+- **Qual o modo de ruptura?** Flexível não significa seguro. O ensaio do Harries parou no limite de flecha e não viu
+  ruptura — a proposta precisará mostrar onde e como rompe, e se rompe dúctil.
+- **E o cisalhamento no nó?** A L14 continua aberta: a lacuna declarada pela literatura é preenchimento sustentável
+  **não friável**. Se o PU vegetal for esse preenchimento, é ali que a proposta será julgada.
+- **E a durabilidade?** O boletim já declara a blindagem com ácido pirolenhoso como hipótese, e a ficha da Embrapa
+  registra ensaio inconclusivo. A fixação flexível herda a mesma pergunta: quanto perde em dez anos, em ambiente
+  úmido.
+
+Nada disso é objeção à proposta. É a régua que este artigo construiu, aplicada a ela em voz alta — porque é o padrão
+que o próprio boletim declara: especificação autoral com desempenho **a verificar**.
+
+---
+
+## Fontes deste artigo, por camada
+
+### Camada base — fichas do Acervo (gaveta `bambu-estrutural`)
+
+Estas fichas já existiam no Acervo antes desta frente. É a camada de referência do artigo. Todas estão em
+`em-revisao-documental` na árvore, com exceção da ficha do NSR-10, que está `homologado-documentalmente`.
+
+- **[Hong et al. (2019)](../china-bamboo-connections-review-2019.md)** — *Review on connections for original bamboo
+  structures.* *Journal of Renewable Materials*, v. 7, n. 8, p. 713–730. DOI
+  [10.32604/jrm.2019.07647](https://doi.org/10.32604/jrm.2019.07647). — diagnóstico geométrico, taxonomia vizinha,
+  cinco indicadores quantitativos, conclusão de que nenhuma solução reúne tudo.
+- **[Bussinger (2024)](../bussinger-2024-bambu-sistemas-estruturais.md)** — *Sistemas estruturais contemporâneos em
+  bambu* (dissertação, USP). — 16 obras paulistas 2003–2023, conectores em uso real, abandono do boca-de-peixe,
+  fissura em todas as varas, NBR 16828 / NBR 17043 / ISO 22156.
+- **[Adier et al. (2023)](../adier-2023-propriedades-tratamento-bambu.md)** — DOI
+  [10.3390/buildings13102449](https://doi.org/10.3390/buildings13102449). — a lacuna do preenchimento sustentável
+  não friável (L14).
+- **[Marçal (2018)](../marcal-2018-normas-internacionais-bambu.md)** — comparação normativa internacional (UnB/FAU).
+  — leitura de ~30 ensaios na norma equatoriana; NSR-10, NTE E.100, NEC-SE-GUADÚA.
+- **[NSR-10, Título G (2010)](../nsr10-titulo-g-guadua.md)** — regulamento colombiano; a gravação da guadua como
+  material estrutural regulado.
+- **[Afonso (2025) — Quiosque do Coco](../contecc-2025-patologias-quiosque-coco-rio-branco.md)** — inspeção de 11
+  anos, 55 peças, 2 com conexão incorreta.
+- **[Mapa de lacunas](../mapa-de-lacunas.md)** — registro da L14.
+
+### Camada nova — *Advances in Bamboo Science* (não homologada)
+
+**Todas em `em-revisao-documental`. Nenhuma homologada.** No corpo, o dado vindo daqui leva a marca **(BS)**.
 
 - **Harries, K.; Rogers, C.; Brancaccio, M. (2022).** *Bamboo joint capacity determined by ISO 22156 'complete joint
-  testing' provisions.* Advances in Bamboo Science 1, 100003. Universidade de Pittsburgh. — classificação por
-  mecanismo, seis grupos, dezessete combinações, ensaio completo, tabela de parâmetros característicos, efeito do
-  tamanho de amostra.
+  testing' provisions.* ABS 1, 100003. — seis grupos, dezessete combinações, via 10.2/10.3, fatores k, efeito do
+  tamanho de amostra. (BS)
 - **Barrile, V.; Genovese, E. (2024).** *Bamboo structures: innovative methods and applications for structural health
-  monitoring and dissemination.* Advances in Bamboo Science 7, 100079. — os cinco motivos de a ligação ser ponto
-  fraco; cisalhamento em torno de 12 MPa; necessidade de inspeção por degradação.
-- **Ding, D.; Xian, M. (2024).** *Research trends and design strategies for bamboo architecture.* Advances in Bamboo
-  Science 8, 100094. — os três modos tradicionais (encaixe, amarração, envolvimento) e o defeito de cada um.
-- **Zhao, J.-C.; Qiu, H.-X. (2023).** *Seismic performance assessment of a multi-story bamboo frame structure.*
-  Advances in Bamboo Science 2, 100011. Universidade do Sudeste, Nanjing. — ligação pilar-viga, Pinching4, vinte
-  sismos, três intensidades.
+  monitoring and dissemination.* ABS 7, 100079. — cinco motivos de a ligação ser ponto fraco; cisalhamento ~12 MPa. (BS)
+- **Ding, D.; Xian, M. (2024).** *Research trends and design strategies for bamboo architecture.* ABS 8, 100094. —
+  encaixe, amarração, envolvimento e o defeito de cada um. (BS)
+- **Zhao, J.-C.; Qiu, H.-X. (2023).** *Seismic performance assessment of a multi-story bamboo frame structure.* ABS 2,
+  100011. — bambu laminado colado, seção retangular, ligação de aço em T; Pinching4; vinte sismos. (BS)
 - **Vasconcelos, P.Q.F.; Paciornik, S.; Silva, F.A. (2026).** *Mechanical behaviour of bamboo slat structural beams.*
-  Advances in Bamboo Science 15, 100228. PUC-Rio. — 9 a 16 kN; *D. asper* 14,4 kN e *P. edulis* 12,2 kN; cita a
-  perda de 63,87% com ligações longitudinais (Zhou et al. 2022) e o ganho de 400% com reforço (Ghavami 1995).
+  ABS 15, 100228. — 9 a 16 kN; a perda de 63,87% de Zhou et al. (2022). (BS)
 - **Seixas, M.; Cardoso, D.; Moreira, L.E.; Paciornik, S. (2024).** *Influence of elastic properties and nodes on the
-  flexural behaviour of bamboo culms.* Advances in Bamboo Science 9, 100100. PUC-Rio e UFMG. — nós tornam o colmo
-  mais flexível; ruptura frágil por cisalhamento e tração perpendicular à fibra.
+  flexural behaviour of bamboo culms.* ABS 9, 100100. — nós, ruptura frágil, tração perpendicular à fibra. (BS)
 
-Todas as citações de resultado são de artigos da coleção *Advances in Bamboo Science* **lidos integralmente**, com
-texto extraído página a página. **Uma exceção, declarada:** o artigo de Rivera-Segura e colegas (2024) foi lido
-apenas no resumo público — o texto completo está bloqueado pelo ScienceDirect. Ele não fornece nenhum número citado
-neste artigo; aparece só para delimitar uma lacuna.
-**Onde conferir:** os 254 PDFs estão custodiados no Drive, em `CustodiaAcervo/bambu-science-r1/pdf/` (remoto
-`gdrive-custodia:`), nomeados `BAM-001.pdf` a `BAM-254.pdf`. O manifesto com `sha256`, volume e tamanho de cada
-um está no repositório de governança — `takwaratec/TakwaraTec-Laboratorio-Editorial`, branch
-`bambu-science/decupagem-20261118-r1`, arquivo `ops/command-center/task-results/BAMBU-SCIENCE/MANIFESTO_CUSTODIA_PDFS.txt`
-— e **não** neste repositório, onde não há binário. Cruze manifesto e Drive pelo ID do arquivo; título de artigo
-de coleção é truncado e quase idêntico entre irmãos.
+Leitura integral, texto extraído página a página. **Uma exceção declarada:** Rivera-Segura e colegas (2024), ABS 6,
+100057 — lido apenas no resumo público, texto completo bloqueado pelo ScienceDirect. Não fornece número citado.
+
+### Camada autoral
+
+- **Takwara, F. R.** — *Solda Vegetal: Conexões Estruturais e Biocompósitos em Bambu.* Série Técnica Plataforma
+  Amazônia Regenerativa, v. 2.2-candidata-004, estado `em-revisao-documental`. DOI da versão anterior:
+  [10.5281/zenodo.21520019](https://doi.org/10.5281/zenodo.21520019). — citado aqui **apenas** como proposta
+  declarada, na seção 13. Não é fonte de nenhum dado.
+
+**Onde conferir os PDFs.** Os 254 arquivos estão custodiados no Drive, em `CustodiaAcervo/bambu-science-r1/pdf/`
+(remoto `gdrive-custodia:`), nomeados `BAM-001.pdf` a `BAM-254.pdf`. O manifesto com `sha256`, volume e tamanho de
+cada um está no repositório de governança — `takwaratec/TakwaraTec-Laboratorio-Editorial`, branch
+`bambu-science/decupagem-20261118-r1`, arquivo
+`ops/command-center/task-results/BAMBU-SCIENCE/MANIFESTO_CUSTODIA_PDFS.txt` — e **não** neste repositório, onde não há
+binário. Cruze manifesto e Drive pelo ID do arquivo.
