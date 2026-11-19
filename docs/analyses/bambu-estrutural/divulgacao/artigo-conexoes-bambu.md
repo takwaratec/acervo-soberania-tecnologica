@@ -4,7 +4,7 @@ subtitulo: "O primeiro artigo falou do bambu. Este fala do ponto onde ele se enc
 tipo_documental: material-didatico-institucional
 estado_documental: em-revisao-documental
 responsavel_curadoria: pendente — nao designado
-fonte_primaria: 254 PDFs da coleção Advances in Bamboo Science, lidos por texto integral
+fonte_primaria: 254 PDFs da coleção Advances in Bamboo Science; inventário e sha256 em MANIFESTO_CUSTODIA_PDFS.txt (frente BAMBU-SCIENCE)
 material: didatico
 publico: leigo
 versao: 1
@@ -31,6 +31,43 @@ declarado ali como especificação autoral com desempenho a verificar. Este arti
 nem avalia aquele sistema**, não o repete e não o contradiz. Ele reporta **o que a literatura científica mediu sobre
 conexões de bambu**. Onde este texto diz "a ligação varia 0,47", é medição publicada; onde o boletim diz "propõe-se
 a resolver o gargalo", é proposta declarada como proposta. As duas camadas não se misturam.
+
+---
+
+## As palavras deste artigo, antes de elas aparecerem
+
+Este texto usa um punhado de termos técnicos. Explico todos aqui, uma vez, para não interromper a leitura depois.
+
+- **COV** (coeficiente de variação): o quanto um conjunto de medidas se espalha. COV 0,28 significa que o desvio
+  típico é 28% da média. Quanto maior, menos previsível é o material.
+- **MPa** (megapascal): unidade de tensão — força dividida por área. **1 MPa = 1 N/mm² = 10,2 kgf/cm²**. Ou seja:
+  1 MPa é a pressão de cerca de dez quilos apoiados em um centímetro quadrado.
+- **N** (newton): força. **10 N ≈ 1 kgf**. Um quilo de peso apoiado na mão é cerca de 10 N.
+- **kN** (quilonewton): mil newtons, ou cerca de 100 kgf.
+- **N·m** (newton-metro): momento — a força multiplicada pela distância. É o que você faz ao apertar um parafuso com
+  uma chave: força na ponta vezes o comprimento da chave.
+- **Momento**: o mesmo que "torque" em linguagem comum. Uma ligação que resiste ao vento ou ao peso de um telhado
+  resiste a momento.
+- **Rigidez**: o quanto a peça resiste a se deformar. Peça rígida dobra pouco; peça flexível dobra muito sob a mesma
+  força.
+- **N/mm** e **N·m/rad**: rigidez — quantos newtons são precisos para deslocar um milímetro, e quantos newtons-metro
+  para girar um radiano.
+- **Flecha**: o quanto a peça se desloca ou dobra quando carregada.
+- **Escoamento**: o ponto em que a peça deixa de se comportar como mola e passa a se deformar de vez.
+- **Cisalhamento**: força que tenta "deslizar" uma camada do material sobre a outra — como passar manteiga.
+- **Histerese**: o caminho de ida diferente do caminho de volta quando a peça é carregada e descarregada. É a
+  assinatura de que algo já se deformou.
+- **Pinçamento**: perda de rigidez no ciclo de volta da histerese. A ligação folgou.
+- **Estado-limite**: a condição a partir da qual a estrutura deixa de cumprir sua função — ou de servir, ou de ser
+  segura.
+- **Eixo neutro**: a linha dentro de uma peça dobrada que não fica nem esticada nem comprimida.
+- **Flambagem**: o colapso de uma peça esbelta por dobra lateral, antes de o material em si quebrar.
+- **Anastomose**: em botânica, a união de vasos que se conectam entre si formando rede.
+- **ISO**: International Organization for Standardization — organização internacional que publica normas técnicas.
+- **TR** (Technical Report): documento técnico informativo da ISO, sem força de norma.
+- **Ortotrópico**: material que responde de forma diferente conforme a direção da força. A madeira e o bambu são.
+
+Com isso, o texto pode usar os termos sem parar para explicá-los.
 
 ---
 
@@ -127,13 +164,17 @@ Os números do bambu usado, medidos sob a ISO 22157:
 Os sete valores vêm da Tabela 1 do artigo, medidos em 20 corpos de prova (umidade e densidade) e 6 a 7 nos ensaios
 mecânicos. Guarde aquele **0,27**. Ele vai reaparecer.
 
-O ensaio seguiu a **ISO 16670** (método cíclico alternado para ligações com conector mecânico). Trinta ciclos de
-acomodação em frações da flecha de controle, depois três ciclos completos em cada nível de 20% a 100% da flecha de
-controle, subindo até a ruptura.
+O ensaio seguiu a **ISO 16670** (método cíclico alternado para ligações com conector mecânico). Antes de explicar
+os passos, dois termos: **flecha** é o quanto a peça se desloca quando carregada; **ciclo** é carregar num sentido,
+inverter e voltar. Trinta ciclos de acomodação em frações da flecha de controle, depois três ciclos completos em cada
+nível de 20% a 100% dessa flecha, com o nível subindo de 20% em 20%.
 
-Um ponto que o artigo faz questão de marcar: **nenhum corpo de prova rompeu fisicamente.** O critério de fim foi
-flecha excessiva — deslocamento de vão dividido por 15 (610 mm ÷ 15 = 41 mm). Ou seja, a ligação parou de servir
-antes de quebrar. Isso, por si, já é informação: a ligação falha por deformação, não por estouro.
+Um ponto que o artigo faz questão de marcar: **nenhum corpo de prova rompeu fisicamente.** O ensaio parou por
+critério de utilidade, não por colapso: **flecha** — o deslocamento da peça — atingiu o vão dividido por 15 (610 mm
+÷ 15 ≈ 41 mm). O que se pode afirmar é só isto: **neste ensaio, o limite prático chegou antes da ruptura do
+material.** O que não se pode afirmar é que a ligação "falha por deformação em vez de romper" — o ensaio não foi
+levado até a ruptura, então não mediu ruptura. Uma ligação que se deforma demais antes de qualquer colapso já é
+inutilizável na prática, e foi esse o critério.
 
 A partir das curvas, o artigo extrai os parâmetros pela **ISO TR 21141**:
 
@@ -155,34 +196,59 @@ parecidos (variação de geometria abaixo de 0,10). Melhorou mais na rigidez: ce
 Depois calcularam os valores característicos. O valor característico não é a média — é o valor que se adota em
 projeto, um piso estatístico. Para amostra de 40, o fator é 1,834.
 
-O que saiu:
+O que saiu — e aqui é importante separar **dois métodos**, porque o artigo usa os dois:
+
+**Tabela 4 do artigo original — valores normalizados, pela equação do 5º percentil (k = 1,834 para n = 40):**
 
 | Grandeza | Média | Variação (COV) | Valor característico |
 |---|---|---|---|
-| Carga máxima F<sub>max</sub> | 1.428 N | **0,29** | 693 N |
 | Momento máximo M<sub>max</sub> | 807 N·m | 0,28 | **393 N·m** |
-| Carga de escoamento F<sub>y</sub> | 831 N | **0,48** | 115 N |
 | Momento de escoamento M<sub>y</sub> | 469 N·m | **0,47** | **65 N·m** |
-| Rigidez elástica K<sub>e</sub> | 99 N/mm | **0,46** | — |
 | Rigidez rotacional K<sub>θ</sub> | 31.390 N·m/rad | 0,41 | 29.050 (normal) / 26.740 (lognormal) |
-| Tensão aparente na fibra extrema | — | 0,27 | — |
 
-Confira a coerência da tabela com a conta que a norma manda fazer: valor característico = média × (1 − 1,834 ×
-variação). Para o momento máximo, 807 × (1 − 1,834 × 0,28) = **393**. Para o momento de escoamento, 469 × (1 −
-1,834 × 0,47) = **65**. Os dois batem.
+Confira a conta: 807 × (1 − 1,834 × 0,28) = **393**. E 469 × (1 − 1,834 × 0,47) = **65**. As duas batem.
 
-Olhe a coluna do meio. A média do momento máximo é 807 N·m. O valor característico é **393 N·m** — menos da metade.
-E o momento de escoamento cai de 469 para **65 N·m**: um sétimo.
+A rigidez usa **outro fator** — não 1,834, e sim 0,18, que é 1,15 ÷ √40. O motivo está no artigo: para **rigidez**
+a norma pede média com 75% de confiança, não o 5º percentil. É por isso que a rigidez cai pouco (31.390 → 29.050) e
+as resistências caem muito. **Duas perguntas diferentes, dois fatores diferentes** — e misturar os dois é o erro
+clássico nesse tipo de tabela.
 
-O artigo explica o mecanismo com clareza incomum. Esse 0,27 de variação na compressão do material **desaparece
-diante do 0,47 de variação do escoamento da ligação**. A ligação não herda a qualidade do material: ela multiplica a
-dispersão. Você junta dois colmos que variam, um conector que varia e um furo que varia — e o resultado varia muito
-mais do que qualquer peça isolada.
+**Tabela 3 do artigo original — a curva característica, derivada dos parâmetros de carga e flecha:**
 
-E há um segundo ponto, ainda mais incômodo, sobre **tamanho de amostra**. O valor característico de um parâmetro cai
-a zero quando a amostra é pequena demais para o nível de variação observado. No programa deste artigo, com a mesma
-média e a mesma variação, **o momento característico cairia a zero se a amostra fosse menor que 10 corpos de
-prova**. E se a amostra fosse maior que 2.000, o mesmo parâmetro subiria 55%, para 101 N·m.
+| Grandeza | Média | Curva característica | Queda |
+|---|---|---|---|
+| Carga máxima F<sub>max</sub> | 1.428 N | **693 N** | 51% |
+| Carga de escoamento F<sub>y</sub> | 831 N | **115 N** | 86% |
+
+Aqui a queda não sai de média × fator: sai da **curva característica inteira**, construída a partir da relação
+momento-rotação. Note a diferença entre a média e a curva característica na carga máxima — 1.428 contra 693 — e na
+carga de escoamento — 831 contra 115.
+
+Olhe o escoamento: cai de 831 para **115 N**, e o momento de escoamento de 469 para **65 N·m**. É queda de 86% e
+86%. Não é redução de segurança: é a diferença entre "o que se mediu uma vez" e "o que se pode garantir".
+
+Olhe os dois números de variação: **0,27** na compressão do bambu e **0,47** no escoamento da ligação. A ligação
+varia cerca de 1,7 vez mais que o material.
+
+Uma ressalva honesta sobre essa comparação: são **grandezas diferentes** medidas em **corpos de prova diferentes** —
+a compressão vem de 6 a 7 amostras de bambu, o escoamento de 40 ligações. Os dois números não provam por si que "a
+ligação multiplica a dispersão"; mostram que, neste programa, a ligação foi a fonte de variação dominante. A
+explicação provável é intuitiva (dois colmos que variam, um conector que varia, um furo que varia), mas provável não
+é medido.
+
+E há um segundo ponto, ainda mais incômodo, sobre **tamanho de amostra**.
+
+O valor característico sai de uma conta simples: **média × (1 − k × variação)**, onde `k` é um fator que depende do
+tamanho da amostra — quanto menos corpos de prova, maior o `k`. Para 40 amostras, `k` = 1,834; para 10, `k` = 2,088;
+para 5, `k` = 2,484.
+
+Agora veja o que acontece quando `k × variação` passa de 1: **o resultado fica negativo** — e valor característico
+negativo não existe. A norma, nesse caso, devolve zero.
+
+Para a variação de 0,47 do momento de escoamento, isso acontece quando `k` passa de 2,13 — ou seja, com **9 corpos
+de prova ou menos**. No programa deste artigo, com a mesma média e a mesma variação, **o momento característico
+cairia a zero se a amostra fosse menor que 10**. E se a amostra fosse maior que 2.000, o mesmo parâmetro subiria 55%,
+para 101 N·m.
 
 Traduzindo: **quem ensaia poucas ligações de bambu não obtém um número conservador — obtém nenhum número.** A norma
 não devolve um valor pequeno. Devolve zero. E zero obriga a repensar o projeto inteiro.
@@ -206,8 +272,12 @@ Daí o ensaio completo, que tem exatamente essa função: não olhar cada mecani
 relação momento-rotação (ou carga-deslocamento) que pode entrar na análise, e capacidades que servem para projeto.
 
 É uma inversão de método que vale para o leitor leigo entender: em materiais homogêneos, calcula-se a peça e
-confia-se no cálculo. Em bambu, a peça é simples e o **encontro** é o problema — e o encontro só se conhece
-testando.
+confia-se no cálculo. Em bambu, a peça é simples e o **encontro** é o problema.
+
+Mas atenção — a norma **não** obriga a ensaiar toda ligação. Ela abre dois caminhos, e o segundo dispensa ensaio da
+ligação inteira: quando a capacidade de um componente pode ser correlacionada com segurança ao comportamento da
+ligação (o caso do apoio na ponta do colmo, ligado direto à resistência à compressão). O ensaio completo existe para
+os casos em que essa correlação não é confiável — que, segundo o artigo, são a maioria.
 
 ---
 
@@ -343,9 +413,11 @@ ripa. O que existe de ligação ensaiada sob norma brasileira, em espécie nativ
 necessidade de inspeção por degradação. O que falta é número: quanto uma ligação perde em dez anos, em ambiente
 úmido.
 
-O **não obtido** desta frente continua valendo: o artigo que comparava *Dendrocalamus asper* com duas *Guadua* (2024,
-DOI 10.1016/j.bamboo.2024.100057) não foi acessado — o ScienceDirect bloqueou o acesso. Se ele tiver dado de
-ligação, esta lacuna é dele.
+O **não obtido** desta frente continua valendo. O artigo registrado como *Dendrocalamus asper* × duas *Guadua*
+(*Advances in Bamboo Science*, 2024, identificador de editora S2773139124000575, DOI 10.1016/j.bamboo.2024.100057)
+**não foi acessado** — o ScienceDirect bloqueou o acesso nesta máquina e no celular. Autores e título completos não
+foram confirmados, porque confirmá-los exigiria abrir a página que está bloqueada. Fica registrado como **pista de
+busca não verificada**, não como referência: se ele tiver dado de ligação, esta lacuna é dele.
 
 ---
 
