@@ -30,9 +30,13 @@ PAGINAS = [
     ("p-achados", "Achados"),
     ("p-limites", "Limites"),
     ("p-adendo", "Bambu exótico"),
+    ("p-artigo", "Artigo didático"),
     ("p-l21", "L21"),
     ("p-estruturas", "Estruturas"),
     ("p-artefatos", "Artefatos"),
+    ("p-c5", "Carrossel 1"),
+    ("p-c6", "Carrossel 2"),
+    ("p-c7", "Carrossel 3"),
 ]
 
 
@@ -1143,6 +1147,9 @@ Autorizar o merge dos dois PRs. Depois disso, o próximo passo é o PR da L21 re
 """
 
     corpo["p-adendo"] = md_para_html(corte(ler("adendo.md"), "## Duas espécies, dois comportamentos", None))
+    corpo["p-artigo"] = md_para_html(corte(ler("artigo.md"), "Você vê um bambuzal", None))
+    for pid, arq in (("p-c5", "carrossel-5.md"), ("p-c6", "carrossel-6.md"), ("p-c7", "carrossel-7.md")):
+        corpo[pid] = md_para_html(corte(ler(arq), "## Slide 1", None))
 
     corpo["p-artefatos"] += (
         "<h3>Custódia dos documentos</h3>"
