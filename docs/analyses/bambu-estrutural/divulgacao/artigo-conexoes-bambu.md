@@ -68,6 +68,17 @@ Este texto usa um punhado de termos técnicos. Explico todos aqui, uma vez, para
 - **ISO**: International Organization for Standardization — organização internacional que publica normas técnicas.
 - **TR** (Technical Report): documento técnico informativo da ISO, sem força de norma.
 - **Ortotrópico**: material que responde de forma diferente conforme a direção da força. A madeira e o bambu são.
+- **Colmo**: o caule do bambu, o tubo em si. É a peça estrutural.
+- **Corpo de prova**: o pedaço cortado e ensaiado em laboratório. "Amostra" e "corpo de prova" aparecem como
+  sinônimos aqui.
+- **Tensão**: força por unidade de área. Não é a força total — é o quanto ela se concentra.
+- **Compressão**: força que aperta a peça. **Tração**: força que a estica.
+- **Percentil**: onde um valor cai dentro do conjunto. O 5º percentil é o valor abaixo do qual ficam 5% dos
+  resultados — ou seja, de cada 20 medidas, uma é pior.
+- **Valor característico**: o número que se adota em projeto, calculado a partir da amostra com margem estatística.
+  Quase sempre menor que a média.
+- **Normalização**: corrigir uma medida pelas dimensões da peça (diâmetro, vão), para poder comparar com outra de
+  tamanho diferente.
 
 Com isso, o texto pode usar os termos sem parar para explicá-los.
 
@@ -200,7 +211,8 @@ projeto, um piso estatístico. Para amostra de 40, o fator é 1,834.
 
 O que saiu — e aqui é importante separar **dois métodos**, porque o artigo usa os dois:
 
-**Tabela 4 do artigo original — valores normalizados, pela equação do 5º percentil (k = 1,834 para n = 40):**
+**Tabela 4 do artigo original — valores normalizados. Para as duas resistências (M<sub>max</sub> e M<sub>y</sub>),
+equação do 5º percentil com k = 1,834 (amostra de 40):**
 
 | Grandeza | Média | Variação (COV) | Valor característico |
 |---|---|---|---|
@@ -210,10 +222,10 @@ O que saiu — e aqui é importante separar **dois métodos**, porque o artigo u
 
 Confira a conta: 807 × (1 − 1,834 × 0,28) = **393**. E 469 × (1 − 1,834 × 0,47) = **65**. As duas batem.
 
-A rigidez usa **outro fator** — não 1,834, e sim 0,18, que é 1,15 ÷ √40. O motivo está no artigo: para **rigidez**
-a norma pede média com 75% de confiança, não o 5º percentil. É por isso que a rigidez cai pouco (31.390 → 29.050) e
-as resistências caem muito. **Duas perguntas diferentes, dois fatores diferentes** — e misturar os dois é o erro
-clássico nesse tipo de tabela.
+A rigidez é a **exceção da tabela** e usa outro fator: **1,15 ÷ √40 ≈ 0,182** (o artigo arredonda para 0,18). O
+motivo está escrito na fonte: para **rigidez** a norma pede média com 75% de confiança, não o 5º percentil. É por
+isso que a rigidez cai pouco (31.390 × (1 − 0,182 × 0,41) ≈ 29.050) e as resistências caem muito. **Duas perguntas
+diferentes, dois fatores diferentes** — e misturar os dois é o erro clássico nesse tipo de tabela.
 
 **Tabela 3 do artigo original — a curva característica, derivada dos parâmetros de carga e flecha:**
 
@@ -233,7 +245,7 @@ Olhe os dois números de variação: **0,27** na compressão do bambu e **0,47**
 varia cerca de 1,7 vez mais que o material.
 
 Uma ressalva honesta sobre essa comparação: são **grandezas diferentes** medidas em **corpos de prova diferentes** —
-a compressão vem de 6 a 7 amostras de bambu, o escoamento de 40 ligações. Os dois números não provam por si que "a
+a compressão vem de 6 a 7 amostras de bambu, o escoamento de 40 curvas de envelope. Os dois números não provam por si que "a
 ligação multiplica a dispersão"; mostram que, neste programa, a ligação foi a fonte de variação dominante. A
 explicação provável é intuitiva (dois colmos que variam, um conector que varia, um furo que varia), mas provável não
 é medido.
@@ -370,8 +382,12 @@ madeira ou compósito polimérico**. Ele fratura de forma frágil ao longo do ei
 cisalhamento e tração perpendicular à fibra perto do ponto de aplicação da carga, podendo vir antes amassamento e
 flambagem local com lascas.
 
-Leia de novo: **tração perpendicular à fibra**. É o mesmo modo que uma ligação provoca quando fura ou aperta o colmo.
-O colmo e a ligação falham pela mesma fragilidade.
+Leia de novo: **tração perpendicular à fibra**. É o esforço que uma ligação provoca quando fura ou aperta o colmo.
+
+A coincidência é sugestiva, mas precisa de ressalva: o ensaio de ligação descrito neste artigo **não levou os corpos
+de prova à ruptura** — parou no limite de flecha. Então não há, ali, observação direta do modo de ruptura da ligação
+para comparar. O que se pode dizer é mais modesto e continua útil: **o colmo rompe por fragilidade fora do sentido da
+fibra, e é exatamente esse o esforço que a ligação impõe.** Se a ligação rompe do mesmo modo, este artigo não mediu.
 
 ---
 
@@ -386,7 +402,9 @@ impraticável na interação. Se o projeto não tem ligação de catálogo, o en
 zero. É a informação mais acionável do artigo do Harries.
 
 **Espere variação maior que a do material.** Se a compressão do colmo varia 0,27 e o escoamento da ligação varia
-0,48, o erro não está no ensaio — está na natureza do encontro.
+0,48, a hipótese mais provável é que a variação nasça do encontro, não da medição. Não é conclusão fechada: o artigo
+lista controle de ensaio, fabricação do corpo de prova, geometria e condições de contorno como fontes possíveis de
+erro sistemático — e num ensaio servo-hidráulico bem controlado, as duas últimas pesam mais.
 
 **Normalize pela geometria antes de comparar estudos.** Diâmetro, espessura e vão mudam o número. Comparar ligações
 sem normalizar é comparar medidas de coisas diferentes.
@@ -415,11 +433,23 @@ ripa. O que existe de ligação ensaiada sob norma brasileira, em espécie nativ
 necessidade de inspeção por degradação. O que falta é número: quanto uma ligação perde em dez anos, em ambiente
 úmido.
 
-O **não obtido** desta frente continua valendo. O artigo registrado como *Dendrocalamus asper* × duas *Guadua*
-(*Advances in Bamboo Science*, 2024, identificador de editora S2773139124000575, DOI 10.1016/j.bamboo.2024.100057)
-**não foi acessado** — o ScienceDirect bloqueou o acesso nesta máquina e no celular. Autores e título completos não
-foram confirmados, porque confirmá-los exigiria abrir a página que está bloqueada. Fica registrado como **pista de
-busca não verificada**, não como referência: se ele tiver dado de ligação, esta lacuna é dele.
+O **não obtido** desta frente continua valendo, mas agora com o contorno certo.
+
+O artigo é: **Rivera-Segura, R.; Moya, R.; Gaitán-Álvarez, J.; Granados-Gamboa, M. (2024).** *Analysis of the
+physical-mechanical properties of Dendrocalamus asper (Schult.) versus two Guadua angustifolia (Kunth) varieties,
+South and Caribe in the Atlantic Region of Costa Rica.* Advances in Bamboo Science **6**, 100057. DOI
+10.1016/j.bamboo.2024.100057.
+
+Os metadados foram confirmados em registro público (fev. 2024) e o resumo foi lido. **O texto completo não foi
+obtido** — o ScienceDirect bloqueou o acesso nesta máquina e no celular.
+
+E aqui está o ponto que importa para este artigo: **pelo resumo, ele não trata de conexões.** Ele compara
+propriedades físico-mecânicas do colmo — umidade, densidade, flexão, tração, diâmetro, espessura de parede — em três
+materiais plantados no mesmo sítio, na Costa Rica. Uma das conclusões é que as duas variedades de *G. angustifolia*
+quase não diferem entre si.
+
+Ou seja: essa lacuna **não é deste artigo**. Ela pesa na matriz comparativa de propriedades do colmo, que é o
+primeiro texto. Aqui fica registrada como limitação declarada, e não como dado faltante de ligação.
 
 ---
 
