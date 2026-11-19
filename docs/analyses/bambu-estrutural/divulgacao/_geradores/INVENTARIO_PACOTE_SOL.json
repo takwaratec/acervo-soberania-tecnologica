@@ -11,8 +11,8 @@
   "docs/analyses/bambu-estrutural/divulgacao/_geradores/INVENTARIO_PACOTE_SOL.json — um inventario nao pode conter o proprio hash; os demais itens sao verificaveis",
   "docs/analyses/bambu-estrutural/divulgacao/_geradores/verificar_inventario.py — ferramenta que confere o inventario nao pode ser certificada por ele"
  ],
- "commit": "922834bad10dbccb4c46a4e70a57d6f9ef90a585",
- "arvore": "2c9d8bac89114958145597eb3ef217051ad184e9",
+ "commit": "757907e3c5de12b6d7fc481b3ba62e4cef904a81",
+ "arvore": "33d6bda48fa2ce7387f232bee55dd3b88b1bdb38",
  "commit_nota": "commit cuja arvore foi descrita; o commit que grava este arquivo acrescenta apenas ele, sem alterar nenhum item abaixo",
  "total": 109,
  "arquivos": [
@@ -113,8 +113,8 @@
   },
   {
    "caminho": "docs/analyses/bambu-estrutural/divulgacao/INSTRUCAO_AUDITORIA_EXTERNA_BAMBU.md",
-   "bytes": 11342,
-   "sha256": "babdfb365d9a741aca754fb8a067ad3cbd3f2f453caaf27472968e1da2cec81c"
+   "bytes": 11647,
+   "sha256": "0114d42046c497a7441eff6c92df5b24de7f377705b53c87db711d57bfea61af"
   },
   {
    "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/aba_especies_dados.py",
@@ -607,6 +607,8 @@
   }
  ],
  "adicionados_desde_o_inventario_anterior": [],
- "alterados_desde_o_inventario_anterior": [],
+ "alterados_desde_o_inventario_anterior": [
+  "docs/analyses/bambu-estrutural/divulgacao/INSTRUCAO_AUDITORIA_EXTERNA_BAMBU.md"
+ ],
  "duplicatas_corrigidas": 0
 }
