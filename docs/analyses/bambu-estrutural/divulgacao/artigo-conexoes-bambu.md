@@ -50,8 +50,9 @@ Este texto usa um punhado de termos técnicos. Explico todos aqui, uma vez, para
 - **kN** (quilonewton): mil newtons, ou cerca de 100 kgf.
 - **N·m** (newton-metro): momento — a força multiplicada pela distância. É o que você faz ao apertar um parafuso com
   uma chave: força na ponta vezes o comprimento da chave.
-- **Momento**: o mesmo que "torque" em linguagem comum. Uma ligação que resiste ao vento ou ao peso de um telhado
-  resiste a momento.
+- **Momento**: força aplicada a uma distância, tentando girar a peça. É o que você faz com uma chave de roda: força
+  na ponta vezes o comprimento da chave. Não toda ligação é dimensionada para resistir a momento — algumas só
+  transmitem força direta, e se apoiam em outro elemento para o resto.
 - **Rigidez**: o quanto a peça resiste a se deformar. Peça rígida dobra pouco; peça flexível dobra muito sob a mesma
   força.
 - **N/mm** e **N·m/rad**: rigidez — quantos newtons são precisos para deslocar um milímetro, e quantos newtons-metro
@@ -147,8 +148,9 @@ que interessa aqui é a **cláusula 10**, a de ligações. E ela oferece dois ca
    segurança o componente com o comportamento da ligação — por exemplo, a capacidade de apoio da ponta do colmo,
    que se liga direto à resistência admissível à compressão.
 
-Para alguns tipos bem estabelecidos, a norma traz requisito específico (cláusulas 10.10 a 10.12). Para **a maioria**
-das ligações, o caminho é o ensaio.
+Para alguns tipos bem estabelecidos, a norma traz requisito específico (cláusulas 10.10 a 10.12). Para as demais, a
+norma manda **qualificar a ligação** — e oferece duas vias: o ensaio completo (10.2) ou capacidades de componente
+corroboradas por ensaio (10.3). O que ela não permite é usar a ligação sem qualificação.
 
 Isso tem uma consequência prática que o artigo original não esconde: **a norma diz o que fazer quando a ligação não
 está na tabela.** Ela não proíbe a ligação nova. Ela exige que você a ensaie.
@@ -318,7 +320,7 @@ confia-se no cálculo. Em bambu, a peça é simples e o **encontro** é o proble
 Mas atenção — a norma **não** obriga a ensaiar toda ligação. Ela abre dois caminhos, e o segundo dispensa ensaio da
 ligação inteira: quando a capacidade de um componente pode ser correlacionada com segurança ao comportamento da
 ligação (o caso do apoio na ponta do colmo, ligado direto à resistência à compressão). O ensaio completo existe para
-os casos em que essa correlação não é confiável — que, segundo o artigo, são a maioria.
+os casos em que essa correlação não é confiável.
 
 ---
 
