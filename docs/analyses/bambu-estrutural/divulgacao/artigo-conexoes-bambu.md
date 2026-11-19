@@ -79,6 +79,12 @@ Este texto usa um punhado de termos técnicos. Explico todos aqui, uma vez, para
   Quase sempre menor que a média.
 - **Normalização**: corrigir uma medida pelas dimensões da peça (diâmetro, vão), para poder comparar com outra de
   tamanho diferente.
+- **Curva de envelope** (ou de esqueleto): a curva que sobra quando você pega o pico de cada ciclo de carga e liga
+  um ponto ao outro. É o "formato" da ligação, sem o vai e vem.
+- **Erro sistemático**: erro que puxa todos os resultados para o mesmo lado, sempre. Diferente do acaso, que espalha
+  para cima e para baixo e some na média.
+- **Condições de contorno**: como a peça está presa nas pontas durante o ensaio — apoiada, engastada, livre. Muda o
+  resultado mesmo com o mesmo material.
 
 Com isso, o texto pode usar os termos sem parar para explicá-los.
 
@@ -241,7 +247,12 @@ carga de escoamento — 831 contra 115.
 Olhe o escoamento: cai de 831 para **115 N**, e o momento de escoamento de 469 para **65 N·m**. É queda de 86% e
 86%. Não é redução de segurança: é a diferença entre "o que se mediu uma vez" e "o que se pode garantir".
 
-Olhe os dois números de variação: **0,27** na compressão do bambu e **0,47** no escoamento da ligação. A ligação
+Olhe os dois números de variação: **0,27** na compressão do bambu e **0,47** no escoamento da ligação.
+
+Um aviso para não parecer contradição: aparecem **dois** valores de variação para o escoamento em tabelas diferentes —
+**0,48** para a carga de escoamento F<sub>y</sub> (em newtons) e **0,47** para o momento de escoamento
+M<sub>y</sub> (em newton-metro). São a mesma ligação medida em duas grandezas; a pequena diferença é do cálculo de
+momento, que multiplica a carga pela distância de cada corpo de prova. A ligação
 varia cerca de 1,7 vez mais que o material.
 
 Uma ressalva honesta sobre essa comparação: são **grandezas diferentes** medidas em **corpos de prova diferentes** —
@@ -267,7 +278,7 @@ para 101 N·m.
 Traduzindo: **quem ensaia poucas ligações de bambu não obtém um número conservador — obtém nenhum número.** A norma
 não devolve um valor pequeno. Devolve zero. E zero obriga a repensar o projeto inteiro.
 
-Como ensaiar duas mil ligações é impraticável, a conclusão do artigo é direta: **o que sobra é reduzir o erro
+Como ensaiar duas mil curvas é impraticável, a conclusão do artigo é direta: **o que sobra é reduzir o erro
 sistemático**. Controle de ensaio, fabricação do corpo de prova, geometria, condições de contorno. Não é
 refinamento acadêmico — é a única alavanca que existe.
 
@@ -404,7 +415,8 @@ zero. É a informação mais acionável do artigo do Harries.
 **Espere variação maior que a do material.** Se a compressão do colmo varia 0,27 e o escoamento da ligação varia
 0,48, a hipótese mais provável é que a variação nasça do encontro, não da medição. Não é conclusão fechada: o artigo
 lista controle de ensaio, fabricação do corpo de prova, geometria e condições de contorno como fontes possíveis de
-erro sistemático — e num ensaio servo-hidráulico bem controlado, as duas últimas pesam mais.
+erro sistemático, **sem dizer qual delas foi a culpada aqui** — e registra que o controle deste ensaio era muito bom,
+porque a máquina era servo-hidráulica. Ou seja: o artigo lista as suspeitas e não elege a causa.
 
 **Normalize pela geometria antes de comparar estudos.** Diâmetro, espessura e vão mudam o número. Comparar ligações
 sem normalizar é comparar medidas de coisas diferentes.
@@ -420,7 +432,9 @@ reforço simples de ligação.
 ## 12. O que continua faltando
 
 **A amostra.** Ligação de bambu quase nunca tem amostra grande, e o próprio artigo que demonstra o método tem
-quarenta corpos de prova. O limite é prático, não teórico.
+**vinte ligações físicas**, e o limite é prático, não teórico. O artigo transforma essas vinte em quarenta
+resultados porque ensaia cada uma nos dois sentidos — carregando para um lado e para o outro — e trata a curva de
+ida e a de volta como dados separados. Confira na seção 5: são 20 ligações e 40 curvas.
 
 **Ligação padronizada com número publicado.** A maioria dos estudos, como o próprio Harries registra, é de conexão
 patenteada ou pontual. Falta catálogo aberto de ligação com capacidade característica publicada, no formato em que
