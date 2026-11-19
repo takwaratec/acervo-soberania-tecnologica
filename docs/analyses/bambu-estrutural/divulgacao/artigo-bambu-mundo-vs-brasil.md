@@ -228,9 +228,10 @@ como problema de invasão **não são brasileiras**. São asiáticas, e estão a
 fossem daqui.
 
 O **bambu-dourado** (*Phyllostachys aurea*) tem rizoma alongado, corre debaixo da terra e aparece em documentos
-ambientais oficiais como espécie invasora. O **bambu-comum** (*Bambusa vulgaris*) forma touceira fechada e é tratado
-como exótico estabelecido, sem a mesma restrição. Duas exóticas, dois comportamentos — e a diferença de comportamento
-está no tipo de rizoma, não na "maldade" da planta.
+ambientais oficiais como espécie invasora. O **bambu-comum** (*Bambusa vulgaris*) forma touceira fechada, e é justamente essa touceira que limita o avanço dele
+sobre a vegetação vizinha, ao contrário do que acontece com o bambu-dourado. Isso não o torna inofensivo: há registro
+de *B. vulgaris* como exótica em unidade de conservação, e o guia de manejo do ICMBio trata bambus dentro da flora
+exótica invasora. A diferença é de grau e de comportamento, não de status — e a causa está no tipo de rizoma.
 
 Enquanto isso, as nativas do gênero *Guadua* e dos gêneros *Chusquea*, *Merostachys* e *Apoclada* — que são as do
 Brasil — ficam fora do mapa. *Merostachys*, com dezenas de espécies, não aparece em nenhum dos estudos mecânicos
@@ -282,8 +283,8 @@ de ensaio brasileiro em espécie cultivada asiática, diga isso também. O proje
 rastreável.
 
 **Terceiro: ensaie o que cresce aqui.** O gargalo brasileiro não é falta de bambu nem falta de norma. É falta de
-ensaio mecânico em espécie nativa, sob a NBR 16828, em quantidade suficiente para virar parâmetro de projeto. Seis
-espécies em todo o continente, uma delas estudada em 2009, não é base para um país de dimensão continental.
+ensaio mecânico em espécie nativa, sob a NBR 16828, em quantidade suficiente para virar parâmetro de projeto. Seis espécies em toda a
+literatura mecânica reunida aqui, uma delas estudada em 2009, não é base para um país de dimensão continental.
 
 **Quarto: cuidado com a palavra "nativo".** Exótica naturalizada não é nativa. A confusão não é só de vocabulário — ela
 contamina a literatura e faz um artigo sobre bambu asiático passar por artigo sobre bambu brasileiro.
