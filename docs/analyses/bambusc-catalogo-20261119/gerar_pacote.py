@@ -60,9 +60,11 @@ man = {
     "arvore_na_geracao": rev("HEAD^{tree}"),
     "gerado_em": "2026-11-19",
     "exclusao_declarada": EXCLUIDOS,
-    "convencao": ("o manifesto descreve os arquivos irmaos do diretorio; quando o commit "
-                  "declarado ja contem esta versao, a conferencia fecha 100%. Regere e "
-                  "recommite sempre que um arquivo do diretorio mudar."),
+    "convencao": ("o manifesto descreve o estado do commit em que foi GERADO (HEAD na hora da "
+                  "geracao). O commit que o contem tem o MESMO conteudo, exceto o proprio manifesto "
+                  "e o gerador — por isso os dois estao em exclusao_declarada. Verificar com "
+                  "--commit <commit_na_geracao> fecha 100%; verificar contra o commit que carrega o "
+                  "manifesto tambem, porque os arquivos sao os mesmos."),
     "como_conferir": ("python3 docs/analyses/bambusc-catalogo-20261119/conferir_pacote.py "
                       "--repo . [--commit <sha>]"),
     "inventario": itens,

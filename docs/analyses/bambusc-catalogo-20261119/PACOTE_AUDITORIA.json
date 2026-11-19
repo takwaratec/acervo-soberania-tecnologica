@@ -4,14 +4,14 @@
  "task": "BAMBU-BAMBUSC-CATALOGO-20261119-R1",
  "repo": "takwaratec/acervo-soberania-tecnologica",
  "branch": "bambusc/catalogo-20261119-r1",
- "commit_na_geracao": "81b1d480605a90e705b5b8172f29c09e3701f91f",
- "arvore_na_geracao": "a6d09b473ebcac7174c4bf21a1a380bfa62aefdb",
+ "commit_na_geracao": "d8e87697e4f26526ec224e3caa2981e1086a8587",
+ "arvore_na_geracao": "0ff4bc683ce8dc22f1cf847c8f9ff0b8142b9ae7",
  "gerado_em": "2026-11-19",
  "exclusao_declarada": {
   "PACOTE_AUDITORIA.json": "declara o sha256 dos outros arquivos; o proprio sha nao existe antes de gravar (impossibilidade de construcao)",
   "gerar_pacote.py": "produz o manifesto; excluido declaradamente para que o pacote possa ser regerado"
  },
- "convencao": "o manifesto descreve os arquivos irmaos do diretorio; quando o commit declarado ja contem esta versao, a conferencia fecha 100%. Regere e recommite sempre que um arquivo do diretorio mudar.",
+ "convencao": "o manifesto descreve o estado do commit em que foi GERADO (HEAD na hora da geracao). O commit que o contem tem o MESMO conteudo, exceto o proprio manifesto e o gerador — por isso os dois estao em exclusao_declarada. Verificar com --commit <commit_na_geracao> fecha 100%; verificar contra o commit que carrega o manifesto tambem, porque os arquivos sao os mesmos.",
  "como_conferir": "python3 docs/analyses/bambusc-catalogo-20261119/conferir_pacote.py --repo . [--commit <sha>]",
  "inventario": [
   {
