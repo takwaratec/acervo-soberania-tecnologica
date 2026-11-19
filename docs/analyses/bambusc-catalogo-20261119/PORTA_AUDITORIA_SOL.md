@@ -5,9 +5,14 @@ FRENTE=BAMBU-BAMBUSC
 TASK=BAMBU-BAMBUSC-CATALOGO-20261119-R1
 PR=https://github.com/takwaratec/acervo-soberania-tecnologica/pull/99
 OBJETO_AUDITADO=takwaratec/acervo-soberania-tecnologica @ bambusc/catalogo-20261119-r1
-ALVO_COMMIT=067831ef972802b72d1053ac740083ebe2e11e09   (README) | f7e975429b6966e93399942fab864982c0f6976e (head do branch: inclui esta porta)
+ALVO_COMMIT=81b1d480605a90e705b5b8172f29c09e3701f91f
+  arquivos nesse commit (este diretorio): 15
+  conferir: git ls-tree -r --name-only 81b1d480605a90e705b5b8172f29c09e3701f91f \
+              docs/analyses/bambusc-catalogo-20261119 | wc -l   -> 15
+NOTA_DE_AUTO_REFERENCIA=esta porta NAO pode citar o proprio sha (impossivel por construcao);
+  ela foi corrigida no commit imediatamente posterior ao ALVO_COMMIT, e mede o ALVO_COMMIT.
 PONTEIRO_DO_LEDGER=takwaratec/TakwaraTec-Laboratorio-Editorial ref r4-claims
-  sha_no_despacho=4666cab9  (estado RETORNO)
+  sha_no_despacho=declarado no registro (queue/BAMBU-BAMBUSC-CATALOGO-20261119-R1.json)
 EXECUTOR=HERMES_OPENCODE
 AUDITOR_INTERNO=CODEX_LUNA_MEDIUM
 AUDITOR_EXTERNO=SOL (le so o GitHub)
@@ -15,17 +20,19 @@ AUDITOR_EXTERNO=SOL (le so o GitHub)
 
 ## 1. O que se audita
 
-Um arquivo, 114 linhas: `docs/analyses/bambusc-catalogo-20261119/README.md`. É o registro
-auditável da rodada 1 de catalogação documental sobre publicações de bambu.
+O diretório `docs/analyses/bambusc-catalogo-20261119/` no commit `81b1d48…`: **15
+arquivos**, 13 deles no inventário do manifesto. É o pacote verificável da rodada 1 de
+catalogação documental sobre publicações de bambu.
 
 Nada em `docs/analyses/bambu-estrutural/` foi tocado. Nenhuma ficha foi homologada.
 
 ## 2. Quatro âncoras — e a ordem de parar
 
-1. **Branch + commit fixados** acima, em 40 hex. Se o HEAD medido divergir de
-   `067831ef972802b72d1053ac740083ebe2e11e09`, **pare e reporte** — não audite a ponta.
-2. **sha do ref do ledger no instante do despacho: `4666cab9`.** O ledger é multi-escritor:
-   outra frente pode publicar no mesmo ref depois disso.
+1. **Branch + commit fixados** acima, em 40 hex. Se o HEAD medido não contiver
+   `81b1d480605a90e705b5b8172f29c09e3701f91f`, **pare e reporte** — não audite a ponta.
+2. **sha do ref do ledger**: declarado no próprio registro da tarefa
+   (`queue/BAMBU-BAMBUSC-CATALOGO-20261119-R1.json`, campo `evidence.commit_no_supersede`). O
+   ledger é multi-escritor: outra frente pode publicar no mesmo ref depois do despacho.
 3. **Movimento de outra frente no mesmo ref não é delta desta entrega.** Já existe um:
    `R4-BAMBU-SCIENCE-DECUPE-20261117-R1` com claim de HERMES_OPENCODE e lease expirada —
    achado alheio, desta frente não é dona e **não o corrigiu**.
