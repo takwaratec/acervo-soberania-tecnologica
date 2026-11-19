@@ -2,8 +2,10 @@
 
 **Pacote:** `docs/analyses/bambu-estrutural/` no repositório `acervo-soberania-tecnologica`
 **Branch de referência:** `hermes/mtcc-auditoria-pacote-20261118-r1`
-**Commit:** `e7120b1`
-**Arquivos no escopo:** 113 (inventário com sha256 em `divulgacao/_geradores/INVENTARIO_PACOTE_SOL.json`)
+**Commit:** o topo da PR 98 é a entrega; o inventário declara o commit que descreve e a árvore correspondente
+(`commit` e `arvore` em `divulgacao/_geradores/INVENTARIO_PACOTE_SOL.json`) — um arquivo não pode nomear o commit que o grava.
+**Arquivos no escopo:** 109 (verificados um a um por `divulgacao/_geradores/verificar_inventario.py`, que lê o
+inventário do próprio commit e resolve cada caminho por `git cat-file blob`)
 
 ---
 
