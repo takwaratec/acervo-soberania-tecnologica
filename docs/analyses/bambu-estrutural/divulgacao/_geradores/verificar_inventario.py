@@ -72,7 +72,7 @@ def ler_inventario(repo: str, commit: str) -> tuple[dict | None, str]:
         return None, f"inventario ilegivel: {e}"
 
 
-def verificar(repo: str, commit: str) -> dict:
+def verificar(repo: str, commit: str, disco: bool = False) -> dict:
     inv, erro = ler_inventario(repo, commit)
     if inv is None:
         return {"veredito": "AUSENTE", "motivo": erro, "itens": []}
@@ -98,6 +98,17 @@ def verificar(repo: str, commit: str) -> dict:
                               "motivo": f"nao existe em {declarado[:8]} nem em {commit[:8]}"})
             continue
         obtido = hashlib.sha256(dados).hexdigest()
+        if disco:
+            no_disco = os.path.join(repo, caminho)
+            if os.path.exists(no_disco):
+                with open(no_disco, "rb") as fh:
+                    cru = fh.read()
+                if hashlib.sha256(cru).hexdigest() != esperado:
+                    divergentes += 1
+                    itens.append({"caminho": caminho, "veredito": "DIVERGE", "origem": "disco",
+                                  "motivo": "o arquivo no disco nao tem os bytes do inventario",
+                                  "esperado": esperado, "obtido": hashlib.sha256(cru).hexdigest()})
+                    continue
         if obtido == esperado and len(dados) == a.get("bytes", len(dados)):
             ok += 1
             itens.append({"caminho": caminho, "veredito": "OK", "origem": origem[:8]})
@@ -114,6 +125,11 @@ def verificar(repo: str, commit: str) -> dict:
             divergentes += 1
             itens.append({"caminho": caminho, "veredito": "DIVERGE",
                           "motivo": "declarado removido, mas existe no commit descrito"})
+            continue
+        if disco and os.path.exists(os.path.join(repo, caminho)):
+            divergentes += 1
+            itens.append({"caminho": caminho, "veredito": "DIVERGE",
+                          "motivo": "declarado removido, mas reapareceu no disco"})
             continue
         sha_remocao = (r.get("motivo") or "").split(" ")[0]
         if sha_remocao and not commit_existe(repo, sha_remocao):
@@ -156,7 +172,8 @@ def main() -> int:
         return 2
     sha = sha_ref.strip()
 
-    r = verificar(a.repo, sha)
+    head = (git(a.repo, "rev-parse", "HEAD", texto=True) or "").strip()
+    r = verificar(a.repo, sha, disco=(sha == head))
 
     if a.json:
         print(json.dumps(r, ensure_ascii=False, indent=1))
