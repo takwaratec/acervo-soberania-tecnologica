@@ -316,8 +316,10 @@ projeto, com margem estatística. Para **amostra de 40**, o fator é 1,834.
 **Atenção à unidade de `n`, porque é aqui que quase todo mundo se perde.** O `n = 40` do artigo é o número de
 **curvas de envelope** — uma por sentido de carregamento —, não o número de ligações físicas. As ligações físicas são
 **20**. Quando este texto falar em `n`, é sempre **curva**. E a fonte registra mais um número que importa: a ISO 16670
-recomenda **mínimo de seis corpos de prova**, que é bem menos que 40 — e é justamente por isso que o efeito do tamanho
-de amostra, mostrado adiante, precisa ser levado a sério.
+recomenda **mínimo de seis réplicas**. Mas atenção à comparação — **seis réplicas servem para estimar a MÉDIA** das
+propriedades mecânicas, não o valor característico. São grandezas diferentes, e o número 6 não valida a conta de valor
+característico usada aqui. O que ele mostra é só isto: a norma de ensaio admite amostras bem menores que as 40 curvas
+deste programa — e é essa distância que faz o efeito do tamanho de amostra, mostrado adiante, pesar tanto.
 
 O que saiu — e aqui é importante separar **dois métodos**, porque o artigo usa os dois:
 
@@ -368,16 +370,19 @@ Plausível não é medido.
 E há um segundo ponto, ainda mais incômodo, sobre **tamanho de amostra**.
 
 O valor característico sai de uma conta simples: **média × (1 − k × variação)**, onde `k` é um fator que depende do
-tamanho da amostra — quanto menos corpos de prova, maior o `k`. Para 40 amostras, `k` = 1,834; para 10, `k` = 2,088;
+tamanho da amostra — quanto **menos curvas**, maior o `k`. Para `n` = 40 curvas, `k` = 1,834; para 10, `k` = 2,088;
 para 5, `k` = 2,484.
 
 Agora veja o que acontece quando `k × variação` passa de 1: **o resultado fica negativo** — e valor característico
 negativo não existe. A norma, nesse caso, devolve zero.
 
-Para a variação de 0,47 do momento de escoamento, isso acontece quando `k` passa de 2,13 — ou seja, com **9 corpos
-de prova ou menos**. No programa deste artigo, com a mesma média e a mesma variação, **o momento característico
-cairia a zero se a amostra fosse menor que 10**. E se a amostra fosse maior que 2.000, o mesmo parâmetro subiria 55%,
-para 101 N·m.
+Para a variação de 0,47 do momento de escoamento, isso acontece quando `k` passa de 2,13 — ou seja, com **9 curvas
+ou menos**. No programa deste artigo, com a mesma média e a mesma variação, **o momento característico cairia a zero
+se `n` fosse menor que 10 curvas**. E se a amostra fosse maior que 2.000 curvas, o mesmo parâmetro subiria 55%, para
+101 N·m.
+
+Voltando à unidade: 9 curvas são **cerca de 5 ligações físicas** — porque cada ligação gera duas. O quadro é pior do
+que parece à primeira vista.
 
 Traduzindo: **quem ensaia poucas ligações de bambu não obtém um número conservador — obtém nenhum número.** A norma
 não devolve um valor pequeno. Devolve zero. E zero obriga a repensar o projeto inteiro.
@@ -586,7 +591,7 @@ capacidade do componente se correlaciona com segurança com o comportamento da l
 quando essa correlação não é confiável — é o caso do exemplo deste artigo, em que quatro mecanismos interagem ao mesmo
 tempo.
 
-**Conte os corpos de prova antes de começar.** Com variação alta, amostra pequena não dá número conservador: dá
+**Conte as curvas antes de começar.** Com variação alta, amostra pequena não dá número conservador: dá
 zero. É a informação mais acionável do artigo do Harries.
 
 **Espere variação maior que a do material.** Se a compressão do colmo varia 0,27 e o escoamento da ligação varia
@@ -651,7 +656,7 @@ ensaios** para ligações alternativas.
 
 O número **9** que aparece neste artigo em outro lugar **não é um piso normativo**, e a comparação entre os dois
 não deve ser feita como se fossem a mesma grandeza. Marçal fala de **exigência de norma**: quantos ensaios a norma
-pede para aceitar uma ligação alternativa. O 9 sai de uma **conta estatística** — quantos corpos de prova são
+pede para aceitar uma ligação alternativa. O 9 sai de uma **conta estatística** — quantas curvas são
 necessários para que o valor característico não caia a zero, dada uma variação medida. São perguntas de naturezas
 diferentes:
 
@@ -661,7 +666,7 @@ diferentes:
   (Em ligações físicas, metade disso — porque cada ligação gera duas curvas.)
   Nove não é mínimo — é a última contagem em que o resultado ainda é inutilizável.
 
-Nenhum dos dois substitui o outro. Um ensaio com 30 corpos de prova pode ter variação tão alta que o
+Nenhum dos dois substitui o outro. Um ensaio com 30 réplicas pode ter variação tão alta que o
 característico continua inutilizável; e uma amostra estatisticamente suficiente não vale como qualificação
 normativa onde a norma exige outra coisa. O que o leitor precisa saber é que **os dois números existem, medem coisas
 diferentes, e nenhuma das fichas do acervo que os registra está errada** — mas quem citar um sem o outro vai
