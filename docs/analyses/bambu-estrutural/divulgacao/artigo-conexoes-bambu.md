@@ -202,7 +202,7 @@ E ela traz cinco números que este artigo não teria como produzir:
 |---|---:|
 | Rigidez, três juntas com componentes de aço frente às tradicionais | mínimo **29%** |
 | Resistência, no mesmo conjunto | mínimo **250%** |
-| Resistência ao cisalhamento, reforço CFRP de camada única | **18,4%** |
+| Resistência ao cisalhamento, reforço com fibra de carbono (CFRP) | **18,4%** |
 | Capacidade, juntas com braçadeiras de madeira | aprox. **40%** |
 | Massa, em certas juntas preenchidas com argamassa | **≥ 2,5 vezes** |
 
@@ -384,7 +384,8 @@ difícil de apoiar conector — **não se aplica a esse material**, porque a se�
 componente novo que precisa ser dimensionado, o aço.
 
 O que eles fizeram: modelaram numericamente, e para a ligação pilar-viga propuseram um método simplificado usando um
-modelo histerético do tipo *Pinching4* no OpenSEES — nome que descreve o fenômeno: **pinçamento**. Pinçamento é a
+modelo histerético do tipo *Pinching4* — o nome vem de **pinçamento**, o fenômeno que ele descreve — implementado num
+programa de cálculo estrutural chamado OpenSEES. Pinçamento é a
 perda de rigidez que aparece no ciclo de volta, quando a ligação já se deformou e não volta pelo mesmo caminho. É a
 assinatura de uma ligação que folgou.
 
@@ -485,7 +486,8 @@ incorreta**.
 
 Duas em 55 não é o problema dominante, e o texto não deve sugerir que seja: sol, chuva, umidade e falta de manutenção
 fizeram muito mais estrago. Mas o item está na lista, registrado por inspeção técnica em obra real no território de
-atuação do Takwara. Conexão errada não é hipótese de laboratório: apareceu numa inspeção de campo, registrada em trabalho de congresso
+atuação do Takwara.
+Conexão errada não é hipótese de laboratório: apareceu numa inspeção de campo, registrada em trabalho de congresso
 com estudo de caso e inspeção visual e tátil — não em laudo pericial.
 
 ---
@@ -605,22 +607,15 @@ outro vai confundir requisito com estatística.
 
 **Um artigo ficou de fora, e vale dizer qual.**
 
-O estudo é: **Rivera-Segura, R.; Moya, R.; Gaitán-Álvarez, J.; Granados-Gamboa, M. (2024).** *Analysis of the
-physical-mechanical properties of Dendrocalamus asper (Schult.) versus two Guadua angustifolia (Kunth) varieties,
-South and Caribe in the Atlantic Region of Costa Rica.* Advances in Bamboo Science **6**, 100057. DOI
-10.1016/j.bamboo.2024.100057.
+Rivera-Segura, Moya, Gaitán-Álvarez e Granados-Gamboa (2024) publicaram, na Costa Rica, uma comparação das
+propriedades físico-mecânicas do *Dendrocalamus asper* com duas variedades de *Guadua angustifolia*. Confirmei os dados
+de publicação e li o resumo; **o texto completo não foi obtido**, porque a editora bloqueou o acesso.
 
-Consegui confirmar seus dados de publicação e ler o resumo. **O texto completo não foi obtido** — a editora bloqueou
-o acesso.
+O ponto que importa: **pelo resumo, ele não trata de conexões.** Compara propriedades do colmo — umidade, densidade,
+flexão, tração, diâmetro, espessura de parede — de três materiais plantados no mesmo sítio. Então a lacuna não é de
+ligação; é de propriedade do material. Fica registrada assim, como limitação, sem fingir que foi lida.
 
-E aqui está o ponto que importa para este artigo: **pelo resumo, ele não trata de conexões.** Ele compara
-propriedades físico-mecânicas do colmo — umidade, densidade, flexão, tração, diâmetro, espessura de parede — em três
-materiais plantados no mesmo sítio, na Costa Rica. Uma das conclusões é que as duas variedades de *G. angustifolia*
-quase não diferem entre si.
-
-E há um alívio parcial: **pelo resumo, esse artigo não trata de conexões.** Ele compara propriedades do colmo em três
-materiais plantados no mesmo sítio, na Costa Rica. Então a lacuna não é de ligação — é de propriedade do material, e
-fica registrada aqui como limitação, sem fingir que foi lida.
+A referência completa está na lista de fontes, no fim.
 
 ---
 
@@ -649,7 +644,7 @@ o artigo de referência tem 20 ligações físicas gerando 40 curvas.
   não recomendação de fabricante.
 
 Nenhuma dessas perguntas é objeção. São a régua que este artigo construiu, aplicada a qualquer sistema novo — e é
-exatamente o padrão que essa linha de pesquisa declara: proposta com desempenho **a verificar**.
+exatamente o padrão que essa linha de pesquisa declara: uma proposta, com desempenho ainda a verificar.
 
 ---
 
@@ -675,7 +670,7 @@ em T, vinte sismos em três intensidades.
 
 **Vasconcelos, P.Q.F.; Paciornik, S.; Silva, F.A. (2026).** *Mechanical behaviour of bamboo slat structural beams.*
 Advances in Bamboo Science, v. 15, 100228. PUC-Rio. — Capacidades de 9 a 16 kN; cita a perda de 63,87% com ligações
-longitudinais (Zhou et al., 2022) e o ganho de 400% com reforço (Ghavami, 1995).
+longitudinais (Zhou e colegas, 2022)[^z] e o ganho de 400% com reforço (Ghavami, 1995)[^g].
 
 **Seixas, M.; Cardoso, D.; Moreira, L.E.; Paciornik, S. (2024).** *Influence of elastic properties and nodes on the
 flexural behaviour of bamboo culms.* Advances in Bamboo Science, v. 9, 100100. PUC-Rio e UFMG. — Nós tornam o colmo
@@ -702,12 +697,20 @@ manutenção programada e 2 conexões executadas incorretamente.
 **Silva (2011).** *Tratamento pirolenhoso em bambu laminado colado* (dissertação, Universidade Estadual de Campinas).
 — O ensaio que não demonstrou eficácia contra brocas em condição de campo.
 
-**Normas citadas.** ABNT NBR 16828 — Projeto de estruturas de bambu (2020); ABNT NBR 17043:2023 —
-classificação de varas de bambu; ISO 22156:2021 — *Bamboo structures: structural design*; ISO 22157 — determinação das
-propriedades físicas e mecânicas do colmo; ISO 16670 — ensaio cíclico de ligações com conector mecânico; ISO 12122 —
-determinação de valores característicos.
+**Normas citadas.** ABNT NBR 16828 — projeto de estruturas de bambu (2020); ABNT NBR 17043:2023 — classificação de
+varas de bambu; ISO 22156:2021 — *Bamboo structures: structural design*; ISO 22157-1:2017 — determinação das
+propriedades físicas e mecânicas do colmo; ISO 16670:2003 — ensaio cíclico de ligações com conector mecânico; ISO
+12122-1:2014 e ISO 12122-5:2018 — determinação de valores característicos; ISO/TR 21141 — documento técnico sobre
+determinação de propriedades de ligações.
 
-Um artigo ficou fora, e é bom dizer qual: **Rivera-Segura, Moya, Gaitán-Álvarez e Granados-Gamboa (2024)**, sobre
-propriedades físico-mecânicas de *Dendrocalamus asper* comparado a duas variedades de *Guadua angustifolia* na Costa
-Rica. Li apenas o resumo — o texto completo está bloqueado. Ele não fornece nenhum número deste artigo e, pelo resumo,
-não trata de conexões: compara propriedades do colmo. Fica registrado para que ninguém pense que passou despercebido.
+[^g]: Ghavami, K. (1995). *Ultimate load behaviour of bamboo-reinforced lightweight concrete beams.* Cement and
+    Concrete Composites, v. 17, n. 4. — O ganho de 400% na carga última.
+
+[^z]: Zhou e colegas (2022) — estudo citado na revisão de Vasconcelos e colegas, não lido diretamente para este texto.
+    O valor de 63,87% é reportado como está na revisão, e é assim que deve ser lido: número de segunda mão.
+
+**Rivera-Segura, R.; Moya, R.; Gaitán-Álvarez, J.; Granados-Gamboa, M. (2024).** *Analysis of the physical-mechanical
+properties of Dendrocalamus asper (Schult.) versus two Guadua angustifolia (Kunth) varieties, South and Caribe in the
+Atlantic Region of Costa Rica.* Advances in Bamboo Science, v. 6, 100057. DOI 10.1016/j.bamboo.2024.100057. — Lido
+apenas no resumo; texto completo bloqueado pela editora. Não fornece número a este artigo e, pelo resumo, não trata de
+conexões.

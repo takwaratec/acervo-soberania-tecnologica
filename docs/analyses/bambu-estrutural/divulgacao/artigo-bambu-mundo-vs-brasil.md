@@ -62,7 +62,8 @@ Leitura longa tem um problema: o termo técnico aparece no meio da frase e trava
 - **Gênero**: o grupo acima da espécie. *Guadua* é um gênero; *Guadua angustifolia* é uma espécie desse gênero.
 - **INBAR**: organização internacional dedicada ao bambu e ao rattan, que publica listas de espécies prioritárias.
 - **ABNT NBR 16828**: norma brasileira de projeto de estruturas de bambu, de 2020, revisada em 2022.
-- **ISO 22156**: norma internacional de projeto estrutural em bambu-colmo. A versão de 2021 é a que o mundo usa.
+- **ISO 22156**: norma internacional de projeto estrutural em bambu-colmo. A versão de 2021 é a referência atual; é
+essa edição que aparece nos estudos internacionais lidos aqui.
 
 ---
 
@@ -149,9 +150,9 @@ quatro espécies nativas — *Merostachys skvortzovii*, *Chusquea meyeriana*, *A
 *gracilis* — mas **sem nenhum ensaio mecânico**. Lignina, celulose, extrativos, elementos. Nenhuma medida de quanto
 aguenta.
 
-**Traduzindo.** O continente que tem a maior diversidade de bambu do mundo — e o Brasil é o campeão nisso, com dezenas
-de espécies nativas — tem caracterização mecânica de **seis** espécies. Cinco delas do mesmo gênero. A diversidade
-biológica brasileira e a diversidade de dados brasileiros são inversamente proporcionais.
+**Traduzindo.** Um continente com dezenas de espécies nativas de bambu — e o Brasil tem muitas delas — tem
+caracterização mecânica de **seis** espécies, cinco do mesmo gênero. A diversidade biológica brasileira e a
+diversidade de dados brasileiros são inversamente proporcionais.
 
 ---
 
@@ -200,27 +201,31 @@ ensaio. E o ensaio vem da espécie.
 
 Então a pergunta que fica: **de onde vêm os números que alimentam a norma brasileira?**
 
-Se a resposta é "da literatura internacional", então os coeficientes de projeto do Brasil foram calibrados sobre
-*Guadua angustifolia* colombiana, Moso chinesa e bambus de Java — e não sobre as espécies que crescem nos quintais, nas
-beiras de estrada e nos remanescentes de Mata Atlântica do país.
+**Esta é a pergunta que este texto não consegue responder** — e é importante dizer isso com clareza, em vez de
+insinuar resposta. Não foi feito aqui o levantamento dos coeficientes da norma nem da origem de cada valor. O que se
+pode afirmar é o que está medido acima: a literatura mecânica disponível no circuito internacional é maciçamente
+asiática e colombiana, e a brasileira cobre pouquíssimas espécies.
 
-Se a resposta é "de ensaio brasileiro", então a norma está apoiada em pouquíssima coisa: seis espécies nativas
-caracterizadas mecanicamente no mundo inteiro, uma delas com um único artigo de 2009.
-
-Nenhuma das duas respostas é confortável. E a mais provável é a mistura das duas, porque é assim que norma se faz.
+Se os coeficientes vieram da literatura internacional, foram calibrados sobre *Guadua angustifolia* colombiana, Moso
+chinesa e bambus de Java. Se vieram de ensaio nacional, estão apoiados em muito pouco: seis espécies nativas
+caracterizadas mecanicamente, uma delas com um único artigo de 2009. Nenhum dos dois cenários é confortável — e a
+resposta honesta é que **ninguém deveria precisar adivinhar**.
 
 **O que isso quer dizer na prática.** Projetar em bambu no Brasil, hoje, é projetar com um material cujo
 comportamento — para as espécies que de fato estão disponíveis — foi medido em outro continente, em outro clima, em
 outro solo. A norma dá o procedimento. O número, muitas vezes, vem de fora.
 
-Isso não é o mesmo que dizer que a norma está errada. É dizer que **ela está à frente do dado** — e que quem projeta
-está assumindo essa diferença sem que ninguém tenha medido o tamanho dela.
+Isso não é o mesmo que dizer que a norma está errada. É dizer que **a pergunta sobre a origem dos coeficientes não
+tem resposta pública fácil de encontrar** — e que quem projeta está assumindo uma diferença sem que ninguém tenha
+medido o tamanho dela.
 
 ---
 
 ## 6. E o bambu que o Brasil tem de sobra?
 
-Uma ironia amarga: parte do bambu nativo brasileiro que mais se espalha é tratada como problema ambiental.
+Uma ironia amarga: as duas espécies de bambu que mais se espalham pelo Brasil e que os órgãos ambientais tratam
+como problema **não são brasileiras**. São asiáticas, e estão aqui há tempo suficiente para se comportar como se
+fossem daqui.
 
 O **bambu-dourado** (*Phyllostachys aurea*) tem rizoma alongado, corre debaixo da terra e aparece em documentos
 ambientais oficiais como espécie invasora. O **bambu-comum** (*Bambusa vulgaris*) forma touceira fechada e é tratado
@@ -228,7 +233,8 @@ como exótico estabelecido, sem a mesma restrição. Duas exóticas, dois compor
 está no tipo de rizoma, não na "maldade" da planta.
 
 Enquanto isso, as nativas do gênero *Guadua* e dos gêneros *Chusquea*, *Merostachys* e *Apoclada* — que são as do
-Brasil — ficam fora do mapa. *Merostachys*, com dezenas de espécies, não tem **nenhum** dado mecânico publicado.
+Brasil — ficam fora do mapa. *Merostachys*, com dezenas de espécies, não aparece em nenhum dos estudos mecânicos
+reunidos aqui.
 
 Não é falta de planta. É falta de medida — e medida exige laboratório, norma de ensaio e alguém pagando por isso.
 
@@ -253,9 +259,12 @@ como lacuna, não como ausência discreta.
 **Não diz que a norma brasileira está errada.** Diz que ela é mais ambiciosa que o acervo de dados que a sustenta —
 o que é uma afirmação diferente, e mais justa.
 
-**Não diz que o bambu asiático é pior.** Diz que a diferença entre continentes, quando medida com o mesmo método, é
-pequena e às vezes se inverte. Quem quiser transformar isso em "o nosso é melhor" está lendo o contrário do que os
-números mostram.
+**Não diz que o bambu asiático é pior.** Diz que não há como declarar superioridade geral de um continente sobre o
+outro: os números variam por espécie, e comparações de laboratórios diferentes não se somam. Quem quiser transformar
+isso em "o nosso é melhor" está lendo o contrário do que os números mostram.
+
+**Não diz que o Brasil tem a maior diversidade de bambu do mundo.** Tem muita — é o que a literatura botânica indica —
+mas este texto não mediu isso, e não deve afirmar o que não mediu.
 
 ---
 
@@ -278,8 +287,10 @@ espécies em todo o continente, uma delas estudada em 2009, não é base para um
 **Quarto: cuidado com a palavra "nativo".** Exótica naturalizada não é nativa. A confusão não é só de vocabulário — ela
 contamina a literatura e faz um artigo sobre bambu asiático passar por artigo sobre bambu brasileiro.
 
-**Quinto: a diversidade brasileira é o ativo.** *Merostachys*, *Chusquea*, *Apoclada*, *Eremocaulon*, *Glaziophyton*.
-Nenhum deles tem dado mecânico publicado que sustente projeto. É a maior reserva de bambu do mundo sem ficha técnica.
+**Quinto: a diversidade brasileira é o ativo.** *Merostachys*, *Chusquea*, *Apoclada*, *Eremocaulon*,
+*Glaziophyton* — nenhum deles aparece na literatura mecânica reunida aqui, com a exceção de *Chusquea culeou*, que é
+chilena e tem um artigo de 2009. Isso não prova que não exista estudo em algum lugar; prova que essa literatura não
+chega ao circuito que alimenta projeto no Brasil.
 
 ---
 
@@ -319,8 +330,15 @@ Science, v. 7, 100075. — Quatro nativas brasileiras, sem ensaio mecânico.
 **Bussinger, M. (2024).** *Sistemas estruturais contemporâneos em bambu* (dissertação, Universidade de São Paulo). —
 16 obras paulistas entre 2003 e 2023, cinco espécies, uma nativa.
 
-**ABNT NBR 16828** — Projeto de estruturas de bambu (2020, revisada em 2022). **ISO 22156:2021** — Bamboo structures:
-structural design.
+**Normas citadas.** ABNT NBR 16828 — projeto de estruturas de bambu (2020); ISO 22156:2021 — *Bamboo structures:
+structural design*; ISO 22157 — determinação das propriedades físicas e mecânicas do colmo; ISO 12122 — determinação
+de valores característicos.
+
+**Sobre origem e comportamento das espécies exóticas.** A classificação de origem das espécies asiáticas segue o
+registro botânico internacional (*Plants of the World Online*, Kew). O caráter invasor de *Phyllostachys aurea* e o
+enquadramento de *Bambusa vulgaris* como exótica estabelecida constam de documentos ambientais oficiais brasileiros e
+de plano de manejo de unidades de conservação; a distinção de comportamento vem do tipo de rizoma, tratado na
+literatura botânica sobre o gênero.
 
 E o artigo que ficou de fora: **Rivera-Segura, Moya, Gaitán-Álvarez e Granados-Gamboa (2024)**, sobre propriedades
 físico-mecânicas do *Dendrocalamus asper* comparado a duas variedades de *Guadua angustifolia* na Costa Rica. Lido
