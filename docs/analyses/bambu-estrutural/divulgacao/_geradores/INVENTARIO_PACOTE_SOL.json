@@ -11,8 +11,8 @@
   "docs/analyses/bambu-estrutural/divulgacao/_geradores/INVENTARIO_PACOTE_SOL.json — um inventario nao pode conter o proprio hash; os demais itens sao verificaveis",
   "docs/analyses/bambu-estrutural/divulgacao/_geradores/verificar_inventario.py — ferramenta que confere o inventario nao pode ser certificada por ele"
  ],
- "commit": "c17bfc14939eb485392d8d48345341e2629d24b9",
- "arvore": "314936206a8ebd67f4f40bac722a212e8d5f5b56",
+ "commit": "922834bad10dbccb4c46a4e70a57d6f9ef90a585",
+ "arvore": "2c9d8bac89114958145597eb3ef217051ad184e9",
  "commit_nota": "commit cuja arvore foi descrita; o commit que grava este arquivo acrescenta apenas ele, sem alterar nenhum item abaixo",
  "total": 109,
  "arquivos": [
@@ -562,7 +562,50 @@
    "sha256": "3b211987e5318577d9e1a190a82d2c739144d8edfe898dba4077d6f1ee3bb2df"
   }
  ],
- "removidos": [],
+ "removidos": [
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/adendo.md",
+   "bytes": 11413,
+   "sha256": "e9378d166eaf1a6bbb50b57db2c65fb417324123c27e0cc10d1d12e785323c61",
+   "motivo": "8bb5d95 fix(bambu-estrutural): remove os espelhos de _geradores/ que envelheciam calados"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/artigo.md",
+   "bytes": 9706,
+   "sha256": "c061a188f9263faee25ae8aa794d6be21153d4f1d5daff05bd716fae531e40a9",
+   "motivo": "8bb5d95 fix(bambu-estrutural): remove os espelhos de _geradores/ que envelheciam calados"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/carrossel-5.md",
+   "bytes": 5067,
+   "sha256": "4e3b11fa22c0b0861e1757ff3a9d8a3b4bb1fd9b62ccfc72a100f47722836d9d",
+   "motivo": "8bb5d95 fix(bambu-estrutural): remove os espelhos de _geradores/ que envelheciam calados"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/carrossel-6.md",
+   "bytes": 5165,
+   "sha256": "2405b713d688547ba10bd01549125d665fb6cc5f99bfd8fdc7e75d13cbdb538e",
+   "motivo": "8bb5d95 fix(bambu-estrutural): remove os espelhos de _geradores/ que envelheciam calados"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/carrossel-7.md",
+   "bytes": 6079,
+   "sha256": "a8ceb91c99e770240e6467456440d5fe971f62f705f79cd79472e01bc451495b",
+   "motivo": "8bb5d95 fix(bambu-estrutural): remove os espelhos de _geradores/ que envelheciam calados"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/ficha.md",
+   "bytes": 13627,
+   "sha256": "63eabcfec4923a0e73c868537fe74aba0beca0d5316e97cbc6ba8fb46a338e20",
+   "motivo": "8bb5d95 fix(bambu-estrutural): remove os espelhos de _geradores/ que envelheciam calados"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/matriz.md",
+   "bytes": 20201,
+   "sha256": "92ab2265c1dc83c5ebd5dc1a9783b5c1eaffabd4029d74347d7941293455d874",
+   "motivo": "addd38c fix(bambu-estrutural): fecha os 3 achados da rodada 9"
+  }
+ ],
  "adicionados_desde_o_inventario_anterior": [],
  "alterados_desde_o_inventario_anterior": [],
  "duplicatas_corrigidas": 0

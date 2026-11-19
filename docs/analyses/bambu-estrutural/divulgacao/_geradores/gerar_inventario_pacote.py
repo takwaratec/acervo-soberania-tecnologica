@@ -90,13 +90,15 @@ def main() -> int:
         atuais.append({"caminho": p, "bytes": h[0], "sha256": h[1]})
 
     # duplicatas não existem por construção (dict por caminho)
-    anterior = []
+    anterior, removidos_anteriores = [], []
     r = subprocess.run(["git", "show", f"{a.ref}:{SAIDA}"], capture_output=True, text=True)
     if r.returncode == 0:
         try:
-            anterior = json.loads(r.stdout).get("arquivos", [])
+            _doc = json.loads(r.stdout)
+            anterior = _doc.get("arquivos", [])
+            removidos_anteriores = _doc.get("removidos", []) or []
         except json.JSONDecodeError:
-            anterior = []
+            anterior, removidos_anteriores = [], []
 
     atual_paths = {x["caminho"] for x in atuais}
     vistos, unicos = set(), []
@@ -109,11 +111,36 @@ def main() -> int:
         vistos.add(x["caminho"])
         unicos.append(x)
 
-    removidos = [
-        {"caminho": x["caminho"], "bytes": x["bytes"], "sha256": x["sha256"],
-         "motivo": commits_de(x["caminho"], a.ref, True)}
-        for x in unicos if x["caminho"] not in atual_paths
-    ]
+    if not removidos_anteriores:
+        # a versão corrente não declarou nada: procuro a última que declarou, para não apagar
+        # declaração de remoção por efeito colateral de uma regeneração.
+        for sha in sh("git", "log", "--format=%h", a.ref, "--", SAIDA).split():
+            v = subprocess.run(["git", "show", f"{sha}:{SAIDA}"], capture_output=True, text=True)
+            if v.returncode != 0:
+                continue
+            try:
+                cand = json.loads(v.stdout).get("removidos", [])
+            except json.JSONDecodeError:
+                continue
+            if cand:
+                removidos_anteriores = cand
+                print(f"(removidos herdados de {sha})")
+                break
+
+    # remoções já declaradas continuam declaradas: herdar do inventário anterior e somar as novas.
+    # apagar declaração de remoção é justamente o que a regra proíbe.
+    removidos = []
+    vistos_rem = set()
+    for x in removidos_anteriores:
+        if x["caminho"] not in atual_paths and x["caminho"] not in vistos_rem:
+            vistos_rem.add(x["caminho"])
+            removidos.append(x)
+    for x in unicos:
+        if x["caminho"] in atual_paths or x["caminho"] in vistos_rem:
+            continue
+        vistos_rem.add(x["caminho"])
+        removidos.append({"caminho": x["caminho"], "bytes": x["bytes"], "sha256": x["sha256"],
+                          "motivo": commits_de(x["caminho"], a.ref, True)})
     adicionados = sorted(atual_paths - {x["caminho"] for x in unicos})
     alterados = sorted(
         x["caminho"] for x in unicos
