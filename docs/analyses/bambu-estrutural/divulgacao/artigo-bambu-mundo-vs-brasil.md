@@ -265,7 +265,7 @@ outro: os números variam por espécie, e comparações de laboratórios diferen
 isso em "o nosso é melhor" está lendo o contrário do que os números mostram.
 
 **Não diz que o Brasil tem a maior diversidade de bambu do mundo.** Tem muita — é o que a literatura botânica indica —
-mas este texto não mediu isso, e não deve afirmar o que não mediu.
+mas isso não foi medido aqui, e a afirmação fica fora.
 
 ---
 
