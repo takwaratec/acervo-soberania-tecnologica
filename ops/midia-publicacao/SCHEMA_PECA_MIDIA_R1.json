@@ -31,7 +31,7 @@
       "quarentena",
       "retirado-da-publicacao"
     ],
-    "medicao": "medido em 2026-11-20 em checkout limpo, com parser de frontmatter (não `grep`): 338 arquivos `.md`; 238 em `em-revisao-documental`; 44 no estado canônico `homologado-documentalmente`; 98 no conjunto aceito pelo P3 (canônico + legados equivalentes); 13 com tipo `estado-da-arte` ou `estado-da-arte-com-agenda-experimental`; 0 com tipo `artigo-*`. `grep` literal subconta porque há valores entre aspas — o número válido é o do parser",
+    "medicao": "medido em 2026-11-20 em checkout limpo. Parser do gate (leitura de `chave: valor`): 338 arquivos .md; 238 em `em-revisao-documental`; 44 no estado canônico `homologado-documentalmente`; 98 no conjunto que o P3 aceita; 13 com tipo estado-da-arte (11 + 2 com agenda experimental); 0 com tipo artigo. PyYAML pode divergir (235/97): 3 `index.md` têm frontmatter que o YAML rejeita e o gate aceita. A divergência é do parser, não do acervo — por isso o número é o do parser do gate",
     "fonte_da_equivalencia": "GOVERNANCA_DOCUMENTAL.md, tabela de equivalencia linhas 82-90: os sete valores legados equivalem a homologado-documentalmente",
     "nota": "Lista alinhada ao codigo (ESTADOS_HOMOLOGADOS) e a governanca. A rodada 3 da auditoria TECO apontou contradicao: o schema listava 'curado' e 'revisado-com-fonte-integral' como recusados enquanto o codigo os aceita."
   },
@@ -164,6 +164,11 @@
       "data": "2026-11-20",
       "correcao": "hash passa a incluir aprovacao.por/em; P0 aplica os limites que o schema declara (legenda, hashtags, prompt_usado em hex); UnicodeDecodeError tratado; contagem do corpus por parser, nao grep; P1/P2 reatribuidos",
       "origem": "auditoria TECO rodada 7, defeitos MEDIA 1-2 e BAIXA 3-5"
+    },
+    {
+      "data": "2026-11-20",
+      "correcao": "hash cobre os artefatos referenciados (deriva_de + colecao); prompt_usado presente e vazio recusado; RecursionError e blob nao-UTF8 tratados; medicao fixa o parser do gate como autoridade, explicando a divergencia com PyYAML (3 index.md)",
+      "origem": "auditoria TECO rodada 8 — ultima rodada; encerramento por decisao do soberano (auditoria em loop nao converge)"
     }
   ]
 }

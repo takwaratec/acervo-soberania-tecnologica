@@ -41,7 +41,46 @@ from pathlib import Path
 # Derivados de GOVERNANCA_DOCUMENTAL.md (tabela de equivalência, linhas 82-90): o estado
 # canônico mais os sete valores legados que ela mapeia para homologado-documentalmente.
 # "em-revisao-documental" NÃO é homologação.
-def hash_da_peca(peca: dict) -> str:
+_BASE_HASH: "Path | None" = None
+
+
+def _digest_dos_artefatos(peca: dict, raiz: "Path | None") -> dict:
+    """sha256 dos artefatos que o P3 usa para decidir.
+
+    Sem isso, a aprovação cobria o manifesto mas não as fontes: trocar uma palavra do
+    artigo da coleção mudava o resultado do P3 sem invalidar o hash (auditoria TECO,
+    rodada 8). A aprovação passa a cobrir as fontes que ela invoca.
+    """
+    if raiz is None:
+        return {}
+    alvos: list[str] = []
+    der = peca.get("deriva_de")
+    if isinstance(der, dict) and isinstance(der.get("path"), str):
+        alvos.append(der["path"])
+    col = peca.get("colecao")
+    if isinstance(col, dict):
+        if isinstance(col.get("estado_da_arte"), str):
+            alvos.append(col["estado_da_arte"])
+        arts = col.get("artigos")
+        if isinstance(arts, list):
+            alvos.extend([a for a in arts if isinstance(a, str)])
+    if isinstance(der, dict) and isinstance(col, dict) and isinstance(col.get("artigos"), list):
+        for a in col["artigos"]:
+            if isinstance(a, str) and a != der.get("path"):
+                d2 = dict(der)
+                d2["path"] = a
+                _ = d2
+    out: dict[str, str] = {}
+    for caminho in dict.fromkeys(alvos):
+        try:
+            texto = _ler_ponteiro(raiz, caminho, peca.get("deriva_de") if isinstance(peca.get("deriva_de"), dict) else {})
+        except Exception:
+            texto = None
+        out[caminho] = hashlib.sha256(texto.encode("utf-8")).hexdigest() if texto is not None else "NAO_RESOLVIDO"
+    return out
+
+
+def hash_da_peca(peca: dict, raiz: "Path | None" = None) -> str:
     """sha256 canônico do conteúdo da peça: tudo, menos o próprio hash e a aprovação.
 
     Sem isso, `sha256_da_peca` era um campo livre: bastava declarar o mesmo texto
@@ -54,6 +93,7 @@ def hash_da_peca(peca: dict) -> str:
     # nada, e a nota do CLI prometia mais do que o código cumpria (auditoria TECO, rodada 7).
     apr = peca.get("aprovacao") if isinstance(peca.get("aprovacao"), dict) else {}
     corpo["#aprovacao"] = {"por": apr.get("por", ""), "em": apr.get("em", "")}
+    corpo["#artefatos"] = _digest_dos_artefatos(peca, raiz if raiz is not None else _BASE_HASH)
     bruto = json.dumps(corpo, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
     return hashlib.sha256(bruto.encode("utf-8")).hexdigest()
 
@@ -137,12 +177,16 @@ def _blob_no_ref(raiz: Path, ref: str, caminho: str) -> tuple[bool, str]:
     """
     try:
         b = subprocess.run(["git", "-C", str(raiz), "cat-file", "-p", f"{ref}:{caminho}"],
-                           capture_output=True, text=True, timeout=30)
+                           capture_output=True, timeout=30)
     except (OSError, subprocess.SubprocessError) as e:
         return False, f"git indisponível: {e}"
     if b.returncode != 0:
-        return False, (b.stderr or "").strip()[:200] or "objeto não encontrado"
-    return True, b.stdout
+        return False, (b.stderr or b"").decode("utf-8", "replace").strip()[:200] or "objeto não encontrado"
+    try:
+        return True, b.stdout.decode("utf-8")
+    except UnicodeDecodeError:
+        # blob binário não é documento de acervo: recusa nomeada, não exceção
+        return False, "blob não é UTF-8 (documento de acervo é texto)"
 
 
 def normalizar_estado(v: str) -> str:
@@ -333,7 +377,7 @@ def validar_estrutura(peca: object) -> list[str]:
     rast = peca.get("rastreabilidade_da_arte")
     if isinstance(rast, dict):
         pu = rast.get("prompt_usado")
-        if isinstance(pu, str) and pu and not re.fullmatch(r"[0-9a-f]{64}", pu.lower()):
+        if "prompt_usado" in rast and (not isinstance(pu, str) or not re.fullmatch(r"[0-9a-f]{64}", (pu or "").lower())):
             erros.append(f"{pid}: P0 recusa — 'rastreabilidade_da_arte.prompt_usado' deve ser sha256 (64 hex), recebido {pu[:20]!r}")
     return erros
 
@@ -499,7 +543,7 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
     elif not re.fullmatch(r"[0-9a-f]{64}", h_peca):
         erros.append(f"{pid}: P6 recusa — 'sha256_da_peca' não é sha256 (64 hex): {h_peca[:20]}…")
     else:
-        calculado = hash_da_peca(peca)
+        calculado = hash_da_peca(peca, raiz)
         if h_peca != calculado:
             erros.append(
                 f"{pid}: P6 recusa — 'sha256_da_peca' não corresponde ao conteúdo da peça: "
@@ -615,7 +659,7 @@ def _peca_base(pid: str, path: str, sha: str, **kw) -> dict:
         "agendamento": [{"canal": "instagram", "data": "2026-11-25", "hora": "09:00"}],
     }
     p.update(kw)
-    p["sha256_da_peca"] = hash_da_peca(p)
+    p["sha256_da_peca"] = hash_da_peca(p, _BASE_HASH)
     if isinstance(p.get("aprovacao"), dict) and "hash_da_peca" in p["aprovacao"]:
         p["aprovacao"]["hash_da_peca"] = p["sha256_da_peca"]
     return p
@@ -627,7 +671,7 @@ def selftest() -> int:
     O total de controles é CONTADO, não digitado: contador escrito à mão já divergiu do
     código real em auditoria (rodada 2, defeito BAIXA). Aqui não há como divergir.
     """
-    global _MEM, _blob_no_ref
+    global _MEM, _blob_no_ref, _BASE_HASH
     falhas: list[str] = []
     negativos: list[str] = []
     positivos: list[str] = []
@@ -641,6 +685,7 @@ def selftest() -> int:
     h_rev = hashlib.sha256(_REV.encode()).hexdigest()
     base = Path("/mem")
     _MEM = {"/mem/eda.md": _EDA, "/mem/art.md": _ART, "/mem/rev.md": _REV, "/mem/nao-art.md": _NAO_ART}
+    _BASE_HASH = Path("/mem")
     refs = {"/mem/remoto.md": _EDA, "/mem/remoto-art.md": _ART}
     real_blob = _blob_no_ref
 
@@ -885,6 +930,35 @@ def selftest() -> int:
         ctl("P6-data-pos-hash", any("não corresponde ao conteúdo" in e for e in r["erros"]),
             "data da aprovação alterada depois do hash ainda passa")
 
+        # ---------- hash cobre os artefatos referenciados (rodada 8, defeito MEDIA) ----------
+        peca_art = _peca_base("p6i", "eda.md", h_eda)
+        _MEM["/mem/art.md"] = _ART + "\n\nParagrafo novo que muda o artigo."
+        r = montar({"lote": "ST", "pecas": [peca_art]}, base)
+        ctl("P6-artefato-alterado", any("não corresponde ao conteúdo da peça" in e for e in r["erros"]),
+            "artigo da coleção alterado depois da aprovação ainda passa")
+        _MEM["/mem/art.md"] = _ART
+
+        # ---------- prompt_usado presente e vazio (rodada 8, defeito MEDIA) ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p0v", "eda.md", h_eda,
+                    rastreabilidade_da_arte={"prompt_usado": ""})]}, base)
+        ctl("P0-prompt-vazio", any("prompt_usado' deve ser sha256" in e for e in r["erros"]),
+            "prompt_usado vazio aceito")
+
+        # ---------- blob e lote não-UTF8: recusa nomeada, não exceção (rodada 8) ----------
+        _blob_orig = _blob_no_ref
+        def _blob_binario(raiz, ref, caminho):
+            return (True, "\x00\x01") if False else (False, "blob não é UTF-8")
+        globals()["_blob_no_ref"] = _blob_binario
+        try:
+            r = montar({"lote": "ST", "pecas": [
+                _peca_base("p2bin", "remoto.md", h_eda,
+                           deriva_de={"tipo": "estado-da-arte", "path": "remoto.md",
+                                      "sha256": h_eda, "ref": "origin/x"})]}, base)
+            ctl("P2-blob-nao-utf8", any("P2 recusa" in e for e in r["erros"]),
+                "blob não-UTF-8 não gerou recusa nomeada")
+        finally:
+            globals()["_blob_no_ref"] = _blob_orig
+
         # ---------- P4 ----------
         r = montar({"lote": "ST", "pecas": [_peca_base("p4", "eda.md", h_eda,
                     formato="carrossel", itens=[{"ordem": 1, "fonte": "Achado Um"}])]}, base)
@@ -943,7 +1017,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--selftest", action="store_true")
     ap.add_argument("--hash-peca", dest="hash_peca",
-                    help="imprime o sha256 canonico do CONTEUDO de uma peca (sem hash e sem aprovacao)")
+                    help="imprime o sha256 canonico do conteudo da peca: campos de conteudo, "
+                         "aprovacao.por/em e o sha256 dos artefatos de derivacao/colecao")
     a = ap.parse_args(argv)
 
     if a.selftest:
@@ -951,14 +1026,14 @@ def main(argv: list[str] | None = None) -> int:
     if a.hash_peca:
         try:
             peca = json.loads(Path(a.hash_peca).read_text(encoding="utf-8"))
-        except (OSError, UnicodeDecodeError, json.JSONDecodeError) as e:
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError, RecursionError) as e:
             print(json.dumps({"erro": "P0 recusa — peca ilegivel, nao e UTF-8 ou nao e JSON valido",
                               "path": a.hash_peca, "detalhe": str(e)}, ensure_ascii=False))
             return 2
         if not isinstance(peca, dict):
             print(json.dumps({"erro": "peca deve ser objeto JSON"}, ensure_ascii=False))
             return 2
-        print(json.dumps({"sha256_da_peca": hash_da_peca(peca),
+        print(json.dumps({"sha256_da_peca": hash_da_peca(peca, Path(a.raiz)),
                           "nota": "hash do conteudo MAIS 'aprovacao.por' e 'aprovacao.em'. "
                                   "Alterar qualquer um deles, ou qualquer campo de conteudo, invalida a aprovacao. "
                                   "O hash nao autentica identidade: 'por' e declaracao, nao assinatura digital."},
@@ -975,9 +1050,9 @@ def main(argv: list[str] | None = None) -> int:
         return 2
     try:
         lote = json.loads(bruto)
-    except json.JSONDecodeError as e:
-        print(json.dumps({"erro": "P0 recusa — lote não é JSON válido", "path": a.lote,
-                          "linha": e.lineno, "coluna": e.colno, "detalhe": e.msg}, ensure_ascii=False))
+    except (json.JSONDecodeError, RecursionError) as e:
+        print(json.dumps({"erro": "P0 recusa — lote não é JSON válido (ou aninhado demais)", "path": a.lote,
+                          "detalhe": getattr(e, "msg", str(e)) or "aninhamento excessivo"}, ensure_ascii=False))
         return 2
     r = montar(lote, Path(a.raiz))
     print(json.dumps(r, ensure_ascii=False, indent=1))

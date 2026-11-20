@@ -69,7 +69,7 @@ soberano foi cumprido".
 nesse estado. Isso não é defeito do corpus, é o retrato do terreno em preparação.
 
 **Como reconferir a contagem:** os números mudam com o acervo, então o comando importa mais que o valor:
-o parser de frontmatter sobre `docs/analyses/**/*.md`, **num checkout limpo** — árvore com arquivo não rastreado infla a contagem, e `grep` literal subconta valores entre aspas (medido: 98 aceitos pelo parser contra 43 do grep).
+o parser de frontmatter **do gate** sobre `docs/analyses/**/*.md`, **num checkout limpo**. `grep` literal subconta (43 contra 98) e PyYAML diverge em 3 `index.md` cujo frontmatter ele rejeita (235/97 contra 238/98) — vale o parser do gate, que é o que decide.
 
 ## 4. Os sete portões (P0 a P6)
 

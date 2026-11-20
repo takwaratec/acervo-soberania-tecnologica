@@ -6,11 +6,11 @@
   "ancoragem": "sha256 por arquivo",
   "nota_de_ancoragem": "O alvo NAO e ancorado em um hash de commit: um arquivo versionado nao pode conter o commit que o contem, e a versao anterior deste JSON apontava 935b4dd enquanto o HEAD auditado ja era outro (defeito MEDIA da auditoria TECO de 2026-11-20). A ancoragem passa a ser o sha256 de CADA arquivo auditado: quem audita confere os bytes, nao o rotulo.",
   "arquivos": {
-   "montar_lote.py": "b6319d372501696309dea9cd11bfb1e96e9a66c7f0cd95a36c62c0e9beb6d146",
+   "montar_lote.py": "905d2db08f36ee9a50a472fd08eee724efc4f26ae77b5f1a013bcf4b727f5007",
    "verificar_midia.py": "52e68070ca5b7d55fa299c513e35323cd7c0a6c2e6e19ed89b248896e4ce79bd",
-   "SCHEMA_PECA_MIDIA_R1.json": "89d975cee688e851f46fbf1b65e41157c35fe3d37b3beaa4ca62aee5da4cc542",
-   "MANUAL_ESTEIRA_R1.md": "1368a2ecb799f97de10c09612771799bb02ab95603bd9ce24fcfc255a70c876a",
-   "MANUAL_ESTEIRA_R1.html": "50cad008c8f6ca5d8cacdb9393cf398bf586e8f076363fd144d1b14f4064e63b",
+   "SCHEMA_PECA_MIDIA_R1.json": "ef94ef6193999083f58c4406a67328c77fc5c2aeb21fa507324a384a3e2fc17e",
+   "MANUAL_ESTEIRA_R1.md": "0b2dfcf347e0d87583d40a7974a2bc0b5a9c0ef77ffdeeffa334c2c694d6fbef",
+   "MANUAL_ESTEIRA_R1.html": "0aa9638c75ba93b0cb46a4c346006158128f714c1564c4be85cd7aa305729c64",
    "PLANO_HOSPEDAGEM_OPCAO_A_R1.md": "3256e48eff55c600723e67085178918ddf29b654738604d4f5cdd755186fe8f9",
    "MAPA_DE_RESTAURACAO_R1.md": "084abcaf573f554023813261d7d19cef1fccfdb82f87f108bb5b32ea978ff117",
    "exemplos/LOTE_EXEMPLO_RECUSA.json": "aa47270cc9f4866d0a97aa19812e6be3ff7736a9d2e8cc802c9f87e1c9b3e745",
@@ -192,7 +192,25 @@
     "contagem do corpus por parser de frontmatter: 338/238/44/98/13 estado-da-arte/0 artigos",
     "P1 passa a incluir contencao do path; P2 fica com resolucao e hash"
    ]
+  },
+  {
+   "rodada": 8,
+   "data": "2026-11-20",
+   "veredito": "FAIL",
+   "defeitos": 6,
+   "correcoes": [
+    "hash cobre sha256 dos artefatos de deriva_de e colecao — trocar palavra no artigo invalida a aprovacao",
+    "prompt_usado presente e vazio recusado",
+    "RecursionError em JSON profundo e blob nao-UTF8 tratados com recusa nomeada",
+    "medicao passa a declarar o parser do gate como autoridade e explica a divergencia com PyYAML"
+   ]
   }
  ],
- "nota_final": "Rodada 2. As correcoes respondem aos 6 defeitos da rodada 1 e ao bloqueio de ambiente que impediu Q1/Q6/Q8 de rodar."
+ "nota_final": "Rodada 2. As correcoes respondem aos 6 defeitos da rodada 1 e ao bloqueio de ambiente que impediu Q1/Q6/Q8 de rodar.",
+ "encerramento": {
+  "data": "2026-11-20",
+  "ponto_aberto": "notas dos exemplos e --help: aceitavelmente corrigidos, sem nova rodada",
+  "proximo": "auditoria externa (Sol), uma vez, sobre os cinco portoes de governanca",
+  "decisao": "rodadas paradas por decisao do soberano: auditoria em loop nao converge — achar defeito e a funcao do auditor"
+ }
 }
