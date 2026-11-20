@@ -2,6 +2,7 @@
 tipo_documental: ficha-cientifica
 estado_documental: homologado-documentalmente
 fonte_primaria: PDF integral conferido
+pacote_fonte_privado: fontes-documentais/2020-ferreira-kalliola-bambu-clima-uso
 identificador: https://doi.org/10.1007/s13280-019-01299-3
 titulo: "Bamboo, climate change and forest use: A critical combination for southwestern Amazonian forests?"
 autores:
