@@ -11,7 +11,9 @@
   "os seis portoes correspondem ao que SCHEMA_PECA_MIDIA_R1.json e MANUAL_ESTEIRA_R1.md declaram",
   "o codigo NAO publica e NAO abre rede (lista de imports e ausencia de chamadas)",
   "o exemplo em exemplos/LOTE_EXEMPLO_RECUSA.json e recusado pelos motivos alegados",
-  "o HTML entrega o manual pedido, abre offline e navega pelas 9 paginas sem conteudo mutilado"
+  "o HTML entrega o manual pedido, abre offline e navega pelas 9 paginas sem conteudo mutilado",
+  "verificar_midia.py recusa de fato o que diz recusar, e o selftest REPROVA quando os limites são desligados (prova de que o selftest não é teatro)",
+  "PLANO_HOSPEDAGEM_OPCAO_A_R1.md declara como NAO VERIFICADO tudo que depende de credencial, e nao afirma que o Worker serve /midia"
  ],
  "perguntas_obrigatorias": [
   {
@@ -33,6 +35,14 @@
   {
    "id": "Q5",
    "pergunta": "Abra MANUAL_ESTEIRA_R1.html. As 9 abas existem, uma por vez fica visivel, e o texto de cada painel e substantivo (nao tabela solta)? Cite a contagem medida de `data-tab` e de `role=tabpanel`."
+  },
+  {
+   "id": "Q6",
+   "pergunta": "Rode `python3 ops/midia-publicacao/verificar_midia.py --selftest`. Depois rode o mesmo selftest com PROP_MIN/PROP_MAX e LARGURA_MIN/MAX desligados (ver comentario no proprio arquivo). A segunda execucao DEVE reprovar. Cole as duas saidas brutas e os dois exit codes. Se a segunda passar, o selftest nao prova nada e a resposta e FAIL."
+  },
+  {
+   "id": "Q7",
+   "pergunta": "Confira que a proporcao do slide 1 e usada como referencia do carrossel inteiro (corte do Instagram) e que um slide com dimensao diferente e recusado. Cite a linha do codigo e a saida do controle negativo."
   }
  ],
  "veredito": "PASS | FAIL | BLOCKED | INCONCLUSIVE",
