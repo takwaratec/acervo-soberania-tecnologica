@@ -15,14 +15,28 @@
    "colecao": {
     "gaveta": "bambu-estrutural",
     "estado_da_arte": "docs/analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md",
-    "artigos": ["docs/analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md"]
+    "artigos": [
+     "docs/analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md"
+    ]
    },
    "itens": [
-    {"ordem": 1, "texto_curto": "exemplo", "fonte": "exemplo"},
-    {"ordem": 2, "texto_curto": "exemplo", "fonte": "Achado Que Nao Existe no Corpo"}
+    {
+     "ordem": 1,
+     "texto_curto": "exemplo",
+     "fonte": "exemplo"
+    },
+    {
+     "ordem": 2,
+     "texto_curto": "exemplo",
+     "fonte": "Achado Que Nao Existe no Corpo"
+    }
    ],
-   "sha256_da_peca": "exemplo-nao-aprovado",
-   "aprovacao": {"por": "FABIO_SOBERANO", "em": "2026-11-20", "hash_da_peca": "exemplo-nao-aprovado"}
+   "sha256_da_peca": "99af0be94aaeb738d2aa637191ac07290c8de55fe2374783612821eccdbd5ba3",
+   "aprovacao": {
+    "por": "FABIO_SOBERANO",
+    "em": "2026-11-20",
+    "hash_da_peca": "99af0be94aaeb738d2aa637191ac07290c8de55fe2374783612821eccdbd5ba3"
+   }
   }
  ]
 }

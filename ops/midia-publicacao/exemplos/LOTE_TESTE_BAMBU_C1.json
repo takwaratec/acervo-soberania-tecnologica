@@ -30,11 +30,11 @@
      "fonte": "200 MPa"
     }
    ],
-   "sha256_da_peca": "ensaio-nao-aprovado",
+   "sha256_da_peca": "80106b11c92d8b87e5d827d8925f21e09d7a00163cf295daa8ff639d3a424cc9",
    "aprovacao": {
     "por": "ENSAIO",
     "em": "2026-11-20",
-    "hash_da_peca": "ensaio-nao-aprovado"
+    "hash_da_peca": "80106b11c92d8b87e5d827d8925f21e09d7a00163cf295daa8ff639d3a424cc9"
    },
    "agendamento": [],
    "colecao": {

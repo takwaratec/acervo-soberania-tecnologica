@@ -13,9 +13,11 @@ Ele monta o lote e a fila, e RECUSA (exit != 0) qualquer peça que não cumpra o
 portões abaixo — a recusa é o produto principal, não o sucesso.
 
 Portões:
-  P1  a peça de mídia declara `deriva_de` com tipo editorial válido
-  P2  o arquivo apontado por `deriva_de.path` existe e o `sha256` confere
-  P3  a peça editorial declara `estado_documental` homologado E >=1 artigo
+  P0  esquema fechado: tipo e presença de cada campo, em todos os níveis; id único
+  P1  a peça de mídia declara `deriva_de` com tipo editorial válido (nunca ficha)
+  P2  a origem existe (bytes no worktree ou `git cat-file` no ref) e o `sha256` confere
+  P3  a peça editorial está homologada E a coleção tem estado da arte + >=1 artigo, cada
+      ponteiro resolvendo dentro do repositório, em papéis distintos e declarados
   P4  o formato declarado bate com o conteúdo (carrossel exige 2..20 itens)
   P5  toda afirmação da peça de mídia cita `fonte` que existe no corpo da peça editorial
   P6  aprovacao registrada: autor + data + hash da peça aprovada
@@ -39,6 +41,19 @@ from pathlib import Path
 # Derivados de GOVERNANCA_DOCUMENTAL.md (tabela de equivalência, linhas 82-90): o estado
 # canônico mais os sete valores legados que ela mapeia para homologado-documentalmente.
 # "em-revisao-documental" NÃO é homologação.
+def hash_da_peca(peca: dict) -> str:
+    """sha256 canônico do conteúdo da peça: tudo, menos o próprio hash e a aprovação.
+
+    Sem isso, `sha256_da_peca` era um campo livre: bastava declarar o mesmo texto
+    nos dois lados para aprovar qualquer coisa — e alterar `texto_curto` depois não
+    invalidava nada. A rodada 6 da auditoria TECO aprovou dois manifestos com o mesmo
+    hash literal e conteúdo diferente. Aqui o hash é DERIVADO, não declarado.
+    """
+    corpo = {k: v for k, v in peca.items() if k not in {"sha256_da_peca", "aprovacao"}}
+    bruto = json.dumps(corpo, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
+    return hashlib.sha256(bruto.encode("utf-8")).hexdigest()
+
+
 AUTORIDADES_APROVADORAS = {"FABIO_SOBERANO"}
 
 ESTADOS_HOMOLOGADOS = {
@@ -234,7 +249,14 @@ ESQUEMA: dict = {
         "data": (str, True),
         "hora": (str, False),
     }),
-    "rastreabilidade_da_arte": (dict, False),
+    "legenda": (str, False),
+    "hashtags": (list, False),
+    "alt_text": (str, False),
+    "rastreabilidade_da_arte": (dict, False, {
+        "autor_da_arte": (str, False),
+        "prompt_usado": (str, False),
+        "confere_com": (str, False),
+    }),
 }
 
 
@@ -255,6 +277,11 @@ def _conferir_campos(obj: dict, esquema: dict, caminho: str, pid: str) -> list[s
                 erros.append(f"{pid}: P0 recusa — '{cheio}' é obrigatório")
             continue
         valor = obj[campo]
+        # `isinstance(True, int)` é True em Python: booleano passaria como inteiro
+        # (auditoria TECO, rodada 6). Tipo declarado é tipo de verdade.
+        if tipo is int and isinstance(valor, bool):
+            erros.append(f"{pid}: P0 recusa — '{cheio}' deve ser int, recebido bool")
+            continue
         if not isinstance(valor, tipo):
             erros.append(
                 f"{pid}: P0 recusa — '{cheio}' deve ser {tipo.__name__}, "
@@ -286,7 +313,10 @@ def validar_estrutura(peca: object) -> list[str]:
     if not isinstance(peca, dict):
         return [f"<peça não textual>: P0 recusa — peça deve ser objeto, recebido {type(peca).__name__}"]
     pid = peca.get("id") if isinstance(peca.get("id"), str) else "<sem-id>"
-    return _conferir_campos(peca, ESQUEMA, "", pid)
+    erros = _conferir_campos(peca, ESQUEMA, "", pid)
+    if isinstance(peca.get("id"), str) and not peca["id"].strip():
+        erros.append(f"{pid}: P0 recusa — 'id' vazio; identificador serve para rastrear o lote")
+    return erros
 
 
 def validar_peca(peca: dict, raiz: Path) -> list[str]:
@@ -447,6 +477,16 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
     # nenhum (auditoria TECO, rodada 5). Presença é exigida antes da comparação.
     if not h_peca:
         erros.append(f"{pid}: P6 recusa — 'sha256_da_peca' ausente; sem hash não há bytes aprovados")
+    elif not re.fullmatch(r"[0-9a-f]{64}", h_peca):
+        erros.append(f"{pid}: P6 recusa — 'sha256_da_peca' não é sha256 (64 hex): {h_peca[:20]}…")
+    else:
+        calculado = hash_da_peca(peca)
+        if h_peca != calculado:
+            erros.append(
+                f"{pid}: P6 recusa — 'sha256_da_peca' não corresponde ao conteúdo da peça: "
+                f"declarado {h_peca[:16]}… != calculado {calculado[:16]}…; "
+                "aprovação de outro conteúdo não aprova este"
+            )
     if not h_apr:
         erros.append(f"{pid}: P6 recusa — 'aprovacao.hash_da_peca' ausente; aprovação sem bytes não aprova nada")
     if h_peca and h_apr and h_peca != h_apr:
@@ -485,8 +525,18 @@ def montar(lote: dict, raiz: Path) -> dict:
     pecas = lote.get("pecas") or []
     erros: list[str] = []
     aprovadas: list[dict] = []
+
+    # id duplicado torna a fila ambígua: duas peças com o mesmo nome não são rastreáveis
+    vistos: dict[str, int] = {}
+    for p in pecas:
+        if isinstance(p, dict) and isinstance(p.get("id"), str):
+            vistos[p["id"]] = vistos.get(p["id"], 0) + 1
+    duplicados = {k for k, n in vistos.items() if n > 1}
+
     for p in pecas:
         e = validar_peca(p, raiz)
+        if isinstance(p, dict) and p.get("id") in duplicados:
+            e = list(e) + [f"{p.get('id')}: P0 recusa — id repetido no lote; identificador tem de ser único"]
         if e:
             erros.extend(e)
         else:
@@ -546,6 +596,9 @@ def _peca_base(pid: str, path: str, sha: str, **kw) -> dict:
         "agendamento": [{"canal": "instagram", "data": "2026-11-25", "hora": "09:00"}],
     }
     p.update(kw)
+    p["sha256_da_peca"] = hash_da_peca(p)
+    if isinstance(p.get("aprovacao"), dict) and "hash_da_peca" in p["aprovacao"]:
+        p["aprovacao"]["hash_da_peca"] = p["sha256_da_peca"]
     return p
 
 
@@ -728,20 +781,66 @@ def selftest() -> int:
                 f"{nome} não gerou recusa nomeada -> {r['erros'][:1]}")
 
         # ---------- P6: hash ausente nos dois lados não pode aprovar (rodada 5, defeito ALTA) ----------
-        r = montar({"lote": "ST", "pecas": [_peca_base("p6c", "eda.md", "",
-                    aprovacao={"por": "FABIO_SOBERANO", "em": "2026-11-20", "hash_da_peca": ""})]}, base)
+        peca_p6c = _peca_base("p6c", "eda.md", "")
+        peca_p6c["sha256_da_peca"] = ""
+        peca_p6c["aprovacao"]["hash_da_peca"] = ""
+        r = montar({"lote": "ST", "pecas": [peca_p6c]}, base)
         ctl("P6-sem-hashes", any("P6 recusa" in e and "ausente" in e for e in r["erros"]),
             "peça sem hash nenhum foi aprovada")
 
         # ---------- P6: autor e data não são texto livre (rodada 5, defeito ALTA) ----------
-        r = montar({"lote": "ST", "pecas": [_peca_base("p6d", "eda.md", h_eda,
-                    aprovacao={"por": "QUALQUER_TEXTO", "em": "2026-11-20", "hash_da_peca": "abc123"})]}, base)
+        peca_p6d = _peca_base("p6d", "eda.md", h_eda)
+        peca_p6d["aprovacao"]["por"] = "QUALQUER_TEXTO"
+        r = montar({"lote": "ST", "pecas": [peca_p6d]}, base)
         ctl("P6-autor-falso", any("não é autoridade registrada" in e for e in r["erros"]),
             "aprovador inventado aceito")
-        r = montar({"lote": "ST", "pecas": [_peca_base("p6e", "eda.md", h_eda,
-                    aprovacao={"por": "FABIO_SOBERANO", "em": "ontem", "hash_da_peca": "abc123"})]}, base)
+        peca_p6e = _peca_base("p6e", "eda.md", h_eda)
+        peca_p6e["aprovacao"]["em"] = "ontem"
+        r = montar({"lote": "ST", "pecas": [peca_p6e]}, base)
         ctl("P6-data-invalida", any("não é data ISO" in e for e in r["erros"]),
             "data 'ontem' aceita como aprovação")
+
+        # ---------- P6: aprovação tem de estar vinculada ao CONTEUDO (rodada 6, defeito ALTA) ----------
+        peca_trocada = _peca_base("p6f", "eda.md", h_eda)
+        peca_trocada["itens"][0]["texto_curto"] = "Texto alterado depois da aprovação"
+        r = montar({"lote": "ST", "pecas": [peca_trocada]}, base)
+        ctl("P6-conteudo-alterado", any("não corresponde ao conteúdo da peça" in e for e in r["erros"]),
+            "conteúdo alterado após a aprovação ainda passa")
+
+        peca_hex = _peca_base("p6g", "eda.md", h_eda)
+        peca_hex["sha256_da_peca"] = "abc123"
+        peca_hex["aprovacao"]["hash_da_peca"] = "abc123"
+        r = montar({"lote": "ST", "pecas": [peca_hex]}, base)
+        ctl("P6-hash-nao-hex", any("não é sha256" in e for e in r["erros"]),
+            "hash de 6 caracteres aceito como sha256")
+
+        # ---------- P0: bool não é int (rodada 6, defeito MEDIA) ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p0n", "eda.md", h_eda,
+                    itens=[{"ordem": True, "fonte": "Achado Um"}, {"fonte": "Achado Dois"}])]}, base)
+        ctl("P0-bool-como-int", any("recebido bool" in e for e in r["erros"]),
+            "booleano aceito como inteiro")
+
+        # ---------- P0: id vazio e id duplicado (rodada 6, defeito MEDIA) ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("   ", "eda.md", h_eda)]}, base)
+        ctl("P0-id-vazio", any("'id' vazio" in e for e in r["erros"]), "id vazio aceito")
+        par = [_peca_base("mesmo-id", "eda.md", h_eda), _peca_base("mesmo-id", "eda.md", h_eda)]
+        r = montar({"lote": "ST", "pecas": par}, base)
+        ctl("P0-id-duplicado", any("id repetido no lote" in e for e in r["erros"]),
+            "id duplicado aceito")
+
+        # ---------- P0: rastreabilidade e campos documentados (rodada 6, defeito MEDIA) ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p0o", "eda.md", h_eda,
+                    rastreabilidade_da_arte={"autor_da_arte": 7})]}, base)
+        ctl("P0-rastreabilidade-tipo", any("rastreabilidade_da_arte.autor_da_arte" in e for e in r["erros"]),
+            "rastreabilidade com tipo errado aceita")
+        r = montar({"lote": "ST", "pecas": [_peca_base("p0p", "eda.md", h_eda,
+                    rastreabilidade_da_arte={"campo-inventado": "x"})]}, base)
+        ctl("P0-rastreabilidade-desconhecida", any("campo desconhecido em rastreabilidade_da_arte" in e
+            for e in r["erros"]), "campo inventado em rastreabilidade aceito")
+        r = montar({"lote": "ST", "pecas": [_peca_base("p0q", "eda.md", h_eda,
+                    legenda="legenda", hashtags=["#bambu"], alt_text="descrição")]}, base)
+        ctl("P0-campos-documentados", r["aprovadas"] == 1,
+            f"campos documentados (legenda/hashtags/alt_text) recusados -> {r['erros']}", positivo=True)
 
         # ---------- P4 ----------
         r = montar({"lote": "ST", "pecas": [_peca_base("p4", "eda.md", h_eda,
@@ -760,11 +859,13 @@ def selftest() -> int:
             "fonte inventada aceita")
 
         # ---------- P6 ----------
-        r = montar({"lote": "ST", "pecas": [_peca_base("p6", "eda.md", h_eda,
-                    aprovacao={"por": "F", "em": "D", "hash_da_peca": "outro-hash"})]}, base)
+        peca_p6 = _peca_base("p6", "eda.md", h_eda)
+        peca_p6["aprovacao"]["hash_da_peca"] = "outro-hash"
+        r = montar({"lote": "ST", "pecas": [peca_p6]}, base)
         ctl("P6-hash", any("P6 recusa" in e for e in r["erros"]), "aprovação de outro bytes aceita")
-        r = montar({"lote": "ST", "pecas": [_peca_base("p6b", "eda.md", h_eda,
-                    aprovacao={"hash_da_peca": "abc123"})]}, base)
+        peca_p6b = _peca_base("p6b", "eda.md", h_eda)
+        del peca_p6b["aprovacao"]["por"]
+        r = montar({"lote": "ST", "pecas": [peca_p6b]}, base)
         ctl("P6-autor", any("'aprovacao.por' é obrigatório" in e or ("P6 recusa" in e and "'por'" in e)
             for e in r["erros"]), "aprovação sem autor aceita")
 
@@ -798,10 +899,27 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--raiz", default=".")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--selftest", action="store_true")
+    ap.add_argument("--hash-peca", dest="hash_peca",
+                    help="imprime o sha256 canonico do CONTEUDO de uma peca (sem hash e sem aprovacao)")
     a = ap.parse_args(argv)
 
     if a.selftest:
         return selftest()
+    if a.hash_peca:
+        try:
+            peca = json.loads(Path(a.hash_peca).read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as e:
+            print(json.dumps({"erro": "peca ilegivel ou nao e JSON valido", "path": a.hash_peca,
+                              "detalhe": str(e)}, ensure_ascii=False))
+            return 2
+        if not isinstance(peca, dict):
+            print(json.dumps({"erro": "peca deve ser objeto JSON"}, ensure_ascii=False))
+            return 2
+        print(json.dumps({"sha256_da_peca": hash_da_peca(peca),
+                          "nota": "hash do conteudo. A aprovacao deve registrar ESTE valor; "
+                                  "alterar qualquer campo depois invalida a aprovacao."},
+                         ensure_ascii=False, indent=1))
+        return 0
     if not a.lote:
         ap.error("--lote e obrigatorio (ou use --selftest)")
 
