@@ -141,7 +141,7 @@ cd acervo-soberania-tecnologica/ops/midia-publicacao
 python3 montar_lote.py --selftest        # 59 negativos + 8 positivos
 python3 verificar_midia.py --selftest     # 9 + 2
 python3 montar_lote.py --lote piloto/LOTE_PILOTO_BAMBU_E1.json --raiz ../..
-python3 piloto/gerar_piloto_html.py --raiz ../..
+python3 piloto/gerar_piloto_html.py
 ```
 
 A esteira roda com **biblioteca padrão apenas** — deliberado: a VM não instala nada para o gate

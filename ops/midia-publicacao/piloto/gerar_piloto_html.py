@@ -173,7 +173,8 @@ footer{border-top:1px solid var(--lin);padding:16px 22px;color:var(--mut);font-s
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--raiz", default="../..")
+    ap.add_argument("--raiz", default=str(AQUI.parent.parent.parent),
+                    help="raiz do repositorio (padrao: deduzida da localizacao deste script)")
     ap.add_argument("--lote", default=str(AQUI / "LOTE_PILOTO_BAMBU_E1.json"))
     ap.add_argument("--saida", default=str(AQUI / "PILOTO_BAMBU_E1.html"))
     a = ap.parse_args(argv)
