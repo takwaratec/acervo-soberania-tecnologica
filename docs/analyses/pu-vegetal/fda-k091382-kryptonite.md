@@ -13,7 +13,9 @@ volume_referencia: "PU-COMP-BIO-R1"
 identificador_lote: "A10"
 arquivo_fonte: "A10_FDA_K091382_Kryptonite.pdf"
 sha256_fonte: "4685ffdfe047c6c60ebfd538af4d647cb1dc06ff0dab0334e4bd671b40f6cc12"
-estado_documental: "em-revisao-documental"
+estado_documental: em-revisao-documental
+estado_documental_anterior: "em-revisao-documental"
+estado_documental_unificado_em: '2026-11-20'
 data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"

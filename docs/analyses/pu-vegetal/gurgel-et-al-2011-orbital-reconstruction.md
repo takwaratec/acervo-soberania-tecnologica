@@ -16,7 +16,9 @@ volume_referencia: "PU-COMP-BIO-R1"
 identificador_lote: "C01"
 arquivo_fonte: "C01_Gurgel_etal_2011_orbital_reconstruction.pdf"
 sha256_fonte: "1ec41962dbd4cbe0cb3088fe9fb6cfbffada65be2faa0483cadb8d799487aa4b"
-estado_documental: "em-revisao-documental"
+estado_documental: em-revisao-documental
+estado_documental_anterior: "em-revisao-documental"
+estado_documental_unificado_em: '2026-11-20'
 data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"

@@ -25,7 +25,9 @@ Esta gaveta reúne manuais técnicos, boletins autoral-científicos e memoriais 
 
 ---
 tipo_documental: indice
-estado_documental: revisado-com-fonte-integral
+estado_documental: homologado-documentalmente
+estado_documental_anterior: revisado-com-fonte-integral
+estado_documental_unificado_em: '2026-11-20'
 data_revisao: 2026-07-23
 responsavel_curadoria: Fabio Takwara
 ---

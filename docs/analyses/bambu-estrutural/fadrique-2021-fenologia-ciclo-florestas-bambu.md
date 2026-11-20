@@ -2,6 +2,7 @@
 tipo_documental: ficha-cientifica
 estado_documental: homologado-documentalmente
 fonte_primaria: PDF integral conferido
+pacote_fonte_privado: fontes-documentais/2021-fadrique-fenologia-ciclo-bambu
 identificador: https://doi.org/10.1111/1365-2745.13512
 titulo: "Bamboo phenology and life cycle drive seasonal and long-term functioning of Amazonian bamboo-dominated forests"
 autores:

@@ -2,6 +2,7 @@
 tipo_documental: ficha-cientifica
 estado_documental: homologado-documentalmente
 fonte_primaria: PDF integral conferido
+pacote_fonte_privado: fontes-documentais/2013-carvalho-florestas-bambu-amazonia
 identificador: https://doi.org/10.1371/journal.pone.0054852
 titulo: "Bamboo-Dominated Forests of the Southwest Amazon: Detection, Spatial Extent, Life Cycle Length and Flowering Waves"
 autores:

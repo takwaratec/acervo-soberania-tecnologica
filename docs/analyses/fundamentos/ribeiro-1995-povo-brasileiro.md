@@ -5,7 +5,9 @@ autores: Darcy Ribeiro
 ano: 1995
 identificador: ausente-na-fonte
 proveniencia: segunda edição integral conferida em recurso digital de curso da Universidade de São Paulo; arquivo não redistribuído
-estado_documental: curado
+estado_documental: homologado-documentalmente
+estado_documental_anterior: curado
+estado_documental_unificado_em: '2026-11-20'
 fonte_primaria: PDF integral conferido em acervo privado
 data_revisao: 2026-07-22
 responsavel_curadoria: Fabio Takwara

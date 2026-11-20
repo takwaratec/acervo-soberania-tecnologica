@@ -14,7 +14,9 @@ volume_referencia: "PU-COMP-BIO-R1"
 identificador_lote: "B07"
 arquivo_fonte: "B07_Teixeira_Kuramae_Ramalho_1999_mandibula_sem_CaCO3.pdf"
 sha256_fonte: "fd66165bf61b203b868220977c413a5847fcedff4042b32b1be09d465a479150"
-estado_documental: "em-revisao-documental"
+estado_documental: em-revisao-documental
+estado_documental_anterior: "em-revisao-documental"
+estado_documental_unificado_em: '2026-11-20'
 data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"

@@ -2,6 +2,7 @@
 tipo_documental: ficha-academica
 estado_documental: homologado-documentalmente
 fonte_primaria: PDF integral conferido com OCR visual
+pacote_fonte_privado: fontes-documentais/2020-miranda-silva-floracao-taboca-gigante
 identificador: ausente-na-fonte
 proveniencia: "III Seminário da Embrapa Acre de Iniciação Científica e Pós-Graduação, pp. 95-100"
 titulo: "Floração e Regeneração Inicial da Taboca-Gigante: um Bambu Nativo do Sudoeste Amazônico"

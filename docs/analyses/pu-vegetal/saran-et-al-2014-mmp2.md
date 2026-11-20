@@ -18,7 +18,9 @@ volume_referencia: "PU-COMP-BIO-R1"
 identificador_lote: "A08"
 arquivo_fonte: "A08_Saran_etal_2014_MMP2.pdf"
 sha256_fonte: "f0737dba9a86ca3c75897f3e0d9e67ece173399aa74b7b8a27786be815876cfe"
-estado_documental: "em-revisao-documental"
+estado_documental: em-revisao-documental
+estado_documental_anterior: "em-revisao-documental"
+estado_documental_unificado_em: '2026-11-20'
 data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"

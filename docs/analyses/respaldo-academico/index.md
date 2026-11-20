@@ -1,6 +1,8 @@
 ---
 tipo_documental: indice
-estado_documental: curado
+estado_documental: homologado-documentalmente
+estado_documental_anterior: curado
+estado_documental_unificado_em: '2026-11-20'
 data_revisao: 2026-07-22
 responsavel_curadoria: Fabio Takwara
 ---

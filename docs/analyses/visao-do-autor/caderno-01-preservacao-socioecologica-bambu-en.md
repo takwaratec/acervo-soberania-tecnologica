@@ -20,7 +20,9 @@ revision_date: 2026-08-01
 curation_responsible: Fabio Takwara
 funding: This publication was prepared within the scope of a R&D funding proposal. The documentary curation that underpins it is independent and prior to submission.
 tipo_documental: estado-da-arte-com-agenda-experimental
-estado_documental: publicado-no-zenodo
+estado_documental: homologado-documentalmente
+estado_documental_anterior: publicado-no-zenodo
+estado_documental_unificado_em: '2026-11-20'
 responsavel_curadoria: 'Fabio Takwara'
 
 ---

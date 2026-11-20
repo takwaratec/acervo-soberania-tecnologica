@@ -1,6 +1,8 @@
 ---
 tipo_documental: ficha-academica
-estado_documental: edicao-publica-conformada
+estado_documental: homologado-documentalmente
+estado_documental_anterior: edicao-publica-conformada
+estado_documental_unificado_em: '2026-11-20'
 fonte_primaria: livro integral
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara

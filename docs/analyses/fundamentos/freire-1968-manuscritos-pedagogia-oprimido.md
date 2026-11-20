@@ -5,7 +5,9 @@ autores: Paulo Freire
 ano: 1968
 identificador: ausente-na-fonte
 identificador_tecnico: FPF_OPF_09_084
-estado_documental: curado
+estado_documental: homologado-documentalmente
+estado_documental_anterior: curado
+estado_documental_unificado_em: '2026-11-20'
 fonte_primaria: manuscrito digital integral conferido
 proveniencia: item arquivístico integral preservado pelo Instituto Paulo Freire
 licenca: CC BY-SA 4.0

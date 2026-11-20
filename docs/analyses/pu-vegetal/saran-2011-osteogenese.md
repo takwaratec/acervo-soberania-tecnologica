@@ -13,7 +13,9 @@ volume_referencia: "PU-COMP-BIO-R1"
 identificador_lote: "A07"
 arquivo_fonte: "A07_Saran_2011_osteogenese.pdf"
 sha256_fonte: "4b7d8f1e05648a52d2ec0c92d0c0149b10291e629a41ceb81f8d7166e57a7d2c"
-estado_documental: "em-revisao-documental"
+estado_documental: em-revisao-documental
+estado_documental_anterior: "em-revisao-documental"
+estado_documental_unificado_em: '2026-11-20'
 data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"

@@ -1,6 +1,8 @@
 ---
 tipo_documental: visao-autoral
-estado_documental: curado
+estado_documental: homologado-documentalmente
+estado_documental_anterior: curado
+estado_documental_unificado_em: '2026-11-20'
 titulo: Fundamentos do Acervo
 subtitulo: Genealogia intelectual de Fabio Takwara
 autor: Fabio Takwara

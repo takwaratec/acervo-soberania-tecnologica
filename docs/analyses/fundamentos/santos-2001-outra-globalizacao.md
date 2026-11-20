@@ -4,7 +4,9 @@ titulo: Por uma outra globalização
 autores: Milton Santos
 ano: 2001
 identificador: ISBN 85-01-05878-5
-estado_documental: curado
+estado_documental: homologado-documentalmente
+estado_documental_anterior: curado
+estado_documental_unificado_em: '2026-11-20'
 fonte_primaria: PDF integral conferido em acervo privado
 data_revisao: 2026-07-22
 responsavel_curadoria: Fabio Takwara

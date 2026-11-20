@@ -8,7 +8,9 @@ orcid_autor: 0009-0002-6044-2583
 ano: 2025
 data_publicacao_original: 2025-10-16
 versao: 1.0
-estado_documental: edicao-revisada-para-acervo
+estado_documental: homologado-documentalmente
+estado_documental_anterior: edicao-revisada-para-acervo
+estado_documental_unificado_em: '2026-11-20'
 acesso: publico
 licenca: CC-BY-4.0
 metodo: acv-metodologia-iso-14040-e-enquadramento-sbce
