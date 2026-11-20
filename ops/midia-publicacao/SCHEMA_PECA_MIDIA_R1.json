@@ -3,7 +3,7 @@
   "versao": "1.0",
   "data": "2026-11-20",
   "status": "PROPOSTA · NAO VIGENTE",
-  "principio": "Ficha nao gera midia. Midia deriva de peca editorial homologada. Publicacao e ato posterior e separado da montagem.",
+  "principio": "HOMOLOGAR UMA VEZ · PRODUZIR MUITAS VEZES · RASTREAR AUTOMATICAMENTE · APROVAR O QUE EXIGE DECISÃO HUMANA",
   "cadeia": [
     "ficha documental (docs/analyses/<gaveta>/*.md) — INSUMO, nao publicavel",
     "peca editorial (estado da arte da colecao | artigo didatico | artigo cientifico Zenodo) — CAMADA HOMOLOGAVEL",
@@ -46,8 +46,7 @@
     "legenda": "opcional: caption final; LIMITE APLICADO de 2200 caracteres (P0)",
     "hashtags": "opcional: lista de no maximo 30 hashtags; cada item texto (P0 aplica)",
     "alt_text": "opcional: texto alternativo para acessibilidade",
-    "sha256_da_peca": "sha256 CALCULADO do conteudo MAIS aprovacao.por e aprovacao.em. Use `--hash-peca`. Alterar qualquer campo de conteudo, ou por/em, invalida. O hash NAO autentica identidade: 'por' e declaracao",
-    "aprovacao": "por (autoridade registrada: FABIO_SOBERANO), em (data ISO AAAA-MM-DD), hash_da_peca (tem de ser IGUAL ao sha256_da_peca calculado). Altered content after approval invalidates it",
+    "sha256_da_peca": "sha256 CALCULADO do conteúdo + campos da liberação (menos o próprio hash) + sha256 dos artefatos de derivação e coleção. Use --selar. Alterar conteúdo, data, canal, destino ou um artefato invalida a liberação",
     "agendamento": "lista de {canal, data, hora} — vazio = nao programado",
     "rastreabilidade_da_arte": {
       "autor_da_arte": "sol-externo-canva | agent | humano",
@@ -64,16 +63,27 @@
     "deriva_de.origem": "opcional: identificacao legivel da origem (repo@branch) para leitura humana; nao substitui o ref",
     "colecao.estado_da_arte": "caminho do estado da arte da colecao; tem de resolver dentro do repositorio, com estado_documental homologado e tipo_documental de estado da arte",
     "colecao.artigos": "lista de caminhos de artigos; no minimo um; cada um distinto do estado da arte (por caminho resolvido) e com tipo_documental de artigo",
-    "colecao.gaveta": "gaveta tematica da colecao (ex.: bambu-estrutural). Unidade de GRADE, nao de homologacao"
+    "colecao.gaveta": "gaveta tematica da colecao (ex.: bambu-estrutural). Unidade de GRADE, nao de homologacao",
+    "liberacao": {
+      "o_que_e": "ATO ÚNICO do soberano: revisão editorial + autorização de publicação, quando concedida",
+      "autoridade": "FABIO_SOBERANO (lista fechada). Texto livre não é assinatura",
+      "em": "data/hora ISO do ato",
+      "canal_da_aprovacao": "onde o ato foi registrado (ex.: telegram:18335). Aponta a origem humana; não a autentica",
+      "revisao_editorial": "opcional: aprovada | aprovada-com-ressalvas",
+      "autoriza_publicacao": "true coloca na fila; false deixa pronta e fora da fila",
+      "destino": "lista de canais autorizados (obrigatória quando autoriza_publicacao=true)",
+      "hash_do_conteudo": "sha256 do conteúdo + metadados do ato; use --selar. Integridade, não identidade"
+    }
   },
   "portoes_do_montador": {
-    "P1": "tipo editorial publicavel E deriva_de.path contido no repositorio (caminho que escapa da raiz e P1, nao P2)",
+    "P1": "tipo editorial publicável E caminho contido no repositório E natureza EFETIVA da origem: o tipo_documental lido no frontmatter do próprio documento tem de ser editorial (estado-da-arte, artigo-*). Declarar outro tipo na peça não muda o documento",
     "P2": "a origem resolve por bytes no worktree ou por git cat-file no ref declarado, e o sha256 confere",
-    "P3": "origem homologada E bloco 'colecao' com estado_da_arte e artigos>0; cada ponteiro resolve DENTRO do repositorio, tem estado_documental homologado, os dois papeis apontam para arquivos distintos (comparacao por caminho resolvido), e cada documento declara seu papel (estado da arte declara tipo iniciando em 'estado' ou e_estado_da_arte; artigo declara tipo iniciando em 'artigo' ou e_artigo)",
+    "P3": "vínculo da coleção: estado da arte e artigo distintos, cada ponteiro resolvendo dentro do repositório e declarando o próprio papel. Homologação DOCUMENTAL não é bloqueio de produção — é condição de LIBERAÇÃO, registrada em pendencias_de_liberacao",
     "P4": "formato declarado e coerente com a contagem de itens (carrossel 2..20)",
     "P5": "cada 'fonte' citada aparece literalmente no corpo da origem. Verificacao de string, nao de sentido; quando P2 passa o corpo esta sempre disponivel, entao nao existe estado 'NAO_VERIFICADO'",
-    "P6": "aprovacao de ESTE conteudo: sha256_da_peca e o hash CALCULADO (nao declarado), precisa ser 64 hex, aprovacao.hash_da_peca igual, autor entre as autoridades registradas e data ISO de calendario",
-    "P0": "esquema FECHADO em todos os niveis + limites declarados: legenda<=2200, hashtags<=30, prompt_usado em 64 hex; booleano nao passa como int; id vazio ou repetido e recusa"
+    "P6": "LIBERAÇÃO: ato único com autoridade registrada, data/hora, canal de registro, hash do conteúdo igual ao calculado, e destino quando autoriza publicação. Sem liberação, a peça é verificada e fica pronta — não é erro. O hash prova integridade; não prova identidade nem consentimento",
+    "P0": "esquema FECHADO em todos os niveis + limites declarados: legenda<=2200, hashtags<=30, prompt_usado em 64 hex; booleano nao passa como int; id vazio ou repetido e recusa",
+    "P7": "TRÊS perguntas separadas: (a) bytes conferem com hash e dimensão; (b) manifesto coerente; (c) a URL declarada responde (--publico). Sem rede ou sem URL: NAO_VERIFICADO — não se aprova nem se recusa no escuro"
   },
   "o_que_esta_fora": [
     "o montador nao publica — nao ha chamada de rede no codigo",
@@ -169,6 +179,18 @@
       "data": "2026-11-20",
       "correcao": "hash cobre os artefatos referenciados (deriva_de + colecao); prompt_usado presente e vazio recusado; RecursionError e blob nao-UTF8 tratados; medicao fixa o parser do gate como autoridade, explicando a divergencia com PyYAML (3 index.md)",
       "origem": "auditoria TECO rodada 8 — ultima rodada; encerramento por decisao do soberano (auditoria em loop nao converge)"
+    },
+    {
+      "data": "2026-11-20",
+      "correcao": "reconciliação R1 da auditoria externa: 'aprovacao' substituída por 'liberacao' (ato único, com canal, destino e hash do conteúdo); P1 passa a conferir a natureza efetiva da origem; P3 separa homologação documental (condição de liberação) de estrutura da coleção (bloqueio); produção permitida com base em revisão; proveniência herdada automaticamente; P7 dividido em bytes/manifesto/disponibilidade; --selar preenche hashes",
+      "origem": "encaminhamento do soberano 2026-11-20, itens 4-A..4-F e regras 1-7 de desburocratização"
     }
-  ]
+  ],
+  "saida_do_montador": {
+    "verificadas": "peças que passaram P0..P5",
+    "liberadas": "peças com liberação que autoriza publicação — só elas entram na fila",
+    "prontas_para_liberacao": "verificadas sem autorização de publicação",
+    "pendencias_de_liberacao": "motivos pelos quais a peça ainda não pode publicar (não são erros)",
+    "rastreabilidade": "proveniência herdada da origem: título, ano, DOI, tipo, estado, gaveta — sem redigitação do operador"
+  }
 }

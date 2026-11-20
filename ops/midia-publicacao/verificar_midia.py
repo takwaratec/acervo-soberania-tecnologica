@@ -15,6 +15,8 @@ import hashlib
 import json
 import re
 import struct
+import urllib.error
+import urllib.request
 import sys
 from fractions import Fraction
 from pathlib import Path
@@ -196,6 +198,48 @@ def verificar(manifesto: dict, raiz: Path) -> dict:
     }
 
 
+def conferir_disponibilidade(manifesto: dict, timeout: float = 10.0) -> dict:
+    """Terceira pergunta do P7: o objeto está REALMENTE servido na URL declarada?
+
+    As outras duas perguntas são diferentes e não substituem esta: (1) os bytes conferem
+    com o hash e a dimensão; (2) o manifesto é internamente coerente. Nenhuma das duas
+    prova que a URL responde — e "publicado" sem URL que responde é suposição.
+    Sem rede ou sem URL, o resultado é NAO_VERIFICADO: não se aprova nem se recusa no escuro.
+    """
+    slides = manifesto.get("slides") or []
+    achados = []
+    for s in slides:
+        url = (s.get("url") or "").strip()
+        nome = s.get("arquivo") or "?"
+        if not url:
+            achados.append({"arquivo": nome, "url": None, "estado": "NAO_DECLARADA"})
+            continue
+        if not url.startswith("https://"):
+            achados.append({"arquivo": nome, "url": url, "estado": "RECUSADA",
+                            "motivo": "URL não é https"})
+            continue
+        try:
+            req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "acervo-verificador"})
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                achados.append({"arquivo": nome, "url": url, "estado": "RESPONDE",
+                                "http": r.status, "content_type": r.headers.get("Content-Type"),
+                                "content_length": r.headers.get("Content-Length")})
+        except Exception as e:  # rede, DNS, TLS, 403, 404 — tudo é "não confirmado"
+            achados.append({"arquivo": nome, "url": url, "estado": "NAO_CONFIRMADA",
+                            "motivo": f"{type(e).__name__}: {e}"[:200]})
+    estados = [a["estado"] for a in achados]
+    if not achados or all(e == "NAO_DECLARADA" for e in estados):
+        veredito = "NAO_VERIFICADO"
+    elif all(e == "RESPONDE" for e in estados):
+        veredito = "DISPONIVEL"
+    elif any(e in {"RESPONDE", "NAO_CONFIRMADA"} for e in estados):
+        veredito = "PARCIAL"
+    else:
+        veredito = "INDISPONIVEL"
+    return {"veredito": veredito, "slides": achados,
+            "nota": "HEAD na URL declarada; 200 não prova conteúdo, apenas que algo responde"}
+
+
 def _jpeg(largura: int, altura: int) -> bytes:
     """JPEG mínimo válido com SOF0 — bytes suficientes para o parser, sem imagem real."""
     sof = b"\xff\xc0" + struct.pack(">H", 17) + bytes([8]) + struct.pack(">HH", altura, largura) + bytes([3]) + b"\x01\x11\x00" + b"\x02\x11\x01" + b"\x03\x11\x01"
@@ -318,13 +362,28 @@ def main(argv=None) -> int:
     ap.add_argument("--selftest", action="store_true")
     ap.add_argument("--sem-bytes", action="store_true", dest="sem_bytes",
                     help="valida so o ponteiro do manifesto (binario fora do repositorio)")
+    ap.add_argument("--publico", action="store_true",
+                    help="confere tambem se a URL declarada responde (HEAD); sem esta opcao, "
+                         "disponibilidade publica fica NAO_VERIFICADO")
     a = ap.parse_args(argv)
     if a.selftest:
         return selftest()
     if not a.manifesto:
         ap.error("--manifesto e obrigatorio (ou use --selftest)")
     m = json.loads(Path(a.manifesto).read_text(encoding="utf-8"))
-    r = verificar_ponteiro(m) if a.sem_bytes else verificar(m, Path(a.raiz_public))
+    bytes_r = verificar_ponteiro(m) if a.sem_bytes else verificar(m, Path(a.raiz_public))
+    publico = (conferir_disponibilidade(m) if a.publico
+               else {"veredito": "NAO_VERIFICADO",
+                     "nota": "conferencia de URL nao executada; use --publico para consultar a rede"})
+    # P7 responde TRES perguntas distintas. Fundi-las foi o defeito apontado na reconciliacao R1.
+    r = {
+        "lote": m.get("lote"),
+        "bytes": bytes_r,
+        "disponibilidade_publica": publico,
+        "ok": bool(bytes_r.get("ok")),
+        "nota": "bytes = hash/dimensao; manifesto = coerencia do ponteiro; "
+                "disponibilidade_publica = a URL responde. Sao perguntas diferentes",
+    }
     print(json.dumps(r, ensure_ascii=False, indent=1))
     return 0 if r["ok"] else 1
 

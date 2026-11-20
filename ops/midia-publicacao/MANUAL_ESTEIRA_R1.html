@@ -1,286 +1,145 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Esteira de publicação — manual R1</title>
-<meta name="description" content="Manual operacional da esteira de publicação do Acervo: ficha não gera mídia; sete portões; nada publica.">
-<meta property="og:title" content="Esteira de publicação — manual R1">
-<meta property="og:description" content="Como montar lote e recusar o que não está homologado. Nada aqui publica.">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Esteira de publicação do Acervo — manual operacional R2</title>
 <style>
-:root{--bg:#EFE7D8;--bg2:#F7F2E7;--ink:#241C17;--muted:#6B5B4E;--accent:#B4552D;--accent-d:#8A3F20;--green:#4A6B4E;--line:#D8CBB6;}
+:root{--fg:#1a1a1a;--mut:#5d6470;--lin:#d8dbe0;--bg:#fbfbfa;--ac:#1f5f4e;--ac2:#eef5f2;--warn:#8a4b00;--warnbg:#fdf4e7}
 *{box-sizing:border-box}
-html{scroll-behavior:auto}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%;}
-.wrap{max-width:1080px;margin:0 auto;padding:0 20px 80px}
-header.doc{padding:44px 0 26px;border-bottom:2px solid var(--ink);margin-bottom:0}
-.kicker{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-d);font-weight:700}
-h1{font-size:clamp(1.7rem,4.4vw,2.7rem);line-height:1.12;margin:.36em 0 .3em;letter-spacing:-.015em}
-.sub{color:var(--muted);font-size:1.02rem;max-width:62ch;margin:0 0 18px}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:6px}
-.chip{font:600 11.5px/1.35 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--bg2);border:1px solid var(--line);border-radius:999px;padding:6px 12px;color:var(--muted);letter-spacing:.03em}
-nav[role=tablist]{display:flex;flex-wrap:wrap;gap:6px;padding:16px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:20}
-.navbtn{font:600 13px/1 inherit;padding:9px 13px;border:1px solid var(--line);background:var(--bg2);color:var(--muted);border-radius:8px;cursor:pointer}
-.navbtn[aria-selected=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.panel{display:none;padding-top:26px}
-.panel.active{display:block}
-.pmark{font:600 11.5px/1 ui-monospace,Menlo,monospace;color:var(--accent-d);letter-spacing:.14em;text-transform:uppercase;margin:10px 0 10px}
-h2{font-size:clamp(1.3rem,3.2vw,1.85rem);line-height:1.2;margin:0 0 18px;overflow-wrap:anywhere}
-h3{font-size:1.05rem;margin:26px 0 8px;color:var(--accent-d)}
-p{margin:0 0 14px;max-width:74ch}
-code{font:0.9em ui-monospace,Menlo,monospace;background:#E7DCC9;padding:1px 5px;border-radius:4px}
-pre{font:13px/1.5 ui-monospace,Menlo,monospace;background:var(--ink);color:#F2E9DA;padding:16px 18px;border-radius:10px;white-space:pre-wrap;overflow-wrap:anywhere;margin:0 0 16px}
-pre code{background:none;padding:0;color:inherit}
-.tw{overflow-x:auto;margin:0 0 18px;-webkit-overflow-scrolling:touch}
-ul{margin:0 0 16px;padding-left:22px;max-width:74ch}
-ul li{margin:0 0 7px}
-table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
-th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
-th{background:#E7DCC9;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
-tbody tr:nth-child(even){background:var(--bg2)}
-.note,.ok,.danger{border-left:4px solid var(--accent);background:var(--bg2);padding:13px 16px;border-radius:0 8px 8px 0;margin:0 0 16px}
-.ok{border-color:var(--green)} .danger{border-color:var(--accent-d);background:#F6E9E2}
-.note>b,.ok>b,.danger>b{display:block;margin-bottom:5px;font-size:.95rem}
-blockquote{margin:0 0 18px;padding:16px 20px;background:var(--bg2);border-left:3px solid var(--accent-d);border-radius:0 8px 8px 0;font-size:1.02rem}
-blockquote .small{display:block;margin-top:9px;font-size:12.5px;color:var(--muted);font-style:normal}
-.page-nav{margin:26px 0 0;display:flex;flex-wrap:wrap;gap:14px}
-.page-nav a{color:var(--accent-d);font-weight:650;text-decoration:none;border-bottom:1px solid var(--accent)}
-footer{margin-top:38px;padding-top:14px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
-@media(max-width:760px){table{min-width:0}th,td{font-size:13.5px;padding:8px}nav[role=tablist]{gap:5px}.navbtn{padding:8px 11px;font-size:12px}}
-@media(max-width:420px){h1{font-size:1.5rem}}
-@media print{nav[role=tablist]{display:none}.panel{display:block!important;page-break-after:always;break-inside:avoid}}
-</style></head>
-<body><div class="wrap">
-<nav role="tablist" aria-label="Páginas"><button class="navbtn" data-tab="p1" aria-selected="true" role="tab">1 · O que é</button>
-<button class="navbtn" data-tab="p2" aria-selected="false" role="tab">2 · A cadeia</button>
-<button class="navbtn" data-tab="p3" aria-selected="false" role="tab">3 · Critério</button>
-<button class="navbtn" data-tab="p4" aria-selected="false" role="tab">4 · Os portões</button>
-<button class="navbtn" data-tab="p5" aria-selected="false" role="tab">5 · Como usar</button>
-<button class="navbtn" data-tab="p6" aria-selected="false" role="tab">6 · Quando recusa</button>
-<button class="navbtn" data-tab="p7" aria-selected="false" role="tab">7 · Pendências</button>
-<button class="navbtn" data-tab="p8" aria-selected="false" role="tab">8 · Fase 2</button>
-<button class="navbtn" data-tab="p9b" aria-selected="false" role="tab">9 · Hospedagem</button>
-<button class="navbtn" data-tab="p10" aria-selected="false" role="tab">10 · Restauração</button>
-<button class="navbtn" data-tab="p9" aria-selected="false" role="tab">11 · Registro</button></nav>
-<section id="p1" class="panel active" role="tabpanel" aria-hidden="false">
-<header class="doc"><div class="kicker">TakwaraTec · INTEGRACAO_MIDIAS_SOCIAIS</div><h1>Esteira de publicação do Acervo</h1><p class="sub">Manual operacional R1 — construir, montar lote, recusar o que não está homologado. Nada aqui publica.</p><div class="chips"><span class="chip">PROPOSTA · NÃO VIGENTE</span><span class="chip">2026-11-20</span><span class="chip">base 0b6cbd4d</span><span class="chip">não publica</span></div></header>
-<div class="pmark">Página 01</div>
-<h2>O que esta esteira faz</h2>
-<p>Esta esteira pega <b>peças de mídia</b> que derivam de <b>peças editoriais homologadas</b>, monta um <b>lote</b>, ordena uma <b>fila</b> com canal, data e hora — e <b>recusa</b> tudo que não cumpra os sete portões.</p>
-<div class="ok"><b>O que ela não faz</b><div>Não publica. Não fala com a Meta. Não abre rede. Não decide formato. Não cria conteúdo. O código não tem uma linha de rede sequer — verificado por lista de imports: apenas <code>argparse, datetime, hashlib, json, pathlib, re, subprocess, sys</code>.</div></div>
-<h3>Por que ela foi construída vazia</h3>
-<p>O gargalo é editorial, não técnico. A esteira só aceita entrada homologada, e <b>nenhum par completo</b> — estado da arte <i>e</i> artigo, no mesmo estado homologado e declarando o papel — foi encontrado no corpus. Medido em 2026-11-20 com parser de frontmatter: das <b>98</b> fichas no conjunto que o P3 aceita, <b>13</b> são estado da arte (11 <code>estado-da-arte</code> + 2 <code>estado-da-arte-com-agenda-experimental</code>) e <b>0</b> são artigo; os demais tipos são ficha, documento institucional, resenha, patente, norma, manual, índice e histórico. Falta o artigo — não falta tudo. Esteira pronta com entrada vazia é o estado mais seguro possível: quando a primeira peça editorial homologada sair do MTCC, ela entra sem você precisar parar tudo para montar infraestrutura.</p>
-<div class="page-nav"><a href="#p2">Próxima → 2 · A cadeia</a></div>
-<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
-</section><section id="p2" class="panel" role="tabpanel" aria-hidden="true">
-
-<div class="pmark">Página 02</div>
-<h2>Os quatro elos</h2>
-<p>A cadeia tem quatro elos e o segundo é o que existe para impedir o erro caro.</p>
-<pre>ficha (docs/analyses/&lt;gaveta&gt;/*.md)        INSUMO — não publicável
+body{margin:0;font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:#fff}
+header{padding:18px 22px 14px;border-bottom:1px solid var(--lin);background:var(--bg)}
+header h1{margin:0 0 4px;font-size:23px;letter-spacing:-.2px}
+header p{margin:0;color:var(--mut);font-size:14px}
+nav{display:flex;flex-wrap:wrap;gap:5px;padding:9px 22px;border-bottom:1px solid var(--lin);position:sticky;top:0;background:#fff;z-index:5}
+nav button{border:1px solid var(--lin);background:#fff;color:var(--fg);padding:6px 10px;border-radius:999px;cursor:pointer;font-size:13px;white-space:nowrap}
+nav button[aria-selected=true]{background:var(--ac);border-color:var(--ac);color:#fff}
+main{max-width:900px;margin:0 auto;padding:18px 22px 70px}
+section[hidden]{display:none}
+h2{font-size:20px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--lin)}
+h3{font-size:16.5px;margin:22px 0 8px}
+p{margin:0 0 12px}
+ul,ol{margin:0 0 14px;padding-left:22px}
+li{margin:4px 0}
+code{background:#f1f3f5;padding:1px 5px;border-radius:4px;font-size:13.5px}
+pre{background:#f6f7f8;padding:12px;border-radius:8px;overflow:auto;font-size:12.5px}
+blockquote{margin:0 0 14px;padding:10px 14px;background:var(--ac2);border-left:3px solid var(--ac);border-radius:0 6px 6px 0}
+table{border-collapse:collapse;width:100%;margin:0 0 16px;font-size:14px}
+th,td{border:1px solid var(--lin);padding:7px 9px;text-align:left;vertical-align:top}
+th{background:#f3f5f7}
+.nota{background:var(--warnbg);border:1px solid #f0d9b8;color:var(--warn);padding:12px 14px;border-radius:8px;margin:0 0 18px;font-size:14.5px}
+.ok{background:var(--ac2);border:1px solid #cfe3da;padding:12px 14px;border-radius:8px;margin:0 0 18px;font-size:14.5px}
+.slide{border:1px solid var(--lin);border-radius:12px;padding:18px;margin:0 0 12px;background:var(--bg)}
+.slide .n{font-size:12px;color:var(--mut);letter-spacing:.08em;text-transform:uppercase}
+.slide .t{font-size:18px;line-height:1.4;margin:8px 0 10px}
+.slide .f{font-size:12.5px;color:var(--mut);border-top:1px dashed var(--lin);padding-top:8px}
+.slide .f code{font-size:12px}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;word-break:break-all}
+footer{border-top:1px solid var(--lin);padding:16px 22px;color:var(--mut);font-size:12.5px;text-align:center}
+@media(max-width:520px){header h1{font-size:21px}main{padding:18px 14px 60px}nav{padding:10px 14px}}
+</style></head><body>
+<header><h1>Esteira de publicação do Acervo — manual operacional R2</h1>
+<p>Gerado de <code>MANUAL_ESTEIRA_R1.md</code>. O Markdown é a fonte; este HTML é derivado — nunca editado à mão.</p></header>
+<nav role="tablist"><button data-tab="s1" aria-selected="true">1 · O que esta esteira faz e o que ela não faz</button><button data-tab="s2" aria-selected="false">2 · A cadeia</button><button data-tab="s3" aria-selected="false">3 · Duas homologações, e não se confundem</button><button data-tab="s4" aria-selected="false">4 · Os portões</button><button data-tab="s5" aria-selected="false">5 · As duas vias de P2 — e por que a segunda não afrouxa nada</button><button data-tab="s6" aria-selected="false">6 · O ato de liberação — um só</button><button data-tab="s7" aria-selected="false">7 · Rastreabilidade herdada (o operador não redigita o que a máquina sabe)</button><button data-tab="s8" aria-selected="false">8 · Como o operador usa</button><button data-tab="s9" aria-selected="false">9 · O que fazer quando a esteira recusa</button><button data-tab="s10" aria-selected="false">10 · Pendências declaradas (com dono)</button><button data-tab="s11" aria-selected="false">11 · Limites declarados</button><button data-tab="s12" aria-selected="false">12 · Histórico de auditoria, sem inflar</button></nav>
+<main><section id="s1">
+<h2>1. O que esta esteira faz e o que ela não faz</h2>
+<p><b>Faz:</b> recebe peças de mídia que derivam de peças editoriais, verifica tudo o que é verificável por máquina, herda a rastreabilidade da base e monta a fila do que foi <b>liberado</b>.</p>
+<p><b>Não faz:</b> não publica, não fala com a Meta, não abre rede, não cria conteúdo, não homologa e não decide formato.</p>
+<p>Quem homologa e quem libera é o soberano. Publicar é ato autorizado, separado.</p>
+</section><section id="s2" hidden>
+<h2>2. A cadeia</h2>
+<pre>ficha (docs/analyses/&lt;gaveta&gt;/*.md)      INSUMO — não publicável
    ↓
-peça editorial                             CAMADA HOMOLOGÁVEL
-(estado da arte | artigo didático | artigo científico Zenodo)
+peça editorial                            BASE HOMOLOGÁVEL
+(estado da arte | artigo didático | artigo científico)
    ↓
-peça de mídia                              ESTA ESTEIRA
+peça de mídia                             ESTA ESTEIRA (produção verificada)
 (carrossel | vídeo curto | estático)
    ↓
-lote aprovado                              ATO DO SOBERANO
+liberação                                 ATO HUMANO, ÚNICO
+(revisão editorial + autorização + destino)
    ↓
-fila de publicação                         item = peça + canal + data + hora</pre>
-<div class="danger"><b>A ficha não vira mídia</b><div>Uma ficha científica declara limites, ressalvas e condições que uma legenda de 2.200 caracteres não comporta. Traduzi-la direto para post transforma ressalva em afirmação. A peça editorial — estado da arte, artigo didático ou artigo científico — já passou por esse trabalho de síntese e é a única coisa que pode alimentar mídia.</div></div>
-<div class="page-nav back"><a href="#p1">← 1 · O que é</a></div><div class="page-nav"><a href="#p3">Próxima → 3 · Critério</a></div>
-<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
-</section><section id="p3" class="panel" role="tabpanel" aria-hidden="true">
+fila de publicação                        item = peça + canal + data + hora
+   ↓
+publicação                                ATO AUTORIZADO</pre>
+<p><b>A ficha não vira mídia.</b> Uma ficha científica declara limites e ressalvas que uma legenda de 2.200 caracteres não comporta; traduzi-la direto para post transforma ressalva em afirmação. A peça editorial é o que já passou por essa síntese.</p>
+<p><b>Produzir não exige homologação; publicar exige.</b> Os agentes podem elaborar artigos, roteiros e peças enquanto a coleção está em preparação. Só a liberação final depende de homologação documental. Antes, um <code>em-revisao-documental</code> derrubava a peça — isso transformava homologação em pedágio de produção, exatamente o que a reconciliação R1 mandou corrigir.</p>
+</section><section id="s3" hidden>
+<h2>3. Duas homologações, e não se confundem</h2>
+<table><thead><tr><th></th><th>documental</th><th>editorial</th></tr></thead><tbody><tr><td><b>o que é</b></td><td>estado do documento no Acervo (<code>estado_documental</code>)</td><td>ato do soberano que libera a peça para publicação</td></tr><tr><td><b>quem faz</b></td><td>curadoria, pelos estados de <code>GOVERNANCA_DOCUMENTAL.md</code></td><td><code>FABIO_SOBERANO</code></td></tr><tr><td><b>onde aparece</b></td><td>frontmatter do documento</td><td>bloco <code>liberacao</code> da peça de mídia</td></tr><tr><td><b>o que bloqueia</b></td><td>a liberação</td><td>a fila</td></tr></tbody></table>
+<p>Estados documentais aceitos: <code>homologado-documentalmente</code>, <code>publicado-no-zenodo</code>, <code>depositado-no-zenodo</code>, <code>publicado-no-acervo</code>, <code>edicao-publica-conformada</code>, <code>edicao-revisada-para-acervo</code>, <code>curado</code>, <code>revisado-com-fonte-integral</code> — os dois últimos porque <code>GOVERNANCA_DOCUMENTAL.md:86/88</code> os declara equivalentes a homologado.</p>
+<p>Critério editorial de liberação: a coleção tem <b>estado da arte E ao menos um artigo</b>, didático ou científico, cada ponteiro resolvendo dentro do repositório, apontando para arquivos distintos e declarando o próprio papel no frontmatter.</p>
+<p><b>Medição de 2026-11-20 (checkout limpo, parser de frontmatter do gate):</b> 338 arquivos <code>.md</code>; 238 em <code>em-revisao-documental</code>; 44 no estado canônico; 98 no conjunto aceito; <b>13 estado da arte; 0 artigos</b>. Consequência: nenhuma coleção tem o par completo — falta artigo, não falta tudo.</p>
+<p><b>Como reconferir:</b> o número vale pelo comando. <code>grep</code> literal subconta (43 contra 98) e PyYAML rejeita o frontmatter de 3 <code>index.md</code> que o gate aceita (235/97 contra 238/98). Vale o parser do gate.</p>
+</section><section id="s4" hidden>
+<h2>4. Os portões</h2>
+<p>Sete verificações automáticas, sem etapa administrativa nova. Cada uma responde a uma pergunta diferente; nenhuma delas é aprovação.</p>
+<table><thead><tr><th>portão</th><th>pergunta</th><th>como falha</th></tr></thead><tbody><tr><td>P0</td><td>a peça tem a forma declarada?</td><td>recusa nomeada: tipo errado, campo desconhecido, <code>id</code> vazio ou repetido, limite estourado</td></tr><tr><td>P1</td><td>a origem é documento editorial de verdade?</td><td>recusa <code>tipo=ficha</code>, caminho fora da raiz, ou origem cujo <code>tipo_documental</code> <b>efetivo</b> não é editorial</td></tr><tr><td>P2</td><td>a origem é a que foi medida?</td><td>recusa origem que não resolve (bytes ou <code>git cat-file</code>) e hash divergente</td></tr><tr><td>P3</td><td>a coleção satisfaz o critério?</td><td>recusa coleção sem estado da arte, sem artigo, papéis trocados, mesmo arquivo nos dois papéis</td></tr><tr><td>P4</td><td>o formato cabe no conteúdo?</td><td>carrossel exige 2 a 20 itens</td></tr><tr><td>P5</td><td>o texto cita o que diz citar?</td><td>recusa fonte que não existe literalmente no corpo</td></tr><tr><td>P6</td><td>o ato de liberação é íntegro?</td><td>recusa hash arbitrário, conteúdo alterado, autoridade inventada, data inválida, autorização sem destino</td></tr></tbody></table>
+<p>P7 (<code>verificar_midia.py</code>) responde a <b>três</b> perguntas separadas: (a) os bytes conferem com hash e dimensão; (b) o manifesto é internamente coerente; (c) a URL declarada <b>responde</b> de fato. As três são diferentes; a terceira fica <code>NAO_VERIFICADO</code> sem rede ou sem URL.</p>
+<p><b>P1 confere a natureza declarada pela origem, não o que a peça diz que ela é.</b> Uma peça pode declarar <code>deriva_de.tipo: estado-da-arte</code> e apontar para uma ficha; o frontmatter da ficha é quem decide.</p>
+<p><b>P5 é verificação textual, não semântica.</b> Confere que a string existe no corpo; não julga se a peça interpretou bem. Esse julgamento é humano.</p>
+</section><section id="s5" hidden>
+<h2>4A. As duas vias de P2 — e por que a segunda não afrouxa nada</h2>
+<ul><li><b>Via BYTES:</b> a peça editorial está no worktree; o <code>sha256</code> é calculado dos bytes presentes.</li><li><b>Via PONTEIRO:</b> a peça editorial está publicada em outro branch/remoto — caso normal, porque</li></ul>
+<p>homologado e publicado no Git já é fonte. O lote declara <code>sha256</code> <b>e</b> <code>ref</code>, e o gate confere por <code>git cat-file</code> no próprio clone, sem rede.</p>
+<p>O que a via PONTEIRO não faz: assumir. Ref inexistente é recusa nomeada; hash divergente é recusa. Consequência: <b>nenhum lote real falha porque a peça não está mesclada na <code>main</code>.</b></p>
+</section><section id="s6" hidden>
+<h2>5. O ato de liberação — um só</h2>
+<p>Aprovação concentrada: uma decisão, um bloco, e ele diz tudo o que importa.</p>
+<pre>"liberacao": {
+  "autoridade": "FABIO_SOBERANO",
+  "em": "2026-12-01T09:20:00-03:00",
+  "canal_da_aprovacao": "telegram:18335",
+  "revisao_editorial": "aprovada",
+  "autoriza_publicacao": true,
+  "destino": ["instagram:@takwaratec"],
+  "hash_do_conteudo": "&lt;sha256 calculado por --selar&gt;"
+}</pre>
+<ul><li><b>Um ato</b> registra revisão editorial <b>e</b> autorização, quando concedida.</li><li><b>Identidade, data, conteúdo e destino</b> ficam registrados no mesmo lugar.</li><li><b><code>autoriza_publicacao: false</code></b> não é recusa: é revisão aprovada sem autorização de publicar —</li></ul>
+<p>a peça fica pronta, fora da fila.</p>
+<ul><li><b>Sem <code>liberacao</code> não há erro</b>: a peça é produzida e verificada, e a pendência é declarada.</li></ul>
+<p><b>O que o hash prova e o que não prova.</b> <code>sha256</code> prova que o conteúdo aprovado é o conteúdo apresentado; <b>não prova identidade nem consentimento</b>. <code>autoridade</code> é declaração; <code>canal_da_aprovacao</code> aponta para onde o ato aconteceu. O sistema não autentica pessoas — e não finge que autentica.</p>
+</section><section id="s7" hidden>
+<h2>6. Rastreabilidade herdada (o operador não redigita o que a máquina sabe)</h2>
+<p>A peça declara <b>origem e coleção</b>; o restante vem dos arquivos:</p>
+<pre>python3 ops/midia-publicacao/montar_lote.py --selar &lt;lote&gt;.json --raiz .
+python3 ops/midia-publicacao/montar_lote.py --lote &lt;lote&gt;.json --raiz .</pre>
+<p><code>--selar</code> preenche <code>sha256_da_peca</code> e o hash da liberação. A saída traz <code>rastreabilidade</code> com título, ano, DOI, tipo documental, estado e gaveta <b>lidos do frontmatter da origem</b>. DOI, locators, hashes e referências não são pedidos de novo a cada derivado.</p>
+<p>Uma base homologada serve a muitos derivados: carrossel, vídeo, podcast, estático. Não se homologa a coleção outra vez para cada peça.</p>
+</section><section id="s8" hidden>
+<h2>7. Como o operador usa</h2>
+<pre>cd &lt;raiz-do-repositorio&gt;
 
-<div class="pmark">Página 03</div>
-<h2>Critério de homologação</h2>
-<blockquote>assim que o terreno estiver preparado, nós trabalharemos apenas com material homologado que tenha pelo menos um estado da arte de uma coleção e um artigo, um artigo didático, no mínimo. Podem haver casos em que um artigo de cunho científico seja produzido e publicado no Zenodo.<span class="small">— Fábio, 2026-11-20</span></blockquote>
-<h3>O que a peça editorial precisa declarar</h3>
-<div class="tw"><table><thead><tr><th>campo</th><th>valor aceito</th></tr></thead><tbody><tr><td>estado_documental</td><td>homologado-documentalmente · publicado-no-zenodo · depositado-no-zenodo · publicado-no-acervo · edicao-publica-conformada · edicao-revisada-para-acervo · <b>curado</b> · <b>revisado-com-fonte-integral</b> (os dois últimos pela GOVERNANCA_DOCUMENTAL:86/88)</td></tr><tr><td>colecao</td><td><code>estado_da_arte</code> + <code>artigos</code> (≥1) na peça de mídia — cada ponteiro resolve dentro do repositório, com <code>estado_documental</code> homologado, em <b>arquivos distintos</b></td></tr></tbody></table></div>
-<div class="danger"><b>O número que importa</b><div><b>238 de 338 fichas</b> do corpus estão em <code>em-revisao-documental</code> — estado que <b>não</b> passa. Isso não é defeito do corpus: é o retrato do terreno em preparação. Medido em 2026-11-20, em checkout limpo, com <b>parser de frontmatter</b> (não <code>grep</code>, que subconta valores entre aspas): 338 arquivos, 238 em revisão, 44 no estado canônico, 98 no conjunto aceito pelo P3, 15 gavetas. Árvore com arquivo não rastreado infla a contagem. <code>grep</code> literal subconta (43 contra 98) e o PyYAML rejeita o frontmatter de 3 <code>index.md</code> que o gate aceita (235/97 contra 238/98). O número válido é o do <b>parser do gate</b>, que é quem decide.</div></div>
-<div class="page-nav back"><a href="#p2">← 2 · A cadeia</a></div><div class="page-nav"><a href="#p4">Próxima → 4 · Os portões</a></div>
-<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
-</section><section id="p4" class="panel" role="tabpanel" aria-hidden="true">
+# prova que o gate está ligado
+python3 ops/midia-publicacao/montar_lote.py --selftest
 
-<div class="pmark">Página 04</div>
-<h2>Os sete portões</h2>
-<p>Cada portão recusa por um motivo diferente, e recusar é o resultado esperado — não a exceção.</p>
-<div class="tw"><table><thead><tr><th>portão</th><th>o que verifica</th><th>como falha</th></tr></thead><tbody><tr><td>P0</td><td>tipo de cada campo e de cada item de lista</td><td>recusa nomeada em vez de exceção</td></tr>
-<tr><td>P1</td><td>deriva_de.tipo é editorial publicável <b>e</b> deriva_de.path fica dentro do repositório</td><td>recusa tipo=ficha/desconhecido ou caminho que escapa da raiz</td></tr><tr><td>P2</td><td>a origem resolve (bytes ou <code>git cat-file</code> no ref) e o sha256 confere</td><td>recusa origem que não resolve ou hash divergente</td></tr><tr><td>P3</td><td>origem homologada <b>e</b> bloco <code>colecao</code>: cada ponteiro resolve <b>dentro do repositório</b>, tem <code>estado_documental</code> homologado, é <b>arquivo distinto</b> do outro (por caminho resolvido) e <b>declara o próprio papel</b></td><td>recusa estado não homologado, coleção sem estado da arte, coleção sem artigo, mesmo arquivo nos dois papéis (inclusive por alias), caminho fora da raiz, documento que não declara o papel e bloco <code>colecao</code> malformado</td></tr><tr><td>P4</td><td>formato coerente com a contagem de itens</td><td>carrossel exige 2 a 20</td></tr><tr><td>P5</td><td>toda fonte citada aparece literalmente no corpo da origem</td><td>recusa fonte inventada</td></tr><tr><td>P6</td><td><code>sha256_da_peca</code> é o hash <b>calculado</b> do conteúdo; a aprovação registra esse hash, com autoridade e data ISO</td><td>recusa hash arbitrário, conteúdo alterado após aprovação, aprovador inventado, data inválida</td></tr></tbody></table></div>
-<div class="note"><b>Limite honesto do P5</b><div>P5 é verificação de <b>string</b>, não de sentido. Garante que a fonte citada existe; <b>não</b> garante que a peça a interpretou corretamente. Esse julgamento continua sendo seu ou de um auditor.</div></div>
-<div class="page-nav back"><a href="#p3">← 3 · Critério</a></div><div class="page-nav"><a href="#p5">Próxima → 5 · Como usar</a></div>
-<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
-</section><section id="p5" class="panel" role="tabpanel" aria-hidden="true">
+# sela os hashes do lote (a máquina faz o trabalho repetitivo)
+python3 ops/midia-publicacao/montar_lote.py --selar &lt;lote&gt;.json --raiz .
 
-<div class="pmark">Página 05</div>
-<h2>Passo a passo no Mac</h2>
-<h3>Passo 0 — chegar ao repositório</h3>
-<p>Abra o Terminal. Os comandos abaixo assumem o clone do acervo. Se você estiver usando o worktree da frente:</p>
-<pre>cd ~/Takwara/worktrees/acervo-soberania-tecnologica/midia-esteira-20261120</pre>
-<h3>Passo 1 — provar que o gate está ligado</h3>
-<p>Este comando roda os controles negativos embutidos: cada portão, e cada nível de estrutura, tem pelo menos um caso errado de propósito que <b>precisa</b> ser recusado. Se algo passar, o gate está desligado e <b>nada</b> deve ser publicado.</p>
-<pre>python3 ops/midia-publicacao/montar_lote.py --selftest</pre>
-<p>Saída esperada (e exit 0):</p>
-<pre>{&quot;selftest&quot;: &quot;PASS&quot;, &quot;modo&quot;: &quot;EM_MEMORIA&quot;, &quot;controles_negativos&quot;: 51, &quot;controles_positivos&quot;: 6, &quot;falhas&quot;: 0}</pre>
-<div class="note"><b>Os contadores são calculados</b><div>O número sai do tamanho da lista de controles executados, não de um literal escrito no código. Um contador digitado à mão já divergiu do código real em auditoria — agora não há como divergir.</div></div>
-<h3>Passo 2 — ver a esteira recusando de verdade</h3>
-<p>O exemplo abaixo aponta para uma ficha real do acervo. Ele deve ser recusado em cinco frentes diferentes. Se passar, algo está errado.</p>
-<pre>python3 ops/midia-publicacao/montar_lote.py \
-  --lote ops/midia-publicacao/exemplos/LOTE_EXEMPLO_RECUSA.json --raiz .
-echo &quot;exit=$?&quot;</pre>
-<h3>Passo 3 — montar um lote real (quando existir peça homologada)</h3>
-<pre>python3 ops/midia-publicacao/montar_lote.py --lote &lt;seu-lote.json&gt; --raiz .</pre>
-<div class="note"><b>Exit 1 é resultado, não erro</b><div>Quando qualquer peça é recusada, o script sai com código 1 e lista cada motivo com o portão e o identificador da peça. Leia a linha: ela diz exatamente o que corrigir.</div></div>
-<div class="page-nav back"><a href="#p4">← 4 · Os portões</a></div><div class="page-nav"><a href="#p6">Próxima → 6 · Quando recusa</a></div>
-<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
-</section><section id="p6" class="panel" role="tabpanel" aria-hidden="true">
+# monta
+python3 ops/midia-publicacao/montar_lote.py --lote &lt;lote&gt;.json --raiz .
 
-<div class="pmark">Página 06</div>
-<h2>O que fazer quando a esteira recusa</h2>
-<h3>Os quatro casos reais</h3>
-<div class="tw"><table><thead><tr><th>erro</th><th>o que significa</th><th>o que fazer</th></tr></thead><tbody><tr><td>P1 tipo=ficha</td><td>a peça tentou publicar ficha</td><td>produzir estado da arte ou artigo antes</td></tr><tr><td>P3 em-revisao-documental</td><td>o terreno daquela coleção não está preparado</td><td>aguardar homologação; não forçar</td></tr><tr><td>P5 fonte não encontrada</td><td>o texto afirma algo que a origem não contém literalmente</td><td>corrigir o texto ou a fonte — nunca soltar o portão</td></tr><tr><td>P6 hash divergente</td><td>a peça mudou depois de aprovada</td><td>reaprovar os bytes novos</td></tr></tbody></table></div>
-<div class="danger"><b>A regra que não se negocia</b><div>Quando a esteira recusa, o conserto é na peça ou no terreno — <b>nunca</b> no portão. Soltar um portão para passar uma peça transforma a esteira em carimbo, e o carimbo é pior que a ausência de esteira: dá a impressão de controle.</div></div>
-<div class="page-nav back"><a href="#p5">← 5 · Como usar</a></div><div class="page-nav"><a href="#p7">Próxima → 7 · Pendências</a></div>
-<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
-</section><section id="p7" class="panel" role="tabpanel" aria-hidden="true">
-
-<div class="pmark">Página 07</div>
-<h2>O que não está provado</h2>
-<p>Documento de operação separa o que está ligado do que não foi provado. Esta é a seção do que não foi provado — não rodapé de ressalvas.</p>
-<div class="tw"><table><thead><tr><th>#</th><th>pendência</th><th>estado</th><th>dono</th><th>bloqueia</th></tr></thead><tbody><tr><td>1</td><td>modo desenvolvedor não cria gaveta invisível no Instagram</td><td>NÃO VERIFICADO no App real</td><td>Fábio</td><td>ensaio invisível</td></tr><tr><td>2</td><td>permissão instagram_business_content_publish ausente no app</td><td>NÃO VERIFICADO</td><td>Fábio</td><td>fase 2</td></tr><tr><td>3</td><td>imagem tem de estar em URL pública (Meta baixa, não aceita upload)</td><td>requisito conhecido</td><td>a definir</td><td>fase 2</td></tr><tr><td>4</td><td>relógio da fase 2 precisa sobreviver ao Mac desligado</td><td>requisito conhecido</td><td>a definir</td><td>fase 2</td></tr><tr><td>5</td><td>auditoria do Release 1 pode revelar divergências</td><td>ABERTA</td><td>MTCC</td><td>primeiro lote com Release 1</td></tr></tbody></table></div>
-<div class="note"><b>Correção declarada — pendência 1</b><div>Eu afirmei em conversa que o modo desenvolvedor não cria publicação oculta no Instagram. A base é a <b>ausência de mecanismo documentado</b> para publicação de Instagram em rascunho/oculto — não uma leitura do seu App Dashboard. Registro como <b>não verificado</b>, não como fato. A verificação custa uma leitura do App e ainda não foi feita porque falta credencial.</div></div>
-<h3>O que trava a fase 2, em uma frase</h3>
-<p>Para publicar programado faltam quatro coisas: a permissão <code>instagram_business_content_publish</code>, um lugar público onde a Meta possa baixar cada imagem, um relógio que rode fora do Mac, e a aprovação do lote. Nenhuma delas existe hoje.</p>
-<div class="page-nav back"><a href="#p6">← 6 · Quando recusa</a></div><div class="page-nav"><a href="#p8">Próxima → 8 · Fase 2</a></div>
-<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
-</section><section id="p8" class="panel" role="tabpanel" aria-hidden="true">
-
-<div class="pmark">Página 08</div>
-<h2>Fase 1 e fase 2, lado a lado</h2>
-<div class="tw"><table><thead><tr><th></th><th>fase 1 — manual assistida</th><th>fase 2 — programada</th></tr></thead><tbody><tr><td>quem publica</td><td>você, à mão</td><td>um executor no Cloudflare</td></tr><tr><td>precisa de token de publicação</td><td>não</td><td>sim</td></tr><tr><td>precisa de App Review</td><td>não</td><td>não, se for só a sua conta</td></tr><tr><td>imagem em URL pública</td><td>não</td><td>sim</td></tr><tr><td>relógio fora do Mac</td><td>não</td><td>sim, obrigatório</td></tr><tr><td>custo do seu tempo</td><td>10 a 15 min por carrossel</td><td>zero por post; revisão só do lote</td></tr></tbody></table></div>
-<div class="ok"><b>Por que começar pela fase 1</b><div>Você disse que não quer ficar publicando. A fase 1 é o caminho mais curto até lá: ela prova o pacote — ordem dos slides, legenda, alt-text, aprovação da arte — com custo quase zero. Construir a fase 2 antes disso é pagar manutenção de token, bucket e relógio para testar conteúdo que ainda vai mudar.</div></div>
-<h3>O que muda quando a fase 2 chegar</h3>
-<p>Seu trabalho passa a ser <b>aprovar o lote</b>, não o post. Um lote de 12 carrosséis aprovado de uma vez libera 12 publicações na cadência definida. É aí que você deixa de publicar.</p>
-<div class="page-nav back"><a href="#p7">← 7 · Pendências</a></div><div class="page-nav"><a href="#p9b">Próxima → 9 · Hospedagem</a></div>
-<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
-</section><section id="p9b" class="panel" role="tabpanel" aria-hidden="true">
-<div class="pmark">Página 09</div>
-<h2>Onde a arte tem de morar</h2>
-<p>A Graph API <b>não aceita upload de arquivo</b>. Ela recebe uma URL e <b>baixa a imagem sozinha</b>. Isso define três exigências que não têm negociação: URL pública (sem autenticação), que devolva os <b>bytes da imagem</b> e não uma página, e estável entre criar o contêiner e publicar.</p>
-<h3>O desenho A — assets do Worker que já existe</h3>
-<pre>wrangler.jsonc  →  "assets": { "directory": "./dist/", "binding": "ASSETS" }
-worker.js l.36  →  return env.ASSETS.fetch(request);</pre>
-<p>Qualquer arquivo em <code>dist/</code> vira URL pública: <code>https://acervo-web-preview.&lt;sub&gt;.workers.dev/midia/&lt;LOTE&gt;/01.jpg</code> — custo zero, nada novo a instalar.</p>
-<div class="danger"><b>O problema do dist/</b><div><code>dist/</code> está no <code>.gitignore</code> e é <b>reconstruído a cada build</b>. Arquivo colocado ali desaparece no próximo deploy e não deixa histórico. Por isso a arte mora em <code>public/midia/&lt;LOTE&gt;/</code> — o Astro copia para <code>dist/</code> — e o repositório guarda só o <b>manifesto</b> (ponteiro com sha256 e URL).</div></div>
-<h3>O corte do carrossel — o defeito que não dá erro</h3>
-<p>Todos os slides são cortados pela <b>proporção do primeiro</b>. Se o slide 3 for quadrado e o 1 for 4:5, o 3 perde conteúdo e <b>nada falha</b>. O defeito só aparece no post publicado. É exatamente para isso que existe o portão P7.</p>
-<h3>P7 — mídia servível</h3>
-<div class="tw"><table><thead><tr><th>checagem</th><th>critério</th></tr></thead><tbody>
-<tr><td>formato</td><td>JPEG válido por magic bytes <code>FF D8 FF</code> e header SOF</td></tr>
-<tr><td>tamanho</td><td>até 8 MB</td></tr>
-<tr><td>largura</td><td>320 a 1440 px</td></tr>
-<tr><td>proporção</td><td>entre 0.800 (4:5) e 1.910 (1.91:1)</td></tr>
-<tr><td>uniformidade</td><td>todos os slides com a mesma dimensão do slide 1</td></tr>
-<tr><td>integridade</td><td>sha256 confere com o manifesto</td></tr>
-<tr><td>ponteiro</td><td>URL https termina no nome do arquivo</td></tr>
-</tbody></table></div>
-<h3>Prova de que o P7 está ligado</h3>
-<pre>python3 ops/midia-publicacao/verificar_midia.py --selftest</pre>
-<p>Saída esperada: <code>{"selftest": "PASS", "modo": "EM_MEMORIA", "controles_negativos": 9, "controles_positivos": 2, "falhas": 0}</code>. Nove controles negativos — proporção divergente do slide 1, proporção fora da faixa, largura fora da faixa, sha divergente, PNG, arquivo ausente, ponteiro com dimensão divergente, ponteiro sem sha, URL apontando para outro objeto.</p>
-<div class="note"><b>Como eu sei que o selftest não é teatro</b><div>Desliguei os limites de propósito (proporção e largura abertos) e rodei o selftest: ele <b>reprovou</b> com dois controles ausentes, exit 1. Um selftest que passa com o gate desligado não prova nada — este não passa. A primeira versão passava; foi corrigida por essa medição, e a correção está registrada.</div></div>
-<h3>O que ainda não está provado</h3>
-<div class="tw"><table><thead><tr><th>#</th><th>o que</th><th>estado</th></tr></thead><tbody>
-<tr><td>1</td><td>o Worker serve <code>/midia/…</code> com 200 e content-type correto</td><td>não verificado — sem credencial</td></tr>
-<tr><td>2</td><td>o deploy não apaga arte de lotes anteriores</td><td>não verificado — <code>dist/</code> é reconstruído</td></tr>
-<tr><td>3</td><td>a Meta alcança URL de <code>workers.dev</code></td><td>não verificado — só o contêiner real prova</td></tr>
-</tbody></table></div>
-<div class="page-nav back"><a href="#p8">← 8 · Fase 2</a></div>
-<div class="page-nav"><a href="#p10">Próxima → 10 · Restauração</a></div>
-<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
-</section>
-<section id="p10" class="panel" role="tabpanel" aria-hidden="true">
-<div class="pmark">Página 10</div>
-<h2>Como reerguer isto numa máquina nova</h2>
-<p>O Git é a fonte da verdade do <b>sistema</b>. O Drive guarda os <b>bytes</b>. E uma chave + este mapa fora do Mac são o que liga os dois.</p>
-<h3>As quatro camadas — e qual delas quebra</h3>
-<div class="tw"><table><thead><tr><th>camada</th><th>guarda</th><th>onde</th><th>sobrevive à perda do Mac?</th></tr></thead><tbody>
-<tr><td>1 · fonte da verdade</td><td>texto, regras, código, manifesto, decisões</td><td>GitHub</td><td>sim</td></tr>
-<tr><td>2 · bytes</td><td>PDF, artes, lotes cifrados</td><td>Drive</td><td>sim, <b>se a chave existir</b></td></tr>
-<tr><td>3 · segredo</td><td>chave <code>age</code>, tokens</td><td>fora do Git e fora do Mac</td><td><b>não — elo frágil</b></td></tr>
-<tr><td>4 · serviço</td><td>site no ar, Worker servindo arte</td><td>Cloudflare</td><td>reemite-se pelo deploy</td></tr>
-</tbody></table></div>
-<div class="danger"><b>O elo que ninguém lembra</b><div>Os lotes custodiados são <code>.tar.zst.age</code>. Sem a chave privada, eles existem no Drive e <b>não abrem</b>. Hoje a chave mora só neste Mac — ou seja, a camada 2 depende da camada 3, e a camada 3 não tem backup. Isso está registrado como pendência com dono, não como resolvido.</div></div>
-<h3>A ordem, com os comandos que importam</h3>
-<pre># 1. repos
-git clone git@github.com:takwaratec/acervo-soberania-tecnologica.git
-git clone git@github.com:takwaratec/TakwaraTec-Laboratorio-Editorial.git
-git clone git@github.com:takwaratec/TakwaraTec-Acervo-Web.git
-
-# 2. o ref do ledger NAO vem no clone padrao
-cd TakwaraTec-Laboratorio-Editorial
-git fetch origin +refs/heads/r4-claims:refs/heads/r4-claims
-git rev-parse r4-claims
-
-# 3. provar que a esteira voltou viva
-cd ../acervo-soberania-tecnologica/ops/midia-publicacao
-python3 montar_lote.py --selftest
-python3 verificar_midia.py --selftest</pre>
-<div class="note"><b>Por que a esteira não precisa de instalação</b><div>Ela usa só a biblioteca padrão do Python. Uma VM nova não instala nada para o gate funcionar — e o gate não quebra por dependência ausente. Isso é desenho, não acaso.</div></div>
-<h3>Credenciais: todas se reemitem, nenhuma se copia</h3>
-<div class="tw"><table><thead><tr><th>serviço</th><th>como reemitir</th></tr></thead><tbody>
-<tr><td>GitHub</td><td>chave SSH nova, colar em github.com/settings/keys</td></tr>
-<tr><td>Cloudflare</td><td><code>npx wrangler login</code> ou token no dashboard</td></tr>
-<tr><td>Google Drive</td><td><code>rclone config reconnect</code> — exige navegador nesta máquina</td></tr>
-<tr><td>Meta / Instagram</td><td>App Dashboard, novo token de usuário</td></tr>
-<tr><td>chave <code>age</code></td><td><b>copiar do cofre</b> — não se reemite</td></tr>
-</tbody></table></div>
-<h3>O ciclo fechando</h3>
-<p>O <b>manifesto no Git</b> diz qual <code>sha256</code> cada arte deve ter. O <b>Drive</b> tem os bytes. Se os dois baterem, a reconstrução é fiel — não uma aproximação. Sem o manifesto, o Drive tem arquivos; com ele, tem um acervo.</p>
-<div class="danger"><b>Antes de qualquer deploy em máquina nova</b><div><code>dist/</code> é reconstruído a cada build: sem as artes no disco, o deploy <b>remove do ar</b> as artes de lotes anteriores. Rebaixe do Drive e confira os hashes <b>antes</b> de publicar.</div></div>
-<h3>O que não é reconstruível, e o mapa tem de dizer</h3>
-<ul>
-<li>Histórico de publicação no Instagram — se a conta se perder, nenhum clone a recupera.</li>
-<li>Tokens antigos — todos expiram; a restauração pressupõe reemissão.</li>
-<li>Estado local não commitado — worktree sujo morre com a máquina.</li>
-<li>Conversas — decisão que existe só em chat não está preservada; para valer, vira arquivo no repositório.</li>
-</ul>
-<div class="note"><b>Este mapa é plano, não prova</b><div>Ninguém restaurou de fato numa máquina limpa. Um mapa nunca testado pode estar errado em qualquer linha. Status honesto: <code>PLANO_NAO_TESTADO</code>. O ensaio de restauração em VM está na lista de pendências com dono.</div></div>
-<div class="page-nav back"><a href="#p9b">← 9 · Hospedagem</a></div>
-<div class="page-nav"><a href="#p9">Próxima → 11 · Registro</a></div>
-<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
-</section>
-
-<section id="p9" class="panel" role="tabpanel" aria-hidden="true">
-
-<div class="pmark">Página 11</div>
-<h2>Registro e rastreabilidade</h2>
-<h3>Artefatos desta frente</h3>
-<div class="tw"><table><thead><tr><th>arquivo</th><th>o que é</th></tr></thead><tbody><tr><td>ops/midia-publicacao/montar_lote.py</td><td>montador com sete portões (P0 estrutura + P1..P6) e selftest de controle negativo</td></tr><tr><td>ops/midia-publicacao/SCHEMA_PECA_MIDIA_R1.json</td><td>formato da peça de mídia, estados aceitos e pendencias</td></tr><tr><td>ops/midia-publicacao/exemplos/LOTE_EXEMPLO_RECUSA.json</td><td>exemplo que a esteira recusa — prova viva</td></tr><tr><td>ops/midia-publicacao/MANUAL_ESTEIRA_R1.md</td><td>manual operacional em markdown</td></tr><tr><td>ops/midia-publicacao/MANUAL_ESTEIRA_R1.html</td><td>este documento</td></tr></tbody></table></div>
-<h3>O que NÃO foi feito nesta rodada</h3>
-<p>Nenhuma publicação. Nenhum deploy. Nenhuma chamada a Meta, Cloudflare ou GPT Maker. Nenhum valor de secret lido, transportado ou gravado. A frente de mídias do Instagram (F1 — leitura remota) continua <b>bloqueada por credencial</b>: sem token Cloudflare e sem sessão no Meta App, não há como separar o que foi implantado do que foi apenas testado.</p>
-<h3>Próximo passo</h3>
-<p>Auditoria TECO deste pacote. Depois das correções, PR e merge para a auditoria Sol externa, conforme sua instrução.</p>
-<div class="page-nav back"><a href="#p10">← 10 · Restauração</a></div>
-<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
-</section>
-</div>
+# verifica a arte final (três perguntas)
+python3 ops/midia-publicacao/verificar_midia.py --manifesto &lt;manifesto&gt;.json [--sem-bytes] [--publico]</pre>
+<p>Saída esperada do selftest: <code>{"selftest":"PASS","modo":"EM_MEMORIA","controles_negativos":59,"controles_positivos":8,"falhas":0}</code>. Verificador: <code>9</code> negativos e <code>2</code> positivos. Os contadores são <b>calculados</b> do tamanho das listas — contador digitado já divergiu do código em auditoria.</p>
+<p>Os dois selftests rodam <b>sem diretório gravável</b> (memória + <code>git cat-file</code>). É deliberado: o auditor executa em sandbox read-only, e um selftest que exige escrita não pode ser executado por quem audita.</p>
+<p><code>montar_lote.py</code> sai com código 1 quando há recusa — recusa é resultado, não erro.</p>
+</section><section id="s9" hidden>
+<h2>8. O que fazer quando a esteira recusa</h2>
+<ul><li><b>P1 tipo=ficha</b> → a peça tentou publicar ficha. Produza estado da arte ou artigo antes.</li><li><b>P1 natureza efetiva</b> → a origem se declara ficha/instrumento/índice. Não é editorial; declarar outro tipo na peça não muda o documento.</li><li><b>P2 origem ausente</b> → sem bytes e sem <code>ref</code> não há prova. Declare o <code>ref</code> ou traga os bytes.</li><li><b>P3 papéis trocados</b> → o artefato no papel de estado da arte não se declara estado da arte, ou o artigo não é artigo.</li><li><b>P5 fonte não encontrada</b> → a mídia afirma algo que a origem não contém literalmente. Corrija o texto ou a fonte; <b>nunca</b> solte o portão.</li><li><b>P6 hash divergente</b> → a peça mudou depois da liberação. Libere os bytes novos.</li><li><b>Liberação pendente</b> (não é erro) → a coleção está em revisão ou falta o ato humano. Produza e revise; publique não.</li></ul>
+</section><section id="s10" hidden>
+<h2>9. Pendências declaradas (com dono)</h2>
+<table><thead><tr><th>#</th><th>pendência</th><th>estado</th><th>dono</th></tr></thead><tbody><tr><td>1</td><td>hospedagem pública (Opção A) não implementada</td><td>desenhada</td><td>Fábio (credencial Cloudflare)</td></tr><tr><td>2</td><td>chave <code>age</code> sem cópia verificada fora do Mac</td><td>NÃO VERIFICADO</td><td>Fábio</td></tr><tr><td>3</td><td>nenhum lote publicado: não há arte em URL pública</td><td>fato</td><td>—</td></tr><tr><td>4</td><td>fase 2 (publicação programada) não iniciada</td><td>não iniciada</td><td>—</td></tr><tr><td>5</td><td>modo desenvolvedor não cria gaveta invisível no Instagram</td><td>NÃO VERIFICADO no App real</td><td>Fábio</td></tr><tr><td>6</td><td><code>instagram_business_content_publish</code></td><td>NÃO VERIFICADO</td><td>Fábio</td></tr></tbody></table>
+</section><section id="s11" hidden>
+<h2>10. Limites declarados</h2>
+<ul><li><b>P5 é verificação de string, não de sentido.</b> Garante que a fonte citada existe; não garante interpretação correta.</li><li><b>A esteira não impede publicação manual fora dela.</b> Garante que o que passa por ela é rastreável.</li><li><b>A arte não é validada por pixel.</b> A rastreabilidade da arte é por <code>prompt_usado</code> + <code>confere_com</code>.</li><li><b>O hash não autentica pessoas.</b> Integridade sim, identidade não.</li><li><b>Selftest não é prova funcional.</b> Nove rodadas de auditoria testaram o gate; o que prova a cadeia é o piloto com material real — e ele está em <code>piloto/</code>.</li></ul>
+</section><section id="s12" hidden>
+<h2>11. Histórico de auditoria, sem inflar</h2>
+<p><b>Oito rodadas de auditoria técnica (TECO / Luna Medium)</b>, todas com defeito real, encerradas por decisão do soberano — auditoria em loop não converge, porque achar defeito é a função do auditor. <b>Uma auditoria externa de planejamento e governança</b> (Sol), veredito <code>ADEQUADO COM RESSALVAS</code>, que produziu esta reconciliação.</p>
+<p>A soma correta é <b>8 + 1</b>, não "nove rodadas técnicas". Registro completo em <code>AUDITORIA_TECO_R1.json</code>.</p>
+</section></main>
+<footer>Gerado por <code>gerar_manual_html.py</code>. Sem links externos, sem dependências.</footer>
 <script>
-(function(){
-  var btns=[].slice.call(document.querySelectorAll('.navbtn'));
-  var panels=[].slice.call(document.querySelectorAll('[role=tabpanel]'));
-  function openTab(id,scroll){
-    var found=false;
-    panels.forEach(function(p){var on=p.id===id;if(on)found=true;p.classList.toggle('active',on);p.setAttribute('aria-hidden',on?'false':'true');});
-    if(!found){panels[0].classList.add('active');panels[0].setAttribute('aria-hidden','false');id=panels[0].id;}
-    btns.forEach(function(b){b.setAttribute('aria-selected',b.dataset.tab===id?'true':'false');});
-    if(scroll!==false)window.scrollTo(0,0);
-  }
-  btns.forEach(function(b){b.addEventListener('click',function(){location.hash=b.dataset.tab;openTab(b.dataset.tab);});});
-  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a)return;var id=a.getAttribute('href').slice(1);if(!document.getElementById(id))return;e.preventDefault();location.hash=id;openTab(id);});
-  function fromHash(){var id=location.hash.slice(1);if(id)openTab(id,false);else openTab(panels[0].id,false);}
-  window.addEventListener('hashchange',fromHash);
-  window.addEventListener('pageshow',fromHash);
-  document.addEventListener('DOMContentLoaded',fromHash);
-  fromHash();
-})();
-</script>
-</body></html>
+const b=[...document.querySelectorAll('nav button')];
+b.forEach(x=>x.addEventListener('click',()=>{b.forEach(o=>o.setAttribute('aria-selected',String(o===x)));
+document.querySelectorAll('main section').forEach(s=>{s.hidden=s.id!==x.dataset.tab;});
+window.scrollTo({top:0,behavior:'instant'});}));
+</script></body></html>

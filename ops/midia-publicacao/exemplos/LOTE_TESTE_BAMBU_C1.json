@@ -1,7 +1,7 @@
 {
  "lote": "TESTE-E2E-BAMBU-C1",
  "status": "ENSAIO · NAO PUBLICAR",
- "nota": "Ensaio com peca REAL da frente BAMBU-SCIENCE. Estrutura correta de proposito (P0 passa) para que a recusa venha de P3: o material esta em-revisao-documental, o artigo nao declara estado homologado e nenhum dos dois se declara estado da arte/artigo. Se este lote passar, o gate esta desligado.",
+ "nota": "Ensaio com peca REAL de outra frente, provada por PONTEIRO (git cat-file no ref). A recusa vem de P1/P3: o documento nao se declara artigo (material didatico institucional) e esta em revisao. Nao ha liberacao — nao houve ato humano. Se este lote passar, o gate esta desligado.",
  "pecas": [
   {
    "id": "TESTE-BAMBU-C1",
@@ -30,12 +30,7 @@
      "fonte": "200 MPa"
     }
    ],
-   "sha256_da_peca": "c2f73e3f8c7fe108b765d616ac2a6fb0616e90335ce34e0c044c37d356681bac",
-   "aprovacao": {
-    "por": "ENSAIO",
-    "em": "2026-11-20",
-    "hash_da_peca": "c2f73e3f8c7fe108b765d616ac2a6fb0616e90335ce34e0c044c37d356681bac"
-   },
+   "sha256_da_peca": "7d95a519c12fedf9b34c7aab58ab75269d079c3419dd4ae3a9971c70518695c5",
    "agendamento": [],
    "colecao": {
     "gaveta": "bambu-estrutural",

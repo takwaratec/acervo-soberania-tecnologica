@@ -1,7 +1,7 @@
 {
  "lote": "EXEMPLO-NAO-PUBLICAR-R1",
  "status": "EXEMPLO · NAO VIGENTE · NAO APROVADO",
- "nota": "Lote de exemplo para provar que a esteira recusa POR CONTEUDO. A estrutura esta correta de proposito (P0 passa) para que as recusas venham de P1 (ficha), P3 (estado nao homologado e papel errado) e P5 (fonte inventada). Se este lote passar, o gate esta desligado.",
+ "nota": "Lote de exemplo para provar recusa POR CONTEUDO: estrutura correta (P0 passa) e a recusa vem de P1 (ficha), P2 (hash da origem nao confere), P3 (estado em revisao) e P5 (fonte inventada).",
  "pecas": [
   {
    "id": "EX-FICHA-SOLTA-01",
@@ -31,12 +31,7 @@
      "fonte": "Achado Que Nao Existe no Corpo"
     }
    ],
-   "sha256_da_peca": "d1094d05c72346ba0b39f941297ce013f5b2ecf961e2cef50867c271f3f93d92",
-   "aprovacao": {
-    "por": "FABIO_SOBERANO",
-    "em": "2026-11-20",
-    "hash_da_peca": "d1094d05c72346ba0b39f941297ce013f5b2ecf961e2cef50867c271f3f93d92"
-   }
+   "sha256_da_peca": "1979c1a1cd3398bc72f3c8127f451c3c49838889ab2c2ac6c46a19bead27951f"
   }
  ]
 }

@@ -88,11 +88,11 @@ def hash_da_peca(peca: dict, raiz: "Path | None" = None) -> str:
     invalidava nada. A rodada 6 da auditoria TECO aprovou dois manifestos com o mesmo
     hash literal e conteúdo diferente. Aqui o hash é DERIVADO, não declarado.
     """
-    corpo = {k: v for k, v in peca.items() if k not in {"sha256_da_peca", "aprovacao"}}
-    # `por` e `em` entram no hash: sem isso a data da aprovação podia mudar sem invalidar
-    # nada, e a nota do CLI prometia mais do que o código cumpria (auditoria TECO, rodada 7).
-    apr = peca.get("aprovacao") if isinstance(peca.get("aprovacao"), dict) else {}
-    corpo["#aprovacao"] = {"por": apr.get("por", ""), "em": apr.get("em", "")}
+    corpo = {k: v for k, v in peca.items() if k not in {"sha256_da_peca", "liberacao"}}
+    # O ATO entra no hash, menos o próprio hash: mudar autoridade, data, canal ou destino
+    # invalida a liberação. Sem isso a data do ato mudava sem invalidar nada.
+    lib = peca.get("liberacao") if isinstance(peca.get("liberacao"), dict) else {}
+    corpo["#liberacao"] = {k: v for k, v in lib.items() if k != "hash_do_conteudo"}
     corpo["#artefatos"] = _digest_dos_artefatos(peca, raiz if raiz is not None else _BASE_HASH)
     bruto = json.dumps(corpo, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
     return hashlib.sha256(bruto.encode("utf-8")).hexdigest()
@@ -221,7 +221,7 @@ def _resolve_ponteiro(raiz: Path, caminho: str, der: dict) -> bool:
 
 def _conferir_artefato(raiz: Path, caminho: str, der: dict, pid: str,
                        rotulo: str, exigir_artigo: bool = False,
-                       exigir_estado_da_arte: bool = False) -> list[str]:
+                       exigir_estado_da_arte: bool = False) -> "tuple[list[str], list[str]]":
     """Existência não basta: o ponteiro tem de ser um documento HOMOLOGADO do acervo.
 
     A auditoria de 2026-11-20 (rodada 2) mostrou que aceitar só "o caminho existe"
@@ -230,17 +230,20 @@ def _conferir_artefato(raiz: Path, caminho: str, der: dict, pid: str,
     artigo, tipo documental de artigo ou marca e_artigo.
     """
     erros: list[str] = []
+    pendencias: list[str] = []
     if _dentro(raiz, caminho) is None:
-        return [f"{pid}: P3 recusa — '{rotulo}' aponta para fora do repositório: {caminho}"]
+        return [f"{pid}: P3 recusa — '{rotulo}' aponta para fora do repositório: {caminho}"], pendencias
     texto = _ler_ponteiro(raiz, caminho, der)
     if texto is None:
-        return [f"{pid}: P3 recusa — '{rotulo}' não resolve: {caminho}"]
+        return [f"{pid}: P3 recusa — '{rotulo}' não resolve: {caminho}"], pendencias
     fm = ler_frontmatter(texto)
     estado = normalizar_estado(str(fm.get("estado_documental", "")))
     if estado not in ESTADOS_HOMOLOGADOS:
-        erros.append(
-            f"{pid}: P3 recusa — '{rotulo}' ({caminho}) tem estado_documental={estado or 'ausente'}, "
-            "que não é homologado"
+        # Homologação DOCUMENTAL é condição de LIBERAÇÃO, não de produção: a peça pode ser
+        # elaborada enquanto a base está em preparação (reconciliação R1, item C/P3).
+        pendencias.append(
+            f"{pid}: liberação pendente — '{rotulo}' ({caminho}) está em "
+            f"{estado or 'estado ausente'!r}, não homologado"
         )
     tipo = str(fm.get("tipo_documental", "")).lower()
     tipo_norm = tipo.replace("_", "-")
@@ -259,7 +262,7 @@ def _conferir_artefato(raiz: Path, caminho: str, der: dict, pid: str,
                 f"(tipo_documental={tipo or 'ausente'}); o papel de estado da arte não pode ser "
                 "cumprido por um artigo"
             )
-    return erros
+    return erros, pendencias
 
 
 # Esquema fechado da peça de mídia R1. Cada campo tem tipo e obrigatoriedade.
@@ -287,10 +290,14 @@ ESQUEMA: dict = {
         "fonte": (str, True),
     }),
     "sha256_da_peca": (str, True),
-    "aprovacao": (dict, True, {
-        "por": (str, True),
+    "liberacao": (dict, False, {
+        "autoridade": (str, True),
         "em": (str, True),
-        "hash_da_peca": (str, True),
+        "canal_da_aprovacao": (str, True),
+        "revisao_editorial": (str, False),
+        "autoriza_publicacao": (bool, True),
+        "destino": (list, False),
+        "hash_do_conteudo": (str, True),
     }),
     "agendamento": (list, False, {
         "canal": (str, True),
@@ -382,13 +389,46 @@ def validar_estrutura(peca: object) -> list[str]:
     return erros
 
 
-def validar_peca(peca: dict, raiz: Path) -> list[str]:
+def _proveniencia(fm: dict) -> dict:
+    """Metadados que o derivado HERDA da base editorial, sem o operador redigitar nada.
+
+    REGRA 2 da reconciliação R1: DOI, título, ano e estado vêm do frontmatter da origem e
+    seguem para o lote. Pedir de novo o que o sistema já sabe é burocracia.
+    """
+    def pega(*chaves):
+        for k in chaves:
+            v = fm.get(k)
+            if isinstance(v, str) and v.strip():
+                return v.strip()
+        return ""
+    return {
+        "titulo": pega("titulo", "title"),
+        "ano": pega("ano", "year"),
+        "doi": pega("doi"),
+        "tipo_documental": pega("tipo_documental"),
+        "estado_documental": pega("estado_documental"),
+        "gaveta": pega("gaveta"),
+        "fonte_primaria": pega("fonte_primaria"),
+        "origem_declarada": pega("origem"),
+    }
+
+
+def validar_peca(peca: dict, raiz: Path) -> "tuple[list[str], list[str]]":
+    """Verifica a peça. Devolve (bloqueios_materiais, condicoes_de_liberacao).
+
+    A reconciliação R1 separou o que estava fundido: a peça pode ser PRODUZIDA enquanto a
+    base editorial está em preparação; só a LIBERAÇÃO para publicação depende de
+    homologação documental e do ato humano. Antes, estado `em-revisao-documental` derrubava
+    a peça — o que impedia trabalho editorial legítimo e transformava homologação em
+    pedágio de produção.
+    """
     erros = validar_estrutura(peca)
     if erros:
-        return erros
+        return erros, []
     pid = peca.get("id", "<sem-id>")
+    pendencias: list[str] = []
 
-    # P1 — derivação editorial
+    # P1 — derivação editorial declarada
     der = peca.get("deriva_de") or {}
     tipo = (der.get("tipo") or "").strip().lower()
     if tipo in TIPOS_NAO_PUBLICAVEIS:
@@ -405,19 +445,14 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
     caminho = der.get("path") or ""
     if not caminho:
         erros.append(f"{pid}: P1 recusa — peça sem 'deriva_de.path'; mídia sem origem não é rastreável")
-        return erros
+        return erros, []
 
     alvo = (raiz / caminho).resolve()
     if raiz.resolve() not in alvo.parents and alvo != raiz.resolve():
         erros.append(f"{pid}: P1 recusa — 'deriva_de.path' sai do repositório: {caminho}")
-        return erros
+        return erros, []
 
-    # P2 — origem e hash. Duas vias, e a escolha NÃO afrouxa o gate:
-    #   (a) BYTES: o arquivo está no worktree -> hash calculado dos bytes.
-    #   (b) PONTEIRO: a peça editorial está homologada e publicada em outro branch/remoto
-    #       -> hash provado por `git cat-file` no ref declarado, na própria máquina.
-    # A via (b) existe porque exigir mescla na main para publicar é burocracia: homologado
-    # e publicado no Git já é fonte. Se o ref não resolver, é recusa — nunca "assume".
+    # P2 — origem e hash, por BYTES ou por PONTEIRO (ref provado por git cat-file)
     declarado = (der.get("sha256") or "").strip().lower()
     via = ""
     conteudo = None
@@ -438,11 +473,11 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
                 f"{pid}: P2 recusa — origem ausente no worktree e sem ponteiro remoto: "
                 "declare 'deriva_de.sha256' e 'deriva_de.ref' (ex.: origin/meu-branch)"
             )
-            return erros
+            return erros, []
         ok_ref, bruto = _blob_no_ref(raiz, ref, caminho)
         if not ok_ref:
             erros.append(f"{pid}: P2 recusa — ref '{ref}' não resolve '{caminho}' neste clone: {bruto}")
-            return erros
+            return erros, []
         via = "PONTEIRO"
         conteudo = bruto
         real = hashlib.sha256(bruto.encode("utf-8")).hexdigest()
@@ -451,60 +486,59 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
                 f"{pid}: P2 recusa — sha256 do ponteiro não confere: declarado {declarado[:16]}… != real {real[:16]}… ({ref})"
             )
 
-    # P3 — homologação da peça editorial
     fm = ler_frontmatter(conteudo or "")
-    estado = normalizar_estado(fm.get("estado_documental", ""))
-    if estado not in ESTADOS_HOMOLOGADOS:
+
+    # P1 (natureza efetiva) — o que o documento É, não o que a peça diz que ele é.
+    tipo_origem = (fm.get("tipo_documental") or "").strip().lower()
+    if not tipo_origem:
         erros.append(
-            f"{pid}: P3 recusa — estado_documental={estado or '<ausente>'!r} não é homologado "
-            f"(aceitos: {sorted(ESTADOS_HOMOLOGADOS)})"
+            f"{pid}: P1 recusa — origem sem 'tipo_documental' no frontmatter; "
+            "a natureza do documento tem de estar declarada no próprio documento"
         )
-    # P3 estrutural. O soberano definiu o critério como "estado da arte da coleção E no
-    # mínimo um artigo". Um booleano declarado no frontmatter não prova nada: quem escreve
-    # `tem_artigo: sim` não precisa ter artigo nenhum. Por isso a peça declara o bloco
-    # `colecao` com os dois ponteiros, e cada ponteiro tem de RESOLVER — no disco ou no ref.
-    # Medido em auditoria TECO de 2026-11-20: a versão anterior aceitava uma origem mínima
-    # só com o booleano (defeito ALTA).
+    elif tipo_origem not in TIPOS_EDITORIAIS:
+        erros.append(
+            f"{pid}: P1 recusa — origem se declara {tipo_origem!r}, que não é tipo editorial "
+            f"publicável (aceitos: {sorted(TIPOS_EDITORIAIS)}); declarar outro tipo na peça não muda o documento"
+        )
+
+    # P3 — vínculo da coleção. Estrutura de ponteiros é bloqueio material; estado
+    # documental não homologado é CONDIÇÃO DE LIBERAÇÃO, não impedimento de produção.
     col = peca.get("colecao")
-    if col is None:
-        erros.append(f"{pid}: P3 recusa — peça sem bloco 'colecao'")
-        return erros
     if not isinstance(col, dict):
-        erros.append(f"{pid}: P3 recusa — 'colecao' deve ser objeto, recebido {type(col).__name__}")
-        return erros
-    eda = col.get("estado_da_arte")
-    if eda is not None and not isinstance(eda, str):
-        erros.append(f"{pid}: P3 recusa — 'colecao.estado_da_arte' deve ser texto, recebido {type(eda).__name__}")
-        return erros
-    eda = (eda or "").strip()
-    arts = col.get("artigos")
-    if arts is not None and not isinstance(arts, list):
-        erros.append(f"{pid}: P3 recusa — 'colecao.artigos' deve ser lista, recebido {type(arts).__name__}")
-        return erros
-    arts = arts or []
-    for a in arts:
-        if not isinstance(a, str):
-            erros.append(f"{pid}: P3 recusa — 'colecao.artigos' contém item não textual: {type(a).__name__}")
-            return erros
+        erros.append(f"{pid}: P3 recusa — peça sem bloco 'colecao'")
+        return erros, []
+    eda = (col.get("estado_da_arte") or "").strip()
+    arts = [a for a in (col.get("artigos") or [])]
     if not eda:
-        erros.append(f"{pid}: P3 recusa — peça sem 'colecao.estado_da_arte'; homologação exige estado da arte da coleção")
+        erros.append(f"{pid}: P3 recusa — peça sem 'colecao.estado_da_arte'")
     else:
-        erros.extend(_conferir_artefato(raiz, eda, der, pid, "colecao.estado_da_arte",
-                                        exigir_estado_da_arte=True))
-    if not isinstance(arts, list) or not arts:
-        erros.append(f"{pid}: P3 recusa — peça sem 'colecao.artigos'; homologação exige no mínimo um artigo")
+        e_eda, p_eda = _conferir_artefato(raiz, eda, der, pid, "colecao.estado_da_arte",
+                                          exigir_estado_da_arte=True)
+        erros.extend(e_eda)
+        pendencias.extend(p_eda)
+    if not arts:
+        erros.append(f"{pid}: P3 recusa — peça sem 'colecao.artigos'; o critério exige ao menos um artigo")
     else:
         eda_norm = str(_dentro(raiz, eda)) if eda else ""
         for a in arts:
             a = str(a)
-            a_norm = str(_dentro(raiz, a))
-            if eda and (a == eda or a_norm == eda_norm):
+            if eda and (a == eda or str(_dentro(raiz, a)) == eda_norm):
                 erros.append(
                     f"{pid}: P3 recusa — 'colecao.artigos' repete o estado da arte ({a}); "
                     "o critério exige estado da arte E artigo, dois artefatos distintos"
                 )
                 continue
-            erros.extend(_conferir_artefato(raiz, a, der, pid, "colecao.artigos", exigir_artigo=True))
+            e_art, p_art = _conferir_artefato(raiz, a, der, pid, "colecao.artigos", exigir_artigo=True)
+            erros.extend(e_art)
+            pendencias.extend(p_art)
+
+    # Condição de liberação: homologação documental da origem. Não é erro de produção.
+    estado = normalizar_estado(fm.get("estado_documental", ""))
+    if estado not in ESTADOS_HOMOLOGADOS:
+        pendencias.append(
+            f"{pid}: liberação pendente — base editorial em {estado or 'estado ausente'!r}; "
+            "produção permitida, publicação não"
+        )
 
     # P4 — formato coerente
     fmt = (peca.get("formato") or "").strip().lower()
@@ -518,10 +552,8 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
                 f"{pid}: P4 recusa — formato {fmt} exige {lo}..{hi} itens, peça tem {len(itens)}"
             )
 
-    # P5 — cada afirmação cita fonte que existe no corpo da origem.
-    # Quando P2 passa, o corpo está sempre disponível (bytes ou ref), então este portão
-    # sempre verifica. Não existe estado "NAO_VERIFICADO": a documentação anterior prometia
-    # um estado que o fluxo nunca produz (auditoria TECO, rodada 5).
+    # P5 — verificação TEXTUAL: a string citada existe no corpo. Não é validação semântica
+    # e não promete sê-la: cita existência literal, e nada sobre o sentido da citação.
     corpo = conteudo or ""
     for i, item in enumerate(itens, 1):
         fonte = (item.get("fonte") or "").strip()
@@ -529,49 +561,73 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
             erros.append(f"{pid}: P5 recusa — item {i} sem 'fonte'")
         elif fonte not in corpo:
             erros.append(
-                f"{pid}: P5 recusa — item {i} cita fonte {fonte!r} que não aparece no corpo de {caminho}"
+                f"{pid}: P5 recusa — item {i} cita fonte {fonte!r} que não aparece literalmente no corpo de {caminho}"
             )
 
-    # P6 — ato de aprovação
-    apr = peca.get("aprovacao") or {}
-    h_peca = (peca.get("sha256_da_peca") or "").strip().lower()
-    h_apr = (apr.get("hash_da_peca") or "").strip().lower()
-    # Dois campos vazios são IGUAIS: comparar só igualdade aprovava peça sem hash
-    # nenhum (auditoria TECO, rodada 5). Presença é exigida antes da comparação.
-    if not h_peca:
-        erros.append(f"{pid}: P6 recusa — 'sha256_da_peca' ausente; sem hash não há bytes aprovados")
-    elif not re.fullmatch(r"[0-9a-f]{64}", h_peca):
-        erros.append(f"{pid}: P6 recusa — 'sha256_da_peca' não é sha256 (64 hex): {h_peca[:20]}…")
+    # P6 — LIBERAÇÃO: um único ato humano que registra revisão editorial e autorização.
+    # SHA-256 prova integridade do conteúdo; NÃO prova identidade nem consentimento. O
+    # registro aponta para onde o ato aconteceu (`canal_da_aprovacao`) e não presume
+    # autorização por campo preenchido.
+    lib = peca.get("liberacao")
+    if lib is None:
+        pendencias.append(f"{pid}: liberação pendente — nenhum ato de liberação registrado")
+    elif not isinstance(lib, dict):
+        erros.append(f"{pid}: P6 recusa — 'liberacao' deve ser objeto, recebido {type(lib).__name__}")
     else:
-        calculado = hash_da_peca(peca, raiz)
-        if h_peca != calculado:
+        h_peca = (peca.get("sha256_da_peca") or "").strip().lower()
+        if not h_peca:
+            erros.append(f"{pid}: P6 recusa — 'sha256_da_peca' ausente; sem hash não há conteúdo liberado")
+        elif not re.fullmatch(r"[0-9a-f]{64}", h_peca):
+            erros.append(f"{pid}: P6 recusa — 'sha256_da_peca' não é sha256 (64 hex): {h_peca[:20]}…")
+        else:
+            calculado = hash_da_peca(peca, raiz)
+            if h_peca != calculado:
+                erros.append(
+                    f"{pid}: P6 recusa — 'sha256_da_peca' não corresponde ao conteúdo: "
+                    f"declarado {h_peca[:16]}… != calculado {calculado[:16]}…; "
+                    "liberação de outro conteúdo não libera este"
+                )
+        h_lib = (lib.get("hash_do_conteudo") or "").strip().lower()
+        if not h_lib:
+            erros.append(f"{pid}: P6 recusa — 'liberacao.hash_do_conteudo' ausente; ato sem conteúdo não libera nada")
+        elif h_peca and h_lib != h_peca:
             erros.append(
-                f"{pid}: P6 recusa — 'sha256_da_peca' não corresponde ao conteúdo da peça: "
-                f"declarado {h_peca[:16]}… != calculado {calculado[:16]}…; "
-                "aprovação de outro conteúdo não aprova este"
+                f"{pid}: P6 recusa — 'liberacao.hash_do_conteudo' não corresponde a 'sha256_da_peca'; "
+                "liberação de outro conteúdo não libera esta peça"
             )
-    if not h_apr:
-        erros.append(f"{pid}: P6 recusa — 'aprovacao.hash_da_peca' ausente; aprovação sem bytes não aprova nada")
-    if h_peca and h_apr and h_peca != h_apr:
-        erros.append(
-            f"{pid}: P6 recusa — 'aprovacao.hash_da_peca' não corresponde a 'sha256_da_peca'; "
-            "aprovação de outro bytes não aprova esta peça"
-        )
-    autor = (apr.get("por") or "").strip()
-    if autor.upper() not in AUTORIDADES_APROVADORAS:
-        erros.append(
-            f"{pid}: P6 recusa — aprovador {autor!r} não é autoridade registrada "
-            f"(aceitos: {sorted(AUTORIDADES_APROVADORAS)}); texto livre não é assinatura"
-        )
-    data = (apr.get("em") or "").strip()
-    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", data):
-        erros.append(f"{pid}: P6 recusa — 'aprovacao.em'={data!r} não é data ISO (AAAA-MM-DD)")
-    else:
-        try:
-            datetime.date.fromisoformat(data)
-        except ValueError:
-            erros.append(f"{pid}: P6 recusa — 'aprovacao.em'={data!r} não é data de calendário válida")
-    return erros
+        autor = (lib.get("autoridade") or "").strip()
+        if autor.upper() not in AUTORIDADES_APROVADORAS:
+            erros.append(
+                f"{pid}: P6 recusa — autoridade {autor!r} não é registrada "
+                f"(aceitas: {sorted(AUTORIDADES_APROVADORAS)}); texto livre não é assinatura"
+            )
+        data = (lib.get("em") or "").strip()
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2})?([+-]\d{2}:\d{2}|Z)?)?", data):
+            erros.append(f"{pid}: P6 recusa — 'liberacao.em'={data!r} não é data/hora ISO")
+        else:
+            try:
+                datetime.datetime.fromisoformat(data.replace("Z", "+00:00"))
+            except ValueError:
+                erros.append(f"{pid}: P6 recusa — 'liberacao.em'={data!r} não é instante válido")
+        canal = (lib.get("canal_da_aprovacao") or "").strip()
+        if not canal:
+            erros.append(
+                f"{pid}: P6 recusa — 'liberacao.canal_da_aprovacao' ausente; o ato tem de apontar "
+                "para onde foi registrado (o hash prova integridade, não consentimento)"
+            )
+        if lib.get("autoriza_publicacao") is True:
+            destino = lib.get("destino")
+            if not isinstance(destino, list) or not destino:
+                erros.append(
+                    f"{pid}: P6 recusa — liberação autoriza publicação sem 'destino'; "
+                    "autorização sem alvo não é autorização"
+                )
+        else:
+            pendencias.append(
+                f"{pid}: liberação pendente — ato registrado sem autorização de publicação"
+            )
+
+    return erros, pendencias
 
 
 def montar(lote: dict, raiz: Path) -> dict:
@@ -596,17 +652,39 @@ def montar(lote: dict, raiz: Path) -> dict:
             vistos[p["id"]] = vistos.get(p["id"], 0) + 1
     duplicados = {k for k, n in vistos.items() if n > 1}
 
+    pendencias: list[str] = []
     for p in pecas:
-        e = validar_peca(p, raiz)
+        e, pend = validar_peca(p, raiz)
         if isinstance(p, dict) and p.get("id") in duplicados:
             e = list(e) + [f"{p.get('id')}: P0 recusa — id repetido no lote; identificador tem de ser único"]
         if e:
             erros.extend(e)
-        else:
-            aprovadas.append(p)
+            continue
+        aprovadas.append(p)
+        pendencias.extend(pend)
+
+    rastreabilidade = []
+    for p in aprovadas:
+        der = p.get("deriva_de") or {}
+        cam = der.get("path") or ""
+        txt = _ler_ponteiro(raiz, cam, der) or ""
+        fm = ler_frontmatter(txt)
+        rastreabilidade.append({
+            "peca": p.get("id"),
+            "origem": cam,
+            "sha256_da_origem": der.get("sha256"),
+            "proveniencia": _proveniencia(fm),
+            "colecao": (p.get("colecao") or {}).get("gaveta"),
+        })
+
+    liberadas = [p for p in aprovadas
+                 if isinstance(p.get("liberacao"), dict)
+                 and p["liberacao"].get("autoriza_publicacao") is True
+                 and not any(str(p.get("id")) in x for x in pendencias)]
+    prontas = [p for p in aprovadas if p not in liberadas]
 
     fila = []
-    for p in aprovadas:
+    for p in liberadas:
         for ag in (p.get("agendamento") or []):
             fila.append({
                 "peca": p["id"],
@@ -620,9 +698,14 @@ def montar(lote: dict, raiz: Path) -> dict:
     return {
         "lote": lote.get("lote"),
         "total_declarado": len(pecas),
+        "verificadas": len(aprovadas),
         "aprovadas": len(aprovadas),
+        "liberadas": len(liberadas),
+        "prontas_para_liberacao": len(prontas),
         "recusadas": len(pecas) - len(aprovadas),
         "erros": erros,
+        "pendencias_de_liberacao": pendencias,
+        "rastreabilidade": rastreabilidade,
         "fila": fila,
         "publicou_alguma_coisa": False,
         "nota": "montar_lote.py nao publica. Produz lote e fila; a publicacao e outro ato.",
@@ -655,13 +738,15 @@ def _peca_base(pid: str, path: str, sha: str, **kw) -> dict:
         "formato": "carrossel",
         "itens": [{"ordem": 1, "fonte": "Achado Um"}, {"ordem": 2, "fonte": "Achado Dois"}],
         "sha256_da_peca": "abc123",
-        "aprovacao": {"por": "FABIO_SOBERANO", "em": "2026-11-20", "hash_da_peca": "abc123"},
+        "liberacao": {"autoridade": "FABIO_SOBERANO", "em": "2026-11-20T09:00:00-03:00",
+                      "canal_da_aprovacao": "teste", "revisao_editorial": "aprovada",
+                      "autoriza_publicacao": True, "destino": ["instagram:@takwaratec"]},
         "agendamento": [{"canal": "instagram", "data": "2026-11-25", "hora": "09:00"}],
     }
     p.update(kw)
     p["sha256_da_peca"] = hash_da_peca(p, _BASE_HASH)
-    if isinstance(p.get("aprovacao"), dict) and "hash_da_peca" in p["aprovacao"]:
-        p["aprovacao"]["hash_da_peca"] = p["sha256_da_peca"]
+    if isinstance(p.get("liberacao"), dict):
+        p["liberacao"]["hash_do_conteudo"] = p["sha256_da_peca"]
     return p
 
 
@@ -737,11 +822,14 @@ def selftest() -> int:
             "origem ausente sem ref aceita")
 
         # ---------- P3a: estado não homologado ----------
-        r = montar({"lote": "ST", "pecas": [_peca_base("p3a", "rev.md", h_rev,
-                    deriva_de={"tipo": "estado-da-arte", "path": "rev.md", "sha256": h_rev},
-                    colecao={"estado_da_arte": "rev.md", "artigos": ["art.md"]})]}, base)
-        ctl("P3-estado", any("não é homologado" in e for e in r["erros"]),
-            "em-revisao-documental aceito")
+        _MEM["/mem/rev-eda.md"] = _REV.replace("artigo-didatico", "estado-da-arte")
+        h_rev_eda = hashlib.sha256(_MEM["/mem/rev-eda.md"].encode()).hexdigest()
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3a", "rev-eda.md", h_rev_eda,
+                    deriva_de={"tipo": "estado-da-arte", "path": "rev-eda.md", "sha256": h_rev_eda},
+                    colecao={"estado_da_arte": "rev-eda.md", "artigos": ["art.md"]})]}, base)
+        # Reconciliação R1: estado não homologado não derruba a produção, mas impede a liberação
+        ctl("P3-estado", r["liberadas"] == 0 and any("não homologado" in x for x in r["pendencias_de_liberacao"]),
+            f"em-revisao-documental liberado para publicação -> liberadas={r['liberadas']}")
 
         # ---------- P3b: sem estado da arte ----------
         r = montar({"lote": "ST", "pecas": [_peca_base("p3b", "eda.md", h_eda,
@@ -805,7 +893,7 @@ def selftest() -> int:
         for nome, peca_ruim, esperado in [
             ("P0-deriva-lista", _peca_base("p0a", "eda.md", h_eda, deriva_de=["x"]), "'deriva_de' deve ser dict"),
             ("P0-itens-int", _peca_base("p0b", "eda.md", h_eda, itens=7), "'itens' deve ser list"),
-            ("P0-aprovacao-texto", _peca_base("p0c", "eda.md", h_eda, aprovacao="ok"), "'aprovacao' deve ser dict"),
+            ("P0-liberacao-texto", _peca_base("p0c", "eda.md", h_eda, liberacao="ok"), "'liberacao' deve ser dict"),
             ("P0-agendamento-texto", _peca_base("p0d", "eda.md", h_eda, agendamento="amanha"), "'agendamento' deve ser list"),
             ("P0-item-inteiro", _peca_base("p0e", "eda.md", h_eda, itens=[1, 2]), "'itens[0]' deve ser objeto"),
         ]:
@@ -833,8 +921,10 @@ def selftest() -> int:
             ("P0-agen-data-int", _peca_base("p0j", "eda.md", h_eda,
                 agendamento=[{"canal": "ig", "data": 20261125}]), "'agendamento[0].data' deve ser str"),
             ("P0-aprov-em-int", _peca_base("p0k", "eda.md", h_eda,
-                aprovacao={"por": "FABIO_SOBERANO", "em": 7, "hash_da_peca": "abc123"}),
-                "'aprovacao.em' deve ser str"),
+                liberacao={"autoridade": "FABIO_SOBERANO", "em": 7,
+                           "canal_da_aprovacao": "t", "autoriza_publicacao": True,
+                           "destino": ["ig"], "hash_do_conteudo": "x"}),
+                "'liberacao.em' deve ser str"),
             ("P0-campo-desconhecido", _peca_base("p0l", "eda.md", h_eda, colecão={"x": 1}),
                 "campo desconhecido"),
             ("P0-ausente-obrigatorio", _peca_base("p0m", "eda.md", h_eda,
@@ -847,33 +937,33 @@ def selftest() -> int:
         # ---------- P6: hash ausente nos dois lados não pode aprovar (rodada 5, defeito ALTA) ----------
         peca_p6c = _peca_base("p6c", "eda.md", "")
         peca_p6c["sha256_da_peca"] = ""
-        peca_p6c["aprovacao"]["hash_da_peca"] = ""
+        peca_p6c["liberacao"]["hash_do_conteudo"] = ""
         r = montar({"lote": "ST", "pecas": [peca_p6c]}, base)
         ctl("P6-sem-hashes", any("P6 recusa" in e and "ausente" in e for e in r["erros"]),
             "peça sem hash nenhum foi aprovada")
 
         # ---------- P6: autor e data não são texto livre (rodada 5, defeito ALTA) ----------
         peca_p6d = _peca_base("p6d", "eda.md", h_eda)
-        peca_p6d["aprovacao"]["por"] = "QUALQUER_TEXTO"
+        peca_p6d["liberacao"]["autoridade"] = "QUALQUER_TEXTO"
         r = montar({"lote": "ST", "pecas": [peca_p6d]}, base)
-        ctl("P6-autor-falso", any("não é autoridade registrada" in e for e in r["erros"]),
+        ctl("P6-autor-falso", any("não é registrada" in e for e in r["erros"]),
             "aprovador inventado aceito")
         peca_p6e = _peca_base("p6e", "eda.md", h_eda)
-        peca_p6e["aprovacao"]["em"] = "ontem"
+        peca_p6e["liberacao"]["em"] = "ontem"
         r = montar({"lote": "ST", "pecas": [peca_p6e]}, base)
-        ctl("P6-data-invalida", any("não é data ISO" in e for e in r["erros"]),
+        ctl("P6-data-invalida", any("não é data/hora ISO" in e for e in r["erros"]),
             "data 'ontem' aceita como aprovação")
 
         # ---------- P6: aprovação tem de estar vinculada ao CONTEUDO (rodada 6, defeito ALTA) ----------
         peca_trocada = _peca_base("p6f", "eda.md", h_eda)
         peca_trocada["itens"][0]["texto_curto"] = "Texto alterado depois da aprovação"
         r = montar({"lote": "ST", "pecas": [peca_trocada]}, base)
-        ctl("P6-conteudo-alterado", any("não corresponde ao conteúdo da peça" in e for e in r["erros"]),
+        ctl("P6-conteudo-alterado", any("não corresponde ao conteúdo" in e for e in r["erros"]),
             "conteúdo alterado após a aprovação ainda passa")
 
         peca_hex = _peca_base("p6g", "eda.md", h_eda)
         peca_hex["sha256_da_peca"] = "abc123"
-        peca_hex["aprovacao"]["hash_da_peca"] = "abc123"
+        peca_hex["liberacao"]["hash_do_conteudo"] = "abc123"
         r = montar({"lote": "ST", "pecas": [peca_hex]}, base)
         ctl("P6-hash-nao-hex", any("não é sha256" in e for e in r["erros"]),
             "hash de 6 caracteres aceito como sha256")
@@ -925,7 +1015,7 @@ def selftest() -> int:
 
         # ---------- data da aprovação mudou depois do hash (rodada 7, defeito BAIXA) ----------
         peca_data = _peca_base("p6h", "eda.md", h_eda)
-        peca_data["aprovacao"]["em"] = "2026-11-21"
+        peca_data["liberacao"]["em"] = "2026-11-21"
         r = montar({"lote": "ST", "pecas": [peca_data]}, base)
         ctl("P6-data-pos-hash", any("não corresponde ao conteúdo" in e for e in r["erros"]),
             "data da aprovação alterada depois do hash ainda passa")
@@ -934,7 +1024,7 @@ def selftest() -> int:
         peca_art = _peca_base("p6i", "eda.md", h_eda)
         _MEM["/mem/art.md"] = _ART + "\n\nParagrafo novo que muda o artigo."
         r = montar({"lote": "ST", "pecas": [peca_art]}, base)
-        ctl("P6-artefato-alterado", any("não corresponde ao conteúdo da peça" in e for e in r["erros"]),
+        ctl("P6-artefato-alterado", any("não corresponde ao conteúdo" in e for e in r["erros"]),
             "artigo da coleção alterado depois da aprovação ainda passa")
         _MEM["/mem/art.md"] = _ART
 
@@ -959,6 +1049,48 @@ def selftest() -> int:
         finally:
             globals()["_blob_no_ref"] = _blob_orig
 
+        # ================= RECONCILIAÇÃO R1 (2026-11-20) =================
+        # (1) Produção permitida com base editorial em revisão; liberação não.
+        _MEM["/mem/rev-eda.md"] = _REV.replace("artigo-didatico", "estado-da-arte")
+        r = montar({"lote": "ST", "pecas": [_peca_base("rec1", "rev-eda.md", hashlib.sha256(
+            _MEM["/mem/rev-eda.md"].encode()).hexdigest())]}, base)
+        ctl("REC-producao-permitida", r["verificadas"] == 1 and r["liberadas"] == 0,
+            f"base em revisão deveria permitir produção e bloquear liberação -> "
+            f"verificadas={r['verificadas']} liberadas={r['liberadas']} erros={r['erros'][:1]}",
+            positivo=True)
+        ctl("REC-liberacao-pendente", any("liberação pendente" in x for x in r["pendencias_de_liberacao"]),
+            "ausência de homologação não foi declarada como pendência de liberação")
+
+        # (2) Natureza efetiva: origem que se declara ficha não passa, mesmo se a peça disser estado da arte
+        _MEM["/mem/ficha.md"] = ("---\nestado_documental: homologado-documentalmente\n"
+                                 "tipo_documental: ficha-cientifica\n---\n\nAchado Um\n\nAchado Dois\n")
+        r = montar({"lote": "ST", "pecas": [_peca_base("rec2", "ficha.md", hashlib.sha256(
+            _MEM["/mem/ficha.md"].encode()).hexdigest())]}, base)
+        ctl("REC-natureza-efetiva", any("P1 recusa" in e and "não é tipo editorial" in e for e in r["erros"]),
+            "origem tipada como ficha passou só porque a peça declarou estado-da-arte")
+
+        # (3) Atos de liberação incompletos
+        _p = _peca_base("rec3", "eda.md", h_eda); del _p["liberacao"]["canal_da_aprovacao"]
+        r = montar({"lote": "ST", "pecas": [_p]}, base)
+        ctl("REC-liberacao-sem-canal", any("canal_da_aprovacao" in e for e in r["erros"]),
+            "liberação sem canal de registro aceita")
+        _p = _peca_base("rec4", "eda.md", h_eda); del _p["liberacao"]["destino"]
+        r = montar({"lote": "ST", "pecas": [_p]}, base)
+        ctl("REC-liberacao-sem-destino", any("sem 'destino'" in e for e in r["erros"]),
+            "autorização de publicação sem destino aceita")
+        _p = _peca_base("rec5", "eda.md", h_eda); _p["liberacao"]["autoriza_publicacao"] = False
+        _p["sha256_da_peca"] = hash_da_peca(_p, base); _p["liberacao"]["hash_do_conteudo"] = _p["sha256_da_peca"]
+        r = montar({"lote": "ST", "pecas": [_p]}, base)
+        ctl("REC-sem-autorizacao", r["verificadas"] == 1 and r["liberadas"] == 0,
+            "revisão editorial sem autorização de publicação entrou na fila", positivo=True)
+
+        # (4) Proveniência herdada, sem redigitação
+        r = montar({"lote": "ST", "pecas": [_peca_base("rec6", "eda.md", h_eda)]}, base)
+        prov = (r.get("rastreabilidade") or [{}])[0].get("proveniencia", {})
+        ctl("REC-proveniencia-herdada", prov.get("titulo") == "Estado da arte da coleção"
+            and prov.get("tipo_documental") == "estado-da-arte",
+            f"proveniência não foi herdada da origem: {prov}")
+
         # ---------- P4 ----------
         r = montar({"lote": "ST", "pecas": [_peca_base("p4", "eda.md", h_eda,
                     formato="carrossel", itens=[{"ordem": 1, "fonte": "Achado Um"}])]}, base)
@@ -977,13 +1109,13 @@ def selftest() -> int:
 
         # ---------- P6 ----------
         peca_p6 = _peca_base("p6", "eda.md", h_eda)
-        peca_p6["aprovacao"]["hash_da_peca"] = "outro-hash"
+        peca_p6["liberacao"]["hash_do_conteudo"] = "outro-hash"
         r = montar({"lote": "ST", "pecas": [peca_p6]}, base)
         ctl("P6-hash", any("P6 recusa" in e for e in r["erros"]), "aprovação de outro bytes aceita")
         peca_p6b = _peca_base("p6b", "eda.md", h_eda)
-        del peca_p6b["aprovacao"]["por"]
+        del peca_p6b["liberacao"]["autoridade"]
         r = montar({"lote": "ST", "pecas": [peca_p6b]}, base)
-        ctl("P6-autor", any("'aprovacao.por' é obrigatório" in e or ("P6 recusa" in e and "'por'" in e)
+        ctl("P6-autor", any("'liberacao.autoridade' é obrigatório" in e or ("P6 recusa" in e and "autoridade" in e)
             for e in r["erros"]), "aprovação sem autor aceita")
 
         # ---------- resolvedor REAL por git (sem diretório gravável) ----------
@@ -1016,6 +1148,9 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--raiz", default=".")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--selftest", action="store_true")
+    ap.add_argument("--selar", metavar="LOTE",
+                    help="calcula e preenche 'sha256_da_peca' de cada peca do lote (e o hash da "
+                         "liberacao, se existir). NAO cria liberacao: o ato humano e outro")
     ap.add_argument("--hash-peca", dest="hash_peca",
                     help="imprime o sha256 canonico do conteudo da peca: campos de conteudo, "
                          "aprovacao.por/em e o sha256 dos artefatos de derivacao/colecao")
@@ -1023,6 +1158,31 @@ def main(argv: list[str] | None = None) -> int:
 
     if a.selftest:
         return selftest()
+    if a.selar:
+        try:
+            texto = Path(a.selar).read_text(encoding="utf-8")
+            lote = json.loads(texto)
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError, RecursionError) as e:
+            print(json.dumps({"erro": "lote ilegivel, nao UTF-8 ou nao e JSON valido",
+                              "detalhe": str(e)}, ensure_ascii=False))
+            return 2
+        if not isinstance(lote, dict) or not isinstance(lote.get("pecas"), list):
+            print(json.dumps({"erro": "lote deve ser objeto com lista 'pecas'"}, ensure_ascii=False))
+            return 2
+        seladas = []
+        for peca in lote["pecas"]:
+            if not isinstance(peca, dict):
+                continue
+            h = hash_da_peca(peca, Path(a.raiz))
+            peca["sha256_da_peca"] = h
+            if isinstance(peca.get("liberacao"), dict):
+                peca["liberacao"]["hash_do_conteudo"] = h
+            seladas.append({"peca": peca.get("id"), "sha256_da_peca": h})
+        Path(a.selar).write_text(json.dumps(lote, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        print(json.dumps({"seladas": seladas, "arquivo": a.selar,
+                          "nota": "hash preenchido pelo conteudo. Nenhuma liberacao foi criada."},
+                         ensure_ascii=False, indent=1))
+        return 0
     if a.hash_peca:
         try:
             peca = json.loads(Path(a.hash_peca).read_text(encoding="utf-8"))

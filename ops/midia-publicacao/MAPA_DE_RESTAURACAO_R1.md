@@ -1,52 +1,61 @@
-# MAPA DE RESTAURAÇÃO R1 — reerguer a operação TakwaraTec numa máquina nova
+# MAPA DE RESTAURAÇÃO — reerguer a operação numa máquina nova
 
-STATUS=PROPOSTA · NÃO VIGENTE
+STATUS=PLANO_NAO_TESTADO
+VERSAO=R2 (2026-11-20) — sequência corrigida após reconciliação da auditoria externa
 DATA=2026-11-20
 FRENTE=INTEGRACAO_MIDIAS_SOCIAIS
 AUTORIDADE=FABIO_SOBERANO, 2026-11-20: "o Git é a fonte da verdade; os binários ficam no drive; se eu precisar reconstruir em outra máquina, tenho as fontes e tenho o mapa de como restaurar"
+
+**O que mudou da R1:** a R1 estava correta em conteúdo e frágil em ordem — mandava rebaixar binários
+antes de ter a chave e listava credenciais no meio do caminho de dados. A R2 passa a ser uma
+**sequência executável**, com entrada, saída e critério de verificação por passo.
 
 ## 0. A frase que este mapa existe para tornar verdadeira
 
 > Perder o Mac não pode significar perder a operação.
 
-Ele só é verdade se **quatro camadas** sobreviverem, e cada uma tem um dono diferente:
+Quatro camadas, cada uma com dono diferente:
 
-| camada | o que guarda | onde | sobrevive à perda do Mac? |
+| camada | guarda | onde | sobrevive à perda do Mac? |
 |---|---|---|---|
-| **1. Fonte da verdade** | texto, regras, código, manifesto, decisões | **GitHub** (repos `takwaratec/*`) | SIM |
-| **2. Bytes** | PDFs originais, artes, lotes cifrados | **Google Drive** (remotos rclone) | SIM, **se a chave existir** |
-| **3. Segredo** | chave privada `age`, tokens, senhas | **fora do Git e fora do Mac** | **NÃO — este é o elo frágil** |
-| **4. Serviço** | site no ar, Worker servindo arte | **Cloudflare** | derivado: reemite-se pelo deploy |
+| **1. Fonte da verdade** | texto, código, regras, manifestos, decisões | **GitHub** (`takwaratec/*`) | SIM |
+| **2. Bytes** | artes, lotes, PDFs originais | **Google Drive** (custódia `.age`) | SIM, **se a chave existir** |
+| **3. Segredo** | chave privada `age` | **fora do Git e fora do Mac** | **NÃO — é o elo frágil** |
+| **4. Serviço** | site no ar, Worker | **Cloudflare** | derivado: reemite-se por deploy |
 
-A camada 3 é a única que o Git não reconstrói e o Drive não abre sozinho. Sem ela, as camadas 1 e 2
-existem e não se encontram.
-
-## 1. O que o Git reconstrói sozinho
-
-Com apenas um `git clone` e nada mais, você recupera:
-
-- o Acervo inteiro (`docs/analyses/**`): fichas, artigos, estados documentais
-- a esteira de publicação (`ops/midia-publicacao/**`): código, esquema, manuais, exemplos
-- o ledger R4 e as decisões (`refs/heads/r4-claims` no repo de governança)
-- os manifests de mídia (ponteiro com `sha256`, dimensão e URL de cada slide)
-- este mapa
-
-**O que o Git NÃO reconstrói:** os JPEG/PDF, a chave `age`, e qualquer credencial.
-
-## 2. Ordem de restauração (comandos literais)
-
-### Passo 1 — repos
+## 0.1 A sequência obrigatória
 
 ```
+ACESSO → CLONE → CREDENCIAIS → CUSTÓDIA → DESCRIPTOGRAFIA
+       → CONFERÊNCIA DE HASH → RECONSTRUÇÃO DOS ASSETS → BUILD → VERIFICAÇÃO LOCAL
+```
+
+Não pule para o passo seguinte sem verificar o anterior. **A ordem não é estética:** descriptografar
+sem chave não acontece; reconstruir assets sem hash confere nada; e a verificação local é o único
+sinal de que a operação voltou viva — o clone ter terminado não é sinal nenhum.
+
+### Passo 1 — ACESSO
+
+```
+git config --global user.name  "takwaratec"
+git config --global user.email "takwaratec@gmail.com"
+ssh-keygen -t ed25519 -C "vm-restauracao"
+cat ~/.ssh/id_ed25519.pub      # autorizar em github.com/settings/keys
+ssh -T git@github.com          # espera "Hi <usuario>! You've successfully authenticated"
+```
+
+**Saída:** `ssh -T` autentica. **Se falhar, nada adiante funciona** — resolva aqui.
+
+### Passo 2 — CLONE
+
+```
+mkdir -p ~/Takwara/repos && cd ~/Takwara/repos
 git clone git@github.com:takwaratec/acervo-soberania-tecnologica.git
 git clone git@github.com:takwaratec/TakwaraTec-Laboratorio-Editorial.git
 git clone git@github.com:takwaratec/TakwaraTec-Acervo-Web.git
-git clone git@github.com:takwaratec/TakwaraTec-Midia-Editorial.git
 ```
 
-### Passo 2 — o ref do ledger não é uma branch comum
-
-O registro vivo da governança mora em `refs/heads/r4-claims`, que **não vem no clone padrão**:
+**O ref do ledger não vem no clone.** O registro vivo mora em `refs/heads/r4-claims`:
 
 ```
 cd TakwaraTec-Laboratorio-Editorial
@@ -54,102 +63,125 @@ git fetch origin +refs/heads/r4-claims:refs/heads/r4-claims
 git rev-parse r4-claims          # tem de devolver 40 hex
 ```
 
-Sem esse `fetch` explícito, `status`/`frentes` do runner leem vazio e parece que a frente não existe.
+Sem esse `fetch`, `status`/`frentes` do runner leem vazio e parece que a frente não existe.
 
-### Passo 3 — ferramentas
+**Saída:** três clones + `r4-claims` resolvendo.
+
+### Passo 3 — CREDENCIAIS
+
+**Nenhuma credencial se copia; todas se reemitem.** Nenhum valor entra neste documento.
+
+| credencial | como reemitir | teste mínimo |
+|---|---|---|
+| GitHub SSH | `ssh-keygen` (passo 1) | `ssh -T git@github.com` |
+| Cloudflare | dashboard → API Tokens (Workers Scripts:Edit) ou `npx wrangler login` | `npx wrangler whoami` |
+| Meta / Instagram | App Dashboard → novo token de usuário | chamada de teste à Graph API |
+| Google Drive | `rclone config reconnect <remoto>:` — exige navegador nesta máquina | `rclone lsd gdrive-custodia:` |
+| Zenodo | zenodo.org → Applications | `curl` autenticado ao endpoint |
+| GPT Maker | painel do agente Bambusa | widget carregando no site |
+
+### Passo 4 — CUSTÓDIA
 
 ```
-python3 --version                # 3.11+ basta; a esteira não tem dependência externa
-node --version                   # para o Worker e o site (Astro 7.3.1)
-npm install                      # em TakwaraTec-Acervo-Web
-brew install rclone age          # custódia
+brew install rclone age
+rclone lsd  gdrive-custodia:
+rclone ls   gdrive-custodia: --max-depth 2 | head -50
 ```
 
-A esteira (`montar_lote.py`, `verificar_midia.py`) roda com **biblioteca padrão apenas** — isso é
-deliberado: uma VM nova não precisa instalar nada para o gate funcionar, e o gate não quebra por
-dependência ausente.
+**Saída:** contêineres `.age` de nome opaco. **Limite:** sem a chave do passo 5, isto prova
+existência, não conteúdo.
 
-### Passo 4 — provar que a esteira voltou viva
+### Passo 5 — DESCRIPTOGRAFIA
+
+```
+age --version
+age -d -i ~/chave-age.txt arquivo.age > arquivo.jpg
+```
+
+**Saída:** bytes em claro. **Regra:** a chave nunca entra no repositório, no chat ou em nuvem sem
+cifra própria. **Sem a chave, os `.age` são irrecuperáveis** — ver §3.
+
+### Passo 6 — CONFERÊNCIA DE HASH
 
 ```
 cd acervo-soberania-tecnologica/ops/midia-publicacao
-python3 montar_lote.py --selftest
-python3 verificar_midia.py --selftest
+shasum -a 256 -c MANIFESTO_SHA256.txt
+python3 verificar_midia.py --manifesto <manifesto-do-lote>.json --raiz-public <dir-dos-bytes>
 ```
 
-Esperado: `{"selftest":"PASS",...}` nos dois, exit 0. Se qualquer um reprovar, **pare** — o gate
-voltou quebrado e confiar nele é pior que não tê-lo.
+**Saída:** `11/11 OK` no manifesto. Hash divergente = arquivo errado ou corrompido: rebaixe de novo,
+não "ajuste" o manifesto.
 
-### Passo 5 — credenciais, uma a uma (todas se REEMITEM, nenhuma se copia)
-
-| serviço | como reemitir | o que precisa existir antes |
-|---|---|---|
-| GitHub | chave SSH nova → `ssh-keygen -t ed25519` → colar em github.com/settings/keys | acesso à conta |
-| Cloudflare | `npx wrangler login` (ou token escopado no dashboard) | acesso à conta |
-| Google Drive | `rclone config reconnect <remoto>:` — **exige navegador nesta máquina** | acesso à conta Google |
-| Meta / Instagram | App Dashboard → gerar novo token de usuário | papel no App |
-| chave `age` | **copiar do cofre onde ela está** (ver §3) | — |
-
-Nenhum valor de credencial vive neste documento, e nenhum deve passar a viver.
-
-### Passo 6 — site e serviço
-
-```
-cd TakwaraTec-Acervo-Web
-npm run build                     # gera dist/
-ls dist/midia/                    # as artes de mídia precisam estar aqui
-npx wrangler deploy
-curl -sI https://<worker>/midia/<LOTE>/01.jpg    # esperar 200 + image/jpeg
-```
-
-**Sem as artes no disco, o deploy REMOVE do ar as artes de lotes anteriores** (o `dist/` é
-reconstruído). Por isso o passo 7 vem antes de qualquer deploy em máquina nova.
-
-### Passo 7 — rebaixar os binários do Drive
+### Passo 7 — RECONSTRUÇÃO DOS ASSETS
 
 ```
 rclone copy '<remoto>:<base>/midia/<LOTE>' ./public/midia/<LOTE> --checksum
 shasum -a 256 ./public/midia/<LOTE>/*.jpg     # comparar com o manifesto no Git
 ```
 
-Aqui está o ciclo fechando: o **manifesto no Git** diz qual `sha256` cada arte deve ter; o **Drive**
-tem os bytes; se os dois baterem, a reconstrução é fiel e não uma aproximação.
+O manifesto é a autoridade sobre caminho e hash — não a memória de quem restaura.
+
+### Passo 8 — BUILD
+
+```
+cd TakwaraTec-Acervo-Web && npm install && npm run build
+ls dist/midia/                                 # as artes precisam estar aqui
+cd ../acervo-soberania-tecnologica/workers/instagram-automation-takwaratec
+npm ci && npm test                             # espera 24/24
+npx wrangler deploy --dry-run
+```
+
+**Atenção:** `dist/` é reconstruído a cada build. **Sem as artes no disco, o deploy REMOVE do ar as
+artes de lotes anteriores.** Por isso o passo 7 vem antes de qualquer deploy em máquina nova.
+
+### Passo 9 — VERIFICAÇÃO LOCAL
+
+```
+cd acervo-soberania-tecnologica/ops/midia-publicacao
+python3 montar_lote.py --selftest        # 59 negativos + 8 positivos
+python3 verificar_midia.py --selftest     # 9 + 2
+python3 montar_lote.py --lote piloto/LOTE_PILOTO_BAMBU_E1.json --raiz ../..
+python3 piloto/gerar_piloto_html.py --raiz ../..
+```
+
+A esteira roda com **biblioteca padrão apenas** — deliberado: a VM não instala nada para o gate
+funcionar, e o gate não quebra por dependência ausente.
+
+**Saída:** selftests PASS, piloto montado, HTML gerado.
 
 ## 3. A chave `age` — o elo que não está no Git
 
-Os lotes custodiados são `.tar.zst.age`: só abrem com a **chave privada** X25519. Ela não pode ir
-para o Git (vazaria) e não pode existir só no Mac (que é o que pode ser perdido).
+Os lotes são `.tar.zst.age`: só abrem com a chave privada X25519.
 
-Estados possíveis, e o que fazer em cada um:
-
-- **chave só no Mac** → situação atual e é a mais frágil. Criar cópia física (papel dobrado em
-  cofre) ou cópia em gerenciador de senhas, e **registrar aqui onde ela está**, não o valor.
-- **chave num cofre/gerenciador** → registrar o nome do item, não a senha do cofre.
-- **chave perdida e nenhuma cópia** → os `.age` são irrecuperáveis. Se isso acontecer, o registro
-  honesto é: "binário custodiado existe e não abre"; o original precisa vir de outra fonte.
-
-**Pendência declarada, com dono:** `FABIO_SOBERANO` — decidir e executar a cópia da chave fora do
-Mac, e preencher a linha abaixo.
+- **chave só no Mac** → situação atual, a mais frágil. Criar cópia física (papel em cofre) ou em
+  gerenciador de senhas, e **registrar aqui onde ela está** — não o valor.
+- **chave em cofre/gerenciador** → registrar o nome do item, nunca a senha do cofre.
+- **chave perdida** → os `.age` são irrecuperáveis; o original precisa vir de outra fonte.
 
 ```
 CHAVE_AGE: PENDENTE — localização da cópia de segurança não declarada
 ```
 
-## 4. O que NÃO é reconstruível, e o mapa tem de dizer isso
+**Pendência com dono:** `FABIO_SOBERANO`.
 
-- **Histórico de publicação no Instagram.** Se a conta for perdida, nenhum clone a recupera.
-- **Tokens antigos.** Todos valem só até expirar; a restauração pressupõe reemissão.
-- **Estado local não commitado.** Worktree sujo, stub, arquivo em `dist/`: tudo isso morre com a máquina. Por isso a regra "Git é a fonte da verdade" exige commit antes de considerar algo salvo.
-- **Conversas.** Decisão que existe só em chat não está preservada; para valer, precisa virar arquivo no repositório — que é a razão de existir a `DECISAO_ESTEIRA_PUBLICACAO_R1_20261120.md`.
+## 4. O que NÃO é reconstruível
 
-## 5. Ensaio de restauração (o que ainda não foi feito)
+- **Histórico de publicação no Instagram.** Perdida a conta, nenhum clone a recupera.
+- **Tokens antigos.** Valem até expirar; a restauração pressupõe reemissão.
+- **Estado local não commitado.** Worktree sujo, stub, `dist/`: morre com a máquina. É a razão da regra "Git é a fonte da verdade".
+- **Conversas.** Decisão que existe só em chat não está preservada; para valer, precisa virar arquivo no repositório.
 
-Este mapa é **plano, não prova**. Ninguém restaurou de fato numa máquina limpa, e um mapa nunca
-testado é um mapa que pode estar errado em qualquer linha.
+## 5. Ensaio de restauração (pendente)
 
-Ensaio proposto, quando houver VM disponível: clonar os quatro repos numa máquina limpa, rodar os
-dois selftests, e reportar **em qual passo parou**. Enquanto esse ensaio não acontecer, o status
-honesto deste documento é `PLANO_NAO_TESTADO`.
+Este mapa é **plano, não prova**. Para valer como prova, o ensaio precisa de:
+
+1. VM limpa, sem resíduo do Mac;
+2. apenas os quatro insumos: acesso, Drive, chave, este mapa;
+3. cronômetro e log por passo;
+4. falha registrada, não escondida;
+5. ao final, selftests PASS e o piloto gerando HTML.
+
+Até lá, a afirmação honesta é: **o plano está escrito, os comandos existem, o ensaio não foi feito.**
 
 | # | item | estado | dono |
 |---|---|---|---|
