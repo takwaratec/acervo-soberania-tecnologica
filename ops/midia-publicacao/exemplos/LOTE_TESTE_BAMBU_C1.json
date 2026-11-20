@@ -1,7 +1,7 @@
 {
  "lote": "TESTE-E2E-BAMBU-C1",
  "status": "ENSAIO · NAO PUBLICAR",
- "nota": "Prova que a esteira recusa peca editorial REAL da BAMBU-SCIENCE por estado_documental em-revisao-documental. Se este lote passar, o gate esta desligado.",
+ "nota": "Ensaio da esteira com peca REAL da frente BAMBU-SCIENCE. Espera-se recusa em P3: o material esta em-revisao-documental e o artigo nao declara estado_documental homologado. Se este lote passar, o gate esta desligado.",
  "pecas": [
   {
    "id": "TESTE-BAMBU-C1",
@@ -42,7 +42,7 @@
     "gaveta": "bambu-estrutural",
     "estado_da_arte": "docs/analyses/bambu-estrutural/divulgacao/carrossel-1-quanto-aguenta.md",
     "artigos": [
-     "docs/analyses/bambu-estrutural/divulgacao/carrossel-1-quanto-aguenta.md"
+     "docs/analyses/bambu-estrutural/divulgacao/artigo-didatico-bambu.md"
     ]
    }
   }

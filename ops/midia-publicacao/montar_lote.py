@@ -35,8 +35,9 @@ import sys
 from pathlib import Path
 
 # Estados documentais que contam como homologado para efeito de PUBLICAÇÃO.
-# Derivados da medição de docs/analyses em 2026-11-20 (12 valores distintos no corpus);
-# só estes três são homologação; "em-revisao-documental" e "curado" NÃO são.
+# Derivados de GOVERNANCA_DOCUMENTAL.md (tabela de equivalência, linhas 82-90): o estado
+# canônico mais os sete valores legados que ela mapeia para homologado-documentalmente.
+# "em-revisao-documental" NÃO é homologação.
 ESTADOS_HOMOLOGADOS = {
     # `curado` e `revisado-com-fonte-integral` entram porque GOVERNANCA_DOCUMENTAL.md:86/88
     # os declara equivalentes a homologado-documentalmente. O gate recusá-los contradizia a
@@ -126,16 +127,63 @@ def normalizar_estado(v: str) -> str:
     return (v or "").strip().strip('"').strip("'").lower()
 
 
-def _resolve_ponteiro(raiz: Path, caminho: str, der: dict) -> bool:
-    """Um ponteiro resolve se existe no disco (ou na memória) ou no ref declarado."""
+def _dentro(raiz: Path, caminho: str) -> Path | None:
+    """Contém o caminho na raiz. Ponteiro para ../../etc/hosts não é fonte do acervo."""
     alvo = (raiz / caminho).resolve()
-    if _existe(alvo):
-        return True
+    r = raiz.resolve()
+    return alvo if (alvo == r or r in alvo.parents) else None
+
+
+def _ler_ponteiro(raiz: Path, caminho: str, der: dict) -> str | None:
+    """Devolve o TEXTO do ponteiro (disco, memória ou ref) — ou None se não resolver."""
+    alvo = _dentro(raiz, caminho)
+    if alvo is None:
+        return None
+    t = _texto(alvo)
+    if t is not None:
+        return t
     ref = (der.get("ref") or "").strip()
     if not ref:
-        return False
-    ok, _ = _blob_no_ref(raiz, ref, caminho)
-    return ok
+        return None
+    ok, bruto = _blob_no_ref(raiz, ref, caminho)
+    return bruto if ok else None
+
+
+def _resolve_ponteiro(raiz: Path, caminho: str, der: dict) -> bool:
+    return _ler_ponteiro(raiz, caminho, der) is not None
+
+
+def _conferir_artefato(raiz: Path, caminho: str, der: dict, pid: str,
+                       rotulo: str, exigir_artigo: bool = False) -> list[str]:
+    """Existência não basta: o ponteiro tem de ser um documento HOMOLOGADO do acervo.
+
+    A auditoria de 2026-11-20 (rodada 2) mostrou que aceitar só "o caminho existe"
+    permitia usar o mesmo arquivo como estado da arte e artigo, e aceitava ../../etc/hosts.
+    Aqui o frontmatter é lido e conferido: estado_documental homologado, e no caso do
+    artigo, tipo documental de artigo ou marca e_artigo.
+    """
+    erros: list[str] = []
+    if _dentro(raiz, caminho) is None:
+        return [f"{pid}: P3 recusa — '{rotulo}' aponta para fora do repositório: {caminho}"]
+    texto = _ler_ponteiro(raiz, caminho, der)
+    if texto is None:
+        return [f"{pid}: P3 recusa — '{rotulo}' não resolve: {caminho}"]
+    fm = ler_frontmatter(texto)
+    estado = normalizar_estado(str(fm.get("estado_documental", "")))
+    if estado not in ESTADOS_HOMOLOGADOS:
+        erros.append(
+            f"{pid}: P3 recusa — '{rotulo}' ({caminho}) tem estado_documental={estado or 'ausente'}, "
+            "que não é homologado"
+        )
+    if exigir_artigo:
+        tipo = str(fm.get("tipo_documental", "")).lower()
+        marca = str(fm.get("e_artigo", "")).lower() in {"sim", "true", "1"}
+        if not marca and not tipo.startswith("artigo"):
+            erros.append(
+                f"{pid}: P3 recusa — '{rotulo}' ({caminho}) não se declara artigo "
+                f"(tipo_documental={tipo or 'ausente'}); declaração de estado da arte não serve como artigo"
+            )
+    return erros
 
 
 def validar_peca(peca: dict, raiz: Path) -> list[str]:
@@ -224,14 +272,20 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
     arts = col.get("artigos") or []
     if not eda:
         erros.append(f"{pid}: P3 recusa — peça sem 'colecao.estado_da_arte'; homologação exige estado da arte da coleção")
-    elif not _resolve_ponteiro(raiz, eda, der):
-        erros.append(f"{pid}: P3 recusa — 'colecao.estado_da_arte' não resolve: {eda}")
+    else:
+        erros.extend(_conferir_artefato(raiz, eda, der, pid, "colecao.estado_da_arte"))
     if not isinstance(arts, list) or not arts:
         erros.append(f"{pid}: P3 recusa — peça sem 'colecao.artigos'; homologação exige no mínimo um artigo")
     else:
         for a in arts:
-            if not _resolve_ponteiro(raiz, str(a), der):
-                erros.append(f"{pid}: P3 recusa — 'colecao.artigos' com ponteiro que não resolve: {a}")
+            a = str(a)
+            if eda and a == eda:
+                erros.append(
+                    f"{pid}: P3 recusa — 'colecao.artigos' repete o estado da arte ({a}); "
+                    "o critério exige estado da arte E artigo, dois artefatos distintos"
+                )
+                continue
+            erros.extend(_conferir_artefato(raiz, a, der, pid, "colecao.artigos", exigir_artigo=True))
 
     # P4 — formato coerente
     fmt = (peca.get("formato") or "").strip().lower()
@@ -306,13 +360,21 @@ def montar(lote: dict, raiz: Path) -> dict:
     }
 
 
-_ORIGEM_OK = (
-    "---\nestado_documental: homologado-documentalmente\ntem_artigo: sim\n---\n\n"
-    "# Origem\n\nAchado Um\n\nAchado Dois\n"
+_EDA = (
+    "---\nestado_documental: homologado-documentalmente\ntipo_documental: estado-da-arte\n"
+    "titulo: Estado da arte da coleção\n---\n\n# Estado da arte\n\nAchado Um\n\nAchado Dois\n"
 )
-_ORIGEM_REV = (
-    "---\nestado_documental: em-revisao-documental\ntem_artigo: sim\n---\n\n"
-    "# Origem em revisão\n\nAchado Um\n\nAchado Dois\n"
+_ART = (
+    "---\nestado_documental: homologado-documentalmente\ntipo_documental: artigo-didatico\n"
+    "titulo: Artigo didático da coleção\n---\n\n# Artigo\n\nAchado Um\n\nAchado Dois\n"
+)
+_REV = (
+    "---\nestado_documental: em-revisao-documental\ntipo_documental: artigo-didatico\n---\n\n"
+    "# Em revisão\n\nAchado Um\n\nAchado Dois\n"
+)
+_NAO_ART = (
+    "---\nestado_documental: homologado-documentalmente\ntipo_documental: estado-da-arte\n---\n\n"
+    "# Outro estado da arte\n\nAchado Um\n\nAchado Dois\n"
 )
 
 
@@ -320,7 +382,7 @@ def _peca_base(pid: str, path: str, sha: str, **kw) -> dict:
     p = {
         "id": pid,
         "deriva_de": {"tipo": "estado-da-arte", "path": path, "sha256": sha},
-        "colecao": {"gaveta": "g", "estado_da_arte": path, "artigos": [path]},
+        "colecao": {"gaveta": "g", "estado_da_arte": path, "artigos": ["/mem/art.md"]},
         "formato": "carrossel",
         "itens": [{"ordem": 1, "fonte": "Achado Um"}, {"ordem": 2, "fonte": "Achado Dois"}],
         "sha256_da_peca": "abc123",
@@ -332,117 +394,163 @@ def _peca_base(pid: str, path: str, sha: str, **kw) -> dict:
 
 
 def selftest() -> int:
-    """Controle negativo duplo, em memória: cada portão tem de RECUSAR o que deve recusar.
+    """Controle negativo duplo por portão, em memória — roda em sandbox read-only.
 
-    Roda sem diretório gravável de propósito — o auditor executa em sandbox read-only, e um
-    selftest que exige escrita não pode ser executado por quem audita (defeito medido na
-    auditoria TECO de 2026-11-20, Q1/Q6/Q8 não executáveis).
+    O total de controles é CONTADO, não digitado: contador escrito à mão já divergiu do
+    código real em auditoria (rodada 2, defeito BAIXA). Aqui não há como divergir.
     """
-    global _MEM
+    global _MEM, _blob_no_ref
     falhas: list[str] = []
-    h_ok = hashlib.sha256(_ORIGEM_OK.encode()).hexdigest()
-    h_rev = hashlib.sha256(_ORIGEM_REV.encode()).hexdigest()
+    negativos: list[str] = []
+    positivos: list[str] = []
+
+    def ctl(nome: str, ok: bool, msg: str, positivo: bool = False) -> None:
+        (positivos if positivo else negativos).append(nome)
+        if not ok:
+            falhas.append(f"{nome}: {msg}")
+
+    h_eda = hashlib.sha256(_EDA.encode()).hexdigest()
+    h_rev = hashlib.sha256(_REV.encode()).hexdigest()
     base = Path("/mem")
+    _MEM = {"/mem/eda.md": _EDA, "/mem/art.md": _ART, "/mem/rev.md": _REV, "/mem/nao-art.md": _NAO_ART}
+    refs = {"/mem/remoto.md": _EDA, "/mem/remoto-art.md": _ART}
+    real_blob = _blob_no_ref
 
-    _MEM = {"/mem/ok.md": _ORIGEM_OK, "/mem/rev.md": _ORIGEM_REV}
+    def falso_blob(raiz, ref, caminho):
+        if ref == "ref-existente" and caminho in {"/mem/remoto.md".lstrip("/"), "remoto.md", "remoto-art.md"}:
+            return True, refs.get("/mem/" + caminho.lstrip("/"), _ART)
+        return False, "objeto não encontrado"
+
     try:
-        # controle positivo
-        r = montar({"lote": "ST", "pecas": [_peca_base("ok", "ok.md", h_ok)]}, base)
-        if r["aprovadas"] != 1:
-            falhas.append(f"controle positivo falhou: peça correta recusada -> {r['erros']}")
-        if len(r["fila"]) != 1:
-            falhas.append(f"esperava 1 item de fila, obteve {len(r['fila'])}")
+        # ---------- controle positivo ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("ok", "eda.md", h_eda)]}, base)
+        ctl("positivo", r["aprovadas"] == 1, f"peça correta recusada -> {r['erros']}", positivo=True)
+        ctl("fila", len(r["fila"]) == 1, f"esperava 1 item de fila, obteve {len(r['fila'])}", positivo=True)
 
-        # P1 — tipo ficha
-        r = montar({"lote": "ST", "pecas": [_peca_base("p1", "ok.md", h_ok,
-                    deriva_de={"tipo": "ficha", "path": "ok.md", "sha256": h_ok})]}, base)
-        if not any("P1 recusa" in e and "ficha" in e for e in r["erros"]):
-            falhas.append("P1: ficha não foi recusada")
+        # ---------- P1 ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p1", "eda.md", h_eda,
+                    deriva_de={"tipo": "ficha", "path": "eda.md", "sha256": h_eda})]}, base)
+        ctl("P1", any("P1 recusa" in e and "ficha" in e for e in r["erros"]), "ficha não recusada")
 
-        # P2 — hash divergente
-        r = montar({"lote": "ST", "pecas": [_peca_base("p2", "ok.md", "0" * 64)]}, base)
-        if not any("P2 recusa" in e and "sha256" in e for e in r["erros"]):
-            falhas.append("P2: hash divergente não foi recusado")
+        # ---------- P2 ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p2", "eda.md", "0" * 64)]}, base)
+        ctl("P2", any("P2 recusa" in e and "sha256" in e for e in r["erros"]),
+            "hash divergente não recusado")
 
-        # P3a — estado não homologado
+        # ---------- P2 modo PONTEIRO, INTEGRADO (montar -> validar -> _blob_no_ref) ----------
+        _blob_no_ref = falso_blob
+        r = montar({"lote": "ST", "pecas": [_peca_base("ptr-ok", "remoto.md", h_eda,
+                    deriva_de={"tipo": "estado-da-arte", "path": "remoto.md", "sha256": h_eda,
+                               "ref": "ref-existente"},
+                    colecao={"estado_da_arte": "remoto.md", "artigos": ["remoto-art.md"]})]}, base)
+        ctl("PONTEIRO-ok", r["aprovadas"] == 1, f"ponteiro íntegro recusado -> {r['erros']}", positivo=True)
+
+        r = montar({"lote": "ST", "pecas": [_peca_base("ptr-hash", "remoto.md", "0" * 64,
+                    deriva_de={"tipo": "estado-da-arte", "path": "remoto.md", "sha256": "0" * 64,
+                               "ref": "ref-existente"},
+                    colecao={"estado_da_arte": "remoto.md", "artigos": ["remoto-art.md"]})]}, base)
+        ctl("PONTEIRO-hash", any("sha256 do ponteiro" in e for e in r["erros"]),
+            "hash divergente no ref não recusado")
+
+        _blob_no_ref = real_blob
+        r = montar({"lote": "ST", "pecas": [_peca_base("ptr-ref", "remoto.md", h_eda,
+                    deriva_de={"tipo": "estado-da-arte", "path": "remoto.md", "sha256": h_eda,
+                               "ref": "ref-que-nao-existe"},
+                    colecao={"estado_da_arte": "remoto.md", "artigos": ["remoto-art.md"]})]}, base)
+        ctl("PONTEIRO-ref", any("sem ponteiro remoto" in e or "não resolve" in e for e in r["erros"]),
+            "ref inexistente aceito")
+        r = montar({"lote": "ST", "pecas": [_peca_base("ptr-sem-ref", "sumiu.md", h_eda)]}, base)
+        ctl("PONTEIRO-sem-ref", any("sem ponteiro remoto" in e for e in r["erros"]),
+            "origem ausente sem ref aceita")
+
+        # ---------- P3a: estado não homologado ----------
         r = montar({"lote": "ST", "pecas": [_peca_base("p3a", "rev.md", h_rev,
                     deriva_de={"tipo": "estado-da-arte", "path": "rev.md", "sha256": h_rev},
-                    colecao={"estado_da_arte": "rev.md", "artigos": ["rev.md"]})]}, base)
-        if not any("P3 recusa" in e and "em-revisao-documental" in e for e in r["erros"]):
-            falhas.append("P3a: estado em-revisao-documental não foi recusado")
+                    colecao={"estado_da_arte": "rev.md", "artigos": ["art.md"]})]}, base)
+        ctl("P3-estado", any("não é homologado" in e for e in r["erros"]),
+            "em-revisao-documental aceito")
 
-        # P3b — coleção SEM estado da arte (defeito ALTA da auditoria: booleano não prova)
-        r = montar({"lote": "ST", "pecas": [_peca_base("p3b", "ok.md", h_ok,
-                    colecao={"artigos": ["ok.md"]})]}, base)
-        if not any("P3 recusa" in e and "estado_da_arte" in e for e in r["erros"]):
-            falhas.append("P3b: coleção sem estado da arte não foi recusada")
+        # ---------- P3b: sem estado da arte ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3b", "eda.md", h_eda,
+                    colecao={"artigos": ["art.md"]})]}, base)
+        ctl("P3-sem-eda", any("sem 'colecao.estado_da_arte'" in e for e in r["erros"]),
+            "coleção sem estado da arte aceita")
 
-        # P3c — coleção sem artigo
-        r = montar({"lote": "ST", "pecas": [_peca_base("p3c", "ok.md", h_ok,
-                    colecao={"estado_da_arte": "ok.md", "artigos": []})]}, base)
-        if not any("P3 recusa" in e and "colecao.artigos" in e for e in r["erros"]):
-            falhas.append("P3c: coleção sem artigo não foi recusada")
+        # ---------- P3c: sem artigo ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3c", "eda.md", h_eda,
+                    colecao={"estado_da_arte": "eda.md", "artigos": []})]}, base)
+        ctl("P3-sem-artigo", any("sem 'colecao.artigos'" in e for e in r["erros"]),
+            "coleção sem artigo aceita")
 
-        # P3d — ponteiro de coleção que não resolve
-        r = montar({"lote": "ST", "pecas": [_peca_base("p3d", "ok.md", h_ok,
-                    colecao={"estado_da_arte": "nao-existe.md", "artigos": ["ok.md"]})]}, base)
-        if not any("P3 recusa" in e and "não resolve" in e for e in r["erros"]):
-            falhas.append("P3d: ponteiro de coleção inexistente não foi recusado")
+        # ---------- P3d: ponteiro inexistente ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3d", "eda.md", h_eda,
+                    colecao={"estado_da_arte": "nao-existe.md", "artigos": ["art.md"]})]}, base)
+        ctl("P3-inexistente", any("não resolve" in e for e in r["erros"]),
+            "ponteiro inexistente aceito")
 
-        # P4 — formato incoerente com a contagem de itens (carrossel exige 2..20)
-        r = montar({"lote": "ST", "pecas": [_peca_base("p4", "ok.md", h_ok,
+        # ---------- P3e: mesmo arquivo como estado da arte e artigo (rodada 2, defeito ALTA) ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3e", "eda.md", h_eda,
+                    colecao={"estado_da_arte": "eda.md", "artigos": ["eda.md"]})]}, base)
+        ctl("P3-mesmo-arquivo", any("repete o estado da arte" in e for e in r["erros"]),
+            "mesmo arquivo aceito como estado da arte e artigo")
+
+        # ---------- P3f: artigo que não se declara artigo (rodada 2, defeito ALTA) ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3f", "eda.md", h_eda,
+                    colecao={"estado_da_arte": "eda.md", "artigos": ["nao-art.md"]})]}, base)
+        ctl("P3-artigo-falso", any("não se declara artigo" in e for e in r["erros"]),
+            "documento que não é artigo aceito como artigo")
+
+        # ---------- P3g: ponteiro fora da raiz (rodada 2, defeito ALTA) ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3g", "eda.md", h_eda,
+                    colecao={"estado_da_arte": "../../etc/hosts", "artigos": ["art.md"]})]}, base)
+        ctl("P3-fora-da-raiz", any("fora do repositório" in e for e in r["erros"]),
+            "caminho fora da raiz aceito")
+
+        # ---------- P4 ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p4", "eda.md", h_eda,
                     formato="carrossel", itens=[{"ordem": 1, "fonte": "Achado Um"}])]}, base)
-        if not any("P4 recusa" in e for e in r["erros"]):
-            falhas.append("P4: carrossel com 1 item não foi recusado")
-        r = montar({"lote": "ST", "pecas": [_peca_base("p4b", "ok.md", h_ok, formato="reels-x")]}, base)
-        if not any("P4 recusa" in e and "desconhecido" in e for e in r["erros"]):
-            falhas.append("P4b: formato desconhecido não foi recusado")
+        ctl("P4-carrossel-curto", any("P4 recusa" in e for e in r["erros"]),
+            "carrossel com 1 item aceito")
+        r = montar({"lote": "ST", "pecas": [_peca_base("p4b", "eda.md", h_eda, formato="reels-x")]}, base)
+        ctl("P4-formato", any("P4 recusa" in e and "desconhecido" in e for e in r["erros"]),
+            "formato desconhecido aceito")
 
-        # P6 — aprovação de outro bytes
-        r = montar({"lote": "ST", "pecas": [_peca_base("p6", "ok.md", h_ok,
-                    aprovacao={"por": "F", "em": "D", "hash_da_peca": "outro-hash"})]}, base)
-        if not any("P6 recusa" in e for e in r["erros"]):
-            falhas.append("P6: aprovação de outro bytes não foi recusada")
-        r = montar({"lote": "ST", "pecas": [_peca_base("p6b", "ok.md", h_ok,
-                    aprovacao={"hash_da_peca": "abc123"})]}, base)
-        if not any("P6 recusa" in e and "'por'" in e for e in r["erros"]):
-            falhas.append("P6b: aprovação sem autor não foi recusada")
-
-        # P5 — fonte inventada
-        r = montar({"lote": "ST", "pecas": [_peca_base("p5", "ok.md", h_ok,
+        # ---------- P5 ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p5", "eda.md", h_eda,
                     itens=[{"ordem": 1, "fonte": "Achado Um"},
                            {"ordem": 2, "fonte": "Achado Que Nao Existe"}])]}, base)
-        if not any("P5 recusa" in e and "Achado Que Nao Existe" in e for e in r["erros"]):
-            falhas.append("P5: fonte inventada não foi recusada")
+        ctl("P5-fonte-inventada", any("Achado Que Nao Existe" in e for e in r["erros"]),
+            "fonte inventada aceita")
 
-        # PONTEIRO — resolução real por git, sem diretório temporário.
-        # O próprio arquivo deste script é usado como objeto existente no HEAD.
+        # ---------- P6 ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p6", "eda.md", h_eda,
+                    aprovacao={"por": "F", "em": "D", "hash_da_peca": "outro-hash"})]}, base)
+        ctl("P6-hash", any("P6 recusa" in e for e in r["erros"]), "aprovação de outro bytes aceita")
+        r = montar({"lote": "ST", "pecas": [_peca_base("p6b", "eda.md", h_eda,
+                    aprovacao={"hash_da_peca": "abc123"})]}, base)
+        ctl("P6-autor", any("P6 recusa" in e and "'por'" in e for e in r["erros"]),
+            "aprovação sem autor aceita")
+
+        # ---------- resolvedor REAL por git (sem diretório gravável) ----------
         aqui = Path(__file__).resolve().parent
-        # o caminho no git é relativo à RAIZ do repositório, não ao cwd do script
         try:
             topo = subprocess.run(["git", "-C", str(aqui), "rev-parse", "--show-toplevel"],
                                   capture_output=True, text=True, timeout=15).stdout.strip()
             rel = str(Path(__file__).resolve().relative_to(topo)) if topo else "montar_lote.py"
         except (OSError, subprocess.SubprocessError, ValueError):
             rel = "montar_lote.py"
-        ok, _ = _blob_no_ref(aqui, "HEAD", rel)
-        if not ok:
-            falhas.append(f"ponteiro: 'HEAD:{rel}' não resolveu neste clone")
-        ok2, _ = _blob_no_ref(aqui, "ref-que-nao-existe", rel)
-        if ok2:
-            falhas.append("ponteiro: ref inexistente resolveu (deveria falhar)")
-
-        # PONTEIRO — origem ausente sem ref
-        r = montar({"lote": "ST", "pecas": [_peca_base("ptr1", "sumiu.md", h_ok)]}, base)
-        if not any("sem ponteiro remoto" in e for e in r["erros"]):
-            falhas.append("ponteiro: origem ausente sem ref não foi recusada")
+        ok, _ = real_blob(aqui, "HEAD", rel)
+        ctl("git-HEAD", ok, f"'HEAD:{rel}' não resolveu neste clone")
+        ok2, _ = real_blob(aqui, "ref-que-nao-existe", rel)
+        ctl("git-ref-falso", not ok2, "ref inexistente resolveu (deveria falhar)")
     finally:
         _MEM = None
+        _blob_no_ref = real_blob
 
     for f in falhas:
         print(f"FALHA: {f}")
-    print(json.dumps({"selftest": "PASS" if not falhas else "FAIL",
-                      "modo": "EM_MEMORIA", "controles_negativos": 11,
+    print(json.dumps({"selftest": "PASS" if not falhas else "FAIL", "modo": "EM_MEMORIA",
+                      "controles_negativos": len(negativos), "controles_positivos": len(positivos),
                       "falhas": len(falhas)}, ensure_ascii=False))
     return 0 if not falhas else 1
 

@@ -210,7 +210,14 @@ def selftest() -> int:
     """
     global _MEM_B
     falhas: list[str] = []
+    negativos: list[str] = []
+    positivos: list[str] = []
     raiz = Path("/mem")
+
+    def ctl(nome: str, ok: bool, msg: str, positivo: bool = False) -> None:
+        (positivos if positivo else negativos).append(nome)
+        if not ok:
+            falhas.append(f"{nome}: {msg}")
 
     def _b(largura, altura):
         return _jpeg(largura, altura)
@@ -226,8 +233,7 @@ def selftest() -> int:
     _MEM_B = memoria
     try:
         r = verificar({"lote": "BOM", "slides": bom}, raiz)
-        if not r["ok"]:
-            falhas.append(f"controle positivo falhou: {r['erros']}")
+        ctl("positivo", r["ok"], f"lote correto recusado: {r['erros']}", positivo=True)
 
         # 1. proporção divergente do slide 1 (o corte do carrossel)
         b = _b(1080, 1080)
@@ -235,8 +241,7 @@ def selftest() -> int:
         q = dict(bom[1]); q.update(arquivo="quadrado.jpg", sha256=hashlib.sha256(b).hexdigest(),
                                    url="https://e/midia/L/quadrado.jpg")
         r = verificar({"lote": "Q", "slides": [bom[0], q, bom[2]]}, raiz)
-        if not any("difere do slide 1" in e for e in r["erros"]):
-            falhas.append("1: proporção divergente não foi pega")
+        ctl("1", any("difere do slide 1" in e for e in r["erros"]), "proporção divergente não foi pega")
 
         # 2. proporção fora da faixa, mas IGUAL ao slide 1 (pega limites desligados)
         b = _b(1080, 2400)
@@ -244,8 +249,7 @@ def selftest() -> int:
         a1 = dict(bom[1]); a1.update(arquivo="alongado.jpg", sha256=hashlib.sha256(b).hexdigest(),
                                      url="https://e/midia/L/alongado.jpg")
         r = verificar({"lote": "F", "slides": [a1]}, raiz)
-        if not any("fora de 0.800" in e for e in r["erros"]):
-            falhas.append("2: proporção fora da faixa não foi pega")
+        ctl("2", any("fora de 0.800" in e for e in r["erros"]), "proporção fora da faixa não foi pega")
 
         # 3. largura fora da faixa, slides iguais
         b = _b(200, 250)
@@ -253,14 +257,12 @@ def selftest() -> int:
         e1 = dict(bom[1]); e1.update(arquivo="estreito.jpg", sha256=hashlib.sha256(b).hexdigest(),
                                      url="https://e/midia/L/estreito.jpg")
         r = verificar({"lote": "E", "slides": [e1]}, raiz)
-        if not any("largura 200px fora" in e for e in r["erros"]):
-            falhas.append("3: largura fora da faixa não foi pega")
+        ctl("3", any("largura 200px fora" in e for e in r["erros"]), "largura fora da faixa não foi pega")
 
         # 4. sha divergente
         bad = dict(bom[2]); bad["sha256"] = "0" * 64
         r = verificar({"lote": "S", "slides": [bom[0], bad]}, raiz)
-        if not any("sha256 não confere" in e for e in r["erros"]):
-            falhas.append("4: sha divergente não foi pego")
+        ctl("4", any("sha256 não confere" in e for e in r["erros"]), "sha divergente não foi pego")
 
         # 5. PNG (a Graph API aceita JPEG para imagem)
         png = (b"\x89PNG\r\n\x1a\n" + b"\x00\x00\x00\x0dIHDR"
@@ -268,44 +270,43 @@ def selftest() -> int:
         memoria["/mem/x.png"] = png
         r = verificar({"lote": "P", "slides": [{"arquivo": "x.png",
                       "sha256": hashlib.sha256(png).hexdigest(), "url": "https://e/x.png"}]}, raiz)
-        if not any("PNG não é aceito" in e for e in r["erros"]):
-            falhas.append("5: PNG não foi recusado")
+        ctl("5", any("PNG não é aceito" in e for e in r["erros"]), "PNG não foi recusado")
 
         # 6. arquivo ausente
         r = verificar({"lote": "A", "slides": [{"arquivo": "nao-existe.jpg",
                       "sha256": "x", "url": "https://e/nao-existe.jpg"}]}, raiz)
-        if not any("não existe" in e for e in r["erros"]):
-            falhas.append("6: arquivo ausente não foi recusado")
+        ctl("6", any("não existe" in e for e in r["erros"]), "arquivo ausente não foi recusado")
 
         # 7. modo PONTEIRO bom
         ptr = [{"arquivo": "1.jpg", "sha256": "a" * 64, "url": "https://x/1.jpg", "dimensao": "1080x1350"},
                {"arquivo": "2.jpg", "sha256": "b" * 64, "url": "https://x/2.jpg", "dimensao": "1080x1350"}]
-        if not verificar_ponteiro({"lote": "P", "slides": ptr})["ok"]:
-            falhas.append("7: ponteiro correto recusado")
+        ctl("PONTEIRO-ok", verificar_ponteiro({"lote": "P", "slides": ptr})["ok"],
+            "ponteiro correto recusado", positivo=True)
 
         # 8. ponteiro com dimensão divergente
         ruim = [ptr[0], {**ptr[1], "dimensao": "1080x1080"}]
-        if not any("difere do slide 1" in e for e in verificar_ponteiro({"lote": "P", "slides": ruim})["erros"]):
-            falhas.append("8: ponteiro com dimensão divergente não foi pego")
+        ctl("PONTEIRO-dimensao",
+            any("difere do slide 1" in e for e in verificar_ponteiro({"lote": "P", "slides": ruim})["erros"]),
+            "ponteiro com dimensão divergente não foi pego")
 
         # 9. ponteiro sem sha256
-        if not any("sha256 ausente" in e for e in verificar_ponteiro(
-                {"lote": "P", "slides": [{"arquivo": "1.jpg", "sha256": "", "url": "https://x/1.jpg",
-                                          "dimensao": "1080x1350"}]})["erros"]):
-            falhas.append("9: ponteiro sem sha256 não foi pego")
+        ctl("PONTEIRO-sem-sha", any("sha256 ausente" in e for e in verificar_ponteiro(
+            {"lote": "P", "slides": [{"arquivo": "1.jpg", "sha256": "", "url": "https://x/1.jpg",
+                                      "dimensao": "1080x1350"}]})["erros"]), "ponteiro sem sha256 não foi pego")
 
         # 10. URL apontando para outro objeto
-        if not any("termina no nome" in e for e in verificar_ponteiro(
-                {"lote": "P", "slides": [{"arquivo": "1.jpg", "sha256": "a" * 64,
-                                          "url": "https://x/outro.jpg", "dimensao": "1080x1350"}]})["erros"]):
-            falhas.append("10: URL apontando para outro objeto não foi pega")
+        ctl("PONTEIRO-url", any("termina no nome" in e for e in verificar_ponteiro(
+            {"lote": "P", "slides": [{"arquivo": "1.jpg", "sha256": "a" * 64,
+                                      "url": "https://x/outro.jpg", "dimensao": "1080x1350"}]})["erros"]),
+            "URL apontando para outro objeto não foi pega")
     finally:
         _MEM_B = None
 
     for f in falhas:
         print(f"FALHA: {f}")
     print(json.dumps({"selftest": "PASS" if not falhas else "FAIL", "modo": "EM_MEMORIA",
-                      "controles_negativos": 10, "falhas": len(falhas)}, ensure_ascii=False))
+                      "controles_negativos": len(negativos), "controles_positivos": len(positivos),
+                      "falhas": len(falhas)}, ensure_ascii=False))
     return 0 if not falhas else 1
 
 
