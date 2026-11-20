@@ -65,10 +65,13 @@ mesmo arquivo), e cada documento declara seu papel: o estado da arte com `tipo_d
 `e_artigo: sim`. Bloco `colecao` malformado gera recusa nomeada, não exceção. Não é cerimônia: é a diferença entre "o arquivo existe" e "o critério do
 soberano foi cumprido".
 
-`em-revisao-documental` **não** passa. Medido em 2026-11-20: **227 de 348 fichas** do corpus estão
+`em-revisao-documental` **não** passa. Medido em 2026-11-20 (comandos no fim desta seção): **228 de 339 fichas** do corpus estão
 nesse estado. Isso não é defeito do corpus, é o retrato do terreno em preparação.
 
-## 4. Os seis portões
+**Como reconferir a contagem:** os números mudam com o acervo, então o comando importa mais que o valor:
+`find docs/analyses -name '*.md' | wc -l` e `grep -rl 'estado_documental: em-revisao-documental' docs/analyses --include='*.md' | wc -l`.
+
+## 4. Os sete portões (P0 a P6)
 
 | portão | o que verifica | como falha |
 |---|---|---|
@@ -77,7 +80,7 @@ nesse estado. Isso não é defeito do corpus, é o retrato do terreno em prepara
 | P2 | `sha256` da origem confere — pelos bytes no worktree **ou** por `git cat-file` no ref declarado | recusa se divergir, faltar, ou o ref não resolver |
 | P3 | origem homologada **e** bloco `colecao` com `estado_da_arte` + `artigos` (≥1): cada ponteiro tem de **resolver dentro do repositório**, ter `estado_documental` homologado, apontar para **arquivo distinto** do outro (comparação por caminho resolvido, não por texto) e **declarar o próprio papel** | recusa estado não homologado, coleção sem estado da arte, coleção sem artigo, mesmo arquivo nos dois papéis, caminho fora da raiz e documento que não é artigo |
 | P4 | formato coerente com a contagem de itens | carrossel exige 2 a 20 |
-| P5 | toda `fonte` citada aparece literalmente no corpo da origem | recusa fonte inventada; **NAO_VERIFICADO** quando o corpo não está disponível |
+| P5 | toda `fonte` citada aparece literalmente no corpo da origem | recusa fonte inventada; é verificação de string, não de sentido |
 | P6 | `aprovacao.hash_da_peca` = `sha256_da_peca` | recusa aprovação de outro bytes |
 
 ## 4A. As duas vias de P2 — e por que a segunda não afrouxa o gate
@@ -108,7 +111,7 @@ python3 ops/midia-publicacao/montar_lote.py --selftest
 python3 ops/midia-publicacao/montar_lote.py --lote <caminho-do-lote.json> --raiz .
 ```
 
-Saída esperada: `{"selftest": "PASS", "modo": "EM_MEMORIA", "controles_negativos": 29, "controles_positivos": 4, "falhas": 0}`, exit 0.
+Saída esperada: `{"selftest": "PASS", "modo": "EM_MEMORIA", "controles_negativos": 40, "controles_positivos": 4, "falhas": 0}`, exit 0.
 Para o verificador de mídia: `{"selftest": "PASS", ..., "controles_negativos": 9, "controles_positivos": 2, "falhas": 0}`.
 Os contadores são **calculados**, não digitados: contador escrito à mão já divergiu do código real em
 auditoria, então o número sai do tamanho da lista de controles executados.

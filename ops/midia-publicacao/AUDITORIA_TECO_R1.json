@@ -6,15 +6,15 @@
   "ancoragem": "sha256 por arquivo",
   "nota_de_ancoragem": "O alvo NAO e ancorado em um hash de commit: um arquivo versionado nao pode conter o commit que o contem, e a versao anterior deste JSON apontava 935b4dd enquanto o HEAD auditado ja era outro (defeito MEDIA da auditoria TECO de 2026-11-20). A ancoragem passa a ser o sha256 de CADA arquivo auditado: quem audita confere os bytes, nao o rotulo.",
   "arquivos": {
-   "montar_lote.py": "d3c985963e268f63a3725cf627b99dbe9b044f2638d913432803abc0aa60b7da",
+   "montar_lote.py": "a23afcb9bc81d839d308a67ce72445651cca278de59a4391e96509ace2cd2789",
    "verificar_midia.py": "52e68070ca5b7d55fa299c513e35323cd7c0a6c2e6e19ed89b248896e4ce79bd",
-   "SCHEMA_PECA_MIDIA_R1.json": "527b759f5dd91473bcfd81c4ede3c1af99e6bce71fedad7982eec1240901cdd4",
-   "MANUAL_ESTEIRA_R1.md": "ee58efc4f220b2467b3cd3c3ce1954df46f66cd74dce40cbb603de094e6321ea",
-   "MANUAL_ESTEIRA_R1.html": "a3c1a0a6936905488a56ce8adfc92da07a5b85c1b0e2b8f8a52068c3eb8d7b9e",
+   "SCHEMA_PECA_MIDIA_R1.json": "0d76840ddaa554608b093d242755d35b00b10881f1d2a141b83c9d4dcb036004",
+   "MANUAL_ESTEIRA_R1.md": "34a7ed89efe1f2363287ff8dacae6232a2aed5bdcedc3580cea4decb824f6f89",
+   "MANUAL_ESTEIRA_R1.html": "189e54fd99029e6b022483b8770256f635be0591fffdbb624439575cf969dfeb",
    "PLANO_HOSPEDAGEM_OPCAO_A_R1.md": "3256e48eff55c600723e67085178918ddf29b654738604d4f5cdd755186fe8f9",
    "MAPA_DE_RESTAURACAO_R1.md": "084abcaf573f554023813261d7d19cef1fccfdb82f87f108bb5b32ea978ff117",
-   "exemplos/LOTE_EXEMPLO_RECUSA.json": "1c95a220c1e73a6d7118baf3846b5a8a1f9e6231159b33fc2310675fdc7dbc09",
-   "exemplos/LOTE_TESTE_BAMBU_C1.json": "27524437e36dff5c944f585be1396bc5e5b9d0f54c3231a29fc6e1e6a9d1e433",
+   "exemplos/LOTE_EXEMPLO_RECUSA.json": "843d27f7a2d5803efc3c35982a38566dd2501819a9330dae58d6834064eba3d6",
+   "exemplos/LOTE_TESTE_BAMBU_C1.json": "a9af025614dbc142ea941595fc207f0b2a75759b3cddb0325db1ab691d82e7db",
    "exemplos/MANIFESTO_TESTE_BAMBU_C1.json": "44e4993fb8f5cf7d781a98b3b4e71fcf759623edb40e650455fa6363ec986be0"
   }
  },
@@ -93,6 +93,10 @@
   {
    "id": "Q16",
    "pergunta": "Prove que nenhuma entrada malformada levanta excecao: rode uma varredura de tipos em todos os campos (None, int, float, str, list, dict, bool, tuple) e informe o total testado e o numero de excecoes. Depois confirme que P0 aparece no selftest com recusa nomeada para deriva_de, itens, aprovacao e agendamento."
+  },
+  {
+   "id": "Q17",
+   "pergunta": "Prove as cinco correcoes: (a) faca sua propria varredura profunda de tipos e informe excecoes e aceitacoes indevidas; (b) peca sem hash nos dois lados e recusada por P6; (c) lote com JSON invalido sai com erro nomeado e exit 2; (d) conte os portoes nos documentos e confira cada um contra o codigo; (e) recalcule a contagem do corpus e compare com a documentada."
   }
  ],
  "veredito": "PASS | FAIL | BLOCKED | INCONCLUSIVE",
@@ -148,6 +152,19 @@
    "defeitos": 1,
    "correcoes": [
     "criado P0 (estrutura) com recusa nomeada para deriva_de, itens, aprovacao, agendamento e lote malformados; varredura de 520 entradas malformadas sem excecao"
+   ]
+  },
+  {
+   "rodada": 5,
+   "data": "2026-11-20",
+   "veredito": "FAIL",
+   "defeitos": 5,
+   "correcoes": [
+    "P0 passou a esquema FECHADO e profundo (peca, deriva_de, colecao, itens[i], aprovacao, agendamento[i]); varredura de 147 entradas malformadas sem excecao e sem aceitacao indevida",
+    "P6 exige hash presente dos dois lados, autoridade registrada e data ISO; dois vazios nao aprovam mais",
+    "carregamento de lote e escrita com erro nomeado (JSON invalido e arquivo ilegivel, exit 2); ordenacao da fila com str() seguro",
+    "documentos alinhados: sete portoes, sem promessa de NAO_VERIFICADO, deriva_de.ref, imports corretos",
+    "medicao do corpus refeita com comando e data (228/339 em revisao, 43 homologadas, 15 gavetas)"
    ]
   }
  ],

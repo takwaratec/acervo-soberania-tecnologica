@@ -27,6 +27,7 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import datetime
 import hashlib
 import json
 import re
@@ -38,6 +39,8 @@ from pathlib import Path
 # Derivados de GOVERNANCA_DOCUMENTAL.md (tabela de equivalência, linhas 82-90): o estado
 # canônico mais os sete valores legados que ela mapeia para homologado-documentalmente.
 # "em-revisao-documental" NÃO é homologação.
+AUTORIDADES_APROVADORAS = {"FABIO_SOBERANO"}
+
 ESTADOS_HOMOLOGADOS = {
     # `curado` e `revisado-com-fonte-integral` entram porque GOVERNANCA_DOCUMENTAL.md:86/88
     # os declara equivalentes a homologado-documentalmente. O gate recusá-los contradizia a
@@ -196,49 +199,94 @@ def _conferir_artefato(raiz: Path, caminho: str, der: dict, pid: str,
     return erros
 
 
-TIPO_ESPERADO = {
-    "id": str,
-    "deriva_de": dict,
-    "colecao": dict,
-    "formato": str,
-    "formato_justificativa": str,
-    "itens": list,
-    "sha256_da_peca": str,
-    "aprovacao": dict,
-    "agendamento": list,
+# Esquema fechado da peça de mídia R1. Cada campo tem tipo e obrigatoriedade.
+# "fechado" = campo não declarado é recusa: um erro de digitação em `colecao`
+# não pode virar um campo ignorado em silêncio (auditoria TECO, rodada 5).
+ESQUEMA: dict = {
+    "id": (str, True),
+    "deriva_de": (dict, True, {
+        "tipo": (str, True),
+        "path": (str, True),
+        "sha256": (str, True),
+        "ref": (str, False),
+        "origem": (str, False),
+    }),
+    "colecao": (dict, True, {
+        "gaveta": (str, False),
+        "estado_da_arte": (str, True),
+        "artigos": (list, True),
+    }),
+    "formato": (str, True),
+    "formato_justificativa": (str, False),
+    "itens": (list, True, {
+        "ordem": (int, False),
+        "texto_curto": (str, False),
+        "fonte": (str, True),
+    }),
+    "sha256_da_peca": (str, True),
+    "aprovacao": (dict, True, {
+        "por": (str, True),
+        "em": (str, True),
+        "hash_da_peca": (str, True),
+    }),
+    "agendamento": (list, False, {
+        "canal": (str, True),
+        "data": (str, True),
+        "hora": (str, False),
+    }),
+    "rastreabilidade_da_arte": (dict, False),
 }
 
 
-def validar_estrutura(peca: object) -> list[str]:
-    """P0 — o tipo de cada campo, antes de qualquer `.get`.
+def _conferir_campos(obj: dict, esquema: dict, caminho: str, pid: str) -> list[str]:
+    erros: list[str] = []
+    for campo in obj:
+        if campo not in esquema:
+            erros.append(
+                f"{pid}: P0 recusa — campo desconhecido em {caminho or 'peça'}: {campo!r} "
+                "(esquema fechado; campo ignorado em silêncio é erro de digitação, não extensão)"
+            )
+    for campo, defn in esquema.items():
+        tipo, obrigatorio = defn[0], defn[1]
+        sub = defn[2] if len(defn) > 2 else None
+        cheio = f"{caminho}.{campo}" if caminho else campo
+        if campo not in obj:
+            if obrigatorio:
+                erros.append(f"{pid}: P0 recusa — '{cheio}' é obrigatório")
+            continue
+        valor = obj[campo]
+        if not isinstance(valor, tipo):
+            erros.append(
+                f"{pid}: P0 recusa — '{cheio}' deve ser {tipo.__name__}, "
+                f"recebido {type(valor).__name__}"
+            )
+            continue
+        if sub is not None and tipo is dict:
+            erros.extend(_conferir_campos(valor, sub, cheio, pid))
+        elif sub is not None and tipo is list:
+            for i, item in enumerate(valor):
+                if not isinstance(item, dict):
+                    erros.append(
+                        f"{pid}: P0 recusa — '{cheio}[{i}]' deve ser objeto, "
+                        f"recebido {type(item).__name__}"
+                    )
+                    continue
+                erros.extend(_conferir_campos(item, sub, f"{cheio}[{i}]", pid))
+    return erros
 
-    Sem este portão, uma peça malformada levanta AttributeError no meio do caminho:
-    o lote inteiro para em vez de recusar com nome. Medido na auditoria TECO de
-    2026-11-20 (rodada 4, defeito MEDIA): `deriva_de` como lista, `itens` como
-    inteiro, `aprovacao` e `agendamento` como texto quebravam o montador.
+
+def validar_estrutura(peca: object) -> list[str]:
+    """P0 — tipo e presença de cada campo, em todos os níveis, antes de qualquer `.get`.
+
+    A rodada 4 fechou o nível da peça; a rodada 5 mostrou que os níveis aninhados
+    (`deriva_de.tipo`, `deriva_de.path`, `itens[i]`, `agendamento[i]`) ainda levantavam
+    exceção e que campo ausente era pulado em silêncio. Agora o esquema é fechado e
+    percorrido inteiro.
     """
     if not isinstance(peca, dict):
         return [f"<peça não textual>: P0 recusa — peça deve ser objeto, recebido {type(peca).__name__}"]
     pid = peca.get("id") if isinstance(peca.get("id"), str) else "<sem-id>"
-    erros: list[str] = []
-    for campo, tipo in TIPO_ESPERADO.items():
-        if campo not in peca:
-            continue
-        if not isinstance(peca[campo], tipo):
-            erros.append(
-                f"{pid}: P0 recusa — '{campo}' deve ser {tipo.__name__}, "
-                f"recebido {type(peca[campo]).__name__}"
-            )
-    for campo in ("itens", "agendamento"):
-        v = peca.get(campo)
-        if isinstance(v, list):
-            for i, item in enumerate(v):
-                if not isinstance(item, dict):
-                    erros.append(
-                        f"{pid}: P0 recusa — '{campo}[{i}]' deve ser objeto, "
-                        f"recebido {type(item).__name__}"
-                    )
-    return erros
+    return _conferir_campos(peca, ESQUEMA, "", pid)
 
 
 def validar_peca(peca: dict, raiz: Path) -> list[str]:
@@ -378,8 +426,9 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
             )
 
     # P5 — cada afirmação cita fonte que existe no corpo da origem.
-    # Sem bytes no disco, o portão não aprova nem recusa: declara NAO_VERIFICADO.
-    # Fingir verificação é pior que não ter o portão.
+    # Quando P2 passa, o corpo está sempre disponível (bytes ou ref), então este portão
+    # sempre verifica. Não existe estado "NAO_VERIFICADO": a documentação anterior prometia
+    # um estado que o fluxo nunca produz (auditoria TECO, rodada 5).
     corpo = conteudo or ""
     for i, item in enumerate(itens, 1):
         fonte = (item.get("fonte") or "").strip()
@@ -392,14 +441,33 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
 
     # P6 — ato de aprovação
     apr = peca.get("aprovacao") or {}
-    for campo in ("por", "em"):
-        if not (apr.get(campo) or "").strip():
-            erros.append(f"{pid}: P6 recusa — aprovação sem '{campo}'")
-    if (apr.get("hash_da_peca") or "").strip().lower() != (peca.get("sha256_da_peca") or "").strip().lower():
+    h_peca = (peca.get("sha256_da_peca") or "").strip().lower()
+    h_apr = (apr.get("hash_da_peca") or "").strip().lower()
+    # Dois campos vazios são IGUAIS: comparar só igualdade aprovava peça sem hash
+    # nenhum (auditoria TECO, rodada 5). Presença é exigida antes da comparação.
+    if not h_peca:
+        erros.append(f"{pid}: P6 recusa — 'sha256_da_peca' ausente; sem hash não há bytes aprovados")
+    if not h_apr:
+        erros.append(f"{pid}: P6 recusa — 'aprovacao.hash_da_peca' ausente; aprovação sem bytes não aprova nada")
+    if h_peca and h_apr and h_peca != h_apr:
         erros.append(
             f"{pid}: P6 recusa — 'aprovacao.hash_da_peca' não corresponde a 'sha256_da_peca'; "
             "aprovação de outro bytes não aprova esta peça"
         )
+    autor = (apr.get("por") or "").strip()
+    if autor.upper() not in AUTORIDADES_APROVADORAS:
+        erros.append(
+            f"{pid}: P6 recusa — aprovador {autor!r} não é autoridade registrada "
+            f"(aceitos: {sorted(AUTORIDADES_APROVADORAS)}); texto livre não é assinatura"
+        )
+    data = (apr.get("em") or "").strip()
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", data):
+        erros.append(f"{pid}: P6 recusa — 'aprovacao.em'={data!r} não é data ISO (AAAA-MM-DD)")
+    else:
+        try:
+            datetime.date.fromisoformat(data)
+        except ValueError:
+            erros.append(f"{pid}: P6 recusa — 'aprovacao.em'={data!r} não é data de calendário válida")
     return erros
 
 
@@ -434,7 +502,7 @@ def montar(lote: dict, raiz: Path) -> dict:
                 "hora": ag.get("hora"),
                 "estado": "EM_FILA",
             })
-    fila.sort(key=lambda x: (x["data"] or "", x["hora"] or ""))
+    fila.sort(key=lambda x: (str(x.get("data") or ""), str(x.get("hora") or "")))
 
     return {
         "lote": lote.get("lote"),
@@ -561,8 +629,9 @@ def selftest() -> int:
         # ---------- P3b: sem estado da arte ----------
         r = montar({"lote": "ST", "pecas": [_peca_base("p3b", "eda.md", h_eda,
                     colecao={"artigos": ["art.md"]})]}, base)
-        ctl("P3-sem-eda", any("sem 'colecao.estado_da_arte'" in e for e in r["erros"]),
-            "coleção sem estado da arte aceita")
+        ctl("P3-sem-eda",
+            any("sem 'colecao.estado_da_arte'" in e or "'colecao.estado_da_arte' é obrigatório" in e
+                for e in r["erros"]), "coleção sem estado da arte aceita")
 
         # ---------- P3c: sem artigo ----------
         r = montar({"lote": "ST", "pecas": [_peca_base("p3c", "eda.md", h_eda,
@@ -612,8 +681,8 @@ def selftest() -> int:
             "colecao como lista não gerou recusa nomeada")
         r = montar({"lote": "ST", "pecas": [_peca_base("p3k", "eda.md", h_eda,
                     colecao={"estado_da_arte": "eda.md", "artigos": "art.md"})]}, base)
-        ctl("P3-artigos-texto", any("deve ser lista" in e for e in r["erros"]),
-            "artigos como texto não gerou recusa nomeada")
+        ctl("P3-artigos-texto", any("'colecao.artigos' deve ser list" in e or "deve ser lista" in e
+            for e in r["erros"]), "artigos como texto não gerou recusa nomeada")
 
         # ---------- P0: estrutura (rodada 4, defeito MEDIA) ----------
         for nome, peca_ruim, esperado in [
@@ -633,6 +702,46 @@ def selftest() -> int:
         r = montar({"lote": "ST", "pecas": "uma"}, base)
         ctl("P0-pecas-texto", any("P0 recusa" in e and "'pecas' deve ser lista" in e for e in r["erros"]),
             "pecas como texto não gerou recusa nomeada")
+
+        # ---------- P0 aninhado (rodada 5, defeito ALTA) ----------
+        for nome, peca_ruim, esperado in [
+            ("P0-deriva-tipo-int", _peca_base("p0f", "eda.md", h_eda,
+                deriva_de={"tipo": 7, "path": "eda.md", "sha256": h_eda}), "'deriva_de.tipo' deve ser str"),
+            ("P0-deriva-path-int", _peca_base("p0g", "eda.md", h_eda,
+                deriva_de={"tipo": "estado-da-arte", "path": 7, "sha256": h_eda}), "'deriva_de.path' deve ser str"),
+            ("P0-deriva-sha-int", _peca_base("p0h", "eda.md", h_eda,
+                deriva_de={"tipo": "estado-da-arte", "path": "eda.md", "sha256": 7}), "'deriva_de.sha256' deve ser str"),
+            ("P0-item-fonte-int", _peca_base("p0i", "eda.md", h_eda,
+                itens=[{"fonte": 7}, {"fonte": "Achado Dois"}]), "'itens[0].fonte' deve ser str"),
+            ("P0-agen-data-int", _peca_base("p0j", "eda.md", h_eda,
+                agendamento=[{"canal": "ig", "data": 20261125}]), "'agendamento[0].data' deve ser str"),
+            ("P0-aprov-em-int", _peca_base("p0k", "eda.md", h_eda,
+                aprovacao={"por": "FABIO_SOBERANO", "em": 7, "hash_da_peca": "abc123"}),
+                "'aprovacao.em' deve ser str"),
+            ("P0-campo-desconhecido", _peca_base("p0l", "eda.md", h_eda, colecão={"x": 1}),
+                "campo desconhecido"),
+            ("P0-ausente-obrigatorio", _peca_base("p0m", "eda.md", h_eda,
+                deriva_de={"tipo": "estado-da-arte", "path": "eda.md"}), "'deriva_de.sha256' é obrigatório"),
+        ]:
+            r = montar({"lote": "ST", "pecas": [peca_ruim]}, base)
+            ctl(nome, any("P0 recusa" in e and esperado in e for e in r["erros"]),
+                f"{nome} não gerou recusa nomeada -> {r['erros'][:1]}")
+
+        # ---------- P6: hash ausente nos dois lados não pode aprovar (rodada 5, defeito ALTA) ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p6c", "eda.md", "",
+                    aprovacao={"por": "FABIO_SOBERANO", "em": "2026-11-20", "hash_da_peca": ""})]}, base)
+        ctl("P6-sem-hashes", any("P6 recusa" in e and "ausente" in e for e in r["erros"]),
+            "peça sem hash nenhum foi aprovada")
+
+        # ---------- P6: autor e data não são texto livre (rodada 5, defeito ALTA) ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p6d", "eda.md", h_eda,
+                    aprovacao={"por": "QUALQUER_TEXTO", "em": "2026-11-20", "hash_da_peca": "abc123"})]}, base)
+        ctl("P6-autor-falso", any("não é autoridade registrada" in e for e in r["erros"]),
+            "aprovador inventado aceito")
+        r = montar({"lote": "ST", "pecas": [_peca_base("p6e", "eda.md", h_eda,
+                    aprovacao={"por": "FABIO_SOBERANO", "em": "ontem", "hash_da_peca": "abc123"})]}, base)
+        ctl("P6-data-invalida", any("não é data ISO" in e for e in r["erros"]),
+            "data 'ontem' aceita como aprovação")
 
         # ---------- P4 ----------
         r = montar({"lote": "ST", "pecas": [_peca_base("p4", "eda.md", h_eda,
@@ -656,8 +765,8 @@ def selftest() -> int:
         ctl("P6-hash", any("P6 recusa" in e for e in r["erros"]), "aprovação de outro bytes aceita")
         r = montar({"lote": "ST", "pecas": [_peca_base("p6b", "eda.md", h_eda,
                     aprovacao={"hash_da_peca": "abc123"})]}, base)
-        ctl("P6-autor", any("P6 recusa" in e and "'por'" in e for e in r["erros"]),
-            "aprovação sem autor aceita")
+        ctl("P6-autor", any("'aprovacao.por' é obrigatório" in e or ("P6 recusa" in e and "'por'" in e)
+            for e in r["erros"]), "aprovação sem autor aceita")
 
         # ---------- resolvedor REAL por git (sem diretório gravável) ----------
         aqui = Path(__file__).resolve().parent
@@ -696,7 +805,18 @@ def main(argv: list[str] | None = None) -> int:
     if not a.lote:
         ap.error("--lote e obrigatorio (ou use --selftest)")
 
-    lote = json.loads(Path(a.lote).read_text(encoding="utf-8"))
+    try:
+        bruto = Path(a.lote).read_text(encoding="utf-8")
+    except OSError as e:
+        print(json.dumps({"erro": "P0 recusa — lote ilegível", "path": a.lote, "detalhe": str(e)},
+                         ensure_ascii=False))
+        return 2
+    try:
+        lote = json.loads(bruto)
+    except json.JSONDecodeError as e:
+        print(json.dumps({"erro": "P0 recusa — lote não é JSON válido", "path": a.lote,
+                          "linha": e.lineno, "coluna": e.colno, "detalhe": e.msg}, ensure_ascii=False))
+        return 2
     r = montar(lote, Path(a.raiz))
     print(json.dumps(r, ensure_ascii=False, indent=1))
     return 0 if not r["erros"] else 1

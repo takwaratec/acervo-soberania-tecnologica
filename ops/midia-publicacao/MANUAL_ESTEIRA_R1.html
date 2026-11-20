@@ -2,7 +2,7 @@
 <html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Esteira de publicação — manual R1</title>
-<meta name="description" content="Manual operacional da esteira de publicação do Acervo: ficha não gera mídia; seis portões; nada publica.">
+<meta name="description" content="Manual operacional da esteira de publicação do Acervo: ficha não gera mídia; sete portões; nada publica.">
 <meta property="og:title" content="Esteira de publicação — manual R1">
 <meta property="og:description" content="Como montar lote e recusar o que não está homologado. Nada aqui publica.">
 <style>
@@ -64,8 +64,8 @@ footer{margin-top:38px;padding-top:14px;border-top:1px solid var(--line);font-si
 <header class="doc"><div class="kicker">TakwaraTec · INTEGRACAO_MIDIAS_SOCIAIS</div><h1>Esteira de publicação do Acervo</h1><p class="sub">Manual operacional R1 — construir, montar lote, recusar o que não está homologado. Nada aqui publica.</p><div class="chips"><span class="chip">PROPOSTA · NÃO VIGENTE</span><span class="chip">2026-11-20</span><span class="chip">base 0b6cbd4d</span><span class="chip">não publica</span></div></header>
 <div class="pmark">Página 01</div>
 <h2>O que esta esteira faz</h2>
-<p>Esta esteira pega <b>peças de mídia</b> que derivam de <b>peças editoriais homologadas</b>, monta um <b>lote</b>, ordena uma <b>fila</b> com canal, data e hora — e <b>recusa</b> tudo que não cumpra os seis portões.</p>
-<div class="ok"><b>O que ela não faz</b><div>Não publica. Não fala com a Meta. Não abre rede. Não decide formato. Não cria conteúdo. O código não tem uma linha de rede sequer — verificado por lista de imports: apenas <code>argparse, hashlib, json, pathlib, re, sys, tempfile</code>.</div></div>
+<p>Esta esteira pega <b>peças de mídia</b> que derivam de <b>peças editoriais homologadas</b>, monta um <b>lote</b>, ordena uma <b>fila</b> com canal, data e hora — e <b>recusa</b> tudo que não cumpra os sete portões.</p>
+<div class="ok"><b>O que ela não faz</b><div>Não publica. Não fala com a Meta. Não abre rede. Não decide formato. Não cria conteúdo. O código não tem uma linha de rede sequer — verificado por lista de imports: apenas <code>argparse, datetime, hashlib, json, pathlib, re, subprocess, sys</code>.</div></div>
 <h3>Por que ela foi construída vazia</h3>
 <p>O gargalo é editorial, não técnico. A esteira só aceita entrada homologada, e hoje não existe nenhuma. Esteira pronta com entrada vazia é o estado mais seguro possível: quando a primeira peça editorial homologada sair do MTCC, ela entra sem você precisar parar tudo para montar infraestrutura.</p>
 <div class="page-nav"><a href="#p2">Próxima → 2 · A cadeia</a></div>
@@ -96,13 +96,13 @@ fila de publicação                         item = peça + canal + data + hora<
 <blockquote>assim que o terreno estiver preparado, nós trabalharemos apenas com material homologado que tenha pelo menos um estado da arte de uma coleção e um artigo, um artigo didático, no mínimo. Podem haver casos em que um artigo de cunho científico seja produzido e publicado no Zenodo.<span class="small">— Fábio, 2026-11-20</span></blockquote>
 <h3>O que a peça editorial precisa declarar</h3>
 <div class="tw"><table><thead><tr><th>campo</th><th>valor aceito</th></tr></thead><tbody><tr><td>estado_documental</td><td>homologado-documentalmente · publicado-no-zenodo · depositado-no-zenodo · publicado-no-acervo · edicao-publica-conformada · edicao-revisada-para-acervo · <b>curado</b> · <b>revisado-com-fonte-integral</b> (os dois últimos pela GOVERNANCA_DOCUMENTAL:86/88)</td></tr><tr><td>colecao</td><td><code>estado_da_arte</code> + <code>artigos</code> (≥1) na peça de mídia — cada ponteiro resolve dentro do repositório, com <code>estado_documental</code> homologado, em <b>arquivos distintos</b></td></tr></tbody></table></div>
-<div class="danger"><b>O número que importa</b><div><b>227 de 348 fichas</b> do corpus estão em <code>em-revisao-documental</code> — estado que <b>não</b> passa. Isso não é defeito do corpus: é o retrato do terreno em preparação. Medido em 2026-11-20 por contagem de frontmatter em <code>docs/analyses</code>.</div></div>
+<div class="danger"><b>O número que importa</b><div><b>228 de 339 fichas</b> do corpus estão em <code>em-revisao-documental</code> — estado que <b>não</b> passa. Isso não é defeito do corpus: é o retrato do terreno em preparação. Medido em 2026-11-20 por <code>grep -rl</code> do frontmatter em <code>docs/analyses</code>; 43 estão em <code>homologado-documentalmente</code>, em 15 gavetas. O número muda com o acervo: vale o comando, não o valor.</div></div>
 <div class="page-nav back"><a href="#p2">← 2 · A cadeia</a></div><div class="page-nav"><a href="#p4">Próxima → 4 · Os portões</a></div>
 <footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
 </section><section id="p4" class="panel" role="tabpanel" aria-hidden="true">
 
 <div class="pmark">Página 04</div>
-<h2>Os seis portões</h2>
+<h2>Os sete portões</h2>
 <p>Cada portão recusa por um motivo diferente, e recusar é o resultado esperado — não a exceção.</p>
 <div class="tw"><table><thead><tr><th>portão</th><th>o que verifica</th><th>como falha</th></tr></thead><tbody><tr><td>P0</td><td>tipo de cada campo e de cada item de lista</td><td>recusa nomeada em vez de exceção</td></tr>
 <tr><td>P1</td><td>deriva_de.tipo é editorial publicável e o caminho existe dentro do repo</td><td>recusa se tipo=ficha ou caminho ausente/fora</td></tr><tr><td>P2</td><td>sha256 declarado da origem confere com os bytes</td><td>recusa se divergir ou faltar</td></tr><tr><td>P3</td><td>origem homologada <b>e</b> bloco <code>colecao</code>: cada ponteiro resolve <b>dentro do repositório</b>, tem <code>estado_documental</code> homologado, é <b>arquivo distinto</b> do outro (por caminho resolvido) e <b>declara o próprio papel</b></td><td>recusa estado não homologado, coleção sem estado da arte, coleção sem artigo, mesmo arquivo nos dois papéis (inclusive por alias), caminho fora da raiz, documento que não declara o papel e bloco <code>colecao</code> malformado</td></tr><tr><td>P4</td><td>formato coerente com a contagem de itens</td><td>carrossel exige 2 a 20</td></tr><tr><td>P5</td><td>toda fonte citada aparece literalmente no corpo da origem</td><td>recusa fonte inventada</td></tr><tr><td>P6</td><td>aprovacao.hash_da_peca = sha256_da_peca</td><td>recusa aprovação de outro bytes</td></tr></tbody></table></div>
@@ -117,10 +117,10 @@ fila de publicação                         item = peça + canal + data + hora<
 <p>Abra o Terminal. Os comandos abaixo assumem o clone do acervo. Se você estiver usando o worktree da frente:</p>
 <pre>cd ~/Takwara/worktrees/acervo-soberania-tecnologica/midia-esteira-20261120</pre>
 <h3>Passo 1 — provar que o gate está ligado</h3>
-<p>Este comando roda o controle negativo embutido: ele precisa recusar quatro peças que estão erradas de propósito. Se aprovar tudo, o gate está desligado e <b>nada</b> deve ser publicado.</p>
+<p>Este comando roda os controles negativos embutidos: cada portão, e cada nível de estrutura, tem pelo menos um caso errado de propósito que <b>precisa</b> ser recusado. Se algo passar, o gate está desligado e <b>nada</b> deve ser publicado.</p>
 <pre>python3 ops/midia-publicacao/montar_lote.py --selftest</pre>
 <p>Saída esperada (e exit 0):</p>
-<pre>{&quot;selftest&quot;: &quot;PASS&quot;, &quot;modo&quot;: &quot;EM_MEMORIA&quot;, &quot;controles_negativos&quot;: 29, &quot;controles_positivos&quot;: 4, &quot;falhas&quot;: 0}</pre>
+<pre>{&quot;selftest&quot;: &quot;PASS&quot;, &quot;modo&quot;: &quot;EM_MEMORIA&quot;, &quot;controles_negativos&quot;: 40, &quot;controles_positivos&quot;: 4, &quot;falhas&quot;: 0}</pre>
 <div class="note"><b>Os contadores são calculados</b><div>O número sai do tamanho da lista de controles executados, não de um literal escrito no código. Um contador digitado à mão já divergiu do código real em auditoria — agora não há como divergir.</div></div>
 <h3>Passo 2 — ver a esteira recusando de verdade</h3>
 <p>O exemplo abaixo aponta para uma ficha real do acervo. Ele deve ser recusado em cinco frentes diferentes. Se passar, algo está errado.</p>
@@ -254,7 +254,7 @@ python3 verificar_midia.py --selftest</pre>
 <div class="pmark">Página 11</div>
 <h2>Registro e rastreabilidade</h2>
 <h3>Artefatos desta frente</h3>
-<div class="tw"><table><thead><tr><th>arquivo</th><th>o que é</th></tr></thead><tbody><tr><td>ops/midia-publicacao/montar_lote.py</td><td>montador com seis portões e selftest de controle negativo</td></tr><tr><td>ops/midia-publicacao/SCHEMA_PECA_MIDIA_R1.json</td><td>formato da peça de mídia, estados aceitos e pendencias</td></tr><tr><td>ops/midia-publicacao/exemplos/LOTE_EXEMPLO_RECUSA.json</td><td>exemplo que a esteira recusa — prova viva</td></tr><tr><td>ops/midia-publicacao/MANUAL_ESTEIRA_R1.md</td><td>manual operacional em markdown</td></tr><tr><td>ops/midia-publicacao/MANUAL_ESTEIRA_R1.html</td><td>este documento</td></tr></tbody></table></div>
+<div class="tw"><table><thead><tr><th>arquivo</th><th>o que é</th></tr></thead><tbody><tr><td>ops/midia-publicacao/montar_lote.py</td><td>montador com sete portões (P0 estrutura + P1..P6) e selftest de controle negativo</td></tr><tr><td>ops/midia-publicacao/SCHEMA_PECA_MIDIA_R1.json</td><td>formato da peça de mídia, estados aceitos e pendencias</td></tr><tr><td>ops/midia-publicacao/exemplos/LOTE_EXEMPLO_RECUSA.json</td><td>exemplo que a esteira recusa — prova viva</td></tr><tr><td>ops/midia-publicacao/MANUAL_ESTEIRA_R1.md</td><td>manual operacional em markdown</td></tr><tr><td>ops/midia-publicacao/MANUAL_ESTEIRA_R1.html</td><td>este documento</td></tr></tbody></table></div>
 <h3>O que NÃO foi feito nesta rodada</h3>
 <p>Nenhuma publicação. Nenhum deploy. Nenhuma chamada a Meta, Cloudflare ou GPT Maker. Nenhum valor de secret lido, transportado ou gravado. A frente de mídias do Instagram (F1 — leitura remota) continua <b>bloqueada por credencial</b>: sem token Cloudflare e sem sessão no Meta App, não há como separar o que foi implantado do que foi apenas testado.</p>
 <h3>Próximo passo</h3>

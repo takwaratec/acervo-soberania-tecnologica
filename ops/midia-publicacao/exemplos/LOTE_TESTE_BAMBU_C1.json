@@ -1,13 +1,12 @@
 {
  "lote": "TESTE-E2E-BAMBU-C1",
  "status": "ENSAIO · NAO PUBLICAR",
- "nota": "Ensaio da esteira com peca REAL da frente BAMBU-SCIENCE. Espera-se recusa em P3: o material esta em-revisao-documental e o artigo nao declara estado_documental homologado. Se este lote passar, o gate esta desligado.",
+ "nota": "Ensaio com peca REAL da frente BAMBU-SCIENCE. Estrutura correta de proposito (P0 passa) para que a recusa venha de P3: o material esta em-revisao-documental, o artigo nao declara estado homologado e nenhum dos dois se declara estado da arte/artigo. Se este lote passar, o gate esta desligado.",
  "pecas": [
   {
    "id": "TESTE-BAMBU-C1",
    "formato": "carrossel",
    "formato_justificativa": "a peca ja declara '12 slides · Instagram · formato 1080x1350 (4:5)' no proprio texto",
-   "gaveta": "bambu-estrutural",
    "deriva_de": {
     "tipo": "artigo-didatico",
     "path": "docs/analyses/bambu-estrutural/divulgacao/carrossel-1-quanto-aguenta.md",
