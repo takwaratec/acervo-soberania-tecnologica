@@ -53,12 +53,17 @@
    "prompt_usado": "sha256 do prompt de criacao entregue ao Sol",
    "confere_com": "quem conferiu a arte contra a peca editorial e quando"
   },
-  "deriva_de.ref": "ref git onde a peca editorial vive (ex.: origin/meu-branch) — usado quando os bytes nao estao no worktree"
+  "deriva_de.ref": "ref git onde a peca editorial vive (ex.: origin/meu-branch) — usado quando os bytes nao estao no worktree",
+  "colecao": {
+   "gaveta": "gaveta tematica do acervo",
+   "estado_da_arte": "caminho do estado da arte da colecao; tem de resolver",
+   "artigos": "lista de caminhos de artigos da colecao; no minimo um, e cada um tem de resolver"
+  }
  },
  "portoes_do_montador": {
   "P1": "deriva_de.tipo e editorial publicavel e deriva_de.path existe dentro do repo",
   "P2": "sha256 da origem confere pelos bytes no worktree OU por git cat-file no ref declarado (deriva_de.ref); recusa se divergir, faltar, ou o ref nao resolver",
-  "P3": "peca editorial tem estado_documental homologado E tem_artigo: sim",
+  "P3": "origem homologada (estados alinhados a GOVERNANCA_DOCUMENTAL.md, incluindo curado e revisado-com-fonte-integral) E bloco 'colecao' com estado_da_arte e artigos>0, cada ponteiro RESOLVENDO no disco ou no ref — booleano declarado nao prova nada",
   "P4": "formato declarado e coerente com a contagem de itens (carrossel 2..20)",
   "P5": "toda fonte citada aparece literalmente no corpo da origem; quando o corpo nao esta disponivel o portao declara NAO_VERIFICADO em vez de aprovar",
   "P6": "aprovacao.hash_da_peca corresponde ao sha256_da_peca; aprovacao de outro bytes nao aprova esta"
@@ -111,5 +116,22 @@
   "P5 e verificacao de string, nao de sentido: garante que a fonte citada existe, nao que a peca a interpretou corretamente. O julgamento semantico e humano ou de auditor.",
   "O montador nao protege contra publicacao manual fora da esteira. Ele so garante que o que passa por ele e rastreavel."
  ],
- "soberania_do_git": "Git e a fonte da verdade: homologado e publicado no Git ja e fonte, sem exigir mescla na main. Binario fora do Git. Mapa de restauracao em MAPA_DE_RESTAURACAO_R1.md"
+ "soberania_do_git": "Git e a fonte da verdade: homologado e publicado no Git ja e fonte, sem exigir mescla na main. Binario fora do Git. Mapa de restauracao em MAPA_DE_RESTAURACAO_R1.md",
+ "historico_de_correcoes": [
+  {
+   "data": "2026-11-20",
+   "correcao": "P3 deixou de confiar em 'tem_artigo: sim' e passou a exigir colecao.estado_da_arte + colecao.artigos resolvendo",
+   "origem": "auditoria TECO, defeito ALTA 1"
+  },
+  {
+   "data": "2026-11-20",
+   "correcao": "ESTADOS_HOMOLOGADOS passou a incluir 'curado' e 'revisado-com-fonte-integral', conforme GOVERNANCA_DOCUMENTAL.md:86/88",
+   "origem": "auditoria TECO, defeito MEDIA 2"
+  },
+  {
+   "data": "2026-11-20",
+   "correcao": "ancoragem da auditoria passou de hash de commit para sha256 por arquivo",
+   "origem": "auditoria TECO, defeito MEDIA 5"
+  }
+ ]
 }

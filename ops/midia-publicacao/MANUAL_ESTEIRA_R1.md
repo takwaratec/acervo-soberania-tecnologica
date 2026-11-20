@@ -46,8 +46,16 @@ síntese, e é a única coisa que pode alimentar mídia.
 Operacionalmente: a peça editorial precisa declarável em frontmatter
 
 - `estado_documental` entre os aceitos: `homologado-documentalmente`, `publicado-no-zenodo`,
-  `depositado-no-zenodo`, `publicado-no-acervo`, `edicao-publica-conformada`, `edicao-revisada-para-acervo`
-- `tem_artigo: sim`
+  `depositado-no-zenodo`, `publicado-no-acervo`, `edicao-publica-conformada`, `edicao-revisada-para-acervo`,
+  `curado`, `revisado-com-fonte-integral` — os dois últimos porque `GOVERNANCA_DOCUMENTAL.md:86/88` os
+  declara equivalentes a homologado
+- na peça de mídia, bloco `colecao` com `estado_da_arte` (caminho) e `artigos` (lista, mínimo um), **e cada
+  ponteiro tem de resolver** no disco ou no ref declarado
+
+**Por que o bloco, e não um booleano.** A versão anterior aceitava `tem_artigo: sim` — e um booleano é
+declaração de quem escreve, não prova de nada: quem digita `sim` não precisa ter artigo nenhum. A
+auditoria TECO de 2026-11-20 demonstrou isso com uma origem mínima (três linhas) que passou. Agora a peça
+aponta os dois artefatos e o gate confere que existem.
 
 `em-revisao-documental` **não** passa. Medido em 2026-11-20: **227 de 348 fichas** do corpus estão
 nesse estado. Isso não é defeito do corpus, é o retrato do terreno em preparação.
@@ -58,7 +66,7 @@ nesse estado. Isso não é defeito do corpus, é o retrato do terreno em prepara
 |---|---|---|
 | P1 | `deriva_de.tipo` é editorial publicável e o caminho existe dentro do repo | recusa se `tipo=ficha` ou caminho ausente/fora |
 | P2 | `sha256` da origem confere — pelos bytes no worktree **ou** por `git cat-file` no ref declarado | recusa se divergir, faltar, ou o ref não resolver |
-| P3 | origem homologada **e** `tem_artigo: sim` | recusa `em-revisao-documental` |
+| P3 | origem homologada **e** bloco `colecao` com `estado_da_arte` + `artigos` (≥1), cada ponteiro resolvendo | recusa estado não homologado, coleção sem estado da arte e coleção sem artigo |
 | P4 | formato coerente com a contagem de itens | carrossel exige 2 a 20 |
 | P5 | toda `fonte` citada aparece literalmente no corpo da origem | recusa fonte inventada; **NAO_VERIFICADO** quando o corpo não está disponível |
 | P6 | `aprovacao.hash_da_peca` = `sha256_da_peca` | recusa aprovação de outro bytes |
@@ -91,8 +99,12 @@ python3 ops/midia-publicacao/montar_lote.py --selftest
 python3 ops/midia-publicacao/montar_lote.py --lote <caminho-do-lote.json> --raiz .
 ```
 
-Saída `--selftest` esperada: `{"selftest": "PASS", "aprovadas": 1, "recusadas": 4, "erros": 4, "fila": 1}`.
-Exit 0. Se vier `FAIL`, o gate está desligado e **nada** deve ser publicado.
+Saída esperada: `{"selftest": "PASS", "modo": "EM_MEMORIA", "controles_negativos": 11, "falhas": 0}`, exit 0.
+Se vier `FAIL`, o gate está desligado e **nada** deve ser publicado.
+
+Os dois selftests rodam **sem diretório gravável** (memória + `git cat-file` no próprio clone). Isso é
+deliberado: o auditor executa em sandbox read-only, e um selftest que exige escrita não pode ser executado
+por quem audita — foi assim que a auditoria de 2026-11-20 não conseguiu rodar três das dez perguntas.
 
 `montar_lote.py` sai com código 1 quando qualquer peça é recusada — recusa é resultado, não erro.
 

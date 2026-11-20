@@ -4,6 +4,11 @@ STATUS=PROPOSTA · NÃO VIGENTE · FASE 2 DO PILOTO
 DATA=2026-11-20
 FRENTE=INTEGRACAO_MIDIAS_SOCIAIS
 DECISÃO=FABIO_SOBERANO 2026-11-20: "prossiga com A para o piloto, uma vez que já está em funcionamento e estamos em fase de teste"
+
+NOTA SOBRE A CITAÇÃO: "já está em funcionamento" refere-se ao SITE institucional (`acervo-web-preview`),
+declarado pelo soberano como operante — não ao caminho `/midia/...`, que NUNCA foi medido. O Worker
+servindo arte é NÃO VERIFICADO (tabela §5, item 1). A citação não é evidência de que a hospedagem de
+mídia funciona: ela registra apenas de onde veio a escolha da opção A.
 REPO_DA_HOSPEDAGEM=takwaratec/TakwaraTec-Acervo-Web
 WORKER=acervo-web-preview
 

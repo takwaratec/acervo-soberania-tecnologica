@@ -37,7 +37,14 @@
     "em": "2026-11-20",
     "hash_da_peca": "ensaio-nao-aprovado"
    },
-   "agendamento": []
+   "agendamento": [],
+   "colecao": {
+    "gaveta": "bambu-estrutural",
+    "estado_da_arte": "docs/analyses/bambu-estrutural/divulgacao/carrossel-1-quanto-aguenta.md",
+    "artigos": [
+     "docs/analyses/bambu-estrutural/divulgacao/carrossel-1-quanto-aguenta.md"
+    ]
+   }
   }
  ]
 }

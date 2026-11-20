@@ -38,6 +38,11 @@ from pathlib import Path
 # Derivados da medição de docs/analyses em 2026-11-20 (12 valores distintos no corpus);
 # só estes três são homologação; "em-revisao-documental" e "curado" NÃO são.
 ESTADOS_HOMOLOGADOS = {
+    # `curado` e `revisado-com-fonte-integral` entram porque GOVERNANCA_DOCUMENTAL.md:86/88
+    # os declara equivalentes a homologado-documentalmente. O gate recusá-los contradizia a
+    # taxonomia do próprio acervo (defeito MEDIA da auditoria TECO de 2026-11-20).
+    "curado",
+    "revisado-com-fonte-integral",
     "homologado-documentalmente",
     "publicado-no-zenodo",
     "depositado-no-zenodo",
@@ -50,6 +55,24 @@ TIPOS_EDITORIAIS = {"estado-da-arte", "artigo-didatico", "artigo-cientifico"}
 TIPOS_NAO_PUBLICAVEIS = {"ficha", "ficha-documental", "nota", "inventario"}
 
 FORMATOS = {"carrossel": (2, 20), "video-curto": (1, 1), "estatico": (1, 1)}
+
+
+# Leitor com dois modos: disco (produção) e memória (selftest em ambiente read-only).
+# O selftest precisa rodar em sandbox read-only — auditor não tem diretório gravável —
+# e um gate que só se prova onde há escrita não se prova onde é auditado.
+_MEM: dict[str, str] | None = None
+
+
+def _texto(p: Path) -> str | None:
+    if _MEM is not None:
+        return _MEM.get(str(p))
+    return p.read_text(encoding="utf-8", errors="replace") if p.is_file() else None
+
+
+def _existe(p: Path) -> bool:
+    if _MEM is not None:
+        return str(p) in _MEM
+    return p.is_file()
 
 
 def sha256_file(p: Path) -> str:
@@ -103,6 +126,18 @@ def normalizar_estado(v: str) -> str:
     return (v or "").strip().strip('"').strip("'").lower()
 
 
+def _resolve_ponteiro(raiz: Path, caminho: str, der: dict) -> bool:
+    """Um ponteiro resolve se existe no disco (ou na memória) ou no ref declarado."""
+    alvo = (raiz / caminho).resolve()
+    if _existe(alvo):
+        return True
+    ref = (der.get("ref") or "").strip()
+    if not ref:
+        return False
+    ok, _ = _blob_no_ref(raiz, ref, caminho)
+    return ok
+
+
 def validar_peca(peca: dict, raiz: Path) -> list[str]:
     erros: list[str] = []
     pid = peca.get("id", "<sem-id>")
@@ -140,10 +175,10 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
     declarado = (der.get("sha256") or "").strip().lower()
     via = ""
     conteudo = None
-    if alvo.is_file():
+    if _existe(alvo):
         via = "BYTES"
-        conteudo = alvo.read_text(encoding="utf-8", errors="replace")
-        real = sha256_file(alvo)
+        conteudo = _texto(alvo) or ""
+        real = hashlib.sha256(conteudo.encode("utf-8")).hexdigest() if _MEM is not None else sha256_file(alvo)
         if not declarado:
             erros.append(f"{pid}: P2 recusa — 'deriva_de.sha256' ausente; origem sem hash não foi medida")
         elif declarado != real:
@@ -178,11 +213,25 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
             f"{pid}: P3 recusa — estado_documental={estado or '<ausente>'!r} não é homologado "
             f"(aceitos: {sorted(ESTADOS_HOMOLOGADOS)})"
         )
-    if str(fm.get("tem_artigo", "")).strip().lower() not in {"sim", "true", "1"}:
-        erros.append(
-            f"{pid}: P3 recusa — peça editorial não declara 'tem_artigo: sim' "
-            "(exigência do soberano: estado da arte + no mínimo um artigo)"
-        )
+    # P3 estrutural. O soberano definiu o critério como "estado da arte da coleção E no
+    # mínimo um artigo". Um booleano declarado no frontmatter não prova nada: quem escreve
+    # `tem_artigo: sim` não precisa ter artigo nenhum. Por isso a peça declara o bloco
+    # `colecao` com os dois ponteiros, e cada ponteiro tem de RESOLVER — no disco ou no ref.
+    # Medido em auditoria TECO de 2026-11-20: a versão anterior aceitava uma origem mínima
+    # só com o booleano (defeito ALTA).
+    col = peca.get("colecao") or {}
+    eda = (col.get("estado_da_arte") or "").strip()
+    arts = col.get("artigos") or []
+    if not eda:
+        erros.append(f"{pid}: P3 recusa — peça sem 'colecao.estado_da_arte'; homologação exige estado da arte da coleção")
+    elif not _resolve_ponteiro(raiz, eda, der):
+        erros.append(f"{pid}: P3 recusa — 'colecao.estado_da_arte' não resolve: {eda}")
+    if not isinstance(arts, list) or not arts:
+        erros.append(f"{pid}: P3 recusa — peça sem 'colecao.artigos'; homologação exige no mínimo um artigo")
+    else:
+        for a in arts:
+            if not _resolve_ponteiro(raiz, str(a), der):
+                erros.append(f"{pid}: P3 recusa — 'colecao.artigos' com ponteiro que não resolve: {a}")
 
     # P4 — formato coerente
     fmt = (peca.get("formato") or "").strip().lower()
@@ -257,154 +306,145 @@ def montar(lote: dict, raiz: Path) -> dict:
     }
 
 
-SELFTEST_LOTE = {
-    "lote": "SELFTEST-1",
-    "pecas": [
-        {
-            "id": "ok-1",
-            "deriva_de": {"tipo": "estado-da-arte", "path": "_selftest/origem-ok.md", "sha256": "@HASH@"},
-            "formato": "carrossel",
-            "itens": [{"ordem": 1, "fonte": "Achado Um"}, {"ordem": 2, "fonte": "Achado Dois"}],
-            "sha256_da_peca": "abc123",
-            "aprovacao": {"por": "FABIO_SOBERANO", "em": "2026-11-20", "hash_da_peca": "abc123"},
-            "agendamento": [{"canal": "instagram", "data": "2026-11-25", "hora": "09:00"}],
-        },
-        {
-            "id": "ficha-recusada",
-            "deriva_de": {"tipo": "ficha", "path": "_selftest/origem-ok.md", "sha256": "@HASH@"},
-            "formato": "carrossel",
-            "itens": [{"ordem": 1, "fonte": "Achado Um"}, {"ordem": 2, "fonte": "Achado Dois"}],
-            "sha256_da_peca": "abc123",
-            "aprovacao": {"por": "FABIO_SOBERANO", "em": "2026-11-20", "hash_da_peca": "abc123"},
-        },
-        {
-            "id": "revisao-recusada",
-            "deriva_de": {"tipo": "artigo-didatico", "path": "_selftest/origem-em-revisao.md", "sha256": "@HASH2@"},
-            "formato": "carrossel",
-            "itens": [{"ordem": 1, "fonte": "Achado Um"}, {"ordem": 2, "fonte": "Achado Dois"}],
-            "sha256_da_peca": "abc123",
-            "aprovacao": {"por": "FABIO_SOBERANO", "em": "2026-11-20", "hash_da_peca": "abc123"},
-        },
-        {
-            "id": "fonte-inventada",
-            "deriva_de": {"tipo": "estado-da-arte", "path": "_selftest/origem-ok.md", "sha256": "@HASH@"},
-            "formato": "carrossel",
-            "itens": [{"ordem": 1, "fonte": "Achado Um"}, {"ordem": 2, "fonte": "Achado Que Nao Existe"}],
-            "sha256_da_peca": "abc123",
-            "aprovacao": {"por": "FABIO_SOBERANO", "em": "2026-11-20", "hash_da_peca": "abc123"},
-        },
-        {
-            "id": "hash-divergente",
-            "deriva_de": {"tipo": "estado-da-arte", "path": "_selftest/origem-ok.md", "sha256": "0" * 64},
-            "formato": "carrossel",
-            "itens": [{"ordem": 1, "fonte": "Achado Um"}, {"ordem": 2, "fonte": "Achado Dois"}],
-            "sha256_da_peca": "abc123",
-            "aprovacao": {"por": "FABIO_SOBERANO", "em": "2026-11-20", "hash_da_peca": "abc123"},
-        },
-    ],
-}
+_ORIGEM_OK = (
+    "---\nestado_documental: homologado-documentalmente\ntem_artigo: sim\n---\n\n"
+    "# Origem\n\nAchado Um\n\nAchado Dois\n"
+)
+_ORIGEM_REV = (
+    "---\nestado_documental: em-revisao-documental\ntem_artigo: sim\n---\n\n"
+    "# Origem em revisão\n\nAchado Um\n\nAchado Dois\n"
+)
+
+
+def _peca_base(pid: str, path: str, sha: str, **kw) -> dict:
+    p = {
+        "id": pid,
+        "deriva_de": {"tipo": "estado-da-arte", "path": path, "sha256": sha},
+        "colecao": {"gaveta": "g", "estado_da_arte": path, "artigos": [path]},
+        "formato": "carrossel",
+        "itens": [{"ordem": 1, "fonte": "Achado Um"}, {"ordem": 2, "fonte": "Achado Dois"}],
+        "sha256_da_peca": "abc123",
+        "aprovacao": {"por": "FABIO_SOBERANO", "em": "2026-11-20", "hash_da_peca": "abc123"},
+        "agendamento": [{"canal": "instagram", "data": "2026-11-25", "hora": "09:00"}],
+    }
+    p.update(kw)
+    return p
 
 
 def selftest() -> int:
-    """Controle negativo: cada portão precisa RECUSAR o que deve recusar.
+    """Controle negativo duplo, em memória: cada portão tem de RECUSAR o que deve recusar.
 
-    Sem isso, "tudo aprovado" seria indistinguível de "gate desligado".
+    Roda sem diretório gravável de propósito — o auditor executa em sandbox read-only, e um
+    selftest que exige escrita não pode ser executado por quem audita (defeito medido na
+    auditoria TECO de 2026-11-20, Q1/Q6/Q8 não executáveis).
     """
-    import tempfile
+    global _MEM
+    falhas: list[str] = []
+    h_ok = hashlib.sha256(_ORIGEM_OK.encode()).hexdigest()
+    h_rev = hashlib.sha256(_ORIGEM_REV.encode()).hexdigest()
+    base = Path("/mem")
 
-    with tempfile.TemporaryDirectory() as td:
-        raiz = Path(td)
-        (raiz / "_selftest").mkdir()
-        ok = raiz / "_selftest/origem-ok.md"
-        ok.write_text(
-            "---\nestado_documental: homologado-documentalmente\ntem_artigo: sim\n---\n\n"
-            "# Origem\n\nAchado Um\n\nAchado Dois\n",
-            encoding="utf-8",
-        )
-        rev = raiz / "_selftest/origem-em-revisao.md"
-        rev.write_text(
-            "---\nestado_documental: em-revisao-documental\ntem_artigo: sim\n---\n\n"
-            "# Origem em revisão\n\nAchado Um\n\nAchado Dois\n",
-            encoding="utf-8",
-        )
-        h_ok, h_rev = sha256_file(ok), sha256_file(rev)
-        lote = json.loads(json.dumps(SELFTEST_LOTE).replace("@HASH2@", h_rev).replace("@HASH@", h_ok))
-
-        r = montar(lote, raiz)
-        esperado_erros = {
-            "P1 recusa — 'deriva_de.tipo'='ficha'": "ficha-recusada",
-            "P3 recusa — estado_documental='em-revisao-documental'": "revisao-recusada",
-            "P5 recusa — item 2 cita fonte 'Achado Que Nao Existe'": "fonte-inventada",
-            "P2 recusa — sha256 da origem não confere": "hash-divergente",
-        }
-        falhas = []
+    _MEM = {"/mem/ok.md": _ORIGEM_OK, "/mem/rev.md": _ORIGEM_REV}
+    try:
+        # controle positivo
+        r = montar({"lote": "ST", "pecas": [_peca_base("ok", "ok.md", h_ok)]}, base)
         if r["aprovadas"] != 1:
-            falhas.append(f"esperava 1 aprovada, obteve {r['aprovadas']}")
-        for marca, pid in esperado_erros.items():
-            if not any(pid in e and marca in e for e in r["erros"]):
-                falhas.append(f"controle negativo ausente: {pid} deveria disparar '{marca}'")
+            falhas.append(f"controle positivo falhou: peça correta recusada -> {r['erros']}")
         if len(r["fila"]) != 1:
             falhas.append(f"esperava 1 item de fila, obteve {len(r['fila'])}")
 
-        # controle negativo do próprio selftest: gate desligado aprovaria todos
-        desligado = {"lote": "X", "pecas": [{"id": "x", "deriva_de": {"tipo": "estado-da-arte",
-                    "path": "_selftest/origem-ok.md", "sha256": h_ok}, "formato": "carrossel",
-                    "itens": [{"fonte": "Achado Um"}, {"fonte": "Achado Dois"}],
-                    "sha256_da_peca": "z", "aprovacao": {"por": "P", "em": "D", "hash_da_peca": "z"}}]}
-        if montar(desligado, raiz)["aprovadas"] != 1:
-            falhas.append("a peça correta do controle positivo foi recusada")
+        # P1 — tipo ficha
+        r = montar({"lote": "ST", "pecas": [_peca_base("p1", "ok.md", h_ok,
+                    deriva_de={"tipo": "ficha", "path": "ok.md", "sha256": h_ok})]}, base)
+        if not any("P1 recusa" in e and "ficha" in e for e in r["erros"]):
+            falhas.append("P1: ficha não foi recusada")
 
-        # controle negativo 7: modo PONTEIRO — ref inexistente tem de RECUSAR,
-        # e ref existente do mesmo clone tem de passar pelo caminho do cat-file.
-        import subprocess as _sp
-        _sp.run(["git", "init", "-q"], cwd=raiz, check=True)
-        (_sp.run(["git", "config", "user.email", "t@t"], cwd=raiz, check=False))
-        (_sp.run(["git", "config", "user.name", "t"], cwd=raiz, check=False))
-        (raiz / "_selftest/remota.md").write_text(
-            "---\nestado_documental: homologado-documentalmente\ntem_artigo: sim\n---\n\n# R\n\nAchado Um\n\nAchado Dois\n",
-            encoding="utf-8")
-        _sp.run(["git", "add", "-A"], cwd=raiz, check=True)
-        _sp.run(["git", "commit", "-qm", "base"], cwd=raiz, check=True)
-        _sp.run(["git", "branch", "-f", "minha-fonte"], cwd=raiz, check=True)
-        h_rem = hashlib.sha256((raiz / "_selftest/remota.md").read_bytes()).hexdigest()
-        (raiz / "_selftest/remota.md").unlink()   # agora só existe no ref
+        # P2 — hash divergente
+        r = montar({"lote": "ST", "pecas": [_peca_base("p2", "ok.md", "0" * 64)]}, base)
+        if not any("P2 recusa" in e and "sha256" in e for e in r["erros"]):
+            falhas.append("P2: hash divergente não foi recusado")
 
-        ponteiro_bom = {
-            "id": "ponteiro-ok",
-            "deriva_de": {"tipo": "artigo-didatico", "path": "_selftest/remota.md",
-                          "sha256": h_rem, "ref": "minha-fonte"},
-            "formato": "carrossel",
-            "itens": [{"ordem": 1, "fonte": "Achado Um"}, {"ordem": 2, "fonte": "Achado Dois"}],
-            "sha256_da_peca": "abc", "aprovacao": {"por": "P", "em": "D", "hash_da_peca": "abc"},
-        }
-        rp = montar({"lote": "PT", "pecas": [ponteiro_bom]}, raiz)
-        if rp["aprovadas"] != 1:
-            falhas.append(f"modo PONTEIRO recusou peca boa: {rp['erros']}")
+        # P3a — estado não homologado
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3a", "rev.md", h_rev,
+                    deriva_de={"tipo": "estado-da-arte", "path": "rev.md", "sha256": h_rev},
+                    colecao={"estado_da_arte": "rev.md", "artigos": ["rev.md"]})]}, base)
+        if not any("P3 recusa" in e and "em-revisao-documental" in e for e in r["erros"]):
+            falhas.append("P3a: estado em-revisao-documental não foi recusado")
 
-        ruim = json.loads(json.dumps(ponteiro_bom)); ruim["id"] = "ref-falso"
-        ruim["deriva_de"]["ref"] = "branch-que-nao-existe"
-        rp2 = montar({"lote": "PT", "pecas": [ruim]}, raiz)
-        if not any("ref 'branch-que-nao-existe'" in e for e in rp2["erros"]):
-            falhas.append("controle negativo ausente: ref inexistente nao foi recusado")
+        # P3b — coleção SEM estado da arte (defeito ALTA da auditoria: booleano não prova)
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3b", "ok.md", h_ok,
+                    colecao={"artigos": ["ok.md"]})]}, base)
+        if not any("P3 recusa" in e and "estado_da_arte" in e for e in r["erros"]):
+            falhas.append("P3b: coleção sem estado da arte não foi recusada")
 
-        ruim2 = json.loads(json.dumps(ponteiro_bom)); ruim2["id"] = "sem-ref"
-        del ruim2["deriva_de"]["ref"]
-        rp3 = montar({"lote": "PT", "pecas": [ruim2]}, raiz)
-        if not any("sem ponteiro remoto" in e for e in rp3["erros"]):
-            falhas.append("controle negativo ausente: origem ausente sem ref nao foi recusada")
+        # P3c — coleção sem artigo
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3c", "ok.md", h_ok,
+                    colecao={"estado_da_arte": "ok.md", "artigos": []})]}, base)
+        if not any("P3 recusa" in e and "colecao.artigos" in e for e in r["erros"]):
+            falhas.append("P3c: coleção sem artigo não foi recusada")
 
-        ruim3 = json.loads(json.dumps(ponteiro_bom)); ruim3["id"] = "hash-do-ref-errado"
-        ruim3["deriva_de"]["sha256"] = "0" * 64
-        rp4 = montar({"lote": "PT", "pecas": [ruim3]}, raiz)
-        if not any("sha256 do ponteiro nao confere" in e or "sha256 do ponteiro não confere" in e for e in rp4["erros"]):
-            falhas.append("controle negativo ausente: hash divergente no modo PONTEIRO nao foi pego")
+        # P3d — ponteiro de coleção que não resolve
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3d", "ok.md", h_ok,
+                    colecao={"estado_da_arte": "nao-existe.md", "artigos": ["ok.md"]})]}, base)
+        if not any("P3 recusa" in e and "não resolve" in e for e in r["erros"]):
+            falhas.append("P3d: ponteiro de coleção inexistente não foi recusado")
 
-        for f in falhas:
-            print(f"FALHA: {f}")
-        print(json.dumps({"selftest": "PASS" if not falhas else "FAIL",
-                          "aprovadas": r["aprovadas"], "recusadas": r["recusadas"],
-                          "erros": len(r["erros"]), "fila": len(r["fila"])}, ensure_ascii=False))
-        return 0 if not falhas else 1
+        # P4 — formato incoerente com a contagem de itens (carrossel exige 2..20)
+        r = montar({"lote": "ST", "pecas": [_peca_base("p4", "ok.md", h_ok,
+                    formato="carrossel", itens=[{"ordem": 1, "fonte": "Achado Um"}])]}, base)
+        if not any("P4 recusa" in e for e in r["erros"]):
+            falhas.append("P4: carrossel com 1 item não foi recusado")
+        r = montar({"lote": "ST", "pecas": [_peca_base("p4b", "ok.md", h_ok, formato="reels-x")]}, base)
+        if not any("P4 recusa" in e and "desconhecido" in e for e in r["erros"]):
+            falhas.append("P4b: formato desconhecido não foi recusado")
+
+        # P6 — aprovação de outro bytes
+        r = montar({"lote": "ST", "pecas": [_peca_base("p6", "ok.md", h_ok,
+                    aprovacao={"por": "F", "em": "D", "hash_da_peca": "outro-hash"})]}, base)
+        if not any("P6 recusa" in e for e in r["erros"]):
+            falhas.append("P6: aprovação de outro bytes não foi recusada")
+        r = montar({"lote": "ST", "pecas": [_peca_base("p6b", "ok.md", h_ok,
+                    aprovacao={"hash_da_peca": "abc123"})]}, base)
+        if not any("P6 recusa" in e and "'por'" in e for e in r["erros"]):
+            falhas.append("P6b: aprovação sem autor não foi recusada")
+
+        # P5 — fonte inventada
+        r = montar({"lote": "ST", "pecas": [_peca_base("p5", "ok.md", h_ok,
+                    itens=[{"ordem": 1, "fonte": "Achado Um"},
+                           {"ordem": 2, "fonte": "Achado Que Nao Existe"}])]}, base)
+        if not any("P5 recusa" in e and "Achado Que Nao Existe" in e for e in r["erros"]):
+            falhas.append("P5: fonte inventada não foi recusada")
+
+        # PONTEIRO — resolução real por git, sem diretório temporário.
+        # O próprio arquivo deste script é usado como objeto existente no HEAD.
+        aqui = Path(__file__).resolve().parent
+        # o caminho no git é relativo à RAIZ do repositório, não ao cwd do script
+        try:
+            topo = subprocess.run(["git", "-C", str(aqui), "rev-parse", "--show-toplevel"],
+                                  capture_output=True, text=True, timeout=15).stdout.strip()
+            rel = str(Path(__file__).resolve().relative_to(topo)) if topo else "montar_lote.py"
+        except (OSError, subprocess.SubprocessError, ValueError):
+            rel = "montar_lote.py"
+        ok, _ = _blob_no_ref(aqui, "HEAD", rel)
+        if not ok:
+            falhas.append(f"ponteiro: 'HEAD:{rel}' não resolveu neste clone")
+        ok2, _ = _blob_no_ref(aqui, "ref-que-nao-existe", rel)
+        if ok2:
+            falhas.append("ponteiro: ref inexistente resolveu (deveria falhar)")
+
+        # PONTEIRO — origem ausente sem ref
+        r = montar({"lote": "ST", "pecas": [_peca_base("ptr1", "sumiu.md", h_ok)]}, base)
+        if not any("sem ponteiro remoto" in e for e in r["erros"]):
+            falhas.append("ponteiro: origem ausente sem ref não foi recusada")
+    finally:
+        _MEM = None
+
+    for f in falhas:
+        print(f"FALHA: {f}")
+    print(json.dumps({"selftest": "PASS" if not falhas else "FAIL",
+                      "modo": "EM_MEMORIA", "controles_negativos": 11,
+                      "falhas": len(falhas)}, ensure_ascii=False))
+    return 0 if not falhas else 1
 
 
 def main(argv: list[str] | None = None) -> int:

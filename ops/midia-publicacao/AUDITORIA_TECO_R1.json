@@ -3,8 +3,20 @@
  "alvo_imutavel": {
   "repo": "takwaratec/acervo-soberania-tecnologica",
   "branch": "midia/esteira-publicacao-20261120-r1",
-  "commit": "935b4ddfa99bf97af1ca314e61c71cc8ef4aa341",
-  "base": "0b6cbd4dd432a962571e18b13b327195028bfd2b"
+  "ancoragem": "sha256 por arquivo",
+  "nota_de_ancoragem": "O alvo NAO e ancorado em um hash de commit: um arquivo versionado nao pode conter o commit que o contem, e a versao anterior deste JSON apontava 935b4dd enquanto o HEAD auditado ja era outro (defeito MEDIA da auditoria TECO de 2026-11-20). A ancoragem passa a ser o sha256 de CADA arquivo auditado: quem audita confere os bytes, nao o rotulo.",
+  "arquivos": {
+   "montar_lote.py": "3693ba8b62fa5dc9a111b81a2d60e75bb0094c69cfcd4e2a47005404d5f9ef72",
+   "verificar_midia.py": "637c66b60e4c42ed4bfd1e130f359de3b75cf77faa9bd8dd4fba8c9fba77306e",
+   "SCHEMA_PECA_MIDIA_R1.json": "54f411858e7678d9e3b46862ef2af499db7df328c9281c998fd01847a123ce40",
+   "MANUAL_ESTEIRA_R1.md": "f2f7ce0b334ceb18ca0bf5aeced5e16bea173b58a1436c6ff1737948853de936",
+   "MANUAL_ESTEIRA_R1.html": "b409974eeb47100baadf122531954d3c4b2bed518baf8dfcb6a6d818000a3e9b",
+   "PLANO_HOSPEDAGEM_OPCAO_A_R1.md": "3256e48eff55c600723e67085178918ddf29b654738604d4f5cdd755186fe8f9",
+   "MAPA_DE_RESTAURACAO_R1.md": "084abcaf573f554023813261d7d19cef1fccfdb82f87f108bb5b32ea978ff117",
+   "exemplos/LOTE_EXEMPLO_RECUSA.json": "1c95a220c1e73a6d7118baf3846b5a8a1f9e6231159b33fc2310675fdc7dbc09",
+   "exemplos/LOTE_TESTE_BAMBU_C1.json": "8ac38c3899304cf6e790239640a32404416e22c4b606044c8b012bbcb030ff66",
+   "exemplos/MANIFESTO_TESTE_BAMBU_C1.json": "44e4993fb8f5cf7d781a98b3b4e71fcf759623edb40e650455fa6363ec986be0"
+  }
  },
  "o_que_julgar": [
   "montar_lote.py recusa de fato o que diz recusar (provar com controle negativo, nao com leitura)",
@@ -57,6 +69,14 @@
   {
    "id": "Q10",
    "pergunta": "Abra MANUAL_ESTEIRA_R1.html e confirme 11 abas com 11 paineis, todas navegaveis e nenhuma vazia. Cite a contagem medida de data-tab e role=tabpanel."
+  },
+  {
+   "id": "Q11",
+   "pergunta": "Confira o sha256 de CADA arquivo em alvo_imutavel.arquivos contra os bytes presentes. Cole a comparacao (N/N conferem). O alvo da auditoria e ancorado por conteudo, nao por hash de commit — um arquivo versionado nao pode conter o commit que o contem."
+  },
+  {
+   "id": "Q12",
+   "pergunta": "P3 foi reescrito: deixou de aceitar 'tem_artigo: sim' e passou a exigir bloco 'colecao' com estado_da_arte e artigos, cada ponteiro resolvendo. Verifique no codigo e prove com um probe em memoria que (a) colecao sem estado_da_arte e recusada, (b) colecao sem artigo e recusada, (c) ponteiro inexistente e recusado. Cole as saidas."
   }
  ],
  "veredito": "PASS | FAIL | BLOCKED | INCONCLUSIVE",
@@ -65,5 +85,23 @@
   "resumo agregado sem saida bruta",
   "afirmar que o gate funciona sem rodar o controle negativo",
   "aprovar o HTML sem abrir as nove abas"
- ]
+ ],
+ "historico": [
+  {
+   "rodada": 1,
+   "data": "2026-11-20",
+   "veredito": "FAIL",
+   "defeitos": 6,
+   "correcoes": [
+    "P3 estrutural (bloco colecao em vez de booleano)",
+    "curado e revisado-com-fonte-integral aceitos conforme GOVERNANCA_DOCUMENTAL:86/88",
+    "controles negativos proprios para P4 e P6",
+    "frase do plano de hospedagem separada da citacao",
+    "ancoragem por sha256 por arquivo em vez de hash de commit",
+    "navegacao do HTML passou a visitar p10",
+    "selftests executaveis em sandbox read-only (memoria em vez de diretorio temporario)"
+   ]
+  }
+ ],
+ "nota_final": "Rodada 2. As correcoes respondem aos 6 defeitos da rodada 1 e ao bloqueio de ambiente que impediu Q1/Q6/Q8 de rodar."
 }
