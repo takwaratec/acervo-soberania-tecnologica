@@ -6,11 +6,11 @@
   "ancoragem": "sha256 por arquivo",
   "nota_de_ancoragem": "O alvo NAO e ancorado em um hash de commit: um arquivo versionado nao pode conter o commit que o contem, e a versao anterior deste JSON apontava 935b4dd enquanto o HEAD auditado ja era outro (defeito MEDIA da auditoria TECO de 2026-11-20). A ancoragem passa a ser o sha256 de CADA arquivo auditado: quem audita confere os bytes, nao o rotulo.",
   "arquivos": {
-   "montar_lote.py": "e100fbe4b842f05d02ab238d7a5216939462495924d3ebeddf6f9d065e7f59c2",
+   "montar_lote.py": "e025d304afe69782ca43dd58eda4d345d0776dac8c7593a5ad9f7edeb49d3721",
    "verificar_midia.py": "52e68070ca5b7d55fa299c513e35323cd7c0a6c2e6e19ed89b248896e4ce79bd",
-   "SCHEMA_PECA_MIDIA_R1.json": "54f411858e7678d9e3b46862ef2af499db7df328c9281c998fd01847a123ce40",
-   "MANUAL_ESTEIRA_R1.md": "cafa599b98c28d69952edeec1b36bfe4825d263097f2e8e594ebbd7537610908",
-   "MANUAL_ESTEIRA_R1.html": "e13ac455526449ea52f06632be9f7f96153b51d03b68fec9c966a1db4aa88623",
+   "SCHEMA_PECA_MIDIA_R1.json": "30177ad9a49cfdb890ceab75ff56baa653efa68f91e30457832341773951dc97",
+   "MANUAL_ESTEIRA_R1.md": "0343972dd551f5ecf7b57cfa04a15fe84ab48f2a153633bdf1cdb12a99226300",
+   "MANUAL_ESTEIRA_R1.html": "a6ebae5285627490090a53d45e457fbefc822bfd61e35910a27b58457d79339b",
    "PLANO_HOSPEDAGEM_OPCAO_A_R1.md": "3256e48eff55c600723e67085178918ddf29b654738604d4f5cdd755186fe8f9",
    "MAPA_DE_RESTAURACAO_R1.md": "084abcaf573f554023813261d7d19cef1fccfdb82f87f108bb5b32ea978ff117",
    "exemplos/LOTE_EXEMPLO_RECUSA.json": "1c95a220c1e73a6d7118baf3846b5a8a1f9e6231159b33fc2310675fdc7dbc09",
@@ -85,6 +85,10 @@
   {
    "id": "Q14",
    "pergunta": "Rode o selftest e conte os controles executados. O campo controles_negativos e calculado do tamanho da lista, ou e um literal? Cite a linha. Depois rode o controle do controle desligando _blob_no_ref e confirme reprovacao."
+  },
+  {
+   "id": "Q15",
+   "pergunta": "Prove as quatro correcoes da rodada 4: (a) mesmo blob por alias (art.md e ./art.md) recusado; (b) documento tipado como artigo recusado no papel de estado da arte; (c) colecao como lista gera recusa nomeada, nao excecao; (d) controles_positivos conta 4 e inclui git-HEAD. Cole as saidas e diga quantos negativos semanticos existem."
   }
  ],
  "veredito": "PASS | FAIL | BLOCKED | INCONCLUSIVE",
@@ -119,6 +123,18 @@
     "P3 passou a ler o frontmatter de cada ponteiro: contencao na raiz, estado_documental homologado, papeis distintos, artigo tem de se declarar artigo",
     "cobertura integrada de P2 por ponteiro remoto restaurada no selftest (positivo, hash divergente e ref inexistente, via montar())",
     "contadores de controles passaram a ser calculados; comentario obsoleto sobre 'curado' corrigido"
+   ]
+  },
+  {
+   "rodada": 3,
+   "data": "2026-11-20",
+   "veredito": "FAIL",
+   "defeitos": 4,
+   "correcoes": [
+    "P3 compara caminhos RESOLVIDOS (alias ./x e x sao o mesmo arquivo) e exige declaracao de papel nos dois sentidos",
+    "schema alinhado ao codigo: curado e revisado-com-fonte-integral como aceitos",
+    "git-HEAD reclassificado como controle positivo",
+    "colecao malformada gera recusa nomeada em vez de AttributeError"
    ]
   }
  ],

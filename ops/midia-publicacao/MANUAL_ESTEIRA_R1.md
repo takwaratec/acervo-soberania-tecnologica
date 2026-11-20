@@ -59,8 +59,10 @@ auditoria TECO de 2026-11-20 demonstrou isso com uma origem mínima (três linha
 **E por que existência não bastava.** A rodada 2 da mesma auditoria mostrou dois furos: o mesmo arquivo
 podia ocupar os dois papéis (estado da arte *e* artigo), e o caminho podia escapar da raiz
 (`../../etc/hosts`). Agora o gate lê o frontmatter de cada ponteiro e exige: caminho dentro do
-repositório, `estado_documental` homologado, papéis distintos, e — para o artigo — `tipo_documental` de
-artigo ou `e_artigo: sim`. Não é cerimônia: é a diferença entre "o arquivo existe" e "o critério do
+repositório, `estado_documental` homologado, papéis distintos (por caminho resolvido — `art.md` e `./art.md` são o
+mesmo arquivo), e cada documento declara seu papel: o estado da arte com `tipo_documental` iniciando em
+`estado` ou `e_estado_da_arte: sim`; o artigo com `tipo_documental` iniciando em `artigo` ou
+`e_artigo: sim`. Bloco `colecao` malformado gera recusa nomeada, não exceção. Não é cerimônia: é a diferença entre "o arquivo existe" e "o critério do
 soberano foi cumprido".
 
 `em-revisao-documental` **não** passa. Medido em 2026-11-20: **227 de 348 fichas** do corpus estão
@@ -72,7 +74,7 @@ nesse estado. Isso não é defeito do corpus, é o retrato do terreno em prepara
 |---|---|---|
 | P1 | `deriva_de.tipo` é editorial publicável e o caminho existe dentro do repo | recusa se `tipo=ficha` ou caminho ausente/fora |
 | P2 | `sha256` da origem confere — pelos bytes no worktree **ou** por `git cat-file` no ref declarado | recusa se divergir, faltar, ou o ref não resolver |
-| P3 | origem homologada **e** bloco `colecao` com `estado_da_arte` + `artigos` (≥1): cada ponteiro tem de **resolver dentro do repositório**, ter `estado_documental` homologado, ser **arquivo distinto** do outro, e o artigo tem de **se declarar artigo** | recusa estado não homologado, coleção sem estado da arte, coleção sem artigo, mesmo arquivo nos dois papéis, caminho fora da raiz e documento que não é artigo |
+| P3 | origem homologada **e** bloco `colecao` com `estado_da_arte` + `artigos` (≥1): cada ponteiro tem de **resolver dentro do repositório**, ter `estado_documental` homologado, apontar para **arquivo distinto** do outro (comparação por caminho resolvido, não por texto) e **declarar o próprio papel** | recusa estado não homologado, coleção sem estado da arte, coleção sem artigo, mesmo arquivo nos dois papéis, caminho fora da raiz e documento que não é artigo |
 | P4 | formato coerente com a contagem de itens | carrossel exige 2 a 20 |
 | P5 | toda `fonte` citada aparece literalmente no corpo da origem | recusa fonte inventada; **NAO_VERIFICADO** quando o corpo não está disponível |
 | P6 | `aprovacao.hash_da_peca` = `sha256_da_peca` | recusa aprovação de outro bytes |
@@ -105,7 +107,7 @@ python3 ops/midia-publicacao/montar_lote.py --selftest
 python3 ops/midia-publicacao/montar_lote.py --lote <caminho-do-lote.json> --raiz .
 ```
 
-Saída esperada: `{"selftest": "PASS", "modo": "EM_MEMORIA", "controles_negativos": 19, "controles_positivos": 3, "falhas": 0}`, exit 0.
+Saída esperada: `{"selftest": "PASS", "modo": "EM_MEMORIA", "controles_negativos": 22, "controles_positivos": 4, "falhas": 0}`, exit 0.
 Para o verificador de mídia: `{"selftest": "PASS", ..., "controles_negativos": 9, "controles_positivos": 2, "falhas": 0}`.
 Os contadores são **calculados**, não digitados: contador escrito à mão já divergiu do código real em
 auditoria, então o número sai do tamanho da lista de controles executados.

@@ -154,7 +154,8 @@ def _resolve_ponteiro(raiz: Path, caminho: str, der: dict) -> bool:
 
 
 def _conferir_artefato(raiz: Path, caminho: str, der: dict, pid: str,
-                       rotulo: str, exigir_artigo: bool = False) -> list[str]:
+                       rotulo: str, exigir_artigo: bool = False,
+                       exigir_estado_da_arte: bool = False) -> list[str]:
     """Existência não basta: o ponteiro tem de ser um documento HOMOLOGADO do acervo.
 
     A auditoria de 2026-11-20 (rodada 2) mostrou que aceitar só "o caminho existe"
@@ -175,13 +176,22 @@ def _conferir_artefato(raiz: Path, caminho: str, der: dict, pid: str,
             f"{pid}: P3 recusa — '{rotulo}' ({caminho}) tem estado_documental={estado or 'ausente'}, "
             "que não é homologado"
         )
+    tipo = str(fm.get("tipo_documental", "")).lower()
+    tipo_norm = tipo.replace("_", "-")
     if exigir_artigo:
-        tipo = str(fm.get("tipo_documental", "")).lower()
         marca = str(fm.get("e_artigo", "")).lower() in {"sim", "true", "1"}
-        if not marca and not tipo.startswith("artigo"):
+        if not marca and not tipo_norm.startswith("artigo"):
             erros.append(
                 f"{pid}: P3 recusa — '{rotulo}' ({caminho}) não se declara artigo "
-                f"(tipo_documental={tipo or 'ausente'}); declaração de estado da arte não serve como artigo"
+                f"(tipo_documental={tipo or 'ausente'})"
+            )
+    if exigir_estado_da_arte:
+        marca = str(fm.get("e_estado_da_arte", "")).lower() in {"sim", "true", "1"}
+        if not marca and not tipo_norm.startswith("estado"):
+            erros.append(
+                f"{pid}: P3 recusa — '{rotulo}' ({caminho}) não se declara estado da arte "
+                f"(tipo_documental={tipo or 'ausente'}); o papel de estado da arte não pode ser "
+                "cumprido por um artigo"
             )
     return erros
 
@@ -267,19 +277,40 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
     # `colecao` com os dois ponteiros, e cada ponteiro tem de RESOLVER — no disco ou no ref.
     # Medido em auditoria TECO de 2026-11-20: a versão anterior aceitava uma origem mínima
     # só com o booleano (defeito ALTA).
-    col = peca.get("colecao") or {}
-    eda = (col.get("estado_da_arte") or "").strip()
-    arts = col.get("artigos") or []
+    col = peca.get("colecao")
+    if col is None:
+        erros.append(f"{pid}: P3 recusa — peça sem bloco 'colecao'")
+        return erros
+    if not isinstance(col, dict):
+        erros.append(f"{pid}: P3 recusa — 'colecao' deve ser objeto, recebido {type(col).__name__}")
+        return erros
+    eda = col.get("estado_da_arte")
+    if eda is not None and not isinstance(eda, str):
+        erros.append(f"{pid}: P3 recusa — 'colecao.estado_da_arte' deve ser texto, recebido {type(eda).__name__}")
+        return erros
+    eda = (eda or "").strip()
+    arts = col.get("artigos")
+    if arts is not None and not isinstance(arts, list):
+        erros.append(f"{pid}: P3 recusa — 'colecao.artigos' deve ser lista, recebido {type(arts).__name__}")
+        return erros
+    arts = arts or []
+    for a in arts:
+        if not isinstance(a, str):
+            erros.append(f"{pid}: P3 recusa — 'colecao.artigos' contém item não textual: {type(a).__name__}")
+            return erros
     if not eda:
         erros.append(f"{pid}: P3 recusa — peça sem 'colecao.estado_da_arte'; homologação exige estado da arte da coleção")
     else:
-        erros.extend(_conferir_artefato(raiz, eda, der, pid, "colecao.estado_da_arte"))
+        erros.extend(_conferir_artefato(raiz, eda, der, pid, "colecao.estado_da_arte",
+                                        exigir_estado_da_arte=True))
     if not isinstance(arts, list) or not arts:
         erros.append(f"{pid}: P3 recusa — peça sem 'colecao.artigos'; homologação exige no mínimo um artigo")
     else:
+        eda_norm = str(_dentro(raiz, eda)) if eda else ""
         for a in arts:
             a = str(a)
-            if eda and a == eda:
+            a_norm = str(_dentro(raiz, a))
+            if eda and (a == eda or a_norm == eda_norm):
                 erros.append(
                     f"{pid}: P3 recusa — 'colecao.artigos' repete o estado da arte ({a}); "
                     "o critério exige estado da arte E artigo, dois artefatos distintos"
@@ -506,6 +537,27 @@ def selftest() -> int:
         ctl("P3-fora-da-raiz", any("fora do repositório" in e for e in r["erros"]),
             "caminho fora da raiz aceito")
 
+        # ---------- P3h: mesmo blob por caminho alias (rodada 3, defeito ALTA) ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3h", "eda.md", h_eda,
+                    colecao={"estado_da_arte": "art.md", "artigos": ["./art.md"]})]}, base)
+        ctl("P3-alias", any("repete o estado da arte" in e for e in r["erros"]),
+            "mesmo blob por caminho alias aceito nos dois papéis")
+
+        # ---------- P3i: estado da arte tipado como artigo (rodada 3, defeito ALTA) ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3i", "eda.md", h_eda,
+                    colecao={"estado_da_arte": "art.md", "artigos": ["art.md"]})]}, base)
+        ctl("P3-eda-e-artigo", any("não se declara estado da arte" in e for e in r["erros"]),
+            "artigo aceito no papel de estado da arte")
+
+        # ---------- P3j: estrutura malformada não pode explodir (rodada 3, defeito BAIXA) ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3j", "eda.md", h_eda, colecao=["campo"])]}, base)
+        ctl("P3-colecao-lista", any("deve ser objeto" in e for e in r["erros"]),
+            "colecao como lista não gerou recusa nomeada")
+        r = montar({"lote": "ST", "pecas": [_peca_base("p3k", "eda.md", h_eda,
+                    colecao={"estado_da_arte": "eda.md", "artigos": "art.md"})]}, base)
+        ctl("P3-artigos-texto", any("deve ser lista" in e for e in r["erros"]),
+            "artigos como texto não gerou recusa nomeada")
+
         # ---------- P4 ----------
         r = montar({"lote": "ST", "pecas": [_peca_base("p4", "eda.md", h_eda,
                     formato="carrossel", itens=[{"ordem": 1, "fonte": "Achado Um"}])]}, base)
@@ -540,7 +592,7 @@ def selftest() -> int:
         except (OSError, subprocess.SubprocessError, ValueError):
             rel = "montar_lote.py"
         ok, _ = real_blob(aqui, "HEAD", rel)
-        ctl("git-HEAD", ok, f"'HEAD:{rel}' não resolveu neste clone")
+        ctl("git-HEAD", ok, f"'HEAD:{rel}' não resolveu neste clone", positivo=True)
         ok2, _ = real_blob(aqui, "ref-que-nao-existe", rel)
         ctl("git-ref-falso", not ok2, "ref inexistente resolveu (deveria falhar)")
     finally:

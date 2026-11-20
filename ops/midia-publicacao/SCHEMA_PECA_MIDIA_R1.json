@@ -21,16 +21,20 @@
    "depositado-no-zenodo",
    "publicado-no-acervo",
    "edicao-publica-conformada",
-   "edicao-revisada-para-acervo"
+   "edicao-revisada-para-acervo",
+   "curado",
+   "revisado-com-fonte-integral"
   ],
   "estados_recusados": [
    "em-revisao-documental",
-   "curado",
    "historico",
-   "revisado-com-fonte-integral"
+   "quarentena",
+   "retirado-da-publicacao"
   ],
   "medido_em": "2026-11-20",
-  "medicao": "12 valores distintos de estado_documental no corpus; 227 de 348 fichas em em-revisao-documental"
+  "medicao": "12 valores distintos de estado_documental no corpus; 227 de 348 fichas em em-revisao-documental",
+  "fonte_da_equivalencia": "GOVERNANCA_DOCUMENTAL.md, tabela de equivalencia linhas 82-90: os sete valores legados equivalem a homologado-documentalmente",
+  "nota": "Lista alinhada ao codigo (ESTADOS_HOMOLOGADOS) e a governanca. A rodada 3 da auditoria TECO apontou contradicao: o schema listava 'curado' e 'revisado-com-fonte-integral' como recusados enquanto o codigo os aceita."
  },
  "campos_da_peca_de_midia": {
   "id": "identificador unico do lote de publicacao (ex.: PUB-DOMOS-R1-01)",
@@ -63,7 +67,7 @@
  "portoes_do_montador": {
   "P1": "deriva_de.tipo e editorial publicavel e deriva_de.path existe dentro do repo",
   "P2": "sha256 da origem confere pelos bytes no worktree OU por git cat-file no ref declarado (deriva_de.ref); recusa se divergir, faltar, ou o ref nao resolver",
-  "P3": "origem homologada (estados alinhados a GOVERNANCA_DOCUMENTAL.md, incluindo curado e revisado-com-fonte-integral) E bloco 'colecao' com estado_da_arte e artigos>0, cada ponteiro RESOLVENDO no disco ou no ref — booleano declarado nao prova nada",
+  "P3": "origem homologada E bloco 'colecao' com estado_da_arte e artigos>0; cada ponteiro resolve DENTRO do repositorio, tem estado_documental homologado, os dois papeis apontam para arquivos distintos (comparacao por caminho resolvido), e cada documento declara seu papel (estado da arte declara tipo iniciando em 'estado' ou e_estado_da_arte; artigo declara tipo iniciando em 'artigo' ou e_artigo)",
   "P4": "formato declarado e coerente com a contagem de itens (carrossel 2..20)",
   "P5": "toda fonte citada aparece literalmente no corpo da origem; quando o corpo nao esta disponivel o portao declara NAO_VERIFICADO em vez de aprovar",
   "P6": "aprovacao.hash_da_peca corresponde ao sha256_da_peca; aprovacao de outro bytes nao aprova esta"
@@ -132,6 +136,11 @@
    "data": "2026-11-20",
    "correcao": "ancoragem da auditoria passou de hash de commit para sha256 por arquivo",
    "origem": "auditoria TECO, defeito MEDIA 5"
+  },
+  {
+   "data": "2026-11-20",
+   "correcao": "P3 passou a exigir declaracao de papel nos dois sentidos, comparacao por caminho resolvido e recusa nomeada para colecao malformada; lista de estados alinhada ao codigo",
+   "origem": "auditoria TECO rodada 3, defeitos ALTA 1, MEDIA 2 e BAIXA 4"
   }
  ]
 }
