@@ -50,6 +50,10 @@ def hash_da_peca(peca: dict) -> str:
     hash literal e conteúdo diferente. Aqui o hash é DERIVADO, não declarado.
     """
     corpo = {k: v for k, v in peca.items() if k not in {"sha256_da_peca", "aprovacao"}}
+    # `por` e `em` entram no hash: sem isso a data da aprovação podia mudar sem invalidar
+    # nada, e a nota do CLI prometia mais do que o código cumpria (auditoria TECO, rodada 7).
+    apr = peca.get("aprovacao") if isinstance(peca.get("aprovacao"), dict) else {}
+    corpo["#aprovacao"] = {"por": apr.get("por", ""), "em": apr.get("em", "")}
     bruto = json.dumps(corpo, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
     return hashlib.sha256(bruto.encode("utf-8")).hexdigest()
 
@@ -316,6 +320,21 @@ def validar_estrutura(peca: object) -> list[str]:
     erros = _conferir_campos(peca, ESQUEMA, "", pid)
     if isinstance(peca.get("id"), str) and not peca["id"].strip():
         erros.append(f"{pid}: P0 recusa — 'id' vazio; identificador serve para rastrear o lote")
+    # limites que o schema declara e o código tem de aplicar — senão o documento mente
+    leg = peca.get("legenda")
+    if isinstance(leg, str) and len(leg) > 2200:
+        erros.append(f"{pid}: P0 recusa — 'legenda' com {len(leg)} caracteres; limite da plataforma é 2200")
+    tag = peca.get("hashtags")
+    if isinstance(tag, list) and len(tag) > 30:
+        erros.append(f"{pid}: P0 recusa — 'hashtags' com {len(tag)} itens; limite é 30")
+    for i, t in enumerate(tag if isinstance(tag, list) else []):
+        if not isinstance(t, str):
+            erros.append(f"{pid}: P0 recusa — 'hashtags[{i}]' deve ser str, recebido {type(t).__name__}")
+    rast = peca.get("rastreabilidade_da_arte")
+    if isinstance(rast, dict):
+        pu = rast.get("prompt_usado")
+        if isinstance(pu, str) and pu and not re.fullmatch(r"[0-9a-f]{64}", pu.lower()):
+            erros.append(f"{pid}: P0 recusa — 'rastreabilidade_da_arte.prompt_usado' deve ser sha256 (64 hex), recebido {pu[:20]!r}")
     return erros
 
 
@@ -842,6 +861,30 @@ def selftest() -> int:
         ctl("P0-campos-documentados", r["aprovadas"] == 1,
             f"campos documentados (legenda/hashtags/alt_text) recusados -> {r['erros']}", positivo=True)
 
+        # ---------- limites documentados (rodada 7, defeito MEDIA) ----------
+        r = montar({"lote": "ST", "pecas": [_peca_base("p0r", "eda.md", h_eda, legenda="x" * 2201)]}, base)
+        ctl("P0-legenda-limite", any("limite da plataforma é 2200" in e for e in r["erros"]),
+            "legenda com 2201 caracteres aceita")
+        r = montar({"lote": "ST", "pecas": [_peca_base("p0s", "eda.md", h_eda,
+                    hashtags=["#t"] * 31)]}, base)
+        ctl("P0-hashtags-limite", any("limite é 30" in e for e in r["erros"]),
+            "31 hashtags aceitas")
+        r = montar({"lote": "ST", "pecas": [_peca_base("p0t", "eda.md", h_eda,
+                    rastreabilidade_da_arte={"prompt_usado": "x"})]}, base)
+        ctl("P0-prompt-nao-hash", any("prompt_usado' deve ser sha256" in e for e in r["erros"]),
+            "prompt_usado que não é hash aceito")
+        r = montar({"lote": "ST", "pecas": [_peca_base("p0u", "eda.md", h_eda, legenda="ok",
+                    hashtags=["#a", "#b"], rastreabilidade_da_arte={"prompt_usado": "a" * 64})]}, base)
+        ctl("P0-limites-ok", r["aprovadas"] == 1, f"peça dentro dos limites recusada -> {r['erros']}",
+            positivo=True)
+
+        # ---------- data da aprovação mudou depois do hash (rodada 7, defeito BAIXA) ----------
+        peca_data = _peca_base("p6h", "eda.md", h_eda)
+        peca_data["aprovacao"]["em"] = "2026-11-21"
+        r = montar({"lote": "ST", "pecas": [peca_data]}, base)
+        ctl("P6-data-pos-hash", any("não corresponde ao conteúdo" in e for e in r["erros"]),
+            "data da aprovação alterada depois do hash ainda passa")
+
         # ---------- P4 ----------
         r = montar({"lote": "ST", "pecas": [_peca_base("p4", "eda.md", h_eda,
                     formato="carrossel", itens=[{"ordem": 1, "fonte": "Achado Um"}])]}, base)
@@ -908,16 +951,17 @@ def main(argv: list[str] | None = None) -> int:
     if a.hash_peca:
         try:
             peca = json.loads(Path(a.hash_peca).read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError) as e:
-            print(json.dumps({"erro": "peca ilegivel ou nao e JSON valido", "path": a.hash_peca,
-                              "detalhe": str(e)}, ensure_ascii=False))
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError) as e:
+            print(json.dumps({"erro": "P0 recusa — peca ilegivel, nao e UTF-8 ou nao e JSON valido",
+                              "path": a.hash_peca, "detalhe": str(e)}, ensure_ascii=False))
             return 2
         if not isinstance(peca, dict):
             print(json.dumps({"erro": "peca deve ser objeto JSON"}, ensure_ascii=False))
             return 2
         print(json.dumps({"sha256_da_peca": hash_da_peca(peca),
-                          "nota": "hash do conteudo. A aprovacao deve registrar ESTE valor; "
-                                  "alterar qualquer campo depois invalida a aprovacao."},
+                          "nota": "hash do conteudo MAIS 'aprovacao.por' e 'aprovacao.em'. "
+                                  "Alterar qualquer um deles, ou qualquer campo de conteudo, invalida a aprovacao. "
+                                  "O hash nao autentica identidade: 'por' e declaracao, nao assinatura digital."},
                          ensure_ascii=False, indent=1))
         return 0
     if not a.lote:
@@ -925,9 +969,9 @@ def main(argv: list[str] | None = None) -> int:
 
     try:
         bruto = Path(a.lote).read_text(encoding="utf-8")
-    except OSError as e:
-        print(json.dumps({"erro": "P0 recusa — lote ilegível", "path": a.lote, "detalhe": str(e)},
-                         ensure_ascii=False))
+    except (OSError, UnicodeDecodeError) as e:
+        print(json.dumps({"erro": "P0 recusa — lote ilegível ou não é UTF-8", "path": a.lote,
+                          "detalhe": str(e)}, ensure_ascii=False))
         return 2
     try:
         lote = json.loads(bruto)

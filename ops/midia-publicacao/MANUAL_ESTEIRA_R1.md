@@ -65,19 +65,19 @@ mesmo arquivo), e cada documento declara seu papel: o estado da arte com `tipo_d
 `e_artigo: sim`. Bloco `colecao` malformado gera recusa nomeada, não exceção. Não é cerimônia: é a diferença entre "o arquivo existe" e "o critério do
 soberano foi cumprido".
 
-`em-revisao-documental` **não** passa. Medido em 2026-11-20 (comandos no fim desta seção): **227 de 338 fichas** do corpus estão
+`em-revisao-documental` **não** passa. Medido em 2026-11-20 (comandos no fim desta seção): **238 de 338 fichas** do corpus estão
 nesse estado. Isso não é defeito do corpus, é o retrato do terreno em preparação.
 
 **Como reconferir a contagem:** os números mudam com o acervo, então o comando importa mais que o valor:
-`find docs/analyses -name '*.md' | wc -l` e `grep -rl 'estado_documental: em-revisao-documental' docs/analyses --include='*.md' | wc -l`, **num checkout limpo** — árvore com arquivo não rastreado infla a contagem.
+o parser de frontmatter sobre `docs/analyses/**/*.md`, **num checkout limpo** — árvore com arquivo não rastreado infla a contagem, e `grep` literal subconta valores entre aspas (medido: 98 aceitos pelo parser contra 43 do grep).
 
 ## 4. Os sete portões (P0 a P6)
 
 | portão | o que verifica | como falha |
 |---|---|---|
 | P0 | o tipo de cada campo da peça e de cada item das listas | recusa nomeada em vez de exceção (peça/`deriva_de`/`itens`/`aprovacao`/`agendamento` malformados) |
-| P1 | `deriva_de.tipo` é editorial publicável | recusa se `tipo=ficha` ou tipo desconhecido |
-| P2 | a origem resolve (bytes no worktree **ou** `git cat-file` no ref) e o `sha256` confere | recusa se o caminho sair do repo, não resolver, ou o hash divergir |
+| P1 | `deriva_de.tipo` é editorial publicável **e** `deriva_de.path` fica dentro do repositório | recusa se `tipo=ficha`/desconhecido ou se o caminho escapa da raiz |
+| P2 | a origem resolve (bytes no worktree **ou** `git cat-file` no ref) e o `sha256` confere | recusa se não resolver ou o hash divergir |
 | P3 | origem homologada **e** bloco `colecao` com `estado_da_arte` + `artigos` (≥1): cada ponteiro tem de **resolver dentro do repositório**, ter `estado_documental` homologado, apontar para **arquivo distinto** do outro (comparação por caminho resolvido, não por texto) e **declarar o próprio papel** | recusa estado não homologado, coleção sem estado da arte, coleção sem artigo, mesmo arquivo nos dois papéis, caminho fora da raiz e documento que não é artigo |
 | P4 | formato coerente com a contagem de itens | carrossel exige 2 a 20 |
 | P5 | toda `fonte` citada aparece literalmente no corpo da origem | recusa fonte inventada; é verificação de string, não de sentido |
@@ -111,7 +111,7 @@ python3 ops/midia-publicacao/montar_lote.py --selftest
 python3 ops/midia-publicacao/montar_lote.py --lote <caminho-do-lote.json> --raiz .
 ```
 
-Saída esperada: `{"selftest": "PASS", "modo": "EM_MEMORIA", "controles_negativos": 47, "controles_positivos": 5, "falhas": 0}`, exit 0.
+Saída esperada: `{"selftest": "PASS", "modo": "EM_MEMORIA", "controles_negativos": 51, "controles_positivos": 6, "falhas": 0}`, exit 0.
 Para o verificador de mídia: `{"selftest": "PASS", ..., "controles_negativos": 9, "controles_positivos": 2, "falhas": 0}`.
 Os contadores são **calculados**, não digitados: contador escrito à mão já divergiu do código real em
 auditoria, então o número sai do tamanho da lista de controles executados.

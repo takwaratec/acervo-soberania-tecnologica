@@ -6,15 +6,15 @@
   "ancoragem": "sha256 por arquivo",
   "nota_de_ancoragem": "O alvo NAO e ancorado em um hash de commit: um arquivo versionado nao pode conter o commit que o contem, e a versao anterior deste JSON apontava 935b4dd enquanto o HEAD auditado ja era outro (defeito MEDIA da auditoria TECO de 2026-11-20). A ancoragem passa a ser o sha256 de CADA arquivo auditado: quem audita confere os bytes, nao o rotulo.",
   "arquivos": {
-   "montar_lote.py": "05f6dd46d72846c6536163f22e63ddba802de98f88cee1238ad79a36dbab157a",
+   "montar_lote.py": "b6319d372501696309dea9cd11bfb1e96e9a66c7f0cd95a36c62c0e9beb6d146",
    "verificar_midia.py": "52e68070ca5b7d55fa299c513e35323cd7c0a6c2e6e19ed89b248896e4ce79bd",
-   "SCHEMA_PECA_MIDIA_R1.json": "56f6ebd6dc7cb1baee5bb20e0e4d9f3ee99d04c232fc24580d4598cc29cec00c",
-   "MANUAL_ESTEIRA_R1.md": "75bb9b86f76111979b5da35b1d347b7756e4b337bbb0625c74220821a4d22a97",
-   "MANUAL_ESTEIRA_R1.html": "9da21602d474e59b10da292e810c8155d62c9587b834bc7fe02c5a55e1744200",
+   "SCHEMA_PECA_MIDIA_R1.json": "89d975cee688e851f46fbf1b65e41157c35fe3d37b3beaa4ca62aee5da4cc542",
+   "MANUAL_ESTEIRA_R1.md": "1368a2ecb799f97de10c09612771799bb02ab95603bd9ce24fcfc255a70c876a",
+   "MANUAL_ESTEIRA_R1.html": "50cad008c8f6ca5d8cacdb9393cf398bf586e8f076363fd144d1b14f4064e63b",
    "PLANO_HOSPEDAGEM_OPCAO_A_R1.md": "3256e48eff55c600723e67085178918ddf29b654738604d4f5cdd755186fe8f9",
    "MAPA_DE_RESTAURACAO_R1.md": "084abcaf573f554023813261d7d19cef1fccfdb82f87f108bb5b32ea978ff117",
-   "exemplos/LOTE_EXEMPLO_RECUSA.json": "d087e26278cba7fdbeffe1a81781dcd5d51963efd4cbf5ad08a7d69b343f2f35",
-   "exemplos/LOTE_TESTE_BAMBU_C1.json": "3ce48937a21666daf9760a4fef75dc0b85e5a6492ec800b6b3bd2669a67553d1",
+   "exemplos/LOTE_EXEMPLO_RECUSA.json": "aa47270cc9f4866d0a97aa19812e6be3ff7736a9d2e8cc802c9f87e1c9b3e745",
+   "exemplos/LOTE_TESTE_BAMBU_C1.json": "9a49184fd98b0a685f9ad313b33412d37dd8171f5d7be17262f2afcacefdf374",
    "exemplos/MANIFESTO_TESTE_BAMBU_C1.json": "44e4993fb8f5cf7d781a98b3b4e71fcf759623edb40e650455fa6363ec986be0"
   }
  },
@@ -178,6 +178,19 @@
     "legenda, hashtags, alt_text e rastreabilidade_da_arte tipados no esquema fechado",
     "medicao do corpus refeita em checkout limpo: 338/227/43/15; 1 estado-da-arte homologado, 0 artigos",
     "atribuicao P1/P2 corrigida nos manuais e cabecalho do script com P0..P6"
+   ]
+  },
+  {
+   "rodada": 7,
+   "data": "2026-11-20",
+   "veredito": "FAIL",
+   "defeitos": 5,
+   "correcoes": [
+    "hash inclui aprovacao.por/em; data nao muda mais sem invalidar",
+    "P0 aplica os limites declarados: legenda 2200, hashtags 30, prompt_usado 64 hex",
+    "UnicodeDecodeError tratado nos dois carregamentos (lote e hash-peca), exit 2",
+    "contagem do corpus por parser de frontmatter: 338/238/44/98/13 estado-da-arte/0 artigos",
+    "P1 passa a incluir contencao do path; P2 fica com resolucao e hash"
    ]
   }
  ],

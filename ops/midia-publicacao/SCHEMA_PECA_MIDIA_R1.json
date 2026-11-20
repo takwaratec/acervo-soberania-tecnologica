@@ -31,7 +31,7 @@
       "quarentena",
       "retirado-da-publicacao"
     ],
-    "medicao": "medido em 2026-11-20 em checkout limpo: 338 arquivos .md em docs/analyses; 227 em em-revisao-documental; 43 em homologado-documentalmente; 15 gavetas. Das 43 homologadas, 1 e estado-da-arte e 0 sao artigo — falta o artigo, nao falta tudo. Arvore com arquivo nao rastreado infla a contagem",
+    "medicao": "medido em 2026-11-20 em checkout limpo, com parser de frontmatter (não `grep`): 338 arquivos `.md`; 238 em `em-revisao-documental`; 44 no estado canônico `homologado-documentalmente`; 98 no conjunto aceito pelo P3 (canônico + legados equivalentes); 13 com tipo `estado-da-arte` ou `estado-da-arte-com-agenda-experimental`; 0 com tipo `artigo-*`. `grep` literal subconta porque há valores entre aspas — o número válido é o do parser",
     "fonte_da_equivalencia": "GOVERNANCA_DOCUMENTAL.md, tabela de equivalencia linhas 82-90: os sete valores legados equivalem a homologado-documentalmente",
     "nota": "Lista alinhada ao codigo (ESTADOS_HOMOLOGADOS) e a governanca. A rodada 3 da auditoria TECO apontou contradicao: o schema listava 'curado' e 'revisado-com-fonte-integral' como recusados enquanto o codigo os aceita."
   },
@@ -43,16 +43,17 @@
     "deriva_de.path": "caminho relativo a raiz do repositorio",
     "deriva_de.sha256": "sha256 dos bytes da peca editorial no commit declarado",
     "itens": "lista de {ordem, texto_curto, fonte}; 'fonte' e a string que EXISTE no corpo da peca editorial. Item sem 'fonte' e recusado",
-    "legenda": "opcional: caption final; max 2200 caracteres",
-    "hashtags": "opcional: lista de hashtags; max 30",
+    "legenda": "opcional: caption final; LIMITE APLICADO de 2200 caracteres (P0)",
+    "hashtags": "opcional: lista de no maximo 30 hashtags; cada item texto (P0 aplica)",
     "alt_text": "opcional: texto alternativo para acessibilidade",
-    "sha256_da_peca": "sha256 CALCULADO do conteudo da peca (todos os campos, menos 'sha256_da_peca' e 'aprovacao'). Use `python3 montar_lote.py --hash-peca peca.json` para obter. Valor declarado que nao bate com o conteudo e recusado",
+    "sha256_da_peca": "sha256 CALCULADO do conteudo MAIS aprovacao.por e aprovacao.em. Use `--hash-peca`. Alterar qualquer campo de conteudo, ou por/em, invalida. O hash NAO autentica identidade: 'por' e declaracao",
     "aprovacao": "por (autoridade registrada: FABIO_SOBERANO), em (data ISO AAAA-MM-DD), hash_da_peca (tem de ser IGUAL ao sha256_da_peca calculado). Altered content after approval invalidates it",
     "agendamento": "lista de {canal, data, hora} — vazio = nao programado",
     "rastreabilidade_da_arte": {
       "autor_da_arte": "sol-externo-canva | agent | humano",
-      "prompt_usado": "sha256 do prompt de criacao entregue ao Sol",
-      "confere_com": "quem conferiu a arte contra a peca editorial e quando"
+      "prompt_usado": "sha256 (64 hex) do prompt entregue ao Sol; se presente, o P0 exige hex",
+      "confere_com": "quem conferiu a arte contra a peca editorial e quando",
+      "nota": "opcional. A peca nao e recusada por ausencia deste bloco; quando presente, os tipos sao conferidos"
     },
     "deriva_de.ref": "ref git onde a peca editorial vive (ex.: origin/meu-branch). Usado quando os bytes nao estao no worktree; o hash e conferido por `git cat-file`.",
     "colecao": {
@@ -66,13 +67,13 @@
     "colecao.gaveta": "gaveta tematica da colecao (ex.: bambu-estrutural). Unidade de GRADE, nao de homologacao"
   },
   "portoes_do_montador": {
-    "P1": "tipo editorial publicavel (estado da arte, artigo didatico ou cientifico); ficha nunca. O arquivo pode estar no worktree OU ser resolvido por 'deriva_de.ref'",
-    "P2": "sha256 da origem confere pelos bytes no worktree OU por git cat-file no ref declarado (deriva_de.ref); recusa se divergir, faltar, ou o ref nao resolver",
+    "P1": "tipo editorial publicavel E deriva_de.path contido no repositorio (caminho que escapa da raiz e P1, nao P2)",
+    "P2": "a origem resolve por bytes no worktree ou por git cat-file no ref declarado, e o sha256 confere",
     "P3": "origem homologada E bloco 'colecao' com estado_da_arte e artigos>0; cada ponteiro resolve DENTRO do repositorio, tem estado_documental homologado, os dois papeis apontam para arquivos distintos (comparacao por caminho resolvido), e cada documento declara seu papel (estado da arte declara tipo iniciando em 'estado' ou e_estado_da_arte; artigo declara tipo iniciando em 'artigo' ou e_artigo)",
     "P4": "formato declarado e coerente com a contagem de itens (carrossel 2..20)",
     "P5": "cada 'fonte' citada aparece literalmente no corpo da origem. Verificacao de string, nao de sentido; quando P2 passa o corpo esta sempre disponivel, entao nao existe estado 'NAO_VERIFICADO'",
     "P6": "aprovacao de ESTE conteudo: sha256_da_peca e o hash CALCULADO (nao declarado), precisa ser 64 hex, aprovacao.hash_da_peca igual, autor entre as autoridades registradas e data ISO de calendario",
-    "P0": "esquema FECHADO: tipo e presenca de cada campo em todos os niveis (peca, deriva_de, colecao, itens[i], aprovacao, agendamento[i], rastreabilidade_da_arte). Campo desconhecido e recusa; booleano nao passa como int; id vazio ou repetido e recusa"
+    "P0": "esquema FECHADO em todos os niveis + limites declarados: legenda<=2200, hashtags<=30, prompt_usado em 64 hex; booleano nao passa como int; id vazio ou repetido e recusa"
   },
   "o_que_esta_fora": [
     "o montador nao publica — nao ha chamada de rede no codigo",
@@ -158,6 +159,11 @@
       "data": "2026-11-20",
       "correcao": "P6 passou a exigir hash CALCULADO do conteudo (--hash-peca); bool nao passa como int; id vazio/repetido recusado; legenda/hashtags/alt_text e rastreabilidade_da_arte tipados; medicao do corpus em checkout limpo",
       "origem": "auditoria TECO rodada 6, defeitos ALTA 1, MEDIA 2-4, BAIXA 5-6"
+    },
+    {
+      "data": "2026-11-20",
+      "correcao": "hash passa a incluir aprovacao.por/em; P0 aplica os limites que o schema declara (legenda, hashtags, prompt_usado em hex); UnicodeDecodeError tratado; contagem do corpus por parser, nao grep; P1/P2 reatribuidos",
+      "origem": "auditoria TECO rodada 7, defeitos MEDIA 1-2 e BAIXA 3-5"
     }
   ]
 }

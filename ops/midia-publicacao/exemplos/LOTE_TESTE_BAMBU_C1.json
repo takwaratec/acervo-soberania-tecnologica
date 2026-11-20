@@ -30,11 +30,11 @@
      "fonte": "200 MPa"
     }
    ],
-   "sha256_da_peca": "80106b11c92d8b87e5d827d8925f21e09d7a00163cf295daa8ff639d3a424cc9",
+   "sha256_da_peca": "c2f73e3f8c7fe108b765d616ac2a6fb0616e90335ce34e0c044c37d356681bac",
    "aprovacao": {
     "por": "ENSAIO",
     "em": "2026-11-20",
-    "hash_da_peca": "80106b11c92d8b87e5d827d8925f21e09d7a00163cf295daa8ff639d3a424cc9"
+    "hash_da_peca": "c2f73e3f8c7fe108b765d616ac2a6fb0616e90335ce34e0c044c37d356681bac"
    },
    "agendamento": [],
    "colecao": {
