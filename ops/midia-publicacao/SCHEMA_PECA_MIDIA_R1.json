@@ -4,7 +4,6 @@
  "data": "2026-11-20",
  "status": "PROPOSTA · NAO VIGENTE",
  "principio": "Ficha nao gera midia. Midia deriva de peca editorial homologada. Publicacao e ato posterior e separado da montagem.",
-
  "cadeia": [
   "ficha documental (docs/analyses/<gaveta>/*.md) — INSUMO, nao publicavel",
   "peca editorial (estado da arte da colecao | artigo didatico | artigo cientifico Zenodo) — CAMADA HOMOLOGAVEL",
@@ -12,7 +11,6 @@
   "lote aprovado (ato do soberano)",
   "fila de publicacao (item = peca + canal + data + hora)"
  ],
-
  "criterio_de_homologacao": {
   "declarado_por": "FABIO_SOBERANO 2026-11-20",
   "texto": "assim que o terreno estiver preparado, trabalharemos apenas com material homologado que tenha pelo menos um estado da arte de uma colecao e um artigo, um artigo didatico, no minimo. Podem haver casos em que um artigo de cunho cientifico seja produzido e publicado no Zenodo.",
@@ -34,7 +32,6 @@
   "medido_em": "2026-11-20",
   "medicao": "12 valores distintos de estado_documental no corpus; 227 de 348 fichas em em-revisao-documental"
  },
-
  "campos_da_peca_de_midia": {
   "id": "identificador unico do lote de publicacao (ex.: PUB-DOMOS-R1-01)",
   "formato": "carrossel | video-curto | estatico — DECLARADO pela peca, nunca decidido pelo motor",
@@ -55,25 +52,23 @@
    "autor_da_arte": "sol-externo-canva | agent | humano",
    "prompt_usado": "sha256 do prompt de criacao entregue ao Sol",
    "confere_com": "quem conferiu a arte contra a peca editorial e quando"
-  }
+  },
+  "deriva_de.ref": "ref git onde a peca editorial vive (ex.: origin/meu-branch) — usado quando os bytes nao estao no worktree"
  },
-
  "portoes_do_montador": {
   "P1": "deriva_de.tipo e editorial publicavel e deriva_de.path existe dentro do repo",
-  "P2": "sha256 declarado da origem confere com os bytes",
+  "P2": "sha256 da origem confere pelos bytes no worktree OU por git cat-file no ref declarado (deriva_de.ref); recusa se divergir, faltar, ou o ref nao resolver",
   "P3": "peca editorial tem estado_documental homologado E tem_artigo: sim",
   "P4": "formato declarado e coerente com a contagem de itens (carrossel 2..20)",
-  "P5": "toda fonte citada por um item aparece literalmente no corpo da peca editorial",
+  "P5": "toda fonte citada aparece literalmente no corpo da origem; quando o corpo nao esta disponivel o portao declara NAO_VERIFICADO em vez de aprovar",
   "P6": "aprovacao.hash_da_peca corresponde ao sha256_da_peca; aprovacao de outro bytes nao aprova esta"
  },
-
  "o_que_esta_fora": [
   "o montador nao publica — nao ha chamada de rede no codigo",
   "o montador nao decide formato",
   "o montador nao cria peca editorial",
   "o montador nao valida imagem (a arte e conferida por rastreabilidade_da_arte, nao por pixel)"
  ],
-
  "pendencias": [
   {
    "id": "PEND-1",
@@ -112,9 +107,9 @@
    "bloqueia": "primeiro lote com material do Release 1"
   }
  ],
-
  "limites_declarados": [
   "P5 e verificacao de string, nao de sentido: garante que a fonte citada existe, nao que a peca a interpretou corretamente. O julgamento semantico e humano ou de auditor.",
   "O montador nao protege contra publicacao manual fora da esteira. Ele so garante que o que passa por ele e rastreavel."
- ]
+ ],
+ "soberania_do_git": "Git e a fonte da verdade: homologado e publicado no Git ja e fonte, sem exigir mescla na main. Binario fora do Git. Mapa de restauracao em MAPA_DE_RESTAURACAO_R1.md"
 }

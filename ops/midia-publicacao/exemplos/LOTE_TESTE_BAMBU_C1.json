@@ -1,0 +1,43 @@
+{
+ "lote": "TESTE-E2E-BAMBU-C1",
+ "status": "ENSAIO · NAO PUBLICAR",
+ "nota": "Prova que a esteira recusa peca editorial REAL da BAMBU-SCIENCE por estado_documental em-revisao-documental. Se este lote passar, o gate esta desligado.",
+ "pecas": [
+  {
+   "id": "TESTE-BAMBU-C1",
+   "formato": "carrossel",
+   "formato_justificativa": "a peca ja declara '12 slides · Instagram · formato 1080x1350 (4:5)' no proprio texto",
+   "gaveta": "bambu-estrutural",
+   "deriva_de": {
+    "tipo": "artigo-didatico",
+    "path": "docs/analyses/bambu-estrutural/divulgacao/carrossel-1-quanto-aguenta.md",
+    "sha256": "f9fed77e4c7ca9fbe89fce449637fe48115c1d656570f826ed4b5082d088c562",
+    "ref": "origin/hermes/mtcc-auditoria-pacote-20261118-r1"
+   },
+   "itens": [
+    {
+     "ordem": 1,
+     "texto_curto": "60 MPa num bambu",
+     "fonte": "60 MPa"
+    },
+    {
+     "ordem": 2,
+     "texto_curto": "MPa nao e peso",
+     "fonte": "1 MPa = 10 kg"
+    },
+    {
+     "ordem": 3,
+     "texto_curto": "200 MPa",
+     "fonte": "200 MPa"
+    }
+   ],
+   "sha256_da_peca": "ensaio-nao-aprovado",
+   "aprovacao": {
+    "por": "ENSAIO",
+    "em": "2026-11-20",
+    "hash_da_peca": "ensaio-nao-aprovado"
+   },
+   "agendamento": []
+  }
+ ]
+}

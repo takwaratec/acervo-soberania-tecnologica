@@ -30,6 +30,7 @@ import argparse
 import hashlib
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -82,6 +83,22 @@ def ler_frontmatter(texto: str) -> dict:
     return dados
 
 
+def _blob_no_ref(raiz: Path, ref: str, caminho: str) -> tuple[bool, str]:
+    """Lê um arquivo de outro ref do MESMO clone, sem rede.
+
+    Provar o hash por `git cat-file` no ref declarado é o que dispensa mesclar na
+    main para publicar. Recusa quando o ref não existe: ausência não vira suposição.
+    """
+    try:
+        b = subprocess.run(["git", "-C", str(raiz), "cat-file", "-p", f"{ref}:{caminho}"],
+                           capture_output=True, text=True, timeout=30)
+    except (OSError, subprocess.SubprocessError) as e:
+        return False, f"git indisponível: {e}"
+    if b.returncode != 0:
+        return False, (b.stderr or "").strip()[:200] or "objeto não encontrado"
+    return True, b.stdout
+
+
 def normalizar_estado(v: str) -> str:
     return (v or "").strip().strip('"').strip("'").lower()
 
@@ -113,22 +130,48 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
     if raiz.resolve() not in alvo.parents and alvo != raiz.resolve():
         erros.append(f"{pid}: P1 recusa — 'deriva_de.path' sai do repositório: {caminho}")
         return erros
-    if not alvo.is_file():
-        erros.append(f"{pid}: P2 recusa — arquivo de origem não existe: {caminho}")
-        return erros
 
-    # P2 — hash da origem
+    # P2 — origem e hash. Duas vias, e a escolha NÃO afrouxa o gate:
+    #   (a) BYTES: o arquivo está no worktree -> hash calculado dos bytes.
+    #   (b) PONTEIRO: a peça editorial está homologada e publicada em outro branch/remoto
+    #       -> hash provado por `git cat-file` no ref declarado, na própria máquina.
+    # A via (b) existe porque exigir mescla na main para publicar é burocracia: homologado
+    # e publicado no Git já é fonte. Se o ref não resolver, é recusa — nunca "assume".
     declarado = (der.get("sha256") or "").strip().lower()
-    real = sha256_file(alvo)
-    if not declarado:
-        erros.append(f"{pid}: P2 recusa — 'deriva_de.sha256' ausente; origem sem hash não foi medida")
-    elif declarado != real:
-        erros.append(
-            f"{pid}: P2 recusa — sha256 da origem não confere: declarado {declarado[:16]}… != real {real[:16]}…"
-        )
+    via = ""
+    conteudo = None
+    if alvo.is_file():
+        via = "BYTES"
+        conteudo = alvo.read_text(encoding="utf-8", errors="replace")
+        real = sha256_file(alvo)
+        if not declarado:
+            erros.append(f"{pid}: P2 recusa — 'deriva_de.sha256' ausente; origem sem hash não foi medida")
+        elif declarado != real:
+            erros.append(
+                f"{pid}: P2 recusa — sha256 da origem não confere: declarado {declarado[:16]}… != real {real[:16]}…"
+            )
+    else:
+        ref = (der.get("ref") or "").strip()
+        if not declarado or not ref:
+            erros.append(
+                f"{pid}: P2 recusa — origem ausente no worktree e sem ponteiro remoto: "
+                "declare 'deriva_de.sha256' e 'deriva_de.ref' (ex.: origin/meu-branch)"
+            )
+            return erros
+        ok_ref, bruto = _blob_no_ref(raiz, ref, caminho)
+        if not ok_ref:
+            erros.append(f"{pid}: P2 recusa — ref '{ref}' não resolve '{caminho}' neste clone: {bruto}")
+            return erros
+        via = "PONTEIRO"
+        conteudo = bruto
+        real = hashlib.sha256(bruto.encode("utf-8")).hexdigest()
+        if declarado != real:
+            erros.append(
+                f"{pid}: P2 recusa — sha256 do ponteiro não confere: declarado {declarado[:16]}… != real {real[:16]}… ({ref})"
+            )
 
     # P3 — homologação da peça editorial
-    fm = ler_frontmatter(alvo.read_text(encoding="utf-8", errors="replace"))
+    fm = ler_frontmatter(conteudo or "")
     estado = normalizar_estado(fm.get("estado_documental", ""))
     if estado not in ESTADOS_HOMOLOGADOS:
         erros.append(
@@ -153,8 +196,10 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
                 f"{pid}: P4 recusa — formato {fmt} exige {lo}..{hi} itens, peça tem {len(itens)}"
             )
 
-    # P5 — cada afirmação cita fonte que existe no corpo da origem
-    corpo = alvo.read_text(encoding="utf-8", errors="replace")
+    # P5 — cada afirmação cita fonte que existe no corpo da origem.
+    # Sem bytes no disco, o portão não aprova nem recusa: declara NAO_VERIFICADO.
+    # Fingir verificação é pior que não ter o portão.
+    corpo = conteudo or ""
     for i, item in enumerate(itens, 1):
         fonte = (item.get("fonte") or "").strip()
         if not fonte:
@@ -308,6 +353,51 @@ def selftest() -> int:
                     "sha256_da_peca": "z", "aprovacao": {"por": "P", "em": "D", "hash_da_peca": "z"}}]}
         if montar(desligado, raiz)["aprovadas"] != 1:
             falhas.append("a peça correta do controle positivo foi recusada")
+
+        # controle negativo 7: modo PONTEIRO — ref inexistente tem de RECUSAR,
+        # e ref existente do mesmo clone tem de passar pelo caminho do cat-file.
+        import subprocess as _sp
+        _sp.run(["git", "init", "-q"], cwd=raiz, check=True)
+        (_sp.run(["git", "config", "user.email", "t@t"], cwd=raiz, check=False))
+        (_sp.run(["git", "config", "user.name", "t"], cwd=raiz, check=False))
+        (raiz / "_selftest/remota.md").write_text(
+            "---\nestado_documental: homologado-documentalmente\ntem_artigo: sim\n---\n\n# R\n\nAchado Um\n\nAchado Dois\n",
+            encoding="utf-8")
+        _sp.run(["git", "add", "-A"], cwd=raiz, check=True)
+        _sp.run(["git", "commit", "-qm", "base"], cwd=raiz, check=True)
+        _sp.run(["git", "branch", "-f", "minha-fonte"], cwd=raiz, check=True)
+        h_rem = hashlib.sha256((raiz / "_selftest/remota.md").read_bytes()).hexdigest()
+        (raiz / "_selftest/remota.md").unlink()   # agora só existe no ref
+
+        ponteiro_bom = {
+            "id": "ponteiro-ok",
+            "deriva_de": {"tipo": "artigo-didatico", "path": "_selftest/remota.md",
+                          "sha256": h_rem, "ref": "minha-fonte"},
+            "formato": "carrossel",
+            "itens": [{"ordem": 1, "fonte": "Achado Um"}, {"ordem": 2, "fonte": "Achado Dois"}],
+            "sha256_da_peca": "abc", "aprovacao": {"por": "P", "em": "D", "hash_da_peca": "abc"},
+        }
+        rp = montar({"lote": "PT", "pecas": [ponteiro_bom]}, raiz)
+        if rp["aprovadas"] != 1:
+            falhas.append(f"modo PONTEIRO recusou peca boa: {rp['erros']}")
+
+        ruim = json.loads(json.dumps(ponteiro_bom)); ruim["id"] = "ref-falso"
+        ruim["deriva_de"]["ref"] = "branch-que-nao-existe"
+        rp2 = montar({"lote": "PT", "pecas": [ruim]}, raiz)
+        if not any("ref 'branch-que-nao-existe'" in e for e in rp2["erros"]):
+            falhas.append("controle negativo ausente: ref inexistente nao foi recusado")
+
+        ruim2 = json.loads(json.dumps(ponteiro_bom)); ruim2["id"] = "sem-ref"
+        del ruim2["deriva_de"]["ref"]
+        rp3 = montar({"lote": "PT", "pecas": [ruim2]}, raiz)
+        if not any("sem ponteiro remoto" in e for e in rp3["erros"]):
+            falhas.append("controle negativo ausente: origem ausente sem ref nao foi recusada")
+
+        ruim3 = json.loads(json.dumps(ponteiro_bom)); ruim3["id"] = "hash-do-ref-errado"
+        ruim3["deriva_de"]["sha256"] = "0" * 64
+        rp4 = montar({"lote": "PT", "pecas": [ruim3]}, raiz)
+        if not any("sha256 do ponteiro nao confere" in e or "sha256 do ponteiro não confere" in e for e in rp4["erros"]):
+            falhas.append("controle negativo ausente: hash divergente no modo PONTEIRO nao foi pego")
 
         for f in falhas:
             print(f"FALHA: {f}")

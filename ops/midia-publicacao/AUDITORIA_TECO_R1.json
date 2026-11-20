@@ -3,7 +3,7 @@
  "alvo_imutavel": {
   "repo": "takwaratec/acervo-soberania-tecnologica",
   "branch": "midia/esteira-publicacao-20261120-r1",
-  "commit": "3e01539b3fc6e2d2d01dd1b4ebdaf04bf019d4dd",
+  "commit": "PREENCHER_APOS_COMMIT",
   "base": "0b6cbd4dd432a962571e18b13b327195028bfd2b"
  },
  "o_que_julgar": [
@@ -13,7 +13,9 @@
   "o exemplo em exemplos/LOTE_EXEMPLO_RECUSA.json e recusado pelos motivos alegados",
   "o HTML entrega o manual pedido, abre offline e navega pelas 9 paginas sem conteudo mutilado",
   "verificar_midia.py recusa de fato o que diz recusar, e o selftest REPROVA quando os limites são desligados (prova de que o selftest não é teatro)",
-  "PLANO_HOSPEDAGEM_OPCAO_A_R1.md declara como NAO VERIFICADO tudo que depende de credencial, e nao afirma que o Worker serve /midia"
+  "PLANO_HOSPEDAGEM_OPCAO_A_R1.md declara como NAO VERIFICADO tudo que depende de credencial, e nao afirma que o Worker serve /midia",
+  "P2 aceita ponteiro remoto (sha256 + ref) sem afrouxar: ref inexistente e sha divergente sao recusa nomeada",
+  "MAPA_DE_RESTAURACAO_R1.md declara como PENDENTE tudo que nao foi testado (chave age, ensaio em maquina limpa) e nao afirma que a restauracao foi provada"
  ],
  "perguntas_obrigatorias": [
   {
@@ -43,6 +45,18 @@
   {
    "id": "Q7",
    "pergunta": "Confira que a proporcao do slide 1 e usada como referencia do carrossel inteiro (corte do Instagram) e que um slide com dimensao diferente e recusado. Cite a linha do codigo e a saida do controle negativo."
+  },
+  {
+   "id": "Q8",
+   "pergunta": "Rode o selftest de montar_lote.py. Depois desligue a resolucao remota (monkeypatch de _blob_no_ref devolvendo True) e rode de novo: a segunda execucao DEVE reprovar com 'ref inexistente nao foi recusado'. Cole as duas saidas e os exit codes."
+  },
+  {
+   "id": "Q9",
+   "pergunta": "Rode o lote de exemplo da BAMBU-SCIENCE (exemplos/LOTE_TESTE_BAMBU_C1.json). Ele declarar deriva_de.ref de outro branch e NAO tem o arquivo no worktree. Cole a saida: a recusa tem de ser P3 (estado_documental em-revisao-documental), nao P2. Se a recusa for P2, a via ponteiro esta quebrada."
+  },
+  {
+   "id": "Q10",
+   "pergunta": "Abra MANUAL_ESTEIRA_R1.html e confirme 11 abas com 11 paineis, todas navegaveis e nenhuma vazia. Cite a contagem medida de data-tab e role=tabpanel."
   }
  ],
  "veredito": "PASS | FAIL | BLOCKED | INCONCLUSIVE",

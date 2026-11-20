@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import struct
 import sys
 from fractions import Fraction
@@ -122,6 +123,48 @@ def verificar_slide(raiz: Path, slide: dict, primeiro: tuple[int, int] | None) -
     return erros
 
 
+def verificar_ponteiro(manifesto: dict) -> dict:
+    """Modo --sem-bytes: o binário NÃO está no repositório (decisão do soberano:
+    arte não entra no Git). Valida o que o manifesto pode provar sozinho —
+    sha256 presente e com forma de sha256, URL https terminando no arquivo,
+    e dimensão declarada que permita conferir o corte do carrossel.
+
+    Limite declarado: sem os bytes, NÃO se prova que o arquivo remoto tem
+    aquelas dimensões nem aquele hash. Prova-se apenas que o ponteiro é
+    internamente coerente. Quem prova as dimensões é o verificador com bytes.
+    """
+    slides = manifesto.get("slides") or []
+    erros: list[str] = []
+    primeiro = None
+    if slides:
+        primeiro = slides[0].get("dimensao")
+    for s in slides:
+        nome = s.get("arquivo") or "<sem-arquivo>"
+        sha = (s.get("sha256") or "").strip().lower()
+        if not re.fullmatch(r"[0-9a-f]{64}", sha):
+            erros.append(f"{nome}: sha256 ausente ou não é sha256 (64 hex)")
+        url = s.get("url") or ""
+        if not url.startswith("https://"):
+            erros.append(f"{nome}: url pública ausente ou não https")
+        elif not url.endswith(nome):
+            erros.append(f"{nome}: url não termina no nome do arquivo — ponteiro aponta para outro objeto")
+        dim = s.get("dimensao") or ""
+        if not re.fullmatch(r"\d{2,5}x\d{2,5}", dim):
+            erros.append(f"{nome}: 'dimensao' ausente ou mal formada (esperado LARGURAxALTURA)")
+            continue
+        largura, altura = (int(x) for x in dim.split("x"))
+        if not (LARGURA_MIN <= largura <= LARGURA_MAX):
+            erros.append(f"{nome}: largura {largura}px fora de {LARGURA_MIN}..{LARGURA_MAX}")
+        prop = Fraction(largura, altura) if altura else Fraction(0)
+        if not (PROP_MIN <= prop <= PROP_MAX):
+            erros.append(f"{nome}: proporção {float(prop):.3f} fora de 0.800 .. 1.910")
+        if primeiro and dim != primeiro:
+            erros.append(f"{nome}: {dim} difere do slide 1 ({primeiro}) — o carrossel é cortado pela proporção do primeiro")
+    return {"lote": manifesto.get("lote"), "slides": len(slides), "modo": "SEM_BYTES",
+            "padrao_do_carrossel": primeiro, "ok": not erros, "erros": erros,
+            "limite": "sem os bytes o manifesto prova coerência do ponteiro, NÃO que o objeto remoto tem essas dimensões"}
+
+
 def verificar(manifesto: dict, raiz: Path) -> dict:
     slides = manifesto.get("slides") or []
     erros: list[str] = []
@@ -201,6 +244,28 @@ def selftest() -> int:
         if not any("largura 200px fora" in e for e in r_larg["erros"]):
             falhas.append("controle negativo ausente: largura fora da faixa não foi pega")
 
+        # controle negativo 6: modo --sem-bytes. Ponteiro com dimensao divergente
+        # do slide 1 tem de ser recusado sem nenhum byte no disco.
+        bom_ptr = [
+            {"arquivo": "1.jpg", "sha256": "a" * 64, "url": "https://x/1.jpg", "dimensao": "1080x1350"},
+            {"arquivo": "2.jpg", "sha256": "b" * 64, "url": "https://x/2.jpg", "dimensao": "1080x1350"},
+        ]
+        rp = verificar_ponteiro({"lote": "P", "slides": bom_ptr})
+        if not rp["ok"]:
+            falhas.append(f"ponteiro bom recusado: {rp['erros']}")
+        ruim = [bom_ptr[0], {**bom_ptr[1], "dimensao": "1080x1080"}]
+        rp2 = verificar_ponteiro({"lote": "P", "slides": ruim})
+        if not any("difere do slide 1" in e for e in rp2["erros"]):
+            falhas.append("controle negativo ausente: ponteiro com dimensao divergente nao foi pego")
+        sem_sha = [{"arquivo": "1.jpg", "sha256": "", "url": "https://x/1.jpg", "dimensao": "1080x1350"}]
+        rp3 = verificar_ponteiro({"lote": "P", "slides": sem_sha})
+        if not any("sha256 ausente" in e for e in rp3["erros"]):
+            falhas.append("controle negativo ausente: ponteiro sem sha256 nao foi pego")
+        url_errada = [{"arquivo": "1.jpg", "sha256": "a" * 64, "url": "https://x/outro.jpg", "dimensao": "1080x1350"}]
+        rp4 = verificar_ponteiro({"lote": "P", "slides": url_errada})
+        if not any("nao termina no nome" in e or "não termina no nome" in e for e in rp4["erros"]):
+            falhas.append("controle negativo ausente: url apontando para outro objeto nao foi pego")
+
         # controle negativo 5: png
         png = b"\x89PNG\r\n\x1a\n" + b"\x00\x00\x00\x0dIHDR" + struct.pack(">II", 1080, 1350) + b"\x08\x06\x00\x00\x00"
         (raiz / "x.png").write_bytes(png)
@@ -216,7 +281,7 @@ def selftest() -> int:
 
     for f in falhas:
         print(f"FALHA: {f}")
-    print(json.dumps({"selftest": "PASS" if not falhas else "FAIL", "controles": 6}, ensure_ascii=False))
+    print(json.dumps({"selftest": "PASS" if not falhas else "FAIL", "controles": 9}, ensure_ascii=False))
     return 0 if not falhas else 1
 
 
@@ -226,13 +291,15 @@ def main(argv=None) -> int:
     ap.add_argument("--raiz-public", default=".")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--selftest", action="store_true")
+    ap.add_argument("--sem-bytes", action="store_true", dest="sem_bytes",
+                    help="valida so o ponteiro do manifesto (binario fora do repositorio)")
     a = ap.parse_args(argv)
     if a.selftest:
         return selftest()
     if not a.manifesto:
         ap.error("--manifesto e obrigatorio (ou use --selftest)")
     m = json.loads(Path(a.manifesto).read_text(encoding="utf-8"))
-    r = verificar(m, Path(a.raiz_public))
+    r = verificar_ponteiro(m) if a.sem_bytes else verificar(m, Path(a.raiz_public))
     print(json.dumps(r, ensure_ascii=False, indent=1))
     return 0 if r["ok"] else 1
 

@@ -30,6 +30,8 @@ code{font:0.9em ui-monospace,Menlo,monospace;background:#E7DCC9;padding:1px 5px;
 pre{font:13px/1.5 ui-monospace,Menlo,monospace;background:var(--ink);color:#F2E9DA;padding:16px 18px;border-radius:10px;white-space:pre-wrap;overflow-wrap:anywhere;margin:0 0 16px}
 pre code{background:none;padding:0;color:inherit}
 .tw{overflow-x:auto;margin:0 0 18px;-webkit-overflow-scrolling:touch}
+ul{margin:0 0 16px;padding-left:22px;max-width:74ch}
+ul li{margin:0 0 7px}
 table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
 th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
 th{background:#E7DCC9;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
@@ -56,7 +58,8 @@ footer{margin-top:38px;padding-top:14px;border-top:1px solid var(--line);font-si
 <button class="navbtn" data-tab="p7" aria-selected="false" role="tab">7 · Pendências</button>
 <button class="navbtn" data-tab="p8" aria-selected="false" role="tab">8 · Fase 2</button>
 <button class="navbtn" data-tab="p9b" aria-selected="false" role="tab">9 · Hospedagem</button>
-<button class="navbtn" data-tab="p9" aria-selected="false" role="tab">10 · Registro</button></nav>
+<button class="navbtn" data-tab="p10" aria-selected="false" role="tab">10 · Restauração</button>
+<button class="navbtn" data-tab="p9" aria-selected="false" role="tab">11 · Registro</button></nav>
 <section id="p1" class="panel active" role="tabpanel" aria-hidden="false">
 <header class="doc"><div class="kicker">TakwaraTec · INTEGRACAO_MIDIAS_SOCIAIS</div><h1>Esteira de publicação do Acervo</h1><p class="sub">Manual operacional R1 — construir, montar lote, recusar o que não está homologado. Nada aqui publica.</p><div class="chips"><span class="chip">PROPOSTA · NÃO VIGENTE</span><span class="chip">2026-11-20</span><span class="chip">base 0b6cbd4d</span><span class="chip">não publica</span></div></header>
 <div class="pmark">Página 01</div>
@@ -192,9 +195,61 @@ worker.js l.36  →  return env.ASSETS.fetch(request);</pre>
 <div class="page-nav"><a href="#p9">Próxima → 10 · Registro</a></div>
 <footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
 </section>
+<section id="p10" class="panel" role="tabpanel" aria-hidden="true">
+<div class="pmark">Página 10</div>
+<h2>Como reerguer isto numa máquina nova</h2>
+<p>O Git é a fonte da verdade do <b>sistema</b>. O Drive guarda os <b>bytes</b>. E uma chave + este mapa fora do Mac são o que liga os dois.</p>
+<h3>As quatro camadas — e qual delas quebra</h3>
+<div class="tw"><table><thead><tr><th>camada</th><th>guarda</th><th>onde</th><th>sobrevive à perda do Mac?</th></tr></thead><tbody>
+<tr><td>1 · fonte da verdade</td><td>texto, regras, código, manifesto, decisões</td><td>GitHub</td><td>sim</td></tr>
+<tr><td>2 · bytes</td><td>PDF, artes, lotes cifrados</td><td>Drive</td><td>sim, <b>se a chave existir</b></td></tr>
+<tr><td>3 · segredo</td><td>chave <code>age</code>, tokens</td><td>fora do Git e fora do Mac</td><td><b>não — elo frágil</b></td></tr>
+<tr><td>4 · serviço</td><td>site no ar, Worker servindo arte</td><td>Cloudflare</td><td>reemite-se pelo deploy</td></tr>
+</tbody></table></div>
+<div class="danger"><b>O elo que ninguém lembra</b><div>Os lotes custodiados são <code>.tar.zst.age</code>. Sem a chave privada, eles existem no Drive e <b>não abrem</b>. Hoje a chave mora só neste Mac — ou seja, a camada 2 depende da camada 3, e a camada 3 não tem backup. Isso está registrado como pendência com dono, não como resolvido.</div></div>
+<h3>A ordem, com os comandos que importam</h3>
+<pre># 1. repos
+git clone git@github.com:takwaratec/acervo-soberania-tecnologica.git
+git clone git@github.com:takwaratec/TakwaraTec-Laboratorio-Editorial.git
+git clone git@github.com:takwaratec/TakwaraTec-Acervo-Web.git
+
+# 2. o ref do ledger NAO vem no clone padrao
+cd TakwaraTec-Laboratorio-Editorial
+git fetch origin +refs/heads/r4-claims:refs/heads/r4-claims
+git rev-parse r4-claims
+
+# 3. provar que a esteira voltou viva
+cd ../acervo-soberania-tecnologica/ops/midia-publicacao
+python3 montar_lote.py --selftest
+python3 verificar_midia.py --selftest</pre>
+<div class="note"><b>Por que a esteira não precisa de instalação</b><div>Ela usa só a biblioteca padrão do Python. Uma VM nova não instala nada para o gate funcionar — e o gate não quebra por dependência ausente. Isso é desenho, não acaso.</div></div>
+<h3>Credenciais: todas se reemitem, nenhuma se copia</h3>
+<div class="tw"><table><thead><tr><th>serviço</th><th>como reemitir</th></tr></thead><tbody>
+<tr><td>GitHub</td><td>chave SSH nova, colar em github.com/settings/keys</td></tr>
+<tr><td>Cloudflare</td><td><code>npx wrangler login</code> ou token no dashboard</td></tr>
+<tr><td>Google Drive</td><td><code>rclone config reconnect</code> — exige navegador nesta máquina</td></tr>
+<tr><td>Meta / Instagram</td><td>App Dashboard, novo token de usuário</td></tr>
+<tr><td>chave <code>age</code></td><td><b>copiar do cofre</b> — não se reemite</td></tr>
+</tbody></table></div>
+<h3>O ciclo fechando</h3>
+<p>O <b>manifesto no Git</b> diz qual <code>sha256</code> cada arte deve ter. O <b>Drive</b> tem os bytes. Se os dois baterem, a reconstrução é fiel — não uma aproximação. Sem o manifesto, o Drive tem arquivos; com ele, tem um acervo.</p>
+<div class="danger"><b>Antes de qualquer deploy em máquina nova</b><div><code>dist/</code> é reconstruído a cada build: sem as artes no disco, o deploy <b>remove do ar</b> as artes de lotes anteriores. Rebaixe do Drive e confira os hashes <b>antes</b> de publicar.</div></div>
+<h3>O que não é reconstruível, e o mapa tem de dizer</h3>
+<ul>
+<li>Histórico de publicação no Instagram — se a conta se perder, nenhum clone a recupera.</li>
+<li>Tokens antigos — todos expiram; a restauração pressupõe reemissão.</li>
+<li>Estado local não commitado — worktree sujo morre com a máquina.</li>
+<li>Conversas — decisão que existe só em chat não está preservada; para valer, vira arquivo no repositório.</li>
+</ul>
+<div class="note"><b>Este mapa é plano, não prova</b><div>Ninguém restaurou de fato numa máquina limpa. Um mapa nunca testado pode estar errado em qualquer linha. Status honesto: <code>PLANO_NAO_TESTADO</code>. O ensaio de restauração em VM está na lista de pendências com dono.</div></div>
+<div class="page-nav back"><a href="#p9b">← 9 · Hospedagem</a></div>
+<div class="page-nav"><a href="#p9">Próxima → 11 · Registro</a></div>
+<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
+</section>
+
 <section id="p9" class="panel" role="tabpanel" aria-hidden="true">
 
-<div class="pmark">Página 10</div>
+<div class="pmark">Página 11</div>
 <h2>Registro e rastreabilidade</h2>
 <h3>Artefatos desta frente</h3>
 <div class="tw"><table><thead><tr><th>arquivo</th><th>o que é</th></tr></thead><tbody><tr><td>ops/midia-publicacao/montar_lote.py</td><td>montador com seis portões e selftest de controle negativo</td></tr><tr><td>ops/midia-publicacao/SCHEMA_PECA_MIDIA_R1.json</td><td>formato da peça de mídia, estados aceitos e pendencias</td></tr><tr><td>ops/midia-publicacao/exemplos/LOTE_EXEMPLO_RECUSA.json</td><td>exemplo que a esteira recusa — prova viva</td></tr><tr><td>ops/midia-publicacao/MANUAL_ESTEIRA_R1.md</td><td>manual operacional em markdown</td></tr><tr><td>ops/midia-publicacao/MANUAL_ESTEIRA_R1.html</td><td>este documento</td></tr></tbody></table></div>
@@ -202,7 +257,7 @@ worker.js l.36  →  return env.ASSETS.fetch(request);</pre>
 <p>Nenhuma publicação. Nenhum deploy. Nenhuma chamada a Meta, Cloudflare ou GPT Maker. Nenhum valor de secret lido, transportado ou gravado. A frente de mídias do Instagram (F1 — leitura remota) continua <b>bloqueada por credencial</b>: sem token Cloudflare e sem sessão no Meta App, não há como separar o que foi implantado do que foi apenas testado.</p>
 <h3>Próximo passo</h3>
 <p>Auditoria TECO deste pacote. Depois das correções, PR e merge para a auditoria Sol externa, conforme sua instrução.</p>
-<div class="page-nav back"><a href="#p9b">← 9 · Hospedagem</a></div>
+<div class="page-nav back"><a href="#p10">← 10 · Restauração</a></div>
 <footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
 </section>
 </div>

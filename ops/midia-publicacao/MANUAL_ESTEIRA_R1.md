@@ -57,11 +57,27 @@ nesse estado. Isso não é defeito do corpus, é o retrato do terreno em prepara
 | portão | o que verifica | como falha |
 |---|---|---|
 | P1 | `deriva_de.tipo` é editorial publicável e o caminho existe dentro do repo | recusa se `tipo=ficha` ou caminho ausente/fora |
-| P2 | `sha256` declarado da origem confere com os bytes | recusa se divergir ou faltar |
+| P2 | `sha256` da origem confere — pelos bytes no worktree **ou** por `git cat-file` no ref declarado | recusa se divergir, faltar, ou o ref não resolver |
 | P3 | origem homologada **e** `tem_artigo: sim` | recusa `em-revisao-documental` |
 | P4 | formato coerente com a contagem de itens | carrossel exige 2 a 20 |
-| P5 | toda `fonte` citada aparece literalmente no corpo da origem | recusa fonte inventada |
+| P5 | toda `fonte` citada aparece literalmente no corpo da origem | recusa fonte inventada; **NAO_VERIFICADO** quando o corpo não está disponível |
 | P6 | `aprovacao.hash_da_peca` = `sha256_da_peca` | recusa aprovação de outro bytes |
+
+## 4A. As duas vias de P2 — e por que a segunda não afrouxa o gate
+
+Publicar exige a fonte rastreável, não exige cerimônia de mescla.
+
+- **Via BYTES**: a peça editorial está no worktree. O `sha256` é calculado dos bytes presentes.
+- **Via PONTEIRO**: a peça editorial está homologada e publicada em outro branch/remoto — que é o
+  caso normal, porque homologado no Git já é fonte. O lote declara
+  `deriva_de.sha256` **e** `deriva_de.ref` (ex.: `origin/hermes/mtcc-auditoria-pacote-...`), e o gate
+  confere o hash por `git cat-file` naquele ref, no próprio clone, sem rede.
+
+O que a via PONTEIRO **não** faz: assumir. Ref inexistente é recusa nomeada
+(`ref '...' não resolve '...'`), sha divergente é recusa, e origem ausente sem ref é recusa.
+
+Consequência prática: **nenhum lote real falha por a peça não estar mesclada na main.** Foi o defeito
+medido no ensaio com a BAMBU-SCIENCE em 2026-11-20.
 
 ## 5. Como o operador usa (comandos literais)
 
