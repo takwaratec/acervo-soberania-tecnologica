@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Esteira de publicação — manual R1</title>
+<meta name="description" content="Manual operacional da esteira de publicação do Acervo: ficha não gera mídia; seis portões; nada publica.">
+<meta property="og:title" content="Esteira de publicação — manual R1">
+<meta property="og:description" content="Como montar lote e recusar o que não está homologado. Nada aqui publica.">
+<style>
+:root{--bg:#EFE7D8;--bg2:#F7F2E7;--ink:#241C17;--muted:#6B5B4E;--accent:#B4552D;--accent-d:#8A3F20;--green:#4A6B4E;--line:#D8CBB6;}
+*{box-sizing:border-box}
+html{scroll-behavior:auto}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px 80px}
+header.doc{padding:44px 0 26px;border-bottom:2px solid var(--ink);margin-bottom:0}
+.kicker{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-d);font-weight:700}
+h1{font-size:clamp(1.7rem,4.4vw,2.7rem);line-height:1.12;margin:.36em 0 .3em;letter-spacing:-.015em}
+.sub{color:var(--muted);font-size:1.02rem;max-width:62ch;margin:0 0 18px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:6px}
+.chip{font:600 11.5px/1.35 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--bg2);border:1px solid var(--line);border-radius:999px;padding:6px 12px;color:var(--muted);letter-spacing:.03em}
+nav[role=tablist]{display:flex;flex-wrap:wrap;gap:6px;padding:16px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:20}
+.navbtn{font:600 13px/1 inherit;padding:9px 13px;border:1px solid var(--line);background:var(--bg2);color:var(--muted);border-radius:8px;cursor:pointer}
+.navbtn[aria-selected=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.panel{display:none;padding-top:26px}
+.panel.active{display:block}
+.pmark{font:600 11.5px/1 ui-monospace,Menlo,monospace;color:var(--accent-d);letter-spacing:.14em;text-transform:uppercase;margin:10px 0 10px}
+h2{font-size:clamp(1.3rem,3.2vw,1.85rem);line-height:1.2;margin:0 0 18px;overflow-wrap:anywhere}
+h3{font-size:1.05rem;margin:26px 0 8px;color:var(--accent-d)}
+p{margin:0 0 14px;max-width:74ch}
+code{font:0.9em ui-monospace,Menlo,monospace;background:#E7DCC9;padding:1px 5px;border-radius:4px}
+pre{font:13px/1.5 ui-monospace,Menlo,monospace;background:var(--ink);color:#F2E9DA;padding:16px 18px;border-radius:10px;white-space:pre-wrap;overflow-wrap:anywhere;margin:0 0 16px}
+pre code{background:none;padding:0;color:inherit}
+.tw{overflow-x:auto;margin:0 0 18px;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
+th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+th{background:#E7DCC9;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+tbody tr:nth-child(even){background:var(--bg2)}
+.note,.ok,.danger{border-left:4px solid var(--accent);background:var(--bg2);padding:13px 16px;border-radius:0 8px 8px 0;margin:0 0 16px}
+.ok{border-color:var(--green)} .danger{border-color:var(--accent-d);background:#F6E9E2}
+.note b,.ok b,.danger b{display:block;margin-bottom:5px;font-size:.95rem}
+blockquote{margin:0 0 18px;padding:16px 20px;background:var(--bg2);border-left:3px solid var(--accent-d);border-radius:0 8px 8px 0;font-size:1.02rem}
+blockquote .small{display:block;margin-top:9px;font-size:12.5px;color:var(--muted);font-style:normal}
+.page-nav{margin:26px 0 0;display:flex;flex-wrap:wrap;gap:14px}
+.page-nav a{color:var(--accent-d);font-weight:650;text-decoration:none;border-bottom:1px solid var(--accent)}
+footer{margin-top:38px;padding-top:14px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+@media(max-width:760px){table{min-width:0}th,td{font-size:13.5px;padding:8px}nav[role=tablist]{gap:5px}.navbtn{padding:8px 11px;font-size:12px}}
+@media(max-width:420px){h1{font-size:1.5rem}}
+@media print{nav[role=tablist]{display:none}.panel{display:block!important;page-break-after:always;break-inside:avoid}}
+</style></head>
+<body><div class="wrap">
+<nav role="tablist" aria-label="Páginas"><button class="navbtn" data-tab="p1" aria-selected="true" role="tab">1 · O que é</button>
+<button class="navbtn" data-tab="p2" aria-selected="false" role="tab">2 · A cadeia</button>
+<button class="navbtn" data-tab="p3" aria-selected="false" role="tab">3 · Critério</button>
+<button class="navbtn" data-tab="p4" aria-selected="false" role="tab">4 · Os portões</button>
+<button class="navbtn" data-tab="p5" aria-selected="false" role="tab">5 · Como usar</button>
+<button class="navbtn" data-tab="p6" aria-selected="false" role="tab">6 · Quando recusa</button>
+<button class="navbtn" data-tab="p7" aria-selected="false" role="tab">7 · Pendências</button>
+<button class="navbtn" data-tab="p8" aria-selected="false" role="tab">8 · Fase 2</button>
+<button class="navbtn" data-tab="p9" aria-selected="false" role="tab">9 · Registro</button></nav>
+<section id="p1" class="panel active" role="tabpanel" aria-hidden="false">
+<header class="doc"><div class="kicker">TakwaraTec · INTEGRACAO_MIDIAS_SOCIAIS</div><h1>Esteira de publicação do Acervo</h1><p class="sub">Manual operacional R1 — construir, montar lote, recusar o que não está homologado. Nada aqui publica.</p><div class="chips"><span class="chip">PROPOSTA · NÃO VIGENTE</span><span class="chip">2026-11-20</span><span class="chip">base 0b6cbd4d</span><span class="chip">não publica</span></div></header>
+<div class="pmark">Página 01</div>
+<h2>O que esta esteira faz</h2>
+<p>Esta esteira pega <b>peças de mídia</b> que derivam de <b>peças editoriais homologadas</b>, monta um <b>lote</b>, ordena uma <b>fila</b> com canal, data e hora — e <b>recusa</b> tudo que não cumpra os seis portões.</p>
+<div class="ok"><b>O que ela não faz</b><div>Não publica. Não fala com a Meta. Não abre rede. Não decide formato. Não cria conteúdo. O código não tem uma linha de rede sequer — verificado por lista de imports: apenas <code>argparse, hashlib, json, pathlib, re, sys, tempfile</code>.</div></div>
+<h3>Por que ela foi construída vazia</h3>
+<p>O gargalo é editorial, não técnico. A esteira só aceita entrada homologada, e hoje não existe nenhuma. Esteira pronta com entrada vazia é o estado mais seguro possível: quando a primeira peça editorial homologada sair do MTCC, ela entra sem você precisar parar tudo para montar infraestrutura.</p>
+<div class="page-nav"><a href="#p2">Próxima → 2 · A cadeia</a></div>
+<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
+</section><section id="p2" class="panel" role="tabpanel" aria-hidden="true">
+
+<div class="pmark">Página 02</div>
+<h2>Os quatro elos</h2>
+<p>A cadeia tem quatro elos e o segundo é o que existe para impedir o erro caro.</p>
+<pre>ficha (docs/analyses/&lt;gaveta&gt;/*.md)        INSUMO — não publicável
+   ↓
+peça editorial                             CAMADA HOMOLOGÁVEL
+(estado da arte | artigo didático | artigo científico Zenodo)
+   ↓
+peça de mídia                              ESTA ESTEIRA
+(carrossel | vídeo curto | estático)
+   ↓
+lote aprovado                              ATO DO SOBERANO
+   ↓
+fila de publicação                         item = peça + canal + data + hora</pre>
+<div class="danger"><b>A ficha não vira mídia</b><div>Uma ficha científica declara limites, ressalvas e condições que uma legenda de 2.200 caracteres não comporta. Traduzi-la direto para post transforma ressalva em afirmação. A peça editorial — estado da arte, artigo didático ou artigo científico — já passou por esse trabalho de síntese e é a única coisa que pode alimentar mídia.</div></div>
+<div class="page-nav back"><a href="#p1">← 1 · O que é</a></div><div class="page-nav"><a href="#p3">Próxima → 3 · Critério</a></div>
+<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
+</section><section id="p3" class="panel" role="tabpanel" aria-hidden="true">
+
+<div class="pmark">Página 03</div>
+<h2>Critério de homologação</h2>
+<blockquote>assim que o terreno estiver preparado, nós trabalharemos apenas com material homologado que tenha pelo menos um estado da arte de uma coleção e um artigo, um artigo didático, no mínimo. Podem haver casos em que um artigo de cunho científico seja produzido e publicado no Zenodo.<span class="small">— Fábio, 2026-11-20</span></blockquote>
+<h3>O que a peça editorial precisa declarar</h3>
+<div class="tw"><table><thead><tr><th>campo</th><th>valor aceito</th></tr></thead><tbody><tr><td>estado_documental</td><td>homologado-documentalmente · publicado-no-zenodo · depositado-no-zenodo · publicado-no-acervo · edicao-publica-conformada · edicao-revisada-para-acervo</td></tr><tr><td>tem_artigo</td><td>sim</td></tr></tbody></table></div>
+<div class="danger"><b>O número que importa</b><div><b>227 de 348 fichas</b> do corpus estão em <code>em-revisao-documental</code> — estado que <b>não</b> passa. Isso não é defeito do corpus: é o retrato do terreno em preparação. Medido em 2026-11-20 por contagem de frontmatter em <code>docs/analyses</code>.</div></div>
+<div class="page-nav back"><a href="#p2">← 2 · A cadeia</a></div><div class="page-nav"><a href="#p4">Próxima → 4 · Os portões</a></div>
+<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
+</section><section id="p4" class="panel" role="tabpanel" aria-hidden="true">
+
+<div class="pmark">Página 04</div>
+<h2>Os seis portões</h2>
+<p>Cada portão recusa por um motivo diferente, e recusar é o resultado esperado — não a exceção.</p>
+<div class="tw"><table><thead><tr><th>portão</th><th>o que verifica</th><th>como falha</th></tr></thead><tbody><tr><td>P1</td><td>deriva_de.tipo é editorial publicável e o caminho existe dentro do repo</td><td>recusa se tipo=ficha ou caminho ausente/fora</td></tr><tr><td>P2</td><td>sha256 declarado da origem confere com os bytes</td><td>recusa se divergir ou faltar</td></tr><tr><td>P3</td><td>origem homologada e tem_artigo: sim</td><td>recusa em-revisao-documental</td></tr><tr><td>P4</td><td>formato coerente com a contagem de itens</td><td>carrossel exige 2 a 20</td></tr><tr><td>P5</td><td>toda fonte citada aparece literalmente no corpo da origem</td><td>recusa fonte inventada</td></tr><tr><td>P6</td><td>aprovacao.hash_da_peca = sha256_da_peca</td><td>recusa aprovação de outro bytes</td></tr></tbody></table></div>
+<div class="note"><b>Limite honesto do P5</b><div>P5 é verificação de <b>string</b>, não de sentido. Garante que a fonte citada existe; <b>não</b> garante que a peça a interpretou corretamente. Esse julgamento continua sendo seu ou de um auditor.</div></div>
+<div class="page-nav back"><a href="#p3">← 3 · Critério</a></div><div class="page-nav"><a href="#p5">Próxima → 5 · Como usar</a></div>
+<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
+</section><section id="p5" class="panel" role="tabpanel" aria-hidden="true">
+
+<div class="pmark">Página 05</div>
+<h2>Passo a passo no Mac</h2>
+<h3>Passo 0 — chegar ao repositório</h3>
+<p>Abra o Terminal. Os comandos abaixo assumem o clone do acervo. Se você estiver usando o worktree da frente:</p>
+<pre>cd ~/Takwara/worktrees/acervo-soberania-tecnologica/midia-esteira-20261120</pre>
+<h3>Passo 1 — provar que o gate está ligado</h3>
+<p>Este comando roda o controle negativo embutido: ele precisa recusar quatro peças que estão erradas de propósito. Se aprovar tudo, o gate está desligado e <b>nada</b> deve ser publicado.</p>
+<pre>python3 ops/midia-publicacao/montar_lote.py --selftest</pre>
+<p>Saída esperada (e exit 0):</p>
+<pre>{&quot;selftest&quot;: &quot;PASS&quot;, &quot;aprovadas&quot;: 1, &quot;recusadas&quot;: 4, &quot;erros&quot;: 4, &quot;fila&quot;: 1}</pre>
+<h3>Passo 2 — ver a esteira recusando de verdade</h3>
+<p>O exemplo abaixo aponta para uma ficha real do acervo. Ele deve ser recusado em cinco frentes diferentes. Se passar, algo está errado.</p>
+<pre>python3 ops/midia-publicacao/montar_lote.py \
+  --lote ops/midia-publicacao/exemplos/LOTE_EXEMPLO_RECUSA.json --raiz .
+echo &quot;exit=$?&quot;</pre>
+<h3>Passo 3 — montar um lote real (quando existir peça homologada)</h3>
+<pre>python3 ops/midia-publicacao/montar_lote.py --lote &lt;seu-lote.json&gt; --raiz .</pre>
+<div class="note"><b>Exit 1 é resultado, não erro</b><div>Quando qualquer peça é recusada, o script sai com código 1 e lista cada motivo com o portão e o identificador da peça. Leia a linha: ela diz exatamente o que corrigir.</div></div>
+<div class="page-nav back"><a href="#p4">← 4 · Os portões</a></div><div class="page-nav"><a href="#p6">Próxima → 6 · Quando recusa</a></div>
+<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
+</section><section id="p6" class="panel" role="tabpanel" aria-hidden="true">
+
+<div class="pmark">Página 06</div>
+<h2>O que fazer quando a esteira recusa</h2>
+<h3>Os quatro casos reais</h3>
+<div class="tw"><table><thead><tr><th>erro</th><th>o que significa</th><th>o que fazer</th></tr></thead><tbody><tr><td>P1 tipo=ficha</td><td>a peça tentou publicar ficha</td><td>produzir estado da arte ou artigo antes</td></tr><tr><td>P3 em-revisao-documental</td><td>o terreno daquela coleção não está preparado</td><td>aguardar homologação; não forçar</td></tr><tr><td>P5 fonte não encontrada</td><td>o texto afirma algo que a origem não contém literalmente</td><td>corrigir o texto ou a fonte — nunca soltar o portão</td></tr><tr><td>P6 hash divergente</td><td>a peça mudou depois de aprovada</td><td>reaprovar os bytes novos</td></tr></tbody></table></div>
+<div class="danger"><b>A regra que não se negocia</b><div>Quando a esteira recusa, o conserto é na peça ou no terreno — <b>nunca</b> no portão. Soltar um portão para passar uma peça transforma a esteira em carimbo, e o carimbo é pior que a ausência de esteira: dá a impressão de controle.</div></div>
+<div class="page-nav back"><a href="#p5">← 5 · Como usar</a></div><div class="page-nav"><a href="#p7">Próxima → 7 · Pendências</a></div>
+<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
+</section><section id="p7" class="panel" role="tabpanel" aria-hidden="true">
+
+<div class="pmark">Página 07</div>
+<h2>O que não está provado</h2>
+<p>Documento de operação separa o que está ligado do que não foi provado. Esta é a seção do que não foi provado — não rodapé de ressalvas.</p>
+<div class="tw"><table><thead><tr><th>#</th><th>pendência</th><th>estado</th><th>dono</th><th>bloqueia</th></tr></thead><tbody><tr><td>1</td><td>modo desenvolvedor não cria gaveta invisível no Instagram</td><td>NÃO VERIFICADO no App real</td><td>Fábio</td><td>ensaio invisível</td></tr><tr><td>2</td><td>permissão instagram_business_content_publish ausente no app</td><td>NÃO VERIFICADO</td><td>Fábio</td><td>fase 2</td></tr><tr><td>3</td><td>imagem tem de estar em URL pública (Meta baixa, não aceita upload)</td><td>requisito conhecido</td><td>a definir</td><td>fase 2</td></tr><tr><td>4</td><td>relógio da fase 2 precisa sobreviver ao Mac desligado</td><td>requisito conhecido</td><td>a definir</td><td>fase 2</td></tr><tr><td>5</td><td>auditoria do Release 1 pode revelar divergências</td><td>ABERTA</td><td>MTCC</td><td>primeiro lote com Release 1</td></tr></tbody></table></div>
+<div class="note"><b>Correção declarada — pendência 1</b><div>Eu afirmei em conversa que o modo desenvolvedor não cria publicação oculta no Instagram. A base é a <b>ausência de mecanismo documentado</b> para publicação de Instagram em rascunho/oculto — não uma leitura do seu App Dashboard. Registro como <b>não verificado</b>, não como fato. A verificação custa uma leitura do App e ainda não foi feita porque falta credencial.</div></div>
+<h3>O que trava a fase 2, em uma frase</h3>
+<p>Para publicar programado faltam quatro coisas: a permissão <code>instagram_business_content_publish</code>, um lugar público onde a Meta possa baixar cada imagem, um relógio que rode fora do Mac, e a aprovação do lote. Nenhuma delas existe hoje.</p>
+<div class="page-nav back"><a href="#p6">← 6 · Quando recusa</a></div><div class="page-nav"><a href="#p8">Próxima → 8 · Fase 2</a></div>
+<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
+</section><section id="p8" class="panel" role="tabpanel" aria-hidden="true">
+
+<div class="pmark">Página 08</div>
+<h2>Fase 1 e fase 2, lado a lado</h2>
+<div class="tw"><table><thead><tr><th></th><th>fase 1 — manual assistida</th><th>fase 2 — programada</th></tr></thead><tbody><tr><td>quem publica</td><td>você, à mão</td><td>um executor no Cloudflare</td></tr><tr><td>precisa de token de publicação</td><td>não</td><td>sim</td></tr><tr><td>precisa de App Review</td><td>não</td><td>não, se for só a sua conta</td></tr><tr><td>imagem em URL pública</td><td>não</td><td>sim</td></tr><tr><td>relógio fora do Mac</td><td>não</td><td>sim, obrigatório</td></tr><tr><td>custo do seu tempo</td><td>10 a 15 min por carrossel</td><td>zero por post; revisão só do lote</td></tr></tbody></table></div>
+<div class="ok"><b>Por que começar pela fase 1</b><div>Você disse que não quer ficar publicando. A fase 1 é o caminho mais curto até lá: ela prova o pacote — ordem dos slides, legenda, alt-text, aprovação da arte — com custo quase zero. Construir a fase 2 antes disso é pagar manutenção de token, bucket e relógio para testar conteúdo que ainda vai mudar.</div></div>
+<h3>O que muda quando a fase 2 chegar</h3>
+<p>Seu trabalho passa a ser <b>aprovar o lote</b>, não o post. Um lote de 12 carrosséis aprovado de uma vez libera 12 publicações na cadência definida. É aí que você deixa de publicar.</p>
+<div class="page-nav back"><a href="#p7">← 7 · Pendências</a></div><div class="page-nav"><a href="#p9">Próxima → 9 · Registro</a></div>
+<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
+</section><section id="p9" class="panel" role="tabpanel" aria-hidden="true">
+
+<div class="pmark">Página 09</div>
+<h2>Registro e rastreabilidade</h2>
+<h3>Artefatos desta frente</h3>
+<div class="tw"><table><thead><tr><th>arquivo</th><th>o que é</th></tr></thead><tbody><tr><td>ops/midia-publicacao/montar_lote.py</td><td>montador com seis portões e selftest de controle negativo</td></tr><tr><td>ops/midia-publicacao/SCHEMA_PECA_MIDIA_R1.json</td><td>formato da peça de mídia, estados aceitos e pendencias</td></tr><tr><td>ops/midia-publicacao/exemplos/LOTE_EXEMPLO_RECUSA.json</td><td>exemplo que a esteira recusa — prova viva</td></tr><tr><td>ops/midia-publicacao/MANUAL_ESTEIRA_R1.md</td><td>manual operacional em markdown</td></tr><tr><td>ops/midia-publicacao/MANUAL_ESTEIRA_R1.html</td><td>este documento</td></tr></tbody></table></div>
+<h3>O que NÃO foi feito nesta rodada</h3>
+<p>Nenhuma publicação. Nenhum deploy. Nenhuma chamada a Meta, Cloudflare ou GPT Maker. Nenhum valor de secret lido, transportado ou gravado. A frente de mídias do Instagram (F1 — leitura remota) continua <b>bloqueada por credencial</b>: sem token Cloudflare e sem sessão no Meta App, não há como separar o que foi implantado do que foi apenas testado.</p>
+<h3>Próximo passo</h3>
+<p>Auditoria TECO deste pacote. Depois das correções, PR e merge para a auditoria Sol externa, conforme sua instrução.</p>
+<div class="page-nav back"><a href="#p8">← 8 · Fase 2</a></div>
+<footer>TakwaraTec · Acervo Soberania Tecnológica · Produção: Fábio Takwara · 2026 · documento de trabalho, não vigente</footer>
+</section>
+</div>
+<script>
+(function(){
+  var btns=[].slice.call(document.querySelectorAll('.navbtn'));
+  var panels=[].slice.call(document.querySelectorAll('[role=tabpanel]'));
+  function openTab(id,scroll){
+    var found=false;
+    panels.forEach(function(p){var on=p.id===id;if(on)found=true;p.classList.toggle('active',on);p.setAttribute('aria-hidden',on?'false':'true');});
+    if(!found){panels[0].classList.add('active');panels[0].setAttribute('aria-hidden','false');id=panels[0].id;}
+    btns.forEach(function(b){b.setAttribute('aria-selected',b.dataset.tab===id?'true':'false');});
+    if(scroll!==false)window.scrollTo(0,0);
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){location.hash=b.dataset.tab;openTab(b.dataset.tab);});});
+  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a)return;var id=a.getAttribute('href').slice(1);if(!document.getElementById(id))return;e.preventDefault();location.hash=id;openTab(id);});
+  function fromHash(){var id=location.hash.slice(1);if(id)openTab(id,false);else openTab(panels[0].id,false);}
+  window.addEventListener('hashchange',fromHash);
+  window.addEventListener('pageshow',fromHash);
+  document.addEventListener('DOMContentLoaded',fromHash);
+  fromHash();
+})();
+</script>
+</body></html>

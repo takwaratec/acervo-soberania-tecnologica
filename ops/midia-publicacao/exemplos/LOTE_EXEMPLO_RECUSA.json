@@ -1,0 +1,24 @@
+{
+ "lote": "EXEMPLO-NAO-PUBLICAR-R1",
+ "status": "EXEMPLO · NAO VIGENTE · NAO APROVADO",
+ "nota": "Lote de exemplo para provar que a esteira recusa. As pecas abaixo NAO estao aprovadas: os campos de aprovacao existem so para o montador alcancar os portoes seguintes e recusar por conteudo (P3/P5), nao por P6.",
+ "pecas": [
+  {
+   "id": "EX-FICHA-SOLTA-01",
+   "formato": "carrossel",
+   "formato_justificativa": "exemplo negativo",
+   "gaveta": "bambu-estrutural",
+   "deriva_de": {
+    "tipo": "ficha",
+    "path": "docs/analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+   },
+   "itens": [
+    {"ordem": 1, "texto_curto": "exemplo", "fonte": "exemplo"},
+    {"ordem": 2, "texto_curto": "exemplo", "fonte": "exemplo"}
+   ],
+   "sha256_da_peca": "exemplo-nao-aprovado",
+   "aprovacao": {"por": "EXEMPLO", "em": "2026-11-20", "hash_da_peca": "exemplo-nao-aprovado"}
+  }
+ ]
+}

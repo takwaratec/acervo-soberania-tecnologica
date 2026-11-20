@@ -1,0 +1,45 @@
+{
+ "tarefa": "AUDITORIA_TECO_ESTEIRA_PUBLICACAO_R1",
+ "alvo_imutavel": {
+  "repo": "takwaratec/acervo-soberania-tecnologica",
+  "branch": "midia/esteira-publicacao-20261120-r1",
+  "commit": "PREENCHER_NO_ENVIO",
+  "base": "0b6cbd4dd432a962571e18b13b327195028bfd2b"
+ },
+ "o_que_julgar": [
+  "montar_lote.py recusa de fato o que diz recusar (provar com controle negativo, nao com leitura)",
+  "os seis portoes correspondem ao que SCHEMA_PECA_MIDIA_R1.json e MANUAL_ESTEIRA_R1.md declaram",
+  "o codigo NAO publica e NAO abre rede (lista de imports e ausencia de chamadas)",
+  "o exemplo em exemplos/LOTE_EXEMPLO_RECUSA.json e recusado pelos motivos alegados",
+  "o HTML entrega o manual pedido, abre offline e navega pelas 9 paginas sem conteudo mutilado"
+ ],
+ "perguntas_obrigatorias": [
+  {
+   "id": "Q1",
+   "pergunta": "Rode `python3 ops/midia-publicacao/montar_lote.py --selftest`. Cole a saida bruta. O selftest prova controle negativo para CADA um dos seis portoes, ou so para alguns? Cite qual portao nao tem controle negativo proprio."
+  },
+  {
+   "id": "Q2",
+   "pergunta": "Existe algum caminho no codigo que leia ou grave fora do repositorio, use rede, ou publique? Cite linha ou declare ausencia com o comando que prova."
+  },
+  {
+   "id": "Q3",
+   "pergunta": "Os estados em ESTADOS_HOMOLOGADOS correspondem ao criterio declarado pelo soberano (estado da arte + no minimo um artigo)? Ha estado aceito que deveria ser recusado, ou recusado que deveria ser aceito? Liste divergencias."
+  },
+  {
+   "id": "Q4",
+   "pergunta": "O portao P5 garante que a fonte citada EXISTE no corpo, nao que foi interpretada corretamente. O documento declara esse limite? Cite onde."
+  },
+  {
+   "id": "Q5",
+   "pergunta": "Abra MANUAL_ESTEIRA_R1.html. As 9 abas existem, uma por vez fica visivel, e o texto de cada painel e substantivo (nao tabela solta)? Cite a contagem medida de `data-tab` e de `role=tabpanel`."
+  }
+ ],
+ "veredito": "PASS | FAIL | BLOCKED | INCONCLUSIVE",
+ "regra_de_evidencia": "toda afirmacao carrega comando reproduzivel e saida bruta; afirmacao de ausencia exige o comando que prova ausencia",
+ "nao_aceito": [
+  "resumo agregado sem saida bruta",
+  "afirmar que o gate funciona sem rodar o controle negativo",
+  "aprovar o HTML sem abrir as nove abas"
+ ]
+}
