@@ -77,7 +77,6 @@ nav:
   - Apresentação do Acervo: apresentacao-do-acervo.md
   - Sobre: sobre.md
   - Metodologia: metodologia.md
-  - Painel do dia (cockpit): painel/cockpit-humano.html
   - Auditoria externa do motor (MTCC, 20/11/2026): auditoria/pacote-auditoria-sol-mtcc-20261120.html
   - Arquitetura relacional (R1 conceitual):
       - Visão geral: governanca/arquitetura-relacional.md
