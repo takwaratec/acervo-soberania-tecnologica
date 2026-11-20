@@ -16,7 +16,9 @@ revision_date: 2026-07-23
 curation_responsible: Fabio Takwara
 editorial_note: 'P-01 resolved (decision by Fabio, 2026-08-01): the IFB Campus Planaltina faculty member cited in the Anais as Prof. Dr. Vicente Virgolino de Souza Neto is the same person as the Acervo profile Vicente de Paulo Borges Virgolino da Silva (coordinator of the Agronomy undergraduate program). Canonical form adopted: Vicente de Paulo Borges Virgolino da Silva. The Anais were not altered (historical record).'
 tipo_documental: estado-da-arte
-estado_documental: publicado-no-zenodo
+estado_documental: homologado-documentalmente
+estado_documental_anterior: publicado-no-zenodo
+estado_documental_unificado_em: '2026-11-20'
 responsavel_curadoria: 'Fabio Takwara'
 
 ---

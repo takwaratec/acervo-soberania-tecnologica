@@ -15,7 +15,9 @@ volume_referencia: "PU-COMP-BIO-R1"
 identificador_lote: "A12"
 arquivo_fonte: "A12_US8338498_polymeric_bone_defect_filler.pdf"
 sha256_fonte: "ca611c4997313ccb6cd7f8d2f619ad2a5003772cc27e7442b5d06dc0059c1994"
-estado_documental: "em-revisao-documental"
+estado_documental: em-revisao-documental
+estado_documental_anterior: "em-revisao-documental"
+estado_documental_unificado_em: '2026-11-20'
 data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"

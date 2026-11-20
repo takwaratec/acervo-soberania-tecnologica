@@ -13,7 +13,9 @@ volume_referencia: "PU-COMP-BIO-R1"
 identificador_lote: "B06"
 arquivo_fonte: "B06_Teixeira_Ramalho_1999_mandibula_CaCO3.pdf"
 sha256_fonte: "bdaec906f88d1d167ef73e275725688fedeac5a21a15c924a328bf1993fd8e98"
-estado_documental: "em-revisao-documental"
+estado_documental: em-revisao-documental
+estado_documental_anterior: "em-revisao-documental"
+estado_documental_unificado_em: '2026-11-20'
 data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"

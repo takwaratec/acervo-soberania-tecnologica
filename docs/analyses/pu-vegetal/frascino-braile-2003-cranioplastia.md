@@ -13,7 +13,9 @@ volume_referencia: "PU-COMP-BIO-R1"
 identificador_lote: "A06"
 arquivo_fonte: "A06_Frascino_Braile_2003_cranioplastia.pdf"
 sha256_fonte: "cbb347382370a2b13676e9ad1b23ec9cddf84795ac34a39884c3ae98f91147c1"
-estado_documental: "em-revisao-documental"
+estado_documental: em-revisao-documental
+estado_documental_anterior: "em-revisao-documental"
+estado_documental_unificado_em: '2026-11-20'
 data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"

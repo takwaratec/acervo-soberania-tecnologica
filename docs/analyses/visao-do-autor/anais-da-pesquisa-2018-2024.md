@@ -6,7 +6,9 @@ autor: Fabio Takwara
 orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 3.0
-estado_documental: publicado-no-acervo
+estado_documental: homologado-documentalmente
+estado_documental_anterior: publicado-no-acervo
+estado_documental_unificado_em: '2026-11-20'
 metodo: curadoria-historica-e-rastreabilidade
 data_revisao: 2026-07-24
 responsavel_curadoria: Fabio Takwara

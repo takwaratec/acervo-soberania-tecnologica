@@ -7,7 +7,9 @@ autor: Fabio Takwara
 orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.0
-estado_documental: edicao-revisada-para-acervo
+estado_documental: homologado-documentalmente
+estado_documental_anterior: edicao-revisada-para-acervo
+estado_documental_unificado_em: '2026-11-20'
 acesso: publico
 licenca: CC-BY-4.0
 metodo: prensagem-biomassa-biochar-pu-e-governanca-de-trl

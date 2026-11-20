@@ -1,6 +1,8 @@
 ---
 tipo_documental: ficha-academica
-estado_documental: edicao-publica-conformada
+estado_documental: homologado-documentalmente
+estado_documental_anterior: edicao-publica-conformada
+estado_documental_unificado_em: '2026-11-20'
 fonte_primaria: dissertação de mestrado integral defendida na FAU/UnB em 16/09/2010
 identificador: http://repositorio.unb.br/handle/10482/7725
 proveniencia: Repositório Institucional da Universidade de Brasília

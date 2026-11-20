@@ -5,7 +5,9 @@ autores: Darcy Ribeiro
 ano: 2014
 identificador: ausente-na-fonte
 identificador_tecnico: edição institucional Biblioteca Básica Brasileira
-estado_documental: curado
+estado_documental: homologado-documentalmente
+estado_documental_anterior: curado
+estado_documental_unificado_em: '2026-11-20'
 fonte_primaria: PDF integral institucional conferido
 proveniencia: edição integral disponibilizada pela Fundação Darcy Ribeiro
 data_revisao: 2026-07-22

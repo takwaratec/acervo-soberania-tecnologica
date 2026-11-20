@@ -5,7 +5,9 @@ autores: Michel de Montaigne
 ano: 1580-1588
 identificador: ausente-na-fonte
 identificador_tecnico: Project Gutenberg eBook 3600
-estado_documental: curado
+estado_documental: homologado-documentalmente
+estado_documental_anterior: curado
+estado_documental_unificado_em: '2026-11-20'
 fonte_primaria: edição integral em domínio público conferida
 proveniencia: edição integral preservada pelo Project Gutenberg
 data_revisao: 2026-07-22

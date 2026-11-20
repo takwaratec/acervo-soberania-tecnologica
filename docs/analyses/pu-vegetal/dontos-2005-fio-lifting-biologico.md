@@ -14,7 +14,9 @@ volume_referencia: "PU-COMP-BIO-R1"
 identificador_lote: "A05"
 arquivo_fonte: "A05_Dontos_2005_fio_lifting_biologico.pdf"
 sha256_fonte: "41d82a0d32edbbc1800639c3a9b965a5bf15a0d7e93fb22026bab137ab13e667"
-estado_documental: "em-revisao-documental"
+estado_documental: em-revisao-documental
+estado_documental_anterior: "em-revisao-documental"
+estado_documental_unificado_em: '2026-11-20'
 data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"
