@@ -72,6 +72,7 @@ nesse estado. Isso não é defeito do corpus, é o retrato do terreno em prepara
 
 | portão | o que verifica | como falha |
 |---|---|---|
+| P0 | o tipo de cada campo da peça e de cada item das listas | recusa nomeada em vez de exceção (peça/`deriva_de`/`itens`/`aprovacao`/`agendamento` malformados) |
 | P1 | `deriva_de.tipo` é editorial publicável e o caminho existe dentro do repo | recusa se `tipo=ficha` ou caminho ausente/fora |
 | P2 | `sha256` da origem confere — pelos bytes no worktree **ou** por `git cat-file` no ref declarado | recusa se divergir, faltar, ou o ref não resolver |
 | P3 | origem homologada **e** bloco `colecao` com `estado_da_arte` + `artigos` (≥1): cada ponteiro tem de **resolver dentro do repositório**, ter `estado_documental` homologado, apontar para **arquivo distinto** do outro (comparação por caminho resolvido, não por texto) e **declarar o próprio papel** | recusa estado não homologado, coleção sem estado da arte, coleção sem artigo, mesmo arquivo nos dois papéis, caminho fora da raiz e documento que não é artigo |
@@ -107,7 +108,7 @@ python3 ops/midia-publicacao/montar_lote.py --selftest
 python3 ops/midia-publicacao/montar_lote.py --lote <caminho-do-lote.json> --raiz .
 ```
 
-Saída esperada: `{"selftest": "PASS", "modo": "EM_MEMORIA", "controles_negativos": 22, "controles_positivos": 4, "falhas": 0}`, exit 0.
+Saída esperada: `{"selftest": "PASS", "modo": "EM_MEMORIA", "controles_negativos": 29, "controles_positivos": 4, "falhas": 0}`, exit 0.
 Para o verificador de mídia: `{"selftest": "PASS", ..., "controles_negativos": 9, "controles_positivos": 2, "falhas": 0}`.
 Os contadores são **calculados**, não digitados: contador escrito à mão já divergiu do código real em
 auditoria, então o número sai do tamanho da lista de controles executados.

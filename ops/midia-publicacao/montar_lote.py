@@ -196,8 +196,55 @@ def _conferir_artefato(raiz: Path, caminho: str, der: dict, pid: str,
     return erros
 
 
-def validar_peca(peca: dict, raiz: Path) -> list[str]:
+TIPO_ESPERADO = {
+    "id": str,
+    "deriva_de": dict,
+    "colecao": dict,
+    "formato": str,
+    "formato_justificativa": str,
+    "itens": list,
+    "sha256_da_peca": str,
+    "aprovacao": dict,
+    "agendamento": list,
+}
+
+
+def validar_estrutura(peca: object) -> list[str]:
+    """P0 — o tipo de cada campo, antes de qualquer `.get`.
+
+    Sem este portão, uma peça malformada levanta AttributeError no meio do caminho:
+    o lote inteiro para em vez de recusar com nome. Medido na auditoria TECO de
+    2026-11-20 (rodada 4, defeito MEDIA): `deriva_de` como lista, `itens` como
+    inteiro, `aprovacao` e `agendamento` como texto quebravam o montador.
+    """
+    if not isinstance(peca, dict):
+        return [f"<peça não textual>: P0 recusa — peça deve ser objeto, recebido {type(peca).__name__}"]
+    pid = peca.get("id") if isinstance(peca.get("id"), str) else "<sem-id>"
     erros: list[str] = []
+    for campo, tipo in TIPO_ESPERADO.items():
+        if campo not in peca:
+            continue
+        if not isinstance(peca[campo], tipo):
+            erros.append(
+                f"{pid}: P0 recusa — '{campo}' deve ser {tipo.__name__}, "
+                f"recebido {type(peca[campo]).__name__}"
+            )
+    for campo in ("itens", "agendamento"):
+        v = peca.get(campo)
+        if isinstance(v, list):
+            for i, item in enumerate(v):
+                if not isinstance(item, dict):
+                    erros.append(
+                        f"{pid}: P0 recusa — '{campo}[{i}]' deve ser objeto, "
+                        f"recebido {type(item).__name__}"
+                    )
+    return erros
+
+
+def validar_peca(peca: dict, raiz: Path) -> list[str]:
+    erros = validar_estrutura(peca)
+    if erros:
+        return erros
     pid = peca.get("id", "<sem-id>")
 
     # P1 — derivação editorial
@@ -357,6 +404,16 @@ def validar_peca(peca: dict, raiz: Path) -> list[str]:
 
 
 def montar(lote: dict, raiz: Path) -> dict:
+    if not isinstance(lote, dict):
+        return {"lote": None, "total_declarado": 0, "aprovadas": 0, "recusadas": 0,
+                "erros": [f"P0 recusa — lote deve ser objeto, recebido {type(lote).__name__}"],
+                "fila": [], "publicou_alguma_coisa": False,
+                "nota": "montar_lote.py nao publica. Produz lote e fila; a publicacao e outro ato."}
+    if not isinstance(lote.get("pecas"), list):
+        return {"lote": lote.get("lote"), "total_declarado": 0, "aprovadas": 0, "recusadas": 0,
+                "erros": [f"P0 recusa — 'pecas' deve ser lista, recebido {type(lote.get('pecas')).__name__}"],
+                "fila": [], "publicou_alguma_coisa": False,
+                "nota": "montar_lote.py nao publica. Produz lote e fila; a publicacao e outro ato."}
     pecas = lote.get("pecas") or []
     erros: list[str] = []
     aprovadas: list[dict] = []
@@ -551,12 +608,31 @@ def selftest() -> int:
 
         # ---------- P3j: estrutura malformada não pode explodir (rodada 3, defeito BAIXA) ----------
         r = montar({"lote": "ST", "pecas": [_peca_base("p3j", "eda.md", h_eda, colecao=["campo"])]}, base)
-        ctl("P3-colecao-lista", any("deve ser objeto" in e for e in r["erros"]),
+        ctl("P3-colecao-lista", any("'colecao' deve ser" in e for e in r["erros"]),
             "colecao como lista não gerou recusa nomeada")
         r = montar({"lote": "ST", "pecas": [_peca_base("p3k", "eda.md", h_eda,
                     colecao={"estado_da_arte": "eda.md", "artigos": "art.md"})]}, base)
         ctl("P3-artigos-texto", any("deve ser lista" in e for e in r["erros"]),
             "artigos como texto não gerou recusa nomeada")
+
+        # ---------- P0: estrutura (rodada 4, defeito MEDIA) ----------
+        for nome, peca_ruim, esperado in [
+            ("P0-deriva-lista", _peca_base("p0a", "eda.md", h_eda, deriva_de=["x"]), "'deriva_de' deve ser dict"),
+            ("P0-itens-int", _peca_base("p0b", "eda.md", h_eda, itens=7), "'itens' deve ser list"),
+            ("P0-aprovacao-texto", _peca_base("p0c", "eda.md", h_eda, aprovacao="ok"), "'aprovacao' deve ser dict"),
+            ("P0-agendamento-texto", _peca_base("p0d", "eda.md", h_eda, agendamento="amanha"), "'agendamento' deve ser list"),
+            ("P0-item-inteiro", _peca_base("p0e", "eda.md", h_eda, itens=[1, 2]), "'itens[0]' deve ser objeto"),
+        ]:
+            r = montar({"lote": "ST", "pecas": [peca_ruim]}, base)
+            ctl(nome, any("P0 recusa" in e and esperado in e for e in r["erros"]),
+                f"{nome} não gerou recusa nomeada -> {r['erros'][:1]}")
+
+        r = montar(["nao", "e", "lote"], base)
+        ctl("P0-lote-lista", any("P0 recusa" in e and "lote deve ser objeto" in e for e in r["erros"]),
+            "lote como lista não gerou recusa nomeada")
+        r = montar({"lote": "ST", "pecas": "uma"}, base)
+        ctl("P0-pecas-texto", any("P0 recusa" in e and "'pecas' deve ser lista" in e for e in r["erros"]),
+            "pecas como texto não gerou recusa nomeada")
 
         # ---------- P4 ----------
         r = montar({"lote": "ST", "pecas": [_peca_base("p4", "eda.md", h_eda,

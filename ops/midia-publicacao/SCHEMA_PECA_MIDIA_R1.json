@@ -70,7 +70,8 @@
   "P3": "origem homologada E bloco 'colecao' com estado_da_arte e artigos>0; cada ponteiro resolve DENTRO do repositorio, tem estado_documental homologado, os dois papeis apontam para arquivos distintos (comparacao por caminho resolvido), e cada documento declara seu papel (estado da arte declara tipo iniciando em 'estado' ou e_estado_da_arte; artigo declara tipo iniciando em 'artigo' ou e_artigo)",
   "P4": "formato declarado e coerente com a contagem de itens (carrossel 2..20)",
   "P5": "toda fonte citada aparece literalmente no corpo da origem; quando o corpo nao esta disponivel o portao declara NAO_VERIFICADO em vez de aprovar",
-  "P6": "aprovacao.hash_da_peca corresponde ao sha256_da_peca; aprovacao de outro bytes nao aprova esta"
+  "P6": "aprovacao.hash_da_peca corresponde ao sha256_da_peca; aprovacao de outro bytes nao aprova esta",
+  "P0": "tipo de cada campo da peca e de cada item de lista; entrada malformada gera recusa nomeada, nunca excecao"
  },
  "o_que_esta_fora": [
   "o montador nao publica — nao ha chamada de rede no codigo",
@@ -141,6 +142,11 @@
    "data": "2026-11-20",
    "correcao": "P3 passou a exigir declaracao de papel nos dois sentidos, comparacao por caminho resolvido e recusa nomeada para colecao malformada; lista de estados alinhada ao codigo",
    "origem": "auditoria TECO rodada 3, defeitos ALTA 1, MEDIA 2 e BAIXA 4"
+  },
+  {
+   "data": "2026-11-20",
+   "correcao": "criado P0 (estrutura): deriva_de, itens, aprovacao, agendamento e o proprio lote malformados geram recusa nomeada",
+   "origem": "auditoria TECO rodada 4, defeito MEDIA"
   }
  ]
 }
