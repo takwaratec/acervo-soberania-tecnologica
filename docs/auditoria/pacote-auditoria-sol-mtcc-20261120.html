@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pacote de auditoria externa — MTCC, 20 de novembro de 2026</title>
+<meta name="description" content="O que o motor de curadoria mediu até 20/11/2026, o que ele não prova, e as cinco perguntas que a auditoria externa precisa responder.">
+<style>
+
+:root{
+  --bg:#f7f6f2; --bg2:#efeee8; --card:#fff; --ink:#1d1c1a; --ink2:#57544d;
+  --line:#d9d6cc; --accent:#1f5f4e; --accent-l:#2b7f68; --accent-d:#14453a;
+  --warn:#8a4b12; --warn-bg:#fdf3e6; --danger:#8c2b1e; --danger-bg:#fceeec;
+  --ok:#1f5f4e; --ok-bg:#eaf4ef;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:17px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",Arial,sans-serif;
+  font-feature-settings:"kern" 1}
+header.top{background:var(--accent-d);color:#f2f0ea;padding:26px 22px 20px;border-bottom:4px solid var(--accent-l)}
+header.top .kicker{font:600 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;
+  text-transform:uppercase;color:#9fc9bb;margin-bottom:10px}
+header.top h1{margin:0 0 8px;font-size:29px;line-height:1.2;font-weight:650;letter-spacing:-.01em}
+header.top .sub{margin:0;color:#cfd8d3;font-size:16px;max-width:62ch}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px;align-items:flex-start}
+.chip{background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.22);color:#e8efe9;
+  padding:4px 10px;border-radius:999px;font:600 12px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;
+  white-space:nowrap}
+.chip--gold{background:#e8d7a8;border-color:#c9b478;color:#3d2f0d}
+nav.tabs{position:sticky;top:0;z-index:20;background:var(--bg2);border-bottom:1px solid var(--line);
+  display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px;padding:10px 12px}
+nav.tabs button{appearance:none;border:1px solid var(--line);background:var(--card);color:var(--ink2);
+  font:600 12.5px/1.25 inherit;padding:8px 6px;border-radius:8px;cursor:pointer;text-align:center;
+  overflow-wrap:anywhere;hyphens:auto}
+nav.tabs button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+main{max-width:1080px;margin:0 auto;padding:0 20px 80px}
+/* A folga acima da barra NAO e numero: e a altura medida por molde.js em --barra-h,
+   mais 20px de respiro. Numero fixo funciona ate a peca passar de N abas — a proxima sempre passa. */
+section[role="tabpanel"]{display:none;scroll-margin-top:calc(var(--barra-h,168px) + 20px)}
+section[role="tabpanel"].active{display:block;animation:fade .18s ease}
+@keyframes fade{from{opacity:.4}to{opacity:1}}
+h2{font-size:25px;line-height:1.25;margin:32px 0 6px;letter-spacing:-.01em}
+h2 .num{display:inline-block;background:var(--accent);color:#fff;font:700 13px/1 ui-monospace,Menlo,monospace;
+  padding:5px 8px;border-radius:6px;margin-right:10px;vertical-align:3px}
+h3{font-size:19.5px;margin:30px 0 8px;color:var(--accent-d);letter-spacing:-.005em}
+h4{font-size:16.5px;margin:22px 0 6px;color:var(--ink)}
+p{margin:11px 0}
+ul,ol{margin:11px 0 11px 22px;padding:0}
+li{margin:5px 0}
+hr.sep{border:0;border-top:1px solid var(--line);margin:30px 0}
+em{font-style:italic}
+code{font:600 14px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--bg2);
+  padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+a{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+blockquote{margin:16px 0;padding:13px 17px;background:var(--bg2);border-left:3px solid var(--accent-l);
+  border-radius:0 8px 8px 0;color:var(--ink2);font-size:16px}
+.tabwrap{overflow-x:auto;margin:16px 0;border:1px solid var(--line);border-radius:9px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
+th,td{padding:9px 11px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--bg2);font-weight:650;font-size:13px;letter-spacing:.02em;
+  position:sticky;top:0}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:#fbfaf7}
+.note,.okbox,.danger{margin:18px 0;padding:14px 17px;border-radius:9px;font-size:15.5px;line-height:1.55}
+.note{background:var(--warn-bg);border:1px solid #e6c9a4;border-left:4px solid var(--warn)}
+.note>strong:first-child{display:block;color:var(--warn);margin-bottom:4px}
+.okbox{background:var(--ok-bg);border:1px solid #bcdccd;border-left:4px solid var(--ok)}
+.okbox>strong:first-child{display:block;color:var(--accent-d);margin-bottom:4px}
+.danger{background:var(--danger-bg);border:1px solid #e8bdb6;border-left:4px solid var(--danger)}
+.danger>strong:first-child{display:block;color:var(--danger);margin-bottom:4px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:15px 16px}
+.kpi .n{font:700 27px/1.05 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--accent-d);
+  letter-spacing:-.02em;overflow-wrap:anywhere}
+.kpi .l{font-size:12px;text-transform:uppercase;letter-spacing:.09em;color:var(--ink2);margin-top:7px;
+  line-height:1.35}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:18px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:16px 18px}
+.card h4{margin-top:0}
+.card .tag{font:600 11.5px/1 ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.1em;
+  color:var(--accent-l)}
+.page-nav{display:flex;justify-content:space-between;gap:12px;margin:44px 0 0;padding-top:20px;
+  border-top:1px solid var(--line)}
+.page-nav a,.page-nav span{font:600 14px/1.3 inherit;padding:11px 15px;border-radius:9px;
+  border:1px solid var(--line);background:var(--card);color:var(--accent);text-decoration:none}
+.page-nav span{color:#a9a59b;background:transparent;border-color:transparent}
+footer.rodape{margin:40px 0 0;padding:18px 0 0;border-top:1px solid var(--line);
+  font-size:13px;color:var(--ink2);line-height:1.6}
+.meta{font:600 12.5px/1.4 ui-monospace,Menlo,monospace;color:var(--ink2);letter-spacing:.01em;
+  margin:0 0 14px}
+@media(max-width:1000px){nav.tabs{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:760px){
+  body{font-size:16px;line-height:1.6}
+  header.top{padding:20px 16px 16px}
+  header.top h1{font-size:22px;line-height:1.32}
+  header.top .sub{font-size:14.5px}
+  /* Uma linha que rola de lado. Empilhar em 3 colunas fazia a barra crescer com o numero de
+     abas: 12 abas = 131px, 19 = 223px (26% da tela), e o titulo ficava atras dela.
+     Linha unica mantem a altura constante e devolve a tela ao texto. */
+  nav.tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;
+    padding:6px;gap:6px;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+  nav.tabs button{flex:0 0 auto;white-space:nowrap;font-size:12px;padding:8px 11px;
+    line-height:1.2;letter-spacing:-.01em;overflow-wrap:normal;hyphens:none}
+  main{padding:0 15px 70px}
+  h2{font-size:21px;margin-top:24px}
+  h3{font-size:17.5px}
+  .tabwrap{overflow-x:visible;border:0;background:transparent}
+  table{min-width:0;display:block;font-size:14.5px}
+  thead{display:none}
+  tbody,tr,td{display:block;width:100%}
+  tr{background:var(--card);border:1px solid var(--line);border-radius:9px;margin-bottom:10px;padding:4px 0}
+  tbody tr:nth-child(even){background:var(--card)}
+  td{border:0;padding:7px 13px;display:block}
+  td>*{display:inline}
+  td::before{content:attr(data-l);display:block;font:600 11.5px/1.45 ui-monospace,Menlo,monospace;
+    color:var(--ink2);text-transform:uppercase;letter-spacing:.05em;overflow-wrap:anywhere;margin-bottom:3px}
+  td code{overflow-wrap:anywhere;word-break:break-word}
+  th{position:static}
+  .page-nav{flex-direction:column}
+}
+@media(max-width:420px){
+  header.top h1{font-size:19.5px}
+  .kpi .n{font-size:23px}
+}
+@media print{
+  nav.tabs,.page-nav{display:none}
+  section[role="tabpanel"]{display:block !important;page-break-after:always}
+  section[role="tabpanel"]:last-child{page-break-after:auto}
+  header.top{background:#fff;color:#000;border-bottom:2px solid #000}
+  header.top h1,header.top .sub{color:#000}
+  .chip{background:#eee;color:#000;border-color:#999}
+  a{color:#000}
+  .tabwrap{overflow:visible}
+  table{min-width:0}
+}
+
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="kicker">MTCC · Auditoria externa · Pacote de leitura</div>
+  <h1>O motor medido —<br>e o que ele ainda não prova</h1>
+  <p class="sub">338 documentos varridos, 1401 números conferidos na fonte, zero divergências. E 50 afirmações que o motor não consegue verificar — declaradas aqui, não escondidas.</p>
+  <div class="chips">
+    <span class="chip chip--gold">REVISÃO · NÃO HOMOLOGADO</span>
+    <span class="chip">338 documentos</span>
+    <span class="chip">1401 aprovações</span>
+    <span class="chip">50 não verificáveis</span>
+    <span class="chip">20/11/2026</span>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="Páginas">
+<button type="button" role="tab" data-tab="p-apresentacao" aria-controls="p-apresentacao" aria-selected="true" tabindex="0">Apresentação</button><button type="button" role="tab" data-tab="p-que-mudou" aria-controls="p-que-mudou" aria-selected="false" tabindex="-1">O que mudou hoje</button><button type="button" role="tab" data-tab="p-colecao" aria-controls="p-colecao" aria-selected="false" tabindex="-1">A coleção</button><button type="button" role="tab" data-tab="p-motor" aria-controls="p-motor" aria-selected="false" tabindex="-1">O motor</button><button type="button" role="tab" data-tab="p-onde-vive" aria-controls="p-onde-vive" aria-selected="false" tabindex="-1">Onde cada coisa vive</button><button type="button" role="tab" data-tab="p-nao-provado" aria-controls="p-nao-provado" aria-selected="false" tabindex="-1">O que não está provado</button><button type="button" role="tab" data-tab="p-pedido" aria-controls="p-pedido" aria-selected="false" tabindex="-1">O que eu peço</button>
+</nav>
+
+<main>
+<section role="tabpanel" id="p-apresentacao" aria-labelledby="h-p-apresentacao" class="active"><h2 id="h-p-apresentacao"><span class="num">01</span>Apresentação</h2><p class="meta">MTCC · auditoria externa · 20 de novembro de 2026</p><div class="kpis"><div class="kpi"><div class="n">338</div><div class="l">documentos varridos pelo gate</div></div><div class="kpi"><div class="n">1.401</div><div class="l">afirmações numéricas conferidas na fonte</div></div><div class="kpi"><div class="n">50</div><div class="l">não verificáveis, declaradas</div></div><div class="kpi"><div class="n">0</div><div class="l">ausências e divergências</div></div></div><p>Esta peça reúne o que o motor de curadoria mediu até 20 de novembro de 2026 e, principalmente, o que ele <strong>ainda não prova</strong>. Ela não pede aprovação: pede verificação independente.</p><h3>As três perguntas que a auditoria precisa responder</h3><ul><li>O gate aprova o que está na fonte, ou apenas o que ele sabe procurar?</li><li>As 50 afirmações não verificáveis são limite legítimo do método, ou defeito que o método esconde?</li><li>A coleção bambu-estrutural tem o tamanho que declara — e o que falta nela está dito com honestidade?</li></ul><div class="okbox"><strong>O que se pode concluir</strong>
+O corpus de 338 documentos foi passado por um gate que compara cada número da ficha com o texto integral da fonte, e nenhuma divergência ficou aberta.</div><div class="danger"><strong>O que NÃO se pode afirmar</strong>
+Que o motor está homologado. Não está. Esta peça é insumo de auditoria, não certidão. Aprovar um número por existir recibo é exatamente o erro que o motor foi feito para impedir.</div><div class="page-nav"><span>—</span><a href="#p-que-mudou">O que mudou hoje →</a></div></section><section role="tabpanel" id="p-que-mudou" aria-labelledby="h-p-que-mudou"><h2 id="h-p-que-mudou"><span class="num">02</span>O que mudou hoje</h2><p class="meta">MTCC · auditoria externa · 20 de novembro de 2026</p><p>Quatro correções feitas hoje, cada uma com a medição que a justificou e o efeito medido depois. Nenhuma delas foi feita por tentativa e erro sobre a base: a base publicada foi tomada como referência e só o que está medido foi reaplicado.</p><h3>1. Cinco fichas homologadas ganharam o pacote de fonte</h3><p>A regra do soberano é localizar o pacote, não rebaixar rótulo. Os PDFs estavam em <code>_privado/fontes-documentais/ago_27-Bambu/</code> — fora do ramo acadêmico, por isso a primeira busca não os achou. O sha256 de cada um confere com o que o acervo já registrava na custódia.</p><div class="tabwrap"><table><thead><tr><th>Ficha</th><th>SHA-256</th><th>Bytes</th><th>Páginas</th><th>Extração</th></tr></thead><tbody><tr><td data-l="Ficha">fadrique-2021-fenologia-ciclo-florestas-bambu</td><td data-l="SHA-256"><code>a5c4fd7e91f7adf1…</code></td><td data-l="Bytes">10.929.702</td><td data-l="Páginas">17</td><td data-l="Extração">layout</td></tr><tr><td data-l="Ficha">carvalho-2013-florestas-bambu-sudoeste-amazonico</td><td data-l="SHA-256"><code>7ecbd7342bc91beb…</code></td><td data-l="Bytes">5.055.304</td><td data-l="Páginas">13</td><td data-l="Extração">layout</td></tr><tr><td data-l="Ficha">ferreira-kalliola-ruokolainen-2020-bambu-clima-uso-florestal</td><td data-l="SHA-256"><code>e4855ac42ad459e7…</code></td><td data-l="Bytes">1.389.720</td><td data-l="Páginas">11</td><td data-l="Extração">layout</td></tr><tr><td data-l="Ficha">van-doninck-2020-ciclos-floracao-landsat</td><td data-l="SHA-256"><code>f3b4a012da7d6a78…</code></td><td data-l="Bytes">9.964.969</td><td data-l="Páginas">11</td><td data-l="Extração">layout</td></tr><tr><td data-l="Ficha">miranda-silva-2020-floracao-regeneracao-taboca-gigante</td><td data-l="SHA-256"><code>1157fdd70cd51307…</code></td><td data-l="Bytes">798.799</td><td data-l="Páginas">6</td><td data-l="Extração">não — fonte corrompida</td></tr></tbody></table></div><div class="note"><strong>A sexta ficha não foi ligada, de propósito</strong>
+A <code>pereira-2012-projeto-bambu</code> é a Livre-Docência, obra diferente do artigo homônimo — ligar teria comparado a ficha com o documento errado. Fica sem pacote e declarada assim.</div><div class="note"><strong>O endereço do pacote não sobrevive a cópia</strong>
+Os cinco pacotes apontam para o PDF por <strong>symlink relativo</strong>, e o metadado guarda o caminho de origem em forma relativa ao repositório. Cópia da árvore funciona; cópia de um arquivo solto, não — e é por isso que o pacote inteiro viaja junto.</div><h3>2. Um único vocabulário de estado documental</h3><p>O canônico já existia na governança com três valores. O acervo usava dez — sete rótulos paralelos mais doze fichas com o mesmo valor entre aspas, que em YAML é <em>outro</em> valor.</p><div class="tabwrap"><table><thead><tr><th>Antes</th><th>Depois</th><th>Regra aplicada</th></tr></thead><tbody><tr><td data-l="Antes">10 valores distintos</td><td data-l="Depois">3 valores canônicos</td><td data-l="Regra aplicada">rótulo de edição, publicação ou depósito → <code>homologado-documentalmente</code></td></tr><tr><td data-l="Antes">54 fichas em rótulo legado</td><td data-l="Depois">98 homologadas, 238 em revisão, 2 históricas</td><td data-l="Regra aplicada">cada mudança guarda <code>estado_documental_anterior</code> com a data</td></tr><tr><td data-l="Antes">12 fichas com valor entre aspas</td><td data-l="Depois">zero</td><td data-l="Regra aplicada">as aspas removidas; o valor era o mesmo</td></tr></tbody></table></div><div class="okbox"><strong>Por que isso não apagou história</strong>
+O Art. 7.2 da Constituição R4 proíbe emendar ou apagar o substituído. O valor antigo continua no front matter, em campo próprio, com a data da unificação.</div><h3>3. O milhar separado por espaço</h3><p>A fonte científica escreve <code>118 000 km2</code>. O gate só entendia ponto e vírgula: o valor da ficha nunca existia na fonte e saía como ausente. Oito acusações falsas, todas no mesmo artigo.</p><div class="danger"><strong>A primeira correção piorou o placar</strong>
+Ela trocou nove acusações falsas por nove acusações falsas: o padrão passou a colar três células de tabela vizinhas (<code>445 892 1355</code> virava um número só). Corrigido exigindo que o número inteiro feche em grupos de três. Quatro asserções novas garantem os dois lados — o que deve passar e o que deve continuar recusado.</div><h3>4. O molde das peças de leitura</h3><p>O molde tinha a folga do título escrita à mão (210 px). A barra de abas cresce com o número de abas: a 390 px, 12 abas dão 131 px de barra e folga de +24 px; 19 abas dão 223 px e folga de <strong>−13 px</strong> — o título atrás da barra em todas as abas. Agora a altura é medida em execução e o CSS usa essa medida. Esta peça é a primeira gerada no molde corrigido.</p><div class="page-nav"><a href="#p-apresentacao">← Apresentação</a><a href="#p-colecao">A coleção →</a></div></section><section role="tabpanel" id="p-colecao" aria-labelledby="h-p-colecao"><h2 id="h-p-colecao"><span class="num">03</span>A coleção</h2><p class="meta">MTCC · auditoria externa · 20 de novembro de 2026</p><div class="kpis"><div class="kpi"><div class="n">74</div><div class="l">documentos na gaveta</div></div><div class="kpi"><div class="n">49</div><div class="l">fichas de obra</div></div><div class="kpi"><div class="n">862</div><div class="l">afirmações conferidas na fonte</div></div><div class="kpi"><div class="n">42</div><div class="l">não verificáveis</div></div></div><p>A unidade de trabalho é a coleção, não a ficha. Ficha isolada é insumo; estado da arte é leitura <em>entre</em> obras. Por isso o gate roda sobre a gaveta inteira e o placar é da coleção.</p><div class="tabwrap"><table><thead><tr><th>Estado do documento</th><th>Documentos</th><th>O que significa</th></tr></thead><tbody><tr><td data-l="Estado do documento">PASS</td><td data-l="Documentos">31</td><td data-l="O que significa">todos os números da ficha existem na fonte, com unidade e página certas</td></tr><tr><td data-l="Estado do documento">NAO_VERIFICAVEL</td><td data-l="Documentos">36</td><td data-l="O que significa">tem número que o gate não conseguiu conferir — declarado no achado</td></tr><tr><td data-l="Estado do documento">SEM_NUMERO</td><td data-l="Documentos">7</td><td data-l="O que significa">documento sem afirmação numérica a conferir</td></tr></tbody></table></div><div class="okbox"><strong>A soma fecha, e com o comando ao lado</strong>
+31 + 36 + 7 = 74 documentos. Desses, <strong>49 são fichas de obra</strong> e 25 são instrumentos de pesquisa, estados da arte e documentos institucionais — que não são ficha e não entram na conta das fichas. 31 documentos têm ao menos uma aprovação; o total de aprovações da gaveta é 862.</div><div class="note"><strong>Fora da gaveta, e fora desta conta</strong>
+As 11 fichas da frente Bambu Science vivem em <code>_privado/governanca-operacional/</code>, não em <code>docs/analyses/</code>. Elas foram medidas em separado (101 aprovações, 3 não verificáveis, zero acusações) e não somam neste número — misturar as duas contas foi o defeito da versão anterior desta peça.</div><div class="danger"><strong>Uma fonte está corrompida e continua declarada</strong>
+O PDF da Embrapa (miranda-silva) tem encoding deslocado e nenhuma camada Unicode. O OCR de Visão não recupera o texto. A ficha fica não verificável — declarado, não mascarado.</div><div class="page-nav"><a href="#p-que-mudou">← O que mudou hoje</a><a href="#p-motor">O motor →</a></div></section><section role="tabpanel" id="p-motor" aria-labelledby="h-p-motor"><h2 id="h-p-motor"><span class="num">04</span>O motor</h2><p class="meta">MTCC · auditoria externa · 20 de novembro de 2026</p><p>Quatro gates, cada um com um escopo declarado. Gate que não declara o próprio escopo não bloqueia: só dá a impressão de bloquear.</p><div class="tabwrap"><table><thead><tr><th>Gate</th><th>O que mede</th><th>Auto-teste</th></tr></thead><tbody><tr><td data-l="Gate"><code>gate_fidelidade_fonte.py</code></td><td data-l="O que mede">cada número da ficha contra o texto integral da fonte</td><td data-l="Auto-teste">52 asserções</td></tr><tr><td data-l="Gate"><code>gate_integridade_textual.py</code></td><td data-l="O que mede">blocos de texto da extração não foram mutilados</td><td data-l="Auto-teste">PASS</td></tr><tr><td data-l="Gate"><code>gate_publicacao_r38.py</code></td><td data-l="O que mede">o lote pode ser publicado</td><td data-l="Auto-teste">65 asserções</td></tr><tr><td data-l="Gate"><code>selo_r38.py</code></td><td data-l="O que mede">assinatura e identidade do documento</td><td data-l="Auto-teste">25 asserções</td></tr></tbody></table></div><h3>Como o gate decide</h3><p>A ordem das verificações é a regra, não detalhe de implementação: coluna alinhada (só aprova) → símbolo adjacente ao número → intervalo → unidade em composto → taxa anual → complemento declarado → expoente perdido → rótulo da linha → célula de tabela → cabeçalho da tabela. Só depois de esgotar isso o gate acusa.</p><div class="okbox"><strong>O que mudou de postura</strong>
+O gate passou a aprovar pelo que existe e a acusar só o que a fonte contradiz. Falso positivo não é rigor: é ruído que esconde o defeito real.</div><div class="note"><strong>Nenhum gate lê o estado documental</strong>
+A unificação de hoje é só dado. Conferido por varredura nos módulos do método: nenhum deles lê <code>estado_documental</code>, então o placar não podia mudar — e não mudou.</div><div class="page-nav"><a href="#p-colecao">← A coleção</a><a href="#p-onde-vive">Onde cada coisa vive →</a></div></section><section role="tabpanel" id="p-onde-vive" aria-labelledby="h-p-onde-vive"><h2 id="h-p-onde-vive"><span class="num">05</span>Onde cada coisa vive</h2><p class="meta">MTCC · auditoria externa · 20 de novembro de 2026</p><p>Cada linha traz o commit e diz se ele é alcançável a partir de <code>main</code>. Commit que o clone padrão não alcança faz o auditor concluir “não existe” — e a culpa não é dele.</p><div class="tabwrap"><table><thead><tr><th>Artefato</th><th>Repositório e caminho</th><th>Commit</th><th>Alcançável de main?</th></tr></thead><tbody><tr><td data-l="Artefato">Gate de fidelidade</td><td data-l="Repositório e caminho"><code>TakwaraTec-Laboratorio-Editorial</code> · <code>ops/command-center/metodo/</code></td><td data-l="Commit"><code>f4c8274</code></td><td data-l="Alcançável de main?">sim</td></tr><tr><td data-l="Artefato">Molde e validador</td><td data-l="Repositório e caminho"><code>…/ops/command-center/governanca/molde-cientifico/</code></td><td data-l="Commit"><code>b2e5dbe</code></td><td data-l="Alcançável de main?">sim</td></tr><tr><td data-l="Artefato">Run do gate (o placar desta peça)</td><td data-l="Repositório e caminho"><code>…/transicao-r4/auditoria-sol/RUN_GATE_R11_20261120.json</code></td><td data-l="Commit">este PR</td><td data-l="Alcançável de main?">não — fica no merge</td></tr><tr><td data-l="Artefato">Fichas e corpus</td><td data-l="Repositório e caminho"><code>acervo-soberania-tecnologica</code> · <code>docs/analyses/</code></td><td data-l="Commit"><code>0b6cbd4d</code> (base em main) · <code>241dd6a</code> (correções de hoje)</td><td data-l="Alcançável de main?">base sim · correções não</td></tr><tr><td data-l="Artefato">Esta peça e o gerador</td><td data-l="Repositório e caminho">mesma pasta do run</td><td data-l="Commit">este PR</td><td data-l="Alcançável de main?">não — fica no merge</td></tr></tbody></table></div><div class="note"><strong>O que o clone entrega, e o que ele não entrega</strong>
+<strong>Entrega:</strong> o gate, o molde, o validador, o run com o placar documento a documento, o gerador desta peça e o texto das fichas. <strong>Não entrega:</strong> as fichas candidatas e os PDFs. Eles ficam em <code>_privado/</code>, fora do git por decisão de custódia (<code>.gitignore</code>, linhas 20 e 28). Reproduzir o placar exige <em>transferência de custódia</em> — e isso é uma pendência deste pacote, não uma prova dele.</div><div class="okbox"><strong>O que roda em qualquer máquina, sem nada privado</strong>
+O auto-teste do gate, de 52 asserções, sem PDF e sem <code>_privado</code>: <code>python3 ops/command-center/metodo/gate_fidelidade_fonte.py --self-test</code> — sai 0 e prova que o gate distingue o que deve aprovar do que deve recusar. O <strong>placar</strong>, não: ele exige as fichas e as fontes.</div><div class="danger"><strong>O que esta peça NÃO é</strong>
+Não é reprodução independente do placar. Quem quiser refazer os 1.401 precisa do material privado; quem quiser atacar o método começa pelo auto-teste e pelo run, que estão publicados.</div><div class="page-nav"><a href="#p-motor">← O motor</a><a href="#p-nao-provado">O que não está provado →</a></div></section><section role="tabpanel" id="p-nao-provado" aria-labelledby="h-p-nao-provado"><h2 id="h-p-nao-provado"><span class="num">06</span>O que não está provado</h2><p class="meta">MTCC · auditoria externa · 20 de novembro de 2026</p><div class="kpis"><div class="kpi"><div class="n">50</div><div class="l">afirmações não verificáveis</div></div><div class="kpi"><div class="n">45</div><div class="l">por citação de página, não por falta de dado</div></div><div class="kpi"><div class="n">0</div><div class="l">auditores independentes registrados</div></div></div><p>Esta é a seção que mais importa. O que segue são limites do método que eu não consegui fechar hoje, declarados para que a auditoria os ataque.</p><div class="tabwrap"><table><thead><tr><th>Limite</th><th>O que significa</th><th>Por que ficou aberto</th></tr></thead><tbody><tr><td data-l="Limite">50 não verificáveis</td><td data-l="O que significa">45 têm o valor no documento, mas em página diferente da citada; 3 estão em figura ou tabela sem camada de texto; 2 em outro caso</td><td data-l="Por que ficou aberto">corrigir citação por citação é remendo; o certo é reprocessar extração → ficha → critérios</td></tr><tr><td data-l="Limite">Sem auditor independente do gate</td><td data-l="O que significa">o registro de auditores está vazio</td><td data-l="Por que ficou aberto">o Teco não rodou sobre os commits de hoje</td></tr><tr><td data-l="Limite">Número sem unidade não é conferido</td><td data-l="O que significa">“2,9 pessoas” e “2,7 pessoas” passam iguais</td><td data-l="Por que ficou aberto">fora do escopo atual do gate; declarado, não escondido</td></tr><tr><td data-l="Limite">254 documentos sem fonte localizada</td><td data-l="O que significa">o gate não conseguiu achar o derivado correspondente</td><td data-l="Por que ficou aberto">contam como não verificável de fonte, não como aprovados</td></tr><tr><td data-l="Limite">Corpus limitado ao custodiado</td><td data-l="O que significa">o acervo da revista da UFSC está fora do ar</td><td data-l="Por que ficou aberto">limitação externa, com data: 2026-11</td></tr></tbody></table></div><div class="danger"><strong>Três afirmações que eu não posso fazer</strong>
+1. Que as 50 não verificáveis são todas legítimas — a triagem não fechou. 2. Que o gate não esconde divergência real — ninguém independente o atacou. 3. Que a coleção está completa — ela é do tamanho do que foi custodiado.</div><div class="page-nav"><a href="#p-onde-vive">← Onde cada coisa vive</a><a href="#p-pedido">O que eu peço →</a></div></section><section role="tabpanel" id="p-pedido" aria-labelledby="h-p-pedido"><h2 id="h-p-pedido"><span class="num">07</span>O que eu peço</h2><p class="meta">MTCC · auditoria externa · 20 de novembro de 2026</p><p>O retorno deve seguir o formato já usado na rodada anterior, para que a comparação entre rodadas seja possível sem tradução.</p><div class="tabwrap"><table><thead><tr><th>Campo</th><th>O que deve conter</th></tr></thead><tbody><tr><td data-l="Campo"><code>item</code></td><td data-l="O que deve conter">o número da pergunta desta peça</td></tr><tr><td data-l="Campo"><code>afirmacao</code></td><td data-l="O que deve conter">o que o pacote afirma</td></tr><tr><td data-l="Campo"><code>o_que_foi_feito</code></td><td data-l="O que deve conter">o que o motor faz de fato</td></tr><tr><td data-l="Campo"><code>como_se_prova</code></td><td data-l="O que deve conter">o comando ou caminho que reproduz</td></tr><tr><td data-l="Campo"><code>prova</code></td><td data-l="O que deve conter">a saída observada, não a esperada</td></tr><tr><td data-l="Campo"><code>nao_feito</code></td><td data-l="O que deve conter">o que não foi feito</td></tr><tr><td data-l="Campo"><code>por_que_nao</code></td><td data-l="O que deve conter">o motivo, quando houver</td></tr></tbody></table></div><h3>Cinco perguntas objetivas</h3><ul><li>O gate aprova um número que está na fonte com unidade diferente? (ex.: 70 % contra 70 MPa)</li><li>O gate distingue “valor em outra página” de “valor inexistente”?</li><li>O placar de 1.401 aprovações se reproduz com o run publicado — documento a documento?</li><li>A gaveta tem 74 documentos e 49 fichas, e a soma declarada fecha?</li><li>O molde entrega a mesma peça legível em celular e no papel, com todas as seções?</li></ul><div class="okbox"><strong>O que conta como reprovação</strong>
+Um único caso em que o gate aprove número que a fonte contradiz reprova o motor inteiro — não a rodada. É o teste que o motor precisa passar, e é o único que não pode falhar.</div><div class="page-nav"><a href="#p-nao-provado">← O que não está provado</a><span>—</span></div></section>
+<footer class="rodape">
+  Peça <strong>gerada</strong>, não escrita: 2026-11-20 ·
+  run <code>RUN_GATE_R11_20261120.json</code> (<code>sha256 439bed8ae0e2abe7…</code>) ·
+  objeto <code>takwaratec/acervo-soberania-tecnologica</code> commit <code>241dd6a</code> (árvore exportada, 338 .md conferidos no commit).
+  O gerador é <code>gerar_pacote_auditoria_sol.py</code>, nesta mesma pasta: regerar é rodar o comando de novo.
+  Esta peça não homologa nada: ela existe para ser atacada.
+</footer>
+</main>
+
+<script>
+
+/* molde.js — mecânica de abas do molde científico.
+
+   A altura da barra NÃO é constante: depende de quantas abas existem, da largura da tela e do
+   tamanho da fonte. Por isso ela é MEDIDA e publicada em --barra-h, e o CSS usa essa medida no
+   scroll-margin-top. Enquanto a folga for número escrito à mão, o molde funciona até a peça
+   passar de N abas — e a próxima sempre passa.
+
+   Medido em 2026-11-20, viewport de 390px, na peça real:
+     12 abas -> barra de 131px, scroll-margin fixo de 210px, folga de +24px
+     19 abas -> barra de 223px, scroll-margin fixo de 210px, folga de -13px (título atrás da barra)
+   É por isso que a folga não pode ser número: ela é a barra + respiro.
+*/
+(function(){
+  var nav = document.querySelector('nav.tabs');
+  if(!nav){ return; }
+  var secs = Array.prototype.slice.call(document.querySelectorAll('section[role="tabpanel"]'));
+  var botoes = Array.prototype.slice.call(nav.querySelectorAll('button[data-tab]'));
+  var TABS = botoes.map(function(b){ return b.getAttribute('data-tab'); });
+
+  function medirBarra(){
+    var h = Math.ceil(nav.getBoundingClientRect().height);
+    if(h > 0){ document.documentElement.style.setProperty('--barra-h', h + 'px'); }
+    return h;
+  }
+
+  function abrir(id, push){
+    var alvo = document.getElementById(id);
+    if(!alvo){ return; }
+    secs.forEach(function(s){ s.classList.toggle('active', s.id===id); });
+    var ativa = null;
+    botoes.forEach(function(b){
+      var on = b.getAttribute('data-tab')===id;
+      b.setAttribute('aria-selected', on ? 'true':'false');
+      b.setAttribute('tabindex', on ? '0':'-1');
+      if(on){ b.setAttribute('aria-current','page'); ativa = b; }
+      else { b.removeAttribute('aria-current'); }
+    });
+    medirBarra();
+    /* No celular a barra é uma linha que rola de lado: a aba ativa tem de ficar à vista,
+       sem arrastar a página junto (block:'nearest'). */
+    if(ativa && nav.scrollWidth > nav.clientWidth + 1){
+      try { ativa.scrollIntoView({block:'nearest', inline:'center'}); } catch(e){}
+    }
+    if(push){
+      /* replaceState em vez de location.hash: o hash deixaria o NAVEGADOR posicionar a seção
+         respeitando o scroll-margin, e em seguida o scrollTo(0,0) desfaria — dois donos da
+         mesma rolagem. Aqui há um dono só. O scroll-margin continua valendo para quem abre a
+         peça já com #seção na URL, que é o caso que o navegador posiciona sozinho. */
+      if(history.replaceState){ history.replaceState(null, '', '#' + id); }
+      else { location.hash = id; }
+    }
+    requestAnimationFrame(function(){ window.scrollTo(0,0); });
+  }
+
+  nav.addEventListener('click', function(ev){
+    var b = ev.target.closest ? ev.target.closest('button[data-tab]') : null;
+    if(b){ abrir(b.getAttribute('data-tab'), true); }
+  });
+  document.addEventListener('click', function(ev){
+    var a = ev.target.closest ? ev.target.closest('a[href^="#"]') : null;
+    if(a){
+      var id = a.getAttribute('href').slice(1);
+      if(document.getElementById(id)){ ev.preventDefault(); abrir(id, true); }
+    }
+  });
+  window.addEventListener('hashchange', function(){
+    abrir((location.hash||'').slice(1) || TABS[0], false);
+  });
+  window.addEventListener('pageshow', function(){
+    abrir((location.hash||'').slice(1) || TABS[0], false);
+  });
+
+  /* a altura muda com resize, com rotação de tela, com fonte que carrega depois e com aba
+     que muda de rótulo — medir uma vez no load não basta */
+  window.addEventListener('resize', medirBarra);
+  window.addEventListener('orientationchange', function(){ setTimeout(medirBarra, 60); });
+  if(window.ResizeObserver){ new ResizeObserver(medirBarra).observe(nav); }
+  if(document.fonts && document.fonts.ready){ document.fonts.ready.then(medirBarra); }
+
+  function iniciar(){
+    abrir((location.hash||'').slice(1) || TABS[0], false);
+    medirBarra();
+  }
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', iniciar);
+  } else { iniciar(); }
+})();
+
+</script>
+</body>
+</html>
