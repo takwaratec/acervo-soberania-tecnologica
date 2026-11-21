@@ -1,0 +1,3292 @@
+{
+ "metodo": "texto integral por pypdf; regex de palavra inteira para genero; radical case-insensitive para naturalizacao; inclui listas de referencia",
+ "ambiente": {
+  "python": "3.13.5",
+  "pypdf": "6.14.2",
+  "plataforma": "macOS-10.16-x86_64-i386-64bit-Mach-O"
+ },
+ "colecao": "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica/_privado/fontes-documentais/advance-bamboo-science-collection",
+ "pdfs_lidos": 254,
+ "pdfs_com_erro": 0,
+ "paginas_sem_texto": 0,
+ "arquivos_com_pagina_sem_texto": 0,
+ "aviso_ocr": "Paginas com menos de 40 caracteres sao tratadas como sem camada de texto. pypdf nao faz OCR: se a colecao tiver PDF digitalizado, a contagem e subestimada. Confira o campo paginas_sem_texto antes de citar os numeros.",
+ "nota": "As contagens se sobrepoem: um artigo cita varios generos e nao somam o total. Mencao em referencia bibliografica conta. Mede em quantos artigos o genero e discutido, nao quantos artigos sao sobre o genero.",
+ "total_por_genero": {
+  "Bambusa": {
+   "pdfs": 164,
+   "mencoes": 1982
+  },
+  "Phyllostachys": {
+   "pdfs": 159,
+   "mencoes": 1040
+  },
+  "Dendrocalamus": {
+   "pdfs": 146,
+   "mencoes": 1096
+  },
+  "Gigantochloa": {
+   "pdfs": 64,
+   "mencoes": 261
+  },
+  "Guadua": {
+   "pdfs": 58,
+   "mencoes": 329
+  },
+  "Merostachys": {
+   "pdfs": 6,
+   "mencoes": 22
+  },
+  "Chusquea": {
+   "pdfs": 9,
+   "mencoes": 77
+  }
+ },
+ "artigos": [
+  {
+   "volume": "Vol1",
+   "arquivo": "An-overview-of-bamboo-cultivation-in-Southern-I_2022_Advances-in-Bamboo-Scie.pdf",
+   "bytes": 1895264,
+   "chars": 50852,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Phyllostachys": 15,
+    "Dendrocalamus": 2
+   },
+   "naturalizacao": {
+    "naturali": 1,
+    "invasive": 3,
+    "exotic": 1,
+    "alien": 2
+   }
+  },
+  {
+   "volume": "Vol1",
+   "arquivo": "Bamboo-joint-capacity-determined-by-ISO-22156--comple_2022_Advances-in-Bambo.pdf",
+   "bytes": 6005336,
+   "chars": 42062,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol1",
+   "arquivo": "Biological-activity-of-Kuma-bamboo-grass--Sasa-veitchii--ex_2022_Advances-in.pdf",
+   "bytes": 2614165,
+   "chars": 27955,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol1",
+   "arquivo": "Comparative-assessment-of-the-antioxidant-potential-of-bamb_2022_Advances-in.pdf",
+   "bytes": 3022932,
+   "chars": 58360,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 14,
+    "Phyllostachys": 4,
+    "Dendrocalamus": 10,
+    "Guadua": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol1",
+   "arquivo": "Comparison-of-stem-anatomy-of-Bambusa-vulgaris-Schrad-and-_2022_Advances-in-.pdf",
+   "bytes": 6398127,
+   "chars": 31838,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 13,
+    "Dendrocalamus": 1,
+    "Gigantochloa": 2,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol1",
+   "arquivo": "Fighting-climate-change-with-bamboo-in-Africa--The-case-o_2022_Advances-in-B.pdf",
+   "bytes": 3787262,
+   "chars": 55999,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 42,
+    "Phyllostachys": 12,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {
+    "exotic": 6
+   }
+  },
+  {
+   "volume": "Vol1",
+   "arquivo": "Oxytenanthera-abyssinica-A--Rich--Munro-species-site-s_2022_Advances-in-Bamb.pdf",
+   "bytes": 3865791,
+   "chars": 33008,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol1",
+   "arquivo": "The-current-status-and-potential-research-directions-of_2022_Advances-in-Bam.pdf",
+   "bytes": 1925008,
+   "chars": 53164,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 6
+   },
+   "naturalizacao": {
+    "invasive": 1,
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol1",
+   "arquivo": "Why-a-new-journal-on-bamboo-_2022_Advances-in-Bamboo-Science.pdf",
+   "bytes": 447069,
+   "chars": 10917,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 2,
+    "Guadua": 1
+   },
+   "naturalizacao": {
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "A-feasibility-study-on-bamboo---PLA-composite-lamina-us_2025_Advances-in-Bam.pdf",
+   "bytes": 7448229,
+   "chars": 54728,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "Bamboo-forests-in-Anji--China--An-emerging-nature-based_2025_Advances-in-Bam.pdf",
+   "bytes": 2672070,
+   "chars": 24091,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 3,
+    "Guadua": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "Biochemical-and-anatomical-characteristics-associated-with_2025_Advances-in-.pdf",
+   "bytes": 7849589,
+   "chars": 53134,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 17,
+    "Phyllostachys": 1,
+    "Gigantochloa": 2,
+    "Guadua": 1
+   },
+   "naturalizacao": {
+    "alien": 1
+   }
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "Comparative-mechanical-characterization-of-Guadua-angusti_2025_Advances-in-B.pdf",
+   "bytes": 5402419,
+   "chars": 30183,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Dendrocalamus": 1,
+    "Guadua": 18
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "Effects-of-nitrogen-forms-on-adaptive-strategies-of-Moso-_2025_Advances-in-B.pdf",
+   "bytes": 4514359,
+   "chars": 75084,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 17
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "Evaluating-the-survival-rate--growth-performance--and-adaptatio_2025_Advance.pdf",
+   "bytes": 1330091,
+   "chars": 38330,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "Impact-of-individual-and-amalgamating-natural-dyes-on-cellu_2025_Advances-in.pdf",
+   "bytes": 7474575,
+   "chars": 28387,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 23
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "Native-bamboo-Arundinaria-gigantea-restoration-for-clim_2025_Advances-in-Bam.pdf",
+   "bytes": 4015970,
+   "chars": 67243,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "Optimisation-of-yield--flavonoids--and-antioxidant-activity-vi_2025_Advances.pdf",
+   "bytes": 4646946,
+   "chars": 55322,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 2,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "Perceptions-of-ecosystem-services-and-disservices-of-bamb_2025_Advances-in-B.pdf",
+   "bytes": 12016672,
+   "chars": 58924,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 27,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 12
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "Physical-and-mechanical-properties-of-bamboo-reconstituted-de_2025_Advances-.pdf",
+   "bytes": 1689830,
+   "chars": 43131,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 16,
+    "Dendrocalamus": 9
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "Sustainable-bamboo--Technological-innovations-and-pate_2025_Advances-in-Bamb.pdf",
+   "bytes": 12775071,
+   "chars": 109496,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 6,
+    "Phyllostachys": 5,
+    "Dendrocalamus": 4
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "Unlocking-the-hidden-power-of-bamboo-rhizomes--A-comprehens_2025_Advances-in.pdf",
+   "bytes": 11314960,
+   "chars": 168926,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 57,
+    "Phyllostachys": 63,
+    "Dendrocalamus": 35,
+    "Gigantochloa": 3,
+    "Guadua": 8,
+    "Merostachys": 3
+   },
+   "naturalizacao": {
+    "invasive": 7,
+    "exotic": 1,
+    "alien": 2
+   }
+  },
+  {
+   "volume": "Vol10",
+   "arquivo": "Unveiling-the-nutritional-and-bioactive-potential-of-bamboo_2025_Advances-in.pdf",
+   "bytes": 5159477,
+   "chars": 39486,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 16
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "A-comparative-study-of-the-shear-strength-of-a-poorly-grad_2025_Advances-in-.pdf",
+   "bytes": 5879374,
+   "chars": 47647,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "A-knowledge-management-and-innovation-diffusion-framework-f_2025_Advances-in.pdf",
+   "bytes": 11479655,
+   "chars": 89995,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1,
+    "Dendrocalamus": 3,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "A-new-form-of-Phyllostachys-edulis--Carri-re--J-Houz--_2025_Advances-in-Bamb.pdf",
+   "bytes": 3311434,
+   "chars": 9326,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 20
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Activation-process-optimization-and-MnO2-Ag-modification-_2025_Advances-in-B.pdf",
+   "bytes": 8713795,
+   "chars": 58566,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Advances-in-technology-for-seed-germination-of-bam_2025_Advances-in-Bamboo-S.pdf",
+   "bytes": 1300015,
+   "chars": 104526,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 20,
+    "Phyllostachys": 45,
+    "Dendrocalamus": 30
+   },
+   "naturalizacao": {
+    "invasive": 5
+   }
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Age-and-height-as-determinants-of-the-chemical-properties-of-t_2025_Advances.pdf",
+   "bytes": 2555833,
+   "chars": 56581,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 6,
+    "Phyllostachys": 4,
+    "Dendrocalamus": 13,
+    "Gigantochloa": 5
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Allometric-equations-for-estimating-biomass-and-carbon-stoc_2025_Advances-in.pdf",
+   "bytes": 4622463,
+   "chars": 51454,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 16,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 22
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Anatomy-of-the-culm-of-Dendrocalamus-asper--Bambusoideae--B_2025_Advances-in.pdf",
+   "bytes": 21902325,
+   "chars": 35414,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Dendrocalamus": 20,
+    "Guadua": 5
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Bamboo-derived-biochar-as-an-efficient-adsorbent-for-o_2025_Advances-in-Bamb.pdf",
+   "bytes": 2654460,
+   "chars": 54060,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Buckling-behaviour-of-cold-formed-steel-beam-C-lipped-secti_2025_Advances-in.pdf",
+   "bytes": 15581490,
+   "chars": 40792,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 13
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Computational-analysis-of-antimicrobial-phytochemicals-from-_2025_Advances-i.pdf",
+   "bytes": 4401286,
+   "chars": 53613,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 11,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Development-and-evaluation-of-bamboo-nanocellulose-PVDF-_2025_Advances-in-Ba.pdf",
+   "bytes": 7746713,
+   "chars": 70795,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Development-of-the-bamboo-forest-economy--Reviewing-China-s_2025_Advances-in.pdf",
+   "bytes": 755338,
+   "chars": 94936,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 6,
+    "Phyllostachys": 8,
+    "Dendrocalamus": 3,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Effect-of-elevation-on-soil-quality-under-bamboo--Bambusa-t_2025_Advances-in.pdf",
+   "bytes": 3150956,
+   "chars": 77888,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 9,
+    "Phyllostachys": 13,
+    "Dendrocalamus": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Effect-of-tung-oil-and-zirconia-powder-surface-treatmen_2025_Advances-in-Bam.pdf",
+   "bytes": 10096211,
+   "chars": 47767,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 6
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Effects-of-spectral-quality-on-the-micropropagation-of-Dendr_2025_Advances-i.pdf",
+   "bytes": 10723238,
+   "chars": 57883,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 8,
+    "Dendrocalamus": 26
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Exploring-the-utilization-potential-and-threats-on-native-hig_2025_Advances-.pdf",
+   "bytes": 3359217,
+   "chars": 65186,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Extraction-of-cellulose-from-bamboo--Bambusa-vulgaris-Sc_2025_Advances-in-Ba.pdf",
+   "bytes": 5570815,
+   "chars": 34437,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 5
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Fibrils-of-Bambusa-tulda-Roxb--as-a-sustainable-material-f_2025_Advances-in-.pdf",
+   "bytes": 8466765,
+   "chars": 37932,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 20,
+    "Phyllostachys": 2,
+    "Guadua": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Flexural-behaviour-of-bamboo-reinforced-concrete-beams-soaked_2025_Advances-.pdf",
+   "bytes": 13825060,
+   "chars": 67834,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Dendrocalamus": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Genome-wide-identification--characterization-and-expression-pat_2025_Advance.pdf",
+   "bytes": 12636645,
+   "chars": 67734,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 5
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Glue-bond-performance-of-oil-heat-treated-bamboo-using-cold_2025_Advances-in.pdf",
+   "bytes": 14209374,
+   "chars": 57401,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 3,
+    "Dendrocalamus": 4,
+    "Gigantochloa": 1,
+    "Guadua": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Gregarious-flowering-of-Dendrocalamus-strictus-in-Uttar-Pr_2025_Advances-in-.pdf",
+   "bytes": 10232909,
+   "chars": 34065,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 4,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 30,
+    "Chusquea": 2
+   },
+   "naturalizacao": {
+    "invasive": 2
+   }
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Influence-of-gibberellic-acid--GA3--on-in-vitro-seed-germinati_2025_Advances.pdf",
+   "bytes": 6800887,
+   "chars": 38308,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 3,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 16
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Influence-of-lacquer-sanding-sealer-treatment-on-the-prope_2025_Advances-in-.pdf",
+   "bytes": 11701078,
+   "chars": 59434,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Dendrocalamus": 1,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Investigating-the-relationship-between-the-population-of-Ple_2025_Advances-i.pdf",
+   "bytes": 6786820,
+   "chars": 33309,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Litter-to-liquor--An-overview-of-bamboo-tea--a-cup-fu_2025_Advances-in-Bambo.pdf",
+   "bytes": 1374000,
+   "chars": 43580,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 20,
+    "Dendrocalamus": 18,
+    "Gigantochloa": 2
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Morphological-and-mechanical-properties-of-three-commerciall_2025_Advances-i.pdf",
+   "bytes": 3295597,
+   "chars": 55062,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 9,
+    "Dendrocalamus": 9,
+    "Gigantochloa": 9,
+    "Guadua": 2
+   },
+   "naturalizacao": {
+    "naturali": 3,
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Nitrogen-fertilization-dynamics-on-one-year-old-Dendrocala_2025_Advances-in-.pdf",
+   "bytes": 2291707,
+   "chars": 63308,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 5,
+    "Phyllostachys": 6,
+    "Dendrocalamus": 16,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {
+    "naturali": 1,
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Optimizing-biomass-pellet-quality-from-sugarcane-leaves-_2025_Advances-in-Ba.pdf",
+   "bytes": 884106,
+   "chars": 43525,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Preparation-and-characterization-of-activated-carbon-from-_2025_Advances-in-.pdf",
+   "bytes": 2751678,
+   "chars": 50332,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 18,
+    "Dendrocalamus": 7,
+    "Gigantochloa": 3
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Preservative-treatment-of-the-bamboos-Dendrocalamus-gigan_2025_Advances-in-B.pdf",
+   "bytes": 4191869,
+   "chars": 38461,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 6,
+    "Phyllostachys": 3,
+    "Dendrocalamus": 4,
+    "Gigantochloa": 5
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Production-and-properties-of-natural-bamboo-cotton_2025_Advances-in-Bamboo-S.pdf",
+   "bytes": 1411469,
+   "chars": 69619,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 3,
+    "Phyllostachys": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Rediscovery-of-Schizostachyum-caudatum-Backer-ex-Heyne--Poac_2025_Advances-i.pdf",
+   "bytes": 6288139,
+   "chars": 25493,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {
+    "naturali": 1
+   }
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Use-of-Google-Earth-Engine-in-predicting-future-giant-can_2025_Advances-in-B.pdf",
+   "bytes": 8257241,
+   "chars": 41898,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol11",
+   "arquivo": "Valorising-bamboo-leaves-for-climate-smart-livestock-product_2025_Advances-i.pdf",
+   "bytes": 6349363,
+   "chars": 102278,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 17,
+    "Phyllostachys": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "A-minimum-viable-reactor-for-pyrolysis-in-wood-burning-stoves-_2025_Advances.pdf",
+   "bytes": 4172213,
+   "chars": 35511,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Dendrocalamus": 1,
+    "Guadua": 1,
+    "Merostachys": 4,
+    "Chusquea": 3
+   },
+   "naturalizacao": {
+    "exotic": 2
+   }
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Assessment-of-nutritional-enhancement-through-food-to-food-fo_2025_Advances-.pdf",
+   "bytes": 2059279,
+   "chars": 65039,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 3,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Bioenergy-potential-of-Kauayan-tinik--Bambusa-spinosa-Roxb--_2025_Advances-i.pdf",
+   "bytes": 9076395,
+   "chars": 51687,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 12,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 1,
+    "Gigantochloa": 2,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Carbon-storage-potential-of-Dendrocalamus-hamiltonii-Nees-_2025_Advances-in-.pdf",
+   "bytes": 2517699,
+   "chars": 41645,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 16,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 12
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Chemical-composition-and-antimicrobial-properties-of-essen_2025_Advances-in-.pdf",
+   "bytes": 966566,
+   "chars": 33384,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 5,
+    "Phyllostachys": 10,
+    "Dendrocalamus": 4,
+    "Guadua": 21
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Diversity-and-distribution-of-endophytic-fungi-in-hill-_2025_Advances-in-Bam.pdf",
+   "bytes": 5701719,
+   "chars": 51708,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 5,
+    "Phyllostachys": 4,
+    "Dendrocalamus": 5
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Effect-of-growth-parameters-on-fibre-traits-of-Ochlandra-wigh_2025_Advances-.pdf",
+   "bytes": 1992515,
+   "chars": 34918,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 6,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 3,
+    "Gigantochloa": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Effects-of-soil-composition-and-mulching-treatments-on-biom_2025_Advances-in.pdf",
+   "bytes": 1048995,
+   "chars": 34996,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 5,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Enhancing-mechanical--structural-and-wear-properties-of-Al-Mg_2025_Advances-.pdf",
+   "bytes": 9261203,
+   "chars": 79457,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Harnessing-the-potentials-of-bamboo-as-a-sustainable-f_2025_Advances-in-Bamb.pdf",
+   "bytes": 3000128,
+   "chars": 111231,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 20,
+    "Phyllostachys": 30,
+    "Dendrocalamus": 9,
+    "Gigantochloa": 10
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Industrial-transfer-and-total-factor-productivity-impro_2025_Advances-in-Bam.pdf",
+   "bytes": 1443092,
+   "chars": 78662,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Phyllostachys": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Influence-of-dry-etching-plasma-treatment-energy-on-the-Y_2025_Advances-in-B.pdf",
+   "bytes": 5296480,
+   "chars": 19881,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Guadua": 8
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Influence-of-native-shade-tree-canopies-on-the-clump-and-cul_2025_Advances-i.pdf",
+   "bytes": 6845441,
+   "chars": 51217,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 8,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Investigation-of-the-flexural-capacity-of-glue-laminated-Bam_2025_Advances-i.pdf",
+   "bytes": 8509377,
+   "chars": 50177,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 19
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Nursery-level-bamboo-plant-species-classification-u_2025_Advances-in-Bamboo-.pdf",
+   "bytes": 7485397,
+   "chars": 45550,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 30,
+    "Dendrocalamus": 25,
+    "Gigantochloa": 1,
+    "Guadua": 1
+   },
+   "naturalizacao": {
+    "naturali": 1,
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Nutritional-evaluation-of-bamboo-leaf-based-pellets-fo_2025_Advances-in-Bamb.pdf",
+   "bytes": 1655699,
+   "chars": 49634,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 8
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Physical--mechanical-and-durability-properties-of-Bambusa-vu_2025_Advances-i.pdf",
+   "bytes": 5048362,
+   "chars": 41272,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 13,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Physical-and-mechanical-properties-of-highland-bamboo--Oldean_2025_Advances-.pdf",
+   "bytes": 5339506,
+   "chars": 48635,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 1,
+    "Gigantochloa": 3,
+    "Guadua": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Phytic-acid-based-superhydrophobic-coating-endows-bamboo-_2025_Advances-in-B.pdf",
+   "bytes": 14488184,
+   "chars": 55314,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 4
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Potential-barriers-to-bamboo-based-carbon-credit-initia_2025_Advances-in-Bam.pdf",
+   "bytes": 5319251,
+   "chars": 87670,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 17,
+    "Phyllostachys": 6,
+    "Dendrocalamus": 8
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Potential-climate-benefits-of-using-bamboo-cutlery-as-a-s_2025_Advances-in-B.pdf",
+   "bytes": 5860970,
+   "chars": 72161,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Preparation-and-characterization-of-fluff-from-bamboo-as-_2025_Advances-in-B.pdf",
+   "bytes": 4748803,
+   "chars": 31769,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 3,
+    "Dendrocalamus": 5
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Shades-and-shapes--Influence-of-native-shade-tree-canopies-on_2025_Advances-.pdf",
+   "bytes": 11799593,
+   "chars": 60847,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 3,
+    "Phyllostachys": 12,
+    "Dendrocalamus": 9,
+    "Gigantochloa": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Study-on-the-properties-of-activated-carbon-based-on-ac_2025_Advances-in-Bam.pdf",
+   "bytes": 4361213,
+   "chars": 45182,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Phyllostachys": 1,
+    "Gigantochloa": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol12",
+   "arquivo": "Towards-green-composites--Composites-reinforced-with_2025_Advances-in-Bamboo.pdf",
+   "bytes": 12509745,
+   "chars": 50011,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "A-hybrid-IVIF-MDL-MARCOS-framework-for-sustainable-selec_2025_Advances-in-Ba.pdf",
+   "bytes": 1996193,
+   "chars": 56617,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Allometric-model-for-estimating-above--and-belowground-bi_2025_Advances-in-B.pdf",
+   "bytes": 5562174,
+   "chars": 55006,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 5,
+    "Phyllostachys": 3,
+    "Dendrocalamus": 4,
+    "Gigantochloa": 44
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Assessment-of-Bambusa-vulgaris-Schrad--ex-J-C--Wendl---Dendroc_2025_Advances.pdf",
+   "bytes": 3894366,
+   "chars": 47181,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 7,
+    "Dendrocalamus": 4
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Bamboo-consumption-and-health-outcomes--A-systematic-_2025_Advances-in-Bambo.pdf",
+   "bytes": 1140322,
+   "chars": 51689,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Beyond-carbon--Navigating-ecosystem-service-synergies-a_2025_Advances-in-Bam.pdf",
+   "bytes": 5998774,
+   "chars": 50748,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Phyllostachys": 5
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Comprehensive-characterization-of-Bengal-bamboo--Bambusa-tuld_2025_Advances-.pdf",
+   "bytes": 6729493,
+   "chars": 66893,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 17,
+    "Phyllostachys": 4,
+    "Dendrocalamus": 6
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Ecological-restoration-of-fragile-Eastern-Himalayan-lan_2025_Advances-in-Bam.pdf",
+   "bytes": 4622315,
+   "chars": 106789,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 47,
+    "Phyllostachys": 12,
+    "Dendrocalamus": 24,
+    "Gigantochloa": 1,
+    "Guadua": 1
+   },
+   "naturalizacao": {
+    "invasive": 8,
+    "alien": 2
+   }
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Enhancing-polyvinyl-acetate-adhesion-via-atmospheric-pres_2025_Advances-in-B.pdf",
+   "bytes": 7998884,
+   "chars": 53942,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 5
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Genome-wide-identification-and-expression-analysis-of-ZIP-gene_2025_Advances.pdf",
+   "bytes": 6146292,
+   "chars": 66959,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 6
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Lateral-cyclic-performance-of-bamboo-reinforced-concrete-c_2025_Advances-in-.pdf",
+   "bytes": 19128352,
+   "chars": 61856,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1,
+    "Dendrocalamus": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Micropropagation-of-Bambusa-balcooa-Roxb---Insights--chall_2025_Advances-in-.pdf",
+   "bytes": 5589111,
+   "chars": 88821,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 33,
+    "Phyllostachys": 3,
+    "Dendrocalamus": 13,
+    "Gigantochloa": 1,
+    "Guadua": 1
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Retraction-notice-to--Thermal-treatment-of-bamboo-with-flame_2025_Advances-i.pdf",
+   "bytes": 266969,
+   "chars": 1574,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Straw-mulching-increased-soil-organic-carbon-content-and-st_2025_Advances-in.pdf",
+   "bytes": 8349282,
+   "chars": 54835,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 5,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Synthesis-and-characterization-of-magnetic-molecularly-impri_2025_Advances-i.pdf",
+   "bytes": 4880632,
+   "chars": 58211,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol13",
+   "arquivo": "Therapeutic-potential-of-bamboo--Exploring-ethnomedicinal-trad_2025_Advances.pdf",
+   "bytes": 6104465,
+   "chars": 146665,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 62,
+    "Phyllostachys": 114,
+    "Dendrocalamus": 20,
+    "Gigantochloa": 6,
+    "Guadua": 10
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Bamboo-as-a-sustainable-alternative-construction-ma_2026_Advances-in-Bamboo-.pdf",
+   "bytes": 8054088,
+   "chars": 68622,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 3,
+    "Phyllostachys": 6,
+    "Dendrocalamus": 4,
+    "Gigantochloa": 1,
+    "Guadua": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Bamboo-biomass-derived-biochar-for-advanced-water-treatment--_2026_Advances-.pdf",
+   "bytes": 4469776,
+   "chars": 114476,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Bamboo-leaves-as-alternative-feed-resource-for-livestoc_2026_Advances-in-Bam.pdf",
+   "bytes": 2762121,
+   "chars": 103677,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 118,
+    "Phyllostachys": 31,
+    "Dendrocalamus": 37,
+    "Gigantochloa": 7
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Bamboo-resources-in-a-changing-climate-Synergizing-eco_2026_Advances-in-Bamb.pdf",
+   "bytes": 333504,
+   "chars": 10495,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Phyllostachys": 2
+   },
+   "naturalizacao": {
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Carbon-transfer-dynamics-in-Moso-bamboo--Phyllostachys-edulis_2026_Advances-.pdf",
+   "bytes": 4037877,
+   "chars": 53064,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 4
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Comparative-iso-conversional-kinetics-of-raw-and-carbonized-_2026_Advances-i.pdf",
+   "bytes": 6293186,
+   "chars": 123638,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 5,
+    "Phyllostachys": 4,
+    "Dendrocalamus": 7
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Destructive-sampling-based-generalized-additive-model--GAM--_2026_Advances-i.pdf",
+   "bytes": 4898860,
+   "chars": 60536,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1,
+    "Dendrocalamus": 13
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Editorial--Climate-smart-bamboo-forest-economy-for-s_2026_Advances-in-Bamboo.pdf",
+   "bytes": 343013,
+   "chars": 8069,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Effect-of-harvesting-intensity-on-natural-highland-bamboo--Ol_2026_Advances-.pdf",
+   "bytes": 1352708,
+   "chars": 40790,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 3,
+    "Gigantochloa": 8
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Effect-of-pyrolysis-temperature-on-the-properties-of-bamb_2026_Advances-in-B.pdf",
+   "bytes": 2966384,
+   "chars": 59313,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Efficient-extraction-of-polyphenols-from-bamboo-shoot-shell_2026_Advances-in.pdf",
+   "bytes": 4342075,
+   "chars": 53158,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Environmental-absorption-by-carbon-derived-from-Bambusa-bam_2026_Advances-in.pdf",
+   "bytes": 4434453,
+   "chars": 31771,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 8
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Highland-bamboo--Oldeania-alpina--K-Schum---Stapleton--in_2026_Advances-in-B.pdf",
+   "bytes": 888379,
+   "chars": 63026,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Impacts-of-multiple-recycling-on-bamboo-flour-thermoplasti_2026_Advances-in-.pdf",
+   "bytes": 4301522,
+   "chars": 47966,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Influence-of-tapered-geometry-on-modal-frequencies-_2026_Advances-in-Bamboo-.pdf",
+   "bytes": 4882288,
+   "chars": 59368,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Phyllostachys": 3,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Mechanical-behaviour-of-bamboo-slat-structural-_2026_Advances-in-Bamboo-Scie.pdf",
+   "bytes": 30187838,
+   "chars": 50477,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 24,
+    "Dendrocalamus": 13,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Predictive-structural-grading-of-Ethiopian-highland-bamboo--_2026_Advances-i.pdf",
+   "bytes": 13643825,
+   "chars": 95672,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 3,
+    "Gigantochloa": 3,
+    "Guadua": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Sustainable-bamboo-plastic-composites-from-upcycled-chopstick_2026_Advances-.pdf",
+   "bytes": 10492510,
+   "chars": 76667,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 2,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "The-extinction-of-native-European-bamboos--A-fossil-_2026_Advances-in-Bamboo.pdf",
+   "bytes": 9272326,
+   "chars": 59998,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 55,
+    "Phyllostachys": 1
+   },
+   "naturalizacao": {
+    "naturali": 1
+   }
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Towards-upgrading-the-lowland-bamboo--Oxytenanthera-abyssinic_2026_Advances-.pdf",
+   "bytes": 1961898,
+   "chars": 31829,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol15",
+   "arquivo": "Unbiased-carbon-sequestration-estimation-in-parring-bamboo--G_2026_Advances-.pdf",
+   "bytes": 733077,
+   "chars": 73923,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 4,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 1,
+    "Gigantochloa": 30
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol16",
+   "arquivo": "A-PCA-assisted-machine-learning-framework-for-non-destructi_2026_Advances-in.pdf",
+   "bytes": 3523245,
+   "chars": 61559,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 8,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol16",
+   "arquivo": "Characterization-of-densified-bamboo-as-an-alternative-to_2026_Advances-in-B.pdf",
+   "bytes": 5036118,
+   "chars": 64442,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 10,
+    "Dendrocalamus": 9
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol16",
+   "arquivo": "Comparative-analysis-of-fibre-biometrics-and-morphological-in_2026_Advances-.pdf",
+   "bytes": 910373,
+   "chars": 41287,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 20,
+    "Phyllostachys": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol16",
+   "arquivo": "Effect-of-soil-mounding-on-growth-and-barrier-formation-of_2026_Advances-in-.pdf",
+   "bytes": 8385521,
+   "chars": 72218,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 19,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 17,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol16",
+   "arquivo": "Genome-wide-characterization-of-the-GASA-gene-family-in-Phyllo_2026_Advances.pdf",
+   "bytes": 11175069,
+   "chars": 74935,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 9
+   },
+   "naturalizacao": {
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "Vol16",
+   "arquivo": "Genome-wide-identification-and-expression-analysis-reveal-pot_2026_Advances-.pdf",
+   "bytes": 13555230,
+   "chars": 64051,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 7
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol16",
+   "arquivo": "Harnessing-the-potential-of-bamboo-for-sustainable-livel_2026_Advances-in-Ba.pdf",
+   "bytes": 1320011,
+   "chars": 100978,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 9,
+    "Dendrocalamus": 4
+   },
+   "naturalizacao": {
+    "naturali": 1,
+    "invasive": 1,
+    "exotic": 2
+   }
+  },
+  {
+   "volume": "Vol16",
+   "arquivo": "Highland-bamboo--Oldeania-alpina--K-Schum---Stapleton--agrof_2026_Advances-i.pdf",
+   "bytes": 1908575,
+   "chars": 49106,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol16",
+   "arquivo": "Influence-of-slenderness-ratio-and-eccentricity-on-the-load-_2026_Advances-i.pdf",
+   "bytes": 15811471,
+   "chars": 67693,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 8,
+    "Phyllostachys": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol16",
+   "arquivo": "Palms-and-bamboos-of-Tanzania--Ecological--conservati_2026_Advances-in-Bambo.pdf",
+   "bytes": 1834779,
+   "chars": 55722,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 27,
+    "Phyllostachys": 5,
+    "Dendrocalamus": 13,
+    "Gigantochloa": 4
+   },
+   "naturalizacao": {
+    "naturali": 3,
+    "invasive": 4,
+    "exotic": 42,
+    "alien": 1
+   }
+  },
+  {
+   "volume": "Vol16",
+   "arquivo": "Recent-advances-in-the-synthesis-and-application-of-bamboo-_2026_Advances-in.pdf",
+   "bytes": 7211502,
+   "chars": 112519,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Phyllostachys": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol2",
+   "arquivo": "Allometric-models-for-estimating-biomass-storage-and-carbon-_2023_Advances-i.pdf",
+   "bytes": 1586393,
+   "chars": 49983,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 7,
+    "Phyllostachys": 7
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol2",
+   "arquivo": "Assessment-of-physical--mechanical--and-chemical-properties_2023_Advances-in.pdf",
+   "bytes": 7588968,
+   "chars": 51907,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 6,
+    "Dendrocalamus": 12,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol2",
+   "arquivo": "Culm-dynamics-of-dwarf-bamboo--Sasa-kurilensis-Makino--amp_2023_Advances-in-.pdf",
+   "bytes": 1788862,
+   "chars": 46791,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol2",
+   "arquivo": "Effect-of-nodal-cutting-position-and-plant-growth-regulator_2023_Advances-in.pdf",
+   "bytes": 790061,
+   "chars": 27227,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 10,
+    "Dendrocalamus": 9
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol2",
+   "arquivo": "Potential-application-and-regeneration-of-bamboo-biocha_2023_Advances-in-Bam.pdf",
+   "bytes": 1423280,
+   "chars": 61772,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 3,
+    "Guadua": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol2",
+   "arquivo": "RETRACTED--Thermal-treatment-of-bamboo-with-flame--infl_2023_Advances-in-Bam.pdf",
+   "bytes": 8194277,
+   "chars": 37279,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 8,
+    "Dendrocalamus": 2
+   },
+   "naturalizacao": {
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "Vol2",
+   "arquivo": "Seismic-performance-assessment-of-a-multi-story-bamb_2023_Advances-in-Bamboo.pdf",
+   "bytes": 1223190,
+   "chars": 27898,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Guadua": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol2",
+   "arquivo": "Slenderness-coefficient-and-growth-characteristics-of-Afr_2023_Advances-in-B.pdf",
+   "bytes": 3692613,
+   "chars": 30206,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 15,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 1,
+    "Chusquea": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol2",
+   "arquivo": "Small-scale-spatial-patterns-of-bamboos-Bashania-fargesii-_2023_Advances-in-.pdf",
+   "bytes": 3384260,
+   "chars": 62672,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Chusquea": 4
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol3",
+   "arquivo": "Bamboo-species--size--and-soil-water-define-the-dynamics-of-_2023_Advances-i.pdf",
+   "bytes": 7154084,
+   "chars": 43766,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 9,
+    "Guadua": 8
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol3",
+   "arquivo": "In-vitro-cloning-of-Bambusa-vulgaris-Schrad--ex-J--C--Wendl_2023_Advances-in.pdf",
+   "bytes": 4659012,
+   "chars": 43609,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 29,
+    "Dendrocalamus": 4,
+    "Guadua": 10
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol3",
+   "arquivo": "Investigating-the-tensile-and-flexural-strength-of-sunflowe_2023_Advances-in.pdf",
+   "bytes": 10074708,
+   "chars": 55454,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1,
+    "Guadua": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol3",
+   "arquivo": "Karyology-of-eight-bamboo-species-endemic-to-Sout_2023_Advances-in-Bamboo-Sc.pdf",
+   "bytes": 7386890,
+   "chars": 25030,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol3",
+   "arquivo": "Material-characterisation-of-bamboo-for-glued-lami_2023_Advances-in-Bamboo-S.pdf",
+   "bytes": 2466223,
+   "chars": 38710,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol3",
+   "arquivo": "Perception-of-artisans-towards-bamboo-preservation-for-_2023_Advances-in-Bam.pdf",
+   "bytes": 2965945,
+   "chars": 39744,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 3,
+    "Dendrocalamus": 2
+   },
+   "naturalizacao": {
+    "exotic": 2
+   }
+  },
+  {
+   "volume": "Vol3",
+   "arquivo": "Structural-bamboo-composites--A-review-of-processing--fa_2023_Advances-in-Ba.pdf",
+   "bytes": 4744290,
+   "chars": 111293,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 10,
+    "Phyllostachys": 12,
+    "Dendrocalamus": 11,
+    "Gigantochloa": 10,
+    "Guadua": 9
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol3",
+   "arquivo": "Utilization-of-bamboo-resources-and-their-market-value-_2023_Advances-in-Bam.pdf",
+   "bytes": 8490306,
+   "chars": 78269,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 32,
+    "Phyllostachys": 7,
+    "Dendrocalamus": 32
+   },
+   "naturalizacao": {
+    "invasive": 1,
+    "exotic": 3
+   }
+  },
+  {
+   "volume": "Vol4",
+   "arquivo": "Allelopathic-effects-of-Oldeania-alpina--K--Schum---Stapleto_2023_Advances-i.pdf",
+   "bytes": 704467,
+   "chars": 39851,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 4,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol4",
+   "arquivo": "Bamboo-forests-in-Nepal--Status--distribution--research-_2023_Advances-in-Ba.pdf",
+   "bytes": 4035989,
+   "chars": 84268,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 28,
+    "Phyllostachys": 6,
+    "Dendrocalamus": 27
+   },
+   "naturalizacao": {
+    "invasive": 2
+   }
+  },
+  {
+   "volume": "Vol4",
+   "arquivo": "Effect-of-light-spectra-on-in-vitro-multiplication--elongat_2023_Advances-in.pdf",
+   "bytes": 4699001,
+   "chars": 51514,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 35,
+    "Dendrocalamus": 6,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol4",
+   "arquivo": "Erratum-to--An-overview-of-bamboo-cultivation-in-Souther_2023_Advances-in-Ba.pdf",
+   "bytes": 366858,
+   "chars": 1029,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol4",
+   "arquivo": "Evaluation-of-the-biomass--carbon-sequestered-and-microbiot_2023_Advances-in.pdf",
+   "bytes": 4594698,
+   "chars": 27446,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 8,
+    "Phyllostachys": 4,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol4",
+   "arquivo": "Farmers--local-knowledge-of-soil-fertility-in-bamboo-pla_2023_Advances-in-Ba.pdf",
+   "bytes": 4425946,
+   "chars": 51718,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 6,
+    "Phyllostachys": 4,
+    "Dendrocalamus": 2
+   },
+   "naturalizacao": {
+    "invasive": 5
+   }
+  },
+  {
+   "volume": "Vol4",
+   "arquivo": "Fimbribambusa-jokowii-Widjaja--Poaceae--Bambusoideae---a_2023_Advances-in-Ba.pdf",
+   "bytes": 1940449,
+   "chars": 17284,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 9,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 3,
+    "Gigantochloa": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol4",
+   "arquivo": "Growth-and-biomass-production-of-five-exotic-bamboo-sp_2023_Advances-in-Bamb.pdf",
+   "bytes": 1574596,
+   "chars": 46630,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 4,
+    "Dendrocalamus": 4,
+    "Guadua": 2
+   },
+   "naturalizacao": {
+    "exotic": 6
+   }
+  },
+  {
+   "volume": "Vol4",
+   "arquivo": "Lowland-bamboo--Oxytenanthera-abyssinica--deforestation-and-_2023_Advances-i.pdf",
+   "bytes": 3741594,
+   "chars": 60422,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol4",
+   "arquivo": "Performance-and-development-challenges-of-micro-small-ba_2023_Advances-in-Ba.pdf",
+   "bytes": 12898234,
+   "chars": 46399,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Gigantochloa": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol4",
+   "arquivo": "Potentials-of-bamboo-and-its-ecological-benefits-_2023_Advances-in-Bamboo-Sc.pdf",
+   "bytes": 1241717,
+   "chars": 91378,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 12,
+    "Phyllostachys": 16,
+    "Dendrocalamus": 3,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol4",
+   "arquivo": "The-commercialization-of-timber-bamboo-in-Nepal--A-_2023_Advances-in-Bamboo-.pdf",
+   "bytes": 8027574,
+   "chars": 64865,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol5",
+   "arquivo": "Advances-in-engineered-bamboo-processing--Material-c_2023_Advances-in-Bamboo.pdf",
+   "bytes": 9743636,
+   "chars": 101239,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 6,
+    "Dendrocalamus": 6,
+    "Guadua": 7
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol5",
+   "arquivo": "Assessment-of-the-drying-behaviour-of-young-and-mature_2023_Advances-in-Bamb.pdf",
+   "bytes": 3154323,
+   "chars": 40228,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 40,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 2,
+    "Gigantochloa": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol5",
+   "arquivo": "Determinants-and-governance-of-bamboo-production-and-ma_2023_Advances-in-Bam.pdf",
+   "bytes": 12186470,
+   "chars": 128786,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Phyllostachys": 4
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol5",
+   "arquivo": "Determinants-of-bamboo-processors--utilization-level--The_2023_Advances-in-B.pdf",
+   "bytes": 739906,
+   "chars": 58827,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol5",
+   "arquivo": "Determinants-of-smallholder-farmers--participation-in-highl_2023_Advances-in.pdf",
+   "bytes": 1490369,
+   "chars": 42919,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol5",
+   "arquivo": "Durability-and-strength-sustainability-assessment-of-ro_2023_Advances-in-Bam.pdf",
+   "bytes": 4235693,
+   "chars": 26703,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol5",
+   "arquivo": "Ethno-taxonomy-and-potential-uses-of-highland-bamboo--O_2023_Advances-in-Bam.pdf",
+   "bytes": 23890374,
+   "chars": 48393,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol5",
+   "arquivo": "Influence-of-the-outer-skin-on-the-flexural-properties-and_2023_Advances-in-.pdf",
+   "bytes": 11528235,
+   "chars": 32187,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 5,
+    "Dendrocalamus": 5
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol5",
+   "arquivo": "Physical--mechanical--chemical--and-durability-assessme_2023_Advances-in-Bam.pdf",
+   "bytes": 8565987,
+   "chars": 44772,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Phyllostachys": 3,
+    "Dendrocalamus": 8,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol5",
+   "arquivo": "Quantification-of-enzymatic-antioxidants--catalase-and-peroxida_2023_Advance.pdf",
+   "bytes": 697404,
+   "chars": 36619,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 6,
+    "Phyllostachys": 4,
+    "Dendrocalamus": 5,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol5",
+   "arquivo": "Tensile-properties-and-morphological-insights-into-chemically_2023_Advances-.pdf",
+   "bytes": 27084910,
+   "chars": 47958,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 10,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "Vol5",
+   "arquivo": "Unraveling-the-mysterious-flowering-cycles-of-Mexican-Gu_2023_Advances-in-Ba.pdf",
+   "bytes": 3928534,
+   "chars": 32036,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Dendrocalamus": 2,
+    "Guadua": 64,
+    "Merostachys": 1,
+    "Chusquea": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol5",
+   "arquivo": "Use-of-the-Wise-method-as-a-pretreatment-for-the-selective_2023_Advances-in-.pdf",
+   "bytes": 4099590,
+   "chars": 36798,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol6",
+   "arquivo": "A-review-of-the-woody-bamboos--Poaceae--Bambusoideae--_2024_Advances-in-Bamb.pdf",
+   "bytes": 2751175,
+   "chars": 44273,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 16,
+    "Dendrocalamus": 2,
+    "Gigantochloa": 1,
+    "Guadua": 10,
+    "Chusquea": 14
+   },
+   "naturalizacao": {
+    "naturali": 4
+   }
+  },
+  {
+   "volume": "Vol6",
+   "arquivo": "Advancing-circular-economy-for-the-growth--root-development-_2024_Advances-i.pdf",
+   "bytes": 860938,
+   "chars": 42376,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 5,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol6",
+   "arquivo": "Analysis-of-the-physical-mechanical-properties-of-Dendrocalamu_2024_Advances.pdf",
+   "bytes": 4329814,
+   "chars": 45854,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Dendrocalamus": 11,
+    "Gigantochloa": 1,
+    "Guadua": 19
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol6",
+   "arquivo": "Bamboo-mediated-green-synthesis-of-silver-nanoparticles-A-_2024_Advances-in-.pdf",
+   "bytes": 2846330,
+   "chars": 57365,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 14,
+    "Phyllostachys": 17,
+    "Dendrocalamus": 5,
+    "Gigantochloa": 2,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol6",
+   "arquivo": "Chemical-composition-and-solubility-properties-of-Bambus_2024_Advances-in-Ba.pdf",
+   "bytes": 793981,
+   "chars": 35091,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 10,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 1,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol6",
+   "arquivo": "Importance-of-bamboo-for-immediate-earthquake-recove_2024_Advances-in-Bamboo.pdf",
+   "bytes": 1401447,
+   "chars": 26978,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol6",
+   "arquivo": "Integrated-CO2-hydrothermal-carbonization-and-high-temperat_2024_Advances-in.pdf",
+   "bytes": 3285778,
+   "chars": 41422,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol6",
+   "arquivo": "Remote-sensing--allometry--and-carbon-stocks-of-Phyllosta_2024_Advances-in-B.pdf",
+   "bytes": 5630442,
+   "chars": 55035,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 10,
+    "Phyllostachys": 14
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol6",
+   "arquivo": "Studies-on-microwave-vacuum-drying-of-round-Bambu_2024_Advances-in-Bamboo-Sc.pdf",
+   "bytes": 5865284,
+   "chars": 29843,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 11,
+    "Dendrocalamus": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol6",
+   "arquivo": "The-chemical-composition-of-Savannah-bamboo--Oxytenanthera-ab_2024_Advances-.pdf",
+   "bytes": 3827083,
+   "chars": 34171,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 1,
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol6",
+   "arquivo": "The-use-of-a-bamboo-reinforced-concrete-foundation-for-a-_2024_Advances-in-B.pdf",
+   "bytes": 6544991,
+   "chars": 36234,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Dendrocalamus": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Application-of-silvicultural-treatments-to-improve-local-Gigan_2024_Advances.pdf",
+   "bytes": 6569230,
+   "chars": 40816,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 3,
+    "Phyllostachys": 4,
+    "Dendrocalamus": 8,
+    "Gigantochloa": 4
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "AquaBamboo-data-driven-suggested-system-for-water-manage_2024_Advances-in-Ba.pdf",
+   "bytes": 3330184,
+   "chars": 83359,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Phyllostachys": 3,
+    "Chusquea": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Bamboo-fibre--A-sustainable-solution-for-textile-m_2024_Advances-in-Bamboo-S.pdf",
+   "bytes": 2563586,
+   "chars": 68202,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 2
+   },
+   "naturalizacao": {
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Bamboo-in-the-pulp--paper-and-allied-industrie_2024_Advances-in-Bamboo-Scien.pdf",
+   "bytes": 2993881,
+   "chars": 125936,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 65,
+    "Phyllostachys": 20,
+    "Dendrocalamus": 32,
+    "Gigantochloa": 10,
+    "Guadua": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Bamboo-structures--Innovative-methods-and-applications-fo_2024_Advances-in-B.pdf",
+   "bytes": 4432634,
+   "chars": 68018,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Bambusicolous-endophytic-fungi--A-systematic-review-wi_2024_Advances-in-Bamb.pdf",
+   "bytes": 729871,
+   "chars": 39828,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 9,
+    "Phyllostachys": 7,
+    "Dendrocalamus": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Behaviour-of-short-and-long-columns-made-from-bamboo-sc_2024_Advances-in-Bam.pdf",
+   "bytes": 7944382,
+   "chars": 70851,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 2,
+    "Dendrocalamus": 2,
+    "Guadua": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Changes-in-the-activity-of-lignin-biosynthesis-related-enz_2024_Advances-in-.pdf",
+   "bytes": 1768381,
+   "chars": 31799,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 4
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Comparison-and-assessment-of-nutritional-composition-in-_2024_Advances-in-Ba.pdf",
+   "bytes": 1735876,
+   "chars": 51217,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 38,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 14
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "DNA-barcoding-using-chloroplast-matK-and-rbcL-regions-fo_2024_Advances-in-Ba.pdf",
+   "bytes": 8370875,
+   "chars": 61907,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 37,
+    "Dendrocalamus": 12,
+    "Gigantochloa": 16
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Dimensional-stability-and-mechanical-strength-of-thermally-_2024_Advances-in.pdf",
+   "bytes": 7005484,
+   "chars": 54088,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 4,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 6,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Efficacy-of-Pongamia-pinnata-seed-oil-as-a-fumigant-in-red_2024_Advances-in-.pdf",
+   "bytes": 5303010,
+   "chars": 33973,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 3,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Evaluating-maternal-toxicity-induced-by-aqueous-extract-of-Ba_2024_Advances-.pdf",
+   "bytes": 8134552,
+   "chars": 69394,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 15,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {
+    "alien": 1
+   }
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Evaluation-of-Tre-Gai-bamboo--Bambusa-spinosa--bending-st_2024_Advances-in-B.pdf",
+   "bytes": 7224956,
+   "chars": 46324,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 5,
+    "Phyllostachys": 2,
+    "Gigantochloa": 1,
+    "Guadua": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Flowering-of-Bambusa-vulgaris--Vittata---Poaceae--Bamb_2024_Advances-in-Bamb.pdf",
+   "bytes": 6965022,
+   "chars": 15791,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 17
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Genome-wide-identification--characterization--and-expression_2024_Advances-i.pdf",
+   "bytes": 14083479,
+   "chars": 54214,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 9
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Global-bamboo-forest-certification--The-state-of_2024_Advances-in-Bamboo-Sci.pdf",
+   "bytes": 1182707,
+   "chars": 47151,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 3,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 2,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Guadua-guzmanii--Poaceae--Bambusoideae--Bambuseae--Guaduin_2024_Advances-in-.pdf",
+   "bytes": 4288808,
+   "chars": 27972,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Guadua": 47,
+    "Chusquea": 5
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Investigation-and-application-of-different-extraction-tec_2024_Advances-in-B.pdf",
+   "bytes": 2631051,
+   "chars": 88970,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 8,
+    "Phyllostachys": 16,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Microwave-vacuum-and-conventional-drying-characteristi_2024_Advances-in-Bamb.pdf",
+   "bytes": 3879833,
+   "chars": 37616,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Dendrocalamus": 11
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Physico-chemical-properties-of-Brazilian-native-ba_2024_Advances-in-Bamboo-S.pdf",
+   "bytes": 7959883,
+   "chars": 45004,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 7,
+    "Phyllostachys": 10,
+    "Dendrocalamus": 6,
+    "Gigantochloa": 2,
+    "Merostachys": 12,
+    "Chusquea": 46
+   },
+   "naturalizacao": {
+    "invasive": 2
+   }
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Response-surface-optimization-for-deep-eutectic-solvent_2024_Advances-in-Bam.pdf",
+   "bytes": 1445033,
+   "chars": 41330,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Teaching-students-about-sustainable-construction-dealing-wit_2024_Advances-i.pdf",
+   "bytes": 8902535,
+   "chars": 47064,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 6,
+    "Phyllostachys": 4,
+    "Dendrocalamus": 2,
+    "Guadua": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Tradition-meets-technology--An-overview-of-fermente_2024_Advances-in-Bamboo-.pdf",
+   "bytes": 3030582,
+   "chars": 49474,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 35,
+    "Phyllostachys": 8,
+    "Dendrocalamus": 39,
+    "Gigantochloa": 4
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol7",
+   "arquivo": "Valorization-of-bamboo-charcoal-as-a-low-cost-adsorbent-_2024_Advances-in-Ba.pdf",
+   "bytes": 1502628,
+   "chars": 35036,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1,
+    "Gigantochloa": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "A-global-perspective-on-a-bioengineering-approach-to-lan_2024_Advances-in-Ba.pdf",
+   "bytes": 4726197,
+   "chars": 74948,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 33,
+    "Phyllostachys": 4,
+    "Dendrocalamus": 11
+   },
+   "naturalizacao": {
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Above-ground-biomass-of-Moso-bamboo-forests-in-China-infl_2024_Advances-in-B.pdf",
+   "bytes": 4219012,
+   "chars": 46241,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 10
+   },
+   "naturalizacao": {
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Characterizing-eco-composite-boards-with-non-woven-polypro_2024_Advances-in-.pdf",
+   "bytes": 1986339,
+   "chars": 36362,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Gigantochloa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Co-composting-bamboo-powder-and-tea-leaves-affects-the-c_2024_Advances-in-Ba.pdf",
+   "bytes": 3963524,
+   "chars": 52424,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 6,
+    "Merostachys": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Development-of-bamboo-reinforced-cement-bonded-par_2024_Advances-in-Bamboo-S.pdf",
+   "bytes": 2876127,
+   "chars": 29330,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 8
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Effects-of-harvesting-techniques-and-intensities-on-product_2024_Advances-in.pdf",
+   "bytes": 3329243,
+   "chars": 57034,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 5,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 2,
+    "Gigantochloa": 7
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Fortification-of-noodles-with-processed-bamboo-shoots--Evalu_2024_Advances-i.pdf",
+   "bytes": 5480800,
+   "chars": 62572,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1,
+    "Dendrocalamus": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Fungal-degradation-of-bamboo-treated-with-crude-lake-sa_2024_Advances-in-Bam.pdf",
+   "bytes": 3791301,
+   "chars": 42006,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 4,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 1,
+    "Gigantochloa": 4,
+    "Guadua": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Future-uses-of-bamboo_2024_Advances-in-Bamboo-Science.pdf",
+   "bytes": 330422,
+   "chars": 10006,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "In-vitro-mass-propagation-of-Dendrocalamus-asper--Giant_2024_Advances-in-Bam.pdf",
+   "bytes": 4344810,
+   "chars": 34750,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Dendrocalamus": 14
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Microbial-diversity-and-community-structure-in-co-composted-b_2024_Advances-.pdf",
+   "bytes": 4568940,
+   "chars": 66434,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 3,
+    "Merostachys": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Note-on-the-gregarious-flowering-and-conservation-of-Ch_2024_Advances-in-Bam.pdf",
+   "bytes": 5141410,
+   "chars": 20571,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Oxytenanthera-abyssinica--A--Rich---Munro-land-suitability-e_2024_Advances-i.pdf",
+   "bytes": 9288862,
+   "chars": 68733,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Dendrocalamus": 1,
+    "Guadua": 1
+   },
+   "naturalizacao": {
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Research-trends-and-design-strategies-for-bamboo-archite_2024_Advances-in-Ba.pdf",
+   "bytes": 10009563,
+   "chars": 107155,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 9,
+    "Phyllostachys": 6,
+    "Dendrocalamus": 4,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Simulating-vertical-distribution-of-normalized-leaf-bioma_2024_Advances-in-B.pdf",
+   "bytes": 2358975,
+   "chars": 40780,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 6
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol8",
+   "arquivo": "Solid-residues-after-gasification-of-agricultural-residue_2024_Advances-in-B.pdf",
+   "bytes": 7423660,
+   "chars": 38731,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "-Tradition-meets-technology--An-overview-of-fermented-bam_2024_Advances-in-B.pdf",
+   "bytes": 273493,
+   "chars": 1956,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "A-novel-dataset-for-green-bamboo-compressive-stren_2024_Advances-in-Bamboo-S.pdf",
+   "bytes": 10061024,
+   "chars": 50529,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 19,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 5,
+    "Gigantochloa": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "An-assessment-of-bamboo-charcoal-briquettes-derived-from_2024_Advances-in-Ba.pdf",
+   "bytes": 4905534,
+   "chars": 42645,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "Current-and-future-habitat-suitability-modelling-of-Bambusa_2024_Advances-in.pdf",
+   "bytes": 22329925,
+   "chars": 77075,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 9,
+    "Phyllostachys": 3,
+    "Dendrocalamus": 9
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "Development-of-site-specific-allometric-equation-and-predictin_2024_Advances.pdf",
+   "bytes": 5074512,
+   "chars": 50525,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 9,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "Exploring-the-mineral-content--nutritional--and-phytochemical-c_2024_Advance.pdf",
+   "bytes": 7594890,
+   "chars": 88256,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 88,
+    "Dendrocalamus": 31
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "Impact-of-bamboo-shoot-powders-on-the-quality-attribut_2024_Advances-in-Bamb.pdf",
+   "bytes": 1434861,
+   "chars": 60269,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 7,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 3,
+    "Gigantochloa": 5
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "Influence-of-elastic-properties-and-nodes-on-the-flexu_2024_Advances-in-Bamb.pdf",
+   "bytes": 13556176,
+   "chars": 70296,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 3,
+    "Phyllostachys": 16,
+    "Dendrocalamus": 1,
+    "Guadua": 3
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "Insect-infestation-during-sporadic-flowering-of-Dendroc_2024_Advances-in-Bam.pdf",
+   "bytes": 7043211,
+   "chars": 16439,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Dendrocalamus": 12
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "Inventory-of-timber-and-non-timber-forest-products-through-_2024_Advances-in.pdf",
+   "bytes": 14393815,
+   "chars": 63337,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1,
+    "Phyllostachys": 1,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "Moisture-ageing-effects-on-the-mechanical-performance-of-eco_2024_Advances-i.pdf",
+   "bytes": 8099236,
+   "chars": 56236,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "Natural-geometrical-variations-of-Italian-Phyllostachys-_2024_Advances-in-Ba.pdf",
+   "bytes": 8271662,
+   "chars": 63301,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 2,
+    "Phyllostachys": 35,
+    "Dendrocalamus": 1,
+    "Guadua": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "Optimization-of-mixing-ratio-for-the-production-of-particl_2024_Advances-in-.pdf",
+   "bytes": 4581255,
+   "chars": 31388,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "Physico-mechanical-properties-and-decay-fungi-resistance-of-_2024_Advances-i.pdf",
+   "bytes": 4659937,
+   "chars": 53505,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 10,
+    "Phyllostachys": 1,
+    "Dendrocalamus": 11,
+    "Gigantochloa": 1,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "Vol9",
+   "arquivo": "Variability-of-the-chemical-composition-of-Dendrocalamu_2024_Advances-in-Bam.pdf",
+   "bytes": 2767638,
+   "chars": 46403,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 8,
+    "Phyllostachys": 5,
+    "Dendrocalamus": 8,
+    "Gigantochloa": 2
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Bamboo-furniture-design-education-for-a-sustainab_2026_Advances-in-Bamboo-Sc.pdf",
+   "bytes": 3164334,
+   "chars": 66100,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Carbon-stock-of-Oxytenanthera-abyssinica--A-Rich---Munro-f_2026_Advances-in-.pdf",
+   "bytes": 6629863,
+   "chars": 51965,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 7,
+    "Phyllostachys": 10,
+    "Dendrocalamus": 3
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Effect-of-plastic-covering--manure-and-harvesting-season-on_2026_Advances-in.pdf",
+   "bytes": 6488455,
+   "chars": 37280,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 5,
+    "Dendrocalamus": 13
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Estimation-of-stress-strain-curves-and-elastic-modulus-of_2026_Advances-in-B.pdf",
+   "bytes": 5381721,
+   "chars": 47482,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 6,
+    "Phyllostachys": 4,
+    "Dendrocalamus": 3,
+    "Gigantochloa": 1,
+    "Guadua": 16
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Full-value-chain-development-of-bamboo-forest-resources-f_2026_Advances-in-B.pdf",
+   "bytes": 842448,
+   "chars": 55477,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1
+   },
+   "naturalizacao": {
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Guide-to-bamboo-carbon-inventory-and-estimation-in-non-fo_2026_Advances-in-B.pdf",
+   "bytes": 9474297,
+   "chars": 81292,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 15,
+    "Phyllostachys": 3,
+    "Dendrocalamus": 5,
+    "Guadua": 2
+   },
+   "naturalizacao": {
+    "naturali": 1
+   }
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Integrated-physiological-unit--IPU--traits-of-Phyllostachys-_2026_Advances-i.pdf",
+   "bytes": 2438707,
+   "chars": 60330,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 25
+   },
+   "naturalizacao": {
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Nezuko-s-bamboo-muzzle-differs-from-actual-bamboo--P_2026_Advances-in-Bamboo.pdf",
+   "bytes": 2855404,
+   "chars": 32601,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 32
+   },
+   "naturalizacao": {
+    "invasive": 1
+   }
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Optimization-of-dyeing-conditions-for-bamboo-cotton-blended-f_2026_Advances-.pdf",
+   "bytes": 4554526,
+   "chars": 55189,
+   "paginas_sem_texto": [],
+   "generos": {},
+   "naturalizacao": {}
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Preparation-of-bamboo-lignocellulose-based-hydrogels_2026_Advances-in-Bamboo.pdf",
+   "bytes": 6035788,
+   "chars": 41410,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Reclamation-of-mature-Bambusa-bambos--L---Voss-culms-into_2026_Advances-in-B.pdf",
+   "bytes": 7069741,
+   "chars": 46996,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 18
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Strategies-for-sustainable-business-development-through-bamb_2026_Advances-i.pdf",
+   "bytes": 2650512,
+   "chars": 67729,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Phyllostachys": 1,
+    "Dendrocalamus": 1
+   },
+   "naturalizacao": {}
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Transforming-economic-and-environmental-sustainability-_2026_Advances-in-Bam.pdf",
+   "bytes": 6791368,
+   "chars": 108415,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 4,
+    "Phyllostachys": 5,
+    "Dendrocalamus": 3,
+    "Guadua": 1
+   },
+   "naturalizacao": {
+    "exotic": 1
+   }
+  },
+  {
+   "volume": "vol14",
+   "arquivo": "Variation-in-carbon-stock-along-a-slope-gradient-for-a-highlan_2026_Advances.pdf",
+   "bytes": 1826356,
+   "chars": 65296,
+   "paginas_sem_texto": [],
+   "generos": {
+    "Bambusa": 4,
+    "Phyllostachys": 2,
+    "Dendrocalamus": 5,
+    "Gigantochloa": 2,
+    "Guadua": 2
+   },
+   "naturalizacao": {}
+  }
+ ]
+}

@@ -1,0 +1,614 @@
+{
+ "esquema": "inventario-pacote-sol/2",
+ "escopo_declarado": [
+  "docs/analyses/bambu-estrutural/*.md",
+  "docs/analyses/bambu-estrutural/divulgacao/*.md",
+  "docs/analyses/bambu-estrutural/divulgacao/*.html",
+  "docs/analyses/bambu-estrutural/divulgacao/_geradores/**"
+ ],
+ "exclusao_declarada": [
+  "docs/analyses/bambu-estrutural/divulgacao/_geradores/gerar_inventario_pacote.py — o hash do gerador nao existe antes de ele ser gravado",
+  "docs/analyses/bambu-estrutural/divulgacao/_geradores/INVENTARIO_PACOTE_SOL.json — um inventario nao pode conter o proprio hash; os demais itens sao verificaveis",
+  "docs/analyses/bambu-estrutural/divulgacao/_geradores/verificar_inventario.py — ferramenta que confere o inventario nao pode ser certificada por ele"
+ ],
+ "commit": "757907e3c5de12b6d7fc481b3ba62e4cef904a81",
+ "arvore": "33d6bda48fa2ce7387f232bee55dd3b88b1bdb38",
+ "commit_nota": "commit cuja arvore foi descrita; o commit que grava este arquivo acrescenta apenas ele, sem alterar nenhum item abaixo",
+ "total": 109,
+ "arquivos": [
+  {
+   "caminho": "docs/analyses/bambu-estrutural/00-inventario-corpus-autoral.md",
+   "bytes": 10706,
+   "sha256": "b56ff2aaf1fe581ea155531012ad53145b6c4ac50760eea0382e0ca71003ccac"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/00-lista-afirmacoes-para-revisao.md",
+   "bytes": 5450,
+   "sha256": "041b8ede1428833d6c8fe2ff0ae696b79ac854107bb793d7785cc59a99fb1a17"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/00-matriz-rastreabilidade-evidencia-agenda-autoral.md",
+   "bytes": 69156,
+   "sha256": "3ac2e5fa66a1f5d3c61770105262d592acc57b8c7c7139dcc6e24f08400cbbbd"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/00-relatorio-auditoria-epistemica.md",
+   "bytes": 17604,
+   "sha256": "2fdcf82a64f3c5fdc1fd5246d30f1f30b11fdb4f3a48c08ade375ab3ea9586a6"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/00a-linha-do-tempo-evidencia-empirica-autoral.md",
+   "bytes": 19962,
+   "sha256": "d9f28fc10654b1fac30692cb0832f28b394dddc7484dc3b1acf05f16026e44cd"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md",
+   "bytes": 3828,
+   "sha256": "14fa96cd994477a269e25971d06c9407604dcd755861d279a2c6377d8b30c5e0"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/agenda-de-pesquisa.md",
+   "bytes": 22222,
+   "sha256": "6532497f3c833397571003d8d33dd2c402fd26a70884b07b06f75ec92d99604b"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/alves-2025-bambu-engenheirado-clb.md",
+   "bytes": 6153,
+   "sha256": "aef17bedb0051d672d20e05aac7d89847cff9ab25057eeb7df2c1136442f6330"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/bjb-2023-antimicrobiano-guadua-amazonia.md",
+   "bytes": 16865,
+   "sha256": "58c5226c22d53f58482f15d4535e214a35094dc5fc1ab3701274b1d47e33b494"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/bjb-2023-coleobrocas-bambusa-amazonia-meridional.md",
+   "bytes": 13253,
+   "sha256": "968162fbd78c519ddbbca5a8b4ce09d9ba3cb9794b62ef1d96583ff559456e76"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/bussinger-2024-bambu-sistemas-estruturais.md",
+   "bytes": 15879,
+   "sha256": "09fd6ce21beaff87ccefd15f91d2622c4a0bcf97b166582c02f985239a665413"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/carvalho-2013-florestas-bambu-sudoeste-amazonico.md",
+   "bytes": 10855,
+   "sha256": "4912da3b75578c47e813457777cfb980a13146c76b6d23367b193c75886e22e9"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/cerne-2021-minijardim-clonal-bambusa-vulgaris.md",
+   "bytes": 19306,
+   "sha256": "c42e4e953d9346c59ad644cc6fbb8d8936e8ff1987c615d81ca08e45bb55c3e2"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/china-bamboo-connections-review-2019.md",
+   "bytes": 5684,
+   "sha256": "dfa85f223939458af6ea9d3152d4116f49b729fa5a9f27bfa3968d9375e822b1"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/chung-wang-2017-peeling-steam-bamboo.md",
+   "bytes": 6840,
+   "sha256": "1858c65b1747b6152bcd03381e1c22c8d4e8d73ec8a76790ec6a73d27049527e"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/contecc-2025-especies-nativas-amazonia-construcao.md",
+   "bytes": 11374,
+   "sha256": "0141df3014a2693cccdc07097acbf711e3332a0082f476ac75b921421df8f058"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/contecc-2025-patologias-quiosque-coco-rio-branco.md",
+   "bytes": 13665,
+   "sha256": "9e996fde682d8d8a656021225f6f0fa496837e6f63d1a8cd30322d400f8ffbd9"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/cordero-1990-casa-paineis-bambu-argamassa.md",
+   "bytes": 4354,
+   "sha256": "9ef8473c881c390911f3695b5cc917745b56742ce33235f94d297da4d426a666"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/costa-2015-tratamento-termico-dendrocalamus.md",
+   "bytes": 9525,
+   "sha256": "b8f83cf42ff19ef152716156b3f2265be8abac47bdb1e5c80558e9f3a53b72bd"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/INSTRUCAO_AUDITORIA_EXTERNA_BAMBU.md",
+   "bytes": 11647,
+   "sha256": "0114d42046c497a7441eff6c92df5b24de7f377705b53c87db711d57bfea61af"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/aba_especies_dados.py",
+   "bytes": 11310,
+   "sha256": "7d0a94aced9857a1e129f32e08f993234d119270d43b66b38779d4e9a97d3432"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/aba_estruturas_dados.py",
+   "bytes": 6985,
+   "sha256": "309386f7d6efe00e1a600d98779222bfe394af0bc6a0d8e9fd45050e1c6ed3a8"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/comparativo-mecanica-bambu.html",
+   "bytes": 146106,
+   "sha256": "26dea34b775fa683d360ab69f3621e72e4a87fa84867eca2a81d4f1dfe6c21fc"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/derivar_numeros.py",
+   "bytes": 5564,
+   "sha256": "17f99752d3885dff491bc4931226794a8198f8cc7480984b58ad71a445cf3e7f"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/estruturais_colecao.json",
+   "bytes": 4152,
+   "sha256": "47e3a53cbc46c80b7590c4e1981ecb39c28f874f44ac38c073b3821abc83fb4e"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/generos_por_artigo.json",
+   "bytes": 97600,
+   "sha256": "adc30827b7b709eb6422f98ea975d863654872945bac3a2f7665bceebfe6931d"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/generos_por_artigo_run2.json",
+   "bytes": 77026,
+   "sha256": "b031ef365f770ac19527d7f86d4f333065399a24c6e6851a3da8c985c1261921"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/gerar_peca.py",
+   "bytes": 66055,
+   "sha256": "1c50554c02d57eafcf2ae8fc3d85308bdca8aa8eec35410f7b7b3425006a92b2"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/numeros.json",
+   "bytes": 2480,
+   "sha256": "75cc369bcb3e5bf7946e3ea133affb232beddeecfc866f843037088ce9ab7c9b"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/prompts-imagem-3-carrosseis.md",
+   "bytes": 18562,
+   "sha256": "46b23928475101cedd72bd250477368310b59f39d049846c92ce4e45e0540193"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/varredura_estrutural.json",
+   "bytes": 575,
+   "sha256": "3cfb59a2d79a12306090a045dcfad02ccfdc96520762f05145f9e48745d31452"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/varrer_generos.py",
+   "bytes": 6290,
+   "sha256": "32fa96b33617dc3f7a23bb8cf32d73e6b2f74dd2dbaa202ad334a85529a641bf"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/varrer_generos_run2.log",
+   "bytes": 535,
+   "sha256": "c0c43c0b52721bb3b3104d2f74ececb0b88b5661e99f13a49bdcc46bfb8bba7c"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/artigo-bambu-mundo-vs-brasil.md",
+   "bytes": 21063,
+   "sha256": "50a2cc6e25f6d9ccafe72000e43f37332c869d806506f76d6797c088ec295901"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/artigo-blog-bambu-estrutural.md",
+   "bytes": 14236,
+   "sha256": "e0f3b4413e947513d95b318bc9f02fc3eb928e8f713fdc06352ca6a6c46a8f11"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/artigo-conexoes-bambu.md",
+   "bytes": 47395,
+   "sha256": "3374f741430fd964cea28c6fd77b2ad217e86177693d851a3e1546871f3837a2"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/artigo-didatico-bambu.md",
+   "bytes": 11674,
+   "sha256": "330daeac5f1eb3451732260f995cdea0aa15d1de6e41c96908307fee3d83c26d"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/bambu-exotico-invasor-brasil-fontes.md",
+   "bytes": 12165,
+   "sha256": "f25e10e9a161aec978a100f07f61d2405995a73acf7805a79a14662d2044ca1d"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/capitulo-bambu-exotico-naturalizado-invasor.md",
+   "bytes": 15227,
+   "sha256": "407ed8e25887c6e661000b9970e2df8705a43354dd0c9a1d6a94ad835e49ea72"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/carrossel-1-quanto-aguenta.md",
+   "bytes": 5396,
+   "sha256": "f9fed77e4c7ca9fbe89fce449637fe48115c1d656570f826ed4b5082d088c562"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/carrossel-2-ponto-cego.md",
+   "bytes": 5555,
+   "sha256": "3cc3fb0f647ae9de3f3fb1e16b3152920fcad816f85be9f0014ade619c8b19b3"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/carrossel-3-dentro-do-colmo.md",
+   "bytes": 5904,
+   "sha256": "d14d8b47d488edeeb37c1e0d5af1ecd8e51d74a21b3e42e7d2cd6e36033e1cda"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/carrossel-4-exotico-naturalizado-invasor.md",
+   "bytes": 5668,
+   "sha256": "2bd1e631e2b3910b8e8460f466de04db55da08708031e8a38bca6c05b1495c8d"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/carrossel-5-seu-bambu-aguenta.md",
+   "bytes": 5340,
+   "sha256": "4fd0b42d22ac9954b6eab49c5d4212195a9e7c1cd8cd1a28788823c7712f0ed8"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/carrossel-6-bambu-que-ninguem-cuida.md",
+   "bytes": 5580,
+   "sha256": "aed799c5a71152b7362844cc5e86b56b4a882b7d658936f35b436314ab3e4fec"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/carrossel-7-lacuna-l21.md",
+   "bytes": 6703,
+   "sha256": "00643492c0608f75b1c22d32f033f56098278008f6962edb0ae988529934ddef"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/comparativo-mecanica-bambu.html",
+   "bytes": 146106,
+   "sha256": "26dea34b775fa683d360ab69f3621e72e4a87fa84867eca2a81d4f1dfe6c21fc"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/elenco-pautas.md",
+   "bytes": 9314,
+   "sha256": "bde43a815ffad8c58d83731fba91cbc1619fb0416d87fa0a0327440816f75f32"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/glossario-visual-termos.md",
+   "bytes": 11563,
+   "sha256": "9e1b1dd67d3068fbc1ce68de69f3dd3b5ac181fee2c209624fa8459fe465e0a3"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/prompts-imagem-artigo-e-3-carrosseis.md",
+   "bytes": 18562,
+   "sha256": "46b23928475101cedd72bd250477368310b59f39d049846c92ce4e45e0540193"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/prompts-imagem-artigo-e-carrosseis.md",
+   "bytes": 22107,
+   "sha256": "40dbe961021474182d87f773587b4011bf5514982787f67a18dfa57afe1dd0f8"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/prompts-imagem-carrossel-4-e-capitulo-exotico.md",
+   "bytes": 9720,
+   "sha256": "81d2b7dcd96a9d0efe31b10e36ec64fc0bdd923f2eb1461e68c67ff12c21c4e0"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/embrapa-2007-extrato-pirolenhoso.md",
+   "bytes": 2145,
+   "sha256": "a769bf6a11c4c21b0d3e8b8636ec1188e791f2172f77a8a0a2fb439df8ff954f"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/estado-da-arte-en.md",
+   "bytes": 78785,
+   "sha256": "a3cb57eb899ebe5e07770907c2d64e3cb80b5886e54e750a34c27431e5a2435a"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/estado-da-arte-es.md",
+   "bytes": 82219,
+   "sha256": "17a8a36135e3afed9b9866216d252e17fc1088ad2717c596450a87fc638f4b1d"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/estado-da-arte.md",
+   "bytes": 80719,
+   "sha256": "5fdd7e5a65d34e5d53c785dba33d28aed5760db81f3d91ce795038b423d507f7"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/fadrique-2021-fenologia-ciclo-florestas-bambu.md",
+   "bytes": 11749,
+   "sha256": "6562acec4e14c74e9f653c262df51fc5a2977b4644b710dc406ff0bf342e578d"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/ferreira-kalliola-ruokolainen-2020-bambu-clima-uso-florestal.md",
+   "bytes": 12428,
+   "sha256": "b6607291466007b72d12c6960311491e189834fa79bb71377dfdac4210bc7718"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/ficha-acv-bambu-unesp-araujo2025.md",
+   "bytes": 6937,
+   "sha256": "b6a8688e61bc7a384a3788eec7b3842e0fc9d7ba25e9784d13c4a9939d3c42b1"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/ficha-chen-2015-cu-moso-fitorremediacao.md",
+   "bytes": 5553,
+   "sha256": "22635f5757c5f3e655e4dff71f427c431b5a2e9d3bc3b3e03f1e850590995389"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/ficha-desempenho-sismico-bambu-concreto-puma-2014.md",
+   "bytes": 4612,
+   "sha256": "48580ab1eb92210ccbcc0933df82030b1ee63bc6ffc89d1c896fd4282352d0e7"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/ficha-efecto-humedad-guadua-gutierrez-2014.md",
+   "bytes": 6436,
+   "sha256": "5ef9341a92efa644c920c3810b95adcebd250a57b7341db9e632b4f48a04d1c5"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/ficha-effects-heat-treatment-bamboo-scrimber.md",
+   "bytes": 6941,
+   "sha256": "3a76e171c72a1dc27f1789127cbfe99c345fcb7632b2518e745697937fe2d112"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/ficha-heat-treatment-pdms-bamboo.md",
+   "bytes": 6177,
+   "sha256": "9aed276162d4e263315ace179d8a9e1d757bd7a245f82cc96559f37ff0d57734"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/ficha-high-temperature-saturated-steam-moso-bamboo.md",
+   "bytes": 6556,
+   "sha256": "4bfd5a348d439b357ef6fa8c43baaf846adc91ecfc3dc9df701f3e84c8159bd8"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/ficha-liu-2015-pb-moso-fitorremediacao.md",
+   "bytes": 4914,
+   "sha256": "46568101c341931832da9d4540f760ff708679557ddcade9bae3826ea64f3a51"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/ficha-rocket-stove-cfd.md",
+   "bytes": 5691,
+   "sha256": "b709eb2c753a60fc7ba75ea5165fdc7117f9f42ad1d02648d6cb6c673785bba5"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/gauss-2020-tratamento-preservativo-modificacao-quimica.md",
+   "bytes": 4926,
+   "sha256": "2b666adf68ba9a3cdd28d1e5c237804b7983a4440100886c7178086f150e44c8"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/gauss-2023-tratamentos-bambu-palestra.md",
+   "bytes": 1928,
+   "sha256": "9e088df9841ac9c0b9217cfe88e8f47858568cace1e34d7c31147f3b79644486"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/godoy-junior-2024-pretratamento-alcalino-densificacao.md",
+   "bytes": 21808,
+   "sha256": "40667388b5fe8749006098dce01616f46ee76064506db51c621fcd568a2b82f1"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/inbar-bru-v6n2-2025.md",
+   "bytes": 1946,
+   "sha256": "8ba4aa5e91daa981ddb23c7653b80e50d5eb7f1b9970358a11acbcde46c3eea0"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/index.md",
+   "bytes": 10548,
+   "sha256": "bfdd1de819cb249b0bd05f2709fe9c03234ca7d516dedc585f63fff040625d1f"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/laroque-2022-liquido-pirolenhoso-pinus.md",
+   "bytes": 2495,
+   "sha256": "fe8745fb0d1d4363f31965a4ef68a745884e1ee466ac6b4ab189f695a42e4ed7"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/lima-2019-bambus-nativos-cadeia-conservacao.md",
+   "bytes": 5044,
+   "sha256": "b3671825b7e1ee729e85128e851d2676f9ddaad2ae52cec385f2af8e02feb1e1"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/louredo-2025-bambu-materia-prima-mercado-brasileiro.md",
+   "bytes": 13897,
+   "sha256": "5c88d3c4eba18f6fdbf31e668fb7a511facb59496b35d02a064a315c717c0875"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/mapa-de-evidencias.md",
+   "bytes": 32023,
+   "sha256": "e059efac0ac3cd1cc5333648899a7d9c6895dd0a692a8d49ab61bfa65449cfb7"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/mapa-de-lacunas.md",
+   "bytes": 30618,
+   "sha256": "64755b1c585474f541bf885ddd7d87085b7759fff57ddd08d743ca20bd1c8d11"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/marcal-2018-normas-internacionais-bambu.md",
+   "bytes": 6123,
+   "sha256": "1d68b2cf64e077713d6df9010bd49e41267715174a7b52b5124fe1693535ece2"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/martins-2017-licor-pirolenhoso-antifungico.md",
+   "bytes": 2331,
+   "sha256": "16b3b560acee4229cd62babba64b49024b1d384ddcf763bc20c3cc6199654e8a"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/martins-2021-industrializacao-bambu-laminado.md",
+   "bytes": 6065,
+   "sha256": "c0a15eaee167bcd3294168200cf37ec41cc1b19a727a254a056401cf662c6719"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/matriz-comparativa-mecanica-asia-america-sul.md",
+   "bytes": 20741,
+   "sha256": "0b4f576fdc5c08ffe99718bcf6a0f4ddb1bd95f10423c6db715f2a01fb58ae53"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/maturidade-tecnologica-cobertura-normativa-bambu-en.md",
+   "bytes": 28101,
+   "sha256": "771662bb2209e9070b129ba6bfe1e2eb64eb11555c4fd736d27438edad48f1e8"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/maturidade-tecnologica-cobertura-normativa-bambu-es.md",
+   "bytes": 29011,
+   "sha256": "9275062d3cd93b64afbcca1262287563926d95a49221fd2ef6e350bf0f94bd29"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/maturidade-tecnologica-cobertura-normativa-bambu.md",
+   "bytes": 28578,
+   "sha256": "52c14c9f71c12024fa4296563b4f1bc6b22cbc08074dbe306e8714a01396e285"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/mendonca-2018-substituicao-cimento-cinzas-bambu.md",
+   "bytes": 4395,
+   "sha256": "67a650d35efa0ba17b4b2efa9ecbae208423b68679add6f26f11d7166f2bd836"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/miranda-silva-2020-floracao-regeneracao-taboca-gigante.md",
+   "bytes": 11164,
+   "sha256": "db8c42207e840fbba342474f577d07c9fe08f1f06fd15947813932a6e3e6bfc5"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/moreira-silva-2022-bambu-protendido.md",
+   "bytes": 3610,
+   "sha256": "8e664ceced494fa8a120a13ef29360de1bc91097f4b847ae564ca10bfdef9e0f"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/neotropical-bamboo-review-2024.md",
+   "bytes": 6066,
+   "sha256": "68ace29a6d77d37482ad282d2527742fb808f471f80b3c62a8bb631399705ab6"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/nsr10-titulo-g-guadua.md",
+   "bytes": 2798,
+   "sha256": "f058dbe54866138301b7cae8e2012541cfdb86b7ebf7c549db585ff5b0a6a157"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/oliveira-2025-tratamentos-termicos-durabilidade.md",
+   "bytes": 16667,
+   "sha256": "33c8835de69dd928a27ed53d40fa48756e74d3210b3d833a2d811296caef3c39"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/pandoli-ghavami-sa-2023-microrreator-bambu.md",
+   "bytes": 3868,
+   "sha256": "774bfbc2e5dd49d3cc4e68e8f5cd75f38636cc2bfad3121d2c382ca14655538e"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/pena-2013-coleopteros-banisteriopsis.md",
+   "bytes": 2584,
+   "sha256": "0b4f0b0347bd3f9ad88ee0c5228fa043fecd142011aa19ae2b28cbcd82a67221"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/pereira-2012-projeto-bambu.md",
+   "bytes": 3962,
+   "sha256": "2bb3cfd0893f47f002fe5f525136ec859a765381112ec0ff4328ac3f8ce5c125"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/pimentel-tratamento-bi-oleo-bambu.md",
+   "bytes": 2460,
+   "sha256": "d4e224e30564868488dd4b53f2a17199b8bdd05542bc1465d2b4bd760e8fe9c4"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/reghin-2018-bambu-laminado-colado.md",
+   "bytes": 3184,
+   "sha256": "3062306fce32d1c86922dd962a365279f2d7922fc61185a356907669e8de262a"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/resenha-beraldo-bambu-pirolenhoso.md",
+   "bytes": 7027,
+   "sha256": "f2ac79670e3655cc2716eef1370c916696aa1b6f5df411ae66bbfde2963f4383"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/revista-bambu-rbb-2022.md",
+   "bytes": 1925,
+   "sha256": "c832ee19006775f3bdd46a41481e6219bf990ed0c07741847fca1ffb4c7fe635"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/rmat-2024-bioconcreto-particulas-bambu.md",
+   "bytes": 18448,
+   "sha256": "83f57c180082d3c40e556e3bf18574c4dbb54756d270e0c55f3595719c1e3f2c"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/ruggiero-2021-estruturas-reticuladas-bambu-laminado.md",
+   "bytes": 5137,
+   "sha256": "19a49330853bde8c167f7f6c363e47ceec8ccf353083587fdfb9fc54f84c4c26"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/rusch-2019-paineis-bambu-laminado.md",
+   "bytes": 2879,
+   "sha256": "baed951fe8fd92781c3f9ffd6c3c3503fc751b174d876835eb2d6b2a561f4386"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/sa-2022-densificacao-dendrocalamus-asper.md",
+   "bytes": 16915,
+   "sha256": "6434a5015abf455f2e6b87bc56215609116f5437a04b1d4f92e3838d93d776b6"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/santos-2020-composito-bambu-residuos-industriais.md",
+   "bytes": 17742,
+   "sha256": "51d59c6663f00b1aac11138842f2730d584c9e5a45d9d524f143b2ce650c82be"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/santos-2023-polpa-celulosica-bambu.md",
+   "bytes": 20321,
+   "sha256": "b06bff1a3458b0fe6ac901fc33c3a70a3bb50bedf898eaebdcc39392e8dcba74"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/santos-2024-poetica-narrativa-tectonica-bambu.md",
+   "bytes": 14447,
+   "sha256": "956ac7154c65370a41f62718789c4003719ebb63a98564b3c7103e3af431be84"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/scharfenberg-2024-flexao-tres-especies-brasil.md",
+   "bytes": 13627,
+   "sha256": "63eabcfec4923a0e73c868537fe74aba0beca0d5316e97cbc6ba8fb46a338e20"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/silva-2011-tratamento-pirolenhoso-bambu.md",
+   "bytes": 2917,
+   "sha256": "723d94aae08b2981d48d9a963eb3f7fda702a11e62e1dc18d9f3618057b961df"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/silveira-2015-controle-dinoderus.md",
+   "bytes": 2930,
+   "sha256": "d89387168009bdaa238ddb61d83bfef7f31f66108d33f1c3f1837ae879fb4d6a"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/tarverdi-2024-paineis-bambu-achatado-colado.md",
+   "bytes": 6788,
+   "sha256": "c1ef0c6df65716a0d5de043f1d36b44f928278c8607b84eeb57413574c3db617"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/van-doninck-2020-ciclos-floracao-landsat.md",
+   "bytes": 16799,
+   "sha256": "3b211987e5318577d9e1a190a82d2c739144d8edfe898dba4077d6f1ee3bb2df"
+  }
+ ],
+ "removidos": [
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/adendo.md",
+   "bytes": 11413,
+   "sha256": "e9378d166eaf1a6bbb50b57db2c65fb417324123c27e0cc10d1d12e785323c61",
+   "motivo": "8bb5d95 fix(bambu-estrutural): remove os espelhos de _geradores/ que envelheciam calados"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/artigo.md",
+   "bytes": 9706,
+   "sha256": "c061a188f9263faee25ae8aa794d6be21153d4f1d5daff05bd716fae531e40a9",
+   "motivo": "8bb5d95 fix(bambu-estrutural): remove os espelhos de _geradores/ que envelheciam calados"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/carrossel-5.md",
+   "bytes": 5067,
+   "sha256": "4e3b11fa22c0b0861e1757ff3a9d8a3b4bb1fd9b62ccfc72a100f47722836d9d",
+   "motivo": "8bb5d95 fix(bambu-estrutural): remove os espelhos de _geradores/ que envelheciam calados"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/carrossel-6.md",
+   "bytes": 5165,
+   "sha256": "2405b713d688547ba10bd01549125d665fb6cc5f99bfd8fdc7e75d13cbdb538e",
+   "motivo": "8bb5d95 fix(bambu-estrutural): remove os espelhos de _geradores/ que envelheciam calados"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/carrossel-7.md",
+   "bytes": 6079,
+   "sha256": "a8ceb91c99e770240e6467456440d5fe971f62f705f79cd79472e01bc451495b",
+   "motivo": "8bb5d95 fix(bambu-estrutural): remove os espelhos de _geradores/ que envelheciam calados"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/ficha.md",
+   "bytes": 13627,
+   "sha256": "63eabcfec4923a0e73c868537fe74aba0beca0d5316e97cbc6ba8fb46a338e20",
+   "motivo": "8bb5d95 fix(bambu-estrutural): remove os espelhos de _geradores/ que envelheciam calados"
+  },
+  {
+   "caminho": "docs/analyses/bambu-estrutural/divulgacao/_geradores/matriz.md",
+   "bytes": 20201,
+   "sha256": "92ab2265c1dc83c5ebd5dc1a9783b5c1eaffabd4029d74347d7941293455d874",
+   "motivo": "addd38c fix(bambu-estrutural): fecha os 3 achados da rodada 9"
+  }
+ ],
+ "adicionados_desde_o_inventario_anterior": [],
+ "alterados_desde_o_inventario_anterior": [
+  "docs/analyses/bambu-estrutural/divulgacao/INSTRUCAO_AUDITORIA_EXTERNA_BAMBU.md"
+ ],
+ "duplicatas_corrigidas": 0
+}

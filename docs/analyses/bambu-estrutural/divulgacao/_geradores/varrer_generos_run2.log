@@ -1,0 +1,12 @@
+pdfs lidos: 254 | erros: 0
+paginas sem texto: 0 em 0 arquivos
+  Bambusa           164 artigos    1982 mencoes
+  Phyllostachys     159 artigos    1040 mencoes
+  Dendrocalamus     146 artigos    1096 mencoes
+  Gigantochloa       64 artigos     261 mencoes
+  Guadua             58 artigos     329 mencoes
+  Merostachys         6 artigos      22 mencoes
+  Chusquea            9 artigos      77 mencoes
+ambiente: python 3.13.5 / pypdf 6.14.2
+saida: /Users/fabiotakwara/.hermes/cache/scratch/mtcc_auditoria_20261118/generos_run2.json
+EXIT=0
