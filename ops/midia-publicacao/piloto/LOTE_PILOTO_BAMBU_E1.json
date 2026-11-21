@@ -1,0 +1,82 @@
+{
+ "lote": "PILOTO-BAMBU-E1",
+ "status": "PILOTO EDITORIAL · NÃO HOMOLOGADO · NÃO PUBLICAR",
+ "nota": "Piloto da cadeia editorial com material real da colecao bambu-estrutural. A peca deriva do artigo didatico novo, que por sua vez deriva do estado da arte da gaveta. Producao verificada pelos portoes; liberacao NAO registrada — o ato e humano e nao houve.",
+ "pecas": [
+  {
+   "id": "BAMBU-E1-CARROSSEL",
+   "formato": "carrossel",
+   "formato_justificativa": "8 achados que se sustentam fora do texto corrido; cada slide cita a fonte que existe no corpo do artigo",
+   "deriva_de": {
+    "tipo": "artigo-didatico",
+    "path": "docs/analyses/bambu-estrutural/artigo-didatico-bambu-estrutural.md",
+    "sha256": "c57a6031e3ffd150a6ff47f5e065e3a7d93e63c089014ffe667c62e7fda6c40b"
+   },
+   "colecao": {
+    "gaveta": "bambu-estrutural",
+    "estado_da_arte": "docs/analyses/bambu-estrutural/estado-da-arte.md",
+    "artigos": [
+     "docs/analyses/bambu-estrutural/artigo-didatico-bambu-estrutural.md"
+    ]
+   },
+   "itens": [
+    {
+     "ordem": 1,
+     "texto_curto": "Tratamento térmico tem janela: entre 150 e 180 °C melhora estabilidade e durabilidade.",
+     "fonte": "150 e 180 °C"
+    },
+    {
+     "ordem": 2,
+     "texto_curto": "Acima do limite a resistência cai: a 180 °C/30 min em vapor, MOR e MOE caíram cerca de 47% e 20%.",
+     "fonte": "MOR e MOE caíram cerca de 47% e 20%"
+    },
+    {
+     "ordem": 3,
+     "texto_curto": "O colmo natural já é resistente: média de 226 MPa à tração em Guadua angustifolia.",
+     "fonte": "226 MPa"
+    },
+    {
+     "ordem": 4,
+     "texto_curto": "Densificado em laboratório chega a MOR ~312 MPa — número de bancada, não de obra.",
+     "fonte": "MOR ~312 MPa"
+    },
+    {
+     "ordem": 5,
+     "texto_curto": "O beneficiamento industrial perde muito material: rendimento de cerca de 30% do colmo em ripas.",
+     "fonte": "rendimento de cerca de 30% do colmo em ripas"
+    },
+    {
+     "ordem": 6,
+     "texto_curto": "Em obra, fissura é regra: 100% das 55 peças estruturais afetadas num caso de 11 anos sem manutenção.",
+     "fonte": "100% das 55 peças estruturais afetadas"
+    },
+    {
+     "ordem": 7,
+     "texto_curto": "Conexão é o ponto crítico: faltam preenchimentos sustentáveis não friáveis contra o cisalhamento nos nós.",
+     "fonte": "preenchimentos sustentáveis não friáveis"
+    },
+    {
+     "ordem": 8,
+     "texto_curto": "Sustentabilidade não é automática: os efluentes borados dominam o impacto do processamento.",
+     "fonte": "efluentes borados"
+    }
+   ],
+   "legenda": "Bambu estrutural: sete decisões e um limite. Síntese do estado da arte do Acervo Soberania Tecnológica — cada número vem de uma ficha com fonte integral conferida.",
+   "hashtags": [
+    "#bambu",
+    "#bambuestrutural",
+    "#construcaosustentavel",
+    "#engenhariacivil",
+    "#acervo"
+   ],
+   "agendamento": [
+    {
+     "canal": "instagram:@takwaratec",
+     "data": "2026-12-01",
+     "hora": "09:00"
+    }
+   ],
+   "sha256_da_peca": "3bdc23242271e321d9db1afd012c125f79fb5ac39d057d73baaba4063ee1233c"
+  }
+ ]
+}
