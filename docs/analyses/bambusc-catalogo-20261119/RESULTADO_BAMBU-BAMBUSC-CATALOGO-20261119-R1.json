@@ -1,0 +1,87 @@
+{
+ "schema": "TAKWARATEC/ENTREGA/1",
+ "task": "BAMBU-BAMBUSC-CATALOGO-20261119-R1",
+ "frente": "BAMBU-BAMBUSC",
+ "executor": "HERMES_OPENCODE",
+ "auditor_interno": "CODEX_LUNA_MEDIUM",
+ "auditor_externo": "SOL (leitura do GitHub)",
+ "data": "2026-11-19",
+ "repo_da_entrega": "takwaratec/acervo-soberania-tecnologica",
+ "branch_da_entrega": "bambusc/catalogo-20261119-r1",
+ "pr_da_entrega": "https://github.com/takwaratec/acervo-soberania-tecnologica/pull/99",
+ "diretorio_da_entrega": "docs/analyses/bambusc-catalogo-20261119/",
+ "commit_no_repo_da_entrega": "declarado no registro do ledger (r4-claims), nunca aqui: o sha do commit que carrega este arquivo nao existe antes do commit",
+ "resultado_declarado": "PARTIAL",
+ "por_que_partial": "veredito PASS/FAIL por ficha e do auditor e a homologacao e ato do soberano; a entrega e o pacote verificavel que permite os dois",
+ "criterio_terminal_atendido": {
+  "1_inventario_com_estado_medido": {
+   "status": "CUMPRIDO",
+   "evidencia": "67 obras em 7 secoes; 41 endpoints medidos (20 integros, 21 mortos, 4 links locais invalidos); 52 links mortos varridos, 10 recuperados; nenhum link morto promovido a inexistente"
+  },
+  "2_custodia_byte_a_byte": {
+   "status": "CUMPRIDO_COM_DESVIO_DECLARADO",
+   "evidencia": "20 originais custodiados com sha256 (manifesto 20/20) + 8 recuperados = 11 pacotes de ficha; os 20 originais permanecem intactos",
+   "desvio": "os 11 pacotes de ficha sao recorte documental das obras lidas, nao os 20 originais da lista"
+  },
+  "3_registro_lido_no_proprio_documento": {
+   "status": "CUMPRIDO_COM_ADENDO",
+   "evidencia": "11 fichas, cada uma com DOI ou ISBN do proprio documento verificado",
+   "desvio": "o contrato previa 3 elegiveis; a regra aplicada (DOI/ISBN proprio) produziu 11. Registrado em ADENDO_01_BAMBU-BAMBUSC_20261119.md por decisao do soberano de 2026-11-19"
+  },
+  "4_leitura_integral_e_licenca_nao_presumida": {
+   "status": "CUMPRIDO",
+   "evidencia": "11/11 fichas declaram a extensao da leitura; 10 de 11 nao declaram licenca (Crossref sem campo license), 1 e CC BY; nenhuma licenca presumida"
+  },
+  "5_matriz_por_eixo": {
+   "status": "ENTREGUE",
+   "evidencia": "03_MATRIZ_POR_EIXO.md — 11 obras x 12 eixos, territorio, convergencias, divergencias, metodo"
+  },
+  "6_estado_da_arte": {
+   "status": "ENTREGUE_COMO_SINTESE_EXPLORATORIA",
+   "evidencia": "04_ESTADO_DA_ARTE_DAS_FICHAS.md — recorte e limite declarados; nao se declara exaustao",
+   "observacao": "o soberano declarou em 2026-11-19 que o estado da arte definitivo virá da juntada das fichas; este e a sintese do recorte"
+  },
+  "7_nada_fora_do_escopo": {
+   "status": "CUMPRIDO",
+   "evidencia": "todo o pacote em docs/analyses/bambusc-catalogo-20261119/; docs/analyses/bambu-estrutural/ nao tocado; nenhum outro diretorio alterado"
+  },
+  "8_build_estrito": {
+   "status": "NAO_APLICAVEL",
+   "evidencia": "nada foi escrito em docs/analyses/bambu-estrutural/ e mkdocs.yml nao foi alterado"
+  }
+ },
+ "pacote_verificavel": {
+  "entrada": "00_COMO_AUDITAR.md",
+  "manifesto": "PACOTE_AUDITORIA.json",
+  "verificador": "conferir_pacote.py",
+  "citacoes_de_prova": "arquivos-prova/CITACOES_DE_PROVA.json",
+  "citacoes_com_round_trip_fechado": "9 de 11 obras",
+  "excecoes_declaradas": [
+   "10.24133/ciencia.v22i1.1271 — DOI resolve para pagina de login; confere-se citacao contra citacao e metadado",
+   "ISBN 978-65-900237-0-4 — livro sem DOI; confere-se citacao contra citacao e metadado"
+  ]
+ },
+ "o_que_nao_esta_publicado_e_por_que": {
+  "binarios_e_texto_integral": "custodia privada: _privado e ignorado pelo git (.gitignore:28) e 10 das 11 obras nao declaram licenca — republicar presumiria direito",
+  "sha256_dos_binarios": "publicado em INDICE_FICHAS.json; conferivel por quem tem a custodia (soberano), nao pelo auditor externo",
+  "fichas_completas": "em _privado/governanca-operacional/*.candidata.md, todas em-revisao-documental"
+ },
+ "defeito_encontrado_e_corrigido": {
+  "defeito": "extracao de PDF de duas colunas entregava a coluna direita antes da esquerda",
+  "medicao": "Salamon & Ostapiv p.2: paragrafos da coluna direita (x0=322) antes dos da esquerda (x0=70); 9 paginas de duas colunas, 10 quebras de ordem",
+  "correcao": "reextracao 11/11 em tres camadas: paragrafo (pymupdf4llm), remontagem de fragmento e reordenacao por coluna — a terceira e camada nova, o MTCC declarava o campo layout mas nao reordenava",
+  "limite_declarado": "a reconstrucao por coluna as vezes perde palavra na juncao; todo numero foi conferido tambem contra a extracao plana e contra a imagem renderizada do PDF"
+ },
+ "nao_presumido": [
+  "nenhuma licenca",
+  "nenhum DOI de referencia bibliografica como DOI do documento",
+  "nenhum link morto promovido a inexistente",
+  "nenhuma ficha homologada",
+  "nenhum arquivo de _privado tornado publico"
+ ],
+ "pendente_de_terceiro": [
+  "auditoria externa SOL (leitura do GitHub)",
+  "auditoria interna CODEX_LUNA_MEDIUM por ficha",
+  "homologacao e promocao (soberano)"
+ ]
+}
