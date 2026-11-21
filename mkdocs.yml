@@ -72,6 +72,9 @@ exclude_docs: ""
 
 nav:
   - Início: index.md
+  - Mapa do dia (Cockpit): painel-do-dia/index.html
+  - Peças de decisão:
+      - MTCC — rodada de 21/11/2026: pecas-de-decisao/mtcc-rodada-20261121.html
   - Como navegar no Acervo: como-navegar-no-acervo.md
   - Apresentação do Acervo: apresentacao-do-acervo.md
   - Sobre: sobre.md

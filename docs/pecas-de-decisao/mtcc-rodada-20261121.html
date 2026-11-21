@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MTCC — rodada 21/11</title>
+<style>
+:root{--bg:#0f1115;--card:#171a21;--line:#272c36;--txt:#e8eaef;--dim:#9aa3b2;--ok:#3fb950;--warn:#d29922;--bad:#f85149;--acc:#58a6ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+header{padding:18px 16px 12px;border-bottom:1px solid var(--line)}
+h1{font-size:19px;margin:0 0 4px;letter-spacing:-.2px}
+.sub{color:var(--dim);font-size:13px}
+nav{display:flex;gap:6px;overflow-x:auto;padding:10px 12px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:5;-webkit-overflow-scrolling:touch}
+nav button{flex:0 0 auto;background:var(--card);color:var(--dim);border:1px solid var(--line);border-radius:999px;padding:7px 11px;font-size:12.5px;font-weight:600;white-space:nowrap}
+nav button[aria-selected=true]{background:var(--acc);color:#06101f;border-color:var(--acc)}
+main{padding:16px 14px 60px;max-width:900px;margin:0 auto}
+section{display:none}
+section[aria-hidden=false]{display:block}
+h2{font-size:17px;margin:6px 0 10px}
+h3{font-size:15px;margin:20px 0 8px;color:var(--acc)}
+p{margin:0 0 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:0 0 14px}
+.obra{font-weight:700;font-size:15px;margin-bottom:2px}
+.tema{color:var(--dim);font-size:13px;margin-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:10px 0}
+.kv{background:#11141a;border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.kv b{display:block;font-size:17px}
+.kv span{font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.4px}
+.badge{display:inline-block;font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;border:1px solid}
+.b-ok{color:var(--ok);border-color:var(--ok)}
+.b-warn{color:var(--warn);border-color:var(--warn)}
+.b-bad{color:var(--bad);border-color:var(--bad)}
+.ach{font-size:14px;color:#ffd7a8;background:#2a1f10;border-left:3px solid var(--warn);padding:10px 12px;border-radius:6px;margin-top:10px}
+.cob{font-size:13px;color:var(--dim);margin-top:8px}
+.cob b{color:var(--txt)}
+pre{background:#0b0e13;border:1px solid var(--line);border-radius:8px;padding:12px;overflow-x:auto;font-size:12.5px;line-height:1.5;margin:0;white-space:pre-wrap;word-break:break-word}
+.copiar{display:block;width:100%;margin:8px 0 0;background:var(--acc);color:#06101f;border:0;border-radius:8px;padding:12px;font-size:14px;font-weight:700}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th,td{text-align:left;padding:7px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--dim);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.3px}
+.foot{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);color:var(--dim);font-size:12px}
+@media(max-width:430px){nav{gap:4px;padding:8px 8px}nav button{padding:7px 9px;font-size:12px}.grid{grid-template-columns:1fr}main{padding:14px 10px 60px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>MTCC — onde o motor está, e o que só você decide</h1>
+  <div class="sub">Rodada de 21/11/2026 · 4 obras processadas · 4 decisões · gerado 2026-11-21 13:38 -03</div>
+</header>
+<nav role="tablist">
+  <button role="tab" aria-selected="true" aria-controls="p1" data-tab="p1">Feito</button>
+  <button role="tab" aria-selected="false" aria-controls="p2" data-tab="p2">4 fichas</button>
+  <button role="tab" aria-selected="false" aria-controls="p3" data-tab="p3">Achados</button>
+  <button role="tab" aria-selected="false" aria-controls="p4" data-tab="p4">Decisões</button>
+</nav>
+<main>
+
+<section id="p1" role="tabpanel" aria-hidden="false">
+  <h2>O que foi feito nesta rodada</h2>
+  <p>O motor de curadoria foi testado em <b>quatro obras reais</b> da gaveta bambu-estrutural que nunca tinham passado por ele. Antes disso, duas peças do motor foram corrigidas — mas <b>eu</b> as corrigi, o que foi erro de função: correção é do executor, não de quem desenha.</p>
+
+  <div class="card">
+    <h3>1. Duas correções no motor (M1 e M4)</h3>
+    <p><b>M1</b> — quando a fonte não escreve unidade nenhuma, o item saía <b>“aprovado”</b>, e “aprovado” significa “número, página <b>e</b> unidade conferidos”. Agora sai <b>aprovado sem unidade</b>, com a frase dizendo que a unidade não foi confirmada.</p>
+    <p><b>M4</b> — a página citada na linha de cima vencia a página que a própria linha declara. Uma ficha dizendo “p. 12” era aprovada “na p. 10 como declarado”. Agora a página da linha manda.</p>
+    <p class="cob">O executor pegou um erro meu nessa entrega: eu mandei rodar um comando com o hash do arquivo no lugar do commit. O comando não media nada. Está registrado.</p>
+  </div>
+
+  <div class="card">
+    <h3>2. As quatro obras novas</h3>
+    <p>cerne-2021, sa-2022, reghin-2018 e ruggiero-2021. <b>As quatro passaram.</b> Nenhuma foi barrada — e é isso que importa: o motor não barra porque as peças que barrariam (licença e gaveta) não existem.</p>
+  </div>
+
+  <div class="card">
+    <h3>3. Onde a entrega falhou</h3>
+    <p>A Bambu Science não escreveu relatório desta rodada para você. Entregou tabela técnica e um resumo que falava de “PASS na revisão interna”, não de obra processada. Você aprovou o que não viu.</p>
+    <p class="cob">A causa é minha: o pedido que eu escrevi não pedia relatório. Já existe agora um contrato que obriga toda frente a entregar, em 9 seções, o que foi feito, a prova, o que o instrumento disse (com cobertura), o que decidiu, o que ficou aberto e o que precisa de você.</p>
+  </div>
+</section>
+
+<section id="p2" role="tabpanel" aria-hidden="true">
+  <h2>As quatro fichas que passaram pelo motor</h2>
+  <p class="sub">Estado, contagem e — o número que ninguém lê — a <b>cobertura</b>: quanto dos valores da fonte o motor realmente conferiu.</p>
+    <div class="card">
+    <div class="obra">cerne-2021</div>
+    <div class="tema">minijardim clonal — Bambusa vulgaris · licença declarada e limpa (CC BY)</div>
+    <span class="badge b-ok">PASS</span> <span class="badge b-warn">exit 2</span> <span class="badge b-warn">cobertura 45/160 (28%)</span>
+    <div class="grid">
+      <div class="kv"><b>84</b><span>afirmações numéricas</span></div>
+      <div class="kv"><b>71</b><span>aprovadas</span></div>
+      <div class="kv"><b>10</b><span>não verificáveis</span></div>
+      <div class="kv"><b>3</b><span>aprovadas sem unidade</span></div>
+    </div>
+    <div class="ach">Hash completo na ficha e no pacote, mas a ficha não diz onde está a fonte</div>
+  </div>
+  <div class="card">
+    <div class="obra">sa-2022</div>
+    <div class="tema">densificação do Dendrocalamus asper · licença AMBÍGUA — "a confirmar"</div>
+    <span class="badge b-ok">PASS</span> <span class="badge b-warn">exit 2</span> <span class="badge b-warn">cobertura 71/413 (17%)</span>
+    <div class="grid">
+      <div class="kv"><b>107</b><span>afirmações numéricas</span></div>
+      <div class="kv"><b>88</b><span>aprovadas</span></div>
+      <div class="kv"><b>1</b><span>não verificáveis</span></div>
+      <div class="kv"><b>18</b><span>aprovadas sem unidade</span></div>
+    </div>
+    <div class="ach">18 de 107 itens sem unidade confirmada; licença ambígua não gera estado nenhum</div>
+  </div>
+  <div class="card">
+    <div class="obra">reghin-2018</div>
+    <div class="tema">bambu laminado colado · sem hash na ficha · já homologada</div>
+    <span class="badge b-ok">PASS</span> <span class="badge b-ok">exit 0</span> <span class="badge b-bad">cobertura 6/983 (0,6%)</span>
+    <div class="grid">
+      <div class="kv"><b>7</b><span>afirmações numéricas</span></div>
+      <div class="kv"><b>7</b><span>aprovadas</span></div>
+      <div class="kv"><b>0</b><span>não verificáveis</span></div>
+      <div class="kv"><b>0</b><span>aprovadas sem unidade</span></div>
+    </div>
+    <div class="ach">6 de 983 valores da fonte conferidos — e o documento sai aprovado e homologado</div>
+  </div>
+  <div class="card">
+    <div class="obra">ruggiero-2021</div>
+    <div class="tema">estruturas reticuladas de bambu laminado · séries numéricas na ficha</div>
+    <span class="badge b-ok">PASS</span> <span class="badge b-ok">exit 0</span> <span class="badge b-bad">cobertura 3/599 (0,5%)</span>
+    <div class="grid">
+      <div class="kv"><b>3</b><span>afirmações numéricas</span></div>
+      <div class="kv"><b>1</b><span>aprovadas</span></div>
+      <div class="kv"><b>0</b><span>não verificáveis</span></div>
+      <div class="kv"><b>2</b><span>aprovadas sem unidade</span></div>
+    </div>
+    <div class="ach">Ficha diz 445 / 892 / 1355 kg; o motor captura 1 de 3. Hash da ficha tem 12 caracteres — prefixo, não hash</div>
+  </div>
+
+  <div class="card">
+    <h3>O que a cobertura quer dizer</h3>
+    <p>“PASS” não significa “a ficha é fiel”. Significa “os números que eu consegui extrair batem com a fonte”. Em duas dessas obras o motor conferiu <b>menos de 1%</b> dos valores da fonte e mesmo assim aprovou.</p>
+  </div>
+</section>
+
+<section id="p3" role="tabpanel" aria-hidden="true">
+  <h2>O que continua aberto</h2>
+  <table>
+    <tr><th>ID</th><th>O que é</th><th>Situação</th></tr>
+        <tr><td><b>M2</b></td><td><b>Documento sai PASS com exit 2</b><br><span class="sub">Apareceu em 3 das 4 obras novas. O rótulo diz aprovado, o código diz que há não verificável. Ninguém consome o código.</span></td><td><span class="badge b-bad">NÃO AUTORIZADO</span></td></tr>
+    <tr><td><b>M3</b></td><td><b>Série “a / b / c / d MPa” perde valores</b><br><span class="sub">Em ruggiero, 445 / 892 / 1355 kg: 1 de 3 conferido, os outros dois nem olhados. É por aí que passa troca de dígito.</span></td><td><span class="badge b-bad">NÃO AUTORIZADO</span></td></tr>
+    <tr><td><b>M5</b></td><td><b>Unidade em cabeçalho de tabela não associada</b><br><span class="sub">“ELASTICIDADE (GPa)” no cabeçalho, o valor três linhas abaixo: o motor não liga um ao outro. Achado novo do executor.</span></td><td><span class="badge b-warn">DESENHO — MEU</span></td></tr>
+    <tr><td><b>—</b></td><td><b>Cobertura não limita PASS</b><br><span class="sub">reghin passa com 0,6% e ruggiero com 0,5% dos valores da fonte conferidos. PASS quer dizer “os poucos números que eu extraí batem”.</span></td><td><span class="badge b-bad">DECISÃO SUA</span></td></tr>
+    <tr><td><b>—</b></td><td><b>Licença e gaveta sem gate</b><br><span class="sub">Nenhum script lê a regra de gaveta; o validador não exige campo de licença. 26 das 49 fichas não têm licença declarada.</span></td><td><span class="badge b-bad">NÃO EXISTE</span></td></tr>
+
+  </table>
+  <div class="card">
+    <h3>O que isso significa junto</h3>
+    <p>O motor não está errado — está incompleto. Ele confere números e não confere licença, gaveta nem proveniência. Enquanto essas três peças não existirem, nenhuma ficha pode ser chamada de homologada com base nele.</p>
+  </div>
+</section>
+
+<section id="p4" role="tabpanel" aria-hidden="true">
+  <h2>O que só você decide</h2>
+  <p class="sub">Cada bloco é copiável. Cole a resposta no tópico e ela volta identificada.</p>
+    <div class="card">
+    <h3>D1 — Manter M1 estrito — item sem unidade confirmada continua saindo APROVADO_SEM_UNIDADE</h3>
+    <p>O executor mediu: dos 23 itens sem unidade na rodada 2, 22 têm o valor sem unidade a duas linhas (o rótulo está certo). Dos 5 da rodada 1, 4 tinham a unidade em cabeçalho de tabela — ali o problema é associação, não rótulo.</p>
+    <pre>DECISAO=D1
+CONTRATO=MTCC-MOTOR
+ESCOLHA=
+
+Manter M1 estrito — item sem unidade confirmada continua saindo APROVADO_SEM_UNIDADE
+
+Opções:
+    A. APROVO manter M1 estrito — decisão do executor fica valendo
+    B. REVERTO — item sem unidade volta a sair APROVADO, e o rótulo volta a afirmar o que não conferiu
+    C. APROVO só depois de M5 corrigido (unidade em cabeçalho passa a ser associada)</pre>
+    <button class="copiar">copiar bloco D1</button>
+  </div>
+  <div class="card">
+    <h3>D2 — PASS pode existir com cobertura de 0,6%?</h3>
+    <p>Hoje o rótulo não distingue “conferi quase tudo” de “conferi 6 de 983 números”. Duas obras desta rodada saíram aprovadas com cobertura abaixo de 1%.</p>
+    <pre>DECISAO=D2
+CONTRATO=MTCC-MOTOR
+ESCOLHA=
+
+PASS pode existir com cobertura de 0,6%?
+
+Opções:
+    A. PASS exige cobertura mínima — abaixo do limite o estado vira PARCIAL e o motivo diz a cobertura
+    B. PASS continua possível, mas a cobertura passa a ser impressa junto do estado, sempre
+    C. Manter como está — o rótulo não muda; a cobertura fica só no relatório</pre>
+    <button class="copiar">copiar bloco D2</button>
+  </div>
+  <div class="card">
+    <h3>D3 — Autorizar M2, M3 e M5 para a próxima rodada?</h3>
+    <p>M2 (PASS com exit 2), M3 (série perdendo valores) e M5 (unidade em cabeçalho). Os três mudam contagem de aprovação; nenhum foi autorizado.</p>
+    <pre>DECISAO=D3
+CONTRATO=MTCC-MOTOR
+ESCOLHA=
+
+Autorizar M2, M3 e M5 para a próxima rodada?
+
+Opções:
+    A. AUTORIZO os três — e o executor aplica, não eu
+    B. AUTORIZO apenas M5 — é associação, não muda o que já foi aprovado
+    C. NÃO AUTORIZO agora — primeiro fecha a amostra com o motor como está</pre>
+    <button class="copiar">copiar bloco D3</button>
+  </div>
+  <div class="card">
+    <h3>D4 — Exigir relatório próprio da rodada 2 da Bambu Science?</h3>
+    <p>Ela entregou as quatro obras em tabela técnica e resumo de seis linhas que falava de PASS, não de obra. O relatório que existe no diretório é da rodada 1.</p>
+    <pre>DECISAO=D4
+CONTRATO=MTCC-MOTOR
+ESCOLHA=
+
+Exigir relatório próprio da rodada 2 da Bambu Science?
+
+Opções:
+    A. EXIGIR relatório em 9 seções — sem ele a rodada não é aprovada
+    B. ACEITAR o relatório que eu escrevi em nome dela, como exceção única</pre>
+    <button class="copiar">copiar bloco D4</button>
+  </div>
+
+  <div class="foot">
+    Esta peça é camada de leitura (ADR-0005). Não é contrato, não é prova, não autoriza execução.
+    O registro está no repositório: RELATORIO_RODADA2_BAMBU_AO_SOBERANO_20261121.md (1e512a45435bb565) · AUDITORIA_MTCC_RESPOSTA_EXECUTOR_20261121.md (5bd3a619dc80bd3f) · CORRECAO_M1_M4_GATE_20261121.md (e5f374deeb8d1b06) · CONTRATO_RETORNO_AO_SOBERANO_20261121.md (a6273e383515e4f4)
+  </div>
+</section>
+
+</main>
+<script>
+(function(){
+  var tabs=[].slice.call(document.querySelectorAll('nav button[data-tab]'));
+  var panels=[].slice.call(document.querySelectorAll('section[role=tabpanel]'));
+  function show(id){
+    tabs.forEach(function(b){b.setAttribute('aria-selected',String(b.dataset.tab===id));});
+    panels.forEach(function(p){p.setAttribute('aria-hidden',String(p.id!==id));});
+    window.scrollTo(0,0);
+  }
+  tabs.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.tab);});});
+  document.querySelectorAll('button.copiar').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var pre=btn.previousElementSibling;
+      var txt=pre.innerText;
+      function ok(){var t=btn.textContent;btn.textContent='copiado';setTimeout(function(){btn.textContent=t;},1400);}
+      if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(ok,fallback);}else{fallback();}
+      function fallback(){var ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');ok();}catch(e){}document.body.removeChild(ta);}
+    });
+  });
+})();
+</script>
+</body>
+</html>
