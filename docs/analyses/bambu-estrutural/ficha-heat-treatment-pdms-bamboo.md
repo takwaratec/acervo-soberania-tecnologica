@@ -14,7 +14,7 @@ autores:
   - Junfeng Hou
 instituicoes:
   - "School of Engineering, Zhejiang A & F University, Hangzhou, Zhejiang 311300, P. R. China"
-  - "Zhejiang Provincial Collaborative Innovation Center for Bamboo Resources and High-efficiency Utilization, Hangzhou, 311300, P. R. China"
+  - "Zhejiang Provincial Collaborative Innovation Center for Bamboo Resources and High-efficiency Utilization, Hangzhou, 311300, P. R.China"
 periodico: RSC Advances
 ano: 2020
 volume: 10
