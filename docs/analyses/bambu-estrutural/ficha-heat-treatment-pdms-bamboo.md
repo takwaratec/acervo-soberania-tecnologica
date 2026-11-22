@@ -1,13 +1,31 @@
 ---
 tipo_documental: ficha-cientifica
+estado_documental: homologado-documentalmente
+fonte_primaria: PDF integral paginado conferido (p. 43438-43446)
+pacote_fonte_privado: fontes-cientificas/2020-zhang-heat-treatment-pdms-bambu
+identificador: https://doi.org/10.1039/d0ra08713k
 titulo: Evaluating the comprehensive influences of heat treatment and polydimethylsiloxane on integrated performance of bamboo timber
-autores: Ying Zhang; Xin Zhang; Youming Yu; Wenbo Che; Xiaochun Zhang; Junfeng Hou
+autores:
+  - Ying Zhang
+  - Xin Zhang
+  - Youming Yu
+  - Wenbo Che
+  - Xiaochun Zhang
+  - Junfeng Hou
+instituicoes:
+  - "Zhejiang A&F University, China"
+periodico: RSC Advances
 ano: 2020
+volume: 10
+numero: 71
+paginas_artigo: 43438-43446
 doi: 10.1039/d0ra08713k
-estado_documental: em-revisao-documental
-fonte_primaria: PDF integral conferido
-data_revisao: 2026-07-13
+licenca: CC BY 3.0
+idioma_fonte: en
+paginas_fonte: 9
+data_revisao: 2026-11-21
 responsavel_curadoria: Fabio Takwara
+autorizacao_homologacao: "FABIO_SOBERANO - decisao opcao 1, 21/11/2026 (governanca: ORDEM_HOMOLOGACAO_PDMS_20261121.md, commit 9e851095)"
 ---
 
 # Tratamento térmico de bambu em meio de polidimetilsiloxano
@@ -58,6 +76,41 @@ O referencial articula tratamento térmico de bambu, degradação de hemicelulos
 O artigo não apresenta grupo de tratamento térmico seco ou a vapor na mesma matriz experimental, o que limita a separação entre o efeito do calor e o efeito específico do PDMS.
 
 ## 6. Principais achados
+
+**Valores transcritos da prosa da fonte** (régua §5-A, ordem de busca 1). Localização pela **página
+impressa** (RSC Adv. 10: 43438–43446; PDF p. 1 = 43438), com seção e parágrafo (¶) ao lado, porque o
+título da seção no depósito não corresponde sempre ao parágrafo que o segue.
+
+| Propriedade | Condição | Valor como impresso | Atribuição na fonte | Página | Seção/¶ |
+|---|---|---|---|---|---|
+| Inchamento tangencial | 120 / 150 / 180 / 210 °C | redução de 30,85% / 36,17% / 52,13% / 59,57% | inchamento linear, 20 °C e 30% HR | p. 43440 | «EMC…», ¶1 |
+| Inchamento radial | 120 / 150 / 180 / 210 °C | redução de 7,69% / 17,86% / 28,57% / 40,00% | inchamento linear, 20 °C e 30% HR | p. 43440 | «EMC…», ¶1 |
+| Inchamento longitudinal | 120 / 150 / 180 / 210 °C | redução de 9,38% / 15,63% / 21,88% / 52,38% | inchamento linear, 20 °C e 30% HR | p. 43440 | «EMC…», ¶1 |
+| MOR | 120 °C | −0,12% | «a small decrement of 0.12% in MOR» | p. 43441 | «MOR and MOE…», ¶1 |
+| MOE | 120 °C | +8,07% | «MOE was increased to the maximum value with an increase of 8.07%» | p. 43441 | «MOR and MOE…», ¶1 |
+| MOR | 150 °C | −4,86% | «it was only slightly reduced by 4.86%» | p. 43441 | «density…», ¶1 |
+| MOR | 180 °C | −28,24% | «the corresponding decrement was 28.24%» | p. 43441 | «density…», ¶1 |
+| MOR | 210 °C | −30,71% | «and 30.71%», no mesmo período | p. 43441 | «density…», ¶1 |
+| Série 120–210 °C | 120 / 150 / 180 / 210 °C | redução de 0,12% / 1,07% / 2,63% / 5,79% | propriedade não nomeada na frase (o parágrafo trata de MOR e MOE) | p. 43441 | «density…», ¶1 |
+| Ângulo de contato com água | controle | 4° | «contact angle (4°) of water on the untreated specimens» | p. 43442 | §3.2, ¶1 |
+| Luminosidade (ΔL*) | 120 / 150 / 180 / 210 °C | −7,08 / −22,55 / −37,1 / −62,26 | «changes in values of L* … compared with the specimens in control group» | p. 43445 | «Color changes analysis», ¶1 |
+| Redução de luminosidade | 120 → 210 °C | de 10,68 até 93,94 | «reduction of lightness … was increased from 10.68 to 93.94» | p. 43445 | «Color changes analysis», ¶1 |
+
+Os mesmos ΔL* por temperatura aparecem na Tabela 2, na p. 43444; a ficha cita a prosa, que é onde a
+frase os declara como resultado.
+
+**Divergência interna da fonte, registrada e não harmonizada.** O valor 0,12% (p. 43441) é atribuído a
+MOR no primeiro parágrafo («a small decrement of 0.12% in MOR») e aparece sem propriedade nomeada na
+série 0,12/1,07/2,63/5,79% (p. 43441) do parágrafo anterior; o valor 8,07% (p. 43441) é atribuído a MOE
+na seção «MOR and MOE» e a MOR no parágrafo da seção «density». A ficha registra as duas atribuições:
+escolher a "mais provável" seria harmonizar por plausibilidade, que a régua §9 proíbe.
+
+**Títulos de seção não correspondem ao conteúdo no impresso:** o parágrafo sob «Effects of heat
+treatment temperature on EMC» (p. 43440) trata de **inchamento linear**; o parágrafo sob «density»
+(p. 43441) trata de **MOR e MOE**. Por isso a localização cita página, seção **e** conteúdo, e não só o
+título.
+
+Demais achados qualitativos (sem número em prosa nem em tabela — não há valor a transcrever):
 
 - EMC e razão de inchamento diminuíram com o aumento da temperatura.
 - O ângulo de contato com água aumentou, indicando menor molhabilidade superficial.
