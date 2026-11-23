@@ -56,9 +56,12 @@ Revisão sistemática conduzida segundo as diretrizes PRISMA, analisando artigos
 ---
 
 ## 5. Achados e Resultados Empíricos
-- **Resistência à Tração:** *Guadua angustifolia* atinge médias de **226 MPa**, superando a madeira de reflorestamento, enquanto *Phyllostachys edulis* varia entre 147 e 423 MPa.
-- **Resistência à Compressão:** *Guadua angustifolia* apresenta resistência à compressão paralela às fibras de até **220 MPa**.
-- **Densidade:** Varia entre 500 e 1100 kg/m³, proporcionando excelente desempenho sísmico.
+- **Resistência à tração:** *Bambusa tulda* apresentou resistência à tração de **226,28 MPa** (p. 2).
+- **Resistência à tração de feixes de fibra de bambu-mossô:** a resistência média inicial das amostras sem tratamento térmico foi **423,29 MPa** (p. 21).
+- **Resistência à compressão paralela às fibras:** a Tabela 6 reporta valores de 50 a **220 MPa** (p. 24).
+- **Densidade seca do bambu comumente usado em estruturas:** varia de **500 kg/m³** a **800 kg/m³** (p. 12).
+
+> **Nota de verificação:** na Tabela 6, a unidade MPa está no cabeçalho da coluna de compressão, não junto aos valores 50–220. O gate confirma os valores na p. 24, mas retorna `APROVADO_SEM_UNIDADE` porque não associa a unidade ao intervalo.
 
 ---
 
