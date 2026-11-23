@@ -70,7 +70,7 @@ referências formadoras; a **NSR-10 (Colômbia, 2010)** como marco regional; e a
   **verificação por estudo científico com pelo menos 30 ensaios** — leitura prudencial do autor, não
   exigência normativa universal.
 - **Protótipo (caso histórico documentado):** estrutura de **63 m²** (p. 150), com área entre pilares
-  de **8 × 6 m** (p. 152), de *Dendrocalamus asper* de Luziânia-GO (2011, p. 150), executada com
+  de **8 × 6 m** (p. 152), de *Dendrocalamus asper* (p. 154) colhido em Luziânia-GO (p. 155), executada com
   técnicas deliberadamente **fora de norma** (colunas enterradas; óleo queimado) e **vida útil de
   serviço projetada de aproximadamente 10 anos** (p. 150) — dados de caso, não demonstração de
   segurança, durabilidade, conformidade ou desempenho estrutural geral.
