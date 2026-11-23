@@ -58,7 +58,7 @@ Revisão sistemática conduzida segundo as diretrizes PRISMA, analisando artigos
 ## 5. Achados e Resultados Empíricos
 - **Resistência à tração:** *Bambusa tulda* apresentou resistência à tração de **226,28 MPa** (p. 2).
 - **Resistência à tração de feixes de fibra de bambu-mossô:** a resistência média inicial das amostras sem tratamento térmico foi **423,29 MPa** (p. 21).
-- **Resistência à flexão (MOR):** na Tabela 6, a linha da referência [53] reporta **50–220 MPa** de MOR (p. 24), com MOE de **5,0–20,0 GPa** na mesma linha.
+- **Resistência à flexão (MOR):** na Tabela 6, a linha da referência [53] reporta **50–220 MPa** de MOR (p. 24).
 - **Densidade seca do bambu comumente usado em estruturas:** varia de **500 kg/m³** a **800 kg/m³** (p. 12).
 
 > **Nota de verificação:** na Tabela 6, a unidade está no cabeçalho da coluna (MOR em MPa, MOE em GPa), não junto aos valores `50–220`. A coluna foi conferida por coordenada na página 24 (o valor começa sob o cabeçalho MOR, não sob CS). O gate confirma os valores na p. 24, mas retorna `APROVADO_SEM_UNIDADE` porque não associa a unidade ao intervalo.
