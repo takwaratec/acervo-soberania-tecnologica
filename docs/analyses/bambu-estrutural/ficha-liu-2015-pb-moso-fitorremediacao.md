@@ -42,18 +42,18 @@ responsavel_curadoria: Fabio Takwara
 
 ## 3. Valores documentados (fonte primária — tabela/página)
 
-### Tabela 1 (p. 125) — hidroponia, 30 dias, Pb
+### Tabela 1 (p. 126) — hidroponia, 30 dias, Pb
 
 | Tratamento | TF | BCF |
 |---|---|---|
-| 10 µmol/L | 0,36 | 37,64 |
-| 25 µmol/L | 0,37 | 24,95 |
-| 50 µmol/L | 0,36 | 17,27 |
-| 100 µmol/L | 0,29 | 12,82 |
-| 200 µmol/L | 0,19 | 11,50 |
-| 400 µmol/L | 0,07 | 10,97 |
+| 10 µmol/L (p. 126) | 0,36 (p. 126) | 37,64 (p. 126) |
+| 25 µmol/L (p. 126) | 0,37 (p. 126) | 24,95 (p. 126) |
+| 50 µmol/L (p. 126) | 0,36 (p. 126) | 17,27 (p. 126) |
+| 100 µmol/L (p. 126) | 0,29 (p. 126) | 12,82 (p. 126) |
+| 200 µmol/L (p. 126) | 0,19 (p. 126) | 11,50 (p. 126) |
+| 400 µmol/L (p. 126) | 0,07 (p. 126) | 10,97 (p. 126) |
 
-- **Concentração máxima** (400 µmol/L): raízes **4.282,8 mg/kg**; caules 482,2 mg/kg; folhas 148,8 mg/kg.
+- **Concentração máxima** (400 µmol/L, p. 123): raízes **4.282,8 mg/kg** (p. 123); caules 482,2 mg/kg (p. 123); folhas 148,8 mg/kg (p. 123).
 - **Interpretação do artigo (p. 127):** "All TF values were less than 1, whereas all BCF values were more than 10."
 
 ## 4. Correspondência com valores citados em revisões
@@ -82,4 +82,4 @@ responsavel_curadoria: Fabio Takwara
 
 | Data | Versão | Alteração |
 |---|---|---|
-| 2026-08-09 | 1.0 | Ficha criada (patch candidato F3; frente CONTRATO_INTEGRACAO_FONTES_FITORREMEDIACAO_001). |
+| Data de registro: 2026-08-09 | Versão 1.0 | Ficha criada (patch candidato F3; frente CONTRATO_INTEGRACAO_FONTES_FITORREMEDIACAO_001). |
