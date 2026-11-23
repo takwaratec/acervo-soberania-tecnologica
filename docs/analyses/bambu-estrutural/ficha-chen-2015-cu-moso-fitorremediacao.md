@@ -86,6 +86,8 @@ A Tabela 4 (hidroponia) reporta apenas atividade enzimática (SOD/POD/MDA) e pro
 
 ## 7. Registro
 
+<!-- tipo: histórico — tabela de registro de versões, não de resultados -->
+
 | Data | Versão | Alteração |
 |---|---|---|
 | 2026-08-09 | 1.0 | Ficha criada (patch candidato F2; frente CONTRATO_INTEGRACAO_FONTES_FITORREMEDIACAO_001). |
