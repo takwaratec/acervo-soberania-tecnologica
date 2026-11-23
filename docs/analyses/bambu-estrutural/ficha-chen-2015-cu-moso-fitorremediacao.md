@@ -39,23 +39,24 @@ responsavel_curadoria: Fabio Takwara
 | **Réplicas** | n = 3 |
 | **Órgãos analisados** | Raízes, caules, folhas |
 | **Unidades** | mg/kg (concentração tecidual); BAF/TF adimensionais |
-| **Método analítico** | Digestão de ~0,3 g de amostra vegetal em solução HNO₃/HClO₄; filtragem em papel 0,45 µm; acidificação com HNO₃ 15%; **análise por ICP-MS (Agilent 7500a)** (p. 7-8, seção "Cu accumulation in plant tissues") |
+| **Método analítico** | Digestão de ~0,3 g de amostra vegetal em solução HNO₃/HClO₄; filtragem em papel 0,45 µm; acidificação com HNO₃ 15%; análise por ICP-MS (p. 7, seção "Cu accumulation in plant tissues") |
+| **Registro do equipamento** | ICP-MS da Agilent, modelo 7500a (p. 7) |
 
 > **Nota de terminologia (BAF × BCF):** o artigo usa o acrônimo **BAF** ("bioaccumulation factor"), definido literalmente como BAF = [Cu contents in tissues]/[Cu contents in soil] (p. 8). A sigla **BCF** não é usada neste artigo para o fator de bioacumulação. Esta ficha preserva a terminologia original (BAF) e não a normaliza para BCF por inferência.
 
 ## 3. Valores documentados (fonte primária — tabela/página)
 
-### Tabela 3 — vaso, 2 meses, Cu (p. 4-5)
+### Tabela 3 — vaso, 2 meses, Cu (p. 3)
 
 | Tratamento | BAF raiz | TF caule | TF folha |
 |---|---|---|---|
-| 50 mg/kg | 0,78 | 0,23 | 0,15 |
-| 100 mg/kg | 1,41 | 0,18 | 0,09 |
-| 300 mg/kg | 0,63 | 0,22 | 0,10 |
-| 600 mg/kg | 0,54 | 0,18 | 0,07 |
+| 50 mg/kg (p. 3) | 0,78 (p. 3) | 0,23 (p. 3) | 0,15 (p. 3) |
+| 100 mg/kg (p. 3) | 1,41 (p. 3) | 0,18 (p. 3) | 0,09 (p. 3) |
+| 300 mg/kg (p. 3) | 0,63 (p. 3) | 0,22 (p. 3) | 0,10 (p. 3) |
+| 600 mg/kg (p. 3) | 0,54 (p. 3) | 0,18 (p. 3) | 0,07 (p. 3) |
 
-- **Concentração tecidual máxima** (600 mg/kg): raízes 340 mg/kg; caules 60 mg/kg; folhas 23 mg/kg.
-- **Interpretação do artigo (p. 8):** "Moso bamboo is not hyperaccumulator for Cu. All BAF and TF values were less than 1 except BAF of roots at 100 mg/kg."
+- **Concentração tecidual máxima** (600 mg/kg, p. 3): raízes 340 mg/kg (p. 3); caules 60 mg/kg (p. 3); folhas 23 mg/kg (p. 3).
+- **Interpretação do artigo (p. 5):** "Moso bamboo is not hyperaccumulator for Cu. All BAF and TF values were less than 1 except BAF of roots at 100 mg/kg."
 
 ### Nota sobre hidroponia
 
@@ -87,4 +88,4 @@ A Tabela 4 (hidroponia) reporta apenas atividade enzimática (SOD/POD/MDA) e pro
 
 | Data | Versão | Alteração |
 |---|---|---|
-| 2026-08-09 | 1.0 | Ficha criada (patch candidato F2; frente CONTRATO_INTEGRACAO_FONTES_FITORREMEDIACAO_001). |
+| Data de registro: 2026-08-09 | Versão 1.0 | Ficha criada (patch candidato F2; frente CONTRATO_INTEGRACAO_FONTES_FITORREMEDIACAO_001). |
