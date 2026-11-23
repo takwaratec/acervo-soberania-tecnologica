@@ -69,10 +69,11 @@ referências formadoras; a **NSR-10 (Colômbia, 2010)** como marco regional; e a
 - Para **conexões/ligações alternativas**, na leitura de Marçal a norma equatoriana exige
   **verificação por estudo científico com pelo menos 30 ensaios** — leitura prudencial do autor, não
   exigência normativa universal.
-- **Protótipo (caso histórico documentado):** estrutura de **63 m²** (entre pilares 8 × 6 m), de
-  *Dendrocalamus asper* de Luziânia-GO (2011), executada com técnicas deliberadamente **fora de
-  norma** (colunas enterradas; óleo queimado) e **vida útil de serviço projetada ~10 anos** — dados
-  de caso, não demonstração de segurança, durabilidade, conformidade ou desempenho estrutural geral.
+- **Protótipo (caso histórico documentado):** estrutura de **63 m²** (p. 150), com área entre pilares
+  de **8 × 6 m** (p. 152), de *Dendrocalamus asper* de Luziânia-GO (2011, p. 150), executada com
+  técnicas deliberadamente **fora de norma** (colunas enterradas; óleo queimado) e **vida útil de
+  serviço projetada de aproximadamente 10 anos** (p. 150) — dados de caso, não demonstração de
+  segurança, durabilidade, conformidade ou desempenho estrutural geral.
 
 ## 7. Avaliação crítica (atribuição curatorial)
 
