@@ -184,7 +184,9 @@ footer{border-top:1px solid var(--lin);padding:22px;color:var(--mut);font-size:1
 text-align:center;max-width:1180px;margin:0 auto}
 footer p{margin:0 auto;max-width:70ch}
 @media(max-width:900px){
-nav.tabs{display:flex;overflow-x:auto;-webkit-overflow-scrolling:touch;flex-wrap:nowrap}
+nav.tabs{display:flex;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;flex-wrap:nowrap;
+scrollbar-width:none;-ms-overflow-style:none}
+nav.tabs::-webkit-scrollbar{display:none}
 nav.tabs button{flex:0 0 auto;white-space:nowrap;padding:12px 14px}
 }
 @media(max-width:760px){
