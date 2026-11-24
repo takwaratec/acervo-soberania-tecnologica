@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>O boro, explicado do zero — Acervo Soberania Tecnológica</title>
+<meta name="description" content="Artigo didático integral sobre o boro, com 27 citações numeradas, bibliografia consultada e as 16 fichas técnicas anexadas na íntegra.">
+<style>
+:root{
+  --bg:#f7f6f2; --bg2:#efeee8; --card:#fff; --ink:#1d1c1a; --ink2:#57544d;
+  --line:#d9d6cc; --accent:#1f5f4e; --accent-l:#2b7f68; --accent-d:#14453a;
+  --warn:#8a4b12; --warn-bg:#fdf3e6; --danger:#8c2b1e; --danger-bg:#fceeec;
+  --ok:#1f5f4e; --ok-bg:#eaf4ef;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:17px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",Arial,sans-serif;
+  font-feature-settings:"kern" 1}
+header.top{background:var(--accent-d);color:#f2f0ea;padding:26px 22px 20px;border-bottom:4px solid var(--accent-l)}
+header.top .kicker{font:600 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;
+  text-transform:uppercase;color:#9fc9bb;margin-bottom:10px}
+header.top h1{margin:0 0 8px;font-size:29px;line-height:1.2;font-weight:650;letter-spacing:-.01em}
+header.top .sub{margin:0;color:#cfd8d3;font-size:16px;max-width:62ch}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px;align-items:flex-start}
+.chip{background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.22);color:#e8efe9;
+  padding:4px 10px;border-radius:999px;font:600 12px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;
+  white-space:nowrap}
+.chip--gold{background:#e8d7a8;border-color:#c9b478;color:#3d2f0d}
+nav.tabs{position:sticky;top:0;z-index:20;background:var(--bg2);border-bottom:1px solid var(--line);
+  display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px;padding:10px 12px}
+nav.tabs button{appearance:none;border:1px solid var(--line);background:var(--card);color:var(--ink2);
+  font:600 12.5px/1.25 inherit;padding:8px 6px;border-radius:8px;cursor:pointer;text-align:center;
+  overflow-wrap:anywhere;hyphens:auto}
+nav.tabs button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+main{max-width:1080px;margin:0 auto;padding:0 20px 80px}
+/* A folga acima da barra NAO e numero: e a altura medida por molde.js em --barra-h,
+   mais 20px de respiro. Numero fixo funciona ate a peca passar de N abas — a proxima sempre passa. */
+section[role="tabpanel"]{display:none;scroll-margin-top:calc(var(--barra-h,168px) + 20px)}
+section[role="tabpanel"].active{display:block;animation:fade .18s ease}
+@keyframes fade{from{opacity:.4}to{opacity:1}}
+h2{font-size:25px;line-height:1.25;margin:32px 0 6px;letter-spacing:-.01em}
+h2 .num{display:inline-block;background:var(--accent);color:#fff;font:700 13px/1 ui-monospace,Menlo,monospace;
+  padding:5px 8px;border-radius:6px;margin-right:10px;vertical-align:3px}
+h3{font-size:19.5px;margin:30px 0 8px;color:var(--accent-d);letter-spacing:-.005em}
+h4{font-size:16.5px;margin:22px 0 6px;color:var(--ink)}
+p{margin:11px 0}
+ul,ol{margin:11px 0 11px 22px;padding:0}
+li{margin:5px 0}
+hr.sep{border:0;border-top:1px solid var(--line);margin:30px 0}
+em{font-style:italic}
+code{font:600 14px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--bg2);
+  padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+a{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+blockquote{margin:16px 0;padding:13px 17px;background:var(--bg2);border-left:3px solid var(--accent-l);
+  border-radius:0 8px 8px 0;color:var(--ink2);font-size:16px}
+.tabwrap{overflow-x:auto;margin:16px 0;border:1px solid var(--line);border-radius:9px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
+th,td{padding:9px 11px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--bg2);font-weight:650;font-size:13px;letter-spacing:.02em;
+  position:sticky;top:0}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:#fbfaf7}
+.note,.okbox,.danger{margin:18px 0;padding:14px 17px;border-radius:9px;font-size:15.5px;line-height:1.55}
+.note{background:var(--warn-bg);border:1px solid #e6c9a4;border-left:4px solid var(--warn)}
+.note>strong:first-child{display:block;color:var(--warn);margin-bottom:4px}
+.okbox{background:var(--ok-bg);border:1px solid #bcdccd;border-left:4px solid var(--ok)}
+.okbox>strong:first-child{display:block;color:var(--accent-d);margin-bottom:4px}
+.danger{background:var(--danger-bg);border:1px solid #e8bdb6;border-left:4px solid var(--danger)}
+.danger>strong:first-child{display:block;color:var(--danger);margin-bottom:4px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:15px 16px}
+.kpi .n{font:700 27px/1.05 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--accent-d);
+  letter-spacing:-.02em;overflow-wrap:anywhere}
+.kpi .l{font-size:12px;text-transform:uppercase;letter-spacing:.09em;color:var(--ink2);margin-top:7px;
+  line-height:1.35}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:18px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:16px 18px}
+.card h4{margin-top:0}
+.card .tag{font:600 11.5px/1 ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.1em;
+  color:var(--accent-l)}
+.page-nav{display:flex;justify-content:space-between;gap:12px;margin:44px 0 0;padding-top:20px;
+  border-top:1px solid var(--line)}
+.page-nav a,.page-nav span{font:600 14px/1.3 inherit;padding:11px 15px;border-radius:9px;
+  border:1px solid var(--line);background:var(--card);color:var(--accent);text-decoration:none}
+.page-nav span{color:#a9a59b;background:transparent;border-color:transparent}
+footer.rodape{margin:40px 0 0;padding:18px 0 0;border-top:1px solid var(--line);
+  font-size:13px;color:var(--ink2);line-height:1.6}
+.meta{font:600 12.5px/1.4 ui-monospace,Menlo,monospace;color:var(--ink2);letter-spacing:.01em;
+  margin:0 0 14px}
+@media(max-width:1000px){nav.tabs{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:760px){
+  body{font-size:16px;line-height:1.6}
+  header.top{padding:20px 16px 16px}
+  header.top h1{font-size:22px;line-height:1.32}
+  header.top .sub{font-size:14.5px}
+  /* Uma linha que rola de lado. Empilhar em 3 colunas fazia a barra crescer com o numero de
+     abas: 12 abas = 131px, 19 = 223px (26% da tela), e o titulo ficava atras dela.
+     Linha unica mantem a altura constante e devolve a tela ao texto. */
+  nav.tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;
+    padding:6px;gap:6px;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+  nav.tabs button{flex:0 0 auto;white-space:nowrap;font-size:12px;padding:8px 11px;
+    line-height:1.2;letter-spacing:-.01em;overflow-wrap:normal;hyphens:none}
+  main{padding:0 15px 70px}
+  h2{font-size:21px;margin-top:24px}
+  h3{font-size:17.5px}
+  .tabwrap{overflow-x:visible;border:0;background:transparent}
+  table{min-width:0;display:block;font-size:14.5px}
+  thead{display:none}
+  tbody,tr,td{display:block;width:100%}
+  tr{background:var(--card);border:1px solid var(--line);border-radius:9px;margin-bottom:10px;padding:4px 0}
+  tbody tr:nth-child(even){background:var(--card)}
+  td{border:0;padding:7px 13px;display:block}
+  td>*{display:inline}
+  td::before{content:attr(data-l);display:block;font:600 11.5px/1.45 ui-monospace,Menlo,monospace;
+    color:var(--ink2);text-transform:uppercase;letter-spacing:.05em;overflow-wrap:anywhere;margin-bottom:3px}
+  td code{overflow-wrap:anywhere;word-break:break-word}
+  th{position:static}
+  .page-nav{flex-direction:column}
+}
+@media(max-width:420px){
+  header.top h1{font-size:19.5px}
+  .kpi .n{font-size:23px}
+}
+@media print{
+  nav.tabs,.page-nav{display:none}
+  section[role="tabpanel"]{display:block !important;page-break-after:always}
+  section[role="tabpanel"]:last-child{page-break-after:auto}
+  header.top{background:#fff;color:#000;border-bottom:2px solid #000}
+  header.top h1,header.top .sub{color:#000}
+  .chip{background:#eee;color:#000;border-color:#999}
+  a{color:#000}
+  .tabwrap{overflow:visible}
+  table{min-width:0}
+}
+
+body{max-width:900px;margin:0 auto;padding:0 1.2rem 4rem}
+.toc{border:1px solid #d8d2c4;border-radius:10px;padding:1rem 1.5rem;margin:2.2rem 0;background:#faf8f3}
+.toc h2{margin-top:0;font-size:.95rem;letter-spacing:.1em;text-transform:uppercase}
+.toc ol{margin:0;padding-left:1.4rem;line-height:1.8}
+.toc a{text-decoration:none;border-bottom:1px dotted}
+a.cite{font-size:.8em;text-decoration:none;font-weight:700;color:#8a6d3b}
+p.ref{padding-left:2.6rem;text-indent:-2.6rem}
+p.ref:target{background:#fff6d8;outline:2px solid #d4b862;border-radius:4px}
+.ficha{border-top:3px double #d8d2c4;margin-top:3.8rem;padding-top:1.8rem}
+.ficha-num{display:inline-block;font-size:.7rem;letter-spacing:.14em;font-weight:700;background:#1f1b16;color:#f7f3e8;padding:.2rem .55rem;border-radius:3px}
+.ficha-head h3{font-size:1.24rem;line-height:1.4;margin:.6rem 0 .4rem}
+.ficha-meta{font-size:.78rem;opacity:.72;margin:0}
+.anexo-intro{border-left:4px solid #8a6d3b;padding:.9rem 1.2rem;background:#faf8f3;margin:2.5rem 0;line-height:1.65}
+h1.art-title{font-size:1.6rem;margin-top:2rem}
+@media print{.toc{page-break-after:always}.ficha{page-break-before:always}}
+
+.toc-artigo ol{list-style:none;padding-left:.2rem}
+.toc-artigo li{margin-left:0}
+.toc-artigo li::before{content:none}
+</style></head><body>
+<header class="top">
+<div class="kicker">Acervo Soberania Tecnológica · Gaveta Boro · Artigo didático</div>
+<h1>O boro, explicado do zero</h1>
+<p class="sub">Um elemento que quase ninguém vê e todos usam — do átomo ao resíduo, sem supor que você saiba química.</p>
+<div class="chips"><span class="chip chip--gold">EM REVISÃO DOCUMENTAL · NÃO HOMOLOGADO</span><span class="chip">texto corrido · sem abas</span><span class="chip">27 referências</span><span class="chip">16 fichas anexadas</span><span class="chip">2026-11-24</span></div>
+</header>
+<main>
+<nav class="toc toc-artigo" aria-label="Sumário do artigo"><h2>Sumário</h2><ol>
+    <li><a href="#antes-de-começar">Antes de começar</a></li>
+    <li><a href="#1-o-que-é-um-elemento-químico">1. O que é um "elemento químico"</a></li>
+    <li><a href="#2-três-nomes-que-confundem">2. Três nomes que confundem</a></li>
+    <li><a href="#3-de-onde-o-boro-veio">3. De onde o boro veio</a></li>
+    <li><a href="#4-onde-o-boro-está-de-verdade">4. Onde o boro está de verdade</a></li>
+    <li><a href="#5-a-dependência-brasileira">5. A dependência brasileira</a></li>
+    <li><a href="#6-faz-bem-ou-faz-mal">6. Faz bem ou faz mal?</a></li>
+    <li><a href="#7-o-que-a-ciência-diz-e-o-que-ela-não-diz">7. O que a ciência diz — e o que ela não diz</a></li>
+    <li><a href="#8-a-régua-do-remédio-e-a-régua-da-farmácia">8. A régua do remédio e a régua da farmácia</a></li>
+    <li><a href="#9-o-boro-é-cancerígeno">9. O boro é cancerígeno?</a></li>
+    <li><a href="#10-o-bambu-e-o-boro">10. O bambu e o boro</a></li>
+    <li><a href="#11-a-manutenção-o-que-a-green-school-faz-de-fato">11. A manutenção: o que a Green School faz de fato</a></li>
+    <li><a href="#12-o-resíduo-onde-o-boro-muda-de-natureza">12. O resíduo: onde o boro muda de natureza</a></li>
+    <li><a href="#13-as-estruturas-efêmeras">13. As estruturas efêmeras</a></li>
+    <li><a href="#14-o-uso-doméstico-onde-este-artigo-vira-advertência">14. O uso doméstico: onde este artigo vira advertência</a></li>
+    <li><a href="#15-como-ler-qualquer-texto-sobre-boro">15. Como ler qualquer texto sobre boro</a></li>
+    <li><a href="#16-resumo">16. Resumo</a></li>
+    <li><a href="#17-o-que-este-artigo-não-sabe">17. O que este artigo não sabe</a></li>
+    <li><a href="#glossário">Glossário</a></li>
+    <li><a href="#bibliografia-consultada">Bibliografia consultada</a></li>
+    <li><a href="#como-este-texto-foi-feito">Como este texto foi feito</a></li>
+</ol></nav>
+<h1 class="art-title">O boro, explicado do zero</h1>
+<h2 id="antes-de-começar">Antes de começar</h2>
+<p>Este artigo explica o boro para quem <strong>nunca estudou química</strong>. Não vou supor que você saiba o que é um elemento, um sal, uma fórmula ou um limite legal. Quando um termo técnico aparecer, ele será explicado na hora.</p>
+<p>Há duas promessas.</p>
+<p>A primeira: <strong>vou dizer quando não sei.</strong> O boro é um assunto onde é fácil escrever frases impressionantes e falsas.</p>
+<p>A segunda: <strong>toda afirmação tem procedência.</strong> Cada número ou conclusão vem marcado com um número entre colchetes — <code><a class="cite" href="#ref-3">[3]</a></code>, <code><a class="cite" href="#ref-7">[7]</a></code> — que remete à bibliografia ao final. Ali está dito o que cada obra é, quem publicou, em que ano, e o que ela <strong>não</strong> permite concluir. Se uma frase não tem referência, ela é organização deste texto, não achado de fonte.</p>
+<p>Vou separar sempre três coisas:</p>
+<ul><li><strong>o que está medido</strong> — alguém mediu, com método e número;</li><li><strong>o que é interpretação</strong> — alguém concluiu a partir do medido;</li><li><strong>o que é desconhecido</strong> — ninguém mediu ainda.</li></ul>
+<p>Se no fim você souber distinguir essas três, o artigo cumpriu o objetivo.</p>
+<hr class="sep">
+<h2 id="1-o-que-é-um-elemento-químico">1. O que é um "elemento químico"</h2>
+<p>Um <strong>átomo</strong> é a menor porção de matéria que ainda é aquela substância. Um <strong>elemento</strong> é um tipo de átomo — definido pelo número de prótons no núcleo.</p>
+<p>O boro é o elemento de <strong>número atômico 5</strong>: todo átomo com 5 prótons é boro, e nada mais é. Sua massa atômica é <strong>10,811</strong> — o número que aparece na tabela periódica e que diz, na prática, quanto um átomo pesa em relação ao hidrogênio <a class="cite" href="#ref-10">[10]</a>.</p>
+<p>Isso já resolve a confusão número um: <strong>o boro não é uma substância que se compra.</strong> O que existe no comércio são <strong>compostos</strong> que contêm boro. É como a diferença entre o ferro (elemento) e o prego (objeto feito de ferro).</p>
+<p><strong>A conta que ninguém faz.</strong> Quando alguém diz "use 10 gramas de boro", o que se pesa na balança é um pó branco — ácido bórico, bórax ou outra coisa. O ácido bórico tem <strong>17,5% de boro em massa</strong> <a class="cite" href="#ref-10">[10]</a>. Então:</p>
+<blockquote>1 kg de ácido bórico contém 175 g de boro. Quem pesa "10 g de boro" em ácido bórico está pondo <strong>1,75 g de boro</strong> — quase seis vezes menos.</blockquote>
+<p>O contrário também vale: para obter 10 g de boro seriam necessários cerca de 57 g de ácido bórico. Essa confusão entre <strong>elemento</strong> e <strong>produto</strong> é a origem de metade dos números errados que circulam sobre boro.</p>
+<h2 id="2-três-nomes-que-confundem">2. Três nomes que confundem</h2>
+<div class="tabwrap"><table><thead><tr><th>Nome</th><th>Fórmula</th><th>Boro na massa</th><th>O que é</th></tr></thead><tbody>
+<tr><td data-l="Nome"><strong>Boro</strong></td><td data-l="Fórmula">B</td><td data-l="Boro na massa">100%</td><td data-l="O que é">o elemento</td></tr>
+<tr><td data-l="Nome"><strong>Ácido bórico</strong></td><td data-l="Fórmula">H₃BO₃</td><td data-l="Boro na massa"><strong>17,5%</strong></td><td data-l="O que é">pó branco, antifúngico suave</td></tr>
+<tr><td data-l="Nome"><strong>Bórax</strong> (decahidratado)</td><td data-l="Fórmula">Na₂B₄O₇·10H₂O</td><td data-l="Boro na massa"><strong>11,3%</strong></td><td data-l="O que é">sal, detergente, fundente</td></tr>
+<tr><td data-l="Nome"><strong>Bórax anidro</strong></td><td data-l="Fórmula">Na₂B₄O₇</td><td data-l="Boro na massa"><strong>21,5%</strong></td><td data-l="O que é">o mesmo sal, sem água</td></tr>
+<tr><td data-l="Nome"><strong>Pentaborato de sódio</strong></td><td data-l="Fórmula">NaB₅O₈·4H₂O</td><td data-l="Boro na massa">~<strong>21,0%</strong></td><td data-l="O que é">usado em tratamento de bambu</td></tr>
+<tr><td data-l="Nome"><strong>Pentahidratado</strong></td><td data-l="Fórmula">Na₂B₄O₇·5H₂O</td><td data-l="Boro na massa">~<strong>14,9%</strong></td><td data-l="O que é">o mesmo sal, menos água</td></tr>
+<tr><td data-l="Nome"><strong>Colemanita</strong></td><td data-l="Fórmula">Ca₂B₆O₁₁·5H₂O</td><td data-l="Boro na massa">~<strong>15,8%</strong></td><td data-l="O que é">minério</td></tr>
+<tr><td data-l="Nome"><strong>Ulexita</strong></td><td data-l="Fórmula">NaCaB₅O₉·8H₂O</td><td data-l="Boro na massa">~<strong>13,3%</strong></td><td data-l="O que é">minério</td></tr>
+</tbody></table></div>
+<p><strong>"Hidratado" e "anidro"</strong> — a única diferença é água presa na estrutura do cristal. O bórax decahidratado carrega dez moléculas de água por fórmula; o anidro, nenhuma. Isso muda tudo na conta: <strong>o mesmo peso rende quase o dobro de boro</strong> no anidro.</p>
+<p><strong>"Bórax" e "ácido bórico" não são sinônimos.</strong> O bórax é sal de sódio; o ácido bórico é um ácido fraco. Em tratamento de bambu os dois são usados <strong>juntos</strong>, e a mistura tem comportamento próprio <a class="cite" href="#ref-11">[11]</a>.</p>
+<h2 id="3-de-onde-o-boro-veio">3. De onde o boro veio</h2>
+<p>O boro não foi descoberto por químicos de laboratório. Ele chegou pela <strong>luz</strong>.</p>
+<p>Em 1808, Humphry Davy isolou o elemento por eletrólise. Mas o nome vem de antes: do <strong>bórax</strong>, o sal branco que já circulava havia séculos pela Rota da Seda, extraído de leitos secos na Ásia. Os árabes o chamavam <em>buraq</em>; os latinos, <em>borax</em>. A palavra "boro" é a forma abreviada.</p>
+<p>Três séculos antes disso, oleiros da China usavam o mesmo sal como <strong>fundente</strong> — substância que baixa a temperatura de fusão do vidro. É uma das aplicações mais antigas que se conhece, e continua sendo a maior: <strong>mais de três quartos do consumo mundial</strong> vai para cerâmicas, detergentes, fertilizantes e vidro <a class="cite" href="#ref-3">[3]</a>.</p>
+<h2 id="4-onde-o-boro-está-de-verdade">4. Onde o boro está de verdade</h2>
+<p>O boro nunca aparece isolado na natureza. Ele se combina com oxigênio e forma <strong>boratos</strong> — e a indústria cota seus produtos por <strong>teor de óxido bórico (B₂O₃)</strong>, não por boro puro <a class="cite" href="#ref-3">[3]</a>.</p>
+<p><strong>Quatro minerais respondem por 90%</strong> do que a indústria usa: <strong>colemanita, kernita, tincal e ulexita</strong> <a class="cite" href="#ref-3">[3]</a>.</p>
+<p>As maiores jazidas economicamente viáveis estão em três faixas, segundo o serviço geológico dos Estados Unidos:</p>
+<ol><li>o <strong>deserto de Mojave</strong>, nos Estados Unidos;</li><li>o <strong>cinturão Alpide</strong>, na margem sul da Eurásia — onde está a Turquia;</li><li>o <strong>cinturão Andino</strong>, na América do Sul <a class="cite" href="#ref-3">[3]</a>.</li></ol>
+<p>Esses depósitos se associam a <strong>atividade vulcânica antiga e climas áridos</strong>. É um padrão observado nas jazidas conhecidas — não uma lei da natureza que impeça boro em outros lugares.</p>
+<div class="tabwrap"><table><thead><tr><th>País</th><th>Produção 2025 (kt)</th><th>Reservas (kt)</th></tr></thead><tbody>
+<tr><td data-l="País"><strong>Turquia</strong> (boratos refinados)</td><td data-l="Produção 2025 (kt)"><strong>1.500</strong></td><td data-l="Reservas (kt)"><strong>950.000</strong></td></tr>
+<tr><td data-l="País">Rússia (datolita)</td><td data-l="Produção 2025 (kt)">80</td><td data-l="Reservas (kt)">40.000</td></tr>
+<tr><td data-l="País">Estados Unidos</td><td data-l="Produção 2025 (kt)"><em>omitido</em></td><td data-l="Reservas (kt)">48.000</td></tr>
+<tr><td data-l="País">Chile (ulexita)</td><td data-l="Produção 2025 (kt)">300</td><td data-l="Reservas (kt)">35.000</td></tr>
+<tr><td data-l="País">China (equivalente B₂O₃)</td><td data-l="Produção 2025 (kt)">230</td><td data-l="Reservas (kt)">9.100</td></tr>
+<tr><td data-l="País">Peru (boratos brutos)</td><td data-l="Produção 2025 (kt)">220</td><td data-l="Reservas (kt)">4.000</td></tr>
+<tr><td data-l="País">Bolívia (ulexita)</td><td data-l="Produção 2025 (kt)">380</td><td data-l="Reservas (kt)">—</td></tr>
+<tr><td data-l="País">Argentina (minério bruto)</td><td data-l="Produção 2025 (kt)">170</td><td data-l="Reservas (kt)">—</td></tr>
+</tbody></table></div>
+<p><a class="cite" href="#ref-3">[3]</a></p>
+<p><strong>O detalhe mais importante desta tabela é o que falta nela.</strong> O USGS <strong>não calcula total mundial</strong>, porque cada país reporta uma forma diferente de boro — minério bruto, ulexita, equivalente B₂O₃, compostos. <strong>Os números não se somam.</strong> Dizer que "a Turquia tem 87% do boro do mundo" é falso: 950.000 dividido pela soma dos listados dá 87,5% do que a <strong>tabela declara</strong>, não das reservas do planeta.</p>
+<p>E o USGS registra: "aos níveis atuais de consumo, <strong>os recursos mundiais são adequados para o futuro previsível</strong>" <a class="cite" href="#ref-3">[3]</a>. Não há escassez de boro. Há concentração de fornecedor.</p>
+<h2 id="5-a-dependência-brasileira">5. A dependência brasileira</h2>
+<p>O Brasil não produz boro. Em 2024, o país importou <strong>459,7 mil toneladas</strong>, no valor de <strong>US$ 209,5 milhões</strong>, somando os dez códigos aduaneiros de minerais e químicos de boro <a class="cite" href="#ref-4">[4]</a>.</p>
+<div class="tabwrap"><table><thead><tr><th>Origem</th><th>Participação</th><th>Toneladas</th></tr></thead><tbody>
+<tr><td data-l="Origem"><strong>Bolívia</strong></td><td data-l="Participação"><strong>43,7%</strong></td><td data-l="Toneladas">200,7 mil</td></tr>
+<tr><td data-l="Origem"><strong>Argentina</strong></td><td data-l="Participação"><strong>25,4%</strong></td><td data-l="Toneladas">116,9 mil</td></tr>
+<tr><td data-l="Origem"><strong>Chile</strong></td><td data-l="Participação"><strong>14,7%</strong></td><td data-l="Toneladas">67,6 mil</td></tr>
+<tr><td data-l="Origem"><strong>Turquia</strong></td><td data-l="Participação"><strong>8,3%</strong></td><td data-l="Toneladas">38,0 mil</td></tr>
+<tr><td data-l="Origem">Estados Unidos</td><td data-l="Participação">4,5%</td><td data-l="Toneladas">20,9 mil</td></tr>
+<tr><td data-l="Origem">Guatemala</td><td data-l="Participação">2,1%</td><td data-l="Toneladas">9,7 mil</td></tr>
+<tr><td data-l="Origem">Peru</td><td data-l="Participação">1,2%</td><td data-l="Toneladas">5,3 mil</td></tr>
+</tbody></table></div>
+<p><a class="cite" href="#ref-4">[4]</a></p>
+<p><strong>84,9% vêm da América do Sul</strong> — o que parece conforto logístico, mas é o oposto: são os minerais do cinturão Andino, e dependem de três países apenas. <strong>Bolívia, Argentina e Chile somam 83,8%</strong> do total. A Turquia, que detém as maiores reservas do mundo, fornece <strong>8,3%</strong>.</p>
+<p>Pela ótica do USGS, os Estados Unidos importam <strong>90% de todo o boro da Turquia</strong> <a class="cite" href="#ref-3">[3]</a>. Duas economias grandes, dois fornecedores concentrados diferentes — e nenhuma das duas com alternativa imediata à vista.</p>
+<p><strong>Como estes números foram obtidos.</strong> O ComexStat não tem um código único para "boro". A soma correta exige reunir dez NCMs: boratos naturais (2528), ácido ortobórico (2810.00.10), óxidos de boro (2810.00.90), boro elementar (2804.50.00), tetraborato dissódico anidro e outros (2840.11 e 2840.19), outros boratos (2840.20), perboratos (2840.30), carbonetos (2849.90.10) e nitreto de boro (2850.00.10). <strong>Somar só o 2528 dá 328 mil toneladas e superestima a dependência sul-americana para 94,9%; somar só o ácido ortobórico dá 82,5 mil toneladas.</strong> O número de 459,7 mil toneladas é o do conjunto completo.</p>
+<hr class="sep">
+<h2 id="6-faz-bem-ou-faz-mal">6. Faz bem ou faz mal?</h2>
+<p>Esta é a pergunta que quase todo mundo faz, e a resposta exige uma ferramenta nova: a diferença entre <strong>dose</strong> e <strong>perigo</strong>.</p>
+<p>Toda substância tem uma dose em que não faz nada e uma dose em que faz mal. Água pura mata se você beber o suficiente. A pergunta correta nunca é "é tóxico?" — é <strong>"em que quantidade, por qual via, por quanto tempo?"</strong></p>
+<p>Para o boro, existe uma resposta oficial a três perguntas diferentes.</p>
+<p><strong>Primeira: o corpo humano precisa de boro?</strong> Não, segundo o NIH. O texto é direto: "o boro <strong>não é classificado como nutriente essencial para humanos</strong>", porque a pesquisa "ainda não identificou uma função biológica clara" <a class="cite" href="#ref-8">[8]</a>. Os comitês americanos consideraram os dados <strong>insuficientes</strong> para estabelecer dose recomendada, ingestão adequada ou necessidade média <a class="cite" href="#ref-8">[8]</a>.</p>
+<p><strong>Isso não é o mesmo que dizer que o boro é inútil.</strong> Há indícios de efeitos em reprodução e formação óssea — mas indícios, não essencialidade <a class="cite" href="#ref-8">[8]</a>. E há uma confusão comum que vale desfazer: <strong>o boro é essencial para plantas</strong> (componente da parede celular, necessário ao crescimento e à polinização) <a class="cite" href="#ref-8">[8]</a>. Para plantas, sim; para humanos, não é assim classificado.</p>
+<p><strong>Segunda: quanto é demais?</strong> O NIH fixa um <strong>limite superior (UL)</strong> — o valor acima do qual o risco aumenta — por faixa etária <a class="cite" href="#ref-8">[8]</a>:</p>
+<div class="tabwrap"><table><thead><tr><th>Faixa</th><th>Limite superior (mg de boro/dia)</th></tr></thead><tbody>
+<tr><td data-l="Faixa">1–3 anos</td><td data-l="Limite superior (mg de boro/dia)"><strong>3</strong></td></tr>
+<tr><td data-l="Faixa">4–8 anos</td><td data-l="Limite superior (mg de boro/dia)"><strong>6</strong></td></tr>
+<tr><td data-l="Faixa">9–13 anos</td><td data-l="Limite superior (mg de boro/dia)"><strong>11</strong></td></tr>
+<tr><td data-l="Faixa">14–18 anos</td><td data-l="Limite superior (mg de boro/dia)"><strong>17</strong></td></tr>
+<tr><td data-l="Faixa"><strong>19+ anos</strong></td><td data-l="Limite superior (mg de boro/dia)"><strong>20</strong></td></tr>
+</tbody></table></div>
+<p>Suplementos costumam trazer de <strong>0,15 a 6 mg</strong> de boro elementar <a class="cite" href="#ref-8">[8]</a> — abaixo do limite. A dose fatal estimada para um adulto é de <strong>15.000 a 20.000 mg</strong> <a class="cite" href="#ref-8">[8]</a>, uma ordem de grandeza distante do uso doméstico.</p>
+<p><strong>Terceira: qual é o efeito mais sensível?</strong> Aqui a resposta muda de natureza, e é a parte que quase nunca se explica.</p>
+<h2 id="7-o-que-a-ciência-diz-e-o-que-ela-não-diz">7. O que a ciência diz — e o que ela não diz</h2>
+<p>O efeito crítico do boro, em todas as réguas oficiais, é a <strong>toxicidade para o desenvolvimento</strong>: efeito sobre o crescimento e a formação do feto.</p>
+<p><strong>A cadeia da água de consumo.</strong> A Organização Mundial da Saúde construiu sua diretriz em seis passos <a class="cite" href="#ref-1">[1]</a>:</p>
+<ol><li>Em ratos, a dose mais baixa com efeito observável sobre o <strong>peso fetal</strong> foi de <strong>10,3 mg por quilo de peso corporal por dia</strong> — o chamado BMDL₀₅.</li><li>Para transformar dado de rato em limite humano, aplica-se um <strong>fator de incerteza</strong>. Aqui o fator é <strong>60</strong>, e ele não é um número mágico: decompõe-se em <strong>10</strong> (diferença entre espécies) × <strong>6</strong> (diferença entre pessoas).</li><li>Esse 6, por sua vez, é <strong>1,8 × 3,2</strong>. O <strong>1,8</strong> vem da diferença de filtração glomerular entre humanos e ratos (144 contra 80 mL/min) — um dado medido. O <strong>3,2</strong> é <strong>padrão</strong>, aplicado por falta de dados <a class="cite" href="#ref-1">[1]</a>.</li><li>Chega-se a uma <strong>ingestão diária tolerável de 0,17 mg/kg/dia</strong> — arredondada para 0,2 <a class="cite" href="#ref-1">[1]</a>.</li><li>Aloca-se <strong>40%</strong> dessa dose à água de consumo, porque água não é a única fonte <a class="cite" href="#ref-1">[1]</a>.</li><li>Para um adulto de 60 kg que bebe 2 litros por dia, o resultado é <strong>2,4 mg/L</strong> <a class="cite" href="#ref-1">[1]</a>.</li></ol>
+<blockquote><strong>O que "2,4 mg/L" quer dizer na prática:</strong> é a concentração na água que, bebida 2 litros por dia durante toda a vida, mantém a exposição abaixo do nível tolerável. Não é a dose que faz mal. É a dose com margem de segurança embutida.</blockquote>
+<p><strong>E 2,4 mg/L não é um teto invariável.</strong> A própria OMS diz que, em abastecimentos por <strong>dessalinização</strong> e em áreas onde o boro é naturalmente alto na geologia, as autoridades "should consider a value in excess of 2.4 mg/l" <a class="cite" href="#ref-1">[1]</a>. O valor é ponto de partida, não dogma.</p>
+<p>A OMS também registra que <strong>a maior parte do mundo tem água abaixo de 0,5 mg/L</strong> <a class="cite" href="#ref-2">[2]</a> — ou seja, a maioria das pessoas está muito longe do limite. E onde há valores altos por natureza, a causa é <strong>geológica</strong>: a OMS descreve essas ocorrências como "indicative of boron-rich deposits" <a class="cite" href="#ref-2">[2]</a>, sem excluir outras origens.</p>
+<h2 id="8-a-régua-do-remédio-e-a-régua-da-farmácia">8. A régua do remédio e a régua da farmácia</h2>
+<p><strong>Medicamento.</strong> A Agência Europeia de Medicamentos calculou quanto boro uma pessoa pode receber por dia <strong>tomando remédio que o contenha como excipiente</strong> — a substância neutra que dá corpo ao comprimido <a class="cite" href="#ref-5">[5]</a>:</p>
+<div class="tabwrap"><table><thead><tr><th>Idade</th><th>Exposição diária permitida (mg de boro/dia)</th></tr></thead><tbody>
+<tr><td data-l="Idade">0–2 anos</td><td data-l="Exposição diária permitida (mg de boro/dia)"><strong>1</strong></td></tr>
+<tr><td data-l="Idade">2–12 anos</td><td data-l="Exposição diária permitida (mg de boro/dia)"><strong>3</strong></td></tr>
+<tr><td data-l="Idade">12–18 anos</td><td data-l="Exposição diária permitida (mg de boro/dia)"><strong>7</strong></td></tr>
+<tr><td data-l="Idade">mais de 18 anos</td><td data-l="Exposição diária permitida (mg de boro/dia)"><strong>10</strong></td></tr>
+</tbody></table></div>
+<p>Note que é <strong>boro elementar</strong>, não ácido bórico: 10 mg de boro equivalem a cerca de <strong>57 mg de ácido bórico</strong> <a class="cite" href="#ref-5">[5]</a>.</p>
+<p>E o EMA registra um dado importante: <strong>mais de 90% do ácido bórico administrado é excretado na urina</strong>, independentemente da via <a class="cite" href="#ref-5">[5]</a>. O corpo se livra rápido — o que limita o acúmulo, mas não elimina o efeito sobre o desenvolvimento.</p>
+<p><strong>Farmácia brasileira.</strong> A água boricada a 3% é <strong>antisséptico, bacteriostático e fungistático</strong> — ou seja, impede a multiplicação de bactérias e fungos, sem necessariamente matá-los <a class="cite" href="#ref-6">[6]</a>.</p>
+<p>A norma da ANVISA exige teor de <strong>2,900% a 3,200%</strong> de ácido bórico e <strong>pH entre 3,8 e 4,8</strong> <a class="cite" href="#ref-6">[6]</a>. E traz três restrições explícitas:</p>
+<ol><li><strong>"Não poderá ser aplicado em grandes áreas do corpo, quando existirem lesões de qualquer tipo, feridas ou queimaduras"</strong>;</li><li><strong>"Produto de uso exclusivo em adultos. O uso em crianças representa risco à saúde"</strong>;</li><li><strong>"Não ingerir"</strong> <a class="cite" href="#ref-6">[6]</a>.</li></ol>
+<p><strong>Por que a restrição de área tem lógica.</strong> Pele com lesão absorve muito mais que pele íntegra. Aplicar em ferida extensa é, em parte, abrir uma via de entrada para a circulação. "Uso tópico" não significa "sem absorção".</p>
+<p><strong>Por que a restrição infantil é coerente.</strong> O efeito crítico do boro é sobre o desenvolvimento <a class="cite" href="#ref-1">[1]</a><a class="cite" href="#ref-5">[5]</a><a class="cite" href="#ref-7">[7]</a>. A norma brasileira chega à mesma conclusão <strong>pela prática clínica</strong>, antes de qualquer discussão de mecanismo <a class="cite" href="#ref-6">[6]</a>.</p>
+<h2 id="9-o-boro-é-cancerígeno">9. O boro é cancerígeno?</h2>
+<p>Esta é a pergunta onde quase todo texto erra — para os dois lados.</p>
+<p>A União Europeia classifica, no regulamento CLP, <strong>quatro entradas</strong> de boro como <strong>Repr. 1B, H360FD</strong> <a class="cite" href="#ref-9">[9]</a>:</p>
+<ul><li>ácido bórico (CAS 10043-35-3)</li><li>trióxido de diboro (CAS 1303-86-2)</li><li>tetraborato de dissódio anidro, decahidratado e pentahidratado (1330-43-4, 1303-96-4, 12179-04-3)</li></ul>
+<p><strong>Traduzindo.</strong> <strong>Repr. 1B</strong> significa "reconhecidamente tóxico para a reprodução humana" — presunção forte, baseada sobretudo em dados de animais. <strong>H360FD</strong> desdobra-se em duas frases:</p>
+<ul><li><strong>H360F</strong> — "Pode prejudicar a fertilidade";</li><li><strong>H360D</strong> — "Pode prejudicar o feto" <a class="cite" href="#ref-9">[9]</a>.</li></ul>
+<p>E aqui está a distinção que resolve a confusão: <strong>toxicidade reprodutiva não é carcinogenicidade.</strong> São categorias diferentes, com desfechos diferentes.</p>
+<ul><li><strong>Carc.</strong> = pode causar câncer. <strong>O boro não está classificado assim</strong> <a class="cite" href="#ref-9">[9]</a>.</li><li><strong>Repr.</strong> = pode prejudicar a fertilidade ou o feto. <strong>É aqui que o boro está</strong> <a class="cite" href="#ref-9">[9]</a>.</li></ul>
+<p>Portanto:</p>
+<blockquote>Dizer que o boro "é cancerígeno" <strong>contraria a norma</strong>. Dizer que ele "é seguro porque não é cancerígeno" <strong>contraria a norma igualmente</strong> — ignora a classificação que existe.</blockquote>
+<p><strong>Um cuidado com datas.</strong> Documentos de 2021 ainda citam "Repr. cat. 2" <a class="cite" href="#ref-5">[5]</a> — o enquadramento anterior. O regulamento de 2023 substituiu as entradas e elevou a classificação, com efeito a partir de <strong>1º de fevereiro de 2025</strong> <a class="cite" href="#ref-9">[9]</a>. Quem cita "cat. 2" está citando o estado anterior à norma vigente.</p>
+<hr class="sep">
+<h2 id="10-o-bambu-e-o-boro">10. O bambu e o boro</h2>
+<p>O bambu é uma gramínea gigante. Sua vantagem é crescer rápido: em três a cinco anos um colmo atinge o diâmetro e a altura de um colmo maduro <a class="cite" href="#ref-3">[3]</a>. Sua fraqueza é o <strong>amido</strong> dentro da parede.</p>
+<p><strong>Besouros e cupins comem amido.</strong> O besouro-de-pólvora põe ovos dentro do colmo; as larvas comem o interior e saem, deixando furos de 1 a 2 mm <a class="cite" href="#ref-13">[13]</a>. O cupim também. E o fungo só precisa de umidade acima de <strong>20%</strong> de teor de água para apodrecer o colmo <a class="cite" href="#ref-13">[13]</a>.</p>
+<p>O boro resolve isso de um jeito simples: <strong>ele atravessa o colmo e torna o amido inaproveitável</strong>. Não é veneno que mata o inseto — é comida que deixa de ser comida.</p>
+<p><strong>Onde essa prática nasceu.</strong> O tratamento com boro foi identificado em <strong>Bali</strong>, e duas pessoas estão na origem documentada: a arquiteta <strong>Linda Garland</strong>, que fundou a Environmental Bamboo Foundation e fez a pesquisa de proteção contra o besouro por imersão em sais de borato <a class="cite" href="#ref-14">[14]</a>, e o cientista alemão <strong>Walter Liese</strong>, da Universidade de Hamburgo, que trabalhou com ela e é a maior autoridade em biologia do bambu <a class="cite" href="#ref-12">[12]</a><a class="cite" href="#ref-14">[14]</a>.</p>
+<p><strong>Quem difundiu.</strong> O maior difusor da técnica é o construtor e arquiteto alemão <strong>Jörg Stamm</strong>. Ele consta como <strong>consultor de bambu</strong> na obra da Green School, em Bali, e assina projetos com IBUKU e Atelier One, incluindo o Arc <a class="cite" href="#ref-15">[15]</a>. O método que ele descreve é de imersão: os colmos são perfurados de ponta a ponta e ficam na solução por duas semanas, ou são fervidos em câmara por 24 horas <a class="cite" href="#ref-15">[15]</a>.</p>
+<p><strong>Onde a técnica é ensinada.</strong> A Green School virou vitrine: recebe cursos de introdução ao bambu e mantém uma cadeia de ofício própria. Não é exagero dizer que boa parte dos construtores em bambu do mundo passou por ali.</p>
+<p><strong>O tratamento, em números.</strong> Um estudo brasileiro mediu a retenção de boro em <em>Dendrocalamus asper</em>: <strong>14,79 kg/m³</strong> com solução a 5% e <strong>21,79 kg/m³</strong> com solução a 8% — acima das recomendações americana (2,7 kg/m³) e indiana (5 kg/m³) para uso interno <a class="cite" href="#ref-16">[16]</a>.</p>
+<p><strong>E o limite do boro.</strong> Ele é <strong>hidrossolúvel</strong>: sai do colmo em contato com água. Por isso o bambu tratado só serve <strong>sob cobertura</strong>, e por isso o desenho arquitetônico importa tanto quanto a química. A tabela abaixo é a mais dura do assunto <a class="cite" href="#ref-13">[13]</a>:</p>
+<div class="tabwrap"><table><thead><tr><th>Situação</th><th>Sem tratamento</th><th>Com boro</th></tr></thead><tbody>
+<tr><td data-l="Situação"><strong>interno</strong></td><td data-l="Sem tratamento">2–6 anos</td><td data-l="Com boro"><strong>30+ anos</strong></td></tr>
+<tr><td data-l="Situação"><strong>externo, acima do solo</strong></td><td data-l="Sem tratamento">0,5–4 anos</td><td data-l="Com boro"><strong>2–15 anos</strong></td></tr>
+<tr><td data-l="Situação"><strong>externo, em contato com o solo</strong></td><td data-l="Sem tratamento">menos de 0,5 ano</td><td data-l="Com boro"><strong>menos de 1 ano</strong></td></tr>
+</tbody></table></div>
+<p>A última linha é a que importa: <strong>boro não resolve contato com solo.</strong> É por isso que a Green School apoia os colmos em pedra de rio, longe do chão.</p>
+<h2 id="11-a-manutenção-o-que-a-green-school-faz-de-fato">11. A manutenção: o que a Green School faz de fato</h2>
+<p>Um edifício de bambu não é "construído e esquecido". Ele é <strong>projetado para ser mantido</strong>. O relatório de avaliação da Green School, de 2010, registra os ciclos em anos <a class="cite" href="#ref-17">[17]</a>:</p>
+<div class="tabwrap"><table><thead><tr><th>Componente</th><th>Ciclo declarado</th></tr></thead><tbody>
+<tr><td data-l="Componente"><strong>telhado de alang-alang</strong> (palha local)</td><td data-l="Ciclo declarado"><strong>6 a 10 anos</strong></td></tr>
+<tr><td data-l="Componente"><strong>bambu estrutural</strong></td><td data-l="Ciclo declarado"><strong>20 anos</strong>, por estimativa conservadora</td></tr>
+</tbody></table></div>
+<p>E o tratamento inicial é um <strong>banho de composto orgânico de borax com imersão de 4 a 6 semanas</strong> <a class="cite" href="#ref-17">[17]</a>.</p>
+<p><strong>O que o documento diz sobre manutenção:</strong> <em>"os exames visuais realizados por engenheiros estruturais, revisando as juntas estruturais principais em todo o campus, garantirão uma abordagem proativa de manutenção"</em> <a class="cite" href="#ref-17">[17]</a>. Não há periodicidade declarada para essa vistoria.</p>
+<p><strong>O que o construtor diz.</strong> O FAQ do IBUKU é ainda mais específico <a class="cite" href="#ref-18">[18]</a>:</p>
+<ul><li>o bambu <strong>"deve ser tratado uma única vez, antes do início da construção; tratamentos adicionais contra insetos não são necessários"</strong>;</li><li>o telhado precisa ser mantido para proteger as colunas;</li><li><strong>"a revisão de juntas a cada poucos anos"</strong> confirma que permanecem seguras;</li><li><strong>"recobrir o bambu estrutural e de interior a cada 2 a 4 anos"</strong> melhora aparência e durabilidade;</li><li><strong>"a manutenção de longo prazo é principalmente cosmética"</strong>.</li></ul>
+<p><strong>A conclusão que os dois documentos sustentam:</strong> a manutenção da Green School é de <strong>reposição e recobrimento</strong>, não de reaplicação de boro. Quem imagina um mutirão periódico aplicando boro em serviço está descrevendo algo que <strong>as fontes não documentam</strong>.</p>
+<p><strong>O verniz do Arc.</strong> A estrutura mais recente, o Arc (2021), exige recobrimento de verniz protetor contra radiação ultravioleta <strong>a cada 2 anos, por toda a vida da obra</strong> <a class="cite" href="#ref-15">[15]</a>.</p>
+<h2 id="12-o-resíduo-onde-o-boro-muda-de-natureza">12. O resíduo: onde o boro muda de natureza</h2>
+<p>Até aqui o boro foi solução. Esta seção é sobre o que ele se torna depois.</p>
+<p><strong>O número que costuma ser mal lido.</strong> Um estudo de avaliação de ciclo de vida mediu a produção artesanal de colmo de <em>Guadua angustifolia</em> no Brasil <a class="cite" href="#ref-19">[19]</a>. O resultado divulgado é que <strong>93%</strong> do impacto ambiental potencial está na categoria de <strong>toxicidade humana</strong>. Isso circula por aí como "93% de chance de câncer". <strong>Não é isso.</strong> É um <strong>indicador calculado</strong> de impacto potencial dentro de um método específico — não uma incidência de doença.</p>
+<p><strong>O achado real está no detalhamento</strong>: <strong>91% desse impacto vem dos resíduos contaminados</strong>, não do banho. Ou seja: o problema não é a hora em que o bambu entra na tina — é o que sai dela.</p>
+<p><strong>O que o estudo mede, por quilo de colmo produzido</strong> <a class="cite" href="#ref-19">[19]</a>:</p>
+<div class="tabwrap"><table><thead><tr><th>Item</th><th>Quantidade</th></tr></thead><tbody>
+<tr><td data-l="Item">resíduo gerado</td><td data-l="Quantidade"><strong>0,20 kg</strong></td></tr>
+<tr><td data-l="Item">colmo produzido</td><td data-l="Quantidade"><strong>0,13 kg</strong></td></tr>
+<tr><td data-l="Item">efluente</td><td data-l="Quantidade"><strong>0,07 L</strong></td></tr>
+<tr><td data-l="Item">perda no processo</td><td data-l="Quantidade"><strong>25%</strong></td></tr>
+<tr><td data-l="Item">colmos descartados</td><td data-l="Quantidade">~<strong>13%</strong></td></tr>
+<tr><td data-l="Item">água que vai ao solo</td><td data-l="Quantidade">~<strong>10%</strong></td></tr>
+</tbody></table></div>
+<p>E a receita do banho: <strong>100 litros de água + 5 kg de bórax + 5 kg de ácido bórico</strong> <a class="cite" href="#ref-19">[19]</a>. Isso dá uma solução a 10% — dez vezes mais concentrada que a água boricada de farmácia.</p>
+<p><strong>Agora o problema normativo.</strong> Em 2012, um estudo brasileiro testou postes e mourões de madeira fora de serviço, tratados com <strong>CCA</strong> (arseniato de cobre cromatado) e depois retratados com <strong>boro/flúor</strong> <a class="cite" href="#ref-11">[11]</a>. O resultado:</p>
+<div class="tabwrap"><table><thead><tr><th>Resíduo</th><th>Elemento que estourou o limite</th><th>Classificação</th></tr></thead><tbody>
+<tr><td data-l="Resíduo"><strong>madeira com CCA</strong></td><td data-l="Elemento que estourou o limite"><strong>arsênio</strong> (2,7 a 9,2 mg/L; limite 1,0)</td><td data-l="Classificação"><strong>Classe I — perigoso</strong></td></tr>
+<tr><td data-l="Resíduo"><strong>madeira com boro/flúor</strong></td><td data-l="Elemento que estourou o limite"><strong>flúor</strong>, não boro</td><td data-l="Classificação">Classe II-A — não inerte</td></tr>
+</tbody></table></div>
+<p><strong>O boro não aparece na classificação.</strong> E o motivo está no texto: a norma brasileira lista como perigoso apenas resíduo de preservação "contendo <strong>As ou Cr</strong>" <a class="cite" href="#ref-11">[11]</a>. O estudo declara que <strong>"não há registros na literatura"</strong> sobre o que a presença de boro faz no resíduo <a class="cite" href="#ref-11">[11]</a>.</p>
+<blockquote><strong>A distinção decisiva:</strong> entre <strong>"não é perigoso"</strong> e <strong>"não é vigiado"</strong>. O boro não está na lista da norma porque <strong>não foi avaliado</strong> — não porque foi julgado inofensivo.</blockquote>
+<p><strong>Isso se repete fora do Brasil.</strong> A norma chinesa <strong>GB/T 40245-2021</strong> define "madeira preservada residual perigosa" como a que contém <strong>cromo, arsênio, creosoto ou pentaclorofenol</strong> — boro não está na lista <a class="cite" href="#ref-20">[20]</a>. O INBAR, organização intergovernamental do bambu, publicou 36 páginas sobre economia circular do bambu: <strong>"boro" aparece zero vezes, "aterro" zero vezes</strong> <a class="cite" href="#ref-21">[21]</a>.</p>
+<p><strong>E o diagnóstico de campo é duro.</strong> Walter Liese, o maior nome da área, escreveu:</p>
+<blockquote><em>"Aterros comuns suportam apenas uma quantidade limitada de bambu envenenado. <strong>Aterros de descarte aprovados dificilmente existem ou são desconhecidos.</strong>"</em> <a class="cite" href="#ref-12">[12]</a></blockquote>
+<h2 id="13-as-estruturas-efêmeras">13. As estruturas efêmeras</h2>
+<p>Feiras, pavilhões, quiosques, cenografia, andaimes, casas temporárias. São estruturas feitas para durar <strong>poucos anos</strong> e depois desmontadas.</p>
+<p>Aqui o problema do boro fica mais agudo, por uma razão simples: <strong>estrutura efêmera não é falha de projeto — é projeto.</strong> O material foi escolhido para ser desmontado, e o que acontece ao desmontar não costuma estar no orçamento.</p>
+<p><strong>O maior fluxo documentado do mundo</strong> é o andaime de bambu de Hong Kong: <strong>mais de 50.000 toneladas por ano</strong> descartadas como resíduo de construção <a class="cite" href="#ref-22">[22]</a>. <em>(Atenção: esse número vem de artigo em paywall e não está custodiado nesta gaveta — serve como ordem de grandeza, não como dado verificado.)</em></p>
+<p><strong>E aqui está a torção.</strong> Fui verificar se esse bambu é tratado. <strong>Não é.</strong> As diretrizes do Buildings Department exigem apenas <strong>secagem ao ar, na vertical, em ambiente coberto, por ao menos 3 meses</strong> <a class="cite" href="#ref-23">[23]</a>. Nas 25 páginas da norma, as palavras <em>boro</em>, <em>borato</em>, <em>preservativo</em>, <em>químico</em> e <em>tratamento</em> aparecem <strong>zero vezes</strong> <a class="cite" href="#ref-23">[23]</a>.</p>
+<p><strong>A consequência é o argumento inteiro:</strong></p>
+<ul><li>o maior fluxo de bambu efêmero do planeta é de material <strong>não tratado</strong>;</li><li>logo, <strong>é biodegradável</strong> e tem cadeia de aproveitamento — há indústria de carvão ativado feita com esse resíduo <a class="cite" href="#ref-22">[22]</a>;</li><li><strong>o boro cria um fluxo que perde essa saída.</strong></li></ul>
+<p>O material tratado não volta ao solo sem discussão, não serve para aproveitamento sem restrição, e a queima é desaconselhada pelas fichas de segurança — ainda que a fonte registre que <strong>há divergência</strong> sobre o risco real dessa queima <a class="cite" href="#ref-13">[13]</a>. Divergência é pior que proibição: ninguém decide, e cada um faz o que pode.</p>
+<p><strong>O que falta no Brasil.</strong> Nenhum dado localizado quantifica o bambu tratado descartado no país. Nenhuma norma brasileira foi encontrada que trate o bambu tratado como fluxo próprio de resíduo. Isso é lacuna declarada, não afirmação de inexistência.</p>
+<h2 id="14-o-uso-doméstico-onde-este-artigo-vira-advertência">14. O uso doméstico: onde este artigo vira advertência</h2>
+<p>Existe uma receita que circula para tratar bambu em casa: comprar ácido bórico e bórax, misturar em água, deixar os colmos de molho alguns dias, secar ao sol.</p>
+<p><strong>O que a norma brasileira permite.</strong> Água boricada a 3%, como antisséptico tópico, em adultos, longe de feridas extensas, sem ingestão <a class="cite" href="#ref-6">[6]</a>.</p>
+<p><strong>O que ela não cobre:</strong> banho de preservação, imersão de colmos, descarte do efluente. Não existe autorização sanitária para o uso doméstico de boro como preservativo de madeira ou bambu.</p>
+<p><strong>Os quatro problemas concretos:</strong></p>
+<p><strong>1. A dose não é regulada.</strong> A solução de tratamento é a <strong>10%</strong> <a class="cite" href="#ref-19">[19]</a> — dez vezes a concentração da água boricada de farmácia <a class="cite" href="#ref-6">[6]</a>. Não há bula, não há frasco medidor, não há instrução.</p>
+<p><strong>2. A exposição não é medida.</strong> Nenhuma fonte localizada mede a exposição de quem faz o tratamento. Não há dado de pele, de inalação de pó, de respingos. <strong>Isso é lacuna, não ausência de risco.</strong></p>
+<p><strong>3. O resíduo não tem destino.</strong> O efluente do banho, as aparas e a serragem do bambu tratado não têm rota definida pela norma brasileira <a class="cite" href="#ref-11">[11]</a>. Na prática, vão para onde é mais fácil.</p>
+<p><strong>4. A queima é a saída provável — e é justamente a que as fichas desaconselham.</strong> Queimar aparas é o hábito; as fichas técnicas dizem que madeira tratada com boro não deve ser queimada, embora haja divergência sobre o risco <a class="cite" href="#ref-13">[13]</a>.</p>
+<p><strong>E o público mais exposto.</strong> O NIH registra que a <strong>maioria dos casos de ingestão acidental é em crianças menores de 6 anos</strong> <a class="cite" href="#ref-8">[8]</a>. A ANVISA proíbe o uso pediátrico justamente por isso <a class="cite" href="#ref-6">[6]</a>. Um galpão doméstico com pó branco em saco aberto é o cenário que as duas normas tentam evitar.</p>
+<p><strong>O que fazer em vez disso.</strong> Se você quer tratar bambu, a decisão honesta é entre: contratar tratamento em instalação com controle, ou <strong>não tratar</strong> e aceitar vida útil curta — 2 a 6 anos no interno, menos que isso no externo <a class="cite" href="#ref-13">[13]</a>. O meio-termo doméstico é o pior dos dois mundos: paga o custo do veneno e não colhe a garantia.</p>
+<h2 id="15-como-ler-qualquer-texto-sobre-boro">15. Como ler qualquer texto sobre boro</h2>
+<p>Se você chegou até aqui, já pode checar sozinho. Cinco perguntas resolvem quase tudo:</p>
+<p><strong>1. "Isso é boro ou é produto?"</strong> Se o número é em gramas ou mg/L e não diz a forma química, desconfie. 17,5% é a diferença entre 10 g de ácido bórico e 1,75 g de boro <a class="cite" href="#ref-10">[10]</a>.</p>
+<p><strong>2. "Isso é dose ou é concentração?"</strong> mg/kg/dia é dose por peso corporal; mg/L é concentração em líquido. Comparar um com o outro é erro de unidade, e é comum.</p>
+<p><strong>3. "Qual é a via?"</strong> Inalação, ingestão e pele absorvem de forma diferente e têm limites diferentes. Um limite ocupacional de poeira não serve para água.</p>
+<p><strong>4. "É medida ou calculada?"</strong> Os 93% do ciclo de vida são <strong>indicador calculado</strong>, não incidência <a class="cite" href="#ref-19">[19]</a>. É a confusão mais frequente do assunto.</p>
+<p><strong>5. "Reprodutivo ou cancerígeno?"</strong> O boro é <strong>Repr. 1B</strong>, não <strong>Carc.</strong> <a class="cite" href="#ref-9">[9]</a>. São categorias distintas e quem mistura as duas está errado nos dois sentidos.</p>
+<h2 id="16-resumo">16. Resumo</h2>
+<ul><li>O boro é o <strong>elemento de número atômico 5</strong>, massa <strong>10,811</strong>. O que se compra é composto: ácido bórico tem <strong>17,5%</strong> de boro, bórax decahidratado <strong>11,3%</strong> <a class="cite" href="#ref-10">[10]</a>.</li><li><strong>Não é nutriente essencial para humanos</strong> <a class="cite" href="#ref-8">[8]</a>. É essencial para plantas <a class="cite" href="#ref-8">[8]</a>.</li><li>O efeito crítico é a <strong>toxicidade para o desenvolvimento</strong> — peso fetal reduzido em animais <a class="cite" href="#ref-1">[1]</a><a class="cite" href="#ref-7">[7]</a>.</li><li>A diretriz da água é <strong>2,4 mg/L</strong>, derivada de BMDL₀₅ <strong>10,3 mg/kg/dia</strong> com fator <strong>60</strong> (10 × 1,8 × 3,2) e alocação de <strong>40%</strong> <a class="cite" href="#ref-1">[1]</a>. <strong>Não é teto invariável</strong> <a class="cite" href="#ref-1">[1]</a>.</li><li>Limite superior de <strong>20 mg/dia</strong> para adultos <a class="cite" href="#ref-8">[8]</a>.</li><li>A União Europeia classifica o boro como <strong>Repr. 1B, H360FD</strong> — reprodutivo, <strong>não cancerígeno</strong> <a class="cite" href="#ref-9">[9]</a>.</li><li>O Brasil importou <strong>459,7 mil toneladas</strong> em 2024, <strong>US$ 209,5 milhões</strong>; <strong>84,9%</strong> da América do Sul (Bolívia 43,7%, Argentina 25,4%, Chile 14,7%) e <strong>8,3%</strong> da Turquia <a class="cite" href="#ref-4">[4]</a>.</li><li>O boro trata bambu porque <strong>torna o amido inaproveitável</strong>, não porque mata inseto.</li><li><strong>Boro não resolve contato com solo</strong>: menos de 1 ano de vida útil <a class="cite" href="#ref-13">[13]</a>.</li><li>A manutenção da Green School é de <strong>reposição e recobrimento</strong>, não de reaplicação de boro <a class="cite" href="#ref-17">[17]</a><a class="cite" href="#ref-18">[18]</a>.</li><li>No ciclo de vida, <strong>91% do impacto vem dos resíduos</strong>, não do banho <a class="cite" href="#ref-19">[19]</a>.</li><li><strong>O boro não está na lista de resíduo perigoso</strong> de nenhuma norma examinada — porque <strong>não foi avaliado</strong>, não porque foi julgado seguro <a class="cite" href="#ref-11">[11]</a><a class="cite" href="#ref-20">[20]</a><a class="cite" href="#ref-21">[21]</a>.</li><li>O maior fluxo efêmero do mundo, <strong>50 mil t/ano</strong> em Hong Kong, é de bambu <strong>não tratado</strong> <a class="cite" href="#ref-22">[22]</a><a class="cite" href="#ref-23">[23]</a>.</li><li>O uso doméstico não tem base normativa e é o pior cenário de exposição <a class="cite" href="#ref-6">[6]</a><a class="cite" href="#ref-8">[8]</a>.</li></ul>
+<h2 id="17-o-que-este-artigo-não-sabe">17. O que este artigo não sabe</h2>
+<p>Declarar lacunas é parte do método. Estas são reais:</p>
+<ul><li><strong>Exposição ocupacional no Brasil.</strong> Nenhuma fonte mede trabalhador de bambu tratado.</li><li><strong>Poeira e serragem de bambu tratado.</strong> Zero dados no acervo.</li><li><strong>Destino real das aparas no Brasil.</strong> Não há rastreamento documentado.</li><li><strong>Volume de bambu tratado descartado.</strong> Nenhum dos cinco países examinados tem número — nem o Brasil.</li><li><strong>Mutirão periódico de manutenção</strong> com reaplicação de boro: as fontes descrevem manutenção cosmética, não reimpregnação <a class="cite" href="#ref-17">[17]</a><a class="cite" href="#ref-18">[18]</a>.</li><li><strong>A ligação direta entre Linda Garland e Walter Liese</strong> não foi confirmada em fonte primária nesta rodada.</li><li><strong>Quanta exposição um trabalhador de fábrica de bambu recebe</strong> — nenhuma medição localizada.</li></ul>
+<hr class="sep">
+<h2 id="glossário">Glossário</h2>
+<p><strong>Anidro</strong> — sem água na estrutura do cristal. O bórax anidro rende quase o dobro de boro do decahidratado, com o mesmo peso.</p>
+<p><strong>Antisséptico</strong> — produto que impede a multiplicação de microrganismos numa superfície viva. Diferente de desinfetante, que atua em superfície inanimada.</p>
+<p><strong>Bacteriostático</strong> — que impede a bactéria de se multiplicar sem necessariamente matá-la. <strong>Fungistático</strong>, o mesmo para fungos.</p>
+<p><strong>BMDL₀₅</strong> — a menor dose associada a um aumento de 5% em efeito adverso, dentro do intervalo de confiança estatística. É o ponto de partida de quase toda régua toxicológica moderna.</p>
+<p><strong>Bórax</strong> — sal de sódio do boro (tetraborato de dissódio). Tem <strong>11,3%</strong> de boro na forma decahidratada.</p>
+<p><strong>Carc. / Repr.</strong> — categorias distintas do sistema europeu de classificação. <strong>Carc.</strong> é cancerígeno; <strong>Repr.</strong> é tóxico para a reprodução. O boro é Repr., não Carc.</p>
+<p><strong>CAS</strong> — número de registro único de cada substância química. O do ácido bórico é 10043-35-3.</p>
+<p><strong>CLP</strong> — sistema europeu de classificação, rotulagem e embalagem de produtos químicos.</p>
+<p><strong>Colemanita</strong> — mineral de boro (~15,8% de boro). Cerca de 70% dos depósitos turcos são deste mineral, usado sobretudo em vidro resistente ao calor.</p>
+<p><strong>Colmo</strong> — o caule do bambu. Oco entre os nós, é a parte usada na construção.</p>
+<p><strong>CPCB</strong> — Central Pollution Control Board, órgão indiano de controle de poluição.</p>
+<p><strong>Efluente</strong> — líquido que sai de um processo e precisa de destino. O efluente do banho de boro é o resíduo líquido do tratamento.</p>
+<p><strong>Filração glomerular</strong> — velocidade com que o rim filtra o sangue. Varia entre espécies, e é por isso que entra no fator de incerteza.</p>
+<p><strong>Fundente</strong> — substância que baixa a temperatura de fusão de outro material. O bórax é fundente do vidro.</p>
+<p><strong>Ganga</strong> — material sem valor econômico que acompanha o minério.</p>
+<p><strong>H360FD</strong> — advertência de perigo do CLP. Desdobra-se em H360F ("pode prejudicar a fertilidade") e H360D ("pode prejudicar o feto").</p>
+<p><strong>Hidrossolúvel</strong> — que se dissolve em água. É a propriedade que limita o boro: em contato com chuva ou solo, ele sai do colmo.</p>
+<p><strong>Lignina</strong> — polímero que dá rigidez à parede celular vegetal. No bambu, convive com a celulose.</p>
+<p><strong>Massa atômica</strong> — quanto um átomo pesa em relação a um padrão. Para o boro, <strong>10,811</strong>.</p>
+<p><strong>MRL</strong> — <em>Minimal Risk Level</em>, nível mínimo de risco. Régua de triagem de saúde pública do ATSDR; <strong>não</strong> é limite regulatório.</p>
+<p><strong>NBR 10004</strong> — norma brasileira que classifica resíduos sólidos. Classe I é perigoso; Classe II-A, não inerte; Classe II-B, inerte.</p>
+<p><strong>NOAEL</strong> — maior dose em que não se observou efeito adverso. O par do LOAEL, menor dose com efeito observado.</p>
+<p><strong>PDE</strong> — <em>Permitted Daily Exposure</em>, exposição diária permitida. Usada pela EMA para excipientes farmacêuticos.</p>
+<p><strong>pH</strong> — escala de 0 a 14 que mede acidez. A água boricada de farmácia fica entre 3,8 e 4,8 — ácida.</p>
+<p><strong>Repr. 1B</strong> — categoria de toxicidade reprodutiva: presunção forte, baseada sobretudo em dados de animais.</p>
+<p><strong>TDI</strong> — <em>Tolerable Daily Intake</em>, ingestão diária tolerável. A da OMS para boro é <strong>0,17 mg/kg/dia</strong>.</p>
+<p><strong>TLV / REL / PEL</strong> — limites de exposição ocupacional. TLV é da ACGIH (referência técnica); REL, do NIOSH (recomendação); PEL, da OSHA (obrigação legal americana).</p>
+<p><strong>Toxidez reprodutiva</strong> — capacidade de prejudicar a fertilidade ou o desenvolvimento do feto. Não é sinônimo de cancerígeno.</p>
+<p><strong>Ulexita</strong> — mineral de boro (~13,3%). Predomina no Chile, Peru e Bolívia.</p>
+<p><strong>UL</strong> — <em>Tolerable Upper Intake Level</em>, limite superior de ingestão. Para boro em adultos, <strong>20 mg/dia</strong>.</p>
+<p><strong>Vida útil</strong> — tempo até o material precisar ser substituído, em condições de uso declaradas. Depende de tratamento, desenho e exposição.</p>
+<hr class="sep">
+<h2 id="bibliografia-consultada">Bibliografia consultada</h2>
+<p>Todas as obras abaixo estão custodiadas no acervo, com hash verificável, e cada uma tem ficha técnica própria com avaliação crítica e limites declarados.</p>
+<p class="ref" id="ref-1"><strong><a class="cite" href="#ref-1">[1]</a></strong> ORGANIZAÇÃO MUNDIAL DA SAÚDE. <em>Boron in drinking-water: background document for development of WHO Guidelines for Drinking-water Quality</em>. Genebra: WHO, 2009. (WHO/HSE/WSH/09.01/2). — <em>Cadeia BMDL₀₅ 10,3 → TDI 0,17 → alocação 40% → 2,4 mg/L; decomposição do fator 60 em 1,8 × 3,2; ressalva de valor acima de 2,4 mg/L para dessalinização e níveis naturais altos; NOAEL 87 mg/kg em ratos Sprague-Dawley machos adultos, duas doses no mesmo dia, 14 dias.</em></p>
+<p class="ref" id="ref-2"><strong><a class="cite" href="#ref-2">[2]</a></strong> ORGANIZAÇÃO MUNDIAL DA SAÚDE. <em>Guidelines for Drinking-water Quality</em>. 4. ed. Genebra: WHO, 2022. — <em>Diretriz de 2,4 mg/L; ocorrência abaixo de 0,5 mg/L para a maior parte do mundo; três usos nomeados (vidro, sabões e detergentes, retardantes de chama); descargas de águas residuais como fonte; ocorrências altas atribuídas a depósitos ricos em boro.</em></p>
+<p class="ref" id="ref-3"><strong><a class="cite" href="#ref-3">[3]</a></strong> U.S. GEOLOGICAL SURVEY. <em>Mineral Commodity Summaries 2026 — Boron</em>. Reston: USGS, 2026. — <em>Produção e reservas por país; quatro minerais = 90%; mais de três quartos do consumo em cerâmica, detergentes, fertilizantes e vidro; Mojave, Alpide e Andino; importações americanas 90% da Turquia; reciclagem insignificante; <strong>não calcula total mundial</strong>.</em></p>
+<p class="ref" id="ref-4"><strong><a class="cite" href="#ref-4">[4]</a></strong> MINISTÉRIO DO DESENVOLVIMENTO, INDÚSTRIA, COMÉRCIO E SERVIÇOS. <em>ComexStat — importações brasileiras de boro, 2024</em>. Brasília: MDIC, 2026. — <em>459,7 mil toneladas e US$ 209,5 milhões em 2024, somando dez NCMs de minerais e químicos de boro (2528, 2804.50, 2810.00, 2840.11, 2840.19, 2840.20, 2840.30, 2849.90.10, 2850.00.10); <strong>84,9% América do Sul</strong> (Bolívia 43,7%, Argentina 25,4%, Chile 14,7%); <strong>Turquia 8,3%</strong>.</em> Consulta por API pública (<code>api-comexstat.mdic.gov.br</code>), reprodutível; 52 arquivos custodiados, 41.305.590 bytes. <strong>Nota de correção:</strong> a versão 1 deste artigo trazia 72,8% e 12%, percentuais que não se reproduzem com nenhum recorte de NCM — corrigido na versão 2.</p>
+<p class="ref" id="ref-5"><strong><a class="cite" href="#ref-5">[5]</a></strong> EUROPEAN MEDICINES AGENCY. <em>Boric acid and borate used as excipients</em>. Londres: EMA, 2021. (EMA/CHMP/765436/2012 Rev. 1). — <em>PDE de 1, 3, 7 e 10 mg B/dia por faixa etária; mais de 90% excretado na urina; NOAEL de fertilidade 100 mg/kg/dia; cita Repr. cat. 2, <strong>classificação superada</strong> pelo CLP vigente.</em></p>
+<p class="ref" id="ref-6"><strong><a class="cite" href="#ref-6">[6]</a></strong> BRASIL. Agência Nacional de Vigilância Sanitária. <em>RDC nº 199, de 26 de outubro de 2006</em> — regulamento técnico de antissépticos. Brasília: ANVISA, 2006. — <em>Água boricada a 3%; teor 2,900%–3,200%; pH 3,8–4,8; três restrições explícitas (área, adultos, não ingerir).</em></p>
+<p class="ref" id="ref-7"><strong><a class="cite" href="#ref-7">[7]</a></strong> AGENCY FOR TOXIC SUBSTANCES AND DISEASE REGISTRY. <em>Toxicological Profile for Boron</em>. Atlanta: ATSDR, 2026. (TP-26). — <em>MRL oral agudo e intermediário de 0,2 mg B/kg/dia; MRL de inalação agudo de 0,3 mg B/m³; fator 66 decomposto; <strong>não derivou MRL oral crônico</strong>, por decisão declarada.</em></p>
+<p class="ref" id="ref-8"><strong><a class="cite" href="#ref-8">[8]</a></strong> NATIONAL INSTITUTES OF HEALTH. Office of Dietary Supplements. <em>Boron — Health Professional Fact Sheet</em>. Bethesda: NIH, 2026. — <em>"Não classificado como nutriente essencial para humanos"; UL de 3/6/11/17/20 mg/dia por faixa; suplementos 0,15–6 mg; dose fatal 15.000–20.000 mg; maioria das ingestões acidentais em crianças menores de 6 anos.</em></p>
+<p class="ref" id="ref-9"><strong><a class="cite" href="#ref-9">[9]</a></strong> UNIÃO EUROPEIA. <em>Regulamento Delegado (UE) 2023/1435</em>, que altera o anexo VI do Regulamento (CE) 1272/2008 (CLP). Jornal Oficial da União Europeia, 2023. — <em>Quatro entradas Repr. 1B, H360FD: ácido bórico (10043-35-3), trióxido de diboro (1303-86-2), tetraborato de dissódio anidro/deca/penta; aplicável desde 1º/02/2025.</em></p>
+<p class="ref" id="ref-10"><strong><a class="cite" href="#ref-10">[10]</a></strong> <em>Massa atômica do boro (10,811) e teores por forma química</em>. Composição calculada a partir das massas atômicas padrão: B = 10,811 g/mol. Verificação cruzada: tabela 4-2 do perfil do ATSDR <a class="cite" href="#ref-7">[7]</a> e USDA AMS <em>Soluble Boron Products</em> (TR-2022). <em>Ácido bórico 17,5%; bórax decahidratado 11,3%; anidro 21,5%; pentaborato ~21,0%; pentahidratado ~14,9%; colemanita ~15,8%; ulexita ~13,3%.</em> <strong>Número atômico 5 é conhecimento de tabela periódica, não achado custodiado.</strong></p>
+<p class="ref" id="ref-11"><strong><a class="cite" href="#ref-11">[11]</a></strong> FERRARINI, S. F.; SANTOS, H. S.; MIRANDA, L. G.; AZEVEDO, C. M. N.; PIRES, M. J. R.; MAIA, S. M. Classificação de resíduos de madeira tratada com preservativos à base de arseniato de cobre cromatado e de boro/flúor. <em>Química Nova</em>, v. 35, n. 9, p. 1767-1771, 2012. — <em>Arsênio 2,7–9,2 mg/L (limite 1,0) em todas as amostras de CCA → Classe I; flúor acima de 1,5 mg/L → Classe II-A; <strong>boro não classificado</strong>; "não há registros na literatura" sobre boro no resíduo.</em></p>
+<p class="ref" id="ref-12"><strong><a class="cite" href="#ref-12">[12]</a></strong> LIESE, Walter. <em>Preservation of Bamboo in Service</em>. Hamburgo: Universidade de Hamburgo, Cátedra de Biologia da Madeira, [s.d.]. — <em>"Aterros comuns suportam apenas uma quantidade limitada de bambu envenenado. Aterros de descarte aprovados dificilmente existem ou são desconhecidos"; boro como preservante mais usado sob cobertura; negligência de precauções em instalações rurais.</em></p>
+<p class="ref" id="ref-13"><strong><a class="cite" href="#ref-13">[13]</a></strong> KAMINSKI, Sebastian; LAWRENCE, Andrew; TRUJILLO, David; KING, Charlotte. Structural use of bamboo. Part 2: Durability and preservation. <em>The Structural Engineer</em>, v. 94, n. 10, p. 38-43, 2016. DOI 10.56330/TRBW8039. — <em>Tabela 1: interno 2–6 anos sem tratamento e <strong>30+</strong> com boro; externo acima do solo 0,5–4 e <strong>2–15</strong>; <strong>em contato com solo menos de 0,5 e menos de 1 ano</strong>; "boro: barato de aplicar, eficaz, <strong>mas solúvel</strong>, então elementos tratados com boro não podem ser usados externamente"; <strong>divergência</strong> sobre perigo de queima; CCA e ACA "devem ser evitados".</em></p>
+<p class="ref" id="ref-14"><strong><a class="cite" href="#ref-14">[14]</a></strong> ENVIRONMENTAL BAMBOO FOUNDATION; NATURAL HOMES. <em>Linda Garland e a pesquisa de proteção do bambu contra o besouro-de-pólvora por imersão em sais de borato</em>. [documentação de referência]. — <em>Origem da prática em Bali; ligação direta com Walter Liese <strong>não confirmada em fonte primária</strong> nesta rodada.</em></p>
+<p class="ref" id="ref-15"><strong><a class="cite" href="#ref-15">[15]</a></strong> ARCHello. <em>Detail: Bamboo Structure of the Arc at Green School Bali</em>, 17 abr. 2023, com declarações de Defit Wijaya (IBUKU). — <em>Jörg Stamm como especialista em bambu do Arc, com Atelier One; imersão por duas semanas ou fervura por 24 horas; verniz protetor de UV <strong>a cada 2 anos</strong>.</em></p>
+<p class="ref" id="ref-16"><strong><a class="cite" href="#ref-16">[16]</a></strong> GAUSS, Christian. <em>Tratamento preservativo e modificação química do bambu para fins estruturais</em>. Tese (Doutorado) — FZEA/USP, 2020. DOI 10.11606/T.74.2020. tde-12042021-165453. — <em>Retenção de boro em D. asper: 14,79 kg/m³ (solução 5%) e 21,79 kg/m³ (8%); recomendações AWPA 2,7 kg/m³ e IS 401:2001 5 kg/m³.</em></p>
+<p class="ref" id="ref-17"><strong><a class="cite" href="#ref-17">[17]</a></strong> SHIM, Brigitte. <em>2010 On Site Review Report — Green School, Bali, Indonesia</em>. Aga Khan Award for Architecture, 2010. (3663.IDA). — <em>Telhado de alang-alang com ciclo de 6 a 10 anos; bambu com ciclo de vida de 20 anos por estimativa conservadora, com substituição seletiva prevista; banho de borax de 4 a 6 semanas; vistoria visual de juntas por engenheiros, <strong>sem periodicidade declarada</strong>; Jörg Stamm como consultor de bambu.</em></p>
+<p class="ref" id="ref-18"><strong><a class="cite" href="#ref-18">[18]</a></strong> IBUKU. <em>FAQ — What kind of maintenance is required in the long run?</em> Bali: IBUKU, 2026. — <em>"O bambu deve ser tratado uma única vez, antes do início da construção; tratamentos adicionais contra insetos não são necessários"; recobrimento a cada 2–4 anos; revisão de juntas "a cada poucos anos"; "a manutenção de longo prazo é principalmente cosmética".</em></p>
+<p class="ref" id="ref-19"><strong><a class="cite" href="#ref-19">[19]</a></strong> ARAUJO, [et al.]. <em>Life cycle assessment of the artisanal bamboo pole (Guadua angustifolia) production in the Brazilian Amazon</em>. 2025. DOI 10.14295/bjs.v4i4.719. — <em>HCT 93% do impacto potencial; 91% dele nos resíduos contaminados; banho de 100 L de água + 5 kg de bórax + 5 kg de ácido bórico; por kg de colmo: 0,20 kg de resíduo, 0,13 kg de colmo, 0,07 L de efluente; 25% de perda; ~13% de colmos descartados; ~10% da água ao solo.</em></p>
+<p class="ref" id="ref-20"><strong><a class="cite" href="#ref-20">[20]</a></strong> CHINA. State Administration for Market Regulation; Standardization Administration. <em>GB/T 40245-2021 — Specification for recovery of waste preservative-treated wood</em>. Pequim: SAMR/SAC, 2021. — <em>Define "madeira preservada residual perigosa" como a que contém cromo, arsênio, creosoto ou pentaclorofenol; <strong>boro não listado</strong>; vigente desde 01/09/2021; norma <strong>recomendada</strong> (GB/T). Prévia oficial custodiada; PDF integral de 15 páginas é pago.</em></p>
+<p class="ref" id="ref-21"><strong><a class="cite" href="#ref-21">[21]</a></strong> VAN DER LUGT, Pablo; KING, Charlotte. <em>Bamboo in the Circular Economy: The potential of bamboo in a zero-waste, low-carbon future</em>. Pequim: INBAR, 2019. (Policy Synthesis Report 6). — <em>36 páginas; "boron" <strong>0 ocorrências</strong>, "landfill" <strong>0</strong>; preservativos artificiais tornam produtos impróprios para reaproveitamento, deixando "nenhuma outra opção senão a queima para energia"; colmos são plenamente biodegradáveis <strong>se não tratados</strong>.</em></p>
+<p class="ref" id="ref-22"><strong><a class="cite" href="#ref-22">[22]</a></strong> [ARTIGOS SOBRE CARVÃO ATIVADO A PARTIR DE RESÍDUO DE ANDAIME DE BAMBU]. <em>Chemical Engineering Journal</em>, 2005. DOI 10.1016/j.cej.2005.02.030 e S1004954111602139. — <em>"Mais de 50.000 toneladas de resíduo de andaime de bambu a cada ano são descartadas como resíduo de construção" em Hong Kong; preço de US$ 1,29 por colmo de 6 m.</em> <strong>⚠ NÃO CUSTODIADO — paywall. Ordem de grandeza, não dado verificado.</strong></p>
+<p class="ref" id="ref-23"><strong><a class="cite" href="#ref-23">[23]</a></strong> HONG KONG. Buildings Department. <em>Guidelines on the Design and Construction of Bamboo Scaffolds</em>. Hong Kong: BD, 2025. / HONG KONG. Labour Department. <em>Code of Practice for Bamboo Scaffolding Safety</em>, 5. ed. Hong Kong: LD, 2024, com Addendum 1/2026. — <em>Exige apenas secagem ao ar na vertical, em ambiente coberto, por ao menos 3 meses; nas 25 páginas da norma do BD, "boro", "borato", "preservativo", "químico" e "tratamento" aparecem <strong>zero vezes</strong>.</em></p>
+<p class="ref" id="ref-24"><strong><a class="cite" href="#ref-24">[24]</a></strong> LIU, [et al.]. <em>Bambu tratado com ácido bórico e bórax: retenção e resistência a fungos</em>, 2023. — <em>1,5% de ácido bórico + 3,0% de bórax, 72 h; coeficiente de variação 62,57→12,74% e perda de massa 55,62→9,64%; <strong>79,6%</strong> (</em>C. versicolor<em>) e <strong>82,7%</strong> (</em>G. trabeum<em>) de inibição; mistura não isolada por componente; <strong>sem ensaio de lixiviação</strong>; a conclusão do artigo diz 12,5% onde a Tabela 4 diz 12,74% — esta ficha adota a tabela.</em></p>
+<p class="ref" id="ref-25"><strong><a class="cite" href="#ref-25">[25]</a></strong> RUSCH, Fernando; CANDATEN, Luana; BANDERA, Eduarda; MANGINI, Tauana de Souza; ZANCHETTA, Laura. <em>Tratamento químico, durabilidade e lixiviação de bambu tratado e submetido a ensaio em campo de apodrecimento</em>, 2023. — <em>CCB = 26% CuSO₄ + 63,5% dicromato + <strong>10,5% ácido bórico</strong>; substituição de seiva conforme NBR 6232, retenção-alvo 6,5 kg/m³; índice de degradação 40 (CCB 1%) e 0 (CCB 3%); controles 100% e 80%; <strong>Tukey p&gt;0,05</strong>, sem diferença significativa; autores <strong>não atribuem lixiviação</strong>.</em></p>
+<p class="ref" id="ref-26"><strong><a class="cite" href="#ref-26">[26]</a></strong> NATIONAL INSTITUTE FOR OCCUPATIONAL SAFETY AND HEALTH. <em>NIOSH Pocket Guide to Chemical Hazards</em> — entradas de boratos. Atlanta: CDC/NIOSH, 2026. — <em>REL de 5 mg/m³ para bórax decahidratado, 1 mg/m³ para anidro e 1 mg/m³ para pentahidratado; teto de boro resultante ~0,57 / ~0,21 / ~0,15 mg B/m³ — <strong>limite por forma química</strong>, não por boro.</em></p>
+<p class="ref" id="ref-27"><strong><a class="cite" href="#ref-27">[27]</a></strong> HEALTH AND SAFETY EXECUTIVE. <em>Wood dust — hazards and control</em>. Reino Unido: HSE,</p>
+<ol><li>— *WEL de 3 mg/m³ para madeira dura e 5 mg/m³ para madeira leve; madeira dura pode</li></ol>
+<p>causar câncer, particularmente de nariz.*</p>
+<hr class="sep">
+<h2 id="como-este-texto-foi-feito">Como este texto foi feito</h2>
+<p>Este artigo é uma peça de revisão. <strong>Não está homologado.</strong> O estado documental é <code>em-revisao-documental</code> e a homologação automática está desativada — homologar é ato humano.</p>
+<p>O texto passou por <strong>auditoria independente em três rodadas</strong> (R6, R7 e uma terceira sobre o material já corrigido), com <strong>21 achados registrados e corrigidos</strong>. O padrão dos erros encontrados foi sempre o mesmo: <strong>generalização</strong> — resumir uma tabela por uma frase, atribuir a um país o que vale para o mundo, tratar dois tratamentos como um, ou transformar impressão do curador em achado do autor.</p>
+<p>Três erros deste próprio acervo ficaram registrados no corpo do texto, porque corrigi-los é mais útil que escondê-los: a atribuição de "maior parte do mundo abaixo de 0,5 mg/L" ao documento de 2009 em vez do de 2022; a leitura de "93%" como incidência em vez de indicador; e a descrição de "superior a 80%" de inibição fúngica quando apenas uma das duas espécies passa de 80%.</p>
+<p><strong>Aviso sobre uso de inteligência artificial.</strong> A redação, a organização e a verificação cruzada deste artigo foram feitas com assistência de um agente de IA, sob curadoria humana e supervisão declarada no frontmatter. <strong>Toda afirmação numérica foi conferida contra a fonte primária custodiada</strong> — mas a responsabilidade pela peça é humana, e a homologação também.</p>
+<p><strong>Onde os arquivos estão.</strong> As fichas técnicas de cada obra da bibliografia, com avaliação crítica e limites, estão em <code>docs/analyses/boro/fichas/</code>. As fontes primárias custodiadas, com hash SHA-256, estão em <code>_privado/governanca-operacional/extracoes/boro/</code>.</p>
+<section id="anexos">
+<div class="anexo-intro"><strong>Anexos — fichas técnicas na íntegra.</strong> Cada obra citada tem ficha própria com dados gerais, conteúdo medido, avaliação crítica e limites declarados. Texto integral, sem resumo. Todas em <code>em-revisao-documental</code>.</div>
+<nav class="toc" aria-label="Índice das fichas"><h2>16 fichas desta gaveta</h2><ol>
+    <li><a href="#ficha-1">Green School (Bali): os ciclos de manutenção declarados — bambu 20 anos, palha 6 a 10</a></li>
+    <li><a href="#ficha-2">Água boricada a 3% — a régua brasileira de antisséptico e suas restrições</a></li>
+    <li><a href="#ficha-3">Perfil toxicológico do boro — níveis mínimos de risco oral e inalatório</a></li>
+    <li><a href="#ficha-4">Ácido bórico e boratos como excipientes — exposição diária permitida por faixa etária</a></li>
+    <li><a href="#ficha-5">Hong Kong: 50 mil toneladas por ano de andaime de bambu — e o bambu não é tratado</a></li>
+    <li><a href="#ficha-6">INBAR: a economia circular do bambu — 36 páginas sem uma menção a boro</a></li>
+    <li><a href="#ficha-7">Uso estrutural do bambu — durabilidade e preservação: a tabela que condena o boro no solo</a></li>
+    <li><a href="#ficha-8">Liese: preservação do bambu em serviço e o descarte de &#x27;bambu envenenado&#x27;</a></li>
+    <li><a href="#ficha-9">Modificação de bambu com ácido bórico e bórax: resistência ao apodrecimento e propriedades</a></li>
+    <li><a href="#ficha-10">Boro na alimentação e em suplementos — o que o NIH registra e o que ele não estabelece</a></li>
+    <li><a href="#ficha-11">Limites de exposição NIOSH para boratos — por forma química, não por boro</a></li>
+    <li><a href="#ficha-12">Bambu tratado com CCB em campo por 5 anos: durabilidade e o limite de atribuir lixiviação</a></li>
+    <li><a href="#ficha-13">Classificação CLP do ácido bórico e dos boratos — Repr. 1B, H360FD</a></li>
+    <li><a href="#ficha-14">Boro — resumo de commodity do serviço geológico dos EUA (MCS 2026)</a></li>
+    <li><a href="#ficha-15">Boro na água de consumo — valor de referência da OMS e base toxicológica</a></li>
+    <li><a href="#ficha-16">Boro — ficha química da OMS: identidade, uso industrial e ausência de valor de referência </a></li>
+</ol></nav>
+<article class="ficha" id="ficha-1"><div class="ficha-head"><span class="ficha-num">FICHA 01</span><h3>Green School (Bali): os ciclos de manutenção declarados — bambu 20 anos, palha 6 a 10</h3><p class="ficha-meta">ficha-tecnica-de-produto · 2010 · <code>aga-khan-2010-green-school-manutencao.md</code></p></div><h2>A manutenção da Green School, medida em anos</h2>
+<blockquote><strong>Síntese.</strong> O relatório de avaliação do prêmio Aga Khan registra, como custo recorrente: <strong>telhado de alang-alang com ciclo de reposição de 6 a 10 anos</strong> e <strong>bambu com ciclo de vida de 20 anos, por estimativa conservadora, com substituição seletiva prevista</strong>. O tratamento é banho de <strong>composto orgânico de borax</strong>, com imersão de <strong>4 a 6 semanas</strong>. A manutenção prevista é <strong>vistoria visual de juntas estruturais por engenheiros</strong>.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Documento</strong></td><td data-l="Dado">2010 On Site Review Report — 3663.IDA</td></tr>
+<tr><td data-l="Campo"><strong>Autora</strong></td><td data-l="Dado">Brigitte Shim</td></tr>
+<tr><td data-l="Campo"><strong>Encomenda</strong></td><td data-l="Dado">Aga Khan Award for Architecture</td></tr>
+<tr><td data-l="Campo"><strong>Páginas</strong></td><td data-l="Dado">32</td></tr>
+<tr><td data-l="Campo"><strong>Data</strong></td><td data-l="Dado">maio de 2010 (obra concluída em 2007)</td></tr>
+<tr><td data-l="Campo"><strong>Custo realizado</strong></td><td data-l="Dado"><strong>US$ 3.116.318</strong> (sem terreno) · US$ 375/m²</td></tr>
+<tr><td data-l="Campo"><strong>Área</strong></td><td data-l="Dado">térreo <strong>5.534 m²</strong> · área total construída <strong>7.542 m²</strong></td></tr>
+<tr><td data-l="Campo"><strong>Consultor de bambu</strong></td><td data-l="Dado"><strong>Jörg Stamm</strong></td></tr>
+<tr><td data-l="Campo"><strong>Direção de projeto</strong></td><td data-l="Dado">Aldo Landwehr</td></tr>
+<tr><td data-l="Campo"><strong>Engenharia estrutural</strong></td><td data-l="Dado">Morisco, Ashar Saputra, Inggar Irawati (UGM)</td></tr>
+</tbody></table></div>
+<h3>2. Os ciclos declarados</h3>
+<div class="tabwrap"><table><thead><tr><th>Componente</th><th>Ciclo</th><th>Texto</th></tr></thead><tbody>
+<tr><td data-l="Componente"><strong>Telhado de alang-alang</strong></td><td data-l="Ciclo"><strong>6 a 10 anos</strong></td><td data-l="Texto"><em>&quot;tem um ciclo de reposição de 6 a 10 anos. O material está disponível localmente e os artesãos que o instalam também são locais.&quot;</em></td></tr>
+<tr><td data-l="Componente"><strong>Bambu</strong></td><td data-l="Ciclo"><strong>20 anos</strong></td><td data-l="Texto"><em>&quot;tem um ciclo de vida de 20 anos com base em estimativas conservadoras. <strong>Substituição seletiva é prevista</strong>.&quot;</em></td></tr>
+</tbody></table></div>
+<h3>3. O tratamento, como descrito</h3>
+<blockquote><em>&quot;Todo o bambu estrutural usado na Green School é extensamente tratado com um composto orgânico de borax. O bambu é limpo e então <strong>submerso em banho de borax por um período de 4 a 6 semanas</strong> para garantir resistência a insetos. Um revestimento impermeável ambientalmente amigável é pulverizado sobre os membros de bambu para evitar a penetração de umidade.&quot;</em></blockquote>
+<h3>4. A manutenção, como descrita</h3>
+<blockquote><em>&quot;As edificações no campus da Green School são muito abertas e qualquer acúmulo de umidade também pode secar facilmente. Garantir que não haja áreas para acúmulo de umidade é essencial. <strong>Os exames visuais realizados por engenheiros estruturais líderes, revisando as juntas estruturais principais em todo o campus, garantirão uma abordagem proativa de manutenção.</strong>&quot;</em></blockquote>
+<p>Sobre os custos de manutenção: <em>&quot;não há sistemas mecânicos na Green School. Ventilação natural é usada em todas as edificações do campus.&quot;</em></p>
+<h3>5. A dependência de ofício local — dita explicitamente</h3>
+<blockquote><em>&quot;Usar artesãos locais para construir as edificações da Green School garante que sua expertise seja valorizada e apoiada. <strong>Apoiar artesãos locais apoia a economia do banjar local e garante que as habilidades estarão disponíveis para a manutenção de longo prazo do campus</strong> e para projetos futuros.&quot;</em></blockquote>
+<p><strong>Esta é a condição de contorno do modelo:</strong> a durabilidade depende de uma cadeia de ofício que precisa ser mantida viva.</p>
+<h3>6. Avaliação crítica</h3>
+<p><strong>Força:</strong> é a fonte que <strong>quantifica</strong> o ciclo de manutenção da Green School em anos, com data, autora e encomenda institucional. Não é imprensa: é avaliação técnica de premiação.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>Não existe, neste documento, menção a mutirão semestral de manutenção.</strong> O que há é vistoria visual por engenheiros, sem periodicidade declarada.</li><li><strong>O ciclo de 20 anos é estimativa conservadora</strong>, não medição de desempenho observado.</li><li><strong>O documento é de 2010</strong> — descreve a obra com 3 anos, não o desempenho até hoje.</li><li><strong>&quot;Substituição seletiva é prevista&quot;</strong> não define taxa nem intervalo.</li><li>É relatório de premiação, com interesse institucional na obra.</li></ul>
+<p><strong>O que falta e a gaveta declara:</strong> nenhuma fonte localizada descreve <strong>mutirão semestral</strong> de manutenção na Green School. O FAQ do construtor (IBUKU, ficha própria) descreve manutenção <strong>cosmética</strong>, com recobrimento a cada 2 a 4 anos e revisão de juntas a cada poucos anos. As duas descrições são compatíveis entre si e nenhuma menciona aplicação periódica de boro em serviço.</p>
+<p><strong>Referência ABNT:</strong> SHIM, Brigitte. <em>2010 On Site Review Report — Green School, Bali, Indonesia</em>. Aga Khan Award for Architecture, 2010. (3663.IDA).</p></article><article class="ficha" id="ficha-2"><div class="ficha-head"><span class="ficha-num">FICHA 02</span><h3>Água boricada a 3% — a régua brasileira de antisséptico e suas restrições</h3><p class="ficha-meta">norma-ou-regulamento · 2006 · <code>anvisa-2006-agua-boricada-3.md</code></p></div><h2>Água boricada — o que a norma brasileira permite e proíbe</h2>
+<blockquote><strong>Síntese.</strong> A RDC ANVISA nº 199/2006 lista a <strong>água boricada a 3%</strong> como <strong>antisséptico, bacteriostático e fungistático</strong>, aplicado em <strong>processos infecciosos tópicos</strong>, duas a três vezes ao dia com gaze ou algodão. A norma exige teor de <strong>2,900% a 3,200% de H₃BO₃</strong> e <strong>pH entre 3,8 e 4,8</strong>. E traz três restrições explícitas: <strong>não aplicar em grandes áreas quando houver lesões, feridas ou queimaduras</strong>; <strong>uso exclusivo em adultos</strong>, com o registro de que <em>&quot;o uso em crianças representa risco à saúde&quot;</em>; e <strong>não ingerir</strong>.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Norma</strong></td><td data-l="Dado">RDC ANVISA nº 199, de 26/10/2006</td></tr>
+<tr><td data-l="Campo"><strong>Anexo</strong></td><td data-l="Dado">Regulamento técnico de antissépticos</td></tr>
+<tr><td data-l="Campo"><strong>Natureza</strong></td><td data-l="Dado">norma sanitária brasileira vigente</td></tr>
+</tbody></table></div>
+<h3>2. Especificação do produto</h3>
+<div class="tabwrap"><table><thead><tr><th>Item</th><th>Exigência da norma</th></tr></thead><tbody>
+<tr><td data-l="Item">Princípio ativo</td><td data-l="Exigência da norma">ácido bórico 3%</td></tr>
+<tr><td data-l="Item">Sinônimo</td><td data-l="Exigência da norma">água boricada</td></tr>
+<tr><td data-l="Item">Forma farmacêutica</td><td data-l="Exigência da norma">solução</td></tr>
+<tr><td data-l="Item">Indicação</td><td data-l="Exigência da norma">antisséptico, bacteriostático e fungistático, em processos infecciosos tópicos</td></tr>
+<tr><td data-l="Item">Modo de usar</td><td data-l="Exigência da norma">duas a três vezes ao dia, com gaze ou algodão</td></tr>
+<tr><td data-l="Item"><strong>Teor exigido</strong></td><td data-l="Exigência da norma"><strong>2,900% a 3,200% de H₃BO₃</strong></td></tr>
+<tr><td data-l="Item"><strong>pH</strong></td><td data-l="Exigência da norma"><strong>3,8 a 4,8</strong></td></tr>
+<tr><td data-l="Item">Bactérias totais</td><td data-l="Exigência da norma">máximo 500 UFC/g</td></tr>
+</tbody></table></div>
+<h3>3. As restrições — texto da norma</h3>
+<ol><li><strong>&quot;Não poderá ser aplicado em grandes áreas do corpo, quando existirem lesões de qualquer tipo, feridas ou queimaduras.&quot;</strong></li><li><strong>&quot;Produto de uso exclusivo em adultos. O uso em crianças representa risco à saúde.&quot;</strong></li><li><strong>&quot;Não ingerir.&quot;</strong></li></ol>
+<p><strong>Por que a restrição de área tem lógica toxicológica:</strong> pele com lesão absorve muito mais que pele íntegra. Aplicar em ferida extensa é, em parte, via de entrada para a circulação. &quot;Tópico&quot; não significa &quot;sem absorção&quot;.</p>
+<p><strong>Por que a restrição pediátrica é coerente:</strong> o efeito crítico do boro — em todas as réguas desta gaveta (OMS, EMA, ATSDR, NIH) — é <strong>toxicidade para o desenvolvimento</strong>, isto é, efeito sobre crescimento e formação. A norma brasileira chega à mesma conclusão <strong>pela prática clínica</strong>, antes de qualquer discussão de mecanismo.</p>
+<h3>4. Avaliação crítica</h3>
+<p><strong>Força:</strong> é a norma brasileira vigente, com especificação numérica fechada (teor e pH) e restrições explícitas no texto. É a régua que vale no Brasil.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>Só trata do uso tópico medicinal.</strong> Não autoriza nem regula banho de preservação, agricultura ou uso doméstico.</li><li><strong>Não estabelece dose sistêmica</strong> — para isso a régua é a europeia (ficha própria).</li><li>O documento não explicita o mecanismo do risco pediátrico; a coerência com o efeito crítico é leitura desta gaveta, não afirmação da norma.</li></ul>
+<p><strong>Referência ABNT:</strong> BRASIL. Agência Nacional de Vigilância Sanitária. <em>Resolução da Diretoria Colegiada — RDC nº 199, de 26 de outubro de 2006</em>. Dispõe sobre o regulamento técnico de antissépticos. Brasília: ANVISA, 2006.</p></article><article class="ficha" id="ficha-3"><div class="ficha-head"><span class="ficha-num">FICHA 03</span><h3>Perfil toxicológico do boro — níveis mínimos de risco oral e inalatório</h3><p class="ficha-meta">norma-ou-regulamento · 2026 · <code>atsdr-2026-boro-perfil-toxicologico.md</code></p></div><h2>Boro — as réguas toxicológicas do ATSDR</h2>
+<blockquote><strong>Síntese.</strong> O ATSDR deriva dois <strong>níveis mínimos de risco (MRL)</strong> orais de <strong>0,2 mg B/kg/dia</strong> — um agudo (1–14 dias) e um de duração intermediária — e um MRL de <strong>inalação aguda de 0,3 mg B/m³</strong>. Os dois MRLs orais coincidem no valor mas têm <strong>bases independentes</strong>: o agudo parte de um <strong>NOAEL de 22 mg B/kg/dia</strong> (malformações em coelhos) com fator 100; o intermediário, do <strong>BMDL₀₅ de 10,3 mg B/kg/dia</strong> (peso fetal em ratos) com fator <strong>66</strong>. <strong>Não derivou MRL oral crônico</strong>, por decisão declarada.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Documento</strong></td><td data-l="Dado"><em>Toxicological Profile for Boron</em> (TP-26)</td></tr>
+<tr><td data-l="Campo"><strong>Emissor</strong></td><td data-l="Dado">ATSDR</td></tr>
+<tr><td data-l="Campo"><strong>Páginas</strong></td><td data-l="Dado">248 (12 capítulos)</td></tr>
+<tr><td data-l="Campo"><strong>Natureza</strong></td><td data-l="Dado">perfil toxicológico institucional</td></tr>
+</tbody></table></div>
+<h3>2. Os MRLs</h3>
+<div class="tabwrap"><table><thead><tr><th>Régua</th><th>Valor</th><th>Ponto de partida</th><th>Fator</th></tr></thead><tbody>
+<tr><td data-l="Régua"><strong>MRL oral agudo</strong> (1–14 dias)</td><td data-l="Valor"><strong>0,2 mg B/kg/dia</strong></td><td data-l="Ponto de partida">NOAEL <strong>22</strong> mg B/kg/dia — malformações em coelhos (Price et al. 1996b)</td><td data-l="Fator"><strong>100</strong> (10 interespecífico × 10 variabilidade humana)</td></tr>
+<tr><td data-l="Régua"><strong>MRL oral intermediário</strong></td><td data-l="Valor"><strong>0,2 mg B/kg/dia</strong></td><td data-l="Ponto de partida"><strong>BMDL₀₅ 10,3</strong> mg B/kg/dia — peso fetal reduzido em ratos (Heindel 1992 + Price 1996a)</td><td data-l="Fator"><strong>66</strong></td></tr>
+<tr><td data-l="Régua"><strong>MRL inalação agudo</strong></td><td data-l="Valor"><strong>0,3 mg B/m³</strong></td><td data-l="Ponto de partida">NOAEL <strong>0,8</strong> mg B/m³ — secreção nasal aumentada em voluntários (Cain et al. 2004)</td><td data-l="Fator"><strong>3</strong></td></tr>
+<tr><td data-l="Régua"><strong>MRL oral crônico</strong></td><td data-l="Valor"><strong>não derivado</strong></td><td data-l="Ponto de partida">—</td><td data-l="Fator">—</td></tr>
+</tbody></table></div>
+<p><strong>O fator 66, decomposto</strong> (a fonte explicita cada componente):</p>
+<div class="tabwrap"><table><thead><tr><th>Componente</th><th>Valor</th></tr></thead><tbody>
+<tr><td data-l="Componente">extrapolação toxico<strong>cinética</strong> animal→humano</td><td data-l="Valor">3,3</td></tr>
+<tr><td data-l="Componente">extrapolação toxico<strong>dinâmica</strong> animal→humano</td><td data-l="Valor">3,16</td></tr>
+<tr><td data-l="Componente">variabilidade toxico<strong>cinética</strong> humana</td><td data-l="Valor">2,0</td></tr>
+<tr><td data-l="Componente">variabilidade toxico<strong>dinâmica</strong> humana</td><td data-l="Valor">3,16</td></tr>
+<tr><td data-l="Componente"><strong>produto</strong></td><td data-l="Valor"><strong>≈ 66</strong></td></tr>
+</tbody></table></div>
+<p><strong>Por que não há MRL crônico:</strong> o ATSDR declara que, embora houvesse dados suficientes, o valor <strong>não foi derivado</strong> porque os LOAELs intermediários de desenvolvimento em ratos (13,6 e 13 mg B/kg/dia) são <strong>mais baixos</strong> que o NOAEL de 24 mg B/kg/dia para atrofia testicular — logo o MRL intermediário <strong>protege</strong> a exposição crônica.</p>
+<h3>3. O que é o efeito crítico</h3>
+<p><strong>Peso fetal reduzido</strong> é o desfecho mais sensível: ocorreu consistentemente em animais a doses menores que as necessárias para malformações esqueléticas ou outros efeitos. Os MRLs orais agudo e intermediário <strong>baseiam-se nele</strong> e &quot;devem ser protetores para crianças em desenvolvimento no útero&quot;.</p>
+<p>Efeitos <strong>testiculares</strong> (atrofia, lesões histológicas, impacto na espermatogênese) são o efeito reprodutivo mais sensível em estudos animais de todas as durações.</p>
+<h3>4. Exposição ocupacional — o que foi medido em humanos</h3>
+<ul><li><strong>Sintomas respiratórios</strong> (boca, nariz e garganta secos, tosse seca, sangramento nasal, dor de garganta) em frequência <strong>maior</strong> nos trabalhadores expostos a níveis altos que nos expostos a <strong>0,9 e 0,2 mg B/m³</strong> (Garabrant et al. 1984, 1985).</li><li><strong>Sem alteração de função pulmonar</strong> medida por VEF1 em não fumantes, no seguimento de 7 anos (Wegman et al. 1994).</li><li><strong>Infertilidade:</strong> nenhuma associação significativa observada em subpopulações turcas com exposição intermediária a crônica (Sayli 1998a).</li></ul>
+<h3>5. Avaliação crítica</h3>
+<p><strong>Força:</strong> é o perfil toxicológico mais completo disponível, com <strong>cada fator de incerteza decomposto e nomeado</strong>. É a fonte que permite auditar por que 0,2 e não 0,3. Traz o único MRL de <strong>inalação</strong> desta gaveta.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>MRL não é limite regulatório</strong> — é nível de triagem para saúde pública.</li><li>O MRL de inalação é <strong>agudo</strong> (até 14 dias); não serve como limite ocupacional.</li><li>Não há MRL crônico, por decisão declarada.</li><li>Os dados de trabalhador são de <strong>indústria de boro</strong>, não de oficina de bambu.</li></ul>
+<p><strong>Referência ABNT:</strong> AGENCY FOR TOXIC SUBSTANCES AND DISEASE REGISTRY. <em>Toxicological Profile for Boron</em>. Atlanta: ATSDR, 2026. (TP-26).</p></article><article class="ficha" id="ficha-4"><div class="ficha-head"><span class="ficha-num">FICHA 04</span><h3>Ácido bórico e boratos como excipientes — exposição diária permitida por faixa etária</h3><p class="ficha-meta">norma-ou-regulamento · 2021 · <code>ema-2021-boro-excipientes-pde.md</code></p></div><h2>Boro em medicamento — a régua europeia por idade</h2>
+<blockquote><strong>Síntese.</strong> O EMA calculou a <strong>exposição diária permitida (PDE)</strong> de boro para quem toma medicamentos que o contenham como excipiente: <strong>1, 3, 7 e 10 mg de boro por dia</strong> para as faixas <strong>0–2, 2–12, 12–18 e mais de 18 anos</strong>. O ponto de partida é o efeito mais sensível identificado — <strong>toxicidade para o desenvolvimento em ratos</strong> — via MRL de <strong>0,2 mg B/kg/dia</strong> da ATSDR, cujo ponto de partida é o <strong>BMDL₀₅ de 10,3 mg B/kg/dia</strong> para redução de peso fetal.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Documento</strong></td><td data-l="Dado"><em>Boric acid and borate used as excipients</em> — EMA/CHMP/765436/2012 Rev. 1</td></tr>
+<tr><td data-l="Campo"><strong>Órgão</strong></td><td data-l="Dado">CHMP — Comitê de Medicamentos de Uso Humano</td></tr>
+<tr><td data-l="Campo"><strong>Data</strong></td><td data-l="Dado">21 de novembro de 2021</td></tr>
+<tr><td data-l="Campo"><strong>Páginas</strong></td><td data-l="Dado">19</td></tr>
+<tr><td data-l="Campo"><strong>Natureza</strong></td><td data-l="Dado">avaliação regulatória europeia</td></tr>
+</tbody></table></div>
+<h3>2. A escala de valores</h3>
+<div class="tabwrap"><table><thead><tr><th>Faixa etária</th><th>PDE (mg B/dia)</th></tr></thead><tbody>
+<tr><td data-l="Faixa etária">0–2 anos</td><td data-l="PDE (mg B/dia)"><strong>1</strong></td></tr>
+<tr><td data-l="Faixa etária">2–12 anos</td><td data-l="PDE (mg B/dia)"><strong>3</strong></td></tr>
+<tr><td data-l="Faixa etária">12–18 anos</td><td data-l="PDE (mg B/dia)"><strong>7</strong></td></tr>
+<tr><td data-l="Faixa etária">mais de 18 anos</td><td data-l="PDE (mg B/dia)"><strong>10</strong></td></tr>
+</tbody></table></div>
+<p><strong>Observação de unidade:</strong> o PDE é de <strong>boro elementar (B)</strong>, não de ácido bórico. Como B é 17,5% da massa de H₃BO₃, 10 mg de boro correspondem a cerca de <strong>57 mg de ácido bórico</strong>.</p>
+<h3>3. A cadeia de derivação</h3>
+<div class="tabwrap"><table><thead><tr><th>Etapa</th><th>Valor</th></tr></thead><tbody>
+<tr><td data-l="Etapa">Efeito crítico</td><td data-l="Valor">toxicidade para o desenvolvimento em ratos</td></tr>
+<tr><td data-l="Etapa">Ponto de partida (BMDL₀₅)</td><td data-l="Valor"><strong>10,3 mg B/kg/dia</strong> — redução de peso fetal</td></tr>
+<tr><td data-l="Etapa">MRL da ATSDR</td><td data-l="Valor"><strong>0,2 mg B/kg/dia</strong></td></tr>
+<tr><td data-l="Etapa">Fator de incerteza</td><td data-l="Valor"><strong>66</strong></td></tr>
+<tr><td data-l="Etapa">Adulto</td><td data-l="Valor">0,2 × 50 kg = <strong>10 mg B/dia</strong></td></tr>
+<tr><td data-l="Etapa">Crianças</td><td data-l="Valor">extrapolação por <strong>área de superfície corporal</strong></td></tr>
+</tbody></table></div>
+<h3>4. Outros dados relevantes</h3>
+<ul><li><strong>Mais de 90%</strong> da dose de ácido bórico administrada é <strong>excretada na urina</strong>, independentemente da via.</li><li><strong>NOAEL de fertilidade em rato: 100 mg/kg/dia</strong> (= 17,5 mg B/kg/dia). Os efeitos sobre fertilidade ocorreram em doses que <strong>não</strong> induziam outros efeitos tóxicos marcados.</li><li><strong>Efeitos testiculares:</strong> atrofia testicular relatada em camundongo e rato após 90 dias e 2 anos; no rato, com atrofia do epitélio seminífero e diminuição do tamanho dos túbulos seminíferos.</li><li><strong>Comparação com água:</strong> a exposição por medicamento <strong>não deve exceder</strong> 2,5 mg de boro, valor derivado do limite para água de consumo humano a 2,5 L/dia.</li><li><strong>UL do SCCS para crianças</strong> (mg B/pessoa/dia): 3, 4, 5, 7 e 9 para as faixas 1–3, 4–6, 7–10, 11–14 e 15–17 anos.</li></ul>
+<h3>5. A nota sobre carcinogenicidade e classificação</h3>
+<p>O documento cita <strong>Repr. cat. 2</strong> no enquadramento então usado. <strong>Isso não é a classificação vigente:</strong> no CLP atual o ácido bórico é <strong>Repr. 1B, H360FD</strong>, conforme o Regulamento Delegado (UE) 2023/1435, aplicável a partir de 1º de fevereiro de 2025 (ficha própria nesta gaveta).</p>
+<p><strong>Toxicidade reprodutiva não é carcinogenicidade</strong>, e uma não autoriza afirmar a outra.</p>
+<h3>6. Avaliação crítica</h3>
+<p><strong>Força:</strong> é a régua de exposição por medicamento mais explícita que existe, com derivação completa e faixas por idade. Serve de âncora para qualquer conta de exposição oral.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>Não é limite de água, solo ou efluente.</strong> Aplicá-la a outro meio é erro de escopo.</li><li><strong>É boro elementar</strong>, não sal — a confusão de unidade subestima por fator ~6.</li><li>A classificação citada no documento <strong>está desatualizada</strong> frente ao CLP vigente.</li></ul>
+<p><strong>Referência ABNT:</strong> EUROPEAN MEDICINES AGENCY. <em>Boric acid and borate used as excipients</em>. London: EMA, 2021. (EMA/CHMP/765436/2012 Rev. 1).</p></article><article class="ficha" id="ficha-5"><div class="ficha-head"><span class="ficha-num">FICHA 05</span><h3>Hong Kong: 50 mil toneladas por ano de andaime de bambu — e o bambu não é tratado</h3><p class="ficha-meta">norma-ou-regulamento · 2025 · <code>hongkong-2025-andaime-bambu-nao-tratado.md</code></p></div><h2>O maior fluxo efêmero do mundo é de bambu <strong>não tratado</strong></h2>
+<blockquote><strong>Síntese.</strong> Hong Kong descarta <strong>mais de 50.000 toneladas por ano</strong> de resíduo de andaime de bambu como resíduo de construção. É o maior fluxo efêmero de bambu documentado no mundo. <strong>E esse bambu não passa por tratamento químico:</strong> as diretrizes oficiais exigem apenas <strong>secagem ao ar, na vertical, em ambiente coberto, por ao menos 3 meses</strong>. Nas 25 páginas da norma de projeto, as palavras <em>boro</em>, <em>borato</em>, <em>preservativo</em>, <em>químico</em> e <em>tratamento</em> aparecem <strong>zero vezes</strong>.</blockquote>
+<h3>1. O volume — dado NÃO custodiado</h3>
+<div class="tabwrap"><table><thead><tr><th>Dado</th><th>Valor declarado</th><th>Status</th></tr></thead><tbody>
+<tr><td data-l="Dado"><strong>Resíduo de andaime de bambu</strong></td><td data-l="Valor declarado"><strong>> 50.000 t/ano</strong></td><td data-l="Status"><strong>não custodiado</strong></td></tr>
+<tr><td data-l="Dado">Preço do colmo</td><td data-l="Valor declarado">US$ 1,29 por colmo de 6 m</td><td data-l="Status"><strong>não custodiado</strong></td></tr>
+</tbody></table></div>
+<p><strong>Procedência:</strong> dois artigos do mesmo grupo, em <em>Chemical Engineering Journal</em> (2005), sobre produção de carvão ativado a partir desse resíduo. O texto, lido em resumo indexado, diz: <em>&quot;Mais de 50.000 toneladas de resíduo de andaime de bambu a cada ano são descartadas como resíduo de construção&quot;</em>, e <em>&quot;bambu, nativo de Hong Kong e da China, está disponível como resíduo de andaime de projetos de construção de Hong Kong&quot;</em>.</p>
+<p><strong>⚠ Estes dois números NÃO estão custodiados nesta gaveta.</strong> Os artigos estão em paywall e não foram baixados. Tudo o que está abaixo — sobre o tratamento — <strong>está</strong> custodiado e é o que sustenta a ficha. O volume serve como <strong>ordem de grandeza, não como dado verificado</strong>, e não deve ser citado sem essa ressalva.</p>
+<h3>2. O tratamento oficial: apenas secagem</h3>
+<p>Da norma do Buildings Department (25 páginas):</p>
+<blockquote><em>&quot;Os tipos de bambu comumente usados são <strong>Kao Jue</strong> e <strong>Mao Jue</strong>. Eles devem ter <strong>3 a 5 anos</strong> e ser <strong>secados ao ar em posição vertical, sob condição de ambiente interno, por ao menos 3 meses</strong> antes do uso. O comprimento nominal de ambos é 6 m.&quot;</em></blockquote>
+<p><strong>Contagem de termos na norma de 25 páginas:</strong></p>
+<div class="tabwrap"><table><thead><tr><th>Termo</th><th>Ocorrências</th></tr></thead><tbody>
+<tr><td data-l="Termo">boron</td><td data-l="Ocorrências">0</td></tr>
+<tr><td data-l="Termo">borate</td><td data-l="Ocorrências">0</td></tr>
+<tr><td data-l="Termo">preservative</td><td data-l="Ocorrências">0</td></tr>
+<tr><td data-l="Termo">chemical</td><td data-l="Ocorrências">0</td></tr>
+<tr><td data-l="Termo">treatment</td><td data-l="Ocorrências">0</td></tr>
+</tbody></table></div>
+<p>Na norma de segurança do Labour Department (60 páginas): <strong>&quot;borate&quot; 1 ocorrência, em passagem não normativa; &quot;preservative&quot; 0; &quot;treatment&quot; 0.</strong></p>
+<h3>3. Por que isso importa para o argumento do boro</h3>
+<p>O maior fluxo de bambu efêmero do planeta — andaime desmontado a cada obra — é de material <strong>não tratado</strong>. Consequências:</p>
+<ul><li><strong>É biodegradável</strong> e retorna ao ciclo.</li><li>Serve de <strong>matéria-prima</strong>: há literatura dedicada a transformá-lo em <strong>carvão ativado</strong>.</li><li><strong>Não gera passivo químico.</strong></li></ul>
+<p><strong>O tratamento com boro cria exatamente o fluxo que perde essa saída.</strong> O material tratado não volta ao solo (boro é hidrossolúvel mas o resíduo não tem rota aprovada), não serve para carvão ativado sem restrição, e a queima é desaconselhada pelas fichas de segurança.</p>
+<h3>4. Avaliação crítica</h3>
+<p><strong>Força:</strong> é a única jurisdição localizada onde o fluxo efêmero de bambu é grande, documentado e <strong>regulado sem química</strong> — o que oferece um contraste real, não hipotético, ao modelo do boro.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>O volume de 50.000 t/ano não está custodiado</strong> — vem de resumo de artigo pago.</li><li><strong>Não é dado recente:</strong> os artigos são de 2005. O número pode ter mudado.</li><li><strong>As normas são de segurança estrutural</strong>, não de resíduo: a ausência de menção a preservativo indica que o tratamento químico <strong>não é exigido</strong>, não que seja proibido.</li><li><strong>Hong Kong não é o Sudeste Asiático rural</strong> onde o boro é aplicado em pequena escala — é uma metrópole com cadeia formal de andaimes.</li></ul>
+<p><strong>Referência ABNT:</strong> HONG KONG. Buildings Department. <em>Guidelines on the Design and Construction of Bamboo Scaffolds</em>. Hong Kong: BD, 2025. / HONG KONG. Labour Department. <em>Code of Practice for Bamboo Scaffolding Safety</em>, 5ª ed. Hong Kong: LD, 2024 (com Addendum 1/2026).</p></article><article class="ficha" id="ficha-6"><div class="ficha-head"><span class="ficha-num">FICHA 06</span><h3>INBAR: a economia circular do bambu — 36 páginas sem uma menção a boro</h3><p class="ficha-meta">ficha-tecnica-de-produto · 2019 · <code>inbar-2019-bambu-economia-circular.md</code></p></div><h2>O relatório do bambu circular não fala de boro — e isso é o achado</h2>
+<blockquote><strong>Síntese.</strong> O INBAR é a organização intergovernamental do bambu. Seu relatório sobre economia circular examina o fim de vida dos produtos de bambu em 36 páginas. <strong>A palavra &quot;boro&quot; não aparece nenhuma vez. Nem &quot;borato&quot;, nem &quot;borax&quot;. Nem &quot;aterro&quot;.</strong> O documento trata preservativos como uma categoria genérica que <strong>inviabiliza</strong> o retorno ao ciclo biológico e deixa &quot;nenhuma outra opção senão a queima para energia&quot;.</blockquote>
+<h3>1. Contagem exata nas 36 páginas</h3>
+<div class="tabwrap"><table><thead><tr><th>Termo</th><th>Ocorrências</th></tr></thead><tbody>
+<tr><td data-l="Termo"><strong>boron</strong></td><td data-l="Ocorrências"><strong>0</strong></td></tr>
+<tr><td data-l="Termo"><strong>borate</strong></td><td data-l="Ocorrências"><strong>0</strong></td></tr>
+<tr><td data-l="Termo"><strong>borax</strong></td><td data-l="Ocorrências"><strong>0</strong></td></tr>
+<tr><td data-l="Termo"><strong>landfill</strong> (aterro)</td><td data-l="Ocorrências"><strong>0</strong></td></tr>
+<tr><td data-l="Termo">preserv*</td><td data-l="Ocorrências">5</td></tr>
+<tr><td data-l="Termo">treated</td><td data-l="Ocorrências">2</td></tr>
+<tr><td data-l="Termo">waste</td><td data-l="Ocorrências">33</td></tr>
+<tr><td data-l="Termo">burn</td><td data-l="Ocorrências">12</td></tr>
+<tr><td data-l="Termo">incinerat</td><td data-l="Ocorrências">4</td></tr>
+</tbody></table></div>
+<p><strong>O que o silêncio significa:</strong> boro não é objeto de análise do relatório de economia circular do setor. O documento fala do que fazer com o bambu — e o bambu tratado com boro fica fora do quadro.</p>
+<h3>2. O que o relatório diz sobre preservativos</h3>
+<blockquote><em>&quot;O uso de resinas, colas e <strong>preservativos artificiais</strong> não biológicos, particularmente em materiais e compósitos de bambu engenheirado, pode tornar os produtos impróprios para reaproveitamento; isso não deixa outra opção senão a <strong>queima para energia</strong>.&quot;</em></blockquote>
+<p>E sobre os colmos:</p>
+<blockquote><em>&quot;Se <strong>não forem tratados ou revestidos com preservativos ou lacas artificiais</strong>, os colmos são também <strong>plenamente biodegradáveis</strong>.&quot;</em></blockquote>
+<p><strong>A estrutura lógica é condicional:</strong> biodegradável <strong>se</strong> não tratado. Tratado, perde a via biológica.</p>
+<h3>3. Os cinco critérios de circularidade do relatório</h3>
+<p>Um produto de bambu, para servir à economia circular, deveria idealmente:</p>
+<ol><li>substituir materiais abióticos;</li><li>ter vida útil longa o suficiente para o recurso crescer de novo;</li><li>ter o máximo de conteúdo biológico possível;</li><li>poder ser reutilizado ou reciclado preservando valor;</li><li><strong>&quot;poder idealmente retornar à biosfera — ou ao menos ser queimado com segurança para energia — no fim de sua vida.&quot;</strong></li></ol>
+<p>O critério 5 admite queimada <strong>segura</strong>. O relatório não examina se a queima de bambu tratado com boro é segura, porque não trata do tratamento.</p>
+<h3>4. Sobre estruturas efêmeras</h3>
+<p>O relatório nomeia <strong>&quot;estruturas temporárias, tais como pavilhões&quot;</strong> ao tratar da construção com colmos redondos, e cita Stamm, Elora Hardy e Simón Vélez como praticantes. <strong>Não analisa o que acontece com esse material ao ser desmontado.</strong></p>
+<h3>5. Avaliação crítica</h3>
+<p><strong>Força:</strong> é o documento de referência do próprio setor sobre o destino dos produtos de bambu. Serve de <strong>âncora negativa</strong>: mostra o que o setor discute e o que não discute.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>Não é estudo de toxicologia nem de resíduo.</strong> O silêncio sobre boro reflete o escopo, não uma conclusão de segurança.</li><li><strong>Foco em bambu engenheirado</strong> (painéis, laminados, pisos); colmos redondos aparecem de passagem.</li><li><strong>Publicação de advocacy institucional</strong>, não revisão por pares.</li><li>O acesso exigiu Wayback; o arquivo do sítio original bloqueia por user-agent.</li></ul>
+<p><strong>O que este documento acrescenta à gaveta:</strong> prova que a discussão de economia circular do bambu <strong>contorna o preservante</strong> em vez de enfrentá-lo. O material tratado é descrito como problema genérico (&quot;preservativos artificiais&quot;) e a saída oferecida é a queima. <strong>Quem trata com boro não encontra orientação de fim de vida no documento do próprio setor.</strong></p>
+<p><strong>Referência ABNT:</strong> VAN DER LUGT, Pablo; KING, Charlotte. <em>Bamboo in the Circular Economy: The potential of bamboo in a zero-waste, low-carbon future</em>. Pequim: INBAR, 2019. (Policy Synthesis Report 6).</p></article><article class="ficha" id="ficha-7"><div class="ficha-head"><span class="ficha-num">FICHA 07</span><h3>Uso estrutural do bambu — durabilidade e preservação: a tabela que condena o boro no solo</h3><p class="ficha-meta">ficha-academica · 2016 · <code>kaminski-2016-durabilidade-bambu-tabela.md</code></p></div><h2>Vida útil do bambu: a tabela que mostra onde o boro funciona e onde não</h2>
+<blockquote><strong>Síntese.</strong> A nota técnica do <em>Institution of Structural Engineers</em> dá a tabela de referência para vida útil do bambu por condição de exposição. O boro <strong>transforma</strong> o desempenho interno (2–6 anos → <strong>30+ anos</strong>) e o externo acima do solo (0,5–4 anos → <strong>2–15 anos</strong>). Mas <strong>em contato com o solo não resolve</strong>: menos de 0,5 ano sem tratamento vira <strong>menos de 1 ano</strong> com boro. E o motivo é químico: <strong>o boro é hidrossolúvel</strong>.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Autores</strong></td><td data-l="Dado">Sebastian Kaminski (Arup), Andrew Lawrence (Cambridge), David Trujillo (Warwick), Charlotte King</td></tr>
+<tr><td data-l="Campo"><strong>Veículo</strong></td><td data-l="Dado"><em>The Structural Engineer</em>, v. 94, n. 10, p. 38-43</td></tr>
+<tr><td data-l="Campo"><strong>Data</strong></td><td data-l="Dado">3 de outubro de 2016</td></tr>
+<tr><td data-l="Campo"><strong>Páginas</strong></td><td data-l="Dado">13 (pós-print aceito)</td></tr>
+<tr><td data-l="Campo"><strong>DOI</strong></td><td data-l="Dado">10.56330/TRBW8039</td></tr>
+<tr><td data-l="Campo"><strong>Natureza</strong></td><td data-l="Dado">nota técnica de série do IStructE</td></tr>
+</tbody></table></div>
+<h3>2. A Tabela 1 — texto literal</h3>
+<p><em>&quot;Tempo aproximado sugerido antes de o bambu precisar ser substituído (assumindo ambiente quente e agressivo, com risco de ataque de cupim e besouro)&quot;</em></p>
+<div class="tabwrap"><table><thead><tr><th>Situação</th><th>Sem tratamento</th><th>Com boro</th><th>Preservantes fixos*</th></tr></thead><tbody>
+<tr><td data-l="Situação"><strong>Interno</strong></td><td data-l="Sem tratamento">2–6 anos</td><td data-l="Com boro"><strong>30+ anos</strong></td><td data-l="Preservantes fixos*">30+ anos</td></tr>
+<tr><td data-l="Situação"><strong>Externo, acima do solo</strong></td><td data-l="Sem tratamento">0,5–4 anos</td><td data-l="Com boro"><strong>2–15 anos</strong></td><td data-l="Preservantes fixos*">30+ anos</td></tr>
+<tr><td data-l="Situação"><strong>Externo, em contato com o solo</strong></td><td data-l="Sem tratamento"><0,5 ano</td><td data-l="Com boro"><strong><1 ano</strong></td><td data-l="Preservantes fixos*">15+ anos</td></tr>
+</tbody></table></div>
+<p>\<em> A nota dos autores: </em>&quot;Esta é uma estimativa inferida, baseada em combinação de testes limitados conduzidos até agora com preservantes fixos em bambu, e em evidência de ensaios de estaca em madeira. Ainda não se sabe se exposição severa à chuva aumenta a probabilidade de rachadura.&quot;*</p>
+<h3>3. Por que o boro falha no solo</h3>
+<p>O texto é explícito sobre a limitação:</p>
+<blockquote><em>&quot;<strong>Boro:</strong> barato de aplicar, eficaz, <strong>mas solúvel</strong>, então elementos tratados com boro não podem ser usados externamente.&quot;</em></blockquote>
+<p>E na conclusão: <em>&quot;por causa de sua alta solubilidade em água, ele pode ser facilmente lavado, e portanto deve ser usado em áreas protegidas da chuva.&quot;</em></p>
+<p><strong>É a razão pela qual a Green School apoia os colmos em pedra de rio</strong> e projeta beirais profundos — não é estética, é química.</p>
+<h3>4. O que a nota diz sobre o fim de vida</h3>
+<p>Sobre queima de bambu com boro:</p>
+<blockquote><em>&quot;Bambu tratado com boro é seguro ao toque, porém <strong>há visões divergentes sobre se é perigoso quando queimado</strong> (as fichas de dados dizem, como regra geral, que madeira ou bambu tratado com boro não deve ser queimado, mas alguma pesquisa tem sugerido que os riscos podem ser muito menores que isso).&quot;</em></blockquote>
+<p><strong>&quot;Visões divergentes&quot; é o dado.</strong> Não é proibição nem liberação — é ausência de resposta estabelecida.</p>
+<h3>5. Contraste com preservantes fixos</h3>
+<p>O texto registra que CCA e ACA <em>&quot;devem ser evitados&quot;</em>, e que os preservantes modernos à base de cobre <em>&quot;são significativamente menos tóxicos aos humanos que as formas antigas porque não usam mais arsênio e cromo&quot;</em>. Sobre esses: <em>&quot;o bambu tratado não deve ser queimado no fim da vida porque isso pode liberar substâncias químicas perigosas.&quot;</em></p>
+<p><strong>A assimetria importa:</strong> no CCA a proibição de queima é categórica; no boro, há divergência.</p>
+<h3>6. Avaliação crítica</h3>
+<p><strong>Força:</strong> é a fonte técnica padrão, publicada por instituição de engenharia estrutural, com autoria nominal e tabela explícita. É a referência que separa o desempenho do boro por condição de exposição.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>É UMA tabela de referência</strong>, não medição própria: os autores declaram que os valores são estimativas de orientação.</li><li><strong>Assume ambiente quente e agressivo</strong> com risco de cupim e besouro; em clima ameno os números mudam.</li><li><strong>A coluna de preservantes fixos é explicitamente inferida</strong> de ensaios de estaca em madeira, não em bambu.</li><li><strong>Não separa o boro por forma química</strong> (ácido bórico, bórax, DOT).</li><li><strong>A variação depende da prevalência de cupins no local</strong>, como os autores registram.</li></ul>
+<p><strong>Referência ABNT:</strong> KAMINSKI, Sebastian; LAWRENCE, Andrew; TRUJILLO, David; KING, Charlotte. Structural use of bamboo. Part 2: Durability and preservation. <em>The Structural Engineer</em>, v. 94, n. 10, p. 38-43, 2016. DOI 10.56330/TRBW8039.</p></article><article class="ficha" id="ficha-8"><div class="ficha-head"><span class="ficha-num">FICHA 08</span><h3>Liese: preservação do bambu em serviço e o descarte de &#x27;bambu envenenado&#x27;</h3><p class="ficha-meta">ficha-academica · null · <code>liese-preservacao-bambu-em-servico.md</code></p></div><h2>&quot;Aterros comuns suportam apenas uma quantidade limitada de bambu envenenado&quot;</h2>
+<blockquote><strong>Síntese.</strong> Walter Liese, a maior autoridade em biologia do bambu, escreve que a preservação química protege o material <strong>e cria um problema que não resolve</strong>: o descarte. Os perigos vêm das <strong>soluções de tratamento, dos cortes de material tratado, do lodo da planta e da solução residual</strong>. E registra o vazio institucional: <strong>&quot;aterros de descarte aprovados dificilmente existem ou são desconhecidos&quot;</strong>.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Autor</strong></td><td data-l="Dado">Walter Liese — Cátedra de Biologia da Madeira, Univ. de Hamburgo</td></tr>
+<tr><td data-l="Campo"><strong>Páginas</strong></td><td data-l="Dado">5</td></tr>
+<tr><td data-l="Campo"><strong>Natureza</strong></td><td data-l="Dado">texto técnico de referência</td></tr>
+<tr><td data-l="Campo"><strong>Onde aparece</strong></td><td data-l="Dado">também citado como INBAR Technical Report 22 (Kumar)</td></tr>
+</tbody></table></div>
+<h3>2. Os preservantes, segundo Liese</h3>
+<ul><li><strong>Sais não fixantes</strong> são os principais: penetram por <strong>difusão</strong> e protegem o colmo inteiro.</li><li><strong>Compostos de boro são os mais usados</strong> para colmos e produtos <strong>sob cobertura</strong>, &quot;já que o contato com água ou solo pode induzir a lixiviação dos componentes tóxicos&quot;.</li><li><strong>CCA e os tipos CCB</strong> também são usados, sobretudo em empresas que já tratam madeira.</li><li><strong>Creosoto</strong> raramente é usado hoje, pelo manuseio desagradável e pelos efeitos ambientais.</li><li>Em armazenagem, aplicam-se principalmente <strong>inseticidas</strong> para proteção profilática.</li></ul>
+<h3>3. O trecho central — saúde e ambiente</h3>
+<blockquote><em>&quot;O uso de preservantes para bambu e o manuseio de produtos tratados impõem riscos potenciais a humanos, animais e ao ambiente. As precauções exigidas são frequentemente negligenciadas. Visitas a instalações de tratamento e fábricas têm mostrado com frequência uma negligência alarmante das precauções mais básicas e urgentes.</em> <em>A mesma falta de preocupação existe quanto às consequências ambientais da preservação do bambu. Embora existam regulamentos em grau variável, eles são frequentemente pouco conhecidos ou não considerados.</em> <em>Os perigos surgem de preservantes perdidos durante os preparativos, durante o tratamento, na limpeza de equipamentos e no <strong>descarte de resíduos na forma de soluções de tratamento, cortes de material tratado, lodo da planta de tratamento e descarte da solução de tratamento restante</strong>. <strong>Aterros comuns suportam apenas uma quantidade limitada de bambu envenenado. Aterros de descarte aprovados dificilmente existem ou são desconhecidos.</strong>&quot;</em></blockquote>
+<p>E a conclusão operacional: <em>&quot;já que o bambu é tratado sobretudo em áreas rurais e fora das cidades, em instalações simples e por trabalhadores sem as habilidades técnicas exigidas, <strong>o perigo de dano ambiental é considerável</strong>. Regulamentos estritos têm de ser aplicados onde quer que o bambu seja quimicamente tratado.&quot;</em></p>
+<h3>4. Controle de qualidade como ponto cego</h3>
+<p>Liese registra que o controle de qualidade <em>&quot;é componente essencial da preservação do bambu, embora muito negligenciado&quot;</em>, e cobre: qualidade do bambu a tratar, escolha do preservante e concentração, absorção exigida e distribuição no tecido do colmo.</p>
+<h3>5. Avaliação crítica</h3>
+<p><strong>Força:</strong> é a declaração mais direta localizada, na literatura técnica internacional, de que <strong>o descarte do bambu tratado não tem infraestrutura</strong>. Não é opinião de crítico: é o principal nome da área descrevendo o que viu em campo.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>Não é estudo quantitativo.</strong> É texto de referência, sem amostragem ou medição.</li><li><strong>Não separa gravidade por preservante.</strong> Trata boro, CCA, CCB e creosoto sob o mesmo guarda-chuva de &quot;quimicamente tratado&quot;.</li><li><strong>Sem data explícita no arquivo custodiado.</strong></li><li>Descreve a realidade de <strong>instalações rurais de países produtores</strong> — não mede o caso brasileiro.</li></ul>
+<p><strong>Referência ABNT:</strong> LIESE, Walter. <em>Preservation of Bamboo in Service</em>. Hamburgo: Universidade de Hamburgo, Cátedra de Biologia da Madeira. [s.d.].</p></article><article class="ficha" id="ficha-9"><div class="ficha-head"><span class="ficha-num">FICHA 09</span><h3>Modificação de bambu com ácido bórico e bórax: resistência ao apodrecimento e propriedades mecânicas</h3><p class="ficha-meta">ficha-academica · 2023 · <code>liu-2023-bambu-acido-borico-borax.md</code></p></div><h2>Bambu tratado com ácido bórico + bórax: eficácia medida contra fungos</h2>
+<blockquote><strong>Síntese.</strong> Liu (2023) tratou tiras de <em>Phyllostachys pubescens</em> (bambu moso) com solução de <strong>1,5% de ácido bórico + 3,0% de bórax</strong> (razão 1:2), por imersão de <strong>72 h</strong> à temperatura ambiente. A perda de massa por ataque fúngico caiu de <strong>62,57%</strong> (controle, fungo branco <em>Coriolus versicolor</em>) para <strong>12,74%</strong>, e de <strong>55,62%</strong> para <strong>9,64%</strong> (fungo pardo <em>Gloeophyllum trabeum</em>). A resistência à compressão <strong>aumentou 21,56%</strong>. Propriedades físicas (ganho de massa, umidade de equilíbrio, estabilidade dimensional) foram pouco afetadas. <strong>É ensaio de laboratório: não mede lixiviação nem exposição de campo.</strong></blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Espécie</strong></td><td data-l="Dado"><em>Phyllostachys pubescens</em> (moso), tiras de seção regular</td></tr>
+<tr><td data-l="Campo"><strong>Origem do material</strong></td><td data-l="Dado">Yiyang, Hunan, China</td></tr>
+<tr><td data-l="Campo"><strong>Reagentes</strong></td><td data-l="Dado">ácido bórico 99,5% e bórax 99,0% (Aladdin, Xangai), sem purificação adicional</td></tr>
+<tr><td data-l="Campo"><strong>Solução</strong></td><td data-l="Dado"><strong>1,5 wt.% ácido bórico + 3,0 wt.% bórax</strong> (razão 1:2)</td></tr>
+<tr><td data-l="Campo"><strong>Aplicação</strong></td><td data-l="Dado">imersão <strong>72 h</strong> em temperatura ambiente</td></tr>
+<tr><td data-l="Campo"><strong>Secagem</strong></td><td data-l="Dado">60 °C e 80 °C por 2 h, depois 103 °C até massa seca</td></tr>
+<tr><td data-l="Campo"><strong>Normas de ensaio</strong></td><td data-l="Dado">GB/T 1928 (2009); GB/T 15780 (1995); GB/T 13942.1 (2009)</td></tr>
+<tr><td data-l="Campo"><strong>Fungos</strong></td><td data-l="Dado"><em>Coriolus versicolor</em> (podridão branca) e <em>Gloeophyllum trabeum</em> (podridão parda)</td></tr>
+<tr><td data-l="Campo"><strong>DOI</strong></td><td data-l="Dado"><a href=&quot;https://doi.org/10.15376/biores.18.1.100-110&quot;>10.15376/biores.18.1.100-110</a></td></tr>
+</tbody></table></div>
+<h3>2. Resultados medidos</h3>
+<h4>2.1 Resistência ao apodrecimento (Tabela 4)</h4>
+<div class="tabwrap"><table><thead><tr><th>Fungo</th><th>Controle — perda de massa</th><th>Tratado — perda de massa</th></tr></thead><tbody>
+<tr><td data-l="Fungo"><em>Coriolus versicolor</em></td><td data-l="Controle — perda de massa"><strong>62,57 ± 9,86%</strong></td><td data-l="Tratado — perda de massa"><strong>12,74 ± 1,65%</strong></td></tr>
+<tr><td data-l="Fungo"><em>Gloeophyllum trabeum</em></td><td data-l="Controle — perda de massa"><strong>55,62 ± 11,53%</strong></td><td data-l="Tratado — perda de massa"><strong>9,64 ± 1,46%</strong></td></tr>
+</tbody></table></div>
+<p>O autor resume como <strong>melhora superior a 80%</strong> na eficácia de resistência.</p>
+<h4>2.2 Propriedades mecânicas (Tabela 3)</h4>
+<div class="tabwrap"><table><thead><tr><th>Propriedade</th><th>Controle</th><th>Tratado</th><th>Variação</th></tr></thead><tbody>
+<tr><td data-l="Propriedade">MOE (GPa)</td><td data-l="Controle">9,31 ± 0,84</td><td data-l="Tratado">9,54 ± 0,71</td><td data-l="Variação">+2,5%</td></tr>
+<tr><td data-l="Propriedade">MOR (MPa)</td><td data-l="Controle">128,76 ± 10,92</td><td data-l="Tratado">135,34 ± 7,43</td><td data-l="Variação">+5,1%</td></tr>
+<tr><td data-l="Propriedade"><strong>CS — compressão (MPa)</strong></td><td data-l="Controle">59,52 ± 2,41</td><td data-l="Tratado"><strong>72,35 ± 1,77</strong></td><td data-l="Variação"><strong>+21,56%</strong></td></tr>
+</tbody></table></div>
+<h4>2.3 Propriedades físicas</h4>
+<p>O autor registra que <strong>ganho de massa (WPG), umidade de equilíbrio (EMC), estabilidade dimensional e propriedades de flexão foram pouco afetadas</strong> — e sugere combinar com outro agente de modificação química para melhorá-las.</p>
+<h3>3. O que este ensaio sustenta</h3>
+<p><strong>Sustenta:</strong></p>
+<ul><li>O boro é <strong>eficaz contra fungos de podridão branca e parda</strong> em bambu, em laboratório, nas concentrações usadas.</li><li>O tratamento <strong>não degrada a compressão</strong> — ao contrário, aumenta.</li><li>Formulação e tempo de imersão são <strong>declarados e reproduzíveis</strong> (1,5% BA + 3,0% BX, 72 h) — dado que falta em quase toda a literatura de campo.</li></ul>
+<p><strong>NÃO sustenta:</strong></p>
+<ul><li><strong>Permanência.</strong> O ensaio <strong>não faz lixiviação</strong>. Não há ciclo de lavagem, não há medição de retenção após exposição à umidade. Quem usar este resultado para afirmar durabilidade de campo está extrapolando.</li><li><strong>Comparação com norma.</strong> Não cita AWPA, IS 401 ou qualquer alvo de retenção.</li><li><strong>Exposição humana.</strong> Não mede operador, poeira, efluente ou resíduo.</li><li><strong>Generalização.</strong> É <strong>uma</strong> espécie, <strong>uma</strong> formulação, <strong>um</strong> laboratório.</li></ul>
+<h3>4. Avaliação crítica</h3>
+<p><strong>Força:</strong> os dados brutos das tabelas estão completos, com desvio-padrão e número de corpos de prova. As normas de ensaio são chinesas e declaradas. A formulação é reproduzível.</p>
+<p><strong>Limitação metodológica importante:</strong> a solução é <strong>diluída</strong> (1,5% + 3,0%) e a aplicação é por <strong>imersão passiva</strong>, não por vácuo-pressão. Isso é muito diferente do banho artesanal brasileiro (5 kg + 5 kg em 100 L, ver §9.6 da peça principal) e do processo industrial de autoclave. Os números <strong>não são transportáveis</strong> entre escalas.</p>
+<p><strong>Assimetria de leitura que a gaveta registra:</strong> esta é a evidência de que o boro <strong>funciona</strong>. Não é evidência de que ele <strong>permaneça</strong>. As duas coisas circulam juntas na divulgação e precisam ficar separadas — eficácia em laboratório e retenção sob umidade são perguntas distintas, com fontes distintas (ver Gauss 2020 para lixiviação).</p>
+<p><strong>Referência ABNT:</strong> LIU, Tiesheng. Improvements in the physical properties and decay resistance of bamboo materials via modification with boric acid and borax. <em>BioResources</em>, v. 18, n. 1, p. 100-110, 2023. DOI: 10.15376/biores.18.1.100-110.</p></article><article class="ficha" id="ficha-10"><div class="ficha-head"><span class="ficha-num">FICHA 10</span><h3>Boro na alimentação e em suplementos — o que o NIH registra e o que ele não estabelece</h3><p class="ficha-meta">ficha-tecnica-de-produto · 2026 · <code>nih-ods-2026-boro-suplemento.md</code></p></div><h2>Boro não é nutriente essencial — e o limite é 20 mg/dia</h2>
+<blockquote><strong>Síntese.</strong> O NIH declara, em texto direto: <strong>&quot;o boro não é classificado como nutriente essencial para humanos&quot;</strong>, porque a pesquisa &quot;ainda não identificou uma função biológica clara&quot;. O FNB considerou os dados <strong>insuficientes para derivar RDA, AI ou EAR</strong>. O que existe é <strong>limite superior (UL) de 20 mg/dia</strong> para adultos, e doses usuais de suplemento de <strong>0,15 a 6 mg de boro elementar</strong>. Dose fatal estimada: <strong>15.000 a 20.000 mg</strong>.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Documento</strong></td><td data-l="Dado"><em>Boron — Health Professional Fact Sheet</em></td></tr>
+<tr><td data-l="Campo"><strong>Emissor</strong></td><td data-l="Dado">NIH Office of Dietary Supplements</td></tr>
+<tr><td data-l="Campo"><strong>Snapshot</strong></td><td data-l="Dado">2026-11-16</td></tr>
+<tr><td data-l="Campo"><strong>Natureza</strong></td><td data-l="Dado">ficha de referência nutricional</td></tr>
+</tbody></table></div>
+<h3>2. O que não existe</h3>
+<ul><li><strong>RDA</strong> (dose diária recomendada): <strong>não estabelecida</strong> — dados insuficientes.</li><li><strong>AI</strong> (ingestão adequada): <strong>não estabelecida</strong>.</li><li><strong>EAR</strong> (necessidade média estimada): <strong>não estabelecida</strong>.</li><li><strong>Classificação como nutriente essencial:</strong> <strong>não</strong>.</li></ul>
+<p>O texto é explícito sobre a razão: a pesquisa <strong>não identificou função biológica clara</strong> do boro em humanos. O documento menciona que ele &quot;pode ter efeitos benéficos&quot; em funções como reprodução e desenvolvimento ósseo — <strong>pode</strong>, não &quot;é essencial&quot;.</p>
+<p><strong>O boro é essencial para plantas</strong> (componente estrutural da parede celular, necessário ao crescimento, polinização e formação de sementes). <strong>Para plantas, sim; para humanos, não é assim classificado.</strong> As duas coisas costumam ser confundidas.</p>
+<h3>3. Limites superiores (UL) por idade</h3>
+<div class="tabwrap"><table><thead><tr><th>Faixa</th><th>UL (mg de boro/dia)</th></tr></thead><tbody>
+<tr><td data-l="Faixa">0–6 meses</td><td data-l="UL (mg de boro/dia)">não estabelecido</td></tr>
+<tr><td data-l="Faixa">7–12 meses</td><td data-l="UL (mg de boro/dia)">não estabelecido</td></tr>
+<tr><td data-l="Faixa">1–3 anos</td><td data-l="UL (mg de boro/dia)"><strong>3</strong></td></tr>
+<tr><td data-l="Faixa">4–8 anos</td><td data-l="UL (mg de boro/dia)"><strong>6</strong></td></tr>
+<tr><td data-l="Faixa">9–13 anos</td><td data-l="UL (mg de boro/dia)"><strong>11</strong></td></tr>
+<tr><td data-l="Faixa">14–18 anos</td><td data-l="UL (mg de boro/dia)"><strong>17</strong></td></tr>
+<tr><td data-l="Faixa"><strong>19+ anos</strong></td><td data-l="UL (mg de boro/dia)"><strong>20</strong></td></tr>
+</tbody></table></div>
+<p>\* Para lactentes, leite materno, fórmula e alimento devem ser as únicas fontes. Os ULs foram estabelecidos com base em níveis associados a <strong>efeitos reprodutivos e de desenvolvimento em animais</strong>.</p>
+<h3>4. Doses e referências</h3>
+<div class="tabwrap"><table><thead><tr><th>Dado</th><th>Valor</th></tr></thead><tbody>
+<tr><td data-l="Dado">Dose usual em suplemento</td><td data-l="Valor"><strong>0,15 a 6 mg de boro elementar</strong></td></tr>
+<tr><td data-l="Dado">Faixa segura estimada pela OMS (adulto)</td><td data-l="Valor"><strong>1 a 13 mg/dia</strong></td></tr>
+<tr><td data-l="Dado">Dose fatal estimada (adulto)</td><td data-l="Valor"><strong>15.000 a 20.000 mg</strong></td></tr>
+<tr><td data-l="Dado">Consumo acidental registrado</td><td data-l="Valor">18 a 9.713 mg, a maioria crianças menores de 6 anos</td></tr>
+</tbody></table></div>
+<h3>5. Sintomas de toxicidade registrados</h3>
+<p>Desconforto gastrointestinal, vômito, diarreia, rubor cutâneo, erupção, excitação, convulsões, depressão e colapso vascular. Também: dor de cabeça, hipotermia, inquietação, fadiga, lesão renal, dermatite, alopecia, anorexia e indigestão.</p>
+<h3>6. Avaliação crítica</h3>
+<p><strong>Força:</strong> é a fonte que estabelece, com clareza, <strong>a ausência de necessidade nutricional reconhecida</strong> e os limites superiores por idade. Desarma tanto o argumento &quot;boro é essencial, todo mundo precisa&quot; quanto o &quot;suplemento é inofensivo&quot;.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>É referência nutricional americana</strong>, não norma brasileira.</li><li><strong>Não trata de exposição ocupacional, resíduo ou meio ambiente.</strong></li><li>A faixa &quot;1 a 13 mg/dia&quot; é <strong>estimativa da OMS citada pelo NIH</strong>, não valor regulatório americano.</li></ul>
+<p><strong>Referência ABNT:</strong> NATIONAL INSTITUTES OF HEALTH. Office of Dietary Supplements. <em>Boron — Health Professional Fact Sheet</em>. Bethesda: NIH, 2026.</p></article><article class="ficha" id="ficha-11"><div class="ficha-head"><span class="ficha-num">FICHA 11</span><h3>Limites de exposição NIOSH para boratos — por forma química, não por boro</h3><p class="ficha-meta">norma-ou-regulamento · 2026 · <code>niosh-2026-boratos-limites-forma.md</code></p></div><h2>NIOSH — cada borato tem seu próprio limite</h2>
+<blockquote><strong>Síntese.</strong> O NIOSH fixa limites de exposição (<strong>REL</strong>) <strong>por forma química</strong>, e eles são muito diferentes entre si: <strong>5 mg/m³</strong> para o bórax decahidratado, <strong>1 mg/m³</strong> para o tetraborato anidro e <strong>1 mg/m³</strong> para o pentahidratado. Como cada forma tem teor de boro distinto, o <strong>teto de boro</strong> resultante varia de <strong>~0,15 a ~0,57 mg B/m³</strong> — uma diferença de quase quatro vezes. Trocar o limite de uma forma pelo teor de outra produz número falso.</blockquote>
+<h3>1. Os limites, por forma</h3>
+<div class="tabwrap"><table><thead><tr><th>Forma química</th><th>REL NIOSH (10 h TWA)</th><th>Teor de B</th><th>Teto de boro resultante</th></tr></thead><tbody>
+<tr><td data-l="Forma química"><strong>bórax decahidratado</strong> (Na₂B₄O₇·10H₂O)</td><td data-l="REL NIOSH (10 h TWA)"><strong>5 mg/m³</strong></td><td data-l="Teor de B"><strong>11,3%</strong></td><td data-l="Teto de boro resultante"><strong>~0,57 mg B/m³</strong></td></tr>
+<tr><td data-l="Forma química"><strong>tetraborato anidro</strong> (Na₂B₄O₇)</td><td data-l="REL NIOSH (10 h TWA)"><strong>1 mg/m³</strong></td><td data-l="Teor de B"><strong>21,5%</strong></td><td data-l="Teto de boro resultante"><strong>~0,21 mg B/m³</strong></td></tr>
+<tr><td data-l="Forma química"><strong>tetraborato pentahidratado</strong> (Na₂B₄O₇·5H₂O)</td><td data-l="REL NIOSH (10 h TWA)"><strong>1 mg/m³</strong></td><td data-l="Teor de B"><strong>~14,9%</strong></td><td data-l="Teto de boro resultante"><strong>~0,15 mg B/m³</strong></td></tr>
+</tbody></table></div>
+<p><em>Os três valores de REL foram conferidos nas fichas NIOSH Pocket Guide custodiadas, não em resumo de terceiro.</em></p>
+<h3>2. A comparação que muda a leitura</h3>
+<p>O MRL de inalação aguda do ATSDR é <strong>0,3 mg B/m³</strong> (ficha própria).</p>
+<ul><li><strong>Bórax decahidratado:</strong> teto de <strong>0,57</strong> mg B/m³ — <strong>acima</strong> do MRL;</li><li><strong>Anidro e pentahidratado:</strong> tetos de <strong>0,21</strong> e <strong>0,15</strong> — <strong>abaixo</strong> do MRL.</li></ul>
+<p><strong>Consequência:</strong> <strong>não se pode afirmar</strong> que cumprir o limite de poeira mantém o boro abaixo do nível de triagem. <strong>Depende da forma química.</strong></p>
+<p>E o MRL é <strong>agudo (até 14 dias)</strong> — não é limite ocupacional nem valor regulatório. A comparação é de ordem de grandeza, não de conformidade.</p>
+<h3>3. Outros limites da mesma família (para contraste)</h3>
+<div class="tabwrap"><table><thead><tr><th>Norma</th><th>Substância</th><th>Limite</th><th>Métrica</th></tr></thead><tbody>
+<tr><td data-l="Norma">OSHA PEL</td><td data-l="Substância">óxido de boro, poeira total</td><td data-l="Limite">15 mg/m³</td><td data-l="Métrica">8 h TWA</td></tr>
+<tr><td data-l="Norma">ACGIH TLV</td><td data-l="Substância">boratos inorgânicos (bórax, ác. bórico, tetraborato)</td><td data-l="Limite">2 mg/m³</td><td data-l="Métrica">8 h TWA</td></tr>
+<tr><td data-l="Norma">ACGIH STEL</td><td data-l="Substância">idem</td><td data-l="Limite">6 mg/m³</td><td data-l="Métrica">15 min</td></tr>
+</tbody></table></div>
+<p><strong>Todos são limites de poeira total</strong>, não de boro. É por isso que a conversão depende do teor de cada sal.</p>
+<h3>4. Avaliação crítica</h3>
+<p><strong>Força:</strong> é a única fonte desta gaveta que separa limite <strong>por forma química</strong>, e é exatamente aí que a maioria dos textos erra — misturando o limite de um sal com o teor de boro de outro.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>Limite de poeira total, não de boro.</strong> Converter exige o teor de cada forma.</li><li><strong>Não é limite brasileiro.</strong> Nenhum limite da NR-15 para boratos foi localizado nesta rodada — pendência declarada, não afirmação de inexistência.</li><li>Os limites são ocupacionais: <strong>não dizem nada sobre exposição doméstica</strong>.</li></ul>
+<p><strong>Referência ABNT:</strong> NATIONAL INSTITUTE FOR OCCUPATIONAL SAFETY AND HEALTH. <em>NIOSH Pocket Guide to Chemical Hazards</em>: sodium borate (tetra), anhydrous; borax (decahydrate); sodium borate (tetra), pentahydrate. Atlanta: CDC/NIOSH, 2026.</p></article><article class="ficha" id="ficha-12"><div class="ficha-head"><span class="ficha-num">FICHA 12</span><h3>Bambu tratado com CCB em campo por 5 anos: durabilidade e o limite de atribuir lixiviação</h3><p class="ficha-meta">ficha-academica · 2023 · <code>rusch-2023-ccb-bambu-5-anos-campo.md</code></p></div><h2>CCB em bambu, 5 anos em campo — e o limite que os próprios autores declaram</h2>
+<blockquote><strong>Síntese.</strong> Rusch et al. (2023) trataram hastes de <em>Dendrocalamus asper</em> por <strong>imersão em CCB a 1% e 3%</strong> e as mantiveram em campo de apodrecimento por <strong>5 anos</strong>. O bambu tratado <strong>não apresentou degradação biológica</strong>; o controle (imersão em água) chegou a <strong>índice de deterioração de 80% a 100%</strong> — perda quase total de resistência. A parte inferior das hastes, em contato com o solo, apresentou <strong>maior teor de cobre e cromo</strong> que a parte aérea. <strong>Mas os autores declaram explicitamente que &quot;não é possível afirmar que a presença de metais no solo é indicativo de lixiviação&quot;</strong> — a variabilidade é alta (CV 66% para cromo) e o solo da região já tem concentrações semelhantes.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Espécie</strong></td><td data-l="Dado"><em>Dendrocalamus asper</em></td></tr>
+<tr><td data-l="Campo"><strong>Material</strong></td><td data-l="Dado">12 hastes, diâmetro 10–15 cm</td></tr>
+<tr><td data-l="Campo"><strong>Preservante</strong></td><td data-l="Dado"><strong>CCB — borato de cobre cromatado</strong></td></tr>
+<tr><td data-l="Campo"><strong>Concentrações</strong></td><td data-l="Dado"><strong>1% e 3%</strong> + controle (imersão em água)</td></tr>
+<tr><td data-l="Campo"><strong>Aplicação</strong></td><td data-l="Dado">imersão</td></tr>
+<tr><td data-l="Campo"><strong>Duração em campo</strong></td><td data-l="Dado"><strong>5 anos</strong></td></tr>
+<tr><td data-l="Campo"><strong>Análise</strong></td><td data-l="Dado">avaliação visual (Vivian et al. 2014) + espectrometria de amostras do bambu e do solo da cova</td></tr>
+<tr><td data-l="Campo"><strong>Estatística</strong></td><td data-l="Dado">ANOVA + Tukey 5%, após teste de normalidade</td></tr>
+<tr><td data-l="Campo"><strong>Publicação</strong></td><td data-l="Dado">Pesquisa Florestal Brasileira, v. 43, e202102187, 2023</td></tr>
+</tbody></table></div>
+<h3>2. Composição do CCB nesta fonte</h3>
+<p>O artigo declara a formulação conforme ABNT (2013):</p>
+<div class="tabwrap"><table><thead><tr><th>Componente</th><th>Percentual</th></tr></thead><tbody>
+<tr><td data-l="Componente">sulfato de cobre</td><td data-l="Percentual"><strong>26%</strong></td></tr>
+<tr><td data-l="Componente">dicromato de potássio</td><td data-l="Percentual"><strong>63,5%</strong></td></tr>
+<tr><td data-l="Componente"><strong>ácido bórico</strong></td><td data-l="Percentual"><strong>10,5%</strong></td></tr>
+</tbody></table></div>
+<p><strong>Consequência de escopo:</strong> o CCB é um sistema <strong>misto</strong> — cobre + cromo + boro. Esta fonte <strong>entra na gaveta boro pelo componente boratado</strong>, mas <strong>não mede boro</strong>: as análises de espectrometria do solo e do material avaliam <strong>cobre e cromo</strong>. É a assimetria central desta ficha.</p>
+<h3>3. Resultados</h3>
+<ul><li><strong>Bambu tratado (1% e 3%):</strong> sem degradação biológica após 5 anos. A deterioração foi menor com 1% que no controle e <strong>reduziu ainda mais com 3%</strong>.</li><li><strong>Controle (imersão em água):</strong> &quot;praticamente não apresentou resistência&quot;, com índice de deterioração entre <strong>80% e 100%</strong>.</li><li><strong>Solo:</strong> concentrações de metais foram mais expressivas nos locais com material tratado, e a parte inferior das hastes (em contato direto com o solo) teve maior teor que a parte aérea. Coeficientes de variação: <strong>cobre 14%</strong>, <strong>cromo 66%</strong>.</li></ul>
+<h3>4. O limite que os autores declaram — e que a divulgação costuma apagar</h3>
+<p>Os autores escrevem, em discussão, que <strong>não é possível afirmar</strong> que a presença de metais no solo indica lixiviação do CCB, porque:</p>
+<ol><li>trabalhos anteriores sobre concentrações de metais no solo <strong>do mesmo município e da região</strong> encontraram resultados semelhantes;</li><li>a concentração de <strong>cromo foi semelhante</strong> entre os locais de coleta, incluindo covas com bambu tratado e <strong>não tratado</strong>;</li><li>a variabilidade é alta (CV 66% para cromo) — o dado tem característica de normalidade, mas a dispersão limita a inferência.</li></ol>
+<p><strong>Esta ficha registra a ressalva com o mesmo peso do resultado.</strong> Uma leitura que diga &quot;o CCB lixiviou cobre e cromo para o solo em 5 anos&quot; <strong>não é sustentada por este artigo</strong> — é o oposto do que os autores afirmam. O que o artigo sustenta é: <strong>tratamento funcionou</strong>; <strong>há diferença de teor entre parte enterrada e parte aérea</strong>; e <strong>atribuir essa diferença a lixiviação é o que ele não faz</strong>.</p>
+<h3>5. Avaliação crítica</h3>
+<p><strong>Força:</strong> é <strong>ensaio de campo com 5 anos</strong> — raridade na literatura de bambu tratado, que é quase toda de laboratório. Comparação com controle apropriado. Formulação declarada com percentuais. Estatística declarada.</p>
+<p><strong>Limitações:</strong></p>
+<ul><li><strong>Não mede boro.</strong> Mede cobre e cromo. O componente boratado do CCB entra na discussão, não na análise.</li><li><strong>12 amostras</strong> — número pequeno para inferência sobre solo.</li><li><strong>Avaliação visual</strong> como desfecho principal de durabilidade, não perda de massa normatizada.</li><li>Imersão, não vácuo-pressão — escala artesanal, não industrial.</li></ul>
+<p><strong>Uso no acervo:</strong> esta ficha serve a dois propósitos na gaveta BORO — (a) mostrar que o boro participa de sistemas preservantes <strong>mistos</strong>, não só de banhos isolados; (b) servir de <strong>contraexemplo metodológico</strong>: um trabalho de campo real que, tendo dados de solo, <strong>recusa</strong> a conclusão fácil. É o padrão de rigor que a gaveta exige de si.</p>
+<p><strong>Referência ABNT:</strong> RUSCH, Fernando; CANDATEN, Luana; BANDERA, Eduarda; MANGINI, Tauana de Souza; ZANCHETTA, Laura da Silva; TREVISAN, Rômulo; WASTOWSKI, Arci Dirceu. Tratamento químico, durabilidade e lixiviação de bambu tratado e submetido a ensaio em campo de apodrecimento. <em>Pesquisa Florestal Brasileira</em>, Colombo, v. 43, e202102187, p. 1-8, 2023.</p></article><article class="ficha" id="ficha-13"><div class="ficha-head"><span class="ficha-num">FICHA 13</span><h3>Classificação CLP do ácido bórico e dos boratos — Repr. 1B, H360FD</h3><p class="ficha-meta">norma-ou-regulamento · 2023 · <code>ue-2023-clp-repr-1b-h360fd.md</code></p></div><h2>O que a lei europeia diz sobre o boro — e não é &quot;cancerígeno&quot;</h2>
+<blockquote><strong>Síntese.</strong> O Regulamento Delegado (UE) 2023/1435 classifica, no anexo VI do CLP, <strong>quatro entradas</strong> de boro como <strong>Repr. 1B, H360FD</strong>: ácido bórico (CAS 10043-35-3), trióxido de diboro (CAS 1303-86-2) e o grupo dos tetraboratos de dissódio — anidro (1330-43-4), deca-hidratado (1303-96-4) e penta-hidratado (12179-04-3). Aplica-se a partir de <strong>1º de fevereiro de 2025</strong>.</blockquote>
+<h3>1. As quatro entradas</h3>
+<div class="tabwrap"><table><thead><tr><th>Índice</th><th>Substância</th><th>CAS</th><th>Classificação</th></tr></thead><tbody>
+<tr><td data-l="Índice"><strong>005-007-00-2</strong></td><td data-l="Substância">ácido bórico (e ácido ortobórico)</td><td data-l="CAS"><strong>10043-35-3</strong> / 11113-50-1</td><td data-l="Classificação"><strong>Repr. 1B, H360FD</strong></td></tr>
+<tr><td data-l="Índice"><strong>005-008-00-8</strong></td><td data-l="Substância">trióxido de diboro</td><td data-l="CAS"><strong>1303-86-2</strong></td><td data-l="Classificação"><strong>Repr. 1B, H360FD</strong></td></tr>
+<tr><td data-l="Índice"><strong>005-011-00-4</strong></td><td data-l="Substância">tetraborato de dissódio (anidro, deca, penta; e heptóxido de tetraboro e dissódio hidratado)</td><td data-l="CAS"><strong>1330-43-4 / 1303-96-4 / 12179-04-3</strong></td><td data-l="Classificação"><strong>Repr. 1B, H360FD</strong></td></tr>
+</tbody></table></div>
+<p>Todas com pictograma <strong>GHS08</strong>, palavra-sinal <strong>Dgr</strong> (perigo) e advertência <strong>H360FD</strong>.</p>
+<h3>2. O que H360FD significa</h3>
+<p><strong>Repr. 1B</strong> = substância <strong>reconhecidamente tóxica para a reprodução humana</strong> (categoria 1B: presunção forte, baseada sobretudo em dados de animais).</p>
+<p><strong>H360FD</strong> desdobra-se em duas frases:</p>
+<ul><li><strong>H360F</strong> — &quot;Pode prejudicar a fertilidade&quot;;</li><li><strong>H360D</strong> — &quot;Pode prejudicar o feto&quot;.</li></ul>
+<h3>3. A distinção que resolve a confusão mais comum</h3>
+<p><strong>Toxicidade reprodutiva não é carcinogenicidade.</strong> São categorias diferentes do sistema CLP, com desfechos diferentes:</p>
+<ul><li><strong>Carc. (carcinogenicidade)</strong> = pode causar câncer. <strong>O boro não está classificado assim</strong> por esta norma.</li><li><strong>Repr. (toxicidade reprodutiva)</strong> = pode prejudicar a fertilidade ou o feto. <strong>É aqui que o boro está.</strong></li></ul>
+<p>Dizer que o boro &quot;é cancerígeno&quot; contraria a norma. Dizer que ele &quot;é seguro porque não é cancerígeno&quot; contraria a norma igualmente — ignora a classificação que existe.</p>
+<h3>4. Nota sobre versões anteriores</h3>
+<p>O documento do EMA de 2021 (ficha própria nesta gaveta) cita <strong>Repr. cat. 2</strong> no enquadramento <strong>então usado</strong>. Isso <strong>não</strong> é a classificação harmonizada vigente: o regulamento de 2023 substituiu as entradas e elevou a classificação. Quem citar &quot;cat. 2&quot; está citando o estado anterior à fevereiro de 2025.</p>
+<h3>5. Avaliação crítica</h3>
+<p><strong>Força:</strong> é norma vinculante, com número de índice, CAS e código de perigo — o padrão mais alto de rastreabilidade desta gaveta. Não é opinião de órgão consultivo: é regulamento.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>Classificação não é limite de exposição.</strong> Diz o que a substância é, não quanto se pode ingerir. Para dose, a régua é o EMA/ATSDR.</li><li><strong>Vale na União Europeia.</strong> O Brasil tem enquadramento próprio (ANVISA para medicamento; NR-15 para ocupacional — este último não localizado para boratos).</li><li><strong>Não distingue gravidade por via</strong> — a classificação é da substância.</li></ul>
+<p><strong>Referência ABNT:</strong> UNIÃO EUROPEIA. <em>Regulamento Delegado (UE) 2023/1435 da Comissão, de 1 de junho de 2023</em>, que altera o anexo VI do Regulamento (CE) n.º 1272/2008. Jornal Oficial da União Europeia, 2023.</p></article><article class="ficha" id="ficha-14"><div class="ficha-head"><span class="ficha-num">FICHA 14</span><h3>Boro — resumo de commodity do serviço geológico dos EUA (MCS 2026)</h3><p class="ficha-meta">ficha-tecnica-de-produto · 2026 · <code>usgs-2026-boro-commodity-summary.md</code></p></div><h2>Boro — o retrato institucional da oferta mundial</h2>
+<blockquote><strong>Síntese.</strong> O USGS registra que o boro <strong>não ocorre na natureza em estado elementar</strong>: combina-se com oxigênio formando ácido bórico ou sais chamados boratos, e os produtos são cotados por <strong>teor de óxido bórico (B₂O₃)</strong>. <strong>Quatro minerais</strong> — colemanita, kernita, tincal e ulexita — respondem por <strong>90%</strong> dos minerais boratados usados pela indústria. <strong>Mais de três quartos</strong> do consumo mundial vai para cerâmicas, detergentes, fertilizantes e vidro. As maiores jazidas economicamente viáveis estão no <strong>deserto de Mojave, no cinturão Alpide e no cinturão Andino</strong>. A <strong>Turquia</strong> detém <strong>950.000 kt</strong> de reservas listadas.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Documento</strong></td><td data-l="Dado"><em>Mineral Commodity Summaries 2026</em> — capítulo Boron</td></tr>
+<tr><td data-l="Campo"><strong>Autor</strong></td><td data-l="Dado">Amanda S. Brioche, USGS</td></tr>
+<tr><td data-l="Campo"><strong>Páginas</strong></td><td data-l="Dado">2</td></tr>
+<tr><td data-l="Campo"><strong>Natureza</strong></td><td data-l="Dado">resumo anual de commodity — não é avaliação toxicológica</td></tr>
+<tr><td data-l="Campo"><strong>Fonte</strong></td><td data-l="Dado">PDF integral custodiado</td></tr>
+</tbody></table></div>
+<h3>2. Produção e reservas — tabela do USGS</h3>
+<div class="tabwrap"><table><thead><tr><th>País (forma)</th><th>Produção 2024 (kt)</th><th>Produção 2025 (kt)</th><th>Reservas (kt)</th></tr></thead><tbody>
+<tr><td data-l="País (forma)">Turquia (boratos refinados)</td><td data-l="Produção 2024 (kt)">1.800</td><td data-l="Produção 2025 (kt)"><strong>1.500</strong></td><td data-l="Reservas (kt)"><strong>950.000</strong></td></tr>
+<tr><td data-l="País (forma)">Rússia (datolita)</td><td data-l="Produção 2024 (kt)">90</td><td data-l="Produção 2025 (kt)">80</td><td data-l="Reservas (kt)">40.000</td></tr>
+<tr><td data-l="País (forma)">Estados Unidos</td><td data-l="Produção 2024 (kt)">W</td><td data-l="Produção 2025 (kt)">W</td><td data-l="Reservas (kt)">48.000</td></tr>
+<tr><td data-l="País (forma)">Chile (ulexita)</td><td data-l="Produção 2024 (kt)">470</td><td data-l="Produção 2025 (kt)">300</td><td data-l="Reservas (kt)">35.000</td></tr>
+<tr><td data-l="País (forma)">China (equivalente B₂O₃)</td><td data-l="Produção 2024 (kt)">210</td><td data-l="Produção 2025 (kt)">230</td><td data-l="Reservas (kt)">9.100</td></tr>
+<tr><td data-l="País (forma)">Peru (boratos brutos)</td><td data-l="Produção 2024 (kt)">190</td><td data-l="Produção 2025 (kt)">220</td><td data-l="Reservas (kt)">4.000</td></tr>
+<tr><td data-l="País (forma)">Bolívia (ulexita)</td><td data-l="Produção 2024 (kt)">230</td><td data-l="Produção 2025 (kt)">380</td><td data-l="Reservas (kt)">NA</td></tr>
+<tr><td data-l="País (forma)">Argentina (minério bruto)</td><td data-l="Produção 2024 (kt)">160</td><td data-l="Produção 2025 (kt)">170</td><td data-l="Reservas (kt)">NA</td></tr>
+<tr><td data-l="País (forma)">Alemanha (compostos)</td><td data-l="Produção 2024 (kt)">45</td><td data-l="Produção 2025 (kt)">40</td><td data-l="Reservas (kt)">NA</td></tr>
+<tr><td data-l="País (forma)"><strong>Total mundial</strong></td><td data-l="Produção 2024 (kt)"><strong>XX</strong></td><td data-l="Produção 2025 (kt)"><strong>XX</strong></td><td data-l="Reservas (kt)"><strong>XX</strong></td></tr>
+</tbody></table></div>
+<p><strong>W</strong> = omitido para não revelar dado proprietário. <strong>NA</strong> = não disponível. <strong>XX</strong> = não divulgado.</p>
+<p><strong>O &quot;XX&quot; no total mundial é a informação mais importante desta tabela.</strong> A própria USGS <strong>não calcula</strong> total mundial, porque os países reportam formas diferentes de boro — minério bruto, ulexita, equivalente B₂O₃, compostos. <strong>Os números não se somam.</strong> Dizer &quot;a Turquia tem 87% do boro do mundo&quot; é falso: 950.000 dividido pela soma dos listados dá 87,5% <strong>do que a tabela declara</strong>, não das reservas mundiais.</p>
+<h3>3. Onde estão as jazidas</h3>
+<p>O USGS descreve depósitos associados a <strong>atividade vulcânica e climas áridos</strong>, com as maiores jazidas economicamente viáveis em três faixas:</p>
+<ol><li><strong>Deserto de Mojave</strong>, Estados Unidos;</li><li><strong>cinturão Alpide</strong>, na margem sul da Eurásia;</li><li><strong>cinturão Andino</strong>, América do Sul.</li></ol>
+<p>Cerca de <strong>70%</strong> dos depósitos da Turquia são <strong>colemanita</strong>, usada sobretudo na produção de vidro resistente ao calor.</p>
+<p><strong>O que esta fonte NÃO diz:</strong> não menciona Yellowstone. Não lista o Paquistão entre os países produtores nem entre os detentores de reservas. Uma afirmação de que as maiores jazidas estariam nesses dois lugares <strong>não tem respaldo nesta fonte</strong>.</p>
+<h3>4. Consumo e dependência</h3>
+<ul><li><strong>Mais de três quartos</strong> do consumo mundial: <strong>cerâmicas, detergentes, fertilizantes e vidro</strong>.</li><li>Boratos aparecem em <strong>mais de 300 aplicações</strong>, mas isso não significa participação relevante em massa.</li><li><strong>Importações dos EUA (2021–24), todas as formas:</strong> Turquia <strong>90%</strong>, Bolívia 6%, outros 4%.</li><li>EUA são <strong>exportador líquido</strong> (E).</li><li><strong>Reciclagem: insignificante.</strong></li><li>&quot;Aos níveis atuais de consumo, <strong>os recursos mundiais são adequados para o futuro previsível</strong>.&quot;</li></ul>
+<h3>5. Avaliação crítica</h3>
+<p><strong>Força:</strong> é a fonte institucional padrão para produção e reservas, publicada anualmente, com autoria nominal e data. Toda cifra desta gaveta sobre oferta sai daqui.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>Não calcula total mundial</strong> — os números não se somam, por decisão declarada.</li><li><strong>Omite dados dos EUA</strong> (produção, consumo, consumo aparente) por sigilo comercial.</li><li><strong>Não trata de toxicologia, exposição ou resíduo.</strong> É oferta, não saúde.</li><li>Participações de uso por segmento <strong>não são quantificadas</strong> aqui — apenas a ordem de grandeza dos &quot;três quartos&quot;.</li></ul>
+<p><strong>Uso no acervo:</strong> base de toda afirmação sobre reservas, produção, concentração de fornecedor e destino de consumo. <strong>É a fonte que refuta Yellowstone e Paquistão</strong> — não por contradizê-los, mas por não os listar onde listaria.</p>
+<p><strong>Referência ABNT:</strong> BRIOCHE, Amanda S. Boron. In: U.S. GEOLOGICAL SURVEY. <em>Mineral Commodity Summaries 2026</em>. Reston: USGS, 2026. cap. Boron, p. 1-2.</p></article><article class="ficha" id="ficha-15"><div class="ficha-head"><span class="ficha-num">FICHA 15</span><h3>Boro na água de consumo — valor de referência da OMS e base toxicológica</h3><p class="ficha-meta">ficha-tecnica-de-produto · 2009 · <code>who-2009-boro-agua-consumo.md</code></p></div><h2>Boro na água de consumo — a base toxicológica do valor de referência</h2>
+<blockquote><strong>Síntese.</strong> A OMS fixa <strong>2,4 mg/L</strong> como valor de referência para boro na água de consumo, derivado de um <strong>TDI de 0,17 mg/kg de peso corporal por dia</strong> (arredondado para 0,2), com alocação de <strong>40% do TDI à água</strong>. O TDI sai de um <strong>BMDL05 de 10,3 mg/kg/dia</strong>, calculado sobre desfecho de <strong>toxicidade para o desenvolvimento</strong> (peso fetal reduzido), com fator de incerteza total de <strong>60</strong>. O efeito crítico é reprodutivo-desenvolvimental, não carcinogênico — a própria OMS registra que os ensaios de mutagenicidade foram negativos e que estudos de longo prazo em ratos e camundongos <strong>não aumentaram a incidência de tumores</strong>. Concentrações típicas: <strong>abaixo de 0,5 mg/L</strong> na maior parte do mundo.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Documento</strong></td><td data-l="Dado"><em>Boron in drinking-water</em> — background document for the WHO Guidelines for Drinking-water Quality</td></tr>
+<tr><td data-l="Campo"><strong>Autor institucional</strong></td><td data-l="Dado">World Health Organization</td></tr>
+<tr><td data-l="Campo"><strong>Ano</strong></td><td data-l="Dado">2009 (avaliação toxicológica incorporada ao GDWQ 4ª ed.)</td></tr>
+<tr><td data-l="Campo"><strong>Páginas</strong></td><td data-l="Dado">16 (extração custodiada: 78.125 caracteres)</td></tr>
+<tr><td data-l="Campo"><strong>Natureza</strong></td><td data-l="Dado">documento técnico de referência — não é norma brasileira</td></tr>
+<tr><td data-l="Campo"><strong>Fonte</strong></td><td data-l="Dado">PDF integral; extração conservadora, sem OCR, sem correção silenciosa</td></tr>
+</tbody></table></div>
+<h3>2. A cadeia de derivação — do dado animal ao valor de água</h3>
+<p>Este é o núcleo da ficha: <strong>como</strong> a OMS chega a 2,4 mg/L, passo por passo.</p>
+<div class="tabwrap"><table><thead><tr><th>Etapa</th><th>Valor</th><th>Observação</th></tr></thead><tbody>
+<tr><td data-l="Etapa">Desfecho crítico</td><td data-l="Valor">peso fetal reduzido</td><td data-l="Observação">toxicidade para o desenvolvimento</td></tr>
+<tr><td data-l="Etapa">BMDL05</td><td data-l="Valor"><strong>10,3 mg B/kg/dia</strong></td><td data-l="Observação">95% de limite inferior da dose correspondente a 5% de queda</td></tr>
+<tr><td data-l="Etapa">NOAEL comparável</td><td data-l="Valor"><strong>9,6 mg B/kg/dia</strong></td><td data-l="Observação">estudo de Price et al. (1996a); próximo do BMDL05</td></tr>
+<tr><td data-l="Etapa">Fator de incerteza</td><td data-l="Valor"><strong>60</strong></td><td data-l="Observação">10 interespecífico × 6 intraespecífico (cinética de gestantes)</td></tr>
+<tr><td data-l="Etapa">TDI</td><td data-l="Valor"><strong>0,17 mg B/kg/dia</strong></td><td data-l="Observação">arredondado a 0,2</td></tr>
+<tr><td data-l="Etapa">Alocação à água</td><td data-l="Valor"><strong>40%</strong> do TDI</td><td data-l="Observação">justificada por ingestão alimentar baixa</td></tr>
+<tr><td data-l="Etapa">Pressupostos</td><td data-l="Valor">60 kg, 2 L/dia</td><td data-l="Observação"></td></tr>
+<tr><td data-l="Etapa"><strong>Valor de referência</strong></td><td data-l="Valor"><strong>2,4 mg/L</strong></td><td data-l="Observação"></td></tr>
+</tbody></table></div>
+<p><strong>Por que a alocação é 40% e não o padrão de 10% ou 20%:</strong> a OMS declara que os dados do Reino Unido e dos EUA mostram ingestão por outras fontes <strong>bem abaixo do TDI</strong>, &quot;e por isso a alocação à água de consumo pode ser significativamente aumentada sem se aproximar do TDI&quot;. É uma decisão de <strong>margem disponível</strong>, não de tolerância maior ao boro.</p>
+<h3>3. Ocorrência</h3>
+<ul><li><strong>A maior parte do mundo: abaixo de 0,5 mg/L</strong> em água de consumo.</li><li>Águas superficiais na América do Norte (Canadá, EUA): <strong>0,02 a 360 mg/L</strong> em depósitos ricos em boro; típico <strong>< 0,1 mg/L</strong>, percentil 90 ≈ <strong>0,4 mg/L</strong>.</li><li>Água de consumo no Chile, Alemanha, Reino Unido e EUA: <strong>0,01 a 15,0 mg/L</strong>, com a maioria abaixo de 0,5 mg/L.</li></ul>
+<p><strong>A cauda de 360 mg/L é geologia, não contaminação.</strong> Depósitos boratíferos elevam a concentração natural — o que importa para quem interpreta medição de campo.</p>
+<h3>4. Efeitos — o que a fonte afirma e o que ela não afirma</h3>
+<p><strong>Afirma:</strong></p>
+<ul><li>Exposições orais curtas e longas a ácido bórico ou bórax em animais de laboratório demonstram que o <strong>trato reprodutivo masculino</strong> é alvo consistente; lesões testiculares observadas em ratos, camundongos e cães.</li><li><strong>Toxicidade para o desenvolvimento</strong> demonstrada em ratos, camundongos e coelhos.</li><li>NOAEL para efeitos reprodutivos masculinos: <strong>87 mg/kg/dia</strong> — muito acima do desfecho crítico de desenvolvimento.</li><li><strong>Mutagenicidade: negativa</strong> em grande número de ensaios; <strong>não genotóxico</strong>.</li><li>Estudos de longo prazo em ratos e camundongos: <strong>sem aumento de incidência tumoral</strong>.</li></ul>
+<p><strong>Não autoriza:</strong></p>
+<ul><li>Chamar o boro de carcinógeno. A OMS, nesta fonte, <strong>descarta</strong> genotoxicidade e carcinogenicidade em roedores.</li><li>Estender o valor de 2,4 mg/L a solo, efluente, alimento ou material de construção. É <strong>água de consumo</strong>.</li></ul>
+<h3>5. Tratamento da água</h3>
+<p>A OMS registra que tratamento convencional (<strong>coagulação, sedimentação e filtração</strong>) <strong>não remove boro significativamente</strong> — exige métodos especiais. Consequência prática: <strong>diluir é a única resposta barata</strong>. Uma vez no corpo receptor, o boro permanece.</p>
+<h3>6. Avaliação crítica</h3>
+<p><strong>Força:</strong> é a cadeia de derivação mais transparente que existe para boro — cada número tem etapa, estudo de origem e fator declarado. Serve de <strong>régua mestre</strong> para conferir qualquer outro limite.</p>
+<p><strong>Limite:</strong> o desfecho crítico é <strong>desenvolvimental em animais</strong>, com fator de incerteza de 60. Não é desfecho clínico humano medido.</p>
+<p><strong>Uso no acervo:</strong> é a base de comparação para CONAMA 357/430 e para a conta de resíduo da gaveta (§9.6 da peça principal). Não substitui norma brasileira.</p>
+<p><strong>Referência ABNT:</strong> WORLD HEALTH ORGANIZATION. <em>Boron in drinking-water: background document for development of WHO Guidelines for Drinking-water Quality</em>. Geneva: WHO, 2009.</p></article><article class="ficha" id="ficha-16"><div class="ficha-head"><span class="ficha-num">FICHA 16</span><h3>Boro — ficha química da OMS: identidade, uso industrial e ausência de valor de referência próprio</h3><p class="ficha-meta">ficha-tecnica-de-produto · 2022 · <code>who-2022-boro-ficha-quimica.md</code></p></div><h2>Boro — a ficha química oficial e os usos que ela nomeia</h2>
+<blockquote><strong>Síntese.</strong> A ficha química da OMS fixa o <strong>valor de referência em 2,4 mg/L (2.400 µg/L)</strong> e declara a origem natural: boro em água subterrânea vem primariamente da <strong>lixiviação de rochas e solos com boratos e borossilicatos</strong>. Nomeia quatro usos industriais — <strong>vidro, sabões e detergentes, e retardantes de chama</strong> — e registra que a contribuição de efluente doméstico para boro em água superficial <strong>diminuiu de forma significativa</strong> e segue caindo. Ocorrência típica mundial: <strong>abaixo de 0,5 mg/L</strong>.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Documento</strong></td><td data-l="Dado"><em>Boron</em> — Chemical fact sheet, GDWQ 4ª ed. com 1º e 2º addenda</td></tr>
+<tr><td data-l="Campo"><strong>Páginas</strong></td><td data-l="Dado">2 (extração custodiada: 6.456 caracteres)</td></tr>
+<tr><td data-l="Campo"><strong>Data de avaliação</strong></td><td data-l="Dado">2009 (avaliação toxicológica reaproveitada na edição de 2022)</td></tr>
+<tr><td data-l="Campo"><strong>Valor de referência</strong></td><td data-l="Dado"><strong>2,4 mg/L</strong></td></tr>
+<tr><td data-l="Campo"><strong>Ocorrência típica</strong></td><td data-l="Dado"><strong>< 0,5 mg/L</strong> para a maior parte do mundo</td></tr>
+</tbody></table></div>
+<h3>2. Usos nomeados pela fonte</h3>
+<p>A ficha é curta e cita três famílias de uso:</p>
+<ol><li><strong>fabricação de vidro</strong>;</li><li><strong>sabões e detergentes</strong>;</li><li><strong>retardantes de chama</strong>.</li></ol>
+<p><strong>O que a ficha NÃO faz:</strong> não quantifica participação por setor, não rateia consumo, não menciona agricultura, cerâmica, fertilizante, medicamento ou preservante de madeira. A ausência é do documento, <strong>não prova de que esses usos não existam</strong> — outras fontes da gaveta (USGS) tratam disso.</p>
+<h3>3. Origem do boro em água</h3>
+<ul><li><strong>Natural:</strong> lixiviação de rochas e solos contendo <strong>boratos e borossilicatos</strong>.</li><li><strong>Antropogênica:</strong> descargas de efluente podem elevar o teor em água superficial, &quot;mas esse uso diminuiu de forma significativa, e os níveis de boro em efluentes continuam caindo&quot;.</li></ul>
+<p><strong>Por que isso importa para a gaveta:</strong> a fonte de referência mundial declara que a <strong>geologia</strong> é o vetor dominante de boro em água — não o efluente industrial. Isso não isenta o efluente de oficina de tratamento de bambu (que é <strong>puntual e concentrado</strong>, ver §9.6 da peça principal), mas corrige a leitura de que boro em água é sobretudo poluição urbana.</p>
+<h3>4. Toxicologia, na versão resumida</h3>
+<p>A ficha repete a base da ficha de 2009:</p>
+<ul><li>alvo consistente de toxicidade oral, curta e longa, é o <strong>trato reprodutivo masculino</strong> (lesões testiculares em ratos, camundongos e cães);</li><li><strong>toxicidade para o desenvolvimento</strong> demonstrada em ratos, camundongos e coelhos;</li><li><strong>não genotóxico</strong> — resultados negativos em grande número de ensaios;</li><li>estudos de longo prazo em ratos e camundongos <strong>sem aumento de tumores</strong>.</li></ul>
+<h3>5. Avaliação crítica</h3>
+<p><strong>Força:</strong> é a versão <strong>oficial e citável</strong> do valor de 2,4 mg/L — 2 páginas, linguagem de norma, sem derivação (a derivação está na ficha de 2009).</p>
+<p><strong>Limite:</strong> por ser resumo, <strong>omite a cadeia de cálculo</strong> (BMDL05, fator 60, alocação 40%). Quem cita só esta ficha não consegue auditar o número.</p>
+<p><strong>Uso no acervo:</strong> citação canônica do valor; o cálculo fica na ficha <code>who-2009-boro-agua-consumo.md</code>.</p>
+<p><strong>Referência ABNT:</strong> WORLD HEALTH ORGANIZATION. Boron. In: <em>Guidelines for drinking-water quality</em>. 4. ed. incorporating the first and second addenda. Geneva: WHO, 2022. Chemical fact sheet.</p></article>
+<div class="anexo-intro" style="margin-top:3.5rem"><strong>Fichas relacionadas — outra gaveta.</strong> Cromo, arsênio, creosoto e pentaclorofenol têm gaveta própria (<code>preservantes-metalicos</code>): são toxicológica e juridicamente distintos do boro. Ficam aqui porque o artigo os cita como contraste normativo.</div>
+<article class="ficha" id="rel-1"><div class="ficha-head"><span class="ficha-num">RELACIONADA 01</span><h3>Austrália (Victoria): madeira tratada é resíduo prioritário — e o creosoto exige avaliação à parte</h3><p class="ficha-meta">norma-ou-regulamento · <code>australia-victoria-2026-descarte-madeira-tratada.md</code></p></div><h2>A jurisdição que trata madeira tratada como resíduo prioritário</h2>
+<blockquote><strong>Síntese.</strong> Em Victoria, <strong>toda madeira tratada é pré-classificada como resíduo prioritário</strong> sob o código <strong>K310-H</strong> — inclusive serragem. Aterros de resíduo sólido inerte <strong>não podem receber</strong> madeira tratada. Apenas madeira <strong>não tratada</strong> pode ser aplicada ao solo como serragem ou cobertura morta. E madeira com <strong>preservantes oleosos — creosoto e creosoto emulsificado com pigmento</strong> — exige <strong>avaliação de risco adicional</strong>.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Jurisdição</strong></td><td data-l="Dado">Estado de Victoria, Austrália</td></tr>
+<tr><td data-l="Campo"><strong>Base legal</strong></td><td data-l="Dado">Environment Protection Act 2017; Regulations 2021</td></tr>
+<tr><td data-l="Campo"><strong>Atualização</strong></td><td data-l="Dado">17/03/2026</td></tr>
+<tr><td data-l="Campo"><strong>Código do resíduo</strong></td><td data-l="Dado"><strong>K310-H</strong> — madeira tratada com substâncias perigosas</td></tr>
+</tbody></table></div>
+<h3>2. O que entra em K310-H</h3>
+<p>Madeira, material derivado de madeira (inclusive <strong>serragem</strong> e <strong>madeira engenheirada</strong>) que <strong>provavelmente</strong> tenha sido tratada, alterada quimicamente ou revestida com substância perigosa — <strong>tinta, verniz, preservante ou fumigante</strong> — para melhorar o desempenho.</p>
+<p><strong>Exceção explícita:</strong> não inclui madeira tratada <strong>apenas com calor</strong>.</p>
+<h3>3. As três regras operacionais</h3>
+<p><strong>1. Aterro.</strong> Aterros municipais <strong>podem</strong> aceitar madeira tratada, desde que consignada como <strong>resíduo industrial</strong>. Isso vale para: cercas, pisos e decks, madeira de construção, móveis e assentos, e outros materiais tratados com <strong>preservantes hidrossolúveis</strong> ou <strong>preservantes de solvente orgânico leve</strong>.</p>
+<p><strong>2. Proibição.</strong> <em>&quot;Não descarte resíduo de madeira tratada em aterros de resíduo sólido inerte (principalmente resíduo de construção e demolição).&quot;</em></p>
+<p><strong>3. Solo.</strong> <em>&quot;Sob os Regulamentos, apenas resíduo de madeira <strong>não tratada</strong> pode ser aplicado ao solo na forma de serragem ou cobertura morta.&quot;</em> O gerador deve <strong>separar tratada de não tratada</strong> &quot;na medida do razoavelmente praticável&quot;.</p>
+<h3>4. O regime separado do creosoto</h3>
+<p><strong>Preservantes oleosos — creosoto e creosoto emulsificado com pigmento</strong> — aparecem em construção pesada e em ambiente marinho: <strong>postes de utilidade, dormentes ferroviários, estacas marinhas</strong>.</p>
+<p>A norma diz que essa madeira <em>&quot;precisa de avaliação de risco adicional para determinar em qual aterro pode ir&quot;</em>, o que <em>&quot;pode envolver a identificação de uma categoria de resíduo prioritário&quot;</em>. <strong>Não há rota automática.</strong></p>
+<h3>5. Avaliação crítica</h3>
+<p><strong>Força:</strong> é a jurisdição que produz a regra mais explícita entre as examinadas — madeira tratada <strong>nunca</strong> vai para aterro de inertes, e o creosoto tem trilho próprio. A distinção &quot;tratada x não tratada&quot; é operacional, não retórica.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>O código K310-H inclui boro e creosoto sob o mesmo rótulo.</strong> É classificação de precaução pelo fato de haver tratamento, <strong>não</strong> avaliação de perigo por substância. Não distingue gravidade.</li><li><strong>Jurisdição subnacional australiana</strong> — não é referência para o Brasil.</li><li>Não quantifica volume nem define método de ensaio.</li></ul>
+<p><strong>Referência ABNT:</strong> ENVIRONMENT PROTECTION AUTHORITY VICTORIA. <em>Manage and dispose of treated timber</em>. Melbourne: EPA Victoria, 2026.</p></article><article class="ficha" id="rel-2"><div class="ficha-head"><span class="ficha-num">RELACIONADA 02</span><h3>China define &#x27;madeira preservada residual perigosa&#x27; — cromo, arsênio, creosoto e pentaclorofenol</h3><p class="ficha-meta">norma-ou-regulamento · <code>china-2021-gbt40245-residuo-madeira-preservada.md</code></p></div><h2>A norma que separa o veneno do resto</h2>
+<blockquote><strong>Síntese.</strong> A <strong>GB/T 40245-2021</strong>, vigente desde <strong>1º de setembro de 2021</strong>, estabelece as regras de recuperação de <strong>madeira preservada residual</strong> — a que chegou ao fim da vida útil ou perdeu a função. Define uma categoria própria, <strong>&quot;madeira preservada residual perigosa&quot;</strong>: aquela que contém preservantes inorgânicos como <strong>cromo e arsênio</strong>, <strong>creosoto</strong> ou <strong>pentaclorofenol</strong>.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Norma</strong></td><td data-l="Dado">GB/T 40245-2021</td></tr>
+<tr><td data-l="Campo"><strong>Emissor</strong></td><td data-l="Dado">SAMR; SAC</td></tr>
+<tr><td data-l="Campo"><strong>Emissão / vigência</strong></td><td data-l="Dado">21/05/2021 — <strong>01/09/2021</strong></td></tr>
+<tr><td data-l="Campo"><strong>Páginas</strong></td><td data-l="Dado">15</td></tr>
+<tr><td data-l="Campo"><strong>Classificação ICS</strong></td><td data-l="Dado">71.020 · B 71 (proteção de madeira e bambu)</td></tr>
+<tr><td data-l="Campo"><strong>Status</strong></td><td data-l="Dado">vigente; tipo <strong>recomendado</strong> (GB/T, não GB)</td></tr>
+</tbody></table></div>
+<h3>2. A definição que importa</h3>
+<p><strong>3.1 — Madeira preservada residual:</strong> <em>&quot;madeira anticorrosiva que atingiu o fim de sua vida útil ou perdeu seu valor de uso original e é descartada.&quot;</em></p>
+<p><strong>3.2 — Madeira preservada residual perigosa:</strong> <em>&quot;madeira preservada residual contendo preservantes inorgânicos como <strong>cromo e arsênio</strong>, <strong>creosoto</strong>, <strong>pentaclorofenol</strong>, etc.&quot;</em></p>
+<p><strong>O que está na lista:</strong> cromo, arsênio, creosoto, pentaclorofenol. <strong>O que não está:</strong> boro.</p>
+<h3>3. O que a norma manda fazer</h3>
+<p>A recuperação (<strong>3.3</strong>) compreende <strong>coleta, pré-triagem, desmontagem, transporte e armazenamento</strong>. O documento fixa classificação, requisitos gerais, etapas de recuperação e tratamento, e os <strong>registros a manter</strong>.</p>
+<p>Remete a um corpo normativo extenso:</p>
+<div class="tabwrap"><table><thead><tr><th>Norma</th><th>Objeto</th></tr></thead><tbody>
+<tr><td data-l="Norma"><strong>GB 18597</strong></td><td data-l="Objeto">controle de poluição no armazenamento de <strong>resíduo perigoso</strong></td></tr>
+<tr><td data-l="Norma"><strong>GB 18599</strong></td><td data-l="Objeto">controle de poluição no armazenamento e aterro de resíduo sólido industrial geral</td></tr>
+<tr><td data-l="Norma">GB 3095</td><td data-l="Objeto">qualidade do ar ambiente</td></tr>
+<tr><td data-l="Norma">GB 3838</td><td data-l="Objeto">qualidade da água superficial</td></tr>
+<tr><td data-l="Norma">GB 8978</td><td data-l="Objeto">padrão de descarga de efluente</td></tr>
+<tr><td data-l="Norma">GB 16297</td><td data-l="Objeto">emissão de poluentes atmosféricos</td></tr>
+<tr><td data-l="Norma">HJ 2025</td><td data-l="Objeto">coleta, armazenamento e transporte de resíduo perigoso</td></tr>
+<tr><td data-l="Norma">GB/T 22529-2008</td><td data-l="Objeto">reciclagem e aproveitamento de resíduo de madeira</td></tr>
+<tr><td data-l="Norma">LY/T 3032-2018</td><td data-l="Objeto">armazenamento e custódia de resíduo de madeira</td></tr>
+</tbody></table></div>
+<p><strong>A existência de duas rotas distintas</strong> — GB 18597 (perigoso) e GB 18599 (geral) — é o dado operacional: a norma <strong>obriga a decidir</strong> em qual trilho o lote entra. É exatamente essa bifurcação que o boro não tem no Brasil.</p>
+<h3>4. Avaliação crítica</h3>
+<p><strong>Força:</strong> é o único documento de escopo nacional localizado, entre os cinco países examinados, que <strong>trata especificamente do resíduo de madeira preservada</strong> e nomeia os preservantes que considera perigosos. Traz a bifurcação de rotas explícita.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>É norma recomendada (GB/T), não obrigatória (GB).</strong> A adesão depende de contrato ou de outra norma que a referencie.</li><li><strong>Escopo é &quot;madeira&quot;, não bambu.</strong> Não localizei norma chinesa de resíduo específica para bambu tratado.</li><li><strong>Boro não é listado</strong> — nem como perigoso, nem como categoria com tratamento próprio.</li><li><strong>A prévia é parcial:</strong> o sítio declara que &quot;tabelas, figuras, fórmulas e partes das cláusulas técnicas&quot; estão omitidas. <strong>O PDF integral de 15 páginas é pago e não está custodiado</strong> — lacuna declarada.</li></ul>
+<p><strong>Referência ABNT:</strong> CHINA. State Administration for Market Regulation; Standardization Administration. <em>GB/T 40245-2021 — Specification for recovery of waste preservative-treated wood</em>. Pequim: SAMR/SAC, 2021.</p></article><article class="ficha" id="rel-3"><div class="ficha-head"><span class="ficha-num">RELACIONADA 03</span><h3>Resíduo de madeira tratada com CCA e com boro/flúor — a classificação brasileira pela NBR 10004</h3><p class="ficha-meta">ficha-academica · <code>ferrarini-2012-residuo-cca-boro-fluor-nbr10004.md</code></p></div><h2>CCA é Classe I. Boro/flúor é Classe II-A.</h2>
+<blockquote><strong>Síntese.</strong> O estudo submeteu postes e moirões fora de serviço — tratados com <strong>CCA</strong> e depois <strong>retratados com boro/flúor</strong> — aos ensaios de lixiviação (NBR 10005) e solubilização (NBR 10006). <strong>Todas as amostras de CCA ultrapassaram o limite de arsênio de 1 mg/L</strong>, classificando o resíduo como <strong>Classe I — perigoso</strong>. O que estourou o limite nas amostras retratadas foi o <strong>flúor</strong> (>1,5 mg/L), resultando em <strong>Classe II-A — não inerte</strong>. <strong>O boro não aparece na classificação.</strong></blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Autores</strong></td><td data-l="Dado">Ferrarini, Santos, Miranda, Azevedo, Pires (PUCRS); Maia (UFRGS)</td></tr>
+<tr><td data-l="Campo"><strong>Revista</strong></td><td data-l="Dado">Química Nova, v. 35, n. 9, p. 1767-1771</td></tr>
+<tr><td data-l="Campo"><strong>Ano</strong></td><td data-l="Dado">2012 (recebido 4/1/12; aceito 6/6/12)</td></tr>
+<tr><td data-l="Campo"><strong>Amostras</strong></td><td data-l="Dado">9 amostras, regiões de cerne e alburno; 2 moirões + postes</td></tr>
+<tr><td data-l="Campo"><strong>Ensaios</strong></td><td data-l="Dado">NBR 10005 (lixiviação) e NBR 10006 (solubilização)</td></tr>
+</tbody></table></div>
+<h3>2. Resultados por elemento</h3>
+<div class="tabwrap"><table><thead><tr><th>Elemento</th><th>Limite NBR 10004</th><th>Resultado</th><th>Classificação</th></tr></thead><tbody>
+<tr><td data-l="Elemento"><strong>Arsênio (As)</strong></td><td data-l="Limite NBR 10004"><strong>1,0 mg/L</strong></td><td data-l="Resultado"><strong>2,7 a 9,2 mg/L</strong> — acima em <strong>todas</strong> as amostras</td><td data-l="Classificação"><strong>Classe I — perigoso</strong></td></tr>
+<tr><td data-l="Elemento"><strong>Cromo (Cr)</strong></td><td data-l="Limite NBR 10004">5,0 mg/L</td><td data-l="Resultado">acima em <strong>1</strong> dos postes</td><td data-l="Classificação">Classe I (já por As)</td></tr>
+<tr><td data-l="Elemento"><strong>Fluoreto (F⁻)</strong></td><td data-l="Limite NBR 10004">150 mg/L (lixiviado)</td><td data-l="Resultado">não ultrapassou 150</td><td data-l="Classificação">—</td></tr>
+<tr><td data-l="Elemento"><strong>Fluoreto (F⁻)</strong></td><td data-l="Limite NBR 10004"><strong>1,5 mg/L (solubilizado)</strong></td><td data-l="Resultado"><strong>acima</strong></td><td data-l="Classificação"><strong>Classe II-A — não inerte</strong></td></tr>
+</tbody></table></div>
+<h3>3. A frase que define o estado da arte</h3>
+<p>O artigo é explícito sobre o vazio normativo do boro:</p>
+<blockquote><em>&quot;Não há registros na literatura em relação às implicações da possível presença de boro e flúor nos resíduos de madeira tratada com preservantes à base desses compostos. Enquanto o B é um micronutriente importante para o desenvolvimento das plantas, o F é considerado um importante poluente ambiental.&quot;</em></blockquote>
+<p>E sobre o escopo da norma: <em>&quot;apenas os efluentes líquidos e resíduos originados do processo de preservação da madeira provenientes de plantas que recebem preservantes inorgânicos, contendo <strong>As ou Cr</strong>, são classificados como resíduos perigosos.&quot;</em></p>
+<h3>4. A conclusão dos autores sobre destinação</h3>
+<p>Com base nas classificações obtidas, os resíduos <strong>&quot;não podem ser descartados de qualquer forma ou em qualquer lugar&quot;</strong>; deveriam <strong>&quot;necessariamente ser enviados para um aterro especial&quot;</strong> ou passar por processo de remoção dos constituintes perigosos. A remoção é apresentada como vantajosa: gera um sólido descontaminado (reutilizável como fonte de energia ou descartável em aterro comum) e um efluente líquido rico em Cu, Cr e As, recuperável por precipitação química.</p>
+<h3>5. Avaliação crítica</h3>
+<p><strong>Força:</strong> é o único estudo brasileiro localizado que mede, com ensaios normalizados, o resíduo de madeira tratada no fim da vida — e o único que testa amostras com boro. Serve de âncora para a classificação do resíduo de CCA no Brasil.</p>
+<p><strong>Limites:</strong></p>
+<ul><li><strong>Não mediu boro nos extratos.</strong> Mediu As, Cr e F. A ausência do boro na classificação <strong>não é achado do estudo</strong>: é ausência de método e de limite.</li><li><strong>Amostra pequena:</strong> 9 amostras, uma região do país.</li><li><strong>Objeto é poste/moirão de concessionária</strong>, não bambu nem estrutura efêmera.</li><li>A extrapolação para bambu <strong>é desta curadoria</strong>, não do artigo.</li></ul>
+<p><strong>Conexão com a gaveta BORO:</strong> este artigo mostra que, no Brasil, o resíduo com boro cai em Classe II-A e portanto <strong>não entra no regime de resíduo perigoso</strong> — não porque seja avaliado como inofensivo, mas porque <strong>boro não está na lista</strong>.</p>
+<p><strong>Referência ABNT:</strong> FERRARINI, S. F. et al. Classificação de resíduos de madeira tratada com preservativos à base de arseniato de cobre cromatado e de boro/flúor. <em>Química Nova</em>, v. 35, n. 9, p. 1767-1771, 2012.</p></article><article class="ficha" id="rel-4"><div class="ficha-head"><span class="ficha-num">RELACIONADA 04</span><h3>Bambu tratado com CCB em campo por 5 anos: durabilidade e o limite de atribuir lixiviação</h3><p class="ficha-meta">ficha-academica · <code>rusch-2023-ccb-bambu-5-anos-campo.md</code></p></div><h2>CCB em bambu, 5 anos em campo — e o limite que os próprios autores declaram</h2>
+<blockquote><strong>Síntese.</strong> Rusch et al. (2023) trataram hastes de <em>Dendrocalamus asper</em> por <strong>imersão em CCB a 1% e 3%</strong> e as mantiveram em campo de apodrecimento por <strong>5 anos</strong>. O bambu tratado <strong>não apresentou degradação biológica</strong>; o controle (imersão em água) chegou a <strong>índice de deterioração de 80% a 100%</strong> — perda quase total de resistência. A parte inferior das hastes, em contato com o solo, apresentou <strong>maior teor de cobre e cromo</strong> que a parte aérea. <strong>Mas os autores declaram explicitamente que &quot;não é possível afirmar que a presença de metais no solo é indicativo de lixiviação&quot;</strong> — a variabilidade é alta (CV 66% para cromo) e o solo da região já tem concentrações semelhantes.</blockquote>
+<h3>1. Dados gerais</h3>
+<div class="tabwrap"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody>
+<tr><td data-l="Campo"><strong>Espécie</strong></td><td data-l="Dado"><em>Dendrocalamus asper</em></td></tr>
+<tr><td data-l="Campo"><strong>Material</strong></td><td data-l="Dado">12 hastes, diâmetro 10–15 cm</td></tr>
+<tr><td data-l="Campo"><strong>Preservante</strong></td><td data-l="Dado"><strong>CCB — borato de cobre cromatado</strong></td></tr>
+<tr><td data-l="Campo"><strong>Concentrações</strong></td><td data-l="Dado"><strong>1% e 3%</strong> + controle (imersão em água)</td></tr>
+<tr><td data-l="Campo"><strong>Aplicação</strong></td><td data-l="Dado">imersão</td></tr>
+<tr><td data-l="Campo"><strong>Duração em campo</strong></td><td data-l="Dado"><strong>5 anos</strong></td></tr>
+<tr><td data-l="Campo"><strong>Análise</strong></td><td data-l="Dado">avaliação visual (Vivian et al. 2014) + espectrometria de amostras do bambu e do solo da cova</td></tr>
+<tr><td data-l="Campo"><strong>Estatística</strong></td><td data-l="Dado">ANOVA + Tukey 5%, após teste de normalidade</td></tr>
+<tr><td data-l="Campo"><strong>Publicação</strong></td><td data-l="Dado">Pesquisa Florestal Brasileira, v. 43, e202102187, 2023</td></tr>
+</tbody></table></div>
+<h3>2. Composição do CCB nesta fonte</h3>
+<p>O artigo declara a formulação conforme ABNT (2013):</p>
+<div class="tabwrap"><table><thead><tr><th>Componente</th><th>Percentual</th></tr></thead><tbody>
+<tr><td data-l="Componente">sulfato de cobre</td><td data-l="Percentual"><strong>26%</strong></td></tr>
+<tr><td data-l="Componente">dicromato de potássio</td><td data-l="Percentual"><strong>63,5%</strong></td></tr>
+<tr><td data-l="Componente"><strong>ácido bórico</strong></td><td data-l="Percentual"><strong>10,5%</strong></td></tr>
+</tbody></table></div>
+<p><strong>Consequência de escopo:</strong> o CCB é um sistema <strong>misto</strong> — cobre + cromo + boro. Esta fonte <strong>entra na gaveta boro pelo componente boratado</strong>, mas <strong>não mede boro</strong>: as análises de espectrometria do solo e do material avaliam <strong>cobre e cromo</strong>. É a assimetria central desta ficha.</p>
+<h3>3. Resultados</h3>
+<ul><li><strong>Bambu tratado (1% e 3%):</strong> sem degradação biológica após 5 anos. A deterioração foi menor com 1% que no controle e <strong>reduziu ainda mais com 3%</strong>.</li><li><strong>Controle (imersão em água):</strong> &quot;praticamente não apresentou resistência&quot;, com índice de deterioração entre <strong>80% e 100%</strong>.</li><li><strong>Solo:</strong> concentrações de metais foram mais expressivas nos locais com material tratado, e a parte inferior das hastes (em contato direto com o solo) teve maior teor que a parte aérea. Coeficientes de variação: <strong>cobre 14%</strong>, <strong>cromo 66%</strong>.</li></ul>
+<h3>4. O limite que os autores declaram — e que a divulgação costuma apagar</h3>
+<p>Os autores escrevem, em discussão, que <strong>não é possível afirmar</strong> que a presença de metais no solo indica lixiviação do CCB, porque:</p>
+<ol><li>trabalhos anteriores sobre concentrações de metais no solo <strong>do mesmo município e da região</strong> encontraram resultados semelhantes;</li><li>a concentração de <strong>cromo foi semelhante</strong> entre os locais de coleta, incluindo covas com bambu tratado e <strong>não tratado</strong>;</li><li>a variabilidade é alta (CV 66% para cromo) — o dado tem característica de normalidade, mas a dispersão limita a inferência.</li></ol>
+<p><strong>Esta ficha registra a ressalva com o mesmo peso do resultado.</strong> Uma leitura que diga &quot;o CCB lixiviou cobre e cromo para o solo em 5 anos&quot; <strong>não é sustentada por este artigo</strong> — é o oposto do que os autores afirmam. O que o artigo sustenta é: <strong>tratamento funcionou</strong>; <strong>há diferença de teor entre parte enterrada e parte aérea</strong>; e <strong>atribuir essa diferença a lixiviação é o que ele não faz</strong>.</p>
+<h3>5. Avaliação crítica</h3>
+<p><strong>Força:</strong> é <strong>ensaio de campo com 5 anos</strong> — raridade na literatura de bambu tratado, que é quase toda de laboratório. Comparação com controle apropriado. Formulação declarada com percentuais. Estatística declarada.</p>
+<p><strong>Limitações:</strong></p>
+<ul><li><strong>Não mede boro.</strong> Mede cobre e cromo. O componente boratado do CCB entra na discussão, não na análise.</li><li><strong>12 amostras</strong> — número pequeno para inferência sobre solo.</li><li><strong>Avaliação visual</strong> como desfecho principal de durabilidade, não perda de massa normatizada.</li><li>Imersão, não vácuo-pressão — escala artesanal, não industrial.</li></ul>
+<p><strong>Uso no acervo:</strong> esta ficha serve a dois propósitos na gaveta BORO — (a) mostrar que o boro participa de sistemas preservantes <strong>mistos</strong>, não só de banhos isolados; (b) servir de <strong>contraexemplo metodológico</strong>: um trabalho de campo real que, tendo dados de solo, <strong>recusa</strong> a conclusão fácil. É o padrão de rigor que a gaveta exige de si.</p>
+<p><strong>Referência ABNT:</strong> RUSCH, Fernando; CANDATEN, Luana; BANDERA, Eduarda; MANGINI, Tauana de Souza; ZANCHETTA, Laura da Silva; TREVISAN, Rômulo; WASTOWSKI, Arci Dirceu. Tratamento químico, durabilidade e lixiviação de bambu tratado e submetido a ensaio em campo de apodrecimento. <em>Pesquisa Florestal Brasileira</em>, Colombo, v. 43, e202102187, p. 1-8, 2023.</p></article>
+</section>
+<footer class="rodape">
+<p><strong>Sobre este documento.</strong> Texto integral e corrido, sem abas. Mesmo conteúdo de <code>docs/analyses/boro/artigo-o-boro-explicado-do-zero.md</code>, com as 16 fichas de <code>docs/analyses/boro/fichas/</code> e as 4 de <code>docs/analyses/boro/fichas-relacionadas/</code> anexadas ao final.</p>
+<p>Estado <code>em-revisao-documental</code>; homologação automática desativada. Auditoria independente em três rodadas, com 21 achados registrados e corrigidos. Redação com assistência de agente de IA sob curadoria humana declarada. <strong>A homologação é ato humano e não foi feita.</strong></p>
+</footer></main></body></html>

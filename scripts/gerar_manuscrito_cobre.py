@@ -15,6 +15,15 @@ _AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, _AQUI)
 import conteudo_cobre as C
 import referencias_cobre as R
+import resumos_fontes_cobre as RS
+
+
+def _md(s):
+    """Converte a marcação HTML dos resumos para Markdown."""
+    s = re.sub(r"<strong>(.*?)</strong>", r"**\1**", s, flags=re.S)
+    s = re.sub(r"<em>(.*?)</em>", r"*\1*", s, flags=re.S)
+    s = re.sub(r"<[^>]+>", "", s)
+    return _h.unescape(s)
 
 REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
 SAIDA = f"{REPO}/docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md"
@@ -185,12 +194,17 @@ referencias: "14 entradas, numeradas — ver secao Referencias"
     partes.append(
         "Numeradas na ordem em que aparecem pela primeira vez no texto. Onde a fonte é uma "
         "página web sem data declarada, registra-se [s.d.].\n")
-    partes.append(R.lista_abnt())
-    partes.append("\n### O que cada referência sustenta\n")
-    partes.append("| Nº | Sustenta |\n|---|---|")
     for i, (ch, a, an, ti, ve, cu, su) in enumerate(R.REFERENCIAS, 1):
-        partes.append(f"| {i} | {su} |")
-    partes.append("")
+        res = RS.resumo(ch)
+        linhas = R.lista_abnt().split("\n")
+        break
+    # entradas numeradas, com a síntese em itálico (igual à bibliografia da peça)
+    for i, (ch, a, an, ti, ve, cu, su) in enumerate(R.REFERENCIAS, 1):
+        res = RS.resumo(ch)
+        partes.append(
+            f"{i}. {R._fecha_ponto(a)} **{R._fecha_ponto(ti)}** "
+            f"{R._fecha_ponto(str(an or '[s.d.]'))} {R._fecha_ponto(ve)}"
+            + (f" — {_md(res)}" if res else ""))
 
     # declaração
     partes.append("""---

@@ -11,8 +11,8 @@ REFERENCIAS = [
      "TONINI, H.; OLIVEIRA, L. da S.",
      2024,
      "Tratamento da madeira na propriedade rural: procedimentos para a sua aplicação, "
-     "licenciamento e gestão financeira. Comunicado Técnico 110.",
-     "Embrapa Pecuária Sul, Bagé, RS. ISSN 1982-5382.",
+     "licenciamento e gestão financeira.",
+     "Comunicado Técnico 110. Embrapa Pecuária Sul, Bagé, RS. ISSN 1982-5382.",
      "fontes-documentais/ago_28_Sulfato_S11/pdf/embrapa-cot110-tratamento-madeira-propriedade-rural.pdf",
      "instrução oficial brasileira: EPI por peça, tonel de 200 L, proibição de descarte, "
      "reuso da solução excedente (L207–214), controle federal do cromo e do boro"),

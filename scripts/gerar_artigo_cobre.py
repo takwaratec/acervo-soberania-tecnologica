@@ -39,9 +39,15 @@ header.top .sub{color:#e3d6c8}
 h3{color:var(--accent-d)}
 blockquote{border-left-color:var(--accent-l)}
 
-/* marcas de citação numerada */
-sup.cit{font:600 11.5px/1 ui-monospace,Menlo,monospace;color:var(--accent);
-  vertical-align:super;letter-spacing:0;margin-left:1px}
+/* citações numeradas clicáveis e bibliografia comentada */
+a.cite{font:700 .82em/1 inherit;color:var(--accent);text-decoration:none}
+a.cite:hover{text-decoration:underline}
+p.ref{padding-left:2.4rem;text-indent:-2.4rem;margin:12px 0}
+p.ref:target{background:var(--warn-bg);outline:2px solid #d4b862;border-radius:4px}
+/* síntese da fonte: itálico no conjunto, com o limite em redondo para não se perder */
+.resumo{font-style:italic}
+.resumo .limite{font-style:normal;color:#8a4b12;font-weight:600}
+
 
 /* Com 18 abas (11 do artigo + 6 fichas + referências), a grade de 6 colunas do molde
    empilha em 3 linhas e a barra fixa passa a ocupar 132px — 13% da tela. Linha única
@@ -188,13 +194,14 @@ def montar():
 
     # --- referências bibliográficas
     assert ".." not in R.lista_abnt(), "referências com ponto duplo"
+    import resumos_fontes_cobre as RS
     _refs = "".join(
-        f'<p><strong>({i})</strong> {_hh.escape(a)}. <strong>{_hh.escape(ti)}</strong> '
-        f'{_hh.escape(str(an or "[s.d.]"))}. {_hh.escape(ve)}</p>'
+        f'<p class="ref" id="ref-{i}"><strong><a class="cite" href="#refs" data-ref="ref-{i}">'
+        f'[{i}]</a></strong> {_hh.escape(R._fecha_ponto(a))} '
+        f'<em>{_hh.escape(R._fecha_ponto(ti))}</em> '
+        f'{_hh.escape(R._fecha_ponto(str(an or "[s.d.]")))} {_hh.escape(R._fecha_ponto(ve))}'
+        f'{" — <span class=\'resumo\'>" + RS.resumo(ch) + "</span>" if RS.resumo(ch) else ""}</p>'
         for i, (ch, a, an, ti, ve, cu, su) in enumerate(R.REFERENCIAS, 1))
-    _sust = tabela(["Nº", "O que sustenta neste artigo"],
-                   [[f"<strong>({i})</strong>", _hh.escape(su)]
-                    for i, (ch, a, an, ti, ve, cu, su) in enumerate(R.REFERENCIAS, 1)])
     navs.append('  <button type="button" role="tab" data-tab="refs" '
                 'aria-controls="refs" aria-selected="false" tabindex="-1">Referências</button>')
     secs.append(
@@ -205,9 +212,15 @@ def montar():
         'página web sem data declarada, registra-se [s.d.]. Todas as fontes custodiadas têm o hash '
         'de integridade na ficha correspondente e no <code>MANIFEST_S11.json</code>.</p>\n'
         f'  {_refs}\n'
-        '  <h3>O que cada referência sustenta</h3>\n'
-        f'  {_sust}\n'
         '</section>')
+
+    # Na versão em abas a citação não pode apontar para #ref-N: o molde.js trata todo
+    # a[href^="#"] como troca de aba, e "ref-3" não é aba — a página ficaria em branco.
+    # Aponta-se para o painel #refs e o alvo fino vai em data-ref, com handler próprio.
+    for s in secs:
+        pass
+    secs = [re.sub(r'<a class="cite" href="#(ref-\d+)">',
+                   r'<a class="cite" href="#refs" data-ref="\1">', x) for x in secs]
 
     palavras = sum(len(re.findall(r"[A-Za-zÀ-ÿ]{2,}", p["corpo"])) for p in C.PAGINAS)
 
@@ -253,6 +266,20 @@ def montar():
 </footer>
 <script>
 {js.strip()}
+</script>
+<script>
+/* a citação abre a aba de referências (molde.js) e depois rola até o verbete exato */
+document.addEventListener('click', function(ev){{
+  var a = ev.target.closest ? ev.target.closest('a.cite[data-ref]') : null;
+  if(!a){{ return; }}
+  var alvo = document.getElementById(a.getAttribute('data-ref'));
+  if(!alvo){{ return; }}
+  setTimeout(function(){{
+    var y = alvo.getBoundingClientRect().top + window.pageYOffset
+            - (window.innerHeight / 2) + (alvo.offsetHeight / 2);
+    window.scrollTo(0, Math.max(0, y));
+  }}, 140);
+}});
 </script>
 </body>
 </html>

@@ -131,7 +131,7 @@ cobre junto com outras coisas — enxofre e água.
 | **sulfato de cobre anidro** (CuSO₄) | o mesmo, **sem** a água do cristal | **39,81%** |
 
 **Leia a terceira coluna com calma.** Um quilo do pó azul **não** contém um quilo
-de cobre: contém **254 gramas** de cobre e 746 gramas de outras coisas.  (4)
+de cobre: contém **254 gramas** de cobre e 746 gramas de outras coisas. [4]
 
 Agora o problema prático. Se uma receita pede "1 quilo de sulfato de cobre", a pessoa está
 colocando 254 gramas de metal na água. Se ela achar que está colocando 1 quilo de cobre, **vai errar
@@ -182,7 +182,7 @@ sobre o descarte.
 ### O dado oficial, em 2025
 
 O órgão do governo brasileiro que registra comércio exterior (ComexStat) classifica o sulfato de cobre
-sob um código chamado **NCM 2833.25** (13) — um número que funciona como "código de barras
+sob um código chamado **NCM 2833.25**[13] — um número que funciona como "código de barras
 alfandegário" da substância. Em 2025:
 
 | Número | O que significa |
@@ -257,7 +257,7 @@ e fruticultura.
 
 Aqui está a informação que quase nunca aparece nos textos informais:
 
-**O cobre não mata cupim, não mata broca, não mata besouro.** (8) Ele é fungicida, não é
+**O cobre não mata cupim, não mata broca, não mata besouro.**[8] Ele é fungicida, não é
 inseticida.
 
 > **A frase está na literatura técnica** — Na tabela de preservantes do estudo de Gauss (2020), a combinação de cloreto de zinco com sulfato de cobre aparece descrita como "good fungicide" — bom fungicida — e, no mesmo campo, "ineffective for termites and insects" — ineficaz para cupim e inseto.
@@ -277,7 +277,7 @@ Essa mistura de três tem nome: **CCB** — *borato de cobre cromatado*. A sigla
 a junção das iniciais de cada um.
 
 E aqui um dado que reorganiza a dosagem, e que só existe porque alguém mediu: na formulação descrita
-pela norma brasileira (NBR 6232) (14) e usada no ensaio de Rusch (2023) (4), o CCB é composto de
+pela norma brasileira (NBR 6232)[14] e usada no ensaio de Rusch (2023)[4], o CCB é composto de
 **26% de sulfato de cobre**, **63,5% de dicromato de potássio** e
 **10,5% de ácido bórico**.
 
@@ -341,9 +341,9 @@ diferentes, para populações diferentes**. Confundi-los é a maior fonte de err
 
 | Régua | Valor | Para que serve |
 |---|---|---|
-| **Água de beber** (OMS) (11) | **2 mg/L** | proteger a população inteira, todos os dias, pela vida toda |
-| **Efluente** (CONAMA 430/2011) (9) | **1,0 mg/L** | o que uma atividade pode lançar na rede ou no corpo receptor |
-| **Água doce Classe 1** (CONAMA 357/2005) (10) | **0,009 mg/L** | o rio protegido — a água onde se espera vida aquática |
+| **Água de beber** (OMS)[11] | **2 mg/L** | proteger a população inteira, todos os dias, pela vida toda |
+| **Efluente** (CONAMA 430/2011)[9] | **1,0 mg/L** | o que uma atividade pode lançar na rede ou no corpo receptor |
+| **Água doce Classe 1** (CONAMA 357/2005)[10] | **0,009 mg/L** | o rio protegido — a água onde se espera vida aquática |
 | **Invertebrado aquático, crônico** | **0,00111 mg/L** | o nível em que a vida do rio começa a sofrer |
 
 **Um número mais baixo não é "mais rigoroso"** — é um número que protege outro
@@ -353,7 +353,7 @@ que os dois estão certos e falam de coisas diferentes.
 ### O detalhe que quase ninguém sabe sobre os 2 mg/L
 
 Os **2 mg/L** da água de beber são o número mais citado de todos. E ele é
-**provisório** (11) — a própria Organização Mundial da Saúde diz que o valor é provisório
+**provisório**[11] — a própria Organização Mundial da Saúde diz que o valor é provisório
 *"as a result of uncertainties in the dose–response"*, isto é, por causa de incertezas
 na relação entre dose e efeito.
 
@@ -631,7 +631,7 @@ E não foi só com o cobre. Aconteceu igual com o CCB e com o boro sozinho.
 
 ### A comparação que assusta
 
-O autor (3) comparou com um herbicida comercial — o **Roundup**, aquele que mata planta daninha
+O autor[3] comparou com um herbicida comercial — o **Roundup**, aquele que mata planta daninha
 no pasto. No mesmo tipo de teste, com a mesma semente:
 
 | O que foi testado | Quanto nasceu (escala de 0 a 100) |
@@ -653,8 +653,8 @@ e a raiz não cresce.
 
 | Onde | O que mandam |
 |---|---|
-| **Brasil** (Embrapa, 2024) (1) | guardar a solução que sobra em recipiente plástico e **reutilizar no próximo tratamento** |
-| **Índia** (governo, 2006) (2) | **nunca** descartar em ralo, rio ou córrego; a solução usada deve ser **decantada e reutilizada** |
+| **Brasil** (Embrapa, 2024)[1] | guardar a solução que sobra em recipiente plástico e **reutilizar no próximo tratamento** |
+| **Índia** (governo, 2006)[2] | **nunca** descartar em ralo, rio ou córrego; a solução usada deve ser **decantada e reutilizada** |
 
 **Guardar e reusar. Nunca em ralo, rio ou córrego.**
 
@@ -699,7 +699,7 @@ E o reuso acaba:
 
 ### A lei já resolveu isso — e quase ninguém sabe
 
-A Política Nacional de Resíduos Sólidos (Lei 12.305/2010) (12) diz o que é resíduo sólido:
+A Política Nacional de Resíduos Sólidos (Lei 12.305/2010)[12] diz o que é resíduo sólido:
 
 > "material, substância, objeto ou bem descartado […] e líquidos cujas
 particularidades tornem inviável o seu lançamento na rede pública de esgotos ou em corpos d'água"
@@ -744,7 +744,7 @@ Exige **tonel de 200 litros**. Proíbe o descarte **duas vezes**. E manda guarda
 reusar.
 
 Além disso, ele traz um alerta que quase ninguém conhece: o **dicromato e o ácido bórico estão sob
-controle da Polícia Federal** (Portaria 240/2019 e Lei 10.357/2001) (1).
+controle da Polícia Federal** (Portaria 240/2019 e Lei 10.357/2001)[1].
 
 > **A instrução oficial não é irresponsável** — Ela dá EPI, proíbe descarte, manda reusar e avisa sobre controle federal de dois dos três sais. O problema deste artigo não é a instrução oficial.
 
@@ -753,7 +753,7 @@ controle da Polícia Federal** (Portaria 240/2019 e Lei 10.357/2001) (1).
 Uma página da **Universidade Federal de Minas Gerais** publica a receita:
 
 > "Estas substâncias devem ser misturadas na proporção 1kg:1kg:100litros […]
-A imersão dos colmos deve durar de 8 a 10 dias." (5)
+A imersão dos colmos deve durar de 8 a 10 dias."[5]
 
 E, com honestidade que merece registro, acrescenta: *"Este tipo de tratamento não foi comprovado
 em pesquisas científicas, apesar de amplamente utilizado."*
@@ -763,10 +763,10 @@ Um **blog de construção sustentável** vai além e ensina a fórmula completa,
 
 > "Fórmula (2): ácido bórico / bórax / dicromato de sódio — proporção de
 2: 2: 0,5" — e ensina que "se você quiser aumentar, pode chegar até uma concentração
-de 9%, é só dobrar a mistura". (6)
+de 9%, é só dobrar a mistura".[6]
 
 Um **site que vende construção em bambu** resume, sem alarme: o produto mais utilizado é o
-octoborato como inseticida, *"e sulfato de cobre como fungicida"*. (7)
+octoborato como inseticida, *"e sulfato de cobre como fungicida"*.[7]
 
 ### A contagem que fecha a questão
 
@@ -1043,40 +1043,20 @@ Cada ficha identifica a fonte primária, o hash de integridade e o que ela autor
 
 Numeradas na ordem em que aparecem pela primeira vez no texto. Onde a fonte é uma página web sem data declarada, registra-se [s.d.].
 
-1. TONINI, H.; OLIVEIRA, L. da S. **Tratamento da madeira na propriedade rural: procedimentos para a sua aplicação, licenciamento e gestão financeira. Comunicado Técnico 110.** 2024. Embrapa Pecuária Sul, Bagé, RS. ISSN 1982-5382.
-2. NATIONAL MISSION ON BAMBOO APPLICATIONS (Índia), Department of Science and Technology. **Preservation of Bamboo.** 2006. Governo da Índia. 60 p.
-3. SCHARFENBERG, H. R. **Análise do comportamento mecânico e biológico do bambu gigante (Dendrocalamus asper) tratado com cobre e boro.** 2020. Dissertação (Mestrado Profissional em Inovação Tecnológica) — Universidade Federal do Triângulo Mineiro, Uberaba. 101 p. Orientador: M. M. Shimano.
-4. RUSCH, F.; CANDATEN, L.; BANDERA, E.; MANGINI, T. de S.; ZANCHETTA, L. da S.; TREVISAN, R.; WASTOWSKI, A. D. **Tratamento químico, durabilidade e lixiviação de bambu tratado e submetido a ensaio em campo de apodrecimento.** 2023. Pesquisa Florestal Brasileira, Colombo, v. 43, e202102187. DOI 10.4336/2023.pfb.43e202102187.
-5. MATERIALES Y MODOS DE HACER — Faculdade de Arquitetura, Universidade Federal de Minas Gerais. **Tratamento com bórax.** [s.d.]. Página institucional, seção 'estrutura bambu'.
-6. MATERIAIS E TÉCNICAS PARA CONSTRUÇÃO SUSTENTÁVEL (blog). **Como Tratar Bambu.** 2016. Blog, 1º de fevereiro de 2016.
-7. ESPAÇO NATURALMENTE. **Bambu.** [s.d.]. Site comercial-educativo.
-8. GAUSS, C. **Preservação de bambu: análise comparativa de preservantes e métodos.** 2020. Trabalho acadêmico. Tabela 2.5 (preservantes).
-9. BRASIL. Conselho Nacional do Meio Ambiente. **Resolução CONAMA nº 430, de 13 de maio de 2011 — condições e padrões de lançamento de efluentes.** 2011. Diário Oficial da União.
-10. BRASIL. Conselho Nacional do Meio Ambiente. **Resolução CONAMA nº 357, de 17 de março de 2005 — classificação dos corpos de água.** 2005. Diário Oficial da União.
-11. WORLD HEALTH ORGANIZATION. **Copper in Drinking-water: background document for development of WHO Guidelines for Drinking-water Quality.** 2004. WHO/SDE/WSH/03.04/88. Genebra.
-12. BRASIL. **Lei nº 12.305, de 2 de agosto de 2010 — Política Nacional de Resíduos Sólidos.** 2010. Diário Oficial da União.
-13. BRASIL. Ministério do Desenvolvimento, Indústria, Comércio e Serviços — ComexStat. **Exportação e importação — NCM 2833.25 (sulfato de cobre), série 1997–2026.** [s.d.]. Base de dados oficial de comércio exterior.
-14. ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 6232 — Penetração e retenção de preservativos em madeira tratada sob pressão.** 2013. ABNT, Rio de Janeiro.
-
-### O que cada referência sustenta
-
-| Nº | Sustenta |
-|---|---|
-| 1 | instrução oficial brasileira: EPI por peça, tonel de 200 L, proibição de descarte, reuso da solução excedente (L207–214), controle federal do cromo e do boro |
-| 2 | manual oficial indiano: não descartar em ralos, rios ou córregos; decantar e reusar (p. 46–47); enterro de resíduo com serragem; recomposição do lodo com ácido crômico a pH 2,5 |
-| 3 | única fonte do corpus que mede a fitotoxicidade do descarte: índice de germinação zero até diluição 1/10, comparação com glifosato, pH 1,28 (CB) e 0,22 (CCB), comprimento de radícula |
-| 4 | ensaio de campo de cinco anos: cobre no solo +12% sem significância estatística; cromo +86%; composição do CCB (26% sulfato de cobre, 63,5% dicromato, 10,5% ácido bórico) |
-| 5 | receita informal publicada por universidade pública: 1 kg : 1 kg : 100 L, imersão de 8 a 10 dias, e a declaração de que o método não foi comprovado cientificamente |
-| 6 | receita informal completa: fórmula 2:2:0,5 com dicromato de sódio, concentração 4,5% e instrução de dobrar para 9%; zero ocorrências de 'luvas', 'máscara', 'EPI', 'descarte', 'resíduo' |
-| 7 | padrão de mercado: 'sulfato de cobre como fungicida'; zero ocorrências de EPI, descarte, resíduo e 'tóxico' no texto |
-| 8 | 'good fungicide' / 'ineffective for termites and insects' para zinco + sulfato de cobre |
-| 9 | cobre em efluente: 1,0 mg/L |
-| 10 | cobre dissolvido em água doce Classe 1: 0,009 mg/L |
-| 11 | valor provisório de 2 mg/L; LOAEL 4 mg/L (náusea, 61 voluntários); acúmulo hepático; dose diária tolerável 0,17 mg/kg/dia |
-| 12 | art. 3º, XVI: resíduo sólido inclui líquidos cuja destinação em rede de esgoto ou corpo d'água seja inviável |
-| 13 | 177,854 t e US$ 370.053 em 2025; China 80,4% do peso e 48,3% do valor; dispersão de preço de 119×; queda de 86% entre 1997 e 2020 |
-| 14 | retenção de 6,5 kg/m³ e composição percentual do CCB, conforme descrita em Rusch et al. (2023) |
-
+1. TONINI, H.; OLIVEIRA, L. da S. **Tratamento da madeira na propriedade rural: procedimentos para a sua aplicação, licenciamento e gestão financeira.** 2024. Comunicado Técnico 110. Embrapa Pecuária Sul, Bagé, RS. ISSN 1982-5382. — Instrução oficial brasileira de tratamento de moirão na pequena propriedade, pelo método de substituição de seiva com CCB. **EPI por peça** (óculos, máscara, luvas de borracha, bota, avental); **tonel de 200 L**; proporção de CCB; proibição explícita de descarte no ambiente, repetida duas vezes; **reuso da solução excedente em recipiente plástico** (L207–214); alerta de que dicromato e ácido bórico estão sob controle da Polícia Federal (Portaria 240/2019, Lei 10.357/2001). Limite: trata de madeira (moirões), não de bambu, e não diz o que fazer quando o reuso termina.
+2. NATIONAL MISSION ON BAMBOO APPLICATIONS (Índia), Department of Science and Technology. **Preservation of Bamboo.** 2006. Governo da Índia. 60 p. — Manual do governo indiano sobre preservação de bambu, 60 páginas. Prescreve que **soluções preservativas não devem ser descartadas em ralos, rios ou córregos**; que a solução usada **pode ser decantada e reutilizada** (p. 46–47); que o lodo gerado deve ser recuperado por reagente; e que **resíduos podem ser misturados com serragem e enterrados**. Prescreve ainda recomposição do lodo com **ácido crômico a pH 2,5**. Limite: o enterro com serragem não é admitido pela lei brasileira para resíduo com metal, e a recuperação com ácido crômico é operação industrial, não doméstica.
+3. SCHARFENBERG, H. R. **Análise do comportamento mecânico e biológico do bambu gigante (Dendrocalamus asper) tratado com cobre e boro.** 2020. Dissertação (Mestrado Profissional em Inovação Tecnológica) — Universidade Federal do Triângulo Mineiro, Uberaba. 101 p. Orientador: M. M. Shimano. — Dissertação de mestrado (UFTM, 101 p.) que mediu o efeito das soluções de tratamento de bambu sobre sementes de alface. **Índice de germinação zero até diluição 1/10**, nas três soluções testadas (cobre+boro, CCB e boro isolado); **pH 1,28** na solução de cobre e boro e **0,22** no CCB; índice de germinação **abaixo de 11** contra **acima de 80** do glifosato; melhor radícula de **0,33 mm** contra **2,78 mm** em água. Limite: é ensaio de laboratório com uma espécie indicadora; não mede campo, nem solo, nem água corrente, e testou concentrações menores que a receita informal.
+4. RUSCH, F.; CANDATEN, L.; BANDERA, E.; MANGINI, T. de S.; ZANCHETTA, L. da S.; TREVISAN, R.; WASTOWSKI, A. D. **Tratamento químico, durabilidade e lixiviação de bambu tratado e submetido a ensaio em campo de apodrecimento.** 2023. Pesquisa Florestal Brasileira, Colombo, v. 43, e202102187. DOI 10.4336/2023.pfb.43e202102187. — Ensaio de campo de cinco anos com bambu tratado, publicado na Pesquisa Florestal Brasileira. **Cobre no solo sob bambu CCB 3%: 27,9 ppm contra 24,9 ppm do controle — +12%, sem significância estatística**; **cromo: 33,2 → 61,7, alta de 86%**. Descreve a composição do CCB conforme NBR 6232: **26% sulfato de cobre, 63,5% dicromato, 10,5% ácido bórico**. Limite: é o dado que CONTRARIA a hipótese de que o cobre do CCB migra para o solo — o que migrou foi o cromo. Um ensaio, uma espécie, um solo.
+5. MATERIALES Y MODOS DE HACER — Faculdade de Arquitetura, Universidade Federal de Minas Gerais. **Tratamento com bórax.** [s.d.]. Página institucional, seção 'estrutura bambu'. — Página institucional da Faculdade de Arquitetura da UFMG que publica a receita de tratamento com bórax: **1 kg : 1 kg : 100 litros**, imersão de **8 a 10 dias**. Declara expressamente que *“este tipo de tratamento não foi comprovado em pesquisas científicas, apesar de amplamente utilizado”*. Limite: é receita, não protocolo; não dá EPI, ventilação nem destinação da solução exaurida.
+6. MATERIAIS E TÉCNICAS PARA CONSTRUÇÃO SUSTENTÁVEL (blog). **Como Tratar Bambu.** 2016. Blog, 1º de fevereiro de 2016. — Post de blog de construção sustentável (2016) que ensina a fórmula completa com **dicromato de sódio**: ácido bórico / bórax / dicromato na proporção **2 : 2 : 0,5**; concentração de **4,5%**, com instrução de **dobrar para 9%**. Varredura do texto integral (19.305 caracteres): **zero** ocorrências de “luvas”, “máscara”, “EPI”, “descarte” e “resíduo”; a única palavra “CUIDADO!!” do texto é sobre mancha na casca do bambu. Limite: é fonte informal, citada aqui como evidência do que circula, não como orientação técnica.
+7. ESPAÇO NATURALMENTE. **Bambu.** [s.d.]. Site comercial-educativo. — Site comercial-educativo sobre construção em bambu. Registra que o preservativo mais utilizado é o octoborato como inseticida, *“e sulfato de cobre como fungicida”*. Varredura do texto: **zero** ocorrências de EPI, descarte, resíduo e “tóxico”. Limite: é material de venda; descreve o padrão de mercado, não avalia risco.
+8. GAUSS, C. **Preservação de bambu: análise comparativa de preservantes e métodos.** 2020. Trabalho acadêmico. Tabela 2.5 (preservantes). — Levantamento comparativo de preservantes e métodos de preservação de bambu. Na tabela de preservantes, a combinação de cloreto de zinco com sulfato de cobre é descrita como *“good fungicide”* e, no mesmo campo, *“ineffective for termites and insects”*. Limite: é a base da afirmação de que o cobre é fungicida e NÃO é inseticida — a distinção que explica por que a receita mistura três sais.
+9. BRASIL. Conselho Nacional do Meio Ambiente. **Resolução CONAMA nº 430, de 13 de maio de 2011 — condições e padrões de lançamento de efluentes.** 2011. Diário Oficial da União. — Resolução que fixa condições e padrões de lançamento de efluentes. **Cobre: 1,0 mg/L** como limite de lançamento. Limite: vale para efluente de fonte geradora regularizada; não é limite de água de consumo nem de solo.
+10. BRASIL. Conselho Nacional do Meio Ambiente. **Resolução CONAMA nº 357, de 17 de março de 2005 — classificação dos corpos de água.** 2005. Diário Oficial da União. — Resolução que classifica os corpos de água e fixa padrões por classe. **Cobre dissolvido em água doce Classe 1: 0,009 mg/L (9 µg/L)**. Limite: é o padrão de qualidade do corpo receptor, e é 111 vezes mais restritivo que o limite de lançamento — a razão pela qual diluir não resolve.
+11. WORLD HEALTH ORGANIZATION. **Copper in Drinking-water: background document for development of WHO Guidelines for Drinking-water Quality.** 2004. WHO/SDE/WSH/03.04/88. Genebra. — Documento de base da OMS para o valor de referência do cobre na água de consumo. **2 mg/L, declarado PROVISÓRIO** por incertezas na curva dose–resposta; **LOAEL 4 mg/L** para náusea, em estudo com 61 voluntários; acúmulo **hepático** (“copper accumulates in the liver, brain and eyes”); dose diária tolerável de **0,17 mg/kg/dia**; LOAEL **10 mg Cu/kg/dia** por água (machos, efeito renal) e sem efeito a **23 mg/kg/dia** por dieta. Limite: o valor é provisório e o efeito crítico é hepático — citar 2 mg/L como linha dura promove um número provisório a definitivo.
+12. BRASIL. **Lei nº 12.305, de 2 de agosto de 2010 — Política Nacional de Resíduos Sólidos.** 2010. Diário Oficial da União. — Política Nacional de Resíduos Sólidos. Art. 3º, XVI define resíduo sólido incluindo **“líquidos cujas particularidades tornem inviável o seu lançamento na rede pública de esgotos ou em corpos d'água”**. Limite: a lei define e atribui a obrigação ao gerador; não diz onde o gerador doméstico deve entregar a solução exaurida.
+13. BRASIL. Ministério do Desenvolvimento, Indústria, Comércio e Serviços — ComexStat. **Exportação e importação — NCM 2833.25 (sulfato de cobre), série 1997–2026.** [s.d.]. Base de dados oficial de comércio exterior. — Base oficial de comércio exterior do MDIC. Série completa da NCM 2833.25 (sulfato de cobre), 1997–2026: **2025 com 177.854 t e US$ 370.053**; **China com 80,4% da massa e 48,3% do valor**; dispersão de preço de **119×** entre a origem mais barata (China, US$ 1,25/kg) e a mais cara (Reino Unido, US$ 148,43/kg); queda de **86%** entre 1997 (1.279 t) e 2020 (9,3 t). Limite: o preço disperso reflete a mistura de graus reagente e formulado na mesma NCM — hipótese declarada, não confirmada nos metadados da base.
+14. ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 6232 — Penetração e retenção de preservativos em madeira tratada sob pressão.** 2013. ABNT, Rio de Janeiro. — Norma técnica sobre penetração e retenção de preservativos em madeira tratada sob pressão. Fornece a **retenção de 6,5 kg/m³** e a **composição percentual do CCB** usadas no cálculo de cobre por banho. Limite: a norma é paga e foi lida apenas na descrição que Rusch et al. (2023) dela fazem — não foi consultada no original.
 ---
 
 ## Autoria, assistência e responsabilidade

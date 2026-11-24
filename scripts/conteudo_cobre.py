@@ -12,10 +12,10 @@ def _txt(s):
     return re.sub(r"<[^>]+>", "", s).strip()
 
 def cit(*chaves):
-    """Marca de citação: (1), (1,3). Chaves vêm de referencias_cobre.NUMERO."""
+    """Citação numerada clicável: cit("scharfenberg2020") -> [3] ligado a #ref-3."""
     from referencias_cobre import NUMERO
-    return '<sup class="cit">(' + ", ".join(str(NUMERO[k]) for k in sorted(NUMERO, key=NUMERO.get)
-                                             if k in chaves) + ')</sup>'
+    return "".join(f'<a class="cite" href="#ref-{NUMERO[k]}">[{NUMERO[k]}]</a>'
+                   for k in sorted(chaves, key=lambda x: NUMERO[x]))
 
 
 def tabela(cols, rows, cls=""):
