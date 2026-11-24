@@ -1,13 +1,19 @@
 # Gaveta — boro
 
-Frente `BORO` (aberta 2026-11-24 no ledger R4, commit `ecaa7153`).
-Capítulo introdutório da série **tratamentos convencionais do bambu**.
+Frente `BORO` (aberta 2026-11-24 no ledger R4).
+Capítulo sobre **o elemento boro** — não sobre fichas de tratamento.
 
 ## Escopo desta gaveta
 
-Entra: **boro** (ácido bórico, borax/tetraborato, DOT, boratos em geral) —
-origem, química, toxicologia, dosagem, uso como preservante de bambu,
-lixiviação, exposição ocupacional.
+Entra: **o elemento boro e seus sais** — ácido bórico, bórax (tetraborato de
+sódio), **octaborato dissódico (DOT)**, boratos em geral, colemanita, kernita,
+tincal, ulexita. E, sobre ele: identidade química e bases de massa, origem
+astronômica e geológica, reservas e suprimento, para que serve (vidro, cerâmica,
+fertilizante, medicamento, suplemento, preservante, metalurgia), quanto se usa em
+cada uso, quanto o Brasil importa, toxicologia e classificação regulatória.
+
+A **preservação de bambu** entra como **uma das aplicações** do elemento — a que
+motivou a investigação e a que concentra o maior risco de uso sem critério.
 
 **Não entra** (tem gaveta própria):
 
@@ -19,7 +25,7 @@ lixiviação, exposição ocupacional.
 
 | Artefato | Função |
 |---|---|
-| `00-estado-da-questao-boro.md` | Ficha principal — as quatro afirmações submetidas à verificação, as cinco réguas de dosagem, o argumento de lixiviação, o que a ficha não autoriza concluir |
+| `00-estado-da-questao-boro.md` | Peça principal — o elemento, suas formas e bases de massa, origem, reservas, usos, as cinco bases de dosagem, importação, toxicologia, aplicação em preservação e os limites de uso |
 | `01-importacao-brasileira-boro-comexstat.md` | Série de importação 1997–2026 por NCM, composição, origem, confronto com a produção mundial |
 | `INVENTARIO_GAVETA.json` | Estado real de cada fonte: custodiada, indisponível, pendente |
 | `HANDOFF_BORO_20261124.md` | Handoff de continuidade entre tópicos (não é homologação) |
@@ -66,7 +72,7 @@ substitui são os **limites normativos** de cada base.
 | Suplemento | mg B/dose | 0,15–6 usual · UL 20 mg/dia · OMS 1–13 mg/dia | NIH ODS (ancorado 2026-11-24) |
 | Agricultura | **participação**, não dose | 11–15% do consumo mundial — **sem kg B/ha nesta gaveta** | USGS / estudo UE |
 | Preservação de bambu | kg/m³ | **B₂O₃ eq. 9,98–14,71** (DOT 14,79–21,79) vs. AWPA 2,7 · IS 401 5 | Gauss 2020, p. 88–89 |
-| Inalação (ocupacional) | mg B/m³ | MRL agudo 0,3 · irritação ~1,8 · poeira total 1–15 mg/m³ | ATSDR tp26 (2010) |
+| Inalação (ocupacional) | mg B/m³ | MRL agudo 0,3 · irritação ~1,8 · REL NIOSH por forma: 5 (deca) e 1 (anidro/penta) mg/m³ | ATSDR tp26 · NIOSH |
 
 **Classificação vigente:** ácido bórico é **Repr. 1B, H360FD** no CLP (Reg. Del.
 UE 2023/1435, vigente desde fev/2025). O documento EMA de 2021 cita Repr. cat. 2,
@@ -85,21 +91,30 @@ que é enquadramento histórico.
 Chile e Peru; Turquia salta para 30,9% em 2026. Detalhe e limites em
 `01-importacao-brasileira-boro-comexstat.md`.
 
-## O achado central — lixiviação
+## A aplicação que concentra o problema — lixiviação
 
-Ensaio direto na tese Gauss (2020), Tabela 4.7, p. 192–193: bambu tratado
-**somente com DOT** perdeu **82,4%** do boro no ciclo de lixiviação (B5), e o
-tratamento com tanino/hexamina perdeu **81,7%** (T10HB5). A tese registra que a
-lixiviação severa **eliminou a atividade fungicida**. É evidência laboratorial,
-não taxa de campo — e é o núcleo do capítulo (§7.1).
+Ensaio direto na tese Gauss (2020), Tabela 4.7, p. 192–193. As colunas são
+distintas — perda de massa, retenção de B₂O₃ antes e depois, e perda de boro:
+
+| Tratamento | B₂O₃ antes | B₂O₃ depois | Perda de boro |
+|---|---|---|---|
+| **B5** (DOT isolado) | 4,66 kg/m³ | 0,82 kg/m³ | **82,4%** |
+| **T10HB5** (tanino+hexamina+boro) | 3,01 kg/m³ | 0,55 kg/m³ | **81,7%** |
+
+Apesar da perda alta, a tese registra que **as formulações com tanino mantiveram
+resultado fúngico satisfatório** após o ensaio — a perda de boro não se converte
+automaticamente em perda de proteção. É evidência laboratorial, não taxa de campo
+(§7.1).
 
 ## Pendência que define a gaveta
 
 A exposição ocupacional **específica de bambu tratado** (cortar, lixar, serrar) —
 Brasil e China — **não está medida em nenhuma das fontes custodiadas**. As réguas
-para medi-la agora existem (§9.1–9.3 da ficha), e uma conta de teto (§9.4) mostra
-que o risco respiratório dominante é o **particulado/sílica**, não o borato. É a
-lacuna que a regulamentação precisaria fechar primeiro.
+para medi-la existem (§9.1–9.3); a conta de teto (§9.4) indica que o boro em
+suspensão tende a ficar abaixo dos níveis de triagem **na premissa adotada**, mas
+não há medição de poeira de bambu, e portanto **não se pode afirmar qual
+componente domina** o risco respiratório dessa ocupação. É a lacuna que a
+regulamentação precisaria fechar primeiro.
 
 ## Aviso
 

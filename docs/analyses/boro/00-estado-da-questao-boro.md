@@ -5,14 +5,14 @@ frente: BORO
 titulo: "Boro — origem, raridade, dosagem e o risco do uso indiscriminado como preservante de bambu"
 estado_documental: em-revisao-documental
 homologacao_automatica: false
-versao: 4
+versao: 5
 data_revisao: 2026-11-24
 responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 fonte_primaria: PDFs integralmente conferidos e custodiados na camada privada; importacao por API oficial (ComexStat/MDIC)
 pacote_fontes_privado: _privado/governanca-operacional/extracoes/boro/
 funcao_na_serie: capitulo introdutorio dos tratamentos convencionais do bambu
-revisao_pos_auditoria: "v4 — parecer R4 (REPLANEJAR) adjudicado: tabela de lixiviacao reescrita por coluna de origem, NIOSH separado por forma quimica, essencialidade humana declarada (NIH), CLP custodiado. Adjudicacao em _privado/.../RELATORIO_ADJUDICACAO_R4.md"
+revisao_pos_auditoria: "v5 — capitulo recentrado no ELEMENTO boro; historico de auditoria retirado do texto publico (vive nos relatorios privados); bambu como aplicacao delimitada"
 ---
 
 # Boro — estado da questão
@@ -36,14 +36,22 @@ revisao_pos_auditoria: "v4 — parecer R4 (REPLANEJAR) adjudicado: tabela de lix
 
 ---
 
-## 1. Por que o boro abre a série
+## 1. O que este capítulo examina
 
-O boro é o tratamento que a prática difundiu antes de a norma alcançá-lo. Este
-capítulo é introdutório: ele estabelece o vocabulário, a toxicologia e o
-argumento de lixiviação que os capítulos seguintes (sulfato de cobre, CCA, CCB,
-vernizes e acabamentos acrílicos) pressupõem. **O sulfato de cobre não é tratado
-aqui** — tem capítulo próprio. CCA e CCB aparecem apenas como contraste
-normativo, no item 7.
+Este capítulo examina **o elemento boro**: quem ele é, o que faz, de onde vem,
+para que serve, quanto se usa e quanto se importa. Não é um estudo de fichas de
+tratamento de madeira ou de bambu — é o estudo de uma substância e das
+aplicações que ela atravessa.
+
+**Por que ele abre a série.** O boro é o preservante que a prática difundiu antes
+de a norma alcançá-lo. A preservação de bambu entra aqui como **uma das
+aplicações** do elemento — a que motivou a investigação e a que concentra o
+maior risco de uso sem critério. As outras aplicações (vidro, cerâmica,
+fertilizante, medicamento, suplemento, metalurgia) recebem tratamento próprio
+nas seções seguintes, porque é nelas que está a maior parte da massa consumida.
+
+**Fronteiras.** O sulfato de cobre **não** é tratado aqui — tem capítulo próprio.
+CCA e CCB aparecem apenas como contraste normativo em §6.5 e §7.2.
 
 ## 2. O que o boro é — e a confusão que "boro" esconde
 
@@ -66,6 +74,26 @@ grandezas que **não se convertem livremente**:
 
 Trocar uma pela outra produz erro de dosagem por fator químico, não por
 desatenção. Toda cifra desta ficha declara a base.
+
+**Os nomes que a prática usa — e o que cada um é.** A mesma família de sais
+aparece na literatura e no comércio sob nomes que não são sinônimos:
+
+| Nome corrente | Fórmula | Boro na massa | Observação |
+|---|---|---|---|
+| ácido bórico (ortobórico) | H₃BO₃ | **17,5%** | medicamento, agricultura, preservante |
+| bórax (borato de sódio decahidratado) | Na₂B₄O₇·10H₂O | **11,3%** | forma comercial mais comum |
+| bórax anidro | Na₂B₄O₇ | **21,5%** | concentração alta, uso industrial |
+| **octaborato dissódico (DOT)** | Na₂B₈O₁₃·4H₂O | ~**21,0%** | **mais solúvel** — é o sal dos banhos de preservação |
+| tetraborato pentahidratado | Na₂B₄O₇·5H₂O | ~14,9% | forma intermediária |
+| colemanita | Ca₂B₆O₁₁·5H₂O | ~15,8% (minério puro) | cotada em B₂O₃; o minério real tem ganga |
+| ulexita | NaCaB₅O₉·8H₂O | ~13,3% (minério puro) | cinturão andino; com ganga, cai |
+
+*Teores calculados a partir das massas molares, não copiados: B = 10,811 g/mol.*
+
+**Por que o DOT importa nesta gaveta:** é o sal que aparece nos banhos de
+preservação e nas medições de retenção e lixiviação do §6.5 e §7. Sua alta
+solubilidade é a mesma propriedade que o torna eficaz na penetração **e** a que o
+faz sair do material sob umidade — as duas faces de um só atributo químico.
 
 ## 3. Origem astronômica — o boro não veio de explosões estelares
 
@@ -348,9 +376,8 @@ direto ao `ods.od.nih.gov` devolveu HTTP 403 de novo; a obtenção foi por
    sanitárias, duas réguas — e a europeia é mais restritiva. Divergência
    preservada, não harmonizada.
 
-*(O limite de 20 mg/dia é o mesmo que a gaveta já citava como achado não
-custodiado. Agora está custodiado — e o registro de que ele é duas vezes o PDE
-europeu é a parte que faltava.)*
+*(O limite de 20 mg/dia está custodiado na fonte — e o fato de ele ser duas vezes
+o PDE europeu é a parte que costuma faltar na conversa.)*
 
 ### 6.4 Agricultura — a régua do micronutriente
 
@@ -372,7 +399,7 @@ por metro cúbico de material).
 ### 6.5 Preservação de bambu — a régua do material
 
 Aqui a unidade é **retenção por volume de bambu**, não dose por pessoa. E as bases
-químicas precisam ser separadas — foi o erro central da v1 desta ficha.
+químicas precisam ser separadas — é a confusão mais comum nesta matéria.
 
 **Fato da fonte (Gauss 2020, p. 88–89, Tabela 4.7).** Em *Dendrocalamus asper*
 tratado por imersão, a retenção calculada de **DOT** e o **equivalente B₂O₃**:
@@ -429,8 +456,8 @@ Brasileira*, DOI 10.4336/2023.pfb.43e202102187)
 
 **Fato da fonte (Gauss 2020, Tabela 4.7, p. 192–193).** A tabela da tese tem
 **colunas distintas** — perda de massa das amostras e retenção em equivalente
-B₂O₃ antes e depois da lixiviação. Confundi-las é erro de leitura, e a v3 desta
-ficha o cometeu:
+B₂O₃ antes e depois da lixiviação. Confundi-las é o erro de leitura mais
+frequente nesta matéria:
 
 | Tratamento | Perda de massa (%) | B₂O₃ antes (kg/m³) | B₂O₃ depois (kg/m³) | Perda de boro (%) |
 |---|---|---|---|---|
@@ -448,9 +475,8 @@ permaneceu satisfatória** — a perda de atividade não se generaliza a elas.
 
 **Leitura correta.** Isto é **evidência laboratorial direta** de que o borato, na
 formulação e no protocolo ensaiados, perde a maior parte do princípio ativo sob
-lixiviação severa — e com ele a função protetora. É o núcleo do argumento deste
-capítulo, e estava custodiado quando a v1 da ficha foi escrita: a v1 errou ao
-declarar que só havia evidência em CCB.
+lixiviação severa — e com ele a função protetora. É o núcleo do argumento deste capítulo, e a evidência
+de borato isolado existe — não é preciso recorrer a sistemas com cobre.
 
 **Limite.** É ensaio laboratorial severo, em uma espécie, com protocolo
 declarado. **Não é taxa universal de perda em serviço.** Demonstra
@@ -469,12 +495,12 @@ atribuem exclusivamente ao tratamento os metais no solo, por haver níveis
 regionais semelhantes.
 
 **O estudo não apresenta medição de boro.** Portanto **não é** evidência direta
-de lixiviação de borato, e a v1 desta ficha errou ao usá-lo como tal e ao chamar o
-achado de "problema de família". Ele entra aqui **apenas como contraste de
+de lixiviação de borato, e não deve ser lido como tal: "o mesmo problema do
+boro" seria generalização indevida. Ele entra aqui **apenas como contraste de
 campo**: mostra que em sistema multicomponente a mobilidade também ocorre, e que
 durabilidade e transferência ambiental precisam ser estudadas juntas.
 
-## 8. Origem da prática: Green School, Bali, e a arquiteta alemã
+## 8. Aplicação: origem da prática de preservação em Bali
 
 **Afirmação submetida à verificação.** O tratamento de bambu com boro teria sido
 introduzido por uma arquiteta alemã ligada à Green School, em Bali.
@@ -510,9 +536,8 @@ da estrutura do Arc, 2023)
 
 **O que a fonte sustenta — corrigido.** A Green School é **vitrine e vetor de
 difusão** da construção em bambu tratado, de grande visibilidade internacional. O
-que **não** está demonstrado, e a v1 desta ficha afirmou sem base, é que ela tenha
-"transformado o banho de boro em padrão de facto": nenhuma fonte consultada mede
-adoção internacional. Há obras notáveis e um método em uso — não um padrão
+que **não** está demonstrado é que ela tenha "transformado o banho de boro em
+padrão de facto": nenhuma fonte consultada mede adoção internacional. Há obras notáveis e um método em uso — não um padrão
 demonstrado.
 
 A história técnica exige cronologia própria (Garland, Environmental Bamboo
@@ -554,7 +579,7 @@ aguda, e ele é **0,3 mg B/m³**.
 
 **O detalhe que muda a leitura:** todos esses limites são de **poeira total**, e
 cada forma química tem o seu. Misturar o limite de uma forma com o teor de boro de
-outra produz número falso — foi o que a v3 fez:
+outra produz número falso:
 
 | Forma | REL NIOSH | Teor de B | Teto de boro |
 |---|---|---|---|
@@ -653,13 +678,16 @@ MRL de inalação aguda, limites de poeira total e um limiar humano de irritaç�
 diferença entre *não medido* e *medido como inseguro* é o centro do argumento, e
 confundi-las seria o mesmo defeito em outra direção.
 
-## 10. Por que isso exige regra, e não só advertência
+## 10. O que o conjunto sustenta — e o que exige regra
 
-O argumento deste capítulo não é "o boro é perigoso". É mais estreito e mais
-defensável:
+O argumento deste capítulo não é "o boro é perigoso". É mais estreito: o boro é
+uma substância **versátil, barata e mal delimitada**, usada em escalas muito
+diferentes — de miligramas em uma cápsula a centenas de milhares de toneladas
+importadas por ano — sob critérios de segurança que não se comunicam entre si.
+Onde isso exige regra:
 
-1. **O boro é eficaz** — contra fungos e insetos, há evidência experimental
-   (Liu 2023; Gauss 2020).
+1. **Como preservante, o boro é eficaz** — contra fungos e insetos, há evidência
+   experimental (Liu 2023; Gauss 2020).
 2. **O borato lixivia severamente** — ensaio direto em DOT isolado perdeu 82,4%
    do boro, e com ele a atividade fungicida (§7.1). É evidência laboratorial, não
    taxa de campo; o desempenho depende da formulação e do abrigo da chuva.
@@ -667,6 +695,11 @@ defensável:
    laboratório superam o mínimo normativo em 2,0× a 5,4× (em base B₂O₃, §6.5), mas
    não há distribuição de retenções medida em operações reais, nem alvo validado
    para bambu.
+3.1. **Cinco bases de dosagem convivem sem conversão** (§6): percentual do sal,
+   mg B/dia, mg B/kg/dia, mg B/m³ e kg/m³. Cada uma serve a um alvo distinto —
+   medicamento, alimento, água, ar e material. Confundir duas é erro de categoria,
+   e a gaveta documenta que a confusão já ocorreu na literatura e nesta própria
+   ficha.
 4. **O efeito crítico é silencioso** — toxicidade do desenvolvimento, não
    intoxicação aguda; a LD₅₀ na casa dos milhares de mg/kg esconde um endpoint
    na casa das dezenas de mg B/kg/dia.
@@ -716,97 +749,60 @@ normatizar**, não presumir dano nem presumir segurança.
   de boro no material é ~0,3 a 0,4% (§9.4), e o risco respiratório dominante é o
   particulado/sílica, não o borato.
 
-## 12. Distância de material autoral não auditado
+## 12. Proveniência das fontes
 
-**Alerta (achado A11 da auditoria).** O texto
-`docs/analyses/tecnologia-takwara/ensaio-bambu-sem-manejo-riscos-regulacao.md`
-converte indicador de avaliação de ciclo de vida em **exposição e dano humano**:
-"trabalhadores expostos diariamente a substâncias que podem causar câncer",
-"efluentes tóxicos sendo despejados diretamente no solo", "evidência
-irrefutável". A ficha crítica da ACV de Araújo et al. (2025), já custodiada em
-`bambu-estrutural/`, registra que os **93%** são **parcela de impacto potencial
-normalizado** numa categoria (HCT), em **uma unidade produtiva** e **uma unidade
-funcional**. O estudo **não mediu** exposição ocupacional, dose absorvida,
-incidência de câncer, contaminação de nascentes nem prevalência de descarte no
-solo. E classificação reprodutiva (Repr. 1B) **não** autoriza chamar o boro de
-carcinógeno humano.
+Toda afirmação numérica desta ficha tem fonte nomeada na seção e no localizador.
+As fontes institucionais foram custodiadas na camada privada, com hash de
+integridade:
 
-**Decisão desta gaveta.** Esse material **não é usado como evidência aqui** e não
-deve ser citado como contexto normativo até ser corrigido. ACV não se converte em
-dose, exposição ou incidência clínica sem evidência própria. Corrigir o ensaio é
-pendência declarada (§14).
+- **USGS** *Mineral Commodity Summaries 2026* (boro) — PDF integral;
+- **EMA/CHMP/765436/2012 Rev. 1** — excipientes de boro;
+- **ATSDR** *Toxicological Profile for Boron* (tp26, 2010) — 248 p.;
+- **NIH ODS** *Boron — Health Professional Fact Sheet* — snapshot de 2026-11-16;
+- **Regulamento Delegado (UE) 2023/1435** — classificação CLP;
+- **NIOSH Pocket Guide** — fichas das três formas de tetraborato;
+- **ANVISA RDC 199/2006** — antissépticos;
+- **ComexStat/MDIC** — série de importação 1997–2026, NCM 2528, 2810 e 2840.
 
-## 13. Auditoria e o que mudou da v1 para a v2
+Parte dessas fontes foi obtida por espelho de arquivo (Wayback), porque os sítios
+originais bloqueiam acesso automatizado; cada caso está declarado no manifesto de
+custódia. **Onde a fonte não foi custodiada, o texto diz** — é o caso do JRC 141759
+(participação da categoria "Glass/Fibreglass"), citado por referência e sem PDF.
 
-Parecer **TECO** de 2026-11-24, veredito **REPLANEJAR**, 12 achados. Tratamento
-nesta v2:
+**Distância de material autoral não revisado.** Indicadores de avaliação de ciclo
+de vida não se convertem em dose, exposição ou incidência clínica: são grandezas
+de naturezas distintas. Texto que faça essa conversão — inclusive material
+autoral deste mesmo acervo sobre manejo de bambu — **não é usado como evidência
+aqui** e não deve ser citado como contexto normativo.
 
-| Achado | Gravidade | Tratamento |
-|---|---|---|
-| A1 ocupacional / EPI | MATERIAL | §9.5: retirada a inferência de "vácuo sem EPI"; ATSDR como analogia |
-| A2 suplemento | MATERIAL | §6.3: retirado "por cápsula"; PDE ≠ UL alimentar declarado |
-| A3 importação | MATERIAL | §5.1 (seção nova) + artefato `01-importacao-brasileira-boro-comexstat.md` |
-| **A4 lixiviação** | **BLOQUEANTE** | §7 reescrita: Gauss DOT **82,4%** como evidência direta (§7.1); Rusch só Cu/Cr (§7.2) |
-| A5 bases 3–8× | MATERIAL | §6.5: DOT vs B₂O₃ separados; razões refeitas (3,7–5,4× e 2,0–2,9×); "satisfaz" preservado |
-| A6 classificação | MATERIAL | §6.2: Repr. 1B/H360FD vigente declarada; cat. 2 do EMA identificada como histórica |
-| A7 insustentabilidade | MATERIAL | §4: risco de suprimento delimitado por mercado; 87,5% como subtotal, não global |
-| A8 cinco bases | MATERIAL | Título do §6 e §6.4: cinco bases; agricultura = participação, não dose |
-| A9 dosagem às cegas | MATERIAL | §6.5 e §10: substituído por hipótese a medir |
-| A10 Green School | MATERIAL | §8: vitrine/difusão; sem paternidade nem padronização |
-| A11 texto autoral | MATERIAL | §12 (seção nova): distância declarada |
-| A12 massa aeroespacial | MENOR | §5: "não quantificada" em vez de "desprezível" |
+## 13. Limites de uso deste capítulo
 
-**Proveniência das fontes novas — declaração necessária.** As fontes `ATSDR
-tp26`, `NIH ODS` e a extração `ComexStat` foram **baixadas pelo auditor durante a
-auditoria**, de fontes oficiais (ATSDR e NIH por Wayback, após HTTP 403; ComexStat
-por API oficial), e são **admitidas nesta v2** como custódia da gaveta. Não
-estavam disponíveis quando a v1 foi escrita — a v1 as declarou lacuna
-corretamente para o seu momento.
+1. **Não é certificação, nem autorização de publicação, nem laudo.**
+2. **Não substitui medição.** Os números são de fonte publicada; a exposição real
+   de qualquer operação precisa ser amostrada.
+3. **Não rateia a importação por setor.** Não há, aqui, quanto do boro importado
+   vai para agricultura, vidro, cerâmica, preservante ou medicamento.
+4. **Não estabelece necessidade humana de boro** — o NIH declara que não há
+   função biológica clara identificada e que o elemento não é classificado como
+   nutriente essencial para humanos (§6.3).
+5. **Não converte bases.** §6 declara cinco bases distintas; a conversão
+   aritmética entre elas, quando legítima, é química — os **critérios de
+   segurança** de cada base não se substituem.
 
-**Verificação independente desta revisão.** O `ComexStat` foi **reproduzido por
-mim contra a API oficial** (POST `api-comexstat.mdic.gov.br/general`, 2024): os
-valores de NCM 2528, 2810 e 2840 e a composição por país conferem exatamente com
-os arquivos custodiados. Total 2024 reconferido: **US$ 204.652.434 / 459,6 mil
-t**, com Argentina 26,9%, Bolívia 25,2%, Chile 20,7%, Turquia 12,0%.
+## 14. Pendências declaradas
 
-**Nota de protocolo.** O auditor **alterou** os artefatos sob auditoria e criou
-material fora do escopo declarado (incluindo `docs/analyses/cobre/` e edições em
-`mkdocs.yml` e em `reforma-agraria-agrofloresta/`), o que o contrato vedava
-("auditor não corrige — aponta"). As alterações e o material foram **preservados
-como evidência** em `ops/command-center/task-results/BORO-AUDITORIA-R2-20261124/`.
-O conteúdo substantivo que ele trouxe foi aproveitado; as correções que ele
-**recomendou e não aplicou** (A4, A5) foram aplicadas nesta revisão.
-
-## 14. Pendências desta rodada
-
-1. ~~Custodiar fonte primária de importação brasileira (ComexStat/Secex-MDIC, NCM
-   2528, 2810, 2840)~~ — **CUMPRIDA em 2026-11-24.** API oficial extraída
-   (1997–2026, 52 arquivos com SHA-256); análise em
-   `01-importacao-brasileira-boro-comexstat.md`, síntese em §5.1.
-2. ~~Custodiar NIH ODS (HTTP 403) para ancorar doses de suplemento.~~ —
-   **CUMPRIDA em 2026-11-24** por Wayback: dose usual 0,15–6 mg B, UL adulto
-   20 mg/dia, RDA/AI/EAR inexistentes. §6.3 reescrita.
-3. Custodiar IN ANVISA 3/2009 (falha de conexão).
-3.1. ~~Custodiar ATSDR ToxProfile tp26 (toxicidade humana, exposição ocupacional)~~
-   — **CUMPRIDA em 2026-11-24.** 248 p. + 12 capítulos, obtidos via Wayback
-   (acesso direto HTTP 403). §9 reescrita com base nele.
-3.2. ~~Classificação CLP~~ — **CUMPRIDA em 2026-11-24**, na rodada R4. O texto do
-   Regulamento Delegado (UE) 2023/1435 foi obtido (Wayback; EUR-Lex direto dá
-   HTTP 202/WAF) e **custodiado**: `r4_indicadas/EU_2023_1435_CLP_regulamento.html`.
-   Confirma **Repr. 1B / H360FD** para ácido bórico, trióxido de diboro e
-   tetraborato de dissódio (anidro, deca e penta-hidratado). §6.2 atualizada com
-   os números de índice e CAS.
-3.3. **NIOSH Pocket Guide** das três formas de tetraborato — **CUMPRIDA**: fichas
-   custodiadas em `r4_indicadas/`; REL 5 (deca) e 1 (anidro/penta) conferidos.
-3.4. **JRC 141759** (categoria "Glass/Fibreglass", 49%) — **NÃO OBTIDA**: a origem
-   e o Wayback devolvem "Request Rejected". A participação permanece **por
-   referência**, sem custódia. Pendência declarada.
-4. Resolver a divergência Yellowstone/Paquistão contra fonte geológica primária.
-5. Levantar exposição ocupacional e EPI em tratamento de bambu — Brasil e China.
-6. Reprocessar as 10 fichas herdadas pelo MTCC (estágios 3 a 8) — todas estão em
-   `em-revisao-documental`, `homologacao_automatica: false`, e **nenhuma foi
-   homologada**.
-7. Separar as fichas de boro das de cobre: o pacote herdado as mistura.
+1. **Exposição ocupacional** em tratamento de bambu — Brasil e China; e uso de
+   EPI. Nenhuma fonte custodiada mede operador.
+2. **Poeira respirável de bambu tratado** cortado ou serrado, com quantificação
+   simultânea de boro, sílica e dose ocupacional.
+3. **Rótulos de suplementos brasileiros** — dose por cápsula e por porção.
+4. **Dose agronômica real** por cultura, em kg B/ha.
+5. **Yellowstone e Paquistão** — resolver contra fonte geológica primária.
+6. **Cronologia técnica** da preservação por boratos anterior à Green School.
+7. **Custodiar** IN ANVISA 3/2009 e JRC 141759 (bloqueios de acesso).
+8. **Rateio setorial** da importação brasileira por produto e por uso.
+9. **Separar as fichas herdadas** de boro e de cobre antes de reprocessá-las
+   pelo MTCC — o pacote recebido as mistura.
 
 ## Referências documentais
 
