@@ -10,6 +10,7 @@
   "02-plano-sulfato-de-cobre.md",
   "AUDITORIA_R4_PARECER.md",
   "AUDITORIA_R4_ERRATA.md",
+  "AUDITORIA_R5_PARECER.md",
   "index.md"
  ],
  "custodia_privada": {
@@ -118,7 +119,7 @@
   "objeto_de_auditoria": "COBRE-PLANO-AUDITORIA-20261124-R1"
  },
  "plano_especifico_sulfato": {
-  "versao": 2,
+  "versao": 3,
   "rodadas": 7,
   "rodadas_ids": [
    "S1 identidade e mecanismo",
@@ -151,10 +152,25 @@
    "S1",
    "S2",
    "S7",
+   "S7-ter",
+   "S7-bis",
    "S4",
    "S5",
    "S6",
    "S3"
+  ],
+  "auditorias": [
+   {
+    "task": "...-R4",
+    "veredito": "REPLANEJAR",
+    "furos": 4
+   },
+   {
+    "task": "...-R5",
+    "veredito": "REPLANEJAR",
+    "furos": 4,
+    "omissoes": 3
+   }
   ]
  },
  "verificacao_cruzada_cca": {
@@ -172,5 +188,15 @@
   "P_edulis_CCA4_alvo_4_0": "0,88 kg/m3 (22% do alvo)",
   "P_edulis_CCA6_4_alvo_6_4": "1,49 kg/m3 (23% do alvo)",
   "Pinus_referencia": "4,61 e 7,12 kg/m3"
+ },
+ "correcao_massa_valor_2025": {
+  "massa_total_t": 177.854,
+  "china_pct_massa": 80.4,
+  "china_pct_valor": 48.3,
+  "dispersao_preco_usd_kg": {
+   "China": 1.25,
+   "EUA": 45.57,
+   "Reino Unido": 148.43
+  }
  }
 }
