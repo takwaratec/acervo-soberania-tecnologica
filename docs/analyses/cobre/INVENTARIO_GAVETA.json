@@ -1,0 +1,103 @@
+{
+ "schema": "GAVETA_COBRE_INVENTARIO_R1",
+ "gaveta": "docs/analyses/cobre",
+ "frente": "COBRE",
+ "ledger_commit": "a37861ff8015e76b70e1a8e38773dc56e4befce9",
+ "data": "2026-11-24",
+ "artefatos_publicos": [
+  "00-mapa-reprocessamento.md",
+  "01-plano-de-pesquisa.md",
+  "index.md"
+ ],
+ "custodia_privada": {
+  "fichas_herdadas": {
+   "caminho": "_privado/fichas/ago_28_CCA_CCB/",
+   "arquivos": 6,
+   "bytes": 94801,
+   "estado": "ficha-em-revisao",
+   "homologadas": 0
+  },
+  "fontes_cca_ccb": {
+   "caminho": "_privado/fontes-documentais/ago_28_CCA_CCB/",
+   "arquivos": 22,
+   "pdfs": 6,
+   "bytes": 9623117,
+   "extracao": "ja existente (canonical + md + manifest_sha256.csv)"
+  },
+  "vocs": {
+   "caminho": "_privado/fontes-documentais/ago_27_VOCs/",
+   "arquivos": 45,
+   "pdfs": 38,
+   "bytes": 137180781,
+   "nomes_nfd": 16
+  },
+  "textos_nr_extraidos": {
+   "caminho": "_privado/governanca-operacional/extracoes/cobre/textos_nr/",
+   "arquivos": 13,
+   "bytes": 486657
+  }
+ },
+ "conferencia_bootstrap": {
+  "arquivos_vocs": "45 (bootstrap: 45)",
+  "pdfs_vocs": "38 (bootstrap: 38)",
+  "divergencia": false
+ },
+ "achado_nr15": {
+  "anexo11_cobre": 0,
+  "anexo11_arsenio_inorganico": 0,
+  "anexo11_arsina": "0,04 ppm / 0,16 mg/m3",
+  "anexo11_cromo": "apenas acido cromico (nevoa), maximo 0,04",
+  "anexo11_poeira_madeira": 0,
+  "anexo12": [
+   "asbesto",
+   "manganes 5 mg/m3 poeiras / 1 mg/m3 fumos",
+   "silica livre cristalizada (LT=8/(%quartzo+2) respiravel)"
+  ],
+  "anexo13_isocianatos": "emprego de isocianatos na formacao de poliuretanas (lacas protetoras de madeira, adesivos)"
+ },
+ "lacunas_abertas": [
+  "custodiar Morais 2021 (revisao CCA, CC BY)",
+  "custodiar estudo de marcenaria (As no ar 0,54-3,1 ug/m3)",
+  "custodiar biomonitoramento Uruguai",
+  "custodiar lixiviacao CCB por meio (2004)",
+  "ABNT NBR 10004-1/-2:2024 (acesso pago)",
+  "exposicao de trabalhador de BAMBU com cobre",
+  "importacao brasileira de cobre e madeira tratada (ComexStat)"
+ ],
+ "estado_documental": "em-revisao-documental",
+ "homologacao_automatica": false,
+ "nao_entra_nesta_gaveta": [
+  "boro como objeto (gaveta propria)",
+  "concreto"
+ ],
+ "varredura_repositorio": {
+  "textos_escaneados": 1765,
+  "com_acerto_bambu_tratamento": 1563,
+  "raizes_varridas": 12,
+  "nao_varrido": [
+   "_privado/governanca-operacional/extracoes/ (14682 arquivos)"
+  ],
+  "falsos_positivos": [
+   "_privado/FRENTES_AGENDADAS/ago_29_Povos_Indigenas/ (ruido de OCR)"
+  ]
+ },
+ "achados_da_varredura": [
+  "IARC Volume 62 Wood Dust and Formaldehyde 1995 custodiado e nao fichado (Grupo 1 para poeira de madeira)",
+  "ficha TT-FT-002 em quarentena com numeros de importacao de boro 14x a 103x menores que o ComexStat e origem invertida",
+  "_quarentena/04_Tratamentos com 4 documentos BAM_TRA nunca incorporados",
+  "_quarentena_old e arquivo_historico nunca varridos"
+ ],
+ "integracao_20261124": "Artefatos do cobre produzidos em 2026-11-24 foram incorporados ao branch pelo auditor e revertidos com a inversao de 949e5af; restaurados byte a byte de ops/command-center/task-results/BORO-AUDITORIA-R2-20261124/SUGESTOES_NAO_SOLICITADAS/docs_analyses_cobre/ (sha256 8481412c, b853ccd2, 40dd1d5c).",
+ "plano_de_pesquisa": {
+  "rodadas": 6,
+  "ordem_proposta": [
+   "P1 ocupacional",
+   "P5 importacao",
+   "P3 mecanismo CCB",
+   "P2 norma residuo",
+   "P4 oficina de bambu",
+   "P6 volateis"
+  ],
+  "objeto_de_auditoria": "COBRE-PLANO-AUDITORIA-20261124-R1"
+ }
+}
