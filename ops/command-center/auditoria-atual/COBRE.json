@@ -17,7 +17,7 @@
  "hashes_response_path": "docs/analyses/cobre/AUDITORIA_SOL_COBRE_HASHES_RESPONSE_R1.json",
  "sha256_do_hashes_response": "ca41e65a3cd7b362c81b3df3254289c782b9b2e0087dc09b19e57026afe89698",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "fd3a6c757c264642a8bd33a0864c673ec7ac7961",
+ "alvo_commit": "5ca8b8f301b38d7eaa798bb94f558583d05f586a",
  "alvo_nota": "manifest_commit é onde os BYTES DO MANIFESTO existem (commit posterior). alvo_commit é o último commit que mudou os BYTES AUDITADOS. São dois objetos e dois hashes.",
  "instrucao": "Leia o manifesto inteiro. São 7 perguntas (Q1-Q7) e 16 fontes com sha256. O material auditado está no alvo_commit, não em main.",
  "escopo": "CONTEUDO: fidelidade das 6 fichas e do artigo às fontes publicadas; existência e correção das 14 referências; aritmética do capítulo do resíduo",
