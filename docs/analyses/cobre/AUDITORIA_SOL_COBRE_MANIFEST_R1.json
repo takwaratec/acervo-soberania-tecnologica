@@ -1,0 +1,261 @@
+{
+ "schema": "TAKWARATEC_R4_AUDIT_MANIFEST_R1",
+ "versao": "1.0.0",
+ "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
+ "gerado_utc": "2026-11-24T21:40:00+00:00",
+ "tipo": "CONTEUDO",
+ "frente": "COBRE",
+ "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
+ "alvo_branch": "hermes/cobre-plano-20261124",
+ "alvo_commit": "fd3a6c757c264642a8bd33a0864c673ec7ac7961",
+ "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, fichas, fontes). O manifesto em si é publicado num commit POSTERIOR — um arquivo não pode conter o hash do commit que o publica.",
+ "aviso_de_leitura": {
+  "repositorio": "takwaratec/acervo-soberania-tecnologica",
+  "visibilidade": "PUBLIC",
+  "o_que_voce_le": "o branch alvo_commit. main NÃO contém este material — ler main avalia outro objeto.",
+  "material_e_publico": "As 6 fichas estavam em _privado/ (gitignored). Foram publicadas byte a byte em docs/analyses/cobre/fichas/ para que você as alcance. O sha256 de origem e o publicado estão em MANIFEST_FICHAS_PUBLICADAS.json.",
+  "fontes_publicadas": "As 18 fontes documentais (PDF + HTML + extratos) e as 40 normativas/complementares estão em docs/analyses/cobre/fontes/. Nenhuma fonte desta auditoria vive fora do repositório."
+ },
+ "o_que_esta_auditoria_e": "CONTEÚDO e FIDELIDADE À FONTE. Não é auditoria de runtime, de código ou de autoridade. Nenhum número aqui foi conferido contra o artigo científico original pela frente que escreveu — é exatamente isso que se pede a você.",
+ "pedido_do_soberano": "Enumerar as citações, declarar as fichas homologadas internamente e preparar o pacote para auditoria externa do ChatGPT Sol, que só tem acesso ao GitHub.",
+ "objeto": {
+  "artigo_manuscrito": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
+  "artigo_peca_html": "docs/analyses/cobre/o-cobre-no-bambu.html",
+  "fichas": "docs/analyses/cobre/fichas/ (6 fichas)",
+  "fontes": "docs/analyses/cobre/fontes/ (58 arquivos)",
+  "resultados_de_pesquisa": "docs/analyses/cobre/04..07-resultados-*.md"
+ },
+ "estado_declarado": {
+  "fichas": "homologado-internamente (autoridade FABIO, 2026-11-24)",
+  "artigo": "em-revisao-documental",
+  "homologacao_automatica": false,
+  "o_que_a_homologacao_interna_NAO_e": "Não é homologação científica por par, não é homologação regulatória e não substitui esta auditoria. Se você apontar furo material, o estado reverte para ficha-em-revisao.",
+  "tese_declarada_fora_da_pergunta": "A frente afirma que o ponto crítico do tratamento com sulfato de cobre é o resíduo (solução exaurida), não a eficácia do produto. Esta é uma TESE, declarada aqui para não contaminar as perguntas abaixo."
+ },
+ "pergunta": "As afirmações do artigo e das 6 fichas são fielmente sustentadas pelas fontes custodiadas e publicadas no repositório, e as 14 referências bibliográficas apontam para fontes que existem e dizem o que o texto lhes atribui?",
+ "fora_de_escopo": [
+  "runtime, ledger, claims e código do sistema R4 — nada disso é objeto desta rodada",
+  "homologação científica das fichas — a homologação é interna e o ato é do soberano",
+  "recomendação de dose, receita ou procedimento de tratamento — o acervo não produz receita",
+  "mérito das normas brasileiras citadas (CONAMA, PNRS) — só se foram citadas com fidelidade"
+ ],
+ "parte_1_perguntas": [
+  {
+   "id": "Q1",
+   "pergunta": "Cada uma das 14 referências bibliográficas existe, é identificável pelo que o texto declara (autor, ano, título, veículo) e está publicada em docs/analyses/cobre/fontes/?",
+   "arquivo": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md (seção Referências) + docs/analyses/cobre/fontes/*MANIFEST*.json",
+   "criterio": "Para cada referência: o arquivo existe no commit alvo; o sha256 do manifesto confere com os bytes; o autor/ano/título/veículo declarados correspondem ao documento."
+  },
+  {
+   "id": "Q2",
+   "pergunta": "As 17 marcas de citação no corpo apontam para a referência certa — isto é, a afirmação citada está de fato naquela fonte, e não em outra?",
+   "arquivo": "artigo .md e .html + docs/analyses/cobre/fontes/md/",
+   "criterio": "Abra o extrato da fonte citada e localize o trecho que sustenta a afirmação. Citação que aponta para fonte que não contém a afirmação é furo MATERIAL."
+  },
+  {
+   "id": "Q3",
+   "pergunta": "As seis fichas são fiéis às suas fontes primárias — incluindo as citações literais, os números e as páginas?",
+   "arquivo": "docs/analyses/cobre/fichas/*.md contra docs/analyses/cobre/fontes/",
+   "criterio": "Cada citação literal entre aspas deve aparecer no documento de origem. Cada número deve ter página ou seção identificável."
+  },
+  {
+   "id": "Q4",
+   "pergunta": "A aritmética do artigo fecha? Confira em especial: 25,45% de cobre no sulfato de cobre penta-hidratado; 254 g de cobre em 1 kg do sal; as conversões de diluição (8,8 L, 11, 23 e 204 piscinas olímpicas de 2.500 m³); a razão 1.800×.",
+   "arquivo": "artigo, capítulos 01 e 06",
+   "criterio": "Recalcule. Número que não fecha é furo, mesmo que a fonte esteja certa."
+  },
+  {
+   "id": "Q5",
+   "pergunta": "O artigo afirma algo que uma das fontes publicadas CONTRARIA? Em particular: o cobre no solo após 5 anos (Rusch 2023 mediu +12% sem significância para o cobre e +86% para o cromo) e a alegação de que decantação não remove metal dissolvido.",
+   "arquivo": "capítulo 05 e fonte 4 (Rusch) e fonte 2 (NMBA)",
+   "criterio": "Se o texto afirma algo que a fonte desmente, é furo ALTO. Se o texto omite um dado contrário que está na fonte que ele cita, também."
+  },
+  {
+   "id": "Q6",
+   "pergunta": "As instruções oficiais são citadas fielmente? A Embrapa (COT 110) manda reusar a solução excedente — o texto diz isso? O manual indiano (NMBA) manda enterrar resíduo com serragem — o texto diz isso, e diz que é incompatível com a lei brasileira?",
+   "arquivo": "capítulo 06 e 07 + fontes 1 e 2",
+   "criterio": "Confira nas páginas indicadas. A frente errou este ponto em rodada anterior e foi corrigida por auditoria."
+  },
+  {
+   "id": "Q7",
+   "pergunta": "A homologação interna das 6 fichas está declarada com autoridade, data e alcance, sem se apresentar como homologação científica?",
+   "arquivo": "cabeçalho das 6 fichas em docs/analyses/cobre/fichas/",
+   "criterio": "O bloco homologacao declara autoridade=FABIO, tipo=INTERNA, e o alcance diz explicitamente o que NÃO é. Declaração que se apresente como homologação por par é furo."
+  }
+ ],
+ "fontes": [
+  {
+   "path": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
+   "sha256": "64714eca30e86729339be1414e07c0632ed347b7871f7de86f0acc90186e4a65",
+   "bytes": 64199,
+   "papel": "manuscrito único, com as 14 referências"
+  },
+  {
+   "path": "docs/analyses/cobre/o-cobre-no-bambu.html",
+   "sha256": "3cf26b46912d46c7e9cb4091bb537e438409a613c7ed2c0544183e9a3eaca47f",
+   "bytes": 145528,
+   "papel": "peça de leitura, 18 abas"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/MANIFEST_FICHAS_PUBLICADAS.json",
+   "sha256": "018dee3ab22c7fbf7dc2bd9eb13e71ba0c98c651a0ba0d906cb7b3edabe8997c",
+   "bytes": 2857,
+   "papel": "6 fichas — hash de origem e publicado"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/MANIFEST_FONTES_PUBLICADAS.json",
+   "sha256": "7990078434e5fc8620d7d5944fe4ca6a03f42db3e216d85d19a5046ccc00e06b",
+   "bytes": 5729,
+   "papel": "18 fontes documentais"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/MANIFEST_FONTES_NORMATIVAS.json",
+   "sha256": "5222dcc629ddc98e676062fdc487c753a115df2eaac71fbe919ace16af705f47",
+   "bytes": 1260,
+   "papel": "CONAMA 430, CONAMA 357, PNRS"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/MANIFEST_FONTES_COMPLEMENTARES.json",
+   "sha256": "87a08b2b892d3f1a02b08e3c925369c20ba3313486f09332edcffd8538adfb26",
+   "bytes": 6762,
+   "papel": "Gauss 2020, OMS 2004, ComexStat"
+  },
+  {
+   "path": "docs/analyses/cobre/04-resultados-s8-s10-toxicidade-e-residuo.md",
+   "sha256": "678a798604cede29dbeb4b9ccbb9c7548eaf2d5306a2cef992be3d71cd7409be",
+   "bytes": 11495,
+   "papel": "resultado S8/S10"
+  },
+  {
+   "path": "docs/analyses/cobre/05-resultados-s12-s9-alternativas.md",
+   "sha256": "4e117d5b657e3d41976f9dd163e2804297affc6b43eb1c1221cc5c894bb0dfb1",
+   "bytes": 8692,
+   "papel": "resultado S12/S9 — inclui o dado CONTRA a tese"
+  },
+  {
+   "path": "docs/analyses/cobre/06-resultados-s11-uso-domestico.md",
+   "sha256": "6e25869db67671ac40e6cea1bdb48ab0c7d958fc07c08082bd9901ea1c85d8be",
+   "bytes": 15525,
+   "papel": "resultado S11 — instruções oficiais"
+  },
+  {
+   "path": "docs/analyses/cobre/07-resultados-s11bis-receitas-informais.md",
+   "sha256": "44b5f08f645ffc20d497797e91d40fa907bb046c4b150d5df89c8ba46fcea4fd",
+   "bytes": 12865,
+   "papel": "resultado S11-bis — receitas informais"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md",
+   "sha256": "09ecdcb5431380bb26228359f93abd39833fe3d8d83f1fda7ef871de26955726",
+   "bytes": 8449,
+   "papel": "ficha 1"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-nmba-2006-preservation-of-bamboo-manual.md",
+   "sha256": "e7d24f3896474e7b7a8c3cc1635226706003bb199f05a6d098a11a16a58cc48f",
+   "bytes": 8274,
+   "papel": "ficha 2"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-scharfenberg-2020-bambu-cb-fitotoxicidade.md",
+   "sha256": "63727539ad651aa941c41901120705f49727b60309f6fc3fced54d6c12fb2397",
+   "bytes": 7178,
+   "papel": "ficha 3"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-ufmg-mom-tratamento-com-borax.md",
+   "sha256": "9e8fb1b33a1330efe520d3c968d01bd26d8eba88cac08698dc8ea952943d687c",
+   "bytes": 4951,
+   "papel": "ficha 4"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-blog-tsc-como-tratar-bambu.md",
+   "sha256": "5a2fb1d4a2ebbd655e2fe99239997b7b5a5d3736d4828e416434e3e9081d4d5c",
+   "bytes": 6310,
+   "papel": "ficha 5"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-espaconaturalmente-bambu.md",
+   "sha256": "5c6ff1a2e06ea5458d4f63980409970ac4b7e463a65cc1be3127b2c361a8ba7b",
+   "bytes": 4849,
+   "papel": "ficha 6"
+  }
+ ],
+ "criterios": {
+  "PASS": "Nenhum furo material. Furos de forma (typo, formatação, numeração) podem existir e são listados sem bloquear.",
+  "PASS_COM_RESSALVA": "Nenhum furo material, mas há afirmação que o texto faz e a fonte não sustenta com a força usada (ex.: generalização além do medido).",
+  "FAIL": "Ao menos um furo material: citação que aponta para fonte que não contém a afirmação; número que não fecha; afirmação contrariada por fonte que o próprio texto cita; referência inexistente."
+ },
+ "severidade": {
+  "ALTO": "Altera conclusão ou afirmação central. Exige correção antes de qualquer publicação definitiva.",
+  "MEDIO": "Afirmação periférica mal sustentada, ou atribuição de fonte imprecisa. Corrigível na rodada seguinte.",
+  "BAIXO": "Forma, estilo, numeração, formatação."
+ },
+ "formato_resposta": {
+  "campos_obrigatorios": [
+   "VEREDITO",
+   "MANIFEST_ID",
+   "COMMIT_CONFERIDO",
+   "HASHES_CONFEREM",
+   "FUROS (lista aberta — sem teto; um item por achado, com arquivo, trecho e gravidade)",
+   "O_QUE_ESTA_CORRETO (o que você conferiu e passou — para a frente saber o que não precisa refazer)",
+   "OBSERVACOES_DE_PROTOCOLO",
+   "LIMITES_DESTA_AUDITORIA"
+  ],
+  "formato_resposta": "idêntico a este campo — o protocolo §3 nomeia 'formato_resposta' e o verificador local lê 'formato_de_resposta'. Ambos declarados com conteúdo igual para evitar divergência silenciosa.",
+  "sem_teto": "Não há limite de furos. Relate tudo o que sustentar com arquivo e trecho."
+ },
+ "limites": [
+  "Você lê apenas o que está publicado no commit fixado. Não há runtime, ledger, claim ou código em execução neste pacote — nada disso é afirmado aqui.",
+  "A frente declara NÃO ter conferido nenhum número contra o artigo científico original: as fontes publicadas são os PDFs custodiados, e é contra eles que a conferência se faz.",
+  "O acervo NÃO produz receita nem dose. Onde o texto diz 'não existe dose segura publicada', isso é declaração de limite, não de omissão.",
+  "Onde o texto diz 'desconhecido', significa que nenhuma fonte mediu — não que o risco seja nulo. Julgar essa distinção é parte da auditoria.",
+  "Homologação é ato do soberano (Constituição R4, Art. 7.4). Sua aprovação NÃO homologa — ela confirma ou refuta fidelidade à fonte.",
+  "Esta rodada audita CONTEÚDO. Ela não autoriza merge, promoção nem mudança de estado do sistema."
+ ],
+ "nao_homologa": [
+  "a correção científica das fichas",
+  "a homologação interna, que é ato do soberano",
+  "a instalação ou o runtime do sistema R4",
+  "o mérito das normas brasileiras citadas"
+ ],
+ "como_reproduzir": [
+  "1. git clone https://github.com/takwaratec/acervo-soberania-tecnologica",
+  "2. git checkout <alvo_commit>",
+  "3. Leia docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md de ponta a ponta.",
+  "4. Para cada uma das 17 marcas de citação, abra o extrato em docs/analyses/cobre/fontes/md/ e localize o trecho.",
+  "5. Recalcule a aritmética do capítulo 06.",
+  "6. Compare cada ficha com sua fonte primária em docs/analyses/cobre/fontes/pdf/."
+ ],
+ "erro_anterior_declarado": {
+  "nota": "Declarar o que já se sabe, para o auditor não gastar a rodada no que foi medido antes dele.",
+  "itens": [
+   {
+    "id": "F1",
+    "status": "corrigido",
+    "descricao": "A frente afirmou que a Embrapa não diz o que fazer com a solução excedente. Dizia — instrução de reuso, L207–214. Corrigido; o texto hoje cita a instrução."
+   },
+   {
+    "id": "F2",
+    "status": "corrigido",
+    "descricao": "A frente afirmou que não havia previsão legal para resíduo líquido. A PNRS art. 3º XVI inclui líquidos desde 2010. Erro que favorecia a tese da própria frente."
+   },
+   {
+    "id": "F3",
+    "status": "corrigido",
+    "descricao": "A frente escreveu 'destinação controlada' onde a fonte indiana diz 'enterrar com serragem'. Corrigido nas duas passagens."
+   },
+   {
+    "id": "F4",
+    "status": "corrigido",
+    "descricao": "Erro de unidade em número de piscinas (1.502 era do limite crônico, não do Classe 1). Corrigido."
+   },
+   {
+    "id": "F5",
+    "status": "aberto e declarado",
+    "descricao": "A ABNT NBR 10004-1/-2:2024 é paga e não foi consultada. Toda classificação de resíduo segundo essa norma está ausente do material, e o texto não a invoca."
+   }
+  ]
+ },
+ "total_fontes": 16
+}
