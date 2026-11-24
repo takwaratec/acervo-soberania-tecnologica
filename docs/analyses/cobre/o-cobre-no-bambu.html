@@ -151,6 +151,13 @@ header.top .sub{color:#e3d6c8}
 h3{color:var(--accent-d)}
 blockquote{border-left-color:var(--accent-l)}
 
+/* Com 18 abas (11 do artigo + 6 fichas + referências), a grade de 6 colunas do molde
+   empilha em 3 linhas e a barra fixa passa a ocupar 132px — 13% da tela. Linha única
+   rolável mantém a altura constante, como o próprio molde já faz no celular. */
+nav.tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;gap:6px;
+  grid-template-columns:none;scrollbar-width:thin}
+nav.tabs button{flex:0 0 auto;white-space:nowrap;overflow-wrap:normal;hyphens:none}
+
 </style>
 </head>
 <body>
@@ -160,9 +167,10 @@ blockquote{border-left-color:var(--accent-l)}
   <p class="sub">Um metal comum, uma solução azul e a pergunta que quase ninguém faz: <strong>para onde vai a água do tratamento</strong> — do átomo ao resíduo, sem supor que você saiba química.</p>
   <div class="chips">
     <span class="chip chip--gold">EM REVISÃO DOCUMENTAL · NÃO HOMOLOGADO</span>
-    <span class="chip">11 abas</span>
+    <span class="chip">18 abas</span>
     <span class="chip">~9.958 palavras</span>
     <span class="chip">37 termos no glossário</span>
+    <span class="chip">6 fichas + 14 referências</span>
     <span class="chip">2026-11-24</span>
   </div>
 </header>
@@ -178,6 +186,13 @@ blockquote{border-left-color:var(--accent-l)}
   <button type="button" role="tab" data-tab="p-9" aria-controls="p-9" aria-selected="false" tabindex="-1">08 · Como ler · Resumo</button>
   <button type="button" role="tab" data-tab="p-10" aria-controls="p-10" aria-selected="false" tabindex="-1">Glossário</button>
   <button type="button" role="tab" data-tab="p-11" aria-controls="p-11" aria-selected="false" tabindex="-1">Proveniência</button>
+  <button type="button" role="tab" data-tab="f-1" aria-controls="f-1" aria-selected="false" tabindex="-1">Ficha · Embrapa COT 110</button>
+  <button type="button" role="tab" data-tab="f-2" aria-controls="f-2" aria-selected="false" tabindex="-1">Ficha · NMBA 2006</button>
+  <button type="button" role="tab" data-tab="f-3" aria-controls="f-3" aria-selected="false" tabindex="-1">Ficha · Scharfenberg 2020</button>
+  <button type="button" role="tab" data-tab="f-4" aria-controls="f-4" aria-selected="false" tabindex="-1">Ficha · UFMG / MOM</button>
+  <button type="button" role="tab" data-tab="f-5" aria-controls="f-5" aria-selected="false" tabindex="-1">Ficha · Blog TCS 2016</button>
+  <button type="button" role="tab" data-tab="f-6" aria-controls="f-6" aria-selected="false" tabindex="-1">Ficha · Espaço Naturalmente</button>
+  <button type="button" role="tab" data-tab="refs" aria-controls="refs" aria-selected="false" tabindex="-1">Referências</button>
 </nav>
 <main>
 <section role="tabpanel" id="p-1" aria-labelledby="h-p-1" class="active">
@@ -1084,6 +1099,274 @@ permanecem com o autor.</strong></p>
 <p><strong>Natureza:</strong> artigo de divulgação — adaptação pública em linguagem não especializada.</p>
 
 <p><strong>Conflitos de interesse:</strong> declarados inexistentes.</p>
+</section>
+<section role="tabpanel" id="f-1" aria-labelledby="h-f-1">
+  <h2 id="h-f-1"><span class="num">F</span>Ficha · Embrapa COT 110</h2>
+  <p class="meta">FICHA TÉCNICA · sha256 95fd884478949964 · 8,482 B · ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md</p>
+  <p><em>Instrução oficial brasileira.</em></p>
+  <blockquote><p><strong>Em uma frase.</strong> Instrução oficial brasileira de tratamento preservativo de moirões na pequena propriedade, pelo método de substituição de seiva com CCB — e a única fonte desta gaveta que dá ao usuário rural a lista completa de EPI, o volume do tonel e a proibição explícita de descarte no ambiente.</p></blockquote>
+<h3>1. O que o documento é</h3>
+<p>Comunicado Técnico da Embrapa voltado ao <strong>produtor rural</strong>, não ao laboratório. Ensina a tratar moirões (mourões de cerca) pelo método de <strong>substituição de seiva</strong>: a solução preservativa é absorvida por capilaridade e difusão enquanto o moirão ainda está verde.</p>
+<p><strong>Método descrito:</strong> corte no comprimento desejado, corte chanfrado na extremidade superior, eliminação dos ramos laterais, imersão em tonel com a solução. A absorção é gradual e depende de temperatura e umidade.</p>
+<p><strong>Preservativo:</strong> <strong>CCB</strong> — borato de cobre cromatado, composto de <strong>ácido bórico</strong>, <strong>dicromato de potássio ou de sódio</strong> e <strong>sulfato de cobre</strong>, com água como veículo.</p>
+<p><strong>Recorte do documento:</strong> madeira (moirões), não bambu. O objeto da frente é o sulfato de cobre; o documento serve porque é a <strong>instrução rural brasileira</strong> que mais se aproxima do uso doméstico — e porque o CCB é o mesmo preservativo usado em bambu na literatura brasileira (ver ficha Rusch 2023).</p>
+<h3>2. O que o documento dá ao usuário — item por item</h3>
+<h4>2.1 EPI, por peça, sem ambiguidade</h4>
+<blockquote><p>"Equipamentos de proteção individual (EPIs) como: óculos de proteção, máscara de proteção, luvas de borracha, vestimenta que [proteja]"</p></blockquote>
+<h4>2.2 Lista completa de insumos, com o volume do recipiente</h4>
+<blockquote><p>"Luva de borracha · Óculos de proteção · Máscara de proteção · Bota de borracha · Avental ou roupa que proteja os braços e pernas · <strong>Tonel plástico (recomenda-se com capacidade mínima de 200 litros)</strong> · Balança · Sacos plásticos ou de papel · Balde graduado de 10 litros · Ácido bórico · Dicromato de potássio/sódio · Sulfato de cobre"</p></blockquote>
+<p><strong>O detalhe do tonel de 200 litros importa:</strong> é a escala real do banho doméstico, e é a mesma ordem de grandeza usada nos cálculos de S10.</p>
+<h4>2.3 A proibição de descarte — dita duas vezes</h4>
+<blockquote><p>"Não descartar no meio ambiente."</p></blockquote>
+<blockquote><p>"Não descartar no meio ambiente. Utilizar meios adequados de contenção para evitar contaminação ambiental."</p></blockquote>
+<blockquote><p>"A roupa de trabalho contaminada não pode sair do local de trabalho. Lavar antes de usá-la novamente."</p></blockquote>
+<h4>2.4 <strong>O destino da solução: guardar e reutilizar</strong> — o que a v1 desta ficha omitiu</h4>
+<blockquote><p>"A solução preservativa excedente deve ser armazenada em recipiente plástico, sendo reutilizada no próximo tratamento." — <strong>linhas 207–209</strong> do texto extraído</p></blockquote>
+<blockquote><p>"Os produtos químicos utilizados no tratamento e a solução excedente devem ser mantidos em local livre de umidade e fechado, sem acesso a crianças e animais." — <strong>linhas 211–214</strong></p></blockquote>
+<p><strong>O documento orienta o destino da solução excedente:</strong> guardar em recipiente plástico, manter em local fechado e seco, longe de crianças e animais, e <strong>reutilizar no próximo tratamento</strong>.</p>
+<p><strong>Isso corrige a leitura anterior desta ficha</strong>, que afirmava ausência total de orientação de destino. A ausência é mais estreita: o documento <strong>pressupõe um "próximo tratamento"</strong> e não diz o que fazer quando ele não existe — obra terminada, banho saturado, concentração decaída.</p>
+<h4>2.5 Um alerta regulatório que a fonte traz de graça</h4>
+<blockquote><p>"O Dicromato de Potássio ou de Sódio e o Ácido Bórico estão atualmente sob o controle da Polícia Federal, conforme a Portaria número 240, de 12 de março de 2019, e a Lei número 10.357 de 27 de dezembro de 2001."</p></blockquote>
+<p><strong>A fonte declara dicromato e ácido bórico sob controle da Polícia Federal e não menciona o sulfato de cobre.</strong></p>
+<p><em>Estatuto: as duas primeiras partes são <strong>fato citado da fonte</strong>. A conclusão de que o sulfato de cobre <strong>não</strong> é controlado é <strong>inferência desta curadoria</strong> — a fonte não afirma que a lista seja exaustiva, e a norma não foi lida na íntegra nesta rodada.</em></p>
+<h3>3. O que o documento NÃO dá</h3>
+<p><strong>O destino da solução quando o reuso já não é possível.</strong></p>
+<p>O documento manda guardar e reutilizar (L207–214) e proíbe descartar no ambiente. <strong>Não diz</strong> o que fazer quando não há próximo tratamento, quando o banho satura ou quando a concentração cai.</p>
+<p><strong>Nenhuma ocorrência localizada, em 13 páginas, de:</strong></p>
+<ul><li>persistência do cobre no ambiente (não se degrada, não é biodegradável);</li><li>destino final da solução que não serve mais;</li><li>dose por espécie de madeira;</li><li>caracterização ou destinação de resíduo.</li></ul>
+<p><strong>Consequência, agora correta:</strong> o documento <strong>não deixa o usuário sem saída</strong> — manda reusar. Deixa-o sem saída <strong>no fim</strong>: o último litro do banho não tem destino prescrito além de "não descartar no ambiente".</p>
+<h3>4. Limitações desta leitura</h3>
+<ol><li><strong>Metadados completos (v2).</strong> Autoria: <strong>Helio Tonini</strong> (Pesquisador, Embrapa Pecuária Sul,</li></ol>
+<p>Bagé/RS) e <strong>Leonardo da Silva Oliveira</strong> (Professor, Universidade Federal de Pelotas). Data: <strong>setembro de 2024</strong>, Bagé/RS. ISSN 1982-5382. Título integral inclui "procedimentos para a sua aplicação, licenciamento e gestão financeira" — o documento cobre também <strong>licenciamento</strong>, não só o procedimento de tratamento.</p>
+<ol><li><strong>O documento trata madeira, não bambu.</strong> Transferir o procedimento ao bambu exige fonte</li></ol>
+<p>própria — a literatura brasileira de bambu usa CCB com outra proporção (26/63,5/10,5% conforme NBR 6232, ver ficha Rusch).</p>
+<ol><li><strong>Data resolvida na v3:</strong> o texto traz "Bagé, RS / Setembro, 2024" no cabeçalho (L9), e o</li></ol>
+<p>campo <code>ano</code> está preenchido com 2024 desde então. <em>(A v2 desta ficha ainda dizia no item 2 que a data não havia sido localizada — resíduo de edição, corrigido aqui e apontado pela R8.)</em></p>
+<ol><li><strong>A licença de reutilização não está declarada</strong> no PDF. Sendo publicação institucional</li></ol>
+<p>da Embrapa, o uso citativo é seguro; a reprodução integral exige confirmação.</p>
+<ol><li><strong>A contagem de EPI por varredura de termo produziu 16 acertos</strong>, mas a leitura do</li></ol>
+<p>contexto mostra repetição da mesma lista em seções diferentes — o número útil é "a lista é completa", não "16 menções".</p>
+<h3>5. Por que esta ficha existe</h3>
+<p>Porque a S11 perguntava se a instrução doméstica/rural brasileira <strong>avisa</strong>. Esta fonte <strong>avisa</strong> — e o capítulo precisa registrar isso contra a expectativa inicial de que a receita circula sem aviso. <strong>O que falta não é o aviso; é a solução.</strong></p>
+<h3>Autoria, assistência e responsabilidade</h3>
+<p><strong>Curadoria e responsabilidade:</strong> Fabio Takwara.</p>
+<p><strong>Apoio de IA:</strong> ferramenta de inteligência artificial foi utilizada para localizar e extrair o texto da fonte, estruturar a ficha, conferir citações contra o documento original, executar cálculos e apoiar a redação. <strong>A seleção das fontes, o julgamento sobre o que a fonte autoriza afirmar e a responsabilidade pela versão publicada permanecem com o curador.</strong></p>
+<p><strong>Estado:</strong> ficha em revisão documental. Não homologada.</p>
+</section>
+<section role="tabpanel" id="f-2" aria-labelledby="h-f-2">
+  <h2 id="h-f-2"><span class="num">F</span>Ficha · NMBA 2006</h2>
+  <p class="meta">FICHA TÉCNICA · sha256 d38184fac353d054 · 8,358 B · ficha-nmba-2006-preservation-of-bamboo-manual.md</p>
+  <p><em>Manual oficial indiano.</em></p>
+  <blockquote><p><strong>Em uma frase.</strong> O manual oficial do governo indiano sobre preservação de bambu — e a <strong>única</strong> fonte desta gaveta que dá instrução explícita de destino à solução preservativa exaurida: <em>"não descartar em ralos, rios ou córregos; a solução usada pode ser decantada e reutilizada"</em>.</p></blockquote>
+<h3>1. O que o documento é</h3>
+<p>Manual de capacitação em 60 páginas do <em>National Mission on Bamboo Applications</em>, ligado ao Department of Science and Technology do governo indiano e executado pelo TIFAC. Cobre a planta, tratabilidade, causas de degradação, práticas de colheita, armazenamento, métodos de tratamento (tradicional e químico), <strong>manuseio de preservativos</strong> e normas indianas.</p>
+<p><strong>Estrutura relevante:</strong></p>
+<div class="tabwrap"><table><thead><tr><th>Seção</th><th>Página</th></tr></thead><tbody><tr><td data-l="Seção">Why is Treatment Necessary for Bamboo?</td><td data-l="Página">12</td></tr><tr><td data-l="Seção">Methods of Treatment</td><td data-l="Página">24</td></tr><tr><td data-l="Seção">Traditional Treatment</td><td data-l="Página">26</td></tr><tr><td data-l="Seção">Chemical Preservation</td><td data-l="Página">29</td></tr><tr><td data-l="Seção">Short-term Chemical Treatment</td><td data-l="Página">33</td></tr><tr><td data-l="Seção">Long-term Chemical Treatment</td><td data-l="Página">35</td></tr><tr><td data-l="Seção"><strong>Handling of Preservative</strong></td><td data-l="Página"><strong>46</strong></td></tr><tr><td data-l="Seção">Indian Standards for Preservation of Bamboo</td><td data-l="Página">49</td></tr></tbody></table></div>
+<h3>2. O capítulo 13 — "Handling of Preservatives" — é a resposta</h3>
+<h4>2.1 Destino da solução: decantar e reusar; nunca no ralo</h4>
+<blockquote><p>"<strong>Preservative solutions should not be disposed of in drains, rivers/streams.</strong> Used solution may be <strong>decanted and reused</strong>. Residues may be mixed with saw dust and buried in the ground."</p></blockquote>
+<blockquote><p>"<strong>Collect the drained solution for reuse.</strong>"</p></blockquote>
+<blockquote><p>"<strong>Sludge generated during treatment should be reclaimed for chemicals and reused</strong> by adding Chromic acid and bringing the pH to 2.5."</p></blockquote>
+<p><strong>Isso responde, em uma página, a pergunta que a instrução brasileira deixa aberta:</strong> a solução exaurida é resíduo, decanta-se, reusa-se, e para o que resta a fonte prescreve <strong>misturar a serragem e enterrar</strong> — não uma destinação licenciada.</p>
+<h4>2.2 Segurança do operador</h4>
+<blockquote><p>"All preservative formulations contain toxic components and should be handled with great care."</p></blockquote>
+<blockquote><p>"Wear aprons, work clothes, gloves, protective goggles, footwear before preparation of solutions, treatment and handling of freshly treated material."</p></blockquote>
+<blockquote><p>"The treatment area should be well ventilated with no unauthorized entry."</p></blockquote>
+<blockquote><p>"Spraying of chemicals should be done in the wind direction."</p></blockquote>
+<blockquote><p>"No drinks or food should be consumed in the treatment area."</p></blockquote>
+<blockquote><p>"Empty containers should be placed out of reach of non-technical personnel and children, and properly disposed of by burying in the ground."</p></blockquote>
+<p><strong>Detalhes que a instrução brasileira não tem:</strong> direção do vento na pulverização, proibição de comida e bebida na área, e — importante — <strong>recipientes vazios fora do alcance de crianças e de pessoal não técnico</strong>.</p>
+<h4>2.3 Preparo da solução — com fórmula, não com "receita de bolo"</h4>
+<blockquote><p>"Q = (C × V) / S" Q = quantidade a dissolver · C = concentração requerida · V = volume a preparar · S = concentração do sal/pasta</p></blockquote>
+<p>Exemplo do manual: para 8% de solução de CCA com sal a 95% de pureza, em 100 L — <strong>Q = 8 × 100 / 95</strong>.</p>
+<p><strong>Para boro:</strong></p>
+<blockquote><p>"Boric acid and Borax are usually mixed in the ratio of 50:50. A ratio of 1:1.4 has a better solubility […] it results in the formation of Disodium Octaborate."</p></blockquote>
+<div class="tabwrap"><table><thead><tr><th>Proporção</th><th>Ácido bórico</th><th>Bórax</th><th>Água</th></tr></thead><tbody><tr><td data-l="Proporção">50:50</td><td data-l="Ácido bórico">5 kg</td><td data-l="Bórax">5 kg</td><td data-l="Água">100 L</td></tr><tr><td data-l="Proporção">1:1,4</td><td data-l="Ácido bórico">4,2 kg</td><td data-l="Bórax">5,9 kg</td><td data-l="Água">100 L</td></tr></tbody></table></div>
+<p>E a advertência térmica: <em>"Boron salts may be heated to about 50 °C […] However, beyond 50 °C it results in loss of salts."</em></p>
+<h4>2.4 Um alerta que a casa não esperava</h4>
+<blockquote><p>"It is always recommended that toxic salts like <strong>CCA, CCB</strong>, etc., be obtained as a <strong>premix</strong> and dissolved in water to get a solution."</p></blockquote>
+<p><strong>O manual oficial recomenda que o usuário NÃO misture CCA/CCB a partir dos sais separados.</strong> Deixa a manipulação de cromo e arsênico para quem fornece o pré-misturado — e reserva ao usuário apenas dissolver. É a posição oposta à da instrução que manda comprar dicromato, ácido bórico e sulfato de cobre e misturar no tonel.</p>
+<h3>3. Limitações — e há duas que enfraquecem o documento</h3>
+<h4>3.1 A destinação final que ele oferece não é transferível ao Brasil</h4>
+<blockquote><p>"Residues may be mixed with saw dust and <strong>buried in the ground</strong>."</p></blockquote>
+<p><strong>Enterrar resíduo contendo cobre e cromo é destinação inadequada sob a PNRS brasileira</strong> (Lei 12.305/2010) e sob a NBR 10004 — resíduo com metal precisa de caracterização e destinação licenciada. O manual indiano de 2006 prescreve prática que a norma brasileira não admite.</p>
+<h4>3.2 A recuperação do lodo é rota industrial, não caseira</h4>
+<blockquote><p>"reclaimed for chemicals […] by adding Chromic acid and bringing the pH to 2.5"</p></blockquote>
+<p>Manusear ácido crômico e acidificar a pH 2,5 são operações de planta química. O manual descreve o circuito de uma unidade industrial de preservação, não o tratamento doméstico.</p>
+<h4>3.3 Escopo e data</h4>
+<p>Manual de <strong>2006</strong>, contexto indiano, com normas indianas (IS) que não são as brasileiras. A transposição exige verificar se o método e as concentrações valem sob a ABNT.</p>
+<h3>4. Por que esta ficha existe</h3>
+<p><strong>Porque é a fonte que prova que a pergunta do soberano tem resposta técnica e que essa resposta existe em documento de governo.</strong> A solução exaurida <strong>não vai para a natureza</strong>: decanta-se, reusa-se, e o resíduo a fonte manda <strong>enterrar com serragem</strong> — que <strong>não é</strong> destinação controlada no sentido da PNRS.</p>
+<p><strong>E porque estabelece o contraste do capítulo — corrigido na v2:</strong> a formulação anterior desta ficha ("o Brasil tem EPI melhor e não tem a instrução de destino") <strong>caiu</strong>, por duas razões medidas na auditoria R8:</p>
+<ol><li><strong>Nenhuma métrica sustenta "EPI melhor".</strong> O COT110 detalha mais itens de EPI por peça; o</li></ol>
+<p>NMBA detalha mais controle de área (ventilação, direção do vento, comida e bebida proibidas, recipientes fora do alcance de crianças). Critério de superioridade não definido — não há conclusão possível.</p>
+<ol><li><strong>O Brasil TEM instrução de destino:</strong> o COT110 manda guardar a solução excedente e</li></ol>
+<p>reutilizá-la no próximo tratamento (L207–214). A ficha afirmou o contrário porque a v1 do resultado o afirmava.</p>
+<p><strong>A comparação correta, item a item, está na tabela §4.1 do resultado.</strong> Em resumo: <strong>as duas instruções mandam reusar; nenhuma resolve o descarte final do volume que não serve mais</strong> — a brasileira silencia, a indiana manda enterrar.</p>
+<h3>Autoria, assistência e responsabilidade</h3>
+<p><strong>Curadoria e responsabilidade:</strong> Fabio Takwara.</p>
+<p><strong>Apoio de IA:</strong> ferramenta de inteligência artificial foi utilizada para localizar e extrair o texto da fonte, estruturar a ficha, conferir citações contra o documento original, executar cálculos e apoiar a redação. <strong>A seleção das fontes, o julgamento sobre o que a fonte autoriza afirmar e a responsabilidade pela versão publicada permanecem com o curador.</strong></p>
+<p><strong>Estado:</strong> ficha em revisão documental. Não homologada.</p>
+</section>
+<section role="tabpanel" id="f-3" aria-labelledby="h-f-3">
+  <h2 id="h-f-3"><span class="num">F</span>Ficha · Scharfenberg 2020</h2>
+  <p class="meta">FICHA TÉCNICA · sha256 2eea22b0c4efd6b5 · 7,108 B · ficha-scharfenberg-2020-bambu-cb-fitotoxicidade.md</p>
+  <p><em>Mede a fitotoxicidade do descarte.</em></p>
+  <blockquote><p><strong>Em uma frase.</strong> A fonte que faltava ao capítulo: uma dissertação de mestrado que tratou bambu com <strong>ácido bórico + sulfato de cobre (CB)</strong> e testou o que o <strong>descarte</strong> faz — as soluções se mostraram <strong>muito fitotóxicas</strong> até a diluição de <strong>1/10</strong>, com <strong>índice de germinação menor que o do Roundup</strong>, e <strong>pH 1,28</strong> na concentração de uso.</p></blockquote>
+<h3>1. O que o estudo fez</h3>
+<ul><li><strong>Material:</strong> <em>Dendrocalamus asper</em> (bambu gigante).</li><li><strong>Tratamento:</strong> imersão por <strong>7 dias</strong> em três soluções:</li><li><strong>CB</strong> — ácido bórico 1% + sulfato de cobre 0,5%</li><li><strong>CB reforçado</strong> — ácido bórico 2% + sulfato de cobre 1%</li><li><strong>Octaborato de sódio</strong> — 5%</li><li><strong>CCB</strong> — usado nos testes de fitotoxicidade, 3%</li><li><strong>Ensaios:</strong> resistência a três fungos de podridão (perda de massa e de resistência</li></ul>
+<p>mecânica) <strong>+ teste de fitotoxicidade</strong> por germinação de alface.</p>
+<p><strong>O que torna esta fonte singular:</strong> o autor tratou com <strong>cobre sem cromo</strong> (CB), mediu a eficácia <strong>e</strong> mediu o que a solução faz no ambiente. É o desenho experimental que a frente procurava e não tinha.</p>
+<h3>2. Fitotoxicidade — Tabela 9, p. 64</h3>
+<p>Índice de germinação (<strong>GI</strong>). Classificação de Belo (2011): <strong>GI &lt; 30 = muito fitotóxico</strong>.</p>
+<div class="tabwrap"><table><thead><tr><th>Diluição</th><th><strong>CB</strong> (bórico 2% + CuSO₄ 1%)</th><th><strong>CCB</strong> (3%)</th><th><strong>Octaborato</strong> (5%)</th></tr></thead><tbody><tr><td data-l="Diluição">1/1 (uso)</td><td data-l="**CB** (bórico 2% + CuSO₄ 1%)"><strong>0</strong></td><td data-l="**CCB** (3%)"><strong>0</strong></td><td data-l="**Octaborato** (5%)"><strong>0</strong></td></tr><tr><td data-l="Diluição">1/3</td><td data-l="**CB** (bórico 2% + CuSO₄ 1%)">0</td><td data-l="**CCB** (3%)">0</td><td data-l="**Octaborato** (5%)">0</td></tr><tr><td data-l="Diluição">1/5</td><td data-l="**CB** (bórico 2% + CuSO₄ 1%)">0</td><td data-l="**CCB** (3%)">0</td><td data-l="**Octaborato** (5%)">0</td></tr><tr><td data-l="Diluição"><strong>1/10</strong></td><td data-l="**CB** (bórico 2% + CuSO₄ 1%)"><strong>0</strong></td><td data-l="**CCB** (3%)"><strong>0</strong></td><td data-l="**Octaborato** (5%)"><strong>0</strong></td></tr><tr><td data-l="Diluição">1/20</td><td data-l="**CB** (bórico 2% + CuSO₄ 1%)">4,23</td><td data-l="**CCB** (3%)">0,81</td><td data-l="**Octaborato** (5%)">—</td></tr><tr><td data-l="Diluição">1/30</td><td data-l="**CB** (bórico 2% + CuSO₄ 1%)">6,04</td><td data-l="**CCB** (3%)">3,95</td><td data-l="**Octaborato** (5%)">—</td></tr><tr><td data-l="Diluição">1/40</td><td data-l="**CB** (bórico 2% + CuSO₄ 1%)">—</td><td data-l="**CCB** (3%)">—</td><td data-l="**Octaborato** (5%)">0,21</td></tr><tr><td data-l="Diluição">1/50</td><td data-l="**CB** (bórico 2% + CuSO₄ 1%)">11,00</td><td data-l="**CCB** (3%)">8,48</td><td data-l="**Octaborato** (5%)">0,74</td></tr><tr><td data-l="Diluição">1/60</td><td data-l="**CB** (bórico 2% + CuSO₄ 1%)">—</td><td data-l="**CCB** (3%)">—</td><td data-l="**Octaborato** (5%)">7,84</td></tr></tbody></table></div>
+<p><strong>Até a diluição 1/10, com a solução já dez vezes mais fraca, nenhuma semente germinou.</strong></p>
+<h4>2.1 A comparação que o autor faz</h4>
+<blockquote><p>"Segundo a classificação de Belo (2011), <strong>todos os grupos apresentaram GI muito fitotóxico (GI &lt; 30)</strong> […] O <strong>Roundup</strong>, comparativamente, obteve todos os valores de GI <strong>maior que 80%</strong>." (p. 64)</p></blockquote>
+<p><em>(O autor cita Santos et al. 2019 para os dados do glifosato: 90% de germinação absoluta na maior concentração, sem diluição.)</em></p>
+<p><strong>Mesma semente, mesma métrica, mesmo laboratório: o descarte do tratamento é mais fitotóxico que um herbicida comercial.</strong></p>
+<h3>3. Crescimento da raiz — Tabela 10, p. 66</h3>
+<div class="tabwrap"><table><thead><tr><th>Grupo</th><th>Melhor diluição</th><th>Comprimento da radícula (mm)</th></tr></thead><tbody><tr><td data-l="Grupo"><strong>Controle (água)</strong></td><td data-l="Melhor diluição">—</td><td data-l="Comprimento da radícula (mm)"><strong>2,78 ± 3,31</strong></td></tr><tr><td data-l="Grupo">Octaborato</td><td data-l="Melhor diluição">1/60</td><td data-l="Comprimento da radícula (mm)">0,41 ± 0,84</td></tr><tr><td data-l="Grupo"><strong>CB</strong></td><td data-l="Melhor diluição">1/50</td><td data-l="Comprimento da radícula (mm)"><strong>0,33 ± 0,36</strong></td></tr><tr><td data-l="Grupo">CCB</td><td data-l="Melhor diluição">1/50</td><td data-l="Comprimento da radícula (mm)">0,26 ± 0,45</td></tr></tbody></table></div>
+<p><strong>A melhor raiz do CB é 8,4× menor que a do controle.</strong> E o autor nota que a raiz é mais sensível que a semente: <em>"o crescimento inicial das plantas é mais sensível que a germinação, sendo as raízes geralmente mais vulneráveis"</em> (p. 67).</p>
+<h3>4. pH e condutividade — Tabela 11, p. 67</h3>
+<div class="tabwrap"><table><thead><tr><th>Solução</th><th>pH em 1/1 (uso)</th><th>Condutividade (µS/cm)</th></tr></thead><tbody><tr><td data-l="Solução"><strong>CCB 3%</strong></td><td data-l="pH em 1/1 (uso)"><strong>0,22</strong></td><td data-l="Condutividade (µS/cm)">5.818</td></tr><tr><td data-l="Solução"><strong>CB</strong> (bórico 2% + CuSO₄ 1%)</td><td data-l="pH em 1/1 (uso)"><strong>1,28</strong></td><td data-l="Condutividade (µS/cm)">3.495</td></tr><tr><td data-l="Solução">Octaborato 5%</td><td data-l="pH em 1/1 (uso)">5,38</td><td data-l="Condutividade (µS/cm)">6.843</td></tr></tbody></table></div>
+<p><strong>Para escala de leigo:</strong> suco de limão tem pH ≈ 2; vinagre ≈ 3. <strong>A solução de CB é mais ácida que suco de limão; o CCB é mais ácido que suco de limão por mais de uma ordem de magnitude</strong>, na faixa de ácido de bateria.</p>
+<h3>5. Eficácia — o que o estudo conclui</h3>
+<blockquote><p>"Dessa forma, foi possível notar que o <strong>ácido bórico com sulfato de cobre tem potencial eficácia</strong> no tratamento do bambu, <strong>exigindo mais testes para comprovação com maior suficiência</strong>." (Resumo, p. 6)</p></blockquote>
+<ul><li>Todos os grupos foram classificados <strong>"altamente resistentes"</strong> à perda de massa.</li><li><strong>CB</strong> apresentou os maiores módulos de ruptura (picos acima de <strong>140 MPa</strong>) frente a *T.</li></ul>
+<p>versicolor* e <em>G. trabeum</em>.</p>
+<ul><li>O octaborato teve desempenho <strong>pior</strong> que o CB em <em>P. placenta</em> e menor capacidade de</li></ul>
+<p>deflexão nos três fungos.</p>
+<p><strong>O CB tem eficácia — e o autor é explícito em dizer que ela é potencial, não comprovada com suficiência.</strong> A ficha registra a ressalva do próprio autor.</p>
+<h3>6. Limitações</h3>
+<ol><li><strong>Amostra de um ensaio, uma espécie</strong> (<em>D. asper</em>), um tempo de imersão (7 dias).</li><li><strong>A fitotoxicidade foi testada com sementes de alface</strong>, não com organismo aquático nem com</li></ol>
+<p>solo. É indicador de risco, <strong>não</strong> é avaliação ecotoxicológica regulatória.</p>
+<ol><li>**As concentrações testadas (bórico 1–2%, CuSO₄ 0,5–1%) são menores que as da receita</li></ol>
+<p>informal do blog TCS<strong> (que chega a 9%). </strong>Ninguém testou a receita real.** Esta é a lacuna central e o capítulo deve declará-la.</p>
+<ol><li><strong>O autor compara com glifosato citando terceiro</strong> (Santos et al. 2019); a comparação não</li></ol>
+<p>foi feita no mesmo experimento.</p>
+<ol><li><strong>Dissertação de mestrado profissional</strong>, não artigo revisado por pares. Qualidade de dados</li></ol>
+<p>alta; estatuto bibliográfico é de literatura cinzenta qualificada.</p>
+<ol><li><strong>Licença de reutilização não declarada</strong> no PDF.</li></ol>
+<h3>7. Por que esta ficha existe</h3>
+<p>Porque é a única fonte desta gaveta que <strong>mede o descarte</strong> — o objeto central da frente — e o faz com <strong>a solução que a receita informal manda preparar</strong>. Ela transforma a tese do capítulo de argumento em medição: <em>a água que sobra do tratamento de bambu com cobre e boro inibe a germinação e o crescimento de raiz numa diluição em que um herbicida comercial não inibe.</em></p>
+<h3>Autoria, assistência e responsabilidade</h3>
+<p><strong>Curadoria e responsabilidade:</strong> Fabio Takwara.</p>
+<p><strong>Apoio de IA:</strong> ferramenta de inteligência artificial foi utilizada para localizar e extrair o texto da fonte, estruturar a ficha, conferir citações contra o documento original, executar cálculos e apoiar a redação. <strong>A seleção das fontes, o julgamento sobre o que a fonte autoriza afirmar e a responsabilidade pela versão publicada permanecem com o curador.</strong></p>
+<p><strong>Estado:</strong> ficha em revisão documental. Não homologada.</p>
+</section>
+<section role="tabpanel" id="f-4" aria-labelledby="h-f-4">
+  <h2 id="h-f-4"><span class="num">F</span>Ficha · UFMG / MOM</h2>
+  <p class="meta">FICHA TÉCNICA · sha256 3abf0a466d200401 · 4,735 B · ficha-ufmg-mom-tratamento-com-borax.md</p>
+  <p><em>Universidade publica a receita.</em></p>
+  <blockquote><p><strong>Em uma frase.</strong> Uma página da Universidade Federal de Minas Gerais publica a receita de tratamento de bambu com ácido bórico e bórax — <strong>e declara, na mesma página, que o método não foi comprovado em pesquisas científicas.</strong></p></blockquote>
+<h3>1. O que a página diz</h3>
+<p><strong>Texto integral, 537 caracteres:</strong></p>
+<blockquote><p>"TRATAMENTO COM BÓRAX</p>
+<p>Uma das possibilidades para o tratamento químico do bambu é a mistura de ácido bórico, borato de sódio (bórax) e água. Estas substâncias devem ser misturadas na proporção <strong>1kg:1kg:100litros</strong>, em um tanque ou grande recipiente que possa acolher os bambus, assim como no tratamento por afogamento. É necessária também a retirada dos tímpanos do colmo. A imersão dos colmos deve durar de <strong>8 a 10 dias</strong>. <strong>Este tipo de tratamento não foi comprovado em pesquisas científicas, apesar de amplamente utilizado.</strong>"</p></blockquote>
+<p>Três imagens acompanham o texto: o tanque de imersão e os dois sais (ácido bórico e borato).</p>
+<h3>2. O que a página dá</h3>
+<div class="tabwrap"><table><thead><tr><th>Elemento</th><th>Está?</th></tr></thead><tbody><tr><td data-l="Elemento">Proporção dos sais</td><td data-l="Está?"><strong>sim</strong> — 1 kg : 1 kg : 100 L</td></tr><tr><td data-l="Elemento">Recipiente / volume</td><td data-l="Está?">sim, "tanque ou grande recipiente"</td></tr><tr><td data-l="Elemento">Tempo de imersão</td><td data-l="Está?"><strong>sim — 8 a 10 dias</strong></td></tr><tr><td data-l="Elemento">Preparo do colmo</td><td data-l="Está?">sim — retirar os tímpanos (diafragmas)</td></tr><tr><td data-l="Elemento">Tempo de secagem posterior</td><td data-l="Está?"><strong>não</strong></td></tr><tr><td data-l="Elemento">Concentração em %</td><td data-l="Está?">não (dá proporção, não concentração)</td></tr><tr><td data-l="Elemento"><strong>EPI</strong></td><td data-l="Está?"><strong>não</strong></td></tr><tr><td data-l="Elemento"><strong>Destino da solução</strong></td><td data-l="Está?"><strong>não</strong></td></tr><tr><td data-l="Elemento"><strong>Aviso de toxicidade</strong></td><td data-l="Está?"><strong>não</strong></td></tr><tr><td data-l="Elemento"><strong>Eficácia comprovada</strong></td><td data-l="Está?"><strong>a página declara que NÃO foi comprovada</strong></td></tr></tbody></table></div>
+<h3>3. O achado, e ele é o mais importante da ficha</h3>
+<p><strong>A página não esconde que a receita não tem respaldo científico.</strong> Ela escreve, com todas as letras: <em>"Este tipo de tratamento não foi comprovado em pesquisas científicas, apesar de amplamente utilizado."</em></p>
+<p><strong>Isso é honestidade intelectual da universidade — e é, ao mesmo tempo, a origem documentada da receita sem respaldo.</strong> O leitor que chega pela página recebe a receita completa e a informação de que ela não foi testada. <strong>O que ele faz com isso é a pergunta que a S11-bis não responde</strong> e que exigiria campo.</p>
+<p><strong>Para o capítulo:</strong> é a prova de que a receita informal não é lenda de fórum — está em página de universidade pública, com a ressalva junto. E a ressalva não impede o uso: o texto diz "apesar de amplamente utilizado".</p>
+<h3>4. Limitações</h3>
+<ol><li><strong>Sem data de publicação</strong> visível no texto extraído — o campo <code>ano</code> fica nulo em vez de</li></ol>
+<p>estimado.</p>
+<ol><li><strong>Página muito curta</strong> (537 caracteres): não é documento técnico, é verbete de material</li></ol>
+<p>didático.</p>
+<ol><li><strong>Não trata de sulfato de cobre</strong> — esta página é só boro. A ligação com a frente cobre é</li></ol>
+<p>indireta: o mesmo circuito de divulgação ensina os dois.</p>
+<ol><li><strong>Licença não declarada</strong>; uso citativo seguro, reprodução integral pendente.</li></ol>
+<h3>5. Por que esta ficha existe</h3>
+<p>Porque estabelece <strong>onde</strong> a receita informal circula com autoridade aparente — e porque registra que <strong>a própria fonte admite a falta de comprovação</strong>, o que impede a ficha de apresentar o método como validado.</p>
+<h3>Autoria, assistência e responsabilidade</h3>
+<p><strong>Curadoria e responsabilidade:</strong> Fabio Takwara.</p>
+<p><strong>Apoio de IA:</strong> ferramenta de inteligência artificial foi utilizada para localizar e extrair o texto da fonte, estruturar a ficha, conferir citações contra o documento original, executar cálculos e apoiar a redação. <strong>A seleção das fontes, o julgamento sobre o que a fonte autoriza afirmar e a responsabilidade pela versão publicada permanecem com o curador.</strong></p>
+<p><strong>Estado:</strong> ficha em revisão documental. Não homologada.</p>
+</section>
+<section role="tabpanel" id="f-5" aria-labelledby="h-f-5">
+  <h2 id="h-f-5"><span class="num">F</span>Ficha · Blog TCS 2016</h2>
+  <p class="meta">FICHA TÉCNICA · sha256 ba182cbc7b92a79c · 6,097 B · ficha-blog-tsc-como-tratar-bambu.md</p>
+  <p><em>A receita informal completa.</em></p>
+  <blockquote><p><strong>Em uma frase.</strong> O documento que fecha a lacuna do capítulo: publica <strong>duas fórmulas com proporção, concentração e instrução de dobrar a dose</strong>, incluindo receita com <strong>dicromato de sódio</strong>, em um texto de 19.305 caracteres que <strong>não contém uma única vez as palavras luvas, máscara, EPI, descarte ou resíduo</strong>.</p></blockquote>
+<h3>1. As duas fórmulas, literais</h3>
+<blockquote><p>"<strong>Fórmula (1):</strong> ácido bórico / bórax — relação de 1: 1,5"</p></blockquote>
+<blockquote><p>"<strong>Fórmula (2):</strong> ácido bórico / bórax / <strong>dicromato de sódio</strong> — proporção de 2: 2: 0,5"</p></blockquote>
+<blockquote><p>"<strong>Concentração recomendada:</strong> 4-5% o uso interno (não exposto ao tempo ou contato com o solo)"</p></blockquote>
+<h4>1.1 A instrução de dobrar</h4>
+<blockquote><p>"Se você quiser aumentar, pode chegar até uma concentração de <strong>9%</strong>, é só dobrar a mistura assim: uma mistura de <strong>4 kg de ácido bórico / bórax de 4 kg / 1 kg de dicromato de sódio em 100 litros de água</strong>."</p></blockquote>
+<h4>1.2 A explicação da unidade — o que torna a receita executável</h4>
+<blockquote><p>"A relação da solução química baseia-se em <strong>kg por 100 litros</strong> de água. […] uma mistura de 2 kg de ácido bórico / 2 kg de bórax / 500 g de dicromato de sódio em 100 litros de água. O exemplo acima é o equivalente da concentração de 4,5%."</p></blockquote>
+<p><strong>A receita é completa o bastante para ser executada por qualquer leitor:</strong> proporção, unidade, concentração resultante, e instrução de como aumentar.</p>
+<h3>2. O que o documento NÃO diz — medido por contagem</h3>
+<p>Contagem no texto integral (19.305 caracteres, após remoção de HTML):</p>
+<div class="tabwrap"><table><thead><tr><th>Termo</th><th>Ocorrências</th></tr></thead><tbody><tr><td data-l="Termo">"luvas"</td><td data-l="Ocorrências"><strong>0</strong></td></tr><tr><td data-l="Termo">"máscara"</td><td data-l="Ocorrências"><strong>0</strong></td></tr><tr><td data-l="Termo">"EPI"</td><td data-l="Ocorrências"><strong>0</strong></td></tr><tr><td data-l="Termo">"descarte"</td><td data-l="Ocorrências"><strong>0</strong></td></tr><tr><td data-l="Termo">"resíduo"</td><td data-l="Ocorrências"><strong>0</strong></td></tr></tbody></table></div>
+<p><strong>A única ocorrência da palavra "CUIDADO!!" no documento inteiro é sobre mancha:</strong></p>
+<blockquote><p>"• <strong>CUIDADO!!</strong>, um tempo excessivo na água (após 3 meses) provoca manchas na epiderme do bambu e tem a consequência de diminuir as suas propriedades físicas e mecânicas."</p></blockquote>
+<p><strong>O cuidado que o texto oferece é com a aparência do bambu, não com a saúde de quem manipula 1 kg de dicromato de sódio.</strong></p>
+<h3>3. O que o documento diz de correto — e há</h3>
+<p>Em nenhum momento a ficha trata o blog como fonte de erro. Ele traz informação tecnicamente adequada:</p>
+<blockquote><p>"Os sais de boro são dissolvidos em água. Após o tratamento, a água evapora-se deixando os sais dentro do bambu."</p></blockquote>
+<blockquote><p>"Quando expostos a chuva, conservante do tipo <strong>não fixação</strong> irá ser lixiviado e com o tempo será 'lavado' do bambu. Em outras palavras, os conservantes de não fixação <strong>não são adequados para uso ao ar livre</strong>."</p></blockquote>
+<blockquote><p>"Por exemplo, <strong>Cromo é responsável pela fixação</strong>, o cobre é eficaz contra fungos decadência e podridão mole e o terceiro composto atual contra insetos e fungos."</p></blockquote>
+<p><strong>A descrição da função de cada elemento está correta</strong> e coincide com o que a literatura técnica diz. O problema do documento <strong>não é a química: é a ausência de proteção e de destino.</strong></p>
+<blockquote><p>"Com poucas exceções, conservantes químicos para proteger bambu contra ataques biológicos e degradação são <strong>tóxicos</strong>. A seleção e aplicação destes produtos devem ser realizados com muito cuidado para atender o desempenho, requisitos ambientais e de segurança."</p></blockquote>
+<p><strong>Esta é a passagem mais próxima de um aviso no documento — e ela aparece uma vez, em 19 mil caracteres, sem instrução prática de como se proteger ou descartar.</strong></p>
+<h3>4. Limitações</h3>
+<ol><li><strong>Autoria não identificada</strong> no texto extraído — blog sem assinatura visível. O campo</li></ol>
+<p><code>autoria</code> registra isso em vez de supor.</p>
+<ol><li><strong>Data:</strong> post de 1 de fevereiro de 2016 (declarada no endereço e no texto).</li><li><strong>Conteúdo misto:</strong> parte é tradução/adaptação de material técnico (a descrição de fixação</li></ol>
+<p>e lixiviação é de qualidade), parte é receita informal sem aviso. A ficha separa as duas.</p>
+<ol><li><strong>A receita com dicromato</strong> conflita com o controle da Polícia Federal declarado pela</li></ol>
+<p>Embrapa (Portaria 240/2019, Lei 10.357/2001) — o blog é anterior a 2019.</p>
+<ol><li><strong>Licença não declarada.</strong></li></ol>
+<h3>5. Por que esta ficha existe</h3>
+<p>Porque é a <strong>prova documental</strong> de que a receita informal circula completa, executável e sem aviso — e porque permite ao capítulo citar a fonte em vez de afirmar por impressão. É a fonte que sustenta a afirmação mais forte da frente e a única que o próprio texto entrega a contradição: <strong>sabe que os conservantes são tóxicos, e não diz o que fazer sobre isso.</strong></p>
+<h3>Autoria, assistência e responsabilidade</h3>
+<p><strong>Curadoria e responsabilidade:</strong> Fabio Takwara.</p>
+<p><strong>Apoio de IA:</strong> ferramenta de inteligência artificial foi utilizada para localizar e extrair o texto da fonte, estruturar a ficha, conferir citações contra o documento original, executar cálculos e apoiar a redação. <strong>A seleção das fontes, o julgamento sobre o que a fonte autoriza afirmar e a responsabilidade pela versão publicada permanecem com o curador.</strong></p>
+<p><strong>Estado:</strong> ficha em revisão documental. Não homologada.</p>
+</section>
+<section role="tabpanel" id="f-6" aria-labelledby="h-f-6">
+  <h2 id="h-f-6"><span class="num">F</span>Ficha · Espaço Naturalmente</h2>
+  <p class="meta">FICHA TÉCNICA · sha256 e800e61727f4ff4b · 4,461 B · ficha-espaconaturalmente-bambu.md</p>
+  <p><em>Padrão de mercado.</em></p>
+  <blockquote><p><strong>Em uma frase.</strong> Um site comercial que vende construção em bambu nomeia o <strong>sulfato de cobre como o fungicida padrão</strong> do tratamento, em 10.552 caracteres — e <strong>não usa a palavra "tóxico" uma única vez.</strong></p></blockquote>
+<h3>1. O que o site diz sobre o preservante</h3>
+<blockquote><p>"O produto mais utilizado para tratamento de bambu é o <strong>Octoborato ou Pentaborato (Borax + Ácido Bórico) como inseticida, e Sulfato de Cobre como fungicida</strong>."</p></blockquote>
+<p><strong>A frase é tecnicamente precisa:</strong> o boro cobre o espectro de insetos, o cobre o de fungos. É a mesma divisão de funções que a tabela de Gauss 2020 registra e que o blog TCS também descreve.</p>
+<p><strong>E é exatamente por ser precisa que ela importa ao capítulo:</strong> o site não está vendendo um produto errado — está nomeando, sem alarme, o fungicida que o capítulo examina.</p>
+<h3>2. A varredura — o que está ausente em 10.552 caracteres</h3>
+<div class="tabwrap"><table><thead><tr><th>Termo</th><th>Ocorrências</th></tr></thead><tbody><tr><td data-l="Termo">"EPI"</td><td data-l="Ocorrências"><strong>0</strong></td></tr><tr><td data-l="Termo">"luva"</td><td data-l="Ocorrências"><strong>0</strong></td></tr><tr><td data-l="Termo">"máscara"</td><td data-l="Ocorrências"><strong>0</strong></td></tr><tr><td data-l="Termo">"descarte"</td><td data-l="Ocorrências"><strong>0</strong></td></tr><tr><td data-l="Termo">"resíduo"</td><td data-l="Ocorrências"><strong>0</strong></td></tr><tr><td data-l="Termo"><strong>"tóxic"</strong></td><td data-l="Ocorrências"><strong>0</strong></td></tr></tbody></table></div>
+<p><strong>Seis termos ausentes em um texto sobre preservação química de bambu.</strong></p>
+<h3>3. O que o site diz de adequado — e diz</h3>
+<blockquote><p>"<strong>Tratamentos Paliativos</strong> — O processo de cura ou 'tratamento paliativo' consiste na secagem e diminuição da seiva (alimento dos insetos que atacam o bambu) contida no bambu. <strong>Não confundir com tratamento de imunização.</strong>"</p></blockquote>
+<blockquote><p>"• Cura na mata; • Imersão em água; • Cura pela ação do fogo;"</p></blockquote>
+<blockquote><p>"<strong>Métodos de Tratamento utilizando soluções preservativas:</strong> • Capilaridade (ou substituição de seiva); • Imersão em tanque com solução preservativa; • Boucherie modificado; • Difusão vertical (Copão);"</p></blockquote>
+<p><strong>A distinção entre cura (paliativa) e imunização (preservativa) está correta</strong> e é uma confusão comum — o site a desfaz. <strong>Também lista os métodos corretamente</strong>, coincidindo com a literatura (Tiburtino et al. 2015; Espelho 2007).</p>
+<p><strong>Portanto: o site acerta a taxonomia e falha na segurança.</strong> É o padrão que a frente encontrou nas três fontes informais — <strong>competência técnica sobre o material, silêncio sobre o resíduo.</strong></p>
+<h3>4. Limitações</h3>
+<ol><li><strong>Sem autoria identificada e sem data</strong> no texto extraído.</li><li><strong>Site comercial:</strong> há interesse econômico em apresentar o tratamento como solução. A ficha</li></ol>
+<p>registra a natureza e não trata o texto como fonte técnica primária.</p>
+<ol><li><strong>Não dá proporção nem concentração</strong> — é descritivo, não prescritivo. Das três fontes</li></ol>
+<p>informais, é a menos executável e a mais sintomática: <strong>nomeia o cobre como padrão de mercado.</strong></p>
+<ol><li><strong>Licença não declarada.</strong></li></ol>
+<h3>5. Por que esta ficha existe</h3>
+<p>Porque estabelece o <strong>padrão de mercado</strong>: o sulfato de cobre não é receita de nicho — é o fungicida que um site comercial apresenta como o mais utilizado. E porque documenta que essa apresentação, feita a um cliente que vai construir ou comprar, <strong>não inclui a palavra "tóxico", nem EPI, nem destino da solução.</strong></p>
+<h3>Autoria, assistência e responsabilidade</h3>
+<p><strong>Curadoria e responsabilidade:</strong> Fabio Takwara.</p>
+<p><strong>Apoio de IA:</strong> ferramenta de inteligência artificial foi utilizada para localizar e extrair o texto da fonte, estruturar a ficha, conferir citações contra o documento original, executar cálculos e apoiar a redação. <strong>A seleção das fontes, o julgamento sobre o que a fonte autoriza afirmar e a responsabilidade pela versão publicada permanecem com o curador.</strong></p>
+<p><strong>Estado:</strong> ficha em revisão documental. Não homologada.</p>
+</section>
+<section role="tabpanel" id="refs" aria-labelledby="h-refs">
+  <h2 id="h-refs"><span class="num">R</span>Referências bibliográficas</h2>
+  <p class="meta">REFERÊNCIAS · 14 ENTRADAS · GAVETA COBRE · 2026-11-24</p>
+  <p>Numeradas na ordem em que aparecem pela primeira vez no texto. Onde a fonte é uma página web sem data declarada, registra-se [s.d.]. Todas as fontes custodiadas têm o hash de integridade na ficha correspondente e no <code>MANIFEST_S11.json</code>.</p>
+  <p><strong>(1)</strong> TONINI, H.; OLIVEIRA, L. da S.. <strong>Tratamento da madeira na propriedade rural: procedimentos para a sua aplicação, licenciamento e gestão financeira. Comunicado Técnico 110.</strong> 2024. Embrapa Pecuária Sul, Bagé, RS. ISSN 1982-5382.</p><p><strong>(2)</strong> NATIONAL MISSION ON BAMBOO APPLICATIONS (Índia), Department of Science and Technology. <strong>Preservation of Bamboo.</strong> 2006. Governo da Índia. 60 p.</p><p><strong>(3)</strong> SCHARFENBERG, H. R.. <strong>Análise do comportamento mecânico e biológico do bambu gigante (Dendrocalamus asper) tratado com cobre e boro.</strong> 2020. Dissertação (Mestrado Profissional em Inovação Tecnológica) — Universidade Federal do Triângulo Mineiro, Uberaba. 101 p. Orientador: M. M. Shimano.</p><p><strong>(4)</strong> RUSCH, F.; CANDATEN, L.; BANDERA, E.; MANGINI, T. de S.; ZANCHETTA, L. da S.; TREVISAN, R.; WASTOWSKI, A. D.. <strong>Tratamento químico, durabilidade e lixiviação de bambu tratado e submetido a ensaio em campo de apodrecimento.</strong> 2023. Pesquisa Florestal Brasileira, Colombo, v. 43, e202102187. DOI 10.4336/2023.pfb.43e202102187.</p><p><strong>(5)</strong> MATERIALES Y MODOS DE HACER — Faculdade de Arquitetura, Universidade Federal de Minas Gerais. <strong>Tratamento com bórax.</strong> [s.d.]. Página institucional, seção &#x27;estrutura bambu&#x27;.</p><p><strong>(6)</strong> MATERIAIS E TÉCNICAS PARA CONSTRUÇÃO SUSTENTÁVEL (blog). <strong>Como Tratar Bambu.</strong> 2016. Blog, 1º de fevereiro de 2016.</p><p><strong>(7)</strong> ESPAÇO NATURALMENTE. <strong>Bambu.</strong> [s.d.]. Site comercial-educativo.</p><p><strong>(8)</strong> GAUSS, C.. <strong>Preservação de bambu: análise comparativa de preservantes e métodos.</strong> 2020. Trabalho acadêmico. Tabela 2.5 (preservantes).</p><p><strong>(9)</strong> BRASIL. Conselho Nacional do Meio Ambiente. <strong>Resolução CONAMA nº 430, de 13 de maio de 2011 — condições e padrões de lançamento de efluentes.</strong> 2011. Diário Oficial da União.</p><p><strong>(10)</strong> BRASIL. Conselho Nacional do Meio Ambiente. <strong>Resolução CONAMA nº 357, de 17 de março de 2005 — classificação dos corpos de água.</strong> 2005. Diário Oficial da União.</p><p><strong>(11)</strong> WORLD HEALTH ORGANIZATION. <strong>Copper in Drinking-water: background document for development of WHO Guidelines for Drinking-water Quality.</strong> 2004. WHO/SDE/WSH/03.04/88. Genebra.</p><p><strong>(12)</strong> BRASIL. <strong>Lei nº 12.305, de 2 de agosto de 2010 — Política Nacional de Resíduos Sólidos.</strong> 2010. Diário Oficial da União.</p><p><strong>(13)</strong> BRASIL. Ministério do Desenvolvimento, Indústria, Comércio e Serviços — ComexStat. <strong>Exportação e importação — NCM 2833.25 (sulfato de cobre), série 1997–2026.</strong> [s.d.]. Base de dados oficial de comércio exterior.</p><p><strong>(14)</strong> ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. <strong>NBR 6232 — Penetração e retenção de preservativos em madeira tratada sob pressão.</strong> 2013. ABNT, Rio de Janeiro.</p>
+  <h3>O que cada referência sustenta</h3>
+  <div class="tabwrap"><table><thead><tr><th>Nº</th><th>O que sustenta neste artigo</th></tr></thead><tbody><tr><td data-l="Nº"><strong>(1)</strong></td><td data-l="O que sustenta neste artigo">instrução oficial brasileira: EPI por peça, tonel de 200 L, proibição de descarte, reuso da solução excedente (L207–214), controle federal do cromo e do boro</td></tr><tr><td data-l="Nº"><strong>(2)</strong></td><td data-l="O que sustenta neste artigo">manual oficial indiano: não descartar em ralos, rios ou córregos; decantar e reusar (p. 46–47); enterro de resíduo com serragem; recomposição do lodo com ácido crômico a pH 2,5</td></tr><tr><td data-l="Nº"><strong>(3)</strong></td><td data-l="O que sustenta neste artigo">única fonte do corpus que mede a fitotoxicidade do descarte: índice de germinação zero até diluição 1/10, comparação com glifosato, pH 1,28 (CB) e 0,22 (CCB), comprimento de radícula</td></tr><tr><td data-l="Nº"><strong>(4)</strong></td><td data-l="O que sustenta neste artigo">ensaio de campo de cinco anos: cobre no solo +12% sem significância estatística; cromo +86%; composição do CCB (26% sulfato de cobre, 63,5% dicromato, 10,5% ácido bórico)</td></tr><tr><td data-l="Nº"><strong>(5)</strong></td><td data-l="O que sustenta neste artigo">receita informal publicada por universidade pública: 1 kg : 1 kg : 100 L, imersão de 8 a 10 dias, e a declaração de que o método não foi comprovado cientificamente</td></tr><tr><td data-l="Nº"><strong>(6)</strong></td><td data-l="O que sustenta neste artigo">receita informal completa: fórmula 2:2:0,5 com dicromato de sódio, concentração 4,5% e instrução de dobrar para 9%; zero ocorrências de &#x27;luvas&#x27;, &#x27;máscara&#x27;, &#x27;EPI&#x27;, &#x27;descarte&#x27;, &#x27;resíduo&#x27;</td></tr><tr><td data-l="Nº"><strong>(7)</strong></td><td data-l="O que sustenta neste artigo">padrão de mercado: &#x27;sulfato de cobre como fungicida&#x27;; zero ocorrências de EPI, descarte, resíduo e &#x27;tóxico&#x27; no texto</td></tr><tr><td data-l="Nº"><strong>(8)</strong></td><td data-l="O que sustenta neste artigo">&#x27;good fungicide&#x27; / &#x27;ineffective for termites and insects&#x27; para zinco + sulfato de cobre</td></tr><tr><td data-l="Nº"><strong>(9)</strong></td><td data-l="O que sustenta neste artigo">cobre em efluente: 1,0 mg/L</td></tr><tr><td data-l="Nº"><strong>(10)</strong></td><td data-l="O que sustenta neste artigo">cobre dissolvido em água doce Classe 1: 0,009 mg/L</td></tr><tr><td data-l="Nº"><strong>(11)</strong></td><td data-l="O que sustenta neste artigo">valor provisório de 2 mg/L; LOAEL 4 mg/L (náusea, 61 voluntários); acúmulo hepático; dose diária tolerável 0,17 mg/kg/dia</td></tr><tr><td data-l="Nº"><strong>(12)</strong></td><td data-l="O que sustenta neste artigo">art. 3º, XVI: resíduo sólido inclui líquidos cuja destinação em rede de esgoto ou corpo d&#x27;água seja inviável</td></tr><tr><td data-l="Nº"><strong>(13)</strong></td><td data-l="O que sustenta neste artigo">177,854 t e US$ 370.053 em 2025; China 80,4% do peso e 48,3% do valor; dispersão de preço de 119×; queda de 86% entre 1997 e 2020</td></tr><tr><td data-l="Nº"><strong>(14)</strong></td><td data-l="O que sustenta neste artigo">retenção de 6,5 kg/m³ e composição percentual do CCB, conforme descrita em Rusch et al. (2023)</td></tr></tbody></table></div>
 </section>
 </main>
 <footer class="rodape">

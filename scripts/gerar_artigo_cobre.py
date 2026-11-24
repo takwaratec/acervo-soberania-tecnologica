@@ -15,6 +15,8 @@ import os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import conteudo_cobre as C
+import referencias_cobre as R
+from conteudo_cobre import tabela
 
 REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
 _AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -36,7 +38,102 @@ header.top .kicker{color:#d8b48f}
 header.top .sub{color:#e3d6c8}
 h3{color:var(--accent-d)}
 blockquote{border-left-color:var(--accent-l)}
+
+/* Com 18 abas (11 do artigo + 6 fichas + referências), a grade de 6 colunas do molde
+   empilha em 3 linhas e a barra fixa passa a ocupar 132px — 13% da tela. Linha única
+   rolável mantém a altura constante, como o próprio molde já faz no celular. */
+nav.tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;gap:6px;
+  grid-template-columns:none;scrollbar-width:thin}
+nav.tabs button{flex:0 0 auto;white-space:nowrap;overflow-wrap:normal;hyphens:none}
 """
+
+
+FICHAS = [
+    ("f-1", "Ficha · Embrapa COT 110", "Instrução oficial brasileira",
+     "ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md"),
+    ("f-2", "Ficha · NMBA 2006", "Manual oficial indiano",
+     "ficha-nmba-2006-preservation-of-bamboo-manual.md"),
+    ("f-3", "Ficha · Scharfenberg 2020", "Mede a fitotoxicidade do descarte",
+     "ficha-scharfenberg-2020-bambu-cb-fitotoxicidade.md"),
+    ("f-4", "Ficha · UFMG / MOM", "Universidade publica a receita",
+     "ficha-ufmg-mom-tratamento-com-borax.md"),
+    ("f-5", "Ficha · Blog TCS 2016", "A receita informal completa",
+     "ficha-blog-tsc-como-tratar-bambu.md"),
+    ("f-6", "Ficha · Espaço Naturalmente", "Padrão de mercado",
+     "ficha-espaconaturalmente-bambu.md"),
+]
+FICHAS_DIR = f"{REPO}/_privado/fichas/ago_28_Sulfato_S11"
+
+
+def md_para_html(md):
+    """Conversor mínimo para as fichas: títulos, tabelas, listas, citação, negrito, itálico, código."""
+    import html as h
+    if md.startswith("---"):
+        fim = md.find("\n---", 3)
+        if fim != -1:
+            md = md[fim + 4:].lstrip("\n")
+    import re as _re
+
+    def inline(s):
+        s = _re.sub(r"`([^`]+)`", lambda m: "\x01" + h.escape(m.group(1)) + "\x02", s)
+        s = h.escape(s, quote=False)
+        s = _re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
+        s = _re.sub(r"(?<![\w*])\*([^*\n]+?)\*(?![\w*])", r"<em>\1</em>", s)
+        s = s.replace("\x01", "<code>").replace("\x02", "</code>")
+        return s
+
+    linhas = md.split("\n")
+    out, i = [], 0
+    while i < len(linhas):
+        l = linhas[i]; s = l.strip()
+        if not s:
+            i += 1; continue
+        if s in ("---", "***"):
+            i += 1; continue
+        m = _re.match(r"^(#{1,6})\s+(.*)$", s)
+        if m:
+            nivel = min(len(m.group(1)) + 1, 6)
+            if len(m.group(1)) == 1:
+                i += 1; continue
+            out.append(f"<h{nivel}>{inline(m.group(2))}</h{nivel}>"); i += 1; continue
+        if s.startswith("|") and i + 1 < len(linhas) and _re.match(r"^\|[\s:\-|]+\|?$", linhas[i+1].strip()):
+            def celulas(lin):
+                lin = lin.strip().strip("|")
+                cels, cur, dentro = [], "", False
+                for ch in lin:
+                    if ch == "`": dentro = not dentro; cur += ch
+                    elif ch == "|" and not dentro: cels.append(cur.strip()); cur = ""
+                    else: cur += ch
+                cels.append(cur.strip()); return cels
+            cab = celulas(s); i += 2; corpo = []
+            while i < len(linhas) and linhas[i].strip().startswith("|"):
+                corpo.append(celulas(linhas[i])); i += 1
+            labs = [_re.sub(r"<[^>]+>", "", c).strip() for c in cab]
+            th = "".join(f"<th>{inline(c)}</th>" for c in cab)
+            tr = "".join("<tr>" + "".join(
+                f'<td data-l="{h.escape(labs[k], quote=True)}">{inline(r[k])}</td>'
+                for k in range(len(cab))) + "</tr>" for r in corpo if len(r) == len(cab))
+            out.append(f'<div class="tabwrap"><table><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table></div>')
+            continue
+        if s.startswith(">"):
+            buf = []
+            while i < len(linhas) and linhas[i].strip().startswith(">"):
+                buf.append(_re.sub(r"^\s*>\s?", "", linhas[i])); i += 1
+            out.append("<blockquote>" + md_para_html("\n".join(buf)) + "</blockquote>"); continue
+        if _re.match(r"^[-*]\s+", s) or _re.match(r"^\d+\.\s+", s):
+            ordenada = bool(_re.match(r"^\d+\.", s))
+            tag = "ol" if ordenada else "ul"; itens = []
+            while i < len(linhas) and linhas[i].strip() and (
+                _re.match(r"^[-*]\s+", linhas[i].strip()) or _re.match(r"^\d+\.\s+", linhas[i].strip())):
+                itens.append(_re.sub(r"^([-*]|\d+\.)\s+", "", linhas[i].strip())); i += 1
+            out.append(f"<{tag}>" + "".join(f"<li>{inline(x)}</li>" for x in itens) + f"</{tag}>"); continue
+        buf = []
+        while i < len(linhas) and linhas[i].strip() and not _re.match(r"^(#{1,6}\s|>|\||```)", linhas[i].strip()) \
+              and not _re.match(r"^([-*]|\d+\.)\s+", linhas[i].strip()):
+            buf.append(linhas[i].strip()); i += 1
+        if buf:
+            out.append(f"<p>{inline(' '.join(buf))}</p>")
+    return "\n".join(out)
 
 
 def fmt_pt(n):
@@ -67,6 +164,47 @@ def montar():
             f'  {p["corpo"].strip()}\n'
             f'</section>')
 
+    import hashlib, html as _hh
+    # --- 6 fichas técnicas
+    for fid, titulo, sub, arq in FICHAS:
+        cam = os.path.join(FICHAS_DIR, arq)
+        md = open(cam, encoding="utf-8").read()
+        b = open(cam, "rb").read()
+        navs.append(
+            f'  <button type="button" role="tab" data-tab="{fid}" '
+            f'aria-controls="{fid}" aria-selected="false" tabindex="-1">{titulo}</button>')
+        secs.append(
+            f'<section role="tabpanel" id="{fid}" aria-labelledby="h-{fid}">\n'
+            f'  <h2 id="h-{fid}"><span class="num">F</span>{titulo}</h2>\n'
+            f'  <p class="meta">FICHA TÉCNICA · sha256 {hashlib.sha256(b).hexdigest()[:16]} · '
+            f'{len(b):,} B · {_hh.escape(arq)}</p>\n'
+            f'  <p><em>{sub}.</em></p>\n'
+            f'  {md_para_html(md)}\n'
+            f'</section>')
+
+    # --- referências bibliográficas
+    assert ".." not in R.lista_abnt(), "referências com ponto duplo"
+    _refs = "".join(
+        f'<p><strong>({i})</strong> {_hh.escape(a)}. <strong>{_hh.escape(ti)}</strong> '
+        f'{_hh.escape(str(an or "[s.d.]"))}. {_hh.escape(ve)}</p>'
+        for i, (ch, a, an, ti, ve, cu, su) in enumerate(R.REFERENCIAS, 1))
+    _sust = tabela(["Nº", "O que sustenta neste artigo"],
+                   [[f"<strong>({i})</strong>", _hh.escape(su)]
+                    for i, (ch, a, an, ti, ve, cu, su) in enumerate(R.REFERENCIAS, 1)])
+    navs.append('  <button type="button" role="tab" data-tab="refs" '
+                'aria-controls="refs" aria-selected="false" tabindex="-1">Referências</button>')
+    secs.append(
+        '<section role="tabpanel" id="refs" aria-labelledby="h-refs">\n'
+        '  <h2 id="h-refs"><span class="num">R</span>Referências bibliográficas</h2>\n'
+        '  <p class="meta">REFERÊNCIAS · 14 ENTRADAS · GAVETA COBRE · 2026-11-24</p>\n'
+        '  <p>Numeradas na ordem em que aparecem pela primeira vez no texto. Onde a fonte é uma '
+        'página web sem data declarada, registra-se [s.d.]. Todas as fontes custodiadas têm o hash '
+        'de integridade na ficha correspondente e no <code>MANIFEST_S11.json</code>.</p>\n'
+        f'  {_refs}\n'
+        '  <h3>O que cada referência sustenta</h3>\n'
+        f'  {_sust}\n'
+        '</section>')
+
     palavras = sum(len(re.findall(r"[A-Za-zÀ-ÿ]{2,}", p["corpo"])) for p in C.PAGINAS)
 
     doc = f"""<!DOCTYPE html>
@@ -91,9 +229,10 @@ def montar():
   <p class="sub">Um metal comum, uma solução azul e a pergunta que quase ninguém faz: <strong>para onde vai a água do tratamento</strong> — do átomo ao resíduo, sem supor que você saiba química.</p>
   <div class="chips">
     <span class="chip chip--gold">EM REVISÃO DOCUMENTAL · NÃO HOMOLOGADO</span>
-    <span class="chip">{len(C.PAGINAS)} abas</span>
+    <span class="chip">{len(navs)} abas</span>
     <span class="chip">~{fmt_pt(palavras)} palavras</span>
     <span class="chip">{len(C.GLOSSARIO)} termos no glossário</span>
+    <span class="chip">{len(FICHAS)} fichas + {len(R.REFERENCIAS)} referências</span>
     <span class="chip">2026-11-24</span>
   </div>
 </header>
