@@ -1,0 +1,31 @@
+{
+ "schema": "TAKWARATEC_R4_AUDIT_POINTER_PER_FRONT_R1",
+ "front": "COBRE",
+ "repositorio": "takwaratec/acervo-soberania-tecnologica",
+ "visibilidade_do_repositorio": "PUBLIC",
+ "status": "AGUARDANDO_AUDITORIA",
+ "rodada": "COBRE-R1",
+ "updated_utc": "2026-11-24T21:55:00+00:00",
+ "tipo": "CONTEUDO — fidelidade à fonte das fichas e do artigo",
+ "frente": "COBRE",
+ "objeto": "artigo didático sobre sulfato de cobre no tratamento de bambu, manuscrito único + peça HTML, e 6 fichas homologadas internamente",
+ "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
+ "manifest_branch": "hermes/cobre-plano-20261124",
+ "manifest_commit": "03dc73b776ea743b58c969fd737f1a1acbb33c12",
+ "manifest_path": "docs/analyses/cobre/AUDITORIA_SOL_COBRE_MANIFEST_R1.json",
+ "sha256_do_manifesto": "7aec08ff47d52c3780d5674e4bea08bea6a207f8a9b4c4ee85ec639800742656",
+ "hashes_response_path": "docs/analyses/cobre/AUDITORIA_SOL_COBRE_HASHES_RESPONSE_R1.json",
+ "sha256_do_hashes_response": "b9cdf1044a9dbe2bd50743e7037c826456532e4c1a6d52c54ddaa3119fde0e60",
+ "alvo_branch": "hermes/cobre-plano-20261124",
+ "alvo_commit": "fd3a6c757c264642a8bd33a0864c673ec7ac7961",
+ "alvo_nota": "manifest_commit é onde os BYTES DO MANIFESTO existem (commit posterior). alvo_commit é o último commit que mudou os BYTES AUDITADOS. São dois objetos e dois hashes.",
+ "instrucao": "Leia o manifesto inteiro. São 7 perguntas (Q1-Q7) e 16 fontes com sha256. O material auditado está no alvo_commit, não em main.",
+ "escopo": "CONTEUDO: fidelidade das 6 fichas e do artigo às fontes publicadas; existência e correção das 14 referências; aritmética do capítulo do resíduo",
+ "nao_homologa": [
+  "a correção científica das fichas",
+  "a homologação interna, que é ato do soberano",
+  "o runtime e o ledger do sistema R4",
+  "o mérito das normas brasileiras citadas"
+ ],
+ "linha_que_o_soberano_cola": "AUDITORIA COBRE: leia ops/command-center/auditoria-atual/COBRE.json e execute o manifesto que ele aponta."
+}
