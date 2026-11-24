@@ -2,6 +2,7 @@
  "schema": "TAKWARATEC_R4_AUDIT_MANIFEST_R1",
  "versao": "1.0.0",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
+ "status": "ABERTO",
  "gerado_utc": "2026-11-24T21:40:00+00:00",
  "tipo": "CONTEUDO",
  "frente": "COBRE",
