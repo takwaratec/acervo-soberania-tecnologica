@@ -1,12 +1,13 @@
 {
  "schema": "TAKWARATEC_R4_HASHES_RESPONSE_R1",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
- "sha256_do_manifesto": "410e7b2cb70fa7879c09d02943f57ddd6387f5566e0cd511dad9207c5b69ad6b",
- "manifest_commit": "512700e79adfc5b02e600ae1d8dd028d6ad1fbe8",
- "commit_alvo": "5ca8b8f301b38d7eaa798bb94f558583d05f586a",
+ "sha256_do_manifesto": "b06f973b0489683c4bdf12785ae95c2b182c2f736a242f6fdae698636d9c6fc8",
+ "manifest_commit": "0a282ac0c5724b09e42eb087f218d7a2a410c1e4",
+ "commit_alvo": "0278bfa5f75544328fcccb3f3cb6de38233fa35f",
  "fontes_sha256": {
-  "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md": "64714eca30e86729339be1414e07c0632ed347b7871f7de86f0acc90186e4a65",
-  "docs/analyses/cobre/o-cobre-no-bambu.html": "3cf26b46912d46c7e9cb4091bb537e438409a613c7ed2c0544183e9a3eaca47f",
+  "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md": "6868faa537329ecba5bf58a4123254f5a5090c5cb18e265bcd456ec6da8fb103",
+  "docs/analyses/cobre/o-cobre-no-bambu-corrido.html": "cf5647218bc0f06417fc296b14da1fdfcbf069468568f16c86ab95c39af023e5",
+  "docs/analyses/cobre/o-cobre-no-bambu.html": "51dc87779194df556d2d79048612be4f654e63b1cc967ccec37ee03b9da13d73",
   "docs/analyses/cobre/fichas/MANIFEST_FICHAS_PUBLICADAS.json": "018dee3ab22c7fbf7dc2bd9eb13e71ba0c98c651a0ba0d906cb7b3edabe8997c",
   "docs/analyses/cobre/fontes/MANIFEST_FONTES_PUBLICADAS.json": "7990078434e5fc8620d7d5944fe4ca6a03f42db3e216d85d19a5046ccc00e06b",
   "docs/analyses/cobre/fontes/MANIFEST_FONTES_NORMATIVAS.json": "5222dcc629ddc98e676062fdc487c753a115df2eaac71fbe919ace16af705f47",
@@ -22,7 +23,7 @@
   "docs/analyses/cobre/fichas/ficha-blog-tsc-como-tratar-bambu.md": "5a2fb1d4a2ebbd655e2fe99239997b7b5a5d3736d4828e416434e3e9081d4d5c",
   "docs/analyses/cobre/fichas/ficha-espaconaturalmente-bambu.md": "5c6ff1a2e06ea5458d4f63980409970ac4b7e463a65cc1be3127b2c361a8ba7b"
  },
- "total_fontes": 16,
- "conferido_utc": "2026-11-24T22:20:00+00:00",
+ "total_fontes": 17,
+ "conferido_utc": "2026-11-24T22:55:00+00:00",
  "nota": "sha256 do manifesto no manifest_commit; fontes lidas no commit_alvo."
 }
