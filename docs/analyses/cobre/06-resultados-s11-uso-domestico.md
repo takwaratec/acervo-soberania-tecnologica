@@ -6,8 +6,10 @@ rodada: S11
 titulo: "S11 — Uso doméstico e rural do sulfato de cobre: o que as instruções dizem e o que omitem"
 estado_documental: em-revisao-documental
 homologacao_automatica: false
-versao: 1
+versao: 2
 data_revisao: 2026-11-24
+auditoria: "R7 REPROVA — achou instrucao de reuso no COT110 que o executor declarou ausente. Corrigido nesta versao."
+correcao_central: "o COT110 DIZ o que fazer com a solucao excedente (L207-214): armazenar em recipiente plastico e reutilizar no proximo tratamento. A v1 afirmou ausencia total — era falso.
 responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 corpus_custodiado: "_privado/fontes-documentais/ago_28_Sulfato_S11/ (5 PDFs, manifest com sha256)"
@@ -16,11 +18,16 @@ plano_executado: 03-plano-residuo-e-alerta.md v5
 
 # S11 — Uso doméstico: medição das cinco perguntas
 
-> **Resultado em uma frase.** A instrução rural brasileira **avisa** — dá EPI completo, diz
-> "não descartar no meio ambiente" e lista os materiais de contenção. **O que ela não diz
-> é o que fazer com a solução depois.** E o único documento do corpus que dá a resposta
-> completa — "decante e reuse", "não descarte em ralos, rios ou córregos" — é um manual
-> **indiano**, não brasileiro.
+> **Resultado em uma frase (v2, corrigida).** A instrução rural brasileira **avisa e
+> orienta**: dá EPI, proíbe descarte no ambiente e **manda armazenar a solução excedente em
+> recipiente plástico e reutilizá-la no próximo tratamento** (L207–214). O que ela **não**
+> diz é o destino da solução **quando ela não puder mais ser reutilizada** — e esse é o
+> ponto em que o problema de fato começa.
+>
+> **Correção da v1.** A v1 desta rodada afirmou que o COT110 "não diz o que fazer com a
+> solução". **Falso:** o texto custodiado diz, em duas linhas que a varredura não pegou
+> porque procurou "decantação/reuso" e não "excedente". A auditoria R7 encontrou. O
+> resultado está reescrito e a lacuna, corretamente estreitada.
 
 ---
 
@@ -92,9 +99,15 @@ de EPI na instrução rural brasileira — encontrou o contrário.**
 > da Polícia Federal, conforme a Portaria número 240, de 12 de março de 2019, e a Lei
 > número 10.357 de 27 de dezembro de 2001."*
 
-**Dois dos três sais do CCB são controlados pela Polícia Federal.** O sulfato de cobre
-**não** está nessa lista. Isso é relevante: quem quer fazer CCB "de receita" no Brasil
-esbarra em controle federal para o cromo e o boro — e **não** esbarra no cobre.
+**Dois dos três sais do CCB estão declarados como controlados pela Polícia Federal pela
+fonte.** O sulfato de cobre **não figura entre os dois que a fonte nomeia** — o que é
+diferente de "não é controlado": a fonte não afirma que a lista seja exaustiva, e esta
+gaveta não verificou a norma na íntegra.
+
+**A formulação correta, e é mais fraca que a da v1:** a fonte declara cromo e boro
+controlados e **não menciona** o cobre. Se a lista for exaustiva, quem tenta fazer CCB "de
+receita" encontra controle federal no cromo e no boro e nenhum no cobre — mas isso é
+**inferência**, e vai marcada assim ao capítulo.
 
 ---
 
@@ -103,9 +116,18 @@ esbarra em controle federal para o cromo e o boro — e **não** esbarra no cobr
 **Nenhum dos cinco documentos mede Q_d (persistência).** Zero ocorrências em 134 páginas.
 Nenhum diz que o cobre não se degrada.
 
-**E o destino da solução:** o COT110 diz **o que não fazer** ("não descartar no meio
-ambiente", "meios adequados de contenção") mas **não diz o que fazer**. Não menciona
-decantação, não menciona reuso, não menciona tratamento.
+**E o destino da solução — corrigido em v2.** A v1 afirmou que o COT110 "não menciona
+reuso". **Falso.** O COT110 manda, literalmente (L207–214):
+
+> "A solução preservativa excedente deve ser armazenada em recipiente plástico, sendo
+> reutilizada no próximo tratamento."
+
+> "Os produtos químicos utilizados no tratamento e a solução excedente devem ser mantidos
+> em local livre de umidade e fechado, sem acesso a crianças e animais."
+
+**O Brasil, portanto, TEM orientação de reuso — e é boa.** A lacuna real é mais estreita:
+o documento pressupõe que sempre haverá "próximo tratamento" e **não diz o que fazer quando
+o reuso já não é possível** — fim da obra, saturação do banho, queda de concentração.
 
 ### 4.1 O manual indiano responde — e é o único
 
@@ -127,10 +149,29 @@ Bamboo Applications*, Department of Science and Technology, Governo da Índia:
 exaurida **se decanta e se reusa**; o que não se reusa vai para resíduo controlado; o lodo
 se recupera quimicamente. **Não vai para ralo, rio ou córrego.**
 
-**O contraste que o capítulo tem de carregar:** o Brasil tem instrução de EPI melhor que a
-indiana, e **não tem** a instrução de destino da solução que a indiana tem. O país que
-produz o manual mais completo sobre preservação de bambu **não é** o que tem a norma de
-descarte para ele.
+**Correção da comparação (a v1 afirmou superioridade que as fontes não medem):**
+
+A v1 escreveu que "o Brasil tem instrução de EPI melhor que a indiana". **Não há métrica
+para isso.** O COT110 é mais detalhado em EPI por peça; o NMBA é mais detalhado em controle
+de área (ventilação, direção do vento, proibição de comida e bebida, recipientes fora do
+alcance de crianças). **Quem protege melhor o operador depende de critério que nenhuma das
+duas fontes define.**
+
+**O que as fontes permitem comparar, item por item:**
+
+| Item | COT110 Brasil | NMBA Índia |
+|---|---|---|
+| EPI por peça | **sim, lista detalhada** | sim, lista |
+| Volume do recipiente | **sim (200 L)** | não |
+| Proibição de descarte no ambiente | **sim** | **sim, mais específica** (ralos, rios, córregos) |
+| **Reuso da solução excedente** | **sim (L207–214)** | **sim** ("decanted and reused") |
+| Destino quando o reuso acaba | **não** | "buried in the ground" — inadequado no Brasil |
+| Fórmula de preparo | não (não localizada) | **sim** Q=(C×V)/S |
+| Recomendação de pré-mistura | não | **sim** |
+
+**A conclusão correta:** **ambas orientam reuso; nenhuma das duas resolve o descarte final
+de forma aceitável no Brasil** — a brasileira por não tratar o caso, a indiana por prescrever
+enterro, incompatível com a PNRS.
 
 ### 4.2 Nota de honestidade sobre o próprio manual indiano
 
@@ -149,26 +190,38 @@ escala doméstica.
 
 | Afirmação | Estado |
 |---|---|
-| A instrução rural brasileira (Embrapa COT110) **dá** EPI completo e proíbe descarte no ambiente | **estabelecido** |
-| Essa instrução **não diz** o que fazer com a solução exaurida | **estabelecido** |
+| A instrução rural brasileira (COT110) **dá** EPI por peça, exige tonel de 200 L e proíbe descarte no ambiente | **estabelecido** |
+| A instrução rural brasileira **manda armazenar a solução excedente e reutilizá-la** (L207–214) | **estabelecido** — correção da v1 |
+| A instrução rural brasileira **não diz** o destino da solução quando o reuso já não é possível | **estabelecido** |
 | Nenhum dos 5 documentos mede persistência do cobre | **estabelecido** (0 acertos em 134 p.) |
-| O manual oficial indiano prescreve **decantar e reusar** e proíbe descarte em ralos/rios | **estabelecido** |
-| Dicromato e ácido bórico estão sob controle da Polícia Federal; o sulfato de cobre não | **estabelecido** (citado pela fonte) |
-| Existe receita caseira de CCB circulando sem aviso no Brasil | **NÃO ESTABELECIDO** — nenhum documento deste corpus é uma "receita de bolo" sem aviso |
-| A receita caseira omite EPI | **REFUTADO para o corpus custodiado** — o COT110 dá EPI em detalhe |
+| O manual indiano prescreve **decantar e reusar** e proíbe descarte em ralos/rios | **estabelecido** |
+| O manual indiano prescreve **enterrar resíduos** — inadequado sob a PNRS | **fato da fonte** (a inadequação jurídica é **interpretação do executor**, não da fonte) |
+| O manual indiano recomenda **CCA/CCB como pré-mistura**, não misturar sais | **estabelecido** |
+| Dicromato e ácido bórico **estão declarados** sob controle da Polícia Federal pela fonte | **estabelecido** |
+| O sulfato de cobre **não está** sob controle da PF | **INFERÊNCIA do executor** — a fonte nomeia os dois controlados e não afirma que a lista seja exaustiva |
+| "O Brasil tem melhor EPI que a Índia" | **NÃO SUSTENTADO** — sem critério comparativo; ver tabela §4.1 |
+| Existe receita caseira de CCB circulando sem aviso no Brasil | **NÃO DEMONSTRADO** — nenhum documento do corpus é receita sem aviso; **uma instrução oficial não prova nada sobre outras** |
+| A receita caseira omite EPI | **não demonstrado** — o COT110 **não é** receita caseira, é instrução oficial; a v1 tratou um pelo outro |
 
-**Duas afirmações do plano caem, e caem contra a tese do capítulo:**
+**Duas afirmações do plano caem — e a v1 errou ao dizer que caíam "por refutação":**
 
-1. **"Receita sem aviso"** — não é o que o corpus mostra. A instrução rural brasileira
-   avisa. Se existe receita irresponsável circulando, ela **não está** neste corpus e a
-   gaveta não pode afirmar que existe.
-2. **"Sem EPI"** — refutado. O COT110 lista EPI por peça, com o volume do tonel e a
-   proibição de descarte.
+1. **"Receita sem aviso"** — **NÃO DEMONSTRADO neste corpus**, não "refutado". O COT110 é
+   **instrução oficial da Embrapa**, não receita caseira: uma não prova nada sobre a outra.
+   A v1 tratou as duas como o mesmo objeto. O que se pode dizer: *nenhum documento deste
+   corpus é uma receita caseira sem aviso*, e isso **não** autoriza afirmar nem negar que
+   elas existam.
+2. **"Sem EPI"** — **não demonstrado** para receita caseira, pela mesma razão. Que a
+   Embrapa dê EPI **não diz** o que a receita que circula em grupo de WhatsApp diz.
 
-**O que sobra, e é mais forte que o que caiu:** a instrução avisa sobre EPI e sobre **não
-descartar**, mas **não resolve** o problema que ela mesma cria ao mandar usar 200 litros de
-solução. "Não descarte no meio ambiente" sem dizer **onde descartar** transfere ao usuário um
-problema que ele não tem meio de resolver.
+**Uma afirmação do plano CAI de verdade, e é contra a tese:**
+
+3. **"A instrução não diz o que fazer com a solução"** — **falso.** O COT110 manda guardar
+   e reutilizar (L207–214). A v1 afirmou ausência total e errou.
+
+**O que sobra, e é mais estreito e mais forte:** as duas instruções — brasileira e indiana —
+**mandam reusar**. Nenhuma das duas diz o que fazer quando **o reuso acaba**: a brasileira
+silencia, a indiana manda enterrar (incompatível com a PNRS). **A lacuna não é "não há
+instrução"; é "as instruções param exatamente onde o resíduo final começa".**
 
 ---
 
