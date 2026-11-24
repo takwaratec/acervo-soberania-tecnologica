@@ -8,9 +8,13 @@
   "00-mapa-reprocessamento.md",
   "01-plano-de-pesquisa.md",
   "02-plano-sulfato-de-cobre.md",
+  "03-plano-residuo-e-alerta.md",
+  "04-resultados-s8-s10-toxicidade-e-residuo.md",
+  "05-resultados-s12-s9-alternativas.md",
   "AUDITORIA_R4_PARECER.md",
   "AUDITORIA_R4_ERRATA.md",
   "AUDITORIA_R5_PARECER.md",
+  "AUDITORIA_R6_PARECER.md",
   "index.md"
  ],
  "custodia_privada": {
@@ -198,5 +202,18 @@
    "EUA": 45.57,
    "Reino Unido": 148.43
   }
- }
+ },
+ "pesquisa_executada": {
+  "S8": "toxicidade — efeito hepatico, 2 mg/L diretriz provisoria, razao 1802x",
+  "S10": "residuo — PNRS art.3 XVI alcanca liquidos, sem vazio normativo",
+  "S12": "alternativas — Liu 2023 boro eficaz em lab (WPG 0,64%) sem lixiviacao",
+  "S9": "insustentabilidade — cuprico perde apenas em espectro"
+ },
+ "afirmacoes_retiradas": [
+  "cobre e pior que o boro (sem ensaio comparativo)",
+  "cobre lixivia mais que o boro (nao medido; Gauss diz DOT highly leachable)",
+  "cobre do CCB contamina solo (contrariado por Rusch: +12% sem significancia)",
+  "vao normativo (PNRS alcanca liquidos)",
+  "impossibilidade fisica de diluicao"
+ ]
 }
