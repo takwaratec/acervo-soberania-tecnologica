@@ -31,6 +31,7 @@ motivou a investigação e a que concentra o maior risco de uso sem critério.
 | `fichas/who-2022-boro-ficha-quimica.md` | Ficha — a ficha química oficial: valor de 2,4 mg/L, ocorrência < 0,5 mg/L, usos nomeados pela OMS |
 | `fichas/liu-2023-bambu-acido-borico-borax.md` | Ficha — eficácia medida: perda de massa por fungo cai de 62,57% para 12,74%, compressão +21,56%. Ensaio de laboratório, **sem lixiviação** |
 | `fichas/rusch-2023-ccb-bambu-5-anos-campo.md` | Ficha — CCB em campo por 5 anos: durabilidade **por concentração** (3% índice 0; 1% índice 40, ataque leve) contra **controles distintos** (totalmente imerso em água 100%; parcialmente imerso 80%); solo **sem diferença estatística** (Tukey p>0,05); ressalva dos autores de que **não se pode atribuir lixiviação** |
+| `artigo-o-boro-explicado-do-zero.md` | **Artigo didático para leigo** — o boro explicado sem supor conhecimento de química: elemento, compostos, origem cósmica, reservas, usos, toxicologia, o caso do bambu, o resíduo e um guia para ler qualquer número sobre o tema |
 | `INVENTARIO_GAVETA.json` | Estado real de cada fontee: custodiada, indisponível, pendente |
 | `HANDOFF_BORO_20261124.md` | Handoff de continuidade entre tópicos (não é homologação) |
 
