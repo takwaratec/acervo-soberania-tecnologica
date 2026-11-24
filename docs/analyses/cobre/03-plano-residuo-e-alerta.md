@@ -41,7 +41,7 @@ Esta é a estrutura, e ela é aritmética, não retórica:
 | **CONAMA 357/2005** (água doce Classe 1) | Cu dissolvido **0,009 mg/L** (9 µg/L) | o que o **corpo receptor** tolera |
 | **Ecotoxicidade crônica, invertebrado** | **0,00111 mg/L** (1,11 µg/L) | o que **mata** |
 
-**A distância entre o que se pode lançar e o que mata é de ~900×.** E a distância entre
+**A distância entre o que se pode lançar (1,0 mg/L) e o que mata (0,00111 mg/L) é de 901×.** E a distância entre
 o que se pode lançar e o que o rio tolera é de **111×**. Não é opinião ambiental: são
 três números de três fontes custodiadas nesta casa.
 
@@ -58,7 +58,8 @@ Cu no CuSO₄·5H₂O):
 | 50.000 mg/L | 2.545 g | 282.778 m³ | 2.292.793 m³ |
 
 *(piscina olímpica = 2.500 m³. O banho de 1.000 mg/L — o mais fraco da tabela — precisa
-de **2,3 piscinas olímpicas** de água para não matar invertebrado.)*
+de **2,3 piscinas olímpicas** de água para não matar invertebrado, e de **18 piscinas**
+para o corpo receptor voltar à Classe 1.)*
 
 **É por isso que descarte direto é insanável por diluição.** Não existe diluição
 doméstica possível; existe **impossibilidade física**, e isso é o argumento central do
