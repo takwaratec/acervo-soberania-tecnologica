@@ -57,7 +57,16 @@ frente: BORO
 | *Coriolus versicolor* | **62,57 ± 9,86%** | **12,74 ± 1,65%** |
 | *Gloeophyllum trabeum* | **55,62 ± 11,53%** | **9,64 ± 1,46%** |
 
-O autor resume como **melhora superior a 80%** na eficácia de resistência.
+**O resumo do artigo diz "melhora superior a 80%". A conta por fungo não fecha para os
+dois casos:** a redução relativa da perda de massa é **79,6%** para *C. versicolor* e
+**82,7%** para *G. trabeum*. Só o fungo pardo ultrapassa 80%. A frase do autor é
+arredondamento para cima — quem citar "mais de 80%" para o fungo branco está repetindo
+um arredondamento, não o dado.
+
+**Incoerência interna do próprio artigo:** a conclusão (item 1) afirma perdas de massa
+de **"12,5% e 9,6%"**, mas a Tabela 4 registra **12,74%** e **9,64%**. O 12,5 da
+conclusão não corresponde à tabela — provável erro de digitação por 12,7. Esta ficha
+adota a **tabela**, que é o dado detalhado.
 
 ### 2.2 Propriedades mecânicas (Tabela 3)
 

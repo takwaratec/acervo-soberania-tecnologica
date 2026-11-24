@@ -49,11 +49,26 @@ Este é o núcleo da ficha: **como** a OMS chega a 2,4 mg/L, passo por passo.
 | Desfecho crítico | peso fetal reduzido | toxicidade para o desenvolvimento |
 | BMDL05 | **10,3 mg B/kg/dia** | 95% de limite inferior da dose correspondente a 5% de queda |
 | NOAEL comparável | **9,6 mg B/kg/dia** | estudo de Price et al. (1996a); próximo do BMDL05 |
-| Fator de incerteza | **60** | 10 interespecífico × 6 intraespecífico (cinética de gestantes) |
+| Fator de incerteza | **60** | **10 interespecífico** (valor padrão, por dados insuficientes) × **6 intraespecífico** (= 1,8 × 3,2 = 5,76) |
 | TDI | **0,17 mg B/kg/dia** | arredondado a 0,2 |
 | Alocação à água | **40%** do TDI | justificada por ingestão alimentar baixa |
 | Pressupostos | 60 kg, 2 L/dia | |
 | **Valor de referência** | **2,4 mg/L** | |
+
+**Como se compõe o fator 6 (e por que não é só gestação).** O fator intraespecífico
+**não** é integralmente atribuído à cinética de gestantes — esta ficha dizia isso na
+v1 e está impreciso. A decomposição da fonte:
+
+| Componente | Valor | Base |
+|---|---|---|
+| toxico**cinético** | **1,8** | razão entre taxa de filtração glomerular média (144 mL/min) e a de dois desvios-padrão abaixo (80 mL/min), cobrindo ~95% da população |
+| toxico**dinâmico** | **3,2** | valor **padrão**, mantido porque "não há dados suficientes" para substituí-lo |
+| total intraespecífico | **1,8 × 3,2 = 5,76** | arredondado para **6** |
+
+E o interespecífico é o **padrão 10**: a fonte declara que os dados são inadequados
+para determinar fator diferente. Total: **10 × 6 = 60**.
+
+A gestação entra no **1,8** (a variação de clearance), não no 6 inteiro.
 
 **Por que a alocação é 40% e não o padrão de 10% ou 20%:** a OMS declara que os dados
 do Reino Unido e dos EUA mostram ingestão por outras fontes **bem abaixo do TDI**,
@@ -68,11 +83,20 @@ após avaliação aproximada da exposição por outras fontes.
 
 ## 3. Ocorrência
 
-- **A maior parte do mundo: abaixo de 0,5 mg/L** em água de consumo.
+- Água de consumo no **Chile, Alemanha, Reino Unido e EUA**: **0,01 a 15,0 mg/L**,
+  "com a maioria dos valores abaixo de 0,5 mg/L". **O escopo é esse conjunto de
+  países**, não o mundo.
 - Águas superficiais na América do Norte (Canadá, EUA): **0,02 a 360 mg/L** em
   depósitos ricos em boro; típico **< 0,1 mg/L**, percentil 90 ≈ **0,4 mg/L**.
-- Água de consumo no Chile, Alemanha, Reino Unido e EUA: **0,01 a 15,0 mg/L**, com a
-  maioria abaixo de 0,5 mg/L.
+- Águas superficiais na Europa: **< 0,001 a 2 mg/L**, médias tipicamente **< 0,6 mg/L**.
+- Corpos d'água no **Paquistão, Rússia e Turquia**: **0,01 a 7 mg/L**, com a maioria
+  abaixo de 0,5 mg/L.
+
+**Correção de escopo (versão 3).** Esta ficha afirmava antes "a maior parte do mundo:
+abaixo de 0,5 mg/L" atribuindo-a a este documento. **A generalização mundial é da
+ficha de 2022** ("for most of the world, the concentration of boron in drinking-water
+is judged to be below 0.5 mg/l"). O documento de 2009 traz **faixas medidas**, país
+por país, e é assim que deve ser citado.
 
 **A cauda de 360 mg/L é indicativa de depósitos ricos em boro.** A fonte diz
 *"indicative of boron-rich deposits"* — o que ela sustenta é a indicação geológica,
@@ -87,8 +111,11 @@ campo: valores altos podem ser naturais, e a fonte não afirma que sempre sejam.
   demonstram que o **trato reprodutivo masculino** é alvo consistente; lesões
   testiculares observadas em ratos, camundongos e cães.
 - **Toxicidade para o desenvolvimento** demonstrada em ratos, camundongos e coelhos.
-- NOAEL para efeitos reprodutivos masculinos: **87 mg/kg/dia** — muito acima do
-  desfecho crítico de desenvolvimento.
+- NOAEL para efeitos reprodutivos masculinos: **87 mg/kg de peso corporal/dia** —
+  muito acima do desfecho crítico de desenvolvimento. **Contexto do ensaio:** ratos
+  Sprague-Dawley **machos adultos**, duas doses administradas **no mesmo dia**, com
+  avaliação após **14 dias**. É NOAEL de exposição curta, não de longo prazo — e é
+  assim que deve ser citado.
 - **Mutagenicidade: negativa** em grande número de ensaios; **não genotóxico**.
 - Estudos de longo prazo em ratos e camundongos: **sem aumento de incidência
   tumoral**.

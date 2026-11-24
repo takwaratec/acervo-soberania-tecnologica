@@ -32,8 +32,9 @@ frente: BORO
 > **Síntese.** Rusch et al. (2023) trataram hastes de *Dendrocalamus asper* por
 > **imersão em CCB a 1% e 3%** e as mantiveram em campo de apodrecimento por
 > **5 anos**. O resultado **difere por concentração**: a 3% o índice de deterioração
-> foi **0** (sadio); a 1%, **40** — ataque **leve ou superficial**. O controle
-> (imersão em água) chegou a **80% e 100%** — perda quase total de resistência.
+> foi **0** (sadio); a 1%, **40** — ataque **leve ou superficial**. Os **dois
+> controles têm valores distintos**: **totalmente imerso em água = 100%**;
+> **parcialmente imerso em água = 80%** — perda quase total de resistência nos dois.
 > **Os autores declaram que "não é possível afirmar que a presença de metais no solo
 > é indicativo de lixiviação"** — a variabilidade é alta (CV 66% para cromo), o solo
 > da região já tem concentrações semelhantes e a análise estatística do solo **não
@@ -146,8 +147,12 @@ não fará por ele.
 
 ## 5. Avaliação crítica
 
-**Força:** é **ensaio de campo com 5 anos** — raridade na literatura de bambu
-tratado, que é quase toda de laboratório. Comparação com controle apropriado.
+**Força:** é **ensaio de campo com 5 anos**, com dois controles e estatística
+declarada. **Nota de escopo (versão 3):** esta ficha afirmava antes ser "raridade na
+literatura, que é quase toda de laboratório". **Essa caracterização não vem do artigo**
+— Rusch não faz levantamento bibliográfico para sustentá-la, e eu não fiz a revisão que
+a sustentaria. É **síntese curatorial não verificada**, e fica registrada como tal, não
+como achado do autor.
 Formulação declarada com percentuais. Estatística declarada.
 
 **Limitações:**

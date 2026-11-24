@@ -1,6 +1,6 @@
 ---
 tipo_documental: ficha-tecnica-de-produto
-titulo: "Boro — ficha química da OMS: identidade, uso industrial e ausência de valor de referência próprio"
+titulo: "Boro — ficha química da OMS: valor de referência de 2,4 mg/L, ocorrência e usos nomeados"
 titulo_original: "Boron — Chemical fact sheet (Guidelines for Drinking-water Quality, 4th ed. incorporating the first and second addenda)"
 autores: "World Health Organization (WHO)"
 ano: 2022
@@ -21,10 +21,12 @@ frente: BORO
 > **Síntese.** A ficha química da OMS fixa o **valor de referência em 2,4 mg/L
 > (2.400 µg/L)** e declara a origem natural: boro em água subterrânea vem
 > primariamente da **lixiviação de rochas e solos com boratos e borossilicatos**.
-> Nomeia quatro usos industriais — **vidro, sabões e detergentes, e retardantes de
-> chama** — e registra que a contribuição de efluente doméstico para boro em água
-> superficial **diminuiu de forma significativa** e segue caindo. Ocorrência típica
-> mundial: **abaixo de 0,5 mg/L**.
+> Nomeia três usos industriais — **vidro, sabões e detergentes, e retardantes de
+> chama** — e registra que o teor de borato em **água superficial** pode aumentar por
+> **descargas de águas residuais** (sem qualificar como domésticas), uso que
+> **diminuiu de forma significativa**, com níveis nas descargas seguindo em queda.
+> Ocorrência: para a maior parte do mundo, a concentração em água de consumo é
+> **julgada abaixo de 0,5 mg/L**.
 
 ## 1. Dados gerais
 
