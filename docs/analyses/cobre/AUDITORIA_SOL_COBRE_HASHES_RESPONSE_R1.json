@@ -1,9 +1,9 @@
 {
  "schema": "TAKWARATEC_R4_HASHES_RESPONSE_R1",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
- "sha256_do_manifesto": "7cced6d3ac50a60bfb8948978530b899d596f1df5fee17abd50716df34f1da13",
- "manifest_commit": "680100aaa0207957ea352cec8a542566feab7f7d",
- "commit_alvo": "fd3a6c757c264642a8bd33a0864c673ec7ac7961",
+ "sha256_do_manifesto": "410e7b2cb70fa7879c09d02943f57ddd6387f5566e0cd511dad9207c5b69ad6b",
+ "manifest_commit": "512700e79adfc5b02e600ae1d8dd028d6ad1fbe8",
+ "commit_alvo": "5ca8b8f301b38d7eaa798bb94f558583d05f586a",
  "fontes_sha256": {
   "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md": "64714eca30e86729339be1414e07c0632ed347b7871f7de86f0acc90186e4a65",
   "docs/analyses/cobre/o-cobre-no-bambu.html": "3cf26b46912d46c7e9cb4091bb537e438409a613c7ed2c0544183e9a3eaca47f",
@@ -23,6 +23,6 @@
   "docs/analyses/cobre/fichas/ficha-espaconaturalmente-bambu.md": "5c6ff1a2e06ea5458d4f63980409970ac4b7e463a65cc1be3127b2c361a8ba7b"
  },
  "total_fontes": 16,
- "conferido_utc": "2026-11-24T22:05:00+00:00",
- "nota": "sha256_do_manifesto calculado nos bytes do manifesto NO manifest_commit. fontes_sha256 lido no commit_alvo, nunca do disco."
+ "conferido_utc": "2026-11-24T22:20:00+00:00",
+ "nota": "sha256 do manifesto no manifest_commit; fontes lidas no commit_alvo."
 }
