@@ -62,18 +62,18 @@ Os autores relacionam bioeconomia amazônica, produção artesanal, uso de bambu
 | **Método de impacto** | ReCiPe 2016 Midpoint (h) |
 | **Normas declaradas** | ISO 14040 e ISO 14044 |
 
-Inventário por 1 kg de colmo tratado: 0,0003 kg de NPK, 0,002 kg de calcário, 0,67 L de água, 0,0003 kg de ácido bórico, 0,0003 kg de bórax, 0,20 kg de resíduo de bambu, 0,13 kg de colmo descartado e 0,07 L de efluente.
+Inventário por 1 kg de colmo tratado (Tabela 1, p. 7): 0,0003 kg de NPK, 0,002 kg de calcário, 0,67 L de água, 0,0003 kg de ácido bórico, 0,0003 kg de bórax, 0,20 kg de resíduo de bambu, 0,13 kg de colmo descartado e 0,07 L de efluente.
 
 ## 6. Principais achados
 
-- O processo observado perdeu 25% da matéria-prima encaminhada ao tratamento químico.
-- Entre as categorias normalizadas, toxicidade carcinogênica humana (HCT) representou aproximadamente 93% do impacto potencial total estimado.
+- O processo observado perdeu 25% da matéria-prima encaminhada ao tratamento químico (p. 7).
+- Entre as categorias normalizadas, toxicidade carcinogênica humana (HCT) representou aproximadamente 93% do impacto potencial total estimado (p. 7).
 - Os autores atribuem esse resultado ao uso de ácido bórico e bórax e à presença desses compostos em aparas, cortes, colmos descartados e efluentes.
-- Resíduos contaminados de aparas e colmos descartados responderam por 91% do impacto total modelado da cadeia artesanal.
-- Eutrofização de água doce foi a segunda categoria mais destacada, com aproximadamente 4%.
+- Resíduos contaminados de aparas e colmos descartados responderam por 91% do impacto total modelado da cadeia artesanal (p. 7).
+- Eutrofização de água doce foi a segunda categoria mais destacada, com aproximadamente 4% (p. 8).
 - O estudo recomenda investigar alternativas ao ácido bórico e ao bórax, melhorar a gestão de resíduos sólidos e efluentes, otimizar o uso de água e aperfeiçoar o manejo de fertilizantes.
 
-Os percentuais são resultados de impacto potencial normalizado no modelo de ACV. Eles não equivalem a incidência epidemiológica e não demonstram que a simples troca de um insumo eliminará exatamente 93% do impacto.
+Os percentuais são resultados de impacto potencial normalizado no modelo de ACV. Eles não equivalem a incidência epidemiológica e não demonstram que a simples troca de um insumo eliminará exatamente o valor de 93% do impacto (p. 7).
 
 ## 7. Avaliação crítica
 
