@@ -1,0 +1,29 @@
+{
+ "schema": "GAVETA_BORO_INVENTARIO_R1",
+ "gaveta": "docs/analyses/boro",
+ "frente": "BORO",
+ "data": "2026-11-24",
+ "artefatos_publicos": [
+  "00-estado-da-questao-boro.md",
+  "index.md"
+ ],
+ "custodia_privada": {
+  "raiz": "_privado/governanca-operacional/extracoes/boro/",
+  "herdado_arquivos": 42,
+  "herdado_pdfs": 16,
+  "fontes_novas": 8,
+  "integridade_herdado": "VERIFICADA",
+  "divergencias_hash": 0
+ },
+ "fichas_herdadas_nao_homologadas": 10,
+ "estado_documental": "em-revisao-documental",
+ "homologacao_automatica": false,
+ "nao_entra_nesta_gaveta": [
+  "sulfato de cobre",
+  "CCA",
+  "CCB",
+  "vernizes volateis",
+  "acrilicos",
+  "concreto"
+ ]
+}
