@@ -11,6 +11,7 @@
   "03-plano-residuo-e-alerta.md",
   "04-resultados-s8-s10-toxicidade-e-residuo.md",
   "05-resultados-s12-s9-alternativas.md",
+  "06-resultados-s11-uso-domestico.md",
   "AUDITORIA_R4_PARECER.md",
   "AUDITORIA_R4_ERRATA.md",
   "AUDITORIA_R5_PARECER.md",
@@ -207,7 +208,8 @@
   "S8": "toxicidade — efeito hepatico, 2 mg/L diretriz provisoria, razao 1802x",
   "S10": "residuo — PNRS art.3 XVI alcanca liquidos, sem vazio normativo",
   "S12": "alternativas — Liu 2023 boro eficaz em lab (WPG 0,64%) sem lixiviacao",
-  "S9": "insustentabilidade — cuprico perde apenas em espectro"
+  "S9": "insustentabilidade — cuprico perde apenas em espectro",
+  "S11": "uso domestico — COT110 Embrapa (Tonini/Oliveira 2024) manda reusar L207-214; NMBA 2006 India manda decantar/reusar; nenhuma resolve o descarte final"
  },
  "afirmacoes_retiradas": [
   "cobre e pior que o boro (sem ensaio comparativo)",
@@ -215,5 +217,19 @@
   "cobre do CCB contamina solo (contrariado por Rusch: +12% sem significancia)",
   "vao normativo (PNRS alcanca liquidos)",
   "impossibilidade fisica de diluicao"
- ]
+ ],
+ "rodada_S11": {
+  "fontes_custodiadas": 5,
+  "fichas_produzidas": 2,
+  "auditorias": {
+   "R7": "REPROVA (furo material: reuso declarado ausente)",
+   "R8": "REPROVA (6 residuos de coerencia interna)",
+   "R9": "REPROVA (5/6; destinacao controlada em 2 passagens)",
+   "R10": "APROVA_COM_RESSALVA",
+   "R11": "CERTIFICA — PASS no ledger"
+  },
+  "estado": "fichas em ficha-em-revisao; aguardando homologacao humana",
+  "hash_final_cot110": "90ae9da2d71fd35b",
+  "hash_final_nmba": "a6e7b7260b3c9cd8"
+ }
 }
