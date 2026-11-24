@@ -8,6 +8,8 @@
   "00-mapa-reprocessamento.md",
   "01-plano-de-pesquisa.md",
   "02-plano-sulfato-de-cobre.md",
+  "AUDITORIA_R4_PARECER.md",
+  "AUDITORIA_R4_ERRATA.md",
   "index.md"
  ],
  "custodia_privada": {
@@ -116,7 +118,7 @@
   "objeto_de_auditoria": "COBRE-PLANO-AUDITORIA-20261124-R1"
  },
  "plano_especifico_sulfato": {
-  "versao": 1,
+  "versao": 2,
   "rodadas": 7,
   "rodadas_ids": [
    "S1 identidade e mecanismo",
@@ -137,6 +139,38 @@
    "origem_dominante": "China 48,3%",
    "serie": "1997-2026, volatil, -86% entre 1997 e 2020"
   },
-  "contraste": "exporta 1.451.750 t de minerio de cobre (2603) e importa 177,9 t de sulfato: razao ~8.000:1 em massa"
+  "contraste": "exporta 1.451.750 t de minerio de cobre (2603) e importa 177,9 t de sulfato: razao ~8.000:1 em massa",
+  "v1_superada": "99-plano-sulfato-v1-superado.md",
+  "auditoria": {
+   "task": "COBRE-PLANO-AUDITORIA-20261124-R4",
+   "veredito": "REPLANEJAR",
+   "acatado": true,
+   "correcoes": 4
+  },
+  "ordem_proposta": [
+   "S1",
+   "S2",
+   "S7",
+   "S4",
+   "S5",
+   "S6",
+   "S3"
+  ]
+ },
+ "verificacao_cruzada_cca": {
+  "fontes": [
+   "Ibama 2024 Tanalith 60% CCA-C",
+   "Gauss 2020 Tabela 2.5"
+  ],
+  "CrO3": "47,51 vs 47,5",
+  "CuO": "18,49 vs 18,5",
+  "As2O5": "34,00 vs 34",
+  "divergencia_max": "0,01 p.p."
+ },
+ "retencoes_gauss_tabela_26": {
+  "fonte": "_privado/fontes-academicas/2020-gauss-tratamento-preservativo-modificacao-quimica/extracao.md L2565-2625",
+  "P_edulis_CCA4_alvo_4_0": "0,88 kg/m3 (22% do alvo)",
+  "P_edulis_CCA6_4_alvo_6_4": "1,49 kg/m3 (23% do alvo)",
+  "Pinus_referencia": "4,61 e 7,12 kg/m3"
  }
 }
