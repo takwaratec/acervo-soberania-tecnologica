@@ -38,7 +38,11 @@ prejudicar a fertilidade e o feto). **Não é classificado como cancerígeno.**
 BMDL₀₅ de 10,3 mg/kg/dia com fator de segurança 60. Ingestão: limite superior de
 **20 mg/dia** para adultos.
 
-**Onde está o problema.** Não no banho de tratamento, e sim no **resíduo**. Na produção
+**Onde está o problema.** Não no banho de tratamento, e sim no **resíduo**. Um estudo
+com revisão por pares feito no Acre mediu que **93% do impacto potencial** daquela
+cadeia artesanal estava na categoria de **toxicidade carcinogênica humana** — num
+indicador de ciclo de vida, não numa taxa de doença —, e que **91% disso vinha do
+resíduo**, não da tina. Na produção
 de colmo, 91% do impacto potencial vem dos resíduos contaminados, não da tina. E o
 resíduo com boro **não está na lista de resíduo perigoso** de nenhuma norma examinada —
 Brasil, China, Índia, Vietnã, Indonésia — **não porque foi julgado inofensivo, mas
@@ -62,7 +66,8 @@ técnico aparecer, ele será explicado na hora.
 Há duas promessas.
 
 A primeira: **vou dizer quando não sei.** O boro é um assunto onde é fácil escrever
-frases impressionantes e falsas.
+frases impressionantes e falsas — e igualmente fácil descartar como falsa uma frase
+impressionante que está certa. Vou evitar as duas coisas.
 
 A segunda: **toda afirmação tem procedência.** Cada número ou conclusão vem marcado
 com um número entre colchetes — `[3]`, `[7]` — que remete à bibliografia ao final.
@@ -467,60 +472,69 @@ obra** [15].
 
 Até aqui o boro foi solução. Esta seção é sobre o que ele se torna depois.
 
-**O número que costuma ser mal lido.** Um estudo de avaliação de ciclo de vida mediu a
-produção artesanal de colmo de *Guadua angustifolia* no Brasil [19]. O resultado
-divulgado é que **93%** do impacto ambiental potencial está na categoria de
-**toxicidade humana**. Isso circula por aí como "93% de chance de câncer". **Não é
-isso.** É um **indicador calculado** de impacto potencial dentro de um método
-específico — não uma incidência de doença.
+**O estudo que mudou a leitura deste artigo.** Quatro pesquisadores da UNESP de
+Sorocaba, do IFSP e da UNESP assinaram, em 2025, uma avaliação de ciclo de vida da
+produção artesanal de colmo de *Guadua angustifolia* no Acre [19]. Eles concluíram, em
+revista com revisão por pares, que **a toxicidade carcinogênica humana (HCT)
+representou 93% do impacto potencial** daquela cadeia.
 
-**O achado real está no detalhamento**: **91% desse impacto vem dos resíduos
-contaminados**, não do banho. Ou seja: o problema não é a hora em que o bambu entra na
-tina — é o que sai dela.
+**Não é boato, e não deve ser tratado como boato.** Um número que circula sem
+procedência é uma coisa; um número publicado por quatro cientistas, com método
+declarado, inventário e tabela, é outra. Este artigo é sobre o que as fontes dizem — e
+esta fonte diz isso.
 
-**O que o estudo mede, por quilo de colmo produzido** [19]:
 
-| Item | Quantidade |
-|---|---|
-| resíduo gerado | **0,20 kg** |
-| colmo produzido | **0,13 kg** |
-| efluente | **0,07 L** |
-| perda no processo | **25%** |
-| colmos descartados | ~**13%** |
-| água que vai ao solo | ~**10%** |
+**Por que eles usaram esse termo, e o que ele quer dizer.** A chave está no método.
+Eles aplicaram o **ReCiPe 2016 Midpoint (h)**, rodado no SimaPro 9.1 com a base
+Ecoinvent 3 [19]. Nessa metodologia, **"HCT" não é um diagnóstico** — é o nome de uma
+das 18 categorias de impacto do modelo.
 
-E a receita do banho: **100 litros de água + 5 kg de bórax + 5 kg de ácido bórico**
-[19]. Isso dá uma solução a 10% — dez vezes mais concentrada que a água boricada de
-farmácia.
+O ReCiPe calcula, para cada emissão de cada etapa, um valor em **"ponto de impacto de
+toxicidade ocupacional e ambiental"**, medido em uma unidade própria — o **ponto**
+(ou miliponto, quando normalizado). Esse valor é obtido multiplicando a massa
+liberada por um **fator de destino, exposição e efeito**: quanto da substância chega
+ao ar, à água e ao solo; quanto disso as pessoas respiram ou ingerem; e qual o efeito
+na saúde humana estimado por quilo.
 
-**Agora o problema normativo.** Em 2012, um estudo brasileiro testou postes e mourões
-de madeira fora de serviço, tratados com **CCA** (arseniato de cobre cromatado) e
-depois retratados com **boro/flúor** [11]. O resultado:
+**Depois, os autores normalizaram.** A normalização do ReCiPe expressa cada categoria
+como fração do impacto total de referência de uma população — daí os resultados
+aparecerem em milipontos [19]. **É essa normalização que transforma "HCT é a categoria
+maior" em "93%"** — 93% do total normalizado entre as sete categorias que eles
+selecionaram, não 93% de probabilidade de câncer.
 
-| Resíduo | Elemento que estourou o limite | Classificação |
-|---|---|---|
-| **madeira com CCA** | **arsênio** (2,7 a 9,2 mg/L; limite 1,0) | **Classe I — perigoso** |
-| **madeira com boro/flúor** | **flúor**, não boro | Classe II-A — não inerte |
+**O que o número afirma, em tradução direta.** Afirma que, entre as sete categorias
+avaliadas, a liberação de substâncias com modelagem de toxicidade carcinogênica foi a
+que mais contribuiu em milipontos. E afirma, com ainda mais precisão, **de onde vem
+essa contribuição**: os autores atribuem o resultado ao **uso de ácido bórico e bórax**
+no tratamento, e à presença desses compostos **nas aparas, nos cortes, nos colmos
+descartados e no efluente** [19]. **Resíduos contaminados responderam por 91%.**
 
-**O boro não aparece na classificação.** E o motivo está no texto: a norma brasileira
-lista como perigoso apenas resíduo de preservação "contendo **As ou Cr**" [11]. O
-estudo declara que **"não há registros na literatura"** sobre o que a presença de boro
-faz no resíduo [11].
 
-> **A distinção decisiva:** entre **"não é perigoso"** e **"não é vigiado"**.
-> O boro não está na lista da norma porque **não foi avaliado** — não porque foi
-> julgado inofensivo.
+**Onde o estudo foi feito, e por que isso limita a extrapolação.** A unidade estudada
+é **uma** unidade produtiva artesanal, em **Rio Branco, Acre** [19]. Não é o Sudeste,
+não é o Sul, não é uma fábrica com controle de efluente.
 
-**Isso se repete fora do Brasil.** A norma chinesa **GB/T 40245-2021** define "madeira
-preservada residual perigosa" como a que contém **cromo, arsênio, creosoto ou
-pentaclorofenol** — boro não está na lista [20]. O INBAR, organização intergovernamental
-do bambu, publicou 36 páginas sobre economia circular do bambu: **"boro" aparece zero
-vezes, "aterro" zero vezes** [21].
+Isso não desqualifica o achado — **qualifica o alcance dele**. O que o estudo sustenta:
 
-**E o diagnóstico de campo é duro.** Walter Liese, o maior nome da área, escreveu:
+- naquele processo artesanal, naquele estado, naquele ano, **o resíduo contaminado foi
+  o maior contribuinte** de impacto potencial;
+- a cadeia artesanal **perde 25% da matéria-prima** no tratamento;
+- a receita usada é **100 L de água + 5 kg de bórax + 5 kg de ácido bórico** [19].
 
-> *"Aterros comuns suportam apenas uma quantidade limitada de bambu envenenado.
-> **Aterros de descarte aprovados dificilmente existem ou são desconhecidos.**"* [12]
+O que o estudo **não** sustenta:
+
+- que o mesmo vale para uma fábrica do Sudeste com autoclave e tratamento de efluente;
+- que 93% seja o número de outra cadeia qualquer;
+- que substituir o insumo elimine 93% do impacto.
+
+**E há uma diferença de escala que o próprio artigo quase não discute:** o Brasil importa
+componentes de boro e trata bambu em pequena escala. Onde o processamento é industrial,
+com banho reutilizado em ciclo fechado — como o IBUKU descreve — a perda e o efluente
+são de outra ordem.
+
+**O que fica de pé, e é o achado central:** o estudo mostra, com método e número, que
+**o problema do boro no bambu mora no resíduo, não na tina**. É a mesma conclusão a que
+chega a leitura normativa — só que agora com medição.
 
 ## 13. As estruturas efêmeras
 
@@ -737,6 +751,25 @@ cancerígeno; **Repr.** é tóxico para a reprodução. O boro é Repr., não Ca
 deste mineral, usado sobretudo em vidro resistente ao calor.
 
 **Colmo** — o caule do bambu. Oco entre os nós, é a parte usada na construção.
+
+**HCT** — *Human Carcinogenic Toxicity*, toxicidade carcinogênica humana. **Categoria
+de impacto de um modelo de ciclo de vida**, não diagnóstico médico. Expressa, em
+milipontos, a contribuição modelada de emissões com efeito cancerígeno estimado.
+
+**ReCiPe** — método de avaliação de impacto de ciclo de vida, em versão *midpoint*
+(ponto intermediário) ou *endpoint* (dano final). O usado no estudo [19] é o
+**ReCiPe 2016 Midpoint (h)**, com 18 categorias.
+
+**miliponto (mPt)** — unidade de impacto normalizado. Um ponto é o impacto de
+referência de uma população por um período; o miliponto é um milésimo disso. **Não é
+massa, não é dose e não é risco clínico.**
+
+**normalização** — etapa em que cada categoria de impacto é dividida pelo impacto de
+referência, para que categorias diferentes fiquem comparáveis. É dessa etapa que sai um
+número como "93% do total".
+
+**ACV** — avaliação de ciclo de vida. Metodologia normalizada (ISO 14040/14044) que
+contabiliza entradas e saídas de um produto desde a extração até o descarte.
 
 **CPCB** — Central Pollution Control Board, órgão indiano de controle de poluição.
 
@@ -958,12 +991,21 @@ tratamentos adicionais contra insetos não são necessários"; recobrimento a ca
 revisão de juntas "a cada poucos anos"; "a manutenção de longo prazo é principalmente
 cosmética".*
 
-**[19]** ARAUJO, [et al.]. *Life cycle assessment of the artisanal bamboo pole (Guadua
-angustifolia) production in the Brazilian Amazon*. 2025. DOI 10.14295/bjs.v4i4.719. —
-*HCT 93% do impacto potencial; 91% dele nos resíduos contaminados; banho de 100 L de água
-+ 5 kg de bórax + 5 kg de ácido bórico; por kg de colmo: 0,20 kg de resíduo, 0,13 kg de
-colmo, 0,07 L de efluente; 25% de perda; ~13% de colmos descartados; ~10% da água ao
-solo.*
+**[19]** ARAUJO, Letícia Medeiros de; GIANELLI, Bruno Fernando; MANCINI, Sandro
+Donnini; MEDEIROS, Gerson Araujo de. Life cycle assessment of the artisanal bamboo pole
+(*Guadua angustifolia*) production in the Brazilian Amazon. *Brazilian Journal of
+Science*, v. 4, n. 4, p. 13-28, 2025. DOI 10.14295/bjs.v4i4.719. — *ACV atribucional,
+do berço ao portão, de 1 kg de colmo tratado, em **uma** unidade artesanal de **Rio
+Branco, Acre**; SimaPro 9.1, Ecoinvent 3, **ReCiPe 2016 Midpoint (h)**, ISO 14040/14044;
+sete categorias selecionadas, resultados **normalizados em milipontos**. **HCT = 93%
+do impacto potencial normalizado**; **91% nos resíduos** de aparas, cortes e colmos
+descartados; atribuído ao ácido bórico e ao bórax presentes nesses resíduos e no
+efluente. Banho de 100 L de água + 5 kg de bórax + 5 kg de ácido bórico; por kg de
+colmo: 0,20 kg de resíduo, 0,13 kg de colmo descartado, 0,07 L de efluente; 25% de
+perda. **Limites declarados pelos autores:** sazonalidade, variabilidade de mão de obra
+e de insumos, escassez de dados de inventário no Brasil. **Limite desta curadoria:** é
+medição de UMA unidade artesanal amazônica, não da cadeia industrial do Sudeste/Sul; o
+valor é indicador de modelagem, não incidência de doença.*
 
 **[20]** CHINA. State Administration for Market Regulation; Standardization
 Administration. *GB/T 40245-2021 — Specification for recovery of waste
