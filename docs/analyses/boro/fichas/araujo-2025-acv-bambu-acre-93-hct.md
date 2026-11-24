@@ -23,8 +23,9 @@ fonte_primaria: PDF integral custodiado, 16 páginas (427.717 b), obtido de peri
 > **Síntese.** Quatro pesquisadores publicaram, com revisão por pares, uma avaliação de
 > ciclo de vida da produção artesanal de colmo de *Guadua angustifolia* em **uma
 > unidade em Rio Branco, Acre**. Concluíram que a categoria **HCT** representou
-> **93% do impacto potencial normalizado**, e que **91%** disso veio dos **resíduos
-> contaminados** — aparas, cortes, colmos descartados e efluente —, não do banho.
+> **93% do impacto potencial normalizado**, e que **91% do impacto total da cadeia**
+> veio das **aparas, dos cortes e dos colmos descartados** — soma de todas as categorias,
+> não 91% do HCT —, não do banho.
 > O termo "carcinogênico" vem da **categoria do método ReCiPe**, não de um diagnóstico.
 
 ## 1. Dados gerais
@@ -73,7 +74,8 @@ mais contribuiu em milipontos normalizados, entre as sete avaliadas"*. **Não si
 > presentes nos resíduos de aparas e cortes, nos colmos descartados e na água residuária
 > gerada."*
 
-E registram: **resíduos contaminados responderam por 91% do impacto total** modelado.
+E registram: **aparas, cortes e colmos descartados responderam por 91% do impacto total**
+modelado — o total da cadeia, não o HCT.
 
 **A conclusão operacional deles** é explorar métodos alternativos de tratamento,
 melhorar a gestão de resíduos sólidos e de efluentes, e otimizar o uso de água.
@@ -104,12 +106,15 @@ contra-intuitivo é o valor do trabalho.
 **Limites — e são sérios:**
 
 - **Uma única unidade produtiva, num único município.** O Acre não é polo de produção
-  de bambu; Sudeste e Sul têm escala industrial. **Extrapolar o percentual é erro.**
+  de bambu. **Extrapolar o percentual é erro.** Não há, nesta gaveta, fonte que descreva
+  a cadeia do Sudeste ou do Sul — nem para afirmar escala industrial, nem para negá-la.
 - **Sete categorias foram selecionadas**, não as 18 do ReCiPe. O percentual depende
   desse recorte.
 - **ACV atribucional do berço ao portão**: não modela fim de vida do produto acabado.
-- **Os autores não discutem o limite do indicador** — não escrevem que HCT não é
-  incidência. **A ressalva é desta curadoria**, não da fonte.
+- **Os autores não dizem expressamente que HCT não é incidência.** Eles qualificam o
+  resultado como *impacto potencial* e descrevem método, normalização e limites do
+  inventário — o que é mais do que silêncio, e menos do que a ressalva clínica. **A
+  formulação "não é incidência" é desta curadoria.**
 - **Sazonalidade e escassez de dados de inventário** declarados pelos próprios autores.
 - Não há análise de sensibilidade publicada para o peso do boro no resultado.
 
@@ -117,7 +122,8 @@ contra-intuitivo é o valor do trabalho.
 
 **Pode-se afirmar:** "um estudo de ACV, com revisão por pares, mediu que, numa unidade
 artesanal do Acre, a categoria de toxicidade carcinogênica do ReCiPe respondeu por 93%
-do impacto potencial normalizado, com 91% atribuídos ao resíduo contaminado".
+do impacto potencial normalizado, e que 91% do impacto total da cadeia foi atribuído a
+aparas, cortes e colmos descartados".
 
 **Não se pode afirmar:** "bambu tratado com boro causa câncer"; "93% de risco";
 "o mesmo vale para a cadeia industrial brasileira".

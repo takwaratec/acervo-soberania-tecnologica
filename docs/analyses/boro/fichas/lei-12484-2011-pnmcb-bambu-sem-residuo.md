@@ -70,8 +70,10 @@ resíduo do tratamento.** Os três instrumentos são de fomento: crédito, assis
 certificação. Nenhum é de disciplina ambiental.
 
 **E o incentivo é explicitamente dirigido à agricultura familiar e a unidades familiares
-de produção** (art. 3º, III e art. 5º, III) — exatamente o formato em que **não há
-controle de efluente**.
+de produção** (art. 3º, III e art. 5º, III) — formato em que **controle de efluente é
+menos provável**, porque a lei não exige plano de gerenciamento de resíduos de quem
+recebe o incentivo. **Que esse controle inexista na prática é inferência desta
+curadoria**: esta ficha leu a lei, não a propriedade.
 
 **Combinação com a PNRS:** a lei de resíduos (2010) não nomeia bambu; a lei do bambu
 (2011) não trata de resíduo. **O material cai no encontro das duas — e nenhuma o

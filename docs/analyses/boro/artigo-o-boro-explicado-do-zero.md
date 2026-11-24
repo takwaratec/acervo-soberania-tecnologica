@@ -41,9 +41,8 @@ BMDL₀₅ de 10,3 mg/kg/dia com fator de segurança 60. Ingestão: limite super
 **Onde está o problema.** Não no banho de tratamento, e sim no **resíduo**. Um estudo
 com revisão por pares feito no Acre mediu que **93% do impacto potencial** daquela
 cadeia artesanal estava na categoria de **toxicidade carcinogênica humana** — num
-indicador de ciclo de vida, não numa taxa de doença —, e que **91% disso vinha do
-resíduo**, não da tina. Na produção
-de colmo, 91% do impacto potencial vem dos resíduos contaminados, não da tina. E o
+indicador de ciclo de vida, não numa taxa de doença —, e que **91% do impacto total da
+cadeia** vinha das **aparas, dos cortes e dos colmos descartados**, não do banho. E o
 resíduo com boro **não está na lista de resíduo perigoso** de nenhuma norma examinada —
 Brasil, China, Índia, Vietnã, Indonésia — **não porque foi julgado inofensivo, mas
 porque não foi avaliado**.
@@ -400,10 +399,11 @@ um diagnóstico. O valor sai em milipontos, depois de normalizado entre as sete
 categorias que os autores selecionaram. **"93%" quer dizer "esta foi a categoria que
 mais pesou no modelo"**, não "93% de chance de câncer".
 
-**Por que, então, o termo importa?** Porque ele mede o que os outros números desta seção
-não medem: **a massa de resíduo contaminado que a cadeia deixa no ambiente**. Os autores
-atribuem o resultado ao ácido bórico e ao bórax presentes **nas aparas, nos cortes, nos
-colmos descartados e no efluente** [19].
+**Por que, então, o termo importa?** Não porque meça massa — **ele não mede massa**, e o
+glossário deste artigo diz isso. Ele importa por outra razão: é o único indicador desta
+seção que **aponta para o resíduo como origem do dano potencial**. Os autores atribuem o
+resultado ao ácido bórico e ao bórax presentes **nas aparas, nos cortes, nos colmos
+descartados e no efluente** [19].
 
 **A leitura honesta, então, é esta:**
 
@@ -413,7 +413,8 @@ colmos descartados e no efluente** [19].
   carcinogênica do modelo foi a que mais pesou — **por causa do resíduo**.
 
 As três afirmações convivem. Nenhuma cancela a outra — e o resíduo, que é o que o estudo
-aponta, não está regulado no Brasil (§18).
+aponta, **não tem disciplina específica no Brasil** — nem a lei de resíduos o nomeia, nem
+a lei do bambu trata de resíduo (§18).
 
 
 **Um cuidado com datas.** Documentos de 2021 ainda citam "Repr. cat. 2" [5] — o
@@ -500,9 +501,7 @@ para essa vistoria.
 - **"a manutenção de longo prazo é principalmente cosmética"**.
 
 **A conclusão que os dois documentos sustentam:** a manutenção da Green School é de
-**reposição e recobrimento**, não de reaplicação de boro. Quem imagina um mutirão
-periódico aplicando boro em serviço está descrevendo algo que **as fontes não
-documentam**.
+**reposição e recobrimento**, não de reaplicação de boro.
 
 **O verniz do Arc.** A estrutura mais recente, o Arc (2021), exige recobrimento de
 verniz protetor contra radiação ultravioleta **a cada 2 anos, por toda a vida da
@@ -547,7 +546,8 @@ avaliadas, a liberação de substâncias com modelagem de toxicidade carcinogên
 que mais contribuiu em milipontos. E afirma, com ainda mais precisão, **de onde vem
 essa contribuição**: os autores atribuem o resultado ao **uso de ácido bórico e bórax**
 no tratamento, e à presença desses compostos **nas aparas, nos cortes, nos colmos
-descartados e no efluente** [19]. **Resíduos contaminados responderam por 91%.**
+descartados e no efluente** [19]. **E as aparas, os cortes e os colmos descartados responderam por 91% do impacto total
+da cadeia** — soma de todas as categorias, não 91% do HCT.
 
 
 **Onde o estudo foi feito, e por que isso limita a extrapolação.** A unidade estudada
@@ -590,20 +590,20 @@ Aqui o problema do boro fica mais agudo, por uma razão simples: **estrutura ef�
 acontece ao desmontar não costuma estar no orçamento.
 
 **O maior fluxo documentado do mundo** é o andaime de bambu de Hong Kong: **mais de
-50.000 toneladas por ano** descartadas como resíduo de construção [28]. *(Atenção: esse
+50.000 toneladas por ano** descartadas como resíduo de construção [22]. *(Atenção: esse
 número vem de artigo em paywall e não está custodiado nesta gaveta — serve como ordem de
 grandeza, não como dado verificado.)*
 
 **E aqui está a torção.** Fui verificar se esse bambu é tratado. **Não é.** As
 diretrizes do Buildings Department exigem apenas **secagem ao ar, na vertical, em
-ambiente coberto, por ao menos 3 meses** [29]. Nas 25 páginas da norma, as palavras
-*boro*, *borato*, *preservativo*, *químico* e *tratamento* aparecem **zero vezes** [29].
+ambiente coberto, por ao menos 3 meses** [23]. Nas 25 páginas da norma, as palavras
+*boro*, *borato*, *preservativo*, *químico* e *tratamento* aparecem **zero vezes** [23].
 
 **A consequência é o argumento inteiro:**
 
 - o maior fluxo de bambu efêmero do planeta é de material **não tratado**;
 - logo, **é biodegradável** e tem cadeia de aproveitamento — há indústria de carvão
-  ativado feita com esse resíduo [28];
+  ativado feita com esse resíduo [22];
 - **o boro cria um fluxo que perde essa saída.**
 
 O material tratado não volta ao solo sem discussão, não serve para aproveitamento sem
@@ -693,7 +693,8 @@ categorias distintas e quem mistura as duas está errado nos dois sentidos.
 - **Boro não resolve contato com solo**: menos de 1 ano de vida útil [13].
 - A manutenção da Green School é de **reposição e recobrimento**, não de reaplicação de
   boro [17][18].
-- No ciclo de vida, **91% do impacto vem dos resíduos**, não do banho [19].
+- No ciclo de vida, **91% do impacto total da cadeia vem das aparas, dos cortes e dos
+  colmos descartados**, não do banho [19].
 - **O boro não está na lista de resíduo perigoso** de nenhuma norma examinada — porque
   **não foi avaliado**, não porque foi julgado seguro [11][20][21].
 - O maior fluxo efêmero do mundo, **50 mil t/ano** em Hong Kong, é de bambu **não
@@ -709,8 +710,6 @@ Declarar lacunas é parte do método. Estas são reais:
 - **Destino real das aparas no Brasil.** Não há rastreamento documentado.
 - **Volume de bambu tratado descartado.** Nenhum dos cinco países examinados tem número
   — nem o Brasil.
-- **Mutirão periódico de manutenção** com reaplicação de boro: as fontes descrevem
-  manutenção cosmética, não reimpregnação [17][18].
 - **A ligação direta entre Linda Garland e Walter Liese** não foi confirmada em fonte
   primária nesta rodada.
 - **Quanta exposição um trabalhador de fábrica de bambu recebe** — nenhuma medição
@@ -725,14 +724,16 @@ Esta é a parte mais desconfortável do artigo, e a única em que a conclusão n
 uma fonte científica — vem da **ausência de fonte normativa**. Trate como pergunta
 aberta, não como acusação provada.
 
-**Primeiro, o fato que precisa ser dito sem rodeio.** No Brasil, **o tratamento de bambu
-é artesanal**. Não há, nas fontes examinadas, registro de cadeia industrial com
-tratamento de efluente. Quando este artigo comparou o Acre ao Sudeste e ao Sul, fez uma
+**Primeiro, o que as fontes desta gaveta mostram.** A cadeia documentada no Brasil é
+**artesanal**. Isso é mais fraco do que dizer que *toda* a produção nacional é artesanal —
+esta gaveta não varreu o país. O que se pode afirmar: **não localizei registro de cadeia
+industrial brasileira com tratamento de efluente**. Quando este artigo comparou o Acre ao Sudeste e ao Sul, fez uma
 concessão que não se sustenta: **não há prova de que exista, aqui, a escala industrial
 que se imagina**.
 
-E isso muda o argumento. Se tudo é artesanal, o estudo do Acre [19] não é um caso
-periférico — **é a regra**, com uma ressalva: uma unidade, um município, um ano.
+E isso muda o argumento. **Se** o padrão documentado é artesanal, o estudo do Acre [19]
+deixa de ser caso periférico — passa a ser **o único caso medido**, com três ressalvas:
+uma unidade, um município, um ano. "Único medido" não é "típico": é o que existe.
 
 
 
@@ -746,8 +747,11 @@ definição dela é ampla de propósito:
 > gases contidos em recipientes e **líquidos cujas particularidades tornem inviável o seu
 > lançamento na rede pública de esgotos ou em corpos d'água**"* [28]
 
-**Banho de tratamento com boro é resíduo sólido pela definição legal** — ainda que seja
-líquido. Isso não é interpretação: é o texto do art. 3º, XVI.
+**O banho de tratamento pode ser resíduo sólido pela definição legal**, ainda que seja
+líquido — mas **sob condição**: a definição só alcança líquidos cujo lançamento em rede
+ou corpo d'água seja inviável, ou que exijam soluções técnica ou economicamente
+inviáveis. **Onde há rede e o efluente é compatível, a lei não o alcança por essa via.**
+A condição está no próprio texto do art. 3º, XVI [28].
 
 **Mas procure "bambu" na PNRS: zero ocorrências. "Madeira": zero.** A lei que rege
 resíduo no Brasil **não nomeia o material**.
@@ -771,8 +775,10 @@ ambiente), **SNVS** (vigilância sanitária), **Suasa** (sanidade agropecuária)
 e nenhuma delas trata de bambu tratado.
 
 **Na prática:** quem trata bambu com boro na própria casa ou na cooperativa **não
-descumpre uma norma específica** — porque ela não existe. Mas também **não cumpre**:
-não há licença, não há plano de gerenciamento, não há destinação prescrita.
+descumpre uma norma específica sobre bambu** — porque essa norma não existe. Se também
+**cumpre** as obrigações gerais de resíduo (acondicionamento, destinação adequada,
+eventual Plano de Gerenciamento) **é outra pergunta, e esta gaveta não a mediu.** O que
+as fontes mostram é ausência de disciplina específica, não ausência de obrigação geral.
 
 **E há um problema de fronteira que ninguém resolveu:**
 
@@ -850,7 +856,9 @@ registrar o que a ausência produz:
 2. **O estímulo não vem acompanhado de disciplina de resíduo**, porque a norma do bambu
    não trata do assunto e a norma de resíduo não nomeia o bambu;
 3. **O uso é comunitário e cooperativo** — é o que a própria política incentiva (art.
-   5º, III) [29] — e é exatamente o formato em que **controle de efluente não existe**;
+   5º, III) [29] — e é o formato em que **controle de efluente é menos provável**: a lei
+   dirige o incentivo a unidades familiares sem exigir plano de gerenciamento. *Que não
+   exista na prática é inferência desta curadoria, não medição.*
 4. **e as áreas de maior atrativo estão em território sensível.**
 
 **Onde isso deixa de ser artigo e passa a ser política pública:** quando cooperativas em
@@ -1070,8 +1078,10 @@ declaradas. Depende de tratamento, desenho e exposição.
 
 ## Bibliografia consultada
 
-Todas as obras abaixo estão custodiadas no acervo, com hash verificável, e cada uma tem
-ficha técnica própria com avaliação crítica e limites declarados.
+Cada obra citada neste artigo tem ficha técnica própria com avaliação crítica e limites
+declarados. **Uma exceção declarada:** a entrada [22] não está custodiada — o artigo está
+em paywall — e serve apenas como ordem de grandeza, não como dado verificado. As demais
+estão custodiadas no acervo, com hash verificável.
 
 **[1]** ORGANIZAÇÃO MUNDIAL DA SAÚDE. *Boron in drinking-water: background document for
 development of WHO Guidelines for Drinking-water Quality*. Genebra: WHO, 2009.
@@ -1187,10 +1197,10 @@ Donnini; MEDEIROS, Gerson Araujo de. Life cycle assessment of the artisanal bamb
 Science*, v. 4, n. 4, p. 13-28, 2025. DOI 10.14295/bjs.v4i4.719. — *ACV atribucional,
 do berço ao portão, de 1 kg de colmo tratado, em **uma** unidade artesanal de **Rio
 Branco, Acre**; SimaPro 9.1, Ecoinvent 3, **ReCiPe 2016 Midpoint (h)**, ISO 14040/14044;
-sete categorias selecionadas, resultados **normalizados em milipontos**. **HCT = 93%
-do impacto potencial normalizado**; **91% nos resíduos** de aparas, cortes e colmos
-descartados; atribuído ao ácido bórico e ao bórax presentes nesses resíduos e no
-efluente. Banho de 100 L de água + 5 kg de bórax + 5 kg de ácido bórico; por kg de
+sete categorias selecionadas, resultados **normalizados em milipontos**. **HCT = 93% do
+impacto potencial normalizado** (entre as sete categorias); **aparas + cortes + colmos
+descartados = 91% do impacto TOTAL da cadeia** (soma de todas as categorias, não 91% do
+HCT); contribuição atribuída ao ácido bórico e ao bórax nesses resíduos e no efluente. Banho de 100 L de água + 5 kg de bórax + 5 kg de ácido bórico; por kg de
 colmo: 0,20 kg de resíduo, 0,13 kg de colmo descartado, 0,07 L de efluente; 25% de
 perda. **Limites declarados pelos autores:** sazonalidade, variabilidade de mão de obra
 e de insumos, escassez de dados de inventário no Brasil. **Limite desta curadoria:** é

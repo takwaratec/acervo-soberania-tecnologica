@@ -85,19 +85,17 @@ técnica de premiação.
 
 **Limites:**
 
-- **Não existe, neste documento, menção a mutirão semestral de manutenção.** O que
-  há é vistoria visual por engenheiros, sem periodicidade declarada.
+- **A manutenção descrita é vistoria visual por engenheiros**, sem periodicidade
+  declarada.
 - **O ciclo de 20 anos é estimativa conservadora**, não medição de desempenho
   observado.
 - **O documento é de 2010** — descreve a obra com 3 anos, não o desempenho até hoje.
 - **"Substituição seletiva é prevista"** não define taxa nem intervalo.
 - É relatório de premiação, com interesse institucional na obra.
 
-**O que falta e a gaveta declara:** nenhuma fonte localizada descreve **mutirão
-semestral** de manutenção na Green School. O FAQ do construtor (IBUKU, ficha própria)
-descreve manutenção **cosmética**, com recobrimento a cada 2 a 4 anos e revisão de
-juntas a cada poucos anos. As duas descrições são compatíveis entre si e nenhuma
-menciona aplicação periódica de boro em serviço.
+**O que a gaveta documenta sobre manutenção:** vistoria visual por engenheiros, no
+relatório de 2010, e — pelo FAQ do construtor (IBUKU, ficha própria) — manutenção
+**cosmética**, com recobrimento a cada 2 a 4 anos e revisão de juntas a cada poucos anos.
 
 **Referência ABNT:** SHIM, Brigitte. *2010 On Site Review Report — Green School,
 Bali, Indonesia*. Aga Khan Award for Architecture, 2010. (3663.IDA).
