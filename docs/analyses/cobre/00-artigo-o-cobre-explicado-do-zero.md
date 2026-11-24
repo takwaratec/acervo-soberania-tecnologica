@@ -277,7 +277,7 @@ Essa mistura de três tem nome: **CCB** — *borato de cobre cromatado*. A sigla
 a junção das iniciais de cada um.
 
 E aqui um dado que reorganiza a dosagem, e que só existe porque alguém mediu: na formulação descrita
-pela norma brasileira (NBR 6232)[14] e usada no ensaio de Rusch (2023)[4], o CCB é composto de
+pela norma brasileira (NBR 6232)[16] e usada no ensaio de Rusch (2023)[4], o CCB é composto de
 **26% de sulfato de cobre**, **63,5% de dicromato de potássio** e
 **10,5% de ácido bórico**.
 
@@ -410,6 +410,53 @@ genética rara em que o corpo não consegue eliminar cobre — e que mostra, de 
 crônico faz ao fígado.
 
 > **A distinção que resolve a confusão** — Carcinogênico = capaz de causar câncer. Tóxico para o fígado = prejudica o órgão em exposição repetida. Tóxico para a vida aquática = prejudica organismos na água em concentração baixíssima. São três coisas diferentes, e uma não autoriza a outra — em nenhuma direção.
+
+### E o cobre é cancerígeno?
+
+Esta é a pergunta em que quase todo texto erra — para os dois lados. E aqui é preciso fazer o que
+o resto do artigo faz: separar o que está medido do que não está.
+
+> **Limite declarado, antes de qualquer conclusão** — A monografia da IARC para o cobre e a ficha toxicológica da ATSDR para o cobre não estão no corpus desta frente. Portanto este artigo não afirma que o cobre seja cancerígeno, nem que não seja. Dizer qualquer das duas coisas sem a monografia em mãos seria inventar — e é justamente o que este artigo critica nos outros.
+
+**O que o corpus sustenta sobre o desfecho do cobre:** o documento de base da
+Organização Mundial da Saúde trata o cobre pelo efeito **agudo gastrointestinal**
+(náusea a partir de 4 mg/L, em estudo com 61 voluntários) e pelo **acúmulo hepático** na
+exposição prolongada — "o cobre se acumula no fígado, no cérebro e nos olhos".[11]
+Câncer não é o desfecho que esses documentos usam para fixar limite. Isso **não**
+significa que o cobre seja inofensivo: significa que o desfecho documentado é outro.
+
+**Agora a informação recente que não pode ser ignorada.** Em 2025, quatro
+pesquisadores publicaram, com revisão por pares, uma avaliação de ciclo de vida da produção artesanal
+de colmo de bambu no Acre.[14] Concluíram que a **toxicidade carcinogênica
+humana (HCT) representou 93% do impacto potencial** daquela cadeia.
+
+**Isso não é boato e não deve ser tratado como boato.** É publicação recente, com
+método declarado, inventário e tabela.
+
+**E também não é sentença.** "HCT" é o nome de uma **categoria do
+método ReCiPe** — não um diagnóstico. O valor sai em milipontos, depois de normalizado entre
+as sete categorias que os autores selecionaram. **"93%" quer dizer "esta foi a
+categoria que mais pesou no modelo"**, não "93% de chance de câncer".
+
+**Por que, então, o termo importa para esta gaveta?** Porque o estudo mediu uma
+cadeia tratada com **bórax e ácido bórico** — e as receitas brasileiras de cobre são
+ternárias, ou seja, **levam bórax junto**. A carga de resíduo que carrega o boro carrega
+o cobre no mesmo saco. A categoria que mais pesou naquela cadeia é a mesma que este artigo está
+discutindo.
+
+**A leitura honesta, então, é esta:**
+
+- o desfecho **documentado** do cobre é gastrointestinal e hepático;[11]
+- a classificação de **carcinogenicidade** do cobre **não foi verificada**
+nesta frente — e o artigo diz isso;
+- o estudo brasileiro de 2025 mede **impacto potencial de cadeia**, e o maior
+contribuinte é o **resíduo**, não a aplicação;[14]
+- e **"93%" não é probabilidade de câncer** — é o peso de uma categoria
+num modelo.
+
+Quem disser que o cobre do tratamento causa câncer está extrapolando. Quem disser que é inofensivo
+porque "não é cancerígeno" está extrapolando igual — e ignora os dois desfechos que
+*estão* documentados.
 
 ### Por que a criança aparece em toda norma de cobre
 
@@ -861,7 +908,159 @@ prática real de descarte.
 
 ---
 
-## 08 · Como ler qualquer texto sobre cobre — e o resumo do artigo
+## 08 · O limbo: duas políticas, nenhuma norma
+
+Esta é a parte mais desconfortável do artigo, e a única em que a conclusão não vem de uma fonte
+científica — vem da **ausência de fonte normativa**. Trate como pergunta aberta, não
+como acusação provada.
+
+### Primeiro, o fato que precisa ser dito sem rodeio
+
+No Brasil, **o tratamento de bambu é artesanal**. Não há, nas fontes examinadas,
+registro de cadeia industrial com tratamento de efluente. Quando este artigo comparou o Acre ao
+Sudeste e ao Sul, fez uma concessão que não se sustenta: **não há prova de que exista, aqui,
+a escala industrial que se imagina**.
+
+E isso muda o argumento. Se tudo é artesanal, o estudo do Acre[14] não é um caso
+periférico — **é a regra**, com uma ressalva: uma unidade, um município, um ano.
+
+O que esse estudo mediu, em linguagem direta: numa oficina de Rio Branco que trata colmo com
+bórax e ácido bórico, a categoria de impacto que mais pesou foi a de **toxicidade
+carcinogênica humana — 93% do total normalizado** — e **91% dessa carga veio dos
+resíduos**: a apara, o corte, o colmo descartado e o efluente. Não é a operação que pesa.
+É o que sobra dela.
+
+> **Por que isso entra num artigo sobre cobre** — Porque a receita que circula no Brasil quase nunca é só sulfato de cobre. A fórmula informal mais difundida é ternária — ácido bórico, bórax e dicromato de sódio — e a receita de bórax usada em universidade pública é bórax e ácido bórico puros. Ou seja: na apara que sobra do tratamento com cobre, o bórax está junto — mas não em toda: o manual indiano e a instrução da Embrapa propõem banhos separados, e o estudo do Acre mediu um banho só de bórax com ácido bórico. O que sustenta a ligação é o local do dano, não a mistura: onde os quatro estudos desta gaveta discordam do tratamento, concordam em apontar o resíduo e a água que sobra como o problema.
+
+### Duas leis, duas datas, e o mesmo vazio
+
+**Lei 12.305/2010 — Política Nacional de Resíduos Sólidos.**[12] É a
+lei-quadro, e a definição dela é ampla de propósito:
+
+> resíduos sólidos: material, substância, objeto ou bem descartado resultante de atividades humanas em sociedade, nos estados sólido ou semissólido, bem como gases contidos em recipientes e líquidos cujas particularidades tornem inviável o seu lançamento na rede pública de esgotos ou em corpos d'água
+
+**Banho de tratamento com cobre é resíduo sólido pela definição legal** — ainda que
+seja líquido. Isso não é interpretação: é o texto do art. 3º, XVI.
+
+**Mas procure "bambu" na PNRS: zero ocorrências. "Madeira": zero.**
+A lei que rege resíduo no Brasil **não nomeia o material**.
+
+**Lei 12.484/2011 — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do
+Bambu.**[15] Ela dá **crédito rural**, **assistência
+técnica**, **certificação de origem**, e estimula expressamente o **uso
+comunitário e cooperativo**.
+
+**Procure "tratamento": zero. "Químico": zero. "Resíduo":
+zero. "Licença": zero. "Fiscalização": zero.** A política do bambu
+**incentiva a produção e não disciplina o que acontece com o que sobra**.
+
+### Quem fiscaliza? A pergunta sem dono
+
+A PNRS distribui competência por **sistemas**, não por material: **Sisnama**
+(meio ambiente), **SNVS** (vigilância sanitária), **Suasa** (sanidade
+agropecuária) e **Sinmetro** (metrologia).[12] Nenhum deles trata de
+bambu tratado.
+
+**Na prática:** quem trata bambu com sulfato de cobre na própria casa, no quintal ou
+na cooperativa **não descumpre uma norma específica** — porque ela não existe. Mas
+também **não cumpre**: não há licença, não há plano de gerenciamento, não há destinação
+prescrita.
+
+**E há um problema de fronteira que ninguém resolveu:**
+
+- o **MAPA** responde por insumo agrícola — e o sulfato de cobre é registrado como
+fungicida agrícola, não como preservativo de bambu;
+- a **ANVISA** responde pelo produto saneante e pela água de consumo — não pelo
+resíduo do processo;
+- o **ICMBio** responde por unidade de conservação — e **é aí que está o risco
+real**, porque é justamente nessas áreas que a construção com bambu encontra mercado;
+- o **município** responde pelo resíduo domiciliar,[12] mas não tem
+como caracterizar apara de bambu tratado como perigosa sem a classificação da ABNT.
+
+> **O que este artigo NÃO conseguiu verificar** — A classificação do resíduo de bambu tratado depende da ABNT NBR 10004, que é paga e não foi consultada por esta frente. Não se afirma aqui que a apara seja Classe I nem Classe II. Afirmar qualquer das duas sem o texto da norma seria inventar. É limite declarado, não omissão.
+
+### O que essa combinação produz
+
+Sem norma que nomeie o material e sem classificação consultada, **a apara de bambu tratado
+segue o fluxo do resíduo domiciliar comum** — ou o quintal, ou a queima, ou o córrego. Não
+por decisão de ninguém: por ausência de decisão.
+
+**E "não listado" não é "inofensivo". É não avaliado.** A
+diferença é a mesma que separa absolvição de arquivamento.
+
+### A rota que ninguém mediu: o subsolo e a cisterna
+
+Este é o ponto em que o artigo precisa ser mais cuidadoso, porque é o de maior consequência
+social.
+
+**O que se sabe do comportamento do cobre no solo:** ele se liga fortemente à matéria
+orgânica e aos óxidos, e por isso é *menos* móvel que o boro — o que é uma boa notícia para
+o lençol e uma má notícia para o solo, porque o metal fica onde foi posto.[4] No
+único ensaio de campo brasileiro com bambu tratado, cinco anos depois, o **cobre no solo sob o
+bambu subiu 12% — sem significância estatística** — e o que subiu de forma expressiva foi o
+**cromo, 86%**.[4]
+
+**Traduzindo com honestidade:** o dado disponível *contraria* a expectativa de
+que o cobre do tratamento migre rapidamente para o subsolo. Mas ele mede **um ensaio, uma
+espécie, um solo** — e solo arenoso, ácido e pobre em óxidos retém muito menos que solo
+argiloso.
+
+**O que isso significa para quem bebe água de cisterna:** a cisterna capta chuva, não
+lençol — então **a exposição direta não é óbvia**. O risco plausível é outro: apara em
+decomposição no quintal, água da chuva lavando essa apara, e **infiltração no solo sob a área
+de descarte**.
+
+**E aqui o artigo precisa admitir:** **não há medição**. Não localizei
+nenhum estudo brasileiro de lixiviação de cobre sob área de descarte de bambu tratado, nem de cobre
+em água de cisterna em comunidade produtora. A rota é **plausível pelo mecanismo** e
+**não demonstrada em campo**. Quem afirmar que contamina está extrapolando; quem afirmar
+que é seguro está extrapolando igual, e com mais consequência.
+
+### A banalização do risco
+
+O sulfato de cobre tem uma propriedade perigosa para a percepção pública: **é azul, brilha,
+é vendido em loja de agropecuária sem receita, e é usado há gerações na piscina e na horta**.
+Não arde na pele na hora, não fede, não pega fogo.
+
+Se fosse cromo ou arsênio, ninguém espalharia apara no quintal. Como é "o azulzinho que mata
+fungo", a apara vai para a composteira, para a cama do animal, para a cobertura da horta, para
+o fogo.
+
+**O que a evidência sustenta, com precisão:**
+
+- o resíduo contaminado é o **maior contribuinte de impacto potencial** na única
+cadeia brasileira medida — 91% da carga de resíduo, 93% da categoria de toxicidade
+carcinogênica;[14]
+- o cobre tem **efeito crítico documentado** — náusea aguda a partir de 4 mg/L e
+acúmulo **hepático** na exposição prolongada;[11]
+- as receitas informais que circulam **não trazem uma linha de EPI, ventilação ou
+descarte**;[6][7]
+- as duas instruções oficiais — a brasileira e a indiana — mandam **reusar** a
+solução, o que reduz o volume mas **não elimina o resíduo final**.[1][2]
+
+**O que a evidência não sustenta:** que a apara no quintal produza doença em quem
+mora ali. Não há esse dado, em nenhum lugar que esta frente tenha encontrado.
+
+### A pergunta que fica para quem regula
+
+Este artigo não tem autoridade para dizer quem deveria fiscalizar. Tem autoridade para registrar
+o que a ausência produz:
+
+- **É uma cadeia em crescimento** — e a política do bambu existe justamente para
+estimulá-la;[15]
+- **o estímulo não vem acompanhado de disciplina de resíduo**, porque a norma do
+bambu não trata do assunto e a norma de resíduo não nomeia o bambu;[15][12]
+- **o uso é comunitário e cooperativo** — é o que a própria política incentiva — e é
+exatamente o formato em que **controle de efluente não existe**;
+- **e as áreas de maior atrativo estão em território sensível.**
+
+**Onde isso deixa de ser artigo e passa a ser política pública:** quando cooperativas
+em comunidades remotas — inclusive em áreas de proteção — adotam o tratamento com sulfato de cobre
+sem saber o que fazer com a apara. **O boro e o cobre chegam ao território; a norma não.**
+
+---
+
+## Como ler qualquer texto sobre cobre — e o resumo do artigo
 
 Esta é a seção mais útil do artigo, porque ela sobrevive a mim.
 
@@ -970,7 +1169,7 @@ Termos em ordem alfabética. Todos aparecem explicados no corpo do texto; este �
 
 ---
 
-## Para saber mais, e como este texto foi feito
+## 11 · Para saber mais, e como este texto foi feito
 
 Este artigo não inventa dados. Ele reorganiza, em linguagem simples, o conteúdo de uma frente de pesquisa
 do **Acervo Soberania Tecnológica** dedicada ao cobre, que custodia as fontes com verificação de
@@ -1056,7 +1255,9 @@ Numeradas na ordem em que aparecem pela primeira vez no texto. Onde a fonte é u
 11. WORLD HEALTH ORGANIZATION. **Copper in Drinking-water: background document for development of WHO Guidelines for Drinking-water Quality.** 2004. WHO/SDE/WSH/03.04/88. Genebra. — Documento de base da OMS para o valor de referência do cobre na água de consumo. **2 mg/L, declarado PROVISÓRIO** por incertezas na curva dose–resposta; **LOAEL 4 mg/L** para náusea, em estudo com 61 voluntários; acúmulo **hepático** (“copper accumulates in the liver, brain and eyes”); dose diária tolerável de **0,17 mg/kg/dia**; LOAEL **10 mg Cu/kg/dia** por água (machos, efeito renal) e sem efeito a **23 mg/kg/dia** por dieta. Limite: o valor é provisório e o efeito crítico é hepático — citar 2 mg/L como linha dura promove um número provisório a definitivo.
 12. BRASIL. **Lei nº 12.305, de 2 de agosto de 2010 — Política Nacional de Resíduos Sólidos.** 2010. Diário Oficial da União. — Política Nacional de Resíduos Sólidos. Art. 3º, XVI define resíduo sólido incluindo **“líquidos cujas particularidades tornem inviável o seu lançamento na rede pública de esgotos ou em corpos d'água”**. Limite: a lei define e atribui a obrigação ao gerador; não diz onde o gerador doméstico deve entregar a solução exaurida.
 13. BRASIL. Ministério do Desenvolvimento, Indústria, Comércio e Serviços — ComexStat. **Exportação e importação — NCM 2833.25 (sulfato de cobre), série 1997–2026.** [s.d.]. Base de dados oficial de comércio exterior. — Base oficial de comércio exterior do MDIC. Série completa da NCM 2833.25 (sulfato de cobre), 1997–2026: **2025 com 177.854 t e US$ 370.053**; **China com 80,4% da massa e 48,3% do valor**; dispersão de preço de **119×** entre a origem mais barata (China, US$ 1,25/kg) e a mais cara (Reino Unido, US$ 148,43/kg); queda de **86%** entre 1997 (1.279 t) e 2020 (9,3 t). Limite: o preço disperso reflete a mistura de graus reagente e formulado na mesma NCM — hipótese declarada, não confirmada nos metadados da base.
-14. ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 6232 — Penetração e retenção de preservativos em madeira tratada sob pressão.** 2013. ABNT, Rio de Janeiro. — Norma técnica sobre penetração e retenção de preservativos em madeira tratada sob pressão. Fornece a **retenção de 6,5 kg/m³** e a **composição percentual do CCB** usadas no cálculo de cobre por banho. Limite: a norma é paga e foi lida apenas na descrição que Rusch et al. (2023) dela fazem — não foi consultada no original.
+14. ARAUJO, Letícia Medeiros de; GIANELLI, Bruno Fernando; MANCINI, Sandro Donnini; MEDEIROS, Gerson Araujo de. **Life cycle assessment of the artisanal bamboo pole (Guadua angustifolia) production in the Brazilian Amazon.** 2025. Brazilian Journal of Science, v. 4, n. 4, p. 13-28. DOI 10.14295/bjs.v4i4.719. — Avaliação de ciclo de vida, com revisão por pares, da produção artesanal de colmo de *Guadua angustifolia* em **Rio Branco, Acre** — a única medição brasileira de uma cadeia artesanal de bambu tratado. Método declarado: SimaPro 9.1, Ecoinvent 3, **ReCiPe 2016 Midpoint (h)**, ISO 14040/14044, resultados normalizados em milipontos. **Toxicidade carcinogênica humana = 93% do impacto potencial normalizado**, e **91% dele nos resíduos** de apara, corte e colmo descartado — atribuído ao ácido bórico e ao bórax no resíduo e no efluente. Banho de 100 L de água + 5 kg de bórax + 5 kg de ácido bórico; por quilo de colmo: 0,20 kg de resíduo, 0,13 kg de colmo descartado, 0,07 L de efluente, 25% de perda. Limite: uma unidade, um município, um ano. Os próprios autores declaram sazonalidade, variabilidade de mão de obra e escassez de dados de inventário no Brasil. '93%' é categoria do método, não probabilidade de câncer — e a regra que o artigo descreve é o bórax, não o sulfato de cobre.
+15. BRASIL. **Lei nº 12.484, de 8 de setembro de 2011 — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do Bambu.** 2011. Diário Oficial da União. — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do Bambu. Seis artigos: crédito rural, assistência técnica, certificação de origem e incentivo ao intercâmbio institucional; o art. 5º, III, estimula expressamente o **uso comunitário e cooperativo**. Limite: procure tratamento, químico, resíduo, licença ou fiscalização no texto — não há. A política incentiva a produção e não disciplina o que acontece com o que sobra.
+16. ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 6232 — Penetração e retenção de preservativos em madeira tratada sob pressão.** 2013. ABNT, Rio de Janeiro. — Norma técnica sobre penetração e retenção de preservativos em madeira tratada sob pressão. Fornece a **retenção de 6,5 kg/m³** e a **composição percentual do CCB** usadas no cálculo de cobre por banho. Limite: a norma é paga e foi lida apenas na descrição que Rusch et al. (2023) dela fazem — não foi consultada no original.
 ---
 
 ## Autoria, assistência e responsabilidade
