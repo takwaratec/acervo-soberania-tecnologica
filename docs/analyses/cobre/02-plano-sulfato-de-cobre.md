@@ -5,13 +5,13 @@ frente: COBRE
 titulo: "Plano específico — SULFATO DE COBRE: identidade, mecanismo, riscos, normas, fiscalização e as três curvas da dosagem"
 estado_documental: em-revisao-documental
 homologacao_automatica: false
-versao: 2
+versao: 3
 substitui_versao: "1 (preservada byte a byte em 99-plano-sulfato-v1-superado.md)"
 data_revisao: 2026-11-24
 responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 complementa: 01-plano-de-pesquisa.md (plano do ELEMENTO, sete rodadas E1-E7)
-auditoria_anterior: "COBRE-PLANO-AUDITORIA-20261124-R4 — veredito REPLANEJAR (CODEX_LUNA_MEDIUM), acatado integralmente"
+auditoria_anterior: "R4 = REPLANEJAR (4 furos + 1 omissao) e R5 = REPLANEJAR (4 furos + 3 omissoes); ambos acatados. v2 nao preservada em arquivo: os furos que ela tinha estao listados na §6."
 ---
 
 # Plano específico — sulfato de cobre (v2, pós-auditoria)
@@ -101,17 +101,23 @@ Tabela 2.5, L2262–2290):
   and termites"*; desvantagem: *"highly leachable, not suitable for outdoor
   application"*.
 
-**Isso é o núcleo da resposta:** o cúprico entra como fungicida solúvel em água,
-barato, de toxicidade mamífera **relativa** — e é justamente a solubilidade que o
-torna lixiviável. A Tabela 2.5 já registra, na mesma linha, a qualidade e o defeito.
+**Isso é o que a fonte custodiada sustenta, e nada além:** o cúprico é fungicida
+solúvel em água, com boa ação contra fungos, **ineficaz contra térmitas e insetos** e
+**ineficaz em aplicação exterior** — e é justamente a solubilidade que o torna
+lixiviável. A Tabela 2.5 registra, na mesma linha, a qualidade e o defeito.
+
+**O que a Tabela 2.5 NÃO diz, e a v2 não pode afirmar sem outra fonte:** que o cúprico
+seja *barato* ou de *menor toxicidade mamífera*. A v1 afirmava as duas coisas; a tabela
+não as contém. Se o argumento de menor toxicidade for importante para o capítulo (e é,
+porque é o argumento comercial), ele precisa de fonte própria — vai para S2.
 
 **Fontes:** literatura de proteção de madeira (AWPA, IRG) e de fungicidas cúpricos;
 especiação do Cu²⁺ (o cobre só é tóxico como íon disponível).
 
 **Mede:** mecanismo (desnaturação de proteínas e enzimas pelo Cu²⁺ livre, dano de
 membrana); a diferença **fungistático × fungicida**; e a razão de ser do cúprico
-frente a arsênico e crômio — inclusive o argumento de menor toxicidade, que é
-**exatamente o que a lixiviação desmente**.
+frente a arsênico e crômio — **se** o argumento de menor toxicidade mamífera existe
+como argumento comercial, e com que fonte; e por que, ainda assim, ele é lixiviável.
 
 **Critério de fracasso:** se a rodada não separar "mata o fungo" de "impede o fungo de
 crescer", falhou.
@@ -222,26 +228,44 @@ custodiar, não como número herdado.)*
 grandeza de outra natureza. E **a gaveta já tem os números, custodiados e nunca
 usados** (Gauss 2020, Tabela 2.6, L2565–2625):
 
-| Preservante / método | Retenção de i.a. (kg/m³) |
-|---|---|
-| CCB 6%, full-cell (vácuo + pressão) — *B. stenostachya*, *D. asper* | **3,9–17,5** |
-| CCB 6% — *T. siamensis* | 3,1–15,9 |
-| CCB 6% — *D. giganteus* | 3,4–14,4 |
-| CCB 1% imersão | 0,60–1,43 |
-| CCB 3% imersão | 0,63–1,72 |
-| CCB 3% imersão — *B. vulgaris* | 1,93–10,80 |
-| CCB 1% Boucherie modificado | 0,28 |
-| CCB 3% Boucherie modificado | 1,40–2,14 |
-| ACQ 2–4% full-cell | 4,33–10,74 |
-| CCA 2–4% full-cell | 4,87–14,54 |
-| **CCA-4, alvo 4,0 kg/m³ — *P. edulis*** | **0,88** — alvo não atingido |
-| **CCA-6,4, alvo 6,4 kg/m³ — *P. edulis*** | **1,49** — alvo não atingido |
-| referência *Pinus* sul — CCA 4,0 / 6,4 | 4,61 / 7,12 — alvo atingido |
+| Fonte | Espécie | Método | Preservante | Retenção de i.a. (kg/m³) |
+|---|---|---|---|---|
+| [1] | ***T. siamensis*** | full-cell (vácuo 670 mmHg + pressão 2,5–8,5 bar) | 6% CCB (sal) | **3,9–17,5** |
+| [1] | *B. stenostachya* | idem | 6% CCB | 3,5–15,9 |
+| [1] | *D. asper* | idem | 6% CCB | 3,4–14,4 |
+| [2] | *D. giganteus* | imersão 5–15 dias | 1% CCB (óxido) | 0,60–1,43 |
+| [2] | *D. giganteus* | imersão | 3% CCB | 0,63–1,72 |
+| [2] | *B. vulgaris* | imersão | 1% CCB | 0,68–2,20 |
+| [2] | *B. vulgaris* | imersão | 3% CCB | 1,93–10,80 |
+| [2] | *D. giganteus* | Boucherie modificado (0,7 MPa) | 1% CCB | 0,28 |
+| [2] | *D. giganteus* | Boucherie modificado | 3% CCB | 1,40 |
+| [3] | *B. vulgaris* | full-cell (600 mmHg + 12 kg/cm²) | 2–4% ACQ | 4,33–10,74 |
+| [3] | *B. vulgaris* | full-cell | 2–4% CCA | 4,87–14,54 |
+| [5] | ***P. edulis*** | full-cell comercial, alvo **4,0** | CCA | **0,88** — **22%** do alvo |
+| [5] | ***P. edulis*** | full-cell comercial, alvo **6,4** | CCA | **1,49** — **23%** do alvo |
+| [5] | *Pinus* sul (referência do mesmo estudo) | idem | CCA 4,0 / 6,4 | 4,61 (**115%**) / 7,12 (**111%**) |
 
-**O achado de S7 já está no disco, e é forte:** em *P. edulis* o alvo de 4,0 kg/m³
-rendeu **0,88** e o de 6,4 rendeu **1,49** — **~22% e ~23% do alvo**. O *Pinus* de
-referência rendeu **115% e 111%**. **O bambu não retém o preservante como a madeira
-retém.** Não é opinião de literatura: é a Tabela 2.6 da tese custodiada nesta casa.
+*Fontes da Tabela 2.6: [1] Kim, Tang & Liese 2011 · [2] Tiburtino et al. 2015b ·
+[3] Wahab et al. 2015 · [5] Lee, Chen & Tainter 2001.*
+
+**O achado de S7 já está no disco, e é forte — mas é de UM ensaio, não de uma regra.**
+No estudo [5] (Lee, Chen & Tainter 2001), em ***P. edulis*** o alvo de 4,0 kg/m³ rendeu
+**0,88** e o de 6,4 rendeu **1,49** — **22% e 23% do alvo**. O *Pinus* sul de
+referência, no **mesmo** estudo, rendeu **115% e 111%**. Os demais ensaios da tabela
+mostram bambu retendo de 0,28 a 17,5 kg/m³ conforme **espécie e método** — ou seja, a
+retenção do bambu é altamente variável, e a comparação direta com madeira existe
+**apenas** nesse par *P. edulis* × *Pinus* de um único trabalho.
+
+**O que se pode afirmar:** naquele ensaio, o alvo nominal não foi atingido em *P.
+edulis* e foi atingido em *Pinus*. **O que NÃO se pode afirmar:** "o bambu não retém
+como a madeira retém", como se fosse propriedade geral do material. Isso excede a
+evidência disponível e é o tipo de generalização que a casa proíbe.
+
+**A consequência que se mantém, e é a que importa:** *quando* o alvo nominal não é
+atingido, a dose que chega ao fungo é menor que a projetada — e nesse ensaio ele não
+foi atingido em bambu. **A dosagem de bula não descreve o que ficou no material** é
+conclusão válida **para aquele resultado**, e passa a ser pergunta de S7 para os
+demais: por espécie e por método, a retenção medida bate com o alvo?
 
 **A pergunta que isso abre e que a v1 não fazia:** se a retenção real é fração do
 alvo, a dose que chega ao fungo é menor que a projetada, e a dose efetiva passa a
@@ -254,6 +278,31 @@ seções, nenhuma tabela que as emparelhe.
 
 **Critério de fracasso:** se a rodada entregar tabela que compare as três grandezas
 sem unidades separadas, falhou por definição.
+
+### S7-ter · Retenção, lixiviação e durabilidade — o material custodiado que faltava
+
+**Pergunta:** como retenção inicial, lixiviação e durabilidade se relacionam em
+tratamentos de bambu com preservantes cúpricos?
+
+**Ataca:** a auditoria R5 apontou que este material **está custodiado e o plano não o
+consultava** — e ele é o único da gaveta que mede **bambu tratado com CCB em campo**:
+
+| Caminho custodiado | O que contém |
+|---|---|
+| `_privado/fontes-documentais/ago_28_Boratos_Cobre/md/Rusch_et_al_2023_Bambu_CCB_Lixiviacao.md` | estudo com bambu tratado com CCB, **proporção de sulfato de cobre na formulação**, durabilidade após cinco anos, distribuição e lixiviação de Cu e Cr |
+| `_privado/fichas/ago_28_CCA_CCB/rusch-2023-ccb-bambu-durabilidade-lixiviacao.md` | síntese curatorial: resultados delimitados para CCB em *Dendrocalamus asper*, limites e necessidades de pesquisa |
+| `_privado/fontes-documentais/ago_28_Boratos_Cobre/md/WHO_2004_Copper-in-Drinking-Water_Background.md` | fonte OMS sobre cobre na água potável — **inclui o estudo dos 61 voluntários e o NOAEL** que S7 usa |
+
+**Por que isso muda S7:** o WHO 2004 é a **fonte primária** do NOAEL de 2 mg Cu/L que
+a v1 citava e a v2 contextualiza. Usá-la fecha a corrente: o número deixa de ser
+herdado de segunda mão. E Rusch 2023 traz o **teor de sulfato de cobre na formulação
+do CCB** — que é o dado que falta para converter `kg/m³ de sal` em `kg/m³ de Cu`.
+
+**Critério de fracasso:** se Rusch 2023 não trouxer a proporção de sulfato de cobre na
+formulação, a conversão sal→Cu no CCB continua **não medida**, e a gaveta declara isso
+em vez de estimar.
+
+---
 
 ### S7-bis · A proporção agricultura × preservante — declarada não medida
 
@@ -300,14 +349,31 @@ Consulta direta à API ComexStat, NCM 28332510 + 28332520, série 1997–2026.
 
 \* parcial. **Queda de ~86% entre 1997 e 2020**, com repiques em 2022 e 2024.
 
-**Origem 2025:** China 143,0 t (**48,3%**) · Peru 27,0 t (20,0%) · EUA 1,3 t (16,6%) ·
-Itália 2,0 t (4,7%) · Polônia 3,0 t (3,5%). **Total 177,9 t / US$ 370 mil.**
+**Origem 2025 — massa e valor são participações DIFERENTES, e a v1 confundiu as duas:**
 
-**Hipóteses declaradas como hipóteses, não como achado:** (i) o preço médio de
-US$ 2,08/kg é incompatível com sulfato técnico a granel, o que **sugere** pauta
-concentrada em produto formulado ou grau reagente; (ii) volatilidade dessa magnitude
-**sugere** compra por lote, não consumo estável. Ambas se verificam na NCM/Receita ou
-não se afirmam.
+| Origem | t | % da massa | US$ FOB | % do valor |
+|---|---:|---:|---:|---:|
+| China | 143,000 | **80,4%** | 178.777 | **48,3%** |
+| Peru | 27,000 | 15,2% | 73.908 | 20,0% |
+| Polônia | 3,000 | 1,7% | 13.096 | 3,5% |
+| Itália | 2,000 | 1,1% | 17.370 | 4,7% |
+| Estados Unidos | 1,357 | 0,8% | 61.433 | 16,6% |
+| demais (7 países) | 1,497 | 0,8% | 25.469 | 6,9% |
+| **Total** | **177,854** | 100% | **370.053** | 100% |
+
+**A v1 escreveu "China 143,0 t (48,3%)" — misturando a coluna de massa com o
+percentual de valor.** Na massa, a China é **80,4%**; no valor, **48,3%**. A
+divergência entre as duas não é ruído: significa que o quilo chinês entra a
+**US$ 1,25/kg** enquanto o americano entra a **US$ 45,57/kg** — quase **37×**. A
+pauta deste NCM mistura produto a granel com produto de alto valor agregado, e é
+**por isso** que o preço médio de US$ 2,08/kg não descreve nada. *(Hipótese a
+verificar na NCM/Receita; a razão de preços é medida.)*
+
+**Hipóteses declaradas como hipóteses, não como achado:** (i) a dispersão de preço
+por origem (US$ 1,25 a 45,57/kg) **sugere** pauta que mistura granel e produto
+formulado ou grau reagente; (ii) volatilidade dessa magnitude na série **sugere**
+compra por lote, não consumo estável. Ambas se verificam na NCM/Receita ou não se
+afirmam.
 
 ### 4.1 O contraste com o minério — dado comercial, e só isso
 
@@ -332,12 +398,15 @@ certo; antes disso, seria conclusão com aparência de achado.
 
 ## 5. Ordem proposta — por dependência, não por dramaticidade
 
-**S1 → S2 → S7 → S4 → S5 → S6 → S3**
+**S1 → S2 → S7 → S7-ter → S7-bis → S4 → S5 → S6 → S3**
 
 A v1 punha S7 primeiro para "atacar a pergunta do soberano de frente". **Errado:** S7
 depende da química (S1) e dos riscos (S2) para separar as curvas — sem eles, separa
-nada. S7 vai em terceiro. S4 antes de S5/S6 porque sem a norma não há como medir
-conformidade nem competência. **S3 começa junto com S1** e sintetiza ao fim.
+nada. S7 vai em terceiro. **S7-ter logo depois, porque é leitura de material já
+custodiado** (Rusch 2023, WHO 2004): custo quase zero, e fecha a corrente do NOAEL e
+da conversão sal→Cu. S7-bis em seguida, para declarar de uma vez o que não é
+mensurável. S4 antes de S5/S6 porque sem a norma não há como medir conformidade nem
+competência. **S3 começa junto com S1** e sintetiza ao fim.
 
 ---
 
@@ -352,7 +421,20 @@ conformidade nem competência. **S3 começa junto com S1** e sintetiza ao fim.
 | Omissão do acervo: Gauss 2020, Tabelas 2.5 e 2.6 | incorporadas: §2.1 (composição, com verificação cruzada) e S7 (retenções em kg/m³) |
 | Ordem inadequada | §5: S7 move para terceiro; S3 inicia junto |
 
-**Pendência aceita e não executada nesta versão:** a auditoria sugeriu que E2 (plano
+### 6.1 Segunda auditoria (R5) — quatro furos novos, todos corrigidos
+
+A R5 auditou a v2 e deu `REPLANEJAR` outra vez. **Ela estava certa nos quatro, e dois
+são erros meus de leitura de tabela:**
+
+| Furo (parecer R5) | O que eu fiz de errado | Correção na v3 |
+|---|---|---|
+| **Origem 2025: "China 143,0 t (48,3%)"** | misturei a coluna de **massa** com o percentual de **valor**. Na massa a China é 80,4%; no valor, 48,3% | tabela com **massa e valor separados**; a dispersão de preço (US$ 1,25 a 148,43/kg) passa a ser o achado |
+| **Tabela 2.6: espécies atribuídas errado** | dei "3,9–17,5" como conjunto de *B. stenostachya* e *D. asper* — na tabela, esse intervalo é de ***T. siamensis*** | tabela reescrita **por espécie**, com a fonte numerada [1]–[5] |
+| **Generalização "o bambu não retém como a madeira"** | a comparação existe **num único ensaio** (*P. edulis* × *Pinus*, fonte [5]) | conclusão **restrita àquele ensaio**; o resto da tabela mostra variação de 0,28 a 17,5 kg/m³ |
+| **"barato" e "menor toxicidade mamífera"** | a Tabela 2.5 **não diz isso** — foi afirmação minha, herdada da v1 | removidas; voltam como **pergunta** de S2, com fonte própria |
+| **3 omissões de acervo** (Rusch 2023, ficha Rusch, WHO 2004) | material custodiado, não consultado | nova rodada **S7-ter**, que também fecha a corrente do NOAEL |
+
+**Pendência aceita e não executada nesta versão:** a auditoria R4 sugeriu que E2 (plano
 do elemento) distinga **produção de mina, refino e metal**. Fica registrada para a
 próxima revisão de `01-plano-de-pesquisa.md` — não foi feita aqui para não misturar o
 escopo dos dois planos.
@@ -372,6 +454,8 @@ escopo dos dois planos.
 - **Não** autoriza a inferência "vende a rocha, compra o reagente" sem medir cobre
   contido (§4.1).
 - **Não** autoriza converter sal em cobre elementar sem declarar o fator (3,93).
+- **Não** autoriza generalizar retenção de um ensaio para "o bambu" como material
+  (§6.1): a comparação com *Pinus* existe num único trabalho.
 - **Não** autoriza estender ao bambu o que se medir em madeira — nem o inverso.
 - **Não** autoriza publicar antes da auditoria interna e da revisão humana nominal.
 - **Não** é homologação.
