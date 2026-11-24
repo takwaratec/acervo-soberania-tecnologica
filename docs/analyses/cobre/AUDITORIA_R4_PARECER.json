@@ -1,0 +1,64 @@
+{
+ "VEREDITO": "REPLANEJAR",
+ "ESCOPO_AUDITADO": "Desenho e prontidão dos planos A (elemento cobre, E1–E7) e B (sulfato de cobre, S1–S7), com consulta comparativa à v1 superada; a pesquisa substantiva ainda não começou.",
+ "ALTERACOES_SUGERIDAS": [
+  {
+   "rodada": "S7",
+   "mudanca": "Reformular as fronteiras: separar necessidade nutricional, referências de exposição/toxicidade por via e dose antifúngica. Não tratar o NOAEL de 2 mg Cu/L como limite universal nem como ponto de virada; especificar unidades e fonte para cada parâmetro.",
+   "porque": "Os parâmetros atuais descrevem grandezas, meios e vias diferentes; a pergunta do soberano exige esclarecer essa diferença, não converter uma na outra."
+  },
+  {
+   "rodada": "S4",
+   "mudanca": "Corrigir a descrição do registro agrícola para explicitar MAPA como coordenador/órgão registrante, com avaliações da Anvisa (saúde) e Ibama (ambiente); separar isso do registro de preservativos de madeira pelo Ibama.",
+   "porque": "A divisão atual omite o Ibama na frase sobre agrotóxicos e pode sugerir registros independentes pela Anvisa e pelo MAPA."
+  },
+  {
+   "rodada": "S7",
+   "mudanca": "Mudar a ordem para S1 → S2 → S7 → S4 → S5 → S6 → S3, com busca literária de S3 iniciada cedo e síntese final ao fim.",
+   "porque": "S7 precisa da química e dos riscos como base; a literatura deve alimentar as demais rodadas, mesmo que sua síntese final venha depois."
+  },
+  {
+   "rodada": "§2.3 de B",
+   "mudanca": "Manter o contraste físico como dado comercial, mas retirar ou qualificar a conclusão “vende a rocha, compra o reagente” até medir teor de cobre, refino e produção interna de sulfato.",
+   "porque": "NCM 2603 mede peso de minério/concentrado, não cobre contido; importações de sulfato não medem consumo nem produção nacional."
+  },
+  {
+   "rodada": "S1",
+   "mudanca": "Incluir a pergunta sobre a função preservativa do composto e por que um agente cúprico é usado contra organismos deterioradores, sem fazer alegações de eficácia específica em bambu sem fonte.",
+   "porque": "A justificativa para o uso em bambu está na pergunta 7 e não aparece como subpergunta explícita."
+  }
+ ],
+ "INCLUSOES_SUGERIDAS": [
+  {
+   "nova_rodada": "S8X",
+   "pergunta": "A proporção brasileira entre uso agrícola e preservativo pode ser medida? Se não, quais proxies ou dados de vendas/registro existem e quais limites impedem estimar a proporção?",
+   "fonte": "MAPA, Ibama e associações setoriais; distinguir registros, vendas, uso e comércio exterior.",
+   "porque": "A seção atual reconhece que a proporção não foi medida, mas não define método ou critério para concluir se ela é mensurável."
+  }
+ ],
+ "OMISSOES_DO_ACERVO": [
+  {
+   "caminho": "_privado/fontes-academicas/2020-gauss-tratamento-preservativo-modificacao-quimica/extracao.md:2271-2273; :2565-2599",
+   "o_que_tem": "Tabela 2.5 com composições de preservantes, incluindo CCA (47,5% CrO3, 18,5% CuO, 34% As2O5) e ZnCl2/CuSO4; Tabela 2.6 com retenções em kg/m³ por método, incluindo CCB e ACQ. São referências de contexto para a composição de preservantes e para a diferença entre concentração da solução e retenção no substrato.",
+   "rodada_destino": "S1 para composição/função, e S7 como evidência contextual de retenção e unidade; identificar claramente que os dados tratam de preservantes e substratos específicos e não generalizar para bambu."
+  }
+ ],
+ "FUROS": [
+  "S7 não responde com base adequada à diferença entre dose nutricional/terapêutica e dose tóxica; NOAEL em água não é fronteira universal.",
+  "A razão minério exportado/sulfato importado é correta como razão de massas dos produtos, mas a interpretação econômica excede o que os NCM medem.",
+  "S4 simplifica a competência tripartite de agrotóxicos e a frase sobre permissões em “maioria das jurisdições” ainda não tem base citada.",
+  "A justificativa do uso do sulfato de cobre especificamente em tratamento de bambu não está mapeada de forma explícita."
+ ],
+ "DECLARACAO_NEGATIVA": "Não encontrei no plano novo A ou B avaliação de bambu tratado ou madeira tratada como produto; esses materiais aparecem apenas como contexto de aplicação, com limites explícitos contra extrapolação.",
+ "NAO_VERIFIQUEI": "Não reexecutei a consulta à API ComexStat nem validei a extração original dos números comerciais; não auditei fontes primárias externas para toxicologia, legislação estrangeira, registro de produtos ou doses terapêuticas. A verificação das competências brasileiras foi feita em páginas oficiais consultadas nesta auditoria.",
+ "_meta": {
+  "task": "COBRE-PLANO-AUDITORIA-20261124-R4",
+  "executor": "CODEX_LUNA_MEDIUM",
+  "model": "gpt-6-luna",
+  "reasoning": "high",
+  "auditor_1a_ordem": "HERMES_OPENCODE (verificacao e acatamento)",
+  "commit_sob_auditoria": "68fe0370977640430a3ad0b55c2e4fb15d6131fd",
+  "veredito_acatado": "REPLANEJAR",
+  "conflito_declarado": "planos escritos por HERMES_OPENCODE; regra de familia insatisfazivel — ver AUDITORIA_R4_PARECER §0"
+ }
+}
