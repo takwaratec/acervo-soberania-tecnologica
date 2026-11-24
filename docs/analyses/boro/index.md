@@ -27,7 +27,11 @@ motivou a investigação e a que concentra o maior risco de uso sem critério.
 |---|---|
 | `00-estado-da-questao-boro.md` | Peça principal — o elemento, suas formas e bases de massa, origem, reservas, usos, as cinco bases de dosagem, importação, toxicologia, aplicação em preservação e os limites de uso |
 | `01-importacao-brasileira-boro-comexstat.md` | Série de importação 1997–2026 por NCM, composição, origem, confronto com a produção mundial |
-| `INVENTARIO_GAVETA.json` | Estado real de cada fonte: custodiada, indisponível, pendente |
+| `fichas/who-2009-boro-agua-consumo.md` | Ficha — a cadeia de derivação do valor de referência da OMS: BMDL05 10,3 → TDI 0,17 → alocação 40% → **2,4 mg/L** |
+| `fichas/who-2022-boro-ficha-quimica.md` | Ficha — a ficha química oficial: valor de 2,4 mg/L, ocorrência < 0,5 mg/L, usos nomeados pela OMS |
+| `fichas/liu-2023-bambu-acido-borico-borax.md` | Ficha — eficácia medida: perda de massa por fungo cai de 62,57% para 12,74%, compressão +21,56%. Ensaio de laboratório, **sem lixiviação** |
+| `fichas/rusch-2023-ccb-bambu-5-anos-campo.md` | Ficha — CCB em campo por 5 anos: durabilidade confirmada, e a ressalva dos próprios autores de que **não se pode atribuir lixiviação** |
+| `INVENTARIO_GAVETA.json` | Estado real de cada fontee: custodiada, indisponível, pendente |
 | `HANDOFF_BORO_20261124.md` | Handoff de continuidade entre tópicos (não é homologação) |
 
 ## Camada privada
