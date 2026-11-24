@@ -48,9 +48,14 @@ resíduo com boro **não está na lista de resíduo perigoso** de nenhuma norma 
 Brasil, China, Índia, Vietnã, Indonésia — **não porque foi julgado inofensivo, mas
 porque não foi avaliado**.
 
+**O limbo.** A lei de resíduos (2010) define resíduo sólido incluindo líquidos — mas
+**não nomeia bambu nem madeira**. A lei do bambu (2011) tem seis artigos, incentiva
+crédito e comércio, e **não menciona uma única vez tratamento químico nem resíduo**.
+Nenhuma das duas diz quem fiscaliza a apara tratada.
+
 **O que este artigo não sabe.** Não há medição de exposição de trabalhador de bambu no
-Brasil, nem de poeira de bambu tratado, nem de destino real das aparas. Isso é lacuna,
-não ausência de risco.
+Brasil, nem de poeira de bambu tratado, nem de destino real das aparas, nem de lixiviação
+de boro sob área de descarte. Isso é lacuna, não ausência de risco.
 
 **Como ler os números.** As citações aparecem como `[n]` e remetem à bibliografia ao
 final. Toda unidade e sigla está explicada no glossário.
@@ -376,6 +381,41 @@ Portanto:
 > Dizer que ele "é seguro porque não é cancerígeno" **contraria a norma igualmente** —
 > ignora a classificação que existe.
 
+
+### A afirmação de 2025 que não pode ser ignorada
+
+Até aqui este artigo falou de classificação regulatória. Mas há um dado mais recente, e
+ele precisa aparecer **nesta seção**, não só na do resíduo.
+
+Em 2025, quatro pesquisadores publicaram, com revisão por pares, uma avaliação de ciclo
+de vida da produção artesanal de colmo de bambu no Acre [19]. Concluíram que a
+**toxicidade carcinogênica humana (HCT) representou 93% do impacto potencial** daquela
+cadeia.
+
+**Isso não é boato e não deve ser tratado como boato.** É publicação recente, com método
+declarado, inventário e tabela.
+
+**E também não é sentença.** "HCT" é o nome de uma **categoria do método ReCiPe** — não
+um diagnóstico. O valor sai em milipontos, depois de normalizado entre as sete
+categorias que os autores selecionaram. **"93%" quer dizer "esta foi a categoria que
+mais pesou no modelo"**, não "93% de chance de câncer".
+
+**Por que, então, o termo importa?** Porque ele mede o que os outros números desta seção
+não medem: **a massa de resíduo contaminado que a cadeia deixa no ambiente**. Os autores
+atribuem o resultado ao ácido bórico e ao bórax presentes **nas aparas, nos cortes, nos
+colmos descartados e no efluente** [19].
+
+**A leitura honesta, então, é esta:**
+
+- a classificação europeia diz que **o boro pode prejudicar fertilidade e feto** [9];
+- **não** o classifica como cancerígeno;
+- e um estudo de ciclo de vida diz que, **naquela cadeia artesanal**, a categoria
+  carcinogênica do modelo foi a que mais pesou — **por causa do resíduo**.
+
+As três afirmações convivem. Nenhuma cancela a outra — e o resíduo, que é o que o estudo
+aponta, não está regulado no Brasil (§18).
+
+
 **Um cuidado com datas.** Documentos de 2021 ainda citam "Repr. cat. 2" [5] — o
 enquadramento anterior. O regulamento de 2023 substituiu as entradas e elevou a
 classificação, com efeito a partir de **1º de fevereiro de 2025** [9]. Quem cita "cat.
@@ -527,10 +567,14 @@ O que o estudo **não** sustenta:
 - que 93% seja o número de outra cadeia qualquer;
 - que substituir o insumo elimine 93% do impacto.
 
-**E há uma diferença de escala que o próprio artigo quase não discute:** o Brasil importa
-componentes de boro e trata bambu em pequena escala. Onde o processamento é industrial,
-com banho reutilizado em ciclo fechado — como o IBUKU descreve — a perda e o efluente
-são de outra ordem.
+**E a concessão ao Sudeste não se sustenta.** Este artigo chegou a escrever que, no
+Sudeste e no Sul, a escala industrial mudaria o resultado. **Não há prova disso.** Não
+localizei registro de cadeia brasileira com tratamento de efluente no bambu. O que
+existe, nas fontes examinadas, é **produção artesanal** — no Acre e, ao que tudo indica,
+também nas outras regiões. O estudo do Acre não é a exceção: **é o que se tem medido.**
+
+Isso não autoriza dizer que vale para o Brasil inteiro — só que **a diferença de escala
+foi afirmada sem fonte**, e retirar a afirmação é o honesto.
 
 **O que fica de pé, e é o achado central:** o estudo mostra, com método e número, que
 **o problema do boro no bambu mora no resíduo, não na tina**. É a mesma conclusão a que
@@ -546,20 +590,20 @@ Aqui o problema do boro fica mais agudo, por uma razão simples: **estrutura ef�
 acontece ao desmontar não costuma estar no orçamento.
 
 **O maior fluxo documentado do mundo** é o andaime de bambu de Hong Kong: **mais de
-50.000 toneladas por ano** descartadas como resíduo de construção [22]. *(Atenção: esse
+50.000 toneladas por ano** descartadas como resíduo de construção [28]. *(Atenção: esse
 número vem de artigo em paywall e não está custodiado nesta gaveta — serve como ordem de
 grandeza, não como dado verificado.)*
 
 **E aqui está a torção.** Fui verificar se esse bambu é tratado. **Não é.** As
 diretrizes do Buildings Department exigem apenas **secagem ao ar, na vertical, em
-ambiente coberto, por ao menos 3 meses** [23]. Nas 25 páginas da norma, as palavras
-*boro*, *borato*, *preservativo*, *químico* e *tratamento* aparecem **zero vezes** [23].
+ambiente coberto, por ao menos 3 meses** [29]. Nas 25 páginas da norma, as palavras
+*boro*, *borato*, *preservativo*, *químico* e *tratamento* aparecem **zero vezes** [29].
 
 **A consequência é o argumento inteiro:**
 
 - o maior fluxo de bambu efêmero do planeta é de material **não tratado**;
 - logo, **é biodegradável** e tem cadeia de aproveitamento — há indústria de carvão
-  ativado feita com esse resíduo [22];
+  ativado feita com esse resíduo [28];
 - **o boro cria um fluxo que perde essa saída.**
 
 O material tratado não volta ao solo sem discussão, não serve para aproveitamento sem
@@ -653,7 +697,7 @@ categorias distintas e quem mistura as duas está errado nos dois sentidos.
 - **O boro não está na lista de resíduo perigoso** de nenhuma norma examinada — porque
   **não foi avaliado**, não porque foi julgado seguro [11][20][21].
 - O maior fluxo efêmero do mundo, **50 mil t/ano** em Hong Kong, é de bambu **não
-  tratado** [22][23].
+  tratado** [28][29].
 - O uso doméstico não tem base normativa e é o pior cenário de exposição [6][8].
 
 ## 17. O que este artigo não sabe
@@ -673,6 +717,152 @@ Declarar lacunas é parte do método. Estas são reais:
   localizada.
 
 ---
+
+
+## 18. O limbo: duas políticas, nenhuma norma
+
+Esta é a parte mais desconfortável do artigo, e a única em que a conclusão não vem de
+uma fonte científica — vem da **ausência de fonte normativa**. Trate como pergunta
+aberta, não como acusação provada.
+
+**Primeiro, o fato que precisa ser dito sem rodeio.** No Brasil, **o tratamento de bambu
+é artesanal**. Não há, nas fontes examinadas, registro de cadeia industrial com
+tratamento de efluente. Quando este artigo comparou o Acre ao Sudeste e ao Sul, fez uma
+concessão que não se sustenta: **não há prova de que exista, aqui, a escala industrial
+que se imagina**.
+
+E isso muda o argumento. Se tudo é artesanal, o estudo do Acre [19] não é um caso
+periférico — **é a regra**, com uma ressalva: uma unidade, um município, um ano.
+
+
+
+### Duas leis, duas datas, e o mesmo vazio
+
+**Lei 12.305/2010 — Política Nacional de Resíduos Sólidos.** É a lei-quadro. E a
+definição dela é ampla de propósito:
+
+> *"resíduos sólidos: material, substância, objeto ou bem descartado resultante de
+> atividades humanas em sociedade, (...) nos estados sólido ou semissólido, bem como
+> gases contidos em recipientes e **líquidos cujas particularidades tornem inviável o seu
+> lançamento na rede pública de esgotos ou em corpos d'água**"* [28]
+
+**Banho de tratamento com boro é resíduo sólido pela definição legal** — ainda que seja
+líquido. Isso não é interpretação: é o texto do art. 3º, XVI.
+
+**Mas procure "bambu" na PNRS: zero ocorrências. "Madeira": zero.** A lei que rege
+resíduo no Brasil **não nomeia o material**.
+
+**Lei 12.484/2011 — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do
+Bambu.** Seis artigos. Ela dá **crédito rural**, **assistência técnica**,
+**certificação de origem**, e manda os órgãos "incentivar o intercâmbio com instituições
+congêneres" [29].
+
+**Procure "tratamento": zero. "Químico": zero. "Resíduo": zero. "Licença": zero.
+"Fiscalização": zero.** A política do bambu **incentiva a produção e não disciplina o
+que acontece com o resíduo**.
+
+
+
+### Quem fiscaliza? A pergunta sem dono
+
+A PNRS distribui competência por **sistemas**, não por material: **Sisnama** (meio
+ambiente), **SNVS** (vigilância sanitária), **Suasa** (sanidade agropecuária) e
+**Sinmetro** (metrologia) [28]. Trinta e duas menções ao Sisnama, vinte e uma ao SNVS —
+e nenhuma delas trata de bambu tratado.
+
+**Na prática:** quem trata bambu com boro na própria casa ou na cooperativa **não
+descumpre uma norma específica** — porque ela não existe. Mas também **não cumpre**:
+não há licença, não há plano de gerenciamento, não há destinação prescrita.
+
+**E há um problema de fronteira que ninguém resolveu:**
+
+- **ANVISA** regula a água boricada a 3% como antisséptico [6] — o produto, não o resíduo;
+- **MAPA** responde por insumo agrícola;
+- **ICMBio** responde por unidade de conservação — e **é aí que está o risco real**;
+- o **município** responde pelo resíduo domiciliar [28], mas não tem como caracterizar
+  apara de bambu como perigosa, porque a NBR 10004 não a lista [14].
+
+
+
+### O que essa combinação produz
+
+**Boro não é listado como resíduo perigoso** [14] e não é nomeado por nenhuma das duas
+políticas. Isso significa, na prática, que **apara de bambu tratado pode seguir o fluxo
+do resíduo domiciliar comum** — ou o quintal, ou a queima, ou o córrego.
+
+**E "não listado" não é "inofensivo".** É **não avaliado**. A diferença é a mesma que
+separa absolvição de arquivamento.
+
+### A rota que ninguém mediu: o subsolo e a cisterna
+
+Este é o ponto em que o artigo precisa ser mais cuidadoso, porque é o de maior
+consequência social.
+
+**O que a fonte diz:** o boro no ambiente aquático tem no **adsorção-dessorção** o único
+mecanismo significativo que influencia seu destino; a adsorção depende do **pH e da
+composição do solo**; é maior entre **pH 7,5 e 9,0**; e a propriedade do solo que mais
+influencia a **mobilidade** do boro é a **abundância de óxido de alumínio amorfo** [30].
+
+**Traduzindo:** **solo rico em óxido de alumínio retém boro. Solo arenoso, ácido e pobre
+em alumínio amorfo deixa passar.** Em solos assim, o boro **lixivia** e caminha para o
+lençol.
+
+**O que isso significa para quem bebe água de cisterna:** a cisterna capta chuva, não
+lençol — então **a exposição direta não é óbvia**. O risco plausível é **outro**: apara
+em decomposição no quintal, água da chuva lavando essa apara, e **infiltração no solo
+sob a área de descarte**.
+
+**E aqui o artigo precisa admitir:** **não há medição.** Não localizei nenhum estudo
+brasileiro de lixiviação de boro sob área de descarte de bambu tratado, nem de boro em
+água de cisterna em comunidade produtora. A rota é **plausível pelo mecanismo** e
+**não demonstrada em campo**. Quem afirmar que contamina está extrapolando; quem
+afirmar que é seguro está extrapolando igual, e com mais consequência.
+
+
+
+### A banalização do risco
+
+O boro tem uma propriedade perigosa para a percepção pública: **ele não arde, não
+fede, não queima a pele na hora, e é vendido na farmácia** [6].
+
+Se fosse cromo ou arsênio, ninguém espalharia apara no quintal. Como é "só boro", a
+apara vai para o composteira, para a cama do animal, para a cobertura da horta, para o
+fogo.
+
+**O que a evidência sustenta, com precisão:**
+
+- o resíduo contaminado é o **maior contribuinte de impacto potencial** na cadeia
+  medida [19];
+- a exposição ocupacional e a poeira têm limites ocupacionais, e o boro tem
+  **classificação Repr. 1B** — pode prejudicar fertilidade e feto [7];
+- **não é cancerígeno classificado** — e o "93%" não muda isso.
+
+**O que a evidência não sustenta:** que a apara no quintal produza doença. Não há esse
+dado.
+
+### A pergunta que fica para quem regula
+
+Este artigo não tem autoridade para dizer quem deveria fiscalizar. Tem autoridade para
+registrar o que a ausência produz:
+
+1. **É uma cadeia em crescimento** — e a política do bambu existe justamente para
+   estimulá-la [29];
+2. **O estímulo não vem acompanhado de disciplina de resíduo**, porque a norma do bambu
+   não trata do assunto e a norma de resíduo não nomeia o bambu;
+3. **O uso é comunitário e cooperativo** — é o que a própria política incentiva (art.
+   5º, III) [29] — e é exatamente o formato em que **controle de efluente não existe**;
+4. **e as áreas de maior atrativo estão em território sensível.**
+
+**Onde isso deixa de ser artigo e passa a ser política pública:** quando cooperativas em
+comunidades remotas — inclusive em áreas de proteção — adotam o tratamento com boro e
+com sulfato de cobre sem saber o que fazer com a apara. **O boro e o cobre chegam ao
+território; a norma não.**
+
+**O que este artigo pede, e é uma pergunta, não uma tese:** que os órgãos com competência
+— **sejam eles ANVISA, MAPA, ICMBio, Ibama ou o município** — digam **qual é o caminho
+prescrito** para a apara de bambu tratado. Enquanto ninguém responder, a resposta
+prática é dada por quem descarta, no quintal.
+
 
 ## Glossário
 
@@ -1058,6 +1248,31 @@ resultante ~0,57 / ~0,21 / ~0,15 mg B/m³ — **limite por forma química**, nã
 causar câncer, particularmente de nariz.*
 
 ---
+
+**[28]** BRASIL. **Lei nº 12.305, de 2 de agosto de 2010** — Política Nacional de
+Resíduos Sólidos. Art. 3º, XVI (definição de resíduo sólido, incluindo líquidos cujo
+lançamento em rede ou corpo d'água seja inviável); art. 6º (competências Sisnama, SNVS,
+Suasa, Sinmetro); art. 13, I (classificação por origem). Capturado em 2026-11-24 de
+planalto.gov.br. — ***Verificação desta curadoria:*** *"bambu" **zero** ocorrências;
+"madeira" **zero**; "agrotóxico" 1; "domiciliar" 4; "perigoso" 25. Controle positivo:
+"Sisnama" 32, "SNVS" 21 — os termos existem e a extração funcionou.*
+
+**[29]** BRASIL. **Lei nº 12.484, de 8 de setembro de 2011** — Política Nacional de
+Incentivo ao Manejo Sustentado e ao Cultivo do Bambu (PNMCB). **Seis artigos.**
+Instrumentos: crédito rural, assistência técnica, certificação de origem (art. 4º).
+Competências dos órgãos: pesquisa, brotos para alimentação, agricultura familiar,
+parcerias, comércio interno e externo, intercâmbio (art. 5º). Capturado em 2026-11-24 de
+planalto.gov.br. — ***Verificação desta curadoria:*** *"tratamento" **zero**;
+"químico" **zero**; "resíduo" **zero**; "licença" **zero**; "fiscaliza" **zero**;
+"unidade de conservação" **zero**. Controle positivo: "bambu" 11 ocorrências.*
+
+**[30]** ATSDR — Agency for Toxic Substances and Disease Registry. *Toxicological
+Profile for Boron*. Capítulo 6, "Potential for Human Exposure": *"Adsorption-desorption
+reactions are expected to be the only significant mechanism that will influence the
+fate of boron in water"*; *"the greatest adsorption is generally observed at pH 7.5-9.0"*;
+*"the abundance of amorphous aluminum oxide in soil is the single-most important property
+of soil that will influence the mobility of boron"*. — *Base do parágrafo sobre
+lixiviação; ver ficha `atsdr-2026-boro-perfil-toxicologico.md`.*
 
 ## Como este texto foi feito
 
