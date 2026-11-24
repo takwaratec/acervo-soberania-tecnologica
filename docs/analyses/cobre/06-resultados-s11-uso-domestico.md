@@ -6,10 +6,11 @@ rodada: S11
 titulo: "S11 — Uso doméstico e rural do sulfato de cobre: o que as instruções dizem e o que omitem"
 estado_documental: em-revisao-documental
 homologacao_automatica: false
-versao: 2
+versao: 4
 data_revisao: 2026-11-24
-auditoria: "R7 REPROVA — achou instrucao de reuso no COT110 que o executor declarou ausente. Corrigido nesta versao."
-correcao_central: "o COT110 DIZ o que fazer com a solucao excedente (L207-214): armazenar em recipiente plastico e reutilizar no proximo tratamento. A v1 afirmou ausencia total — era falso.
+auditoria_r7: "REPROVA — achou instrucao de reuso no COT110 que o executor declarou ausente. Acatada."
+auditoria_r8: "REPROVA — correcao entrou e citacao e fiel, mas restaram contradicoes internas (§6 com premissa velha, ficha NMBA desatualizada, extrapolacao sobre residuo, hash divergente, ano contraditorio, aspa aberta). Acatada nesta v4."
+correcao_central: "o COT110 DIZ o que fazer com a solucao excedente (L207-214): armazenar em recipiente plastico e reutilizar no proximo tratamento. A v1 afirmou ausencia total — era falso."
 responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 corpus_custodiado: "_privado/fontes-documentais/ago_28_Sulfato_S11/ (5 PDFs, manifest com sha256)"
@@ -70,7 +71,7 @@ demais foram qualificadas acima e **não contam**.
 
 ---
 
-## 3. O que a instrução brasileira diz — e diz bem
+## 3. O que a instrução brasileira diz — item por item
 
 **Embrapa, Comunicado Técnico 110** — *Tratamento da madeira na propriedade rural*:
 
@@ -125,7 +126,7 @@ reuso". **Falso.** O COT110 manda, literalmente (L207–214):
 > "Os produtos químicos utilizados no tratamento e a solução excedente devem ser mantidos
 > em local livre de umidade e fechado, sem acesso a crianças e animais."
 
-**O Brasil, portanto, TEM orientação de reuso — e é boa.** A lacuna real é mais estreita:
+**O Brasil, portanto, TEM orientação de reuso.** A lacuna real é mais estreita:
 o documento pressupõe que sempre haverá "próximo tratamento" e **não diz o que fazer quando
 o reuso já não é possível** — fim da obra, saturação do banho, queda de concentração.
 
@@ -152,9 +153,15 @@ Bamboo Applications*, Department of Science and Technology, Governo da Índia:
 
 > *"Always use protection during spraying — masks, gloves, goggles, etc."*
 
-**É a resposta completa à pergunta do soberano, e ela vem de um governo:** a solução
-exaurida **se decanta e se reusa**; o que não se reusa vai para resíduo controlado; o lodo
-se recupera quimicamente. **Não vai para ralo, rio ou córrego.**
+**O que o manual de fato diz:** a solução **se decanta e se reusa**; os **resíduos**
+(no texto, *residues*) podem ser **misturados a serragem e enterrados**; o **lodo** se
+recupera quimicamente acidificando a pH 2,5. **Não se dispõe em ralos, rios ou córregos.**
+
+**Correção de uma extrapolação minha (R8):** eu escrevi que "o que não se reusa vai para
+resíduo controlado". **O manual não diz isso.** Ele fala de *resíduos misturados a serragem
+e enterrados* — que não é "resíduo controlado", é **enterro** — e não estabelece que toda
+solução não-reutilizada tenha esse destino. A separação entre "solução exaurida" e "resíduo"
+no manual **não é nítida**, e eu a tornei nítida por conta própria.
 
 **Correção da comparação (a v1 afirmou superioridade que as fontes não medem):**
 
@@ -182,7 +189,7 @@ enterro, incompatível com a PNRS.
 
 ### 4.2 Nota de honestidade sobre o próprio manual indiano
 
-A instrução *"buried in the ground"* para resíduos **não é boa prática ambiental** — enterrar
+A instrução *"buried in the ground"* para resíduos **é incompatível com a PNRS brasileira** — enterrar
 resíduo com cromo e cobre é destinação inadequada sob a PNRS brasileira. E o método de
 recuperação do lodo (acidificar a pH 2,5 com ácido crômico) é **rota industrial**, não
 caseira: ninguém faz isso num quintal.
@@ -235,15 +242,16 @@ instrução"; é "as instruções param exatamente onde o resíduo final começa
 ## 6. A pergunta que a S11 deixa para o capítulo
 
 > Se a instrução oficial manda preparar 200 litros de solução com sulfato de cobre, cromo e
-> boro, proíbe descartar no ambiente e **não diz o que fazer com ela** — o que o usuário
-> rural faz na prática?
+> boro, **manda guardar e reusar o excedente** (L207–214), proíbe descartar no ambiente e
+> **cala sobre o destino do que não puder mais ser reusado** — o que o usuário rural faz com
+> esse último volume?
 
 **Essa pergunta é empírica e não está respondida por nenhuma fonte desta gaveta.** Ela
 exige: (a) entrevista/observação de campo, ou (b) documento de extensão que descreva a
 prática, ou (c) registro de fiscalização. **Nenhum dos três está neste corpus.**
 
 **Portanto o capítulo não pode afirmar o que o usuário faz. Pode afirmar o que a instrução
-manda e o que ela deixa em aberto — e isso é medido.**
+manda, o que ela orienta a reusar, e o ponto exato em que ela para — e isso é medido.**
 
 ---
 
