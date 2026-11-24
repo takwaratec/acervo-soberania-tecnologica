@@ -63,6 +63,18 @@ outras fontes da gaveta (USGS) tratam disso.
 separadamente. Uma frase do tipo "a geologia é o vetor dominante" generaliza além do
 que o documento sustenta — a leitura correta é por compartimento.
 
+## 3.1 A ressalva que acompanha o 2,4 mg/L
+
+A OMS **não trata 2,4 mg/L como teto invariável**. O documento de 2009 é explícito:
+como será difícil atingir o valor de referência em **alguns abastecimentos
+dessalinizados** e em **áreas com níveis naturais altos de boro**, as autoridades
+regulatórias e sanitárias locais **podem considerar valor superior a 2,4 mg/L**,
+fazendo uma avaliação aproximada da exposição por outras fontes.
+
+Isso importa para o acervo: 2,4 mg/L é valor de referência sanitária **com margem
+contextual**, não limite de emissão nem de solo. Citar o número sem a ressalva
+transforma recomendação condicionada em proibição absoluta — e a fonte não diz isso.
+
 ## 4. Toxicologia, na versão resumida
 
 A ficha repete a base da ficha de 2009:
@@ -78,10 +90,17 @@ A ficha repete a base da ficha de 2009:
 **Força:** é a versão **oficial e citável** do valor de 2,4 mg/L — 2 páginas, linguagem
 de norma, sem derivação (a derivação está na ficha de 2009).
 
-**Limite:** por ser resumo, **omite a cadeia de cálculo** (BMDL05, fator 60, alocação
-40%). Quem cita só esta ficha não consegue auditar o número.
+**Limite:** é resumo. **Ela traz** os elementos da cadeia — BMDL05 de 10,3 mg/kg/dia,
+TDI de 0,17 mg/kg/dia, fator de incerteza 60, alocação de 40%, 60 kg e 2 L/dia — mas
+**sem o desenvolvimento**: a justificativa de cada escolha (por que 40% e não o
+padrão, por que fator 60) está no documento de 2009. Quem precisa auditar o número
+lê 2009; quem precisa citar o valor lê 2022.
 
-**Uso no acervo:** citação canônica do valor; o cálculo fica na ficha
+**Correção de leitura anterior:** esta ficha afirmou, na versão 1, que a publicação
+de 2022 "omite a cadeia de cálculo". **Está errado** — a ficha química inclui os
+números. O que ela não traz é a discussão.
+
+**Uso no acervo:** citação canônica do valor; a derivação justificada fica na ficha
 `who-2009-boro-agua-consumo.md`.
 
 **Referência ABNT:** WORLD HEALTH ORGANIZATION. Boron. In: *Guidelines for

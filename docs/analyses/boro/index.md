@@ -30,7 +30,7 @@ motivou a investigação e a que concentra o maior risco de uso sem critério.
 | `fichas/who-2009-boro-agua-consumo.md` | Ficha — a cadeia de derivação do valor de referência da OMS: BMDL05 10,3 → TDI 0,17 → alocação 40% → **2,4 mg/L** |
 | `fichas/who-2022-boro-ficha-quimica.md` | Ficha — a ficha química oficial: valor de 2,4 mg/L, ocorrência < 0,5 mg/L, usos nomeados pela OMS |
 | `fichas/liu-2023-bambu-acido-borico-borax.md` | Ficha — eficácia medida: perda de massa por fungo cai de 62,57% para 12,74%, compressão +21,56%. Ensaio de laboratório, **sem lixiviação** |
-| `fichas/rusch-2023-ccb-bambu-5-anos-campo.md` | Ficha — CCB em campo por 5 anos: durabilidade confirmada, e a ressalva dos próprios autores de que **não se pode atribuir lixiviação** |
+| `fichas/rusch-2023-ccb-bambu-5-anos-campo.md` | Ficha — CCB em campo por 5 anos: durabilidade **por concentração** (3% índice 0; 1% índice 40, ataque leve), solo **sem diferença estatística** (Tukey p>0,05) e a ressalva dos autores de que **não se pode atribuir lixiviação** |
 | `INVENTARIO_GAVETA.json` | Estado real de cada fontee: custodiada, indisponível, pendente |
 | `HANDOFF_BORO_20261124.md` | Handoff de continuidade entre tópicos (não é homologação) |
 

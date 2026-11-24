@@ -77,11 +77,17 @@ combinar com outro agente de modificação química para melhorá-las.
 
 **Sustenta:**
 
-- O boro é **eficaz contra fungos de podridão branca e parda** em bambu, em
-  laboratório, nas concentrações usadas.
+- **A formulação ensaiada — ácido bórico + bórax na razão 1:2 — é eficaz contra
+  fungos de podridão branca e parda** em bambu, em laboratório, nas concentrações
+  usadas. O ensaio **não separa o efeito dos dois componentes**: os resultados são
+  da mistura, não do boro isolado nem do bórax isolado.
 - O tratamento **não degrada a compressão** — ao contrário, aumenta.
 - Formulação e tempo de imersão são **declarados e reproduzíveis** (1,5% BA + 3,0% BX,
-  72 h) — dado que falta em quase toda a literatura de campo.
+  72 h).
+
+**Afirmação retirada na versão 2:** a v1 dizia que esses dados "faltam em quase toda
+a literatura de campo". **Isso não vem deste estudo** — é comparação que exigiria
+revisão própria, e o artigo não a faz. Foi removida.
 
 **NÃO sustenta:**
 

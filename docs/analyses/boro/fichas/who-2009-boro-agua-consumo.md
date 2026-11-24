@@ -61,6 +61,11 @@ do Reino Unido e dos EUA mostram ingestão por outras fontes **bem abaixo do TDI
 se aproximar do TDI". É uma decisão de **margem disponível**, não de tolerância maior
 ao boro.
 
+**O valor não é teto invariável.** A própria fonte ressalva: como será difícil
+atingir 2,4 mg/L em **alguns abastecimentos dessalinizados** e em **áreas com níveis
+naturais altos**, as autoridades locais **podem considerar valor superior a 2,4 mg/L**,
+após avaliação aproximada da exposição por outras fontes.
+
 ## 3. Ocorrência
 
 - **A maior parte do mundo: abaixo de 0,5 mg/L** em água de consumo.

@@ -47,7 +47,10 @@ frente: BORO
 | **Material** | 12 hastes, diâmetro 10–15 cm |
 | **Preservante** | **CCB — borato de cobre cromatado** |
 | **Concentrações** | **1% e 3%** + controle (imersão em água) |
-| **Aplicação** | imersão |
+| **Método** | **substituição de seiva** (NBR 6232/ABNT 2013), com retenção-alvo de **6,5 kg/m³** |
+| **Aplicação** | colmos de 85 cm com a base **parcialmente imersa** em 6,3 L de solução, **10 dias**; posições **invertidas** (topo na solução) por mais **10 dias**, repondo 3,15 L |
+| **Controles** | totalmente imerso em água e parcialmente imerso em água, mesmo protocolo |
+| **Campo** | colmos enterrados **25 cm**, restante exposto, **5 anos** |
 | **Duração em campo** | **5 anos** |
 | **Análise** | avaliação visual (Vivian et al. 2014) + espectrometria de amostras do bambu e do solo da cova |
 | **Estatística** | ANOVA + Tukey 5%, após teste de normalidade |
@@ -159,7 +162,15 @@ Formulação declarada com percentuais. Estatística declarada.
   tabela e registra a divergência.
 - **Solo sem significância estatística:** a leitura de "lixiviação" não tem suporte
   nem descritivo forte, porque cobre tratado e controle são praticamente iguais.
-- Imersão, não vácuo-pressão — escala artesanal, não industrial.
+- **O método não é "artesanal":** é **substituição de seiva** conforme NBR 6232, com
+  retenção-alvo de 6,5 kg/m³ e protocolo de 10 dias + inversão + 10 dias. A v1 desta
+  ficha escreveu "imersão, escala artesanal" — **não é classificação dos autores** e
+  subestima o controle experimental. Corrigido.
+- **Condição local declarada pelos autores:** a baixa deterioração "pode estar
+  associada à região e local em que o experimento foi instalado", por ser ambiente
+  com **baixa retenção de umidade** comparado a floresta, e porque **a incidência
+  solar pode afetar o desenvolvimento dos organismos xilófagos**. Solo de latossolo
+  vermelho. Isso limita a transferência do resultado para ambientes úmidos.
 
 **Uso no acervo:** esta ficha serve a dois propósitos na gaveta BORO — (a) mostrar que
 o boro participa de sistemas preservantes **mistos**, não só de banhos isolados; (b)
