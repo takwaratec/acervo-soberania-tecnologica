@@ -73,6 +73,9 @@ def converter(md):
         s = l.strip()
         if not s:
             i += 1; continue
+        # regra horizontal
+        if re.match(r"^-{3,}$", s) or re.match(r"^\*{3,}$", s):
+            out.append("<hr>"); i += 1; continue
         # cerca de código
         if s.startswith("```"):
             i += 1; buf = []
@@ -140,9 +143,11 @@ h1{margin:0 0 10px;font-size:clamp(24px,4.2vw,38px);line-height:1.15;letter-spac
 .chip{background:var(--acc2);color:#54331a;border-radius:999px;padding:5px 11px;
 font:600 11.5px/1 ui-monospace,Menlo,monospace}
 nav.tabs{position:sticky;top:0;z-index:20;background:#fffefb;border-bottom:1px solid var(--lin);
-display:grid;grid-template-columns:repeat(6,1fr)}
+display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+nav.tabs::-webkit-scrollbar{display:none}
 nav.tabs button{appearance:none;background:none;border:0;border-bottom:3px solid transparent;
-padding:13px 8px;font:600 12.5px/1.25 inherit;color:var(--mut);cursor:pointer;text-align:center}
+padding:13px 15px;font:600 12.5px/1.25 inherit;color:var(--mut);cursor:pointer;text-align:center;
+flex:0 0 auto;white-space:nowrap}
 nav.tabs button[aria-selected="true"]{color:var(--acc);border-bottom-color:var(--acc);background:#fff}
 nav.tabs button:hover{background:var(--note)}
 main{max-width:1180px;margin:0 auto;padding:0 22px 90px}
@@ -152,15 +157,17 @@ main{max-width:1180px;margin:0 auto;padding:0 22px 90px}
 .painel-head{border-bottom:1px solid var(--lin);padding-bottom:14px;margin-bottom:22px}
 .painel-head h2{margin:0;font-size:clamp(21px,3vw,29px);line-height:1.2}
 .painel-head p{margin:7px 0 0;color:var(--mut);font-size:14.5px}
+hr{border:0;border-top:1px solid var(--lin);margin:30px 0;max-width:74ch}
 h3{font-size:20px;margin:34px 0 10px;line-height:1.25}
 h4{font-size:17px;margin:26px 0 8px;color:#3a2a18}
 h5,h6{font-size:15.5px;margin:20px 0 6px;color:#3a2a18}
 p{margin:0 0 15px;max-width:74ch}
 ul,ol{margin:0 0 16px;padding-left:24px;max-width:74ch}
 li{margin:0 0 7px}
-blockquote{margin:18px 0;padding:14px 18px;background:var(--note);border-left:4px solid var(--acc);
+blockquote{margin:18px 0;max-width:calc(74ch + 38px);padding:14px 18px 14px 20px;background:var(--note);border-left:4px solid var(--acc);
 border-radius:0 6px 6px 0;color:#3a2a18}
-blockquote p{margin:0 0 9px;max-width:none}
+blockquote p{margin:0 0 9px;max-width:74ch}
+blockquote>*:last-child{margin-bottom:0}
 blockquote p:last-child{margin:0}
 .tabwrap{overflow-x:auto;margin:18px 0;border:1px solid var(--lin);border-radius:7px;background:#fff}
 table{border-collapse:collapse;width:100%;font-size:14.5px}
@@ -184,10 +191,8 @@ footer{border-top:1px solid var(--lin);padding:22px;color:var(--mut);font-size:1
 text-align:center;max-width:1180px;margin:0 auto}
 footer p{margin:0 auto;max-width:70ch}
 @media(max-width:900px){
-nav.tabs{display:flex;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;flex-wrap:nowrap;
-scrollbar-width:none;-ms-overflow-style:none}
-nav.tabs::-webkit-scrollbar{display:none}
-nav.tabs button{flex:0 0 auto;white-space:nowrap;padding:12px 14px}
+nav.tabs{-webkit-overflow-scrolling:touch;overflow-y:hidden}
+nav.tabs button{padding:12px 14px}
 }
 @media(max-width:760px){
 body{font-size:16.5px}
@@ -326,10 +331,10 @@ fazer quando o reuso acaba.</strong></p></div>
     secoes.append(painel("apresentacao", "Apresentação", "O que é este documento, de onde vem, e o que ele não é", apres))
 
     # Aba 1: artigo
-    secoes.append(painel("artigo", "O cobre e a água que sobra",
-                         " Artigo didático — leigo em química e em linguagem acadêmica",
+    secoes.append(painel("artigo", "Meia banheira de solução azul",
+                         "Artigo para leitor leigo em química e em linguagem acadêmica",
                          converter(artigo_md),
-                         meta="ARTIGO · docs/analyses/cobre/08-artigo-didatico-o-cobre-e-a-agua-que-sobra.md · nenhuma afirmação homologada"))
+                         meta="ARTIGO · em revisão documental · nenhuma afirmação homologada"))
 
     # Abas 2..7: fichas
     for id_, titulo, sub, arq in FICHAS:
@@ -337,11 +342,11 @@ fazer quando o reuso acaba.</strong></p></div>
         md = open(caminho, encoding="utf-8").read()
         b = open(caminho, "rb").read()
         secoes.append(painel(id_, titulo, sub, converter(md),
-                             meta=f"FICHA · {arq} · sha256 {hashlib.sha256(b).hexdigest()[:16]} · {len(b)} B"))
+                             meta=f"FICHA TÉCNICA · sha256 {hashlib.sha256(b).hexdigest()[:16]} · {len(b)} B"))
 
     # montar — a lista de abas tem de ser a MESMA usada nos painéis
     ABAS = [("apresentacao", "Apresentação")] + [(id_, nome) for id_, nome, _s, _f in FICHAS]
-    ABAS.insert(1, ("artigo", "O cobre e a água que sobra"))
+    ABAS.insert(1, ("artigo", "Meia banheira de solução azul"))
     assert len(ABAS) == len(secoes), f"abas={len(ABAS)} paineis={len(secoes)}"
     nav = "".join(
         f'<button id="t-{id_}" role="tab" aria-controls="{id_}" aria-selected="{"true" if i==0 else "false"}" '
@@ -354,19 +359,19 @@ fazer quando o reuso acaba.</strong></p></div>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>O cobre no bambu — artigo e fichas</title>
+<title>Meia banheira de solução azul — o cobre no bambu</title>
 <meta name="description" content="Sulfato de cobre no tratamento de bambu: o que é, como age, e para onde vai a água que sobra. Artigo didático e seis fichas técnicas com fonte e hash.">
-<meta property="og:title" content="O cobre no bambu — artigo e fichas">
-<meta property="og:description" content="O que é o sulfato de cobre, o que ele faz no bambu, e o que acontece com a solução que sobra — com cada número ligado à fonte.">
+<meta property="og:title" content="Meia banheira de solução azul — o cobre no bambu">
+<meta property="og:description" content="O sulfato de cobre no tratamento de bambu: o que faz, o que as receitas omitem, e o que acontece com a água que sobra. Com cada número ligado à fonte.">
 <meta property="og:type" content="article">
 <style>{CSS}</style>
 </head>
 <body>
 <header>
 <p class="kicker">Acervo Soberania Tecnológica · frente COBRE</p>
-<h1>O cobre no bambu</h1>
-<p class="sub">O que é o sulfato de cobre, o que ele faz no tratamento, e <strong>para onde vai a
-água que sobra</strong> — artigo didático e seis fichas técnicas, cada afirmação ligada à fonte.</p>
+<h1>Meia banheira de solução azul</h1>
+<p class="sub">O que o sulfato de cobre faz no bambu, e <strong>o que acontece com a água que
+sobra</strong> — artigo para leigo e seis fichas técnicas, cada afirmação ligada à fonte.</p>
 <div class="chips">
 <span class="chip">EM REVISÃO DOCUMENTAL</span>
 <span class="chip">9 FONTES CUSTODIADAS</span>
