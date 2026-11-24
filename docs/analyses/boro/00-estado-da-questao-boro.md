@@ -627,6 +627,70 @@ Pendência declarada, não afirmação de inexistência.)*
 irritativo é o desfecho precoce; o desfecho crítico continua sendo o
 desenvolvimental, por via oral.
 
+### 9.6 Resíduos, aparas e descarte — o ponto crítico medido
+
+**Onde o impacto está, segundo a única ACV brasileira da cadeia.** Araujo et al.
+(2025) avaliaram do berço ao portão a produção artesanal de 1 kg de colmo tratado
+de *Guadua angustifolia* em uma unidade de Rio Branco (AC), com inventário
+primário coletado entre 2021 e 2022 (ReCiPe 2016 Midpoint; SimaPro 9.1). Dois
+números organizam o resto:
+
+- **toxicidade carcinogênica humana = 93%** do impacto potencial total estimado;
+- **resíduos contaminados — aparas, cortes e colmos descartados — = 91%** do
+  impacto total do sistema.
+
+O tratamento observado foi imersão em 100 L de água com **5 kg de bórax + 5 kg de
+ácido bórico**. O inventário por quilo de colmo tratado registra **0,20 kg de
+resíduo de bambu**, **0,13 kg de colmo descartado** e **0,07 L de efluente**.
+
+**Os resíduos são o vetor — não o banho em si.** O artigo é explícito: os
+compostos borados *"estão presentes nos resíduos de aparas e cortes, nos colmos
+descartados e no efluente gerado"*, e é essa massa contaminada que carrega o
+impacto. Uma fração relevante do boro que entra na oficina **nunca chega a ser
+preservante útil**: sai como serragem, ponta de colmo, cavaco e água de banho.
+
+Três perdas medidas no mesmo processo:
+
+| Perda | Proporção | O que ela significa |
+|---|---|---|
+| matéria-prima perdida no processo | **25%** | um quarto do que entra não vira produto |
+| colmos descartados após o tratamento | **~13%** | descartados por defeito estético ou trinca — **já impregnados de boro** |
+| água do tratamento descartada direto no solo | **~10%** | do total de água usado no banho; o artigo registra descarte no solo |
+
+**Por que isso importa mais que a exposição ocupacional para efeito de política.**
+O operador tem, ao menos, a possibilidade de usar EPI. **A aparagem sai da
+oficina sem rótulo, sem rastreio e sem destinação declarada.** Serragem de bambu
+tratado é fisicamente indistinguível de serragem limpa — e o uso doméstico típico
+(compostagem, cama de animal, cobertura de solo, lenha, artesanato) é exatamente o
+que dispersa o resíduo no ambiente.
+
+**A poeira é a segunda face do mesmo problema, e tem régua própria.** A poeira de
+madeira em geral já é agente reconhecido: o HSE britânico fixa **WEL de 3 mg/m³
+(8 h) para madeira dura** e **5 mg/m³ para madeira leve**, e afirma que poeira de
+madeira dura **pode causar câncer, particularmente de nariz** — com a observação
+de que o pó depositado concentra as partículas finas, que são as que atingem o
+pulmão. Aplicar essa régua a bambu tratado é **analogia declarada**, não
+equivalência: o limite é para o pó da madeira, e o componente que ele controla não
+é o boro.
+
+**Sobre o enquadramento do ensaio autoral.** A ficha do Acervo sobre esta ACV
+registra os limites que o artigo impõe e que **não** devem ser apagados na
+divulgação: são 93% de **impacto potencial normalizado** — não incidência de
+câncer; é **uma** unidade produtiva; o escopo termina no portão; e o estudo **não
+mediu** exposição ocupacional, dose nem desfecho clínico. Dizer que 93% "é o
+câncer" seria converter indicador de ACV em desfecho epidemiológico — salto que a
+literatura de ACV não autoriza. O que os 93% autorizam dizer, e é muito, é: **o
+ponto de intervenção mais eficaz desta cadeia é a gestão do resíduo, não a troca
+do banho.**
+
+**Onde a norma de descarte existe, e onde não existe.** Para resíduo de madeira
+tratada, há enquadramento formal: a EPA de Victoria (Austrália) determina que
+madeira tratada — **inclusive quando usada como serragem ou cobertura morta** —
+seja classificada e consignada como resíduo prioritário, e diz explicitamente que
+essa regra se aplica a resíduo de madeira tratada **e não a madeira apenas
+aquecida**. Para bambu tratado com borato **no Brasil**, não localizei
+enquadramento próprio: é pendência declarada, não inexistência afirmada.
+
 ### 9.4 Conta de teto para a poeira de bambu tratado
 
 Não há medição de poeira em oficina de bambu tratado. Há, porém, dois números
@@ -708,17 +772,28 @@ Onde isso exige regra:
    intoxicação aguda; a LD₅₀ na casa dos milhares de mg/kg esconde um endpoint
    na casa das dezenas de mg B/kg/dia.
 5. **A exposição do operador à poeira de bambu tratado não está medida** — nem no
-   Brasil, nem na China. As réguas para medi-la existem desde esta rodada (§9):
-   MRL de inalação aguda de 0,3 mg B/m³, limites de poeira total e um limiar
-   humano de irritação em ~1,8 mg B/m³.
+   Brasil, nem na China. As réguas para medi-la existem (§9): MRL de inalação
+   aguda de 0,3 mg B/m³, limites de poeira total e um limiar humano de irritação
+   em ~1,8 mg B/m³.
+6. **O resíduo é o ponto de intervenção mais eficaz, e o menos regulado** — na
+   única ACV brasileira da cadeia, resíduos contaminados (aparas, cortes, colmos
+   descartados) respondem por **91%** do impacto. Aparas e serragem saem da
+   oficina sem rótulo e sem destinação declarada; é por elas que o boro se
+   dispersa, não pelo produto acabado (§9.6).
 
-Postos juntos, esses cinco pontos descrevem um tratamento cuja **eficácia
-biológica está demonstrada em condições experimentais**, cuja **permanência falha
-sob lixiviação severa em laboratório**, e cuja **exposição de campo não foi
-medida**. Adotá-lo como padrão sem retenção-alvo declarada, sem ensaio de
-lixiviação da formulação usada e sem proteção do operador é regulamentar sobre
-evidência que ainda não existe — e o que a evidência sustenta é **medir antes de
-normatizar**, não presumir dano nem presumir segurança.
+Postos juntos, esses pontos descrevem um tratamento cuja **eficácia biológica
+está demonstrada em condições experimentais**, cuja **permanência falha sob
+lixiviação severa em laboratório**, cuja **exposição de campo não foi medida**, e
+cuja **massa de resíduo contaminado responde pela quase totalidade do impacto
+medido na cadeia brasileira**.
+
+**Onde a regra incide, se houver regra.** Não é no produto acabado: é no
+**resíduo** — aparas, serragem, colmo descartado, água de banho — e no **modo de
+uso doméstico**, que hoje dispensa EPI e destinação. Adotar o borato como padrão
+sem retenção-alvo declarada, sem ensaio da formulação usada, sem proteção do
+operador e sem destino declarado para o resíduo é regulamentar sobre evidência que
+ainda não existe. O que a evidência sustenta é **medir e destinar antes de
+normatizar** — não presumir dano nem presumir segurança.
 
 ## 11. O que esta ficha não autoriza concluir
 
@@ -765,6 +840,10 @@ integridade:
 - **NIH ODS** *Boron — Health Professional Fact Sheet* — snapshot de 2026-11-16;
 - **Regulamento Delegado (UE) 2023/1435** — classificação CLP;
 - **NIOSH Pocket Guide** — fichas das três formas de tetraborato;
+- **HSE (Reino Unido)** — poeira de madeira: WEL e carcinogenicidade;
+- **EPA Victoria (Austrália)** — classificação e descarte de madeira tratada,
+  incluindo quando usada como serragem ou cobertura morta;
+- **USDA AMS** — relatório técnico de produtos de boro solúvel;
 - **ANVISA RDC 199/2006** — antissépticos;
 - **ComexStat/MDIC** — série de importação 1997–2026, NCM 2528, 2810 e 2840.
 
@@ -807,6 +886,20 @@ aqui** e não deve ser citado como contexto normativo.
 8. **Rateio setorial** da importação brasileira por produto e por uso.
 9. **Separar as fichas herdadas** de boro e de cobre antes de reprocessá-las
    pelo MTCC — o pacote recebido as mistura.
+10. **Massas de resíduo por etapa** — quanto de aparas, serragem e colmo
+    descartado sai por tonelada de bambu tratado, em oficina brasileira. A ACV de
+    Rio Branco dá inventário por quilo de produto; não dá distribuição por
+    oficina.
+11. **Destinação real do resíduo** — para onde vão hoje aparas e serragem de
+    bambu tratado no Brasil: compostagem, aterro, queima, reuso artesanal ou
+    descarte em solo. Não localizei levantamento.
+12. **Enquadramento brasileiro do resíduo** de madeira/bambu tratada com borato —
+    norma de classificação e destinação. A referência estrangeira existe (EPA
+    Victoria); a brasileira não foi localizada.
+13. **Poeira de bambu como agente próprio** — há limite de poeira de madeira
+    (HSE: 3 mg/m³ madeira dura, 5 mg/m³ madeira leve) e o HSE registra
+    carcinogenicidade para madeira dura; **bambu não tem régua própria
+    localizada**, e a transposição é analogia declarada.
 
 ## Referências documentais
 

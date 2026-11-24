@@ -106,6 +106,31 @@ resultado fúngico satisfatório** após o ensaio — a perda de boro não se co
 automaticamente em perda de proteção. É evidência laboratorial, não taxa de campo
 (§7.1).
 
+## O ponto crítico medido — resíduo, não banho
+
+A única ACV brasileira da cadeia artesanal (Araujo et al. 2025, *Guadua
+angustifolia*, Rio Branco/AC) mede onde o impacto se concentra:
+
+- **93%** do impacto potencial normalizado está em **toxicidade carcinogênica
+  humana**;
+- **91%** do impacto total vem de **resíduos contaminados** — aparas, cortes e
+  colmos descartados;
+- o banho observado foi 100 L de água com **5 kg de bórax + 5 kg de ácido bórico**;
+- por quilo de colmo tratado: **0,20 kg de resíduo**, **0,13 kg de colmo
+  descartado**, **0,07 L de efluente**;
+- **25%** da matéria-prima se perde no processo; **~13%** dos colmos são
+  descartados após o tratamento, já impregnados; **~10%** da água do banho é
+  descartada direto no solo.
+
+**A consequência de política:** o operador ao menos pode usar EPI; **a aparagem sai
+da oficina sem rótulo, sem rastreio e sem destinação**. Serragem de bambu tratado
+é indistinguível de serragem limpa — e o uso doméstico comum (compostagem, cama de
+animal, cobertura de solo, lenha) é justamente o que a dispersa.
+
+**Limite que não se apaga:** são 93% de *impacto potencial normalizado*, em uma
+unidade produtiva, com escopo até o portão. O estudo **não mediu** exposição, dose
+nem desfecho clínico. ACV não se converte em incidência de câncer (§9.6).
+
 ## Pendência que define a gaveta
 
 A exposição ocupacional **específica de bambu tratado** (cortar, lixar, serrar) —
