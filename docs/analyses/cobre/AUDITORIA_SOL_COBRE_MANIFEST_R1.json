@@ -8,7 +8,7 @@
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "5ca8b8f301b38d7eaa798bb94f558583d05f586a",
+ "alvo_commit": "0278bfa5f75544328fcccb3f3cb6de38233fa35f",
  "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, fichas, fontes). O manifesto em si é publicado num commit POSTERIOR — um arquivo não pode conter o hash do commit que o publica.",
  "aviso_de_leitura": {
   "repositorio": "takwaratec/acervo-soberania-tecnologica",
@@ -82,19 +82,31 @@
    "pergunta": "A homologação interna das 6 fichas está declarada com autoridade, data e alcance, sem se apresentar como homologação científica?",
    "arquivo": "cabeçalho das 6 fichas em docs/analyses/cobre/fichas/",
    "criterio": "O bloco homologacao declara autoridade=FABIO, tipo=INTERNA, e o alcance diz explicitamente o que NÃO é. Declaração que se apresente como homologação por par é furo."
+  },
+  {
+   "id": "Q8",
+   "pergunta": "A peça corrida (o-cobre-no-bambu-corrido.html) diz o mesmo que o manuscrito .md — mesmo texto, mesmas 14 referências, mesmos números — e as 6 fichas anexadas são as mesmas publicadas em docs/analyses/cobre/fichas/?",
+   "arquivo": "o-cobre-no-bambu-corrido.html × 00-artigo-o-cobre-explicado-do-zero.md × fichas/",
+   "criterio": "Divergência de texto ou de número entre as duas peças é furo; ficha anexada que não corresponde ao arquivo publicado é furo."
   }
  ],
  "fontes": [
   {
    "path": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
-   "sha256": "64714eca30e86729339be1414e07c0632ed347b7871f7de86f0acc90186e4a65",
-   "bytes": 64199,
+   "sha256": "6868faa537329ecba5bf58a4123254f5a5090c5cb18e265bcd456ec6da8fb103",
+   "bytes": 68588,
    "papel": "manuscrito único, com as 14 referências"
   },
   {
+   "path": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
+   "papel": "peça corrida — texto integral, bibliografia comentada e as 6 fichas anexadas",
+   "sha256": "cf5647218bc0f06417fc296b14da1fdfcbf069468568f16c86ab95c39af023e5",
+   "bytes": 148247
+  },
+  {
    "path": "docs/analyses/cobre/o-cobre-no-bambu.html",
-   "sha256": "3cf26b46912d46c7e9cb4091bb537e438409a613c7ed2c0544183e9a3eaca47f",
-   "bytes": 145528,
+   "sha256": "51dc87779194df556d2d79048612be4f654e63b1cc967ccec37ee03b9da13d73",
+   "bytes": 152107,
    "papel": "peça de leitura, 18 abas"
   },
   {
@@ -258,5 +270,5 @@
    }
   ]
  },
- "total_fontes": 16
+ "total_fontes": 17
 }
