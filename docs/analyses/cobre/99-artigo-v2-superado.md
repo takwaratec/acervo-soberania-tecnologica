@@ -1,18 +1,13 @@
 ---
 schema: ACERVO_ARTIGO_R1
-gaveta: cobre
-frente: COBRE
-titulo: "Meia banheira de solução azul"
-subtitulo: "O que o sulfato de cobre faz no bambu, e o que acontece com a água que sobra"
-estado_documental: em-revisao-documental
-homologacao_automatica: false
-versao: 2
-data_revisao: 2026-11-24
-responsavel_curadoria: Fabio Takwara
-assistencia_documental: agente de IA, sujeito a revisao humana
-publico: "leigo em quimica e em linguagem academica"
-camada: "B — adaptacao publica em linguagem nao especializada"
+estado_documental: superado
+substituido_por: "o-cobre-no-bambu.html (peça no molde homologado) + scripts/conteudo_cobre.py (fonte única)"
+motivo: "o soberano homologou o molde de abas de 11 páginas; a peça passou a ser gerada de scripts/conteudo_cobre.py"
 ---
+
+> **DOCUMENTO SUPERADO.** Este é o texto da versão anterior, preservado byte a byte. A versão
+> vigente é a peça `o-cobre-no-bambu.html`, gerada de `scripts/conteudo_cobre.py` — que é a
+> **fonte única** do texto, para que o `.md` e o HTML não possam divergir.
 
 # Meia banheira de solução azul
 
