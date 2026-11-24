@@ -5,7 +5,7 @@ titulo_original: "Boron in drinking-water: background document for development o
 autores: "World Health Organization (WHO)"
 ano: 2009
 instituicao: WHO — Water, Sanitation, Health and Hygiene
-serie: WHO/SDE/WSH/03.04/54 (background document)
+serie: WHO/HSE/WSH/09.01/2 (background document)
 estado_documental: em-revisao-documental
 homologacao_automatica: false
 versao: 1
@@ -36,9 +36,9 @@ frente: BORO
 | **Documento** | *Boron in drinking-water* — background document for the WHO Guidelines for Drinking-water Quality |
 | **Autor institucional** | World Health Organization |
 | **Ano** | 2009 (avaliação toxicológica incorporada ao GDWQ 4ª ed.) |
-| **Páginas** | 16 (extração custodiada: 78.125 caracteres) |
+| **Páginas** | **28** (paginação interna 1–16; extração custodiada com 78.125 caracteres) |
 | **Natureza** | documento técnico de referência — não é norma brasileira |
-| **Fonte** | PDF integral; extração conservadora, sem OCR, sem correção silenciosa |
+| **Fonte** | PDF integral; extração conservadora, sem correção silenciosa. **OCR aplicado na página 8** (texto não extraível nativamente) |
 
 ## 2. A cadeia de derivação — do dado animal ao valor de água
 
@@ -69,8 +69,10 @@ ao boro.
 - Água de consumo no Chile, Alemanha, Reino Unido e EUA: **0,01 a 15,0 mg/L**, com a
   maioria abaixo de 0,5 mg/L.
 
-**A cauda de 360 mg/L é geologia, não contaminação.** Depósitos boratíferos elevam a
-concentração natural — o que importa para quem interpreta medição de campo.
+**A cauda de 360 mg/L é indicativa de depósitos ricos em boro.** A fonte diz
+*"indicative of boron-rich deposits"* — o que ela sustenta é a indicação geológica,
+**não** a exclusão de outras causas. O que importa para quem interpreta medição de
+campo: valores altos podem ser naturais, e a fonte não afirma que sempre sejam.
 
 ## 4. Efeitos — o que a fonte afirma e o que ela não afirma
 
@@ -88,17 +90,27 @@ concentração natural — o que importa para quem interpreta medição de campo
 
 **Não autoriza:**
 
-- Chamar o boro de carcinógeno. A OMS, nesta fonte, **descarta** genotoxicidade e
-  carcinogenicidade em roedores.
+- Chamar o boro de carcinógeno. A OMS, nesta fonte, **registra ausência de aumento de
+  incidência tumoral** nos estudos de longo prazo citados e resultados mutagênicos
+  negativos — o que se afirma é o resultado desses estudos, **não** uma exclusão geral
+  de carcinogenicidade.
 - Estender o valor de 2,4 mg/L a solo, efluente, alimento ou material de construção.
   É **água de consumo**.
 
 ## 5. Tratamento da água
 
-A OMS registra que tratamento convencional (**coagulação, sedimentação e filtração**)
-**não remove boro significativamente** — exige métodos especiais. Consequência
-prática: **diluir é a única resposta barata**. Uma vez no corpo receptor, o boro
-permanece.
+Tratamento convencional (**coagulação, sedimentação e filtração**) **não remove boro
+em extensão apreciável** — a fonte é explícita. Troca iônica e osmose reversa podem
+reduzir substancialmente, mas são "provavelmente muito caras". Para águas com altas
+concentrações, a fonte diz que **a mistura com águas de baixo teor pode ser o único
+método econômico** (`blending with low-boron supplies might be the only economical
+method`).
+
+**Precisão devida:** a fonte também registra que o boro **não é removido pelos
+métodos convencionais de tratamento de água e de esgoto** — é daí que vem o
+argumento de permanência, não de uma afirmação sobre corpo receptor específico. O
+limite é o da fonte: ela trata de remoção em tratamento, não de destino ambiental
+detalhado.
 
 ## 6. Avaliação crítica
 

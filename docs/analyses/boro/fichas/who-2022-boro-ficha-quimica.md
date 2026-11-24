@@ -51,16 +51,17 @@ outras fontes da gaveta (USGS) tratam disso.
 
 ## 3. Origem do boro em água
 
-- **Natural:** lixiviação de rochas e solos contendo **boratos e borossilicatos**.
-- **Antropogênica:** descargas de efluente podem elevar o teor em água superficial,
-  "mas esse uso diminuiu de forma significativa, e os níveis de boro em efluentes
-  continuam caindo".
+- **Natural, em água subterrânea:** lixiviação de rochas e solos contendo **boratos e
+  borossilicatos** — a fonte limita essa afirmação a aquífero.
+- **Antropogênica, em água superficial:** *"the borate content of surface water can be
+  increased as a result of wastewater discharges"* — **descargas de águas residuais**,
+  sem qualificar como doméstico. A fonte acrescenta que esse uso diminuiu de forma
+  significativa e que os níveis seguem caindo.
 
-**Por que isso importa para a gaveta:** a fonte de referência mundial declara que a
-**geologia** é o vetor dominante de boro em água — não o efluente industrial. Isso
-não isenta o efluente de oficina de tratamento de bambu (que é **puntual e
-concentrado**, ver §9.6 da peça principal), mas corrige a leitura de que boro em água
-é sobretudo poluição urbana.
+**O que a fonte NÃO estabelece:** dominância geológica para toda água. Ela diz
+"principalmente" para **água subterrânea** e trata de **água superficial**
+separadamente. Uma frase do tipo "a geologia é o vetor dominante" generaliza além do
+que o documento sustenta — a leitura correta é por compartimento.
 
 ## 4. Toxicologia, na versão resumida
 
