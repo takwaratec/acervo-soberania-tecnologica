@@ -6,10 +6,11 @@ rodada: S11
 titulo: "S11 — Uso doméstico e rural do sulfato de cobre: o que as instruções dizem e o que omitem"
 estado_documental: em-revisao-documental
 homologacao_automatica: false
-versao: 6
+versao: 7
 data_revisao: 2026-11-24
 auditoria_r7: "REPROVA — achou instrucao de reuso no COT110 que o executor declarou ausente. Acatada."
 auditoria_r8: "REPROVA — correcao entrou e citacao e fiel, mas restaram contradicoes internas (§6 com premissa velha, ficha NMBA desatualizada, extrapolacao sobre residuo, hash divergente, ano contraditorio, aspa aberta). Acatada nesta v4."
+correcao_s11bis: "a S11-bis (07-resultados) DEMONSTROU a receita informal que esta rodada declarou nao demonstrada — UFMG, blog e site comercial, sem EPI nem descarte. Corrigido no §5."
 correcao_central: "o COT110 DIZ o que fazer com a solucao excedente (L207-214): armazenar em recipiente plastico e reutilizar no proximo tratamento. A v1 afirmou ausencia total — era falso."
 responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
@@ -215,7 +216,7 @@ escala doméstica.
 | Dicromato e ácido bórico **estão declarados** sob controle da Polícia Federal pela fonte | **estabelecido** |
 | O sulfato de cobre **não está** sob controle da PF | **INFERÊNCIA do executor** — a fonte nomeia os dois controlados e não afirma que a lista seja exaustiva |
 | "O Brasil tem melhor EPI que a Índia" | **NÃO SUSTENTADO** — sem critério comparativo; ver tabela §4.1 |
-| Existe receita caseira de CCB circulando sem aviso no Brasil | **NÃO DEMONSTRADO** — nenhum documento do corpus é receita sem aviso; **uma instrução oficial não prova nada sobre outras** |
+| Existe receita caseira de CCB circulando sem aviso no Brasil | **DEMONSTRADO na S11-bis** (ver `07-resultados-s11bis-receitas-informais.md`) — está em página da UFMG, blog e site comercial, com proporção, concentração e imersão, e zero menção a EPI, descarte ou resíduo. **Esta linha corrigia uma conclusão anterior que era minha e estava errada.** |
 | A receita caseira omite EPI | **não demonstrado** — o COT110 **não é** receita caseira, é instrução oficial; a v1 tratou um pelo outro |
 
 **Duas afirmações do plano caem — e a v1 errou ao dizer que caíam "por refutação":**
