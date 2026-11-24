@@ -129,6 +129,13 @@ reuso". **Falso.** O COT110 manda, literalmente (L207–214):
 o documento pressupõe que sempre haverá "próximo tratamento" e **não diz o que fazer quando
 o reuso já não é possível** — fim da obra, saturação do banho, queda de concentração.
 
+**Verificação de vocabulário da ausência** (para não ser acusada de leitura parcial outra
+vez — foram contadas no texto extraído do COT110): "destinação" **0** ocorrências;
+"saturação"/"saturado" **0**; "fim do tratamento" **0**; "resíduo" **2**, ambas em
+**primeiros socorros** ("eliminar qualquer resíduo do material" nos olhos, "evitar que
+aspire resíduos" na ingestão) e nenhuma em destinação de resíduo. A ausência é do **caso
+final**, não da orientação de reuso.
+
 ### 4.1 O manual indiano responde — e é o único
 
 **NMBA 2006, *Preservation of Bamboo*, p. 46–47** — manual oficial do *National Mission on
