@@ -8,7 +8,7 @@
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "fd3a6c757c264642a8bd33a0864c673ec7ac7961",
+ "alvo_commit": "5ca8b8f301b38d7eaa798bb94f558583d05f586a",
  "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, fichas, fontes). O manifesto em si é publicado num commit POSTERIOR — um arquivo não pode conter o hash do commit que o publica.",
  "aviso_de_leitura": {
   "repositorio": "takwaratec/acervo-soberania-tecnologica",
