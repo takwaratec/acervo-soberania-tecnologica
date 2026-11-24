@@ -11,6 +11,13 @@ def _txt(s):
     """texto puro do cabeçalho, para data-l"""
     return re.sub(r"<[^>]+>", "", s).strip()
 
+def cit(*chaves):
+    """Marca de citação: (1), (1,3). Chaves vêm de referencias_cobre.NUMERO."""
+    from referencias_cobre import NUMERO
+    return '<sup class="cit">(' + ", ".join(str(NUMERO[k]) for k in sorted(NUMERO, key=NUMERO.get)
+                                             if k in chaves) + ')</sup>'
+
+
 def tabela(cols, rows, cls=""):
     """cols: lista de cabeçalhos. rows: lista de listas de células (HTML)."""
     n = len(cols)
@@ -166,7 +173,7 @@ cobre junto com outras coisas — enxofre e água.</p>
    "<strong>39,81%</strong>"]])}
 
 <p><strong>Leia a terceira coluna com calma.</strong> Um quilo do pó azul <strong>não</strong> contém um quilo
-de cobre: contém <strong>254 gramas</strong> de cobre e 746 gramas de outras coisas.</p>
+de cobre: contém <strong>254 gramas</strong> de cobre e 746 gramas de outras coisas. {cit("rusch2023")}</p>
 
 <p>Agora o problema prático. Se uma receita pede &quot;1 quilo de sulfato de cobre&quot;, a pessoa está
 colocando 254 gramas de metal na água. Se ela achar que está colocando 1 quilo de cobre, <strong>vai errar
@@ -218,7 +225,7 @@ sobre o descarte.</p>
 <h3>O dado oficial, em 2025</h3>
 
 <p>O órgão do governo brasileiro que registra comércio exterior (ComexStat) classifica o sulfato de cobre
-sob um código chamado <strong>NCM 2833.25</strong> — um número que funciona como &quot;código de barras
+sob um código chamado <strong>NCM 2833.25</strong>{cit("comexstat")} — um número que funciona como &quot;código de barras
 alfandegário&quot; da substância. Em 2025:</p>
 
 {kpis([("177,9 t", "importadas no ano"),
@@ -292,7 +299,7 @@ e fruticultura.</p>
 
 <p>Aqui está a informação que quase nunca aparece nos textos informais:</p>
 
-<p><strong>O cobre não mata cupim, não mata broca, não mata besouro.</strong> Ele é fungicida, não é
+<p><strong>O cobre não mata cupim, não mata broca, não mata besouro.</strong>{cit("gauss2020")} Ele é fungicida, não é
 inseticida.</p>
 
 {note("A frase está na literatura técnica", "Na tabela de preservantes do estudo de Gauss (2020), a combinação "
@@ -316,7 +323,7 @@ que junta três princípios ativos.</p>
 a junção das iniciais de cada um.</p>
 
 <p>E aqui um dado que reorganiza a dosagem, e que só existe porque alguém mediu: na formulação descrita
-pela norma brasileira (NBR 6232) e usada no ensaio de Rusch (2023), o CCB é composto de
+pela norma brasileira (NBR 6232){cit("nbr6232")} e usada no ensaio de Rusch (2023){cit("rusch2023")}, o CCB é composto de
 <strong>26% de sulfato de cobre</strong>, <strong>63,5% de dicromato de potássio</strong> e
 <strong>10,5% de ácido bórico</strong>.</p>
 
@@ -385,11 +392,11 @@ de sal.</p>
 diferentes, para populações diferentes</strong>. Confundi-los é a maior fonte de erro nesta matéria.</p>
 
 {tabela(["Régua", "Valor", "Para que serve"],
- [["<strong>Água de beber</strong> (OMS)", "<strong>2 mg/L</strong>",
+ [["<strong>Água de beber</strong> (OMS)" + cit("oms2004"), "<strong>2 mg/L</strong>",
    "proteger a população inteira, todos os dias, pela vida toda"],
-  ["<strong>Efluente</strong> (CONAMA 430/2011)", "<strong>1,0 mg/L</strong>",
+  ["<strong>Efluente</strong> (CONAMA 430/2011)" + cit("conama430"), "<strong>1,0 mg/L</strong>",
    "o que uma atividade pode lançar na rede ou no corpo receptor"],
-  ["<strong>Água doce Classe 1</strong> (CONAMA 357/2005)", "<strong>0,009 mg/L</strong>",
+  ["<strong>Água doce Classe 1</strong> (CONAMA 357/2005)" + cit("conama357"), "<strong>0,009 mg/L</strong>",
    "o rio protegido — a água onde se espera vida aquática"],
   ["<strong>Invertebrado aquático, crônico</strong>", "<strong>0,00111 mg/L</strong>",
    "o nível em que a vida do rio começa a sofrer"]])}
@@ -401,7 +408,7 @@ que os dois estão certos e falam de coisas diferentes.</p>
 <h3>O detalhe que quase ninguém sabe sobre os 2 mg/L</h3>
 
 <p>Os <strong>2 mg/L</strong> da água de beber são o número mais citado de todos. E ele é
-<strong>provisório</strong> — a própria Organização Mundial da Saúde diz que o valor é provisório
+<strong>provisório</strong>{cit("oms2004")} — a própria Organização Mundial da Saúde diz que o valor é provisório
 <em>&quot;as a result of uncertainties in the dose–response&quot;</em>, isto é, por causa de incertezas
 na relação entre dose e efeito.</p>
 
@@ -697,7 +704,7 @@ agressiva — e o que é agressivo para a alface costuma ser agressivo para o re
 
 <h3>A comparação que assusta</h3>
 
-<p>O autor comparou com um herbicida comercial — o <strong>Roundup</strong>, aquele que mata planta daninha
+<p>O autor{cit("scharfenberg2020")} comparou com um herbicida comercial — o <strong>Roundup</strong>, aquele que mata planta daninha
 no pasto. No mesmo tipo de teste, com a mesma semente:</p>
 
 {tabela(["O que foi testado", "Quanto nasceu (escala de 0 a 100)"],
@@ -718,9 +725,9 @@ e a raiz não cresce.</p>
 <p><strong>A resposta curta: reusar.</strong> As duas instruções oficiais dizem a mesma coisa.</p>
 
 {tabela(["Onde", "O que mandam"],
- [["<strong>Brasil</strong> (Embrapa, 2024)",
+ [["<strong>Brasil</strong> (Embrapa, 2024)" + cit("tonini2024"),
    "guardar a solução que sobra em recipiente plástico e <strong>reutilizar no próximo tratamento</strong>"],
-  ["<strong>Índia</strong> (governo, 2006)",
+  ["<strong>Índia</strong> (governo, 2006)" + cit("nmba2006"),
    "<strong>nunca</strong> descartar em ralo, rio ou córrego; a solução usada deve ser "
    "<strong>decantada e reutilizada</strong>"]])}
 
@@ -773,7 +780,7 @@ de quintal.</li>
 
 <h3>A lei já resolveu isso — e quase ninguém sabe</h3>
 
-<p>A Política Nacional de Resíduos Sólidos (Lei 12.305/2010) diz o que é resíduo sólido:</p>
+<p>A Política Nacional de Resíduos Sólidos (Lei 12.305/2010){cit("pnrs2010")} diz o que é resíduo sólido:</p>
 
 <blockquote>&quot;material, substância, objeto ou bem descartado […] e <strong>líquidos cujas
 particularidades tornem inviável o seu lançamento na rede pública de esgotos ou em corpos d'água</strong>&quot;</blockquote>
@@ -820,7 +827,7 @@ Exige <strong>tonel de 200 litros</strong>. Proíbe o descarte <strong>duas veze
 reusar.</p>
 
 <p>Além disso, ele traz um alerta que quase ninguém conhece: o <strong>dicromato e o ácido bórico estão sob
-controle da Polícia Federal</strong> (Portaria 240/2019 e Lei 10.357/2001).</p>
+controle da Polícia Federal</strong> (Portaria 240/2019 e Lei 10.357/2001){cit("tonini2024")}.</p>
 
 {okbox("A instrução oficial não é irresponsável", "Ela dá EPI, proíbe descarte, manda reusar e avisa sobre "
  "controle federal de dois dos três sais. <strong>O problema deste artigo não é a instrução oficial.</strong>")}
@@ -830,7 +837,7 @@ controle da Polícia Federal</strong> (Portaria 240/2019 e Lei 10.357/2001).</p>
 <p>Uma página da <strong>Universidade Federal de Minas Gerais</strong> publica a receita:</p>
 
 <blockquote>&quot;Estas substâncias devem ser misturadas na proporção <strong>1kg:1kg:100litros</strong> […]
-A imersão dos colmos deve durar de <strong>8 a 10 dias</strong>.&quot;</blockquote>
+A imersão dos colmos deve durar de <strong>8 a 10 dias</strong>.&quot;{cit("ufmg_mom")}</blockquote>
 
 <p>E, com honestidade que merece registro, acrescenta: <em>&quot;Este tipo de tratamento não foi comprovado
 em pesquisas científicas, apesar de amplamente utilizado.&quot;</em></p>
@@ -840,10 +847,10 @@ em pesquisas científicas, apesar de amplamente utilizado.&quot;</em></p>
 
 <blockquote>&quot;<strong>Fórmula (2):</strong> ácido bórico / bórax / dicromato de sódio — proporção de
 <strong>2: 2: 0,5</strong>&quot; — e ensina que &quot;se você quiser aumentar, pode chegar até uma concentração
-de <strong>9%</strong>, é só dobrar a mistura&quot;.</blockquote>
+de <strong>9%</strong>, é só dobrar a mistura&quot;.{cit("blogtcs2016")}</blockquote>
 
 <p>Um <strong>site que vende construção em bambu</strong> resume, sem alarme: o produto mais utilizado é o
-octoborato como inseticida, <em>&quot;e sulfato de cobre como fungicida&quot;</em>.</p>
+octoborato como inseticida, <em>&quot;e sulfato de cobre como fungicida&quot;</em>.{cit("espaconaturalmente")}</p>
 
 <h3>A contagem que fecha a questão</h3>
 

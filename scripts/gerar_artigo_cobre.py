@@ -39,6 +39,10 @@ header.top .sub{color:#e3d6c8}
 h3{color:var(--accent-d)}
 blockquote{border-left-color:var(--accent-l)}
 
+/* marcas de citação numerada */
+sup.cit{font:600 11.5px/1 ui-monospace,Menlo,monospace;color:var(--accent);
+  vertical-align:super;letter-spacing:0;margin-left:1px}
+
 /* Com 18 abas (11 do artigo + 6 fichas + referências), a grade de 6 colunas do molde
    empilha em 3 linhas e a barra fixa passa a ocupar 132px — 13% da tela. Linha única
    rolável mantém a altura constante, como o próprio molde já faz no celular. */

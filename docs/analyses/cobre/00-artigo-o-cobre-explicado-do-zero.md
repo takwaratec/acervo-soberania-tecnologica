@@ -131,7 +131,7 @@ cobre junto com outras coisas — enxofre e água.
 | **sulfato de cobre anidro** (CuSO₄) | o mesmo, **sem** a água do cristal | **39,81%** |
 
 **Leia a terceira coluna com calma.** Um quilo do pó azul **não** contém um quilo
-de cobre: contém **254 gramas** de cobre e 746 gramas de outras coisas.
+de cobre: contém **254 gramas** de cobre e 746 gramas de outras coisas.  (4)
 
 Agora o problema prático. Se uma receita pede "1 quilo de sulfato de cobre", a pessoa está
 colocando 254 gramas de metal na água. Se ela achar que está colocando 1 quilo de cobre, **vai errar
@@ -182,7 +182,7 @@ sobre o descarte.
 ### O dado oficial, em 2025
 
 O órgão do governo brasileiro que registra comércio exterior (ComexStat) classifica o sulfato de cobre
-sob um código chamado **NCM 2833.25** — um número que funciona como "código de barras
+sob um código chamado **NCM 2833.25** (13) — um número que funciona como "código de barras
 alfandegário" da substância. Em 2025:
 
 | Número | O que significa |
@@ -257,7 +257,7 @@ e fruticultura.
 
 Aqui está a informação que quase nunca aparece nos textos informais:
 
-**O cobre não mata cupim, não mata broca, não mata besouro.** Ele é fungicida, não é
+**O cobre não mata cupim, não mata broca, não mata besouro.** (8) Ele é fungicida, não é
 inseticida.
 
 > **A frase está na literatura técnica** — Na tabela de preservantes do estudo de Gauss (2020), a combinação de cloreto de zinco com sulfato de cobre aparece descrita como "good fungicide" — bom fungicida — e, no mesmo campo, "ineffective for termites and insects" — ineficaz para cupim e inseto.
@@ -277,7 +277,7 @@ Essa mistura de três tem nome: **CCB** — *borato de cobre cromatado*. A sigla
 a junção das iniciais de cada um.
 
 E aqui um dado que reorganiza a dosagem, e que só existe porque alguém mediu: na formulação descrita
-pela norma brasileira (NBR 6232) e usada no ensaio de Rusch (2023), o CCB é composto de
+pela norma brasileira (NBR 6232) (14) e usada no ensaio de Rusch (2023) (4), o CCB é composto de
 **26% de sulfato de cobre**, **63,5% de dicromato de potássio** e
 **10,5% de ácido bórico**.
 
@@ -341,9 +341,9 @@ diferentes, para populações diferentes**. Confundi-los é a maior fonte de err
 
 | Régua | Valor | Para que serve |
 |---|---|---|
-| **Água de beber** (OMS) | **2 mg/L** | proteger a população inteira, todos os dias, pela vida toda |
-| **Efluente** (CONAMA 430/2011) | **1,0 mg/L** | o que uma atividade pode lançar na rede ou no corpo receptor |
-| **Água doce Classe 1** (CONAMA 357/2005) | **0,009 mg/L** | o rio protegido — a água onde se espera vida aquática |
+| **Água de beber** (OMS) (11) | **2 mg/L** | proteger a população inteira, todos os dias, pela vida toda |
+| **Efluente** (CONAMA 430/2011) (9) | **1,0 mg/L** | o que uma atividade pode lançar na rede ou no corpo receptor |
+| **Água doce Classe 1** (CONAMA 357/2005) (10) | **0,009 mg/L** | o rio protegido — a água onde se espera vida aquática |
 | **Invertebrado aquático, crônico** | **0,00111 mg/L** | o nível em que a vida do rio começa a sofrer |
 
 **Um número mais baixo não é "mais rigoroso"** — é um número que protege outro
@@ -353,7 +353,7 @@ que os dois estão certos e falam de coisas diferentes.
 ### O detalhe que quase ninguém sabe sobre os 2 mg/L
 
 Os **2 mg/L** da água de beber são o número mais citado de todos. E ele é
-**provisório** — a própria Organização Mundial da Saúde diz que o valor é provisório
+**provisório** (11) — a própria Organização Mundial da Saúde diz que o valor é provisório
 *"as a result of uncertainties in the dose–response"*, isto é, por causa de incertezas
 na relação entre dose e efeito.
 
@@ -631,7 +631,7 @@ E não foi só com o cobre. Aconteceu igual com o CCB e com o boro sozinho.
 
 ### A comparação que assusta
 
-O autor comparou com um herbicida comercial — o **Roundup**, aquele que mata planta daninha
+O autor (3) comparou com um herbicida comercial — o **Roundup**, aquele que mata planta daninha
 no pasto. No mesmo tipo de teste, com a mesma semente:
 
 | O que foi testado | Quanto nasceu (escala de 0 a 100) |
@@ -653,8 +653,8 @@ e a raiz não cresce.
 
 | Onde | O que mandam |
 |---|---|
-| **Brasil** (Embrapa, 2024) | guardar a solução que sobra em recipiente plástico e **reutilizar no próximo tratamento** |
-| **Índia** (governo, 2006) | **nunca** descartar em ralo, rio ou córrego; a solução usada deve ser **decantada e reutilizada** |
+| **Brasil** (Embrapa, 2024) (1) | guardar a solução que sobra em recipiente plástico e **reutilizar no próximo tratamento** |
+| **Índia** (governo, 2006) (2) | **nunca** descartar em ralo, rio ou córrego; a solução usada deve ser **decantada e reutilizada** |
 
 **Guardar e reusar. Nunca em ralo, rio ou córrego.**
 
@@ -699,7 +699,7 @@ E o reuso acaba:
 
 ### A lei já resolveu isso — e quase ninguém sabe
 
-A Política Nacional de Resíduos Sólidos (Lei 12.305/2010) diz o que é resíduo sólido:
+A Política Nacional de Resíduos Sólidos (Lei 12.305/2010) (12) diz o que é resíduo sólido:
 
 > "material, substância, objeto ou bem descartado […] e líquidos cujas
 particularidades tornem inviável o seu lançamento na rede pública de esgotos ou em corpos d'água"
@@ -744,7 +744,7 @@ Exige **tonel de 200 litros**. Proíbe o descarte **duas vezes**. E manda guarda
 reusar.
 
 Além disso, ele traz um alerta que quase ninguém conhece: o **dicromato e o ácido bórico estão sob
-controle da Polícia Federal** (Portaria 240/2019 e Lei 10.357/2001).
+controle da Polícia Federal** (Portaria 240/2019 e Lei 10.357/2001) (1).
 
 > **A instrução oficial não é irresponsável** — Ela dá EPI, proíbe descarte, manda reusar e avisa sobre controle federal de dois dos três sais. O problema deste artigo não é a instrução oficial.
 
@@ -753,7 +753,7 @@ controle da Polícia Federal** (Portaria 240/2019 e Lei 10.357/2001).
 Uma página da **Universidade Federal de Minas Gerais** publica a receita:
 
 > "Estas substâncias devem ser misturadas na proporção 1kg:1kg:100litros […]
-A imersão dos colmos deve durar de 8 a 10 dias."
+A imersão dos colmos deve durar de 8 a 10 dias." (5)
 
 E, com honestidade que merece registro, acrescenta: *"Este tipo de tratamento não foi comprovado
 em pesquisas científicas, apesar de amplamente utilizado."*
@@ -763,10 +763,10 @@ Um **blog de construção sustentável** vai além e ensina a fórmula completa,
 
 > "Fórmula (2): ácido bórico / bórax / dicromato de sódio — proporção de
 2: 2: 0,5" — e ensina que "se você quiser aumentar, pode chegar até uma concentração
-de 9%, é só dobrar a mistura".
+de 9%, é só dobrar a mistura". (6)
 
 Um **site que vende construção em bambu** resume, sem alarme: o produto mais utilizado é o
-octoborato como inseticida, *"e sulfato de cobre como fungicida"*.
+octoborato como inseticida, *"e sulfato de cobre como fungicida"*. (7)
 
 ### A contagem que fecha a questão
 

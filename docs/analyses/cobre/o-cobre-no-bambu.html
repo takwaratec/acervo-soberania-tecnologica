@@ -151,6 +151,10 @@ header.top .sub{color:#e3d6c8}
 h3{color:var(--accent-d)}
 blockquote{border-left-color:var(--accent-l)}
 
+/* marcas de citação numerada */
+sup.cit{font:600 11.5px/1 ui-monospace,Menlo,monospace;color:var(--accent);
+  vertical-align:super;letter-spacing:0;margin-left:1px}
+
 /* Com 18 abas (11 do artigo + 6 fichas + referências), a grade de 6 colunas do molde
    empilha em 3 linhas e a barra fixa passa a ocupar 132px — 13% da tela. Linha única
    rolável mantém a altura constante, como o próprio molde já faz no celular. */
@@ -168,7 +172,7 @@ nav.tabs button{flex:0 0 auto;white-space:nowrap;overflow-wrap:normal;hyphens:no
   <div class="chips">
     <span class="chip chip--gold">EM REVISÃO DOCUMENTAL · NÃO HOMOLOGADO</span>
     <span class="chip">18 abas</span>
-    <span class="chip">~9.958 palavras</span>
+    <span class="chip">~10.026 palavras</span>
     <span class="chip">37 termos no glossário</span>
     <span class="chip">6 fichas + 14 referências</span>
     <span class="chip">2026-11-24</span>
@@ -285,7 +289,7 @@ cobre junto com outras coisas — enxofre e água.</p>
 <div class="tabwrap"><table><thead><tr><th>O que a pessoa compra</th><th>O que é de verdade</th><th>Quanto é cobre dentro</th></tr></thead><tbody><tr><td data-l="O que a pessoa compra"><strong>cobre</strong> (Cu)</td><td data-l="O que é de verdade">o metal, o átomo de 29 prótons</td><td data-l="Quanto é cobre dentro">100% (é ele mesmo)</td></tr><tr><td data-l="O que a pessoa compra"><strong>sulfato de cobre</strong> (CuSO₄·5H₂O)</td><td data-l="O que é de verdade">cobre + enxofre + oxigênio + água</td><td data-l="Quanto é cobre dentro"><strong>25,45%</strong></td></tr><tr><td data-l="O que a pessoa compra"><strong>sulfato de cobre anidro</strong> (CuSO₄)</td><td data-l="O que é de verdade">o mesmo, <strong>sem</strong> a água do cristal</td><td data-l="Quanto é cobre dentro"><strong>39,81%</strong></td></tr></tbody></table></div>
 
 <p><strong>Leia a terceira coluna com calma.</strong> Um quilo do pó azul <strong>não</strong> contém um quilo
-de cobre: contém <strong>254 gramas</strong> de cobre e 746 gramas de outras coisas.</p>
+de cobre: contém <strong>254 gramas</strong> de cobre e 746 gramas de outras coisas. <sup class="cit">(4)</sup></p>
 
 <p>Agora o problema prático. Se uma receita pede &quot;1 quilo de sulfato de cobre&quot;, a pessoa está
 colocando 254 gramas de metal na água. Se ela achar que está colocando 1 quilo de cobre, <strong>vai errar
@@ -334,7 +338,7 @@ sobre o descarte.</p>
 <h3>O dado oficial, em 2025</h3>
 
 <p>O órgão do governo brasileiro que registra comércio exterior (ComexStat) classifica o sulfato de cobre
-sob um código chamado <strong>NCM 2833.25</strong> — um número que funciona como &quot;código de barras
+sob um código chamado <strong>NCM 2833.25</strong><sup class="cit">(13)</sup> — um número que funciona como &quot;código de barras
 alfandegário&quot; da substância. Em 2025:</p>
 
 <div class="kpis"><div class="kpi"><div class="n">177,9 t</div><div class="l">importadas no ano</div></div><div class="kpi"><div class="n">US$ 370 mil</div><div class="l">total pago</div></div><div class="kpi"><div class="n">US$ 2,08</div><div class="l">preço médio por quilo</div></div><div class="kpi"><div class="n">80,4%</div><div class="l">do peso vem da China</div></div></div>
@@ -398,7 +402,7 @@ e fruticultura.</p>
 
 <p>Aqui está a informação que quase nunca aparece nos textos informais:</p>
 
-<p><strong>O cobre não mata cupim, não mata broca, não mata besouro.</strong> Ele é fungicida, não é
+<p><strong>O cobre não mata cupim, não mata broca, não mata besouro.</strong><sup class="cit">(8)</sup> Ele é fungicida, não é
 inseticida.</p>
 
 <div class="note"><strong>A frase está na literatura técnica</strong><p>Na tabela de preservantes do estudo de Gauss (2020), a combinação de cloreto de zinco com sulfato de cobre aparece descrita como <em>&quot;good fungicide&quot;</em> — bom fungicida — e, no mesmo campo, <em>&quot;ineffective for termites and insects&quot;</em> — ineficaz para cupim e inseto.</p></div>
@@ -414,7 +418,7 @@ que junta três princípios ativos.</p>
 a junção das iniciais de cada um.</p>
 
 <p>E aqui um dado que reorganiza a dosagem, e que só existe porque alguém mediu: na formulação descrita
-pela norma brasileira (NBR 6232) e usada no ensaio de Rusch (2023), o CCB é composto de
+pela norma brasileira (NBR 6232)<sup class="cit">(14)</sup> e usada no ensaio de Rusch (2023)<sup class="cit">(4)</sup>, o CCB é composto de
 <strong>26% de sulfato de cobre</strong>, <strong>63,5% de dicromato de potássio</strong> e
 <strong>10,5% de ácido bórico</strong>.</p>
 
@@ -474,7 +478,7 @@ de sal.</p>
 <p>Quando se fala em quanto cobre é seguro, aparecem números diferentes. Eles <strong>medem coisas
 diferentes, para populações diferentes</strong>. Confundi-los é a maior fonte de erro nesta matéria.</p>
 
-<div class="tabwrap"><table><thead><tr><th>Régua</th><th>Valor</th><th>Para que serve</th></tr></thead><tbody><tr><td data-l="Régua"><strong>Água de beber</strong> (OMS)</td><td data-l="Valor"><strong>2 mg/L</strong></td><td data-l="Para que serve">proteger a população inteira, todos os dias, pela vida toda</td></tr><tr><td data-l="Régua"><strong>Efluente</strong> (CONAMA 430/2011)</td><td data-l="Valor"><strong>1,0 mg/L</strong></td><td data-l="Para que serve">o que uma atividade pode lançar na rede ou no corpo receptor</td></tr><tr><td data-l="Régua"><strong>Água doce Classe 1</strong> (CONAMA 357/2005)</td><td data-l="Valor"><strong>0,009 mg/L</strong></td><td data-l="Para que serve">o rio protegido — a água onde se espera vida aquática</td></tr><tr><td data-l="Régua"><strong>Invertebrado aquático, crônico</strong></td><td data-l="Valor"><strong>0,00111 mg/L</strong></td><td data-l="Para que serve">o nível em que a vida do rio começa a sofrer</td></tr></tbody></table></div>
+<div class="tabwrap"><table><thead><tr><th>Régua</th><th>Valor</th><th>Para que serve</th></tr></thead><tbody><tr><td data-l="Régua"><strong>Água de beber</strong> (OMS)<sup class="cit">(11)</sup></td><td data-l="Valor"><strong>2 mg/L</strong></td><td data-l="Para que serve">proteger a população inteira, todos os dias, pela vida toda</td></tr><tr><td data-l="Régua"><strong>Efluente</strong> (CONAMA 430/2011)<sup class="cit">(9)</sup></td><td data-l="Valor"><strong>1,0 mg/L</strong></td><td data-l="Para que serve">o que uma atividade pode lançar na rede ou no corpo receptor</td></tr><tr><td data-l="Régua"><strong>Água doce Classe 1</strong> (CONAMA 357/2005)<sup class="cit">(10)</sup></td><td data-l="Valor"><strong>0,009 mg/L</strong></td><td data-l="Para que serve">o rio protegido — a água onde se espera vida aquática</td></tr><tr><td data-l="Régua"><strong>Invertebrado aquático, crônico</strong></td><td data-l="Valor"><strong>0,00111 mg/L</strong></td><td data-l="Para que serve">o nível em que a vida do rio começa a sofrer</td></tr></tbody></table></div>
 
 <p><strong>Um número mais baixo não é &quot;mais rigoroso&quot;</strong> — é um número que protege outro
 objeto. Quem compara 2 mg/L com 0,009 mg/L e conclui que &quot;um dos dois está errado&quot; não entendeu
@@ -483,7 +487,7 @@ que os dois estão certos e falam de coisas diferentes.</p>
 <h3>O detalhe que quase ninguém sabe sobre os 2 mg/L</h3>
 
 <p>Os <strong>2 mg/L</strong> da água de beber são o número mais citado de todos. E ele é
-<strong>provisório</strong> — a própria Organização Mundial da Saúde diz que o valor é provisório
+<strong>provisório</strong><sup class="cit">(11)</sup> — a própria Organização Mundial da Saúde diz que o valor é provisório
 <em>&quot;as a result of uncertainties in the dose–response&quot;</em>, isto é, por causa de incertezas
 na relação entre dose e efeito.</p>
 
@@ -732,7 +736,7 @@ agressiva — e o que é agressivo para a alface costuma ser agressivo para o re
 
 <h3>A comparação que assusta</h3>
 
-<p>O autor comparou com um herbicida comercial — o <strong>Roundup</strong>, aquele que mata planta daninha
+<p>O autor<sup class="cit">(3)</sup> comparou com um herbicida comercial — o <strong>Roundup</strong>, aquele que mata planta daninha
 no pasto. No mesmo tipo de teste, com a mesma semente:</p>
 
 <div class="tabwrap"><table><thead><tr><th>O que foi testado</th><th>Quanto nasceu (escala de 0 a 100)</th></tr></thead><tbody><tr><td data-l="O que foi testado"><strong>Roundup</strong></td><td data-l="Quanto nasceu (escala de 0 a 100)"><strong>acima de 80</strong></td></tr><tr><td data-l="O que foi testado"><strong>solução de cobre e boro</strong></td><td data-l="Quanto nasceu (escala de 0 a 100)"><strong>11 no melhor caso</strong></td></tr></tbody></table></div>
@@ -749,7 +753,7 @@ e a raiz não cresce.</p>
 
 <p><strong>A resposta curta: reusar.</strong> As duas instruções oficiais dizem a mesma coisa.</p>
 
-<div class="tabwrap"><table><thead><tr><th>Onde</th><th>O que mandam</th></tr></thead><tbody><tr><td data-l="Onde"><strong>Brasil</strong> (Embrapa, 2024)</td><td data-l="O que mandam">guardar a solução que sobra em recipiente plástico e <strong>reutilizar no próximo tratamento</strong></td></tr><tr><td data-l="Onde"><strong>Índia</strong> (governo, 2006)</td><td data-l="O que mandam"><strong>nunca</strong> descartar em ralo, rio ou córrego; a solução usada deve ser <strong>decantada e reutilizada</strong></td></tr></tbody></table></div>
+<div class="tabwrap"><table><thead><tr><th>Onde</th><th>O que mandam</th></tr></thead><tbody><tr><td data-l="Onde"><strong>Brasil</strong> (Embrapa, 2024)<sup class="cit">(1)</sup></td><td data-l="O que mandam">guardar a solução que sobra em recipiente plástico e <strong>reutilizar no próximo tratamento</strong></td></tr><tr><td data-l="Onde"><strong>Índia</strong> (governo, 2006)<sup class="cit">(2)</sup></td><td data-l="O que mandam"><strong>nunca</strong> descartar em ralo, rio ou córrego; a solução usada deve ser <strong>decantada e reutilizada</strong></td></tr></tbody></table></div>
 
 <p><strong>Guardar e reusar. Nunca em ralo, rio ou córrego.</strong></p>
 
@@ -799,7 +803,7 @@ de quintal.</li>
 
 <h3>A lei já resolveu isso — e quase ninguém sabe</h3>
 
-<p>A Política Nacional de Resíduos Sólidos (Lei 12.305/2010) diz o que é resíduo sólido:</p>
+<p>A Política Nacional de Resíduos Sólidos (Lei 12.305/2010)<sup class="cit">(12)</sup> diz o que é resíduo sólido:</p>
 
 <blockquote>&quot;material, substância, objeto ou bem descartado […] e <strong>líquidos cujas
 particularidades tornem inviável o seu lançamento na rede pública de esgotos ou em corpos d'água</strong>&quot;</blockquote>
@@ -842,7 +846,7 @@ Exige <strong>tonel de 200 litros</strong>. Proíbe o descarte <strong>duas veze
 reusar.</p>
 
 <p>Além disso, ele traz um alerta que quase ninguém conhece: o <strong>dicromato e o ácido bórico estão sob
-controle da Polícia Federal</strong> (Portaria 240/2019 e Lei 10.357/2001).</p>
+controle da Polícia Federal</strong> (Portaria 240/2019 e Lei 10.357/2001)<sup class="cit">(1)</sup>.</p>
 
 <div class="okbox"><strong>A instrução oficial não é irresponsável</strong><p>Ela dá EPI, proíbe descarte, manda reusar e avisa sobre controle federal de dois dos três sais. <strong>O problema deste artigo não é a instrução oficial.</strong></p></div>
 
@@ -851,7 +855,7 @@ controle da Polícia Federal</strong> (Portaria 240/2019 e Lei 10.357/2001).</p>
 <p>Uma página da <strong>Universidade Federal de Minas Gerais</strong> publica a receita:</p>
 
 <blockquote>&quot;Estas substâncias devem ser misturadas na proporção <strong>1kg:1kg:100litros</strong> […]
-A imersão dos colmos deve durar de <strong>8 a 10 dias</strong>.&quot;</blockquote>
+A imersão dos colmos deve durar de <strong>8 a 10 dias</strong>.&quot;<sup class="cit">(5)</sup></blockquote>
 
 <p>E, com honestidade que merece registro, acrescenta: <em>&quot;Este tipo de tratamento não foi comprovado
 em pesquisas científicas, apesar de amplamente utilizado.&quot;</em></p>
@@ -861,10 +865,10 @@ em pesquisas científicas, apesar de amplamente utilizado.&quot;</em></p>
 
 <blockquote>&quot;<strong>Fórmula (2):</strong> ácido bórico / bórax / dicromato de sódio — proporção de
 <strong>2: 2: 0,5</strong>&quot; — e ensina que &quot;se você quiser aumentar, pode chegar até uma concentração
-de <strong>9%</strong>, é só dobrar a mistura&quot;.</blockquote>
+de <strong>9%</strong>, é só dobrar a mistura&quot;.<sup class="cit">(6)</sup></blockquote>
 
 <p>Um <strong>site que vende construção em bambu</strong> resume, sem alarme: o produto mais utilizado é o
-octoborato como inseticida, <em>&quot;e sulfato de cobre como fungicida&quot;</em>.</p>
+octoborato como inseticida, <em>&quot;e sulfato de cobre como fungicida&quot;</em>.<sup class="cit">(7)</sup></p>
 
 <h3>A contagem que fecha a questão</h3>
 

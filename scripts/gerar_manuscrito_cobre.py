@@ -98,6 +98,8 @@ def html_para_md(trecho):
 
 
     # inline
+    # marca de citação: <sup class="cit">(3)</sup> -> (3), antes de remover tags
+    t = re.sub(r'<sup class="cit">(.*?)</sup>', r" \1", t, flags=re.S)
     t = re.sub(r"<blockquote>(.*?)</blockquote>", lambda m: "\n> " + re.sub(r"<[^>]+>", "", m.group(1)).strip() + "\n", t, flags=re.S)
     t = re.sub(r"<h4>(.*?)</h4>", r"\n#### \1\n", t, flags=re.S)
     t = re.sub(r"<h3>(.*?)</h3>", r"\n### \1\n", t, flags=re.S)
