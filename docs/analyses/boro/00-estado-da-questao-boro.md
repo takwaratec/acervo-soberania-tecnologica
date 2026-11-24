@@ -1,5 +1,6 @@
 ---
 schema: ACERVO_ESTADO_DA_QUESTAO_R1
+tipo_documental: estado-da-arte-com-agenda-experimental
 gaveta: boro
 frente: BORO
 titulo: "Boro — origem, raridade, dosagem e o risco do uso indiscriminado como preservante de bambu"
@@ -11,17 +12,20 @@ responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 fonte_primaria: PDFs integralmente conferidos e custodiados na camada privada; importacao por API oficial (ComexStat/MDIC)
 pacote_fontes_privado: _privado/governanca-operacional/extracoes/boro/
-funcao_na_serie: capitulo introdutorio dos tratamentos convencionais do bambu
+funcao_na_serie: capitulo sobre o elemento boro; a preservacao de bambu e uma das aplicacoes
 revisao_pos_auditoria: "v5 — capitulo recentrado no ELEMENTO boro; historico de auditoria retirado do texto publico (vive nos relatorios privados); bambu como aplicacao delimitada"
+tipo_do_documento_na_serie: peca principal da gaveta
 ---
 
 # Boro — estado da questão
 
-> **Síntese.** O boro é o preservante de bambu mais difundido. A literatura
-> sustenta que ele é eficaz contra fungos e insetos em condições experimentais, e
-> sustenta também que ele **lixivia de forma severa**: ensaio direto em bambu
-> tratado somente com DOT perdeu **82,4%** do boro, e com ele a atividade
-> fungicida. O que a literatura **não** fornece é medição de exposição de
+> **Síntese.** O boro é um metaloide raro, de origem estelar indireta, que o
+> Brasil importa em quase meio milhão de toneladas de produto por ano e usa em
+> cinco escalas diferentes — do miligrama em uma cápsula à tonelada de minério.
+> Sua aplicação mais difundida na construção é a preservação de bambu, e é
+> também a mais frágil: ensaio direto em bambu tratado com **DOT isolado**
+> perdeu **82,4%** do boro sob lixiviação, embora as formulações com tanino
+> tenham mantido desempenho fúngico satisfatório. O que a literatura **não** fornece é medição de exposição de
 > operadores de bambu, nem de poeira respirável de bambu tratado serrado. O
 > efeito crítico é toxicidade do desenvolvimento, uma a duas ordens de grandeza
 > abaixo da dose letal. O capítulo sustenta uma **agenda de mensuração**, não uma

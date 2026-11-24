@@ -1,3 +1,16 @@
+---
+tipo_documental: instrumento-de-pesquisa
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio Takwara
+homologacao_automatica: false
+titulo: "BOOTSTRAP — frente COBRE (documento de ligação)"
+gaveta: boro
+frente: BORO
+assistencia_documental: agente de IA, sujeito a revisao humana
+data_geracao: 2026-11-24
+funcao: documento de LIGACAO entre a gaveta boro e a gaveta cobre; permanece em docs/analyses/boro/ porque foi produzido nesta frente — move-lo e decisao de quem responde pelo cobre
+---
+
 # BOOTSTRAP — Frente COBRE
 
 **Tipo:** bootstrap com ligação de frentes (não é handoff de trabalho executado)

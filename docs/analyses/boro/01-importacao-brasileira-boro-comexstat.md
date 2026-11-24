@@ -1,5 +1,6 @@
 ---
 schema: ACERVO_ANALISE_PUBLICA_R1
+tipo_documental: estado-da-arte-com-agenda-experimental
 gaveta: boro
 frente: BORO
 titulo: "Importação brasileira de boro — série 1997–2026 por NCM (ComexStat/MDIC)"
@@ -7,6 +8,8 @@ estado_documental: em-revisao-documental
 homologacao_automatica: false
 versao: 1
 data_extracao: 2026-11-24
+responsavel_curadoria: Fabio Takwara
+assistencia_documental: agente de IA, sujeito a revisao humana
 fonte_primaria: API oficial ComexStat / MDIC (consulta direta, resposta gravada)
 pacote_dados_privado: _privado/governanca-operacional/extracoes/boro/fontes_novas/comexstat/
 complementa: 00-estado-da-questao-boro.md §5.1

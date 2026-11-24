@@ -1,3 +1,16 @@
+---
+tipo_documental: instrumento-de-pesquisa
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio Takwara
+homologacao_automatica: false
+titulo: "HANDOFF — Frente BORO"
+gaveta: boro
+frente: BORO
+assistencia_documental: agente de IA, sujeito a revisao humana
+data_geracao: 2026-11-24
+funcao: documento de continuidade entre topicos; nao e homologacao nem peca do acervo publico
+---
+
 # HANDOFF — Frente BORO
 
 **Gerado em:** 2026-11-24
