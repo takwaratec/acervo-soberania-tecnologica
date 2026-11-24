@@ -7,6 +7,7 @@
  "artefatos_publicos": [
   "00-mapa-reprocessamento.md",
   "01-plano-de-pesquisa.md",
+  "02-plano-sulfato-de-cobre.md",
   "index.md"
  ],
  "custodia_privada": {
@@ -113,5 +114,29 @@
   ],
   "v1_superada": "99-plano-v1-superado.md (recorte de produto; preservada byte a byte)",
   "objeto_de_auditoria": "COBRE-PLANO-AUDITORIA-20261124-R1"
+ },
+ "plano_especifico_sulfato": {
+  "versao": 1,
+  "rodadas": 7,
+  "rodadas_ids": [
+   "S1 identidade e mecanismo",
+   "S2 riscos",
+   "S3 literatura",
+   "S4 legislacao e proibicoes",
+   "S5 conformidade no Brasil",
+   "S6 Anvisa e fiscalizacao",
+   "S7 dosagem remedio x veneno"
+  ],
+  "comercio_medido": {
+   "ncm": [
+    "28332510",
+    "28332520"
+   ],
+   "importacao_2025_t": 177.854,
+   "importacao_2025_usd": 370053,
+   "origem_dominante": "China 48,3%",
+   "serie": "1997-2026, volatil, -86% entre 1997 e 2020"
+  },
+  "contraste": "exporta 1.451.750 t de minerio de cobre (2603) e importa 177,9 t de sulfato: razao ~8.000:1 em massa"
  }
 }
