@@ -6,7 +6,7 @@ rodada: S11
 titulo: "S11 — Uso doméstico e rural do sulfato de cobre: o que as instruções dizem e o que omitem"
 estado_documental: em-revisao-documental
 homologacao_automatica: false
-versao: 4
+versao: 5
 data_revisao: 2026-11-24
 auditoria_r7: "REPROVA — achou instrucao de reuso no COT110 que o executor declarou ausente. Acatada."
 auditoria_r8: "REPROVA — correcao entrou e citacao e fiel, mas restaram contradicoes internas (§6 com premissa velha, ficha NMBA desatualizada, extrapolacao sobre residuo, hash divergente, ano contraditorio, aspa aberta). Acatada nesta v4."
@@ -90,11 +90,12 @@ demais foram qualificadas acima e **não contam**.
 > *"A roupa de trabalho contaminada não pode sair do local de trabalho. Lavar antes de
 > usá-la novamente."*
 
-**Isso é instrução boa e responsável.** Ela nomeia EPI, EPI por peça, o volume do tonel
-(200 L), os reagentes, e proíbe o descarte no ambiente. **A rodada não encontrou omissão
-de EPI na instrução rural brasileira — encontrou o contrário.**
+**O que a instrução nomeia:** EPI por peça, o volume do tonel (200 L), os reagentes, e a
+proibição de descarte no ambiente. **A rodada não encontrou omissão de EPI na instrução
+rural brasileira — encontrou o contrário.** *(A avaliação de que isso é "bom" ou
+"responsável" fica com o leitor; o documento registra o que está escrito.)*
 
-**E um achado normativo que a fonte traz e que muda o quadro jurídico:**
+**E uma declaração normativa que a fonte traz:**
 
 > *"O Dicromato de Potássio ou de Sódio e o Ácido Bórico estão atualmente sob o controle
 > da Polícia Federal, conforme a Portaria número 240, de 12 de março de 2019, e a Lei
