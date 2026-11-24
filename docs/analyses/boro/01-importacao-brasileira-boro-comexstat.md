@@ -16,8 +16,9 @@ complementa: 00-estado-da-questao-boro.md §5.1
 
 > **Síntese.** O Brasil importou **487.185 t** de produtos de boro em 2025, por
 > **US$ 225,8 milhões** FOB — cerca de **4,4 vezes a massa e 6,3 vezes o valor de
-> 1997**. Não há produção nacional declarada: todo o boro consumido no país entra
-> pelo porto. E entra, em quase quatro quintos do valor, de **vizinhos
+> 1997**. Não há produção nacional de boratos declarada à USGS — o que **não**
+> prova que todo o boro consumido entre pelo porto: importação de produto não é
+> consumo, e reexportação e estoque não são descontados. E entra, em quase quatro quintos do valor, de **vizinhos
 > sul-americanos** (Argentina, Bolívia, Chile, Peru) — não da Turquia, que é a
 > origem dominante do abastecimento *norte-americano*. A dependência brasileira é
 > geológica e logística, mas é **regional**, não turca. Em 2026 há uma inflexão:
@@ -235,9 +236,18 @@ Aplicando ao total de 2025 (487.185 t de produto), com a faixa 11–17,5%:
 **~54 a ~85 mil toneladas de boro elementar** entraram no país em 2025. Para 1997
 (111.621 t): ~12 a ~20 kt de B.
 
-**Limite explícito:** essa faixa supõe que todo o minério bruto tenha teor de
-mineral puro, o que **superestima** o boro contido — minério tem ganga. O número
-verdadeiro é **menor** que o piso da faixa. Ela é teto, não medida.
+**Limite explícito — e uma correção.** A faixa de 11–17,5% **não é teto nem piso
+demonstrado**, e aplicá-la ao total mistura produtos de naturezas diferentes:
+
+- o **bórax anidro tem 21,5% de B**, acima do teto de 17,5% usado — o intervalo
+  **subestima** essa parcela;
+- o **minério bruto** (ulexita, colemanita) carrega ganga, o que puxa para baixo;
+- somar NCMs distintos e aplicar um fator único pressupõe composição média que a
+  série não informa.
+
+Sem discriminação de produto e teor, os dados oficiais sustentam a **massa
+comercial importada** (487.185 t em 2025) — não um intervalo de boro elementar.
+A conversão serve para ordem de grandeza, com esta ressalva anexada.
 
 ---
 

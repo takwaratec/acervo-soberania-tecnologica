@@ -5,14 +5,14 @@ frente: BORO
 titulo: "Boro — origem, raridade, dosagem e o risco do uso indiscriminado como preservante de bambu"
 estado_documental: em-revisao-documental
 homologacao_automatica: false
-versao: 3
+versao: 4
 data_revisao: 2026-11-24
 responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 fonte_primaria: PDFs integralmente conferidos e custodiados na camada privada; importacao por API oficial (ComexStat/MDIC)
 pacote_fontes_privado: _privado/governanca-operacional/extracoes/boro/
 funcao_na_serie: capitulo introdutorio dos tratamentos convencionais do bambu
-revisao_pos_auditoria: "v3 — corrigidos A4 (BLOQUEANTE) e A5, que o parecer TECO apontou e nao aplicou; ver §13"
+revisao_pos_auditoria: "v4 — parecer R4 (REPLANEJAR) adjudicado: tabela de lixiviacao reescrita por coluna de origem, NIOSH separado por forma quimica, essencialidade humana declarada (NIH), CLP custodiado. Adjudicacao em _privado/.../RELATORIO_ADJUDICACAO_R4.md"
 ---
 
 # Boro — estado da questão
@@ -79,8 +79,9 @@ estelares moderadas; uma estrela é destruidora líquida desses elementos. A ori
 dominante é a **espalação por raios cósmicos**: prótons energéticos colidem com
 núcleos de carbono, nitrogênio e oxigênio no meio interestelar e fragmentam-nos,
 e os detritos incluem lítio, berílio e boro. A supernova entra como
-**acelerador** dos raios cósmicos e há ainda uma componente de espalação
-induzida por neutrinos em supernovas, minoritária para o ¹⁰B. (Reeves, Fowler &
+**acelerador** dos raios cósmicos. Há ainda uma segunda via: o **processo
+neutrínico (ν-process)** em supernovas produz **¹¹B** — não ¹⁰B — e é minoritário
+frente à espalação. (Reeves, Fowler &
 Hoyle 1970; modelo canônico revisado em Vangioni-Flam & Cassé e na literatura
 de evolução química galáctica.)
 
@@ -89,9 +90,12 @@ cuja síntese ocorreu no meio interestelar por espalação — e não "cozido" d
 de estrelas e ejetado por elas. A frase "veio de explosões estelares" é
 imprecisa num ponto que importa: é justamente por ser **frácil** que ele é raro.
 
-**Por que isso não é erudição.** É a raiz física da raridade invocada no item 4.
-O boro é raro não porque seja escasso por acaso geológico, mas porque o universo
-o produz por um processo ineficiente e o destrói em qualquer forno estelar.
+**Por que isso não é erudição — e onde o argumento para.** A raridade tem duas
+camadas que não se reduzem uma à outra: (i) a **abundância cósmica** é baixa
+porque a síntese é ineficiente e as estrelas destroem o elemento; (ii) a
+**raridade de jazidas** depende de concentração, deposição e preservação mineral —
+processos geológicos próprios. A primeira **não explica** a segunda, e usá-la para
+descartar fatores geológicos seria inferência indevida.
 
 ## 4. Raridade, reservas e o erro de Yellowstone
 
@@ -166,8 +170,9 @@ afirmação de nicho estratégico.** A distribuição de uso é o oposto do intu
 
 - **mais de três quartos** do consumo mundial vai para **cerâmicas, detergentes,
   fertilizantes e vidro** (USGS MCS2026, p. 1);
-- a fibra de vidro — isolamento e fibra têxtil para compósitos — é o maior
-  segmento isolado, na casa de metade do consumo global;
+- a categoria **"Glass/Fibreglass"** — vidro e fibra de vidro somados, não fibra
+  isolada — responde por cerca de **49%** do consumo (JRC, ficha de matérias-primas
+  críticas);
 - fertilizantes (micronutriente boro) ficam na ordem de 11–15%;
 - usos químicos, retardantes de chama e **preservantes de madeira** na ordem de
   8%;
@@ -285,12 +290,17 @@ com fator de incerteza total de 66. Para adulto: 0,2 × 50 kg = 10 mg B/dia.
 categoria **CMR Repr. cat. 2** no enquadramento **então usado**. Isso **não** é a
 classificação harmonizada vigente: no CLP europeu atual o **ácido bórico** é
 **Repr. 1B, H360FD**, conforme o Regulamento Delegado (UE) 2023/1435, aplicável a
-partir de 1º de fevereiro de 2025; entradas harmonizadas alcançam determinados
-boratos, que **devem ser verificados por composto** — "boratos" não é classe
-química uniforme. *Toxicidade reprodutiva não é carcinogenicidade*, e uma não
-autoriza afirmar a outra. (A obtenção do texto do CLP falhou nesta rodada —
-EUR-Lex devolve desafio WAF; a divergência entre a citação do EMA e o CLP vigente
-fica registrada, com a classificação vigente declarada por referência.)
+partir de 1º de fevereiro de 2025.
+
+O texto do regulamento está **custodiado** (`r4_indicadas/
+EU_2023_1435_CLP_regulamento.html`, 33.953 b) e alcança, no anexo VI:
+**005-007-00-2 ácido bórico** (CAS 10043-35-3) — Repr. 1B, H360FD;
+**005-008-00-8 trióxido de diboro** (CAS 1303-86-2) — Repr. 1B, H360FD;
+**005-011-00-4 tetraborato de dissódio**, nas formas anidra (1330-43-4),
+deca-hidratada (1303-96-4) e penta-hidratada (12179-04-3) — Repr. 1B, H360FD.
+
+*Toxicidade reprodutiva não é carcinogenicidade*, e uma não autoriza afirmar a
+outra.
 
 **Nota de unidade.** O PDE é de **boro elementar (B)**, não de ácido bórico. Como
 B é 17,5% da massa de H₃BO₃, 10 mg B correspondem a ~57 mg de ácido bórico. Quem
@@ -325,10 +335,14 @@ direto ao `ods.od.nih.gov` devolveu HTTP 403 de novo; a obtenção foi por
    risco. E o NIH ODS não estabelece que cada cápsula contenha uma dose: ele
    relata a faixa de quantidades comuns em suplementos. Dose por cápsula, por
    porção e produto brasileiro específico **seguem sem fonte**.
-2. A faixa usual de suplemento (0,15–6 mg) é **compatível** com a faixa da OMS
-   (1–13 mg/dia) no seu trecho superior, mas o piso de 0,15 mg fica **abaixo** do
-   que a OMS considera seguro — suplemento de dose baixa não repõe, apenas
-   rotula.
+2. **A pergunta "o boro é essencial?" tem resposta institucional, e ela é
+   negativa.** O NIH ODS declara que o boro **não é classificado como nutriente
+   essencial para humanos**, porque a pesquisa ainda não identificou uma função
+   biológica clara; não há RDA, AI nem EAR estabelecidos. A faixa de 1–13 mg/dia
+   é referência de ingestão observada, **não necessidade**. Logo 0,15 mg está
+   abaixo da faixa usual — mas dizer que "não repõe" pressupõe uma necessidade
+   demonstrada que não existe. O correto é: **não há necessidade estabelecida a
+   repor.**
 3. **Desmente** a ideia de que "suplemento é seguro porque é natural": o UL adulto
    de 20 mg/dia é **duas vezes** o PDE europeu de 10 mg/dia. Duas autoridades
    sanitárias, duas réguas — e a europeia é mais restritiva. Divergência
@@ -413,16 +427,24 @@ Brasileira*, DOI 10.4336/2023.pfb.43e202102187)
 
 ### 7.1 Ensaio direto: DOT isolado perde a maior parte do boro
 
-**Fato da fonte (Gauss 2020, Tabela 4.7, p. 192–193).** Após ciclo de lixiviação,
-amostras tratadas **somente com DOT** apresentaram perda maciça de boro:
+**Fato da fonte (Gauss 2020, Tabela 4.7, p. 192–193).** A tabela da tese tem
+**colunas distintas** — perda de massa das amostras e retenção em equivalente
+B₂O₃ antes e depois da lixiviação. Confundi-las é erro de leitura, e a v3 desta
+ficha o cometeu:
 
-| Tratamento | B₂O₃ antes (kg/m³) | após (kg/m³) | Perda |
-|---|---|---|---|
-| **B5** (DOT 5%) | 6,63 | 4,66 | **82,4%** |
-| **T10HB5** (tanino/hexamina/boro) | 5,66 | 3,01 | **81,7%** |
+| Tratamento | Perda de massa (%) | B₂O₃ antes (kg/m³) | B₂O₃ depois (kg/m³) | Perda de boro (%) |
+|---|---|---|---|---|
+| **B5** (DOT isolado, 5%) | 6,63 | 4,66 | 0,82 | **82,4** |
+| **T10HB5** (tanino + hexamina + boro) | 5,66 | 3,01 | 0,55 | **81,7** |
 
-A tese registra ainda que, embora o OST tenha sido eficaz contra fungos, **a
-lixiviação severa diminuiu completamente sua atividade fungicida**.
+**B5 é DOT isolado; T10HB5 não é** — é formulação combinada com tanino e
+hexamina, e por isso não pode ser apresentada como "somente DOT".
+
+Sobre a resistência fúngica, a tese registra: *"A high boron loss was observed in
+the T10HB5 samples after leaching but both tannin-based formulations presented
+satisfactory results after fungi decay test."* Ou seja, **a perda de boro foi
+alta nas duas formulações, mas a resistência fúngica das formulações com tanino
+permaneceu satisfatória** — a perda de atividade não se generaliza a elas.
 
 **Leitura correta.** Isto é **evidência laboratorial direta** de que o borato, na
 formulação e no protocolo ensaiados, perde a maior parte do princípio ativo sob
@@ -530,11 +552,27 @@ aguda, e ele é **0,3 mg B/m³**.
 | ACGIH TLV | boratos inorgânicos (bórax, ác. bórico, tetraborato) | 2 mg/m³ | 8 h TWA |
 | ACGIH STEL | idem | 6 mg/m³ | 15 min |
 
-**O detalhe que muda a leitura:** todos esses limites são de **poeira total**, não
-de boro. O NIOSH REL mais restritivo (1 mg/m³ para tetraborato de sódio) equivale a
-~0,11 mg B/m³ se o pó for bórax puro — **abaixo** do MRL de inalação aguda de
-0,3 mg B/m³. Ou seja: cumprir o limite de poeira já mantém o boro abaixo do nível
-de triagem. O risco respiratório, nesse ramo, **não é o boro** — é o particulado.
+**O detalhe que muda a leitura:** todos esses limites são de **poeira total**, e
+cada forma química tem o seu. Misturar o limite de uma forma com o teor de boro de
+outra produz número falso — foi o que a v3 fez:
+
+| Forma | REL NIOSH | Teor de B | Teto de boro |
+|---|---|---|---|
+| bórax decahidratado (Na₂B₄O₇·10H₂O) | **5 mg/m³** | 11,3% | **~0,57 mg B/m³** |
+| tetraborato anidro (Na₂B₄O₇) | **1 mg/m³** | 21,5% | ~0,21 mg B/m³ |
+| pentahidratado (Na₂B₄O₇·5H₂O) | **1 mg/m³** | 14,8% | ~0,15 mg B/m³ |
+
+*Os três valores de REL foram conferidos nas fichas NIOSH Pocket Guide
+custodiadas (`r4_indicadas/NIOSH_npgd0057/0058/0059`), não em resumo de terceiro.*
+
+O teto da forma decahidratada (**0,57 mg B/m³**) está **acima** do MRL agudo de
+0,3 mg B/m³; os das formas anidra e pentahidratada ficam abaixo. Portanto **não**
+se pode afirmar que cumprir o limite de poeira mantém o boro abaixo do nível de
+triagem: depende da forma. E o MRL é **agudo (até 14 dias)** — não é limite
+ocupacional nem valor regulatório.
+
+**Sem medição de poeira de bambu tratado, não é possível afirmar qual componente
+domina o risco respiratório** nesse ofício — boro, sílica ou particulado.
 
 *(Nenhum limite brasileiro da NR-15 para boratos foi localizado nesta rodada.
 Pendência declarada, não afirmação de inexistência.)*
@@ -752,11 +790,17 @@ O conteúdo substantivo que ele trouxe foi aproveitado; as correções que ele
 3.1. ~~Custodiar ATSDR ToxProfile tp26 (toxicidade humana, exposição ocupacional)~~
    — **CUMPRIDA em 2026-11-24.** 248 p. + 12 capítulos, obtidos via Wayback
    (acesso direto HTTP 403). §9 reescrita com base nele.
-3.2. Classificação CLP / Eur-Lex (Repr. 1B) — **NÃO OBTIDA nesta rodada**: EUR-Lex
-   devolve desafio AWS WAF (HTTP 202, corpo vazio) também via Wayback; ECHA
-   (domínio `chem.echa.europa.eu`) HTTP 403. A classificação CMR citada na ficha continua sendo a
-   **Repr. cat. 2 da EMA**, e a divergência com a Repr. 1B do CLP **permanece
-   aberta**.
+3.2. ~~Classificação CLP~~ — **CUMPRIDA em 2026-11-24**, na rodada R4. O texto do
+   Regulamento Delegado (UE) 2023/1435 foi obtido (Wayback; EUR-Lex direto dá
+   HTTP 202/WAF) e **custodiado**: `r4_indicadas/EU_2023_1435_CLP_regulamento.html`.
+   Confirma **Repr. 1B / H360FD** para ácido bórico, trióxido de diboro e
+   tetraborato de dissódio (anidro, deca e penta-hidratado). §6.2 atualizada com
+   os números de índice e CAS.
+3.3. **NIOSH Pocket Guide** das três formas de tetraborato — **CUMPRIDA**: fichas
+   custodiadas em `r4_indicadas/`; REL 5 (deca) e 1 (anidro/penta) conferidos.
+3.4. **JRC 141759** (categoria "Glass/Fibreglass", 49%) — **NÃO OBTIDA**: a origem
+   e o Wayback devolvem "Request Rejected". A participação permanece **por
+   referência**, sem custódia. Pendência declarada.
 4. Resolver a divergência Yellowstone/Paquistão contra fonte geológica primária.
 5. Levantar exposição ocupacional e EPI em tratamento de bambu — Brasil e China.
 6. Reprocessar as 10 fichas herdadas pelo MTCC (estágios 3 a 8) — todas estão em
