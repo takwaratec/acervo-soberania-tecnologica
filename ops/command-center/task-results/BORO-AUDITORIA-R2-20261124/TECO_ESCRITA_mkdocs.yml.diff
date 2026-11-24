@@ -1,0 +1,12 @@
+diff --git a/mkdocs.yml b/mkdocs.yml
+index 8cde6cd..db54224 100644
+--- a/mkdocs.yml
++++ b/mkdocs.yml
+@@ -348,6 +348,7 @@ nav:
+           - Ouro Preto do Oeste (RO): analyses/reforma-agraria-agrofloresta/ouro-preto-oeste-ro.md
+           - REBRAF — Rede Brasileira Agroflorestal: analyses/reforma-agraria-agrofloresta/rebraf-rede-brasileira-agroflorestal.md
+           - Rede Ecovida — certificação participativa: analyses/reforma-agraria-agrofloresta/ecovida-certificacao-participativa.md
++          - Rede Ecovida — Caderno de Formação 2004 (certificação participativa): analyses/reforma-agraria-agrofloresta/ecovida-caderno-certificacao-participativa-2004.md
+       - Agroecologia, território e economia:
+           - Agriculturas v. 4 n. 2 (2007): analyses/reforma-agraria-agrofloresta/agriculturas-2007-organizacoes-locais-desenvolvimento.md
+           - Mulheres e agroecologia (Siliprandi 2009): analyses/reforma-agraria-agrofloresta/siliprandi-2009-mulheres-agroecologia.md
