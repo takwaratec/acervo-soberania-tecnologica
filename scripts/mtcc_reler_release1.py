@@ -34,6 +34,15 @@ PADROES = [
      re.compile(r"^[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ\s'\-]{2,},\s*[A-Z]\.")),
     ("referencia", "referência bibliográfica (autor institucional)",
      re.compile(r"^[A-ZÁÉÍÓÚÂÊÔÃÕÇ]{4,}(\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ]{2,}){0,4}\.\s+\d{4}")),
+    # URL e identificador editorial: o bloco carrega número (id, volume, ano) que não é
+    # medida. Medido no corpus: 113 blocos classificados como corpo eram só endereço.
+    ("nao_analisavel", "URL, DOI ou identificador de repositório — número no endereço não é medida",
+     re.compile(r"(https?://|www\.|doi\.org|doi:\s*10\.|redalyc|scielo|researchgate|"
+                r"\.pdf\b|articulo\.oa|handle\.net)", re.I)),
+    ("nao_analisavel", "afiliação institucional ou endereço de autor",
+     re.compile(r"^(\d{0,2}\s*)?(univers|college|institute|departamento|laborator|university|"
+                r"faculdade|campus|corresponding author|professor|e-?mail|"
+                r"received|accepted|aceptaci|recepci)", re.I)),
     ("legenda", "legenda de figura ou tabela",
      re.compile(r"^(Figure|Fig\.|Table|Tabela|Figura|Quadro|Tabela)\s*\d+", re.I)),
     ("legenda", "texto dentro de figura/tabela, sem frase própria",
