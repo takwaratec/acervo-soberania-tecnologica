@@ -26,6 +26,7 @@ idioma_fonte: en
 paginas_fonte: 9
 data_revisao: 2026-11-21
 responsavel_curadoria: Fabio Takwara
+declaracao_ia: "produção assistida por inteligência artificial; conferência na fonte e responsabilidade de homologação são humanas"
 autorizacao_homologacao: "FABIO_SOBERANO - decisao opcao 1, 21/11/2026 (governanca: ORDEM_HOMOLOGACAO_PDMS_20261121.md, commit 9e851095)"
 ---
 
@@ -145,3 +146,17 @@ O artigo amplia o estado da arte sobre meios líquidos de tratamento térmico e 
 **Referência ABNT:** ZHANG, Ying et al. Evaluating the comprehensive influences of heat treatment and polydimethylsiloxane on integrated performance of bamboo timber. *RSC Advances*, v. 10, n. 71, p. 43438–43446, 2020. DOI: [10.1039/d0ra08713k](https://doi.org/10.1039/d0ra08713k).
 
 > Ficha estruturada pelo protocolo de oito seções adotado pelo Acervo, com revisão humana e conferência da fonte integral. Conteúdo extraído do PDF integral original; elaboração em 13/07/2026.
+
+## Declaração de uso de inteligência artificial
+
+Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas,
+conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que
+aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.
+
+**O que a inteligência artificial não faz:** ela não homologa. A homologação é ato humano, do responsável pela
+curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o
+número existe na página não substitui esse julgamento.
+
+**O que não foi feito:** nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte
+não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a
+fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.

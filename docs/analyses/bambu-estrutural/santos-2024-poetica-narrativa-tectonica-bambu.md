@@ -27,6 +27,7 @@ palavras_chave:
   - IBUKU
 data_revisao: 2026-07-31
 responsavel_curadoria: Fabio Takwara
+declaracao_ia: "produção assistida por inteligência artificial; conferência na fonte e responsabilidade de homologação são humanas"
 operacao: OPERACAO_BAMBU_BRASIL_2021_2026
 ---
 
@@ -109,3 +110,17 @@ A dissertação conecta a tradição teórica da tectônica à materialidade do 
 **Conexão TTR — referência metodológica (critérios de projeto/arquitetura com bambu):** a ficha fornece um roteiro analítico aplicável a projetos de bambu — três relações (sítio, sistema portante, vedações) e uma taxonomia de conexões (Widyowijatnoko, 2012) —, servindo de referencial de critérios de projeto e de leitura crítica de obras para o núcleo de arquitetura com bambu do Acervo.
 
 **Nota de proveniência:** ficha elaborada a partir da leitura integral do PDF (hash SHA-256 a4b4575e0645c030d5e9a58fd9257a35fcb8a15f9e8adaedeb339ea9074ca761; 180 páginas), com extração integral de texto e metadados catalográficos preservados em documentação privada do acervo (download 2026-07-31 via Repositório UFPB, handle 123456789/35912). Os números de página citados correspondem à paginação do PDF (marcadores da extração). Nenhum dado foi acrescentado por inferência: informações ausentes da fonte estão registradas como "não declarado na fonte".
+
+## Declaração de uso de inteligência artificial
+
+Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas,
+conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que
+aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.
+
+**O que a inteligência artificial não faz:** ela não homologa. A homologação é ato humano, do responsável pela
+curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o
+número existe na página não substitui esse julgamento.
+
+**O que não foi feito:** nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte
+não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a
+fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.

@@ -9,6 +9,7 @@ fonte_primaria: PDF integral conferido
 pacote_fonte_privado: 2018-marcal-normas-bambu
 data_revisao: 2026-08-24
 responsavel_curadoria: Fabio Takwara
+declaracao_ia: "produção assistida por inteligência artificial; conferência na fonte e responsabilidade de homologação são humanas"
 gate_direitos: "Síntese analítica + referência OK; reprodução de tabelas/material extenso/tradução integral exigem autorização por escrito do autor (cessão de direitos, pág. 3 da dissertação). Esta ficha contém apenas análise curatorial e citações curtas como fundamento de síntese; não reproduz tabelas, desenhos ou texto extenso da dissertação."
 interpretacao: "Ficha acadêmica HISTÓRICA e ANALÍTICA — não é manual de construção nem validação normativa. Separa: (1) o que Marçal sistematizou em 2018; (2) o que cada norma prescreve na edição localizada; (3) o que permanece hipótese/lacuna/agenda para o Acervo brasileiro."
 ---
@@ -96,3 +97,17 @@ norma, ensaio, caso construído e experiência histórica.
 **Referência ABNT:** MARÇAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais
 para o emprego do bambu-colmo em estruturas prediais*. 2018. Dissertação (Mestrado em Arquitetura e
 Urbanismo) — Universidade de Brasília, Brasília, 2018.
+
+## Declaração de uso de inteligência artificial
+
+Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas,
+conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que
+aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.
+
+**O que a inteligência artificial não faz:** ela não homologa. A homologação é ato humano, do responsável pela
+curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o
+número existe na página não substitui esse julgamento.
+
+**O que não foi feito:** nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte
+não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a
+fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.

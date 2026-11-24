@@ -8,6 +8,7 @@ estado_documental: em-revisao-documental
 fonte_primaria: PDF integral conferido (opentxt editor ZJU)
 data_revisao: 2026-08-09
 responsavel_curadoria: Fabio Takwara
+declaracao_ia: "produção assistida por inteligência artificial; conferência na fonte e responsabilidade de homologação são humanas"
 ---
 
 # Chumbo e tolerância do bambu-mossô (*Phyllostachys pubescens*)
@@ -84,3 +85,17 @@ responsavel_curadoria: Fabio Takwara
 | Data | Versão | Alteração |
 |---|---|---|
 | 2026-08-09 | 1.0 | Ficha criada (patch candidato F3; frente CONTRATO_INTEGRACAO_FONTES_FITORREMEDIACAO_001). |
+
+## Declaração de uso de inteligência artificial
+
+Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas,
+conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que
+aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.
+
+**O que a inteligência artificial não faz:** ela não homologa. A homologação é ato humano, do responsável pela
+curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o
+número existe na página não substitui esse julgamento.
+
+**O que não foi feito:** nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte
+não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a
+fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.

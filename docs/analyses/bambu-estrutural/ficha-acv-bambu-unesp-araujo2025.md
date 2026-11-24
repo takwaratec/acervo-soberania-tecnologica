@@ -8,6 +8,7 @@ estado_documental: em-revisao-documental
 fonte_primaria: artigo integral conferido
 data_revisao: 2026-07-14
 responsavel_curadoria: Fabio Takwara
+declaracao_ia: "produção assistida por inteligência artificial; conferência na fonte e responsabilidade de homologação são humanas"
 ---
 
 # ACV da produção artesanal de colmos de bambu na Amazônia
@@ -96,3 +97,17 @@ Os percentuais são resultados de impacto potencial normalizado no modelo de ACV
 O artigo constitui referência direta para bioeconomia amazônica, ACV de bambu e gestão de tratamento preservativo. No ecossistema Takwara, deve ser usado para formular hipóteses, cenários comparativos e requisitos de ensaio. A validação de uma alternativa exige ACV própria, inventário equivalente e avaliação de desempenho e segurança.
 
 **Referência ABNT:** ARAUJO, Letícia Medeiros de; GIANELLI, Bruno Fernando; MANCINI, Sandro Donnini; MEDEIROS, Gerson Araujo de. Life cycle assessment of the artisanal bamboo pole (*Guadua angustifolia*) production in the Brazilian Amazon. *Brazilian Journal of Science*, v. 4, n. 4, p. 13–28, 2025. DOI: [10.14295/bjs.v4i4.719](https://doi.org/10.14295/bjs.v4i4.719).
+
+## Declaração de uso de inteligência artificial
+
+Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas,
+conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que
+aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.
+
+**O que a inteligência artificial não faz:** ela não homologa. A homologação é ato humano, do responsável pela
+curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o
+número existe na página não substitui esse julgamento.
+
+**O que não foi feito:** nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte
+não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a
+fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.
