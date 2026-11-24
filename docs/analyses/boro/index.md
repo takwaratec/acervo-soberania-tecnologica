@@ -27,7 +27,12 @@ motivou a investigação e a que concentra o maior risco de uso sem critério.
 |---|---|
 | `00-estado-da-questao-boro.md` | Peça principal — o elemento, suas formas e bases de massa, origem, reservas, usos, as cinco bases de dosagem, importação, toxicologia, aplicação em preservação e os limites de uso |
 | `01-importacao-brasileira-boro-comexstat.md` | Série de importação 1997–2026 por NCM, composição, origem, confronto com a produção mundial |
-| `INVENTARIO_GAVETA.json` | Estado real de cada fonte: custodiada, indisponível, pendente |
+| `fichas/who-2009-boro-agua-consumo.md` | Ficha — a cadeia de derivação do valor de referência da OMS: BMDL05 10,3 → TDI 0,17 → alocação 40% → **2,4 mg/L** |
+| `fichas/who-2022-boro-ficha-quimica.md` | Ficha — a ficha química oficial: valor de 2,4 mg/L, ocorrência < 0,5 mg/L, usos nomeados pela OMS |
+| `fichas/liu-2023-bambu-acido-borico-borax.md` | Ficha — eficácia medida: perda de massa por fungo cai de 62,57% para 12,74%, compressão +21,56%. Ensaio de laboratório, **sem lixiviação** |
+| `fichas/rusch-2023-ccb-bambu-5-anos-campo.md` | Ficha — CCB em campo por 5 anos: durabilidade **por concentração** (3% índice 0; 1% índice 40, ataque leve) contra **controles distintos** (totalmente imerso em água 100%; parcialmente imerso 80%); solo **sem diferença estatística** (Tukey p>0,05); ressalva dos autores de que **não se pode atribuir lixiviação** |
+| `artigo-o-boro-explicado-do-zero.md` | **Artigo didático para leigo** — o boro explicado sem supor conhecimento de química: elemento, compostos, origem cósmica, reservas, usos, toxicologia, o caso do bambu, o resíduo e um guia para ler qualquer número sobre o tema |
+| `INVENTARIO_GAVETA.json` | Estado real de cada fontee: custodiada, indisponível, pendente |
 | `HANDOFF_BORO_20261124.md` | Handoff de continuidade entre tópicos (não é homologação) |
 
 ## Camada privada
@@ -65,20 +70,33 @@ As **conversões químicas** entre massa de sal, boro elementar e equivalente B�
 são legítimas (B = 17,5% do H₃BO₃; B₂O₃ = 67,51% do DOT). O que **não** se
 substitui são os **limites normativos** de cada base.
 
-| Base | Unidade | Valor de referência | Fonte |
-|---|---|---|---|
-| Tópica medicinal (BR) | % do sal | água boricada 3% (2,900–3,200% H₃BO₃), só adultos | ANVISA RDC 199/2006 |
-| Sistêmica medicinal (UE) | mg B/dia | PDE 10 (adulto) · 7 · 3 · **1** | EMA/CHMP/765436/2012 |
-| Suplemento | mg B/dose | 0,15–6 usual · UL 20 mg/dia · OMS 1–13 mg/dia | NIH ODS (ancorado 2026-11-24) |
-| Agricultura | **participação**, não dose | 11–15% do consumo mundial — **sem kg B/ha nesta gaveta** | USGS / estudo UE |
-| Preservação de bambu | kg/m³ | **B₂O₃ eq. 9,98–14,71** (DOT 14,79–21,79) vs. AWPA 2,7 · IS 401 5 | Gauss 2020, p. 88–89 |
-| Inalação (ocupacional) | mg B/m³ | MRL agudo 0,3 · irritação ~1,8 · REL NIOSH por forma: 5 (deca) e 1 (anidro/penta) mg/m³ | ATSDR tp26 · NIOSH |
+**Estado de verificação de cada base.** Esta tabela reúne valores de fontes
+custodiadas em `_privado/governanca-operacional/extracoes/boro/`, cada uma com
+sha256 registrado. **A auditoria R7 não conferiu esta tabela** porque o pacote de
+fontes entregue ao auditor cobria apenas as quatro fichas e as fontes em
+`fontes-documentais/boro_r1/`. As bases marcadas ✦ foram conferidas contra a fonte
+primária na montagem da gaveta e têm manifesto de custódia; as demais dependem de
+reconferência nominal na homologação.
+
+| Base | Unidade | Valor de referência | Fonte | Manifesto |
+|---|---|---|---|---|
+| Tópica medicinal (BR) | % do sal | água boricada 3% (2,900–3,200% H₃BO₃), só adultos | ANVISA RDC 199/2006 | ✦ `CUSTODIA_CORPO.json` |
+| Sistêmica medicinal (UE) | mg B/dia | PDE 10 (adulto) · 7 · 3 · **1** | EMA/CHMP/765436/2012 | ✦ `CUSTODIA_CORPO.json` (1,3 MB) |
+| Suplemento | mg B/dose | 0,15–6 usual · UL 20 mg/dia · OMS 1–13 mg/dia | NIH ODS | ✦ `CUSTODIA_R4.json` |
+| Agricultura | **participação**, não dose | 11–15% do consumo mundial — **sem kg B/ha nesta gaveta** | USGS / estudo UE | ✦ `CUSTODIA_CORPO.json` |
+| Preservação de bambu | kg/m³ | **B₂O₃ eq. 9,98–14,71** (DOT 14,79–21,79) vs. AWPA 2,7 · IS 401 5 | Gauss 2020, p. 88–89 | ✦ `CUSTODIA_R4.json` |
+| Inalação (ocupacional) | mg B/m³ | MRL agudo 0,3 · irritação ~1,8 · REL NIOSH por forma: 5 (deca) e 1 (anidro/penta) mg/m³ | ATSDR tp26 · NIOSH | ✦ `INDEX_TP26.json` (12 cap. + PDF 248 p.) |
 
 **Classificação vigente:** ácido bórico é **Repr. 1B, H360FD** no CLP (Reg. Del.
 UE 2023/1435, vigente desde fev/2025). O documento EMA de 2021 cita Repr. cat. 2,
 que é enquadramento histórico.
 
 ## Números de importação — referência rápida
+
+**Estado de verificação.** Série construída por consulta à API do ComexStat
+(POST em `api-comexstat.mdic.gov.br/general`, NCM 2528 + 2810 + 2840) e custodiada em
+`MANIFEST_ComexStat.json` — **52 arquivos, 41.305.590 bytes**, soma conferida. **A
+auditoria R7 não reconferiu estes números**, por não ter recebido esse pacote.
 
 | Ano | Massa importada (t) | Valor FOB | US$/kg |
 |---|---|---|---|
