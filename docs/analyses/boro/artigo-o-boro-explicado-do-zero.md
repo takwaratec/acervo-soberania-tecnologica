@@ -19,6 +19,40 @@ citacoes: "Números entre colchetes remetem à bibliografia ao final; cada obra 
 
 # O boro, explicado do zero
 
+## Resumo
+
+**O que é.** O boro é um elemento químico — número atômico 5, massa 10,811. Não se
+compra boro: compram-se compostos que o contêm. O ácido bórico tem 17,5% de boro; o
+bórax decahidratado, 11,3%.
+
+**Para que serve.** O boro é fundente de vidro e componente de cerâmica, detergente,
+fertilizante e retardante de chama. Mais de três quartos do consumo vai para esses
+usos. Também preserva bambu e madeira, porque torna o amido inaproveitável por insetos.
+
+**Faz mal?** Depende da dose, da via e do tempo. O corpo humano não precisa de boro —
+não é classificado como nutriente essencial. O efeito crítico é a **toxicidade para o
+desenvolvimento**, e por isso a União Europeia o classifica como **Repr. 1B** (pode
+prejudicar a fertilidade e o feto). **Não é classificado como cancerígeno.**
+
+**Quanto é demais?** Água de consumo: referência de **2,4 mg/L**, derivada de
+BMDL₀₅ de 10,3 mg/kg/dia com fator de segurança 60. Ingestão: limite superior de
+**20 mg/dia** para adultos.
+
+**Onde está o problema.** Não no banho de tratamento, e sim no **resíduo**. Na produção
+de colmo, 91% do impacto potencial vem dos resíduos contaminados, não da tina. E o
+resíduo com boro **não está na lista de resíduo perigoso** de nenhuma norma examinada —
+Brasil, China, Índia, Vietnã, Indonésia — **não porque foi julgado inofensivo, mas
+porque não foi avaliado**.
+
+**O que este artigo não sabe.** Não há medição de exposição de trabalhador de bambu no
+Brasil, nem de poeira de bambu tratado, nem de destino real das aparas. Isso é lacuna,
+não ausência de risco.
+
+**Como ler os números.** As citações aparecem como `[n]` e remetem à bibliografia ao
+final. Toda unidade e sigla está explicada no glossário.
+
+---
+
 ## Antes de começar
 
 Este artigo explica o boro para quem **nunca estudou química**. Não vou supor que você
@@ -126,7 +160,7 @@ Esses depósitos se associam a **atividade vulcânica antiga e climas áridos**.
 padrão observado nas jazidas conhecidas — não uma lei da natureza que impeça boro em
 outros lugares.
 
-| País | Produção 2025 (kt) | Reservas (kt) |
+| País | Produção 2025 (mil toneladas) | Reservas (mil toneladas) |
 |---|---|---|
 | **Turquia** (boratos refinados) | **1.500** | **950.000** |
 | Rússia (datolita) | 80 | 40.000 |
@@ -138,6 +172,10 @@ outros lugares.
 | Argentina (minério bruto) | 170 | — |
 
 [3]
+
+**Atenção à unidade.** Os números da tabela estão em **mil toneladas** — a Turquia
+produziu 1,5 milhão de toneladas em 2025 e detém 950 milhões de toneladas em reservas.
+Nenhum valor desta tabela está em toneladas soltas.
 
 **O detalhe mais importante desta tabela é o que falta nela.** O USGS **não calcula
 total mundial**, porque cada país reporta uma forma diferente de boro — minério bruto,
@@ -579,7 +617,7 @@ incidência [19]. É a confusão mais frequente do assunto.
 **5. "Reprodutivo ou cancerígeno?"** O boro é **Repr. 1B**, não **Carc.** [9]. São
 categorias distintas e quem mistura as duas está errado nos dois sentidos.
 
-## 16. Resumo
+## 16. Resumo em vinte linhas
 
 - O boro é o **elemento de número atômico 5**, massa **10,811**. O que se compra é
   composto: ácido bórico tem **17,5%** de boro, bórax decahidratado **11,3%** [10].
@@ -623,6 +661,53 @@ Declarar lacunas é parte do método. Estas são reais:
 ---
 
 ## Glossário
+
+As unidades vêm primeiro, porque é nelas que mora a maior parte das confusões.
+
+### Unidades de quantidade
+
+**mg** — miligrama. Um milésimo de grama. Um grão de sal pesa cerca de 0,3 mg.
+
+**g** — grama.
+
+**kg** — quilograma. Mil gramas.
+
+**t** — tonelada. Mil quilogramas.
+
+**mil toneladas** — mil vezes uma tonelada, ou seja, um milhão de quilogramas. Usada
+para produção e reservas de minério. *Abreviada "kt" em relatórios técnicos, mas neste
+artigo está sempre escrita por extenso.*
+
+**milhão de toneladas** — um bilhão de quilogramas. É a escala das reservas mundiais.
+
+**L** — litro. Medida de volume de líquido.
+
+**mL** — mililitro. Um milésimo de litro.
+
+**m³** — metro cúbico. Mil litros. Usado para volume de madeira e para concentração
+de poeira no ar.
+
+**mg/L** — miligrama por litro. Concentração em líquido: quanto de substância há em
+cada litro. É a unidade da água de consumo.
+
+**µg/L** — micrograma por litro. Um milésimo do miligrama por litro. Aparece em
+medições muito pequenas.
+
+**mg/kg/dia** — miligrama por quilo de peso corporal por dia. **Dose**, não
+concentração: quem pesa 70 kg e recebe 0,17 mg/kg/dia ingere 11,9 mg no dia. Não se
+compara com mg/L — é erro de unidade comum.
+
+**mg/m³** — miligrama por metro cúbico. Concentração no ar. É a unidade dos limites de
+poeira ocupacional.
+
+**mg B/m³ e mg B/kg** — o "B" significa que o valor é medido em **boro elementar**, não
+no composto inteiro. Como o ácido bórico tem só 17,5% de boro, 1 mg do composto contém
+0,175 mg de boro.
+
+**g/mol** — grama por mol. Unidade de massa atômica e molecular.
+
+**% em massa** — porcentagem do peso total. Dizer que o ácido bórico tem 17,5% de boro
+significa que, em cada 100 g de pó, 17,5 g são boro.
 
 **Anidro** — sem água na estrutura do cristal. O bórax anidro rende quase o dobro de boro
 do decahidratado, com o mesmo peso.
@@ -705,6 +790,52 @@ técnica); REL, do NIOSH (recomendação); PEL, da OSHA (obrigação legal ameri
 feto. Não é sinônimo de cancerígeno.
 
 **Ulexita** — mineral de boro (~13,3%). Predomina no Chile, Peru e Bolívia.
+
+### Siglas de instituições e de sistemas
+
+**USGS** — *United States Geological Survey*, o serviço geológico dos Estados Unidos.
+Publica anualmente as reservas e a produção mineral do mundo.
+
+**ATSDR** — *Agency for Toxic Substances and Disease Registry*, agência americana de
+saúde pública que produz os perfis toxicológicos.
+
+**NIOSH** — *National Institute for Occupational Safety and Health*, instituto
+americano de saúde do trabalhador. Fixa limites de exposição recomendados.
+
+**EMA** — *European Medicines Agency*, agência europeia de medicamentos.
+
+**NIH** — *National Institutes of Health*, institutos nacionais de saúde dos Estados
+Unidos. A sigla aparece aqui pelo escritório de suplementos dietéticos (ODS).
+
+**ANVISA** — Agência Nacional de Vigilância Sanitária, a agência brasileira de
+medicamentos e sanitários.
+
+**INBAR** — *International Bamboo and Rattan Organisation*, organização
+intergovernamental do bambu e do rotim.
+
+**CPCB** — *Central Pollution Control Board*, órgão indiano de controle de poluição.
+
+**USDA** — Departamento de Agricultura dos Estados Unidos.
+
+**HSE / EPA** — agências de saúde e de meio ambiente, respectivamente britânica
+(*Health and Safety Executive*) e australiana americana (*Environmental Protection
+Authority*).
+
+**NCM** — Nomenclatura Comum do Mercosul. O código de oito dígitos que classifica cada
+produto importado ou exportado no Brasil.
+
+**CCA** — arseniato de cobre cromatado. Preservante de madeira com **cromo e arsênio**,
+classificado como resíduo perigoso.
+
+**CCB** — cromo, cobre e boro. Preservante de madeira que contém os três.
+
+**ACQ** — *alkaline copper quaternary*, preservante de cobre sem cromo nem arsênio.
+
+**PCP** — pentaclorofenol. Preservante proibido no Brasil.
+
+**HCT** — toxicidade humana, categoria de impacto em avaliação de ciclo de vida.
+
+**WEL** — *Workplace Exposure Limit*, limite de exposição no trabalho (Reino Unido).
 
 **UL** — *Tolerable Upper Intake Level*, limite superior de ingestão. Para boro em
 adultos, **20 mg/dia**.
