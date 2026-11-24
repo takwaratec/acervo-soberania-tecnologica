@@ -68,6 +68,7 @@
  "homologacao_automatica": false,
  "nao_entra_nesta_gaveta": [
   "boro como objeto (gaveta propria)",
+  "tratamento de bambu/madeira tratada (fichas de produto, etapa posterior)",
   "concreto"
  ],
  "varredura_repositorio": {
@@ -89,15 +90,28 @@
  ],
  "integracao_20261124": "Artefatos do cobre produzidos em 2026-11-24 foram incorporados ao branch pelo auditor e revertidos com a inversao de 949e5af; restaurados byte a byte de ops/command-center/task-results/BORO-AUDITORIA-R2-20261124/SUGESTOES_NAO_SOLICITADAS/docs_analyses_cobre/ (sha256 8481412c, b853ccd2, 40dd1d5c).",
  "plano_de_pesquisa": {
-  "rodadas": 6,
-  "ordem_proposta": [
-   "P1 ocupacional",
-   "P5 importacao",
-   "P3 mecanismo CCB",
-   "P2 norma residuo",
-   "P4 oficina de bambu",
-   "P6 volateis"
+  "versao": 2,
+  "objeto": "ELEMENTO cobre (nao bambu tratado)",
+  "rodadas": 7,
+  "rodadas_ids": [
+   "E1 origem e identidade",
+   "E2 producao e reservas",
+   "E3 toxicidade humana",
+   "E4 ecotoxicidade aquatica",
+   "E5 normas BR e comparadas",
+   "E6 usos e destinos",
+   "E7 comercio brasileiro"
   ],
+  "ordem_proposta": [
+   "E4",
+   "E3",
+   "E2",
+   "E5",
+   "E1",
+   "E6",
+   "E7"
+  ],
+  "v1_superada": "99-plano-v1-superado.md (recorte de produto; preservada byte a byte)",
   "objeto_de_auditoria": "COBRE-PLANO-AUDITORIA-20261124-R1"
  }
 }
