@@ -6,7 +6,7 @@ rodada: S11
 titulo: "S11 — Uso doméstico e rural do sulfato de cobre: o que as instruções dizem e o que omitem"
 estado_documental: em-revisao-documental
 homologacao_automatica: false
-versao: 5
+versao: 6
 data_revisao: 2026-11-24
 auditoria_r7: "REPROVA — achou instrucao de reuso no COT110 que o executor declarou ausente. Acatada."
 auditoria_r8: "REPROVA — correcao entrou e citacao e fiel, mas restaram contradicoes internas (§6 com premissa velha, ficha NMBA desatualizada, extrapolacao sobre residuo, hash divergente, ano contraditorio, aspa aberta). Acatada nesta v4."
@@ -193,7 +193,7 @@ enterro, incompatível com a PNRS.
 A instrução *"buried in the ground"* para resíduos **é incompatível com a PNRS brasileira** — enterrar
 resíduo com cromo e cobre é destinação inadequada sob a PNRS brasileira. E o método de
 recuperação do lodo (acidificar a pH 2,5 com ácido crômico) é **rota industrial**, não
-caseira: ninguém faz isso num quintal.
+caseira: exige ácido crômico e controle de pH, que não são insumo de oficina doméstica.
 
 **Portanto o manual indiano resolve metade:** ele reconhece que a solução é resíduo e
 prescreve reuso — mas a destinação final que oferece não é transferível ao Brasil nem à
