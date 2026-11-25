@@ -13,6 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # O A7 compara contra a base do PR. Sem histórico completo e sem a ref da base, o
+          # `git diff origin/main...HEAD` falha com `bad revision` e o gate não mede nada.
+          fetch-depth: 0
+      - name: Preparar ref da base
+        if: github.event_name == 'pull_request'
+        run: git fetch --no-tags origin "+refs/heads/${{ github.base_ref }}:refs/remotes/origin/${{ github.base_ref }}"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
