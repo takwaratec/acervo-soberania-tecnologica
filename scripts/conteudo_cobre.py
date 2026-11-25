@@ -474,6 +474,60 @@ crônico faz ao fígado.</p>
  "<strong>Tóxico para a vida aquática</strong> = prejudica organismos na água em concentração baixíssima. "
  "São três coisas diferentes, e uma não autoriza a outra — em nenhuma direção.")}
 
+
+<h3>E o cobre é cancerígeno?</h3>
+
+<p>Esta é a pergunta em que quase todo texto erra — para os dois lados. E aqui é preciso fazer o que
+o resto do artigo faz: separar o que está medido do que não está.</p>
+
+{danger("Limite declarado, antes de qualquer conclusão", "A <strong>monografia da IARC</strong> para "
+        "o cobre e a <strong>ficha toxicológica da ATSDR</strong> para o cobre <strong>não estão no "
+        "corpus desta frente</strong>. Portanto este artigo <strong>não afirma</strong> que o cobre "
+        "seja cancerígeno, nem que não seja. Dizer qualquer das duas coisas sem a monografia em mãos "
+        "seria inventar — e é justamente o que este artigo critica nos outros.")}
+
+<p><strong>O que o corpus sustenta sobre o desfecho do cobre:</strong> o documento de base da
+Organização Mundial da Saúde trata o cobre pelo efeito <strong>agudo gastrointestinal</strong>
+(náusea a partir de 4 mg/L, em estudo com 61 voluntários) e pelo <strong>acúmulo hepático</strong> na
+exposição prolongada — &quot;o cobre se acumula no fígado, no cérebro e nos olhos&quot;.{cit("oms2004")}
+Câncer não é o desfecho que esses documentos usam para fixar limite. Isso <strong>não</strong>
+significa que o cobre seja inofensivo: significa que o desfecho documentado é outro.</p>
+
+<p><strong>Agora a informação recente que não pode ser ignorada.</strong> Em 2025, quatro
+pesquisadores publicaram, com revisão por pares, uma avaliação de ciclo de vida da produção artesanal
+de colmo de bambu no Acre.{cit("araujo2025")} Concluíram que a <strong>toxicidade carcinogênica
+humana (HCT) representou 93% do impacto potencial</strong> daquela cadeia.</p>
+
+<p><strong>Isso não é boato e não deve ser tratado como boato.</strong> É publicação recente, com
+método declarado, inventário e tabela.</p>
+
+<p><strong>E também não é sentença.</strong> &quot;HCT&quot; é o nome de uma <strong>categoria do
+método ReCiPe</strong> — não um diagnóstico. O valor sai em milipontos, depois de normalizado entre
+as sete categorias que os autores selecionaram. <strong>&quot;93%&quot; quer dizer &quot;esta foi a
+categoria que mais pesou no modelo&quot;</strong>, não &quot;93% de chance de câncer&quot;.</p>
+
+<p><strong>Por que, então, o termo importa para esta gaveta?</strong> Porque o estudo mediu uma
+cadeia tratada com <strong>bórax e ácido bórico</strong> — e as receitas brasileiras de cobre são
+ternárias, ou seja, <strong>levam bórax junto</strong>. A carga de resíduo que carrega o boro carrega
+o cobre no mesmo saco. A categoria que mais pesou naquela cadeia é a mesma que este artigo está
+discutindo.</p>
+
+<p><strong>A leitura honesta, então, é esta:</strong></p>
+
+<ul>
+<li>o desfecho <strong>documentado</strong> do cobre é gastrointestinal e hepático;{cit("oms2004")}</li>
+<li>a classificação de <strong>carcinogenicidade</strong> do cobre <strong>não foi verificada</strong>
+nesta frente — e o artigo diz isso;</li>
+<li>o estudo brasileiro de 2025 mede <strong>impacto potencial de cadeia</strong>, e o maior
+contribuinte é o <strong>resíduo</strong>, não a aplicação;{cit("araujo2025")}</li>
+<li>e <strong>&quot;93%&quot; não é probabilidade de câncer</strong> — é o peso de uma categoria
+num modelo.</li>
+</ul>
+
+<p>Quem disser que o cobre do tratamento causa câncer está extrapolando. Quem disser que é inofensivo
+porque &quot;não é cancerígeno&quot; está extrapolando igual — e ignora os dois desfechos que
+<em>estão</em> documentados.</p>
+
 <h3>Por que a criança aparece em toda norma de cobre</h3>
 
 <p>Porque o cobre é <strong>essencial e necessário ao desenvolvimento</strong>, e ao mesmo tempo
@@ -953,8 +1007,360 @@ prática real de descarte.</p>
 
 
 # ============================== 08 · COMO LER · RESUMO ==============================
-pagina("p-9", "08 · Como ler · Resumo", "08", "Como ler qualquer texto sobre cobre — e o resumo do artigo",
-       "08 · COMO LER · RESUMO · GAVETA COBRE · 2026-11-24", f"""
+pagina("p-limbo", "08 · O limbo legal", "08", "O limbo: duas políticas, nenhuma norma",
+       "O LIMBO LEGAL · GAVETA COBRE · 2026-11-24", f"""
+<p>Esta é a parte mais desconfortável do artigo, e a única em que a conclusão não vem de uma fonte
+científica — vem da <strong>ausência de fonte normativa</strong>. Trate como pergunta aberta, não
+como acusação provada.</p>
+
+<h3>Primeiro, o fato que precisa ser dito sem rodeio</h3>
+
+<p>No Brasil, <strong>o tratamento de bambu é artesanal</strong>. Não há, nas fontes examinadas,
+registro de cadeia industrial com tratamento de efluente. Quando este artigo comparou o Acre ao
+Sudeste e ao Sul, fez uma concessão que não se sustenta: <strong>não há prova de que exista, aqui,
+a escala industrial que se imagina</strong>.</p>
+
+<p>E isso muda o argumento. Se tudo é artesanal, o estudo do Acre{cit("araujo2025")} não é um caso
+periférico — <strong>é a regra</strong>, com uma ressalva: uma unidade, um município, um ano.</p>
+
+<p>O que esse estudo mediu, em linguagem direta: numa oficina de Rio Branco que trata colmo com
+bórax e ácido bórico, a categoria de impacto que mais pesou foi a de <strong>toxicidade
+carcinogênica humana — 93% do total normalizado</strong> — e <strong>91% dessa carga veio dos
+resíduos</strong>: a apara, o corte, o colmo descartado e o efluente. Não é a operação que pesa.
+É o que sobra dela.</p>
+
+{note("Por que isso entra num artigo sobre cobre", "Porque a receita que circula no Brasil quase "
+      "nunca é só sulfato de cobre. A fórmula informal mais difundida é ternária — ácido bórico, "
+      "bórax e dicromato de sódio — e a receita de bórax usada em universidade pública é bórax e "
+      "ácido bórico puros. Ou seja: <strong>na apara que sobra do tratamento com cobre, o bórax "
+      "está junto</strong> — mas <strong>não em toda</strong>: o manual indiano e a instrução da Embrapa "
+      "propõem banhos <em>separados</em>, e o estudo do Acre mediu um banho só de bórax com ácido bórico. "
+      "O que sustenta a ligação é o <strong>local do dano</strong>, não a mistura: onde os quatro estudos "
+      "desta gaveta discordam do tratamento, concordam em apontar <strong>o resíduo e a água que sobra</strong> "
+      "como o problema.")}
+
+<h3>Duas leis, duas datas, e o mesmo vazio</h3>
+
+<p><strong>Lei 12.305/2010 — Política Nacional de Resíduos Sólidos.</strong>{cit("pnrs2010")} É a
+lei-quadro, e a definição dela é ampla de propósito:</p>
+
+{bq("resíduos sólidos: material, substância, objeto ou bem descartado resultante de atividades "
+   "humanas em sociedade, nos estados sólido ou semissólido, bem como gases contidos em "
+   "recipientes e <strong>líquidos cujas particularidades tornem inviável o seu lançamento na rede "
+   "pública de esgotos ou em corpos d'água</strong>")}
+
+<p><strong>Banho de tratamento com cobre é resíduo sólido pela definição legal</strong> — ainda que
+seja líquido. Isso não é interpretação: é o texto do art. 3º, XVI.</p>
+
+<p><strong>Mas procure &quot;bambu&quot; na PNRS: zero ocorrências. &quot;Madeira&quot;: zero.</strong>
+A lei que rege resíduo no Brasil <strong>não nomeia o material</strong>.</p>
+
+<p><strong>Lei 12.484/2011 — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do
+Bambu.</strong>{cit("pnmcb2011")} Ela dá <strong>crédito rural</strong>, <strong>assistência
+técnica</strong>, <strong>certificação de origem</strong>, e estimula expressamente o <strong>uso
+comunitário e cooperativo</strong>.</p>
+
+<p><strong>Procure &quot;tratamento&quot;: zero. &quot;Químico&quot;: zero. &quot;Resíduo&quot;:
+zero. &quot;Licença&quot;: zero. &quot;Fiscalização&quot;: zero.</strong> A política do bambu
+<strong>incentiva a produção e não disciplina o que acontece com o que sobra</strong>.</p>
+
+<h3>Quem fiscaliza? A pergunta sem dono</h3>
+
+<p>A PNRS distribui competência por <strong>sistemas</strong>, não por material: <strong>Sisnama</strong>
+(meio ambiente), <strong>SNVS</strong> (vigilância sanitária), <strong>Suasa</strong> (sanidade
+agropecuária) e <strong>Sinmetro</strong> (metrologia).{cit("pnrs2010")} Nenhum deles trata de
+bambu tratado.</p>
+
+<p><strong>Na prática:</strong> quem trata bambu com sulfato de cobre na própria casa, no quintal ou
+na cooperativa <strong>não descumpre uma norma específica</strong> — porque ela não existe. Mas
+também <strong>não cumpre</strong>: não há licença, não há plano de gerenciamento, não há destinação
+prescrita.</p>
+
+<p><strong>E há um problema de fronteira que ninguém resolveu:</strong></p>
+
+<ul>
+<li>o <strong>MAPA</strong> responde por insumo agrícola — e o sulfato de cobre é registrado como
+fungicida agrícola, não como preservativo de bambu;</li>
+<li>a <strong>ANVISA</strong> responde pelo produto saneante e pela água de consumo — não pelo
+resíduo do processo;</li>
+<li>o <strong>ICMBio</strong> responde por unidade de conservação — e <strong>é aí que está o risco
+real</strong>, porque é justamente nessas áreas que a construção com bambu encontra mercado;</li>
+<li>o <strong>município</strong> responde pelo resíduo domiciliar,{cit("pnrs2010")} mas não tem
+como caracterizar apara de bambu tratado como perigosa sem a classificação da ABNT.</li>
+</ul>
+
+{danger("O que este artigo NÃO conseguiu verificar", "A classificação do resíduo de bambu tratado "
+        "depende da <strong>ABNT NBR 10004</strong>, que é paga e <strong>não foi consultada por "
+        "esta frente</strong>. Não se afirma aqui que a apara seja Classe I nem Classe II. Afirmar "
+        "qualquer das duas sem o texto da norma seria inventar. É limite declarado, não omissão.")}
+
+<h3>O que essa combinação produz</h3>
+
+<p>Sem norma que nomeie o material e sem classificação consultada, <strong>a apara de bambu tratado
+segue o fluxo do resíduo domiciliar comum</strong> — ou o quintal, ou a queima, ou o córrego. Não
+por decisão de ninguém: por ausência de decisão.</p>
+
+<p><strong>E &quot;não listado&quot; não é &quot;inofensivo&quot;. É não avaliado.</strong> A
+diferença é a mesma que separa absolvição de arquivamento.</p>
+
+<h3>A rota que ninguém mediu: o subsolo e a cisterna</h3>
+
+<p>Este é o ponto em que o artigo precisa ser mais cuidadoso, porque é o de maior consequência
+social.</p>
+
+<p><strong>O que se sabe do comportamento do cobre no solo:</strong> ele se liga fortemente à matéria
+orgânica e aos óxidos, e por isso é <em>menos</em> móvel que o boro — o que é uma boa notícia para
+o lençol e uma má notícia para o solo, porque o metal fica onde foi posto.{cit("rusch2023")} No
+único ensaio de campo brasileiro com bambu tratado, cinco anos depois, o <strong>cobre no solo sob o
+bambu subiu 12% — sem significância estatística</strong> — e o que subiu de forma expressiva foi o
+<strong>cromo, 86%</strong>.{cit("rusch2023")}</p>
+
+<p><strong>Traduzindo com honestidade:</strong> o dado disponível <em>contraria</em> a expectativa de
+que o cobre do tratamento migre rapidamente para o subsolo. Mas ele mede <strong>um ensaio, uma
+espécie, um solo</strong> — e solo arenoso, ácido e pobre em óxidos retém muito menos que solo
+argiloso.</p>
+
+<p><strong>O que isso significa para quem bebe água de cisterna:</strong> a cisterna capta chuva, não
+lençol — então <strong>a exposição direta não é óbvia</strong>. O risco plausível é outro: apara em
+decomposição no quintal, água da chuva lavando essa apara, e <strong>infiltração no solo sob a área
+de descarte</strong>.</p>
+
+<p><strong>E aqui o artigo precisa admitir:</strong> <strong>não há medição</strong>. Não localizei
+nenhum estudo brasileiro de lixiviação de cobre sob área de descarte de bambu tratado, nem de cobre
+em água de cisterna em comunidade produtora. A rota é <strong>plausível pelo mecanismo</strong> e
+<strong>não demonstrada em campo</strong>. Quem afirmar que contamina está extrapolando; quem afirmar
+que é seguro está extrapolando igual, e com mais consequência.</p>
+
+<h3>A banalização do risco</h3>
+
+<p>O sulfato de cobre tem uma propriedade perigosa para a percepção pública: <strong>é azul, brilha,
+é vendido em loja de agropecuária sem receita, e é usado há gerações na piscina e na horta</strong>.
+Não arde na pele na hora, não fede, não pega fogo.</p>
+
+<p>Se fosse cromo ou arsênio, ninguém espalharia apara no quintal. Como é &quot;o azulzinho que mata
+fungo&quot;, a apara vai para a composteira, para a cama do animal, para a cobertura da horta, para
+o fogo.</p>
+
+<p><strong>O que a evidência sustenta, com precisão:</strong></p>
+
+<ul>
+<li>o resíduo contaminado é o <strong>maior contribuinte de impacto potencial</strong> na única
+cadeia brasileira medida — 91% da carga de resíduo, 93% da categoria de toxicidade
+carcinogênica;{cit("araujo2025")}</li>
+<li>o cobre tem <strong>efeito crítico documentado</strong> — náusea aguda a partir de 4 mg/L e
+acúmulo <strong>hepático</strong> na exposição prolongada;{cit("oms2004")}</li>
+<li>as receitas informais que circulam <strong>não trazem uma linha de EPI, ventilação ou
+descarte</strong>;{cit("blogtcs2016")}{cit("espaconaturalmente")}</li>
+<li>as duas instruções oficiais — a brasileira e a indiana — mandam <strong>reusar</strong> a
+solução, o que reduz o volume mas <strong>não elimina o resíduo final</strong>.{cit("tonini2024")}{cit("nmba2006")}</li>
+</ul>
+
+<p><strong>O que a evidência não sustenta:</strong> que a apara no quintal produza doença em quem
+mora ali. Não há esse dado, em nenhum lugar que esta frente tenha encontrado.</p>
+
+<h3>A pergunta que fica para quem regula</h3>
+
+<p>Este artigo não tem autoridade para dizer quem deveria fiscalizar. Tem autoridade para registrar
+o que a ausência produz:</p>
+
+<ol>
+<li><strong>É uma cadeia em crescimento</strong> — e a política do bambu existe justamente para
+estimulá-la;{cit("pnmcb2011")}</li>
+<li><strong>o estímulo não vem acompanhado de disciplina de resíduo</strong>, porque a norma do
+bambu não trata do assunto e a norma de resíduo não nomeia o bambu;{cit("pnmcb2011")}{cit("pnrs2010")}</li>
+<li><strong>o uso é comunitário e cooperativo</strong> — é o que a própria política incentiva — e é
+exatamente o formato em que <strong>controle de efluente não existe</strong>;</li>
+<li><strong>e as áreas de maior atrativo estão em território sensível.</strong></li>
+</ol>
+
+<p><strong>Onde isso deixa de ser artigo e passa a ser política pública:</strong> quando cooperativas
+em comunidades remotas — inclusive em áreas de proteção — adotam o tratamento com sulfato de cobre
+sem saber o que fazer com a apara. <strong>O boro e o cobre chegam ao território; a norma não.</strong></p>
+""")
+
+pagina("p-norma", "09 · A norma e o quintal", "09",
+       "A norma existe — e ela não chega ao quintal",
+       "09 · A NORMA E O QUINTAL · GAVETA COBRE · 2026-11-24", f"""
+<p>Ao longo deste artigo eu disse várias vezes que <strong>ninguém diz o que fazer com a sobra</strong>.
+Isso pode ter soado como "não existe regra". <strong>Existe.</strong> É federal, é de 1989, e é
+mais explícita do que se costuma imaginar. O problema é outro, e é mais difícil de ver: a regra
+existe para o lado de dentro do galpão, não para o lado de fora.</p>
+
+<p>Este capítulo é o que separa "falta norma" de "a norma para onde não deveria parar". São
+diagnósticos diferentes, e o segundo é o verdadeiro.</p>
+
+{SEP}
+
+<h3>A regra, lida no original</h3>
+
+<p>Três ministérios — Fazenda, Saúde e Interior — assinaram em 1989 a
+<strong>Portaria Interministerial 292</strong>. Ela não ensina a tratar madeira: ela decide quem
+pode tratar, e quem vigia. Em quatro páginas, três artigos sustentam tudo: {cit("pi292")}</p>
+
+<ul>
+<li><strong>art. 1º</strong> — a empresa que vive de preservar madeira tem de estar registrada no Ibama;</li>
+<li><strong>art. 3º</strong> — o preservativo <em>não pode ser fabricado, consumido ou posto à venda</em>
+antes do registro. Repare na palavra <strong>consumido</strong>: não é só vender, é usar;</li>
+<li><strong>art. 20</strong> — e aqui está o que quase ninguém cita:
+<strong>"O IBAMA fiscalizará as atividades relacionadas com a preservação e comércio dos
+preservativos para madeira e de madeira preservada."</strong></li>
+</ul>
+
+{bq("<strong>A competência não está indefinida. Está escrita, com nome, desde 1989.</strong>")}
+
+<p>Há mais: pelo <strong>art. 21</strong>, o Ibama não tem apenas o poder de autuar — tem o de
+<em>implementar medidas para assegurar a correta utilização</em> do preservativo. E pelo
+<strong>art. 22</strong>, a infração responde civil e penalmente. Uma norma posterior, de 1997,
+completa o desenho: para registrar o produto, a empresa precisa provar o
+<strong>risco ambiental</strong> dele.{cit("pn151")}</p>
+
+{SEP}
+
+<h3>A palavra que não aparece</h3>
+
+<p>Varri as quatro páginas da Portaria à procura de uma palavra. Ela não está lá:
+<strong>"resíduo"</strong>.</p>
+
+<p>Não é descuido. É o desenho da norma: ela controla <strong>a entrada</strong> (registro do produto)
+e <strong>o processo</strong> (relatório semestral de produção). Ela não controla <strong>a saída</strong>
+— a peça tratada que, um dia, vira o que descartar.</p>
+
+{note("O que isso significa na prática",
+ "A norma acompanha o moirão até o portão da usina. Depois do portão, ele é propriedade de quem "
+ "comprou — e a partir daí nenhuma das três páginas fala com ele. Não porque a norma seja omissa "
+ "por acidente: porque ela nunca foi escrita para acompanhar a peça até a sua casa.")}
+
+{SEP}
+
+<h3>O próprio órgão ambiental escrevendo o que não sabe</h3>
+
+<p>Aqui o material deixa de depender de interpretação. O Instituto Estadual de Meio Ambiente do
+Espírito Santo publicou em 2023 uma nota técnica sobre licenciamento da preservação de madeira —
+36 páginas escritas por quem licencia, não por quem critica.{cit("iema2023")}</p>
+
+<p>Três frases dela, na ordem em que aparecem:</p>
+
+<ol>
+<li><strong>O CCA domina o setor</strong> — 80% do volume; o CCB, junto com lindane e
+tribromofenato, 15%; creosoto, 5%.</li>
+<li><strong>Não há proibição no Brasil</strong> — e o mesmo documento registra, duas páginas depois,
+que a EPA americana anunciou em 2003 o fim do uso residencial do CCA: nada de playground, deck ou
+cerca de casa.</li>
+<li><strong>E sobre o CCB</strong> — que é justamente o preservativo que a Embrapa ensina ao
+produtor rural: <em>"Não existem muitas informações sobre o CCB em relação aos aspectos ambientais
+e à disposição de resíduos na madeira tratada."</em></li>
+</ol>
+
+{bq("O órgão que licencia diz, por escrito, que <strong>não há proibição</strong>, que o resto do mundo "
+    "saiu do uso residencial, e que <strong>não tem informação sobre o destino do resíduo</strong>. "
+    "As três coisas na mesma nota técnica.")}
+
+<p>E o que a nota exige de quem opera dentro da lei? Que <strong>100% do efluente contaminado volte
+para o processo</strong>, que a madeira fique 15 dias curando antes de ser tocada, e que o resíduo
+sólido — <strong>Classe I</strong> — vá para aterro industrial licenciado. Essa é a régua. Guarde
+ela, porque o capítulo seguinte compara.</p>
+
+{SEP}
+
+<h3>A própria cadeia diz que não se queima</h3>
+
+<p>Não é preciso apelar a ambientalista. A associação brasileira do setor de madeira apresentou num
+simpósio, em 2015, a lista do que o resíduo tratado <strong>não pode</strong>:{cit("abpm2015")}</p>
+
+{bq("Contato com alimentos ou água potável · Cama para animais · "
+    "<strong>Queima a céu aberto ou em fogões/churrasqueiras/fornos/caldeiras de baixa "
+    "temperatura</strong>")}
+
+<p>O detalhe que impede o exagero: a mesma lista <strong>admite</strong> recuperação energética — ou
+seja, queimar em <strong>instalação licenciada</strong> é destino aceito. O que a lista proíbe é
+queimar <strong>no fogão de casa</strong>. A diferença não está no fogo: está na instalação, no
+filtro e no que sobra depois.</p>
+
+{SEP}
+
+<h3>O que a madeira perde e o solo ganha</h3>
+
+<p>Se o preservativo ficasse dentro da peça, nada disso importaria. Ele não fica. Um ensaio de campo
+publicado em 2025 acompanhou <strong>cinco moirões de eucalipto tratados com CCA</strong> durante
+<strong>880 dias</strong>, medindo a madeira e o solo em volta, em duas profundidades.{cit("ufsm2025")}</p>
+
+{kpis([("−55,0%", "arsênio que saiu da madeira"),
+       ("+129,2%", "arsênio que entrou no solo"),
+       ("32,3%", "acima do limite de investigação agrícola"),
+       ("880", "dias de campo, seis amostragens")])}
+
+<p>O terceiro número é o que interessa juridicamente: o solo passou do <strong>valor máximo de
+investigação</strong> que a Resolução CONAMA 420/2009 fixa para área agrícola — o ponto a partir do
+qual a norma manda investigar se há risco.</p>
+
+<p>E repare no que esse experimento é: <strong>um moirão de cerca, em campo, no uso para o qual foi
+feito</strong>. Não é indústria, não é acidente, não é despejo. É o produto funcionando. O que este
+artigo chama de "sobra" começa a caminhar <strong>antes</strong> de a peça virar sobra.</p>
+
+{note("O limite do estudo, que o estudo declara",
+ "Cinco peças, um sítio. Mediu solo até 40 cm — <strong>não mediu água subterrânea</strong>. Mediu "
+ "lixiviação — <strong>não mediu queima</strong>. E é CCA, que tem arsênio; o CCB tem boro, e "
+ "transportar a conclusão de um para o outro é inferência, não medição.")}
+
+{SEP}
+
+<h3>Onde a madeira e o bambu se separam — e é aqui que este artigo pesa</h3>
+
+<p>Para a <strong>madeira</strong>, a estrutura existe: norma federal, registro obrigatório,
+fiscalizador nomeado, órgão estadual licenciando, resíduo classificado como Classe I, aterro
+industrial exigido. Tudo isso pode não ser cumprido — mas está escrito.</p>
+
+<p>Para o <strong>bambu</strong>, nada disso existe. Não há registro de preservativo para bambu, não
+há usina licenciada de tratamento de bambu, não há resíduo classificado. O tratamento é feito em
+tonel, no quintal, por quem aprendeu numa apostila — e as instruções que ensinam o banho
+<strong>param exatamente onde o resíduo começa</strong>.</p>
+
+{bq("<strong>A madeira tem norma que não se cumpre. O bambu não tem norma a cumprir.</strong> "
+    "As duas coisas levam ao mesmo lugar — o resíduo no chão — por caminhos diferentes.")}
+
+<p>É por isso que este capítulo não substitui o capítulo do limbo: ele explica por que o limbo é
+pior no bambu. A política de 2011 incentiva a cadeia do bambu; a de 2010 disciplina resíduo sólido
+sem nomear bambu; e a norma que disciplina preservativo de madeira, de 1989, <strong>não alcança uma
+peça que nunca passou por uma usina</strong>.</p>
+
+{SEP}
+
+<h3>O que não se mediu — e por que isso é resultado</h3>
+
+<p>Procurei, para este artigo, um caso brasileiro documentado de intoxicação por queimar madeira
+tratada em fogão a lenha. <strong>Não encontrei.</strong></p>
+
+<p>Não é o mesmo que dizer que não acontece. É dizer que <strong>não está medido</strong> — e essa
+distinção é o método deste artigo inteiro. O que existe é: a proibição, escrita pela própria
+cadeia;{cit("abpm2015")} a constatação de que a fumaça de fogão a lenha é um problema de saúde
+pública reconhecido no Brasil; e o registro de que a lenha catada em área rural
+<strong>"engloba restos de caixas e madeiras tratadas"</strong>.</p>
+
+<p>Há um detalhe que fecha o raciocínio: o próprio rótulo do preservativo registrado no Ibama manda
+notificar casos ao <strong>Sinan</strong> e ao <strong>Notivisa</strong>, e traz o telefone do
+Disque-Intoxicação. Ou seja, <strong>existe canal</strong> por onde esse caso apareceria — um canal
+de registro de intoxicação, não um artigo científico. Se ele não aparece na literatura, isso diz
+respeito ao lugar onde se procura, não à ausência do fato.</p>
+
+{note("A frase honesta, que eu prefiro ao número inventado",
+ "Não há, no material reunido, caso brasileiro documentado de intoxicação por combustão de madeira "
+ "tratada em fogão doméstico. Há proibição declarada, há prática relatada e há canal de notificação. "
+ "Transformar isso em \"há muitos casos\" seria fazer exatamente o que este artigo critica.")}
+
+{SEP}
+
+<h3>O que fica</h3>
+
+<p>A norma brasileira de preservação de madeira existe, é de 1989, e nomeia quem fiscaliza. Ela
+controla o produto, a empresa e a usina. <strong>Ela não controla o que acontece depois que a peça
+sai do portão</strong> — e é depois do portão que este artigo inteiro acontece.</p>
+
+<p>O bambu tratado no quintal não está fora da lei por esperteza de quem trata. Está fora porque
+<strong>a lei que existe foi escrita para uma usina que ele nunca vai ter</strong>.</p>
+""")
+
+pagina("p-9", "10 · Como ler · Resumo", "10", "Como ler qualquer texto sobre cobre — e o resumo do artigo",
+       "10 · COMO LER · RESUMO · GAVETA COBRE · 2026-11-24", f"""
 <p>Esta é a seção mais útil do artigo, porque ela sobrevive a mim.</p>
 
 <h3>Cinco perguntas para julgar qualquer afirmação sobre cobre</h3>
@@ -1132,7 +1538,7 @@ _GLOSS = [
 
 _itens = "".join(f"<p><strong>{t}</strong> — {d}</p>" for t, d in _GLOSS)
 
-pagina("p-10", "Glossário", "09", "Glossário — para voltar quando esquecer um termo",
+pagina("p-10", "Glossário", "11", "Glossário — para voltar quando esquecer um termo",
        f"GLOSSÁRIO · {len(_GLOSS)} TERMOS · GAVETA COBRE · 2026-11-24", f"""
 <p>Termos em ordem alfabética. Todos aparecem explicados no corpo do texto; este é o lugar de consulta.</p>
 
@@ -1143,7 +1549,7 @@ pagina("p-10", "Glossário", "09", "Glossário — para voltar quando esquecer u
 
 
 # ============================== 10 · PROVENIÊNCIA ==============================
-pagina("p-11", "Proveniência", "10", "Para saber mais, e como este texto foi feito",
+pagina("p-11", "Proveniência", "12", "Para saber mais, e como este texto foi feito",
        "PROVENIÊNCIA · GAVETA COBRE · 2026-11-24", f"""
 <p>Este artigo não inventa dados. Ele reorganiza, em linguagem simples, o conteúdo de uma frente de pesquisa
 do <strong>Acervo Soberania Tecnológica</strong> dedicada ao cobre, que custodia as fontes com verificação de

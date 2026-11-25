@@ -47,6 +47,9 @@ p.ref:target{background:var(--warn-bg);outline:2px solid #d4b862;border-radius:4
 /* síntese da fonte: itálico no conjunto, com o limite em redondo para não se perder */
 .resumo{font-style:italic}
 .resumo .limite{font-style:normal;color:#8a4b12;font-weight:600}
+.pendente{font:600 11px/1.4 ui-monospace,Menlo,monospace;color:var(--warn);
+  background:var(--warn-bg);padding:1px 6px;border-radius:4px;
+  display:inline;white-space:normal;overflow-wrap:anywhere;box-decoration-break:clone}
 
 
 /* Com 18 abas (11 do artigo + 6 fichas + referências), a grade de 6 colunas do molde

@@ -127,6 +127,29 @@ REFERENCIAS = [
      "177,854 t e US$ 370.053 em 2025; China 80,4% do peso e 48,3% do valor; dispersão de preço de "
      "119×; queda de 86% entre 1997 e 2020"),
 
+    ("araujo2025",
+     "ARAUJO, Letícia Medeiros de; GIANELLI, Bruno Fernando; MANCINI, Sandro Donnini; "
+     "MEDEIROS, Gerson Araujo de",
+     2025,
+     "Life cycle assessment of the artisanal bamboo pole (Guadua angustifolia) production "
+     "in the Brazilian Amazon.",
+     "Brazilian Journal of Science, v. 4, n. 4, p. 13-28. DOI 10.14295/bjs.v4i4.719.",
+     None,
+     "a única medição brasileira do impacto de uma cadeia artesanal de bambu tratado: "
+     "toxicidade carcinogênica humana = 93% do impacto normalizado, 91% dele nos resíduos "
+     "de apara, corte e colmo descartado, atribuídos ao ácido bórico e ao bórax. Uma "
+     "unidade, um município, um ano (Rio Branco, Acre)."),
+
+    ("pnmcb2011",
+     "BRASIL",
+     2011,
+     "Lei nº 12.484, de 8 de setembro de 2011 — Política Nacional de Incentivo ao Manejo "
+     "Sustentado e ao Cultivo do Bambu.",
+     "Diário Oficial da União.",
+     None,
+     "a política do bambu: crédito rural, assistência técnica e certificação de origem — e "
+     "nenhuma palavra sobre tratamento químico, resíduo, licença ou fiscalização."),
+
     ("nbr6232",
      "ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS",
      2013,
@@ -134,7 +157,64 @@ REFERENCIAS = [
      "ABNT, Rio de Janeiro.",
      None,
      "retenção de 6,5 kg/m³ e composição percentual do CCB, conforme descrita em Rusch et al. (2023)"),
+
+    # ---- S11-c: a norma da madeira tratada e o descarte (2026-11-24) -------------
+    ("pi292",
+     "BRASIL. Ministério da Fazenda; Ministério da Saúde; Ministério do Interior",
+     1989,
+     "Portaria Interministerial nº 292, de 28 de abril de 1989 — registro de preservativos "
+     "de madeira e das usinas de preservação.",
+     "Diário Oficial da União, Brasília. 4 p.",
+     "fontes-documentais/ago_28_Madeira_Tratada_S11c/1989_pi292_preservativos_registro.pdf",
+     "a norma-mãe: registro obrigatório no Ibama (art. 1º e 3º), relatório semestral (art. 2º) "
+     "e a competência de fiscalização nomeada (art. 20) — e o silêncio sobre o resíduo"),
+
+    ("pn151",
+     "INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS",
+     1997,
+     "Portaria Normativa nº 151, de 24 de novembro de 1997 — documentação para registro de "
+     "produto preservativo de madeira.",
+     "Diário Oficial da União, Seção 1, p. 27.552, 25 nov. 1997. OCR degradado.",
+     "fontes-documentais/ago_28_Madeira_Tratada_S11c/1997_pn151_ibama_registro_risco_ambiental.pdf",
+     "o registro depende de risco ambiental determinado: o risco avaliado é o do produto em uso, "
+     "não o do resíduo ao fim da vida útil"),
+
+    ("iema2023",
+     "INSTITUTO ESTADUAL DE MEIO AMBIENTE E RECURSOS HÍDRICOS DO ESPÍRITO SANTO",
+     2023,
+     "Nota Técnica Orientativa GGE-COED nº 01/2023 — principais aspectos acerca dos estudos e "
+     "das análises referentes ao licenciamento ambiental da atividade de preservação de madeira.",
+     "Iema-ES, Vitória. 36 p.",
+     "fontes-documentais/ago_28_Madeira_Tratada_S11c/2023_iema_es_nt01_preservacao_madeira.pdf",
+     "o regulador por dentro: CCA em 80% do volume, sete registros válidos, «não há proibição "
+     "de uso no Brasil», EPA retirou o uso residencial em 2003, e «não existem muitas "
+     "informações sobre o CCB... e à disposição de resíduos»"),
+
+    ("abpm2015",
+     "ASSOCIAÇÃO BRASILEIRA DA INDÚSTRIA DE MADEIRA PROCESSADA MECANICAMENTE (ABPM)",
+     2015,
+     "Destinação de resíduos de madeira tratada.",
+     "Apresentação no 3º Simpósio Madeira e Construção, ago. 2015. 21 p.",
+     "fontes-documentais/ago_28_Madeira_Tratada_S11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.pdf",
+     "a própria cadeia produtiva: resíduo tratado não pode ter contato com alimentos ou água "
+     "potável, nem queima a céu aberto ou em fogões, churrasqueiras, fornos e caldeiras"),
+
+    ("ufsm2025",
+     "CIÊNCIA FLORESTAL",
+     2025,
+     "Contaminação do solo pelo uso de moirões tratados com arseniato de cobre cromatado.",
+     "Ciência Florestal, Santa Maria, v. 35, e86024, p. 1-16. DOI 10.5902/1980509886024.",
+     "fontes-documentais/ago_28_Madeira_Tratada_S11c/2025_ufsm_ciencia_florestal_cca_moiroes_solo.pdf",
+     "880 dias de campo: arsênio da madeira −55,0%, arsênio do solo +129,2%, e 32,3% acima do "
+     "valor máximo de investigação agrícola da Resolução CONAMA 420/2009"),
 ]
+
+# referências cujo texto-fonte será publicado no repositório pela gaveta do boro (PR-114).
+# A citação já vale; o link para o arquivo custodiado entra quando a PR for mesclada.
+LINK_PENDENTE = {
+    "araujo2025": "PR-114 (hermes/boro-v8-fim-de-vida) — ficha em docs/analyses/boro/fichas/araujo-2025-acv-bambu-acre-93-hct.md",
+    "pnmcb2011": "PNMCB — texto integral no Planalto; publicação desta frente pendente",
+}
 
 # chave -> número na lista de referências
 NUMERO = {r[0]: i + 1 for i, r in enumerate(REFERENCIAS)}

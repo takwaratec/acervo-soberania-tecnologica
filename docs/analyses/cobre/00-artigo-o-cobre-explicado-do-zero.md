@@ -1060,6 +1060,171 @@ sem saber o que fazer com a apara. **O boro e o cobre chegam ao território; a n
 
 ---
 
+## A norma existe — e ela não chega ao quintal
+
+Ao longo deste artigo eu disse várias vezes que **ninguém diz o que fazer com a sobra**.
+Isso pode ter soado como "não existe regra". **Existe.** É federal, é de 1989, e é
+mais explícita do que se costuma imaginar. O problema é outro, e é mais difícil de ver: a regra
+existe para o lado de dentro do galpão, não para o lado de fora.
+
+Este capítulo é o que separa "falta norma" de "a norma para onde não deveria parar". São
+diagnósticos diferentes, e o segundo é o verdadeiro.
+
+---
+
+### A regra, lida no original
+
+Três ministérios — Fazenda, Saúde e Interior — assinaram em 1989 a
+**Portaria Interministerial 292**. Ela não ensina a tratar madeira: ela decide quem
+pode tratar, e quem vigia. Em quatro páginas, três artigos sustentam tudo: [17]
+
+- **art. 1º** — a empresa que vive de preservar madeira tem de estar registrada no Ibama;
+- **art. 3º** — o preservativo *não pode ser fabricado, consumido ou posto à venda*
+antes do registro. Repare na palavra **consumido**: não é só vender, é usar;
+- **art. 20** — e aqui está o que quase ninguém cita:
+**"O IBAMA fiscalizará as atividades relacionadas com a preservação e comércio dos
+preservativos para madeira e de madeira preservada."**
+
+> A competência não está indefinida. Está escrita, com nome, desde 1989.
+
+Há mais: pelo **art. 21**, o Ibama não tem apenas o poder de autuar — tem o de
+*implementar medidas para assegurar a correta utilização* do preservativo. E pelo
+**art. 22**, a infração responde civil e penalmente. Uma norma posterior, de 1997,
+completa o desenho: para registrar o produto, a empresa precisa provar o
+**risco ambiental** dele.[18]
+
+---
+
+### A palavra que não aparece
+
+Varri as quatro páginas da Portaria à procura de uma palavra. Ela não está lá:
+**"resíduo"**.
+
+Não é descuido. É o desenho da norma: ela controla **a entrada** (registro do produto)
+e **o processo** (relatório semestral de produção). Ela não controla **a saída**
+— a peça tratada que, um dia, vira o que descartar.
+
+> **O que isso significa na prática** — A norma acompanha o moirão até o portão da usina. Depois do portão, ele é propriedade de quem comprou — e a partir daí nenhuma das três páginas fala com ele. Não porque a norma seja omissa por acidente: porque ela nunca foi escrita para acompanhar a peça até a sua casa.
+
+---
+
+### O próprio órgão ambiental escrevendo o que não sabe
+
+Aqui o material deixa de depender de interpretação. O Instituto Estadual de Meio Ambiente do
+Espírito Santo publicou em 2023 uma nota técnica sobre licenciamento da preservação de madeira —
+36 páginas escritas por quem licencia, não por quem critica.[19]
+
+Três frases dela, na ordem em que aparecem:
+
+- **O CCA domina o setor** — 80% do volume; o CCB, junto com lindane e
+tribromofenato, 15%; creosoto, 5%.
+- **Não há proibição no Brasil** — e o mesmo documento registra, duas páginas depois,
+que a EPA americana anunciou em 2003 o fim do uso residencial do CCA: nada de playground, deck ou
+cerca de casa.
+- **E sobre o CCB** — que é justamente o preservativo que a Embrapa ensina ao
+produtor rural: *"Não existem muitas informações sobre o CCB em relação aos aspectos ambientais
+e à disposição de resíduos na madeira tratada."*
+
+> O órgão que licencia diz, por escrito, que não há proibição, que o resto do mundo saiu do uso residencial, e que não tem informação sobre o destino do resíduo. As três coisas na mesma nota técnica.
+
+E o que a nota exige de quem opera dentro da lei? Que **100% do efluente contaminado volte
+para o processo**, que a madeira fique 15 dias curando antes de ser tocada, e que o resíduo
+sólido — **Classe I** — vá para aterro industrial licenciado. Essa é a régua. Guarde
+ela, porque o capítulo seguinte compara.
+
+---
+
+### A própria cadeia diz que não se queima
+
+Não é preciso apelar a ambientalista. A associação brasileira do setor de madeira apresentou num
+simpósio, em 2015, a lista do que o resíduo tratado **não pode**:[20]
+
+> Contato com alimentos ou água potável · Cama para animais · Queima a céu aberto ou em fogões/churrasqueiras/fornos/caldeiras de baixa temperatura
+
+O detalhe que impede o exagero: a mesma lista **admite** recuperação energética — ou
+seja, queimar em **instalação licenciada** é destino aceito. O que a lista proíbe é
+queimar **no fogão de casa**. A diferença não está no fogo: está na instalação, no
+filtro e no que sobra depois.
+
+---
+
+### O que a madeira perde e o solo ganha
+
+Se o preservativo ficasse dentro da peça, nada disso importaria. Ele não fica. Um ensaio de campo
+publicado em 2025 acompanhou **cinco moirões de eucalipto tratados com CCA** durante
+**880 dias**, medindo a madeira e o solo em volta, em duas profundidades.[21]
+
+| Número | O que significa |
+|---|---|
+| **−55,0%** | arsênio que saiu da madeira |
+| **+129,2%** | arsênio que entrou no solo |
+| **32,3%** | acima do limite de investigação agrícola |
+| **880** | dias de campo, seis amostragens |
+
+O terceiro número é o que interessa juridicamente: o solo passou do **valor máximo de
+investigação** que a Resolução CONAMA 420/2009 fixa para área agrícola — o ponto a partir do
+qual a norma manda investigar se há risco.
+
+E repare no que esse experimento é: **um moirão de cerca, em campo, no uso para o qual foi
+feito**. Não é indústria, não é acidente, não é despejo. É o produto funcionando. O que este
+artigo chama de "sobra" começa a caminhar **antes** de a peça virar sobra.
+
+> **O limite do estudo, que o estudo declara** — Cinco peças, um sítio. Mediu solo até 40 cm — não mediu água subterrânea. Mediu lixiviação — não mediu queima. E é CCA, que tem arsênio; o CCB tem boro, e transportar a conclusão de um para o outro é inferência, não medição.
+
+---
+
+### Onde a madeira e o bambu se separam — e é aqui que este artigo pesa
+
+Para a **madeira**, a estrutura existe: norma federal, registro obrigatório,
+fiscalizador nomeado, órgão estadual licenciando, resíduo classificado como Classe I, aterro
+industrial exigido. Tudo isso pode não ser cumprido — mas está escrito.
+
+Para o **bambu**, nada disso existe. Não há registro de preservativo para bambu, não
+há usina licenciada de tratamento de bambu, não há resíduo classificado. O tratamento é feito em
+tonel, no quintal, por quem aprendeu numa apostila — e as instruções que ensinam o banho
+**param exatamente onde o resíduo começa**.
+
+> A madeira tem norma que não se cumpre. O bambu não tem norma a cumprir. As duas coisas levam ao mesmo lugar — o resíduo no chão — por caminhos diferentes.
+
+É por isso que este capítulo não substitui o capítulo do limbo: ele explica por que o limbo é
+pior no bambu. A política de 2011 incentiva a cadeia do bambu; a de 2010 disciplina resíduo sólido
+sem nomear bambu; e a norma que disciplina preservativo de madeira, de 1989, **não alcança uma
+peça que nunca passou por uma usina**.
+
+---
+
+### O que não se mediu — e por que isso é resultado
+
+Procurei, para este artigo, um caso brasileiro documentado de intoxicação por queimar madeira
+tratada em fogão a lenha. **Não encontrei.**
+
+Não é o mesmo que dizer que não acontece. É dizer que **não está medido** — e essa
+distinção é o método deste artigo inteiro. O que existe é: a proibição, escrita pela própria
+cadeia;[20] a constatação de que a fumaça de fogão a lenha é um problema de saúde
+pública reconhecido no Brasil; e o registro de que a lenha catada em área rural
+**"engloba restos de caixas e madeiras tratadas"**.
+
+Há um detalhe que fecha o raciocínio: o próprio rótulo do preservativo registrado no Ibama manda
+notificar casos ao **Sinan** e ao **Notivisa**, e traz o telefone do
+Disque-Intoxicação. Ou seja, **existe canal** por onde esse caso apareceria — um canal
+de registro de intoxicação, não um artigo científico. Se ele não aparece na literatura, isso diz
+respeito ao lugar onde se procura, não à ausência do fato.
+
+> **A frase honesta, que eu prefiro ao número inventado** — Não há, no material reunido, caso brasileiro documentado de intoxicação por combustão de madeira tratada em fogão doméstico. Há proibição declarada, há prática relatada e há canal de notificação. Transformar isso em "há muitos casos" seria fazer exatamente o que este artigo critica.
+
+---
+
+### O que fica
+
+A norma brasileira de preservação de madeira existe, é de 1989, e nomeia quem fiscaliza. Ela
+controla o produto, a empresa e a usina. **Ela não controla o que acontece depois que a peça
+sai do portão** — e é depois do portão que este artigo inteiro acontece.
+
+O bambu tratado no quintal não está fora da lei por esperteza de quem trata. Está fora porque
+**a lei que existe foi escrita para uma usina que ele nunca vai ter**.
+
+---
+
 ## Como ler qualquer texto sobre cobre — e o resumo do artigo
 
 Esta é a seção mais útil do artigo, porque ela sobrevive a mim.
@@ -1159,7 +1324,7 @@ seguro.
 
 ---
 
-## Glossário — para voltar quando esquecer um termo
+## 11 · Glossário — para voltar quando esquecer um termo
 
 Termos em ordem alfabética. Todos aparecem explicados no corpo do texto; este é o lugar de consulta.
 
@@ -1169,7 +1334,7 @@ Termos em ordem alfabética. Todos aparecem explicados no corpo do texto; este �
 
 ---
 
-## 11 · Para saber mais, e como este texto foi feito
+## 12 · Para saber mais, e como este texto foi feito
 
 Este artigo não inventa dados. Ele reorganiza, em linguagem simples, o conteúdo de uma frente de pesquisa
 do **Acervo Soberania Tecnológica** dedicada ao cobre, que custodia as fontes com verificação de
@@ -1258,6 +1423,11 @@ Numeradas na ordem em que aparecem pela primeira vez no texto. Onde a fonte é u
 14. ARAUJO, Letícia Medeiros de; GIANELLI, Bruno Fernando; MANCINI, Sandro Donnini; MEDEIROS, Gerson Araujo de. **Life cycle assessment of the artisanal bamboo pole (Guadua angustifolia) production in the Brazilian Amazon.** 2025. Brazilian Journal of Science, v. 4, n. 4, p. 13-28. DOI 10.14295/bjs.v4i4.719. — Avaliação de ciclo de vida, com revisão por pares, da produção artesanal de colmo de *Guadua angustifolia* em **Rio Branco, Acre** — a única medição brasileira de uma cadeia artesanal de bambu tratado. Método declarado: SimaPro 9.1, Ecoinvent 3, **ReCiPe 2016 Midpoint (h)**, ISO 14040/14044, resultados normalizados em milipontos. **Toxicidade carcinogênica humana = 93% do impacto potencial normalizado**, e **91% dele nos resíduos** de apara, corte e colmo descartado — atribuído ao ácido bórico e ao bórax no resíduo e no efluente. Banho de 100 L de água + 5 kg de bórax + 5 kg de ácido bórico; por quilo de colmo: 0,20 kg de resíduo, 0,13 kg de colmo descartado, 0,07 L de efluente, 25% de perda. Limite: uma unidade, um município, um ano. Os próprios autores declaram sazonalidade, variabilidade de mão de obra e escassez de dados de inventário no Brasil. '93%' é categoria do método, não probabilidade de câncer — e a regra que o artigo descreve é o bórax, não o sulfato de cobre.
 15. BRASIL. **Lei nº 12.484, de 8 de setembro de 2011 — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do Bambu.** 2011. Diário Oficial da União. — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do Bambu. Seis artigos: crédito rural, assistência técnica, certificação de origem e incentivo ao intercâmbio institucional; o art. 5º, III, estimula expressamente o **uso comunitário e cooperativo**. Limite: procure tratamento, químico, resíduo, licença ou fiscalização no texto — não há. A política incentiva a produção e não disciplina o que acontece com o que sobra.
 16. ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 6232 — Penetração e retenção de preservativos em madeira tratada sob pressão.** 2013. ABNT, Rio de Janeiro. — Norma técnica sobre penetração e retenção de preservativos em madeira tratada sob pressão. Fornece a **retenção de 6,5 kg/m³** e a **composição percentual do CCB** usadas no cálculo de cobre por banho. Limite: a norma é paga e foi lida apenas na descrição que Rusch et al. (2023) dela fazem — não foi consultada no original.
+17. BRASIL. Ministério da Fazenda; Ministério da Saúde; Ministério do Interior. **Portaria Interministerial nº 292, de 28 de abril de 1989 — registro de preservativos de madeira e das usinas de preservação.** 1989. Diário Oficial da União, Brasília. 4 p. — A norma-mãe do setor no Brasil, de 1989, assinada por três ministérios. Torna o registro no Ibama obrigatório para a empresa (art. 1º) e para o produto — que **não pode ser fabricado, consumido ou vendido antes do registro** (art. 3º); exige relatório semestral de produção (art. 2º); e nomeia a competência: **«O IBAMA fiscalizará as atividades relacionadas com a preservação e comércio dos preservativos para madeira e de madeira preservada»** (art. 20), podendo «implementar medidas visando assegurar a correta utilização» (art. 21). Limite: a palavra «resíduo» não aparece no texto; a norma controla a entrada e o processo, não o destino da peça depois que ela sai da usina.
+18. INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS. **Portaria Normativa nº 151, de 24 de novembro de 1997 — documentação para registro de produto preservativo de madeira.** 1997. Diário Oficial da União, Seção 1, p. 27.552, 25 nov. 1997. OCR degradado. — Portaria do Ibama que condiciona o registro do preservativo à **determinação do risco ambiental** do produto e fixa o dossiê exigido. Limite: o risco avaliado é o do produto em uso, não o do resíduo ao fim da vida útil; e o OCR da Imprensa Nacional grafa os ordinais como «10» e «50» onde a leitura é «1º» e «5º».
+19. INSTITUTO ESTADUAL DE MEIO AMBIENTE E RECURSOS HÍDRICOS DO ESPÍRITO SANTO. **Nota Técnica Orientativa GGE-COED nº 01/2023 — principais aspectos acerca dos estudos e das análises referentes ao licenciamento ambiental da atividade de preservação de madeira.** 2023. Iema-ES, Vitória. 36 p. — Nota técnica do órgão ambiental do Espírito Santo sobre o licenciamento da preservação de madeira — o regulador por dentro. **CCA em 80% do volume** do setor, CCB com 15% junto de lindane e tribromofenato, creosoto 5%; autoclave em 84%; **sete registros válidos de CCA** no Brasil. Registra que a EPA americana anunciou em 2003 o fim do uso residencial do CCA e que **«não há proibição de uso no Brasil»**; que o efluente da usina deve ser **100% reutilizado no processo**; que resíduo tratado é **Classe I** e vai a aterro industrial; e, sobre o CCB, que **«não existem muitas informações ... em relação aos aspectos ambientais e à disposição de resíduos na madeira tratada»**. Limite: é orientação de um estado, não norma federal; e os percentuais de mercado são citados de terceiro, não medidos pelo próprio órgão.
+20. ASSOCIAÇÃO BRASILEIRA DA INDÚSTRIA DE MADEIRA PROCESSADA MECANICAMENTE (ABPM). **Destinação de resíduos de madeira tratada.** 2015. Apresentação no 3º Simpósio Madeira e Construção, ago. 2015. 21 p. — Apresentação da associação brasileira do setor de madeira, para o 3º Simpósio Madeira e Construção. Lista o que o resíduo tratado **não pode**: contato com alimentos ou água potável, cama para animais, e **«queima a céu aberto ou em fogões/churrasqueiras/fornos/caldeiras de baixa temperatura»**; admite recuperação energética apenas em instalação licenciada. Limite: é material setorial, não norma; declara a proibição, mas não mede quanto resíduo é queimado em fogão doméstico no Brasil.
+21. CIÊNCIA FLORESTAL. **Contaminação do solo pelo uso de moirões tratados com arseniato de cobre cromatado.** 2025. Ciência Florestal, Santa Maria, v. 35, e86024, p. 1-16. DOI 10.5902/1980509886024. — Ensaio de campo de 880 dias com **cinco moirões de eucalipto** tratados com CCA-C em autoclave industrial, seis amostragens em duas profundidades (0–20 e 20–40 cm). O arsênio da madeira caiu **55,0%** e o do solo subiu **129,2%**, ficando **32,3% acima do valor máximo de investigação para o setor agrícola** da Resolução CONAMA 420/2009. Limite: cinco peças num sítio; mediu solo até 40 cm, não água subterrânea; mediu lixiviação, não queima; é CCA, não CCB.
 ---
 
 ## Autoria, assistência e responsabilidade

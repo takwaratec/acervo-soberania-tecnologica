@@ -109,11 +109,77 @@ RESUMOS = {
  "entre 1997 (1.279 t) e 2020 (9,3 t). <span class='limite'>Limite: o preço disperso reflete a mistura de graus "
  "reagente e formulado na mesma NCM — hipótese declarada, não confirmada nos metadados da base.</span>",
 
+"araujo2025":
+ "Avaliação de ciclo de vida, com revisão por pares, da produção artesanal de colmo de "
+ "<em>Guadua angustifolia</em> em <strong>Rio Branco, Acre</strong> — a única medição "
+ "brasileira de uma cadeia artesanal de bambu tratado. Método declarado: SimaPro 9.1, "
+ "Ecoinvent 3, <strong>ReCiPe 2016 Midpoint (h)</strong>, ISO 14040/14044, resultados "
+ "normalizados em milipontos. <strong>Toxicidade carcinogênica humana = 93% do impacto "
+ "potencial normalizado</strong>, e <strong>91% dele nos resíduos</strong> de apara, corte "
+ "e colmo descartado — atribuído ao ácido bórico e ao bórax no resíduo e no efluente. "
+ "Banho de 100 L de água + 5 kg de bórax + 5 kg de ácido bórico; por quilo de colmo: "
+ "0,20 kg de resíduo, 0,13 kg de colmo descartado, 0,07 L de efluente, 25% de perda. "
+ "<span class='limite'>Limite: uma unidade, um município, um ano. Os próprios autores "
+ "declaram sazonalidade, variabilidade de mão de obra e escassez de dados de inventário no "
+ "Brasil. '93%' é categoria do método, não probabilidade de câncer — e a regra que o "
+ "artigo descreve é o bórax, não o sulfato de cobre.</span>",
+
+"pnmcb2011":
+ "Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do Bambu. Seis artigos: "
+ "crédito rural, assistência técnica, certificação de origem e incentivo ao intercâmbio "
+ "institucional; o art. 5º, III, estimula expressamente o <strong>uso comunitário e "
+ "cooperativo</strong>. <span class='limite'>Limite: procure tratamento, químico, resíduo, "
+ "licença ou fiscalização no texto — não há. A política incentiva a produção e não "
+ "disciplina o que acontece com o que sobra.</span>",
+
 "nbr6232":
  "Norma técnica sobre penetração e retenção de preservativos em madeira tratada sob pressão. "
  "Fornece a <strong>retenção de 6,5 kg/m³</strong> e a <strong>composição percentual do CCB</strong> "
  "usadas no cálculo de cobre por banho. <span class='limite'>Limite: a norma é paga e foi lida apenas na descrição que "
  "Rusch et al. (2023) dela fazem — não foi consultada no original.</span>",
+"ufsm2025":
+ "Ensaio de campo de 880 dias com <strong>cinco moirões de eucalipto</strong> tratados com CCA-C em "
+ "autoclave industrial, seis amostragens em duas profundidades (0–20 e 20–40 cm). O arsênio da "
+ "madeira caiu <strong>55,0%</strong> e o do solo subiu <strong>129,2%</strong>, ficando "
+ "<strong>32,3% acima do valor máximo de investigação para o setor agrícola</strong> da Resolução "
+ "CONAMA 420/2009. <span class='limite'>Limite: cinco peças num sítio; mediu solo até 40 cm, não água "
+ "subterrânea; mediu lixiviação, não queima; é CCA, não CCB.</span>",
+
+"pi292":
+ "A norma-mãe do setor no Brasil, de 1989, assinada por três ministérios. Torna o registro no Ibama "
+ "obrigatório para a empresa (art. 1º) e para o produto — que <strong>não pode ser fabricado, "
+ "consumido ou vendido antes do registro</strong> (art. 3º); exige relatório semestral de produção "
+ "(art. 2º); e nomeia a competência: <strong>«O IBAMA fiscalizará as atividades relacionadas com a "
+ "preservação e comércio dos preservativos para madeira e de madeira preservada»</strong> (art. 20), "
+ "podendo «implementar medidas visando assegurar a correta utilização» (art. 21). "
+ "<span class='limite'>Limite: a palavra «resíduo» não aparece no texto; a norma controla a entrada e o "
+ "processo, não o destino da peça depois que ela sai da usina.</span>",
+
+"pn151":
+ "Portaria do Ibama que condiciona o registro do preservativo à <strong>determinação do risco "
+ "ambiental</strong> do produto e fixa o dossiê exigido. <span class='limite'>Limite: o risco avaliado "
+ "é o do produto em uso, não o do resíduo ao fim da vida útil; e o OCR da Imprensa Nacional grafa os "
+ "ordinais como «10» e «50» onde a leitura é «1º» e «5º».</span>",
+
+"iema2023":
+ "Nota técnica do órgão ambiental do Espírito Santo sobre o licenciamento da preservação de madeira — "
+ "o regulador por dentro. <strong>CCA em 80% do volume</strong> do setor, CCB com 15% junto de lindane "
+ "e tribromofenato, creosoto 5%; autoclave em 84%; <strong>sete registros válidos de CCA</strong> no "
+ "Brasil. Registra que a EPA americana anunciou em 2003 o fim do uso residencial do CCA e que "
+ "<strong>«não há proibição de uso no Brasil»</strong>; que o efluente da usina deve ser "
+ "<strong>100% reutilizado no processo</strong>; que resíduo tratado é <strong>Classe I</strong> e vai a "
+ "aterro industrial; e, sobre o CCB, que <strong>«não existem muitas informações ... em relação aos "
+ "aspectos ambientais e à disposição de resíduos na madeira tratada»</strong>. "
+ "<span class='limite'>Limite: é orientação de um estado, não norma federal; e os percentuais de "
+ "mercado são citados de terceiro, não medidos pelo próprio órgão.</span>",
+
+"abpm2015":
+ "Apresentação da associação brasileira do setor de madeira, para o 3º Simpósio Madeira e Construção. "
+ "Lista o que o resíduo tratado <strong>não pode</strong>: contato com alimentos ou água potável, cama "
+ "para animais, e <strong>«queima a céu aberto ou em fogões/churrasqueiras/fornos/caldeiras de baixa "
+ "temperatura»</strong>; admite recuperação energética apenas em instalação licenciada. "
+ "<span class='limite'>Limite: é material setorial, não norma; declara a proibição, mas não mede quanto "
+ "resíduo é queimado em fogão doméstico no Brasil.</span>",
 }
 
 

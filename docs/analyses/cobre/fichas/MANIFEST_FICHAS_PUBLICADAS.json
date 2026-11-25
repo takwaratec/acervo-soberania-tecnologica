@@ -48,6 +48,46 @@
    "sha256_origem": "3abf0a466d200401e6c502e9a69963c921c6032c20c64955068381b0cbc96818",
    "sha256_publicado": "9e8fb1b33a1330efe520d3c968d01bd26d8eba88cac08698dc8ea952943d687c",
    "bytes": 4951
+  },
+  {
+   "arquivo": "ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md",
+   "origem": "_privado/fichas/ago_28_Madeira_Tratada_S11c/ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md",
+   "sha256_origem": "b84f6dd8fe60f0ab3de6fabfd4a436e0387fc3e245b824cc0da4d94363576d9e",
+   "sha256_publicado": "ddde9cd66b2b17eee8e68fb568f9b64fc3d50b4a30cbce7b6d66df85a3a0ee6a",
+   "bytes": 5551
+  },
+  {
+   "arquivo": "ficha-iema-es-nt01-2023-preservacao-madeira.md",
+   "origem": "_privado/fichas/ago_28_Madeira_Tratada_S11c/ficha-iema-es-nt01-2023-preservacao-madeira.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-iema-es-nt01-2023-preservacao-madeira.md",
+   "sha256_origem": "31eab8534ba4b39aff34c121a50d1e68e17c516faddf7886ab432ec2b1431b84",
+   "sha256_publicado": "c4535c350b7cad1ae16ad0175091f03bdf3633bd636dcb9ee90f7b4f5a532b97",
+   "bytes": 7662
+  },
+  {
+   "arquivo": "ficha-pi292-89-registro-preservativos-madeira.md",
+   "origem": "_privado/fichas/ago_28_Madeira_Tratada_S11c/ficha-pi292-89-registro-preservativos-madeira.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-pi292-89-registro-preservativos-madeira.md",
+   "sha256_origem": "fd7c05f01eb8d18721f85bb39e183c969306d18d6b81e50e05803e0b4cb5f532",
+   "sha256_publicado": "86a6a7cba1f3b83ab2398aa11fa8317ffad07c52d1677a6ebdeaf6bdddb95cdd",
+   "bytes": 6223
+  },
+  {
+   "arquivo": "ficha-pn151-97-ibama-risco-ambiental.md",
+   "origem": "_privado/fichas/ago_28_Madeira_Tratada_S11c/ficha-pn151-97-ibama-risco-ambiental.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-pn151-97-ibama-risco-ambiental.md",
+   "sha256_origem": "5946736cac934e6670298398edef2165a7cbf9181e21a0df2fb9f4f352d86274",
+   "sha256_publicado": "d4befffc1400104b3e07a34f224947608875ab3a3795b4394aaf60f72640a345",
+   "bytes": 5657
+  },
+  {
+   "arquivo": "ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md",
+   "origem": "_privado/fichas/ago_28_Madeira_Tratada_S11c/ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md",
+   "sha256_origem": "937a47fa0be96fbe14850aa43e21c0ed21e0ae95de11f011a11cb1ceb991007a",
+   "sha256_publicado": "c875842974014fce7fb3ccadb765afcdece71751d45a673f6f32701c57a9915c",
+   "bytes": 5963
   }
  ],
  "estado": "homologado-internamente",

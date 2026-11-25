@@ -40,6 +40,9 @@ a.cite{color:#8a4b1e}
 /* síntese da fonte: itálico no conjunto, com o limite em redondo para não se perder */
 .resumo{font-style:italic}
 .resumo .limite{font-style:normal;color:#8a4b12;font-weight:600}
+.pendente{font:600 11px/1.4 ui-monospace,Menlo,monospace;color:#8a4b12;
+  background:#fdf3e6;padding:1px 6px;border-radius:4px;
+  display:inline;white-space:normal;overflow-wrap:anywhere;box-decoration-break:clone}
 
 """
 
@@ -56,6 +59,17 @@ FICHAS = [
   "ficha-blog-tsc-como-tratar-bambu.md"),
  ("ficha-6", "Espaço Naturalmente — o padrão de mercado: sulfato de cobre como fungicida, sem uma palavra de aviso",
   "ficha-espaconaturalmente-bambu.md"),
+ # S11-c — a norma da madeira tratada e o descarte (2026-11-24)
+ ("ficha-7", "Portaria Interministerial 292/89 — o registro obrigatório e o art. 20: \u00abO IBAMA fiscalizará\u00bb",
+  "ficha-pi292-89-registro-preservativos-madeira.md"),
+ ("ficha-8", "Portaria Normativa Ibama 151/97 — o registro condicionado à determinação do risco ambiental",
+  "ficha-pn151-97-ibama-risco-ambiental.md"),
+ ("ficha-9", "Iema-ES, NT 01/2023 — o regulador escrevendo que não há proibição e que não tem dados do CCB",
+  "ficha-iema-es-nt01-2023-preservacao-madeira.md"),
+ ("ficha-10", "ABPM/FG4mad — a própria cadeia: resíduo tratado não pode queima em fogão nem a céu aberto",
+  "ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md"),
+ ("ficha-11", "Ciência Florestal 2025 — 880 dias de campo: arsênio da madeira \u221255%, do solo +129,2%",
+  "ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md"),
 ]
 
 
@@ -171,11 +185,11 @@ def montar():
                          f'{p["corpo"].strip()}')
             toc.append(("antes-de-comecar", "Antes de começar"))
             continue
-        if p["num"] == "09":             # Glossário: sem número
+        if p["id"] == "p-10":             # Glossário: sem número
             corpo.append(f'<h2 id="glossario">{H.escape(titulo)}</h2>\n{p["corpo"].strip()}')
             toc.append(("glossario", "Glossário"))
             continue
-        if p["num"] == "10":             # Proveniência vira "Como este texto foi feito"
+        if p["id"] == "p-11":             # Proveniência vira "Como este texto foi feito"
             corpo.append('<h2 id="como-este-texto-foi-feito">Como este texto foi feito</h2>\n'
                          + p["corpo"].strip())
             toc.append(("como-este-texto-foi-feito", "Como este texto foi feito"))
@@ -197,10 +211,13 @@ def montar():
         an_ = R._fecha_ponto(str(an or "[s.d.]"))
         v = R._fecha_ponto(ve)
         res = RS.resumo(ch)
+        pend = R.LINK_PENDENTE.get(ch)
+        nota_pend = (f' <span class="pendente">fonte a publicar — {H.escape(pend)}</span>'
+                     if pend else '')
         refs_html.append(
             f'<p class="ref" id="ref-{i}"><strong><a class="cite" href="#ref-{i}">[{i}]</a></strong> '
             f'{H.escape(a)} <em>{H.escape(t)}</em> {H.escape(an_)} {H.escape(v)}'
-            f'{" — <span class=\'resumo\'>" + res + "</span>" if res else ""}</p>')
+            f'{" — <span class=\'resumo\'>" + res + "</span>" if res else ""}{nota_pend}</p>')
     refs_html = "\n".join(refs_html)
 
     # ---- fichas
@@ -267,7 +284,7 @@ def montar():
 </section>
 </main>
 <footer class="rodape">
-<p><strong>Sobre este documento.</strong> Texto integral e corrido, sem abas — o mesmo conteúdo do manuscrito <code>docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md</code>, com as 6 fichas de <code>docs/analyses/cobre/fichas/</code> anexadas ao final. A versão em abas, para leitura por capítulo, está em <code>o-cobre-no-bambu.html</code>.</p>
+<p><strong>Sobre este documento.</strong> Texto integral e corrido, sem abas — o mesmo conteúdo do manuscrito <code>docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md</code>, com as {len(FICHAS)} fichas de <code>docs/analyses/cobre/fichas/</code> anexadas ao final. A versão em abas, para leitura por capítulo, está em <code>o-cobre-no-bambu.html</code>.</p>
 <p>Estado <code>homologado-internamente</code> (autoridade FABIO, 2026-11-24), auditoria externa pendente; homologação automática desativada. Cinco rodadas de auditoria independente na frente, com três reprovações e correção material em cada uma. Redação com assistência de agente de IA sob curadoria humana declarada.</p>
 </footer></body></html>
 """
@@ -295,7 +312,7 @@ def validar(doc, palavras, nsecoes):
     cits = re.findall(r'<a class="cite" href="#ref-(\d+)">\[(\d+)\]</a>', doc)
     hrefs = [int(a) for a, _ in cits]
     rótulos_ok = all(a == b for a, b in cits)
-    print(f" 3. citações                   {len(cits)} marcas, refs {len(set(hrefs))}/14"
+    print(f" 3. citações                   {len(cits)} marcas, refs {len(set(hrefs))}/{len(R.REFERENCIAS)}"
           + ("" if rótulos_ok else "  RÓTULO≠HREF"))
     if not rótulos_ok:
         falhas.append("rótulo da citação")
@@ -304,7 +321,7 @@ def validar(doc, palavras, nsecoes):
     alvos = set(re.findall(r'id="ref-(\d+)"', doc))
     if set(map(str, hrefs)) - alvos:
         falhas.append("citação sem destino")
-    print(f" 4. âncoras de referência      {len(alvos)}/14")
+    print(f" 4. âncoras de referência      {len(alvos)}/{len(R.REFERENCIAS)}")
 
     # sumário -> âncoras
     links = re.findall(r'class="toc[^"]*"[^>]*>.*?</nav>', doc, re.S)
@@ -318,7 +335,7 @@ def validar(doc, palavras, nsecoes):
     # fichas
     nf = len(re.findall(r'<article class="ficha"', doc))
     ids_f = re.findall(r'<article class="ficha" id="(ficha-\d+)"', doc)
-    if nf != 6:
+    if nf != len(FICHAS):
         falhas.append("fichas")
     print(f" 6. fichas anexadas            {nf} (ids: {', '.join(ids_f)})")
 
@@ -330,15 +347,15 @@ def validar(doc, palavras, nsecoes):
 
     # estado homologado nas fichas
     homol = len(re.findall(r"homologado-internamente", doc))
-    if homol < 6:
+    if homol < len(FICHAS):
         falhas.append("estado das fichas")
     print(f" 8. estado homologado          {homol} ocorrências")
 
     # bibliografia com resumo
     resumos = len(re.findall(r'<p class="ref" id="ref-\d+">.*?class=.resumo.', doc, re.S))
-    if resumos != 14:
+    if resumos != len(R.REFERENCIAS):
         falhas.append("resumo na bibliografia")
-    print(f" 9. bibliografia comentada     {resumos}/14 com síntese")
+    print(f" 9. bibliografia comentada     {resumos}/{len(R.REFERENCIAS)} com síntese")
 
     from html.parser import HTMLParser
     VOID = {"meta", "br", "hr", "img", "link", "input", "source", "col", "area",

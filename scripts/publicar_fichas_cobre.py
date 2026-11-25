@@ -11,7 +11,11 @@ import re
 import shutil
 
 REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
-ORIG = f"{REPO}/_privado/fichas/ago_28_Sulfato_S11"
+# duas custódias, cada uma com o seu total declarado
+ORIGENS = [
+    (f"{REPO}/_privado/fichas/ago_28_Sulfato_S11", 6),
+    (f"{REPO}/_privado/fichas/ago_28_Madeira_Tratada_S11c", 5),
+]
 DEST = f"{REPO}/docs/analyses/cobre/fichas"
 
 os.makedirs(DEST, exist_ok=True)
@@ -47,10 +51,11 @@ publicacao: docs/analyses/cobre/fichas/
 
 
 def promover():
-    origem = sorted(f for f in os.listdir(ORIG) if f.endswith(".md"))
-    assert len(origem) == 6, f"esperava 6 fichas, achei {len(origem)}"
     rel = []
-    for arq in origem:
+    for ORIG, esperado in ORIGENS:
+      origem = sorted(f for f in os.listdir(ORIG) if f.endswith(".md"))
+      assert len(origem) == esperado, f"esperava {esperado} fichas em {ORIG}, achei {len(origem)}"
+      for arq in origem:
         src = os.path.join(ORIG, arq)
         dst = os.path.join(DEST, arq)
         bruto = open(src, "rb").read()
@@ -69,7 +74,7 @@ def promover():
         sha_depois = hashlib.sha256(open(dst, "rb").read()).hexdigest()
         rel.append({
             "arquivo": arq,
-            "origem": f"_privado/fichas/ago_28_Sulfato_S11/{arq}",
+            "origem": os.path.relpath(src, REPO),
             "destino": f"docs/analyses/cobre/fichas/{arq}",
             "sha256_origem": sha_antes,
             "sha256_publicado": sha_depois,
@@ -80,7 +85,7 @@ def promover():
 
 
 if __name__ == "__main__":
-    print("=== promovendo 6 fichas para a área versionada ===")
+    print("=== promovendo as fichas para a área versionada ===")
     r = promover()
     import json
     p = f"{DEST}/MANIFEST_FICHAS_PUBLICADAS.json"
