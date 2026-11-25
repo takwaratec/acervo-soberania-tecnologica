@@ -233,12 +233,16 @@ def main():
     open(os.path.join(REPO, hr_path), "w", encoding="utf-8").write(
         json.dumps(resp, ensure_ascii=False, indent=1) + "\n")
 
+    # números da mensagem saem do manifesto, não de constante digitada
+    nf_fich = len([f for f in man["fontes"] if "/fichas/" in f["path"]
+                   and not f["path"].endswith("MANIFEST_FICHAS_PUBLICADAS.json")])
     # manifesto e resposta no mesmo commit
     git("add", man_path, hr_path)
     if prev != man_path:
         git("rm", "-q", "--ignore-unmatch", prev)
     git("commit", "-q", "-m",
-        f"auditoria(cobre): manifesto e hashes do alvo {alvo[:8]} — 21 refs, 11 fichas, {man['total_fontes']} fontes")
+        f"auditoria(cobre): manifesto e hashes do alvo {alvo[:8]} — {nf_fich} fichas, "
+        f"{man['total_fontes']} fontes")
     man_commit = git("rev-parse", "HEAD").stdout.decode().strip()
 
     # conferência: o hash declarado é o que o git serve?
