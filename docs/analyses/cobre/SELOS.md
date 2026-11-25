@@ -8,6 +8,7 @@ confere se o que veio é o mesmo.
 
 | alvo_commit | sha256 do manifesto | sha256 da resposta | data | commit do par |
 |---|---|---|---|---|
+| `3fd33c3b` | `a7ad27d7d0115450…` | `c5629e1d6efd038f…` | 2026-11-25T16:02:57Z | `7d2db6d28b76` |
 | `b6c882f7` | `72f2a0d41ca34721…` | `a0983e90f38ae905…` | 2026-11-25T16:01:51Z | `91dc854310f3` |
 | `ad00bf6b` | `7f14de72e787b13c…` | `40c4b63e12dd8926…` | 2026-11-25T13:37:08Z | `25d97434db77` |
 | `ae3ba67a` | `22b26dcc8db0e5ba…` | `30aa369e84b006e7…` | 2026-11-25T13:35:23Z | `89b83f5f4fef` |
@@ -27,6 +28,6 @@ confere se o que veio é o mesmo.
 | `26b935df` | `1c7fb70154d6ef0f…` | `78680c5843c5bd14…` | 2026-11-25T11:04:29Z | `5bf1eeb1ba5e` |
 | `b0f3f82b` | `465003987fcea430…` | `11ebd892c799846e…` | 2026-11-25T10:58:41Z | `fc137e5c0272` |
 
-Total de selos indexados: **18**.
+Total de selos indexados: **19**.
 
 Gerado por `scripts/gerar_selos_cobre.py` a partir do histórico; não editar à mão.
