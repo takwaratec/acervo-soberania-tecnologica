@@ -831,9 +831,18 @@ afirmar que é seguro está extrapolando igual, e com mais consequência.
 O boro tem uma propriedade perigosa para a percepção pública: **ele não arde, não
 fede, não queima a pele na hora, e é vendido na farmácia** [6].
 
-Se fosse cromo ou arsênio, ninguém espalharia apara no quintal. Como é "só boro", a
-apara vai para o composteira, para a cama do animal, para a cobertura da horta, para o
-fogo.
+**Mas eu escrevi uma frase falsa aqui, e ela precisa ser corrigida.** Eu havia
+sugerido que, se fosse cromo ou arsênio, ninguém espalharia a apara no quintal. **Não é
+verdade.** No caso do CCA e do CCB existe, sim, norma brasileira — a Embrapa instrui o
+tratamento de moirão na propriedade rural com tonel, EPI e **proibição explícita de
+descarte no ambiente, repetida duas vezes** [31]. E o que acontece na prática é o que o
+soberano relata: **resíduo largado em área pública e queimado**, com casos de intoxicação
+por fumaça de eucalipto tratado em fogão a lenha.
+
+**A lição não é que o boro é pior que o cromo. É a inversa:** a norma existir não impede
+o descarte irregular. O boro está na posição **pior**, porque nele nem a norma existe —
+mas o cromo mostra que ter norma é condição necessária, não suficiente. **Quem trata bambu
+com boro não tem nem a instrução que o dono de moirão tem.**
 
 **O que a evidência sustenta, com precisão:**
 
