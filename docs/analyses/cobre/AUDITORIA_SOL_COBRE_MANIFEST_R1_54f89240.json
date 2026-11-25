@@ -3,12 +3,12 @@
  "versao": "1.0.0",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "status": "ABERTO",
- "gerado_utc": "2026-11-25T16:13:09+00:00",
+ "gerado_utc": "2026-11-25T16:16:32+00:00",
  "tipo": "CONTEUDO",
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "436b9fd0984645e961e5b72f12083e4ffdde6701",
+ "alvo_commit": "54f89240debb78ac4bf7b69d7208382ab93f5e98",
  "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 12 fichas, fontes). Todos os sha256 de fontes[] foram lidos do próprio commit, com `git show <alvo>:<path>`.",
  "aviso_de_leitura": {
   "repositorio": "takwaratec/acervo-soberania-tecnologica",
@@ -420,5 +420,6 @@
   ]
  },
  "total_fontes": 33,
- "como_ler": "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo carrega o alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: aquele é o da rodada anterior. A entrada é o ponteiro em ops/command-center/auditoria-atual/COBRE.json."
+ "como_ler": "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo carrega o alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: aquele é o da rodada anterior. A entrada é o ponteiro em ops/command-center/auditoria-atual/COBRE.json.",
+ "nota_do_selo": "Este manifesto vive no commit que o contém. Ele NÃO nomeia o próprio commit, porque um objeto não pode conter o próprio hash: quem audita compara alvo_commit ao último commit de CONTEÚDO (o anterior ao selo), nunca ao HEAD. Manifesto que pareça 'apontar para o commit anterior' é o funcionamento correto, não deriva — se alvo_commit fosse o HEAD, o selo estaria declarando os próprios bytes como fonte de si mesmo."
 }
