@@ -169,6 +169,12 @@ def main():
         "CONTEÚDO (o anterior ao selo), nunca ao HEAD. Manifesto que pareça 'apontar para o commit "
         "anterior' é o funcionamento correto, não deriva — se alvo_commit fosse o HEAD, o selo "
         "estaria declarando os próprios bytes como fonte de si mesmo.")
+    # branch declarada no manifesto é a que está sendo selada, lida da variável de ambiente
+    man["alvo_branch"] = os.environ.get("COBRE_BRANCH", "")
+    if not man["alvo_branch"]:
+        import subprocess as _sp
+        man["alvo_branch"] = _sp.run(["git", "-C", REPO, "rev-parse", "--abbrev-ref", "HEAD"],
+                                     capture_output=True, text=True).stdout.strip()
     man["o_que_voce_le"] = (
         "o commit alvo_commit, na branch da PR. main NÃO contém este material — ler main avalia outro "
         "objeto. Ao clonar de um caminho local, confira a base: a branch `main` do clone pode estar "
