@@ -17,8 +17,8 @@ complementa: 00-estado-da-questao-boro.md §5.1
 
 # Importação brasileira de boro — série 1997–2026 por NCM
 
-> **Síntese.** O Brasil importou **487.185 t** de produtos de boro em 2025, por
-> **US$ 225,8 milhões** FOB — cerca de **4,4 vezes a massa e 6,3 vezes o valor de
+> **Síntese.** O Brasil importou **487.339 t** de produtos de boro em 2025, por
+> **US$ 230,0 milhões** FOB — cerca de **4,4 vezes a massa e 6,3 vezes o valor de
 > 1997**. Não há produção nacional de boratos declarada à USGS — o que **não**
 > prova que todo o boro consumido entre pelo porto: importação de produto não é
 > consumo, e reexportação e estoque não são descontados. E entra, em quase quatro quintos do valor, de **vizinhos
@@ -76,49 +76,56 @@ aparece apenas na §6, como estimativa com premissa declarada.
 Valores em toneladas de produto (peso líquido). 2026 é **parcial**: janeiro a
 outubro, dez meses.
 
-| Ano | 2528 boratos naturais (t) | 2810 ácidos e óxidos (t) | 2840 boratos refinados (t) | Total (t) | Total (US$ FOB) | US$/kg |
-|---|---|---|---|---|---|---|
-| 1997 | 72.642 | 16.446 | 22.533 | **111.621** | 35,9 M | 0,321 |
-| 1998 | 74.673 | 17.964 | 25.475 | **118.112** | 39,9 M | 0,338 |
-| 1999 | 78.291 | 18.924 | 29.059 | **126.273** | 41,8 M | 0,331 |
-| 2000 | 99.024 | 21.546 | 25.771 | **146.340** | 42,3 M | 0,289 |
-| 2001 | 93.837 | 20.161 | 24.598 | **138.596** | 37,1 M | 0,268 |
-| 2002 | 104.838 | 25.086 | 20.864 | **150.787** | 34,8 M | 0,231 |
-| 2003 | 143.068 | 28.272 | 19.619 | **190.958** | 38,9 M | 0,203 |
-| 2004 | 169.422 | 28.173 | 22.113 | **219.708** | 43,5 M | 0,198 |
-| 2005 | 103.958 | 29.452 | 21.268 | **154.678** | 38,5 M | 0,249 |
-| 2006 | 107.224 | 29.371 | 18.219 | **154.814** | 37,2 M | 0,240 |
-| 2007 | 141.037 | 34.404 | 20.661 | **196.102** | 48,6 M | 0,248 |
-| 2008 | 117.630 | 36.937 | 22.757 | **177.324** | 78,4 M | 0,442 |
-| 2009 | 108.113 | 22.487 | 15.333 | **145.933** | 53,1 M | 0,364 |
-| 2010 | 136.938 | 35.179 | 20.867 | **192.984** | 70,7 M | 0,366 |
-| 2011 | 163.448 | 39.691 | 19.453 | **222.592** | 98,3 M | 0,442 |
-| 2012 | 176.462 | 42.784 | 15.105 | **234.351** | 104,8 M | 0,447 |
-| 2013 | 160.991 | 35.965 | 14.416 | **211.372** | 91,1 M | 0,431 |
-| 2014 | 146.503 | 33.238 | 17.576 | **197.316** | 81,9 M | 0,415 |
-| 2015 | 129.118 | 36.011 | 15.733 | **180.862** | 72,0 M | 0,398 |
-| 2016 | 125.805 | 33.994 | 16.634 | **176.432** | 61,5 M | 0,348 |
-| 2017 | 167.673 | 47.196 | 21.677 | **236.545** | 78,4 M | 0,332 |
-| 2018 | 149.013 | 45.352 | 28.497 | **222.862** | 85,4 M | 0,383 |
-| 2019 | 172.394 | 41.648 | 26.295 | **240.337** | 81,2 M | 0,338 |
-| 2020 | 197.770 | 42.451 | 29.798 | **270.020** | 88,6 M | 0,328 |
-| 2021 | 268.179 | 51.540 | 34.140 | **353.859** | 117,6 M | 0,332 |
-| 2022 | 244.241 | 59.183 | 29.687 | **333.112** | 157,8 M | 0,474 |
-| 2023 | 300.351 | 55.558 | 26.848 | **382.758** | 154,3 M | 0,403 |
-| 2024 | 327.964 | 82.617 | 48.975 | **459.556** | 204,7 M | 0,445 |
-| 2025 | 342.799 | 82.687 | 61.700 | **487.185** | 225,8 M | 0,464 |
-| 2026* | 260.600 | 72.181 | 39.960 | **372.742** | 205,2 M | 0,551 |
+| Ano | 2528 boratos (t) | 2804 boro elementar (t) | 2810 ácidos e óxidos (t) | 2840 boratos refinados (t) | 2849 carbonetos (t) | 2850 nitreto (t) | **Total (t)** | Total (US$ FOB) | US$/kg |
+|---|---|---|---|---|---|---|---|---|---|
+| 1997 | 72.642 | 1 | 16.446 | 22.533 | 5 | 1 | **111.627** | 36,7 M | 0,329 |
+| 1998 | 74.673 | 2 | 17.964 | 25.475 | 6 | 1 | **118.122** | 40,8 M | 0,346 |
+| 1999 | 78.291 | 2 | 18.924 | 29.059 | 4 | 3 | **126.282** | 42,7 M | 0,338 |
+| 2000 | 99.024 | 3 | 21.546 | 25.771 | 16 | 26 | **146.385** | 43,4 M | 0,296 |
+| 2001 | 93.837 | 2 | 20.161 | 24.598 | 17 | 2 | **138.617** | 37,9 M | 0,273 |
+| 2002 | 104.838 | 3 | 25.086 | 20.864 | 16 | 30 | **150.836** | 36,0 M | 0,238 |
+| 2003 | 143.068 | 22 | 28.272 | 19.619 | 21 | 53 | **191.054** | 40,6 M | 0,212 |
+| 2004 | 169.422 | 37 | 28.173 | 22.113 | 51 | 30 | **219.826** | 45,9 M | 0,209 |
+| 2005 | 103.958 | 4 | 29.452 | 21.268 | 59 | 4 | **154.745** | 40,9 M | 0,264 |
+| 2006 | 107.224 | 27 | 29.371 | 18.219 | 16 | 16 | **154.874** | 39,4 M | 0,255 |
+| 2007 | 141.037 | 4 | 34.404 | 20.661 | 32 | 23 | **196.161** | 51,3 M | 0,262 |
+| 2008 | 117.630 | 5 | 36.937 | 22.757 | 85 | 22 | **177.436** | 82,4 M | 0,464 |
+| 2009 | 108.113 | 3 | 22.487 | 15.333 | 9 | 9 | **145.954** | 54,6 M | 0,374 |
+| 2010 | 136.938 | 6 | 35.179 | 20.867 | 60 | 29 | **193.079** | 74,6 M | 0,386 |
+| 2011 | 163.448 | 5 | 39.691 | 19.453 | 67 | 17 | **222.680** | 103,0 M | 0,463 |
+| 2012 | 176.462 | 4 | 42.784 | 15.105 | 53 | 17 | **234.425** | 108,6 M | 0,463 |
+| 2013 | 160.991 | 9 | 35.965 | 14.416 | 81 | 23 | **211.485** | 94,9 M | 0,449 |
+| 2014 | 146.503 | 3 | 33.238 | 17.576 | 93 | 19 | **197.431** | 85,4 M | 0,432 |
+| 2015 | 129.118 | 8 | 36.011 | 15.733 | 82 | 31 | **180.983** | 76,1 M | 0,421 |
+| 2016 | 125.805 | 4 | 33.994 | 16.634 | 77 | 22 | **176.535** | 64,4 M | 0,365 |
+| 2017 | 167.673 | 9 | 47.196 | 21.677 | 144 | 26 | **236.724** | 82,8 M | 0,350 |
+| 2018 | 149.013 | 10 | 45.352 | 28.497 | 87 | 25 | **222.984** | 88,8 M | 0,398 |
+| 2019 | 172.394 | 10 | 41.648 | 26.295 | 132 | 24 | **240.503** | 85,1 M | 0,354 |
+| 2020 | 197.770 | 6 | 42.451 | 29.798 | 73 | 12 | **270.111** | 91,7 M | 0,340 |
+| 2021 | 268.179 | 3 | 51.540 | 34.140 | 141 | 23 | **354.026** | 122,5 M | 0,346 |
+| 2022 | 244.241 | 16 | 59.183 | 29.687 | 82 | 22 | **333.234** | 162,8 M | 0,489 |
+| 2023 | 300.351 | 5 | 55.558 | 26.848 | 108 | 14 | **382.885** | 158,7 M | 0,414 |
+| 2024 | 327.964 | 7 | 82.617 | 48.975 | 141 | 19 | **459.722** | 209,5 M | 0,456 |
+| 2025 | 342.799 | 5 | 82.687 | 61.700 | 132 | 18 | **487.339** | 230,0 M | 0,472 |
+| 2026* | 260.600 | 5 | 72.181 | 39.960 | 86 | 16 | **372.849** | 209,2 M | 0,561 |
 
 \* janeiro a outubro de 2026 (dez meses).
 
+> **Nota de correção (2026-11-25).** A série anterior somava nove códigos NCM e dava
+> **204,7 milhões** para 2024, omitindo 2804.50, 2849.90.10 e 2850.00.10. Também perdia
+> parte do grupo 2528 em anos antigos, quando o código aparecia fragmentado em 2528.10.00
+> e 2528.90.00. A tabela foi refeita a partir dos brutos com os **doze códigos** que, ao
+> longo do tempo, compõem os seis grupos. 2024 passa a **US$ 209,5 milhões** e
+> **459,7 mil toneladas** — os mesmos números do artigo principal.
+
 **Três fatos que a tabela sustenta, e um que ela não sustenta.**
 
-1. A massa importada **quadruplicou** entre 1997 (111,6 kt) e 2025 (487,2 kt).
+1. A massa importada **quadruplicou** entre 1997 (111,6 mil t) e 2025 (487,3 mil t).
 2. O valor cresceu **mais rápido que a massa** (6,3× contra 4,4×): o produto
-   importado está mais refinado e mais caro por quilo em 2025 (US$ 0,464/kg)
-   do que em 1997 (US$ 0,321/kg).
-3. O crescimento é **recente e abrupto**: 270 kt em 2020 → 487 kt em 2025, quase
-   80% em cinco anos. O patamar de 1997–2016 estava entre 110 e 235 kt.
+   importado está mais refinado e mais caro por quilo em 2025 (US$ 0,472/kg)
+   do que em 1997 (US$ 0,329/kg).
+3. O crescimento é **recente e abrupto**: 270 mil t em 2020 → 487 mil t em 2025, **80%
+   em cinco anos**. O patamar de 1997–2016 ficou entre 111 e 237 mil t.
 4. A tabela **não** sustenta que o Brasil "consome" essa massa: parte do minério
    entra para ser processada e reexportada, e o ComexStat mede comércio, não
    consumo aparente. Ver §7.
@@ -129,13 +136,18 @@ outubro, dez meses.
 
 | NCM | Produto | Massa (t) | Valor (US$ FOB) | % do valor | US$/kg |
 |---|---|---|---|---|---|
-| 25280000 | Boratos naturais e concentrados | 342.799 | 102,8 M | 45,53% | 0,300 |
-| 28100010 | Ácido ortobórico | 82.492 | 69,0 M | 30,57% | 0,837 |
-| 28401900 | Bórax refinado (outros tetraboratos dissódicos) | 47.136 | 33,4 M | 14,77% | 0,708 |
-| 28402000 | Outros boratos | 14.246 | 19,2 M | 8,48% | 1,345 |
-| 28100090 | Óxidos de boro e outros ácidos bóricos | 195 | 0,7 M | 0,30% | 3,428 |
-| 28401100 | Tetraborato dissódico anidro | 199 | 0,3 M | 0,15% | 1,712 |
+| 25280000 | Boratos naturais e concentrados | 342.799 | 102,8 M | 44,71% | 0,300 |
+| 28100010 | Ácido ortobórico | 82.492 | 69,0 M | 30,01% | 0,837 |
+| 28401900 | Bórax refinado (outros tetraboratos dissódicos) | 47.136 | 33,4 M | 14,51% | 0,708 |
+| 28402000 | Outros boratos | 14.246 | 19,2 M | 8,33% | 1,345 |
+| 28499010 | Carbonetos de boro | 132 | 1,9 M | 0,84% | 14,732 |
+| 28500010 | Nitreto de boro | 18 | 1,7 M | 0,76% | 99,355 |
+| 28100090 | Óxidos de boro e outros ácidos bóricos | 195 | 0.7 M | 0,29% | 3,428 |
+| 28045000 | Boro; telúrio (código conjunto) | 5 | 0,5 M | 0,21% | 102,284 |
 | 28403000 | Peroxoboratos (perboratos) | 119 | 0,5 M | 0,20% | 3,797 |
+| 28401100 | Tetraborato dissódico anidro | 199 | 0.3 M | 0,15% | 1,712 |
+
+**Denominador:** os **dez** códigos NCM que compõem o conjunto, totalizando **US$ 230,0 milhões** e **487.339 t** em 2025. Os três de menor massa — carbonetos, nitreto e boro elementar — aparecem na tabela porque o conjunto os inclui, não porque pesem no volume: juntos são **155 t**, e sozinhos respondem por **1,8% do valor**, com preço unitário de duas a três ordens de grandeza acima do minério.
 
 **Leitura.** Sete de cada dez quilos importados são **minério bruto** (2528), mas
 o minério responde por menos da metade do valor. O **ácido bórico refinado** é o
@@ -148,40 +160,47 @@ produtor.
 
 ## 4. Origem — de quem o Brasil compra
 
-Acumulado 2010–2026, valor FOB:
+Acumulado 2010–2026, valor FOB. **Denominador: os dez NCMs do conjunto atual, US$ 1.967,1 milhões e 4.476.505 t.**
 
 | Origem | US$ FOB | Massa (t) | % do valor | US$/kg |
 |---|---|---|---|---|
-| Argentina | 677,3 M | 1.519.670 | 34,2% | 0,446 |
-| Bolívia | 450,8 M | 1.833.596 | 22,8% | 0,246 |
-| Chile | 330,8 M | 619.666 | 16,7% | 0,534 |
-| Turquia | 279,7 M | 518.022 | 14,1% | 0,540 |
-| Estados Unidos | 117,1 M | 156.026 | 5,9% | 0,751 |
-| Peru | 60,8 M | 78.476 | 3,1% | 0,774 |
+| Argentina | 645,9 M | 1.415.370 | 32,8% | 0,456 |
+| Bolívia | 416,3 M | 1.684.487 | 21,2% | 0,247 |
+| Chile | 321,2 M | 586.225 | 16,3% | 0,548 |
+| Turquia | 275,2 M | 506.580 | 14,0% | 0,543 |
+| Estados Unidos | 138,7 M | 156.367 | 7,0% | 0,887 |
+| Peru | 60,3 M | 76.299 | 3,1% | 0,790 |
+| China | 36,8 M | 9.648 | 1,9% | 3,817 |
 | Guatemala | 27,7 M | 36.580 | 1,4% | 0,757 |
-| China | 17,5 M | 8.599 | 0,9% | 2,038 |
 
-**Argentina, Bolívia, Chile e Peru somam 76,8% do valor importado.** As quatro
+**Argentina, Bolívia, Chile e Peru somam 73,4% do valor importado.** As quatro
 são, exatamente, as quatro economias que a USGS lista como produtoras de borato
 no **cinturão andino** — o mesmo cinturão que a fonte institucional aponta como
 uma das três maiores concentrações econômicas de boro do mundo (§5).
 
-**Movimento recente (valor FOB, % do total do ano):**
+Repare na inversão entre as duas colunas: a **Bolívia** manda em massa (1,68 milhão
+de t) e perde em valor (21,2%), porque seu mineral entra a US$ 0,247/kg. A
+**Argentina** faz o contrário: menos massa, mais dinheiro, a US$ 0,456/kg. **A
+Bolívia é o minério; a Argentina é o intermediário.**
+
+**Movimento recente — participação no valor FOB do ano (massa entre parênteses). A porcentagem é de VALOR; o parêntese é MASSA.**
 
 | Origem | 2024 | 2025 | 2026 (10 meses) |
 |---|---|---|---|
-| Argentina | 26,9% (117 kt) | 30,0% (151 kt) | 33,4% (126 kt) |
-| Bolívia | 25,2% (201 kt) | 22,6% (170 kt) | 17,7% (80 kt) |
-| Chile | 20,7% (68 kt) | 16,0% (48 kt) | 11,6% (24 kt) |
-| Turquia | 12,0% (38 kt) | 17,3% (78 kt) | **30,9% (127 kt)** |
-| Estados Unidos | 8,0% (21 kt) | 7,6% (22 kt) | 1,7% (5 kt) |
+| Argentina | 26,3% (117 kt) | 29,5% (151 kt) | 32,8% (126 kt) |
+| Bolívia | 24,7% (201 kt) | 22,2% (170 kt) | 17,3% (80 kt) |
+| Chile | 20,2% (68 kt) | 15,7% (48 kt) | 11,4% (24 kt) |
+| Turquia | 11,8% (38 kt) | 17,0% (78 kt) | **30,4% (127 kt)** |
+| Estados Unidos | 8,5% (21 kt) | 7,7% (22 kt) | 1,8% (5 kt) |
 
-**A Turquia dobrou a massa embarcada ao Brasil entre 2025 e os dez primeiros meses
-de 2026** (78 kt → 127 kt), e no mesmo intervalo a Bolívia caiu de 170 kt para
-80 kt. Isso é dado de comércio observado, não projeção. Não há, nesta gaveta,
-fonte custodiada que explique a causa (contrato, nova rota, reabertura de mina) —
-e portanto **não se afirma causa**. O que se afirma: a concentração sul-americana,
-que era estável por quinze anos, **começou a mudar em 2026**.
+**A Turquia aumentou 62% a massa embarcada ao Brasil entre 2025 e os dez primeiros
+meses de 2026** (78,5 kt → 127,4 kt), e no mesmo intervalo a Bolívia caiu de 170 kt
+para 80 kt. Em valor, a fatia turca foi de **17,0% para 30,4%** — cresceu mais em
+valor do que em massa, o que indica produto mais refinado, não só mais volume. Isso é dado de comércio observado, não projeção. Não há,
+nesta gaveta, fonte custodiada que explique a causa (contrato, nova rota,
+reabertura de mina) — e portanto **não se afirma causa**. O que se afirma: a
+concentração sul-americana, que era estável por quinze anos, **começou a mudar
+em 2026**.
 
 ---
 
@@ -235,7 +254,7 @@ afirmação de consumo:
 | Bórax anidro | 21,5% | 4 B / 201,2 g/mol |
 | Ulexite / colemanita (minério) | 10–17% | teor mineral, sem correção de ganga |
 
-Aplicando ao total de 2025 (487.185 t de produto), com a faixa 11–17,5%:
+Aplicando ao total de 2025 (487.339 t de produto), com a faixa 11–17,5%:
 **~54 a ~85 mil toneladas de boro elementar** entraram no país em 2025. Para 1997
 (111.621 t): ~12 a ~20 kt de B.
 
@@ -249,7 +268,7 @@ demonstrado**, e aplicá-la ao total mistura produtos de naturezas diferentes:
   série não informa.
 
 Sem discriminação de produto e teor, os dados oficiais sustentam a **massa
-comercial importada** (487.185 t em 2025) — não um intervalo de boro elementar.
+comercial importada** (487.339 t em 2025) — não um intervalo de boro elementar.
 A conversão serve para ordem de grandeza, com esta ressalva anexada.
 
 ---
@@ -275,6 +294,55 @@ A conversão serve para ordem de grandeza, com esta ressalva anexada.
 
 ---
 
+## 7-bis. Nota de correção — 2026-11-25: nove NCMs eram nove, não dez
+
+A primeira extração somou **nove** NCMs e deixou de fora três códigos que também são de boro:
+`2804.50.00` (boro elementar), `2849.90.10` (carbonetos de boro) e `2850.00.10` (nitreto de
+boro). O total derivado ficou em **US$ 204.652.434** e **459.555.615 kg** — e foi esse número
+que circulou pela gaveta. **O total correto da série 2024 é US$ 209.462.631 e 459.722.221 kg.**
+
+Os **dois** lados estavam sendo lidos como se fossem o mesmo: o artigo somava dez e a gaveta
+derivada somava nove. A diferença não é arredondamento — é a exclusão de três NCMs que somam
+**US$ 4.810.197** e **166.606 kg**.
+
+**Os dez códigos, nominalmente:**
+
+| NCM | Descrição | FOB (US$) | Massa (kg) |
+|---|---|---:|---:|
+| 2528.00.00 | Boratos naturais e seus concentrados | 90.898.160 | 327.964.054 |
+| 2804.50.00 | Boro; telúrio | 621.449 | 6.816 |
+| 2810.00.10 | Ácido ortobórico | 70.593.020 | 82.487.678 |
+| 2810.00.90 | Óxidos de boro e outros ácidos bóricos | 445.569 | 128.873 |
+| 2840.11.00 | Tetraborato dissódico (bórax) anidro | 692.406 | 506.537 |
+| 2840.19.00 | Outros tetraboratos dissódicos (bórax refinado) | 26.116.278 | 37.066.244 |
+| 2840.20.00 | Outros boratos | 15.575.302 | 11.232.613 |
+| 2840.30.00 | Peroxoboratos (perboratos) | 331.699 | 169.616 |
+| 2849.90.10 | Carbonetos de boro | 2.251.251 | 140.737 |
+| 2850.00.10 | Nitreto de boro | 1.937.497 | 19.053 |
+| **Total** | **dez códigos** | **209.462.631** | **459.722.221** |
+
+Dois códigos que a lista de doze menciona — `2528.10.00` e `2528.90.00` — **não têm linha no
+bruto de 2024**: foram desmembrados de `2528.00.00` na NCM e não aparecem como declaração
+própria. Por isso o ano fecha com dez, e não com doze.
+
+**Data de extração:** 2026-11-24, da API oficial `api-comexstat.mdic.gov.br`, fluxo `import`,
+moeda USD FOB, peso líquido declarado em kg. Resposta bruta gravada em
+`raw/ncm_2024.json` (sha256 no `MANIFEST_ComexStat.json`).
+
+**O comando que reproduz a soma**, a partir do bruto custodiado:
+
+```bash
+python3 scripts/gate_boro/reproduzir_comexstat.py --ano 2024
+# → FOB = US$ 209,462,631   massa = 459,722,221 kg   (10 códigos presentes)
+
+python3 scripts/gate_boro/reproduzir_comexstat.py --ano 2024 \
+  --sem 28499010 28500010 28045000
+# → FOB = US$ 204,652,434   massa = 459,555,615 kg   (o número antigo, com 7 códigos)
+```
+
+Quem lê pode refazer a soma sem confiar neste texto. É para isso que a tabela e o comando
+estão aqui, e não numa nota de rodapé.
+
 ## 8. Como reproduzir
 
 ```bash
@@ -282,10 +350,17 @@ curl -s -X POST https://api-comexstat.mdic.gov.br/general \
   -H "Content-Type: application/json" \
   -d '{"flow":"import","monthDetail":false,
        "period":{"from":"2025-01","to":"2025-12"},
-       "filters":[{"filter":"ncm","values":["25280000","28100010","28100090",
-                   "28401100","28401900","28402000","28403000"]}],
+       "filters":[{"filter":"ncm","values":["25280000","28045000","28100010","28100090",
+                   "28401100","28401900","28402000","28403000","28499010","28500010"]}],
        "details":["country"],"metrics":["metricFOB","metricKG"]}'
 ```
+
+**Atenção ao conjunto de códigos.** A consulta acima traz os **dez** NCMs do
+conjunto atual. Para a **série histórica desde 1997** é preciso acrescentar
+`25281000` e `25289000`: até 2011 o grupo 2528 vinha fragmentado nesses dois
+códigos, e uma consulta só com `25280000` devolve **zero** para os anos antigos.
+A série histórica deste documento usa os doze códigos; a composição de 2025 usa
+os dez, porque os dois antigos já não têm movimento.
 
 **Armadilhas operacionais verificadas nesta extração:**
 
@@ -294,6 +369,10 @@ curl -s -X POST https://api-comexstat.mdic.gov.br/general \
 2. O filtro `ncm` aceita **código de 8 dígitos** (`28100010`); a forma pontuada
    (`2810.00.00`) devolve lista vazia **com HTTP 200** — falha silenciosa.
 3. O `GET` no mesmo endpoint devolve os **anos disponíveis**, não os dados.
+4. **Um filtro estreito não dá erro: dá número menor.** Somar nove NCMs em vez de
+   dez produziu US$ 204,7 M em 2024 em vez de US$ 209,5 M, e ninguém percebeu por
+   duas rodadas de auditoria — o total continuava "plausível". É a falha silenciosa
+   mais cara desta extração.
 
 Arquivos: `MANIFEST_ComexStat.json` (52 arquivos, SHA-256 por arquivo, corpos de
 consulta e observações), quatro CSV derivados e a resposta bruta por ano.

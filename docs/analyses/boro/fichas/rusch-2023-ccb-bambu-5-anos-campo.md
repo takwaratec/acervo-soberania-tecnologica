@@ -31,10 +31,13 @@ frente: BORO
 
 > **Síntese.** Rusch et al. (2023) trataram hastes de *Dendrocalamus asper* por
 > **imersão em CCB a 1% e 3%** e as mantiveram em campo de apodrecimento por
-> **5 anos**. O bambu tratado **não apresentou degradação biológica**; o controle
-> (imersão em água) chegou a **índice de deterioração de 80% a 100%** — perda quase
-> total de resistência. A parte inferior das hastes, em contato com o solo,
-> apresentou **maior teor de cobre e cromo** que a parte aérea. **Mas os autores
+> **5 anos**. **A 3% não houve degradação (índice 0); a 1% houve ataque leve
+> (índice 40).** Somar as duas concentrações numa frase — "o tratado não degradou" —
+> apaga justamente o dado que informa a dose. O controle (imersão em água) chegou a
+> **índice de deterioração de 80% a 100%** — perda quase total de resistência.
+> Sobre cobre e cromo, os autores relatam **comportamento aleatório**, não uma
+> tendência: a 1% a parte inferior tem **menos** Cu e Cr que a aérea (67,7 × 78,4 ppm;
+> 137,7 × 180,5 ppm) e a 3% tem mais. **Mas os autores
 > declaram explicitamente que "não é possível afirmar que a presença de metais no
 > solo é indicativo de lixiviação"** — a variabilidade é alta (CV 66% para cromo) e
 > o solo da região já tem concentrações semelhantes.
@@ -70,13 +73,18 @@ assimetria central desta ficha.
 
 ## 3. Resultados
 
-- **Bambu tratado (1% e 3%):** sem degradação biológica após 5 anos. A deterioração
-  foi menor com 1% que no controle e **reduziu ainda mais com 3%**.
+- **Bambu tratado, por concentração:** **CCB a 3% — nota 0, índice de deterioração 0**
+  (sem ataque). **CCB a 1% — nota 1, índice 40** (ataque leve, superficial). As duas
+  concentrações **não podem ser somadas** numa afirmação única. A deterioração caiu
+  de 80–100% (controle) para 40 (1%) e 0 (3%).
 - **Controle (imersão em água):** "praticamente não apresentou resistência", com
   índice de deterioração entre **80% e 100%**.
 - **Solo:** concentrações de metais foram mais expressivas nos locais com material
-  tratado, e a parte inferior das hastes (em contato direto com o solo) teve maior
-  teor que a parte aérea. Coeficientes de variação: **cobre 14%**, **cromo 66%**.
+  tratado. Sobre a distribuição ao longo da haste, a Tabela 3 **não mostra tendência**:
+  os autores descrevem "comportamento aleatório". Coeficientes de variação: **cobre
+  14%**, **cromo 66%**. A Tabela 4 (solo) relata médias **sem diferença significativa**
+  (Tukey p>0,05) — ressalva que vale para as comparações de solo, não como selo geral
+  do artigo.
 
 ## 4. O limite que os autores declaram — e que a divulgação costuma apagar
 

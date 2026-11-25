@@ -102,11 +102,11 @@ auditoria R7 não reconferiu estes números**, por não ter recebido esse pacote
 |---|---|---|---|
 | 1997 | 111.621 | US$ 35,9 M | 0,321 |
 | 2020 | 270.020 | US$ 88,6 M | 0,328 |
-| 2025 | **487.185** | **US$ 225,8 M** | 0,464 |
-| 2026* | 372.742 | US$ 205,2 M | 0,551 |
+| 2025 | **487.339** | **US$ 230,0 M** | 0,472 |
+| 2026* | 372.849 | US$ 209,2 M | 0,561 |
 
 \* jan–out. NCM 2528 + 2810 + 2840. 76,8% do valor vem de Argentina, Bolívia,
-Chile e Peru; Turquia salta para 30,9% em 2026. Detalhe e limites em
+Chile e Peru; Turquia salta para 30,4% em 2026. Detalhe e limites em
 `01-importacao-brasileira-boro-comexstat.md`.
 
 ## A aplicação que concentra o problema — lixiviação

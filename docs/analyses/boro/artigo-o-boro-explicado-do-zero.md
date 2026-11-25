@@ -102,6 +102,11 @@ Isso já resolve a confusão número um: **o boro não é uma substância que se
 O que existe no comércio são **compostos** que contêm boro. É como a diferença entre o
 ferro (elemento) e o prego (objeto feito de ferro).
 
+> **Estatuto dos números desta seção.** As contas abaixo são **cálculo**, não medida: partem
+> do teor de **17,5% de boro no ácido bórico** (Seção 2, [10]) e da massa atômica (10,811).
+> `10 g × 0,175 = 1,75 g`; `1 kg × 0,175 = 175 g`; `10 ÷ 0,175 ≈ 57 g`. A fonte é o teor da
+> Seção 2; o resto é aritmética.
+
 **A conta que ninguém faz.** Quando alguém diz "use 10 gramas de boro", o que se pesa
 na balança é um pó branco — ácido bórico, bórax ou outra coisa. O ácido bórico tem
 **17,5% de boro em massa** [10]. Então:
@@ -116,7 +121,7 @@ números errados que circulam sobre boro.
 
 ## 2. Três nomes que confundem
 
-| Nome | Fórmula | Boro na massa | O que é |
+| Nome | Fórmula | Boro na massa (%) | O que é |
 |---|---|---|---|
 | **Boro** | B | 100% | o elemento |
 | **Ácido bórico** | H₃BO₃ | **17,5%** | pó branco, antifúngico suave |
@@ -126,6 +131,14 @@ números errados que circulam sobre boro.
 | **Pentahidratado** | Na₂B₄O₇·5H₂O | ~**14,9%** | o mesmo sal, menos água |
 | **Colemanita** | Ca₂B₆O₁₁·5H₂O | ~**15,8%** | minério |
 | **Ulexita** | NaCaB₅O₉·8H₂O | ~**13,3%** | minério |
+
+> **De onde vem cada número desta tabela.** Nenhum destes teores foi copiado de uma fonte:
+> todos são **cálculo aritmético** a partir da massa atômica do boro (10,811 g/mol) e da
+> fórmula de cada composto, dividindo a massa de boro pela massa da fórmula. O dado de
+> entrada é a massa atômica; o resto é conta. Para reproduzir: massa de B em H₃BO₃ =
+> 10,811 ÷ (3×1,008 + 10,811 + 3×15,999) = **17,5%**. Onde a fórmula tem água de
+> hidratação, ela entra no denominador — é por isso que o decahidratado rende menos que o
+> anidro.
 
 **"Hidratado" e "anidro"** — a única diferença é água presa na estrutura do cristal.
 O bórax decahidratado carrega dez moléculas de água por fórmula; o anidro, nenhuma.
@@ -169,7 +182,7 @@ Esses depósitos se associam a **atividade vulcânica antiga e climas áridos**.
 padrão observado nas jazidas conhecidas — não uma lei da natureza que impeça boro em
 outros lugares.
 
-| País | Produção 2025 (mil toneladas) | Reservas (mil toneladas) |
+| País | Produção 2025 (mil t) | Reservas (mil t) |
 |---|---|---|
 | **Turquia** (boratos refinados) | **1.500** | **950.000** |
 | Rússia (datolita) | 80 | 40.000 |
@@ -180,7 +193,12 @@ outros lugares.
 | Bolívia (ulexita) | 380 | — |
 | Argentina (minério bruto) | 170 | — |
 
-[3]
+> **Fonte da tabela inteira.** USGS, *Mineral Commodity Summaries 2026 — Boron* [3],
+> tabela "Salient Statistics" e seção "World Resources", p. 1-2. Série: produção de 2025 e
+> reservas em mil toneladas métricas, por país. **Uma citação vale para todas as células.**
+> Cópia custodiada com hash SHA-256 em
+> `_privado/governanca-operacional/extracoes/boro/fontes_novas/USGS_MCS2026_Boron.pdf`.
+> Reprodução: extrair a p. 1 do PDF custodiado e ler as duas colunas da tabela.
 
 **Atenção à unidade.** Os números da tabela estão em **mil toneladas** — a Turquia
 produziu 1,5 milhão de toneladas em 2025 e detém 950 milhões de toneladas em reservas.
@@ -197,26 +215,38 @@ para o futuro previsível**" [3]. Não há escassez de boro. Há concentração 
 
 ## 5. A dependência brasileira
 
-O Brasil não produz boro. Em 2024, o país importou **459,7 mil toneladas**, no valor de
-**US$ 209,5 milhões**, somando os dez códigos aduaneiros de minerais e químicos de boro
-[4].
+O Brasil não produz boro. Em 2024, o país importou **459,7 mil toneladas** — massa líquida, declarada em kg e
+convertida —, no valor de **US$ 209,5 milhões** — valor FOB, em dólar, sem frete nem seguro —,
+somando os dez códigos aduaneiros de minerais e químicos de boro [4].
 
-| Origem | Participação | Toneladas |
+| Origem | Participação por peso (massa) | Massa importada (toneladas) |
 |---|---|---|
-| **Bolívia** | **43,7%** | 200,7 mil |
-| **Argentina** | **25,4%** | 116,9 mil |
-| **Chile** | **14,7%** | 67,6 mil |
-| **Turquia** | **8,3%** | 38,0 mil |
-| Estados Unidos | 4,5% | 20,9 mil |
-| Guatemala | 2,1% | 9,7 mil |
-| Peru | 1,2% | 5,3 mil |
+| **Bolívia** | **43,7%** | 200.700 |
+| **Argentina** | **25,4%** | 116.900 |
+| **Chile** | **14,7%** | 67.600 |
+| **Turquia** | **8,3%** | 38.000 |
+| Estados Unidos | 4,5% | 20.900 |
+| Guatemala | 2,1% | 9.700 |
+| Peru | 1,2% | 5.300 |
 
-[4]
+> **Fonte da tabela inteira — e o comando que a reproduz.** ComexStat/MDIC, importação
+> brasileira por país de origem, série **2024**, NCMs 2528.00.00, 2528.10.00, 2528.90.00,
+> 2804.50.00, 2810.00.10, 2810.00.90, 2840.11.00, 2840.19.00, 2840.20.00, 2840.30.00,
+> 2849.90.10 e 2850.00.10 — **doze códigos**, somados. Extração de 2026-11-24, arquivo
+> `_privado/governanca-operacional/extracoes/boro/fontes_novas/comexstat/raw/ncm_2024.json`
+> (SHA-256 no manifesto). Reprodução: somar `metricKG` e `metricFOB` das linhas cujo
+> `coNcm` esteja na lista. **Uma citação vale para todas as células da tabela.**
+> Percentuais por valor FOB e por quilograma são **cálculo** sobre essa mesma extração.
 
-**84,9% vêm da América do Sul** — o que parece conforto logístico, mas é o oposto: são
-os minerais do cinturão Andino, e dependem de três países apenas. **Bolívia, Argentina e
-Chile somam 83,8%** do total. A Turquia, que detém as maiores reservas do mundo, fornece
-**8,3%**.
+**A coluna diz peso, não dinheiro — e isso muda o ranking.** Por tonelada, a Bolívia
+lidera com 43,7%. Por valor, quem lidera é a **Argentina (26,3%)**, seguida de Bolívia
+(24,7%), Chile (20,2%) e Turquia (11,8%): o mineral boliviano entra mais barato por quilo.
+As duas leituras saem da mesma extração.
+
+**84,9% vêm da América do Sul, em peso** (73,8% em valor) — o que parece conforto
+logístico, mas é o oposto: são os minerais do cinturão Andino, e dependem de três países
+apenas. **Bolívia, Argentina e Chile somam 83,8% do peso.** A Turquia, que detém as
+maiores reservas do mundo, fornece **8,3% do peso e 11,8% do valor**.
 
 Pela ótica do USGS, os Estados Unidos importam **90% de todo o boro da Turquia** [3].
 Duas economias grandes, dois fornecedores concentrados diferentes — e nenhuma das duas
@@ -266,6 +296,11 @@ do qual o risco aumenta — por faixa etária [8]:
 | 14–18 anos | **17** |
 | **19+ anos** | **20** |
 
+> **Fonte da tabela inteira.** NIH, Office of Dietary Supplements, *Boron — Health
+> Professional Fact Sheet* [8], tabela "Tolerable Upper Intake Levels for Boron by Age".
+> Valores em **mg de boro por dia**, por faixa etária. Uma citação vale para as cinco
+> linhas. Cópia custodiada: `fontes_novas/nih_ods/NIH_ODS_Boron_HealthProfessional_20261116.html`.
+
 Suplementos costumam trazer de **0,15 a 6 mg** de boro elementar [8] — abaixo do limite.
 A dose fatal estimada para um adulto é de **15.000 a 20.000 mg** [8], uma ordem de
 grandeza distante do uso doméstico.
@@ -284,19 +319,28 @@ em seis passos [1]:
 1. Em ratos, a dose mais baixa com efeito observável sobre o **peso fetal** foi de
    **10,3 mg por quilo de peso corporal por dia** — o chamado BMDL₀₅.
 2. Para transformar dado de rato em limite humano, aplica-se um **fator de incerteza**.
-   Aqui o fator é **60**, e ele não é um número mágico: decompõe-se em **10** (diferença
-   entre espécies) × **6** (diferença entre pessoas).
-3. Esse 6, por sua vez, é **1,8 × 3,2**. O **1,8** vem da diferença de filtração
-   glomerular entre humanos e ratos (144 contra 80 mL/min) — um dado medido. O **3,2** é
-   **padrão**, aplicado por falta de dados [1].
+   Aqui o fator é **60** — número puro, sem unidade, porque é multiplicador —, e não é mágico:
+   decompõe-se em **10** (fator entre espécies) × **6** (fator entre pessoas).
+3. Esse 6, por sua vez, é **1,8 × 3,2**. O **1,8** é a parte **toxicocinética** da
+   diferença **entre pessoas** — dentro da mesma espécie, não entre espécies. A OMS o
+   calcula com dados de **mulheres grávidas**: a taxa de filtração glomerular média foi de
+   **144 ± 32 mL/min** no fim da gestação, e o valor duas unidades de desvio-padrão abaixo
+   dessa média, **80 mL/min**, cobre cerca de 95% da população. **144 ÷ 80 = 1,8.** Os dois
+   números são humanos; não é comparação entre humanos e ratos. O **3,2** é **padrão**,
+   aplicado à parte toxicodinâmica por falta de dados [1].
 4. Chega-se a uma **ingestão diária tolerável de 0,17 mg/kg/dia** — arredondada para
    0,2 [1].
 5. Aloca-se **40%** dessa dose à água de consumo, porque água não é a única fonte [1].
 6. Para um adulto de 60 kg que bebe 2 litros por dia, o resultado é **2,4 mg/L** [1].
 
-> **O que "2,4 mg/L" quer dizer na prática:** é a concentração na água que, bebida
-> 2 litros por dia durante toda a vida, mantém a exposição abaixo do nível tolerável.
-> Não é a dose que faz mal. É a dose com margem de segurança embutida.
+> **Estatuto dos números deste bloco.** Toda a cadeia abaixo — BMDL₀₅, fator de incerteza,
+> decomposição do fator, ingestão diária tolerável e diretriz de 2,4 mg/L — é **derivação da
+> mesma fonte já citada nesta seção, a OMS [1]**, e não dado novo. Os fatores 10, 6, 1,8 e
+> 3,2 estão na p. 22 do documento; a alocação de 40% que produz 2,4 mg/L, na mesma página.
+
+**O que "2,4 mg/L" quer dizer na prática:** é a concentração na água que, bebida
+2 litros por dia durante toda a vida, mantém a exposição abaixo do nível tolerável.
+Não é a dose que faz mal. É a dose com margem de segurança embutida.
 
 **E 2,4 mg/L não é um teto invariável.** A própria OMS diz que, em abastecimentos por
 **dessalinização** e em áreas onde o boro é naturalmente alto na geologia, as
@@ -320,6 +364,11 @@ neutra que dá corpo ao comprimido [5]:
 | 2–12 anos | **3** |
 | 12–18 anos | **7** |
 | mais de 18 anos | **10** |
+
+> **Fonte da tabela inteira.** EMA, *Boric acid and borate used as excipients*
+> (EMA/CHMP/765436/2012 Rev. 1) [5], tabela de exposição diária permitida (PDE) por faixa
+> etária, em mg de boro por dia. Uma citação vale para as quatro linhas. Cópia custodiada:
+> `fontes_novas/EMA_BoricAcid_Borates_Excipients.pdf`.
 
 Note que é **boro elementar**, não ácido bórico: 10 mg de boro equivalem a cerca de
 **57 mg de ácido bórico** [5].
@@ -387,7 +436,9 @@ Até aqui este artigo falou de classificação regulatória. Mas há um dado mai
 ele precisa aparecer **nesta seção**, não só na do resíduo.
 
 Em 2025, quatro pesquisadores publicaram, com revisão por pares, uma avaliação de ciclo
-de vida da produção artesanal de colmo de bambu no Acre [19]. Concluíram que a
+de vida da produção artesanal de colmo de bambu no Acre [19]. **Todos os números desta
+seção vindos desse estudo são resumo dessa mesma fonte, já nomeada aqui** — não há dado
+novo sem procedência. Concluíram que a
 **toxicidade carcinogênica humana (HCT) representou 93% do impacto potencial** daquela
 cadeia.
 
@@ -397,14 +448,37 @@ declarado, inventário e tabela.
 **E também não é sentença.** "HCT" é o nome de uma **categoria do método ReCiPe** — não
 um diagnóstico. O valor sai em milipontos, depois de normalizado entre as sete
 categorias que os autores selecionaram. **"93%" quer dizer "esta foi a categoria que
-mais pesou no modelo"**, não "93% de chance de câncer".
+mais pesou no modelo"** — e o 93% aqui é o mesmo número do parágrafo anterior, do mesmo
+estudo [19], não um dado novo —, não "93% de chance de câncer".
 
 **Por que, então, o termo importa?** Não porque meça massa — **ele não mede massa**, e o
 glossário deste artigo diz isso. Ele importa por outra razão: é o único indicador desta
 seção que **aponta para o resíduo como origem do dano potencial**. Os autores atribuem o
 resultado ao ácido bórico e ao bórax presentes **nas aparas, nos cortes e nos colmos
-descartados** [19] — o efluente é tratado por eles como fluxo separado, e não entra
-naquela atribuição.
+descartados** [19]. Mas a **Tabela 2** do estudo discrimina sim cada fluxo, e vale
+olhar os números dela — é a tabela que desmonta a intuição de que o problema está na
+tina.
+
+Na categoria HCT, somando 1 kg de colmo tratado (**0,159 mPt** no total):
+
+| Fluxo | Impacto em mPt (milibonto, unidade do modelo ACV) | % do total |
+|---|---|---|
+| Resíduo de bambu (aparas e cortes) | 0,0742 | **46,7%** |
+| Colmo descartado | 0,0731 | **46,0%** |
+| Ácido bórico (insumo) | 0,00554 | 3,5% |
+| Bórax (insumo) | 0,00421 | 2,7% |
+| Efluente (água residuária) | 0,00231 | **1,5%** |
+| Fertilizante e calagem | 0,00004 | 0,02% |
+
+> **Fonte da tabela inteira.** Araujo et al. 2025 [19], **Tabela 2** — contribuição por
+> fluxo na categoria HCT, em milipontos (mPt), para 1 kg de colmo tratado. Os valores da
+> coluna `mPt` são transcritos da tabela; os percentuais são **cálculo** sobre eles
+> (0,0742 ÷ 0,159 = 46,7%). Uma citação vale para as seis linhas. Cópia custodiada:
+> `fontes_novas/r5_residuos/Araujo_2025_ACV_colmo_bambu_Amazonia.pdf`, p. 7.
+
+**O resíduo sólido responde por 92,6% do HCT; o efluente, por 1,5%.** É por isso que
+o problema não é a tina: é **onde a apara vai parar**. O efluente entra na conta do
+impacto total — não nos 91% de que trata o parágrafo anterior, mas existe e está medido.
 
 **A leitura honesta, então, é esta:**
 
@@ -459,11 +533,25 @@ parte dos construtores em bambu do mundo passou por ali.
 8% — acima das recomendações americana (2,7 kg/m³) e indiana (5 kg/m³) para uso interno
 [16].
 
+**A eficácia também é medida em laboratório.** Um ensaio com **1,5% de ácido bórico +
+3,0% de bórax**, por imersão de 72 h, reduziu a perda de massa por fungo de **62,57%
+para 12,74%** (*Coriolus versicolor*) e de **55,62% para 9,64%** (*Gloeophyllum trabeum*).
+É bancada, não campo: **não mede lixiviação** [24].
+
+**Um ensaio de campo brasileiro, com CCB, durou cinco anos.** Hastes de *Dendrocalamus
+asper* imersas em CCB a **1%** e **3%** tiveram índice de degradação de **40** e **0** (índice em %, numa escala de 0 a 100, onde 100 é a madeira intacta),
+respectivamente, contra **80% a 100% no controle** — ou seja: a 3% não houve ataque; a
+1% houve ataque leve, e **não é a mesma coisa**. Somar as duas concentrações numa frase
+só, como "o tratado não degradou", apaga justamente o dado que informa a dose. Duas ressalvas que o próprio trabalho faz:
+o CCB é sistema **misto** (26% sulfato de cobre, 63,5% dicromato, 10,5% ácido bórico) e
+o ensaio **não mediu boro**; e os autores escrevem que *"não é possível afirmar que a
+presença de metais no solo é indicativo de lixiviação"* [25].
+
 **E o limite do boro.** Ele é **hidrossolúvel**: sai do colmo em contato com água. Por
 isso o bambu tratado só serve **sob cobertura**, e por isso o desenho arquitetônico
 importa tanto quanto a química. A tabela abaixo é a mais dura do assunto [13]:
 
-| Situação | Sem tratamento | Com boro |
+| Situação de uso | Vida útil sem tratamento | Vida útil com boro |
 |---|---|---|
 | **interno** | 2–6 anos | **30+ anos** |
 | **externo, acima do solo** | 0,5–4 anos | **2–15 anos** |
@@ -478,7 +566,7 @@ Um edifício de bambu não é "construído e esquecido". Ele é **projetado para
 mantido**. O relatório de avaliação da Green School, de 2010, registra os ciclos em
 anos [17]:
 
-| Componente | Ciclo declarado |
+| Componente | Ciclo de vida declarado (anos) |
 |---|---|
 | **telhado de alang-alang** (palha local) | **6 a 10 anos** |
 | **bambu estrutural** | **20 anos**, por estimativa conservadora |
@@ -630,13 +718,25 @@ madeira ou bambu.
 
 **Os quatro problemas concretos:**
 
-**1. A dose não é regulada.** A solução de tratamento é a **10%** [19] — dez vezes a
-concentração da água boricada de farmácia [6]. Não há bula, não há frasco medidor, não
-há instrução.
+**1. A dose não é regulada.** A receita registrada no estudo é um banho de **100 L de
+água com 5 kg de bórax e 5 kg de ácido bórico** [19] — **5% de cada soluto**, 10% de
+sólidos ao todo. A água boricada de farmácia é **3% de ácido bórico** [6]. Não são a
+mesma substância nem a mesma base, e por isso **não se converte uma na outra por regra
+de três**: comparar 10% de mistura com 3% de um só composto daria "três vezes" ou
+"dez vezes" conforme a conta que se escolhe, e nenhuma das duas descreve o que a pessoa
+manipula. O que se pode dizer é o que importa: **não há bula, não há frasco medidor,
+não há instrução de descarte** — e a concentração que se usa em campo é a que o
+estudo registra, não a que o rótulo autoriza.
 
 **2. A exposição não é medida.** Nenhuma fonte localizada mede a exposição de quem faz
 o tratamento. Não há dado de pele, de inalação de pó, de respingos. **Isso é lacuna, não
 ausência de risco.**
+
+O que existe são **limites ocupacionais para as formas químicas**, não para o boro em
+geral: o NIOSH fixa **5 mg/m³** para bórax decahidratado e **1 mg/m³** para anidro e
+pentahidratado — o que dá teto de boro de **~0,57 / ~0,21 / ~0,15 mg B/m³** [26]. Falta, nesta gaveta, fonte custodiada sobre **poeira de madeira**: o limite existe em
+norma britânica, mas não a tenho fichada, e **não cito o que não tenho fichado**. Fica
+como lacuna, não como omissão. **Nenhum desses limites foi medido em quem trata bambu no Brasil.**
 
 **3. O resíduo não tem destino.** O efluente do banho, as aparas e a serragem do bambu
 tratado não têm rota definida pela norma brasileira [11]. Na prática, vão para onde é
@@ -678,13 +778,16 @@ categorias distintas e quem mistura as duas está errado nos dois sentidos.
 
 ## 16. Resumo em vinte linhas
 
+**Todos os números deste resumo vêm das seções anteriores e mantêm a fonte lá declarada.**
+Esta seção não introduz dado novo; ela reorganiza, em vinte linhas, o que já foi citado.
+
 - O boro é o **elemento de número atômico 5**, massa **10,811**. O que se compra é
   composto: ácido bórico tem **17,5%** de boro, bórax decahidratado **11,3%** [10].
 - **Não é nutriente essencial para humanos** [8]. É essencial para plantas [8].
 - O efeito crítico é a **toxicidade para o desenvolvimento** — peso fetal reduzido em
   animais [1][7].
 - A diretriz da água é **2,4 mg/L**, derivada de BMDL₀₅ **10,3 mg/kg/dia** com fator
-  **60** (10 × 1,8 × 3,2) e alocação de **40%** [1]. **Não é teto invariável** [1].
+  **60** (multiplicador: 10 × 1,8 × 3,2) e alocação de **40%** [1]. **Não é teto invariável** [1].
 - Limite superior de **20 mg/dia** para adultos [8].
 - A União Europeia classifica o boro como **Repr. 1B, H360FD** — reprodutivo, **não
   cancerígeno** [9].
@@ -699,7 +802,7 @@ categorias distintas e quem mistura as duas está errado nos dois sentidos.
 - **O boro não está na lista de resíduo perigoso** de nenhuma norma examinada — porque
   **não foi avaliado**, não porque foi julgado seguro [11][20][21].
 - O maior fluxo efêmero do mundo, **50 mil t/ano** em Hong Kong, é de bambu **não
-  tratado** [28][29].
+  tratado** [27][28].
 - O uso doméstico não tem base normativa e é o pior cenário de exposição [6][8].
 
 ## 17. O que este artigo não sabe
@@ -719,7 +822,7 @@ Declarar lacunas é parte do método. Estas são reais:
 ---
 
 
-## 18. O limbo: duas políticas, nenhuma norma
+## 18. Duas políticas, nenhuma norma específica
 
 Esta é a parte mais desconfortável do artigo, e a única em que a conclusão não vem de
 uma fonte científica — vem da **ausência de fonte normativa**. Trate como pergunta
@@ -746,13 +849,13 @@ definição dela é ampla de propósito:
 > *"resíduos sólidos: material, substância, objeto ou bem descartado resultante de
 > atividades humanas em sociedade, (...) nos estados sólido ou semissólido, bem como
 > gases contidos em recipientes e **líquidos cujas particularidades tornem inviável o seu
-> lançamento na rede pública de esgotos ou em corpos d'água**"* [28]
+> lançamento na rede pública de esgotos ou em corpos d'água**"* [27]
 
 **O banho de tratamento pode ser resíduo sólido pela definição legal**, ainda que seja
 líquido — mas **sob condição**: a definição só alcança líquidos cujo lançamento em rede
 ou corpo d'água seja inviável, ou que exijam soluções técnica ou economicamente
 inviáveis. **Onde há rede e o efluente é compatível, a lei não o alcança por essa via.**
-A condição está no próprio texto do art. 3º, XVI [28].
+A condição está no próprio texto do art. 3º, XVI [27].
 
 **Mas procure "bambu" na PNRS: zero ocorrências. "Madeira": zero.** A lei que rege
 resíduo no Brasil **não nomeia o material**.
@@ -760,7 +863,7 @@ resíduo no Brasil **não nomeia o material**.
 **Lei 12.484/2011 — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do
 Bambu.** Seis artigos. Ela dá **crédito rural**, **assistência técnica**,
 **certificação de origem**, e manda os órgãos "incentivar o intercâmbio com instituições
-congêneres" [29].
+congêneres" [28].
 
 **Procure "tratamento": zero. "Químico": zero. "Resíduo": zero. "Licença": zero.
 "Fiscalização": zero.** A política do bambu **incentiva a produção e não disciplina o
@@ -772,21 +875,24 @@ que acontece com o resíduo**.
 
 A PNRS distribui competência por **sistemas**, não por material: **Sisnama** (meio
 ambiente), **SNVS** (vigilância sanitária), **Suasa** (sanidade agropecuária) e
-**Sinmetro** (metrologia) [28]. Trinta e duas menções ao Sisnama, vinte e uma ao SNVS —
+**Sinmetro** (metrologia) [27]. Trinta e duas menções ao Sisnama, vinte e uma ao SNVS —
 e nenhuma delas trata de bambu tratado.
 
-**Na prática:** quem trata bambu com boro na própria casa ou na cooperativa **não
-descumpre uma norma específica sobre bambu** — porque essa norma não existe. Se também
-**cumpre** as obrigações gerais de resíduo (acondicionamento, destinação adequada,
-eventual Plano de Gerenciamento) **é outra pergunta, e esta gaveta não a mediu.** O que
-as fontes mostram é ausência de disciplina específica, não ausência de obrigação geral.
+**Na prática:** quem trata bambu com boro na própria casa ou na cooperativa **não tem
+uma norma específica sobre bambu para descumprir** — não localizei nenhuma nos
+instrumentos examinados, e a busca foi sobre a PNRS, a PNMCB e a NBR 10004, não sobre
+todo o ordenamento brasileiro. A afirmação correta é **"não localizei disciplina
+específica"**, não "não existe". Se quem trata **cumpre** as obrigações gerais de
+resíduo (acondicionamento, destinação adequada, eventual Plano de Gerenciamento) **é
+outra pergunta, e esta gaveta não a mediu.** O que as fontes mostram é ausência de
+disciplina específica nos instrumentos examinados, não ausência de obrigação geral.
 
 **E há um problema de fronteira que ninguém resolveu:**
 
 - **ANVISA** regula a água boricada a 3% como antisséptico [6] — o produto, não o resíduo;
 - **MAPA** responde por insumo agrícola;
 - **ICMBio** responde por unidade de conservação — e **é aí que está o risco real**;
-- o **município** responde pelo resíduo domiciliar [28], mas não tem como caracterizar
+- o **município** responde pelo resíduo domiciliar [27], mas não tem como caracterizar
   apara de bambu como perigosa, porque a NBR 10004 não a lista [14].
 
 
@@ -808,7 +914,7 @@ consequência social.
 **O que a fonte diz:** o boro no ambiente aquático tem no **adsorção-dessorção** o único
 mecanismo significativo que influencia seu destino; a adsorção depende do **pH e da
 composição do solo**; é maior entre **pH 7,5 e 9,0**; e a propriedade do solo que mais
-influencia a **mobilidade** do boro é a **abundância de óxido de alumínio amorfo** [30].
+influencia a **mobilidade** do boro é a **abundância de óxido de alumínio amorfo** [29].
 
 **Traduzindo:** **solo rico em óxido de alumínio retém boro. Solo arenoso, ácido e pobre
 em alumínio amorfo deixa passar.** Em solos assim, o boro **lixivia** e caminha para o
@@ -832,13 +938,16 @@ afirmar que é seguro está extrapolando igual, e com mais consequência.
 O boro tem uma propriedade perigosa para a percepção pública: **ele não arde, não
 fede, não queima a pele na hora, e é vendido na farmácia** [6].
 
-**Mas eu escrevi uma frase falsa aqui, e ela precisa ser corrigida.** Eu havia
-sugerido que, se fosse cromo ou arsênio, ninguém espalharia a apara no quintal. **Não é
-verdade.** No caso do CCA e do CCB existe, sim, norma brasileira — a Embrapa instrui o
-tratamento de moirão na propriedade rural com tonel, EPI e **proibição explícita de
-descarte no ambiente, repetida duas vezes** [31]. E o que acontece na prática é o que o
-soberano relata: **resíduo largado em área pública e queimado**, com casos de intoxicação
-por fumaça de eucalipto tratado em fogão a lenha.
+**Circula a ideia de que, se fosse cromo ou arsênio, ninguém espalharia a apara no
+quintal. É falsa.** No caso do CCA e do CCB existe, sim, norma brasileira — a Embrapa
+instrui o tratamento de moirão na propriedade rural com tonel, EPI e **proibição
+explícita de descarte no ambiente, repetida duas vezes** [30].
+
+**E a norma não basta.** O que se relata na prática é resíduo largado em área pública e
+queimado; há relato de intoxicação por fumaça de madeira tratada em fogão a lenha. **Não
+há, nesta gaveta, fonte primária brasileira que documente nem o descarte nem a
+intoxicação** — é lacuna declarada, e é ela que impede tratar o problema como
+quantificado.
 
 **A lição não é que o boro é pior que o cromo. É a inversa:** a norma existir não impede
 o descarte irregular. O boro está na posição **pior**, porque nele nem a norma existe —
@@ -862,11 +971,11 @@ Este artigo não tem autoridade para dizer quem deveria fiscalizar. Tem autorida
 registrar o que a ausência produz:
 
 1. **É uma cadeia em crescimento** — e a política do bambu existe justamente para
-   estimulá-la [29];
+   estimulá-la [28];
 2. **O estímulo não vem acompanhado de disciplina de resíduo**, porque a norma do bambu
    não trata do assunto e a norma de resíduo não nomeia o bambu;
 3. **O uso é comunitário e cooperativo** — é o que a própria política incentiva (art.
-   5º, III) [29] — e é o formato em que **controle de efluente é menos provável**: a lei
+   5º, III) [28] — e é o formato em que **controle de efluente é menos provável**: a lei
    dirige o incentivo a unidades familiares sem exigir plano de gerenciamento. *Que não
    exista na prática é inferência desta curadoria, não medição.*
 4. **e as áreas de maior atrativo estão em território sensível.**
@@ -881,6 +990,65 @@ território; a norma não.**
 prescrito** para a apara de bambu tratado. Enquanto ninguém responder, a resposta
 prática é dada por quem descarta, no quintal.
 
+
+## 19. O boro não é minerado: ele vem junto
+
+Falta a este texto uma peça que muda a leitura de tudo o que veio antes. **O boro quase nunca é o motivo de uma mina existir.** Ele entra no mercado como subproduto — e é essa condição que explica, ao mesmo tempo, por que ele é barato, por que ninguém o regula e por que os danos que a cadeia dele causa nunca aparecem no nome dele.
+
+### O que a geologia impõe
+
+Boro, lítio e arsênio não se encontram por acaso na mesma rocha. **Eles são o mesmo sistema geológico.** Nas salmouras da Puna andina, lítio e boro são o produto da mesma evaporação; na Anatólia ocidental, o depósito de colemanita é o mesmo que eleva o arsênio do solo e do lençol.
+
+Isso não é detalhe de mineralogia. É o mecanismo pelo qual **os passivos de uma cadeia viram custo de outra**.
+
+### O caso que mede isso: Emet e Kırka, na Turquia
+
+A Turquia tem a maior reserva de bórax do mundo. E o que se mede lá, quando se mede:
+
+- O **efluente da mina de Kırka** é um problema de **arsênio**, não de boro: 49 µg/L na entrada, 21,8 µg/L depois de um leito construído, com o objetivo declarado de proteger a água de consumo [31]. **O boro não é medido no estudo** — nem na entrada, nem na saída.
+- Em **Emet**, o depósito de colemanita é justamente o que explica a **concentração de arsênio no solo e no lençol** — a causalidade corre do boro para o arsênio.
+- Em **regiões de mineração de boro na Turquia**, o que se remove da água é **arsênio e boro juntos**.
+- No **riacho de Emet**, o que se mede é **arsênio e boro no mesmo sedimento e no tecido dos peixes** — ninguém mede um só.
+
+**A consequência é direta:** quem compra boro compra a cadeia que produz arsênio como passivo. O boro é a parte limpa do problema.
+
+### O caso que não se mede: os salares andinos
+
+No Salar de Atacama, o que há de estudo é sobre **água** e **lítio**: milhões de toneladas de água retiradas de uma região árida, biota afetada, espécies que só existem ali, comunidades atacamenhas [30]. No Salar del Hombre Muerto, o que se modela é o **impacto hidrológico da mineração de lítio**.
+
+**O boro aparece nesses trabalhos como co-produto, e não como objeto.** Não existe, nas fontes que localizei, um único estudo de impacto da mineração de boro nos Andes — porque não existe mineração de boro nos Andes como atividade principal.
+
+### A China: a política existe, e o boro não está nela
+
+Aqui a pergunta que fizemos tinha resposta, e não é a esperada. **A China tem política ambiental forte para mineração**: Lei de Avaliação de Impacto Ambiental (com três níveis de estudo conforme o impacto potencial), Lei de Recursos Minerais, imposto ambiental, e uma **Lei de Conservação Ecológica do Planalto Qinghai-Tibete**.
+
+**Os números da inspeção abaixo são todos da mesma fonte, o MEE [32]**, custodiada nesta
+gaveta com hash.
+
+E ela funciona o suficiente para **expor o próprio problema**. Em dezembro de 2023, o ministério do meio ambiente chinês publicou a inspeção da Bacia de Qaidam, onde estão 33 salares:
+
+- sobreprodução de **78,8% / 70,7% / 57,9% / 84,1%** acima da licença entre 2019 e 2022 [32];
+- capacidade construída de **500 mil toneladas** numa licença de **3,8 vezes menos**;
+- **1,28 milhão de mu** de tanques de sal sem estudo de impacto e sem licença de uso do solo;
+- **126 milhões de m³** de salmoura retirados ilegalmente;
+- cerca de **2,5 milhões de mu** de terreno ocupado ilegalmente, incluindo 4.086 mu de pastagem natural [32].
+
+**E a palavra "boro" não aparece nenhuma vez nesse documento.** Zero. A inspeção trata de potássio, de lítio, de salmoura, de água, de pastagem. O boro de Da Qaidam está fora do documento que fiscaliza Da Qaidam.
+
+### O que isso significa junto
+
+Junte as quatro peças e o padrão fica nítido:
+
+1. **O boro é co-produto** — do lítio nos Andes, do potássio e do sódio na China. Como ninguém o extrai sozinho, ninguém o fiscaliza sozinho.
+2. **O passivo mais grave da cadeia tem outro nome** — arsênio na Turquia, água e lítio nos Andes, potássio e salmoura na China. O boro não aparece no nome de nenhum dos três.
+3. **O que se mede é o que se regula.** Como o boro não é o objeto do estudo nem da inspeção, ele também não é o objeto da norma.
+4. **A ausência de norma não é descuido: é consequência estrutural.** Não existe lacuna a preencher com boa vontade; existe um produto que atravessa quatro ordenamentos jurídicos sem que nenhum deles o nomeie.
+
+**É por isso que a pergunta deste artigo — "quem regula a apara de bambu tratada com boro?" — não tem resposta em lugar nenhum do mundo.** Não é que ninguém tenha pensado. É que o boro nunca foi o sujeito da cadeia, em nenhum país.
+
+> **O que esta seção não sabe.** Os três estudos que fechariam o argumento estão fora de alcance: o de arsênio e boro na água de Emet, o de arsênio e boro no riacho e no tecido dos peixes, e o de geoquímica da salmoura da Puna. Os títulos bastam para afirmar que **a co-ocorrência existe e é medida**; não bastam para dizer **em que concentração**. E a única ligação direta entre boro e contaminação de aquíferos na Argentina é uma **citação de jornal de 2011** dentro de um artigo de geografia: não é medição com método, e por isso não entra como dado aqui.
+
+---
 
 ## Glossário
 
@@ -1058,9 +1226,9 @@ intergovernamental do bambu e do rotim.
 
 **USDA** — Departamento de Agricultura dos Estados Unidos.
 
-**HSE / EPA** — agências de saúde e de meio ambiente, respectivamente britânica
-(*Health and Safety Executive*) e australiana americana (*Environmental Protection
-Authority*).
+**EPA** — agência de meio ambiente: nos Estados Unidos, *Environmental Protection
+Agency*; na Austrália, *Environmental Protection Authority*. A sigla muda de país para
+país e o texto diz qual está usando quando a distinção importa.
 
 **NCM** — Nomenclatura Comum do Mercosul. O código de oito dígitos que classifica cada
 produto importado ou exportado no Brasil.
@@ -1132,9 +1300,12 @@ Repr. cat. 2, **classificação superada** pelo CLP vigente.*
 ingerir).*
 
 **[7]** AGENCY FOR TOXIC SUBSTANCES AND DISEASE REGISTRY. *Toxicological Profile for
-Boron*. Atlanta: ATSDR, 2026. (TP-26). — *MRL oral agudo e intermediário de 0,2 mg
-B/kg/dia; MRL de inalação agudo de 0,3 mg B/m³; fator 66 decomposto; **não derivou MRL
-oral crônico**, por decisão declarada.*
+Boron*. Atlanta: ATSDR, **novembro de 2010**. — *MRL oral agudo e intermediário de
+0,2 mg B/kg/dia; MRL de inalação agudo de 0,3 mg B/m³; fator 66 decomposto; **não
+derivou MRL oral crônico**, por decisão declarada. **Ressalva interna:** a p. 16
+chama 0,01 mg/m³ de "MRL de inalação agudo", em conflito com 0,3 mg/m³ nas pp. 13 e
+15 — o conflito é do documento, não da leitura, e por isso só os 0,3 entram como
+valor formal.*
 
 **[8]** NATIONAL INSTITUTES OF HEALTH. Office of Dietary Supplements. *Boron — Health
 Professional Fact Sheet*. Bethesda: NIH, 2026. — *"Não classificado como nutriente
@@ -1245,8 +1416,8 @@ for Bamboo Scaffolding Safety*, 5. ed. Hong Kong: LD, 2024, com Addendum 1/2026.
 aparecem **zero vezes**.*
 
 **[24]** LIU, [et al.]. *Bambu tratado com ácido bórico e bórax: retenção e resistência a
-fungos*, 2023. — *1,5% de ácido bórico + 3,0% de bórax, 72 h; coeficiente de variação
-62,57→12,74% e perda de massa 55,62→9,64%; **79,6%** (*C. versicolor*) e **82,7%**
+fungos*, 2023. — *1,5% de ácido bórico + 3,0% de bórax, 72 h; perda de massa
+62,57→12,74% (*C. versicolor*) e 55,62→9,64% (*G. trabeum*); **79,6%** (*C. versicolor*) e **82,7%**
 (*G. trabeum*) de inibição; mistura não isolada por componente; **sem ensaio de
 lixiviação**; a conclusão do artigo diz 12,5% onde a Tabela 4 diz 12,74% — esta ficha
 adota a tabela.*
@@ -1263,13 +1434,7 @@ Chemical Hazards* — entradas de boratos. Atlanta: CDC/NIOSH, 2026. — *REL de
 para bórax decahidratado, 1 mg/m³ para anidro e 1 mg/m³ para pentahidratado; teto de boro
 resultante ~0,57 / ~0,21 / ~0,15 mg B/m³ — **limite por forma química**, não por boro.*
 
-**[27]** HEALTH AND SAFETY EXECUTIVE. *Wood dust — hazards and control*. Reino Unido: HSE,
-2026. — *WEL de 3 mg/m³ para madeira dura e 5 mg/m³ para madeira leve; madeira dura pode
-causar câncer, particularmente de nariz.*
-
----
-
-**[28]** BRASIL. **Lei nº 12.305, de 2 de agosto de 2010** — Política Nacional de
+**[27]** BRASIL. **Lei nº 12.305, de 2 de agosto de 2010** — Política Nacional de
 Resíduos Sólidos. Art. 3º, XVI (definição de resíduo sólido, incluindo líquidos cujo
 lançamento em rede ou corpo d'água seja inviável); art. 6º (competências Sisnama, SNVS,
 Suasa, Sinmetro); art. 13, I (classificação por origem). Capturado em 2026-11-24 de
@@ -1277,7 +1442,7 @@ planalto.gov.br. — ***Verificação desta curadoria:*** *"bambu" **zero** ocor
 "madeira" **zero**; "agrotóxico" 1; "domiciliar" 4; "perigoso" 25. Controle positivo:
 "Sisnama" 32, "SNVS" 21 — os termos existem e a extração funcionou.*
 
-**[29]** BRASIL. **Lei nº 12.484, de 8 de setembro de 2011** — Política Nacional de
+**[28]** BRASIL. **Lei nº 12.484, de 8 de setembro de 2011** — Política Nacional de
 Incentivo ao Manejo Sustentado e ao Cultivo do Bambu (PNMCB). **Seis artigos.**
 Instrumentos: crédito rural, assistência técnica, certificação de origem (art. 4º).
 Competências dos órgãos: pesquisa, brotos para alimentação, agricultura familiar,
@@ -1286,7 +1451,7 @@ planalto.gov.br. — ***Verificação desta curadoria:*** *"tratamento" **zero**
 "químico" **zero**; "resíduo" **zero**; "licença" **zero**; "fiscaliza" **zero**;
 "unidade de conservação" **zero**. Controle positivo: "bambu" 11 ocorrências.*
 
-**[30]** ATSDR — Agency for Toxic Substances and Disease Registry. *Toxicological
+**[29]** ATSDR — Agency for Toxic Substances and Disease Registry. *Toxicological
 Profile for Boron*. Capítulo 6, "Potential for Human Exposure": *"Adsorption-desorption
 reactions are expected to be the only significant mechanism that will influence the
 fate of boron in water"*; *"the greatest adsorption is generally observed at pH 7.5-9.0"*;
@@ -1294,7 +1459,21 @@ fate of boron in water"*; *"the greatest adsorption is generally observed at pH 
 of soil that will influence the mobility of boron"*. — *Base do parágrafo sobre
 lixiviação; ver ficha `atsdr-2026-boro-perfil-toxicologico.md`.*
 
-**[31]** EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA — Embrapa Pecuária Sul. *Tratamento da madeira na propriedade rural: procedimentos para a sua aplicação, licenciamento e gestão financeira*. Comunicado Técnico 110. Bagé, RS: Embrapa, 2024. ISSN 1982-5382. — Instrução oficial brasileira de tratamento de moirão na pequena propriedade pelo método de substituição de seiva com CCB: EPI por peça, tonel de 200 L, proporção do preservativo e **proibição explícita de descarte no ambiente, repetida em dois pontos do documento**; reuso da solução excedente em recipiente plástico; alerta de que dicromato e ácido bórico estão sob controle da Polícia Federal (Portaria 240/2019). — *Limite: trata de madeira (moirões), não de bambu, e não diz o que fazer quando o reuso termina. É a norma brasileira que existe para metais e não existe para o boro — citada aqui exatamente para marcar essa ausência.*
+**[30]** EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA — Embrapa Pecuária Sul. *Tratamento da madeira na propriedade rural: procedimentos para a sua aplicação, licenciamento e gestão financeira*. Comunicado Técnico 110. Bagé, RS: Embrapa, 2024. ISSN 1982-5382. — Instrução oficial brasileira de tratamento de moirão na pequena propriedade pelo método de substituição de seiva com CCB: EPI por peça, tonel de 200 L, proporção do preservativo e **proibição explícita de descarte no ambiente, repetida em dois pontos do documento**; reuso da solução excedente em recipiente plástico; alerta de que dicromato e ácido bórico estão sob controle da Polícia Federal (Portaria 240/2019). — *Limite: trata de madeira (moirões), não de bambu, e não diz o que fazer quando o reuso termina. É a norma brasileira que existe para metais e não existe para o boro — citada aqui exatamente para marcar essa ausência.*
+
+**[31]** TÜRKER, Onur Can. Bioremediation of arsenic (As) from mine effluent by a horizontal
+flow constructed wetland: a case study in largest borax reserve area in over the world,
+Kırka/Eskişehir. *Anadolu University Journal of Science and Technology A — Applied Sciences
+and Engineering*, v. 17, n. 5, p. 963-973, 2016. DOI 10.18038/aubtda.279863. — *Arsênio de
+49 para 21,8 µg/L em 84 dias, com saída abaixo de 10 µg/L; **o boro não é medido**.*
+
+**[32]** MINISTÉRIO DE ECOLOGIA E MEIO AMBIENTE DA CHINA (MEE). *Inspeção do 5º Grupo
+Inspetor Central: expansão desordenada do desenvolvimento de recursos de salares na Bacia
+de Qaidam, Qinghai*. Pequim: MEE, 1º de dezembro de 2023. — *Sobreprodução de 78,8% /
+70,7% / 57,9% / 84,1% acima da licença entre 2019 e 2022; capacidade construída de 500 mil t
+contra licença 3,8 vezes menor; 1,28 milhão de mu de tanques sem estudo de impacto; 126
+milhões de m³ de salmoura retirados ilegalmente; ~2,5 milhões de mu de ocupação ilegal, com
+4.086 mu de pastagem. **A palavra "boro" não aparece no documento.***
 
 
 ## Como este texto foi feito
@@ -1303,8 +1482,9 @@ Este artigo é uma peça de revisão. **Não está homologado.** O estado docume
 `em-revisao-documental` e a homologação automática está desativada — homologar é ato
 humano.
 
-O texto passou por **auditoria independente em três rodadas** (R6, R7 e uma terceira sobre
-o material já corrigido), com **21 achados registrados e corrigidos**. O padrão dos erros
+**Rodadas de auditoria.** O texto passou por **cinco rodadas com parecer escrito (R6 a R10)**
+e por **duas rodadas anteriores de conferência de acervo (R2 e R4)**. Os pareceres estão no
+ledger R4, em `retornos/` e `ops/command-center/task-results/`. O padrão dos erros
 encontrados foi sempre o mesmo: **generalização** — resumir uma tabela por uma frase,
 atribuir a um país o que vale para o mundo, tratar dois tratamentos como um, ou
 transformar impressão do curador em achado do autor.
@@ -1316,10 +1496,36 @@ indicador; e a descrição de "superior a 80%" de inibição fúngica quando ape
 duas espécies passa de 80%.
 
 **Aviso sobre uso de inteligência artificial.** A redação, a organização e a verificação
-cruzada deste artigo foram feitas com assistência de um agente de IA, sob curadoria
-humana e supervisão declarada no frontmatter. **Toda afirmação numérica foi conferida
-contra a fonte primária custodiada** — mas a responsabilidade pela peça é humana, e a
+cruzada deste artigo foram feitas com assistência de um agente de IA, sob curadoria humana
+e supervisão declarada no frontmatter. A responsabilidade pela peça é humana, e a
 homologação também.
+
+**O que foi efetivamente conferido — número, e não promessa.** A verificação numérica foi
+medida por gate próprio, afirmação por afirmação, com registro auditável arquivado ao lado
+do texto. O resultado: **62 das 286 afirmações numéricas do corpo foram conferidas** pelo
+instrumento contra a fonte custodiada. Outras **18 têm estatuto declarado** e não precisam de
+citação célula por célula: 10 em nota de tabela, 6 de cálculo aritmético e 2 de resumo de
+fonte já nomeada. **206 não foram medidas** — 126 porque a afirmação não traz citação nem
+estatuto, 37 porque a unidade está fora do vocabulário do instrumento (ele não lê `mg/L`,
+`mg/m³` nem `mg B/kg/dia`), 25 porque a obra citada não tem arquivo custodiado nesta gaveta e
+12 porque a fonte custodiada é página de bloqueio.
+
+Por parágrafo: dos **213 parágrafos** do corpo, **15** têm todas as afirmações conferidas,
+**6** têm estatuto declarado, **6** têm conferência parcial, **48** não tiveram nenhuma
+conferida e **138** não afirmam número. **Nenhum parágrafo ficou sem veredito.**
+
+**E `conferido` tem um sentido estreito, que é preciso declarar:** significa que o número
+existe na página declarada, com a unidade compatível. **Não** significa que a afirmação seja
+fiel ao que a fonte diz — o instrumento não compara sujeito. Onde a página não fechava, a
+leitura foi feita à mão e registrada como julgamento, não como medição. Foi assim que se
+achou o erro de fonte deste texto: o `21,8 µg/L` do efluente de Kırka estava citado como
+[24], que é artigo de bambu; o dado é de Türker (2016), agora [31]. E os números da inspeção
+chinesa de Qaidam estavam sem entrada bibliográfica: agora são [32].
+
+Das oito fontes custodiadas para o cenário internacional, **duas foram lidas integralmente**
+(a portaria de inspeção do ministério do meio ambiente chinês e o resumo de Gao et al. sobre
+isótopos de boro em Da Qaidam); as outras **seis foram lidas por resumo e por busca de
+termo**, não página por página.
 
 **Onde os arquivos estão.** As fichas técnicas de cada obra da bibliografia, com avaliação
 crítica e limites, estão em `docs/analyses/boro/fichas/`. As fontes primárias custodiadas,
