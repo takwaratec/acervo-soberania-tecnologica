@@ -1293,6 +1293,9 @@ fate of boron in water"*; *"the greatest adsorption is generally observed at pH 
 of soil that will influence the mobility of boron"*. — *Base do parágrafo sobre
 lixiviação; ver ficha `atsdr-2026-boro-perfil-toxicologico.md`.*
 
+**[31]** EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA — Embrapa Pecuária Sul. *Tratamento da madeira na propriedade rural: procedimentos para a sua aplicação, licenciamento e gestão financeira*. Comunicado Técnico 110. Bagé, RS: Embrapa, 2024. ISSN 1982-5382. — Instrução oficial brasileira de tratamento de moirão na pequena propriedade pelo método de substituição de seiva com CCB: EPI por peça, tonel de 200 L, proporção do preservativo e **proibição explícita de descarte no ambiente, repetida em dois pontos do documento**; reuso da solução excedente em recipiente plástico; alerta de que dicromato e ácido bórico estão sob controle da Polícia Federal (Portaria 240/2019). — *Limite: trata de madeira (moirões), não de bambu, e não diz o que fazer quando o reuso termina. É a norma brasileira que existe para metais e não existe para o boro — citada aqui exatamente para marcar essa ausência.*
+
+
 ## Como este texto foi feito
 
 Este artigo é uma peça de revisão. **Não está homologado.** O estado documental é
