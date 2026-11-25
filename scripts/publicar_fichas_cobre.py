@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Promove as 6 fichas de _privado (gitignored) para a área versionada e as declara
+"""Promove as fichas de _privado (gitignored) para a área versionada e as declara
 HOMOLOGADAS INTERNAMENTE, com a autoridade do soberano registrada.
 
 FONTE:  _privado/fichas/ago_28_Sulfato_S11/*.md  (lida byte a byte, preservada)

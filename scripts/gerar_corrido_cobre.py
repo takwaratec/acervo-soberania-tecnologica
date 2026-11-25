@@ -4,7 +4,7 @@
 Peça CORRIDA do cobre — mesmo desenho da peça corrida do boro (2026-11-24).
 
 Diferença em relação à peça de abas: aqui o artigo flui de ponta a ponta, com
-sumário, citações [N] clicáveis, bibliografia comentada e as 6 fichas anexadas
+sumário, citações [N] clicáveis, bibliografia comentada e as {len(FICHAS)} fichas anexadas
 na íntegra ao final.
 
 SAÍDA: docs/analyses/cobre/o-cobre-no-bambu-corrido.html
@@ -245,7 +245,7 @@ def montar():
 
     toc_html = "\n".join(f'    <li><a href="#{s}">{H.escape(t)}</a></li>' for s, t in toc)
     toc_html += '\n    <li><a href="#bibliografia-consultada">Bibliografia consultada</a></li>'
-    toc_html += '\n    <li><a href="#anexos">Anexos — as 6 fichas técnicas na íntegra</a></li>'
+    toc_html += f'\n    <li><a href="#anexos">Anexos — as {len(FICHAS)} fichas técnicas na íntegra</a></li>'
 
     doc = f"""<!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="utf-8">
