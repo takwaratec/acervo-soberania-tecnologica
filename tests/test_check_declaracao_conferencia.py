@@ -38,6 +38,20 @@ class TestDeclaracao(unittest.TestCase):
         r = subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__),"..","scripts","check_declaracao_conferencia.py"), self.d], capture_output=True, text=True)
         self.assertEqual(r.returncode, 0, r.stdout)
 
+    def test_formula_de_citacao_literal_tambem_conta(self):
+        """Fórmula do COBRE: 'todas as citações literais verificadas palavra por palavra'."""
+        self.escreve("cobre-artigo.md",
+            "> O que a auditoria confirmou — Integridade das fontes conferida por assinatura digital; "
+            "todas as citações literais verificadas palavra por palavra contra o documento original.\n")
+        r = subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__),"..","scripts","check_declaracao_conferencia.py"), self.d], capture_output=True, text=True)
+        self.assertEqual(r.returncode, 1, r.stdout)
+
+    def test_formula_de_citacao_literal_com_registro_passa(self):
+        self.escreve("cobre-artigo.md", "Todas as citações literais verificadas palavra por palavra contra o documento original.\n")
+        self.escreve("REGISTRO_CONFERENCIA_cobre-artigo.json", "[]")
+        r = subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__),"..","scripts","check_declaracao_conferencia.py"), self.d], capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stdout)
+
     def test_registro_de_outro_documento_nao_serve(self):
         self.escreve("a.md", "Toda afirmação numérica foi conferida contra a fonte primária.\n")
         self.escreve("REGISTRO_CONFERENCIA_zzz.json", "[]")
