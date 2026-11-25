@@ -163,6 +163,12 @@ def main():
         "aquele é o da rodada anterior. A entrada é o ponteiro em " + PT + ".")
     _nf = len([f for f in man["fontes"] if "/fichas/" in f["path"]
                and not f["path"].endswith("MANIFEST_FICHAS_PUBLICADAS.json")])
+    man["nota_do_selo"] = (
+        "Este manifesto vive no commit que o contém. Ele NÃO nomeia o próprio commit, porque um "
+        "objeto não pode conter o próprio hash: quem audita compara alvo_commit ao último commit de "
+        "CONTEÚDO (o anterior ao selo), nunca ao HEAD. Manifesto que pareça 'apontar para o commit "
+        "anterior' é o funcionamento correto, não deriva — se alvo_commit fosse o HEAD, o selo "
+        "estaria declarando os próprios bytes como fonte de si mesmo.")
     man["alvo_nota"] = ("alvo_commit é o último commit que mudou os bytes auditados (artigo, "
                         f"manuscrito, {_nf} fichas, fontes). Todos os sha256 de fontes[] foram lidos "
                         "do próprio commit, com `git show <alvo>:<path>`.")
