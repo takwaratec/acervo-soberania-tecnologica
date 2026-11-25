@@ -10,16 +10,17 @@
   "objeto": {
     "artigo_manuscrito": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
     "artigo_peca_html": "docs/analyses/cobre/o-cobre-no-bambu.html",
-    "fichas": "docs/analyses/cobre/fichas/ (12 fichas)",
-    "fontes": "docs/analyses/cobre/fontes/ (34 arquivos no rastreio + 6 custodiados fora dele)",
-    "resultados_de_pesquisa": "docs/analyses/cobre/04..07-resultados-*.md"
+    "fichas": "docs/analyses/cobre/fichas/",
+    "fontes": "docs/analyses/cobre/fontes/ — extrato textual no rastreio e PDF em custodia privada declarada",
+    "resultados_de_pesquisa": "docs/analyses/cobre/04..07-resultados-*.md",
+    "nota": "a contagem de fontes NAO e escrita aqui: e calculada no bloco denominador, num lugar so"
   },
   "estado_declarado": {
-    "fichas": "12 fichas, todas em em-revisao-documental: homologacao interna e ato declarado, nao leitura medida",
-    "artigo": "peça corrida (molde do boro, 13 seções), peça em abas e manuscrito único de ponta a ponta com 22 referências ABNT comentadas",
+    "fichas": "as fichas da gaveta estao em em-revisao-documental: homologacao interna e ato declarado, nao leitura medida",
+    "artigo": "peca corrida (molde do boro, 13 secoes), peca em abas e manuscrito unico de ponta a ponta com 22 referencias ABNT comentadas",
     "homologacao_automatica": false,
-    "o_que_a_homologacao_interna_NAO_e": "Não é homologação científica por par, não é homologação regulatória e não substitui esta auditoria. Se você apontar furo material, o estado reverte para ficha-em-revisao.",
-    "tese_declarada_fora_da_pergunta": "A frente afirma que o ponto crítico do tratamento com sulfato de cobre é o resíduo (solução exaurida), não a eficácia do produto. Esta é uma TESE, declarada aqui para não contaminar as perguntas abaixo."
+    "o_que_a_homologacao_interna_NAO_e": "Nao e homologacao cientifica por par, nao e homologacao regulatoria e nao substitui esta auditoria. Se voce apontar furo material, o estado reverte para ficha-em-revisao.",
+    "tese_declarada_fora_da_pergunta": "A frente afirma que o ponto critico do tratamento com sulfato de cobre e o residuo (solucao exaurida), nao a eficacia do produto. E uma TESE, declarada aqui para nao contaminar as perguntas."
   },
   "pergunta": "As afirmações do artigo e das 12 fichas são fielmente sustentadas pelas 40 fontes custodiadas neste pacote, e o que não está medido está declarado como tal?",
   "parte_1_perguntas": [
@@ -150,14 +151,19 @@
         "id": "F7",
         "status": "corrigido",
         "descricao": "O manifesto declarava que todos os 33 sha256 foram lidos com `git show`; 6 são PDFs fora do rastreio e `git show` não se aplica. Método agora é declarado por fonte."
+      },
+      {
+        "id": "F8",
+        "status": "corrigido",
+        "descricao": "A resposta de hashes desta rodada declarava o sha256 do objeto em memoria, sem o LF final, e o manifesto publicado tinha outro hash. O auditor externo (Sol) mediu: declarado 670225cb, publicado 85c2970e. O gerador passou a selar o byte publicado e a reler do disco antes de dar o pacote por selado; o SELOS.md registra o hash do arquivo."
       }
     ]
   },
   "nao_medido_declarado": {
-    "aviso": "Esta seção existe para que o limite seja declarado, não descoberto. Auditor que descobre o limite sozinho conclui reprovação; auditor que recebe o limite escrito pode julgar o que importa.",
-    "citacoes": "49 blocos de citação fixados antes da medição: 5 VERBATIM, 2 TRADUZIDO, 42 NAO_MEDIDO. O registro está em REGISTRO_CONFERENCIA_00-artigo-o-cobre-explicado-do-zero.json, ao lado do artigo, e traz o sha256 do artefato a que se refere.",
-    "o_que_o_registro_mede_e_o_que_nao_mede": "O registro mede se a citação é literal e onde está. Ele NÃO mede se a fonte sustenta a afirmação — isso é o objeto desta auditoria.",
-    "afirmacoes_numericas": "A frente não declara cobertura integral de números. A regra de contagem e o denominador estão em REGUA_DE_JULGAMENTO.md."
+    "aviso": "Esta secao existe para que o limite seja declarado, nao descoberto. Auditor que descobre o limite sozinho conclui reprovacao; auditor que recebe o limite escrito pode julgar o que importa.",
+    "citacoes": "O placar de literalidade esta em registros_de_conferencia[] — lido do registro no commit alvo, com sha256. Nenhum numero e redigitado aqui.",
+    "o_que_o_registro_mede_e_o_que_nao_mede": "O registro mede se o bloco citado e literal e onde esta. Ele NAO mede se a fonte sustenta a afirmacao — isso e o objeto desta auditoria. E a unidade do registro e a linha iniciada por '>' acima do tamanho minimo, que inclui nota editorial e paragrafo de apresentacao, nao apenas citacao cientifica: o placar nao e taxa de fidelidade cientifica.",
+    "afirmacoes_numericas": "A frente nao declara cobertura integral de numeros. A regra de contagem e o denominador estao em REGUA_DE_JULGAMENTO.md."
   },
   "como_ler": "Este arquivo descreve o alvo_commit acima e vale apenas para ele. NÃO há ponteiro em ops/command-center/auditoria-atual/: a entrada do pacote é este arquivo, ao lado da resposta de hashes (AUDITORIA_SOL_COBRE_HASHES_RESPONSE_R1_<alvo>.json) e do índice SELOS.md.",
   "fontes": [
@@ -331,6 +337,21 @@
       "path": "docs/analyses/cobre/fontes/s11d/MANIFEST_FONTES_S11D.json",
       "papel": "manifesto da custódia S11-d, com a pendência da S11-c resolvida",
       "no_repositorio": true
+    }
+  ],
+  "o_que_conta_como_fonte": "obra cientifica ou normativa referenciada pelo texto do artigo",
+  "o_que_nao_conta": [
+    "extrato textual (derivado da obra)",
+    "ficha (documento proprio da frente)",
+    "instrumento de medicao",
+    "registro de conferencia"
+  ],
+  "registros": [
+    {
+      "path": "docs/analyses/cobre/REGISTRO_CONFERENCIA_00-artigo-o-cobre-explicado-do-zero.json",
+      "lista": "registros",
+      "campo": "veredito",
+      "rotulo": "literalidade das citacoes do artigo"
     }
   ]
 }

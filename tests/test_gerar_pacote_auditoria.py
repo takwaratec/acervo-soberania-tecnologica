@@ -165,6 +165,61 @@ class TestGerador(unittest.TestCase):
         s = g.contar_selos(self.d, pasta)
         self.assertEqual(s["so_manifesto"], ["cccc3333"])
 
+    # --- achados do parecer do Sol (25/11): o selo tem de ser o byte publicado --
+    def test_hash_declarado_e_o_hash_do_arquivo_publicado(self):
+        """Sol, COBRE e BORO: o sha256 declarado era do objeto sem o LF final.
+
+        O gerador selava json.dumps() sem newline e escrevia com newline. O manifesto publicado
+        nunca conferia com a propria resposta de hashes. Este teste compara o arquivo EM DISCO
+        com o valor declarado — que e o que o auditor faz.
+        """
+        r = self.roda()
+        self.assertEqual(r.returncode, 0, r.stdout)
+        pasta = os.path.join(self.d, "docs/analyses/teste")
+        m_path = [f for f in os.listdir(pasta) if "MANIFEST_R1" in f][0]
+        r_path = [f for f in os.listdir(pasta) if "HASHES_RESPONSE_R1" in f][0]
+        with open(os.path.join(pasta, r_path), encoding="utf-8") as fh:
+            resposta = json.load(fh)
+        with open(os.path.join(pasta, m_path), "rb") as fh:
+            publicado = fh.read()
+        import hashlib
+        self.assertEqual(hashlib.sha256(publicado).hexdigest(), resposta["sha256_do_manifesto"],
+                         "selo tem de ser o hash do byte publicado, nao do objeto em memoria")
+        self.assertEqual(len(publicado), resposta["bytes_do_manifesto"])
+
+    def test_contagem_escrita_a_mao_na_prosa_e_recusada(self):
+        """Sol, C-04: objeto dizia 34, lista tinha 33, custodia 16. Contagem e do gerador."""
+        self.cfg["objeto"] = {"fontes": "docs/analyses/teste/fontes/ (34 arquivos no rastreio + 6 privados)"}
+        r = self.roda()
+        self.assertEqual(r.returncode, 2, r.stdout)
+        self.assertIn("C-04", r.stdout)
+
+    def test_denominador_e_calculado_pelo_gerador(self):
+        r = self.roda()
+        self.assertEqual(r.returncode, 0, r.stdout)
+        pasta = os.path.join(self.d, "docs/analyses/teste")
+        m_path = [f for f in os.listdir(pasta) if "MANIFEST_R1" in f][0]
+        with open(os.path.join(pasta, m_path), encoding="utf-8") as fh:
+            doc = json.load(fh)
+        d = doc["denominador"]
+        self.assertEqual(d["fontes_no_manifesto"], d["no_repositorio"] + d["em_custodia_privada"])
+        self.assertIn("o_que_NAO_conta", d)
+
+    def test_instrucao_separa_commit_do_pacote_do_commit_do_conteudo(self):
+        """Sol, C-09/B-05: o manifesto e publicado depois do conteudo; mandar ler dentro falha."""
+        r = self.roda()
+        self.assertEqual(r.returncode, 0, r.stdout)
+        pasta = os.path.join(self.d, "docs/analyses/teste")
+        m_path = [f for f in os.listdir(pasta) if "MANIFEST_R1" in f][0]
+        with open(os.path.join(pasta, m_path), encoding="utf-8") as fh:
+            doc = json.load(fh)
+        texto = " ".join(doc["como_reproduzir"])
+        self.assertIn("commit de CONTEUDO", texto)
+        self.assertIn("commit de EMPACOTAMENTO", texto)
+        self.assertIn("git log --all", texto)
+        self.assertIsNone(doc["pacote"]["commit_do_pacote"])
+        self.assertEqual(doc["pacote"]["commit_do_conteudo"], doc["alvo_commit"])
+
     # --- A2: nao_medido declarado e obrigatorio -----------------------------
     def test_nao_medido_declarado_e_obrigatorio(self):
         del self.cfg["nao_medido_declarado"]

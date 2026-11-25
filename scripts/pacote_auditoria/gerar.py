@@ -76,6 +76,36 @@ def sha256(b):
     return hashlib.sha256(b).hexdigest()
 
 
+def serializar(obj):
+    """O UNICO lugar que produz o byte publicado.
+
+    O defeito que o Sol achou (C-02/B-02 dos pareceres): o gerador selava o objeto em memoria sem o
+    LF final e escrevia o arquivo com LF. Hash declarado nunca conferia com o arquivo publicado.
+    Agora o mesmo byte e selado e escrito, e depois RELIDO do disco.
+    """
+    return (json.dumps(obj, ensure_ascii=False, indent=2) + "\n").encode()
+
+
+def publicar(caminho, obj):
+    b = serializar(obj)
+    with open(caminho, "wb") as f:
+        f.write(b)
+    return b
+
+
+def conferir_no_disco(caminho, esperado, rotulo):
+    """Rele o arquivo publicado e compara. Selo que nao confere com o disco e selo quebrado."""
+    with open(caminho, "rb") as f:
+        b = f.read()
+    obtido = sha256(b)
+    if obtido != esperado:
+        raise Recusa(
+            f"selagem inconsistente em {rotulo}: disco={obtido[:16]}... declarado={esperado[:16]}... "
+            f"({len(b)} bytes). O byte selado tem de ser o byte publicado."
+        )
+    return obtido, len(b)
+
+
 def montar_fonte(repo, commit, item, raiz_privada=""):
     """Monta uma entrada de fonte e PROVA o metodo. Falha fechado."""
     path = item["path"]
@@ -134,7 +164,7 @@ def montar_fonte(repo, commit, item, raiz_privada=""):
     }
 
 
-def instrucoes_nomeiam_caminho(instrucoes, repo, commit):
+def instrucoes_nomeiam_caminho(instrucoes, repo, commit, ignorar=()):
     """R19-D: toda instrucao que nomeia um caminho do repositorio tem de resolver no commit.
 
     Uma instrucao que manda abrir `fontes/pdf/` num pacote onde esse diretorio foi esvaziado e
@@ -145,6 +175,8 @@ def instrucoes_nomeiam_caminho(instrucoes, repo, commit):
     for linha in instrucoes:
         for caminho in padrao.findall(linha):
             c = caminho.rstrip(".,;:)]")
+            if any(c == i or c.endswith(os.path.basename(i)) for i in ignorar):
+                continue
             if not (existe_no_commit(repo, commit, c) or existe_no_commit(repo, commit, c + "/")
                     or _tem_prefixo(repo, commit, c)):
                 problemas.append(f"R19-D: instrucao aponta para caminho inexistente no alvo: {c}")
@@ -189,12 +221,91 @@ def contar_selos(repo, pasta):
     }
 
 
+CONTAGEM_EM_PROSA = re.compile(
+    r"\b(\d+)\s+(arquivos?|fontes?|fichas?|PDFs?|afirmac\S*|afirma\S*|paragraf\S*|par\S*grafos?|"
+    r"blocos?|registros?|citac\S*|cita\S*es?)\b", re.I)
+
+
+def proibir_contagem_em_prosa(cfg):
+    """C-04 do parecer: o objeto dizia 34, a lista tinha 33, o registro de custodia 16.
+
+    Tres numeros para a mesma coisa porque cada um foi escrito a mao. Contagem e afirmacao sobre o
+    pacote: quem conta e o gerador, num lugar so.
+    """
+    achados = []
+    for campo in ("objeto", "estado_declarado", "aviso_de_leitura", "como_ler", "nao_medido_declarado"):
+        texto = json.dumps(cfg.get(campo, ""), ensure_ascii=False)
+        for m in CONTAGEM_EM_PROSA.finditer(texto):
+            achados.append(f"{campo}: '{m.group(0)}'")
+    if achados:
+        raise Recusa(
+            "C-04: contagem escrita a mao na prosa (" + "; ".join(achados) + "). "
+            "O denominador e calculado pelo gerador no bloco 'denominador'. Descreva a composicao "
+            "sem numero, para nao haver dois totais para o mesmo conjunto."
+        )
+
+
+def contar_registros(repo, commit, definicoes):
+    """O placar do registro e LIDO do registro, nunca redigitado no manifesto.
+
+    B-01 do parecer do Sol: o manifesto dizia 283/65/200 e o registro tinha 286/62/206. O manifesto
+    repetia um numero copiado a mao de um relato. Quem conta e o registro; o manifesto cita o hash e
+    o resultado da contagem.
+    """
+    saida = []
+    for d in definicoes:
+        path = d["path"]
+        if not existe_no_commit(repo, commit, path):
+            raise Recusa(f"registro declarado nao existe no alvo: {path}")
+        bruto = bytes_no_commit(repo, commit, path)
+        if path.endswith(".jsonl"):
+            itens = [json.loads(l) for l in bruto.decode().splitlines() if l.strip()]
+        else:
+            doc = json.loads(bruto)
+            itens = doc
+            for chave in d.get("lista", "registros").split("."):
+                itens = itens[chave]
+        campo = d.get("campo", "veredito")
+        contagem = {}
+        for i in itens:
+            k = str(i.get(campo))
+            contagem[k] = contagem.get(k, 0) + 1
+        saida.append({
+            "path": path,
+            "sha256": sha256(bruto),
+            "bytes": len(bruto),
+            "campo_de_veredito": campo,
+            "total": len(itens),
+            "por_veredito": dict(sorted(contagem.items(), key=lambda kv: -kv[1])),
+            "nota": "contagem derivada do registro neste commit; nenhum numero deste bloco foi escrito a mao",
+        })
+    return saida
+
+
 def gerar_manifesto(cfg, repo, commit, raiz_privada_arg=None):
     raiz_privada = raiz_privada_arg or cfg.get("raiz_privada", "")
     fontes = [montar_fonte(repo, commit, f, raiz_privada) for f in cfg["fontes"]]
 
-    como_reproduzir = cfg["como_reproduzir"]
-    problemas = instrucoes_nomeiam_caminho(como_reproduzir, repo, commit)
+    proibir_contagem_em_prosa(cfg)
+
+    suf = commit[:8]
+    nome_m = f"AUDITORIA_SOL_{cfg['frente'].upper()}_MANIFEST_R1_{suf}.json"
+    path_m = os.path.join(cfg["pasta"], nome_m)
+
+    # C-09/B-05 do parecer: o manifesto e publicado DEPOIS do commit de conteudo — instrucao que
+    # manda ler o manifesto dentro do alvo nao funciona. O gerador separa os dois commits.
+    passo_pacote = [
+        f"1. Os objetos auditados estao no commit de CONTEUDO {commit}: faca `git checkout {commit}` "
+        f"para ler o texto, as fichas e os registros.",
+        f"2. Este manifesto NAO existe dentro do commit de conteudo — ele foi publicado depois, no "
+        f"commit de EMPACOTAMENTO. Localize-o assim: `git log --all --format=%h -- {path_m}` e leia o "
+        f"mais recente. Procurar o manifesto em {suf} encontra a rodada anterior, ou nada.",
+    ]
+    resto = [re.sub(r"^\s*\d+\.\s*", "", t) for t in cfg["como_reproduzir"]]
+    como_reproduzir = passo_pacote + [f"{i + 3}. {t}" for i, t in enumerate(resto)]
+
+    problemas = instrucoes_nomeiam_caminho(como_reproduzir, repo, commit,
+                                          ignorar={path_m, path_m.replace("MANIFEST", "HASHES_RESPONSE")})
     if problemas:
         raise Recusa("; ".join(problemas))
 
@@ -238,6 +349,31 @@ def gerar_manifesto(cfg, repo, commit, raiz_privada_arg=None):
         "como_reproduzir": como_reproduzir,
         "erro_anterior_declarado": cfg.get("erro_anterior_declarado", {"nota": "", "itens": []}),
         "metodos_de_hash": METODOS,
+        "registros_de_conferencia": contar_registros(repo, commit, cfg.get("registros", [])),
+        "denominador": {
+            "aviso": (
+                "Estas sao as unicas contagens do pacote. Quantidade de ARQUIVO nao e quantidade de OBRA: "
+                "uma obra pode ter PDF custodiado, extrato textual e ficha, e tres arquivos contam uma fonte."
+            ),
+            "fontes_no_manifesto": len(fontes),
+            "no_repositorio": sum(1 for f in fontes if f["no_repositorio"]),
+            "em_custodia_privada": sum(1 for f in fontes if not f["no_repositorio"]),
+            "por_metodo": {k: len(v) for k, v in por_metodo.items()},
+            "o_que_conta_como_fonte": cfg.get("o_que_conta_como_fonte",
+                                              "obra cientifica ou normativa referenciada pelo texto"),
+            "o_que_NAO_conta": cfg.get("o_que_nao_conta",
+                                       ["extrato textual (derivado da obra)", "ficha (documento proprio)",
+                                        "instrumento de medicao", "registro de conferencia"]),
+        },
+        "pacote": {
+            "manifest_path": path_m,
+            "commit_do_conteudo": commit,
+            "commit_do_pacote": None,
+            "nota": (
+                "commit_do_pacote fica nulo porque o commit nao pode nomear a si mesmo. Quem audita "
+                "localiza o pacote pelo caminho do manifesto no historico, nunca dentro do commit de conteudo."
+            ),
+        },
         "total_fontes": len(fontes),
         "fontes_por_metodo": {k: len(v) for k, v in por_metodo.items()},
         "nao_medido_declarado": cfg["nao_medido_declarado"],
@@ -247,7 +383,7 @@ def gerar_manifesto(cfg, repo, commit, raiz_privada_arg=None):
 
 
 def gerar_resposta(cfg, repo, commit, m, por_metodo, path_manifesto):
-    b = json.dumps(m, ensure_ascii=False, indent=2).encode()
+    b = serializar(m)   # o byte publicado, nao o objeto em memoria
     return {
         "schema": SCHEMA_HASHES,
         "manifest_id": m["manifest_id"],
@@ -299,6 +435,7 @@ def main(argv=None):
     path_m = os.path.join(pasta, nome_m)
 
     r = gerar_resposta(cfg, repo, commit, m, por_metodo, path_m)
+    r_selo = sha256(serializar(r))
 
     selos = contar_selos(repo, pasta)
     print(f"FRENTE={cfg['frente']} ALVO={suf} FONTES={m['total_fontes']}")
@@ -318,12 +455,28 @@ def main(argv=None):
 
     os.makedirs(os.path.join(repo, pasta), exist_ok=True) if not os.path.isabs(pasta) else os.makedirs(pasta, exist_ok=True)
     base = repo if not os.path.isabs(pasta) else ""
-    for caminho, obj in ((path_m, m), (os.path.join(pasta, nome_r), r)):
-        alvo = os.path.join(base, caminho)
-        with open(alvo, "w", encoding="utf-8") as f:
-            json.dump(obj, f, ensure_ascii=False, indent=2)
-            f.write("\n")
-        print(f"  escrito: {alvo}")
+    alvo_m = os.path.join(base, path_m)
+    alvo_r = os.path.join(base, pasta, nome_r)
+
+    # Escreve o byte que foi selado, e depois RELÊ do disco: vale o que esta publicado, nao o que se
+    # pretendia publicar. Sem esta releitura, o selo do COBRE saiu com o hash do objeto em memoria
+    # (sem o LF final) e nao conferiu com o arquivo — achado do Sol, 25/11.
+    try:
+        bm = publicar(alvo_m, m)
+        br = publicar(alvo_r, r)
+        h, n = conferir_no_disco(alvo_m, r["sha256_do_manifesto"], "manifesto")
+        hr, nr = conferir_no_disco(alvo_r, r_selo, "resposta")
+    except Recusa as e:
+        for alvo in (alvo_m, alvo_r):
+            if os.path.exists(alvo):
+                os.remove(alvo)
+        print(f"RECUSA: {e}")
+        return 2
+
+    print(f"  escrito: {alvo_m} ({len(bm)} bytes)")
+    print(f"  escrito: {alvo_r} ({len(br)} bytes)")
+    print(f"  RELIDO DO DISCO: manifesto {h[:16]}... == declarado na resposta ({n} bytes)")
+    print(f"  RELIDO DO DISCO: resposta {hr[:16]}... == selo da resposta ({nr} bytes)")
 
     print("  R19-C par selado junto: manifesto e resposta no mesmo commit (commite os dois).")
     return 0

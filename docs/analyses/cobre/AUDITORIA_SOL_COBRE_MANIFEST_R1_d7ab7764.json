@@ -3,7 +3,7 @@
   "versao": "2.0.0",
   "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
   "status": "ABERTO",
-  "gerado_utc": "2026-11-25T19:42:15+00:00",
+  "gerado_utc": "2026-11-25T20:14:21+00:00",
   "tipo": "CONTEUDO",
   "frente": "cobre",
   "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
@@ -16,16 +16,17 @@
   "objeto": {
     "artigo_manuscrito": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
     "artigo_peca_html": "docs/analyses/cobre/o-cobre-no-bambu.html",
-    "fichas": "docs/analyses/cobre/fichas/ (12 fichas)",
-    "fontes": "docs/analyses/cobre/fontes/ (34 arquivos no rastreio + 6 custodiados fora dele)",
-    "resultados_de_pesquisa": "docs/analyses/cobre/04..07-resultados-*.md"
+    "fichas": "docs/analyses/cobre/fichas/",
+    "fontes": "docs/analyses/cobre/fontes/ — extrato textual no rastreio e PDF em custodia privada declarada",
+    "resultados_de_pesquisa": "docs/analyses/cobre/04..07-resultados-*.md",
+    "nota": "a contagem de fontes NAO e escrita aqui: e calculada no bloco denominador, num lugar so"
   },
   "estado_declarado": {
-    "fichas": "12 fichas, todas em em-revisao-documental: homologacao interna e ato declarado, nao leitura medida",
-    "artigo": "peça corrida (molde do boro, 13 seções), peça em abas e manuscrito único de ponta a ponta com 22 referências ABNT comentadas",
+    "fichas": "as fichas da gaveta estao em em-revisao-documental: homologacao interna e ato declarado, nao leitura medida",
+    "artigo": "peca corrida (molde do boro, 13 secoes), peca em abas e manuscrito unico de ponta a ponta com 22 referencias ABNT comentadas",
     "homologacao_automatica": false,
-    "o_que_a_homologacao_interna_NAO_e": "Não é homologação científica por par, não é homologação regulatória e não substitui esta auditoria. Se você apontar furo material, o estado reverte para ficha-em-revisao.",
-    "tese_declarada_fora_da_pergunta": "A frente afirma que o ponto crítico do tratamento com sulfato de cobre é o resíduo (solução exaurida), não a eficácia do produto. Esta é uma TESE, declarada aqui para não contaminar as perguntas abaixo."
+    "o_que_a_homologacao_interna_NAO_e": "Nao e homologacao cientifica por par, nao e homologacao regulatoria e nao substitui esta auditoria. Se voce apontar furo material, o estado reverte para ficha-em-revisao.",
+    "tese_declarada_fora_da_pergunta": "A frente afirma que o ponto critico do tratamento com sulfato de cobre e o residuo (solucao exaurida), nao a eficacia do produto. E uma TESE, declarada aqui para nao contaminar as perguntas."
   },
   "pergunta": "As afirmações do artigo e das 12 fichas são fielmente sustentadas pelas 40 fontes custodiadas neste pacote, e o que não está medido está declarado como tal?",
   "parte_1_perguntas": [
@@ -383,13 +384,15 @@
     "o mérito das normas brasileiras citadas"
   ],
   "como_reproduzir": [
-    "1. git clone https://github.com/takwaratec/acervo-soberania-tecnologica",
-    "2. git checkout <alvo_commit> — leia o manifesto nomeado por esse alvo, não o que aparecer dentro dele.",
-    "3. Leia docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md de ponta a ponta.",
-    "4. Para cada marca de citação, abra o extrato em docs/analyses/cobre/fontes/md/ e localize o trecho.",
-    "5. Recalcule a aritmética do capítulo 06-resultados-s11-uso-domestico.md.",
-    "6. Para as fontes no repositório: abra docs/analyses/cobre/fontes/md/ e docs/analyses/cobre/fontes/s11c/ e localize o trecho. Para as 6 fora do rastreio: peça o PDF pelo caminho_privado declarado neste manifesto e confira o sha256 — `git show` não se aplica a elas.",
-    "7. Compare o que o artigo declara NÃO MEDIDO com o REGISTRO_CONFERENCIA_00-artigo-o-cobre-explicado-do-zero.json ao lado do artigo."
+    "1. Os objetos auditados estao no commit de CONTEUDO d7ab7764367ea7165a31909f8e25e263bbea75a5: faca `git checkout d7ab7764367ea7165a31909f8e25e263bbea75a5` para ler o texto, as fichas e os registros.",
+    "2. Este manifesto NAO existe dentro do commit de conteudo — ele foi publicado depois, no commit de EMPACOTAMENTO. Localize-o assim: `git log --all --format=%h -- docs/analyses/cobre/AUDITORIA_SOL_COBRE_MANIFEST_R1_d7ab7764.json` e leia o mais recente. Procurar o manifesto em d7ab7764 encontra a rodada anterior, ou nada.",
+    "3. git clone https://github.com/takwaratec/acervo-soberania-tecnologica",
+    "4. git checkout <alvo_commit> — leia o manifesto nomeado por esse alvo, não o que aparecer dentro dele.",
+    "5. Leia docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md de ponta a ponta.",
+    "6. Para cada marca de citação, abra o extrato em docs/analyses/cobre/fontes/md/ e localize o trecho.",
+    "7. Recalcule a aritmética do capítulo 06-resultados-s11-uso-domestico.md.",
+    "8. Para as fontes no repositório: abra docs/analyses/cobre/fontes/md/ e docs/analyses/cobre/fontes/s11c/ e localize o trecho. Para as 6 fora do rastreio: peça o PDF pelo caminho_privado declarado neste manifesto e confira o sha256 — `git show` não se aplica a elas.",
+    "9. Compare o que o artigo declara NÃO MEDIDO com o REGISTRO_CONFERENCIA_00-artigo-o-cobre-explicado-do-zero.json ao lado do artigo."
   ],
   "erro_anterior_declarado": {
     "nota": "Declarar o que já se sabe, para o auditor não gastar a rodada no que foi medido antes dele.",
@@ -428,6 +431,11 @@
         "id": "F7",
         "status": "corrigido",
         "descricao": "O manifesto declarava que todos os 33 sha256 foram lidos com `git show`; 6 são PDFs fora do rastreio e `git show` não se aplica. Método agora é declarado por fonte."
+      },
+      {
+        "id": "F8",
+        "status": "corrigido",
+        "descricao": "A resposta de hashes desta rodada declarava o sha256 do objeto em memoria, sem o LF final, e o manifesto publicado tinha outro hash. O auditor externo (Sol) mediu: declarado 670225cb, publicado 85c2970e. O gerador passou a selar o byte publicado e a reler do disco antes de dar o pacote por selado; o SELOS.md registra o hash do arquivo."
       }
     ]
   },
@@ -435,16 +443,54 @@
     "git_show_no_commit": "bytes servidos por `git show <alvo>:<path>`, nunca copia local",
     "registro_custodia_privada": "bytes do arquivo em disco no caminho privado declarado, hash conferido contra o registro de custodia; `git show` NAO se aplica"
   },
+  "registros_de_conferencia": [
+    {
+      "path": "docs/analyses/cobre/REGISTRO_CONFERENCIA_00-artigo-o-cobre-explicado-do-zero.json",
+      "sha256": "16e8086b1d358773cae77c39b3b6ffd4925741e8959d2647f24b294ceb0f0313",
+      "bytes": 19335,
+      "campo_de_veredito": "veredito",
+      "total": 49,
+      "por_veredito": {
+        "NAO_MEDIDO": 42,
+        "VERBATIM": 5,
+        "TRADUZIDO": 2
+      },
+      "nota": "contagem derivada do registro neste commit; nenhum numero deste bloco foi escrito a mao"
+    }
+  ],
+  "denominador": {
+    "aviso": "Estas sao as unicas contagens do pacote. Quantidade de ARQUIVO nao e quantidade de OBRA: uma obra pode ter PDF custodiado, extrato textual e ficha, e tres arquivos contam uma fonte.",
+    "fontes_no_manifesto": 33,
+    "no_repositorio": 27,
+    "em_custodia_privada": 6,
+    "por_metodo": {
+      "git_show_no_commit": 27,
+      "registro_custodia_privada": 6
+    },
+    "o_que_conta_como_fonte": "obra cientifica ou normativa referenciada pelo texto do artigo",
+    "o_que_NAO_conta": [
+      "extrato textual (derivado da obra)",
+      "ficha (documento proprio da frente)",
+      "instrumento de medicao",
+      "registro de conferencia"
+    ]
+  },
+  "pacote": {
+    "manifest_path": "docs/analyses/cobre/AUDITORIA_SOL_COBRE_MANIFEST_R1_d7ab7764.json",
+    "commit_do_conteudo": "d7ab7764367ea7165a31909f8e25e263bbea75a5",
+    "commit_do_pacote": null,
+    "nota": "commit_do_pacote fica nulo porque o commit nao pode nomear a si mesmo. Quem audita localiza o pacote pelo caminho do manifesto no historico, nunca dentro do commit de conteudo."
+  },
   "total_fontes": 33,
   "fontes_por_metodo": {
     "git_show_no_commit": 27,
     "registro_custodia_privada": 6
   },
   "nao_medido_declarado": {
-    "aviso": "Esta seção existe para que o limite seja declarado, não descoberto. Auditor que descobre o limite sozinho conclui reprovação; auditor que recebe o limite escrito pode julgar o que importa.",
-    "citacoes": "49 blocos de citação fixados antes da medição: 5 VERBATIM, 2 TRADUZIDO, 42 NAO_MEDIDO. O registro está em REGISTRO_CONFERENCIA_00-artigo-o-cobre-explicado-do-zero.json, ao lado do artigo, e traz o sha256 do artefato a que se refere.",
-    "o_que_o_registro_mede_e_o_que_nao_mede": "O registro mede se a citação é literal e onde está. Ele NÃO mede se a fonte sustenta a afirmação — isso é o objeto desta auditoria.",
-    "afirmacoes_numericas": "A frente não declara cobertura integral de números. A regra de contagem e o denominador estão em REGUA_DE_JULGAMENTO.md."
+    "aviso": "Esta secao existe para que o limite seja declarado, nao descoberto. Auditor que descobre o limite sozinho conclui reprovacao; auditor que recebe o limite escrito pode julgar o que importa.",
+    "citacoes": "O placar de literalidade esta em registros_de_conferencia[] — lido do registro no commit alvo, com sha256. Nenhum numero e redigitado aqui.",
+    "o_que_o_registro_mede_e_o_que_nao_mede": "O registro mede se o bloco citado e literal e onde esta. Ele NAO mede se a fonte sustenta a afirmacao — isso e o objeto desta auditoria. E a unidade do registro e a linha iniciada por '>' acima do tamanho minimo, que inclui nota editorial e paragrafo de apresentacao, nao apenas citacao cientifica: o placar nao e taxa de fidelidade cientifica.",
+    "afirmacoes_numericas": "A frente nao declara cobertura integral de numeros. A regra de contagem e o denominador estao em REGUA_DE_JULGAMENTO.md."
   },
   "como_ler": "Este arquivo descreve o alvo_commit acima e vale apenas para ele. NÃO há ponteiro em ops/command-center/auditoria-atual/: a entrada do pacote é este arquivo, ao lado da resposta de hashes (AUDITORIA_SOL_COBRE_HASHES_RESPONSE_R1_<alvo>.json) e do índice SELOS.md."
 }

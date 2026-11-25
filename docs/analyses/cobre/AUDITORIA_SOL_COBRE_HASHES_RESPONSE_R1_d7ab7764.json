@@ -3,7 +3,7 @@
   "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
   "commit_alvo": "d7ab7764367ea7165a31909f8e25e263bbea75a5",
   "manifest_path_lido": "docs/analyses/cobre/AUDITORIA_SOL_COBRE_MANIFEST_R1_d7ab7764.json",
-  "sha256_do_manifesto": "670225cb97565b0f8f9c7a16d5967d7565d279a9e9e409b3e506939db7fcab56",
+  "sha256_do_manifesto": "d4f2fd62393912e4e69aa9f9756512b79c8f703b96227e41f639116b29bc9581",
   "metodo": "Para os 27 itens presentes no repositorio, o sha256 foi calculado sobre os bytes servidos por `git show <commit>:<path>`. Para os 6 itens fora do rastreio, o sha256 vem do arquivo em disco no caminho privado declarado, conferido contra o registro de custodia; `git show` NAO se aplica a eles.",
   "sha256_por_metodo": {
     "git_show_no_commit": [
@@ -80,5 +80,5 @@
     "docs/analyses/cobre/fontes/s11d/2026-ctf-ibama-categorias-preservativos.md": "5e716fc58d0d6443458370d8dbeabbee4bf32a9b14698f244cb95d69c6801da6",
     "docs/analyses/cobre/fontes/s11d/MANIFEST_FONTES_S11D.json": "760caaa5f7ca7b760242be0bfc9d4cd88dd8f808d01dd247c0b7edf7f183e80c"
   },
-  "bytes_do_manifesto": 25017
+  "bytes_do_manifesto": 27768
 }
