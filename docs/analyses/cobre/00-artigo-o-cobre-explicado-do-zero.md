@@ -1179,17 +1179,27 @@ Para a **madeira**, a estrutura existe: norma federal, registro obrigatório,
 fiscalizador nomeado, órgão estadual licenciando, resíduo classificado como Classe I, aterro
 industrial exigido. Tudo isso pode não ser cumprido — mas está escrito.
 
-Para o **bambu**, nada disso existe. Não há registro de preservativo para bambu, não
-há usina licenciada de tratamento de bambu, não há resíduo classificado. O tratamento é feito em
-tonel, no quintal, por quem aprendeu numa apostila — e as instruções que ensinam o banho
-**param exatamente onde o resíduo começa**.
+Para o **bambu**, essa estrutura não existe: não há registro de preservativo para
+bambu, não há usina licenciada de tratamento, e não localizei *classificação publicada* para o
+resíduo do banho. O tratamento é feito em tonel, no quintal, por quem aprendeu numa apostila — e as
+instruções que ensinam o banho **param exatamente onde o resíduo começa**.
 
-> A madeira tem norma que não se cumpre. O bambu não tem norma a cumprir. As duas coisas levam ao mesmo lugar — o resíduo no chão — por caminhos diferentes.
+E aqui é preciso evitar o salto que eu mesmo já dei: **não** quer dizer que o resíduo
+do bambu esteja fora da lei. A Política Nacional de Resíduos Sólidos vale para qualquer resíduo
+sólido — e alcança até o resíduo líquido, pelo art. 3º, XVI.[12] Para dar destinação, o
+resíduo precisa ser classificado, e a norma técnica que faz isso é a NBR 10.004, citada aqui pelo
+número, não pela leitura: a edição de 2024 é paga e eu não a li. O que
+não existe é norma *da cadeia do bambu*, classificação publicada para esse resíduo específico,
+e órgão que tenha olhado para ele.
+
+> A madeira tem norma específica que não se cumpre. O bambu não tem norma específica — e o resíduo dele cai só na obrigação geral, que ninguém aplica. As duas coisas levam ao mesmo lugar — o resíduo no chão — por caminhos diferentes.
 
 É por isso que este capítulo não substitui o capítulo do limbo: ele explica por que o limbo é
 pior no bambu. A política de 2011 incentiva a cadeia do bambu; a de 2010 disciplina resíduo sólido
-sem nomear bambu; e a norma que disciplina preservativo de madeira, de 1989, **não alcança uma
-peça que nunca passou por uma usina**.
+sem nomear bambu; e a norma que disciplina preservativo de madeira, de 1989, tem como sujeito a
+**empresa registrada** e a usina licenciada — lida assim, ela não alcança uma peça
+tratada no quintal, e o quintal não é empresa. Essa última frase é interpretação de escopo, não
+medição: o que está medido é que a Portaria não trata da destinação final.
 
 ---
 
@@ -1204,11 +1214,12 @@ cadeia;[20] a constatação de que a fumaça de fogão a lenha é um problema de
 pública reconhecido no Brasil; e o registro de que a lenha catada em área rural
 **"engloba restos de caixas e madeiras tratadas"**.
 
-Há um detalhe que fecha o raciocínio: o próprio rótulo do preservativo registrado no Ibama manda
-notificar casos ao **Sinan** e ao **Notivisa**, e traz o telefone do
-Disque-Intoxicação. Ou seja, **existe canal** por onde esse caso apareceria — um canal
-de registro de intoxicação, não um artigo científico. Se ele não aparece na literatura, isso diz
-respeito ao lugar onde se procura, não à ausência do fato.
+Há um detalhe que muda o lugar da busca: o próprio rótulo do preservativo registrado no Ibama
+manda notificar casos ao **Sinan** e ao **Notivisa**, e traz o telefone do
+Disque-Intoxicação — ou seja, **existe um canal previsto** para esse registro, e ele não
+é um artigo científico. Não medi se a notificação é feita, nem se o registro é consultável. O que
+posso dizer é que, se um caso existe e foi notificado, ele estaria num sistema de vigilância, não
+necessariamente na literatura.
 
 > **A frase honesta, que eu prefiro ao número inventado** — Não há, no material reunido, caso brasileiro documentado de intoxicação por combustão de madeira tratada em fogão doméstico. Há proibição declarada, há prática relatada e há canal de notificação. Transformar isso em "há muitos casos" seria fazer exatamente o que este artigo critica.
 
@@ -1220,8 +1231,10 @@ A norma brasileira de preservação de madeira existe, é de 1989, e nomeia quem
 controla o produto, a empresa e a usina. **Ela não controla o que acontece depois que a peça
 sai do portão** — e é depois do portão que este artigo inteiro acontece.
 
-O bambu tratado no quintal não está fora da lei por esperteza de quem trata. Está fora porque
-**a lei que existe foi escrita para uma usina que ele nunca vai ter**.
+O bambu tratado no quintal não escapa por esperteza de quem trata. Escapa porque
+**a norma específica foi escrita para uma empresa que ele nunca vai ser** — e porque as
+obrigações gerais, que valeriam para ele, ninguém foi lá aplicar. Uma coisa é não haver regra; outra,
+mais comum e mais grave, é haver regra que não chega.
 
 ---
 

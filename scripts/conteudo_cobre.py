@@ -1310,18 +1310,29 @@ artigo chama de "sobra" começa a caminhar <strong>antes</strong> de a peça vir
 fiscalizador nomeado, órgão estadual licenciando, resíduo classificado como Classe I, aterro
 industrial exigido. Tudo isso pode não ser cumprido — mas está escrito.</p>
 
-<p>Para o <strong>bambu</strong>, nada disso existe. Não há registro de preservativo para bambu, não
-há usina licenciada de tratamento de bambu, não há resíduo classificado. O tratamento é feito em
-tonel, no quintal, por quem aprendeu numa apostila — e as instruções que ensinam o banho
-<strong>param exatamente onde o resíduo começa</strong>.</p>
+<p>Para o <strong>bambu</strong>, essa estrutura não existe: não há registro de preservativo para
+bambu, não há usina licenciada de tratamento, e não localizei <em>classificação publicada</em> para o
+resíduo do banho. O tratamento é feito em tonel, no quintal, por quem aprendeu numa apostila — e as
+instruções que ensinam o banho <strong>param exatamente onde o resíduo começa</strong>.</p>
 
-{bq("<strong>A madeira tem norma que não se cumpre. O bambu não tem norma a cumprir.</strong> "
-    "As duas coisas levam ao mesmo lugar — o resíduo no chão — por caminhos diferentes.")}
+<p>E aqui é preciso evitar o salto que eu mesmo já dei: <strong>não</strong> quer dizer que o resíduo
+do bambu esteja fora da lei. A Política Nacional de Resíduos Sólidos vale para qualquer resíduo
+sólido — e alcança até o resíduo líquido, pelo art. 3º, XVI.{cit("pnrs2010")} Para dar destinação, o
+resíduo precisa ser classificado, e a norma técnica que faz isso é a NBR 10.004, citada aqui pelo
+número, não pela leitura: a edição de 2024 é paga e eu não a li. O que
+não existe é norma <em>da cadeia do bambu</em>, classificação publicada para esse resíduo específico,
+e órgão que tenha olhado para ele.</p>
+
+{bq("<strong>A madeira tem norma específica que não se cumpre. O bambu não tem norma específica — "
+    "e o resíduo dele cai só na obrigação geral, que ninguém aplica.</strong> As duas coisas levam "
+    "ao mesmo lugar — o resíduo no chão — por caminhos diferentes.")}
 
 <p>É por isso que este capítulo não substitui o capítulo do limbo: ele explica por que o limbo é
 pior no bambu. A política de 2011 incentiva a cadeia do bambu; a de 2010 disciplina resíduo sólido
-sem nomear bambu; e a norma que disciplina preservativo de madeira, de 1989, <strong>não alcança uma
-peça que nunca passou por uma usina</strong>.</p>
+sem nomear bambu; e a norma que disciplina preservativo de madeira, de 1989, tem como sujeito a
+<strong>empresa registrada</strong> e a usina licenciada — lida assim, ela não alcança uma peça
+tratada no quintal, e o quintal não é empresa. Essa última frase é interpretação de escopo, não
+medição: o que está medido é que a Portaria não trata da destinação final.</p>
 
 {SEP}
 
@@ -1336,11 +1347,12 @@ cadeia;{cit("abpm2015")} a constatação de que a fumaça de fogão a lenha é u
 pública reconhecido no Brasil; e o registro de que a lenha catada em área rural
 <strong>"engloba restos de caixas e madeiras tratadas"</strong>.</p>
 
-<p>Há um detalhe que fecha o raciocínio: o próprio rótulo do preservativo registrado no Ibama manda
-notificar casos ao <strong>Sinan</strong> e ao <strong>Notivisa</strong>, e traz o telefone do
-Disque-Intoxicação. Ou seja, <strong>existe canal</strong> por onde esse caso apareceria — um canal
-de registro de intoxicação, não um artigo científico. Se ele não aparece na literatura, isso diz
-respeito ao lugar onde se procura, não à ausência do fato.</p>
+<p>Há um detalhe que muda o lugar da busca: o próprio rótulo do preservativo registrado no Ibama
+manda notificar casos ao <strong>Sinan</strong> e ao <strong>Notivisa</strong>, e traz o telefone do
+Disque-Intoxicação — ou seja, <strong>existe um canal previsto</strong> para esse registro, e ele não
+é um artigo científico. Não medi se a notificação é feita, nem se o registro é consultável. O que
+posso dizer é que, se um caso existe e foi notificado, ele estaria num sistema de vigilância, não
+necessariamente na literatura.</p>
 
 {note("A frase honesta, que eu prefiro ao número inventado",
  "Não há, no material reunido, caso brasileiro documentado de intoxicação por combustão de madeira "
@@ -1355,8 +1367,10 @@ respeito ao lugar onde se procura, não à ausência do fato.</p>
 controla o produto, a empresa e a usina. <strong>Ela não controla o que acontece depois que a peça
 sai do portão</strong> — e é depois do portão que este artigo inteiro acontece.</p>
 
-<p>O bambu tratado no quintal não está fora da lei por esperteza de quem trata. Está fora porque
-<strong>a lei que existe foi escrita para uma usina que ele nunca vai ter</strong>.</p>
+<p>O bambu tratado no quintal não escapa por esperteza de quem trata. Escapa porque
+<strong>a norma específica foi escrita para uma empresa que ele nunca vai ser</strong> — e porque as
+obrigações gerais, que valeriam para ele, ninguém foi lá aplicar. Uma coisa é não haver regra; outra,
+mais comum e mais grave, é haver regra que não chega.</p>
 """)
 
 pagina("p-9", "10 · Como ler · Resumo", "10", "Como ler qualquer texto sobre cobre — e o resumo do artigo",

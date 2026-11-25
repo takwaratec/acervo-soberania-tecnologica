@@ -133,7 +133,8 @@ Três ausências, todas verificadas no texto integral (4 páginas, 10.859 caract
 
 **Consequência para a tese da peça:** a norma brasileira existe, é federal, é de 1989 e nomeia
 o fiscalizador. O que ela não faz é acompanhar a peça depois que ela sai da usina. É
-exatamente aí que a cadeia artesanal — e o bambu tratado em casa — opera sem norma alguma.
+exatamente aí que a cadeia artesanal — e o bambu tratado em casa — opera sem norma que a nomeie:
+as obrigações gerais não a distinguem, e a norma específica registra a empresa, não o quintal.
 
 ---
 
