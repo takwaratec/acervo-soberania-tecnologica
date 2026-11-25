@@ -3,12 +3,12 @@
  "versao": "1.0.0",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "status": "ABERTO",
- "gerado_utc": "2026-11-25T16:01:37+00:00",
+ "gerado_utc": "2026-11-25T16:05:56+00:00",
  "tipo": "CONTEUDO",
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "1a4c858d3379e32370e26b03114a79ed6ce18718",
+ "alvo_commit": "72205a2502cfbd76d04e61e1653623c5a7efaf29",
  "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 12 fichas, fontes). Todos os sha256 de fontes[] foram lidos do próprio commit, com `git show <alvo>:<path>`.",
  "aviso_de_leitura": {
   "repositorio": "takwaratec/acervo-soberania-tecnologica",
@@ -55,7 +55,7 @@
   },
   {
    "id": "Q3",
-   "pergunta": "As seis fichas são fiéis às suas fontes primárias — incluindo as citações literais, os números e as páginas?",
+   "pergunta": "As 12 fichas são fiéis às suas fontes primárias — incluindo as citações literais, os números e as páginas?",
    "arquivo": "docs/analyses/cobre/fichas/*.md contra docs/analyses/cobre/fontes/",
    "criterio": "Cada citação literal entre aspas deve aparecer no documento de origem. Cada número deve ter página ou seção identificável."
   },
@@ -115,13 +115,13 @@
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
    "papel": "peça corrida — texto integral, bibliografia comentada e as 12 fichas anexadas",
-   "sha256": "e9cf94af352b97a9d81dea6d21e6d3d5173bfbf01c78afba9709f9a6a78da0dd",
-   "bytes": 242946,
+   "sha256": "c3ec5cbfda5670d2f602a2833a466558a94a83ef5ae0f9e29512f9a288b4129c",
+   "bytes": 242947,
    "no_repositorio": true
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu.html",
-   "sha256": "af5d64e5bb0fa42acd4f44da08ca8a2e295d5156ccdee05cf4908d1ec6417162",
+   "sha256": "f670de9a72b1274ddf27bd97fb38e4aeb9c4b2f0fa38d85a1c53c0639fa15463",
    "bytes": 249181,
    "papel": "peça de leitura, 18 abas",
    "no_repositorio": true
