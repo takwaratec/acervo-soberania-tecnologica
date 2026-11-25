@@ -1323,9 +1323,9 @@ número, não pela leitura: a edição de 2024 é paga e eu não a li. O que
 não existe é norma <em>da cadeia do bambu</em>, classificação publicada para esse resíduo específico,
 e órgão que tenha olhado para ele.</p>
 
-{bq("<strong>A madeira tem norma específica que não se cumpre. O bambu não tem norma específica — "
-    "e o resíduo dele cai só na obrigação geral, que ninguém aplica.</strong> As duas coisas levam "
-    "ao mesmo lugar — o resíduo no chão — por caminhos diferentes.")}
+{bq("<strong>A madeira tem norma específica que não se cumpre. O bambu não tem norma específica: "
+    "o resíduo dele cai na obrigação geral, escrita para todo resíduo.</strong> As duas coisas "
+    "terminam no mesmo lugar — um resíduo sem destino escrito.")}
 
 <p>É por isso que este capítulo não substitui o capítulo do limbo: ele explica por que o limbo é
 pior no bambu. A política de 2011 incentiva a cadeia do bambu; a de 2010 disciplina resíduo sólido
@@ -1368,9 +1368,10 @@ controla o produto, a empresa e a usina. <strong>Ela não controla o que acontec
 sai do portão</strong> — e é depois do portão que este artigo inteiro acontece.</p>
 
 <p>O bambu tratado no quintal não escapa por esperteza de quem trata. Escapa porque
-<strong>a norma específica foi escrita para uma empresa que ele nunca vai ser</strong> — e porque as
-obrigações gerais, que valeriam para ele, ninguém foi lá aplicar. Uma coisa é não haver regra; outra,
-mais comum e mais grave, é haver regra que não chega.</p>
+<strong>a norma específica foi escrita para uma empresa que ele nunca vai ser</strong>. As obrigações
+gerais valeriam para ele — mas <strong>não encontrei documento de que tenham sido aplicadas a este
+resíduo</strong>, e não medi o que acontece na prática. Uma coisa é não haver regra; outra, mais grave,
+é haver regra que não chega.</p>
 """)
 
 pagina("p-9", "10 · Como ler · Resumo", "10", "Como ler qualquer texto sobre cobre — e o resumo do artigo",

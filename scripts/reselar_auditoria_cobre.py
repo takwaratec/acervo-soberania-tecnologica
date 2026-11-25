@@ -8,17 +8,24 @@ peça ganha o seu próprio commit, e todo hash é lido do commit (`git show`), n
 
 Uso: reselar_auditoria_cobre.py <alvo_commit_40hex>
 """
+import glob
 import hashlib
 import json
+import os
 import subprocess
 import sys
 from datetime import datetime, timezone
 
 REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
 BRANCH = "hermes/cobre-plano-20261124"
-MAN = "docs/analyses/cobre/AUDITORIA_SOL_COBRE_MANIFEST_R1.json"
-HR = "docs/analyses/cobre/AUDITORIA_SOL_COBRE_HASHES_RESPONSE_R1.json"
+DIR = "docs/analyses/cobre"
 PT = "ops/command-center/auditoria-atual/COBRE.json"
+
+# Por que o nome do arquivo carrega o alvo: o manifesto nasce DEPOIS do conteúdo, porque não pode
+# conter o hash do commit que o publica. Isso deixa, dentro do commit-alvo, a cópia do manifesto
+# ANTERIOR — e o auditor que abrir "o manifesto do commit auditado", que é o gesto natural, lê o
+# documento errado e reporta hashes divergentes. Aconteceu. O nome resolve: se o arquivo diz
+# _R1_<alvo>.json, ele vale para aquele alvo e para nenhum outro.
 
 # fontes novas desta rodada (S11-c)
 NOVAS = [
@@ -59,12 +66,32 @@ def blob_sha(commit, path):
     return hashlib.sha256(r.stdout).hexdigest(), len(r.stdout)
 
 
+def manifesto_anterior():
+    """O manifesto vigente vem do ponteiro; sem ponteiro, o de nome mais recente no disco."""
+    caminho_pt = os.path.join(REPO, PT)
+    if os.path.exists(caminho_pt):
+        try:
+            pt = json.load(open(caminho_pt, encoding="utf-8"))
+            if os.path.exists(os.path.join(REPO, pt["manifest_path"])):
+                return pt["manifest_path"]
+        except Exception:
+            pass
+    cand = sorted(glob.glob(os.path.join(REPO, DIR, "AUDITORIA_SOL_COBRE_MANIFEST_R1*.json")))
+    if not cand:
+        raise SystemExit("nenhum manifesto anterior encontrado")
+    return os.path.relpath(cand[-1], REPO)
+
+
 def main():
     alvo = sys.argv[1]
     assert len(alvo) == 40, "alvo precisa ser sha de 40 hex"
     git("cat-file", "-e", f"{alvo}^{{commit}}")
 
-    man = json.load(open(f"{REPO}/{MAN}", encoding="utf-8"))
+    man_path = f"{DIR}/AUDITORIA_SOL_COBRE_MANIFEST_R1_{alvo[:8]}.json"
+    hr_path = f"{DIR}/AUDITORIA_SOL_COBRE_HASHES_RESPONSE_R1_{alvo[:8]}.json"
+    prev = manifesto_anterior()
+
+    man = json.load(open(os.path.join(REPO, prev), encoding="utf-8"))
 
     # 1) reconferir cada fonte existente no alvo novo
     novas, vistas = 0, set()
@@ -85,6 +112,10 @@ def main():
     man["alvo_commit"] = alvo
     man["gerado_utc"] = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     man["total_fontes"] = len(man["fontes"])
+    man["como_ler"] = (
+        "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo "
+        "carrega o alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: "
+        "aquele é o da rodada anterior. A entrada é o ponteiro em " + PT + ".")
     man["alvo_nota"] = ("alvo_commit é o último commit que mudou os bytes auditados (artigo, "
                         "manuscrito, 11 fichas, fontes). Todos os sha256 de fontes[] foram lidos "
                         "do próprio commit, com `git show <alvo>:<path>`.")
@@ -117,35 +148,34 @@ def main():
         })
         _novas.append({
             "id": "Q10",
-            "pergunta": ("A distinção «a madeira tem norma que não se cumpre; o bambu não tem norma a "
-                         "cumprir» é sustentada pelas fontes custodiadas, e o capítulo declara "
-                         "explicitamente que não há caso brasileiro documentado de intoxicação por "
-                         "queimar madeira tratada em fogão doméstico?"),
+            "pergunta": ("O capítulo distingue norma ESPECÍFICA (que a madeira tem e não cumpre) de "
+                         "OBRIGAÇÃO GERAL (que vale para o bambu)? O texto afirma que a obrigação "
+                         "geral não foi aplicada a este resíduo, ou apenas que não há documento de "
+                         "aplicação — e onde diz qual das duas coisas?"),
             "arquivo": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
-            "ancora": "seção 9 — «O que não se mediu — e por que isso é resultado»",
-            "fonte": "docs/analyses/cobre/fontes/s11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.pdf",
+            "ancora": "seção 9 — «O que fica»",
+            "fonte": "docs/analyses/cobre/fontes_novas/pnrs_art3_XVI.txt",
         })
 
         man["parte_1_perguntas"].extend(q for q in _novas if q["id"] not in _existentes)
 
-    open(f"{REPO}/{MAN}", "w", encoding="utf-8").write(
+    open(os.path.join(REPO, man_path), "w", encoding="utf-8").write(
         json.dumps(man, ensure_ascii=False, indent=1) + "\n")
-    print(f"MANIFESTO reescrito: {man['total_fontes']} fontes ({novas} novas) em alvo {alvo[:12]}")
+    print(f"MANIFESTO {man_path}\n  {man['total_fontes']} fontes ({novas} novas) | alvo {alvo[:12]}")
 
-    # 4) commit do manifesto
-    git("add", MAN)
-    git("commit", "-q", "-m",
-        f"auditoria(cobre): manifesto reselado no alvo {alvo[:8]} — 21 refs, 11 fichas, {man['total_fontes']} fontes")
-    man_commit = git("rev-parse", "HEAD").stdout.decode().strip()
-    man_sha, man_bytes = blob_sha(man_commit, MAN)
-    print(f"MANIFESTO commit {man_commit[:12]}  sha256 {man_sha[:16]}…  {man_bytes:,} B")
+    # 4) HASHES_RESPONSE já no disco, calculado sobre os bytes do próprio manifesto.
+    #    O sha256 de um arquivo não depende do commit que o contém, então dá para fechar os dois
+    #    no MESMO commit — e é obrigatório que seja assim: o gate 14 lê o HASHES_RESPONSE no
+    #    manifest_commit, e se ele for commitado depois, o que está lá é a versão anterior.
+    man_bytes_disco = open(os.path.join(REPO, man_path), "rb").read()
+    man_sha = hashlib.sha256(man_bytes_disco).hexdigest()
 
     # 5) HASHES_RESPONSE
     resp = {
         "schema": "TAKWARATEC_R4_HASHES_RESPONSE_R1",
         "manifest_id": man["manifest_id"],
-        "alvo_commit": alvo,
-        "manifest_commit": man_commit,
+        "commit_alvo": alvo,
+        "manifest_path_lido": man_path,
         "sha256_do_manifesto": man_sha,
         "bytes_do_manifesto": man_bytes,
         "metodo": ("Cada sha256 foi calculado sobre os bytes servidos por `git show "
@@ -153,13 +183,26 @@ def main():
         "total_fontes": man["total_fontes"],
         "fontes_sha256": {f["path"]: f["sha256"] for f in man["fontes"]},
     }
-    open(f"{REPO}/{HR}", "w", encoding="utf-8").write(
+    # bytes_do_manifesto precisa refletir o disco
+    resp["bytes_do_manifesto"] = len(man_bytes_disco)
+    open(os.path.join(REPO, hr_path), "w", encoding="utf-8").write(
         json.dumps(resp, ensure_ascii=False, indent=1) + "\n")
-    git("add", HR)
-    git("commit", "-q", "-m", f"auditoria(cobre): HASHES_RESPONSE do manifesto {man_sha[:12]}")
-    hr_commit = git("rev-parse", "HEAD").stdout.decode().strip()
-    hr_sha, _ = blob_sha(hr_commit, HR)
-    print(f"HASHES_RESPONSE commit {hr_commit[:12]}  sha256 {hr_sha[:16]}…")
+
+    # manifesto e resposta no mesmo commit
+    git("add", man_path, hr_path)
+    if prev != man_path:
+        git("rm", "-q", "--ignore-unmatch", prev)
+    git("commit", "-q", "-m",
+        f"auditoria(cobre): manifesto e hashes do alvo {alvo[:8]} — 21 refs, 11 fichas, {man['total_fontes']} fontes")
+    man_commit = git("rev-parse", "HEAD").stdout.decode().strip()
+
+    # conferência: o hash declarado é o que o git serve?
+    man_sha_git, man_bytes_git = blob_sha(man_commit, man_path)
+    assert man_sha_git == man_sha, f"manifesto divergente do commit: {man_sha_git[:12]} != {man_sha[:12]}"
+    hr_sha, _ = blob_sha(man_commit, hr_path)
+    hr_commit = man_commit  # as duas peças vivem no mesmo commit, por desenho
+    print(f"MANIFESTO+HASHES commit {man_commit[:12]}  manifesto {man_sha[:16]}…  hr {hr_sha[:16]}…  {man_bytes_git:,} B")
+    print(f"HASHES_RESPONSE {hr_path}\n  commit {hr_commit[:12]}  sha256 {hr_sha[:16]}…")
 
     # 6) ponteiro
     pt = {
@@ -169,16 +212,18 @@ def main():
         "status": "ABERTO",
         "manifest_branch": BRANCH,
         "manifest_commit": man_commit,
-        "manifest_path": MAN,
+        "manifest_path": man_path,
         "sha256_do_manifesto": man_sha,
-        "hashes_response_path": HR,
+        "hashes_response_path": hr_path,
         "sha256_do_hashes_response": hr_sha,
         "hashes_response_commit": hr_commit,
         "alvo_commit": alvo,
         "atualizado_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         "instrucao_ao_auditor": (
-            "Leia o manifesto no manifest_commit, confira sha256_do_manifesto, depois "
-            "HASHES_RESPONSE, e só então as fontes no alvo_commit. O repositório é público."),
+            "Comece AQUI, neste arquivo, no commit da branch que você recebeu. Leia o manifesto "
+            "em manifest_commit e confira sha256_do_manifesto; leia o HASHES_RESPONSE no mesmo "
+            "commit e confira sha256_do_hashes_response; só então abra as fontes em alvo_commit. "
+            "Não leia o manifesto que aparece dentro do alvo_commit: é o da rodada anterior."),
     }
     open(f"{REPO}/{PT}", "w", encoding="utf-8").write(
         json.dumps(pt, ensure_ascii=False, indent=1) + "\n")

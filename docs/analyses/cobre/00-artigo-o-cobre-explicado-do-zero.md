@@ -1192,7 +1192,7 @@ número, não pela leitura: a edição de 2024 é paga e eu não a li. O que
 não existe é norma *da cadeia do bambu*, classificação publicada para esse resíduo específico,
 e órgão que tenha olhado para ele.
 
-> A madeira tem norma específica que não se cumpre. O bambu não tem norma específica — e o resíduo dele cai só na obrigação geral, que ninguém aplica. As duas coisas levam ao mesmo lugar — o resíduo no chão — por caminhos diferentes.
+> A madeira tem norma específica que não se cumpre. O bambu não tem norma específica: o resíduo dele cai na obrigação geral, escrita para todo resíduo. As duas coisas terminam no mesmo lugar — um resíduo sem destino escrito.
 
 É por isso que este capítulo não substitui o capítulo do limbo: ele explica por que o limbo é
 pior no bambu. A política de 2011 incentiva a cadeia do bambu; a de 2010 disciplina resíduo sólido
@@ -1232,9 +1232,10 @@ controla o produto, a empresa e a usina. **Ela não controla o que acontece depo
 sai do portão** — e é depois do portão que este artigo inteiro acontece.
 
 O bambu tratado no quintal não escapa por esperteza de quem trata. Escapa porque
-**a norma específica foi escrita para uma empresa que ele nunca vai ser** — e porque as
-obrigações gerais, que valeriam para ele, ninguém foi lá aplicar. Uma coisa é não haver regra; outra,
-mais comum e mais grave, é haver regra que não chega.
+**a norma específica foi escrita para uma empresa que ele nunca vai ser**. As obrigações
+gerais valeriam para ele — mas **não encontrei documento de que tenham sido aplicadas a este
+resíduo**, e não medi o que acontece na prática. Uma coisa é não haver regra; outra, mais grave,
+é haver regra que não chega.
 
 ---
 
