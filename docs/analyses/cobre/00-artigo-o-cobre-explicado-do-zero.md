@@ -15,8 +15,8 @@ camada: "B — adaptacao publica em linguagem nao especializada"
 peca_html: "o-cobre-no-bambu.html (gerada de scripts/conteudo_cobre.py)"
 fichas: "docs/analyses/cobre/fichas/ (11 fichas)"
 referencias: "21 entradas, numeradas — ver secao Referencias"
+tipo_documental: ensaio-tecnico
 ---
-
 # O cobre, explicado do zero
 
 ## Um metal comum, uma solução azul e a pergunta que quase ninguém faz: para onde vai a água do tratamento

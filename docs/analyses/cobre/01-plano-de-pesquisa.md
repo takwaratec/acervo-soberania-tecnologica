@@ -11,8 +11,8 @@ data_revisao: 2026-11-24
 responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 destinacao: "objeto de auditoria interna (Teco/Luna) antes da execucao de E1-E7"
+tipo_documental: instrumento-de-pesquisa
 ---
-
 # Plano de pesquisa — o elemento cobre
 
 > **Pergunta de pesquisa.** O que é o cobre, de onde vem, para onde vai, o que ele

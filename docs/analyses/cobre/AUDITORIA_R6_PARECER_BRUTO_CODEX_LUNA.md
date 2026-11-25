@@ -1,3 +1,8 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 Q1=PASS | docs/analyses/cobre/03-plano-residuo-e-alerta.md:48-58 | DETALHE=200 L × 1.000 mg/L = 200.000 mg de CuSO₄·5H₂O; × 0,2545 = 50.900 mg Cu = 50,9 g. Para 9 µg/L (0,009 mg/L), o volume final é 5.655.556 L = 5.655,56 m³; para 1,11 µg/L (0,00111 mg/L), 45.855.856 L = 45.855,86 m³. Subtrair os 0,2 m³ iniciais altera só casas decimais: arredondamentos da tabela conferem.
 
 Q2=PASS | docs/analyses/cobre/03-plano-residuo-e-alerta.md:38-46 | DETALHE=1,0 mg/L = 1.000 µg/L; 1.000 ÷ 1,11 = 900,9×, não 901× exatos; 1.000 ÷ 9 = 111,1×. Os fatores 901× e 111× conferem como arredondamentos.

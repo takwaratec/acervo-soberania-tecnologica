@@ -16,8 +16,8 @@ responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 corpus_custodiado: "_privado/fontes-documentais/ago_28_Sulfato_S11/ (5 PDFs, manifest com sha256)"
 plano_executado: 03-plano-residuo-e-alerta.md v5
+tipo_documental: sintese-critica
 ---
-
 # S11 — Uso doméstico: medição das cinco perguntas
 
 > **Resultado em uma frase (v2, corrigida).** A instrução rural brasileira **avisa e

@@ -1,3 +1,8 @@
+---
+tipo_documental: instrumento-de-pesquisa
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 # Leitura integral — 2026-ctf-ibama-categorias-preservativos.md
 
 Custódia: `_privado/fontes-documentais/ago_28_Madeira_Tratada_S11d/`  

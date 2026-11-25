@@ -1,3 +1,8 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 Q1=PASS | docs/analyses/cobre/02-plano-sulfato-de-cobre.md:41 | A v2 restringe o NOAEL de 2 mg Cu/L à exposição oral em água e ao endpoint gastrointestinal agudo, identifica o efeito crítico crônico como hepático e diz que não há fronteira universal. S7 também separa os domínios e proíbe compará-los diretamente (linhas 211–253).
 
 Q2=PARCIAL | docs/analyses/cobre/02-plano-sulfato-de-cobre.md:92 | S1 incorpora a pergunta literal e cita a Tabela 2.5 custodiada, que associa CuSO₄ a ação fungicida e registra limites para aplicações externas e contra insetos e cupins. Mas a tabela não sustenta que o cúprico seja barato ou de menor toxicidade mamífera; essas afirmações aparecem como fatos nas linhas 104–106 sem base ali demonstrada. A própria v2 reconhece que a fonte não mede eficácia específica em bambu (119–120).

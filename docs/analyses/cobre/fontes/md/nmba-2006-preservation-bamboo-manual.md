@@ -1,3 +1,8 @@
+---
+tipo_documental: fonte-primaria-privada
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 <!-- PAGE: 1 -->
 Preservation
 of Bamboo

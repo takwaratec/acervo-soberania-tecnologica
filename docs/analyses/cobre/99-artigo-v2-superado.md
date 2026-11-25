@@ -1,10 +1,11 @@
 ---
 schema: ACERVO_ARTIGO_R1
-estado_documental: superado
+estado_documental: historico
 substituido_por: "o-cobre-no-bambu.html (peça no molde homologado) + scripts/conteudo_cobre.py (fonte única)"
 motivo: "o soberano homologou o molde de abas de 11 páginas; a peça passou a ser gerada de scripts/conteudo_cobre.py"
+tipo_documental: ensaio-tecnico
+responsavel_curadoria: Fabio F. Resck
 ---
-
 > **DOCUMENTO SUPERADO.** Este é o texto da versão anterior, preservado byte a byte. A versão
 > vigente é a peça `o-cobre-no-bambu.html`, gerada de `scripts/conteudo_cobre.py` — que é a
 > **fonte única** do texto, para que o `.md` e o HTML não possam divergir.

@@ -11,8 +11,8 @@ data_revisao: 2026-11-24
 responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 auditorias: "R4 REPLANEJAR (4 furos) · R5 REPLANEJAR (4 furos + 3 omissoes) · R6 REPROVA (advocacia ALTO) · todas acatadas"
+tipo_documental: instrumento-de-pesquisa
 ---
-
 # Plano específico — sulfato de cobre (v5)
 
 > **Mudança de eixo, declarada pelo soberano em 2026-11-24.** O objetivo deixa de ser

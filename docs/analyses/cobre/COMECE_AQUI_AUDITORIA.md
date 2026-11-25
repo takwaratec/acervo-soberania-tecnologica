@@ -1,3 +1,8 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 # Comece por aqui — pacote de auditoria da gaveta COBRE
 
 Este diretório tem três coisas que se confundem de propósito, e uma que não deve ser confundida.

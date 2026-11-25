@@ -1,3 +1,8 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 Q1=PASS | docs/analyses/cobre/02-plano-sulfato-de-cobre.md:15 | O plano declara que o objeto é o sulfato de cobre e que não é ficha nem capítulo. O limite de não estender ao bambu o que for medido em madeira aparece também em :261-273; não há avaliação de produto tratado.
 
 Q2=PASS | docs/analyses/cobre/01-plano-de-pesquisa.md:43; docs/analyses/cobre/02-plano-sulfato-de-cobre.md:12 | A divisão é clara: A trata do elemento e B, do composto. B reutiliza dados toxicológicos de A, mas isso é dependência explícita, não repetição de pesquisa; convém sinalizar que esses dados são contexto, não resultados específicos do sal.

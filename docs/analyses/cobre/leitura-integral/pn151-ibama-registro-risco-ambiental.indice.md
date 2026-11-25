@@ -1,3 +1,8 @@
+---
+tipo_documental: instrumento-de-pesquisa
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 # Índice de parágrafos — 1997_pn151_ibama_registro_risco_ambiental.md
 
 Extração: `_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c/1997_pn151_ibama_registro_risco_ambiental.md`  

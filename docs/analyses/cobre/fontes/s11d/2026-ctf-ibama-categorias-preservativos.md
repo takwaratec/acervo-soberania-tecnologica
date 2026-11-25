@@ -1,3 +1,8 @@
+---
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+tipo_documental: instrumento-de-pesquisa
+---
 <!-- PAGE: 1 (página única, conteúdo extraído do HTML) -->
 Registro de produtos preservativos de madeiras — Ibama
 Conteúdo

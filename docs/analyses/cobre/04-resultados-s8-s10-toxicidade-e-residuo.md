@@ -10,8 +10,8 @@ data_revisao: 2026-11-24
 responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 plano_executado: 03-plano-residuo-e-alerta.md v5
+tipo_documental: sintese-critica
 ---
-
 # S8 e S10 — resultados medidos
 
 > **O que este documento é.** A primeira execução de pesquisa da frente COBRE: as duas

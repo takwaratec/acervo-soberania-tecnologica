@@ -12,8 +12,8 @@ responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 corpus_custodiado: "_privado/fontes-documentais/ago_28_Sulfato_S11/ (9 fontes, manifest com sha256)"
 corrige: "06-resultados-s11-uso-domestico.md v6 — que declarou 'receita caseira irresponsavel: NAO DEMONSTRADO'"
+tipo_documental: sintese-critica
 ---
-
 # S11-bis — a receita informal, medida
 
 > **Por que esta rodada existe.** A S11 concluiu que "existe receita caseira irresponsável"

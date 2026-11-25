@@ -1,3 +1,8 @@
+---
+tipo_documental: sintese-critica
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 # Leitura integral das sete custodiadas — o que a letra diz
 
 Gaveta cobre · 2026-11-24 · 1.008 parágrafos lidos, classificados um por um, com portão de cobertura total (`scripts/s11e_gate_leitura.py`).

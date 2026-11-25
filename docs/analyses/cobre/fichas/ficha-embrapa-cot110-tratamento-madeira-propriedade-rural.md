@@ -2,7 +2,7 @@
 schema: ACERVO_FICHA_R1
 gaveta: cobre
 frente: COBRE
-estado_documental: homologado-internamente
+estado_documental: homologado-documentalmente
 homologacao:
   tipo: INTERNA
   autoridade: FABIO
@@ -20,8 +20,10 @@ homologacao:
   auditoria_externa: PENDENTE
 homologacao_automatica: false
 publicacao: docs/analyses/cobre/fichas/
+tipo_documental: ficha-cientifica
+responsavel_curadoria: Fabio F. Resck
+identificador: "sem-doi-registrado"
 ---
-
 > **Estado: homologada internamente (2026-11-24, autoridade FABIO).** Publicada para
 > auditoria externa. Se o auditor externo apontar furo material, o estado reverte para
 > `ficha-em-revisao` e a correção é publicada com a rodada seguinte.

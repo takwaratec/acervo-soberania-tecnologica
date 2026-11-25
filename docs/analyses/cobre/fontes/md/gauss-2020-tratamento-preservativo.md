@@ -1,3 +1,8 @@
+---
+tipo_documental: fonte-primaria-privada
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 === p1 ===
 UNIVERSIDADE DE SÃO PAULO
     FACULDADE DE ZOOTECNIA E ENGENHARIA DE ALIMENTOS

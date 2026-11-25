@@ -1,3 +1,8 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 # Auditoria Teco R6 — COBRE-RESIDUO-AUDITORIA-20261124-R6
 
 **Executor:** HERMES_OPENCODE (opencode) · **Auditor:** CODEX_LUNA_MEDIUM (openai, `gpt-6-luna`, `high`)

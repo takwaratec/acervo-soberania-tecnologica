@@ -1,3 +1,8 @@
+---
+tipo_documental: sintese-critica
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 # RELEITURA MTCC/R38 DO RELEASE 1 — RESULTADO MEDIDO
 
 DATA=2026-11-24

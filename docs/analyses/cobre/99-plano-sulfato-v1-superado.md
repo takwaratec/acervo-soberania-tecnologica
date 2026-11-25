@@ -10,8 +10,8 @@ data_revisao: 2026-11-24
 responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 complementa: 01-plano-de-pesquisa.md (plano do ELEMENTO, sete rodadas E1-E7)
+tipo_documental: instrumento-de-pesquisa
 ---
-
 # Plano específico — sulfato de cobre
 
 > **Por que este documento existe.** O plano do elemento (E1–E7) cataloga o cobre.

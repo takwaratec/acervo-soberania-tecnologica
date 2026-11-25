@@ -12,8 +12,8 @@ assistencia_documental: agente de IA, sujeito a revisao humana
 publico: "leigo em quimica e em linguagem academica"
 fichas_base: 6 fichas em _privado/fichas/ago_28_Sulfato_S11/
 resultados_base: 04, 05, 06, 07 em docs/analyses/cobre/
+tipo_documental: ensaio-tecnico
 ---
-
 # O cobre no tratamento do bambu
 
 ## O que ele é, o que faz, e para onde vai a água que sobra

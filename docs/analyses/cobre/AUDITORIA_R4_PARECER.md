@@ -1,3 +1,8 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 # Auditoria de segunda ordem — COBRE-PLANO-AUDITORIA-20261124-R4
 
 **Auditor:** HERMES_OPENCODE (família opencode)

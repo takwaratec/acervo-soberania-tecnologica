@@ -1,3 +1,8 @@
+---
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+tipo_documental: instrumento-de-pesquisa
+---
 <!-- PAGE: 1 -->
 Ci. Fl., Santa Maria, v. 35, e86024, p. 1-16, 2025  •  
  https://doi.org/10.5902/1980509886024

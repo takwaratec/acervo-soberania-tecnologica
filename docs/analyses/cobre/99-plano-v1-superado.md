@@ -11,8 +11,8 @@ responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 artefato_anterior: 00-mapa-reprocessamento.md
 destinacao: "objeto de auditoria interna (Teco/Luna) antes da execucao de P1-P6"
+tipo_documental: instrumento-de-pesquisa
 ---
-
 # Plano de pesquisa e varredura — frente COBRE
 
 > **Síntese.** Este documento existe para ser **atacado**. Ele declara o que a

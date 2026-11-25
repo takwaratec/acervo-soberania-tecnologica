@@ -1,3 +1,8 @@
+---
+tipo_documental: instrumento-de-pesquisa
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 # Leitura integral — 1989_pi292_preservativos_registro.md
 
 Custódia: `_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c/`  

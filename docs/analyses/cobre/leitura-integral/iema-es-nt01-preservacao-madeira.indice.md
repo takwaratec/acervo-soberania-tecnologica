@@ -1,3 +1,8 @@
+---
+tipo_documental: instrumento-de-pesquisa
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 # Índice de parágrafos — 2023_iema_es_nt01_preservacao_madeira.md
 
 Extração: `_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c/2023_iema_es_nt01_preservacao_madeira.md`  

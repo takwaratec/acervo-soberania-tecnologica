@@ -25,6 +25,9 @@ extracao:
 estrutura:
   tabelas_preservadas: True
   figuras_preservadas: false
+tipo_documental: fonte-primaria-privada
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
 ---
 <!-- CANONICAL_CONTENT_BEGIN -->
 

@@ -12,8 +12,8 @@ responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 complementa: 01-plano-de-pesquisa.md (plano do ELEMENTO, sete rodadas E1-E7)
 auditoria_anterior: "R4 = REPLANEJAR (4 furos + 1 omissao) e R5 = REPLANEJAR (4 furos + 3 omissoes); ambos acatados. v2 nao preservada em arquivo: os furos que ela tinha estao listados na §6."
+tipo_documental: instrumento-de-pesquisa
 ---
-
 # Plano específico — sulfato de cobre (v2, pós-auditoria)
 
 > **Pergunta de pesquisa.** O que é o sulfato de cobre, de onde vem, como age sobre o

@@ -1,3 +1,8 @@
+---
+tipo_documental: instrumento-de-pesquisa
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
 # Índice de parágrafos — 1992_in05_ibama_destinacao_final_residuos.md
 
 Extração: `_privado/fontes-documentais/ago_28_Madeira_Tratada_S11d/1992_in05_ibama_destinacao_final_residuos.md`  
