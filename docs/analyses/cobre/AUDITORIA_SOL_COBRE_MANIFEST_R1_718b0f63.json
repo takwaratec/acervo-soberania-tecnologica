@@ -3,12 +3,12 @@
  "versao": "1.0.0",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "status": "ABERTO",
- "gerado_utc": "2026-11-25T02:28:21+00:00",
+ "gerado_utc": "2026-11-25T02:30:58+00:00",
  "tipo": "CONTEUDO",
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "8b94345527868a26a6c0bc715ef71712f4e8a93f",
+ "alvo_commit": "718b0f63c640c4296c9acb4a4d70d62fad5ccef1",
  "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 11 fichas, fontes). Todos os sha256 de fontes[] foram lidos do próprio commit, com `git show <alvo>:<path>`.",
  "aviso_de_leitura": {
   "repositorio": "takwaratec/acervo-soberania-tecnologica",
@@ -107,20 +107,20 @@
  "fontes": [
   {
    "path": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
-   "sha256": "cc3b6a1a32bc157c0534d1aa2d25bb38bf1eb40112bbce60586b4ff4aed8b59f",
-   "bytes": 97730,
+   "sha256": "a73338fa20da408553cb022407c5c7a87a9471291b9c7ef85dd956bc81885883",
+   "bytes": 98289,
    "papel": "manuscrito único, com as 14 referências"
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
    "papel": "peça corrida — texto integral, bibliografia comentada e as 6 fichas anexadas",
-   "sha256": "77c8d6957a7c542a2f8dead1fb3cf0bb8a031f2c81bdafa258ed9f9cd17063de",
-   "bytes": 214764
+   "sha256": "d567e0fa6cee1a9082519b2f01c7e2dccf83ac99f55e2612e9805cf5dd0479bb",
+   "bytes": 215396
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu.html",
-   "sha256": "9f8bce4e91a42f34d41ef1ca9749430ec8c157b4ff18fbda9e52d7c6f7dcbaa4",
-   "bytes": 220981,
+   "sha256": "fe695903e51cebc21adaf63713545692678e937feba7df9c43902fae9d2ab884",
+   "bytes": 221629,
    "papel": "peça de leitura, 18 abas"
   },
   {
