@@ -1502,10 +1502,10 @@ homologação também.
 
 **O que foi efetivamente conferido — número, e não promessa.** A verificação numérica foi
 medida por gate próprio, afirmação por afirmação, com registro auditável arquivado ao lado
-do texto. O resultado: **65 das 292 afirmações numéricas do corpo foram conferidas** pelo
+do texto. O resultado: **65 das 283 afirmações numéricas do corpo foram conferidas** pelo
 instrumento contra a fonte custodiada. Outras **18 têm estatuto declarado** e não precisam de
 citação célula por célula: 10 em nota de tabela, 6 de cálculo aritmético e 2 de resumo de
-fonte já nomeada. **209 não foram medidas** — 126 porque a afirmação não traz citação nem
+fonte já nomeada. **200 não foram medidas** — 126 porque a afirmação não traz citação nem
 estatuto, 37 porque a unidade está fora do vocabulário do instrumento (ele não lê `mg/L`,
 `mg/m³` nem `mg B/kg/dia`), 25 porque a obra citada não tem arquivo custodiado nesta gaveta e
 12 porque a fonte custodiada é página de bloqueio.

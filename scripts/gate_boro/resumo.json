@@ -1,7 +1,7 @@
 {
- "M": 292,
+ "M": 283,
  "contagem": {
-  "NAO_MEDIDO": 209,
+  "NAO_MEDIDO": 200,
   "DERIVACAO_DECLARADA": 6,
   "CONFERE": 65,
   "TABELA_COM_NOTA": 10,
@@ -9,14 +9,14 @@
  },
  "paragrafos": 213,
  "paragrafos_por_veredito": {
-  "NAO_CONFERIDO": 48,
+  "NAO_CONFERIDO": 42,
   "ESTATUTO_DECLARADO": 6,
   "CONFERIDO": 15,
   "PARCIAL": 6,
-  "SEM_AFIRMACAO_NUMERICA": 138
+  "SEM_AFIRMACAO_NUMERICA": 144
  },
  "N_conferidas": 65,
- "sem_citacao": 144,
+ "sem_citacao": 140,
  "fontes_lidas": [
   1,
   2,
@@ -27,7 +27,6 @@
   8,
   9,
   10,
-  11,
   13,
   17,
   19,

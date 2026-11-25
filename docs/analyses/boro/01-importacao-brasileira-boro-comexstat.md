@@ -294,6 +294,55 @@ A conversão serve para ordem de grandeza, com esta ressalva anexada.
 
 ---
 
+## 7-bis. Nota de correção — 2026-11-25: nove NCMs eram nove, não dez
+
+A primeira extração somou **nove** NCMs e deixou de fora três códigos que também são de boro:
+`2804.50.00` (boro elementar), `2849.90.10` (carbonetos de boro) e `2850.00.10` (nitreto de
+boro). O total derivado ficou em **US$ 204.652.434** e **459.555.615 kg** — e foi esse número
+que circulou pela gaveta. **O total correto da série 2024 é US$ 209.462.631 e 459.722.221 kg.**
+
+Os **dois** lados estavam sendo lidos como se fossem o mesmo: o artigo somava dez e a gaveta
+derivada somava nove. A diferença não é arredondamento — é a exclusão de três NCMs que somam
+**US$ 4.810.197** e **166.606 kg**.
+
+**Os dez códigos, nominalmente:**
+
+| NCM | Descrição | FOB (US$) | Massa (kg) |
+|---|---|---:|---:|
+| 2528.00.00 | Boratos naturais e seus concentrados | 90.898.160 | 327.964.054 |
+| 2804.50.00 | Boro; telúrio | 621.449 | 6.816 |
+| 2810.00.10 | Ácido ortobórico | 70.593.020 | 82.487.678 |
+| 2810.00.90 | Óxidos de boro e outros ácidos bóricos | 445.569 | 128.873 |
+| 2840.11.00 | Tetraborato dissódico (bórax) anidro | 692.406 | 506.537 |
+| 2840.19.00 | Outros tetraboratos dissódicos (bórax refinado) | 26.116.278 | 37.066.244 |
+| 2840.20.00 | Outros boratos | 15.575.302 | 11.232.613 |
+| 2840.30.00 | Peroxoboratos (perboratos) | 331.699 | 169.616 |
+| 2849.90.10 | Carbonetos de boro | 2.251.251 | 140.737 |
+| 2850.00.10 | Nitreto de boro | 1.937.497 | 19.053 |
+| **Total** | **dez códigos** | **209.462.631** | **459.722.221** |
+
+Dois códigos que a lista de doze menciona — `2528.10.00` e `2528.90.00` — **não têm linha no
+bruto de 2024**: foram desmembrados de `2528.00.00` na NCM e não aparecem como declaração
+própria. Por isso o ano fecha com dez, e não com doze.
+
+**Data de extração:** 2026-11-24, da API oficial `api-comexstat.mdic.gov.br`, fluxo `import`,
+moeda USD FOB, peso líquido declarado em kg. Resposta bruta gravada em
+`raw/ncm_2024.json` (sha256 no `MANIFEST_ComexStat.json`).
+
+**O comando que reproduz a soma**, a partir do bruto custodiado:
+
+```bash
+python3 scripts/gate_boro/reproduzir_comexstat.py --ano 2024
+# → FOB = US$ 209,462,631   massa = 459,722,221 kg   (10 códigos presentes)
+
+python3 scripts/gate_boro/reproduzir_comexstat.py --ano 2024 \
+  --sem 28499010 28500010 28045000
+# → FOB = US$ 204,652,434   massa = 459,555,615 kg   (o número antigo, com 7 códigos)
+```
+
+Quem lê pode refazer a soma sem confiar neste texto. É para isso que a tabela e o comando
+estão aqui, e não numa nota de rodapé.
+
 ## 8. Como reproduzir
 
 ```bash

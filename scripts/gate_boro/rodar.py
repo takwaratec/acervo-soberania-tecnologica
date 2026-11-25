@@ -298,6 +298,9 @@ def _excluido(linha, pos, valor):
     # data por extenso ("1º de fevereiro")
     if re.match(r"(?i)\s*[ºo]?\s*de\s+(janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)", depois):
         return True
+    # ordinal de lista em negrito ("**4. A queima") — mesma classe do ordinal simples
+    if re.match(r"\s*\*\*\s*$", antes) and re.match(r"^\s*\.\s", depois):
+        return True
     # ordinal de lista ("1. ", "2. ") — mesma classe de numero de secao
     if re.match(r"^\s*\d{1,2}\.\s", linha) and re.match(r"^\s*\d{1,2}$", valor):
         return True
@@ -373,7 +376,14 @@ def paginas_do_valor(mod, fonte_txt, valor, contexto=""):
         # ano de obra citada, nao medida. Medido: p.13 de Kaminski e p.14 de Araujo.
         cits = len(re.findall(r"\((?:19|20)\d{2}[a-z]?\)", txt))
         penal = 5 if cits >= 8 else 0
-        achadas.append((len(co & presentes) - penal, p))
+        # coordenada geografica nao e medida: em "53°23'40\" W" o 40 e grau/minuto/segundo.
+        # Medido: Rusch 2023 p.2 tem 40 na latitude e o indice 40 na Tabela 2 da p.5.
+        for mcoord in re.finditer(r"\d+\s*°\s*\d+\s*['\u2032]\s*[\d.,]+", txt):
+            if alvo in {normaliza(v) for v in re.findall(r"[\d.,]+", mcoord.group(0))}:
+                penal = max(penal, 99)
+        # companheiro COM unidade vale mais que numero solto: "1%" e "3%" ancoram a tabela.
+        bonus = sum(1 for v in co if re.search(re.escape(v) + r"\s*%", txt))
+        achadas.append((len(co & presentes) - penal + 2 * bonus, p))
     achadas.sort(key=lambda x: (-x[0], x[1]))
     return [p for _, p in achadas]
 

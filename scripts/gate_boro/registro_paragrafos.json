@@ -469,45 +469,18 @@
  },
  "**1. A dose não é regulada.** A receita registrada no estudo": {
   "secao": "14. O uso doméstico: onde este artigo vira advertência",
-  "total": 9,
+  "total": 8,
   "confere": 5,
-  "nao_medido": 4,
+  "nao_medido": 3,
   "ausente": 0,
   "com_estatuto": 0,
   "veredito": "PARCIAL"
- },
- "**2. A exposição não é medida.** Nenhuma fonte localizada me": {
-  "secao": "14. O uso doméstico: onde este artigo vira advertência",
-  "total": 1,
-  "confere": 0,
-  "nao_medido": 1,
-  "ausente": 0,
-  "com_estatuto": 0,
-  "veredito": "NAO_CONFERIDO"
  },
  "O que existe são **limites ocupacionais para as formas quími": {
   "secao": "14. O uso doméstico: onde este artigo vira advertência",
   "total": 5,
   "confere": 0,
   "nao_medido": 5,
-  "ausente": 0,
-  "com_estatuto": 0,
-  "veredito": "NAO_CONFERIDO"
- },
- "**3. O resíduo não tem destino.** O efluente do banho, as ap": {
-  "secao": "14. O uso doméstico: onde este artigo vira advertência",
-  "total": 1,
-  "confere": 0,
-  "nao_medido": 1,
-  "ausente": 0,
-  "com_estatuto": 0,
-  "veredito": "NAO_CONFERIDO"
- },
- "**4. A queima é a saída provável — e é justamente a que as f": {
-  "secao": "14. O uso doméstico: onde este artigo vira advertência",
-  "total": 1,
-  "confere": 0,
-  "nao_medido": 1,
   "ausente": 0,
   "com_estatuto": 0,
   "veredito": "NAO_CONFERIDO"
@@ -532,41 +505,14 @@
  },
  "**1. \"Isso é boro ou é produto?\"** Se o número é em gramas o": {
   "secao": "15. Como ler qualquer texto sobre boro",
-  "total": 4,
+  "total": 3,
   "confere": 0,
-  "nao_medido": 4,
-  "ausente": 0,
-  "com_estatuto": 0,
-  "veredito": "NAO_CONFERIDO"
- },
- "**2. \"Isso é dose ou é concentração?\"** mg/kg/dia é dose por": {
-  "secao": "15. Como ler qualquer texto sobre boro",
-  "total": 1,
-  "confere": 0,
-  "nao_medido": 1,
-  "ausente": 0,
-  "com_estatuto": 0,
-  "veredito": "NAO_CONFERIDO"
- },
- "**3. \"Qual é a via?\"** Inalação, ingestão e pele absorvem de": {
-  "secao": "15. Como ler qualquer texto sobre boro",
-  "total": 1,
-  "confere": 0,
-  "nao_medido": 1,
+  "nao_medido": 3,
   "ausente": 0,
   "com_estatuto": 0,
   "veredito": "NAO_CONFERIDO"
  },
  "**4. \"É medida ou calculada?\"** Os 93% do ciclo de vida são ": {
-  "secao": "15. Como ler qualquer texto sobre boro",
-  "total": 2,
-  "confere": 0,
-  "nao_medido": 2,
-  "ausente": 0,
-  "com_estatuto": 0,
-  "veredito": "NAO_CONFERIDO"
- },
- "**5. \"Reprodutivo ou cancerígeno?\"** O boro é **Repr. 1B**, ": {
   "secao": "15. Como ler qualquer texto sobre boro",
   "total": 1,
   "confere": 0,
@@ -1354,7 +1300,55 @@
   "ausente": 0,
   "veredito": "SEM_AFIRMACAO_NUMERICA"
  },
+ "**2. A exposição não é medida.** Nenhuma fonte localizada me": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**3. O resíduo não tem destino.** O efluente do banho, as ap": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**4. A queima é a saída provável — e é justamente a que as f": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
  "Se você chegou até aqui, já pode checar sozinho. Cinco pergu": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**2. \"Isso é dose ou é concentração?\"** mg/kg/dia é dose por": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**3. \"Qual é a via?\"** Inalação, ingestão e pele absorvem de": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**5. \"Reprodutivo ou cancerígeno?\"** O boro é **Repr. 1B**, ": {
   "secao": "?",
   "total": 0,
   "confere": 0,
