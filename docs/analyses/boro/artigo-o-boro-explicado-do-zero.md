@@ -949,7 +949,7 @@ Isso não é detalhe de mineralogia. É o mecanismo pelo qual **os passivos de u
 
 A Turquia tem a maior reserva de bórax do mundo. E o que se mede lá, quando se mede:
 
-- O **efluente da mina de Kırka** é um problema de **arsênio**, não de boro: 49 µg/L na entrada, 21,8 µg/L depois de um leito construído, com o objetivo declarado de proteger a água de consumo [24].
+- O **efluente da mina de Kırka** é um problema de **arsênio**, não de boro: 49 µg/L na entrada, 21,8 µg/L depois de um leito construído, com o objetivo declarado de proteger a água de consumo [31]. **O boro não é medido no estudo** — nem na entrada, nem na saída.
 - Em **Emet**, o depósito de colemanita é justamente o que explica a **concentração de arsênio no solo e no lençol** — a causalidade corre do boro para o arsênio.
 - Em **regiões de mineração de boro na Turquia**, o que se remove da água é **arsênio e boro juntos**.
 - No **riacho de Emet**, o que se mede é **arsênio e boro no mesmo sedimento e no tecido dos peixes** — ninguém mede um só.
@@ -1402,6 +1402,12 @@ lixiviação; ver ficha `atsdr-2026-boro-perfil-toxicologico.md`.*
 
 **[30]** EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA — Embrapa Pecuária Sul. *Tratamento da madeira na propriedade rural: procedimentos para a sua aplicação, licenciamento e gestão financeira*. Comunicado Técnico 110. Bagé, RS: Embrapa, 2024. ISSN 1982-5382. — Instrução oficial brasileira de tratamento de moirão na pequena propriedade pelo método de substituição de seiva com CCB: EPI por peça, tonel de 200 L, proporção do preservativo e **proibição explícita de descarte no ambiente, repetida em dois pontos do documento**; reuso da solução excedente em recipiente plástico; alerta de que dicromato e ácido bórico estão sob controle da Polícia Federal (Portaria 240/2019). — *Limite: trata de madeira (moirões), não de bambu, e não diz o que fazer quando o reuso termina. É a norma brasileira que existe para metais e não existe para o boro — citada aqui exatamente para marcar essa ausência.*
 
+**[31]** TÜRKER, Onur Can. Bioremediation of arsenic (As) from mine effluent by a horizontal
+flow constructed wetland: a case study in largest borax reserve area in over the world,
+Kırka/Eskişehir. *Anadolu University Journal of Science and Technology A — Applied Sciences
+and Engineering*, v. 17, n. 5, p. 963-973, 2016. DOI 10.18038/aubtda.279863. — *Arsênio de
+49 para 21,8 µg/L em 84 dias, com saída abaixo de 10 µg/L; **o boro não é medido**.*
+
 
 ## Como este texto foi feito
 
@@ -1409,8 +1415,9 @@ Este artigo é uma peça de revisão. **Não está homologado.** O estado docume
 `em-revisao-documental` e a homologação automática está desativada — homologar é ato
 humano.
 
-O texto passou por **auditoria independente em três rodadas** (R6, R7 e uma terceira sobre
-o material já corrigido), com **21 achados registrados e corrigidos**. O padrão dos erros
+**Rodadas de auditoria.** O texto passou por **cinco rodadas com parecer escrito (R6 a R10)**
+e por **duas rodadas anteriores de conferência de acervo (R2 e R4)**. Os pareceres estão no
+ledger R4, em `retornos/` e `ops/command-center/task-results/`. O padrão dos erros
 encontrados foi sempre o mesmo: **generalização** — resumir uma tabela por uma frase,
 atribuir a um país o que vale para o mundo, tratar dois tratamentos como um, ou
 transformar impressão do curador em achado do autor.
@@ -1422,10 +1429,34 @@ indicador; e a descrição de "superior a 80%" de inibição fúngica quando ape
 duas espécies passa de 80%.
 
 **Aviso sobre uso de inteligência artificial.** A redação, a organização e a verificação
-cruzada deste artigo foram feitas com assistência de um agente de IA, sob curadoria
-humana e supervisão declarada no frontmatter. **Toda afirmação numérica foi conferida
-contra a fonte primária custodiada** — mas a responsabilidade pela peça é humana, e a
+cruzada deste artigo foram feitas com assistência de um agente de IA, sob curadoria humana
+e supervisão declarada no frontmatter. A responsabilidade pela peça é humana, e a
 homologação também.
+
+**O que foi efetivamente conferido — número, e não promessa.** A verificação numérica foi
+medida por gate próprio, afirmação por afirmação, com registro auditável arquivado ao lado
+do texto. O resultado: **58 das 327 afirmações numéricas do corpo foram conferidas** pelo
+instrumento contra a fonte custodiada. **269 não foram** — 190 porque a afirmação não traz
+citação `[n]`, 44 porque a unidade está fora do vocabulário do instrumento (ele não lê
+`mg/L`, `mg/m³` nem `mg B/kg/dia`), 25 porque a obra citada não tem arquivo custodiado nesta
+gaveta, 6 porque são derivação aritmética, 2 porque a fonte custodiada é página de bloqueio
+e 1 porque o valor não foi localizado.
+
+Por parágrafo: dos **207 parágrafos** do corpo, **14** têm todas as afirmações numéricas
+conferidas, **6** têm conferência parcial, **60** não tiveram nenhuma conferida e **127** não
+afirmam número. **Nenhum parágrafo ficou sem veredito.**
+
+**E `conferido` tem um sentido estreito, que é preciso declarar:** significa que o número
+existe na página declarada, com a unidade compatível. **Não** significa que a afirmação seja
+fiel ao que a fonte diz — o instrumento não compara sujeito. Onde a página não fechava, a
+leitura foi feita à mão e registrada como julgamento, não como medição. Foi assim que se
+achou o único erro de fonte deste texto: o `21,8 µg/L` do efluente de Kırka estava citado
+como [24], que é artigo de bambu; o dado é de Türker (2016), agora [31].
+
+Das oito fontes custodiadas para o cenário internacional, **duas foram lidas integralmente**
+(a portaria de inspeção do ministério do meio ambiente chinês e o resumo de Gao et al. sobre
+isótopos de boro em Da Qaidam); as outras **seis foram lidas por resumo e por busca de
+termo**, não página por página.
 
 **Onde os arquivos estão.** As fichas técnicas de cada obra da bibliografia, com avaliação
 crítica e limites, estão em `docs/analyses/boro/fichas/`. As fontes primárias custodiadas,

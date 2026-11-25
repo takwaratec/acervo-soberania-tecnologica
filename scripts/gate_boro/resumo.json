@@ -1,0 +1,37 @@
+{
+ "M": 327,
+ "contagem": {
+  "NAO_MEDIDO": 269,
+  "CONFERE": 58
+ },
+ "paragrafos": 207,
+ "paragrafos_por_veredito": {
+  "NAO_CONFERIDO": 60,
+  "CONFERIDO": 14,
+  "PARCIAL": 6,
+  "SEM_AFIRMACAO_NUMERICA": 127
+ },
+ "N_conferidas": 58,
+ "sem_citacao": 190,
+ "fontes_lidas": [
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  8,
+  9,
+  11,
+  13,
+  17,
+  19,
+  23,
+  24,
+  25,
+  26,
+  28,
+  29,
+  31
+ ]
+}

@@ -221,6 +221,7 @@ O que falta não é proibição. É uma frase em algum lugar que diga onde vai o
 ---
 
 *Texto redigido com assistência de agente de inteligência artificial, sob curadoria e
-responsabilidade editorial humana. Os números foram conferidos nas fontes citadas ao
-fim de cada seção. Este artigo é material de divulgação e não substitui laudo técnico
+responsabilidade editorial humana. As fontes estão citadas ao fim de cada seção; a
+conferência numérica afirmação por afirmação está em medição por gate próprio, com
+registro por afirmação, e este texto não declara cobertura antes de o registro existir. Este artigo é material de divulgação e não substitui laudo técnico
 nem análise laboratorial.*
