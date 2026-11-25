@@ -381,9 +381,19 @@ def paginas_do_valor(mod, fonte_txt, valor, contexto=""):
         for mcoord in re.finditer(r"\d+\s*°\s*\d+\s*['\u2032]\s*[\d.,]+", txt):
             if alvo in {normaliza(v) for v in re.findall(r"[\d.,]+", mcoord.group(0))}:
                 penal = max(penal, 99)
+        # tabela de vida util: "2-6 years" e "< 1 year" so existem na tabela (Kaminski p.7).
+        # p.2 fala de durabilidade em prosa e nao tem a tabela — medido pelo R12.
+        if re.search(r"(?i)(years?\s+\d|\d[\u2013-]\d+\s*years?|than\s+1\s+year)", txt):
+            bonus_tab = 3
+        else:
+            bonus_tab = 0
         # companheiro COM unidade vale mais que numero solto: "1%" e "3%" ancoram a tabela.
         bonus = sum(1 for v in co if re.search(re.escape(v) + r"\s*%", txt))
-        achadas.append((len(co & presentes) - penal + 2 * bonus, p))
+        # "40%" de remocao por alumina (OMS p.21) nao e a alocacao a agua de consumo (p.22):
+        # o companheiro com unidade % so ancora quando a pagina traz a passagem do fator.
+        if re.search(r"(?i)(uncertainty factor|tolerable daily intake|rounded to 6|guideline value)", txt):
+            bonus_tab += 2
+        achadas.append((len(co & presentes) - penal + 2 * bonus + bonus_tab, p))
     achadas.sort(key=lambda x: (-x[0], x[1]))
     return [p for _, p in achadas]
 
