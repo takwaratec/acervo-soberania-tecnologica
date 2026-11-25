@@ -1,7 +1,7 @@
 {
  "schema": "ACERVO_REGISTRO_CONFERENCIA_CITACOES_R1",
  "artefato": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
- "sha256_artefato": "1283e703774ac3935f8c9cc4a879dea3b41112be21651ad763bb3b01e7f265bf",
+ "sha256_artefato": "34688598968d86dc5486b7c347a437387f7132912cc67fa392e4ab9f3e1ab94b",
  "data": "2026-11-24",
  "regra_do_denominador": "unidade = cada linha iniciada por '>' no artefato, com 40 caracteres ou mais; denominador contado ANTES da medição e não recontado depois",
  "instrumento": "scripts/registro_conferencia_citacoes.py",
@@ -279,7 +279,7 @@
    "chars": 73,
    "veredito": "VERBATIM",
    "motivo": "",
-   "arquivo_fonte": "_privado/fontes-documentais/ago_28_Sulfato_S11/md/ufmg-mom-tratamento-borax.md",
+   "arquivo_fonte": "docs/analyses/cobre/fontes/md/ufmg-mom-tratamento-borax.md",
    "pagina": 1
   },
   {
@@ -369,7 +369,7 @@
    "chars": 51,
    "veredito": "VERBATIM",
    "motivo": "",
-   "arquivo_fonte": "_privado/fontes-documentais/ago_28_Madeira_Tratada_S11d/1992_in05_ibama_destinacao_final_residuos.md",
+   "arquivo_fonte": "docs/analyses/cobre/fontes/s11d/1992_in05_ibama_destinacao_final_residuos.md",
    "pagina": 5
   },
   {
@@ -378,7 +378,7 @@
    "chars": 84,
    "veredito": "VERBATIM",
    "motivo": "",
-   "arquivo_fonte": "_privado/fontes-documentais/ago_28_Madeira_Tratada_S11d/1992_in05_ibama_destinacao_final_residuos.md",
+   "arquivo_fonte": "docs/analyses/cobre/fontes/s11d/1992_in05_ibama_destinacao_final_residuos.md",
    "pagina": 6
   },
   {
@@ -387,7 +387,7 @@
    "chars": 74,
    "veredito": "VERBATIM",
    "motivo": "",
-   "arquivo_fonte": "_privado/fontes-documentais/ago_28_Madeira_Tratada_S11d/1992_in05_ibama_destinacao_final_residuos.md",
+   "arquivo_fonte": "docs/analyses/cobre/fontes/s11d/1992_in05_ibama_destinacao_final_residuos.md",
    "pagina": 1
   },
   {
@@ -414,7 +414,7 @@
    "chars": 145,
    "veredito": "VERBATIM",
    "motivo": "",
-   "arquivo_fonte": "_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.md",
+   "arquivo_fonte": "docs/analyses/cobre/fontes/s11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.md",
    "pagina": 12
   },
   {
