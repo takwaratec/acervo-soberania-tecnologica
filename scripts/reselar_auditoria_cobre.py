@@ -94,7 +94,13 @@ def manifesto_anterior():
 
 
 def main():
-    alvo = sys.argv[1]
+    # O ponteiro vive em ops/command-center/auditoria-atual/, que é fora da gaveta do cobre.
+    # A regra A7 proíbe arquivo fora da gaveta na PR da frente: o ponteiro é atualizado em PR
+    # de governança própria. --sem-ponteiro reseleia o manifesto e a resposta de hashes (ambos
+    # em docs/analyses/cobre) e deixa o ponteiro para aquela PR.
+    sem_ponteiro = "--sem-ponteiro" in sys.argv
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    alvo = args[0]
     assert len(alvo) == 40, "alvo precisa ser sha de 40 hex"
     git("cat-file", "-e", f"{alvo}^{{commit}}")
 
@@ -215,6 +221,12 @@ def main():
     print(f"HASHES_RESPONSE {hr_path}\n  commit {hr_commit[:12]}  sha256 {hr_sha[:16]}…")
 
     # 6) ponteiro
+    if sem_ponteiro:
+        print("PONTEIRO: nao escrito (--sem-ponteiro). O ponteiro mora em ops/ e pertence a "
+              "PR de governanca: a gaveta do cobre nao carrega arquivo fora dela (A7).")
+        print(f"\nMANIFESTO {man_commit} · HASHES_RESPONSE {hr_commit}")
+        print("CASCATA COMPLETA sem ponteiro. Falta: git push e a verificacao dos 23 gates.")
+        return
     pt = {
         "schema": "TAKWARATEC_R4_AUDIT_POINTER_R1",
         "frente": "COBRE",
