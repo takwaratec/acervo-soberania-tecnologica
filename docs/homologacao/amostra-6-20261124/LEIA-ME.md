@@ -1,3 +1,13 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+data_revisao: 2026-11-24
+responsavel_curadoria: Fabio Takwara
+titulo: "Amostra 6 — pacote de homologação por leitura humana"
+autor: Fabio Takwara
+resumo: "Pacote de leitura das sete fichas da gaveta bambu-estrutural em homologação."
+---
+
 # AMOSTRA 6 — pacote de homologação por leitura humana
 
 ```

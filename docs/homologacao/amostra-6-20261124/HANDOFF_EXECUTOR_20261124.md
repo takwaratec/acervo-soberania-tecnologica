@@ -1,3 +1,13 @@
+---
+tipo_documental: documento-institucional
+estado_documental: em-revisao-documental
+data_revisao: 2026-11-24
+responsavel_curadoria: Fabio Takwara
+titulo: "Handoff de continuidade — sete fichas da homologação"
+autor: Fabio Takwara
+resumo: "Handoff ao executor: o que a branch entrega, o que declara e o que não pode repetir."
+---
+
 # HANDOFF DE CONTINUIDADE — sete fichas da homologação — ao executor da gaveta
 
 ```
