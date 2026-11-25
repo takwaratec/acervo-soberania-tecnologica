@@ -92,14 +92,28 @@ porque responde, com artigo e parágrafo, a pergunta "quem fiscaliza".
 > "Art. 2º. As indústrias de preservativos de madeira deverão apresentar relatórios semestrais
 > ao IBAMA, contendo a produção mensal de cada produto." (p. 1)
 
-### 2.3 O produto não existe legalmente antes do registro
+### 2.3 O registro do produto — e a exceção que a própria norma escreve
 
 > "Art. 3º. Os preservativos para madeiras e seus ingredientes ativos só poderão ser
 > fabricados, consumidos ou postos à venda depois de registrados no IBAMA, inclusive os
 > importados." (p. 1)
 
-Aqui está o ponto que interessa à gaveta: **"consumidos"** está na lista. Não é só fabricar e
-vender — é consumir. Um preservativo não registrado não pode nem ser usado.
+O **"consumidos"** aqui é o preservativo consumido no processo — o produto químico gasto na
+usina —, não o consumo doméstico da madeira tratada. Ler "consumidos" como "o uso no quintal está
+regulado" estica o artigo além do que ele diz, e a ficha anterior a esta fazia exatamente isso.
+
+> "Art. 4º. Não estão sujeitos ao registro no IBAMA os preservativos que forem destinados à
+> experimentação e ao uso domissanitário." (p. 1)
+
+**Este é o artigo que mais interessa ao quintal, e ele estava ausente desta ficha.** O que ele faz
+não é proibir: é **excetuar** do registro o preservativo destinado à experimentação e ao uso
+domissanitário. Se o banho caseiro de sulfato de cobre para tratar bambu cai nessa exceção, esta
+ficha **não resolve** — "domissanitário" é termo de outra família regulatória, a dos saneantes de
+uso domiciliar, e decidir se ele abrange tratar material no quintal é interpretação, não leitura.
+
+O que se pode afirmar, na letra: a norma que o senso comum descreve como "a que obriga registro"
+contém, no art. 4º, uma exceção escrita para uso doméstico e experimentação — e nem o artigo nem a
+ficha anterior a mencionavam.
 
 ### 2.4 A competência de fiscalização — nomeada, não inferida
 

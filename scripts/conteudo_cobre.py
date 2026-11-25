@@ -1064,12 +1064,14 @@ do art. 3º, XVI depende de a lei considerar inviável o lançamento, e essa é 
 <strong>não resolve</strong>: exigiria caracterizar o banho e avaliar se existe tratamento viável, e
 nada disso foi medido aqui.</p>
 
-<p>O que o número estabelece é estreito, e é o bastante para o quintal: a CONAMA 430 condiciona o
-lançamento <strong>direto em corpo receptor</strong> a tratamento prévio e a conformidade com os
-padrões dela.{cit("conama430")} O banho como sai do tonel está 2.545 vezes acima do padrão de cobre —
-então, direto no rio e sem tratamento, ele não passa. Isso <strong>não</strong> decide a regra da rede
-pública de esgoto, que segue normas próprias e a diretriz da operadora, nem se existe tratamento
-viável para este banho. Duas coisas que eu não medi.</p>
+<p>O que o número estabelece é estreito, e é o bastante para o quintal: o lançamento
+<strong>direto em corpo receptor</strong> só é admitido em conformidade com as condições e padrões da
+CONAMA 430, e o padrão de cobre dissolvido ali é 1,0 mg/L.{cit("conama430")} O banho como sai do
+tonel está 2.545 vezes acima — logo, direto no rio e como está, ele não passa nesse padrão. Isso
+<strong>não</strong> decide a regra da rede pública de esgoto, que segue normas próprias e a diretriz
+da operadora, nem se existe tratamento viável para este banho. Duas coisas que eu não medi. E não
+atribuo à resolução uma exigência geral de "tratamento prévio": ela exige conformidade, e o modo de
+chegar lá não é dela.</p>
 
 <p><strong>Mas procure &quot;bambu&quot; na PNRS: zero ocorrências. &quot;Madeira&quot;: zero.</strong>
 A lei que rege resíduo no Brasil <strong>não nomeia o material</strong>.</p>
@@ -1159,8 +1161,11 @@ que é seguro está extrapolando igual, e com mais consequência.</p>
 Não arde na pele na hora, não fede, não pega fogo.</p>
 
 <p>Se fosse cromo ou arsênio, ninguém espalharia apara no quintal. Como é &quot;o azulzinho que mata
-fungo&quot;, a apara vai para a composteira, para a cama do animal, para a cobertura da horta, para
-o fogo.</p>
+fungo&quot;, a hipótese — e aqui é hipótese, não medição — é que a apara siga para a composteira, para a
+cama do animal, para a cobertura da horta ou para o fogo. <strong>Eu não medi nenhum desses
+destinos.</strong> O que está documentado é a proibição, escrita pela própria cadeia, de que o resíduo
+tratado vá para cama de animal, contato com alimento ou água potável, e de que seja queimado em fogão
+ou a céu aberto.{cit("abpm2015")}</p>
 
 <p><strong>O que a evidência sustenta, com precisão:</strong></p>
 
@@ -1190,7 +1195,8 @@ estimulá-la;{cit("pnmcb2011")}</li>
 <li><strong>o estímulo não vem acompanhado de disciplina de resíduo</strong>, porque a norma do
 bambu não trata do assunto e a norma de resíduo não nomeia o bambu;{cit("pnmcb2011")}{cit("pnrs2010")}</li>
 <li><strong>o uso é comunitário e cooperativo</strong> — é o que a própria política incentiva — e é
-exatamente o formato em que <strong>controle de efluente não existe</strong>;</li>
+justamente o formato em que <strong>não localizei nenhum controle de efluente</strong> nas fontes
+consultadas;</li>
 <li><strong>e as áreas de maior atrativo estão em território sensível.</strong></li>
 </ol>
 
@@ -1200,15 +1206,17 @@ sem saber o que fazer com a apara. <strong>O boro e o cobre chegam ao territóri
 """)
 
 pagina("p-norma", "09 · A norma e o quintal", "09",
-       "A norma existe — e ela não chega ao quintal",
+       "A norma existe — e não diz o que fazer com a sobra",
        "09 · A NORMA E O QUINTAL · GAVETA COBRE · 2026-11-24", f"""
 <p>Ao longo deste artigo eu disse várias vezes que <strong>ninguém diz o que fazer com a sobra</strong>.
-Isso pode ter soado como "não existe regra". <strong>Existe.</strong> É federal, é de 1989, e é
-mais explícita do que se costuma imaginar. O problema é outro, e é mais difícil de ver: a regra
-existe para o lado de dentro do galpão, não para o lado de fora.</p>
+Isso pode ter soado como "não existe regra". <strong>Existe.</strong> É federal, é de 1989, é mais
+explícita do que se costuma imaginar — e tem, escrita, uma <strong>exceção para uso doméstico</strong>
+que eu mesmo não tinha visto até reler.</p>
 
-<p>Este capítulo é o que separa "falta norma" de "a norma para onde não deveria parar". São
-diagnósticos diferentes, e o segundo é o verdadeiro.</p>
+<p>Este capítulo é o que separa três coisas que costumam vir juntas: <strong>"não existe norma"</strong>,
+<strong>"existe norma e ela excetua o uso doméstico"</strong> e <strong>"existe norma, com exceção, e
+mesmo assim ninguém diz o que fazer com o resíduo"</strong>. A terceira é a que eu consigo sustentar com
+documento — e é a mais desconfortável das três.</p>
 
 {SEP}
 
@@ -1221,7 +1229,12 @@ pode tratar, e quem vigia. Em quatro páginas, três artigos sustentam tudo: {ci
 <ul>
 <li><strong>art. 1º</strong> — a empresa que vive de preservar madeira tem de estar registrada no Ibama;</li>
 <li><strong>art. 3º</strong> — o preservativo <em>não pode ser fabricado, consumido ou posto à venda</em>
-antes do registro. Repare na palavra <strong>consumido</strong>: não é só vender, é usar;</li>
+antes do registro. O "consumido" aqui é o <strong>preservativo gasto no processo</strong>, na usina — não
+o consumo doméstico da madeira tratada;</li>
+<li><strong>art. 4º</strong> — e este artigo, que eu não tinha citado até a auditoria me obrigar a
+relê-la: <em>"Não estão sujeitos ao registro no IBAMA os preservativos que forem destinados à
+experimentação e ao uso domissanitário."</em> <strong>A norma prevê uma exceção escrita para uso
+doméstico.</strong></li>
 <li><strong>art. 20</strong> — e aqui está o que quase ninguém cita:
 <strong>"O IBAMA fiscalizará as atividades relacionadas com a preservação e comércio dos
 preservativos para madeira e de madeira preservada."</strong></li>
@@ -1391,11 +1404,13 @@ necessariamente na literatura.</p>
 controla o produto, a empresa e a usina. <strong>Do que acontece depois que a peça sai do portão ela
 não trata</strong> — e é depois do portão que este artigo inteiro acontece.</p>
 
-<p>O bambu tratado no quintal não escapa por esperteza de quem trata. Escapa porque
-<strong>a norma específica foi escrita para uma empresa que ele nunca vai ser</strong>. As obrigações
-gerais valeriam para ele — mas <strong>não encontrei documento de que tenham sido aplicadas a este
-resíduo</strong>, e não medi o que acontece na prática. Uma coisa é não haver regra; outra, mais grave,
-é haver regra que não chega.</p>
+<p>O que eu posso afirmar, e é menos do que eu vinha afirmando: a norma específica tem como sujeito
+<strong>a empresa registrada e a usina licenciada</strong>, e prevê, no art. 4º, uma exceção para uso
+domissanitário. <strong>Se o tratamento no quintal cai nessa exceção, ou se continua alcançado por
+ela, é questão que este artigo não decide</strong> — exigiria interpretar "domissanitário" contra a
+regulação de saneantes, e isso não foi feito aqui. O que fica documentado é mais estreito e mais
+seguro: <strong>nenhuma das fontes que custodiei diz o que fazer com o que sobra do banho</strong>, e
+não encontrei documento de que as obrigações gerais tenham sido aplicadas a este resíduo.</p>
 """)
 
 pagina("p-9", "10 · Como ler · Resumo", "10", "Como ler qualquer texto sobre cobre — e o resumo do artigo",
