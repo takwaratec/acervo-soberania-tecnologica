@@ -402,8 +402,9 @@ mais pesou no modelo"**, não "93% de chance de câncer".
 **Por que, então, o termo importa?** Não porque meça massa — **ele não mede massa**, e o
 glossário deste artigo diz isso. Ele importa por outra razão: é o único indicador desta
 seção que **aponta para o resíduo como origem do dano potencial**. Os autores atribuem o
-resultado ao ácido bórico e ao bórax presentes **nas aparas, nos cortes, nos colmos
-descartados e no efluente** [19].
+resultado ao ácido bórico e ao bórax presentes **nas aparas, nos cortes e nos colmos
+descartados** [19] — o efluente é tratado por eles como fluxo separado, e não entra
+naquela atribuição.
 
 **A leitura honesta, então, é esta:**
 
@@ -545,8 +546,8 @@ selecionaram, não 93% de probabilidade de câncer.
 avaliadas, a liberação de substâncias com modelagem de toxicidade carcinogênica foi a
 que mais contribuiu em milipontos. E afirma, com ainda mais precisão, **de onde vem
 essa contribuição**: os autores atribuem o resultado ao **uso de ácido bórico e bórax**
-no tratamento, e à presença desses compostos **nas aparas, nos cortes, nos colmos
-descartados e no efluente** [19]. **E as aparas, os cortes e os colmos descartados responderam por 91% do impacto total
+no tratamento, e à presença desses compostos **nas aparas, nos cortes e nos colmos
+descartados** [19]; o efluente é fluxo separado no inventário. **E as aparas, os cortes e os colmos descartados responderam por 91% do impacto total
 da cadeia** — soma de todas as categorias, não 91% do HCT.
 
 
@@ -1209,7 +1210,7 @@ Branco, Acre**; SimaPro 9.1, Ecoinvent 3, **ReCiPe 2016 Midpoint (h)**, ISO 1404
 sete categorias selecionadas, resultados **normalizados em milipontos**. **HCT = 93% do
 impacto potencial normalizado** (entre as sete categorias); **aparas + cortes + colmos
 descartados = 91% do impacto TOTAL da cadeia** (soma de todas as categorias, não 91% do
-HCT); contribuição atribuída ao ácido bórico e ao bórax nesses resíduos e no efluente. Banho de 100 L de água + 5 kg de bórax + 5 kg de ácido bórico; por kg de
+HCT); contribuição atribuída ao ácido bórico e ao bórax nas aparas, nos cortes e nos colmos descartados — o efluente é fluxo separado no inventário. Banho de 100 L de água + 5 kg de bórax + 5 kg de ácido bórico; por kg de
 colmo: 0,20 kg de resíduo, 0,13 kg de colmo descartado, 0,07 L de efluente; 25% de
 perda. **Limites declarados pelos autores:** sazonalidade, variabilidade de mão de obra
 e de insumos, escassez de dados de inventário no Brasil. **Limite desta curadoria:** é
