@@ -3,12 +3,12 @@
  "versao": "1.0.0",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "status": "ABERTO",
- "gerado_utc": "2026-11-25T01:02:17+00:00",
+ "gerado_utc": "2026-11-25T02:21:57+00:00",
  "tipo": "CONTEUDO",
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "28721090e3181733c22e679fe0942b7ac85349ec",
+ "alvo_commit": "2b9e2f41b5c5e97bfd385613bd41c63e3b6ada4e",
  "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 11 fichas, fontes). Todos os sha256 de fontes[] foram lidos do próprio commit, com `git show <alvo>:<path>`.",
  "aviso_de_leitura": {
   "repositorio": "takwaratec/acervo-soberania-tecnologica",
@@ -107,25 +107,25 @@
  "fontes": [
   {
    "path": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
-   "sha256": "722bd3226d7585d6e5d77e1f34ae2dae4b8c483824c4a9411b8c19f2548b1ce6",
-   "bytes": 96469,
+   "sha256": "1153d6869ab005d930239d3897cdabff507b519b420e86fe5726914ff8e3c7ed",
+   "bytes": 97679,
    "papel": "manuscrito único, com as 14 referências"
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
    "papel": "peça corrida — texto integral, bibliografia comentada e as 6 fichas anexadas",
-   "sha256": "37281d55c43b97e3c816f35266fb4f1e907e265cf66917e166f94b0ed5d1300c",
-   "bytes": 213315
+   "sha256": "af4f088393bd7eac17e82375336f1304c9647f9e2c2167c5ae22b3f2b740baa9",
+   "bytes": 214700
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu.html",
-   "sha256": "b644358c2568a4a57f2a2addf444f118195770122824d9ed05e279d3446d2991",
-   "bytes": 219516,
+   "sha256": "3d2a1c81dc84e59b31eba2b1a85e810a5b2a933dd8d46b0de3366936040b437f",
+   "bytes": 220917,
    "papel": "peça de leitura, 18 abas"
   },
   {
    "path": "docs/analyses/cobre/fichas/MANIFEST_FICHAS_PUBLICADAS.json",
-   "sha256": "3eb5baf40681dd17329df6045bc6345a9880b26c7c2f7e27e50ce6d1efe3898b",
+   "sha256": "8420daac58c2abb09e34d000c4838cf0523ed47ca0bf9ab9539dea38ff354e0f",
    "bytes": 5210,
    "papel": "6 fichas — hash de origem e publicado"
   },
@@ -209,8 +209,8 @@
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-pi292-89-registro-preservativos-madeira.md",
-   "sha256": "86a6a7cba1f3b83ab2398aa11fa8317ffad07c52d1677a6ebdeaf6bdddb95cdd",
-   "bytes": 6223,
+   "sha256": "00a6180afdf2a427d2da9e6c6c9e81b84a2f71be151e8ec0f40d4dc9521b9c43",
+   "bytes": 6329,
    "papel": "ficha 7 — a norma-mãe: registro obrigatório e art. 20 (competência de fiscalização)"
   },
   {
