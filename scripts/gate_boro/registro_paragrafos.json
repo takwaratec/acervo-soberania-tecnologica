@@ -620,6 +620,15 @@
   "com_estatuto": 0,
   "veredito": "NAO_CONFERIDO"
  },
+ "- **Quatro cadeias:** o borato turco (Kırka e Emet); a salmo": {
+  "secao": "19. O boro não é minerado: ele vem junto",
+  "total": 1,
+  "confere": 0,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
  "Um **átomo** é a menor porção de matéria que ainda é aquela ": {
   "secao": "?",
   "total": 0,
@@ -1716,7 +1725,7 @@
   "ausente": 0,
   "veredito": "SEM_AFIRMACAO_NUMERICA"
  },
- "### O que isso significa junto": {
+ "### O que isso significa junto — e até onde vai": {
   "secao": "?",
   "total": 0,
   "confere": 0,
@@ -1724,7 +1733,7 @@
   "ausente": 0,
   "veredito": "SEM_AFIRMACAO_NUMERICA"
  },
- "Junte as quatro peças e o padrão fica nítido:": {
+ "Junte as quatro peças e o padrão fica nítido **no corpus que": {
   "secao": "?",
   "total": 0,
   "confere": 0,
@@ -1740,7 +1749,15 @@
   "ausente": 0,
   "veredito": "SEM_AFIRMACAO_NUMERICA"
  },
- "**É por isso que a pergunta deste artigo — \"quem regula a ap": {
+ "**O que esta seção examinou, nominalmente** — e o que ela nã": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**A tese, dita como tese.** O padrão dos quatro casos **suge": {
   "secao": "?",
   "total": 0,
   "confere": 0,

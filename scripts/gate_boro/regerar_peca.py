@@ -11,7 +11,7 @@ from pathlib import Path
 
 import markdown
 
-W = Path("/Users/fabiotakwara/.hermes/cache/scratch/boro-v4-wt")
+W = Path(__file__).resolve().parents[2]  # raiz do repo, nao caminho de worktree
 GAV = W / "docs" / "analyses" / "boro"
 PECA = Path("/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica/_privado/"
             "/pareceres/boro-artigo-20261124/O-boro-peca-completa.html")
