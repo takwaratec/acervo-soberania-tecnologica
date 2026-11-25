@@ -172,5 +172,22 @@ class TestGerador(unittest.TestCase):
         self.assertNotEqual(r.returncode, 0, "sem declarar o que nao foi medido o pacote nao pode sair")
 
 
+    def test_custodia_fora_do_repo_exige_raiz_privada(self):
+        """Em worktree o _privado/ nao existe: sem --privado o gerador recusa, em vez de mentir."""
+        self.cfg["fontes"] = [{"path": "docs/analyses/teste/x.pdf", "no_repositorio": False,
+                               "caminho_privado": "_privado/x.pdf"}]
+        r = self.roda()
+        self.assertEqual(r.returncode, 2, r.stdout)
+        self.assertIn("R19-A", r.stdout)
+        # criando em outra raiz e apontando --privado, passa
+        outra = tempfile.mkdtemp()
+        escreve(os.path.join(outra, "_privado", "x.pdf"), "%PDF-fake")
+        self.grava_cfg(self.cfg)
+        r2 = subprocess.run([sys.executable, SCRIPT, "--repo", self.d, "--cfg", self.cfg_path,
+                             "--frente", "teste", "--alvo", "HEAD", "--check", "--privado", outra],
+                            capture_output=True, text=True)
+        self.assertEqual(r2.returncode, 0, r2.stdout)
+
+
 if __name__ == "__main__":
     unittest.main()
