@@ -1,13 +1,14 @@
 {
  "schema": "TAKWARATEC_R4_HASHES_RESPONSE_R1",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
- "commit_alvo": "06a38348e8b8eb00ca129d5fc067f6938ae053b9",
- "sha256_do_manifesto": "6b5cce108e4d8b51d7b6f3afd617c8dd2e1684b9604120a9e6a6cfb29a982690",
+ "alvo_commit": "28721090e3181733c22e679fe0942b7ac85349ec",
+ "manifest_commit": "6c8df365ef1535152bfc7cd78958f3b583645f56",
+ "sha256_do_manifesto": "aec98cb4ad1d97362f2014373bab214afb35dd0ce52937ad27498912d3926829",
  "bytes_do_manifesto": 19763,
- "metodo": "sha256 calculado sobre os bytes do próprio objeto; conferido depois com `git show <commit>:<path>` pelo mesmo algoritmo.",
+ "metodo": "Cada sha256 foi calculado sobre os bytes servidos por `git show <commit>:<path>`, no próprio repositório, e não sobre cópia local.",
  "total_fontes": 28,
  "fontes_sha256": {
-  "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md": "1a13eb7937b73cb79a89b9b6af3b61bbf744c3ef23281ce39ebeb5750e51f60f",
+  "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md": "722bd3226d7585d6e5d77e1f34ae2dae4b8c483824c4a9411b8c19f2548b1ce6",
   "docs/analyses/cobre/o-cobre-no-bambu-corrido.html": "37281d55c43b97e3c816f35266fb4f1e907e265cf66917e166f94b0ed5d1300c",
   "docs/analyses/cobre/o-cobre-no-bambu.html": "b644358c2568a4a57f2a2addf444f118195770122824d9ed05e279d3446d2991",
   "docs/analyses/cobre/fichas/MANIFEST_FICHAS_PUBLICADAS.json": "3eb5baf40681dd17329df6045bc6345a9880b26c7c2f7e27e50ce6d1efe3898b",
