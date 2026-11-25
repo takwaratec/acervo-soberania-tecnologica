@@ -1,11 +1,10 @@
 {
  "schema": "TAKWARATEC_R4_HASHES_RESPONSE_R1",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
- "alvo_commit": "c4f4adba43a140ebd0d41f1eb49da2299b909781",
- "manifest_commit": "5a7182e9e48bf8f6bec61882fb9535ec8c544ff5",
+ "commit_alvo": "c4f4adba43a140ebd0d41f1eb49da2299b909781",
  "sha256_do_manifesto": "691adcb4db125b5e9142ce69285c0947e4efa35b3d508dc201957c1f9e73c912",
  "bytes_do_manifesto": 19763,
- "metodo": "Cada sha256 foi calculado sobre os bytes servidos por `git show <commit>:<path>`, no próprio repositório, e não sobre cópia local.",
+ "metodo": "sha256 calculado sobre os bytes do próprio objeto; conferido depois com `git show <commit>:<path>` pelo mesmo algoritmo.",
  "total_fontes": 28,
  "fontes_sha256": {
   "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md": "1a13eb7937b73cb79a89b9b6af3b61bbf744c3ef23281ce39ebeb5750e51f60f",
