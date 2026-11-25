@@ -98,10 +98,25 @@ def main():
     for caminho in sorted(glob.glob(os.path.join(MD, "*"))):
         nome = os.path.basename(caminho)
         if nome.endswith(".json"):
+            # metadado da fonte: entra no total do diretório, não no saneamento
+            n_bytes = len(open(caminho, "rb").read())
+            total_antes += n_bytes
+            total_depois += n_bytes
+            linhas.append({"arquivo": nome, "bytes_antes": n_bytes, "bytes_depois": n_bytes,
+                           "paragrafos_antes": 0, "paragrafos_mantidos": 0,
+                           "acao": "mantido (metadado da fonte; o saneamento mede o texto extraído)"})
             continue
         bruto = open(caminho, encoding="utf-8", errors="ignore").read()
         antes = len(bruto.encode("utf-8"))
         total_antes += antes
+        if "extrato curado: este arquivo guarda apenas" in bruto:
+            # já saneado: reexecutar não pode destruir o que sobrou
+            total_depois += antes
+            linhas.append({"arquivo": nome, "bytes_antes": antes, "bytes_depois": antes,
+                           "paragrafos_antes": len(paragrafos(bruto)),
+                           "paragrafos_mantidos": len(paragrafos(bruto)),
+                           "acao": "já curado — não reprocessado (idempotência)"})
+            continue
         if antes < LIMITE:
             total_depois += antes
             linhas.append({"arquivo": nome, "bytes_antes": antes, "bytes_depois": antes,

@@ -2,10 +2,10 @@
  "schema": "SANEAMENTO_CUSTODIA_FONTES_R1",
  "mede": "quanto de obra de terceiro o repositório público guarda em fontes/md/. Não mede se o trecho mantido é suficiente para a tese — isso é leitura humana.",
  "regra": "arquivo < 20 KB fica inteiro; acima disso sobram só os parágrafos que contêm trecho citado nas fichas ou nos documentos, mais o primeiro bloco (cabeçalho). O restante permanece no histórico do git e nos PDFs de custódia privada.",
- "denominador_fixado": 13,
+ "denominador_fixado": 14,
  "limite_bytes": 20000,
- "total_bytes_antes": 1370661,
- "total_bytes_depois": 83364,
+ "total_bytes_antes": 1371623,
+ "total_bytes_depois": 84326,
  "reducao_bytes": 1287297,
  "arquivos": [
   {
@@ -69,6 +69,14 @@
    "paragrafos_antes": 1,
    "paragrafos_mantidos": 1,
    "acao": "mantido (abaixo de 20 KB: metadado ou extrato curto)"
+  },
+  {
+   "arquivo": "gauss-2020-metadados.json",
+   "bytes_antes": 962,
+   "bytes_depois": 962,
+   "paragrafos_antes": 0,
+   "paragrafos_mantidos": 0,
+   "acao": "mantido (metadado da fonte; o saneamento mede o texto extraído)"
   },
   {
    "arquivo": "gauss-2020-tratamento-preservativo.md",
