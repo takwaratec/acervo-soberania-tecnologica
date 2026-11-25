@@ -3,7 +3,7 @@
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "commit_alvo": "ec47267d3d4c9023242e0762ff968bc55c36ea12",
  "manifest_path_lido": "docs/analyses/cobre/AUDITORIA_SOL_COBRE_MANIFEST_R1_ec47267d.json",
- "sha256_do_manifesto": "8eaa9b1fb113ba08b6c3c863a1b24cd76dbdf785076a65c7cff4e77c0646cd01",
+ "sha256_do_manifesto": "abafbb0861003e2f9aaf28a3c7cedabf82f2467f0fddd5bd59686a0c11082e12",
  "metodo": "Cada sha256 foi calculado sobre os bytes servidos por `git show <commit>:<path>`, no próprio repositório, e não sobre cópia local.",
  "total_fontes": 33,
  "fontes_sha256": {
