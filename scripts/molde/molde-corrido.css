@@ -1,0 +1,19 @@
+body{max-width:900px;margin:0 auto;padding:0 1.2rem 4rem}
+.toc{border:1px solid #d8d2c4;border-radius:10px;padding:1rem 1.5rem;margin:2.2rem 0;background:#faf8f3}
+.toc h2{margin-top:0;font-size:.95rem;letter-spacing:.1em;text-transform:uppercase}
+.toc ol{margin:0;padding-left:1.4rem;line-height:1.8}
+.toc a{text-decoration:none;border-bottom:1px dotted}
+a.cite{font-size:.8em;text-decoration:none;font-weight:700;color:#8a6d3b}
+p.ref{padding-left:2.6rem;text-indent:-2.6rem}
+p.ref:target{background:#fff6d8;outline:2px solid #d4b862;border-radius:4px}
+.ficha{border-top:3px double #d8d2c4;margin-top:3.8rem;padding-top:1.8rem}
+.ficha-num{display:inline-block;font-size:.7rem;letter-spacing:.14em;font-weight:700;background:#1f1b16;color:#f7f3e8;padding:.2rem .55rem;border-radius:3px}
+.ficha-head h3{font-size:1.24rem;line-height:1.4;margin:.6rem 0 .4rem}
+.ficha-meta{font-size:.78rem;opacity:.72;margin:0}
+.anexo-intro{border-left:4px solid #8a6d3b;padding:.9rem 1.2rem;background:#faf8f3;margin:2.5rem 0;line-height:1.65}
+h1.art-title{font-size:1.6rem;margin-top:2rem}
+@media print{.toc{page-break-after:always}.ficha{page-break-before:always}}
+
+.toc-artigo ol{list-style:none;padding-left:.2rem}
+.toc-artigo li{margin-left:0}
+.toc-artigo li::before{content:none}
