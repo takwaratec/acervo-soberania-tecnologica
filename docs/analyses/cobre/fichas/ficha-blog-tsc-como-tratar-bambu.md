@@ -24,9 +24,11 @@ tipo_documental: ficha-cientifica
 responsavel_curadoria: Fabio F. Resck
 identificador: "sem-doi-registrado"
 ---
-> **Estado: homologada internamente (2026-11-24, autoridade FABIO).** Publicada para
-> auditoria externa. Se o auditor externo apontar furo material, o estado reverte para
-> `ficha-em-revisao` e a correção é publicada com a rodada seguinte.
+> **Estado: em revisão documental.** Homologação interna declarada em 2026-11-24
+> (autoridade: FABIO) — declaração do ato, não registro de leitura. Homologação
+> documental para publicação: pendente. O pacote não anexa registro de leitura integral
+> do HTML nem parecer de auditoria externa. Furo material apontado pelo auditor externo
+> é corrigido e publicado na rodada seguinte.
 
 # Como Tratar Bambu — blog TCS (2016)
 
@@ -144,4 +146,4 @@ o texto da fonte, estruturar a ficha, conferir citações contra o documento ori
 cálculos e apoiar a redação. **A seleção das fontes, o julgamento sobre o que a fonte autoriza
 afirmar e a responsabilidade pela versão publicada permanecem com o curador.**
 
-**Estado:** ficha em revisão documental. Não homologada.
+**Estado:** em revisão documental. Não homologada para publicação.
