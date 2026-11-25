@@ -1,0 +1,732 @@
+diff --git a/docs/analyses/bambu-estrutural/ficha-heat-treatment-pdms-bamboo.md b/docs/analyses/bambu-estrutural/ficha-heat-treatment-pdms-bamboo.md
+index 06cb6414..43cdc6c8 100644
+--- a/docs/analyses/bambu-estrutural/ficha-heat-treatment-pdms-bamboo.md
++++ b/docs/analyses/bambu-estrutural/ficha-heat-treatment-pdms-bamboo.md
+@@ -59,6 +59,35 @@ O artigo não apresenta grupo de tratamento térmico seco ou a vapor na mesma ma
+ 
+ ## 6. Principais achados
+ 
++**Valores transcritos da prosa da fonte** (régua §5-A, ordem de busca 1). Localização por **seção e
++parágrafo (¶)**: o depósito disponível não tem paginação; o artigo impresso ocupa RSC Adv. 10:
++43438–43446. A seção é citada pelo título como está na fonte.
++
++| Propriedade | Condição | Valor como impresso | Atribuição na fonte | Localização |
++|---|---|---|---|---|
++| Inchamento tangencial | 120 / 150 / 180 / 210 °C | redução de 30,85% / 36,17% / 52,13% / 59,57% | inchamento linear, 20 °C e 30% HR | «Effects of heat treatment temperature on EMC of bamboo specimens», ¶1 |
++| Inchamento radial | idem | redução de 7,69% / 17,86% / 28,57% / 40,00% | idem | idem |
++| Inchamento longitudinal | idem | redução de 9,38% / 15,63% / 21,88% / 52,38% | idem | idem |
++| MOR | 120 °C | **−0,12%** | «a small decrement of 0.12% in MOR» | «Effects of heat treatment temperature on MOR and MOE of bamboo specimens», ¶1 |
++| MOE | 120 °C | **+8,07%** | «MOE was increased to the maximum value with an increase of 8.07%» | idem |
++| MOR | 150 / 180 / 210 °C | **−4,86% / −28,24% / −30,71%** | «it was only slightly reduced by 4.86% … the corresponding decrement was 28.24% and 30.71%» | «Effects of heat treatment temperature on density of bamboo specimens», ¶1 |
++| Série 120–210 °C | 120 / 150 / 180 / 210 °C | redução de 0,12% / 1,07% / 2,63% / 5,79% | **propriedade não nomeada na frase** (o parágrafo trata de MOR e MOE) | idem |
++| Ângulo de contato com água | controle | **4°** | «contact angle (4°) of water on the untreated specimens» | «Analysis of contact angle of water on bamboo specimen» (2ª ocorrência, discussão de resultados), ¶1 |
++| Luminosidade (ΔL*) | 120 / 150 / 180 / 210 °C | **−7,08 / −22,55 / −37,1 / −62,26** | «changes in values of L* … compared with the specimens in control group» | «Color changes analysis», ¶1 |
++| Redução de luminosidade | — | de 10,68 até 93,94 | «reduction of lightness … was increased from 10.68 to 93.94» | idem |
++
++**Divergência interna da fonte, registrada e não harmonizada.** O valor **0,12%** é atribuído a MOR no
++primeiro parágrafo («a small decrement of 0.12% in MOR») e aparece sem propriedade nomeada na série
++0,12/1,07/2,63/5,79% do parágrafo anterior; o valor **8,07%** é atribuído a **MOE** na seção «MOR and
++MOE» e a **MOR** no parágrafo da seção «density». A ficha registra as duas atribuições: escolher a
++"mais provável" seria harmonizar por plausibilidade, que a régua §9 proíbe.
++
++**Títulos de seção não correspondem ao conteúdo em parte do depósito:** o parágrafo sob «Effects of
++heat treatment temperature on EMC» trata de **inchamento linear**; o parágrafo sob «density» trata de
++**MOR e MOE**. Por isso a localização cita seção **e** conteúdo, e não só o título.
++
++Demais achados qualitativos (sem número em prosa nem em tabela — não há valor a transcrever):
++
+ - EMC e razão de inchamento diminuíram com o aumento da temperatura.
+ - O ângulo de contato com água aumentou, indicando menor molhabilidade superficial.
+ - O MOR atingiu seu maior valor tratado a 120 °C; condições mais severas reduziram desempenho.
+diff --git a/docs/analyses/boro/00-estado-da-questao-boro.md b/docs/analyses/boro/00-estado-da-questao-boro.md
+index 83ee6598..bdb5c098 100644
+--- a/docs/analyses/boro/00-estado-da-questao-boro.md
++++ b/docs/analyses/boro/00-estado-da-questao-boro.md
+@@ -5,11 +5,11 @@ frente: BORO
+ titulo: "Boro — origem, raridade, dosagem e o risco do uso indiscriminado como preservante de bambu"
+ estado_documental: em-revisao-documental
+ homologacao_automatica: false
+-versao: 1
++versao: 2
+ data_revisao: 2026-11-24
+ responsavel_curadoria: Fabio Takwara
+ assistencia_documental: agente de IA, sujeito a revisao humana
+-fonte_primaria: PDFs integralmente conferidos e custodiados na camada privada
++fonte_primaria: PDFs integralmente conferidos e custodiados na camada privada; importacao por API oficial (ComexStat/MDIC)
+ pacote_fontes_privado: _privado/governanca-operacional/extracoes/boro/
+ funcao_na_serie: capitulo introdutorio dos tratamentos convencionais do bambu
+ ---
+@@ -179,6 +179,41 @@ posiciona o material não é o volume — é a inexistência de substituto no us
+ crítico. É esse mecanismo, e não um suposto desvio de toneladas, que explica a
+ assimetria que você percebeu.
+ 
++## 5.1 Importação brasileira — o que entra, quanto, e de quem
++
++*(Seção nova desta rodada. Série completa, composição por NCM e ressalvas
++metodológicas em [`01-importacao-brasileira-boro-comexstat.md`](01-importacao-brasileira-boro-comexstat.md).)*
++
++Consulta direta à API oficial do ComexStat (MDIC) em 2026-11-24, fluxo importação,
++NCM 2528, 2810 e 2840, série 1997–2026. Dado medido, não estimativa:
++
++- **2025: 487.185 t** de produto importado, **US$ 225,8 milhões** FOB, US$ 0,464/kg.
++- **1997: 111.621 t / US$ 35,9 milhões.** Em 28 anos, massa ×4,4 e valor ×6,3.
++- O salto é recente: 270 kt em 2020 → 487 kt em 2025.
++- **76,8% do valor (2010–2026) vem de Argentina, Bolívia, Chile e Peru** — as
++  quatro economias que a USGS lista como produtoras do cinturão andino. Turquia é
++  14,1%; Estados Unidos, 5,9%.
++- **Inflexão em 2026** (jan–out): a Turquia passa de 17,3% para **30,9%** do valor
++  e de 78 kt para 127 kt, enquanto a Bolívia cai de 170 kt para 80 kt.
++
++**Duas correções que este dado impõe a leituras correntes.**
++
++1. A dependência brasileira **não é o padrão turco**. A USGS registra 90% das
++   importações *norte-americanas* vindas da Turquia; o Brasil compra de vizinhos.
++   A vulnerabilidade existe, mas é **regional e logística**, com produtores de
++   reserva modesta e produção irregular — Argentina e Bolívia sequer declaram
++   reserva.
++2. **Escala:** os 342.799 t de borato natural importados em 2025 equivalem a cerca
++   de **um terço de toda a produção andina declarada de minério bruto** (1.070 kt).
++   O Brasil não é consumidor marginal de minério de boro; é um dos maiores.
++
++**O que o número não diz.** `metricKG` é peso líquido de **produto comercial**,
++não teor de boro — bórax decahidratado tem 11,3% de B, ácido bórico 17,5%, ulexite
++bruto ~13%. Converter 487 kt em boro elementar exige premissa de teor e resulta em
++faixa de **~54 a ~85 kt de B**, que é **teto, não medida**. Comércio também não é
++consumo: parte pode ser reprocessada e reexportada, e não há rateio setorial da
++importação brasileira nesta gaveta.
++
+ ## 6. Dosagem — as três réguas que não se confundem
+ 
+ Esta é a seção central do capítulo. As três escalas abaixo medem coisas
+@@ -231,21 +266,43 @@ B/pessoa/dia em adultos vale também para gestantes e lactantes.
+ B é 17,5% da massa de H₃BO₃, 10 mg B correspondem a ~57 mg de ácido bórico. Quem
+ converter ao contrário subestima o risco por um fator de quase seis.
+ 
+-### 6.3 Suplemento de consumo humano — a lacuna declarada
++### 6.3 Suplemento de consumo humano — agora ancorado
+ 
+-**Estado: NÃO ANCORADO nesta rodada.** A fonte de referência (NIH Office of
+-Dietary Supplements) respondeu HTTP 403 e a extração resultou vazia, tendo sido
+-descartada. Os valores usuais de suplemento — tipicamente **0,15 a 6 mg de boro
+-elementar por cápsula**, com 3, 6 e 10 mg/dia como doses mais comuns e UL de
+-20 mg/dia para adultos nos EUA — **aparecem na busca, mas não nesta gaveta como
+-fato ancorado**. Registrados aqui como achado não custodiado, pendentes de
+-fonte primária.
++**Estado: ANCORADO nesta rodada** (NIH Office of Dietary Supplements, *Boron —
++Health Professional Fact Sheet*, snapshot 2026-11-16, custodiado). O acesso
++direto ao `ods.od.nih.gov` devolveu HTTP 403 de novo; a obtenção foi por
++**Wayback**, com o HTML e a extração integral gravados na camada privada.
+ 
+-**O que já é seguro afirmar sem essa fonte**, porque decorre do item 6.2: uma
+-cápsula de 6 mg B consome **60% do PDE adulto** e **duas vezes** o PDE de uma
+-criança de 2 a 12 anos. E o rótulo de suplemento declara boro elementar, não a
+-massa do composto — o que torna a comparação com 6.2 direta e a comparação com
+-6.1 inválida sem conversão.
++| Dado | Valor | Fonte |
++|---|---|---|
++| Dose usual em suplemento | **0,15 a 6 mg de boro elementar** por dose | NIH ODS |
++| UL adultos (19+ anos) | **20 mg/dia** | FNB/NIH ODS |
++| UL 14–18 anos | 17 mg/dia | FNB/NIH ODS |
++| UL 9–13 anos | 11 mg/dia | FNB/NIH ODS |
++| UL 4–8 anos | 6 mg/dia | FNB/NIH ODS |
++| UL 1–3 anos | 3 mg/dia | FNB/NIH ODS |
++| RDA / AI / EAR | **não estabelecidos** (dados insuficientes) | FNB |
++| Faixa considerada segura (adulto) | 1 a 13 mg/dia | OMS, apud NIH ODS |
++| Dose fatal em adulto | 15.000 a 20.000 mg | NIH ODS |
++
++**Duas leituras que o dado permite, e uma que ele desmente.**
++
++1. Uma cápsula de 6 mg B consome **60% do PDE adulto** da §6.2 e **duas vezes** o
++   PDE de uma criança de 2 a 12 anos. O rótulo de suplemento declara boro
++   elementar, não a massa do composto — a comparação com 6.2 é direta; com 6.1
++   exige conversão.
++2. A faixa usual de suplemento (0,15–6 mg) é **compatível** com a faixa da OMS
++   (1–13 mg/dia) no seu trecho superior, mas o piso de 0,15 mg fica **abaixo** do
++   que a OMS considera seguro — suplemento de dose baixa não repõe, apenas
++   rotula.
++3. **Desmente** a ideia de que "suplemento é seguro porque é natural": o UL adulto
++   de 20 mg/dia é **duas vezes** o PDE europeu de 10 mg/dia. Duas autoridades
++   sanitárias, duas réguas — e a europeia é mais restritiva. Divergência
++   preservada, não harmonizada.
++
++*(O limite de 20 mg/dia é o mesmo que a gaveta já citava como achado não
++custodiado. Agora está custodiado — e o registro de que ele é duas vezes o PDE
++europeu é a parte que faltava.)*
+ 
+ ### 6.4 Agricultura — a régua do micronutriente
+ 
+@@ -344,26 +401,121 @@ o tratamento deixou de ser prática local e passou a ser recomendação
+ internacional — sem que a norma de retenção o acompanhasse. A origem da prática
+ explica sua difusão; não a valida.
+ 
+-## 9. Exposição ocupacional — o que falta medir
+-
+-**Estado: lacuna declarada.** Esta gaveta **não localizou** dados de exposição
+-ocupacional nem de uso de EPI em operadores de tratamento de bambu com boro, no
+-Brasil ou na China. A comparação com a indústria chinesa, pedida no adendo,
+-**não pode ser feita com o material custodiado**.
++## 9. Exposição ocupacional — o que está ancorado e o que continua lacuna
+ 
+-O que se pode afirmar por construção, e está ancorado:
++**Estado: parcialmente fechada nesta rodada.** A exposição ocupacional à **poeira de
++borato** está documentada na fonte institucional (ATSDR, *Toxicological Profile for
++Boron*, 2010, custodiada). O que continua **sem medição** é a exposição específica
++de quem corta, lixa e serra **bambu tratado** — Brasil e China. As duas coisas não
++se confundem: o que segue é transferência de **agente químico**, não de cenário.
+ 
+-- a via de exposição relevante no preparo é **poeira e névoa** ao pesar o sal
+-  cristalino, dissolver e manusear o banho — não a peça já tratada;
+-- o efeito crítico é **reprodutivo/desenvolvimental**, com BMDL₀₅ de 10,3 mg
+-  B/kg/dia e MRL de 0,2 mg B/kg/dia (EMA, item 6.2);
+-- a norma brasileira **já proíbe** aplicação em grandes áreas e uso em crianças
+-  para a apresentação a 3%, o que reconhece absorção dérmica relevante.
++### 9.1 As réguas institucionais (ATSDR tp26)
+ 
+-**Interpretação curatorial.** A ausência de dado ocupacional não é neutralidade:
+-é o vácuo em que a prática sem EPI se instala. Nenhuma das dez fichas herdadas
+-do pacote anterior cobre exposição de trabalhador — todas são de água, efluente
+-ou produto. Esta é a pendência de pesquisa mais importante que a gaveta entrega.
++| Régua | Valor | Base |
++|---|---|---|
++| MRL oral, duração aguda | 0,2 mg B/kg/dia | NOAEL 22 mg B/kg/dia (malformações em coelhos), UF 100 |
++| MRL oral, duração intermediária | 0,2 mg B/kg/dia | BMDL₀₅ 10,3 mg B/kg/dia (peso fetal, rato), UF 66 |
++| **MRL inalação, duração aguda** | **0,3 mg B/m³** | NOAEL 0,8 mg B/m³ (secreção nasal aumentada em voluntários), UF 3 |
++| RfD oral (EPA) | 0,2 mg/kg/dia | peso fetal reduzido em ratas |
++| RfC inalação (EPA) | **não estabelecido** | — |
++
++Coerência com a §6.2: é a **mesma cadeia** (BMDL₀₅ 10,3 → MRL 0,2 → PDE adulto
++10 mg B/dia, que corresponde a 50 kg de massa corporal implícita). A novidade
++desta rodada é o **ramo inalatório**, que a EMA não dava: existe MRL de inalação
++aguda, e ele é **0,3 mg B/m³**.
++
++### 9.2 Limites ocupacionais formais — e o que eles medem
++
++| Norma | Substância | Limite | Métrica |
++|---|---|---|---|
++| OSHA PEL (indústria geral) | óxido de boro, poeira total | 15 mg/m³ | 8 h TWA |
++| NIOSH REL | bórax | 5 mg/m³ | 10 h TWA |
++| NIOSH REL | tetraborato de sódio | 1 mg/m³ | 10 h TWA |
++| ACGIH TLV | boratos inorgânicos (bórax, ác. bórico, tetraborato) | 2 mg/m³ | 8 h TWA |
++| ACGIH STEL | idem | 6 mg/m³ | 15 min |
++
++**O detalhe que muda a leitura:** todos esses limites são de **poeira total**, não
++de boro. O NIOSH REL mais restritivo (1 mg/m³ para tetraborato de sódio) equivale a
++~0,11 mg B/m³ se o pó for bórax puro — **abaixo** do MRL de inalação aguda de
++0,3 mg B/m³. Ou seja: cumprir o limite de poeira já mantém o boro abaixo do nível
++de triagem. O risco respiratório, nesse ramo, **não é o boro** — é o particulado.
++
++*(Nenhum limite brasileiro da NR-15 para boratos foi localizado nesta rodada.
++Pendência declarada, não afirmação de inexistência.)*
++
++### 9.3 O que se mediu em trabalhador de boro (proxy industrial)
++
++- **Concentração de poeira** em plantas de borato e de ácido bórico: **0,29 a
++  18,95 mg/m³** de particulado total; o pó é **5,6 a 15,2% de boro em massa**
++  (Woskie 1994; Culver 1994; Garabrant 1984, 1985).
++- **Ingestão diária total** (alimento + líquido + ar pessoal): **41,2 mg/dia** em
++  trabalhadores da indústria de boro, contra 4,3 mg/dia na comunidade vizinha e
++  2,3 mg/dia no grupo de comparação (Xing 2008) — os dois últimos já acima do PDE
++  adulto de 10 mg/dia.
++- **Efeito humano observado:** irritação de vias respiratórias e olhos (boca, nariz
++  e garganta secos, tosse seca, epistaxe, dor de garganta) em frequência elevada
++  nas áreas com **8,4 e 14,6 mg/m³** de poeira (≈1,8 e 3,1 mg B/m³, teto
++  estimado), contra **1,1 e 4,0 mg/m³** (0,2 e 0,9 mg B/m³) nas áreas de menor
++  frequência. **Sem alteração mensurável de função pulmonar** no seguimento de
++  7 anos.
++
++**Leitura:** existe um limiar humano observado de **irritação** na casa de
++**1,8 mg B/m³**, uma ordem de grandeza acima do MRL de inalação aguda. Sintoma
++irritativo é o desfecho precoce; o desfecho crítico continua sendo o
++desenvolvimental, por via oral.
++
++### 9.4 Conta de teto para a poeira de bambu tratado
++
++Não há medição de poeira em oficina de bambu tratado. Há, porém, dois números
++medidos que permitem uma **conta de teto**, com premissas explícitas:
++
++- retenção medida de borato no bambu: **14,79 a 21,79 kg/m³** (Gauss 2020, §6.5);
++- densidade do bambu estrutural: **~600 kg/m³** (premissa, não medição desta
++  gaveta).
++
++Resultado: o borato incorporado é **2,46% a 3,63% da massa** do bambu, o que, com
++bórax a 11,3% de B, dá **0,28% a 0,41% de boro** no material seco.
++
++Aplicando essa fração a concentrações de poeira **medidas em fábrica de borato**
++(não em marcenaria de bambu):
++
++| Poeira total | Boro no ar (teto) | Comparação |
++|---|---|---|
++| 1 mg/m³ | 0,003 a 0,004 mg B/m³ | 75–100× abaixo do MRL de inalação aguda |
++| 5 mg/m³ | 0,014 a 0,021 mg B/m³ | 15–20× abaixo |
++| 18,95 mg/m³ (máximo medido) | 0,053 a 0,078 mg B/m³ | 4–6× abaixo do MRL; 23× abaixo do limiar de irritação |
++
++**Conclusão que a conta sustenta, e só ela:** mesmo no pior cenário de poeira já
++documentado em ambiente industrial de borato, o **boro em suspensão** ficaria
++abaixo dos níveis de triagem. O que sustenta o alerta respiratório na marcenaria de
++bambu tratado **não é o boro — é o particulado respirável e a sílica** do próprio
++bambu. Isso **reforça** a intuição do soberano sobre respirar poeira de bambu
++cortado, e **corrige o agente**: a máscara é necessária pelo pó, não pelo borato.
++
++**O que essa conta não é:** não é medição, não é avaliação de exposição, não
++substitui amostragem de campo. Ela supõe distribuição homogênea de boro no pó e
++usa concentração de outra indústria. Um único furo dessa premissa — pó de bambu
++com muito mais sílica e muito menos borato — **piora** o risco respiratório, não
++melhora.
++
++### 9.5 O que continua lacuna
++
++- medição de poeira, sílica respirável e boro em **oficina de bambu tratado**,
++  Brasil e China;
++- uso real de EPI por operador brasileiro de banho de boro;
++- limite normativo brasileiro (NR-15) para boratos — não localizado;
++- destino do efluente do banho: a norma de corpo receptor existe (CONAMA 430,
++  5,0 mg B/L), a de descarte na oficina não foi localizada;
++- **absorção dérmica** — a fonte institucional é clara e restritiva: muito pouca
++  absorção por pele íntegra, **absorção pronta por pele lesada** (Draize & Kelley
++  1959, apud ATSDR). Quem aplica com as mãos rachadas não está na mesma régua de
++  quem aplica com luva.
++
++**Interpretação curatorial.** A ausência de dado *de bambu* não é neutralidade:
++é o vácuo em que a prática sem EPI se instala. Nenhuma das dez fichas herdadas do
++pacote anterior mede trabalhador — todas são de água, efluente ou produto. A
++diferença desta rodada é que agora existe **régua para o vácuo ser medido**:
++MRL de inalação, limites de poeira e um limiar humano de irritação.
+ 
+ ## 10. Por que isso exige regra, e não só advertência
+ 
+@@ -380,7 +532,10 @@ defensável:
+ 4. **O efeito crítico é silencioso** — toxicidade do desenvolvimento, não
+    intoxicação aguda; a LD₅₀ na casa dos milhares de mg/kg esconde um endpoint
+    na casa das dezenas de mg B/kg/dia.
+-5. **A exposição do operador não está medida** — nem no Brasil, nem na China.
++5. **A exposição do operador à poeira de bambu tratado não está medida** — nem no
++   Brasil, nem na China. As réguas para medi-la existem desde esta rodada (§9):
++   MRL de inalação aguda de 0,3 mg B/m³, limites de poeira total e um limiar
++   humano de irritação em ~1,8 mg B/m³.
+ 
+ Postos juntos, esses cinco pontos descrevem um tratamento que **funciona
+ biologicamente, falha em permanência e é dosado às cegas**. Adotá-lo como padrão
+@@ -389,6 +544,10 @@ regulamentar o pior dos dois mundos: a eficácia inicial e a exposição contín
+ 
+ ## 11. O que esta ficha não autoriza concluir
+ 
++- **Não** autoriza afirmar que o boro importado pelo Brasil vai para preservação
++  de bambu: não há rateio setorial da importação brasileira (§5.1).
++- **Não** autoriza tratar a massa importada como teor de boro nem como consumo
++  nacional: `metricKG` é peso de produto comercial e comércio não é consumo.
+ - **Não** autoriza dizer que o boro cause dano à saúde de quem habita casa de
+   bambu tratado. Não há dado de transferência nessa cadeia nesta gaveta.
+ - **Não** autoriza tratar a lixiviação medida em CCB como lixiviação de borato
+@@ -403,13 +562,31 @@ regulamentar o pior dos dois mundos: a eficácia inicial e a exposição contín
+   produtos registrados.
+ - **Não** autoriza comparar dose de suplemento com dose de preservação.
+ - **Não** autoriza afirmação alguma sobre EPI ou prática de operadores na China.
++- **Não** autoriza transportar as concentrações de poeira medidas na indústria de
++  borato para uma oficina de bambu: a §9.4 é **conta de teto com premissas**, não
++  avaliação de exposição.
++- **Não** autoriza chamar o pó de bambu tratado de "pó de boro": a fração mássica
++  de boro no material é ~0,3 a 0,4% (§9.4), e o risco respiratório dominante é o
++  particulado/sílica, não o borato.
+ 
+ ## 12. Pendências desta rodada
+ 
+-1. Custodiar fonte primária de importação brasileira (ComexStat/Secex-MDIC, NCM
+-   2528, 2810, 2840) — a extração de URL falhou nesta sessão.
+-2. Custodiar NIH ODS (HTTP 403) para ancorar doses de suplemento.
++1. ~~Custodiar fonte primária de importação brasileira (ComexStat/Secex-MDIC, NCM
++   2528, 2810, 2840)~~ — **CUMPRIDA em 2026-11-24.** API oficial extraída
++   (1997–2026, 52 arquivos com SHA-256); análise em
++   `01-importacao-brasileira-boro-comexstat.md`, síntese em §5.1.
++2. ~~Custodiar NIH ODS (HTTP 403) para ancorar doses de suplemento.~~ —
++   **CUMPRIDA em 2026-11-24** por Wayback: dose usual 0,15–6 mg B, UL adulto
++   20 mg/dia, RDA/AI/EAR inexistentes. §6.3 reescrita.
+ 3. Custodiar IN ANVISA 3/2009 (falha de conexão).
++3.1. ~~Custodiar ATSDR ToxProfile tp26 (toxicidade humana, exposição ocupacional)~~
++   — **CUMPRIDA em 2026-11-24.** 248 p. + 12 capítulos, obtidos via Wayback
++   (acesso direto HTTP 403). §9 reescrita com base nele.
++3.2. Classificação CLP / Eur-Lex (Repr. 1B) — **NÃO OBTIDA nesta rodada**: EUR-Lex
++   devolve desafio AWS WAF (HTTP 202, corpo vazio) também via Wayback; ECHA
++   (domínio `chem.echa.europa.eu`) HTTP 403. A classificação CMR citada na ficha continua sendo a
++   **Repr. cat. 2 da EMA**, e a divergência com a Repr. 1B do CLP **permanece
++   aberta**.
+ 4. Resolver a divergência Yellowstone/Paquistão contra fonte geológica primária.
+ 5. Levantar exposição ocupacional e EPI em tratamento de bambu — Brasil e China.
+ 6. Reprocessar as 10 fichas herdadas pelo MTCC (estágios 3 a 8) — todas estão em
+@@ -421,6 +598,17 @@ regulamentar o pior dos dois mundos: a eficácia inicial e a exposição contín
+ 
+ - USGS. *Mineral Commodity Summaries 2026* — Boron. Brioche, A.S. 2 p.
+   Custódia: `fontes_novas/USGS_MCS2026_Boron.pdf`.
++- NIH Office of Dietary Supplements. *Boron — Health Professional Fact Sheet*.
++  Snapshot 2026-11-16. Custódia: `fontes_novas/nih_ods/` (HTML + extração +
++  `MANIFEST_NIH_ODS.json`). Acesso direto devolve HTTP 403; obtido por Wayback.
++- ATSDR. *Toxicological Profile for Boron*. U.S. Department of Health and Human
++  Services, Public Health Service, nov. 2010. 248 p. Custódia:
++  `fontes_novas/atsdr_tp26/` (PDF integral, 12 capítulos, `INDEX_TP26.json`).
++  Obtido via Wayback (`snapshot 2026-10-04`); o acesso direto a
++  `atsdr.cdc.gov/toxprofiles/tp26.pdf` devolve HTTP 403.
++- ComexStat / MDIC. API oficial `api-comexstat.mdic.gov.br/general`, fluxo
++  importação, NCM 2528/2810/2840, 1997–2026. Consulta direta em 2026-11-24.
++  Custódia: `fontes_novas/comexstat/` (52 arquivos, `MANIFEST_ComexStat.json`).
+ - EMA/CHMP/765436/2012 Rev. 1. *Boric acid and borate used as excipients*.
+   11 nov. 2021. Custódia: `fontes_novas/EMA_BoricAcid_Borates_Excipients.pdf`.
+ - ANVISA. RDC nº 199, de 26 de outubro de 2006, anexo — antissépticos.
+diff --git a/docs/analyses/boro/INVENTARIO_GAVETA.json b/docs/analyses/boro/INVENTARIO_GAVETA.json
+index 247889bf..e13a539f 100644
+--- a/docs/analyses/boro/INVENTARIO_GAVETA.json
++++ b/docs/analyses/boro/INVENTARIO_GAVETA.json
+@@ -5,15 +5,37 @@
+  "data": "2026-11-24",
+  "artefatos_publicos": [
+   "00-estado-da-questao-boro.md",
+-  "index.md"
++  "01-importacao-brasileira-boro-comexstat.md",
++  "index.md",
++  "HANDOFF_BORO_20261124.md"
+  ],
+  "custodia_privada": {
+   "raiz": "_privado/governanca-operacional/extracoes/boro/",
+   "herdado_arquivos": 42,
+   "herdado_pdfs": 16,
+-  "fontes_novas": 8,
++  "fontes_novas": 9,
+   "integridade_herdado": "VERIFICADA",
+-  "divergencias_hash": 0
++  "divergencias_hash": 0,
++  "comexstat": {
++   "arquivos": 52,
++   "bytes": 41305590,
++   "manifest": "fontes_novas/comexstat/MANIFEST_ComexStat.json",
++   "estado": "CUSTODIADA",
++   "periodo": "1997-01 a 2026-10"
++  },
++  "atsdr_tp26": {
++   "arquivos": 15,
++   "bytes": 23617819,
++   "estado": "CUSTODIADA",
++   "manifest": "fontes_novas/atsdr_tp26/INDEX_TP26.json",
++   "paginas": 248
++  },
++  "nih_ods": {
++   "arquivos": 5,
++   "bytes": 361592,
++   "estado": "CUSTODIADA",
++   "manifest": "fontes_novas/nih_ods/MANIFEST_NIH_ODS.json"
++  }
+  },
+  "fichas_herdadas_nao_homologadas": 10,
+  "estado_documental": "em-revisao-documental",
+@@ -25,5 +47,17 @@
+   "vernizes volateis",
+   "acrilicos",
+   "concreto"
++ ],
++ "lacunas_fechadas_nesta_rodada": [
++  "importacao brasileira por NCM, serie 1997-2026 (ComexStat/MDIC)",
++  "exposicao ocupacional a poeira de borato: ancorada por proxy industrial (ATSDR tp26)",
++  "dose de suplemento humano (NIH ODS via Wayback): 0,15-6 mg B, UL 20 mg/dia"
++ ],
++ "lacunas_abertas": [
++  "medicao de poeira/silica/boro em oficina de bambu tratado (BR e China)",
++  "uso real de EPI por operador brasileiro",
++  "limite NR-15 brasileiro para boratos (nao localizado)",
++  "classificacao CLP/Eur-Lex Repr. 1B (bloqueio WAF)",
++  "destino do efluente do banho na oficina"
+  ]
+-}
+\ No newline at end of file
++}
+diff --git a/docs/analyses/boro/index.md b/docs/analyses/boro/index.md
+index 7f353abd..1b1a356e 100644
+--- a/docs/analyses/boro/index.md
++++ b/docs/analyses/boro/index.md
+@@ -20,7 +20,9 @@ lixiviação, exposição ocupacional.
+ | Artefato | Função |
+ |---|---|
+ | `00-estado-da-questao-boro.md` | Ficha principal — as quatro afirmações submetidas à verificação, as cinco réguas de dosagem, o argumento de lixiviação, o que a ficha não autoriza concluir |
++| `01-importacao-brasileira-boro-comexstat.md` | Série de importação 1997–2026 por NCM, composição, origem, confronto com a produção mundial |
+ | `INVENTARIO_GAVETA.json` | Estado real de cada fonte: custodiada, indisponível, pendente |
++| `HANDOFF_BORO_20261124.md` | Handoff de continuidade entre tópicos (não é homologação) |
+ 
+ ## Camada privada
+ 
+@@ -34,6 +36,9 @@ _privado/governanca-operacional/extracoes/boro/
+ ├── herdado/ago_28_Boratos_Cobre/
+ ├── herdado/ago_28_CCA_CCB/
+ └── fontes_novas/               USGS MCS2026, EMA, ANVISA RDC 199
++    ├── comexstat/               API MDIC 1997–2026: raw/ (47 JSON) + 4 CSV + MANIFEST
++    ├── atsdr_tp26/              Toxicological Profile for Boron (248 p.) + 12 capítulos
++    └── nih_ods/                 NIH ODS Boron Fact Sheets (HTML + extração)
+ ```
+ 
+ Os PDFs **não** entram na área versionada. Tabela e figura extraídas de artigo
+@@ -56,15 +61,31 @@ Nenhuma converte na outra.
+ |---|---|---|---|
+ | Tópica medicinal (BR) | % do sal | água boricada 3% (2,900–3,200% H₃BO₃) | ANVISA RDC 199/2006 |
+ | Sistêmica medicinal (UE) | mg B/dia | PDE 10 (adulto) · 7 · 3 · 1 | EMA/CHMP/765436/2012 |
+-| Suplemento | mg B/cápsula | 0,15–6 — **não ancorado** | pendente: NIH 403 |
++| Suplemento | mg B/dose | 0,15–6 usual · UL 20 mg/dia (adulto) · OMS 1–13 mg/dia | NIH ODS (ancorado em 2026-11-24) |
+ | Agricultura | kg/ha de B | carga de micronutriente | 11–15% do consumo |
+ | Preservação de bambu | kg/m³ de bambu | AWPA 2,7 · IS 401 5 · medido 14,79–21,79 | Gauss 2020 |
++| Inalação (ocupacional) | mg B/m³ | MRL agudo 0,3 · irritação observada ~1,8 · limites de poeira 1–15 mg/m³ | ATSDR tp26 (2010) |
++
++## Números de importação — referência rápida
++
++| Ano | Massa importada (t) | Valor FOB | US$/kg |
++|---|---|---|---|
++| 1997 | 111.621 | US$ 35,9 M | 0,321 |
++| 2020 | 270.020 | US$ 88,6 M | 0,328 |
++| 2025 | **487.185** | **US$ 225,8 M** | 0,464 |
++| 2026* | 372.742 | US$ 205,2 M | 0,551 |
++
++\* jan–out. NCM 2528 + 2810 + 2840. 76,8% do valor vem de Argentina, Bolívia,
++Chile e Peru; Turquia salta para 30,9% em 2026. Detalhe e limites em
++`01-importacao-brasileira-boro-comexstat.md`.
+ 
+ ## Pendência que define a gaveta
+ 
+-A exposição ocupacional de quem prepara e aplica o banho — Brasil e China —
+-**não está medida em nenhuma das fontes custodiadas**. É a lacuna que a
+-regulamentação precisaria fechar primeiro.
++A exposição ocupacional **específica de bambu tratado** (cortar, lixar, serrar) —
++Brasil e China — **não está medida em nenhuma das fontes custodiadas**. As réguas
++para medi-la agora existem (§9.1–9.3 da ficha), e uma conta de teto (§9.4) mostra
++que o risco respiratório dominante é o **particulado/sílica**, não o borato. É a
++lacuna que a regulamentação precisaria fechar primeiro.
+ 
+ ## Aviso
+ 
+diff --git a/docs/analyses/reforma-agraria-agrofloresta/ecovida-certificacao-participativa.md b/docs/analyses/reforma-agraria-agrofloresta/ecovida-certificacao-participativa.md
+index 96356186..321a51a9 100644
+--- a/docs/analyses/reforma-agraria-agrofloresta/ecovida-certificacao-participativa.md
++++ b/docs/analyses/reforma-agraria-agrofloresta/ecovida-certificacao-participativa.md
+@@ -1,60 +1,186 @@
+ ---
+-tipo_documental: ficha-academica
++tipo_documental: documento-institucional
+ estado_documental: em-revisao-documental
+-fonte_primaria: pagina institucional web
+-data_revisao: 2026-07-31
+-responsavel_curadoria: Fabio Takwara
++fonte_primaria: 'snapshot HTML de quatro páginas oficiais (2026-11-20) e transcrição controlada da página "A Rede e a lei federal", conferida contra o HTML'
++titulo: 'Rede Ecovida de Agroecologia — certificação participativa, SPG e participação no marco regulatório federal'
++autores:
++  - Rede Ecovida de Agroecologia
++ano: 2023
++veiculo: 'sítio institucional ecovida.org.br (aplicação 0.128.0; páginas web não datadas)'
+ identificador: ausente-na-fonte
+-
++endpoint_pdf: ausente-na-fonte
++pagina_institucional: https://ecovida.org.br/nossas_acoes/certificacao/lei_rede/
++paginas_conferidas:
++  - https://ecovida.org.br/nossas_acoes/certificacao/
++  - https://ecovida.org.br/nossas_acoes/certificacao/etapas/
++  - https://ecovida.org.br/nossas_acoes/certificacao/spg/
++  - https://ecovida.org.br/nossas_acoes/certificacao/lei_rede/
++hash_sha256: af3204a39593697c82a5b1b57b7aa3ce49498b06d3ef3f7c5bf75f37307ff746
++hash_transcricao: 23da01af0f9a51c5bc3d2f81665ca5c82120cb47c11b5ea00ceaca1456f36797
++data_snapshot: 2026-11-20
++data_acesso: 2026-11-24
++licenca: nao-declarada-na-fonte
++palavras_chave:
++  - certificacao-participativa
++  - spg
++  - ocs
++  - sisorg
++  - agroecologia
++  - agricultura-familiar
++  - mercados-territoriais
++  - politicas-publicas
++  - organizacao-social
++  - rede-ecovida
++data_revisao: 2026-11-24
++responsavel_curadoria: Fabio Takwara
+ ---
+ 
+-# Rede Ecovida de Agroecologia — Certificação participativa
++# Rede Ecovida de Agroecologia — certificação participativa, SPG e marco regulatório federal
+ 
+-> **Resumo:** Ficha de registro da Rede Ecovida de Agroecologia e de seu Sistema Participativo de Garantia (SPG) de certificação orgânica, uma das principais experiências brasileiras de certificação participativa em agroecologia.
++> **Síntese:** Registro documental de uma organização-rede e de seu Sistema Participativo de Garantia (SPG), transcrito de quatro páginas oficiais da seção "Certificação" do sítio da Rede Ecovida. As páginas descrevem a certificação como processo pedagógico e de geração de credibilidade, definem as instâncias que a sustentam (família, grupo, núcleo regional, Rede), listam as sete etapas do processo de obtenção do selo e apresentam a posição da Rede sobre a Lei 10831/03 e sobre os três mecanismos legais de avaliação da conformidade orgânica no Brasil (certificação por auditoria, SPG e OCS). Não é livro nem artigo científico: é fonte institucional primária sobre um arranjo de certificação participativa.
+ 
+ ## 1. Dados gerais
+ 
+ | Campo | Dado |
+ |---|---|
+-| **Nome da entidade** | Rede Ecovida de Agroecologia |
+-| **Site atual** | https://ecovida.org.br/ |
+-| **URL original citada** | http://ecovida.org.br/certificacao/ (indisponível em 31/07/2026; redireciona para 404) |
+-| **Tema** | Certificação orgânica por Sistema Participativo de Garantia (SPG) |
+-| **Cobertura** | 34 núcleos regionais, 436 grupos de agricultores, 2.848 famílias (dados do site, 2023) |
+-| **Identificador** | https://ecovida.org.br/ |
++| **Entidade** | Rede Ecovida de Agroecologia (rede de núcleos regionais, grupos de agricultores e organizações de assessoria) |
++| **Natureza documental** | `documento-institucional` (páginas de sítio; não é publicação científica) |
++| **Páginas conferidas** | seção "Certificação": página-raiz (`/certificacao/`), "Etapas", "SPG" e "A Rede e a lei federal" |
++| **Datação** | páginas web sem data de publicação; rodapé registra "Copyright (C) 2023 - Rede Ecovida"; aplicação identificada como versão 0.128.0. Ano adotado: **2023** (copyright), não data de redação |
++| **Identificador** | ausente na fonte (sem DOI, ISBN ou ISSN) |
++| **PDF** | ausente na fonte (conteúdo apenas em HTML) |
++| **Licença** | não declarada na fonte |
++| **Snapshot** | acervo privado de custódia do Acervo, fora da árvore pública (5 arquivos, `SHA256SUMS.txt` verificado) |
++| **Data do snapshot** | 2026-11-20 |
++| **Reconferência** | 2026-11-24: as quatro URLs responderam HTTP 200 e os hashes dos corpos são byte-idênticos aos do snapshot |
++| **Hash da página transcrita** | `af3204a39593697c82a5b1b57b7aa3ce49498b06d3ef3f7c5bf75f37307ff746` (85.683 bytes) |
++| **Hash da transcrição** | `23da01af0f9a51c5bc3d2f81665ca5c82120cb47c11b5ea00ceaca1456f36797` (5.197 bytes) |
++
++Hashes por página conferida (todas HTTP 200 em 2026-11-20 e em 2026-11-24):
++
++| Página | Bytes | SHA-256 |
++|---|---|---|
++| `/nossas_acoes/certificacao/` | 85.267 | `e0be12e9d45e642b19e7a3c4736f4d05a8abbfc0964ab72885de929cc0d6ce0a` |
++| `/nossas_acoes/certificacao/etapas/` | 86.844 | `15f00cb94c9da084ae5bf7fb26936afd9c544f07f452b78a462626e2569d4538` |
++| `/nossas_acoes/certificacao/spg/` | 84.679 | `3755fb41a39a5f41f81f880abd84699309f174f330842e9f0961f2a4140bb9fb` |
++| `/nossas_acoes/certificacao/lei_rede/` | 85.683 | `af3204a39593697c82a5b1b57b7aa3ce49498b06d3ef3f7c5bf75f37307ff746` |
+ 
+ ## 2. Estrutura e organização
+ 
+-A Rede Ecovida é uma organização em rede que articula agricultores, grupos regionais e organizações parceiras em torno de princípios agroecológicos. O site institucional organiza as ações em linhas: certificação orgânica, agrofloresta e extrativismo sustentável, sementes e mudas, gênero, circuitos de comercialização.
++O sítio organiza a seção "Certificação" em quatro páginas encadeadas, todas sob o menu "Nossas ações": a página-raiz define o que é certificação participativa e remete às demais; "Selo" (não transcrita nesta ficha) e "Etapas" descrevem o procedimento; "SPG" descreve as instâncias e o princípio da credibilidade; "A Rede e a lei federal" descreve a participação da Rede no marco regulatório e comenta os três mecanismos legais.
+ 
+-## 3. Problema e objetivos
++Cada página é curta (uma a duas telas de texto), com títulos em *heading* e remissões cruzadas. Não há autoria pessoal assinalada, sumário, bibliografia ou data. A página "SPG" cita como fonte "Meirelles, 2003", com remissão ao sítio do Centro Ecológico; as notas de rodapé da página "A Rede e a lei federal" identificam a Lei 10831/03, a sigla SPG e a sigla SisOrg.
+ 
+-**Problema:** a certificação orgânica convencional pode ser inacessível a pequenos agricultores familiares e comunidades tradicionais, dificultando o acesso a mercados e o reconhecimento de práticas agroecológicas.
++## 3. Problema e perguntas
+ 
+-**Objetivo:** oferecer um Sistema Participativo de Garantia (SPG) que certifique a produção orgânica a partir do controle social, da confiança mútua e da autogestão dos agricultores organizados em rede.
++Como documento institucional, a seção não formula problema de pesquisa. Ela responde a três questões práticas de quem procura certificação orgânica em rede:
++
++- o que é certificação participativa e por que ela difere da certificação por auditoria;
++- quem garante a qualidade do produto em cada instância e como a credibilidade se acumula da família ao núcleo regional e à Rede;
++- quais mecanismos a legislação brasileira reconhece e qual é a posição da Rede sobre eles.
+ 
+ ## 4. Referencial e conceitos
+-- Sistemas Participativos de Garantia (SPG);
+-- Certificação orgânica e agroecologia;
+-- Redes de agricultores e economia solidária;
+-- Agricultura familiar e comunidades tradicionais;
+-- Autogestão e controle social da qualidade.
++
++- **Certificação participativa**: "processo pedagógico onde agricultores, técnicos e consumidores se integram no intento de buscarem uma expressão pública da qualidade do trabalho que desenvolvem" (página-raiz);
++- **Credibilidade**: resultado de "dinâmica social" entre produção, consumo e divulgação; parte "da palavra da família agricultora" e "se legitima socialmente, de forma acumulativa, nas distintas instâncias organizativas que esta família integra";
++- **SPG (Sistema Participativo de Garantia)**: a página registra que a certificação participativa "hoje é também conhecida como Sistema Participativo de Garantia (SPG)";
++- **Instâncias**: família → grupo (Comissão de Ética do grupo) → núcleo regional (Comissão de Ética do Núcleo) → todos os núcleos, que compartilham "normas de produção e 4 patamares mínimos de funcionamento" e se legitimam mutuamente;
++- **Selo x logomarca**: pelo texto da página de etapas, a autorização de uso do selo decorre do processo de certificação, não da simples condição de membro da Rede;
++- **Marco legal**: Lei 10831/03 (grafia da fonte), certificação por auditoria, SPG e Organizações de Controle Social (OCS); o selo nacional do SisOrg é, pela lei, vedado às OCS.
+ 
+ ## 5. Metodologia
+ 
+-O SPG da Ecovida baseia-se em normas coletivamente construídas, processos de auditoria entre pares, registros de produção e compromisso ético-político com a agroecologia. A metodologia específica está disponível em publicações da rede.
++Não há metodologia de pesquisa. O que as páginas descrevem é um **procedimento operacional de certificação**, em sete etapas (página "Etapas"):
++
++1. **Demanda** por parte de um grupo de agricultores que integra a Rede;
++2. **Preenchimento dos documentos**: área ou propriedade, produtos, manejo a ser planejado e assumido pela família;
++3. **Visitas** por integrantes da Comissão de Ética — primeiro a "visita de pares", do próprio grupo; depois o "olhar externo", da Comissão de Ética do núcleo regional, a pedido do grupo; assessoria pode acompanhar quando requerida;
++4. **Relatório** de visita, com aspectos das propriedades ligados ao grau de ecologização e às normas internas;
++5. **Reunião** entre grupo, Comissão de Ética e núcleo regional (com assessoria): discussão do relatório, do grau de ecologização e das ações para superar limites;
++6. **Decisão de liberação do selo**, pela Comissão de Ética do núcleo;
++7. **Informação de produtos e quantidades** à coordenação do núcleo regional. O ciclo é recursivo: reinicia na etapa 3 sempre que houver dúvida sobre produto ou processo.
++
++A página "SPG" acrescenta o desenho institucional: a primeira instância é a palavra do agricultor e de sua família; o grupo referenda a família por sua Comissão de Ética; o núcleo referenda o grupo; os núcleos respaldam-se mutuamente com base em normas comuns. A condição de membro "pressupõe um compromisso com a Agroecologia", mas "não autoriza de forma automática a utilização do selo".
++
++## 6. Principais achados
++
++> Afirmações da fonte institucional (Rede Ecovida, sítio, 2023), não validações da curadoria.
++
++- A Rede se apresenta como **pioneira** no desenvolvimento da certificação participativa e como participante ativa da inclusão do SPG na Lei 10831/03 — reconhecimento que, segundo a fonte, permite a "milhares de agricultores familiares e povos e comunidades tradicionais" certificar produtos como orgânicos;
++- A lei consagrou **três mecanismos**: auditoria (empresa), SPG e OCS — "os outros dois métodos previstos tem na organização e na participação das famílias agricultoras sua mola mestra";
++- O SPG "exige maior nível de organização no que diz respeito à geração de documentos que comprovem as distintas etapas da geração de credibilidade"; as OCS têm funcionamento "mais simples, ou mais desburocratizado";
++- A fonte registra posição política própria: proibir as OCS de usar o selo SisOrg é "um equivoco da Lei que deveria ser superado";
++- O processo de certificação é descrito como **pedagógico e recursivo**, não como inspeção pontual; a decisão do selo é colegiada, em instâncias de ética;
++- A fonte não informa, nessas quatro páginas, números de núcleos, grupos, famílias ou volume certificado.
++
++## 7. Avaliação crítica
++
++**Potencialidades (avaliação curatorial):**
++
++- É a descrição operacional mais direta, em fonte primária, de como um SPG brasileiro funciona: instâncias, comissões de ética, etapas, recursividade e critério de liberação do selo;
++- Tem valor normativo-institucional para o eixo: permite distinguir, com precisão, SPG de auditoria e de OCS, distinção frequentemente embaralhada na literatura de divulgação;
++- Proveniência e integridade verificáveis (snapshot + hashes + reconferência byte-idêntica em 2026-11-24), o que a torna auditável como fonte documental.
++
++**Limitações (avaliação curatorial):**
++
++- **Não é fonte científica**: não há autoria pessoal, data, método declarado, dados ou bibliografia; não sustenta, sozinha, afirmação sobre eficácia, escala ou impacto da certificação participativa;
++- **Sem licença declarada**: a transcrição está registrada como citação de fonte institucional para uso documental interno do Acervo, não como conteúdo de licença aberta;
++- **Datas ausentes**: o único elemento temporal é o copyright de 2023; não é possível saber quando cada texto foi redigido nem se descreve a prática vigente;
++- **Divergência entre fontes da própria Rede**: o Caderno de Formação de 2004 atribui a aprovação da certificação ao Núcleo Regional, após parecer do Conselho de Ética; a página de 2023 (snapshot de 2026) atribui a decisão de liberação do selo à Comissão de Ética do Núcleo. A mudança de redação é registrada como divergência entre documentos, não arbitrada;
++- **Dado não reconfirmado:** versão anterior desta ficha atribuía ao sítio, para 2023, "34 núcleos regionais, 436 grupos de agricultores e 2.848 famílias". Nenhuma das quatro páginas conferidas exibe esses números; a atribuição foi retirada e fica pendente de fonte. Não deve ser reintroduzida sem documento que a sustente.
++
++## 8. Inserção no estado da arte
++
++Esta ficha integra o eixo **Reforma Agrária e Agrofloresta** como fonte institucional sobre garantia da conformidade orgânica, e não como evidência de resultados. Conecta-se a:
+ 
+-## 6. Achados e contribuições
++- **Rede Ecovida — Caderno de Formação: Certificação Participativa de Produtos Ecológicos (2004)**: ficha própria nesta gaveta; é a versão normativa e didática do mesmo arranjo, com normas de produção, roteiro de visita e formulário;
++- **Petersen et al. (2017)** e **Souza et al. (2014)**: metodologias participativas que compartilham o pressuposto de que a construção coletiva do conhecimento é parte do processo produtivo, e não etapa externa de verificação;
++- **Machín Sosa et al. (2012)**: o Camponês a Camponês cubano e o SPG da Ecovida são dois arranjos de circulação horizontal de confiança e conhecimento — comparáveis como dispositivos sociais, não como tecnologias;
++- **Telles (2018)** e **Siliprandi (2009)**: a certificação participativa é, na prática descrita, uma porta de entrada de agricultoras familiares em circuitos de comercialização — relação temática com a economia feminista do eixo;
++- **Souza & Schneider (2022)** e **Lobo et al. (2018)**: a dimensão de mercados institucionais e de soberania alimentar dialoga com o enquadramento legal aqui descrito.
+ 
+-1. A certificação participativa viabiliza o acesso de pequenos agricultores a mercados de produtos orgânicos.
+-2. Fortalece laços de confiança e cooperação entre produtores e consumidores.
+-3. A Rede Ecovida se constitui como referência nacional em SPG, com atuação em vários estados brasileiros.
+-4. A experiência demonstra que a garantia da qualidade orgânica pode ser construída sem depender exclusivamente de certificadoras privadas.
++Não constitui evidência para bambu estrutural, PU vegetal, biomateriais, pirólise, biochar ou conformidade normativa de materiais; a conexão com esses temas é apenas de organização social e de mercados.
+ 
+-## 7. Relação com o Acervo
++## Documentos associados localizados
+ 
+-A ficha registra uma experiência institucional brasileira de certificação agroecológica. Pode ser usada como referência para projetos de comercialização e organização de produtores, desde que não se confunda a experiência da Ecovida com a realidade de outros territórios ou iniciativas.
++| Documento | Situação | Registro |
++|---|---|---|
++| *Caderno de Formação: Certificação Participativa de Produtos Ecológicos* (Florianópolis: Rede Ecovida, 2004, 48 p.; org. Daniela de Oliveira e Luiz Carlos Rebelatto dos Santos) | fichado | [ficha própria](ecovida-caderno-certificacao-participativa-2004.md); PDF em custódia privada, SHA-256 `af1111a8c8538b559dd9bd6426b9a3234ba72f82e8b3a08d7bf8a8971f5b9e51` |
++| *Uma Identidade que se constrói em rede* — Caderno de Formação 01 (Lapa/PR, julho de 2007, 46 p.; org. Valdemar Arl) | catalogado, não fichado | PDF em custódia, SHA-256 `e21df558a39f8841df229d66e28e6e4281d36db5b46a6b3773af888ea5056c40`; decisão de ficha própria pendente |
++| Manuais e cartilhas listados em `/publicacoes/cartilhas_manuais/` (CETAP 2020; cartilhas SPG e rastreabilidade; livro SPG Brasil 2020; Cepagro PT/ES) | não conferidos | pendentes de verificação de arquivo |
+ 
+-## 8. Referência bibliográfica
++A página de publicações (`https://www.ecovida.org.br/publicacoes/cartilhas_manuais/`) respondeu HTTP 200, `text/html`, 106.922 bytes, em 2026-11-17 e em 2026-11-24.
++
++## Transcrição controlada — "A Rede e a lei federal" (conferida contra o snapshot)
++
++> Texto integral da página `https://ecovida.org.br/nossas_acoes/certificacao/lei_rede/` (85.683 bytes; SHA-256 `af3204a3…`), transcrito do HTML e conferido linha a linha. Grafias preservadas, inclusive "Lei 10831/03" e "equivoco". As notas de rodapé da fonte estão reproduzidas ao final.
++
++**Participação da Rede no marco regulatório da lei federal**
++
++A Rede Ecovida de Agroecologia é pioneira no desenvolvimento da certificação participativa, metodologia de verificação da conformidade que hoje é também conhecida como Sistema Participativo de Garantia (SPG).
++
++A Rede Ecovida participou ativamente para que o SPG fosse previsto na Lei 10831/03¹. Assim foi feito e hoje, graças a este reconhecimento, milhares de agricultores familiares e povos e comunidades tradicionais podem se valer deste método para certificar seus produtos como orgânicos.
++
++A legislação Brasileira consagrou três mecanismos que atestam a qualidade dos produtos orgânicos oferecidos a consumidores:
++
++1. **A Certificação por auditoria** — Realizada por uma empresa. É o método usualmente aceito no mundo da certificação, e não apenas no âmbito da agricultura orgânica.
++
++Os outros dois métodos previstos tem na organização e na participação das famílias agricultoras sua mola mestra.
++
++2. **Os SPGs²** — Exigem maior nível de organização no que diz respeito à geração de documentos que comprovem as distintas etapas da geração de credibilidade.
++
++3. **As Organizações de Controle Social (OCS)** — Têm um mecanismo de funcionamento mais simples, ou mais desburocratizado, ainda que as exigências necessárias para garantir a idoneidade do produto ofertado estão todas previstas. Vale salientar que a Lei prevê que as OCS, não possuem permissão para usar o selo nacional do SisOrg³.
++
++A Rede Ecovida entende que proibir que as OCS usem o selo do SisOrg é um equivoco da Lei que deveria ser superado.
++
++¹ É a lei que "dispõe sobre a agricultura orgânica no Brasil e dá outras providências". ² Sistemas Participativos de Garantia. ³ Sistema Brasileiro de Avaliação da Conformidade Orgânica.
++
++## Relações
++
++- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública;
++- Origem do registro: a versão anterior desta ficha (compacta, sem hash, licença e data de acesso, com remissão a URL descontinuada `http://ecovida.org.br/certificacao/`) foi substituída em 2026-11-24 por esta versão documental, construída sobre o snapshot de 2026-11-20 e reconferida em 2026-11-24;
++- Inventário de custódia dos cadernos: registro privado de custódia do Acervo (fora da árvore pública), de 2026-11-17.
++
++---
+ 
+-REDE ECOVIDA DE AGROECOLOGIA. *Certificação*. Disponível em: http://ecovida.org.br/certificacao/ (acesso instável; site atual: https://ecovida.org.br/). Acesso em: 31 jul. 2026.
++> Ficha documental reelaborada em 2026-11-24 por Hermes Agent a partir da leitura integral das quatro páginas oficiais e da transcrição controlada conferida contra o HTML. Estado: em-revisao-documental — aguarda revisão humana antes de homologação. Nenhum texto de obra protegida foi inserido em `docs/`: a transcrição acima é de página institucional, conforme tarefa da §3.6 do plano.
+diff --git a/mkdocs.yml b/mkdocs.yml
+index 8cde6cd0..db542246 100644
+--- a/mkdocs.yml
++++ b/mkdocs.yml
+@@ -348,6 +348,7 @@ nav:
+           - Ouro Preto do Oeste (RO): analyses/reforma-agraria-agrofloresta/ouro-preto-oeste-ro.md
+           - REBRAF — Rede Brasileira Agroflorestal: analyses/reforma-agraria-agrofloresta/rebraf-rede-brasileira-agroflorestal.md
+           - Rede Ecovida — certificação participativa: analyses/reforma-agraria-agrofloresta/ecovida-certificacao-participativa.md
++          - Rede Ecovida — Caderno de Formação 2004 (certificação participativa): analyses/reforma-agraria-agrofloresta/ecovida-caderno-certificacao-participativa-2004.md
+       - Agroecologia, território e economia:
+           - Agriculturas v. 4 n. 2 (2007): analyses/reforma-agraria-agrofloresta/agriculturas-2007-organizacoes-locais-desenvolvimento.md
+           - Mulheres e agroecologia (Siliprandi 2009): analyses/reforma-agraria-agrofloresta/siliprandi-2009-mulheres-agroecologia.md

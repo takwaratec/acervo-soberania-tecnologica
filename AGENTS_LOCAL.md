@@ -66,6 +66,62 @@ Regras derivadas:
 - Textos integrais protegidos, dados pessoais, contratos, normas e materiais brutos ficam fora de `docs/`.
 - Não misturar documentos de projetos irmãos. O Acervo pode conter a referência científica, mas não atas, perfis de equipes, propostas ou operação de outras frentes.
 
+## Conferência de afirmação — quem liga o instrumento, e quando
+
+Esta seção existe porque um texto declarou no método uma conferência que não houve. A regra não é
+sobre redigir melhor: é sobre separar **afirmação de conferência**, e sobre a conferência ser
+medida, registrada e auditável.
+
+**A1. Quem abre a frente liga o instrumento.** O executor da frente roda a conferência e é quem
+responde pelo número. O regente não roda, não mede por conta própria nem entrega resultado pronto no
+lugar do executor: ele lê o que foi registrado e aponta inconsistência. Instrumento ligado pelo
+regente não ensina a frente e cria segunda direção — a regra é uma só.
+
+**A2. Texto que afirma garantia de conferência é afirmação sobre o próprio trabalho, e entra na
+conferência.** A frase de método — "toda afirmação numérica foi conferida contra a fonte primária",
+"todas as fontes foram lidas integralmente", ou equivalente — não é enfeite: é declaração de
+medição. Só pode constar se houver registro que a sustente. Na ausência do registro, a frase sai ou
+passa a relatar o que de fato ocorreu ("N de M conferidas; as demais marcadas como não conferidas").
+Documento que declara verificação não realizada não é publicável, ainda que todo o resto esteja
+correto.
+
+**A3. O denominador é fixado antes da medição, por escrito.** O que conta como "uma afirmação" é
+regra declarada **antes** de rodar o gate. Contagem escolhida depois do resultado não mede nada, e
+percentual sem denominador e sem regra não é dado. Duas contagens divergentes do mesmo texto são
+indício de regra implícita, não de erro de um dos lados.
+
+**A4. Nenhuma afirmação fica sem veredito.** Cada afirmação numérica e cada parágrafo de prosa recebe
+um veredito registrado. `NAO_MEDIDO` é veredito válido e conta no denominador — o proibido é o
+silêncio: ausência de veredito somada a uma frase de método que afirma conferência integral. Fonte
+inacessível, sem extração ou sob paywall: `NAO_MEDIDO` com o motivo declarado, nunca herança do
+veredito de rodada anterior.
+
+**A5. Corrigir é restaurar fidelidade à fonte; o gate mede e não decide.** Proibido ajustar texto
+para o gate passar. Quando o gate aponta divergência, corrige-se a afirmação contra a fonte; quando a
+fonte não sustenta a afirmação, a afirmação sai.
+
+**A6. Leitura parcial não é conferência.** Resumo, busca por trecho e leitura dirigida são triagem e
+devem ser declarados como tal. Chamar de "conferido" o que foi triado é a mesma falha que a A2
+proíbe, aplicada ao método.
+
+**A7. O escopo do diff é medido antes de abrir, e `git add -A` é proibido em branch de frente.**
+Numa branch de frente, `git add -A` e `git add .` estão proibidos: adiciona-se **caminho declarado**.
+Foi assim que uma branch atrás da `main` acumulou 300 arquivos num diff que devia ter 184 — e o PR
+teria apagado o teste de um gate e uma página publicada, além de reverter fichas de seis gavetas
+para versões antigas.
+
+Antes de abrir a PR, a frente mede e reporta, com número:
+
+- `git diff --name-only origin/main | wc -l` — o total;
+- a classificação por gaveta, separando o que é da frente do que não é;
+- **as deleções listadas uma a uma** (`git diff --name-status origin/main | grep '^D'`). Deleção é o
+  sinal mais caro do diff: quase sempre significa branch desatualizada, não remoção pretendida;
+- **as modificações fora da gaveta da frente**, que são regressão de conteúdo de outra frente.
+
+A escopo é aprovado quando o diff fora da gaveta da frente está **vazio**. Não "pequeno": vazio.
+Branch desatualizada se corrige trazendo a frente para uma branch cortada da `main` com caminhos
+declarados — nunca por `git add -A`, nunca por rebase de branch publicada.
+
 ## Estados documentais
 
 Usar a taxonomia definida em `GOVERNANCA_DOCUMENTAL.md`. Estados canônicos: `recebido`, `identificacao-pendente`, `protegido-privado`, `duplicata-fonte-auxiliar`, `extracao-preliminar`, `em-revisao-documental`, `homologado-documentalmente`, `visao-autoral`, `historico`, `quarentena`, `retirado-da-publicacao`. Nenhum script pode homologar conteúdo automaticamente.

@@ -1,0 +1,35 @@
+{
+ "schema": "REGISTRO_FIDELIDADE_FONTES_NORMATIVAS_R1",
+ "mede": "se o trecho entre aspas da ficha existe literalmente no extrato custodiado; NAO mede se a afirmacao que o texto constroi com ele e verdadeira",
+ "denominador_fixado": 38,
+ "por_ficha": {
+  "ficha-pi292-89-registro-preservativos-madeira.md": {
+   "conferidos": 7,
+   "ok": 7
+  },
+  "ficha-pn151-97-ibama-risco-ambiental.md": {
+   "conferidos": 6,
+   "ok": 6
+  },
+  "ficha-iema-es-nt01-2023-preservacao-madeira.md": {
+   "conferidos": 12,
+   "ok": 12
+  },
+  "ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md": {
+   "conferidos": 4,
+   "ok": 4
+  },
+  "ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md": {
+   "conferidos": 2,
+   "ok": 2
+  },
+  "ficha-in05-92-ibama-destinacao-final-residuos.md": {
+   "conferidos": 7,
+   "ok": 7
+  }
+ },
+ "conferidos": 38,
+ "ok": 38,
+ "falhas": [],
+ "portao_exit": 0
+}

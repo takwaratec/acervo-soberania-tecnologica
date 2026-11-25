@@ -1,0 +1,103 @@
+{
+ "schema": "ACERVO_CUSTODIA_PRIVADA_PDFS_R1",
+ "nota": "Os PDFs saíram do rastreio do repositório (governance-check.yml proíbe PDF versionado). Cada um continua em _privado, com o mesmo sha256 do byte que estava versionado. O auditor confere o hash do arquivo que receber por canal privado.",
+ "total": 16,
+ "pdfs": {
+  "docs/analyses/cobre/fontes/pdf/BR_CONAMA_357_2005_Qualidade_Aguas.pdf": {
+   "sha256": "7ec713c45154ba60ee9e43535580548b98c0bcce4abddef1a9543c46db29e21f",
+   "bytes": 205937,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Boratos_Cobre/pdf/BR_CONAMA_357_2005_Qualidade_Aguas.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/pdf/BR_CONAMA_430_2011_Efluentes.pdf": {
+   "sha256": "cd077d102b9427dcd20dcb8b2a812f0b54945965663c4a21d1667d80b9340da6",
+   "bytes": 158284,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Boratos_Cobre/pdf/BR_CONAMA_430_2011_Efluentes.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/pdf/WHO_2004_Copper-in-Drinking-Water_Background.pdf": {
+   "sha256": "ea53cf69135516258e79fc3c705fa344106f3dca05c7bce4fee16e6515c14fc6",
+   "bytes": 278146,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Boratos_Cobre/pdf/WHO_2004_Copper-in-Drinking-Water_Background.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/pdf/embrapa-cot110-tratamento-madeira-propriedade-rural.pdf": {
+   "sha256": "86de88b29be0fef34554121dc7a670f71975cf91ddf3664a422525d6b0fd1485",
+   "bytes": 5087230,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/embrapa-cot110-tratamento-madeira-propriedade-rural.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/pdf/embrapa-pfb-2023-rusch.pdf": {
+   "sha256": "c394489567bc801af4bb1fa983e397322324f63478aacb035266da8a77264db1",
+   "bytes": 2251942,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_CCA_CCB/Rusch_2023_CCB_Bambu.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/pdf/gauss-2020-tratamento-preservativo.pdf": {
+   "sha256": "dfc13c3cfcb9662f75f0704d722258f8e78e07435f0ad70d71e8331ab9d89a1a",
+   "bytes": 15291496,
+   "caminho_privado": "_privado/fontes-academicas/2020-gauss-tratamento-preservativo-modificacao-quimica/original.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/pdf/manual-irrigacao-bambu-conbea97.pdf": {
+   "sha256": "c6cbdd49b1e0d42409374cc254b81b748313e879e194c51cce0e8da43a0d3d6e",
+   "bytes": 104681,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/manual-irrigacao-bambu-conbea97.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/pdf/nmba-2006-preservation-bamboo-manual.pdf": {
+   "sha256": "1015b54bd0053f365efa4281d9f8c8fde35f80d12e6a9e05d3327892a486fd41",
+   "bytes": 744646,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/nmba-2006-preservation-bamboo-manual.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/pdf/ufes-tcc-tratamento-bambu.pdf": {
+   "sha256": "cad731f98300d50a0233da49efb08247f9115e57e6bf31b4400e9903a1c1f292",
+   "bytes": 703401,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/ufes-tcc-tratamento-bambu.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/pdf/uftm-scharfenberg-cb-cobre-boro.pdf": {
+   "sha256": "f18d888a0db47449e0d20abef91688f19c90adc3a473987f696f0d5d73f982d8",
+   "bytes": 2356041,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/uftm-scharfenberg-cb-cobre-boro.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/s11c/1989_pi292_preservativos_registro.pdf": {
+   "sha256": "a7d085cd9bd0bdd85d17a72ccc4c2bf17bdf18c7858b4b1ffb8bfc1c2cbd23cb",
+   "bytes": 103925,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c/1989_pi292_preservativos_registro.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/s11c/1997_pn151_ibama_registro_risco_ambiental.pdf": {
+   "sha256": "372e9324d178cb9442ced3d5b9f5cc0f04b799d0362810035d9c616d56bea20a",
+   "bytes": 229412,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c/1997_pn151_ibama_registro_risco_ambiental.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/s11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.pdf": {
+   "sha256": "ec643f7b088711aa4a815d7a4efd78df8a2a57ab01f7e9d6470dbcec97b9de2e",
+   "bytes": 1922145,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/s11c/2023_iema_es_nt01_preservacao_madeira.pdf": {
+   "sha256": "57576709749df7d43d5293080aa8ea160ef5a66df922abbf46dd0770151f4c22",
+   "bytes": 1258007,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c/2023_iema_es_nt01_preservacao_madeira.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/s11c/2025_ufsm_ciencia_florestal_cca_moiroes_solo.pdf": {
+   "sha256": "e8a6467d6f1b286da71ffc0d91b75211b1efa9df0879793047a291764cae9f7a",
+   "bytes": 1116265,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_CCA_CCB/Eloy_2025_CCA_Moiroes_Solo.pdf",
+   "copias_privadas_encontradas": true
+  },
+  "docs/analyses/cobre/fontes/s11d/1992_in05_ibama_destinacao_final_residuos.pdf": {
+   "sha256": "69f340be735b31b557d554896b8995a8d8adae6f7daafd3e389081c5f5df5265",
+   "bytes": 130080,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Madeira_Tratada_S11d/1992_in05_ibama_destinacao_final_residuos.pdf",
+   "copias_privadas_encontradas": true
+  }
+ }
+}

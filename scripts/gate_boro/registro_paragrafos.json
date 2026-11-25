@@ -1,0 +1,1759 @@
+{
+ "O boro é o elemento de **número atômico 5**: todo átomo com ": {
+  "secao": "1. O que é um \"elemento químico\"",
+  "total": 3,
+  "confere": 0,
+  "nao_medido": 3,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**A conta que ninguém faz.** Quando alguém diz \"use 10 grama": {
+  "secao": "1. O que é um \"elemento químico\"",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "1 kg de ácido bórico contém 175 g de boro. Quem pesa \"10 g d": {
+  "secao": "1. O que é um \"elemento químico\"",
+  "total": 4,
+  "confere": 0,
+  "nao_medido": 4,
+  "ausente": 0,
+  "com_estatuto": 4,
+  "veredito": "ESTATUTO_DECLARADO"
+ },
+ "O contrário também vale: para obter 10 g de boro seriam nece": {
+  "secao": "1. O que é um \"elemento químico\"",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 2,
+  "veredito": "ESTATUTO_DECLARADO"
+ },
+ "| Nome | Fórmula | Boro na massa (%) | O que é | |---|---|--": {
+  "secao": "2. Três nomes que confundem",
+  "total": 8,
+  "confere": 0,
+  "nao_medido": 8,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "Em 1808, Humphry Davy isolou o elemento por eletrólise. Mas ": {
+  "secao": "3. De onde o boro veio",
+  "total": 1,
+  "confere": 0,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**Quatro minerais respondem por 90%** do que a indústria usa": {
+  "secao": "4. Onde o boro está de verdade",
+  "total": 1,
+  "confere": 1,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "| País | Produção 2025 (mil t) | Reservas (mil t) | |---|---": {
+  "secao": "4. Onde o boro está de verdade",
+  "total": 13,
+  "confere": 0,
+  "nao_medido": 13,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**Atenção à unidade.** Os números da tabela estão em **mil t": {
+  "secao": "4. Onde o boro está de verdade",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 2,
+  "veredito": "ESTATUTO_DECLARADO"
+ },
+ "**O detalhe mais importante desta tabela é o que falta nela.": {
+  "secao": "4. Onde o boro está de verdade",
+  "total": 3,
+  "confere": 0,
+  "nao_medido": 3,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "O Brasil não produz boro. Em 2024, o país importou **459,7 m": {
+  "secao": "5. A dependência brasileira",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "| Origem | Participação por peso (massa) | Massa importada (": {
+  "secao": "5. A dependência brasileira",
+  "total": 14,
+  "confere": 0,
+  "nao_medido": 14,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**A coluna diz peso, não dinheiro — e isso muda o ranking.**": {
+  "secao": "5. A dependência brasileira",
+  "total": 5,
+  "confere": 0,
+  "nao_medido": 5,
+  "ausente": 0,
+  "com_estatuto": 5,
+  "veredito": "ESTATUTO_DECLARADO"
+ },
+ "**84,9% vêm da América do Sul, em peso** (73,8% em valor) — ": {
+  "secao": "5. A dependência brasileira",
+  "total": 5,
+  "confere": 0,
+  "nao_medido": 5,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "Pela ótica do USGS, os Estados Unidos importam **90% de todo": {
+  "secao": "5. A dependência brasileira",
+  "total": 1,
+  "confere": 1,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "**Como estes números foram obtidos.** O ComexStat não tem um": {
+  "secao": "5. A dependência brasileira",
+  "total": 6,
+  "confere": 0,
+  "nao_medido": 6,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "| Faixa | Limite superior (mg de boro/dia) | |---|---| | 1–3": {
+  "secao": "6. Faz bem ou faz mal?",
+  "total": 14,
+  "confere": 0,
+  "nao_medido": 14,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "Suplementos costumam trazer de **0,15 a 6 mg** de boro eleme": {
+  "secao": "6. Faz bem ou faz mal?",
+  "total": 4,
+  "confere": 0,
+  "nao_medido": 4,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "1. Em ratos, a dose mais baixa com efeito observável sobre o": {
+  "secao": "7. O que a ciência diz — e o que ela não diz",
+  "total": 18,
+  "confere": 8,
+  "nao_medido": 10,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "PARCIAL"
+ },
+ "**O que \"2,4 mg/L\" quer dizer na prática:** é a concentração": {
+  "secao": "7. O que a ciência diz — e o que ela não diz",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 2,
+  "veredito": "ESTATUTO_DECLARADO"
+ },
+ "**E 2,4 mg/L não é um teto invariável.** A própria OMS diz q": {
+  "secao": "7. O que a ciência diz — e o que ela não diz",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "A OMS também registra que **a maior parte do mundo tem água ": {
+  "secao": "7. O que a ciência diz — e o que ela não diz",
+  "total": 1,
+  "confere": 0,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "| Idade | Exposição diária permitida (mg de boro/dia) | |---": {
+  "secao": "8. A régua do remédio e a régua da farmácia",
+  "total": 11,
+  "confere": 0,
+  "nao_medido": 11,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "Note que é **boro elementar**, não ácido bórico: 10 mg de bo": {
+  "secao": "8. A régua do remédio e a régua da farmácia",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "E o EMA registra um dado importante: **mais de 90% do ácido ": {
+  "secao": "8. A régua do remédio e a régua da farmácia",
+  "total": 1,
+  "confere": 1,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "**Farmácia brasileira.** A água boricada a 3% é **antissépti": {
+  "secao": "8. A régua do remédio e a régua da farmácia",
+  "total": 1,
+  "confere": 1,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "A norma da ANVISA exige teor de **2,900% a 3,200%** de ácido": {
+  "secao": "8. A régua do remédio e a régua da farmácia",
+  "total": 4,
+  "confere": 3,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "PARCIAL"
+ },
+ "Em 2025, quatro pesquisadores publicaram, com revisão por pa": {
+  "secao": "9. O boro é cancerígeno?",
+  "total": 1,
+  "confere": 1,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "**E também não é sentença.** \"HCT\" é o nome de uma **categor": {
+  "secao": "9. O boro é cancerígeno?",
+  "total": 3,
+  "confere": 3,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "Na categoria HCT, somando 1 kg de colmo tratado (**0,159 mPt": {
+  "secao": "9. O boro é cancerígeno?",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "| Fluxo | Impacto em mPt (milibonto, unidade do modelo ACV) ": {
+  "secao": "9. O boro é cancerígeno?",
+  "total": 12,
+  "confere": 0,
+  "nao_medido": 12,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**O resíduo sólido responde por 92,6% do HCT; o efluente, po": {
+  "secao": "9. O boro é cancerígeno?",
+  "total": 3,
+  "confere": 0,
+  "nao_medido": 3,
+  "ausente": 0,
+  "com_estatuto": 3,
+  "veredito": "ESTATUTO_DECLARADO"
+ },
+ "**Um cuidado com datas.** Documentos de 2021 ainda citam \"Re": {
+  "secao": "9. O boro é cancerígeno?",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**Besouros e cupins comem amido.** O besouro-de-pólvora põe ": {
+  "secao": "10. O bambu e o boro",
+  "total": 3,
+  "confere": 3,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "**Quem difundiu.** O maior difusor da técnica é o construtor": {
+  "secao": "10. O bambu e o boro",
+  "total": 1,
+  "confere": 0,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**O tratamento, em números.** Um estudo brasileiro mediu a r": {
+  "secao": "10. O bambu e o boro",
+  "total": 6,
+  "confere": 0,
+  "nao_medido": 6,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**A eficácia também é medida em laboratório.** Um ensaio com": {
+  "secao": "10. O bambu e o boro",
+  "total": 7,
+  "confere": 6,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "PARCIAL"
+ },
+ "**Um ensaio de campo brasileiro, com CCB, durou cinco anos.*": {
+  "secao": "10. O bambu e o boro",
+  "total": 14,
+  "confere": 13,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "PARCIAL"
+ },
+ "| Situação de uso | Vida útil sem tratamento | Vida útil com": {
+  "secao": "10. O bambu e o boro",
+  "total": 9,
+  "confere": 0,
+  "nao_medido": 9,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "| Componente | Ciclo de vida declarado (anos) | |---|---| | ": {
+  "secao": "11. A manutenção: o que a Green School faz de fato",
+  "total": 3,
+  "confere": 0,
+  "nao_medido": 3,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "E o tratamento inicial é um **banho de composto orgânico de ": {
+  "secao": "11. A manutenção: o que a Green School faz de fato",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "- o bambu **\"deve ser tratado uma única vez, antes do início": {
+  "secao": "11. A manutenção: o que a Green School faz de fato",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**O verniz do Arc.** A estrutura mais recente, o Arc (2021),": {
+  "secao": "11. A manutenção: o que a Green School faz de fato",
+  "total": 1,
+  "confere": 0,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**O estudo que mudou a leitura deste artigo.** Quatro pesqui": {
+  "secao": "12. O resíduo: onde o boro muda de natureza",
+  "total": 1,
+  "confere": 1,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "**Por que eles usaram esse termo, e o que ele quer dizer.** ": {
+  "secao": "12. O resíduo: onde o boro muda de natureza",
+  "total": 3,
+  "confere": 0,
+  "nao_medido": 3,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**Depois, os autores normalizaram.** A normalização do ReCiP": {
+  "secao": "12. O resíduo: onde o boro muda de natureza",
+  "total": 3,
+  "confere": 3,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "**O que o número afirma, em tradução direta.** Afirma que, e": {
+  "secao": "12. O resíduo: onde o boro muda de natureza",
+  "total": 2,
+  "confere": 2,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "- naquele processo artesanal, naquele estado, naquele ano, *": {
+  "secao": "12. O resíduo: onde o boro muda de natureza",
+  "total": 4,
+  "confere": 4,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "- que o mesmo vale para uma fábrica do Sudeste com autoclave": {
+  "secao": "12. O resíduo: onde o boro muda de natureza",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**O maior fluxo documentado do mundo** é o andaime de bambu ": {
+  "secao": "13. As estruturas efêmeras",
+  "total": 1,
+  "confere": 0,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**E aqui está a torção.** Fui verificar se esse bambu é trat": {
+  "secao": "13. As estruturas efêmeras",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**O que a norma brasileira permite.** Água boricada a 3%, co": {
+  "secao": "14. O uso doméstico: onde este artigo vira advertência",
+  "total": 1,
+  "confere": 1,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "**1. A dose não é regulada.** A receita registrada no estudo": {
+  "secao": "14. O uso doméstico: onde este artigo vira advertência",
+  "total": 8,
+  "confere": 5,
+  "nao_medido": 3,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "PARCIAL"
+ },
+ "O que existe são **limites ocupacionais para as formas quími": {
+  "secao": "14. O uso doméstico: onde este artigo vira advertência",
+  "total": 5,
+  "confere": 0,
+  "nao_medido": 5,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**E o público mais exposto.** O NIH registra que a **maioria": {
+  "secao": "14. O uso doméstico: onde este artigo vira advertência",
+  "total": 1,
+  "confere": 1,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "**O que fazer em vez disso.** Se você quer tratar bambu, a d": {
+  "secao": "14. O uso doméstico: onde este artigo vira advertência",
+  "total": 2,
+  "confere": 2,
+  "nao_medido": 0,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "CONFERIDO"
+ },
+ "**1. \"Isso é boro ou é produto?\"** Se o número é em gramas o": {
+  "secao": "15. Como ler qualquer texto sobre boro",
+  "total": 3,
+  "confere": 0,
+  "nao_medido": 3,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**4. \"É medida ou calculada?\"** Os 93% do ciclo de vida são ": {
+  "secao": "15. Como ler qualquer texto sobre boro",
+  "total": 1,
+  "confere": 0,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "- O boro é o **elemento de número atômico 5**, massa **10,81": {
+  "secao": "16. Resumo em vinte linhas",
+  "total": 22,
+  "confere": 1,
+  "nao_medido": 21,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "PARCIAL"
+ },
+ "**Lei 12.305/2010 — Política Nacional de Resíduos Sólidos.**": {
+  "secao": "18. Duas políticas, nenhuma norma específica",
+  "total": 1,
+  "confere": 0,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**Lei 12.484/2011 — Política Nacional de Incentivo ao Manejo": {
+  "secao": "18. Duas políticas, nenhuma norma específica",
+  "total": 1,
+  "confere": 0,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "**Na prática:** quem trata bambu com boro na própria casa ou": {
+  "secao": "18. Duas políticas, nenhuma norma específica",
+  "total": 1,
+  "confere": 0,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "- **ANVISA** regula a água boricada a 3% como antisséptico [": {
+  "secao": "18. Duas políticas, nenhuma norma específica",
+  "total": 2,
+  "confere": 1,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "PARCIAL"
+ },
+ "**O que a fonte diz:** o boro no ambiente aquático tem no **": {
+  "secao": "18. Duas políticas, nenhuma norma específica",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "- o resíduo contaminado é o **maior contribuinte de impacto ": {
+  "secao": "18. Duas políticas, nenhuma norma específica",
+  "total": 1,
+  "confere": 0,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "1. **É uma cadeia em crescimento** — e a política do bambu e": {
+  "secao": "18. Duas políticas, nenhuma norma específica",
+  "total": 1,
+  "confere": 0,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "- O **efluente da mina de Kırka** é um problema de **arsênio": {
+  "secao": "19. O boro não é minerado: ele vem junto",
+  "total": 2,
+  "confere": 0,
+  "nao_medido": 2,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "E ela funciona o suficiente para **expor o próprio problema*": {
+  "secao": "19. O boro não é minerado: ele vem junto",
+  "total": 1,
+  "confere": 0,
+  "nao_medido": 1,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "- sobreprodução de **78,8% / 70,7% / 57,9% / 84,1%** acima d": {
+  "secao": "19. O boro não é minerado: ele vem junto",
+  "total": 10,
+  "confere": 0,
+  "nao_medido": 10,
+  "ausente": 0,
+  "com_estatuto": 0,
+  "veredito": "NAO_CONFERIDO"
+ },
+ "Um **átomo** é a menor porção de matéria que ainda é aquela ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Isso já resolve a confusão número um: **o boro não é uma sub": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Estatuto dos números desta seção.** As contas abaixo são *": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "1 kg de ácido bórico contém 175 g de boro.\nQuem pesa \"10 g d": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "| Nome | Fórmula | Boro na massa (%) | O que é |\n|---|---|--": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**De onde vem cada número desta tabela.** Nenhum destes teor": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**\"Hidratado\" e \"anidro\"** — a única diferença é água presa ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**\"Bórax\" e \"ácido bórico\" não são sinônimos.** O bórax é sa": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "O boro não foi descoberto por químicos de laboratório. Ele c": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Três séculos antes disso, oleiros da China usavam o mesmo sa": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "O boro nunca aparece isolado na natureza. Ele se combina com": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "As maiores jazidas economicamente viáveis estão em três faix": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "1. o **deserto de Mojave**, nos Estados Unidos;\n2. o **cintu": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Esses depósitos se associam a **atividade vulcânica antiga e": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "| País | Produção 2025 (mil t) | Reservas (mil t) |\n|---|---": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Fonte da tabela inteira.** USGS, *Mineral Commodity Summar": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "E o USGS registra: \"aos níveis atuais de consumo, **os recur": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Fonte da tabela inteira — e o comando que a reproduz.** Co": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "---": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Esta é a pergunta que quase todo mundo faz, e a resposta exi": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Toda substância tem uma dose em que não faz nada e uma dose ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Para o boro, existe uma resposta oficial a três perguntas di": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Primeira: o corpo humano precisa de boro?** Não, segundo o": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Isso não é o mesmo que dizer que o boro é inútil.** Há ind": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Segunda: quanto é demais?** O NIH fixa um **limite superio": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "| Faixa | Limite superior (mg de boro/dia) |\n|---|---|\n| 1–3": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Fonte da tabela inteira.** NIH, Office of Dietary Suppleme": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Terceira: qual é o efeito mais sensível?** Aqui a resposta": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "O efeito crítico do boro, em todas as réguas oficiais, é a *": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**A cadeia da água de consumo.** A Organização Mundial da Sa": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Estatuto dos números deste bloco.** Toda a cadeia abaixo —": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Medicamento.** A Agência Europeia de Medicamentos calculou": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "| Idade | Exposição diária permitida (mg de boro/dia) |\n|---": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Fonte da tabela inteira.** EMA, *Boric acid and borate use": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "1. **\"Não poderá ser aplicado em grandes áreas do corpo, qua": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Por que a restrição de área tem lógica.** Pele com lesão a": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Por que a restrição infantil é coerente.** O efeito crític": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Esta é a pergunta onde quase todo texto erra — para os dois ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "A União Europeia classifica, no regulamento CLP, **quatro en": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "- ácido bórico (CAS 10043-35-3)\n- trióxido de diboro (CAS 13": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Traduzindo.** **Repr. 1B** significa \"reconhecidamente tóx": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "- **H360F** — \"Pode prejudicar a fertilidade\";\n- **H360D** —": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "E aqui está a distinção que resolve a confusão: **toxicidade": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "- **Carc.** = pode causar câncer. **O boro não está classifi": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Portanto:": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Dizer que o boro \"é cancerígeno\" **contraria a norma**.\nDize": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "### A afirmação de 2025 que não pode ser ignorada": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Até aqui este artigo falou de classificação regulatória. Mas": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Isso não é boato e não deve ser tratado como boato.** É pu": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Por que, então, o termo importa?** Não porque meça massa —": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Fonte da tabela inteira.** Araujo et al. 2025 [19], **Tabe": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**A leitura honesta, então, é esta:**": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "- a classificação europeia diz que **o boro pode prejudicar ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "As três afirmações convivem. Nenhuma cancela a outra — e o r": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "O bambu é uma gramínea gigante. Sua vantagem é crescer rápid": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "O boro resolve isso de um jeito simples: **ele atravessa o c": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Onde essa prática nasceu.** O tratamento com boro foi iden": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Onde a técnica é ensinada.** A Green School virou vitrine:": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**E o limite do boro.** Ele é **hidrossolúvel**: sai do colm": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "A última linha é a que importa: **boro não resolve contato c": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Um edifício de bambu não é \"construído e esquecido\". Ele é *": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "| Componente | Ciclo de vida declarado (anos) |\n|---|---|\n| ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**O que o documento diz sobre manutenção:** *\"os exames visu": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**O que o construtor diz.** O FAQ do IBUKU é ainda mais espe": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**A conclusão que os dois documentos sustentam:** a manutenç": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Até aqui o boro foi solução. Esta seção é sobre o que ele se": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Não é boato, e não deve ser tratado como boato.** Um númer": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "O ReCiPe calcula, para cada emissão de cada etapa, um valor ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Onde o estudo foi feito, e por que isso limita a extrapola": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Isso não desqualifica o achado — **qualifica o alcance dele*": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "O que o estudo **não** sustenta:": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**E a concessão ao Sudeste não se sustenta.** Este artigo ch": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Isso não autoriza dizer que vale para o Brasil inteiro — só ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**O que fica de pé, e é o achado central:** o estudo mostra,": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Feiras, pavilhões, quiosques, cenografia, andaimes, casas te": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Aqui o problema do boro fica mais agudo, por uma razão simpl": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**A consequência é o argumento inteiro:**": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "- o maior fluxo de bambu efêmero do planeta é de material **": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "O material tratado não volta ao solo sem discussão, não serv": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**O que falta no Brasil.** Nenhum dado localizado quantifica": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Existe uma receita que circula para tratar bambu em casa: co": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**O que ela não cobre:** banho de preservação, imersão de co": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Os quatro problemas concretos:**": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**2. A exposição não é medida.** Nenhuma fonte localizada me": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**3. O resíduo não tem destino.** O efluente do banho, as ap": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**4. A queima é a saída provável — e é justamente a que as f": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Se você chegou até aqui, já pode checar sozinho. Cinco pergu": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**2. \"Isso é dose ou é concentração?\"** mg/kg/dia é dose por": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**3. \"Qual é a via?\"** Inalação, ingestão e pele absorvem de": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**5. \"Reprodutivo ou cancerígeno?\"** O boro é **Repr. 1B**, ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Todos os números deste resumo vêm das seções anteriores e ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Declarar lacunas é parte do método. Estas são reais:": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "- **Exposição ocupacional no Brasil.** Nenhuma fonte mede tr": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Esta é a parte mais desconfortável do artigo, e a única em q": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Primeiro, o que as fontes desta gaveta mostram.** A cadeia": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "E isso muda o argumento. **Se** o padrão documentado é artes": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "### Duas leis, duas datas, e o mesmo vazio": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "*\"resíduos sólidos: material, substância, objeto ou bem desc": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**O banho de tratamento pode ser resíduo sólido pela definiç": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Mas procure \"bambu\" na PNRS: zero ocorrências. \"Madeira\": ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Procure \"tratamento\": zero. \"Químico\": zero. \"Resíduo\": ze": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "### Quem fiscaliza? A pergunta sem dono": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "A PNRS distribui competência por **sistemas**, não por mater": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**E há um problema de fronteira que ninguém resolveu:**": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "### O que essa combinação produz": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Boro não é listado como resíduo perigoso** [14] e não é no": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**E \"não listado\" não é \"inofensivo\".** É **não avaliado**. ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "### A rota que ninguém mediu: o subsolo e a cisterna": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Este é o ponto em que o artigo precisa ser mais cuidadoso, p": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Traduzindo:** **solo rico em óxido de alumínio retém boro.": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**O que isso significa para quem bebe água de cisterna:** a ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**E aqui o artigo precisa admitir:** **não há medição.** Não": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "### A banalização do risco": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "O boro tem uma propriedade perigosa para a percepção pública": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Circula a ideia de que, se fosse cromo ou arsênio, ninguém": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**E a norma não basta.** O que se relata na prática é resídu": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**A lição não é que o boro é pior que o cromo. É a inversa:*": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**O que a evidência sustenta, com precisão:**": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**O que a evidência não sustenta:** que a apara no quintal p": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "### A pergunta que fica para quem regula": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Este artigo não tem autoridade para dizer quem deveria fisca": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Onde isso deixa de ser artigo e passa a ser política públi": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**O que este artigo pede, e é uma pergunta, não uma tese:** ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Falta a este texto uma peça que muda a leitura de tudo o que": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "### O que a geologia impõe": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Boro, lítio e arsênio não se encontram por acaso na mesma ro": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Isso não é detalhe de mineralogia. É o mecanismo pelo qual *": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "### O caso que mede isso: Emet e Kırka, na Turquia": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "A Turquia tem a maior reserva de bórax do mundo. E o que se ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**A consequência é direta:** quem compra boro compra a cadei": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "### O caso que não se mede: os salares andinos": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "No Salar de Atacama, o que há de estudo é sobre **água** e *": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**O boro aparece nesses trabalhos como co-produto, e não com": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "### A China: a política existe, e o boro não está nela": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Aqui a pergunta que fizemos tinha resposta, e não é a espera": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**Os números da inspeção abaixo são todos da mesma fonte, o ": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**E a palavra \"boro\" não aparece nenhuma vez nesse documento": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "### O que isso significa junto": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "Junte as quatro peças e o padrão fica nítido:": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "1. **O boro é co-produto** — do lítio nos Andes, do potássio": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**É por isso que a pergunta deste artigo — \"quem regula a ap": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
+ "**O que esta seção não sabe.** Os três estudos que fechariam": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ }
+}

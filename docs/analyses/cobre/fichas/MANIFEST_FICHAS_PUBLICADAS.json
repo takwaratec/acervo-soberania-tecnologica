@@ -1,0 +1,104 @@
+{
+ "schema": "ACERVO_FICHAS_PUBLICADAS_R1",
+ "fichas": [
+  {
+   "arquivo": "ficha-blog-tsc-como-tratar-bambu.md",
+   "origem": "_privado/fichas/ago_28_Sulfato_S11/ficha-blog-tsc-como-tratar-bambu.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-blog-tsc-como-tratar-bambu.md",
+   "sha256_origem": "ba182cbc7b92a79ce08e68160f13b5befd04d6719c10313e5dc4caef4de021a1",
+   "sha256_publicado": "6f8de3e338e642cd680f5db1c40358f93819d58d0c13666915d33d4d7f21c4b5",
+   "bytes": 6569
+  },
+  {
+   "arquivo": "ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md",
+   "origem": "_privado/fichas/ago_28_Sulfato_S11/ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md",
+   "sha256_origem": "95fd884478949964359fcbaf63811a341e519cbd6b7d7fb01c22f76e233e2b9b",
+   "sha256_publicado": "cf4d4230b38911270f810ee00064268c5e30aa21b9aa6e987d95581f87493dd4",
+   "bytes": 8708
+  },
+  {
+   "arquivo": "ficha-espaconaturalmente-bambu.md",
+   "origem": "_privado/fichas/ago_28_Sulfato_S11/ficha-espaconaturalmente-bambu.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-espaconaturalmente-bambu.md",
+   "sha256_origem": "e800e61727f4ff4bed728bf5748d2c408cf9fd794d42c47fe8ba80380e2005c6",
+   "sha256_publicado": "0b95aeaca097247c1a23a1d92a2a2a5d9b08e1d1d7c3e82131b1f77b586622e6",
+   "bytes": 5108
+  },
+  {
+   "arquivo": "ficha-nmba-2006-preservation-of-bamboo-manual.md",
+   "origem": "_privado/fichas/ago_28_Sulfato_S11/ficha-nmba-2006-preservation-of-bamboo-manual.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-nmba-2006-preservation-of-bamboo-manual.md",
+   "sha256_origem": "d38184fac353d054e0549a6ca3af0757787a73b8ff42896c11734ef5ee6e17a1",
+   "sha256_publicado": "973180a02c1d71529546c2b7a524bdce4fb1ab90f3f6537556c9e541a3f7f708",
+   "bytes": 8533
+  },
+  {
+   "arquivo": "ficha-scharfenberg-2020-bambu-cb-fitotoxicidade.md",
+   "origem": "_privado/fichas/ago_28_Sulfato_S11/ficha-scharfenberg-2020-bambu-cb-fitotoxicidade.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-scharfenberg-2020-bambu-cb-fitotoxicidade.md",
+   "sha256_origem": "2eea22b0c4efd6b5b26ceb676336ffa65b2548bd08fe1dac58667faf37db3b98",
+   "sha256_publicado": "1aaddc2c5dfc49488320598726f96eaf07099cc6e76a9dbbabbf7b6ef040408c",
+   "bytes": 7437
+  },
+  {
+   "arquivo": "ficha-ufmg-mom-tratamento-com-borax.md",
+   "origem": "_privado/fichas/ago_28_Sulfato_S11/ficha-ufmg-mom-tratamento-com-borax.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-ufmg-mom-tratamento-com-borax.md",
+   "sha256_origem": "3abf0a466d200401e6c502e9a69963c921c6032c20c64955068381b0cbc96818",
+   "sha256_publicado": "f6ae43dd8d48a40080d2b7c7edd36539672f91faf166f89a4948204fecbcc057",
+   "bytes": 5210
+  },
+  {
+   "arquivo": "ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md",
+   "origem": "_privado/fichas/ago_28_Madeira_Tratada_S11c/ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md",
+   "sha256_origem": "c321f78c0d4c9f8a44b2574a26fe2757da624e36907c9121c0e346c5707fc181",
+   "sha256_publicado": "6d13aaf000b32bcb05a0d7e153a15533cefeaab4c05f21480b2ba234564eb2ef",
+   "bytes": 5963
+  },
+  {
+   "arquivo": "ficha-iema-es-nt01-2023-preservacao-madeira.md",
+   "origem": "_privado/fichas/ago_28_Madeira_Tratada_S11c/ficha-iema-es-nt01-2023-preservacao-madeira.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-iema-es-nt01-2023-preservacao-madeira.md",
+   "sha256_origem": "2bbd46be71cc0c60ec71f6da739fc79bc915762f8d651bb059ecceac6fafb56f",
+   "sha256_publicado": "0908bb25a95c2ef2fd97a1c0b943ae4d3b6c470f76ebd0b6af41b9688f3046de",
+   "bytes": 8074
+  },
+  {
+   "arquivo": "ficha-pi292-89-registro-preservativos-madeira.md",
+   "origem": "_privado/fichas/ago_28_Madeira_Tratada_S11c/ficha-pi292-89-registro-preservativos-madeira.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-pi292-89-registro-preservativos-madeira.md",
+   "sha256_origem": "c73810d23aca7237bf086eccb6a7c1c2f91d0b449e14b8b2beed57ffcffc2fb0",
+   "sha256_publicado": "52def6aba2aae46b92f2163cc30931c7d4acf545f5977f9fba842f1aea96c832",
+   "bytes": 8362
+  },
+  {
+   "arquivo": "ficha-pn151-97-ibama-risco-ambiental.md",
+   "origem": "_privado/fichas/ago_28_Madeira_Tratada_S11c/ficha-pn151-97-ibama-risco-ambiental.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-pn151-97-ibama-risco-ambiental.md",
+   "sha256_origem": "f0f96697afc6f0f00eca186248309d0743e1c8e0c83ed168c43ff30bfbd05711",
+   "sha256_publicado": "849c09a118e91c26e682298c9f4eacd071fa88ea95067a636d75cda82120327c",
+   "bytes": 6069
+  },
+  {
+   "arquivo": "ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md",
+   "origem": "_privado/fichas/ago_28_Madeira_Tratada_S11c/ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md",
+   "sha256_origem": "568e8323096962db139a9c361b73a7b738ec1788f20901609c789c340442f870",
+   "sha256_publicado": "f6bcaef2503a67a9bab4d92a87827bc29256de5ffb777460ccb14ab86cbb44ae",
+   "bytes": 6617
+  },
+  {
+   "arquivo": "ficha-in05-92-ibama-destinacao-final-residuos.md",
+   "origem": "_privado/fichas/ago_28_Madeira_Tratada_S11d/ficha-in05-92-ibama-destinacao-final-residuos.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-in05-92-ibama-destinacao-final-residuos.md",
+   "sha256_origem": "88c950dbac96ac7c6b6a9aa0e550a92b8ba7a08fa5f3adfc00cce498d4d2dd9a",
+   "sha256_publicado": "6e592c42c4628d5faf90ac0a912ea881fe865e3f043c8ee14c2889c28d081f9d",
+   "bytes": 9011
+  }
+ ],
+ "estado": "em-revisao-documental",
+ "autoridade": "FABIO",
+ "data": "2026-11-24"
+}
