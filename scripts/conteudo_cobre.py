@@ -402,12 +402,20 @@ diferentes, para populações diferentes</strong>. Confundi-los é a maior fonte
    "o que uma atividade pode lançar na rede ou no corpo receptor"],
   ["<strong>Água doce Classe 1</strong> (CONAMA 357/2005)" + cit("conama357"), "<strong>0,009 mg/L</strong>",
    "o rio protegido — a água onde se espera vida aquática"],
-  ["<strong>Invertebrado aquático, crônico</strong>", "<strong>0,00111 mg/L</strong>",
-   "o nível em que a vida do rio começa a sofrer"]])}
+  ["<strong>Critério ecotoxicológico (EPA, invertebrado crônico)</strong>", "<strong>1,11 µg/L = 0,00111 mg/L</strong>",
+   "concentração de referência para invertebrado aquático em exposição crônica, em água doce de dureza de referência — não é padrão legal brasileiro"]])}
 
 <p><strong>Um número mais baixo não é &quot;mais rigoroso&quot;</strong> — é um número que protege outro
 objeto. Quem compara 2 mg/L com 0,009 mg/L e conclui que &quot;um dos dois está errado&quot; não entendeu
 que os dois estão certos e falam de coisas diferentes.</p>
+
+<p><strong>De onde vem o 1,11 µg/L, e o que ele é:</strong> é critério de ecotoxicidade da EPA
+americana para <em>invertebrado aquático em exposição crônica</em> (água doce, dureza de referência) —
+um valor de proteção da vida aquática, não um limite legal de lançamento e não um padrão brasileiro.
+Ele está registrado no plano de pesquisa desta gaveta (<code>01-plano-de-pesquisa.md</code>), e a
+fonte primária da EPA <strong>não está custodiada aqui</strong>: quem quiser conferir o número na
+origem precisa buscá-lo na publicação da agência. Enquanto isso, ele é usado como ordem de grandeza
+— a distância entre o que se pode lançar e o que afeta a vida do rio —, nunca como limite aplicável.</p>
 
 <h3>O detalhe que quase ninguém sabe sobre os 2 mg/L</h3>
 
@@ -762,15 +770,21 @@ agressiva — e o que é agressivo para a alface costuma ser agressivo para o re
 
 <h3>A comparação que assusta</h3>
 
-<p>O autor{cit("scharfenberg2020")} comparou com um herbicida comercial — o <strong>Roundup</strong>, aquele que mata planta daninha
-no pasto. No mesmo tipo de teste, com a mesma semente:</p>
+<p>O autor{cit("scharfenberg2020")} compara com um herbicida comercial — o <strong>Roundup</strong>, aquele que mata planta daninha
+no pasto. Os números do herbicida <strong>não saíram do ensaio dele</strong>: vêm de outro estudo
+(Santos et al., 2019), que ele cita e põe ao lado dos seus, na mesma escala de classificação:</p>
 
 {tabela(["O que foi testado", "Quanto nasceu (escala de 0 a 100)"],
  [["<strong>Roundup</strong>", "<strong>acima de 80</strong>"],
   ["<strong>solução de cobre e boro</strong>", "<strong>11 no melhor caso</strong>"]])}
 
-{danger("O que isso significa", "A água que sobra do tratamento de bambu <strong>inibe mais a vida vegetal "
- "do que um herbicida comercial</strong>. Mesma semente, mesma métrica, mesmo laboratório.")}
+{danger("O que isso significa", "A água que sobra do tratamento de bambu <strong>inibe a germinação "
+ "mais do que os números que o autor cita para um herbicida comercial</strong>. E é aqui que a "
+ "comparação tem limite: os dois resultados <strong>não vieram do mesmo ensaio</strong>. O do glifosato "
+ "é de Santos et al. (2019) — outro grupo, outro laboratório, outra série de diluições, outra água. "
+ "O autor apenas coloca os dois lado a lado, na mesma escala de classificação (Belo, 2011). O que a "
+ "fonte sustenta é a diferença de faixa nessa escala; o que ela não sustenta é que tenham sido "
+ "medidas nas mesmas condições.")}
 
 <p>E a raiz, que é ainda mais sensível: a melhor raiz de qualquer tratamento tinha <strong>0,33 mm</strong>,
 contra <strong>2,78 mm</strong> em água limpa — <strong>oito vezes menos</strong>. A semente pode até nascer,

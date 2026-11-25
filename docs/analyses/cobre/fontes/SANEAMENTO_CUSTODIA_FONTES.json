@@ -1,0 +1,128 @@
+{
+ "schema": "SANEAMENTO_CUSTODIA_FONTES_R1",
+ "mede": "quanto de obra de terceiro o repositório público guarda em fontes/md/. Não mede se o trecho mantido é suficiente para a tese — isso é leitura humana.",
+ "regra": "arquivo < 20 KB fica inteiro; acima disso sobram só os parágrafos que contêm trecho citado nas fichas ou nos documentos, mais o primeiro bloco (cabeçalho). O restante permanece no histórico do git e nos PDFs de custódia privada.",
+ "denominador_fixado": 13,
+ "limite_bytes": 20000,
+ "total_bytes_antes": 1370661,
+ "total_bytes_depois": 83364,
+ "reducao_bytes": 1287297,
+ "arquivos": [
+  {
+   "arquivo": "BR_CONAMA_357_2005_Qualidade_Aguas.md",
+   "bytes_antes": 66858,
+   "bytes_depois": 14791,
+   "paragrafos_antes": 60,
+   "paragrafos_mantidos": 8,
+   "citacoes_atendidas": 0,
+   "acao": "reduzido aos parágrafos citados"
+  },
+  {
+   "arquivo": "BR_CONAMA_430_2011_Efluentes.md",
+   "bytes_antes": 29487,
+   "bytes_depois": 6432,
+   "paragrafos_antes": 24,
+   "paragrafos_mantidos": 2,
+   "citacoes_atendidas": 0,
+   "acao": "reduzido aos parágrafos citados"
+  },
+  {
+   "arquivo": "WHO_2004_Copper-in-Drinking-Water_Background.md",
+   "bytes_antes": 84692,
+   "bytes_depois": 2565,
+   "paragrafos_antes": 316,
+   "paragrafos_mantidos": 2,
+   "citacoes_atendidas": 4,
+   "acao": "reduzido aos parágrafos citados"
+  },
+  {
+   "arquivo": "blog-tecnicas-construcao-sustentavel-como-tratar-bambu.md",
+   "bytes_antes": 20168,
+   "bytes_depois": 20529,
+   "paragrafos_antes": 1,
+   "paragrafos_mantidos": 1,
+   "citacoes_atendidas": 30,
+   "acao": "reduzido aos parágrafos citados"
+  },
+  {
+   "arquivo": "embrapa-cot110-tratamento-madeira-propriedade-rural.md",
+   "bytes_antes": 29795,
+   "bytes_depois": 10424,
+   "paragrafos_antes": 95,
+   "paragrafos_mantidos": 14,
+   "citacoes_atendidas": 18,
+   "acao": "reduzido aos parágrafos citados"
+  },
+  {
+   "arquivo": "embrapa-pfb-2023-rusch.md",
+   "bytes_antes": 29893,
+   "bytes_depois": 4511,
+   "paragrafos_antes": 9,
+   "paragrafos_mantidos": 1,
+   "citacoes_atendidas": 0,
+   "acao": "reduzido aos parágrafos citados"
+  },
+  {
+   "arquivo": "espaconaturalmente-bambu.md",
+   "bytes_antes": 11062,
+   "bytes_depois": 11062,
+   "paragrafos_antes": 1,
+   "paragrafos_mantidos": 1,
+   "acao": "mantido (abaixo de 20 KB: metadado ou extrato curto)"
+  },
+  {
+   "arquivo": "gauss-2020-tratamento-preservativo.md",
+   "bytes_antes": 785035,
+   "bytes_depois": 918,
+   "paragrafos_antes": 1878,
+   "paragrafos_mantidos": 1,
+   "citacoes_atendidas": 0,
+   "acao": "reduzido aos parágrafos citados"
+  },
+  {
+   "arquivo": "manual-irrigacao-bambu-conbea97.md",
+   "bytes_antes": 43454,
+   "bytes_depois": 685,
+   "paragrafos_antes": 266,
+   "paragrafos_mantidos": 1,
+   "citacoes_atendidas": 1,
+   "acao": "reduzido aos parágrafos citados"
+  },
+  {
+   "arquivo": "nmba-2006-preservation-bamboo-manual.md",
+   "bytes_antes": 74594,
+   "bytes_depois": 3907,
+   "paragrafos_antes": 73,
+   "paragrafos_mantidos": 2,
+   "citacoes_atendidas": 27,
+   "acao": "reduzido aos parágrafos citados"
+  },
+  {
+   "arquivo": "ufes-tcc-tratamento-bambu.md",
+   "bytes_antes": 43729,
+   "bytes_depois": 1019,
+   "paragrafos_antes": 190,
+   "paragrafos_mantidos": 1,
+   "citacoes_atendidas": 1,
+   "acao": "reduzido aos parágrafos citados"
+  },
+  {
+   "arquivo": "ufmg-mom-tratamento-borax.md",
+   "bytes_antes": 682,
+   "bytes_depois": 682,
+   "paragrafos_antes": 1,
+   "paragrafos_mantidos": 1,
+   "acao": "mantido (abaixo de 20 KB: metadado ou extrato curto)"
+  },
+  {
+   "arquivo": "uftm-scharfenberg-cb-cobre-boro.md",
+   "bytes_antes": 151212,
+   "bytes_depois": 5839,
+   "paragrafos_antes": 446,
+   "paragrafos_mantidos": 4,
+   "citacoes_atendidas": 9,
+   "acao": "reduzido aos parágrafos citados"
+  }
+ ],
+ "aplicado": true
+}

@@ -349,11 +349,19 @@ diferentes, para populações diferentes**. Confundi-los é a maior fonte de err
 | **Água de beber** (OMS)[11] | **2 mg/L** | proteger a população inteira, todos os dias, pela vida toda |
 | **Efluente** (CONAMA 430/2011)[9] | **1,0 mg/L** | o que uma atividade pode lançar na rede ou no corpo receptor |
 | **Água doce Classe 1** (CONAMA 357/2005)[10] | **0,009 mg/L** | o rio protegido — a água onde se espera vida aquática |
-| **Invertebrado aquático, crônico** | **0,00111 mg/L** | o nível em que a vida do rio começa a sofrer |
+| **Critério ecotoxicológico (EPA, invertebrado crônico)** | **1,11 µg/L = 0,00111 mg/L** | concentração de referência para invertebrado aquático em exposição crônica, em água doce de dureza de referência — não é padrão legal brasileiro |
 
 **Um número mais baixo não é "mais rigoroso"** — é um número que protege outro
 objeto. Quem compara 2 mg/L com 0,009 mg/L e conclui que "um dos dois está errado" não entendeu
 que os dois estão certos e falam de coisas diferentes.
+
+**De onde vem o 1,11 µg/L, e o que ele é:** é critério de ecotoxicidade da EPA
+americana para *invertebrado aquático em exposição crônica* (água doce, dureza de referência) —
+um valor de proteção da vida aquática, não um limite legal de lançamento e não um padrão brasileiro.
+Ele está registrado no plano de pesquisa desta gaveta (01-plano-de-pesquisa.md), e a
+fonte primária da EPA **não está custodiada aqui**: quem quiser conferir o número na
+origem precisa buscá-lo na publicação da agência. Enquanto isso, ele é usado como ordem de grandeza
+— a distância entre o que se pode lançar e o que afeta a vida do rio —, nunca como limite aplicável.
 
 ### O detalhe que quase ninguém sabe sobre os 2 mg/L
 
@@ -683,15 +691,16 @@ E não foi só com o cobre. Aconteceu igual com o CCB e com o boro sozinho.
 
 ### A comparação que assusta
 
-O autor[3] comparou com um herbicida comercial — o **Roundup**, aquele que mata planta daninha
-no pasto. No mesmo tipo de teste, com a mesma semente:
+O autor[3] compara com um herbicida comercial — o **Roundup**, aquele que mata planta daninha
+no pasto. Os números do herbicida **não saíram do ensaio dele**: vêm de outro estudo
+(Santos et al., 2019), que ele cita e põe ao lado dos seus, na mesma escala de classificação:
 
 | O que foi testado | Quanto nasceu (escala de 0 a 100) |
 |---|---|
 | **Roundup** | **acima de 80** |
 | **solução de cobre e boro** | **11 no melhor caso** |
 
-> **O que isso significa** — A água que sobra do tratamento de bambu inibe mais a vida vegetal do que um herbicida comercial. Mesma semente, mesma métrica, mesmo laboratório.
+> **O que isso significa** — A água que sobra do tratamento de bambu inibe a germinação mais do que os números que o autor cita para um herbicida comercial. E é aqui que a comparação tem limite: os dois resultados não vieram do mesmo ensaio. O do glifosato é de Santos et al. (2019) — outro grupo, outro laboratório, outra série de diluições, outra água. O autor apenas coloca os dois lado a lado, na mesma escala de classificação (Belo, 2011). O que a fonte sustenta é a diferença de faixa nessa escala; o que ela não sustenta é que tenham sido medidas nas mesmas condições.
 
 E a raiz, que é ainda mais sensível: a melhor raiz de qualquer tratamento tinha **0,33 mm**,
 contra **2,78 mm** em água limpa — **oito vezes menos**. A semente pode até nascer,
@@ -1568,6 +1577,7 @@ Cada ficha identifica a fonte primária, o hash de integridade e o que ela autor
 - **9. Iema-ES, NT 01/2023** — «não há proibição no Brasil» e a falta de dados sobre o resíduo do CCB. Ficha: `ficha-iema-es-nt01-2023-preservacao-madeira.md`
 - **10. ABPM / FG4mad** — a própria cadeia proíbe queima em fogão e a céu aberto. Ficha: `ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md`
 - **11. Ciência Florestal 2025** — 880 dias de campo: arsênio no solo +129,2%. Ficha: `ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md`
+- **12. Instrução Normativa Ibama 5/1992** — a destinação final do resíduo segue a bula, e o usuário alcançado é «toda e qualquer empresa». Ficha: `ficha-in05-92-ibama-destinacao-final-residuos.md`
 
 ---
 

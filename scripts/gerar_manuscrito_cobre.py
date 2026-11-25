@@ -175,32 +175,20 @@ referencias: "21 entradas, numeradas — ver secao Referencias"
     partes.append(
         "Cada ficha identifica a fonte primária, o hash de integridade e o que ela autoriza afirmar. "
         "Estão em `docs/analyses/cobre/fichas/`.\n")
-    fichas = [
-        ("1. Embrapa COT 110", "ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md",
-         "instrução oficial brasileira — EPI, tonel, reuso"),
-        ("2. NMBA 2006 (Índia)", "ficha-nmba-2006-preservation-of-bamboo-manual.md",
-         "manual oficial indiano — decantar, reusar, proibições"),
-        ("3. Scharfenberg 2020 (UFTM)", "ficha-scharfenberg-2020-bambu-cb-fitotoxicidade.md",
-         "mede a fitotoxicidade do descarte"),
-        ("4. UFMG / MOM", "ficha-ufmg-mom-tratamento-com-borax.md",
-         "receita publicada por universidade pública"),
-        ("5. Blog TCS 2016", "ficha-blog-tsc-como-tratar-bambu.md",
-         "receita informal completa, sem aviso"),
-        ("6. Espaço Naturalmente", "ficha-espaconaturalmente-bambu.md",
-         "padrão de mercado"),
-        ("7. Portaria Interministerial 292/89", "ficha-pi292-89-registro-preservativos-madeira.md",
-         "registro obrigatório no Ibama e competência de fiscalização (art. 20)"),
-        ("8. Portaria Normativa Ibama 151/97", "ficha-pn151-97-ibama-risco-ambiental.md",
-         "o registro condicionado à determinação do risco ambiental"),
-        ("9. Iema-ES, NT 01/2023", "ficha-iema-es-nt01-2023-preservacao-madeira.md",
-         "«não há proibição no Brasil» e a falta de dados sobre o resíduo do CCB"),
-        ("10. ABPM / FG4mad", "ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md",
-         "a própria cadeia proíbe queima em fogão e a céu aberto"),
-        ("11. Ciência Florestal 2025", "ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md",
-         "880 dias de campo: arsênio no solo +129,2%"),
-    ]
-    for tit, arq, desc in fichas:
-        partes.append(f"- **{tit}** — {desc}. Ficha: `{arq}`")
+    # a lista sai do inventário, não de constante digitada: foi digitando que a IN Ibama 5/1992
+    # ficou fora da enumeração por três versões enquanto o manifesto já tinha 12 fichas
+    import json as _json
+    _enum_p = os.path.join(REPO, "docs/analyses/cobre/fichas/ENUMERACAO_FICHAS.json")
+    _man_p = os.path.join(REPO, "docs/analyses/cobre/fichas/MANIFEST_FICHAS_PUBLICADAS.json")
+    _enum = _json.load(open(_enum_p, encoding="utf-8"))["fichas"]
+    _man = {f["arquivo"] for f in _json.load(open(_man_p, encoding="utf-8"))["fichas"]}
+    _ids = {e["arquivo"] for e in _enum}
+    if _man != _ids:
+        raise SystemExit("enumeração e inventário divergem — inventário sem entrada: "
+                         f"{sorted(_man - _ids)}; entrada sem ficha: {sorted(_ids - _man)}")
+    for e in sorted(_enum, key=lambda x: x["ordem"]):
+        partes.append(f'- **{e["ordem"]}. {e["rotulo"]}** — {e["descricao"]}. '
+                      f'Ficha: `{e["arquivo"]}`')
     partes.append("")
 
     # referências
