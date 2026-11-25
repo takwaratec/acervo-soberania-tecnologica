@@ -1,7 +1,7 @@
 {
  "schema": "ACERVO_REGISTRO_CONFERENCIA_CITACOES_R1",
  "artefato": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
- "sha256_artefato": "cd5d88a3269a8fbacb27a396cbd255cee9dfcc1aa0f5a809fb15d30f9e2a3a0f",
+ "sha256_artefato": "e50b172d3c499d5042f5a3fa8e2f8fb473870cfc9427ebed098dbdd8f01b4ec8",
  "data": "2026-11-24",
  "regra_do_denominador": "unidade = cada linha iniciada por '>' no artefato, com 40 caracteres ou mais; denominador contado ANTES da medição e não recontado depois",
  "instrumento": "scripts/registro_conferencia_citacoes.py",
@@ -77,8 +77,8 @@
   },
   {
    "linha": 203,
-   "trecho": "O erro que quase todo texto comete aqui — Misturar peso com valor. A China responde por 80,4% do peso e por 48,3% do valor. Se alguém disser \"a China domina 80% do mercado\", está f",
-   "chars": 306,
+   "trecho": "O erro que aparece nos textos informais que li aqui — Misturar peso com valor. A China responde por 80,4% do peso e por 48,3% do valor. Se alguém disser \"a China domina 80% do merc",
+   "chars": 318,
    "veredito": "NAO_MEDIDO",
    "motivo": "não localizado no corpus custodiado (tradução, resumo ou fonte não custodiada)",
    "arquivo_fonte": null,
@@ -194,8 +194,8 @@
   },
   {
    "linha": 644,
-   "trecho": "E aqui está o ponto que quase todo mundo erra — Diluir não resolve nada. O cobre não apodrece, não evapora, não é comido por bactéria. Cobre não desaparece — ele só muda de lugar. ",
-   "chars": 290,
+   "trecho": "E aqui está o ponto em que os textos informais que li erram — Diluir não resolve nada. O cobre não apodrece, não evapora, não é comido por bactéria. Cobre não desaparece — ele só m",
+   "chars": 304,
    "veredito": "NAO_MEDIDO",
    "motivo": "não localizado no corpus custodiado (tradução, resumo ou fonte não custodiada)",
    "arquivo_fonte": null,
@@ -329,8 +329,8 @@
   },
   {
    "linha": 946,
-   "trecho": "Por que isso entra num artigo sobre cobre — Porque a receita que circula no Brasil quase nunca é só sulfato de cobre. A fórmula informal mais difundida é ternária — ácido bórico, b",
-   "chars": 698,
+   "trecho": "Por que isso entra num artigo sobre cobre — Porque, nas receitas informais que esta frente leu, nenhuma é só sulfato de cobre. A que mais aparece é ternária — ácido bórico, bórax e",
+   "chars": 692,
    "veredito": "NAO_MEDIDO",
    "motivo": "não localizado no corpus custodiado (tradução, resumo ou fonte não custodiada)",
    "arquivo_fonte": null,
@@ -418,7 +418,7 @@
    "pagina": 12
   },
   {
-   "linha": 1296,
+   "linha": 1298,
    "trecho": "O limite do estudo, que o estudo declara — Cinco peças, um sítio. Mediu solo até 40 cm — não mediu água subterrânea. Mediu lixiviação — não mediu queima. E é CCA, que tem arsênio; ",
    "chars": 267,
    "veredito": "NAO_MEDIDO",
@@ -427,7 +427,7 @@
    "pagina": null
   },
   {
-   "linha": 1328,
+   "linha": 1330,
    "trecho": "A madeira tem norma específica que não se cumpre. O bambu não tem norma específica: o resíduo dele cai na obrigação geral, escrita para todo resíduo. As duas coisas terminam no mes",
    "chars": 268,
    "veredito": "NAO_MEDIDO",
@@ -436,7 +436,7 @@
    "pagina": null
   },
   {
-   "linha": 1357,
+   "linha": 1359,
    "trecho": "A frase honesta, que eu prefiro ao número inventado — Não há, no material reunido, caso brasileiro documentado de intoxicação por combustão de madeira tratada em fogão doméstico. H",
    "chars": 337,
    "veredito": "NAO_MEDIDO",
@@ -445,7 +445,7 @@
    "pagina": null
   },
   {
-   "linha": 1527,
+   "linha": 1529,
    "trecho": "O que as auditorias mediram — e o que não mediram — Elas julgaram conteúdo, rodada a rodada: se cada afirmação tinha esteio no documento custodiado. Não fizeram um diff palavra por",
    "chars": 1234,
    "veredito": "NAO_MEDIDO",

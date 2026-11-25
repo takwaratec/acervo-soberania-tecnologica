@@ -200,7 +200,7 @@ alfandegário" da substância. Em 2025:
 | Estados Unidos | — | — | US$ 45,57 |
 | Reino Unido | — | — | US$ 148,43 |
 
-> **O erro que quase todo texto comete aqui** — Misturar peso com valor. A China responde por 80,4% do peso e por 48,3% do valor. Se alguém disser "a China domina 80% do mercado", está falando de tonelada; se disser "48%", está falando de dinheiro. São duas frases diferentes, e as duas aparecem na mesma tabela.
+> **O erro que aparece nos textos informais que li aqui** — Misturar peso com valor. A China responde por 80,4% do peso e por 48,3% do valor. Se alguém disser "a China domina 80% do mercado", está falando de tonelada; se disser "48%", está falando de dinheiro. São duas frases diferentes, e as duas aparecem na mesma tabela.
 
 ### O número mais estranho: o mesmo produto custa 119 vezes mais
 
@@ -641,7 +641,7 @@ Agora a direção contrária, que é a que mostra o absurdo:
 | **Uma banheira** (o tonel, 200 L) | **23 piscinas olímpicas** |
 | **Uma banheira da receita dobrada** (9%) | **204 piscinas olímpicas** |
 
-> **E aqui está o ponto que quase todo mundo erra** — Diluir não resolve nada. O cobre não apodrece, não evapora, não é comido por bactéria. Cobre não desaparece — ele só muda de lugar. Diluir é espalhar o mesmo metal por mais água. O problema continua existindo; ele só fica mais difícil de ver.
+> **E aqui está o ponto em que os textos informais que li erram** — Diluir não resolve nada. O cobre não apodrece, não evapora, não é comido por bactéria. Cobre não desaparece — ele só muda de lugar. Diluir é espalhar o mesmo metal por mais água. O problema continua existindo; ele só fica mais difícil de ver.
 
 ### O pH — o número que dispensa explicação
 
@@ -943,7 +943,7 @@ carcinogênica humana — 93% do total normalizado** — e **91% dessa carga vei
 resíduos**: a apara, o corte, o colmo descartado e o efluente. Não é a operação que pesa.
 É o que sobra dela.
 
-> **Por que isso entra num artigo sobre cobre** — Porque a receita que circula no Brasil quase nunca é só sulfato de cobre. A fórmula informal mais difundida é ternária — ácido bórico, bórax e dicromato de sódio — e a receita de bórax usada em universidade pública é bórax e ácido bórico puros. Ou seja: na apara que sobra do tratamento com cobre, o bórax está junto — mas não em toda: o manual indiano e a instrução da Embrapa propõem banhos separados, e o estudo do Acre mediu um banho só de bórax com ácido bórico. O que sustenta a ligação é o local do dano, não a mistura: onde os quatro estudos desta gaveta discordam do tratamento, concordam em apontar o resíduo e a água que sobra como o problema.
+> **Por que isso entra num artigo sobre cobre** — Porque, nas receitas informais que esta frente leu, nenhuma é só sulfato de cobre. A que mais aparece é ternária — ácido bórico, bórax e dicromato de sódio — e a receita de bórax usada em universidade pública é bórax e ácido bórico puros. Ou seja: na apara que sobra do tratamento com cobre, o bórax está junto — mas não em toda: o manual indiano e a instrução da Embrapa propõem banhos separados, e o estudo do Acre mediu um banho só de bórax com ácido bórico. O que sustenta a ligação é o local do dano, não a mistura: onde os quatro estudos desta gaveta discordam do tratamento, concordam em apontar o resíduo e a água que sobra como o problema.
 
 ### Duas leis, duas datas, e o mesmo vazio
 
@@ -1068,8 +1068,8 @@ cadeia brasileira medida — 91% da carga de resíduo, 93% da categoria de toxic
 carcinogênica;[15]
 - o cobre tem **efeito crítico documentado** — náusea aguda a partir de 4 mg/L e
 acúmulo **hepático** na exposição prolongada;[11]
-- as receitas informais que circulam **não trazem uma linha de EPI, ventilação ou
-descarte**;[6][7]
+- as receitas informais que esta frente leu **não trazem uma linha de EPI, ventilação ou
+descarte** — nas que eu li, nenhuma traz;[6][7]
 - as duas instruções oficiais — a brasileira e a indiana — mandam **reusar** a
 solução, o que reduz o volume mas **não elimina o resíduo final**.[1][2]
 
@@ -1284,7 +1284,9 @@ investigação** que a Resolução CONAMA 420/2009 fixa para área agrícola —
 qual a norma manda investigar se há risco.
 
 E repare no que esse experimento é: **um moirão de cerca, em campo, no uso para o qual foi
-feito**. Não é indústria, não é acidente, não é despejo. É o produto funcionando.
+feito**. Não é indústria, não é acidente, não é despejo: é o produto em uso, **naquele
+sítio, com aquelas cinco peças**. Não é demonstração geral de que todo moirão tratado vaze —
+é o que aquele ensaio mediu.
 
 O que os números provam e o que eles não provam, separado: **provam** que a
 concentração de arsênio caiu na madeira e subiu no solo em volta, no mesmo sítio e no mesmo
@@ -1375,8 +1377,8 @@ O que eu *não* afirmo, e faço questão de separar: que o tratamento de bambu n
 "uso domissanitário" no sentido do art. 4º. O termo vem da regulação de saneantes, e decidir se ele
 abrange tratar material no quintal é interpretação que este artigo não faz. O que está documentado é
 mais estreito e mais incômodo: **a regra de descarte que existe foi escrita para caber num
-rótulo, e o rótulo não existe para quem trata em casa**. E não encontrei documento de que as
-obrigações gerais tenham sido aplicadas a este resíduo.
+rótulo, e não localizei rótulo nem bula para quem trata em casa**. E não encontrei documento
+de que as obrigações gerais tenham sido aplicadas a este resíduo.
 
 ---
 

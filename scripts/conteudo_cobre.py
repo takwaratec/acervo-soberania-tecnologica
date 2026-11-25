@@ -239,7 +239,7 @@ alfandegário&quot; da substância. Em 2025:</p>
   ["Estados Unidos", "—", "—", "US$ 45,57"],
   ["Reino Unido", "—", "—", "US$ 148,43"]])}
 
-{danger("O erro que quase todo texto comete aqui", "Misturar <strong>peso</strong> com <strong>valor</strong>. "
+{danger("O erro que aparece nos textos informais que li aqui", "Misturar <strong>peso</strong> com <strong>valor</strong>. "
  "A China responde por 80,4% do peso e por 48,3% do valor. Se alguém disser &quot;a China domina 80% do "
  "mercado&quot;, está falando de tonelada; se disser &quot;48%&quot;, está falando de dinheiro. "
  "São duas frases diferentes, e as duas aparecem na mesma tabela.")}
@@ -719,7 +719,7 @@ perde o direito de ser levado a sério no resto.</p>
   ["<strong>Uma banheira</strong> (o tonel, 200 L)", "<strong>23 piscinas olímpicas</strong>"],
   ["<strong>Uma banheira da receita dobrada</strong> (9%)", "<strong>204 piscinas olímpicas</strong>"]])}
 
-{danger("E aqui está o ponto que quase todo mundo erra", "<strong>Diluir não resolve nada.</strong> "
+{danger("E aqui está o ponto em que os textos informais que li erram", "<strong>Diluir não resolve nada.</strong> "
  "O cobre não apodrece, não evapora, não é comido por bactéria. <strong>Cobre não desaparece — ele só muda "
  "de lugar.</strong> Diluir é espalhar o mesmo metal por mais água. O problema continua existindo; ele só "
  "fica mais difícil de ver.")}
@@ -1042,8 +1042,8 @@ carcinogênica humana — 93% do total normalizado</strong> — e <strong>91% de
 resíduos</strong>: a apara, o corte, o colmo descartado e o efluente. Não é a operação que pesa.
 É o que sobra dela.</p>
 
-{note("Por que isso entra num artigo sobre cobre", "Porque a receita que circula no Brasil quase "
-      "nunca é só sulfato de cobre. A fórmula informal mais difundida é ternária — ácido bórico, "
+{note("Por que isso entra num artigo sobre cobre", "Porque, nas receitas informais que esta frente "
+      "leu, nenhuma é só sulfato de cobre. A que mais aparece é ternária — ácido bórico, "
       "bórax e dicromato de sódio — e a receita de bórax usada em universidade pública é bórax e "
       "ácido bórico puros. Ou seja: <strong>na apara que sobra do tratamento com cobre, o bórax "
       "está junto</strong> — mas <strong>não em toda</strong>: o manual indiano e a instrução da Embrapa "
@@ -1184,8 +1184,8 @@ cadeia brasileira medida — 91% da carga de resíduo, 93% da categoria de toxic
 carcinogênica;{cit("araujo2025")}</li>
 <li>o cobre tem <strong>efeito crítico documentado</strong> — náusea aguda a partir de 4 mg/L e
 acúmulo <strong>hepático</strong> na exposição prolongada;{cit("oms2004")}</li>
-<li>as receitas informais que circulam <strong>não trazem uma linha de EPI, ventilação ou
-descarte</strong>;{cit("blogtcs2016")}{cit("espaconaturalmente")}</li>
+<li>as receitas informais que esta frente leu <strong>não trazem uma linha de EPI, ventilação ou
+descarte</strong> — nas que eu li, nenhuma traz;{cit("blogtcs2016")}{cit("espaconaturalmente")}</li>
 <li>as duas instruções oficiais — a brasileira e a indiana — mandam <strong>reusar</strong> a
 solução, o que reduz o volume mas <strong>não elimina o resíduo final</strong>.{cit("tonini2024")}{cit("nmba2006")}</li>
 </ul>
@@ -1413,7 +1413,9 @@ investigação</strong> que a Resolução CONAMA 420/2009 fixa para área agríc
 qual a norma manda investigar se há risco.</p>
 
 <p>E repare no que esse experimento é: <strong>um moirão de cerca, em campo, no uso para o qual foi
-feito</strong>. Não é indústria, não é acidente, não é despejo. É o produto funcionando.</p>
+feito</strong>. Não é indústria, não é acidente, não é despejo: é o produto em uso, <strong>naquele
+sítio, com aquelas cinco peças</strong>. Não é demonstração geral de que todo moirão tratado vaze —
+é o que aquele ensaio mediu.</p>
 
 <p>O que os números provam e o que eles não provam, separado: <strong>provam</strong> que a
 concentração de arsênio caiu na madeira e subiu no solo em volta, no mesmo sítio e no mesmo
@@ -1513,8 +1515,8 @@ digo.</p>
 "uso domissanitário" no sentido do art. 4º. O termo vem da regulação de saneantes, e decidir se ele
 abrange tratar material no quintal é interpretação que este artigo não faz. O que está documentado é
 mais estreito e mais incômodo: <strong>a regra de descarte que existe foi escrita para caber num
-rótulo, e o rótulo não existe para quem trata em casa</strong>. E não encontrei documento de que as
-obrigações gerais tenham sido aplicadas a este resíduo.</p>
+rótulo, e não localizei rótulo nem bula para quem trata em casa</strong>. E não encontrei documento
+de que as obrigações gerais tenham sido aplicadas a este resíduo.</p>
 """)
 
 pagina("p-9", "10 · Como ler · Resumo", "10", "Como ler qualquer texto sobre cobre — e o resumo do artigo",
