@@ -408,8 +408,12 @@ mais pesou no modelo"**, não "93% de chance de câncer".
 glossário deste artigo diz isso. Ele importa por outra razão: é o único indicador desta
 seção que **aponta para o resíduo como origem do dano potencial**. Os autores atribuem o
 resultado ao ácido bórico e ao bórax presentes **nas aparas, nos cortes e nos colmos
-descartados** [19] — o efluente é tratado por eles como fluxo separado, e não entra
-naquela atribuição.
+descartados** [19]. Os mesmos autores registram que os produtos químicos estão
+presentes **nas aparas e cortes, nos colmos descartados e na água residuária** —
+mas o texto que tenho **não decompõe** quanto do HCT vem de cada fluxo. Dizer que o
+efluente "fica fora" seria inferência minha, não leitura da fonte: **o que a fonte
+permite afirmar é que os 91% foram atribuídos às aparas, aos cortes e aos colmos
+descartados**; quanto pesa a água residuária, a fonte consultada não discrimina.
 
 **A leitura honesta, então, é esta:**
 
@@ -470,8 +474,10 @@ para 12,74%** (*Coriolus versicolor*) e de **55,62% para 9,64%** (*Gloeophyllum 
 É bancada, não campo: **não mede lixiviação** [24].
 
 **Um ensaio de campo brasileiro, com CCB, durou cinco anos.** Hastes de *Dendrocalamus
-asper* imersas em CCB a 1% e 3% não apresentaram degradação biológica, contra índice de
-deterioração de **80% a 100% no controle**. Duas ressalvas que o próprio trabalho faz:
+asper* imersas em CCB a **1%** e **3%** tiveram índice de degradação de **40** e **0**,
+respectivamente, contra **80% a 100% no controle** — ou seja: a 3% não houve ataque; a
+1% houve ataque leve, e **não é a mesma coisa**. Somar as duas concentrações numa frase
+só, como "o tratado não degradou", apaga justamente o dado que informa a dose. Duas ressalvas que o próprio trabalho faz:
 o CCB é sistema **misto** (26% sulfato de cobre, 63,5% dicromato, 10,5% ácido bórico) e
 o ensaio **não mediu boro**; e os autores escrevem que *"não é possível afirmar que a
 presença de metais no solo é indicativo de lixiviação"* [25].
@@ -647,9 +653,15 @@ madeira ou bambu.
 
 **Os quatro problemas concretos:**
 
-**1. A dose não é regulada.** A solução de tratamento é a **10%** [19] — dez vezes a
-concentração da água boricada de farmácia [6]. Não há bula, não há frasco medidor, não
-há instrução.
+**1. A dose não é regulada.** A receita registrada no estudo é um banho de **100 L de
+água com 5 kg de bórax e 5 kg de ácido bórico** [19] — **5% de cada soluto**, 10% de
+sólidos ao todo. A água boricada de farmácia é **3% de ácido bórico** [6]. Não são a
+mesma substância nem a mesma base, e por isso **não se converte uma na outra por regra
+de três**: comparar 10% de mistura com 3% de um só composto daria "três vezes" ou
+"dez vezes" conforme a conta que se escolhe, e nenhuma das duas descreve o que a pessoa
+manipula. O que se pode dizer é o que importa: **não há bula, não há frasco medidor,
+não há instrução de descarte** — e a concentração que se usa em campo é a que o
+estudo registra, não a que o rótulo autoriza.
 
 **2. A exposição não é medida.** Nenhuma fonte localizada mede a exposição de quem faz
 o tratamento. Não há dado de pele, de inalação de pó, de respingos. **Isso é lacuna, não
@@ -657,10 +669,9 @@ ausência de risco.**
 
 O que existe são **limites ocupacionais para as formas químicas**, não para o boro em
 geral: o NIOSH fixa **5 mg/m³** para bórax decahidratado e **1 mg/m³** para anidro e
-pentahidratado — o que dá teto de boro de **~0,57 / ~0,21 / ~0,15 mg B/m³** [26]. Para
-**poeira de madeira**, o limite britânico é **3 mg/m³** (madeira dura) e **5 mg/m³**
-(leve), e madeira dura é classificada como causadora de câncer, particularmente de nariz
-[27]. **Nenhum desses limites foi medido em quem trata bambu no Brasil.**
+pentahidratado — o que dá teto de boro de **~0,57 / ~0,21 / ~0,15 mg B/m³** [26]. Falta, nesta gaveta, fonte custodiada sobre **poeira de madeira**: o limite existe em
+norma britânica, mas não a tenho fichada, e **não cito o que não tenho fichado**. Fica
+como lacuna, não como omissão. **Nenhum desses limites foi medido em quem trata bambu no Brasil.**
 
 **3. O resíduo não tem destino.** O efluente do banho, as aparas e a serragem do bambu
 tratado não têm rota definida pela norma brasileira [11]. Na prática, vão para onde é
@@ -723,7 +734,7 @@ categorias distintas e quem mistura as duas está errado nos dois sentidos.
 - **O boro não está na lista de resíduo perigoso** de nenhuma norma examinada — porque
   **não foi avaliado**, não porque foi julgado seguro [11][20][21].
 - O maior fluxo efêmero do mundo, **50 mil t/ano** em Hong Kong, é de bambu **não
-  tratado** [28][29].
+  tratado** [27][28].
 - O uso doméstico não tem base normativa e é o pior cenário de exposição [6][8].
 
 ## 17. O que este artigo não sabe
@@ -770,13 +781,13 @@ definição dela é ampla de propósito:
 > *"resíduos sólidos: material, substância, objeto ou bem descartado resultante de
 > atividades humanas em sociedade, (...) nos estados sólido ou semissólido, bem como
 > gases contidos em recipientes e **líquidos cujas particularidades tornem inviável o seu
-> lançamento na rede pública de esgotos ou em corpos d'água**"* [28]
+> lançamento na rede pública de esgotos ou em corpos d'água**"* [27]
 
 **O banho de tratamento pode ser resíduo sólido pela definição legal**, ainda que seja
 líquido — mas **sob condição**: a definição só alcança líquidos cujo lançamento em rede
 ou corpo d'água seja inviável, ou que exijam soluções técnica ou economicamente
 inviáveis. **Onde há rede e o efluente é compatível, a lei não o alcança por essa via.**
-A condição está no próprio texto do art. 3º, XVI [28].
+A condição está no próprio texto do art. 3º, XVI [27].
 
 **Mas procure "bambu" na PNRS: zero ocorrências. "Madeira": zero.** A lei que rege
 resíduo no Brasil **não nomeia o material**.
@@ -784,7 +795,7 @@ resíduo no Brasil **não nomeia o material**.
 **Lei 12.484/2011 — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do
 Bambu.** Seis artigos. Ela dá **crédito rural**, **assistência técnica**,
 **certificação de origem**, e manda os órgãos "incentivar o intercâmbio com instituições
-congêneres" [29].
+congêneres" [28].
 
 **Procure "tratamento": zero. "Químico": zero. "Resíduo": zero. "Licença": zero.
 "Fiscalização": zero.** A política do bambu **incentiva a produção e não disciplina o
@@ -796,21 +807,24 @@ que acontece com o resíduo**.
 
 A PNRS distribui competência por **sistemas**, não por material: **Sisnama** (meio
 ambiente), **SNVS** (vigilância sanitária), **Suasa** (sanidade agropecuária) e
-**Sinmetro** (metrologia) [28]. Trinta e duas menções ao Sisnama, vinte e uma ao SNVS —
+**Sinmetro** (metrologia) [27]. Trinta e duas menções ao Sisnama, vinte e uma ao SNVS —
 e nenhuma delas trata de bambu tratado.
 
-**Na prática:** quem trata bambu com boro na própria casa ou na cooperativa **não
-descumpre uma norma específica sobre bambu** — porque essa norma não existe. Se também
-**cumpre** as obrigações gerais de resíduo (acondicionamento, destinação adequada,
-eventual Plano de Gerenciamento) **é outra pergunta, e esta gaveta não a mediu.** O que
-as fontes mostram é ausência de disciplina específica, não ausência de obrigação geral.
+**Na prática:** quem trata bambu com boro na própria casa ou na cooperativa **não tem
+uma norma específica sobre bambu para descumprir** — não localizei nenhuma nos
+instrumentos examinados, e a busca foi sobre a PNRS, a PNMCB e a NBR 10004, não sobre
+todo o ordenamento brasileiro. A afirmação correta é **"não localizei disciplina
+específica"**, não "não existe". Se quem trata **cumpre** as obrigações gerais de
+resíduo (acondicionamento, destinação adequada, eventual Plano de Gerenciamento) **é
+outra pergunta, e esta gaveta não a mediu.** O que as fontes mostram é ausência de
+disciplina específica nos instrumentos examinados, não ausência de obrigação geral.
 
 **E há um problema de fronteira que ninguém resolveu:**
 
 - **ANVISA** regula a água boricada a 3% como antisséptico [6] — o produto, não o resíduo;
 - **MAPA** responde por insumo agrícola;
 - **ICMBio** responde por unidade de conservação — e **é aí que está o risco real**;
-- o **município** responde pelo resíduo domiciliar [28], mas não tem como caracterizar
+- o **município** responde pelo resíduo domiciliar [27], mas não tem como caracterizar
   apara de bambu como perigosa, porque a NBR 10004 não a lista [14].
 
 
@@ -832,7 +846,7 @@ consequência social.
 **O que a fonte diz:** o boro no ambiente aquático tem no **adsorção-dessorção** o único
 mecanismo significativo que influencia seu destino; a adsorção depende do **pH e da
 composição do solo**; é maior entre **pH 7,5 e 9,0**; e a propriedade do solo que mais
-influencia a **mobilidade** do boro é a **abundância de óxido de alumínio amorfo** [30].
+influencia a **mobilidade** do boro é a **abundância de óxido de alumínio amorfo** [29].
 
 **Traduzindo:** **solo rico em óxido de alumínio retém boro. Solo arenoso, ácido e pobre
 em alumínio amorfo deixa passar.** Em solos assim, o boro **lixivia** e caminha para o
@@ -859,7 +873,7 @@ fede, não queima a pele na hora, e é vendido na farmácia** [6].
 **Circula a ideia de que, se fosse cromo ou arsênio, ninguém espalharia a apara no
 quintal. É falsa.** No caso do CCA e do CCB existe, sim, norma brasileira — a Embrapa
 instrui o tratamento de moirão na propriedade rural com tonel, EPI e **proibição
-explícita de descarte no ambiente, repetida duas vezes** [31].
+explícita de descarte no ambiente, repetida duas vezes** [30].
 
 **E a norma não basta.** O que se relata na prática é resíduo largado em área pública e
 queimado; há relato de intoxicação por fumaça de madeira tratada em fogão a lenha. **Não
@@ -889,11 +903,11 @@ Este artigo não tem autoridade para dizer quem deveria fiscalizar. Tem autorida
 registrar o que a ausência produz:
 
 1. **É uma cadeia em crescimento** — e a política do bambu existe justamente para
-   estimulá-la [29];
+   estimulá-la [28];
 2. **O estímulo não vem acompanhado de disciplina de resíduo**, porque a norma do bambu
    não trata do assunto e a norma de resíduo não nomeia o bambu;
 3. **O uso é comunitário e cooperativo** — é o que a própria política incentiva (art.
-   5º, III) [29] — e é o formato em que **controle de efluente é menos provável**: a lei
+   5º, III) [28] — e é o formato em que **controle de efluente é menos provável**: a lei
    dirige o incentivo a unidades familiares sem exigir plano de gerenciamento. *Que não
    exista na prática é inferência desta curadoria, não medição.*
 4. **e as áreas de maior atrativo estão em território sensível.**
@@ -1085,9 +1099,9 @@ intergovernamental do bambu e do rotim.
 
 **USDA** — Departamento de Agricultura dos Estados Unidos.
 
-**HSE / EPA** — agências de saúde e de meio ambiente, respectivamente britânica
-(*Health and Safety Executive*) e australiana americana (*Environmental Protection
-Authority*).
+**EPA** — agência de meio ambiente: nos Estados Unidos, *Environmental Protection
+Agency*; na Austrália, *Environmental Protection Authority*. A sigla muda de país para
+país e o texto diz qual está usando quando a distinção importa.
 
 **NCM** — Nomenclatura Comum do Mercosul. O código de oito dígitos que classifica cada
 produto importado ou exportado no Brasil.
@@ -1272,8 +1286,8 @@ for Bamboo Scaffolding Safety*, 5. ed. Hong Kong: LD, 2024, com Addendum 1/2026.
 aparecem **zero vezes**.*
 
 **[24]** LIU, [et al.]. *Bambu tratado com ácido bórico e bórax: retenção e resistência a
-fungos*, 2023. — *1,5% de ácido bórico + 3,0% de bórax, 72 h; coeficiente de variação
-62,57→12,74% e perda de massa 55,62→9,64%; **79,6%** (*C. versicolor*) e **82,7%**
+fungos*, 2023. — *1,5% de ácido bórico + 3,0% de bórax, 72 h; perda de massa
+62,57→12,74% (*C. versicolor*) e 55,62→9,64% (*G. trabeum*); **79,6%** (*C. versicolor*) e **82,7%**
 (*G. trabeum*) de inibição; mistura não isolada por componente; **sem ensaio de
 lixiviação**; a conclusão do artigo diz 12,5% onde a Tabela 4 diz 12,74% — esta ficha
 adota a tabela.*
@@ -1290,13 +1304,7 @@ Chemical Hazards* — entradas de boratos. Atlanta: CDC/NIOSH, 2026. — *REL de
 para bórax decahidratado, 1 mg/m³ para anidro e 1 mg/m³ para pentahidratado; teto de boro
 resultante ~0,57 / ~0,21 / ~0,15 mg B/m³ — **limite por forma química**, não por boro.*
 
-**[27]** HEALTH AND SAFETY EXECUTIVE. *Wood dust — hazards and control*. Reino Unido: HSE,
-2026. — *WEL de 3 mg/m³ para madeira dura e 5 mg/m³ para madeira leve; madeira dura pode
-causar câncer, particularmente de nariz.*
-
----
-
-**[28]** BRASIL. **Lei nº 12.305, de 2 de agosto de 2010** — Política Nacional de
+**[27]** BRASIL. **Lei nº 12.305, de 2 de agosto de 2010** — Política Nacional de
 Resíduos Sólidos. Art. 3º, XVI (definição de resíduo sólido, incluindo líquidos cujo
 lançamento em rede ou corpo d'água seja inviável); art. 6º (competências Sisnama, SNVS,
 Suasa, Sinmetro); art. 13, I (classificação por origem). Capturado em 2026-11-24 de
@@ -1304,7 +1312,7 @@ planalto.gov.br. — ***Verificação desta curadoria:*** *"bambu" **zero** ocor
 "madeira" **zero**; "agrotóxico" 1; "domiciliar" 4; "perigoso" 25. Controle positivo:
 "Sisnama" 32, "SNVS" 21 — os termos existem e a extração funcionou.*
 
-**[29]** BRASIL. **Lei nº 12.484, de 8 de setembro de 2011** — Política Nacional de
+**[28]** BRASIL. **Lei nº 12.484, de 8 de setembro de 2011** — Política Nacional de
 Incentivo ao Manejo Sustentado e ao Cultivo do Bambu (PNMCB). **Seis artigos.**
 Instrumentos: crédito rural, assistência técnica, certificação de origem (art. 4º).
 Competências dos órgãos: pesquisa, brotos para alimentação, agricultura familiar,
@@ -1313,7 +1321,7 @@ planalto.gov.br. — ***Verificação desta curadoria:*** *"tratamento" **zero**
 "químico" **zero**; "resíduo" **zero**; "licença" **zero**; "fiscaliza" **zero**;
 "unidade de conservação" **zero**. Controle positivo: "bambu" 11 ocorrências.*
 
-**[30]** ATSDR — Agency for Toxic Substances and Disease Registry. *Toxicological
+**[29]** ATSDR — Agency for Toxic Substances and Disease Registry. *Toxicological
 Profile for Boron*. Capítulo 6, "Potential for Human Exposure": *"Adsorption-desorption
 reactions are expected to be the only significant mechanism that will influence the
 fate of boron in water"*; *"the greatest adsorption is generally observed at pH 7.5-9.0"*;
@@ -1321,7 +1329,7 @@ fate of boron in water"*; *"the greatest adsorption is generally observed at pH 
 of soil that will influence the mobility of boron"*. — *Base do parágrafo sobre
 lixiviação; ver ficha `atsdr-2026-boro-perfil-toxicologico.md`.*
 
-**[31]** EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA — Embrapa Pecuária Sul. *Tratamento da madeira na propriedade rural: procedimentos para a sua aplicação, licenciamento e gestão financeira*. Comunicado Técnico 110. Bagé, RS: Embrapa, 2024. ISSN 1982-5382. — Instrução oficial brasileira de tratamento de moirão na pequena propriedade pelo método de substituição de seiva com CCB: EPI por peça, tonel de 200 L, proporção do preservativo e **proibição explícita de descarte no ambiente, repetida em dois pontos do documento**; reuso da solução excedente em recipiente plástico; alerta de que dicromato e ácido bórico estão sob controle da Polícia Federal (Portaria 240/2019). — *Limite: trata de madeira (moirões), não de bambu, e não diz o que fazer quando o reuso termina. É a norma brasileira que existe para metais e não existe para o boro — citada aqui exatamente para marcar essa ausência.*
+**[30]** EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA — Embrapa Pecuária Sul. *Tratamento da madeira na propriedade rural: procedimentos para a sua aplicação, licenciamento e gestão financeira*. Comunicado Técnico 110. Bagé, RS: Embrapa, 2024. ISSN 1982-5382. — Instrução oficial brasileira de tratamento de moirão na pequena propriedade pelo método de substituição de seiva com CCB: EPI por peça, tonel de 200 L, proporção do preservativo e **proibição explícita de descarte no ambiente, repetida em dois pontos do documento**; reuso da solução excedente em recipiente plástico; alerta de que dicromato e ácido bórico estão sob controle da Polícia Federal (Portaria 240/2019). — *Limite: trata de madeira (moirões), não de bambu, e não diz o que fazer quando o reuso termina. É a norma brasileira que existe para metais e não existe para o boro — citada aqui exatamente para marcar essa ausência.*
 
 
 ## Como este texto foi feito

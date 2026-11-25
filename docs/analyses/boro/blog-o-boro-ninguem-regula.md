@@ -14,7 +14,11 @@ autor: Fabio Takwara
 Quem trata bambu com boro em casa faz uma conta simples: compra o pó, mistura na água,
 mergulha a vara. O que ninguém conta é o que fazer com a água depois.
 
-No Brasil não existe norma que responda. Essa é a história.
+Nos dois instrumentos que o Brasil fez para essas duas coisas — a lei dos resíduos
+sólidos e a política nacional do bambu — não há uma linha sobre a apara de bambu
+tratada. Isso não prova que nada exista no país inteiro: prova que **as duas leis
+que deveriam tratar do assunto não tratam**. A regra geral de resíduos continua
+valendo. O que falta é a específica. Essa é a história.
 
 ## Primeiro, o que é essa coisa
 
@@ -92,14 +96,20 @@ caso medido — e que ninguém mediu os outros.
 ## Onde a água vai
 
 O boro tem uma propriedade que ninguém vê: **ele é móvel no solo**. Ele não se prende
-na terra como metais pesados fazem. A adsorção e a dessorção são o único mecanismo
-significativo, e o quanto ele fica depende do tipo de solo — solos ricos em alumínio
-retêm mais; solos arenosos e ácidos deixam passar.
+na terra como os metais pesados fazem. O que governa a retenção é a **adsorção e dessorção** —
+e o quanto ele fica depende do solo: solos ricos em óxido de alumínio amorfo retêm
+mais, e a retenção é maior em pH entre 7,5 e 9,0. Fora dessa faixa, passa. É o único
+mecanismo significativo que o perfil toxicológico do ATSDR registra, e é nele que a
+frase se apoia — não numa regra geral sobre "metais".
 
 Ou seja: **o boro dissolve e desce.** Em direção ao lençol.
 
-Quem mora em área de descarte e bebe água de cisterna está exatamente na rota. Mas
-aqui é preciso ser honesto: **não existe medição**. Nenhum estudo brasileiro mediu
+Quem mora em área de descarte e bebe água de cisterna está **na direção** dessa rota —
+mas "na direção" não é "em cima dela", e aqui é preciso ser exato: a cisterna capta
+chuva, não lençol; a ligação entre as duas coisas é uma infiltração que ninguém mediu
+no Brasil. E **não existe medição**: nenhum estudo brasileiro mediu boro sob área de
+descarte de bambu tratado, nem boro em cisterna de comunidade produtora. A rota é
+plausível pelo mecanismo. Não está demonstrada em campo. Nenhum estudo brasileiro mediu
 boro sob área de descarte de bambu tratado, nem boro em cisterna de comunidade
 produtora. A rota é plausível pelo mecanismo. Não está demonstrada em campo.
 
