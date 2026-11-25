@@ -119,8 +119,7 @@ na balança é um pó branco — ácido bórico, bórax ou outra coisa. O ácido
 
 O contrário também vale: para obter 10 g de boro seriam necessários cerca de 57 g de
 ácido bórico. Essa confusão entre **elemento** e **produto** é o que produz erro de dose por um fator
-fixo — quase seis vezes (100 ÷ 17,5) —, e não uma fração qualquer de erros: é o
-números errados que circulam sobre boro.
+fixo — quase seis vezes (100 ÷ 17,5). A conta é esta, e ela se refaz em qualquer calculadora.
 
 ## 2. Três nomes que confundem
 
@@ -272,8 +271,8 @@ mil toneladas.** O número de 459,7 mil toneladas é o do conjunto completo.
 Esta é a pergunta que quase todo mundo faz, e a resposta exige uma ferramenta nova:
 a diferença entre **dose** e **perigo**.
 
-O princípio de Paracelso, que a toxicologia adota, é que **toda substância tem uma dose em
-que não faz nada e uma dose em que faz mal** — e é princípio, não medição desta gaveta. Água pura
+A regra que este texto adota — **regra declarada, não medição desta gaveta** — é que **toda
+substância tem uma dose em que não faz nada e uma dose em que faz mal**. Água pura
 mata se você beber o suficiente. A pergunta correta nunca é "é tóxico?" — é
 **"em que quantidade, por qual via, por quanto tempo?"**
 
@@ -885,9 +884,9 @@ ambiente), **SNVS** (vigilância sanitária), **Suasa** (sanidade agropecuária)
 e nenhuma delas trata de bambu tratado.
 
 **Na prática:** quem trata bambu com boro na própria casa ou na cooperativa **não tem
-uma norma específica sobre bambu para descumprir** — não localizei nenhuma nos
-instrumentos examinados, e a busca foi sobre a PNRS e a PNMCB — a NBR 10004 **não** foi
-examinada, por falta de cópia custodiada —, não sobre todo o ordenamento brasileiro. A afirmação correta é **"não localizei disciplina
+uma norma específica sobre bambu para descumprir** — não localizei nenhuma nos instrumentos
+examinados. A busca foi sobre a PNRS e a PNMCB, e **não** sobre todo o ordenamento brasileiro;
+a NBR 10004 **não** foi examinada, por falta de cópia custodiada. A afirmação correta é **"não localizei disciplina
 específica"**, não "não existe". Se quem trata **cumpre** as obrigações gerais de
 resíduo (acondicionamento, destinação adequada, eventual Plano de Gerenciamento) **é
 outra pergunta, e esta gaveta não a mediu.** O que as fontes mostram é ausência de
@@ -898,10 +897,10 @@ disciplina específica nos instrumentos examinados, não ausência de obrigaçã
 - **ANVISA** regula a água boricada a 3% como antisséptico [6] — o produto, não o resíduo;
 - **MAPA** responde por insumo agrícola;
 - **ICMBio** responde por unidade de conservação — e **é aí que está o risco real**;
-- o **município** responde pelo resíduo domiciliar [27], mas a caracterização de
-  periculosidade depende da **NBR 10004** — que esta gaveta **não examinou**, porque não tem
-  cópia custodiada dela. O que se pode afirmar é só isto: a apara tratada não é listada pela
-  PNRS nem pela PNMCB [27][28], e sobre a NBR este texto não afirma nada.
+- o **município** responde pelo resíduo domiciliar [27], mas este texto **não pode dizer se a
+  apara é perigosa** — a norma técnica que faria essa classificação (**NBR 10004**) **não foi
+  examinada** aqui, porque não há cópia custodiada dela. O que se pode afirmar é só isto: a apara
+  tratada não é listada pela PNRS nem pela PNMCB [27][28].
 
 
 
@@ -1159,8 +1158,9 @@ massa, não é dose e não é risco clínico.**
 referência, para que categorias diferentes fiquem comparáveis. É dessa etapa que sai um
 número como "93% do total".
 
-**ACV** — avaliação de ciclo de vida. Metodologia normalizada (ISO 14040/14044) que
-contabiliza entradas e saídas de um produto desde a extração até o descarte.
+**ACV** — avaliação de ciclo de vida. Metodologia que contabiliza entradas e saídas de um
+produto desde a extração até o descarte; o estudo de ACV citado [19] declara seguir as normas
+**ISO 14040 e 14044**. As normas em si não estão nesta gaveta: quem as nomeia é a fonte.
 
 **CPCB** — Central Pollution Control Board, órgão indiano de controle de poluição.
 
@@ -1189,8 +1189,9 @@ celulose.
 **MRL** — *Minimal Risk Level*, nível mínimo de risco. Régua de triagem de saúde pública
 do ATSDR; **não** é limite regulatório.
 
-**NBR 10004** — norma brasileira que classifica resíduos sólidos. Classe I é perigoso;
-Classe II-A, não inerte; Classe II-B, inerte.
+**NBR 10004** — norma técnica brasileira de classificação de resíduos sólidos. **Esta gaveta
+não a examinou**: não há cópia custodiada, e por isso este texto não descreve o que ela lista nem
+como classifica.
 
 **NOAEL** — maior dose em que não se observou efeito adverso. O par do LOAEL, menor dose
 com efeito observado.
@@ -1496,8 +1497,8 @@ adota a tabela.*
 **[25]** RUSCH, Fernando; CANDATEN, Luana; BANDERA, Eduarda; MANGINI, Tauana de Souza;
 ZANCHETTA, Laura. *Tratamento químico, durabilidade e lixiviação de bambu tratado e
 submetido a ensaio em campo de apodrecimento*, 2023. — *CCB = 26% CuSO₄ + 63,5%
-dicromato + **10,5% ácido bórico**; substituição de seiva conforme NBR 6232, retenção-alvo
-6,5 kg/m³; índice de degradação 40 (CCB 1%) e 0 (CCB 3%); controles 100% e 80%; **Tukey
+dicromato + **10,5% ácido bórico**; substituição de seiva conforme NBR 6232 (norma citada pela
+autora, não examinada nesta gaveta), retenção-alvo 6,5 kg/m³; índice de degradação 40 (CCB 1%) e 0 (CCB 3%); controles 100% e 80%; **Tukey
 p>0,05**, sem diferença significativa; autores **não atribuem lixiviação**.*
 
 **[26]** NATIONAL INSTITUTE FOR OCCUPATIONAL SAFETY AND HEALTH. *NIOSH Pocket Guide to

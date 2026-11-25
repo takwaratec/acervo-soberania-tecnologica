@@ -300,3 +300,35 @@ Passou a resolver por `--bruto`, por `$ACERVO` e por caminho absoluto do acervo,
 **Denominador depois destas correções:** M **287 → 289**, `CONFERE` **62**, `DERIVACAO_DECLARADA`
 **6 → 8** (as duas contas que substituíram quantificadores vagos), `NAO_MEDIDO` **207**,
 `TABELA_COM_NOTA` **10**, `RESUMO` **2**, `AUSENTE` **0**.
+
+
+---
+
+## R14 — confirmação das sete, e três defeitos que a correção criou (2026-11-25)
+
+Escopo: confirmação, item por item, das sete correções da rodada anterior. O auditor confirmou
+**os sete itens**, mediu por conta própria **52 de 52 hashes** do manifesto do ComexStat e
+reproduziu os dois totais (`459.722.221 kg` / `US$ 209.462.631`; com `--sem`, `459.555.615 kg` /
+`US$ 204.652.434`). E achou **três defeitos nascidos das minhas próprias correções** — que é
+exatamente o que se pediu que ele atacasse.
+
+| Achado do R14 | O que eu tinha feito | Corrigido |
+|---|---|---|
+| §1 — frase quebrada e afirmação sem fonte: *"…é o números errados que circulam sobre boro"* | ao matar o quantificador "metade", deixei uma oração sem sujeito e uma afirmação que a [10] não sustenta | a frase termina na conta: *"…por um fator fixo — quase seis vezes (100 ÷ 17,5). A conta é esta, e ela se refaz em qualquer calculadora."* |
+| §6 — atribuição histórica sem fonte: *"O princípio de Paracelso, que a toxicologia adota…"* | troquei um universal sem fonte por uma atribuição sem fonte | *"A regra que este texto adota — **regra declarada, não medição desta gaveta** — é que…"*: sem história e sem falar pela toxicologia |
+| §18 e glossário — a NBR 10004 continuava descrita (`Classe I é perigoso; Classe II-A…`) enquanto a §18 dizia *"sobre a NBR este texto não afirma nada"* | declarei a norma não examinada e deixei a descrição do conteúdo dela em pé | a descrição saiu; ficou *"Esta gaveta não a examinou… por isso este texto não descreve o que ela lista nem como classifica"*; e o §18 deixou de dizer que a classificação "depende" dela |
+
+**A classe, não a frase.** Achado de "norma descrita sem custódia" obriga a varrer o texto inteiro
+por norma — não só a corrigir a NBR. Varredura feita, e o resultado:
+
+- **ISO 14040/14044** (glossário, ACV): **sustentada**, mas não atribuída. A fonte [19] declara
+  seguir as duas normas — verificado no PDF custodiado. O verbete passou a dizer que **quem as
+  nomeia é a fonte**, e que as normas não estão na gaveta.
+- **NBR 6232** (anotação bibliográfica da Zanchetta): é a **autora** que cita a norma para o
+  método de substituição de seiva. A anotação passou a dizer isso: *"norma citada pela autora,
+  não examinada nesta gaveta"*.
+
+**Denominador inalterado:** M **289**, `CONFERE` **62**, `DERIVACAO` **8**, `NAO_MEDIDO` **207**,
+`TABELA_COM_NOTA` **10**, `RESUMO` **2**, `AUSENTE` **0**. As quatro correções mexeram em redação
+e em atribuição, não em número — e é por isso que o denominador não se moveu: se tivesse movido
+sem eu declarar por quê, seria sinal de que a correção mexeu no que não devia.
