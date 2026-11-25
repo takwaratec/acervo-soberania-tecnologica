@@ -1049,8 +1049,13 @@ lei-quadro, e a definição dela é ampla de propósito:</p>
    "recipientes e <strong>líquidos cujas particularidades tornem inviável o seu lançamento na rede "
    "pública de esgotos ou em corpos d'água</strong>")}
 
-<p><strong>Banho de tratamento com cobre é resíduo sólido pela definição legal</strong> — ainda que
-seja líquido. Isso não é interpretação: é o texto do art. 3º, XVI.</p>
+<p><strong>Banho de tratamento com cobre entra na definição legal de resíduo sólido</strong> — ainda
+que seja líquido, e a condição que o art. 3º, XVI exige se cumpre neste caso: o banho não pode ir para
+a rede pública nem para o corpo d'água. Uma solução a 1% carrega cerca de <strong>2.545 mg de cobre por
+litro</strong>; o limite de lançamento de efluente com cobre é <strong>1,0 mg/L</strong>, pela CONAMA
+430/2011.{cit("conama430")} São <strong>2.545 vezes</strong> acima. É essa impossibilidade de
+lançamento — a hipótese literal da lei — que põe o banho dentro da definição, e não uma escolha de
+redação. Se o lançamento fosse viável, o enquadramento seria outro.</p>
 
 <p><strong>Mas procure &quot;bambu&quot; na PNRS: zero ocorrências. &quot;Madeira&quot;: zero.</strong>
 A lei que rege resíduo no Brasil <strong>não nomeia o material</strong>.</p>
@@ -1317,7 +1322,8 @@ instruções que ensinam o banho <strong>param exatamente onde o resíduo começ
 
 <p>E aqui é preciso evitar o salto que eu mesmo já dei: <strong>não</strong> quer dizer que o resíduo
 do bambu esteja fora da lei. A Política Nacional de Resíduos Sólidos vale para qualquer resíduo
-sólido — e alcança até o resíduo líquido, pelo art. 3º, XVI.{cit("pnrs2010")} Para dar destinação, o
+sólido — e alcança o resíduo líquido quando o lançamento em rede ou corpo d'água é inviável, pelo
+art. 3º, XVI,{cit("pnrs2010")} que é o caso do banho (seção 8). Para dar destinação, o
 resíduo precisa ser classificado, e a norma técnica que faz isso é a NBR 10.004, citada aqui pelo
 número, não pela leitura: a edição de 2024 é paga e eu não a li. O que
 não existe é norma <em>da cadeia do bambu</em>, classificação publicada para esse resíduo específico,

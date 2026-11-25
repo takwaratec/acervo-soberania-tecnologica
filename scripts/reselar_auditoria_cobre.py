@@ -177,7 +177,6 @@ def main():
         "commit_alvo": alvo,
         "manifest_path_lido": man_path,
         "sha256_do_manifesto": man_sha,
-        "bytes_do_manifesto": man_bytes,
         "metodo": ("Cada sha256 foi calculado sobre os bytes servidos por `git show "
                    "<commit>:<path>`, no próprio repositório, e não sobre cópia local."),
         "total_fontes": man["total_fontes"],

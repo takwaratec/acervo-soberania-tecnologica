@@ -939,8 +939,13 @@ lei-quadro, e a definição dela é ampla de propósito:
 
 > resíduos sólidos: material, substância, objeto ou bem descartado resultante de atividades humanas em sociedade, nos estados sólido ou semissólido, bem como gases contidos em recipientes e líquidos cujas particularidades tornem inviável o seu lançamento na rede pública de esgotos ou em corpos d'água
 
-**Banho de tratamento com cobre é resíduo sólido pela definição legal** — ainda que
-seja líquido. Isso não é interpretação: é o texto do art. 3º, XVI.
+**Banho de tratamento com cobre entra na definição legal de resíduo sólido** — ainda
+que seja líquido, e a condição que o art. 3º, XVI exige se cumpre neste caso: o banho não pode ir para
+a rede pública nem para o corpo d'água. Uma solução a 1% carrega cerca de **2.545 mg de cobre por
+litro**; o limite de lançamento de efluente com cobre é **1,0 mg/L**, pela CONAMA
+430/2011.[9] São **2.545 vezes** acima. É essa impossibilidade de
+lançamento — a hipótese literal da lei — que põe o banho dentro da definição, e não uma escolha de
+redação. Se o lançamento fosse viável, o enquadramento seria outro.
 
 **Mas procure "bambu" na PNRS: zero ocorrências. "Madeira": zero.**
 A lei que rege resíduo no Brasil **não nomeia o material**.
@@ -1186,7 +1191,8 @@ instruções que ensinam o banho **param exatamente onde o resíduo começa**.
 
 E aqui é preciso evitar o salto que eu mesmo já dei: **não** quer dizer que o resíduo
 do bambu esteja fora da lei. A Política Nacional de Resíduos Sólidos vale para qualquer resíduo
-sólido — e alcança até o resíduo líquido, pelo art. 3º, XVI.[12] Para dar destinação, o
+sólido — e alcança o resíduo líquido quando o lançamento em rede ou corpo d'água é inviável, pelo
+art. 3º, XVI,[12] que é o caso do banho (seção 8). Para dar destinação, o
 resíduo precisa ser classificado, e a norma técnica que faz isso é a NBR 10.004, citada aqui pelo
 número, não pela leitura: a edição de 2024 é paga e eu não a li. O que
 não existe é norma *da cadeia do bambu*, classificação publicada para esse resíduo específico,
