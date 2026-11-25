@@ -1,0 +1,18 @@
+{
+ "schema": "ENUMERACAO_FICHAS_R1",
+ "nota": "Ordem e texto da lista de fichas do artigo. A lista é GERADA daqui + do manifesto de fichas publicadas; a igualdade entre os dois é verificada pelo script, que falha se houver ficha sem entrada ou entrada sem ficha. Foi assim que a IN Ibama 5/1992 ficou fora da enumeração por três versões.",
+ "fichas": [
+  {"arquivo": "ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md", "ordem": 1, "rotulo": "Embrapa COT 110", "descricao": "instrução oficial brasileira — EPI, tonel, reuso"},
+  {"arquivo": "ficha-nmba-2006-preservation-of-bamboo-manual.md", "ordem": 2, "rotulo": "NMBA 2006 (Índia)", "descricao": "manual oficial indiano — decantar, reusar, proibições"},
+  {"arquivo": "ficha-scharfenberg-2020-bambu-cb-fitotoxicidade.md", "ordem": 3, "rotulo": "Scharfenberg 2020 (UFTM)", "descricao": "mede a fitotoxicidade do descarte"},
+  {"arquivo": "ficha-ufmg-mom-tratamento-com-borax.md", "ordem": 4, "rotulo": "UFMG / MOM", "descricao": "receita publicada por universidade pública"},
+  {"arquivo": "ficha-blog-tsc-como-tratar-bambu.md", "ordem": 5, "rotulo": "Blog TCS 2016", "descricao": "receita informal completa, sem aviso"},
+  {"arquivo": "ficha-espaconaturalmente-bambu.md", "ordem": 6, "rotulo": "Espaço Naturalmente", "descricao": "padrão de mercado"},
+  {"arquivo": "ficha-pi292-89-registro-preservativos-madeira.md", "ordem": 7, "rotulo": "Portaria Interministerial 292/89", "descricao": "registro obrigatório no Ibama e competência de fiscalização (art. 20)"},
+  {"arquivo": "ficha-pn151-97-ibama-risco-ambiental.md", "ordem": 8, "rotulo": "Portaria Normativa Ibama 151/97", "descricao": "o registro condicionado à determinação do risco ambiental"},
+  {"arquivo": "ficha-iema-es-nt01-2023-preservacao-madeira.md", "ordem": 9, "rotulo": "Iema-ES, NT 01/2023", "descricao": "«não há proibição no Brasil» e a falta de dados sobre o resíduo do CCB"},
+  {"arquivo": "ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md", "ordem": 10, "rotulo": "ABPM / FG4mad", "descricao": "a própria cadeia proíbe queima em fogão e a céu aberto"},
+  {"arquivo": "ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md", "ordem": 11, "rotulo": "Ciência Florestal 2025", "descricao": "880 dias de campo: arsênio no solo +129,2%"},
+  {"arquivo": "ficha-in05-92-ibama-destinacao-final-residuos.md", "ordem": 12, "rotulo": "Instrução Normativa Ibama 5/1992", "descricao": "a destinação final do resíduo segue a bula, e o usuário alcançado é «toda e qualquer empresa»"}
+ ]
+}
