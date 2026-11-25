@@ -74,8 +74,19 @@ FICHAS = [
      "ficha-blog-tsc-como-tratar-bambu.md"),
     ("f-6", "Ficha · Espaço Naturalmente", "Padrão de mercado",
      "ficha-espaconaturalmente-bambu.md"),
+    ("f-7", "Ficha · Portaria 292/89", "A norma que nomeia quem fiscaliza",
+     "ficha-pi292-89-registro-preservativos-madeira.md"),
+    ("f-8", "Ficha · Portaria Ibama 151/97", "O risco ambiental como requisito",
+     "ficha-pn151-97-ibama-risco-ambiental.md"),
+    ("f-9", "Ficha · Iema-ES NT 01/2023", "O regulador escrevendo o que não sabe",
+     "ficha-iema-es-nt01-2023-preservacao-madeira.md"),
+    ("f-10", "Ficha · ABPM / FG4mad", "A própria cadeia proíbe a queima",
+     "ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md"),
+    ("f-11", "Ficha · Ciência Florestal 2025", "880 dias medindo arsênio no solo",
+     "ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md"),
 ]
-FICHAS_DIR = f"{REPO}/_privado/fichas/ago_28_Sulfato_S11"
+# lê as fichas da área publicada, que é o que o leitor recebe e o auditor confere
+FICHAS_DIR = f"{REPO}/docs/analyses/cobre/fichas"
 
 
 def md_para_html(md):
@@ -178,7 +189,7 @@ def montar():
             f'</section>')
 
     import hashlib, html as _hh
-    # --- 6 fichas técnicas
+    # --- fichas técnicas
     for fid, titulo, sub, arq in FICHAS:
         cam = os.path.join(FICHAS_DIR, arq)
         md = open(cam, encoding="utf-8").read()
@@ -210,10 +221,10 @@ def montar():
     secs.append(
         '<section role="tabpanel" id="refs" aria-labelledby="h-refs">\n'
         '  <h2 id="h-refs"><span class="num">R</span>Referências bibliográficas</h2>\n'
-        '  <p class="meta">REFERÊNCIAS · 14 ENTRADAS · GAVETA COBRE · 2026-11-24</p>\n'
+        f'  <p class="meta">REFERÊNCIAS · {len(R.REFERENCIAS)} ENTRADAS · GAVETA COBRE · 2026-11-24</p>\n'
         '  <p>Numeradas na ordem em que aparecem pela primeira vez no texto. Onde a fonte é uma '
         'página web sem data declarada, registra-se [s.d.]. Todas as fontes custodiadas têm o hash '
-        'de integridade na ficha correspondente e no <code>MANIFEST_S11.json</code>.</p>\n'
+        'de integridade na ficha correspondente e no manifesto de custódia da linha (<code>MANIFEST_S11.json</code> ou <code>MANIFEST_S11C.json</code>).</p>\n'
         f'  {_refs}\n'
         '</section>')
 
