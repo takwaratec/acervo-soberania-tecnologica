@@ -83,7 +83,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
     <span><b>7</b> fichas</span>
     <span><b>180</b> afirmações medidas</span>
     <span><b>172</b> aprovadas · <b>2</b> aprovadas sem unidade · <b>6</b> não verificáveis</span>
-    <span>gate de fidelidade à fonte · self-test 95</span>
+    <span>gate de fidelidade à fonte · <code>ops/command-center/metodo/gate_fidelidade_fonte.py</code> · sha256 <code>54691508</code> · self-test 95</span>
   </div>
 </header>
 <main>
@@ -93,6 +93,11 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
     confere. Ele <strong>não</strong> julga se a frase da ficha é a frase da fonte, nem se a conclusão é
     legítima. As sete estão PASS; <strong>PASS não é homologação</strong>. Homologar é ato de leitura humana —
     é o que esta página serve.</p>
+    <p><strong>As fontes primárias não acompanham este documento.</strong> Os PDFs que sustentam as
+    páginas citadas ficam em custódia privada e não são publicados junto das fichas. Nenhuma das páginas
+    foi conferida por auditor externo a partir deste arquivo: a conferência de página que esta leitura
+    descreve é a do curador, feita na fonte. Quem quiser reexaminar uma página precisa da custódia, não
+    deste HTML.</p>
     <p>Três limites vêm declarados e não foram maquiados: na ficha do <b>acv</b>, oito itens do inventário
     ficaram sem confirmação de unidade (a tabela foi achatada na extração), e não se anotou coordenada só para
     fechar a ficha; na do <b>adier</b>, a atribuição da coluna MOR foi provada por coordenada na página, método
@@ -108,7 +113,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="adier-2023-propriedades-tratamento-bambu">
   <div class="estado-ficha">
     <div class="linha"><span class="selo pass">PASS</span>
-      <span>medido pelo gate de fidelidade à fonte</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
     <div class="linha itens" style="margin-top:6px">5 afirmações · APROVADO 5</div>
     
   </div>
@@ -141,7 +146,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <li><strong>Resistência à flexão (MOR):</strong> na Tabela 6, a linha da referência [53] reporta <strong>50–220 MPa</strong> de MOR (p. 24).</li>
 <li><strong>Densidade seca do bambu comumente usado em estruturas:</strong> varia de <strong>500 kg/m³</strong> a <strong>800 kg/m³</strong> (p. 12).</li>
 </ul>
-<blockquote><p><strong>Nota de verificação:</strong> na Tabela 6, a unidade está no cabeçalho da coluna (MOR em MPa, MOE em GPa), não junto aos valores <code>50–220</code>. A coluna foi conferida por coordenada na página 24 (o valor começa sob o cabeçalho MOR, não sob CS). O gate confirma os valores na p. 24, mas retorna <code>APROVADO_SEM_UNIDADE</code> porque não associa a unidade ao intervalo.</p></blockquote>
+<blockquote><p><strong>Nota de verificação:</strong> na Tabela 6, a unidade está no cabeçalho da coluna (MOR em MPa, MOE em GPa), não junto aos valores <code>50–220</code>. A coluna foi conferida por coordenada na página 24 (o valor começa sob o cabeçalho MOR, não sob CS), e a unidade foi conferida na mesma coordenada — por isso o valor entra na ficha como <strong>MPa</strong>. Registro do instrumento: a execução de <code>54691508</code> nesta ficha confere os valores na p. 24 e <strong>não</strong> associa a unidade ao intervalo; a versão anterior do instrumento (<code>1750b762</code>) emitia <code>APROVADO_SEM_UNIDADE</code> para esta mesma linha. O estado é do instrumento, não da ficha: a unidade está no cabeçalho e foi lida por coordenada.</p></blockquote>
 <hr>
 <h2 id="adier-2023-propriedades-tratamento-bambu--6-implicações-para-o-setor-e-construção-sustentá">6. Implicações para o Setor e Construção Sustentável</h2>
 <p>Demonstra a viabilidade técnica do bambu roliço como substituto do aço em elementos tracionados e da alvenaria em elementos de vedação, desde que atendidos os critérios de durabilidade e conexões flexíveis.</p>
@@ -150,7 +155,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <p>Aponta a falta de preenchimentos sustentáveis não friáveis nas conexões para impedir o cisalhamento nos nós como a principal lacuna da engenharia contemporânea de bambu.</p>
 <hr>
 <h2 id="adier-2023-propriedades-tratamento-bambu--8-síntese-de-alinhamento-com-a-tecnologia-takwar">8. Síntese de Alinhamento com a Tecnologia Takwara</h2>
-<p>Fundamenta os valores de resistência mecânica citados no <strong>Manual de Conexões Estruturais (Solda Vegetal — DOI pendente: não localizado na fonte)</strong> e valida a escolha da <em>Guadua</em> como espécie estrutural prioritária.</p>
+<p>Os valores de resistência mecânica desta ficha <strong>não são atribuídos</strong> ao <em>Manual de Conexões Estruturais (Solda Vegetal)</em>: o manual é citado no projeto, mas a referência não foi localizada (DOI pendente), e a correspondência entre os valores desta fonte e os do manual <strong>não foi medida</strong>. A escolha da <em>Guadua</em> como espécie estrutural prioritária é do projeto, não conclusão desta fonte.</p>
 <hr>
 <h2 id="adier-2023-propriedades-tratamento-bambu--declaração-de-uso-de-inteligência-artificial">Declaração de uso de inteligência artificial</h2>
 <p>Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas, conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.</p>
@@ -160,7 +165,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="ficha-chen-2015-cu-moso-fitorremediacao">
   <div class="estado-ficha">
     <div class="linha"><span class="selo pass">PASS</span>
-      <span>medido pelo gate de fidelidade à fonte</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
     <div class="linha itens" style="margin-top:6px">28 afirmações · APROVADO 28</div>
     
   </div>
@@ -205,7 +210,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="ficha-liu-2015-pb-moso-fitorremediacao">
   <div class="estado-ficha">
     <div class="linha"><span class="selo pass">PASS</span>
-      <span>medido pelo gate de fidelidade à fonte</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
     <div class="linha itens" style="margin-top:6px">22 afirmações · APROVADO 22</div>
     
   </div>
@@ -247,7 +252,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="marcal-2018-normas-internacionais-bambu">
   <div class="estado-ficha">
     <div class="linha"><span class="selo pass">PASS</span>
-      <span>medido pelo gate de fidelidade à fonte</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
     <div class="linha itens" style="margin-top:6px">3 afirmações · APROVADO 3</div>
     
   </div>
@@ -285,7 +290,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="ficha-heat-treatment-pdms-bamboo">
   <div class="estado-ficha">
     <div class="linha"><span class="selo pass">PASS</span>
-      <span>medido pelo gate de fidelidade à fonte</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
     <div class="linha itens" style="margin-top:6px">90 afirmações · APROVADO 90</div>
     
   </div>
@@ -347,7 +352,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="santos-2024-poetica-narrativa-tectonica-bambu">
   <div class="estado-ficha">
     <div class="linha"><span class="selo pass">PASS</span>
-      <span>medido pelo gate de fidelidade à fonte</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
     <div class="linha itens" style="margin-top:6px">12 afirmações · APROVADO 12</div>
     
   </div>
@@ -411,7 +416,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="ficha-acv-bambu-unesp-araujo2025">
   <div class="estado-ficha">
     <div class="linha"><span class="selo pass">PASS</span>
-      <span>medido pelo gate de fidelidade à fonte</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
     <div class="linha itens" style="margin-top:6px">20 afirmações · APROVADO 12 · NAO_VERIFICAVEL 6 · APROVADO_SEM_UNIDADE 2</div>
     <ul class="pendencias"><li><code>0,0003kg</code> — NAO_VERIFICAVEL · p. 7 · linha 66</li><li><code>0,002kg</code> — APROVADO_SEM_UNIDADE · p. 7 · linha 66</li><li><code>0,67L</code> — NAO_VERIFICAVEL · p. 7 · linha 66</li><li><code>0,0003kg</code> — NAO_VERIFICAVEL · p. 7 · linha 66</li><li><code>0,0003kg</code> — NAO_VERIFICAVEL · p. 7 · linha 66</li><li><code>0,20kg</code> — APROVADO_SEM_UNIDADE · p. 7 · linha 66</li><li><code>0,13kg</code> — NAO_VERIFICAVEL · p. 7 · linha 66</li><li><code>0,07L</code> — NAO_VERIFICAVEL · p. 7 · linha 66</li></ul>
   </div>
