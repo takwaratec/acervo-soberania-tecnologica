@@ -68,7 +68,7 @@ referências formadoras; a **NSR-10 (Colômbia, 2010)** como marco regional; e a
 - Uma **cadeia capaz de entregar colmos maduros, selecionados, preservados e secos** é condição
   relevante para a normalização.
 - Para **conexões/ligações alternativas**, na leitura de Marçal a norma equatoriana exige
-  **verificação por estudo científico com pelo menos 30 ensaios** — leitura prudencial do autor, não
+  **verificação por estudo científico com pelo menos 30 ensaios** (p. 147) — leitura prudencial do autor, não
   exigência normativa universal.
 - **Protótipo (caso histórico documentado):** estrutura de **63 m²** (p. 150), com área entre pilares
   de **8 × 6 m** (p. 152), de *Dendrocalamus asper* (p. 154) colhido em **maio de 2010** na região de

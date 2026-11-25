@@ -77,7 +77,7 @@ Aponta a falta de preenchimentos sustentáveis não friáveis nas conexões para
 ---
 
 ## 8. Síntese de Alinhamento com a Tecnologia Takwara
-Fundamenta os valores de resistência mecânica citados no **Manual de Conexões Estruturais (Solda Vegetal — DOI )** e valida a escolha da *Guadua* como espécie estrutural prioritária.
+Fundamenta os valores de resistência mecânica citados no **Manual de Conexões Estruturais (Solda Vegetal — DOI pendente: não localizado na fonte)** e valida a escolha da *Guadua* como espécie estrutural prioritária.
 
 ---
 
