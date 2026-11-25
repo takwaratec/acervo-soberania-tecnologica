@@ -179,9 +179,22 @@ def main():
         "o commit alvo_commit, na branch da PR. main NÃO contém este material — ler main avalia outro "
         "objeto. Ao clonar de um caminho local, confira a base: a branch `main` do clone pode estar "
         "atrás da main do GitHub, e o A7 medido nela acusa arquivo de governança que já entrou.")
-    man["alvo_nota"] = ("alvo_commit é o último commit que mudou os bytes auditados (artigo, "
-                        f"manuscrito, {_nf} fichas, fontes). Todos os sha256 de fontes[] foram lidos "
-                        "do próprio commit, com `git show <alvo>:<path>`.")
+    _n_priv = sum(1 for f in man["fontes"] if f.get("no_repositorio") is False)
+    _n_repo = len(man["fontes"]) - _n_priv
+    man["aviso_de_leitura"] = (
+        "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo carrega o "
+        "alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: aquele é o da "
+        "rodada anterior. A entrada do pacote é o próprio arquivo AUDITORIA_SOL_COBRE_MANIFEST_R1_"
+        "<alvo>.json em docs/analyses/cobre/, mais a resposta de hashes ao lado. Ponteiro em "
+        "ops/command-center/auditoria-atual/ é mantido pela governança e pode não existir — quando não "
+        "existir, este arquivo é a entrada.")
+    man["alvo_nota"] = (f"alvo_commit é o último commit que mudou os bytes auditados (artigo, "
+                        f"manuscrito, {_nf} fichas, fontes). Dos {len(man['fontes'])} itens de fontes[], "
+                        f"{_n_repo} estão no repositório e tiveram o sha256 lido do próprio commit com "
+                        f"`git show <alvo>:<path>`; {_n_priv} NÃO estão no repositório (PDFs fora do "
+                        "rastreio) e têm o sha256 lido de fontes/CUSTODIA_PRIVADA_PDFS.json, onde cada "
+                        "um carrega caminho_privado e bytes. `git show` NÃO se aplica a esses: quem não "
+                        "tem o arquivo confere a identidade pelo registro, não o byte.")
     man["pergunta"] = (f"As afirmações do artigo e das {_nf} fichas são fielmente sustentadas pelas "
                        f"{man['total_fontes']} fontes custodiadas neste repositório, e o que não está "
                        "medido está declarado como tal?")
@@ -271,8 +284,17 @@ def main():
         "commit_alvo": alvo,
         "manifest_path_lido": man_path,
         "sha256_do_manifesto": man_sha,
-        "metodo": ("Cada sha256 foi calculado sobre os bytes servidos por `git show "
-                   "<commit>:<path>`, no próprio repositório, e não sobre cópia local."),
+        "metodo": (f"Para os {_n_repo} itens presentes no repositório, o sha256 foi calculado sobre os "
+                   "bytes servidos por `git show <commit>:<path>`, e não sobre cópia local. Para os "
+                   f"{_n_priv} itens fora do rastreio, o sha256 vem do registro de custódia privada "
+                   "(CUSTODIA_PRIVADA_PDFS.json), com caminho_privado e bytes; `git show` não se "
+                   "aplica a eles."),
+        "sha256_por_metodo": {
+            "git_show_no_commit": sorted(f["path"] for f in man["fontes"]
+                                         if f.get("no_repositorio") is not False),
+            "registro_custodia_privada": sorted(f["path"] for f in man["fontes"]
+                                                if f.get("no_repositorio") is False),
+        },
         "total_fontes": man["total_fontes"],
         "fontes_sha256": {f["path"]: f["sha256"] for f in man["fontes"]},
     }
