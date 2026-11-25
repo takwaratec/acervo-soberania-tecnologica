@@ -829,7 +829,8 @@ de quintal.</li>
 E isso não é descuido delas: elas ensinam o <em>banho</em>, não o descarte. Quem diz o descarte é
 outra peça do sistema — a <strong>bula do produto registrado</strong>, por exigência do item VIII da
 IN Ibama 5/92, de 1992. O problema é que a instrução que ensina o banho caseiro não vem com bula —
-e a norma que exigiria a bula é a mesma que dispensa de registro o produto de uso domissanitário.</p>
+não nas fontes que eu li — e a norma que exigiria a bula é a mesma que dispensa de registro o produto
+de uso domissanitário.</p>
 
 <p>E o reuso acaba:</p>
 <ul>
@@ -838,7 +839,7 @@ e a norma que exigiria a bula é a mesma que dispensa de registro o produto de u
 <li>quando a concentração cai abaixo do que funciona.</li>
 </ul>
 
-{bq("<strong>É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto registrado. Quem trata em casa não tem registro — e, nos sete documentos que eu li, não há bula para produto dispensado de registro. Se existe, eu não a encontrei.</strong>")}
+{bq("<strong>É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto registrado. Quem trata em casa não tem produto registrado — e, nos sete documentos que eu li, não há bula para produto dispensado de registro. Se existe, eu não a encontrei.</strong>")}
 
 <h3>A lei já resolveu isso — e quase ninguém sabe</h3>
 
@@ -1043,7 +1044,7 @@ resíduos</strong>: a apara, o corte, o colmo descartado e o efluente. Não é a
 É o que sobra dela.</p>
 
 {note("Por que isso entra num artigo sobre cobre", "Porque, nas receitas informais que esta frente "
-      "leu, nenhuma é só sulfato de cobre. A que mais aparece é ternária — ácido bórico, "
+      "leu, nenhuma é só sulfato de cobre. A ternária — ácido bórico, "
       "bórax e dicromato de sódio — e a receita de bórax usada em universidade pública é bórax e "
       "ácido bórico puros. Ou seja: <strong>na apara que sobra do tratamento com cobre, o bórax "
       "está junto</strong> — mas <strong>não em toda</strong>: o manual indiano e a instrução da Embrapa "

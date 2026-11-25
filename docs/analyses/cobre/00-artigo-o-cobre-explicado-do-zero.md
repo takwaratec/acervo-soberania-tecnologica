@@ -14,8 +14,8 @@ assistencia_documental: agente de IA, sujeito a revisao humana
 publico: "leigo em quimica e em linguagem academica"
 camada: "B — adaptacao publica em linguagem nao especializada"
 peca_html: "o-cobre-no-bambu.html (gerada de scripts/conteudo_cobre.py)"
-fichas: "docs/analyses/cobre/fichas/ (11 fichas)"
-referencias: "21 entradas, numeradas — ver secao Referencias"
+fichas: "docs/analyses/cobre/fichas/ (12 fichas)"
+referencias: "22 entradas, numeradas — ver secao Referencias"
 ---
 
 # O cobre, explicado do zero
@@ -24,7 +24,7 @@ referencias: "21 entradas, numeradas — ver secao Referencias"
 
 > **Nota de leitura.** Este é o manuscrito completo, do início ao fim, com as referências
 > bibliográficas numeradas ao final. As chamadas no corpo aparecem entre parênteses — por
-> exemplo (1) remete à primeira referência da lista. As 11 fichas técnicas que sustentam
+> exemplo (1) remete à primeira referência da lista. As 12 fichas técnicas que sustentam
 > os números estão identificadas na seção **Fontes custodiadas**.
 
 ---
@@ -743,7 +743,8 @@ de quintal.
 E isso não é descuido delas: elas ensinam o *banho*, não o descarte. Quem diz o descarte é
 outra peça do sistema — a **bula do produto registrado**, por exigência do item VIII da
 IN Ibama 5/92, de 1992. O problema é que a instrução que ensina o banho caseiro não vem com bula —
-e a norma que exigiria a bula é a mesma que dispensa de registro o produto de uso domissanitário.
+não nas fontes que eu li — e a norma que exigiria a bula é a mesma que dispensa de registro o produto
+de uso domissanitário.
 
 E o reuso acaba:
 
@@ -751,7 +752,7 @@ E o reuso acaba:
 - quando o banho satura e perde força;
 - quando a concentração cai abaixo do que funciona.
 
-> É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto registrado. Quem trata em casa não tem registro — e, nos sete documentos que eu li, não há bula para produto dispensado de registro. Se existe, eu não a encontrei.
+> É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto registrado. Quem trata em casa não tem produto registrado — e, nos sete documentos que eu li, não há bula para produto dispensado de registro. Se existe, eu não a encontrei.
 
 ### A lei já resolveu isso — e quase ninguém sabe
 
@@ -943,7 +944,7 @@ carcinogênica humana — 93% do total normalizado** — e **91% dessa carga vei
 resíduos**: a apara, o corte, o colmo descartado e o efluente. Não é a operação que pesa.
 É o que sobra dela.
 
-> **Por que isso entra num artigo sobre cobre** — Porque, nas receitas informais que esta frente leu, nenhuma é só sulfato de cobre. A que mais aparece é ternária — ácido bórico, bórax e dicromato de sódio — e a receita de bórax usada em universidade pública é bórax e ácido bórico puros. Ou seja: na apara que sobra do tratamento com cobre, o bórax está junto — mas não em toda: o manual indiano e a instrução da Embrapa propõem banhos separados, e o estudo do Acre mediu um banho só de bórax com ácido bórico. O que sustenta a ligação é o local do dano, não a mistura: onde os quatro estudos desta gaveta discordam do tratamento, concordam em apontar o resíduo e a água que sobra como o problema.
+> **Por que isso entra num artigo sobre cobre** — Porque, nas receitas informais que esta frente leu, nenhuma é só sulfato de cobre. A ternária — ácido bórico, bórax e dicromato de sódio — e a receita de bórax usada em universidade pública é bórax e ácido bórico puros. Ou seja: na apara que sobra do tratamento com cobre, o bórax está junto — mas não em toda: o manual indiano e a instrução da Embrapa propõem banhos separados, e o estudo do Acre mediu um banho só de bórax com ácido bórico. O que sustenta a ligação é o local do dano, não a mistura: onde os quatro estudos desta gaveta discordam do tratamento, concordam em apontar o resíduo e a água que sobra como o problema.
 
 ### Duas leis, duas datas, e o mesmo vazio
 

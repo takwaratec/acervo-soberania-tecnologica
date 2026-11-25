@@ -161,12 +161,14 @@ def main():
         "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo "
         "carrega o alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: "
         "aquele é o da rodada anterior. A entrada é o ponteiro em " + PT + ".")
+    _nf = len([f for f in man["fontes"] if "/fichas/" in f["path"]
+               and not f["path"].endswith("MANIFEST_FICHAS_PUBLICADAS.json")])
     man["alvo_nota"] = ("alvo_commit é o último commit que mudou os bytes auditados (artigo, "
-                        "manuscrito, 11 fichas, fontes). Todos os sha256 de fontes[] foram lidos "
+                        f"manuscrito, {_nf} fichas, fontes). Todos os sha256 de fontes[] foram lidos "
                         "do próprio commit, com `git show <alvo>:<path>`.")
-    man["pergunta"] = ("As afirmações do artigo e das 11 fichas são fielmente sustentadas pelas "
-                       "21 fontes custodiadas neste repositório, e o que não está medido está "
-                       "declarado como tal?")
+    man["pergunta"] = (f"As afirmações do artigo e das {_nf} fichas são fielmente sustentadas pelas "
+                       f"{man['total_fontes']} fontes custodiadas neste repositório, e o que não está "
+                       "medido está declarado como tal?")
     obj = man.get("objeto", {})
     for k in list(obj):
         if "ficha" in k:

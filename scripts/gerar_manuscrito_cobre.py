@@ -243,6 +243,14 @@ responsabilidade pela versão publicada permanecem com o autor.**
 
     doc = "\n".join(partes)
     doc = re.sub(r"\n{3,}", "\n\n", doc)
+    # números declarados no texto saem do disco, não de constante digitada
+    import glob as _g
+    from pathlib import Path as _P
+    _nfich = len(_g.glob(str(_P(SAIDA).parent / "fichas" / "ficha-*.md")))
+    _nref = len(R.REFERENCIAS)
+    doc = (doc.replace("(11 fichas)", f"({_nfich} fichas)")
+              .replace("As 11 fichas técnicas", f"As {_nfich} fichas técnicas")
+              .replace("21 entradas", f"{_nref} entradas"))
     open(SAIDA, "w", encoding="utf-8").write(doc)
     return doc, palavras
 
