@@ -1,0 +1,34 @@
+{
+ "schema": "ACERVO_FONTES_S11D_R1",
+ "gaveta": "cobre",
+ "data": "2026-11-24",
+ "nota": "Fontes da referência 22 — a IN Ibama 5/92 resolve a pendência que a S11-c tinha declarado. Publicada byte a byte. A via oficial do Ibama responde 403; o fac-símile é o hospedado pela ABPM.",
+ "total": 3,
+ "fontes": [
+  {
+   "ref": 22,
+   "chave": "in592_1992",
+   "path": "docs/analyses/cobre/fontes/s11d/1992_in05_ibama_destinacao_final_residuos.pdf",
+   "bytes": 130080,
+   "sha256": "69f340be735b31b557d554896b8995a8d8adae6f7daafd3e389081c5f5df5265",
+   "fonte_url": "https://www.abpm.com.br/wp-content/uploads/2020/10/outubro_1992.pdf"
+  },
+  {
+   "ref": 22,
+   "chave": "in592_1992",
+   "path": "docs/analyses/cobre/fontes/s11d/1992_in05_ibama_destinacao_final_residuos.md",
+   "bytes": 25428,
+   "sha256": "f1d25dae1850c4e3b7b62c467e4cb33267dd872e6117c1456845f8d9767fb16d",
+   "fonte_url": "https://www.abpm.com.br/wp-content/uploads/2020/10/outubro_1992.pdf"
+  },
+  {
+   "ref": null,
+   "chave": "ctf_ibama",
+   "path": "docs/analyses/cobre/fontes/s11d/2026-ctf-ibama-categorias-preservativos.md",
+   "bytes": 21514,
+   "sha256": "cdea2df9803bd208e895c6db566f1ee383cfdf97baa6f65ce85d87560bf67b38",
+   "fonte_url": "https://www.gov.br/ibama/pt-br/assuntos/quimicos-e-biologicos/preservativos-de-madeiras/registro-de-produtos-preservativos-de-madeiras"
+  }
+ ],
+ "pendentes": []
+}

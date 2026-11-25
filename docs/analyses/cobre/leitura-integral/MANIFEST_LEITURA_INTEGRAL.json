@@ -1,0 +1,51 @@
+{
+ "schema": "ACERVO_LEITURA_INTEGRAL_R1",
+ "gaveta": "cobre",
+ "data": "2026-11-24",
+ "regra": "Documento custodiado é lido na íntegra, parágrafo por parágrafo, com índice estável. A classificação é feita sobre o índice e o portão exige cobertura total: parágrafo sem classe reprova, classe sem parágrafo reprova.",
+ "total_paragrafos": 1008,
+ "documentos": [
+  {
+   "doc_id": "pi292-preservativos-registro",
+   "paragrafos": 91,
+   "paginas": 4,
+   "substantivos": 68
+  },
+  {
+   "doc_id": "pn151-ibama-registro-risco-ambiental",
+   "paragrafos": 20,
+   "paginas": 1,
+   "substantivos": 20
+  },
+  {
+   "doc_id": "iema-es-nt01-preservacao-madeira",
+   "paragrafos": 95,
+   "paginas": 36,
+   "substantivos": 90
+  },
+  {
+   "doc_id": "abpm-fg4mad-destinacao-residuos-madeira-tratada",
+   "paragrafos": 29,
+   "paginas": 21,
+   "substantivos": 23
+  },
+  {
+   "doc_id": "ufsm-ciencia-florestal-cca-moiroes-solo",
+   "paragrafos": 17,
+   "paginas": 16,
+   "substantivos": 17
+  },
+  {
+   "doc_id": "in05-ibama-destinacao-final-residuos",
+   "paragrafos": 161,
+   "paginas": 15,
+   "substantivos": 126
+  },
+  {
+   "doc_id": "ctf-ibama-categorias-preservativos",
+   "paragrafos": 595,
+   "paginas": 1,
+   "substantivos": 158
+  }
+ ]
+}

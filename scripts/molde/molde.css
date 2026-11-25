@@ -1,0 +1,127 @@
+:root{
+  --bg:#f7f6f2; --bg2:#efeee8; --card:#fff; --ink:#1d1c1a; --ink2:#57544d;
+  --line:#d9d6cc; --accent:#1f5f4e; --accent-l:#2b7f68; --accent-d:#14453a;
+  --warn:#8a4b12; --warn-bg:#fdf3e6; --danger:#8c2b1e; --danger-bg:#fceeec;
+  --ok:#1f5f4e; --ok-bg:#eaf4ef;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:17px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",Arial,sans-serif;
+  font-feature-settings:"kern" 1}
+header.top{background:var(--accent-d);color:#f2f0ea;padding:26px 22px 20px;border-bottom:4px solid var(--accent-l)}
+header.top .kicker{font:600 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;
+  text-transform:uppercase;color:#9fc9bb;margin-bottom:10px}
+header.top h1{margin:0 0 8px;font-size:29px;line-height:1.2;font-weight:650;letter-spacing:-.01em}
+header.top .sub{margin:0;color:#cfd8d3;font-size:16px;max-width:62ch}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px;align-items:flex-start}
+.chip{background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.22);color:#e8efe9;
+  padding:4px 10px;border-radius:999px;font:600 12px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;
+  white-space:nowrap}
+.chip--gold{background:#e8d7a8;border-color:#c9b478;color:#3d2f0d}
+nav.tabs{position:sticky;top:0;z-index:20;background:var(--bg2);border-bottom:1px solid var(--line);
+  display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px;padding:10px 12px}
+nav.tabs button{appearance:none;border:1px solid var(--line);background:var(--card);color:var(--ink2);
+  font:600 12.5px/1.25 inherit;padding:8px 6px;border-radius:8px;cursor:pointer;text-align:center;
+  overflow-wrap:anywhere;hyphens:auto}
+nav.tabs button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+main{max-width:1080px;margin:0 auto;padding:0 20px 80px}
+/* A folga acima da barra NAO e numero: e a altura medida por molde.js em --barra-h,
+   mais 20px de respiro. Numero fixo funciona ate a peca passar de N abas — a proxima sempre passa. */
+section[role="tabpanel"]{display:none;scroll-margin-top:calc(var(--barra-h,168px) + 20px)}
+section[role="tabpanel"].active{display:block;animation:fade .18s ease}
+@keyframes fade{from{opacity:.4}to{opacity:1}}
+h2{font-size:25px;line-height:1.25;margin:32px 0 6px;letter-spacing:-.01em}
+h2 .num{display:inline-block;background:var(--accent);color:#fff;font:700 13px/1 ui-monospace,Menlo,monospace;
+  padding:5px 8px;border-radius:6px;margin-right:10px;vertical-align:3px}
+h3{font-size:19.5px;margin:30px 0 8px;color:var(--accent-d);letter-spacing:-.005em}
+h4{font-size:16.5px;margin:22px 0 6px;color:var(--ink)}
+p{margin:11px 0}
+ul,ol{margin:11px 0 11px 22px;padding:0}
+li{margin:5px 0}
+hr.sep{border:0;border-top:1px solid var(--line);margin:30px 0}
+em{font-style:italic}
+code{font:600 14px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--bg2);
+  padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+a{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+blockquote{margin:16px 0;padding:13px 17px;background:var(--bg2);border-left:3px solid var(--accent-l);
+  border-radius:0 8px 8px 0;color:var(--ink2);font-size:16px}
+.tabwrap{overflow-x:auto;margin:16px 0;border:1px solid var(--line);border-radius:9px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
+th,td{padding:9px 11px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--bg2);font-weight:650;font-size:13px;letter-spacing:.02em;
+  position:sticky;top:0}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:#fbfaf7}
+.note,.okbox,.danger{margin:18px 0;padding:14px 17px;border-radius:9px;font-size:15.5px;line-height:1.55}
+.note{background:var(--warn-bg);border:1px solid #e6c9a4;border-left:4px solid var(--warn)}
+.note>strong:first-child{display:block;color:var(--warn);margin-bottom:4px}
+.okbox{background:var(--ok-bg);border:1px solid #bcdccd;border-left:4px solid var(--ok)}
+.okbox>strong:first-child{display:block;color:var(--accent-d);margin-bottom:4px}
+.danger{background:var(--danger-bg);border:1px solid #e8bdb6;border-left:4px solid var(--danger)}
+.danger>strong:first-child{display:block;color:var(--danger);margin-bottom:4px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:15px 16px}
+.kpi .n{font:700 27px/1.05 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--accent-d);
+  letter-spacing:-.02em;overflow-wrap:anywhere}
+.kpi .l{font-size:12px;text-transform:uppercase;letter-spacing:.09em;color:var(--ink2);margin-top:7px;
+  line-height:1.35}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:18px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:16px 18px}
+.card h4{margin-top:0}
+.card .tag{font:600 11.5px/1 ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.1em;
+  color:var(--accent-l)}
+.page-nav{display:flex;justify-content:space-between;gap:12px;margin:44px 0 0;padding-top:20px;
+  border-top:1px solid var(--line)}
+.page-nav a,.page-nav span{font:600 14px/1.3 inherit;padding:11px 15px;border-radius:9px;
+  border:1px solid var(--line);background:var(--card);color:var(--accent);text-decoration:none}
+.page-nav span{color:#a9a59b;background:transparent;border-color:transparent}
+footer.rodape{margin:40px 0 0;padding:18px 0 0;border-top:1px solid var(--line);
+  font-size:13px;color:var(--ink2);line-height:1.6}
+.meta{font:600 12.5px/1.4 ui-monospace,Menlo,monospace;color:var(--ink2);letter-spacing:.01em;
+  margin:0 0 14px}
+@media(max-width:1000px){nav.tabs{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:760px){
+  body{font-size:16px;line-height:1.6}
+  header.top{padding:20px 16px 16px}
+  header.top h1{font-size:22px;line-height:1.32}
+  header.top .sub{font-size:14.5px}
+  /* Uma linha que rola de lado. Empilhar em 3 colunas fazia a barra crescer com o numero de
+     abas: 12 abas = 131px, 19 = 223px (26% da tela), e o titulo ficava atras dela.
+     Linha unica mantem a altura constante e devolve a tela ao texto. */
+  nav.tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;
+    padding:6px;gap:6px;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+  nav.tabs button{flex:0 0 auto;white-space:nowrap;font-size:12px;padding:8px 11px;
+    line-height:1.2;letter-spacing:-.01em;overflow-wrap:normal;hyphens:none}
+  main{padding:0 15px 70px}
+  h2{font-size:21px;margin-top:24px}
+  h3{font-size:17.5px}
+  .tabwrap{overflow-x:visible;border:0;background:transparent}
+  table{min-width:0;display:block;font-size:14.5px}
+  thead{display:none}
+  tbody,tr,td{display:block;width:100%}
+  tr{background:var(--card);border:1px solid var(--line);border-radius:9px;margin-bottom:10px;padding:4px 0}
+  tbody tr:nth-child(even){background:var(--card)}
+  td{border:0;padding:7px 13px;display:block}
+  td>*{display:inline}
+  td::before{content:attr(data-l);display:block;font:600 11.5px/1.45 ui-monospace,Menlo,monospace;
+    color:var(--ink2);text-transform:uppercase;letter-spacing:.05em;overflow-wrap:anywhere;margin-bottom:3px}
+  td code{overflow-wrap:anywhere;word-break:break-word}
+  th{position:static}
+  .page-nav{flex-direction:column}
+}
+@media(max-width:420px){
+  header.top h1{font-size:19.5px}
+  .kpi .n{font-size:23px}
+}
+@media print{
+  nav.tabs,.page-nav{display:none}
+  section[role="tabpanel"]{display:block !important;page-break-after:always}
+  section[role="tabpanel"]:last-child{page-break-after:auto}
+  header.top{background:#fff;color:#000;border-bottom:2px solid #000}
+  header.top h1,header.top .sub{color:#000}
+  .chip{background:#eee;color:#000;border-color:#999}
+  a{color:#000}
+  .tabwrap{overflow:visible}
+  table{min-width:0}
+}

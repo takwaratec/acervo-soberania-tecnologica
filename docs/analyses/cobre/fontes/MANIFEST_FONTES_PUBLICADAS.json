@@ -1,0 +1,118 @@
+{
+ "schema": "ACERVO_FONTES_PUBLICADAS_R1",
+ "gaveta": "cobre",
+ "frente": "COBRE",
+ "data": "2026-11-24",
+ "nota": "Originais custodiados em _privado (gitignored) e publicados aqui byte a byte para que o auditor externo os alcance pelo repositório. O sha256 foi calculado no arquivo de origem e RECONFERIDO no publicado.",
+ "total": 18,
+ "fontes": [
+  {
+   "path": "docs/analyses/cobre/fontes/blog-tecnicas-como-tratar-bambu.htm",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/blog-tecnicas-como-tratar-bambu.htm",
+   "bytes": 98810,
+   "sha256": "883ee26c3e94d04ee8aad3953638cd00f0387665c0e2aa9e58e3b6d7260233fe"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/espaconaturalmente-bambu.htm",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/espaconaturalmente-bambu.htm",
+   "bytes": 170675,
+   "sha256": "19dadd086288c126fe4d3434dbbc3021788521d84d04bf605489cf908528b4cb"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/ufmg-tratamento-borax.htm",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/ufmg-tratamento-borax.htm",
+   "bytes": 1434,
+   "sha256": "9382a5534c442b106f7e3fe84e42cdf59c1d6bfecded6db71fb04e2337e89c6c"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/pdf/embrapa-cot110-tratamento-madeira-propriedade-rural.pdf",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/embrapa-cot110-tratamento-madeira-propriedade-rural.pdf",
+   "bytes": 5087230,
+   "sha256": "86de88b29be0fef34554121dc7a670f71975cf91ddf3664a422525d6b0fd1485"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/pdf/embrapa-pfb-2023-rusch.pdf",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/embrapa-pfb-2023-rusch.pdf",
+   "bytes": 2251942,
+   "sha256": "c394489567bc801af4bb1fa983e397322324f63478aacb035266da8a77264db1"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/pdf/manual-irrigacao-bambu-conbea97.pdf",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/manual-irrigacao-bambu-conbea97.pdf",
+   "bytes": 104681,
+   "sha256": "c6cbdd49b1e0d42409374cc254b81b748313e879e194c51cce0e8da43a0d3d6e"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/pdf/nmba-2006-preservation-bamboo-manual.pdf",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/nmba-2006-preservation-bamboo-manual.pdf",
+   "bytes": 744646,
+   "sha256": "1015b54bd0053f365efa4281d9f8c8fde35f80d12e6a9e05d3327892a486fd41"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/pdf/ufes-tcc-tratamento-bambu.pdf",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/ufes-tcc-tratamento-bambu.pdf",
+   "bytes": 703401,
+   "sha256": "cad731f98300d50a0233da49efb08247f9115e57e6bf31b4400e9903a1c1f292"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/pdf/uftm-scharfenberg-cb-cobre-boro.pdf",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/uftm-scharfenberg-cb-cobre-boro.pdf",
+   "bytes": 2356041,
+   "sha256": "f18d888a0db47449e0d20abef91688f19c90adc3a473987f696f0d5d73f982d8"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/md/blog-tecnicas-construcao-sustentavel-como-tratar-bambu.md",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/md/blog-tecnicas-construcao-sustentavel-como-tratar-bambu.md",
+   "bytes": 20041,
+   "sha256": "01015f9ab1b63ccb12150e02575b74d413ccd09f296f56c486d41164c9128cec"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/md/embrapa-cot110-tratamento-madeira-propriedade-rural.md",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/md/embrapa-cot110-tratamento-madeira-propriedade-rural.md",
+   "bytes": 29190,
+   "sha256": "2bd19e05aafe95d8dcecbbf17c79ff0cc30d167985f05ed7015fc8ab035da2c8"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/md/embrapa-pfb-2023-rusch.md",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/md/embrapa-pfb-2023-rusch.md",
+   "bytes": 29327,
+   "sha256": "9badf5bd3f45506bab8bdcd0fe243184f32fb2d958d2443173e869d9ded96b1d"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/md/espaconaturalmente-bambu.md",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/md/espaconaturalmente-bambu.md",
+   "bytes": 10935,
+   "sha256": "9bef3bda3919bd50db2ccdb3a5d5eff4d4a1bf3161943b7b8a2fe318aee5d8f4"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/md/manual-irrigacao-bambu-conbea97.md",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/md/manual-irrigacao-bambu-conbea97.md",
+   "bytes": 42871,
+   "sha256": "01199806c43feff3b665d69ceb3bbc54b688a1bf4a51375b07cd6f08ab212f80"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/md/nmba-2006-preservation-bamboo-manual.md",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/md/nmba-2006-preservation-bamboo-manual.md",
+   "bytes": 74006,
+   "sha256": "f7a58967ea7cfb5429a15b208fff41026c962b0ff61c40961fdbc0be369f4704"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/md/ufes-tcc-tratamento-bambu.md",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/md/ufes-tcc-tratamento-bambu.md",
+   "bytes": 43152,
+   "sha256": "b7512358ba0c5a60b63bc8be49baa469c394ae49646fad3ebb261b8f89b1f62b"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/md/ufmg-mom-tratamento-borax.md",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/md/ufmg-mom-tratamento-borax.md",
+   "bytes": 555,
+   "sha256": "4831f3980df1e750a35dc26992cfee601621ac1d16bce3dbb7204636f9becdde"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/md/uftm-scharfenberg-cb-cobre-boro.md",
+   "origem_privada": "_privado/fontes-documentais/ago_28_Sulfato_S11/md/uftm-scharfenberg-cb-cobre-boro.md",
+   "bytes": 150627,
+   "sha256": "72cfac53303d81a4bec4049c8a991c5db766bc28b204cb5cf3f69e60531e6b5b"
+  }
+ ]
+}
