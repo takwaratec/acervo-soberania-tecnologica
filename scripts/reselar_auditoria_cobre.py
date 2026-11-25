@@ -163,6 +163,29 @@ def main():
         "aquele é o da rodada anterior. A entrada é o ponteiro em " + PT + ".")
     _nf = len([f for f in man["fontes"] if "/fichas/" in f["path"]
                and not f["path"].endswith("MANIFEST_FICHAS_PUBLICADAS.json")])
+    _n_priv = sum(1 for f in man["fontes"] if f.get("no_repositorio") is False)
+    _n_repo = len(man["fontes"]) - _n_priv
+    # contagem de referências sai do manuscrito publicado, não de constante digitada
+    import re as _re
+    _man = os.path.join(REPO, "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md")
+    _nref = 0
+    if os.path.exists(_man):
+        _t = open(_man, encoding="utf-8").read()
+        if "## Referências" in _t:
+            _nref = len(_re.findall(r"^\d+\. ", _t.split("## Referências")[1], _re.M))
+    man["como_reproduzir"] = [
+        "1. git clone https://github.com/takwaratec/acervo-soberania-tecnologica",
+        f"2. git checkout {alvo} (ou a branch da PR, que contém este alvo) — leia o manifesto "
+        "nomeado por esse alvo, não o que está dentro dele",
+        "3. Leia docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md de ponta a ponta.",
+        f"4. Para cada uma das {_nref} marcas de citação, abra o extrato em "
+        "docs/analyses/cobre/fontes/md/ e localize o trecho.",
+        "5. Recalcule a aritmética do capítulo 06.",
+        f"6. Para as {_n_repo} fontes no repositório: abra docs/analyses/cobre/fontes/md/ e "
+        "fontes/s11c/ e localize o trecho. Para as "
+        f"{_n_priv} fora do rastreio: peça o PDF pelo caminho_privado declarado no manifesto e "
+        "confira o sha256 — `git show` não se aplica a elas.",
+    ]
     man["nota_do_selo"] = (
         "Este manifesto vive no commit que o contém. Ele NÃO nomeia o próprio commit, porque um "
         "objeto não pode conter o próprio hash: quem audita compara alvo_commit ao último commit de "
@@ -179,15 +202,12 @@ def main():
         "o commit alvo_commit, na branch da PR. main NÃO contém este material — ler main avalia outro "
         "objeto. Ao clonar de um caminho local, confira a base: a branch `main` do clone pode estar "
         "atrás da main do GitHub, e o A7 medido nela acusa arquivo de governança que já entrou.")
-    _n_priv = sum(1 for f in man["fontes"] if f.get("no_repositorio") is False)
-    _n_repo = len(man["fontes"]) - _n_priv
     man["aviso_de_leitura"] = (
         "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo carrega o "
         "alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: aquele é o da "
-        "rodada anterior. A entrada do pacote é o próprio arquivo AUDITORIA_SOL_COBRE_MANIFEST_R1_"
-        "<alvo>.json em docs/analyses/cobre/, mais a resposta de hashes ao lado. Ponteiro em "
-        "ops/command-center/auditoria-atual/ é mantido pela governança e pode não existir — quando não "
-        "existir, este arquivo é a entrada.")
+        "rodada anterior. NÃO há ponteiro em ops/command-center/auditoria-atual/: a entrada do pacote "
+        "é este arquivo, AUDITORIA_SOL_COBRE_MANIFEST_R1_<alvo>.json, ao lado da resposta de hashes e "
+        "do índice SELOS.md.")
     man["alvo_nota"] = (f"alvo_commit é o último commit que mudou os bytes auditados (artigo, "
                         f"manuscrito, {_nf} fichas, fontes). Dos {len(man['fontes'])} itens de fontes[], "
                         f"{_n_repo} estão no repositório e tiveram o sha256 lido do próprio commit com "
