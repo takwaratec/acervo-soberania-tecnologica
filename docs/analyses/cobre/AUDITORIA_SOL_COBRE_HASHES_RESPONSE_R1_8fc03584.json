@@ -1,9 +1,9 @@
 {
  "schema": "TAKWARATEC_R4_HASHES_RESPONSE_R1",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
- "commit_alvo": "3fd33c3b0721e142168efb1266a45a6d33f3680e",
- "manifest_path_lido": "docs/analyses/cobre/AUDITORIA_SOL_COBRE_MANIFEST_R1_3fd33c3b.json",
- "sha256_do_manifesto": "a7ad27d7d0115450f73991c7c75408abe302148238bd9a29e70f034016350581",
+ "commit_alvo": "8fc035840a584678c8a39352e253b15533a99846",
+ "manifest_path_lido": "docs/analyses/cobre/AUDITORIA_SOL_COBRE_MANIFEST_R1_8fc03584.json",
+ "sha256_do_manifesto": "2128a060530e684da29ded2500e0b84baf989d918fd9b1e02bcc25bc3361bbc3",
  "metodo": "Para os 27 itens presentes no repositório, o sha256 foi calculado sobre os bytes servidos por `git show <commit>:<path>`, e não sobre cópia local. Para os 6 itens fora do rastreio, o sha256 vem do registro de custódia privada (CUSTODIA_PRIVADA_PDFS.json), com caminho_privado e bytes; `git show` não se aplica a eles.",
  "sha256_por_metodo": {
   "git_show_no_commit": [
