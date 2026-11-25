@@ -993,7 +993,7 @@ prática é dada por quem descarta, no quintal.
 
 ## 19. O boro não é minerado: ele vem junto
 
-Falta a este texto uma peça que muda a leitura de tudo o que veio antes. **O boro quase nunca é o motivo de uma mina existir.** Ele entra no mercado como subproduto — e é essa condição que explica, ao mesmo tempo, por que ele é barato, por que ninguém o regula e por que os danos que a cadeia dele causa nunca aparecem no nome dele.
+Falta a este texto uma peça que muda a leitura de tudo o que veio antes. **O boro quase nunca é o motivo de uma mina existir.** Ele entra no mercado como subproduto — e é essa condição que explica, ao mesmo tempo, por que ele é barato, por que tende a não ser regulado como sujeito próprio, e por que os danos que a cadeia dele causa raramente aparecem no nome dele.
 
 ### O que a geologia impõe
 
@@ -1035,16 +1035,23 @@ E ela funciona o suficiente para **expor o próprio problema**. Em dezembro de 2
 
 **E a palavra "boro" não aparece nenhuma vez nesse documento.** Zero. A inspeção trata de potássio, de lítio, de salmoura, de água, de pastagem. O boro de Da Qaidam está fora do documento que fiscaliza Da Qaidam.
 
-### O que isso significa junto
+### O que isso significa junto — e até onde vai
 
-Junte as quatro peças e o padrão fica nítido:
+Junte as quatro peças e o padrão fica nítido **no corpus que esta seção examinou**:
 
-1. **O boro é co-produto** — do lítio nos Andes, do potássio e do sódio na China. Como ninguém o extrai sozinho, ninguém o fiscaliza sozinho.
-2. **O passivo mais grave da cadeia tem outro nome** — arsênio na Turquia, água e lítio nos Andes, potássio e salmoura na China. O boro não aparece no nome de nenhum dos três.
-3. **O que se mede é o que se regula.** Como o boro não é o objeto do estudo nem da inspeção, ele também não é o objeto da norma.
-4. **A ausência de norma não é descuido: é consequência estrutural.** Não existe lacuna a preencher com boa vontade; existe um produto que atravessa quatro ordenamentos jurídicos sem que nenhum deles o nomeie.
+1. **O boro é co-produto** — do lítio nos Andes, do potássio e do sódio na China. Nos casos medidos, ele não é o objeto da extração.
+2. **O passivo mais grave da cadeia tem outro nome** — arsênio na Turquia, água e lítio nos Andes, potássio e salmoura na China. O boro não aparece no nome de nenhum dos três casos.
+3. **O que se mede é o que se regula.** Nos três documentos de fiscalização examinados, o boro não é o sujeito da medição nem da inspeção.
+4. **A ausência de norma, nos casos examinados, tem a forma de consequência estrutural e não de descuido** — é leitura minha sobre o que os três casos mostram, e não um resultado que os casos provem para além deles.
 
-**É por isso que a pergunta deste artigo — "quem regula a apara de bambu tratada com boro?" — não tem resposta em lugar nenhum do mundo.** Não é que ninguém tenha pensado. É que o boro nunca foi o sujeito da cadeia, em nenhum país.
+**O que esta seção examinou, nominalmente** — e o que ela não examinou:
+
+- **Quatro cadeias:** o borato turco (Kırka e Emet); a salmoura andina de lítio e boro (Salar de Atacama e Salar del Hombre Muerto); o potássio e o lítio de Qaidam, na China; e o bambu tratado — esta última pela literatura científica e pelos ensaios, não por norma.
+- **Três ordenamentos com documento de fiscalização examinado:** o **brasileiro**, e apenas nos instrumentos citados no corpo (PNRS, PNMCB, NBR 10004); o **chinês**, pela inspeção do MEE na Bacia de Qaidam, de dezembro de 2023; e o **turco**, por estudos de efluente e de arsênio — não por norma.
+- **Normas técnicas internacionais** — OMS, ATSDR, NIOSH, EMA — usadas para dose e limite de exposição, não para competência de fiscalização.
+- **Fora do corpus, e sobre o que esta gaveta não afirma nada:** os demais países produtores ou consumidores; a União Europeia como ordenamento de resíduo; qualquer outra bacia, salar ou cadeia de bambu.
+
+**A tese, dita como tese.** O padrão dos quatro casos **sugere** que a ausência de disciplina sobre a apara de bambu tratada não é lacuna local, e sim consequência de o boro nunca ter sido o sujeito da cadeia. **Isso é tese autoral deste artigo**, sustentada por quatro casos e por nenhum censo — e vale como interpretação deles, não como fato demonstrado para o mundo. O que o texto pode afirmar com o que mediu é mais estreito e mais forte: **nos três ordenamentos e nas quatro cadeias examinados, a pergunta deste artigo — "quem regula a apara de bambu tratada com boro?" — não encontrou resposta.** Não medi o mundo; medi estes documentos.
 
 > **O que esta seção não sabe.** Os três estudos que fechariam o argumento estão fora de alcance: o de arsênio e boro na água de Emet, o de arsênio e boro no riacho e no tecido dos peixes, e o de geoquímica da salmoura da Puna. Os títulos bastam para afirmar que **a co-ocorrência existe e é medida**; não bastam para dizer **em que concentração**. E a única ligação direta entre boro e contaminação de aquíferos na Argentina é uma **citação de jornal de 2011** dentro de um artigo de geografia: não é medição com método, e por isso não entra como dado aqui.
 
@@ -1257,9 +1264,65 @@ declaradas. Depende de tratamento, desenho e exposição.
 ## Bibliografia consultada
 
 Cada obra citada neste artigo tem ficha técnica própria com avaliação crítica e limites
-declarados. **Uma exceção declarada:** a entrada [22] não está custodiada — o artigo está
-em paywall — e serve apenas como ordem de grandeza, não como dado verificado. As demais
-estão custodiadas no acervo, com hash verificável.
+declarados. **A cobertura é medida, não prometida** — e os quatro estados abaixo não se
+convertem um no outro. Uma referência pode estar identificada sem estar custodiada, custodiada
+sem texto legível, e legível sem ter sido lida por inteiro.
+
+- **Identificada** — nomeada na bibliografia, com autor, título e ano: **32 de 32**.
+- **Arquivo custodiado** — existe arquivo na camada privada, com sha256: **27 de 32**. Faltam
+  **[14], [16], [22] e [30]**; a **[10]** não entra nesta conta porque não é documento — é
+  derivação de massas atômicas, e uma de suas duas entradas (USDA AMS TR-2022) não está
+  custodiada. A **[4]** é caso próprio: está custodiada sem PDF, porque a fonte é API — o que
+  existe é `MANIFEST_ComexStat.json` mais os JSON e CSV brutos, e é o comando que reproduz a
+  soma que a torna verificável.
+- **Texto utilizável** — o arquivo tem texto que se possa conferir: **26 de 32**. A **[15]**
+  está custodiada, tem hash válido, e o conteúdo é um muro do Cloudflare — 36 caracteres,
+  "Enable JavaScript and cookies to continue". **Hash válido não é conteúdo.** A **[16]** é
+  PDF que existe, mas não nesta gaveta.
+- **Leitura integral confirmada** — **nenhuma das 32**. Esta gaveta leu as páginas que cada
+  afirmação exigia, e não do começo ao fim; e não arquivou artefato de leitura integral. Um
+  relato anterior dizia "duas de oito lidas por inteiro": ele não nomeava quais, e sem nome
+  não é registro. Por isso, aqui, a contagem é zero.
+
+| Ref | Identificada | Arquivo custodiado | Texto utilizável | Leitura integral |
+|---:|:---:|:---:|:---:|:---:|
+| [1] | sim | sim | sim | não |
+| [2] | sim | sim | sim | não |
+| [3] | sim | sim | sim | não |
+| [4] | sim | sim | sim | não |
+| [5] | sim | sim | sim | não |
+| [6] | sim | sim | sim | não |
+| [7] | sim | sim | sim | não |
+| [8] | sim | sim | sim | não |
+| [9] | sim | sim | sim | não |
+| [10] | sim | n/a | n/a | não |
+| [11] | sim | sim | sim | não |
+| [12] | sim | sim | sim | não |
+| [13] | sim | sim | sim | não |
+| [14] | sim | não | — | não |
+| [15] | sim | sim | não | não |
+| [16] | sim | não | não | não |
+| [17] | sim | sim | sim | não |
+| [18] | sim | sim | sim | não |
+| [19] | sim | sim | sim | não |
+| [20] | sim | sim | sim | não |
+| [21] | sim | sim | sim | não |
+| [22] | sim | não | — | não |
+| [23] | sim | sim | sim | não |
+| [24] | sim | sim | sim | não |
+| [25] | sim | sim | sim | não |
+| [26] | sim | sim | sim | não |
+| [27] | sim | sim | sim | não |
+| [28] | sim | sim | sim | não |
+| [29] | sim | sim | sim | não |
+| [30] | sim | não | — | não |
+| [31] | sim | sim | sim | não |
+| [32] | sim | sim | sim | não |
+
+**O que isso custa ao texto, dito sem rodeio:** as afirmações que dependem de [14], [16], [22] e
+[30] **não são conferíveis nesta gaveta** — e o artigo diz isso onde elas aparecem, quando diz.
+A [22] foi sempre declarada como ordem de grandeza, não como dado verificado. A [16], a partir de
+agora, também.
 
 **[1]** ORGANIZAÇÃO MUNDIAL DA SAÚDE. *Boron in drinking-water: background document for
 development of WHO Guidelines for Drinking-water Quality*. Genebra: WHO, 2009.
@@ -1502,17 +1565,19 @@ homologação também.
 
 **O que foi efetivamente conferido — número, e não promessa.** A verificação numérica foi
 medida por gate próprio, afirmação por afirmação, com registro auditável arquivado ao lado
-do texto. O resultado: **62 das 286 afirmações numéricas do corpo foram conferidas** pelo
+do texto. O resultado: **62 das 287 afirmações numéricas do corpo foram conferidas** pelo
 instrumento contra a fonte custodiada. Outras **18 têm estatuto declarado** e não precisam de
 citação célula por célula: 10 em nota de tabela, 6 de cálculo aritmético e 2 de resumo de
-fonte já nomeada. **206 não foram medidas** — 126 porque a afirmação não traz citação nem
-estatuto, 37 porque a unidade está fora do vocabulário do instrumento (ele não lê `mg/L`,
-`mg/m³` nem `mg B/kg/dia`), 25 porque a obra citada não tem arquivo custodiado nesta gaveta e
-12 porque a fonte custodiada é página de bloqueio.
+fonte já nomeada. **207 não foram medidas** — 124 porque a afirmação não traz citação nem
+estatuto, 36 porque a unidade está fora do vocabulário do instrumento (ele não lê `mg/L`,
+`mg/m³` nem `mg B/kg/dia`), 23 porque a obra citada não tem arquivo custodiado nesta gaveta,
+12 porque a fonte custodiada é página de bloqueio, 11 porque o número é resultado de conta
+declarada no próprio texto — e o instrumento, corretamente, não o trata como valor de fonte —
+e 1 porque o leitor de PDF devolveu texto não verificável.
 
-Por parágrafo: dos **213 parágrafos** do corpo, **15** têm todas as afirmações conferidas,
-**6** têm estatuto declarado, **6** têm conferência parcial, **48** não tiveram nenhuma
-conferida e **138** não afirmam número. **Nenhum parágrafo ficou sem veredito.**
+Por parágrafo: dos **213 parágrafos** do corpo, **14** têm todas as afirmações conferidas,
+**6** têm estatuto declarado, **7** têm conferência parcial, **43** não tiveram nenhuma
+conferida e **143** não afirmam número. **Nenhum parágrafo ficou sem veredito.**
 
 **E `conferido` tem um sentido estreito, que é preciso declarar:** significa que o número
 existe na página declarada, com a unidade compatível. **Não** significa que a afirmação seja
