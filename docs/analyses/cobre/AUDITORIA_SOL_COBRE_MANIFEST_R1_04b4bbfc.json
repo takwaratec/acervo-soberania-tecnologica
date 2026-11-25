@@ -3,12 +3,12 @@
  "versao": "1.0.0",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "status": "ABERTO",
- "gerado_utc": "2026-11-25T02:40:55+00:00",
+ "gerado_utc": "2026-11-25T10:50:57+00:00",
  "tipo": "CONTEUDO",
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "6527421e3cbbeb2bbefc1be92edc532d8e127b8c",
+ "alvo_commit": "04b4bbfc599898eb034f83566b8ca4aced9eac97",
  "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 11 fichas, fontes). Todos os sha256 de fontes[] foram lidos do próprio commit, com `git show <alvo>:<path>`.",
  "aviso_de_leitura": {
   "repositorio": "takwaratec/acervo-soberania-tecnologica",
@@ -27,7 +27,7 @@
   "resultados_de_pesquisa": "docs/analyses/cobre/04..07-resultados-*.md"
  },
  "estado_declarado": {
-  "fichas": "12 fichas, todas homologado-internamente, autoridade FABIO, reversíveis",
+  "fichas": "13 fichas, todas homologado-internamente, autoridade FABIO, reversíveis",
   "artigo": "peça corrida (molde do boro, 13 seções), peça em abas e manuscrito único de ponta a ponta com 21 referências ABNT comentadas",
   "homologacao_automatica": false,
   "o_que_a_homologacao_interna_NAO_e": "Não é homologação científica por par, não é homologação regulatória e não substitui esta auditoria. Se você apontar furo material, o estado reverte para ficha-em-revisao.",
@@ -107,26 +107,26 @@
  "fontes": [
   {
    "path": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
-   "sha256": "6952d8a83e8761a0696ff4f292e24542452e988349ab0632ca9f9a00588ee9bf",
-   "bytes": 101322,
+   "sha256": "4925528e0d1fa7dde3a80e1ae539725f0c1a78be1c97762e18b42047671afc88",
+   "bytes": 106579,
    "papel": "manuscrito único, com as 14 referências"
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
    "papel": "peça corrida — texto integral, bibliografia comentada e as 6 fichas anexadas",
-   "sha256": "76104e9e223def8a332670b373247a7784eec1b666ad8753c7ea1ba67974dbb4",
-   "bytes": 219824
+   "sha256": "9d320265906723b59df7170bc49024c06f5f64e23b4485b4d041ca60fdbed562",
+   "bytes": 235043
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu.html",
-   "sha256": "c57b4b9e06e6001b5594b0fb2a082d7afb65641ccff80ed0836a488259fc2e49",
-   "bytes": 226064,
+   "sha256": "08d9b817a90131f6afcec3c54f076e7f500c5d623ef44199e3ebfe3790793709",
+   "bytes": 241311,
    "papel": "peça de leitura, 18 abas"
   },
   {
    "path": "docs/analyses/cobre/fichas/MANIFEST_FICHAS_PUBLICADAS.json",
-   "sha256": "80cdc947265f10bf6787e4dec369bf96ecaf9cc7dcfafac550ed3bb16ab9689a",
-   "bytes": 5210,
+   "sha256": "4a2232e4e59c8f1e109aac26fcd5f34ec3cee22a9aa3ec9d83866b3aab07d533",
+   "bytes": 5683,
    "papel": "6 fichas — hash de origem e publicado"
   },
   {
@@ -209,8 +209,8 @@
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-pi292-89-registro-preservativos-madeira.md",
-   "sha256": "34635d5ff20f51cac323f4b6b1b19ecd06c035a7269cb36007c5e118e06fbfce",
-   "bytes": 7355,
+   "sha256": "88ef033acddf6e706a9dd72c6da8162780710032bdbd2edb15a1a5f5ab24ebed",
+   "bytes": 7950,
    "papel": "ficha 7 — a norma-mãe: registro obrigatório e art. 20 (competência de fiscalização)"
   },
   {
@@ -272,6 +272,36 @@
    "sha256": "0da8353d0eb0de073ce1489306df95d7a0a2b2425842e2503db0aee8e6ec9513",
    "bytes": 5363,
    "papel": "manifesto da custódia S11-c, com as duas pendências declaradas"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-in05-92-ibama-destinacao-final-residuos.md",
+   "sha256": "f483414f825fffff48526aa97176cb4ee98ec9a90fa9b44c7e3d8f474e174287",
+   "bytes": 7962,
+   "papel": "ficha 12 — item VIII da IN 5/92: o descarte segue a bula, e a bula é do produto registrado"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11d/1992_in05_ibama_destinacao_final_residuos.pdf",
+   "sha256": "69f340be735b31b557d554896b8995a8d8adae6f7daafd3e389081c5f5df5265",
+   "bytes": 130080,
+   "papel": "ref 22 — Instrução Normativa Ibama 5/92, fac-símile do DOU de 21.10.1992 (15 p.)"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11d/1992_in05_ibama_destinacao_final_residuos.md",
+   "sha256": "f1d25dae1850c4e3b7b62c467e4cb33267dd872e6117c1456845f8d9767fb16d",
+   "bytes": 25428,
+   "papel": "extração com marcador de página da IN 5/92"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11d/2026-ctf-ibama-categorias-preservativos.md",
+   "sha256": "cdea2df9803bd208e895c6db566f1ee383cfdf97baa6f65ce85d87560bf67b38",
+   "bytes": 21514,
+   "papel": "página oficial do CTF: as categorias da cadeia são por estabelecimento industrial"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11d/MANIFEST_FONTES_S11D.json",
+   "sha256": "760caaa5f7ca7b760242be0bfc9d4cd88dd8f808d01dd247c0b7edf7f183e80c",
+   "bytes": 1381,
+   "papel": "manifesto da custódia S11-d, com a pendência da S11-c resolvida"
   }
  ],
  "criterios": {
@@ -350,6 +380,6 @@
    }
   ]
  },
- "total_fontes": 28,
+ "total_fontes": 33,
  "como_ler": "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo carrega o alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: aquele é o da rodada anterior. A entrada é o ponteiro em ops/command-center/auditoria-atual/COBRE.json."
 }
