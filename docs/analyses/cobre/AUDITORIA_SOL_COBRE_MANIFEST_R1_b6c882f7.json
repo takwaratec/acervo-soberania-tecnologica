@@ -3,14 +3,14 @@
  "versao": "1.0.0",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "status": "ABERTO",
- "gerado_utc": "2026-11-25T16:37:08+00:00",
+ "gerado_utc": "2026-11-25T19:01:51+00:00",
  "tipo": "CONTEUDO",
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-pr-20261125-r2",
- "alvo_commit": "ad00bf6b5495a869f6e5cb45ec1252c4dcdd1628",
+ "alvo_commit": "b6c882f780abd5ee8a097d11e28f1f34dda553e1",
  "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 12 fichas, fontes). Dos 33 itens de fontes[], 27 estão no repositório e tiveram o sha256 lido do próprio commit com `git show <alvo>:<path>`; 6 NÃO estão no repositório (PDFs fora do rastreio) e têm o sha256 lido de fontes/CUSTODIA_PRIVADA_PDFS.json, onde cada um carrega caminho_privado e bytes. `git show` NÃO se aplica a esses: quem não tem o arquivo confere a identidade pelo registro, não o byte.",
- "aviso_de_leitura": "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo carrega o alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: aquele é o da rodada anterior. A entrada do pacote é o próprio arquivo AUDITORIA_SOL_COBRE_MANIFEST_R1_<alvo>.json em docs/analyses/cobre/, mais a resposta de hashes ao lado. Ponteiro em ops/command-center/auditoria-atual/ é mantido pela governança e pode não existir — quando não existir, este arquivo é a entrada.",
+ "aviso_de_leitura": "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo carrega o alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: aquele é o da rodada anterior. NÃO há ponteiro em ops/command-center/auditoria-atual/: a entrada do pacote é este arquivo, AUDITORIA_SOL_COBRE_MANIFEST_R1_<alvo>.json, ao lado da resposta de hashes e do índice SELOS.md.",
  "o_que_esta_auditoria_e": "CONTEÚDO e FIDELIDADE À FONTE. Não é auditoria de runtime, de código ou de autoridade. Nenhum número aqui foi conferido contra o artigo científico original pela frente que escreveu — é exatamente isso que se pede a você.",
  "pedido_do_soberano": "Enumerar as citações, declarar as fichas homologadas internamente e preparar o pacote para auditoria externa do ChatGPT Sol, que só tem acesso ao GitHub.",
  "objeto": {
@@ -377,11 +377,11 @@
  ],
  "como_reproduzir": [
   "1. git clone https://github.com/takwaratec/acervo-soberania-tecnologica",
-  "2. git checkout <alvo_commit>",
+  "2. git checkout b6c882f780abd5ee8a097d11e28f1f34dda553e1 (ou a branch da PR, que contém este alvo) — leia o manifesto nomeado por esse alvo, não o que está dentro dele",
   "3. Leia docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md de ponta a ponta.",
-  "4. Para cada uma das 17 marcas de citação, abra o extrato em docs/analyses/cobre/fontes/md/ e localize o trecho.",
+  "4. Para cada uma das 22 marcas de citação, abra o extrato em docs/analyses/cobre/fontes/md/ e localize o trecho.",
   "5. Recalcule a aritmética do capítulo 06.",
-  "6. Compare cada ficha com sua fonte primária em docs/analyses/cobre/fontes/pdf/."
+  "6. Para as 27 fontes no repositório: abra docs/analyses/cobre/fontes/md/ e fontes/s11c/ e localize o trecho. Para as 6 fora do rastreio: peça o PDF pelo caminho_privado declarado no manifesto e confira o sha256 — `git show` não se aplica a elas."
  ],
  "erro_anterior_declarado": {
   "nota": "Declarar o que já se sabe, para o auditor não gastar a rodada no que foi medido antes dele.",
