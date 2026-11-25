@@ -326,8 +326,19 @@ def main():
     # números da mensagem saem do manifesto, não de constante digitada
     nf_fich = len([f for f in man["fontes"] if "/fichas/" in f["path"]
                    and not f["path"].endswith("MANIFEST_FICHAS_PUBLICADAS.json")])
+    # índice SELOS.md entra no MESMO commit: ele lista o selo vigente como "este commit"
+    hr_sha_disco = hashlib.sha256(open(os.path.join(REPO, hr_path), "rb").read()).hexdigest()
+    selos_path = "docs/analyses/cobre/SELOS.md"
+    gen = os.path.join(os.path.dirname(os.path.abspath(__file__)), "gerar_selos_cobre.py")
+    if os.path.exists(gen):
+        env = dict(os.environ, COBRE_REPO=REPO,
+                   COBRE_SELO_ATUAL=f"{alvo[:8]}|{man_sha}|{hr_sha_disco}")
+        subprocess.run([sys.executable, gen], env=env, check=True)
+
     # manifesto e resposta no mesmo commit
     git("add", man_path, hr_path)
+    if os.path.exists(os.path.join(REPO, selos_path)):
+        git("add", selos_path)
     if prev != man_path:
         git("rm", "-q", "--ignore-unmatch", prev)
         # a resposta de hashes do selo anterior sai junto com ele: selo é par, não peça solta

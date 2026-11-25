@@ -39,7 +39,17 @@ confere se o que veio é o mesmo.
 | `d2f46fc8` | `27e343391bca1aa4…` | `a22322b360c69c47…` | 2026-11-25T12:02:31Z | `0658d02ea79e` |
 | `26b935df` | `1c7fb70154d6ef0f…` | `78680c5843c5bd14…` | 2026-11-25T11:04:29Z | `5bf1eeb1ba5e` |
 | `b0f3f82b` | `465003987fcea430…` | `11ebd892c799846e…` | 2026-11-25T10:58:41Z | `fc137e5c0272` |
+| `f9269f7c` | `0bd372d8e290cbd9…` | `83a0997d8c9738fa…` | 2026-11-25T10:57:54Z | `057abfa4cf19` |
+| `61ac1152` | `49b8c035bc0da543…` | `6cd81e12b1847583…` | 2026-11-25T10:30:31Z | `f6297ce3c5ca` |
+| `04b4bbfc` | `d0426a4fe8adb5a3…` | `837d64803fda6fc9…` | 2026-11-25T07:50:57Z | `b030002056f0` |
+| `6527421e` | `b81a437401be8d02…` | `ebc8e52f43a43537…` | 2026-11-24T23:40:55Z | `197eef621cfd` |
+| `c5a3c072` | `d3cba6f900075c5b…` | `f4d148f2774721f6…` | 2026-11-24T23:36:30Z | `5ec57723742d` |
+| `5069accc` | `f4f31d5ec64c5fce…` | `c2ff716759417b6b…` | 2026-11-24T23:33:39Z | `838c43c4ac36` |
+| `718b0f63` | `1e2827ebe491ebe6…` | `e0641814a382273f…` | 2026-11-24T23:30:58Z | `e782f3335c67` |
+| `8b943455` | `08c5df27a4065f74…` | `45aabc3f58b604ac…` | 2026-11-24T23:28:21Z | `470fb67e946a` |
+| `f64ea849` | `db65c42218076a8a…` | `93f1508275a1e629…` | 2026-11-24T23:27:24Z | `280e3a67c9e1` |
+| `(sem sufixo)` | `721cbb929ddf4c57…` | `2bfe1063b70f3e89…` | 2026-11-24T23:21:57Z | `3ca25a1111b9` |
 
-Total de selos indexados: **19**.
+Total de selos indexados: **29**.
 
-Gerado por `scripts/gerar_selos_cobre.py` a partir do histórico; não editar à mão.
+Gerado por `scripts/gerar_selos_cobre.py` a partir do histórico de caminhos; não editar à mão.
