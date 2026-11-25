@@ -766,7 +766,7 @@ Chamem de resíduo ou não — o ralo continua fechado.
 **Estabelecido:** 100 L a 1% contêm 254 g de cobre; 8,8 L estragam uma piscina olímpica até o
 limite de rio; uma banheira precisaria de 23 piscinas para diluir; pH 1,28 na solução de cobre e boro e 0,22
 no CCB; germinação zero até diluição 1/10; índice pior que o do Roundup; as duas instruções mandam reusar;
-a PNRS inclui líquidos.
+a PNRS inclui resíduo líquido sob condição, e o banho está 2.545 vezes acima do padrão de cobre.
 **Interpretação:** como decantar não remove metal dissolvido, o reuso é a única saída prática
 — e ele tem um fim, que nenhuma instrução resolve.
 **Desconhecido:** o efeito da receita real (4,5% a 9%), que é mais concentrada que a única
@@ -925,7 +925,8 @@ Sudeste e ao Sul, fez uma concessão que não se sustenta: **não há prova de q
 a escala industrial que se imagina**.
 
 E isso muda o argumento. Se tudo é artesanal, o estudo do Acre[14] não é um caso
-periférico — **é a regra**, com uma ressalva: uma unidade, um município, um ano.
+periférico — é, nas fontes que existem, **a única coisa documentada**. A ressalva é dura e
+não é retórica: uma unidade, um município, um ano. Não faço dele a regra; faço dele o que ele é.
 
 O que esse estudo mediu, em linguagem direta: numa oficina de Rio Branco que trata colmo com
 bórax e ácido bórico, a categoria de impacto que mais pesou foi a de **toxicidade
@@ -942,17 +943,22 @@ lei-quadro, e a definição dela é ampla de propósito:
 
 > resíduos sólidos: material, substância, objeto ou bem descartado resultante de atividades humanas em sociedade, nos estados sólido ou semissólido, bem como gases contidos em recipientes e líquidos cujas particularidades tornem inviável o seu lançamento na rede pública de esgotos ou em corpos d'água
 
-**O banho, como sai do tonel, não pode ser descartado.** Uma solução a 1% carrega
-cerca de **2.545 mg de cobre por litro**; o padrão de lançamento de efluente com cobre é
+**O banho, como sai do tonel, não pode ser descartado direto.** Uma solução a 1% —
+1 kg de sulfato em 100 L de água — carrega cerca de **2.545 mg de cobre por litro**; o padrão de lançamento de efluente com cobre é
 **1,0 mg/L**, pela CONAMA 430/2011.[9] São **2.545 vezes**
 acima do padrão.
 
 Isso **não decide o nome jurídico** do banho. Se ele é "resíduo sólido" pela definição
 do art. 3º, XVI depende de a lei considerar inviável o lançamento, e essa é uma questão que este artigo
 **não resolve**: exigiria caracterizar o banho e avaliar se existe tratamento viável, e
-nada disso foi medido aqui. O que o número resolve é outra coisa, e é a que importa para quem trata
-bambu no quintal: **não há versão desse banho que vá para o ralo ou para o rio como está**
-— e o nome que se dê a ele não muda a conta.
+nada disso foi medido aqui.
+
+O que o número estabelece é estreito, e é o bastante para o quintal: a CONAMA 430 condiciona o
+lançamento **direto em corpo receptor** a tratamento prévio e a conformidade com os
+padrões dela.[9] O banho como sai do tonel está 2.545 vezes acima do padrão de cobre —
+então, direto no rio e sem tratamento, ele não passa. Isso **não** decide a regra da rede
+pública de esgoto, que segue normas próprias e a diretriz da operadora, nem se existe tratamento
+viável para este banho. Duas coisas que eu não medi.
 
 **Mas procure "bambu" na PNRS: zero ocorrências. "Madeira": zero.**
 A lei que rege resíduo no Brasil **não nomeia o material**.
@@ -970,13 +976,14 @@ zero. "Licença": zero. "Fiscalização": zero.** A política do bambu
 
 A PNRS distribui competência por **sistemas**, não por material: **Sisnama**
 (meio ambiente), **SNVS** (vigilância sanitária), **Suasa** (sanidade
-agropecuária) e **Sinmetro** (metrologia).[12] Nenhum deles trata de
-bambu tratado.
+agropecuária) e **Sinmetro** (metrologia).[12] Nenhum dos que consegui
+ler trata de bambu tratado.
 
 **Na prática:** quem trata bambu com sulfato de cobre na própria casa, no quintal ou
-na cooperativa **não descumpre uma norma específica** — porque ela não existe. Mas
-também **não cumpre**: não há licença, não há plano de gerenciamento, não há destinação
-prescrita.
+na cooperativa **não está descumprindo uma norma específica** — eu não localizei nenhuma
+que trate do assunto. E também **não está cumprindo**: não há licença, não há plano de
+gerenciamento, não há destinação prescrita em nada que eu tenha encontrado. "Não localizei" é
+declaração sobre a minha busca, não sobre a existência.
 
 **E há um problema de fronteira que ninguém resolveu:**
 
@@ -994,8 +1001,9 @@ como caracterizar apara de bambu tratado como perigosa sem a classificação da 
 ### O que essa combinação produz
 
 Sem norma que nomeie o material e sem classificação consultada, **a apara de bambu tratado
-segue o fluxo do resíduo domiciliar comum** — ou o quintal, ou a queima, ou o córrego. Não
-por decisão de ninguém: por ausência de decisão.
+não tem rota escrita**. O que acontece na prática eu não medi. As fontes descrevem três
+desfechos — o quintal, a queima, o córrego — e não quantificam nenhum deles: a contagem não existe.
+Registro os desfechos como relato, não como medição.
 
 **E "não listado" não é "inofensivo". É não avaliado.** A
 diferença é a mesma que separa absolvição de arquivamento.
@@ -1113,8 +1121,10 @@ Varri as quatro páginas da Portaria à procura de uma palavra. Ela não está l
 **"resíduo"**.
 
 Não é descuido. É o desenho da norma: ela controla **a entrada** (registro do produto)
-e **o processo** (relatório semestral de produção). Ela não controla **a saída**
-— a peça tratada que, um dia, vira o que descartar.
+e **o processo** (relatório semestral de produção). Da **saída** — a peça
+tratada que um dia vira o que descartar — ela não trata. Digo "não trata", que é o que está medido na
+letra; dizer que ela "não alcança" seria juízo sobre alcance jurídico, e isso o texto da Portaria
+sozinho não me dá.
 
 > **O que isso significa na prática** — A norma acompanha o moirão até o portão da usina. Depois do portão, ele é propriedade de quem comprou — e a partir daí nenhuma das três páginas fala com ele. Não porque a norma seja omissa por acidente: porque ela nunca foi escrita para acompanhar a peça até a sua casa.
 
@@ -1241,8 +1251,8 @@ necessariamente na literatura.
 ### O que fica
 
 A norma brasileira de preservação de madeira existe, é de 1989, e nomeia quem fiscaliza. Ela
-controla o produto, a empresa e a usina. **Ela não controla o que acontece depois que a peça
-sai do portão** — e é depois do portão que este artigo inteiro acontece.
+controla o produto, a empresa e a usina. **Do que acontece depois que a peça sai do portão ela
+não trata** — e é depois do portão que este artigo inteiro acontece.
 
 O bambu tratado no quintal não escapa por esperteza de quem trata. Escapa porque
 **a norma específica foi escrita para uma empresa que ele nunca vai ser**. As obrigações
