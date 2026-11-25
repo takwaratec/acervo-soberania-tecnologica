@@ -3,7 +3,7 @@
   "pasta": "docs/analyses/cobre",
   "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
   "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
-  "alvo_branch": "hermes/cobre-pr-20261125-r2",
+  "alvo_branch": "main",
   "aviso_de_leitura": "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo carrega o alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: aquele é o da rodada anterior. NÃO há ponteiro em ops/command-center/auditoria-atual/: a entrada do pacote é este arquivo, AUDITORIA_SOL_COBRE_MANIFEST_R1_<alvo>.json, ao lado da resposta de hashes e do índice SELOS.md.",
   "o_que_esta_auditoria_e": "CONTEÚDO e FIDELIDADE À FONTE. Não é auditoria de runtime, de código ou de autoridade. Nenhum número aqui foi conferido contra o artigo científico original pela frente que escreveu — é exatamente isso que se pede a você.",
   "pedido_do_soberano": "Enumerar as citações, declarar as fichas homologadas internamente e preparar o pacote para auditoria externa do ChatGPT Sol, que só tem acesso ao GitHub.",

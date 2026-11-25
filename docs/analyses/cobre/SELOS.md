@@ -20,6 +20,7 @@ confere se o que veio é o mesmo.
 
 | alvo_commit | sha256 do manifesto | sha256 da resposta | data | commit do par |
 |---|---|---|---|---|
+| `d7ab7764` | `85c2970e4ee6f305…` | `36a23a19578ce2f8…` | 2026-11-25T19:45:00Z | `(este commit)` |
 | `8fc03584` | `2128a060530e684d…` | `34e018bcb136afb6…` | 2026-11-25T16:22:09Z | `d226975c5d34` |
 | `3fd33c3b` | `a7ad27d7d0115450…` | `c5629e1d6efd038f…` | 2026-11-25T16:02:57Z | `7d2db6d28b76` |
 | `b6c882f7` | `72f2a0d41ca34721…` | `a0983e90f38ae905…` | 2026-11-25T16:01:51Z | `91dc854310f3` |
@@ -51,6 +52,6 @@ confere se o que veio é o mesmo.
 | `f64ea849` | `db65c42218076a8a…` | `93f1508275a1e629…` | 2026-11-24T23:27:24Z | `280e3a67c9e1` |
 | `(sem sufixo)` | `721cbb929ddf4c57…` | `2bfe1063b70f3e89…` | 2026-11-24T23:21:57Z | `3ca25a1111b9` |
 
-Total de selos indexados: **30**.
+Total de selos indexados: **31**.
 
 Gerado por `scripts/gerar_selos_cobre.py` a partir do histórico de caminhos; não editar à mão.

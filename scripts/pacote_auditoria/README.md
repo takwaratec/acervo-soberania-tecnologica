@@ -25,6 +25,13 @@ python3 scripts/pacote_auditoria/gerar.py \
 
 Sem `--check`, escreve `AUDITORIA_SOL_<FRENTE>_MANIFEST_R1_<alvo>.json` e `..._HASHES_RESPONSE_R1_<alvo>.json` na pasta da frente, e imprime o que commitar junto.
 
+Em **worktree**, `_privado/` não existe (é gitignored e vive no checkout principal) — o gerador
+recusa selar em vez de declarar custódia que não consegue ler. Aponte a raiz:
+
+```bash
+--privado /caminho/do/checkout-principal
+```
+
 Saída típica:
 
 ```

@@ -76,7 +76,7 @@ def sha256(b):
     return hashlib.sha256(b).hexdigest()
 
 
-def montar_fonte(repo, commit, item, raiz_privada):
+def montar_fonte(repo, commit, item, raiz_privada=""):
     """Monta uma entrada de fonte e PROVA o metodo. Falha fechado."""
     path = item["path"]
     papel = item.get("papel", "")
@@ -102,7 +102,14 @@ def montar_fonte(repo, commit, item, raiz_privada):
             f"R19-A: fonte fora do rastreio sem caminho_privado: {path}. "
             f"Sem o byte, 'git show' seria mentira e o registro de custodia nao pode ser afirmado."
         )
-    abs_path = caminho_privado if os.path.isabs(caminho_privado) else os.path.join(repo, caminho_privado)
+    # A custodia privada vive FORA de qualquer worktree (o _privado/ e gitignored): num worktree
+    # ela nao existe. raiz_privada permite apontar para a raiz do checkout principal.
+    if os.path.isabs(caminho_privado):
+        abs_path = caminho_privado
+    elif raiz_privada:
+        abs_path = os.path.join(raiz_privada, caminho_privado)
+    else:
+        abs_path = os.path.join(repo, caminho_privado)
     if not os.path.exists(abs_path):
         raise Recusa(
             f"R19-A: caminho_privado declarado nao existe em disco: {caminho_privado} "
@@ -182,8 +189,9 @@ def contar_selos(repo, pasta):
     }
 
 
-def gerar_manifesto(cfg, repo, commit):
-    fontes = [montar_fonte(repo, commit, f, cfg.get("raiz_privada", "")) for f in cfg["fontes"]]
+def gerar_manifesto(cfg, repo, commit, raiz_privada_arg=None):
+    raiz_privada = raiz_privada_arg or cfg.get("raiz_privada", "")
+    fontes = [montar_fonte(repo, commit, f, raiz_privada) for f in cfg["fontes"]]
 
     como_reproduzir = cfg["como_reproduzir"]
     problemas = instrucoes_nomeiam_caminho(como_reproduzir, repo, commit)
@@ -268,6 +276,8 @@ def main(argv=None):
     ap.add_argument("--repo", default=".", help="raiz do repositorio do acervo")
     ap.add_argument("--cfg", required=True, help="configuracao da frente (JSON)")
     ap.add_argument("--check", action="store_true", help="valida sem escrever; sai 1 se nao resolve")
+    ap.add_argument("--privado", default=None,
+                    help="raiz da custodia privada (default: <repo>). Necessario em worktree.")
     a = ap.parse_args(argv)
 
     with open(a.cfg, encoding="utf-8") as f:
@@ -277,7 +287,7 @@ def main(argv=None):
     commit = resolve_alvo(repo, a.alvo)
 
     try:
-        m, por_metodo = gerar_manifesto(cfg, repo, commit)
+        m, por_metodo = gerar_manifesto(cfg, repo, commit, a.privado)
     except Recusa as e:
         print(f"RECUSA: {e}")
         return 2
