@@ -182,7 +182,7 @@ sobre o descarte.
 ### O dado oficial, em 2025
 
 O órgão do governo brasileiro que registra comércio exterior (ComexStat) classifica o sulfato de cobre
-sob um código chamado **NCM 2833.25**[13] — um número que funciona como "código de barras
+sob um código chamado **NCM 2833.25**[14] — um número que funciona como "código de barras
 alfandegário" da substância. Em 2025:
 
 | Número | O que significa |
@@ -277,7 +277,7 @@ Essa mistura de três tem nome: **CCB** — *borato de cobre cromatado*. A sigla
 a junção das iniciais de cada um.
 
 E aqui um dado que reorganiza a dosagem, e que só existe porque alguém mediu: na formulação descrita
-pela norma brasileira (NBR 6232)[16] e usada no ensaio de Rusch (2023)[4], o CCB é composto de
+pela norma brasileira (NBR 6232)[17] e usada no ensaio de Rusch (2023)[4], o CCB é composto de
 **26% de sulfato de cobre**, **63,5% de dicromato de potássio** e
 **10,5% de ácido bórico**.
 
@@ -427,7 +427,7 @@ significa que o cobre seja inofensivo: significa que o desfecho documentado é o
 
 **Agora a informação recente que não pode ser ignorada.** Em 2025, quatro
 pesquisadores publicaram, com revisão por pares, uma avaliação de ciclo de vida da produção artesanal
-de colmo de bambu no Acre.[14] Concluíram que a **toxicidade carcinogênica
+de colmo de bambu no Acre.[15] Concluíram que a **toxicidade carcinogênica
 humana (HCT) representou 93% do impacto potencial** daquela cadeia.
 
 **Isso não é boato e não deve ser tratado como boato.** É publicação recente, com
@@ -450,7 +450,7 @@ discutindo.
 - a classificação de **carcinogenicidade** do cobre **não foi verificada**
 nesta frente — e o artigo diz isso;
 - o estudo brasileiro de 2025 mede **impacto potencial de cadeia**, e o maior
-contribuinte é o **resíduo**, não a aplicação;[14]
+contribuinte é o **resíduo**, não a aplicação;[15]
 - e **"93%" não é probabilidade de câncer** — é o peso de uma categoria
 num modelo.
 
@@ -735,6 +735,10 @@ de quintal.
 ### A lacuna que sobra, e é o coração do problema
 
 **As duas instruções mandam reusar. Nenhuma diz o que fazer quando o reuso acaba.**
+E isso não é descuido delas: elas ensinam o *banho*, não o descarte. Quem diz o descarte é
+outra peça do sistema — a **bula do produto registrado**, por exigência do item VIII da
+IN Ibama 5/92, de 1992. O problema é que a instrução que ensina o banho caseiro não vem com bula —
+e a norma que exigiria a bula é a mesma que dispensa de registro o produto de uso domissanitário.
 
 E o reuso acaba:
 
@@ -742,7 +746,7 @@ E o reuso acaba:
 - quando o banho satura e perde força;
 - quando a concentração cai abaixo do que funciona.
 
-> É nesse ponto que a instrução brasileira cala e a indiana manda enterrar. É exatamente aí que o problema começa — e é aí que ninguém está olhando.
+> É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto que quem trata em casa não tem.
 
 ### A lei já resolveu isso — e quase ninguém sabe
 
@@ -924,7 +928,7 @@ registro de cadeia industrial com tratamento de efluente. Quando este artigo com
 Sudeste e ao Sul, fez uma concessão que não se sustenta: **não há prova de que exista, aqui,
 a escala industrial que se imagina**.
 
-E isso muda o argumento. Se tudo é artesanal, o estudo do Acre[14] não é um caso
+E isso muda o argumento. Se tudo é artesanal, o estudo do Acre[15] não é um caso
 periférico — é, nas fontes que existem, **a única coisa documentada**. A ressalva é dura e
 não é retórica: uma unidade, um município, um ano. Não faço dele a regra; faço dele o que ele é.
 
@@ -966,7 +970,7 @@ chegar lá não é dela.
 A lei que rege resíduo no Brasil **não nomeia o material**.
 
 **Lei 12.484/2011 — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do
-Bambu.**[15] Ela dá **crédito rural**, **assistência
+Bambu.**[16] Ela dá **crédito rural**, **assistência
 técnica**, **certificação de origem**, e estimula expressamente o **uso
 comunitário e cooperativo**.
 
@@ -1049,13 +1053,13 @@ fungo", a hipótese — e aqui é hipótese, não medição — é que a apara s
 cama do animal, para a cobertura da horta ou para o fogo. **Eu não medi nenhum desses
 destinos.** O que está documentado é a proibição, escrita pela própria cadeia, de que o resíduo
 tratado vá para cama de animal, contato com alimento ou água potável, e de que seja queimado em fogão
-ou a céu aberto.[20]
+ou a céu aberto.[21]
 
 **O que a evidência sustenta, com precisão:**
 
 - o resíduo contaminado é o **maior contribuinte de impacto potencial** na única
 cadeia brasileira medida — 91% da carga de resíduo, 93% da categoria de toxicidade
-carcinogênica;[14]
+carcinogênica;[15]
 - o cobre tem **efeito crítico documentado** — náusea aguda a partir de 4 mg/L e
 acúmulo **hepático** na exposição prolongada;[11]
 - as receitas informais que circulam **não trazem uma linha de EPI, ventilação ou
@@ -1072,9 +1076,9 @@ Este artigo não tem autoridade para dizer quem deveria fiscalizar. Tem autorida
 o que a ausência produz:
 
 - **É uma cadeia em crescimento** — e a política do bambu existe justamente para
-estimulá-la;[15]
+estimulá-la;[16]
 - **o estímulo não vem acompanhado de disciplina de resíduo**, porque a norma do
-bambu não trata do assunto e a norma de resíduo não nomeia o bambu;[15][12]
+bambu não trata do assunto e a norma de resíduo não nomeia o bambu;[16][12]
 - **o uso é comunitário e cooperativo** — é o que a própria política incentiva — e é
 justamente o formato em que **não localizei nenhum controle de efluente** nas fontes
 consultadas;
@@ -1086,17 +1090,26 @@ sem saber o que fazer com a apara. **O boro e o cobre chegam ao território; a n
 
 ---
 
-## 09 · A norma existe — e não diz o que fazer com a sobra
+## 09 · A norma existe — e o descarte mora no rótulo
 
-Ao longo deste artigo eu disse várias vezes que **ninguém diz o que fazer com a sobra**.
-Isso pode ter soado como "não existe regra". **Existe.** É federal, é de 1989, é mais
-explícita do que se costuma imaginar — e tem, escrita, uma **exceção para uso doméstico**
-que eu mesmo não tinha visto até reler.
+Ao longo deste artigo eu afirmei várias vezes que **ninguém diz o que fazer com a
+sobra**. Isso estava errado — e a correção é o achado mais importante desta gaveta. Existe norma
+federal, de 1989, que registra o preservativo e nomeia quem fiscaliza; existe uma instrução de 1992 com
+**seção própria sobre destinação final de resíduos**; e existe, escrita na Portaria, uma
+**exceção para uso doméstico**. Nada disso estava no artigo antes, e a última peça —
+a instrução de 1992 — estava declarada como "pendente de custódia" enquanto o texto afirmava o
+contrário do que ela diz.
 
-Este capítulo é o que separa três coisas que costumam vir juntas: **"não existe norma"**,
-**"existe norma e ela excetua o uso doméstico"** e **"existe norma, com exceção, e
-mesmo assim ninguém diz o que fazer com o resíduo"**. A terceira é a que eu consigo sustentar com
-documento — e é a mais desconfortável das três.
+O sistema inteiro cabe em três frases, e o problema não está em nenhuma delas isolada: está na
+combinação.
+
+- a norma **manda** o resíduo ter destinação final — item VIII da IN 5/92;
+- o **conteúdo** dessa destinação é delegado à **bula** do produto;
+- a bula só existe para produto **registrado** — e o produto de uso domissanitário está
+**dispensado** de registro pelo art. 4º da Portaria.
+
+Não é vazio legal. É **transferência**: da norma para o rótulo, e do rótulo para quem
+não tem rótulo.
 
 ---
 
@@ -1104,7 +1117,7 @@ documento — e é a mais desconfortável das três.
 
 Três ministérios — Fazenda, Saúde e Interior — assinaram em 1989 a
 **Portaria Interministerial 292**. Ela não ensina a tratar madeira: ela decide quem
-pode tratar, e quem vigia. Em quatro páginas, três artigos sustentam tudo: [17]
+pode tratar, e quem vigia. Em quatro páginas, três artigos sustentam tudo: [18]
 
 - **art. 1º** — a empresa que vive de preservar madeira tem de estar registrada no Ibama;
 - **art. 3º** — o preservativo *não pode ser fabricado, consumido ou posto à venda*
@@ -1124,7 +1137,57 @@ Há mais: pelo **art. 21**, o Ibama não tem apenas o poder de autuar — tem o 
 *implementar medidas para assegurar a correta utilização* do preservativo. E pelo
 **art. 22**, a infração responde civil e penalmente. Uma norma posterior, de 1997,
 completa o desenho: para registrar o produto, a empresa precisa provar o
-**risco ambiental** dele.[18]
+**risco ambiental** dele.[19]
+
+---
+
+### A instrução que diz o resto — e o lugar onde ela põe a regra
+
+A Portaria de 1989 não é a última palavra. Ela foi **disciplinada** três anos depois
+pela **Instrução Normativa Ibama nº 5, de 20 de outubro de 1992**[13] — que tem,
+literalmente, um item com este título:
+
+> VIII - DA DESTINAÇÃO FINAL DE RESÍDUOS E EMBALAGENS
+
+E dentro dele, a alínea que resolve a pergunta deste artigo:
+
+> "o descarte da embalagem e resíduos de preservativos de madeira e ingredientes ativos
+deverá atender às recomendações técnicas apresentadas na bula, relativas aos processos
+de destinação final, observadas as exigências dos setores de saúde e meio ambiente"
+
+Leia de novo, devagar, porque é aqui que o problema mora. A instrução **não diz qual é o
+descarte**. Ela diz que o descarte tem de seguir **o que o rótulo mandar**. E o item
+VI da mesma instrução exige que a bula traga "informações sobre o destino final das embalagens e
+dos resíduos".
+
+Ou seja: a obrigação é da lei; **o conteúdo da obrigação é do fabricante**, que escreve
+a bula, e do Ibama, que a aprova. Isso não é fraude nem brecha — é desenho declarado, e é comum em
+regulação por produto. Mas tem uma consequência que a peça precisa dizer com todas as letras:
+**a instrução de descarte não está na norma, está no rótulo.**
+
+E agora some as duas peças. O art. 4º da Portaria dispensa de registro o preservativo destinado a
+**experimentação e uso domissanitário**. Produto sem registro não tem bula aprovada. Sem
+bula, não há onde a regra de descarte morar.
+
+### Quem a instrução enxerga — e quem ela não enxerga
+
+A IN 5/92 define a cadeia inteira. Vale ler a definição de **usuário**, que é o elo mais
+próximo de quem trata bambu:
+
+> "usuário de preservativos de madeira - toda e qualquer empresa que faça uso
+de preservativos de madeira em qualquer das etapas de seu processo produtivo, bem como as
+empresas prestadoras de serviços"
+
+O usuário é empresa. O comércio é "estabelecimento comercial", inclusive de varejo. A
+indústria é estabelecimento. A usina é unidade industrial. **Não existe, em nenhuma alínea, uma
+categoria para a pessoa que compra o produto na loja de agropecuária e trata a peça no quintal**
+— ele não é indústria, não é usina, não é comércio e não é usuário, pela definição da própria
+instrução.
+
+O cadastro do Ibama confirma o mesmo recorte por outro caminho: as categorias do Cadastro Técnico
+Federal para o setor — inclusive "depósito de resíduos perigosos" e "tratamento de
+efluentes industriais" — são descritas sempre **"no próprio estabelecimento
+industrial"**. O controle é por estabelecimento. O quintal não é estabelecimento.
 
 ---
 
@@ -1147,7 +1210,7 @@ sozinho não me dá.
 
 Aqui o material deixa de depender de interpretação. O Instituto Estadual de Meio Ambiente do
 Espírito Santo publicou em 2023 uma nota técnica sobre licenciamento da preservação de madeira —
-36 páginas escritas por quem licencia, não por quem critica.[19]
+36 páginas escritas por quem licencia, não por quem critica.[20]
 
 Três frases dela, na ordem em que aparecem:
 
@@ -1172,7 +1235,7 @@ ela, porque o capítulo seguinte compara.
 ### A própria cadeia diz que não se queima
 
 Não é preciso apelar a ambientalista. A associação brasileira do setor de madeira apresentou num
-simpósio, em 2015, a lista do que o resíduo tratado **não pode**:[20]
+simpósio, em 2015, a lista do que o resíduo tratado **não pode**:[21]
 
 > Contato com alimentos ou água potável · Cama para animais · Queima a céu aberto ou em fogões/churrasqueiras/fornos/caldeiras de baixa temperatura
 
@@ -1187,7 +1250,7 @@ filtro e no que sobra depois.
 
 Se o preservativo ficasse dentro da peça, nada disso importaria. Ele não fica. Um ensaio de campo
 publicado em 2025 acompanhou **cinco moirões de eucalipto tratados com CCA** durante
-**880 dias**, medindo a madeira e o solo em volta, em duas profundidades.[21]
+**880 dias**, medindo a madeira e o solo em volta, em duas profundidades.[22]
 
 | Número | O que significa |
 |---|---|
@@ -1211,13 +1274,19 @@ artigo chama de "sobra" começa a caminhar **antes** de a peça virar sobra.
 ### Onde a madeira e o bambu se separam — e é aqui que este artigo pesa
 
 Para a **madeira**, a estrutura existe: norma federal, registro obrigatório,
-fiscalizador nomeado, órgão estadual licenciando, resíduo classificado como Classe I, aterro
-industrial exigido. Tudo isso pode não ser cumprido — mas está escrito.
+fiscalizador nomeado, órgão estadual licenciando, item próprio sobre destinação final de resíduo, e
+uma **bula** onde essa destinação é escrita. Tudo isso pode não ser cumprido — mas está
+escrito, e tem *onde* estar escrito.
 
 Para o **bambu**, essa estrutura não existe: não há registro de preservativo para
 bambu, não há usina licenciada de tratamento, e não localizei *classificação publicada* para o
-resíduo do banho. O tratamento é feito em tonel, no quintal, por quem aprendeu numa apostila — e as
-instruções que ensinam o banho **param exatamente onde o resíduo começa**.
+resíduo do banho. O tratamento é feito em tonel, no quintal, por quem aprendeu numa apostila. E, sem
+produto registrado, **não há bula** — não há o documento em que a instrução de descarte
+deveria estar escrita.
+
+É por isso que a diferença entre a madeira e o bambu, aqui, não é de rigor de quem trata: é de
+**onde a regra consegue pousar**. Na madeira, ela pousa num rótulo que existe, mesmo
+que ninguém o leia. No bambu, ela não tem onde pousar.
 
 E aqui é preciso evitar o salto que eu mesmo já dei: **não** quer dizer que o resíduo
 do bambu esteja fora da lei. A Política Nacional de Resíduos Sólidos vale para qualquer resíduo
@@ -1228,7 +1297,7 @@ número, não pela leitura: a edição de 2024 é paga e eu não a li. O que
 não existe é norma *da cadeia do bambu*, classificação publicada para esse resíduo específico,
 e órgão que tenha olhado para ele.
 
-> A madeira tem norma específica que não se cumpre. O bambu não tem norma específica: o resíduo dele cai na obrigação geral, escrita para todo resíduo. As duas coisas terminam no mesmo lugar — um resíduo sem destino escrito.
+> A madeira tem norma específica que não se cumpre. O bambu não tem norma específica: o resíduo dele cai na obrigação geral, escrita para todo resíduo. As duas coisas terminam no mesmo lugar — um resíduo cujo destino está escrito no rótulo de um produto que ele não tem.
 
 É por isso que este capítulo não substitui o capítulo do limbo: ele explica por que o limbo é
 pior no bambu. A política de 2011 incentiva a cadeia do bambu; a de 2010 disciplina resíduo sólido
@@ -1246,7 +1315,7 @@ tratada em fogão a lenha. **Não encontrei.**
 
 Não é o mesmo que dizer que não acontece. É dizer que **não está medido** — e essa
 distinção é o método deste artigo inteiro. O que existe é: a proibição, escrita pela própria
-cadeia;[20] a constatação de que a fumaça de fogão a lenha é um problema de saúde
+cadeia;[21] a constatação de que a fumaça de fogão a lenha é um problema de saúde
 pública reconhecido no Brasil; e o registro de que a lenha catada em área rural
 **"engloba restos de caixas e madeiras tratadas"**.
 
@@ -1263,17 +1332,20 @@ necessariamente na literatura.
 
 ### O que fica
 
-A norma brasileira de preservação de madeira existe, é de 1989, e nomeia quem fiscaliza. Ela
-controla o produto, a empresa e a usina. **Do que acontece depois que a peça sai do portão ela
-não trata** — e é depois do portão que este artigo inteiro acontece.
+A norma brasileira de preservação de madeira existe, é de 1989, e nomeia quem fiscaliza. A
+instrução que a disciplina existe, é de 1992, e tem seção própria sobre destinação final de resíduos.
+**As duas coisas são verdade, e nenhuma das duas é o problema.**
 
-O que eu posso afirmar, e é menos do que eu vinha afirmando: a norma específica tem como sujeito
-**a empresa registrada e a usina licenciada**, e prevê, no art. 4º, uma exceção para uso
-domissanitário. **Se o tratamento no quintal cai nessa exceção, ou se continua alcançado por
-ela, é questão que este artigo não decide** — exigiria interpretar "domissanitário" contra a
-regulação de saneantes, e isso não foi feito aqui. O que fica documentado é mais estreito e mais
-seguro: **nenhuma das fontes que custodiei diz o que fazer com o que sobra do banho**, e
-não encontrei documento de que as obrigações gerais tenham sido aplicadas a este resíduo.
+O problema é o encadeamento: a norma manda o resíduo ter destino; o destino é escrito na bula; a
+bula existe para o produto registrado; e o produto de uso domissanitário está dispensado de registro.
+**Cada elo está documentado, e o conjunto deixa de fora exatamente quem trata no quintal.**
+
+O que eu *não* afirmo, e faço questão de separar: que o tratamento de bambu no quintal seja
+"uso domissanitário" no sentido do art. 4º. O termo vem da regulação de saneantes, e decidir se ele
+abrange tratar material no quintal é interpretação que este artigo não faz. O que está documentado é
+mais estreito e mais incômodo: **a regra de descarte que existe foi escrita para caber num
+rótulo, e o rótulo não existe para quem trata em casa**. E não encontrei documento de que as
+obrigações gerais tenham sido aplicadas a este resíduo.
 
 ---
 
@@ -1357,7 +1429,9 @@ olímpicas**. Diluir **não** é destinar: cobre não se degrada.
 **toda** germinação, com índice **pior que o do Roundup**.
 - **As duas instruções oficiais mandam reusar** e proíbem o descarte em ralo, rio ou córrego.
 - **Decantar não remove cobre dissolvido** — tira a sujeira, não o metal.
-- **A lacuna:** nenhuma instrução diz o que fazer quando o reuso acaba.
+- **A lacuna:** as instruções de *tratamento* não dizem o que fazer quando o reuso
+acaba. A norma do *preservativo* diz — manda a bula dizer (IN 5/92, item VIII) —, e quem trata
+em casa não tem bula.
 - A lei brasileira inclui líquidos na definição de resíduo sólido **sob condição** (PNRS,
 art. 3º, XVI); se esta água cumpre a condição é questão jurídica que o artigo não decide. O que não
 depende dela: **1,0 mg de cobre por litro** é o limite de lançamento.
@@ -1477,15 +1551,16 @@ Numeradas na ordem em que aparecem pela primeira vez no texto. Onde a fonte é u
 10. BRASIL. Conselho Nacional do Meio Ambiente. **Resolução CONAMA nº 357, de 17 de março de 2005 — classificação dos corpos de água.** 2005. Diário Oficial da União. — Resolução que classifica os corpos de água e fixa padrões por classe. **Cobre dissolvido em água doce Classe 1: 0,009 mg/L (9 µg/L)**. Limite: é o padrão de qualidade do corpo receptor, e é 111 vezes mais restritivo que o limite de lançamento — a razão pela qual diluir não resolve.
 11. WORLD HEALTH ORGANIZATION. **Copper in Drinking-water: background document for development of WHO Guidelines for Drinking-water Quality.** 2004. WHO/SDE/WSH/03.04/88. Genebra. — Documento de base da OMS para o valor de referência do cobre na água de consumo. **2 mg/L, declarado PROVISÓRIO** por incertezas na curva dose–resposta; **LOAEL 4 mg/L** para náusea, em estudo com 61 voluntários; acúmulo **hepático** (“copper accumulates in the liver, brain and eyes”); dose diária tolerável de **0,17 mg/kg/dia**; LOAEL **10 mg Cu/kg/dia** por água (machos, efeito renal) e sem efeito a **23 mg/kg/dia** por dieta. Limite: o valor é provisório e o efeito crítico é hepático — citar 2 mg/L como linha dura promove um número provisório a definitivo.
 12. BRASIL. **Lei nº 12.305, de 2 de agosto de 2010 — Política Nacional de Resíduos Sólidos.** 2010. Diário Oficial da União. — Política Nacional de Resíduos Sólidos. Art. 3º, XVI define resíduo sólido incluindo **“líquidos cujas particularidades tornem inviável o seu lançamento na rede pública de esgotos ou em corpos d'água”**. Limite: a lei define e atribui a obrigação ao gerador; não diz onde o gerador doméstico deve entregar a solução exaurida.
-13. BRASIL. Ministério do Desenvolvimento, Indústria, Comércio e Serviços — ComexStat. **Exportação e importação — NCM 2833.25 (sulfato de cobre), série 1997–2026.** [s.d.]. Base de dados oficial de comércio exterior. — Base oficial de comércio exterior do MDIC. Série completa da NCM 2833.25 (sulfato de cobre), 1997–2026: **2025 com 177.854 t e US$ 370.053**; **China com 80,4% da massa e 48,3% do valor**; dispersão de preço de **119×** entre a origem mais barata (China, US$ 1,25/kg) e a mais cara (Reino Unido, US$ 148,43/kg); queda de **86%** entre 1997 (1.279 t) e 2020 (9,3 t). Limite: o preço disperso reflete a mistura de graus reagente e formulado na mesma NCM — hipótese declarada, não confirmada nos metadados da base.
-14. ARAUJO, Letícia Medeiros de; GIANELLI, Bruno Fernando; MANCINI, Sandro Donnini; MEDEIROS, Gerson Araujo de. **Life cycle assessment of the artisanal bamboo pole (Guadua angustifolia) production in the Brazilian Amazon.** 2025. Brazilian Journal of Science, v. 4, n. 4, p. 13-28. DOI 10.14295/bjs.v4i4.719. — Avaliação de ciclo de vida, com revisão por pares, da produção artesanal de colmo de *Guadua angustifolia* em **Rio Branco, Acre** — a única medição brasileira de uma cadeia artesanal de bambu tratado. Método declarado: SimaPro 9.1, Ecoinvent 3, **ReCiPe 2016 Midpoint (h)**, ISO 14040/14044, resultados normalizados em milipontos. **Toxicidade carcinogênica humana = 93% do impacto potencial normalizado**, e **91% dele nos resíduos** de apara, corte e colmo descartado — atribuído ao ácido bórico e ao bórax no resíduo e no efluente. Banho de 100 L de água + 5 kg de bórax + 5 kg de ácido bórico; por quilo de colmo: 0,20 kg de resíduo, 0,13 kg de colmo descartado, 0,07 L de efluente, 25% de perda. Limite: uma unidade, um município, um ano. Os próprios autores declaram sazonalidade, variabilidade de mão de obra e escassez de dados de inventário no Brasil. '93%' é categoria do método, não probabilidade de câncer — e a regra que o artigo descreve é o bórax, não o sulfato de cobre.
-15. BRASIL. **Lei nº 12.484, de 8 de setembro de 2011 — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do Bambu.** 2011. Diário Oficial da União. — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do Bambu. Seis artigos: crédito rural, assistência técnica, certificação de origem e incentivo ao intercâmbio institucional; o art. 5º, III, estimula expressamente o **uso comunitário e cooperativo**. Limite: procure tratamento, químico, resíduo, licença ou fiscalização no texto — não há. A política incentiva a produção e não disciplina o que acontece com o que sobra.
-16. ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 6232 — Penetração e retenção de preservativos em madeira tratada sob pressão.** 2013. ABNT, Rio de Janeiro. — Norma técnica sobre penetração e retenção de preservativos em madeira tratada sob pressão. Fornece a **retenção de 6,5 kg/m³** e a **composição percentual do CCB** usadas no cálculo de cobre por banho. Limite: a norma é paga e foi lida apenas na descrição que Rusch et al. (2023) dela fazem — não foi consultada no original.
-17. BRASIL. Ministério da Fazenda; Ministério da Saúde; Ministério do Interior. **Portaria Interministerial nº 292, de 28 de abril de 1989 — registro de preservativos de madeira e das usinas de preservação.** 1989. Diário Oficial da União, Brasília. 4 p. — A norma-mãe do setor no Brasil, de 1989, assinada por três ministérios. Torna o registro no Ibama obrigatório para a empresa (art. 1º) e para o produto — que **não pode ser fabricado, consumido ou vendido antes do registro** (art. 3º); exige relatório semestral de produção (art. 2º); e nomeia a competência: **«O IBAMA fiscalizará as atividades relacionadas com a preservação e comércio dos preservativos para madeira e de madeira preservada»** (art. 20), podendo «implementar medidas visando assegurar a correta utilização» (art. 21). Limite: a palavra «resíduo» não aparece no texto; a norma controla a entrada e o processo, não o destino da peça depois que ela sai da usina.
-18. INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS. **Portaria Normativa nº 151, de 24 de novembro de 1997 — documentação para registro de produto preservativo de madeira.** 1997. Diário Oficial da União, Seção 1, p. 27.552, 25 nov. 1997. OCR degradado. — Portaria do Ibama que condiciona o registro do preservativo à **determinação do risco ambiental** do produto e fixa o dossiê exigido. Limite: o risco avaliado é o do produto em uso, não o do resíduo ao fim da vida útil; e o OCR da Imprensa Nacional grafa os ordinais como «10» e «50» onde a leitura é «1º» e «5º».
-19. INSTITUTO ESTADUAL DE MEIO AMBIENTE E RECURSOS HÍDRICOS DO ESPÍRITO SANTO. **Nota Técnica Orientativa GGE-COED nº 01/2023 — principais aspectos acerca dos estudos e das análises referentes ao licenciamento ambiental da atividade de preservação de madeira.** 2023. Iema-ES, Vitória. 36 p. — Nota técnica do órgão ambiental do Espírito Santo sobre o licenciamento da preservação de madeira — o regulador por dentro. **CCA em 80% do volume** do setor, CCB com 15% junto de lindane e tribromofenato, creosoto 5%; autoclave em 84%; **sete registros válidos de CCA** no Brasil. Registra que a EPA americana anunciou em 2003 o fim do uso residencial do CCA e que **«não há proibição de uso no Brasil»**; que o efluente da usina deve ser **100% reutilizado no processo**; que resíduo tratado é **Classe I** e vai a aterro industrial; e, sobre o CCB, que **«não existem muitas informações ... em relação aos aspectos ambientais e à disposição de resíduos na madeira tratada»**. Limite: é orientação de um estado, não norma federal; e os percentuais de mercado são citados de terceiro, não medidos pelo próprio órgão.
-20. ASSOCIAÇÃO BRASILEIRA DA INDÚSTRIA DE MADEIRA PROCESSADA MECANICAMENTE (ABPM). **Destinação de resíduos de madeira tratada.** 2015. Apresentação no 3º Simpósio Madeira e Construção, ago. 2015. 21 p. — Apresentação da associação brasileira do setor de madeira, para o 3º Simpósio Madeira e Construção. Lista o que o resíduo tratado **não pode**: contato com alimentos ou água potável, cama para animais, e **«queima a céu aberto ou em fogões/churrasqueiras/fornos/caldeiras de baixa temperatura»**; admite recuperação energética apenas em instalação licenciada. Limite: é material setorial, não norma; declara a proibição, mas não mede quanto resíduo é queimado em fogão doméstico no Brasil.
-21. CIÊNCIA FLORESTAL. **Contaminação do solo pelo uso de moirões tratados com arseniato de cobre cromatado.** 2025. Ciência Florestal, Santa Maria, v. 35, e86024, p. 1-16. DOI 10.5902/1980509886024. — Ensaio de campo de 880 dias com **cinco moirões de eucalipto** tratados com CCA-C em autoclave industrial, seis amostragens em duas profundidades (0–20 e 20–40 cm). O arsênio da madeira caiu **55,0%** e o do solo subiu **129,2%**, ficando **32,3% acima do valor máximo de investigação para o setor agrícola** da Resolução CONAMA 420/2009. Limite: cinco peças num sítio; mediu solo até 40 cm, não água subterrânea; mediu lixiviação, não queima; é CCA, não CCB.
+13. INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS. **Instrução Normativa nº 5, de 20 de outubro de 1992 — disciplina os procedimentos da Portaria Interministerial 292/89.** 1992. Diário Oficial da União, 21 out. 1992. — A instrução que **disciplina** a Portaria 292/89, de 1992. Tem item com título próprio — **VIII, «Da destinação final de resíduos e embalagens»** — e manda que «o descarte da embalagem e resíduos de preservativos de madeira e ingredientes ativos **deverá atender às recomendações técnicas apresentadas na bula**»; o item VI exige que a bula traga «informações sobre o destino final das embalagens e dos resíduos». Define a cadeia por empresa, inclusive o «usuário». Limite: a instrução não fixa a destinação — delega à bula; e o resíduo líquido do banho só entra, no máximo, como «resíduos de preservativos e ingredientes ativos».
+14. BRASIL. Ministério do Desenvolvimento, Indústria, Comércio e Serviços — ComexStat. **Exportação e importação — NCM 2833.25 (sulfato de cobre), série 1997–2026.** [s.d.]. Base de dados oficial de comércio exterior. — Base oficial de comércio exterior do MDIC. Série completa da NCM 2833.25 (sulfato de cobre), 1997–2026: **2025 com 177.854 t e US$ 370.053**; **China com 80,4% da massa e 48,3% do valor**; dispersão de preço de **119×** entre a origem mais barata (China, US$ 1,25/kg) e a mais cara (Reino Unido, US$ 148,43/kg); queda de **86%** entre 1997 (1.279 t) e 2020 (9,3 t). Limite: o preço disperso reflete a mistura de graus reagente e formulado na mesma NCM — hipótese declarada, não confirmada nos metadados da base.
+15. ARAUJO, Letícia Medeiros de; GIANELLI, Bruno Fernando; MANCINI, Sandro Donnini; MEDEIROS, Gerson Araujo de. **Life cycle assessment of the artisanal bamboo pole (Guadua angustifolia) production in the Brazilian Amazon.** 2025. Brazilian Journal of Science, v. 4, n. 4, p. 13-28. DOI 10.14295/bjs.v4i4.719. — Avaliação de ciclo de vida, com revisão por pares, da produção artesanal de colmo de *Guadua angustifolia* em **Rio Branco, Acre** — a única medição brasileira de uma cadeia artesanal de bambu tratado. Método declarado: SimaPro 9.1, Ecoinvent 3, **ReCiPe 2016 Midpoint (h)**, ISO 14040/14044, resultados normalizados em milipontos. **Toxicidade carcinogênica humana = 93% do impacto potencial normalizado**, e **91% dele nos resíduos** de apara, corte e colmo descartado — atribuído ao ácido bórico e ao bórax no resíduo e no efluente. Banho de 100 L de água + 5 kg de bórax + 5 kg de ácido bórico; por quilo de colmo: 0,20 kg de resíduo, 0,13 kg de colmo descartado, 0,07 L de efluente, 25% de perda. Limite: uma unidade, um município, um ano. Os próprios autores declaram sazonalidade, variabilidade de mão de obra e escassez de dados de inventário no Brasil. '93%' é categoria do método, não probabilidade de câncer — e a regra que o artigo descreve é o bórax, não o sulfato de cobre.
+16. BRASIL. **Lei nº 12.484, de 8 de setembro de 2011 — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do Bambu.** 2011. Diário Oficial da União. — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do Bambu. Seis artigos: crédito rural, assistência técnica, certificação de origem e incentivo ao intercâmbio institucional; o art. 5º, III, estimula expressamente o **uso comunitário e cooperativo**. Limite: procure tratamento, químico, resíduo, licença ou fiscalização no texto — não há. A política incentiva a produção e não disciplina o que acontece com o que sobra.
+17. ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 6232 — Penetração e retenção de preservativos em madeira tratada sob pressão.** 2013. ABNT, Rio de Janeiro. — Norma técnica sobre penetração e retenção de preservativos em madeira tratada sob pressão. Fornece a **retenção de 6,5 kg/m³** e a **composição percentual do CCB** usadas no cálculo de cobre por banho. Limite: a norma é paga e foi lida apenas na descrição que Rusch et al. (2023) dela fazem — não foi consultada no original.
+18. BRASIL. Ministério da Fazenda; Ministério da Saúde; Ministério do Interior. **Portaria Interministerial nº 292, de 28 de abril de 1989 — registro de preservativos de madeira e das usinas de preservação.** 1989. Diário Oficial da União, Brasília. 4 p. — A norma-mãe do setor no Brasil, de 1989, assinada por três ministérios. Torna o registro no Ibama obrigatório para a empresa (art. 1º) e para o produto — que **não pode ser fabricado, consumido ou vendido antes do registro** (art. 3º); exige relatório semestral de produção (art. 2º); e nomeia a competência: **«O IBAMA fiscalizará as atividades relacionadas com a preservação e comércio dos preservativos para madeira e de madeira preservada»** (art. 20), podendo «implementar medidas visando assegurar a correta utilização» (art. 21). Limite: a palavra «resíduo» não aparece no texto; a norma controla a entrada e o processo, não o destino da peça depois que ela sai da usina.
+19. INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS. **Portaria Normativa nº 151, de 24 de novembro de 1997 — documentação para registro de produto preservativo de madeira.** 1997. Diário Oficial da União, Seção 1, p. 27.552, 25 nov. 1997. OCR degradado. — Portaria do Ibama que condiciona o registro do preservativo à **determinação do risco ambiental** do produto e fixa o dossiê exigido. Limite: o risco avaliado é o do produto em uso, não o do resíduo ao fim da vida útil; e o OCR da Imprensa Nacional grafa os ordinais como «10» e «50» onde a leitura é «1º» e «5º».
+20. INSTITUTO ESTADUAL DE MEIO AMBIENTE E RECURSOS HÍDRICOS DO ESPÍRITO SANTO. **Nota Técnica Orientativa GGE-COED nº 01/2023 — principais aspectos acerca dos estudos e das análises referentes ao licenciamento ambiental da atividade de preservação de madeira.** 2023. Iema-ES, Vitória. 36 p. — Nota técnica do órgão ambiental do Espírito Santo sobre o licenciamento da preservação de madeira — o regulador por dentro. **CCA em 80% do volume** do setor, CCB com 15% junto de lindane e tribromofenato, creosoto 5%; autoclave em 84%; **sete registros válidos de CCA** no Brasil. Registra que a EPA americana anunciou em 2003 o fim do uso residencial do CCA e que **«não há proibição de uso no Brasil»**; que o efluente da usina deve ser **100% reutilizado no processo**; que resíduo tratado é **Classe I** e vai a aterro industrial; e, sobre o CCB, que **«não existem muitas informações ... em relação aos aspectos ambientais e à disposição de resíduos na madeira tratada»**. Limite: é orientação de um estado, não norma federal; e os percentuais de mercado são citados de terceiro, não medidos pelo próprio órgão.
+21. ASSOCIAÇÃO BRASILEIRA DA INDÚSTRIA DE MADEIRA PROCESSADA MECANICAMENTE (ABPM). **Destinação de resíduos de madeira tratada.** 2015. Apresentação no 3º Simpósio Madeira e Construção, ago. 2015. 21 p. — Apresentação da associação brasileira do setor de madeira, para o 3º Simpósio Madeira e Construção. Lista o que o resíduo tratado **não pode**: contato com alimentos ou água potável, cama para animais, e **«queima a céu aberto ou em fogões/churrasqueiras/fornos/caldeiras de baixa temperatura»**; admite recuperação energética apenas em instalação licenciada. Limite: é material setorial, não norma; declara a proibição, mas não mede quanto resíduo é queimado em fogão doméstico no Brasil.
+22. CIÊNCIA FLORESTAL. **Contaminação do solo pelo uso de moirões tratados com arseniato de cobre cromatado.** 2025. Ciência Florestal, Santa Maria, v. 35, e86024, p. 1-16. DOI 10.5902/1980509886024. — Ensaio de campo de 880 dias com **cinco moirões de eucalipto** tratados com CCA-C em autoclave industrial, seis amostragens em duas profundidades (0–20 e 20–40 cm). O arsênio da madeira caiu **55,0%** e o do solo subiu **129,2%**, ficando **32,3% acima do valor máximo de investigação para o setor agrícola** da Resolução CONAMA 420/2009. Limite: cinco peças num sítio; mediu solo até 40 cm, não água subterrânea; mediu lixiviação, não queima; é CCA, não CCB.
 ---
 
 ## Autoria, assistência e responsabilidade

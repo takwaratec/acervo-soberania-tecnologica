@@ -133,9 +133,17 @@ O art. 21 é mais forte do que parece: não dá ao Ibama apenas o poder de autua
 
 ---
 
-## 3. O que esta norma NÃO diz — e é o buraco que a peça precisa mostrar
+## 3. O que esta norma NÃO diz — e o que a instrução que a disciplina diz
 
-Três ausências, todas verificadas no texto integral (4 páginas, 10.859 caracteres):
+> **Correção de 2026-11-24, depois de a IN 5/92 ser custodiada.** Esta seção afirmava, como
+> se fosse silêncio do sistema, que ninguém trata da destinação final. Não é: a **Instrução
+> Normativa Ibama 5/92**, que disciplina esta Portaria, tem item próprio — o **item VIII**, que
+> trata da destinação final de resíduos e embalagens — e manda o descarte atender às
+> recomendações da **bula**. O que a Portaria não diz, a instrução diz; e delega o conteúdo ao rótulo. Ver
+> `ficha-in05-92-ibama-destinacao-final-residuos.md`.
+
+Três ausências desta Portaria — não do sistema —, todas verificadas no texto integral
+(4 páginas, 10.859 caracteres):
 
 - **Não trata da destinação final do resíduo.** A palavra "resíduo" não aparece na Portaria.
   Ela controla a entrada (registro do produto) e o processo (relatório de produção), não a saída

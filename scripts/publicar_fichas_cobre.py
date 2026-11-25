@@ -15,6 +15,7 @@ REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
 ORIGENS = [
     (f"{REPO}/_privado/fichas/ago_28_Sulfato_S11", 6),
     (f"{REPO}/_privado/fichas/ago_28_Madeira_Tratada_S11c", 5),
+    (f"{REPO}/_privado/fichas/ago_28_Madeira_Tratada_S11d", 1),
 ]
 DEST = f"{REPO}/docs/analyses/cobre/fichas"
 

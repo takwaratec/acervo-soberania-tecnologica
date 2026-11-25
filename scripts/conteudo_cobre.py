@@ -821,7 +821,11 @@ de quintal.</li>
 
 <h3>A lacuna que sobra, e é o coração do problema</h3>
 
-<p><strong>As duas instruções mandam reusar. Nenhuma diz o que fazer quando o reuso acaba.</strong></p>
+<p><strong>As duas instruções mandam reusar. Nenhuma diz o que fazer quando o reuso acaba.</strong>
+E isso não é descuido delas: elas ensinam o <em>banho</em>, não o descarte. Quem diz o descarte é
+outra peça do sistema — a <strong>bula do produto registrado</strong>, por exigência do item VIII da
+IN Ibama 5/92, de 1992. O problema é que a instrução que ensina o banho caseiro não vem com bula —
+e a norma que exigiria a bula é a mesma que dispensa de registro o produto de uso domissanitário.</p>
 
 <p>E o reuso acaba:</p>
 <ul>
@@ -830,7 +834,7 @@ de quintal.</li>
 <li>quando a concentração cai abaixo do que funciona.</li>
 </ul>
 
-{bq("<strong>É nesse ponto que a instrução brasileira cala e a indiana manda enterrar. É exatamente aí que o problema começa — e é aí que ninguém está olhando.</strong>")}
+{bq("<strong>É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto que quem trata em casa não tem.</strong>")}
 
 <h3>A lei já resolveu isso — e quase ninguém sabe</h3>
 
@@ -1206,17 +1210,28 @@ sem saber o que fazer com a apara. <strong>O boro e o cobre chegam ao territóri
 """)
 
 pagina("p-norma", "09 · A norma e o quintal", "09",
-       "A norma existe — e não diz o que fazer com a sobra",
+       "A norma existe — e o descarte mora no rótulo",
        "09 · A NORMA E O QUINTAL · GAVETA COBRE · 2026-11-24", f"""
-<p>Ao longo deste artigo eu disse várias vezes que <strong>ninguém diz o que fazer com a sobra</strong>.
-Isso pode ter soado como "não existe regra". <strong>Existe.</strong> É federal, é de 1989, é mais
-explícita do que se costuma imaginar — e tem, escrita, uma <strong>exceção para uso doméstico</strong>
-que eu mesmo não tinha visto até reler.</p>
+<p>Ao longo deste artigo eu afirmei várias vezes que <strong>ninguém diz o que fazer com a
+sobra</strong>. Isso estava errado — e a correção é o achado mais importante desta gaveta. Existe norma
+federal, de 1989, que registra o preservativo e nomeia quem fiscaliza; existe uma instrução de 1992 com
+<strong>seção própria sobre destinação final de resíduos</strong>; e existe, escrita na Portaria, uma
+<strong>exceção para uso doméstico</strong>. Nada disso estava no artigo antes, e a última peça —
+a instrução de 1992 — estava declarada como "pendente de custódia" enquanto o texto afirmava o
+contrário do que ela diz.</p>
 
-<p>Este capítulo é o que separa três coisas que costumam vir juntas: <strong>"não existe norma"</strong>,
-<strong>"existe norma e ela excetua o uso doméstico"</strong> e <strong>"existe norma, com exceção, e
-mesmo assim ninguém diz o que fazer com o resíduo"</strong>. A terceira é a que eu consigo sustentar com
-documento — e é a mais desconfortável das três.</p>
+<p>O sistema inteiro cabe em três frases, e o problema não está em nenhuma delas isolada: está na
+combinação.</p>
+
+<ul>
+<li>a norma <strong>manda</strong> o resíduo ter destinação final — item VIII da IN 5/92;</li>
+<li>o <strong>conteúdo</strong> dessa destinação é delegado à <strong>bula</strong> do produto;</li>
+<li>a bula só existe para produto <strong>registrado</strong> — e o produto de uso domissanitário está
+<strong>dispensado</strong> de registro pelo art. 4º da Portaria.</li>
+</ul>
+
+<p>Não é vazio legal. É <strong>transferência</strong>: da norma para o rótulo, e do rótulo para quem
+não tem rótulo.</p>
 
 {SEP}
 
@@ -1247,6 +1262,56 @@ preservativos para madeira e de madeira preservada."</strong></li>
 <strong>art. 22</strong>, a infração responde civil e penalmente. Uma norma posterior, de 1997,
 completa o desenho: para registrar o produto, a empresa precisa provar o
 <strong>risco ambiental</strong> dele.{cit("pn151")}</p>
+
+{SEP}
+
+<h3>A instrução que diz o resto — e o lugar onde ela põe a regra</h3>
+
+<p>A Portaria de 1989 não é a última palavra. Ela foi <strong>disciplinada</strong> três anos depois
+pela <strong>Instrução Normativa Ibama nº 5, de 20 de outubro de 1992</strong>{cit("in592")} — que tem,
+literalmente, um item com este título:</p>
+
+{bq("<strong>VIII - DA DESTINAÇÃO FINAL DE RESÍDUOS E EMBALAGENS</strong>")}
+
+<p>E dentro dele, a alínea que resolve a pergunta deste artigo:</p>
+
+<blockquote>&quot;o descarte da embalagem e resíduos de preservativos de madeira e ingredientes ativos
+<strong>deverá atender às recomendações técnicas apresentadas na bula</strong>, relativas aos processos
+de destinação final, observadas as exigências dos setores de saúde e meio ambiente&quot;</blockquote>
+
+<p>Leia de novo, devagar, porque é aqui que o problema mora. A instrução <strong>não diz qual é o
+descarte</strong>. Ela diz que o descarte tem de seguir <strong>o que o rótulo mandar</strong>. E o item
+VI da mesma instrução exige que a bula traga &quot;informações sobre o destino final das embalagens e
+dos resíduos&quot;.</p>
+
+<p>Ou seja: a obrigação é da lei; <strong>o conteúdo da obrigação é do fabricante</strong>, que escreve
+a bula, e do Ibama, que a aprova. Isso não é fraude nem brecha — é desenho declarado, e é comum em
+regulação por produto. Mas tem uma consequência que a peça precisa dizer com todas as letras:
+<strong>a instrução de descarte não está na norma, está no rótulo.</strong></p>
+
+<p>E agora some as duas peças. O art. 4º da Portaria dispensa de registro o preservativo destinado a
+<strong>experimentação e uso domissanitário</strong>. Produto sem registro não tem bula aprovada. Sem
+bula, não há onde a regra de descarte morar.</p>
+
+<h3>Quem a instrução enxerga — e quem ela não enxerga</h3>
+
+<p>A IN 5/92 define a cadeia inteira. Vale ler a definição de <strong>usuário</strong>, que é o elo mais
+próximo de quem trata bambu:</p>
+
+<blockquote>&quot;usuário de preservativos de madeira - <strong>toda e qualquer empresa</strong> que faça uso
+de preservativos de madeira em qualquer das etapas de seu processo produtivo, bem como as
+<strong>empresas</strong> prestadoras de serviços&quot;</blockquote>
+
+<p>O usuário é empresa. O comércio é &quot;estabelecimento comercial&quot;, inclusive de varejo. A
+indústria é estabelecimento. A usina é unidade industrial. <strong>Não existe, em nenhuma alínea, uma
+categoria para a pessoa que compra o produto na loja de agropecuária e trata a peça no quintal</strong>
+— ele não é indústria, não é usina, não é comércio e não é usuário, pela definição da própria
+instrução.</p>
+
+<p>O cadastro do Ibama confirma o mesmo recorte por outro caminho: as categorias do Cadastro Técnico
+Federal para o setor — inclusive &quot;depósito de resíduos perigosos&quot; e &quot;tratamento de
+efluentes industriais&quot; — são descritas sempre <strong>&quot;no próprio estabelecimento
+industrial&quot;</strong>. O controle é por estabelecimento. O quintal não é estabelecimento.</p>
 
 {SEP}
 
@@ -1343,13 +1408,19 @@ artigo chama de "sobra" começa a caminhar <strong>antes</strong> de a peça vir
 <h3>Onde a madeira e o bambu se separam — e é aqui que este artigo pesa</h3>
 
 <p>Para a <strong>madeira</strong>, a estrutura existe: norma federal, registro obrigatório,
-fiscalizador nomeado, órgão estadual licenciando, resíduo classificado como Classe I, aterro
-industrial exigido. Tudo isso pode não ser cumprido — mas está escrito.</p>
+fiscalizador nomeado, órgão estadual licenciando, item próprio sobre destinação final de resíduo, e
+uma <strong>bula</strong> onde essa destinação é escrita. Tudo isso pode não ser cumprido — mas está
+escrito, e tem <em>onde</em> estar escrito.</p>
 
 <p>Para o <strong>bambu</strong>, essa estrutura não existe: não há registro de preservativo para
 bambu, não há usina licenciada de tratamento, e não localizei <em>classificação publicada</em> para o
-resíduo do banho. O tratamento é feito em tonel, no quintal, por quem aprendeu numa apostila — e as
-instruções que ensinam o banho <strong>param exatamente onde o resíduo começa</strong>.</p>
+resíduo do banho. O tratamento é feito em tonel, no quintal, por quem aprendeu numa apostila. E, sem
+produto registrado, <strong>não há bula</strong> — não há o documento em que a instrução de descarte
+deveria estar escrita.</p>
+
+<p>É por isso que a diferença entre a madeira e o bambu, aqui, não é de rigor de quem trata: é de
+<strong>onde a regra consegue pousar</strong>. Na madeira, ela pousa num rótulo que existe, mesmo
+que ninguém o leia. No bambu, ela não tem onde pousar.</p>
 
 <p>E aqui é preciso evitar o salto que eu mesmo já dei: <strong>não</strong> quer dizer que o resíduo
 do bambu esteja fora da lei. A Política Nacional de Resíduos Sólidos vale para qualquer resíduo
@@ -1362,7 +1433,8 @@ e órgão que tenha olhado para ele.</p>
 
 {bq("<strong>A madeira tem norma específica que não se cumpre. O bambu não tem norma específica: "
     "o resíduo dele cai na obrigação geral, escrita para todo resíduo.</strong> As duas coisas "
-    "terminam no mesmo lugar — um resíduo sem destino escrito.")}
+    "terminam no mesmo lugar — um resíduo cujo destino está escrito no rótulo de um produto "
+    "que ele não tem.")}
 
 <p>É por isso que este capítulo não substitui o capítulo do limbo: ele explica por que o limbo é
 pior no bambu. A política de 2011 incentiva a cadeia do bambu; a de 2010 disciplina resíduo sólido
@@ -1400,17 +1472,20 @@ necessariamente na literatura.</p>
 
 <h3>O que fica</h3>
 
-<p>A norma brasileira de preservação de madeira existe, é de 1989, e nomeia quem fiscaliza. Ela
-controla o produto, a empresa e a usina. <strong>Do que acontece depois que a peça sai do portão ela
-não trata</strong> — e é depois do portão que este artigo inteiro acontece.</p>
+<p>A norma brasileira de preservação de madeira existe, é de 1989, e nomeia quem fiscaliza. A
+instrução que a disciplina existe, é de 1992, e tem seção própria sobre destinação final de resíduos.
+<strong>As duas coisas são verdade, e nenhuma das duas é o problema.</strong></p>
 
-<p>O que eu posso afirmar, e é menos do que eu vinha afirmando: a norma específica tem como sujeito
-<strong>a empresa registrada e a usina licenciada</strong>, e prevê, no art. 4º, uma exceção para uso
-domissanitário. <strong>Se o tratamento no quintal cai nessa exceção, ou se continua alcançado por
-ela, é questão que este artigo não decide</strong> — exigiria interpretar "domissanitário" contra a
-regulação de saneantes, e isso não foi feito aqui. O que fica documentado é mais estreito e mais
-seguro: <strong>nenhuma das fontes que custodiei diz o que fazer com o que sobra do banho</strong>, e
-não encontrei documento de que as obrigações gerais tenham sido aplicadas a este resíduo.</p>
+<p>O problema é o encadeamento: a norma manda o resíduo ter destino; o destino é escrito na bula; a
+bula existe para o produto registrado; e o produto de uso domissanitário está dispensado de registro.
+<strong>Cada elo está documentado, e o conjunto deixa de fora exatamente quem trata no quintal.</strong></p>
+
+<p>O que eu <em>não</em> afirmo, e faço questão de separar: que o tratamento de bambu no quintal seja
+"uso domissanitário" no sentido do art. 4º. O termo vem da regulação de saneantes, e decidir se ele
+abrange tratar material no quintal é interpretação que este artigo não faz. O que está documentado é
+mais estreito e mais incômodo: <strong>a regra de descarte que existe foi escrita para caber num
+rótulo, e o rótulo não existe para quem trata em casa</strong>. E não encontrei documento de que as
+obrigações gerais tenham sido aplicadas a este resíduo.</p>
 """)
 
 pagina("p-9", "10 · Como ler · Resumo", "10", "Como ler qualquer texto sobre cobre — e o resumo do artigo",
@@ -1505,7 +1580,9 @@ olímpicas</strong>. Diluir <strong>não</strong> é destinar: cobre não se deg
 <strong>toda</strong> germinação, com índice <strong>pior que o do Roundup</strong>.</li>
 <li><strong>As duas instruções oficiais mandam reusar</strong> e proíbem o descarte em ralo, rio ou córrego.</li>
 <li><strong>Decantar não remove cobre dissolvido</strong> — tira a sujeira, não o metal.</li>
-<li><strong>A lacuna:</strong> nenhuma instrução diz o que fazer quando o reuso acaba.</li>
+<li><strong>A lacuna:</strong> as instruções de <em>tratamento</em> não dizem o que fazer quando o reuso
+acaba. A norma do <em>preservativo</em> diz — manda a bula dizer (IN 5/92, item VIII) —, e quem trata
+em casa não tem bula.</li>
 <li>A lei brasileira inclui líquidos na definição de resíduo sólido <strong>sob condição</strong> (PNRS,
 art. 3º, XVI); se esta água cumpre a condição é questão jurídica que o artigo não decide. O que não
 depende dela: <strong>1,0 mg de cobre por litro</strong> é o limite de lançamento.</li>

@@ -69,9 +69,9 @@
    "arquivo": "ficha-pi292-89-registro-preservativos-madeira.md",
    "origem": "_privado/fichas/ago_28_Madeira_Tratada_S11c/ficha-pi292-89-registro-preservativos-madeira.md",
    "destino": "docs/analyses/cobre/fichas/ficha-pi292-89-registro-preservativos-madeira.md",
-   "sha256_origem": "6d179cef47265b4769f2ed791269a273f563ec366ec6d3191e7d2e63b5bca31e",
-   "sha256_publicado": "34635d5ff20f51cac323f4b6b1b19ecd06c035a7269cb36007c5e118e06fbfce",
-   "bytes": 7355
+   "sha256_origem": "10adea6b33e49e14b60a3b9998f4299460ab83efe23e7111d1422f4cffec01f1",
+   "sha256_publicado": "88ef033acddf6e706a9dd72c6da8162780710032bdbd2edb15a1a5f5ab24ebed",
+   "bytes": 7950
   },
   {
    "arquivo": "ficha-pn151-97-ibama-risco-ambiental.md",
@@ -88,6 +88,14 @@
    "sha256_origem": "937a47fa0be96fbe14850aa43e21c0ed21e0ae95de11f011a11cb1ceb991007a",
    "sha256_publicado": "c875842974014fce7fb3ccadb765afcdece71751d45a673f6f32701c57a9915c",
    "bytes": 5963
+  },
+  {
+   "arquivo": "ficha-in05-92-ibama-destinacao-final-residuos.md",
+   "origem": "_privado/fichas/ago_28_Madeira_Tratada_S11d/ficha-in05-92-ibama-destinacao-final-residuos.md",
+   "destino": "docs/analyses/cobre/fichas/ficha-in05-92-ibama-destinacao-final-residuos.md",
+   "sha256_origem": "5c427aae7339a9e577cc83b285ec04ec5348fafd33956aaf65ff82c6d4a3ab00",
+   "sha256_publicado": "f483414f825fffff48526aa97176cb4ee98ec9a90fa9b44c7e3d8f474e174287",
+   "bytes": 7962
   }
  ],
  "estado": "homologado-internamente",

@@ -155,6 +155,15 @@ RESUMOS = {
  "<span class='limite'>Limite: a palavra «resíduo» não aparece no texto; a norma controla a entrada e o "
  "processo, não o destino da peça depois que ela sai da usina.</span>",
 
+"in592":
+ "A instrução que <strong>disciplina</strong> a Portaria 292/89, de 1992. Tem item com título próprio — "
+ "<strong>VIII, «Da destinação final de resíduos e embalagens»</strong> — e manda que «o descarte da "
+ "embalagem e resíduos de preservativos de madeira e ingredientes ativos <strong>deverá atender às "
+ "recomendações técnicas apresentadas na bula</strong>»; o item VI exige que a bula traga «informações "
+ "sobre o destino final das embalagens e dos resíduos». Define a cadeia por empresa, inclusive o "
+ "«usuário». <span class='limite'>Limite: a instrução não fixa a destinação — delega à bula; e o "
+ "resíduo líquido do banho só entra, no máximo, como «resíduos de preservativos e ingredientes ativos».</span>",
+
 "pn151":
  "Portaria do Ibama que condiciona o registro do preservativo à <strong>determinação do risco "
  "ambiental</strong> do produto e fixa o dossiê exigido. <span class='limite'>Limite: o risco avaliado "

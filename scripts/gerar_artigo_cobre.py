@@ -84,6 +84,8 @@ FICHAS = [
      "ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md"),
     ("f-11", "Ficha · Ciência Florestal 2025", "880 dias medindo arsênio no solo",
      "ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md"),
+    ("f-12", "Ficha · Instrução Normativa 5/92", "O item que manda a bula dizer o descarte",
+     "ficha-in05-92-ibama-destinacao-final-residuos.md"),
 ]
 # lê as fichas da área publicada, que é o que o leitor recebe e o auditor confere
 FICHAS_DIR = f"{REPO}/docs/analyses/cobre/fichas"

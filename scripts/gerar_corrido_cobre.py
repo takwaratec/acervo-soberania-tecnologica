@@ -70,6 +70,9 @@ FICHAS = [
   "ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md"),
  ("ficha-11", "Ciência Florestal 2025 — 880 dias de campo: arsênio da madeira \u221255%, do solo +129,2%",
   "ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md"),
+ # S11-d — a instrução que diz onde a regra de descarte mora (2026-11-24)
+ ("ficha-12", "Instrução Normativa Ibama 5/92 — o item VIII: o descarte segue a bula, e a bula é do produto registrado",
+  "ficha-in05-92-ibama-destinacao-final-residuos.md"),
 ]
 
 

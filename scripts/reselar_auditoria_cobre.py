@@ -51,6 +51,17 @@ NOVAS = [
      "ref 21 — Ciência Florestal v.35 e86024 (16 p.)"),
     ("docs/analyses/cobre/fontes/s11c/MANIFEST_FONTES_S11C.json",
      "manifesto da custódia S11-c, com as duas pendências declaradas"),
+    # S11-d — a instrução que diz onde a regra de descarte mora
+    ("docs/analyses/cobre/fichas/ficha-in05-92-ibama-destinacao-final-residuos.md",
+     "ficha 12 — item VIII da IN 5/92: o descarte segue a bula, e a bula é do produto registrado"),
+    ("docs/analyses/cobre/fontes/s11d/1992_in05_ibama_destinacao_final_residuos.pdf",
+     "ref 22 — Instrução Normativa Ibama 5/92, fac-símile do DOU de 21.10.1992 (15 p.)"),
+    ("docs/analyses/cobre/fontes/s11d/1992_in05_ibama_destinacao_final_residuos.md",
+     "extração com marcador de página da IN 5/92"),
+    ("docs/analyses/cobre/fontes/s11d/2026-ctf-ibama-categorias-preservativos.md",
+     "página oficial do CTF: as categorias da cadeia são por estabelecimento industrial"),
+    ("docs/analyses/cobre/fontes/s11d/MANIFEST_FONTES_S11D.json",
+     "manifesto da custódia S11-d, com a pendência da S11-c resolvida"),
 ]
 
 

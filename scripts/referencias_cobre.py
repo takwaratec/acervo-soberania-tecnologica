@@ -118,6 +118,16 @@ REFERENCIAS = [
      "art. 3º, XVI: resíduo sólido inclui líquidos cuja destinação em rede de esgoto ou corpo "
      "d'água seja inviável"),
 
+    ("in592",
+     "INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS",
+     1992,
+     "Instrução Normativa nº 5, de 20 de outubro de 1992 — disciplina os procedimentos da "
+     "Portaria Interministerial 292/89.",
+     "Diário Oficial da União, 21 out. 1992.",
+     "fontes/s11d/1992_in05_ibama_destinacao_final_residuos.pdf",
+     "item VIII, «Da destinação final de resíduos e embalagens»: o descarte deve atender às "
+     "recomendações da bula; item VI «h»: a bula deve informar o destino final dos resíduos"),
+
     ("comexstat",
      "BRASIL. Ministério do Desenvolvimento, Indústria, Comércio e Serviços — ComexStat",
      None,
