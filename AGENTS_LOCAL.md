@@ -122,6 +122,34 @@ A escopo é aprovado quando o diff fora da gaveta da frente está **vazio**. Nã
 Branch desatualizada se corrige trazendo a frente para uma branch cortada da `main` com caminhos
 declarados — nunca por `git add -A`, nunca por rebase de branch publicada.
 
+**A8. O achado se classifica pelo efeito, e só dois efeitos impedem homologação.** Gravidade mede o
+tamanho do erro; efeito mede o que ele obriga a fazer. Classificar por gravidade faz divergência de
+índice ter o mesmo peso de afirmação científica contrariada pela fonte, e transforma governança em
+trabalho independente — que é o oposto do que ela serve.
+
+Três classes, e nada fora delas:
+
+- **BLOQUEIA_HOMOLOGACAO** — a fonte não sustenta a afirmação, ou a conclusão é mais ampla que o
+  corpus examinado. Corrige-se o texto e reconfere-se **o trecho afetado e as afirmações que dele
+  dependem**. Não se refaz a auditoria do pacote.
+- **SANEAMENTO_DE_CUSTODIA** — obra de terceiro exposta além da fronteira de custódia (o que inclui
+  extrato extenso, tabela e figura, não só o PDF), ou pendência de direito. Saneia-se e declara-se o
+  novo estado. Não é rodada de auditoria de conteúdo.
+- **MANUTENCAO** — registro histórico divergente, contagem, identificador, índice, caminho, forma.
+  Corrige-se como manutenção documental, **sem nova rodada** e sem consumir auditor externo.
+
+Duas consequências que valem como regra:
+
+1. **Veredito de pacote não é veredito de achado.** Um pacote pode ter `NÃO APROVAR AINDA` por um
+   achado bloqueante e, ao mesmo tempo, ter os demais achados resolvidos por manutenção. Escrever
+   `FAIL` para todos apaga essa diferença e esconde o que importa.
+2. **A correção se confere no ponto, não no conjunto.** Depois de corrigir, confere-se a alteração e
+   as afirmações afetadas. Exigir pacote novo inteiro é burocracia: o auditor já leu o resto.
+
+As três garantias que o acervo precisa e às quais todo o resto serve: **a fonte sustenta a
+afirmação**; **direitos e custódia são respeitados**; **a homologação é decisão humana informada**.
+Instrumento que não serve a uma dessas três é cerimônia.
+
 ## Estados documentais
 
 Usar a taxonomia definida em `GOVERNANCA_DOCUMENTAL.md`. Estados canônicos: `recebido`, `identificacao-pendente`, `protegido-privado`, `duplicata-fonte-auxiliar`, `extracao-preliminar`, `em-revisao-documental`, `homologado-documentalmente`, `visao-autoral`, `historico`, `quarentena`, `retirado-da-publicacao`. Nenhum script pode homologar conteúdo automaticamente.
