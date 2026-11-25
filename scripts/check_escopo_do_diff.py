@@ -93,7 +93,9 @@ def main(argv=None):
     if a.json:
         print(json.dumps(resultado, ensure_ascii=False, indent=2))
     else:
-        print(f"BASE={a.base} REF={a.ref}")
+        print(f"BASE={a.base} BASE_SHA={base_sha[:12]} REF={a.ref}")
+        print("Nota: o escopo medido vale para esta base. Se a base andar, remeça antes de mergear — "
+              "PR medida contra uma main antiga acusa deleção de trabalho que já entrou.")
         print(f"TOTAL_NO_DIFF={total} DENTRO={resultado['dentro_do_escopo']} FORA={len(fora)}")
         for d in deles:
             print(f"  DELECAO {d['path']} — branch atrasada apaga trabalho alheio? confirme")
