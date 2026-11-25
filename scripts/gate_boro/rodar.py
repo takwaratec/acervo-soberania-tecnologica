@@ -369,7 +369,11 @@ def paginas_do_valor(mod, fonte_txt, valor, contexto=""):
         presentes = {normaliza(m.group(0)) for m in RE_NUM.finditer(txt)}
         if alvo not in presentes:
             continue
-        achadas.append((len(co & presentes), p))
+        # pagina de bibliografia/referencias nao e pagina de resultado: o numero ali e
+        # ano de obra citada, nao medida. Medido: p.13 de Kaminski e p.14 de Araujo.
+        cits = len(re.findall(r"\((?:19|20)\d{2}[a-z]?\)", txt))
+        penal = 5 if cits >= 8 else 0
+        achadas.append((len(co & presentes) - penal, p))
     achadas.sort(key=lambda x: (-x[0], x[1]))
     return [p for _, p in achadas]
 

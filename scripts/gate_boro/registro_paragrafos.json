@@ -163,9 +163,9 @@
  },
  "1. Em ratos, a dose mais baixa com efeito observável sobre o": {
   "secao": "7. O que a ciência diz — e o que ela não diz",
-  "total": 13,
-  "confere": 4,
-  "nao_medido": 9,
+  "total": 18,
+  "confere": 8,
+  "nao_medido": 10,
   "ausente": 0,
   "com_estatuto": 0,
   "veredito": "PARCIAL"
@@ -914,7 +914,7 @@
   "ausente": 0,
   "veredito": "SEM_AFIRMACAO_NUMERICA"
  },
- "> **Estatuto dos números deste bloco.** Toda a cadeia abaixo": {
+ "**Estatuto dos números deste bloco.** Toda a cadeia abaixo —": {
   "secao": "?",
   "total": 0,
   "confere": 0,

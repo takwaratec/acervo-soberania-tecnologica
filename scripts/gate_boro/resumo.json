@@ -1,9 +1,9 @@
 {
- "M": 287,
+ "M": 292,
  "contagem": {
-  "NAO_MEDIDO": 208,
+  "NAO_MEDIDO": 209,
   "DERIVACAO_DECLARADA": 6,
-  "CONFERE": 61,
+  "CONFERE": 65,
   "TABELA_COM_NOTA": 10,
   "RESUMO_DE_FONTE_NOMEADA": 2
  },
@@ -15,7 +15,7 @@
   "PARCIAL": 6,
   "SEM_AFIRMACAO_NUMERICA": 138
  },
- "N_conferidas": 61,
+ "N_conferidas": 65,
  "sem_citacao": 144,
  "fontes_lidas": [
   1,

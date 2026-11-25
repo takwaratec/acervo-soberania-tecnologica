@@ -321,22 +321,26 @@ em seis passos [1]:
 2. Para transformar dado de rato em limite humano, aplica-se um **fator de incerteza**.
    Aqui o fator é **60**, e ele não é um número mágico: decompõe-se em **10** (diferença
    entre espécies) × **6** (diferença entre pessoas).
-3. Esse 6, por sua vez, é **1,8 × 3,2**. O **1,8** vem da diferença de filtração
-   glomerular entre humanos e ratos (144 contra 80 mL/min) — um dado medido. O **3,2** é
-   **padrão**, aplicado por falta de dados [1].
+3. Esse 6, por sua vez, é **1,8 × 3,2**. O **1,8** é a parte **toxicocinética** da
+   diferença **entre pessoas** — dentro da mesma espécie, não entre espécies. A OMS o
+   calcula com dados de **mulheres grávidas**: a taxa de filtração glomerular média foi de
+   **144 ± 32 mL/min** no fim da gestação, e o valor duas unidades de desvio-padrão abaixo
+   dessa média, **80 mL/min**, cobre cerca de 95% da população. **144 ÷ 80 = 1,8.** Os dois
+   números são humanos; não é comparação entre humanos e ratos. O **3,2** é **padrão**,
+   aplicado à parte toxicodinâmica por falta de dados [1].
 4. Chega-se a uma **ingestão diária tolerável de 0,17 mg/kg/dia** — arredondada para
    0,2 [1].
 5. Aloca-se **40%** dessa dose à água de consumo, porque água não é a única fonte [1].
 6. Para um adulto de 60 kg que bebe 2 litros por dia, o resultado é **2,4 mg/L** [1].
 
-> > **Estatuto dos números deste bloco.** Toda a cadeia abaixo — BMDL₀₅, fator de incerteza,
+> **Estatuto dos números deste bloco.** Toda a cadeia abaixo — BMDL₀₅, fator de incerteza,
 > decomposição do fator, ingestão diária tolerável e diretriz de 2,4 mg/L — é **derivação da
 > mesma fonte já citada nesta seção, a OMS [1]**, e não dado novo. Os fatores 10, 6, 1,8 e
 > 3,2 estão na p. 22 do documento; a alocação de 40% que produz 2,4 mg/L, na mesma página.
 
 **O que "2,4 mg/L" quer dizer na prática:** é a concentração na água que, bebida
-> 2 litros por dia durante toda a vida, mantém a exposição abaixo do nível tolerável.
-> Não é a dose que faz mal. É a dose com margem de segurança embutida.
+2 litros por dia durante toda a vida, mantém a exposição abaixo do nível tolerável.
+Não é a dose que faz mal. É a dose com margem de segurança embutida.
 
 **E 2,4 mg/L não é um teto invariável.** A própria OMS diz que, em abastecimentos por
 **dessalinização** e em áreas onde o boro é naturalmente alto na geologia, as
@@ -1498,10 +1502,10 @@ homologação também.
 
 **O que foi efetivamente conferido — número, e não promessa.** A verificação numérica foi
 medida por gate próprio, afirmação por afirmação, com registro auditável arquivado ao lado
-do texto. O resultado: **61 das 287 afirmações numéricas do corpo foram conferidas** pelo
+do texto. O resultado: **65 das 292 afirmações numéricas do corpo foram conferidas** pelo
 instrumento contra a fonte custodiada. Outras **18 têm estatuto declarado** e não precisam de
 citação célula por célula: 10 em nota de tabela, 6 de cálculo aritmético e 2 de resumo de
-fonte já nomeada. **208 não foram medidas** — 126 porque a afirmação não traz citação nem
+fonte já nomeada. **209 não foram medidas** — 126 porque a afirmação não traz citação nem
 estatuto, 37 porque a unidade está fora do vocabulário do instrumento (ele não lê `mg/L`,
 `mg/m³` nem `mg B/kg/dia`), 25 porque a obra citada não tem arquivo custodiado nesta gaveta e
 12 porque a fonte custodiada é página de bloqueio.
