@@ -3,12 +3,12 @@
  "versao": "1.0.0",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "status": "ABERTO",
- "gerado_utc": "2026-11-25T02:21:57+00:00",
+ "gerado_utc": "2026-11-25T02:27:23+00:00",
  "tipo": "CONTEUDO",
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "2b9e2f41b5c5e97bfd385613bd41c63e3b6ada4e",
+ "alvo_commit": "f64ea849fc25cdf061584b0218f856f075de3750",
  "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 11 fichas, fontes). Todos os sha256 de fontes[] foram lidos do próprio commit, com `git show <alvo>:<path>`.",
  "aviso_de_leitura": {
   "repositorio": "takwaratec/acervo-soberania-tecnologica",
@@ -107,20 +107,20 @@
  "fontes": [
   {
    "path": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
-   "sha256": "1153d6869ab005d930239d3897cdabff507b519b420e86fe5726914ff8e3c7ed",
-   "bytes": 97679,
+   "sha256": "cc3b6a1a32bc157c0534d1aa2d25bb38bf1eb40112bbce60586b4ff4aed8b59f",
+   "bytes": 97730,
    "papel": "manuscrito único, com as 14 referências"
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
    "papel": "peça corrida — texto integral, bibliografia comentada e as 6 fichas anexadas",
-   "sha256": "af4f088393bd7eac17e82375336f1304c9647f9e2c2167c5ae22b3f2b740baa9",
-   "bytes": 214700
+   "sha256": "77c8d6957a7c542a2f8dead1fb3cf0bb8a031f2c81bdafa258ed9f9cd17063de",
+   "bytes": 214764
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu.html",
-   "sha256": "3d2a1c81dc84e59b31eba2b1a85e810a5b2a933dd8d46b0de3366936040b437f",
-   "bytes": 220917,
+   "sha256": "9f8bce4e91a42f34d41ef1ca9749430ec8c157b4ff18fbda9e52d7c6f7dcbaa4",
+   "bytes": 220981,
    "papel": "peça de leitura, 18 abas"
   },
   {
@@ -350,5 +350,6 @@
    }
   ]
  },
- "total_fontes": 28
+ "total_fontes": 28,
+ "como_ler": "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo carrega o alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: aquele é o da rodada anterior. A entrada é o ponteiro em ops/command-center/auditoria-atual/COBRE.json."
 }
