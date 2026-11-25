@@ -3,13 +3,13 @@
  "versao": "1.0.0",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "status": "ABERTO",
- "gerado_utc": "2026-11-24T21:40:00+00:00",
+ "gerado_utc": "2026-11-25T00:58:44+00:00",
  "tipo": "CONTEUDO",
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "0278bfa5f75544328fcccb3f3cb6de38233fa35f",
- "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, fichas, fontes). O manifesto em si é publicado num commit POSTERIOR — um arquivo não pode conter o hash do commit que o publica.",
+ "alvo_commit": "c4f4adba43a140ebd0d41f1eb49da2299b909781",
+ "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 11 fichas, fontes). Todos os sha256 de fontes[] foram lidos do próprio commit, com `git show <alvo>:<path>`.",
  "aviso_de_leitura": {
   "repositorio": "takwaratec/acervo-soberania-tecnologica",
   "visibilidade": "PUBLIC",
@@ -27,13 +27,13 @@
   "resultados_de_pesquisa": "docs/analyses/cobre/04..07-resultados-*.md"
  },
  "estado_declarado": {
-  "fichas": "homologado-internamente (autoridade FABIO, 2026-11-24)",
-  "artigo": "em-revisao-documental",
+  "fichas": "12 fichas, todas homologado-internamente, autoridade FABIO, reversíveis",
+  "artigo": "peça corrida (molde do boro, 13 seções), peça em abas e manuscrito único de ponta a ponta com 21 referências ABNT comentadas",
   "homologacao_automatica": false,
   "o_que_a_homologacao_interna_NAO_e": "Não é homologação científica por par, não é homologação regulatória e não substitui esta auditoria. Se você apontar furo material, o estado reverte para ficha-em-revisao.",
   "tese_declarada_fora_da_pergunta": "A frente afirma que o ponto crítico do tratamento com sulfato de cobre é o resíduo (solução exaurida), não a eficácia do produto. Esta é uma TESE, declarada aqui para não contaminar as perguntas abaixo."
  },
- "pergunta": "As afirmações do artigo e das 6 fichas são fielmente sustentadas pelas fontes custodiadas e publicadas no repositório, e as 14 referências bibliográficas apontam para fontes que existem e dizem o que o texto lhes atribui?",
+ "pergunta": "As afirmações do artigo e das 11 fichas são fielmente sustentadas pelas 21 fontes custodiadas neste repositório, e o que não está medido está declarado como tal?",
  "fora_de_escopo": [
   "runtime, ledger, claims e código do sistema R4 — nada disso é objeto desta rodada",
   "homologação científica das fichas — a homologação é interna e o ato é do soberano",
@@ -88,31 +88,45 @@
    "pergunta": "A peça corrida (o-cobre-no-bambu-corrido.html) diz o mesmo que o manuscrito .md — mesmo texto, mesmas 14 referências, mesmos números — e as 6 fichas anexadas são as mesmas publicadas em docs/analyses/cobre/fichas/?",
    "arquivo": "o-cobre-no-bambu-corrido.html × 00-artigo-o-cobre-explicado-do-zero.md × fichas/",
    "criterio": "Divergência de texto ou de número entre as duas peças é furo; ficha anexada que não corresponde ao arquivo publicado é furo."
+  },
+  {
+   "id": "Q9",
+   "pergunta": "O capítulo 9 afirma que a norma federal de preservação de madeira (PI 292/89) existe, nomeia o Ibama como fiscalizador (art. 20) e NÃO trata da destinação final do resíduo. Isso é sustentado pelo texto integral da Portaria, e a palavra «resíduo» está de fato ausente dela?",
+   "arquivo": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
+   "ancora": "seção 9 — A norma existe — e ela não chega ao quintal",
+   "fonte": "docs/analyses/cobre/fontes/s11c/1989_pi292_preservativos_registro.pdf"
+  },
+  {
+   "id": "Q10",
+   "pergunta": "A distinção «a madeira tem norma que não se cumpre; o bambu não tem norma a cumprir» é sustentada pelas fontes custodiadas, e o capítulo declara explicitamente que não há caso brasileiro documentado de intoxicação por queimar madeira tratada em fogão doméstico?",
+   "arquivo": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
+   "ancora": "seção 9 — «O que não se mediu — e por que isso é resultado»",
+   "fonte": "docs/analyses/cobre/fontes/s11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.pdf"
   }
  ],
  "fontes": [
   {
    "path": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
-   "sha256": "6868faa537329ecba5bf58a4123254f5a5090c5cb18e265bcd456ec6da8fb103",
-   "bytes": 68588,
+   "sha256": "1a13eb7937b73cb79a89b9b6af3b61bbf744c3ef23281ce39ebeb5750e51f60f",
+   "bytes": 95695,
    "papel": "manuscrito único, com as 14 referências"
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
    "papel": "peça corrida — texto integral, bibliografia comentada e as 6 fichas anexadas",
-   "sha256": "cf5647218bc0f06417fc296b14da1fdfcbf069468568f16c86ab95c39af023e5",
-   "bytes": 148247
+   "sha256": "37281d55c43b97e3c816f35266fb4f1e907e265cf66917e166f94b0ed5d1300c",
+   "bytes": 213315
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu.html",
-   "sha256": "51dc87779194df556d2d79048612be4f654e63b1cc967ccec37ee03b9da13d73",
-   "bytes": 152107,
+   "sha256": "24a5b92434359d57bb5d75f15850db7279d3ce54817984dfbae5bab2a89b6900",
+   "bytes": 186190,
    "papel": "peça de leitura, 18 abas"
   },
   {
    "path": "docs/analyses/cobre/fichas/MANIFEST_FICHAS_PUBLICADAS.json",
-   "sha256": "018dee3ab22c7fbf7dc2bd9eb13e71ba0c98c651a0ba0d906cb7b3edabe8997c",
-   "bytes": 2857,
+   "sha256": "3eb5baf40681dd17329df6045bc6345a9880b26c7c2f7e27e50ce6d1efe3898b",
+   "bytes": 5210,
    "papel": "6 fichas — hash de origem e publicado"
   },
   {
@@ -192,6 +206,72 @@
    "sha256": "5c6ff1a2e06ea5458d4f63980409970ac4b7e463a65cc1be3127b2c361a8ba7b",
    "bytes": 4849,
    "papel": "ficha 6"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-pi292-89-registro-preservativos-madeira.md",
+   "sha256": "86a6a7cba1f3b83ab2398aa11fa8317ffad07c52d1677a6ebdeaf6bdddb95cdd",
+   "bytes": 6223,
+   "papel": "ficha 7 — a norma-mãe: registro obrigatório e art. 20 (competência de fiscalização)"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-pn151-97-ibama-risco-ambiental.md",
+   "sha256": "d4befffc1400104b3e07a34f224947608875ab3a3795b4394aaf60f72640a345",
+   "bytes": 5657,
+   "papel": "ficha 8 — o registro condicionado à determinação do risco ambiental"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-iema-es-nt01-2023-preservacao-madeira.md",
+   "sha256": "c4535c350b7cad1ae16ad0175091f03bdf3633bd636dcb9ee90f7b4f5a532b97",
+   "bytes": 7662,
+   "papel": "ficha 9 — o regulador do ES: «não há proibição no Brasil» e a falta de dados do CCB"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md",
+   "sha256": "ddde9cd66b2b17eee8e68fb568f9b64fc3d50b4a30cbce7b6d66df85a3a0ee6a",
+   "bytes": 5551,
+   "papel": "ficha 10 — a própria cadeia: resíduo tratado não pode queima em fogão nem a céu aberto"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md",
+   "sha256": "c875842974014fce7fb3ccadb765afcdece71751d45a673f6f32701c57a9915c",
+   "bytes": 5963,
+   "papel": "ficha 11 — 880 dias de campo: As na madeira −55,0%, no solo +129,2%"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11c/1989_pi292_preservativos_registro.pdf",
+   "sha256": "a7d085cd9bd0bdd85d17a72ccc4c2bf17bdf18c7858b4b1ffb8bfc1c2cbd23cb",
+   "bytes": 103925,
+   "papel": "ref 17 — Portaria Interministerial 292/89, texto integral (4 p.)"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11c/1997_pn151_ibama_registro_risco_ambiental.pdf",
+   "sha256": "372e9324d178cb9442ced3d5b9f5cc0f04b799d0362810035d9c616d56bea20a",
+   "bytes": 229412,
+   "papel": "ref 18 — Portaria Normativa Ibama 151/97 (DOU, OCR degradado)"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11c/2023_iema_es_nt01_preservacao_madeira.pdf",
+   "sha256": "57576709749df7d43d5293080aa8ea160ef5a66df922abbf46dd0770151f4c22",
+   "bytes": 1258007,
+   "papel": "ref 19 — NT 01/2023 do Iema-ES (36 p.)"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.pdf",
+   "sha256": "ec643f7b088711aa4a815d7a4efd78df8a2a57ab01f7e9d6470dbcec97b9de2e",
+   "bytes": 1922145,
+   "papel": "ref 20 — ABPM/FG4mad, destinação de resíduo de madeira tratada (21 p.)"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11c/2025_ufsm_ciencia_florestal_cca_moiroes_solo.pdf",
+   "sha256": "e8a6467d6f1b286da71ffc0d91b75211b1efa9df0879793047a291764cae9f7a",
+   "bytes": 1116265,
+   "papel": "ref 21 — Ciência Florestal v.35 e86024 (16 p.)"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11c/MANIFEST_FONTES_S11C.json",
+   "sha256": "0da8353d0eb0de073ce1489306df95d7a0a2b2425842e2503db0aee8e6ec9513",
+   "bytes": 5363,
+   "papel": "manifesto da custódia S11-c, com as duas pendências declaradas"
   }
  ],
  "criterios": {
@@ -270,5 +350,5 @@
    }
   ]
  },
- "total_fontes": 17
+ "total_fontes": 28
 }
