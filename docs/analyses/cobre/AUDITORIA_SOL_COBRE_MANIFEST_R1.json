@@ -3,12 +3,12 @@
  "versao": "1.0.0",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "status": "ABERTO",
- "gerado_utc": "2026-11-25T01:00:48+00:00",
+ "gerado_utc": "2026-11-25T01:02:17+00:00",
  "tipo": "CONTEUDO",
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "06a38348e8b8eb00ca129d5fc067f6938ae053b9",
+ "alvo_commit": "28721090e3181733c22e679fe0942b7ac85349ec",
  "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 11 fichas, fontes). Todos os sha256 de fontes[] foram lidos do próprio commit, com `git show <alvo>:<path>`.",
  "aviso_de_leitura": {
   "repositorio": "takwaratec/acervo-soberania-tecnologica",
@@ -107,8 +107,8 @@
  "fontes": [
   {
    "path": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
-   "sha256": "1a13eb7937b73cb79a89b9b6af3b61bbf744c3ef23281ce39ebeb5750e51f60f",
-   "bytes": 95695,
+   "sha256": "722bd3226d7585d6e5d77e1f34ae2dae4b8c483824c4a9411b8c19f2548b1ce6",
+   "bytes": 96469,
    "papel": "manuscrito único, com as 14 referências"
   },
   {
