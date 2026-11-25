@@ -24,6 +24,7 @@ tipo_documental: ficha-cientifica
 responsavel_curadoria: Fabio F. Resck
 identificador: "sem-doi-registrado"
 ---
+
 > **Estado: em revisão documental.** Homologação interna declarada em 2026-11-24
 > (autoridade: FABIO) — declaração do ato, não registro de leitura. Homologação
 > documental para publicação: pendente. O pacote não anexa registro de leitura integral
@@ -168,4 +169,4 @@ o texto da fonte, estruturar a ficha, conferir citações contra o documento ori
 cálculos e apoiar a redação. **A seleção das fontes, o julgamento sobre o que a fonte autoriza
 afirmar e a responsabilidade pela versão publicada permanecem com o curador.**
 
-**Estado:** em revisão documental. Não homologada para publicação.
+**Estado:** ficha em revisão documental. Não homologada.

@@ -9,7 +9,7 @@ import json
 import os
 import shutil
 
-REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
+REPO = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
 ORIG = f"{REPO}/_privado/fontes-documentais/ago_28_Madeira_Tratada_S11d"
 DEST = f"{REPO}/docs/analyses/cobre/fontes/s11d"
 

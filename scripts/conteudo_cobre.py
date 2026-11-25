@@ -155,8 +155,8 @@ Se você junta átomos numa proporção fixa, as massas se somam como ingredient
 
 <h3>A confusão número um: o pó azul não é o metal</h3>
 
-<p>Aqui está o erro que <strong>muda a dose por um fator de quase quatro</strong>, e que quase todo texto
-informal comete.</p>
+<p>Aqui está o erro que <strong>muda a dose por um fator de quase quatro</strong> — e que aparece nas
+receitas informais que esta frente leu. Não medi frequência em texto nenhum; digo onde eu vi.</p>
 
 <p>O cobre, sozinho, não é o que se compra na loja. Na prática ele aparece <strong>combinado com outros
 átomos</strong>, formando substâncias diferentes. Uma substância feita de dois ou mais elementos ligados
@@ -265,8 +265,9 @@ e a receita informal não pede pureza nenhuma.</p>
 <strong>9,3 toneladas em 2020</strong> — uma queda de <strong>86%</strong> — com repiques em 2022 e 2024.</p>
 
 <p><strong>A conclusão que o dado sustenta:</strong> a escala brasileira desse produto é modesta e oscilante,
-e o preço é baixo. <strong>Não existe pressão econômica para economizar nem na compra nem no descarte.</strong>
-A barreira não é dinheiro.</p>
+e o preço é baixo. <strong>O preço do produto não é o que inibe o descarte correto</strong> — isso o
+dado mostra. O que ele <strong>não</strong> mede é o custo de dar destino ao resíduo: sobre esse, este
+número não diz nada. Se a barreira é dinheiro, não é o preço da compra que a cria.</p>
 
 <p><strong>A conclusão que o dado NÃO sustenta:</strong> dizer que o Brasil &quot;usa muito&quot; ou
 &quot;usa pouco&quot; sulfato de cobre em bambu. A importação é do país inteiro, somando agricultura,
@@ -277,8 +278,9 @@ indústria, laboratório e tratamento de madeira. <strong>Quanto disso vai para 
 <h3>Resumo do capítulo</h3>
 <p><strong>Estabelecido:</strong> 177,9 t e US$ 370 mil em 2025; China com 80,4% do peso e 48,3% do valor;
 dispersão de preço de 119× dentro do mesmo código; queda de 86% entre 1997 e 2020; preço médio baixo.</p>
-<p><strong>Interpretação:</strong> a dispersão de preço sugere graus de pureza diferentes sob o mesmo código;
-o preço baixo significa que a barreira ao descarte correto não é econômica.</p>
+<p><strong>Interpretação:</strong> a dispersão de preço sugere graus de pureza diferentes sob o mesmo código.
+O preço baixo do produto diz que comprar não desestimula; sobre o custo de <em>destinar</em> o resíduo,
+estes dados não falam — e é por isso que eles não provam que dinheiro não seja barreira.</p>
 <p><strong>Desconhecido:</strong> quanto do volume importado vai para tratamento de bambu; e qual grau de
 pureza está no produto que o usuário doméstico compra.</p>
 
@@ -834,7 +836,7 @@ e a norma que exigiria a bula é a mesma que dispensa de registro o produto de u
 <li>quando a concentração cai abaixo do que funciona.</li>
 </ul>
 
-{bq("<strong>É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto que quem trata em casa não tem.</strong>")}
+{bq("<strong>É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto registrado, que é justamente o que quem trata em casa não tem: nem registro, nem a bula que o registro exigiria.</strong>")}
 
 <h3>A lei já resolveu isso — e quase ninguém sabe</h3>
 
@@ -1109,8 +1111,9 @@ declaração sobre a minha busca, não sobre a existência.</p>
 fungicida agrícola, não como preservativo de bambu;</li>
 <li>a <strong>ANVISA</strong> responde pelo produto saneante e pela água de consumo — não pelo
 resíduo do processo;</li>
-<li>o <strong>ICMBio</strong> responde por unidade de conservação — e <strong>é aí que está o risco
-real</strong>, porque é justamente nessas áreas que a construção com bambu encontra mercado;</li>
+<li>o <strong>ICMBio</strong> responde por unidade de conservação — é o órgão a quem a competência
+foi atribuída. Se isso é onde está o risco real, eu não medi: não tenho dado de exposição nem de
+probabilidade dentro dessas áreas;</li>
 <li>o <strong>município</strong> responde pelo resíduo domiciliar,{cit("pnrs2010")} mas não tem
 como caracterizar apara de bambu tratado como perigosa sem a classificação da ABNT.</li>
 </ul>
@@ -1428,12 +1431,14 @@ escrito, e tem <em>onde</em> estar escrito.</p>
 <p>Para o <strong>bambu</strong>, essa estrutura não existe: não há registro de preservativo para
 bambu, não há usina licenciada de tratamento, e não localizei <em>classificação publicada</em> para o
 resíduo do banho. O tratamento é feito em tonel, no quintal, por quem aprendeu numa apostila. E, sem
-produto registrado, <strong>não há bula</strong> — não há o documento em que a instrução de descarte
-deveria estar escrita.</p>
+produto registrado, <strong>não localizei bula</strong> — não encontrei o documento em que a instrução
+de descarte estaria escrita. Se existe bula para produto dispensado de registro, eu não fechei essa
+pergunta, e nenhum dos sete documentos a responde. É ausência de busca minha, declarada, não
+inexistência provada.</p>
 
 <p>É por isso que a diferença entre a madeira e o bambu, aqui, não é de rigor de quem trata: é de
 <strong>onde a regra consegue pousar</strong>. Na madeira, ela pousa num rótulo que existe, mesmo
-que ninguém o leia. No bambu, ela não tem onde pousar.</p>
+que ninguém o leia. No bambu, ela não tem — nos documentos que eu li — onde pousar.</p>
 
 <p>E aqui é preciso evitar o salto que eu mesmo já dei: <strong>não</strong> quer dizer que o resíduo
 do bambu esteja fora da lei. A Política Nacional de Resíduos Sólidos vale para qualquer resíduo
@@ -1746,7 +1751,11 @@ não apagadas.</p>
  "custódias normativas, os <strong>38</strong> blocos citados retornam verbatim no extrato "
  "(portão de fidelidade, saída 0). Integridade dos arquivos: <strong>hash SHA-256 em manifesto</strong>. "
  "E as declarações de &quot;não sei&quot; foram mantidas como declarações, sem virar afirmação no meio "
- "do texto.")}
+ "do texto. <strong>Limite da custódia, declarado:</strong> os PDFs das fontes saíram do repositório "
+ "por regra do CI e vivem em custódia privada, com caminho e sha256 registrados em manifesto. Quem "
+ "recebe o arquivo confere o byte; quem não recebe só confere a identidade. Isso é <strong>custódia "
+ "parcial</strong> — a fonte não é reproduzível por quem não tem o PDF, e este texto não finge o "
+ "contrário.")}
 
 <h3>Estado deste documento</h3>
 

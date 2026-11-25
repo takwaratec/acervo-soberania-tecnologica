@@ -22,8 +22,15 @@ homologacao_automatica: false
 publicacao: docs/analyses/cobre/fichas/
 tipo_documental: ficha-cientifica
 responsavel_curadoria: Fabio F. Resck
-doi: "10.5902/1980509886024"
+identificador: "10.5902/1980509886024"
 ---
+
+> **Estado: em revisão documental.** Homologação interna declarada em 2026-11-24
+> (autoridade: FABIO) — declaração do ato, não registro de leitura. Homologação
+> documental para publicação: pendente. O pacote não anexa registro de leitura integral
+> do HTML nem parecer de auditoria externa. Furo material apontado pelo auditor externo
+> é corrigido e publicado na rodada seguinte.
+
 > **Estado: em revisão documental.** Homologação interna declarada em 2026-11-24
 > (autoridade: FABIO) — declaração do ato, não registro de leitura. Homologação
 > documental para publicação: pendente. O pacote não anexa registro de leitura integral
@@ -72,7 +79,9 @@ descreve: o preservativo não fica na peça, ele migra.
 
 - **−55,0% na madeira:** em pouco menos de dois anos e meio de campo, o moirão perdeu mais da
   metade do arsênio que tinha.
-- **+129,2% no solo:** o que saiu da madeira foi para o solo em volta. Mais que dobrou.
+- **+129,2% de arsênio no solo:** mais que dobrou. Só o arsênio subiu — cobre caiu 17% e cromo
+  caiu 30% no mesmo solo. O que saiu da madeira e ficou no solo, medido aqui, é o arsênio; para os
+  outros dois, o movimento foi o contrário.
 - **32,3% acima do limite:** o solo ficou acima do **valor máximo de investigação** que a
   Resolução CONAMA 420/2009 fixa para área agrícola — ou seja, acima do ponto em que a norma
   manda investigar se há risco.
@@ -101,7 +110,8 @@ migrar antes de a peça virar resíduo.
 - **com o certificado do Tanalith (Ibama, 2024):** o CCA-C registrado no Brasil é o mesmo tipo C
   usado nos moirões.
 - **com a NT 01/2023 do Iema-ES:** o órgão manda monitorar solo e água subterrânea na usina
-  licenciada — este artigo mostra por que. E mostra que, fora da usina, ninguém monitora.
+  licenciada. Fora dela, nenhum dos sete documentos atribui a alguém esse monitoramento — é
+  ausência na norma que eu li, não prova de que ninguém monitore em campo.
 - **com a CONAMA 420/2009:** é o parâmetro que dá sentido ao "32,3% acima".
 - **com a peça do cobre:** é a fonte que sustenta a frase sobre lixiviação para o subsolo sem
   precisar de adjetivo. O número fala.

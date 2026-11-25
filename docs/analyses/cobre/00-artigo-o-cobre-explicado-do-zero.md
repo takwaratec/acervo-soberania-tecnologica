@@ -4,6 +4,7 @@ gaveta: cobre
 frente: COBRE
 titulo: "O cobre, explicado do zero"
 subtitulo: "Um metal comum, uma solução azul e a pergunta que quase ninguém faz: para onde vai a água do tratamento"
+tipo_documental: ensaio-tecnico
 estado_documental: em-revisao-documental
 homologacao_automatica: false
 versao: 3
@@ -15,8 +16,8 @@ camada: "B — adaptacao publica em linguagem nao especializada"
 peca_html: "o-cobre-no-bambu.html (gerada de scripts/conteudo_cobre.py)"
 fichas: "docs/analyses/cobre/fichas/ (11 fichas)"
 referencias: "21 entradas, numeradas — ver secao Referencias"
-tipo_documental: ensaio-tecnico
 ---
+
 # O cobre, explicado do zero
 
 ## Um metal comum, uma solução azul e a pergunta que quase ninguém faz: para onde vai a água do tratamento
@@ -114,8 +115,8 @@ Se você junta átomos numa proporção fixa, as massas se somam como ingredient
 
 ### A confusão número um: o pó azul não é o metal
 
-Aqui está o erro que **muda a dose por um fator de quase quatro**, e que quase todo texto
-informal comete.
+Aqui está o erro que **muda a dose por um fator de quase quatro** — e que aparece nas
+receitas informais que esta frente leu. Não medi frequência em texto nenhum; digo onde eu vi.
 
 O cobre, sozinho, não é o que se compra na loja. Na prática ele aparece **combinado com outros
 átomos**, formando substâncias diferentes. Uma substância feita de dois ou mais elementos ligados
@@ -222,8 +223,9 @@ Somando a série desde 1997, o volume importado caiu de **1.279 toneladas** para
 **9,3 toneladas em 2020** — uma queda de **86%** — com repiques em 2022 e 2024.
 
 **A conclusão que o dado sustenta:** a escala brasileira desse produto é modesta e oscilante,
-e o preço é baixo. **Não existe pressão econômica para economizar nem na compra nem no descarte.**
-A barreira não é dinheiro.
+e o preço é baixo. **O preço do produto não é o que inibe o descarte correto** — isso o
+dado mostra. O que ele **não** mede é o custo de dar destino ao resíduo: sobre esse, este
+número não diz nada. Se a barreira é dinheiro, não é o preço da compra que a cria.
 
 **A conclusão que o dado NÃO sustenta:** dizer que o Brasil "usa muito" ou
 "usa pouco" sulfato de cobre em bambu. A importação é do país inteiro, somando agricultura,
@@ -235,8 +237,9 @@ indústria, laboratório e tratamento de madeira. **Quanto disso vai para bambu,
 
 **Estabelecido:** 177,9 t e US$ 370 mil em 2025; China com 80,4% do peso e 48,3% do valor;
 dispersão de preço de 119× dentro do mesmo código; queda de 86% entre 1997 e 2020; preço médio baixo.
-**Interpretação:** a dispersão de preço sugere graus de pureza diferentes sob o mesmo código;
-o preço baixo significa que a barreira ao descarte correto não é econômica.
+**Interpretação:** a dispersão de preço sugere graus de pureza diferentes sob o mesmo código.
+O preço baixo do produto diz que comprar não desestimula; sobre o custo de *destinar* o resíduo,
+estes dados não falam — e é por isso que eles não provam que dinheiro não seja barreira.
 **Desconhecido:** quanto do volume importado vai para tratamento de bambu; e qual grau de
 pureza está no produto que o usuário doméstico compra.
 
@@ -746,7 +749,7 @@ E o reuso acaba:
 - quando o banho satura e perde força;
 - quando a concentração cai abaixo do que funciona.
 
-> É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto que quem trata em casa não tem.
+> É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto registrado, que é justamente o que quem trata em casa não tem: nem registro, nem a bula que o registro exigiria.
 
 ### A lei já resolveu isso — e quase ninguém sabe
 
@@ -997,8 +1000,9 @@ declaração sobre a minha busca, não sobre a existência.
 fungicida agrícola, não como preservativo de bambu;
 - a **ANVISA** responde pelo produto saneante e pela água de consumo — não pelo
 resíduo do processo;
-- o **ICMBio** responde por unidade de conservação — e **é aí que está o risco
-real**, porque é justamente nessas áreas que a construção com bambu encontra mercado;
+- o **ICMBio** responde por unidade de conservação — é o órgão a quem a competência
+foi atribuída. Se isso é onde está o risco real, eu não medi: não tenho dado de exposição nem de
+probabilidade dentro dessas áreas;
 - o **município** responde pelo resíduo domiciliar,[12] mas não tem
 como caracterizar apara de bambu tratado como perigosa sem a classificação da ABNT.
 
@@ -1295,12 +1299,14 @@ escrito, e tem *onde* estar escrito.
 Para o **bambu**, essa estrutura não existe: não há registro de preservativo para
 bambu, não há usina licenciada de tratamento, e não localizei *classificação publicada* para o
 resíduo do banho. O tratamento é feito em tonel, no quintal, por quem aprendeu numa apostila. E, sem
-produto registrado, **não há bula** — não há o documento em que a instrução de descarte
-deveria estar escrita.
+produto registrado, **não localizei bula** — não encontrei o documento em que a instrução
+de descarte estaria escrita. Se existe bula para produto dispensado de registro, eu não fechei essa
+pergunta, e nenhum dos sete documentos a responde. É ausência de busca minha, declarada, não
+inexistência provada.
 
 É por isso que a diferença entre a madeira e o bambu, aqui, não é de rigor de quem trata: é de
 **onde a regra consegue pousar**. Na madeira, ela pousa num rótulo que existe, mesmo
-que ninguém o leia. No bambu, ela não tem onde pousar.
+que ninguém o leia. No bambu, ela não tem — nos documentos que eu li — onde pousar.
 
 E aqui é preciso evitar o salto que eu mesmo já dei: **não** quer dizer que o resíduo
 do bambu esteja fora da lei. A Política Nacional de Resíduos Sólidos vale para qualquer resíduo
@@ -1510,7 +1516,7 @@ registrado uma a uma. Três reprovaram, e cada reprovação produziu correção 
 do erro que **favorecia a tese do próprio material**. As correções estão registradas no acervo,
 não apagadas.
 
-> **O que as auditorias mediram — e o que não mediram** — Elas julgaram conteúdo, rodada a rodada: se cada afirmação tinha esteio no documento custodiado. Não fizeram um diff palavra por palavra das citações deste artigo. A medição de literalidade que existe é limitada, está registrada ao lado do texto e vai com o denominador contado antes: dos 49 blocos de citação do manuscrito, 5 retornam palavra por palavra no extrato custodiado e 2 são traduções — nelas, literalidade não é o instrumento aplicável. Os outros 42 não foram conferidos por esse método e ficam declarados como não medidos. À parte disso, nas 6 fichas das custódias normativas, os 38 blocos citados retornam verbatim no extrato (portão de fidelidade, saída 0). Integridade dos arquivos: hash SHA-256 em manifesto. E as declarações de "não sei" foram mantidas como declarações, sem virar afirmação no meio do texto.
+> **O que as auditorias mediram — e o que não mediram** — Elas julgaram conteúdo, rodada a rodada: se cada afirmação tinha esteio no documento custodiado. Não fizeram um diff palavra por palavra das citações deste artigo. A medição de literalidade que existe é limitada, está registrada ao lado do texto e vai com o denominador contado antes: dos 49 blocos de citação do manuscrito, 5 retornam palavra por palavra no extrato custodiado e 2 são traduções — nelas, literalidade não é o instrumento aplicável. Os outros 42 não foram conferidos por esse método e ficam declarados como não medidos. À parte disso, nas 6 fichas das custódias normativas, os 38 blocos citados retornam verbatim no extrato (portão de fidelidade, saída 0). Integridade dos arquivos: hash SHA-256 em manifesto. E as declarações de "não sei" foram mantidas como declarações, sem virar afirmação no meio do texto. Limite da custódia, declarado: os PDFs das fontes saíram do repositório por regra do CI e vivem em custódia privada, com caminho e sha256 registrados em manifesto. Quem recebe o arquivo confere o byte; quem não recebe só confere a identidade. Isso é custódia parcial — a fonte não é reproduzível por quem não tem o PDF, e este texto não finge o contrário.
 
 ### Estado deste documento
 

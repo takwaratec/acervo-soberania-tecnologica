@@ -18,7 +18,7 @@ import conteudo_cobre as C
 import referencias_cobre as R
 from conteudo_cobre import tabela
 
-REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
+REPO = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
 _AQUI = os.path.dirname(os.path.abspath(__file__))
 CSS_PATH = os.path.join(_AQUI, "molde", "molde.css")
 JS_PATH = os.path.join(_AQUI, "molde", "molde.js")

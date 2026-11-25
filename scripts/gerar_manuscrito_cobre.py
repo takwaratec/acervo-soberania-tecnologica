@@ -25,7 +25,7 @@ def _md(s):
     s = re.sub(r"<[^>]+>", "", s)
     return _h.unescape(s)
 
-REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
+REPO = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
 SAIDA = f"{REPO}/docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md"
 
 
@@ -134,6 +134,7 @@ gaveta: cobre
 frente: COBRE
 titulo: "O cobre, explicado do zero"
 subtitulo: "Um metal comum, uma solução azul e a pergunta que quase ninguém faz: para onde vai a água do tratamento"
+tipo_documental: ensaio-tecnico
 estado_documental: em-revisao-documental
 homologacao_automatica: false
 versao: 3

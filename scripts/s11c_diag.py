@@ -2,7 +2,7 @@ import difflib
 import os
 import re
 
-RAIZ = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
+RAIZ = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
 FICHAS = f"{RAIZ}/_privado/fichas/ago_28_Madeira_Tratada_S11c"
 FONTES = f"{RAIZ}/_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c"
 

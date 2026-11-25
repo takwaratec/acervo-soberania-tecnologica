@@ -22,7 +22,7 @@ import conteudo_cobre as C
 import referencias_cobre as R
 import resumos_fontes_cobre as RS
 
-REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
+REPO = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
 SAIDA = f"{REPO}/docs/analyses/cobre/o-cobre-no-bambu-corrido.html"
 CSS_MOLDE = f"{_AQUI}/molde/molde.css"
 CSS_CORRIDO = f"{_AQUI}/molde/molde-corrido.css"
@@ -279,7 +279,7 @@ def montar():
 {refs_html}
 
 <section id="anexos">
-<div class="anexo-intro"><strong>Anexos — fichas técnicas na íntegra.</strong> Cada obra citada tem ficha própria com dados gerais, conteúdo medido, avaliação crítica e limites declarados. Texto integral, sem resumo. Todas em <code>homologado-internamente</code>, pendentes de auditoria externa.</div>
+<div class="anexo-intro"><strong>Anexos — fichas técnicas na íntegra.</strong> Cada obra citada tem ficha própria com dados gerais, conteúdo medido, avaliação crítica e limites declarados. Texto integral, sem resumo. Todas em <code>em-revisao-documental</code> — homologação interna é ato declarado, não leitura medida — e pendentes de auditoria externa.</div>
 <nav class="toc" aria-label="Índice das fichas"><h2>{len(FICHAS)} fichas desta gaveta</h2><ol>
 {chr(10).join(indices)}
 </ol></nav>
@@ -288,7 +288,7 @@ def montar():
 </main>
 <footer class="rodape">
 <p><strong>Sobre este documento.</strong> Texto integral e corrido, sem abas — o mesmo conteúdo do manuscrito <code>docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md</code>, com as {len(FICHAS)} fichas de <code>docs/analyses/cobre/fichas/</code> anexadas ao final. A versão em abas, para leitura por capítulo, está em <code>o-cobre-no-bambu.html</code>.</p>
-<p>Estado <code>homologado-internamente</code> (autoridade FABIO, 2026-11-24), auditoria externa pendente; homologação automática desativada. Cinco rodadas de auditoria independente na frente, com três reprovações e correção material em cada uma. Redação com assistência de agente de IA sob curadoria humana declarada.</p>
+<p>Estado <code>em-revisao-documental</code>: a homologação interna de 2026-11-24 é ato declarado do soberano, não leitura medida; auditoria externa pendente e homologação automática desativada. Cinco rodadas de auditoria independente na frente, com três reprovações e correção material em cada uma. Redação com assistência de agente de IA sob curadoria humana declarada.</p>
 </footer></body></html>
 """
     open(SAIDA, "w", encoding="utf-8").write(doc)
@@ -348,11 +348,12 @@ def validar(doc, palavras, nsecoes):
         falhas.append("índice das fichas")
     print(f" 7. fichas no índice           {len(ids_f)-len(faltam_idx)}/{len(ids_f)}")
 
-    # estado homologado nas fichas
-    homol = len(re.findall(r"homologado-internamente", doc))
-    if homol < len(FICHAS):
+    # estado honesto nas fichas: o texto não pode afirmar homologação que não foi medida
+    homol = len(re.findall(r"em revisão documental", doc))
+    velho = len(re.findall(r"homologado-internamente|homologada internamente", doc))
+    if homol < len(FICHAS) or velho:
         falhas.append("estado das fichas")
-    print(f" 8. estado homologado          {homol} ocorrências")
+    print(f" 8. estado em revisão          {homol} ocorrências (afirmação de homologação: {velho})")
 
     # bibliografia com resumo
     resumos = len(re.findall(r'<p class="ref" id="ref-\d+">.*?class=.resumo.', doc, re.S))

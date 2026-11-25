@@ -5,7 +5,7 @@ import hashlib
 import json
 import os
 
-RAIZ = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
+RAIZ = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
 FONTES = f"{RAIZ}/_privado/fontes-documentais/ago_28_Madeira_Tratada_S11d"
 DEST = f"{RAIZ}/_privado/fichas/ago_28_Madeira_Tratada_S11d"
 
@@ -15,7 +15,7 @@ CABECALHO = """---
 schema: ACERVO_FICHA_R1
 gaveta: cobre
 frente: COBRE
-estado_documental: homologado-internamente
+estado_documental: em-revisao-documental
 homologacao:
   tipo: INTERNA
   autoridade: FABIO
@@ -37,11 +37,16 @@ fonte:
   fonte_url: {url}
   custodia: _privado/fontes-documentais/ago_28_Madeira_Tratada_S11d/
 publicacao: docs/analyses/cobre/fichas/
+tipo_documental: ficha-cientifica
+responsavel_curadoria: Fabio F. Resck
+identificador: "{identificador}"
 ---
 
-> **Estado: homologada internamente (2026-11-24, autoridade FABIO).** Publicada para
-> auditoria externa. Se o auditor externo apontar furo material, o estado reverte para
-> `ficha-em-revisao` e a correção é publicada com a rodada seguinte.
+> **Estado: em revisão documental.** Homologação interna declarada em 2026-11-24
+> (autoridade: FABIO) — declaração do ato, não registro de leitura. Homologação
+> documental para publicação: pendente. O pacote não anexa registro de leitura integral
+> do HTML nem parecer de auditoria externa. Furo material apontado pelo auditor externo
+> é corrigido e publicado na rodada seguinte.
 
 """
 
@@ -192,7 +197,7 @@ def main():
     e = MAN["in592_1992"]
     os.makedirs(DEST, exist_ok=True)
     cab = CABECALHO.format(arquivo=e["arquivo"], sha=e["sha256"], paginas=e["paginas"],
-                           url=e["fonte_url"])
+                           url=e["fonte_url"], identificador='"sem-doi-registrado"')
     texto = cab + CORPO + DECL_IA
     nome = "ficha-in05-92-ibama-destinacao-final-residuos.md"
     p = os.path.join(DEST, nome)

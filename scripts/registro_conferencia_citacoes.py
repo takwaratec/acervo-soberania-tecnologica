@@ -30,7 +30,7 @@ import os
 import re
 import sys
 
-RAIZ = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
+RAIZ = os.environ.get("COBRE_REPO", os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"))
 ALVO = f"{RAIZ}/docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md"
 SAIDA_DIR = f"{RAIZ}/docs/analyses/cobre"
 

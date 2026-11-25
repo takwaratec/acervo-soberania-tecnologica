@@ -19,7 +19,7 @@ from datetime import datetime, timezone
 # REPO e BRANCH por variável de ambiente: o script rodava sempre no checkout principal, e
 # reseleiar de dentro de um worktree commitava na branch errada. Aconteceu — e o selo foi para
 # a branch abandonada. Quem chama declara onde está.
-REPO = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
+REPO = os.environ.get("COBRE_REPO", os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"))
 BRANCH = os.environ.get("COBRE_BRANCH", "hermes/cobre-plano-20261124")
 DIR = "docs/analyses/cobre"
 PT = "ops/command-center/auditoria-atual/COBRE.json"
@@ -173,7 +173,8 @@ def main():
             obj[k] = obj[k] if isinstance(obj[k], (int, str)) else obj[k]
     man["objeto"] = obj
     ed = man.get("estado_declarado", {})
-    ed["fichas"] = f"{len([f for f in man['fontes'] if '/fichas/' in f['path']])} fichas, todas homologado-internamente, autoridade FABIO, reversíveis"
+    ed["fichas"] = (f"{len([f for f in man['fontes'] if '/fichas/' in f['path']])} fichas, todas em "
+                    "em-revisao-documental: homologacao interna e ato declarado, nao leitura medida")
     ed["artigo"] = ("peça corrida (molde do boro, 13 seções), peça em abas e manuscrito único de "
                     "ponta a ponta com 21 referências ABNT comentadas")
     man["estado_declarado"] = ed

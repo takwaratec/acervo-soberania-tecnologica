@@ -22,7 +22,7 @@ import os
 import re
 import unicodedata
 
-RAIZ = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
+RAIZ = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
 CUSTODIAS = {
     "ago_28_Madeira_Tratada_S11c": [
         "1989_pi292_preservativos_registro.md",

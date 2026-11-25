@@ -16,7 +16,7 @@ import unicodedata
 import fitz
 
 SCRATCH = "/Users/fabiotakwara/.hermes/cache/scratch/s11c"
-RAIZ = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
+RAIZ = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
 DEST = f"{RAIZ}/_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c"
 
 # chave: (arquivo de origem, nome canônico, url, título, tipo, observação)
