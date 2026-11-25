@@ -1,0 +1,16 @@
+{
+ "schema": "TAKWARATEC_R4_AUDIT_POINTER_R1",
+ "frente": "COBRE",
+ "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
+ "status": "ABERTO",
+ "manifest_branch": "hermes/cobre-plano-20261124",
+ "manifest_commit": "1803f65230bd39203cb75a9ecb140d3f380affb7",
+ "manifest_path": "docs/analyses/cobre/AUDITORIA_SOL_COBRE_MANIFEST_R1_f9269f7c.json",
+ "sha256_do_manifesto": "0bd372d8e290cbd9fe8aa9e4bc31a3c0d90d5586840e6f767dad26b46b48c8da",
+ "hashes_response_path": "docs/analyses/cobre/AUDITORIA_SOL_COBRE_HASHES_RESPONSE_R1_f9269f7c.json",
+ "sha256_do_hashes_response": "83a0997d8c9738fa3ff2083b2bbd20c7fd482befa3109259b595cd3277163e5a",
+ "hashes_response_commit": "1803f65230bd39203cb75a9ecb140d3f380affb7",
+ "alvo_commit": "f9269f7c8576e41044a4e862ee425e20f3d8b370",
+ "atualizado_utc": "2026-11-25T12:49:26+00:00",
+ "instrucao_ao_auditor": "Comece AQUI, neste arquivo, no commit da branch que você recebeu. Leia o manifesto em manifest_commit e confira sha256_do_manifesto; leia o HASHES_RESPONSE no mesmo commit e confira sha256_do_hashes_response; só então abra as fontes em alvo_commit. Não leia o manifesto que aparece dentro do alvo_commit: é o da rodada anterior."
+}
