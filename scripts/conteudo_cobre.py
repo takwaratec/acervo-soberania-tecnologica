@@ -839,12 +839,16 @@ de quintal.</li>
 <blockquote>&quot;material, substância, objeto ou bem descartado […] e <strong>líquidos cujas
 particularidades tornem inviável o seu lançamento na rede pública de esgotos ou em corpos d'água</strong>&quot;</blockquote>
 
-<p><strong>A lei inclui líquidos.</strong> Água com um quarto de quilo de cobre numa banheira não pode ir para
-o esgoto nem para o rio sem inviabilizar os dois. Então, por definição legal, <strong>ela é resíduo</strong>.</p>
+<p><strong>A lei inclui líquidos — sob condição.</strong> O texto diz "cujas particularidades tornem
+inviável o seu lançamento na rede pública de esgotos ou em corpos d'água". Se a água com um quarto de
+quilo de cobre numa banheira satisfaz essa condição é <strong>questão jurídica, e este artigo não a
+decide</strong>. O que está medido é o número: como sai do tonel, ela não pode ser lançada (seção 8).
+Chamem de resíduo ou não — o ralo continua fechado.</p>
 
-{okbox("Não existe buraco na lei", "A obrigação existe desde 2010, e é de <strong>quem gerou o resíduo</strong> "
- "— inclusive de quem gerou na própria casa. O que a lei não diz é <strong>onde</strong> a pessoa descarta. "
- "E é aí que a instrução e a vida real se separam.")}
+{okbox("O ralo não aceita, com ou sem nome", "Se o que sobra do banho é resíduo — e a lei admite essa "
+ "leitura, sob a condição acima —, a obrigação é de <strong>quem gerou</strong>, inclusive na própria "
+ "casa. O que <strong>não</strong> depende da classificação é o limite de lançamento: 1,0 mg de cobre "
+ "por litro. A instrução e a vida real se separam aí.")}
 
 {SEP}
 
@@ -1049,13 +1053,17 @@ lei-quadro, e a definição dela é ampla de propósito:</p>
    "recipientes e <strong>líquidos cujas particularidades tornem inviável o seu lançamento na rede "
    "pública de esgotos ou em corpos d'água</strong>")}
 
-<p><strong>Banho de tratamento com cobre entra na definição legal de resíduo sólido</strong> — ainda
-que seja líquido, e a condição que o art. 3º, XVI exige se cumpre neste caso: o banho não pode ir para
-a rede pública nem para o corpo d'água. Uma solução a 1% carrega cerca de <strong>2.545 mg de cobre por
-litro</strong>; o limite de lançamento de efluente com cobre é <strong>1,0 mg/L</strong>, pela CONAMA
-430/2011.{cit("conama430")} São <strong>2.545 vezes</strong> acima. É essa impossibilidade de
-lançamento — a hipótese literal da lei — que põe o banho dentro da definição, e não uma escolha de
-redação. Se o lançamento fosse viável, o enquadramento seria outro.</p>
+<p><strong>O banho, como sai do tonel, não pode ser descartado.</strong> Uma solução a 1% carrega
+cerca de <strong>2.545 mg de cobre por litro</strong>; o padrão de lançamento de efluente com cobre é
+<strong>1,0 mg/L</strong>, pela CONAMA 430/2011.{cit("conama430")} São <strong>2.545 vezes</strong>
+acima do padrão.</p>
+
+<p>Isso <strong>não decide o nome jurídico</strong> do banho. Se ele é "resíduo sólido" pela definição
+do art. 3º, XVI depende de a lei considerar inviável o lançamento, e essa é uma questão que este artigo
+<strong>não resolve</strong>: exigiria caracterizar o banho e avaliar se existe tratamento viável, e
+nada disso foi medido aqui. O que o número resolve é outra coisa, e é a que importa para quem trata
+bambu no quintal: <strong>não há versão desse banho que vá para o ralo ou para o rio como está</strong>
+— e o nome que se dê a ele não muda a conta.</p>
 
 <p><strong>Mas procure &quot;bambu&quot; na PNRS: zero ocorrências. &quot;Madeira&quot;: zero.</strong>
 A lei que rege resíduo no Brasil <strong>não nomeia o material</strong>.</p>
@@ -1473,8 +1481,9 @@ olímpicas</strong>. Diluir <strong>não</strong> é destinar: cobre não se deg
 <li><strong>As duas instruções oficiais mandam reusar</strong> e proíbem o descarte em ralo, rio ou córrego.</li>
 <li><strong>Decantar não remove cobre dissolvido</strong> — tira a sujeira, não o metal.</li>
 <li><strong>A lacuna:</strong> nenhuma instrução diz o que fazer quando o reuso acaba.</li>
-<li>Pela lei brasileira (PNRS, art. 3º, XVI), essa água <strong>é resíduo</strong> desde 2010 — a lei inclui
-líquidos.</li>
+<li>A lei brasileira inclui líquidos na definição de resíduo sólido <strong>sob condição</strong> (PNRS,
+art. 3º, XVI); se esta água cumpre a condição é questão jurídica que o artigo não decide. O que não
+depende dela: <strong>1,0 mg de cobre por litro</strong> é o limite de lançamento.</li>
 <li>A instrução oficial <strong>avisa</strong> (EPI, tonel, proibição, reuso). A receita informal
 <strong>não</strong>: zero menção a EPI, descarte ou resíduo em 19 mil caracteres.</li>
 <li>A receita informal recomenda <strong>dicromato</strong>, que é controlado pela Polícia Federal, e ensina a
@@ -1550,7 +1559,7 @@ _GLOSS = [
  ("Preservante", "produto aplicado ao material para impedir que fungos e insetos o destruam."),
  ("Próton", "partícula de carga positiva no núcleo do átomo. O número de prótons é a identidade do elemento."),
  ("Resíduo sólido", "pela lei brasileira, inclui líquidos cuja destinação em rede de esgoto ou corpo d'água "
-  "seja inviável. A solução de tratamento se enquadra."),
+  "seja inviável. Se o banho de tratamento cumpre essa condição é questão jurídica; o artigo não a decide."),
  ("Solubilidade", "capacidade de uma substância se dissolver em água. É a propriedade que permite o cobre "
   "entrar no bambu — e sair dele."),
  ("Toxicidade crônica", "efeito que aparece por exposição repetida ao longo do tempo, não de uma vez."),
