@@ -32,7 +32,8 @@ jobs:
       - name: Escopo do diff (A7)
         run: |
           python3 scripts/check_escopo_do_diff.py --base "origin/${{ github.base_ref }}" \
-            --permitir docs/ --permitir scripts/ --permitir tests/ --permitir ops/
+            --permitir docs/ --permitir scripts/ --permitir tests/ --permitir ops/ \
+            --permitir .github/ --permitir AGENTS.md --permitir AGENTS_LOCAL.md
       - name: Front matter
         run: python3 scripts/validate_frontmatter.py
       - name: Build estrito
