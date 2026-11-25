@@ -68,11 +68,45 @@ Inventário por 1 kg de colmo tratado (Tabela 1, p. 7): 0,0003 kg de NPK, 0,002 
 ## 6. Principais achados
 
 - O processo observado perdeu 25% da matéria-prima encaminhada ao tratamento químico (p. 7).
+- O efluente do tratamento correspondeu a **10% da água total utilizada** no processo químico e foi
+  descartado diretamente no solo (p. 8).
+- A unidade produtiva tem produção anual da ordem de **500 varas tratadas de 6 m por hectare** e
+  emprega três trabalhadores (p. 4).
 - Entre as categorias normalizadas, toxicidade carcinogênica humana (HCT) representou aproximadamente 93% do impacto potencial total estimado (p. 7).
 - Os autores atribuem esse resultado ao uso de ácido bórico e bórax e à presença desses compostos em aparas, cortes, colmos descartados e efluentes.
 - Resíduos contaminados de aparas e colmos descartados responderam por 91% do impacto total modelado da cadeia artesanal (p. 7).
 - Eutrofização de água doce foi a segunda categoria mais destacada, com aproximadamente 4% (p. 8).
 - O estudo recomenda investigar alternativas ao ácido bórico e ao bórax, melhorar a gestão de resíduos sólidos e efluentes, otimizar o uso de água e aperfeiçoar o manejo de fertilizantes.
+
+### Tabela 2 da fonte — transcrição literal (p. 9)
+
+A fonte publica uma linha por material, com a unidade `mPt` numa coluna própria; os valores estão na
+notação do próprio artigo (`3.60x10-5` = 3,60·10⁻⁵), e nenhum foi recalculado. Esta é a tabela inteira,
+sem seleção de linhas.
+
+```text
+Table 2. Environmental impacts of the artisanal bamboo production chain for the functional
+unit (1 kg of bamboo pole) at an artisanal production unit in Rio Branco, state of Acre,
+Brazilian Amazon.
+
+Materials              Unity  GW        SOD       PM        FE        HCT       MRS        WU
+NPK fertilizer         mPt    3.60x10-5 7.56x10-5 8.37x10-6  1.02x10-5 3.60x10-5 2.85x10-8  6.00x10-7
+Liming                 mPt    3.55x10-6 4.15x10-7 2.16x10-6  9.98x10-9 2.47x10-6 6.33x10-12 7.50x10-6
+Wastewater             mPt    5.54x10-4 2.95x10-5 1.22x10-4  4.10x10-6 2.31x10-3 4.64x10-9  2.55x10-3
+Boric acid             mPt    3.91x10-5 2.68x10-6 5.68x10-5  2.72x10-4 5.54x10-3 1.91x10-8  3.16x10-5
+Borax                  mPt    5.47x10-5 2.94x10-6 2.44x10-5  2.42x10-4 4.21x10-3 4.68x10-9  9.10x10-6
+Waste bamboo wood      mPt    6.58x10-4 3.56x10-5 4.67x10-4  4.41x10-3 7.42x10-2 2.58x10-8  1.33x10-4
+Discarded bamboo pole  mPt    1.53x10-4 1.12x10-5 7.91x10-5  1.89x10-3 7.31x10-2 3.58x10-8  7.67x10-5
+Treated bamboo pole    mPt    1.50x10-3 1.58x10-4 7.60x10-4  6.83x10-3 1.59x10-1 1.19x10-7  2.82x10-3
+```
+
+Categorias: GW aquecimento global; SOD depleção da camada de ozônio; PM material particulado fino; FE
+eutrofização de água doce; HCT toxicidade carcinogênica humana; MRS escassez de recursos minerais; WU
+uso da água.
+
+A coluna HCT do colmo tratado (1,59×10⁻¹) é uma ordem de grandeza maior que qualquer outra célula da
+tabela, e as duas linhas que mais contribuem para ela são resíduo de bambu e colmo descartado — os
+mesmos 91% citados acima (p. 7).
 
 Os percentuais são resultados de impacto potencial normalizado no modelo de ACV. Eles não equivalem a incidência epidemiológica e não demonstram que a simples troca de um insumo eliminará exatamente o valor de 93% do impacto (p. 7).
 
