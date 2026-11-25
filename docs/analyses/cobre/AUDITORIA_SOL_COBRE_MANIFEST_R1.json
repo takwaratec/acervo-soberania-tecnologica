@@ -3,12 +3,12 @@
  "versao": "1.0.0",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "status": "ABERTO",
- "gerado_utc": "2026-11-25T00:58:44+00:00",
+ "gerado_utc": "2026-11-25T01:00:48+00:00",
  "tipo": "CONTEUDO",
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "c4f4adba43a140ebd0d41f1eb49da2299b909781",
+ "alvo_commit": "06a38348e8b8eb00ca129d5fc067f6938ae053b9",
  "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 11 fichas, fontes). Todos os sha256 de fontes[] foram lidos do próprio commit, com `git show <alvo>:<path>`.",
  "aviso_de_leitura": {
   "repositorio": "takwaratec/acervo-soberania-tecnologica",
@@ -102,6 +102,20 @@
    "arquivo": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
    "ancora": "seção 9 — «O que não se mediu — e por que isso é resultado»",
    "fonte": "docs/analyses/cobre/fontes/s11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.pdf"
+  },
+  {
+   "id": "Q9",
+   "pergunta": "O capítulo 9 afirma que a norma federal de preservação de madeira (PI 292/89) existe, nomeia o Ibama como fiscalizador (art. 20) e NÃO trata da destinação final do resíduo. Isso é sustentado pelo texto integral da Portaria, e a palavra «resíduo» está de fato ausente dela?",
+   "arquivo": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
+   "ancora": "seção 9 — A norma existe — e ela não chega ao quintal",
+   "fonte": "docs/analyses/cobre/fontes/s11c/1989_pi292_preservativos_registro.pdf"
+  },
+  {
+   "id": "Q10",
+   "pergunta": "A distinção «a madeira tem norma que não se cumpre; o bambu não tem norma a cumprir» é sustentada pelas fontes custodiadas, e o capítulo declara explicitamente que não há caso brasileiro documentado de intoxicação por queimar madeira tratada em fogão doméstico?",
+   "arquivo": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
+   "ancora": "seção 9 — «O que não se mediu — e por que isso é resultado»",
+   "fonte": "docs/analyses/cobre/fontes/s11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.pdf"
   }
  ],
  "fontes": [
@@ -119,8 +133,8 @@
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu.html",
-   "sha256": "24a5b92434359d57bb5d75f15850db7279d3ce54817984dfbae5bab2a89b6900",
-   "bytes": 186190,
+   "sha256": "b644358c2568a4a57f2a2addf444f118195770122824d9ed05e279d3446d2991",
+   "bytes": 219516,
    "papel": "peça de leitura, 18 abas"
   },
   {
