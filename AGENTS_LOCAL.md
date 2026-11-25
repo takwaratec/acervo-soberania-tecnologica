@@ -104,6 +104,24 @@ fonte não sustenta a afirmação, a afirmação sai.
 devem ser declarados como tal. Chamar de "conferido" o que foi triado é a mesma falha que a A2
 proíbe, aplicada ao método.
 
+**A7. O escopo do diff é medido antes de abrir, e `git add -A` é proibido em branch de frente.**
+Numa branch de frente, `git add -A` e `git add .` estão proibidos: adiciona-se **caminho declarado**.
+Foi assim que uma branch atrás da `main` acumulou 300 arquivos num diff que devia ter 184 — e o PR
+teria apagado o teste de um gate e uma página publicada, além de reverter fichas de seis gavetas
+para versões antigas.
+
+Antes de abrir a PR, a frente mede e reporta, com número:
+
+- `git diff --name-only origin/main | wc -l` — o total;
+- a classificação por gaveta, separando o que é da frente do que não é;
+- **as deleções listadas uma a uma** (`git diff --name-status origin/main | grep '^D'`). Deleção é o
+  sinal mais caro do diff: quase sempre significa branch desatualizada, não remoção pretendida;
+- **as modificações fora da gaveta da frente**, que são regressão de conteúdo de outra frente.
+
+A escopo é aprovado quando o diff fora da gaveta da frente está **vazio**. Não "pequeno": vazio.
+Branch desatualizada se corrige trazendo a frente para uma branch cortada da `main` com caminhos
+declarados — nunca por `git add -A`, nunca por rebase de branch publicada.
+
 ## Estados documentais
 
 Usar a taxonomia definida em `GOVERNANCA_DOCUMENTAL.md`. Estados canônicos: `recebido`, `identificacao-pendente`, `protegido-privado`, `duplicata-fonte-auxiliar`, `extracao-preliminar`, `em-revisao-documental`, `homologado-documentalmente`, `visao-autoral`, `historico`, `quarentena`, `retirado-da-publicacao`. Nenhum script pode homologar conteúdo automaticamente.
