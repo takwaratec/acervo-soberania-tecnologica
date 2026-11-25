@@ -51,9 +51,15 @@ Três réguas que não se contradizem — protegem coisas diferentes:
 - **Farmácia: água boricada a 3%.** Vende sem receita, para antissepsia. Não é a mesma
   coisa que a água que você bebe, e é aí que a percepção se perde.
 
-**Ele não é cancerígeno.** Mas a União Europeia o classifica como **Repr. 1B** — tóxico
-para a reprodução, suspeito de prejudicar a fertilidade e o feto. Não arde, não fede,
-não queima a pele. É por isso que ninguém o trata como veneno.
+**Sobre câncer, a resposta é curta e não deve ser lida sozinha: o boro não é
+classificado como cancerígeno.** IARC, NTP e EPA não o classificaram quanto à
+carcinogenicidade humana. Mas ele **é** classificado pela União Europeia como **Repr. 1B**
+— tóxico para a reprodução, suspeito de prejudicar a fertilidade e o feto. Dizer só a
+primeira metade ("é seguro porque não é cancerígeno") ignora a classificação que existe;
+dizer só a segunda assusta sem necessidade. As duas valem juntas.
+
+E ele **não arde, não fede, não queima a pele na hora**. É por isso que ninguém o trata
+como veneno.
 
 > **Fonte:** OMS, *Guidelines for Drinking-water Quality*, 4. ed., 2022; regulamento
 > europeu CLP 2023/1435; ANVISA, RDC 199/2006.
@@ -102,17 +108,20 @@ igual — e com mais consequência.
 
 > **Fonte:** ATSDR, *Toxicological Profile for Boron*, capítulo 6 (mobilidade no solo).
 
-## A frase que eu tive que apagar
+## A ideia que não se sustenta
 
-Eu escrevi, numa versão anterior deste texto, que se fosse cromo ou arsênio ninguém
-espalharia a apara no quintal.
+Circula a ideia de que, se fosse cromo ou arsênio, ninguém espalharia a apara no
+quintal.
 
 **É falso.** No caso do CCA e do CCB existe norma brasileira — a Embrapa publicou
 instrução técnica para tratar moirão na propriedade rural com tonel, equipamento de
 proteção e **proibição explícita de descarte no ambiente, repetida duas vezes**.
 
-E o que acontece na prática é o resíduo largado em área pública e queimado. Queimado
-em fogão a lenha, com casos de intoxicação pela fumaça. A norma existe. Não se cumpre.
+**O que a norma não faz é garantir que se cumpra.** O que se relata na prática é resíduo
+largado em área pública e queimado; há relato de intoxicação por fumaça de madeira
+tratada em fogão a lenha. E aqui é preciso ser exato sobre o que é documento e o que é
+relato: **não existe, no Brasil, levantamento publicado que quantifique esse descarte nem
+esses casos de intoxicação.** A proibição está escrita; o cumprimento não está medido.
 
 **Isso inverte a lição.** O boro não é pior que o cromo porque a norma não pega. Ele
 está numa posição pior: **nem a norma existe**. Quem trata bambu com boro não tem nem

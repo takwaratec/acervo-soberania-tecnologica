@@ -201,7 +201,7 @@ O Brasil não produz boro. Em 2024, o país importou **459,7 mil toneladas**, no
 **US$ 209,5 milhões**, somando os dez códigos aduaneiros de minerais e químicos de boro
 [4].
 
-| Origem | Participação | Toneladas |
+| Origem | Participação **por peso** | Toneladas |
 |---|---|---|
 | **Bolívia** | **43,7%** | 200,7 mil |
 | **Argentina** | **25,4%** | 116,9 mil |
@@ -213,10 +213,15 @@ O Brasil não produz boro. Em 2024, o país importou **459,7 mil toneladas**, no
 
 [4]
 
-**84,9% vêm da América do Sul** — o que parece conforto logístico, mas é o oposto: são
-os minerais do cinturão Andino, e dependem de três países apenas. **Bolívia, Argentina e
-Chile somam 83,8%** do total. A Turquia, que detém as maiores reservas do mundo, fornece
-**8,3%**.
+**A coluna diz peso, não dinheiro — e isso muda o ranking.** Por tonelada, a Bolívia
+lidera com 43,7%. Por valor, quem lidera é a **Argentina (26,3%)**, seguida de Bolívia
+(24,7%), Chile (20,2%) e Turquia (11,8%): o mineral boliviano entra mais barato por quilo.
+As duas leituras saem da mesma extração.
+
+**84,9% vêm da América do Sul, em peso** (73,8% em valor) — o que parece conforto
+logístico, mas é o oposto: são os minerais do cinturão Andino, e dependem de três países
+apenas. **Bolívia, Argentina e Chile somam 83,8% do peso.** A Turquia, que detém as
+maiores reservas do mundo, fornece **8,3% do peso e 11,8% do valor**.
 
 Pela ótica do USGS, os Estados Unidos importam **90% de todo o boro da Turquia** [3].
 Duas economias grandes, dois fornecedores concentrados diferentes — e nenhuma das duas
@@ -459,6 +464,18 @@ parte dos construtores em bambu do mundo passou por ali.
 8% — acima das recomendações americana (2,7 kg/m³) e indiana (5 kg/m³) para uso interno
 [16].
 
+**A eficácia também é medida em laboratório.** Um ensaio com **1,5% de ácido bórico +
+3,0% de bórax**, por imersão de 72 h, reduziu a perda de massa por fungo de **62,57%
+para 12,74%** (*Coriolus versicolor*) e de **55,62% para 9,64%** (*Gloeophyllum trabeum*).
+É bancada, não campo: **não mede lixiviação** [24].
+
+**Um ensaio de campo brasileiro, com CCB, durou cinco anos.** Hastes de *Dendrocalamus
+asper* imersas em CCB a 1% e 3% não apresentaram degradação biológica, contra índice de
+deterioração de **80% a 100% no controle**. Duas ressalvas que o próprio trabalho faz:
+o CCB é sistema **misto** (26% sulfato de cobre, 63,5% dicromato, 10,5% ácido bórico) e
+o ensaio **não mediu boro**; e os autores escrevem que *"não é possível afirmar que a
+presença de metais no solo é indicativo de lixiviação"* [25].
+
 **E o limite do boro.** Ele é **hidrossolúvel**: sai do colmo em contato com água. Por
 isso o bambu tratado só serve **sob cobertura**, e por isso o desenho arquitetônico
 importa tanto quanto a química. A tabela abaixo é a mais dura do assunto [13]:
@@ -638,6 +655,13 @@ há instrução.
 o tratamento. Não há dado de pele, de inalação de pó, de respingos. **Isso é lacuna, não
 ausência de risco.**
 
+O que existe são **limites ocupacionais para as formas químicas**, não para o boro em
+geral: o NIOSH fixa **5 mg/m³** para bórax decahidratado e **1 mg/m³** para anidro e
+pentahidratado — o que dá teto de boro de **~0,57 / ~0,21 / ~0,15 mg B/m³** [26]. Para
+**poeira de madeira**, o limite britânico é **3 mg/m³** (madeira dura) e **5 mg/m³**
+(leve), e madeira dura é classificada como causadora de câncer, particularmente de nariz
+[27]. **Nenhum desses limites foi medido em quem trata bambu no Brasil.**
+
 **3. O resíduo não tem destino.** O efluente do banho, as aparas e a serragem do bambu
 tratado não têm rota definida pela norma brasileira [11]. Na prática, vão para onde é
 mais fácil.
@@ -719,7 +743,7 @@ Declarar lacunas é parte do método. Estas são reais:
 ---
 
 
-## 18. O limbo: duas políticas, nenhuma norma
+## 18. Duas políticas, nenhuma norma específica
 
 Esta é a parte mais desconfortável do artigo, e a única em que a conclusão não vem de
 uma fonte científica — vem da **ausência de fonte normativa**. Trate como pergunta
@@ -832,13 +856,16 @@ afirmar que é seguro está extrapolando igual, e com mais consequência.
 O boro tem uma propriedade perigosa para a percepção pública: **ele não arde, não
 fede, não queima a pele na hora, e é vendido na farmácia** [6].
 
-**Mas eu escrevi uma frase falsa aqui, e ela precisa ser corrigida.** Eu havia
-sugerido que, se fosse cromo ou arsênio, ninguém espalharia a apara no quintal. **Não é
-verdade.** No caso do CCA e do CCB existe, sim, norma brasileira — a Embrapa instrui o
-tratamento de moirão na propriedade rural com tonel, EPI e **proibição explícita de
-descarte no ambiente, repetida duas vezes** [31]. E o que acontece na prática é o que o
-soberano relata: **resíduo largado em área pública e queimado**, com casos de intoxicação
-por fumaça de eucalipto tratado em fogão a lenha.
+**Circula a ideia de que, se fosse cromo ou arsênio, ninguém espalharia a apara no
+quintal. É falsa.** No caso do CCA e do CCB existe, sim, norma brasileira — a Embrapa
+instrui o tratamento de moirão na propriedade rural com tonel, EPI e **proibição
+explícita de descarte no ambiente, repetida duas vezes** [31].
+
+**E a norma não basta.** O que se relata na prática é resíduo largado em área pública e
+queimado; há relato de intoxicação por fumaça de madeira tratada em fogão a lenha. **Não
+há, nesta gaveta, fonte primária brasileira que documente nem o descarte nem a
+intoxicação** — é lacuna declarada, e é ela que impede tratar o problema como
+quantificado.
 
 **A lição não é que o boro é pior que o cromo. É a inversa:** a norma existir não impede
 o descarte irregular. O boro está na posição **pior**, porque nele nem a norma existe —
