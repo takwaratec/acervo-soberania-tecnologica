@@ -66,6 +66,71 @@ Revisão sistemática conduzida segundo as diretrizes PRISMA, analisando artigos
 
 ---
 
+## 5.1 Tabela 6 — a consolidação mecânica do artigo (p. 24)
+
+A Tabela 6 é o núcleo quantitativo desta revisão: 27 referências com resistência à compressão (CS),
+tração (TS), flexão (FS), cisalhamento (SS), MOR, MOE, dureza e capacidade de carga. Medido no derivado:
+a tabela ocupa uma página (p. 24) e a extração a entrega **achatada, sem grade** — os valores aparecem
+alinhados em sequência, e a coluna de cada valor só é recuperável quando a extração registra a
+coordenada do cabeçalho.
+
+Dois valores têm atribuição declarada no texto corrido, e entram como afirmação verificável:
+
+- *Bambusa vulgaris*: módulo de elasticidade do colmo entre **6,1 GPa e 14,2 GPa** (Sa Ribeiro et al. [8], p. 23).
+- Compósito de fibra de bambu (bamboo strand composite lumber): MOE de até **30.000 MPa** ([49], p. 23).
+
+O restante da tabela vai transcrito literalmente abaixo. **Nenhuma coluna foi atribuída por adivinhação**:
+onde a extração não registra a coordenada, o valor está transcrito na ordem em que aparece, sem rótulo de
+propriedade. A atribuição da coluna MOR para o intervalo `50–220` ([53]) foi provada por coordenada
+(x = 314,6, sob o cabeçalho MOR) e é a única que a ficha afirma como MOR.
+
+```text
+Table 6. Summary of findings on mechanical properties of bamboo.
+(cabeçalho visual: Reference | CS (MPa) | TS (MPa) | FS (MPa) | SS (MPa) | MOR (MPa) | MOE (GPa)
+                     | Hardness | Ultimate Bearing Capacity, kN | Remarks)
+coordenadas registradas pela extração: MOR x=306.8-323.6 | MOE x=360.0-376.1 | CS x=86.8
+                     TS x=142.9 | FS x=202.7 | SS x=258.5
+
+[11]  191.61-423.29 ∥ | 21.29-27.53 | 360-470 MPa (p. 24)
+[74]  42.50-52.73 ∥ | 159.01 ∥1 | 164.30 ∥2 | 148.69 ∥1 | 153.31 ∥2 | (1 S-1, 2 S-15)
+[75]  130-160 ∥
+[76]  57 ∥
+[45]  32.72 ∥ | 147.0 ∥, 8.36 ⊥ | 171.44-210.14 (1) | 326.25-550.87 (2) | (1 mortar, 2 concrete)
+[49]  24.27-158.26 ∥ | 5.48-36.22 | 64.63-328.18 | 13.35-29.34
+[8]   48-132 | 6.1-14.2
+[53]  50-220 | 5.0-20.0
+[15]  75-82.2 ∥
+[61]  38.46-162.82 ∥ | 8.30-17.15
+[62]  76.7-107.6 | 26.82-36.24
+[63]  74.56 (1), 82.72 (2) | 18.93 (1), 18.74 (2) | (1 manual, 2 hydraulic)
+[78]  50.57 ∥, 14.82 ⊥ | 112.56 ∥ | 118.0 ∥ | 17.34 | 9.90
+[24]  55-60 ∥, 22 ⊥ | 116-124 ∥ | 76-79 ∥, 3.0 ⊥ | 14-17 | 10.20-10.50
+[22]  114 ∥, 19.3 ⊥ | 136-294 ∥ | 13.5-14.8 | 225.0 | 21.0
+[51]  156.43-397.96 ∥ | 188.04-361.75 ∥
+[23]  104.71-115.7 ∥ | 49.33-77.0 ⊥ | 111-144.75 ∥, 4.18-6.70 ⊥ | 131-166.5 ∥ | 11.89-17
+[56]  58.1-66.3 ∥ | 194.9-225.5 | 22.3-23.8 | 3.0-3.76 kN
+[5]   85.0-230.0 ∥ | 80-210.0 | 8.0-12.5
+[27]  122.0 | 18.5
+[79]  211.0 ∥
+[80]  38.40-92.37 ∥
+[58]  243.4 (1), 76.0 (2), 266.6 (3) MPa | (1 smoked, 2 dried, 3 dyed)
+[81]  81.43-124.30 ∥ | 3.76
+[84]  2.11
+[59]  653.3-766.2 ∥ | 22.5-26.7
+[13]  43.9-72.2 ∥ | 15.9-21.8 | 8.81-13.2
+[1]   54-58.0 ∥ | 12.0-16.0 | 11.93-20.68
+[16]  59.1-69.9 ∥
+```
+
+**Por que esta tabela não é verificada pelo instrumento.** Medido com o gate vigente (`54691508`), em
+três sondas: com a página no cabeçalho da seção, só a **primeira** linha herda a página; com `(p. 24)` ao
+fim da linha, só os números imediatamente à esquerda do parêntese herdam; com coluna «Pág.», nenhum herda.
+Transcrita como tabela markdown, a tabela inteira volta `SEM_PAGINA` célula por célula. Por isso ela entra
+aqui como transcrição literal, com a página declarada no título — verificável por leitura humana, e
+declarada como **não verificável pelo instrumento** em vez de fingir o contrário.
+
+---
+
 ## 6. Implicações para o Setor e Construção Sustentável
 Demonstra a viabilidade técnica do bambu roliço como substituto do aço em elementos tracionados e da alvenaria em elementos de vedação, desde que atendidos os critérios de durabilidade e conexões flexíveis.
 
