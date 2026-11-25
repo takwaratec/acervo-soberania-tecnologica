@@ -68,6 +68,18 @@ def main():
         })
 
     linhas = [
+        "---",
+        "schema: ACERVO_INDICE_R1",
+        "gaveta: cobre",
+        "frente: COBRE",
+        "titulo: \"Selos da frente do cobre\"",
+        "tipo_documental: indice",
+        "estado_documental: em-revisao-documental",
+        "homologacao_automatica: false",
+        "responsavel_curadoria: Fabio Takwara",
+        "assistencia_documental: agente de IA, sujeito a revisao humana",
+        "---",
+        "",
         "# Selos da frente do cobre",
         "",
         "A árvore carrega **um** par: `AUDITORIA_SOL_COBRE_MANIFEST_R1_<alvo>.json` e",
