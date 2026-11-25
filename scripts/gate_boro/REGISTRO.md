@@ -101,3 +101,31 @@ em `registro.jsonl`.
 - Não mede as 25 afirmações cuja fonte **não está custodiada** ([14], [16], [22], [30] e as
   dezenove páginas de [26] não presentes na gaveta): essas continuam sem fonte para conferir.
 - Não transforma o artigo em peça homologada. Homologar é ato humano.
+
+
+---
+
+## Os cards sem cifra — a causa era o CSS, não o texto (2026-11-25)
+
+O soberano apontou segunda vez, e com razão: **nos cards**, o número aparecia sem dizer do que
+era. A primeira correção (cabeçalho da tabela) não resolvia, porque **a tabela não existe como
+tabela na tela estreita**.
+
+**Causa medida**, no CSS da peça: `thead{display:none}` e o rótulo de cada célula vem de
+`td::before{content:attr(data-l)}`. O conversor markdown→HTML marca **parte** das células com
+`data-l`; contei **570 de 705**. As **135 sem rótulo** viravam card sem unidade — e são
+justamente as colunas numéricas que o leitor precisa ler.
+
+**Correção:** o gerador passou a preencher `data-l` em **todas** as células, tirando o rótulo do
+`<th>` da própria coluna. Agora são **705 de 705**.
+
+**E a redundância que a correção criou, e foi corrigida também:** rótulo `Massa importada (mil t)`
+com célula `200,7 mil` lê como "mil mil t". As células passaram a trazer o número por extenso
+(`200.700`) e o rótulo a dizer a unidade inteira (`Massa importada (toneladas)`).
+
+**Verificado no navegador em largura de celular** (420 px), não no HTML cru: os cards mostram
+`ORIGEM`, `PARTICIPAÇÃO POR PESO (MASSA)` e `MASSA IMPORTADA (TONELADAS)` acima dos números.
+
+**Lição que fica:** conferir o HTML não é conferir o que o leitor vê. `thead{display:none}` faz
+metade da conferência mentir. Toda revisão de tabela desta frente passa a ser feita **com a
+página renderizada em tela estreita**, não no arquivo.

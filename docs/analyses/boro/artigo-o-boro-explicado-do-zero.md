@@ -219,15 +219,15 @@ O Brasil não produz boro. Em 2024, o país importou **459,7 mil toneladas** —
 convertida —, no valor de **US$ 209,5 milhões** — valor FOB, em dólar, sem frete nem seguro —,
 somando os dez códigos aduaneiros de minerais e químicos de boro [4].
 
-| Origem | Participação por peso (massa) | Massa importada (mil t) |
+| Origem | Participação por peso (massa) | Massa importada (toneladas) |
 |---|---|---|
-| **Bolívia** | **43,7%** | 200,7 mil |
-| **Argentina** | **25,4%** | 116,9 mil |
-| **Chile** | **14,7%** | 67,6 mil |
-| **Turquia** | **8,3%** | 38,0 mil |
-| Estados Unidos | 4,5% | 20,9 mil |
-| Guatemala | 2,1% | 9,7 mil |
-| Peru | 1,2% | 5,3 mil |
+| **Bolívia** | **43,7%** | 200.700 |
+| **Argentina** | **25,4%** | 116.900 |
+| **Chile** | **14,7%** | 67.600 |
+| **Turquia** | **8,3%** | 38.000 |
+| Estados Unidos | 4,5% | 20.900 |
+| Guatemala | 2,1% | 9.700 |
+| Peru | 1,2% | 5.300 |
 
 > **Fonte da tabela inteira — e o comando que a reproduz.** ComexStat/MDIC, importação
 > brasileira por país de origem, série **2024**, NCMs 2528.00.00, 2528.10.00, 2528.90.00,

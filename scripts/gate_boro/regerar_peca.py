@@ -22,6 +22,48 @@ PAINEIS = [
 ]
 
 
+def rotular_celulas(html: str) -> str:
+    """Poe data-l em TODA celula, tirado do <th> da coluna.
+
+    A peca esconde o thead no celular (`thead{display:none}`) e mostra o rotulo por
+    `td::before{content:attr(data-l)}`. Celula sem data-l vira card sem unidade: o leitor
+    ve "200,7 mil" e nao sabe se e tonelada, dolar ou ano. O conversor so marca parte das
+    celulas; aqui todas recebem o rotulo da propria coluna.
+    """
+    def por_tabela(m):
+        tab = m.group(0)
+        cab = re.findall(r"<th[^>]*>(.*?)</th>", tab, re.S)
+        if not cab:
+            return tab
+        rotulos = [re.sub(r"<[^>]+>", "", c).strip() for c in cab]
+        corpo_i = tab.find("<tbody>")
+        if corpo_i < 0:
+            return tab
+        cabeca, corpo = tab[:corpo_i], tab[corpo_i:]
+
+        def por_linha(lm):
+            linha = lm.group(0)
+            k = [0]
+
+            def por_celula(cm):
+                abre, conteudo = cm.group(1), cm.group(2)
+                if "data-l=" in abre:
+                    k[0] += 1
+                    return cm.group(0)
+                i = k[0]
+                k[0] += 1
+                if i < len(rotulos) and rotulos[i]:
+                    abre = abre[:-1] + f' data-l="{rotulos[i].replace(chr(34), "&quot;")}">'
+                return abre + conteudo + "</td>"
+
+            return re.sub(r"(<td[^>]*>)(.*?)</td>", por_celula, linha, flags=re.S)
+
+        corpo = re.sub(r"<tr[^>]*>.*?</tr>", por_linha, corpo, flags=re.S)
+        return cabeca + corpo
+
+    return re.sub(r"<table.*?</table>", por_tabela, html, flags=re.S)
+
+
 def md_para_html(caminho: Path) -> str:
     txt = caminho.read_text(encoding="utf-8")
     # fora o front matter
@@ -29,7 +71,8 @@ def md_para_html(caminho: Path) -> str:
         fim = txt.find("\n---", 3)
         if fim > 0:
             txt = txt[fim + 4:]
-    return markdown.markdown(txt, extensions=["tables", "fenced_code", "toc", "attr_list"])
+    html = markdown.markdown(txt, extensions=["tables", "fenced_code", "toc", "attr_list"])
+    return rotular_celulas(html)
 
 
 def troca_painel(html: str, pid: str, novo: str) -> tuple[str, bool]:
