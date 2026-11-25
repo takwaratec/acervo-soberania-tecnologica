@@ -13,6 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # O A7 compara contra a base do PR. Sem histórico completo e sem a ref da base, o
+          # `git diff origin/main...HEAD` falha com `bad revision` e o gate não mede nada.
+          fetch-depth: 0
+      - name: Preparar ref da base
+        if: github.event_name == 'pull_request'
+        run: git fetch --no-tags origin "+refs/heads/${{ github.base_ref }}:refs/remotes/origin/${{ github.base_ref }}"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -23,9 +30,13 @@ jobs:
       - name: Declaração de conferência (A2)
         run: python3 scripts/check_declaracao_conferencia.py .
       - name: Escopo do diff (A7)
+        # Em push nao existe github.base_ref: o gate recebia "origin/" e derrubava o job. Push na main
+        # nao e diff de frente — o A7 so julga PR. (Perdi esta linha ao reescrever o arquivo no #120.)
+        if: github.event_name == 'pull_request'
         run: |
           python3 scripts/check_escopo_do_diff.py --base "origin/${{ github.base_ref }}" \
-            --permitir docs/ --permitir scripts/ --permitir tests/ --permitir ops/
+            --permitir docs/ --permitir scripts/ --permitir tests/ --permitir ops/ \
+            --permitir .github/ --permitir AGENTS.md --permitir AGENTS_LOCAL.md
       - name: Front matter
         run: python3 scripts/validate_frontmatter.py
       - name: Build estrito

@@ -59,5 +59,20 @@ class TestEscopo(unittest.TestCase):
         self.assertEqual(r.returncode, 1, r.stdout)
 
 
+    def test_base_vazia_nao_explode_nem_aprova(self):
+        """Push (sem base_ref) mandava 'origin/' e o job caia com traceback. Medir mal nao e medir."""
+        r = self.roda("--permitir", "docs/analyses/x", "--base", "origin/")
+        self.assertEqual(r.returncode, 2, r.stdout)
+        self.assertIn("NAO_MEDIDO", r.stdout)
+        self.assertNotIn("Traceback", r.stdout)
+
+    def test_base_inexistente_nao_explode(self):
+        r = self.roda("--permitir", "docs/analyses/x", "--base", "nao/existe")
+        self.assertEqual(r.returncode, 2, r.stdout)
+        self.assertIn("NAO_MEDIDO", r.stdout)
+        self.assertNotIn("Traceback", r.stdout)
+        self.assertIn("fetch-depth", r.stdout)
+
+
 if __name__ == "__main__":
     unittest.main()
