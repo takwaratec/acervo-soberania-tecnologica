@@ -4,13 +4,12 @@
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "status": "ABERTO",
  "manifest_branch": "hermes/cobre-plano-20261124",
- "manifest_commit": "58a56b5a9d7ab6940d90b0e50f92a18deda38b4a",
+ "manifest_commit": "bba3ba032ab8b0c4a43bfd4f91674c884e57c951",
  "manifest_path": "docs/analyses/cobre/AUDITORIA_SOL_COBRE_MANIFEST_R1.json",
- "sha256_do_manifesto": "41861d919b27ce1b104ba16b4f4e4a67adfa815394428682c61d2a09fc37b478",
+ "sha256_do_manifesto": "6b5cce108e4d8b51d7b6f3afd617c8dd2e1684b9604120a9e6a6cfb29a982690",
  "hashes_response_path": "docs/analyses/cobre/AUDITORIA_SOL_COBRE_HASHES_RESPONSE_R1.json",
- "sha256_do_hashes_response": "0919ae7cfbb7b81e4268d1eaf3dba1615e164dfa403a2cde634fbb49eb8b7dd7",
- "hashes_response_commit": "30f52a18dd0aac074d45593b2a537c7eec5a9f87",
+ "sha256_do_hashes_response": "45fc240904c439d9c5be7891234253e33f8a3eb67c4bb35c01c3b69bad05cafe",
  "alvo_commit": "06a38348e8b8eb00ca129d5fc067f6938ae053b9",
- "atualizado_utc": "2026-11-25T01:00:48+00:00",
- "instrucao_ao_auditor": "Leia o manifesto no manifest_commit, confira sha256_do_manifesto, depois HASHES_RESPONSE, e só então as fontes no alvo_commit. O repositório é público."
+ "atualizado_utc": "2026-11-25T01:01:20+00:00",
+ "instrucao_ao_auditor": "Leia o manifesto no manifest_commit e confira sha256_do_manifesto; leia o HASHES_RESPONSE no mesmo commit e confira sha256_do_hashes_response; então abra cada fonte no alvo_commit. O repositório é público."
 }
