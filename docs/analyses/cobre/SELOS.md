@@ -18,9 +18,9 @@ Os pares anteriores foram retirados da árvore e continuam no git — o commit d
 um está na tabela. `git show <commit>:<arquivo>` recupera o byte, e o sha256 abaixo
 confere se o que veio é o mesmo.
 
+| `d7ab7764` | `d4f2fd62393912e4…` | `a9267386042fb35a…` | 2026-11-25T20:20:00Z | `(este commit)` |
 | alvo_commit | sha256 do manifesto | sha256 da resposta | data | commit do par |
 |---|---|---|---|---|
-| `d7ab7764` | `85c2970e4ee6f305…` | `36a23a19578ce2f8…` | 2026-11-25T19:45:00Z | `(este commit)` |
 | `8fc03584` | `2128a060530e684d…` | `34e018bcb136afb6…` | 2026-11-25T16:22:09Z | `d226975c5d34` |
 | `3fd33c3b` | `a7ad27d7d0115450…` | `c5629e1d6efd038f…` | 2026-11-25T16:02:57Z | `7d2db6d28b76` |
 | `b6c882f7` | `72f2a0d41ca34721…` | `a0983e90f38ae905…` | 2026-11-25T16:01:51Z | `91dc854310f3` |
