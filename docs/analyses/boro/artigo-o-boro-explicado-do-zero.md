@@ -408,12 +408,24 @@ mais pesou no modelo"**, não "93% de chance de câncer".
 glossário deste artigo diz isso. Ele importa por outra razão: é o único indicador desta
 seção que **aponta para o resíduo como origem do dano potencial**. Os autores atribuem o
 resultado ao ácido bórico e ao bórax presentes **nas aparas, nos cortes e nos colmos
-descartados** [19]. Os mesmos autores registram que os produtos químicos estão
-presentes **nas aparas e cortes, nos colmos descartados e na água residuária** —
-mas o texto que tenho **não decompõe** quanto do HCT vem de cada fluxo. Dizer que o
-efluente "fica fora" seria inferência minha, não leitura da fonte: **o que a fonte
-permite afirmar é que os 91% foram atribuídos às aparas, aos cortes e aos colmos
-descartados**; quanto pesa a água residuária, a fonte consultada não discrimina.
+descartados** [19]. Mas a **Tabela 2** do estudo discrimina sim cada fluxo, e vale
+olhar os números dela — é a tabela que desmonta a intuição de que o problema está na
+tina.
+
+Na categoria HCT, somando 1 kg de colmo tratado (**0,159 mPt** no total):
+
+| Fluxo | mPt | % do total |
+|---|---|---|
+| Resíduo de bambu (aparas e cortes) | 0,0742 | **46,7%** |
+| Colmo descartado | 0,0731 | **46,0%** |
+| Ácido bórico (insumo) | 0,00554 | 3,5% |
+| Bórax (insumo) | 0,00421 | 2,7% |
+| Efluente (água residuária) | 0,00231 | **1,5%** |
+| Fertilizante e calagem | 0,00004 | 0,02% |
+
+**O resíduo sólido responda por 92,6% do HCT; o efluente, por 1,5%.** É por isso que
+o problema não é a tina: é **onde a apara vai parar**. O efluente entra na conta do
+impacto total — não nos 91%, mas existe e está medido.
 
 **A leitura honesta, então, é esta:**
 
@@ -923,6 +935,62 @@ prescrito** para a apara de bambu tratado. Enquanto ninguém responder, a respos
 prática é dada por quem descarta, no quintal.
 
 
+## 19. O boro não é minerado: ele vem junto
+
+Falta a este texto uma peça que muda a leitura de tudo o que veio antes. **O boro quase nunca é o motivo de uma mina existir.** Ele entra no mercado como subproduto — e é essa condição que explica, ao mesmo tempo, por que ele é barato, por que ninguém o regula e por que os danos que a cadeia dele causa nunca aparecem no nome dele.
+
+### O que a geologia impõe
+
+Boro, lítio e arsênio não se encontram por acaso na mesma rocha. **Eles são o mesmo sistema geológico.** Nas salmouras da Puna andina, lítio e boro são o produto da mesma evaporação; na Anatólia ocidental, o depósito de colemanita é o mesmo que eleva o arsênio do solo e do lençol.
+
+Isso não é detalhe de mineralogia. É o mecanismo pelo qual **os passivos de uma cadeia viram custo de outra**.
+
+### O caso que mede isso: Emet e Kırka, na Turquia
+
+A Turquia tem a maior reserva de bórax do mundo. E o que se mede lá, quando se mede:
+
+- O **efluente da mina de Kırka** é um problema de **arsênio**, não de boro: 49 µg/L na entrada, 21,8 µg/L depois de um leito construído, com o objetivo declarado de proteger a água de consumo [24].
+- Em **Emet**, o depósito de colemanita é justamente o que explica a **concentração de arsênio no solo e no lençol** — a causalidade corre do boro para o arsênio.
+- Em **regiões de mineração de boro na Turquia**, o que se remove da água é **arsênio e boro juntos**.
+- No **riacho de Emet**, o que se mede é **arsênio e boro no mesmo sedimento e no tecido dos peixes** — ninguém mede um só.
+
+**A consequência é direta:** quem compra boro compra a cadeia que produz arsênio como passivo. O boro é a parte limpa do problema.
+
+### O caso que não se mede: os salares andinos
+
+No Salar de Atacama, o que há de estudo é sobre **água** e **lítio**: milhões de toneladas de água retiradas de uma região árida, biota afetada, espécies que só existem ali, comunidades atacamenhas [30]. No Salar del Hombre Muerto, o que se modela é o **impacto hidrológico da mineração de lítio**.
+
+**O boro aparece nesses trabalhos como co-produto, e não como objeto.** Não existe, nas fontes que localizei, um único estudo de impacto da mineração de boro nos Andes — porque não existe mineração de boro nos Andes como atividade principal.
+
+### A China: a política existe, e o boro não está nela
+
+Aqui a pergunta que fizemos tinha resposta, e não é a esperada. **A China tem política ambiental forte para mineração**: Lei de Avaliação de Impacto Ambiental (com três níveis de estudo conforme o impacto potencial), Lei de Recursos Minerais, imposto ambiental, e uma **Lei de Conservação Ecológica do Planalto Qinghai-Tibete**.
+
+E ela funciona o suficiente para **expor o próprio problema**. Em dezembro de 2023, o ministério do meio ambiente chinês publicou a inspeção da Bacia de Qaidam, onde estão 33 salares:
+
+- sobreprodução de **78,8% / 70,7% / 57,9% / 84,1%** acima da licença entre 2019 e 2022;
+- capacidade construída de **500 mil toneladas** numa licença de **3,8 vezes menos**;
+- **1,28 milhão de mu** de tanques de sal sem estudo de impacto e sem licença de uso do solo;
+- **126 milhões de m³** de salmoura retirados ilegalmente;
+- cerca de **2,5 milhões de mu** de terreno ocupado ilegalmente, incluindo 4.086 mu de pastagem natural.
+
+**E a palavra "boro" não aparece nenhuma vez nesse documento.** Zero. A inspeção trata de potássio, de lítio, de salmoura, de água, de pastagem. O boro de Da Qaidam está fora do documento que fiscaliza Da Qaidam.
+
+### O que isso significa junto
+
+Junte as quatro peças e o padrão fica nítido:
+
+1. **O boro é co-produto** — do lítio nos Andes, do potássio e do sódio na China. Como ninguém o extrai sozinho, ninguém o fiscaliza sozinho.
+2. **O passivo mais grave da cadeia tem outro nome** — arsênio na Turquia, água e lítio nos Andes, potássio e salmoura na China. O boro não aparece no nome de nenhum dos três.
+3. **O que se mede é o que se regula.** Como o boro não é o objeto do estudo nem da inspeção, ele também não é o objeto da norma.
+4. **A ausência de norma não é descuido: é consequência estrutural.** Não existe lacuna a preencher com boa vontade; existe um produto que atravessa quatro ordenamentos jurídicos sem que nenhum deles o nomeie.
+
+**É por isso que a pergunta deste artigo — "quem regula a apara de bambu tratada com boro?" — não tem resposta em lugar nenhum do mundo.** Não é que ninguém tenha pensado. É que o boro nunca foi o sujeito da cadeia, em nenhum país.
+
+> **O que esta seção não sabe.** Os três estudos que fechariam o argumento estão fora de alcance: o de arsênio e boro na água de Emet, o de arsênio e boro no riacho e no tecido dos peixes, e o de geoquímica da salmoura da Puna. Os títulos bastam para afirmar que **a co-ocorrência existe e é medida**; não bastam para dizer **em que concentração**. E a única ligação direta entre boro e contaminação de aquíferos na Argentina é uma **citação de jornal de 2011** dentro de um artigo de geografia: não é medição com método, e por isso não entra como dado aqui.
+
+---
+
 ## Glossário
 
 As unidades vêm primeiro, porque é nelas que mora a maior parte das confusões.
@@ -1173,9 +1241,12 @@ Repr. cat. 2, **classificação superada** pelo CLP vigente.*
 ingerir).*
 
 **[7]** AGENCY FOR TOXIC SUBSTANCES AND DISEASE REGISTRY. *Toxicological Profile for
-Boron*. Atlanta: ATSDR, 2026. (TP-26). — *MRL oral agudo e intermediário de 0,2 mg
-B/kg/dia; MRL de inalação agudo de 0,3 mg B/m³; fator 66 decomposto; **não derivou MRL
-oral crônico**, por decisão declarada.*
+Boron*. Atlanta: ATSDR, **novembro de 2010**. — *MRL oral agudo e intermediário de
+0,2 mg B/kg/dia; MRL de inalação agudo de 0,3 mg B/m³; fator 66 decomposto; **não
+derivou MRL oral crônico**, por decisão declarada. **Ressalva interna:** a p. 16
+chama 0,01 mg/m³ de "MRL de inalação agudo", em conflito com 0,3 mg/m³ nas pp. 13 e
+15 — o conflito é do documento, não da leitura, e por isso só os 0,3 entram como
+valor formal.*
 
 **[8]** NATIONAL INSTITUTES OF HEALTH. Office of Dietary Supplements. *Boron — Health
 Professional Fact Sheet*. Bethesda: NIH, 2026. — *"Não classificado como nutriente

@@ -17,8 +17,8 @@ complementa: 00-estado-da-questao-boro.md §5.1
 
 # Importação brasileira de boro — série 1997–2026 por NCM
 
-> **Síntese.** O Brasil importou **487.185 t** de produtos de boro em 2025, por
-> **US$ 225,8 milhões** FOB — cerca de **4,4 vezes a massa e 6,3 vezes o valor de
+> **Síntese.** O Brasil importou **487.339 t** de produtos de boro em 2025, por
+> **US$ 230,0 milhões** FOB — cerca de **4,4 vezes a massa e 6,3 vezes o valor de
 > 1997**. Não há produção nacional de boratos declarada à USGS — o que **não**
 > prova que todo o boro consumido entre pelo porto: importação de produto não é
 > consumo, e reexportação e estoque não são descontados. E entra, em quase quatro quintos do valor, de **vizinhos
@@ -143,7 +143,7 @@ outubro, dez meses.
 | 28499010 | Carbonetos de boro | 132 | 1,9 M | 0,84% | 14,732 |
 | 28500010 | Nitreto de boro | 18 | 1,7 M | 0,76% | 99,355 |
 | 28100090 | Óxidos de boro e outros ácidos bóricos | 195 | 0.7 M | 0,29% | 3,428 |
-| 28045000 | Boro elementar | 5 | 0,5 M | 0,21% | 102,284 |
+| 28045000 | Boro; telúrio (código conjunto) | 5 | 0,5 M | 0,21% | 102,284 |
 | 28403000 | Peroxoboratos (perboratos) | 119 | 0,5 M | 0,20% | 3,797 |
 | 28401100 | Tetraborato dissódico anidro | 199 | 0.3 M | 0,15% | 1,712 |
 
@@ -183,7 +183,7 @@ de t) e perde em valor (21,2%), porque seu mineral entra a US$ 0,247/kg. A
 **Argentina** faz o contrário: menos massa, mais dinheiro, a US$ 0,456/kg. **A
 Bolívia é o minério; a Argentina é o intermediário.**
 
-**Movimento recente — participação no valor FOB do ano (massa entre parênteses):**
+**Movimento recente — participação no valor FOB do ano (massa entre parênteses). A porcentagem é de VALOR; o parêntese é MASSA.**
 
 | Origem | 2024 | 2025 | 2026 (10 meses) |
 |---|---|---|---|
@@ -191,11 +191,12 @@ Bolívia é o minério; a Argentina é o intermediário.**
 | Bolívia | 24,7% (201 kt) | 22,2% (170 kt) | 17,3% (80 kt) |
 | Chile | 20,2% (68 kt) | 15,7% (48 kt) | 11,4% (24 kt) |
 | Turquia | 11,8% (38 kt) | 17,0% (78 kt) | **30,4% (127 kt)** |
-| Estados Unidos | 8,5% (21 kt) | 7,7% (22 kt) | 3,0% (5 kt) |
+| Estados Unidos | 8,5% (21 kt) | 7,7% (22 kt) | 1,8% (5 kt) |
 
-**A Turquia multiplicou por três a massa embarcada ao Brasil entre 2025 e os dez
-primeiros meses de 2026** (78 kt → 127 kt), e no mesmo intervalo a Bolívia caiu
-de 170 kt para 80 kt. Isso é dado de comércio observado, não projeção. Não há,
+**A Turquia aumentou 62% a massa embarcada ao Brasil entre 2025 e os dez primeiros
+meses de 2026** (78,5 kt → 127,4 kt), e no mesmo intervalo a Bolívia caiu de 170 kt
+para 80 kt. Em valor, a fatia turca foi de **17,0% para 30,4%** — cresceu mais em
+valor do que em massa, o que indica produto mais refinado, não só mais volume. Isso é dado de comércio observado, não projeção. Não há,
 nesta gaveta, fonte custodiada que explique a causa (contrato, nova rota,
 reabertura de mina) — e portanto **não se afirma causa**. O que se afirma: a
 concentração sul-americana, que era estável por quinze anos, **começou a mudar
@@ -253,7 +254,7 @@ afirmação de consumo:
 | Bórax anidro | 21,5% | 4 B / 201,2 g/mol |
 | Ulexite / colemanita (minério) | 10–17% | teor mineral, sem correção de ganga |
 
-Aplicando ao total de 2025 (487.185 t de produto), com a faixa 11–17,5%:
+Aplicando ao total de 2025 (487.339 t de produto), com a faixa 11–17,5%:
 **~54 a ~85 mil toneladas de boro elementar** entraram no país em 2025. Para 1997
 (111.621 t): ~12 a ~20 kt de B.
 
@@ -267,7 +268,7 @@ demonstrado**, e aplicá-la ao total mistura produtos de naturezas diferentes:
   série não informa.
 
 Sem discriminação de produto e teor, os dados oficiais sustentam a **massa
-comercial importada** (487.185 t em 2025) — não um intervalo de boro elementar.
+comercial importada** (487.339 t em 2025) — não um intervalo de boro elementar.
 A conversão serve para ordem de grandeza, com esta ressalva anexada.
 
 ---

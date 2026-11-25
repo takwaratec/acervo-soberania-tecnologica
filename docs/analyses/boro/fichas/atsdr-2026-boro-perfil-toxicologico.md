@@ -1,9 +1,9 @@
 ---
 tipo_documental: norma-ou-regulamento
-titulo: "Perfil toxicológico do boro — níveis mínimos de risco oral e inalatório"
+titulo: "Perfil toxicológico do boro — níveis mínimos de risco oral e inalatório (edição de novembro de 2010)"
 titulo_original: "Toxicological Profile for Boron"
 autores: "Agency for Toxic Substances and Disease Registry (ATSDR)"
-ano: 2026
+ano: 2010
 instituicao: ATSDR — U.S. Department of Health and Human Services
 serie: TP-26, 248 páginas
 estado_documental: em-revisao-documental
@@ -18,6 +18,14 @@ fonte_primaria: PDF integral custodiado (10.520.081 b) + 12 capítulos + extraç
 ---
 
 # Boro — as réguas toxicológicas do ATSDR
+
+> **Ressalva de edição e de conflito interno.** A capa da cópia custodiada diz
+> **novembro de 2010** — esta ficha nasceu datada de 2026 por erro de leitura, ora
+> corrigido. E o próprio documento se contradiz: a **p. 16** chama **0,01 mg B/m³**
+> de "MRL de inalação de duração aguda", enquanto as **pp. 13 e 15** estabelecem
+> **0,3 mg B/m³**. Os dois números não podem ser o mesmo MRL. Esta ficha adota o
+> **0,3 mg/m³** como valor formal, porque é o que aparece na síntese e na derivação,
+> e registra o 0,01 como **inconsistência da fonte**, não como MRL.
 
 > **Síntese.** O ATSDR deriva dois **níveis mínimos de risco (MRL)** orais de
 > **0,2 mg B/kg/dia** — um agudo (1–14 dias) e um de duração intermediária — e um MRL
