@@ -1,0 +1,6 @@
+---
+tipo_documental: fonte-primaria-privada
+estado_documental: em-revisao-documental
+responsavel_curadoria: Fabio F. Resck
+---
+ Untitled Document TRATAMENTO COM BÓRAX Uma das possibilidades para o tratamento químico do bambu é a mistura de ácido bórico, borato de sódio (bórax) e água. Estas substâncias devem ser misturadas na proporção 1kg:1kg:100litros, em um tanque ou grande recipiente que possa acolher os bambus, assim como no tratamento por afogamento. É necessária também a retirada dos tímpanos do colmo. A imersão dos colmos deve durar de 8 a 10 dias. Este tipo de tratamento não foi comprovado em pesquisas científicas, apesar de amplamente utilizado. 

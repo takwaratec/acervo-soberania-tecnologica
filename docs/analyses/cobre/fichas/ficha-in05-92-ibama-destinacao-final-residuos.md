@@ -1,0 +1,177 @@
+---
+schema: ACERVO_FICHA_R1
+gaveta: cobre
+frente: COBRE
+estado_documental: em-revisao-documental
+homologacao:
+  tipo: INTERNA
+  autoridade: FABIO
+  data: 2026-11-24
+  instrumento: "instrução direta do soberano no tópico da frente COBRE"
+  transcricao: >
+    "Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.
+    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos
+    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania
+    tecnológica conforme foi instruído."
+  alcance: >
+    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação
+    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.
+    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.
+  auditoria_externa: PENDENTE
+homologacao_automatica: false
+publicacao: docs/analyses/cobre/fichas/
+tipo_documental: ficha-cientifica
+responsavel_curadoria: Fabio F. Resck
+identificador: "sem-doi-registrado"
+---
+
+> **Estado: em revisão documental.** Homologação interna declarada em 2026-11-24
+> (autoridade: FABIO) — declaração do ato, não registro de leitura. Homologação
+> documental para publicação: pendente. O pacote não anexa registro de leitura integral
+> do HTML nem parecer de auditoria externa. Furo material apontado pelo auditor externo
+> é corrigido e publicado na rodada seguinte.
+
+> **Estado: em revisão documental.** Homologação interna declarada em 2026-11-24
+> (autoridade: FABIO) — declaração do ato, não registro de leitura. Homologação
+> documental para publicação: pendente. O pacote não anexa registro de leitura integral
+> do HTML nem parecer de auditoria externa. Furo material apontado pelo auditor externo
+> é corrigido e publicado na rodada seguinte.
+
+
+## 1. O que o documento é
+
+**Instrução Normativa nº 5, do Ibama, de 20 de outubro de 1992**, publicada no DOU de
+21.10.1992. Ela **disciplina os procedimentos** exigidos pela Portaria Interministerial
+292/89: como se registra a empresa, como se registra o produto, como se cadastra a usina,
+como se rotula, e — o que interessa a esta gaveta — **como se destina o resíduo**.
+
+Quinze páginas. Não é norma nova: é o **manual de execução** da Portaria de 1989.
+
+**Como ela apareceu nesta rodada.** Na custódia S11-c, esta Instrução foi declarada
+**pendente**, com o motivo "a página do DOU de 21/10/1992 separada não trazia o ato". Isso
+estava errado: o ato está no DOU daquela data e é hospedado pela ABPM. A pendência foi
+fechada — e ela continha exatamente o que a peça vinha afirmando que não existia.
+
+---
+
+## 2. O que ela estabelece — item por item
+
+### 2.1 A cadeia inteira é definida por empresa — inclusive o "usuário"
+
+> "usuário de preservativos de madeira - toda e qualquer empresa que faça uso de
+> preservativos de madeira em qualquer das etapas de seu processo produtivo, bem como as
+> empresas prestadoras de serviços" (p. 1)
+
+> "comércio de preservativos de madeira - todo estabelecimento comercial que se dedique
+> à compra e venda, no varejo ou atacado, de preservativos de madeira" (p. 1)
+
+A definição de "usuário" do preservativo é **empresa**, e a de comércio é **estabelecimento
+comercial**, inclusive de varejo. Não existe, em nenhuma alínea, uma categoria para a pessoa
+física que compra o produto na loja de agropecuária e trata a peça no quintal. Ele não é
+indústria, não é usina, não é importador, não é comércio e não é usuário — pela definição da
+própria instrução.
+
+### 2.2 O descarte do resíduo existe como obrigação — e mora na bula
+
+O item VIII tem por título, literalmente, **"DA DESTINAÇÃO FINAL DE RESÍDUOS E
+EMBALAGENS"**. É seção própria, não nota de rodapé:
+
+> "o descarte da embalagem e resíduos de preservativos de madeira e ingredientes ativos
+> deverá atender às recomendações técnicas apresentadas na bula, relativas aos processos de
+> destinação final, observadas as exigências dos setores de saúde e meio ambiente" (p. 6)
+
+E o item VI exige que a bula traga essa informação:
+
+> "informações sobre o destino final das embalagens e dos resíduos" (p. 5)
+
+**Este é o achado central desta ficha, e ele tem de ser dito nos termos exatos.** A
+instrução **não fixa** qual é a destinação final: ela **cria a obrigação** — o descarte tem de
+seguir as recomendações da bula — e **delega à bula o conteúdo técnico** dessa destinação, que o
+fabricante redige e o Ibama aprova.
+
+A obrigação está na norma. O **conteúdo** dela é que mora no rótulo. Dizer "a regra não está na
+norma" é impreciso e foi corrigido nesta rodada.
+
+### 2.3 As outras três alíneas do mesmo item
+
+> "é proibida a reutilização de embalagens de preservativos de madeira para outras
+> finalidades" (p. 6)
+
+> "o IBAMA poderá autorizar o reaproveitamento de embalagens de preservativos de madeira
+> pela empresa produtora" (p. 6)
+
+> "os tambores metálicos vazios devem ser amassados, além de terem o seu fundo perfurado,
+> de maneira a torná-los inadequados para qualquer outro acondicionamento de produtos" (p. 6)
+
+O detalhamento é de embalagem: inutilizar tambor, não reutilizar frasco. Sobre o **líquido**
+que sobra do banho, a instrução não tem alínea própria. Se ele cabe na expressão "resíduos de
+preservativos de madeira e ingredientes ativos" é **hipótese de leitura**, não enquadramento
+estabelecido — e fica marcado como hipótese.
+
+---
+
+## 3. Por que isso muda a tese da peça
+
+Até esta custódia, a peça afirmava, em várias passagens, que **ninguém diz o que fazer com a
+sobra**. Isso era falso, e a ficha anterior não tinha como saber: a norma que diz estava
+declarada pendente.
+
+O que se pode afirmar agora, com documento:
+
+1. **Existe obrigação de destinação final** de resíduos de preservativo — item VIII da IN
+   5/92, vigente desde 1992;
+2. **o conteúdo técnico dessa obrigação é delegado à bula** — item VIII "c", combinado com o
+   item VI "h", que exige da bula a informação de destino final;
+3. **a cadeia é definida por empresa** — inclusive o "usuário", "toda e qualquer empresa"
+   (item I, "f"); **não localizei, na instrução, obrigação dirigida ao comprador pessoa
+   física**;
+4. **o art. 4º da Portaria 292/89 dispensa de registro** o preservativo destinado a
+   "experimentação e uso domissanitário".
+
+O que **não** se afirma, e é onde esta ficha se contém: não se afirma que o produto dispensado
+de registro **não tenha** bula. Os documentos não dizem isso. A ficha registra a dispensa de
+registro e a exigência de bula no regime que a instrução disciplina; **a ponte entre as duas
+coisas é pergunta aberta**, não achado.
+
+Com essa contenção, o que sobra continua sendo o ponto: a norma aponta para o rótulo, e não
+localizei obrigação escrita para o comprador pessoa física.
+
+---
+
+## 4. O que esta ficha NÃO afirma
+
+- **Não afirma que o banho caseiro de sulfato de cobre para bambu seja "domissanitário".**
+  O termo é da família dos saneantes de uso domiciliar; decidir se abrange tratar material no
+  quintal é interpretação, e não foi feita aqui.
+- **Não afirma que o resíduo do banho esteja coberto pelo item VIII.** A alínea fala de
+  "resíduos de preservativos de madeira e ingredientes ativos"; se o líquido exaurido entra
+  nessa expressão é leitura, não literalidade.
+- **Não afirma que a IN 5/92 esteja em vigor sem alteração.** Ela é de 1992 e não foi
+  revogada por norma que eu tenha localizado; isso é limite da busca, não achado.
+- **Não mediu** se as bulas dos produtos registrados hoje trazem, de fato, a instrução de
+  destinação final que o item VI "h" exige. Ler as bulas dos sete produtos registrados é
+  rodada própria.
+
+---
+
+## 5. Proveniência e limites da custódia
+
+- **Via oficial bloqueada:** `ibama.gov.br/component/legislacao` responde **403** a
+  requisição automatizada (verificado nesta rodada).
+- **Fac-símile usado:** PDF de 15 páginas hospedado pela **ABPM** (associação setorial),
+  com o texto do DOU de 21.10.1992. Bytes preservados, sha256 no cabeçalho e no
+  `MANIFEST_S11D.json`.
+- **Extração:** por página, com marcador `<!-- PAGE: n -->`, para que cada citação desta
+  ficha seja conferível no extrato.
+- **Conferência:** todas as citações desta ficha passaram pelo portão de fidelidade
+  (busca literal no extrato). O número está no relatório da rodada.
+
+---
+
+## Declaração de uso de IA
+
+**Apoio de IA.** Esta ficha foi produzida com apoio de IA (Hermes Agent), que localizou o
+documento, preservou os bytes do original, extraiu o texto com marcador de página, conferiu
+cada citação contra o extrato por busca literal, executou os cálculos e estruturou a
+redação. A seleção interpretativa, a perspectiva e a responsabilidade pela versão publicada
+permanecem com o autor.

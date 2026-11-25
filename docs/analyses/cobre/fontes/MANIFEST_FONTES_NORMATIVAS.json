@@ -1,0 +1,39 @@
+{
+ "schema": "ACERVO_FONTES_NORMATIVAS_R1",
+ "gaveta": "cobre",
+ "data": "2026-11-24",
+ "nota": "Fontes normativas das referências 9, 10 e 12, publicadas byte a byte para o auditor externo. Hash calculado na origem e reconferido no destino.",
+ "total": 5,
+ "fontes": [
+  {
+   "ref": 9,
+   "path": "docs/analyses/cobre/fontes/pdf/BR_CONAMA_430_2011_Efluentes.pdf",
+   "bytes": 158284,
+   "sha256": "cd077d102b9427dcd20dcb8b2a812f0b54945965663c4a21d1667d80b9340da6"
+  },
+  {
+   "ref": 9,
+   "path": "docs/analyses/cobre/fontes/md/BR_CONAMA_430_2011_Efluentes.md",
+   "bytes": 28913,
+   "sha256": "49aead0c608999053bc34de6cde5149098d9428c1dbe1d1babecc1e7a2faa33e"
+  },
+  {
+   "ref": 10,
+   "path": "docs/analyses/cobre/fontes/pdf/BR_CONAMA_357_2005_Qualidade_Aguas.pdf",
+   "bytes": 205937,
+   "sha256": "7ec713c45154ba60ee9e43535580548b98c0bcce4abddef1a9543c46db29e21f"
+  },
+  {
+   "ref": 10,
+   "path": "docs/analyses/cobre/fontes/md/BR_CONAMA_357_2005_Qualidade_Aguas.md",
+   "bytes": 66278,
+   "sha256": "4a8a2b3779ca1d6fbe620fa69891da89153f281c4e7be5c419465342452c3697"
+  },
+  {
+   "ref": 12,
+   "path": "docs/analyses/cobre/fontes/pnrs_art3_XVI.txt",
+   "bytes": 584,
+   "sha256": "3f4d67ba38623ce15e0c2167e6f2e56458d2185dba56bfbe66363842067539c6"
+  }
+ ]
+}
