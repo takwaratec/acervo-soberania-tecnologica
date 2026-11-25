@@ -16,8 +16,11 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 
-REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
-BRANCH = "hermes/cobre-plano-20261124"
+# REPO e BRANCH por variável de ambiente: o script rodava sempre no checkout principal, e
+# reseleiar de dentro de um worktree commitava na branch errada. Aconteceu — e o selo foi para
+# a branch abandonada. Quem chama declara onde está.
+REPO = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
+BRANCH = os.environ.get("COBRE_BRANCH", "hermes/cobre-plano-20261124")
 DIR = "docs/analyses/cobre"
 PT = "ops/command-center/auditoria-atual/COBRE.json"
 
