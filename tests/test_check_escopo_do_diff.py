@@ -74,5 +74,14 @@ class TestEscopo(unittest.TestCase):
         self.assertIn("fetch-depth", r.stdout)
 
 
+    def test_saida_traz_a_base_medida(self):
+        """PR medida contra base velha parece limpa e nao e. A base tem de aparecer na saida."""
+        open(os.path.join(self.d, "docs/analyses/x/a.md"), "w").write("novo\n")
+        git(self.d, "commit", "-aqm", "x")
+        r = self.roda("--permitir", "docs/analyses/x")
+        self.assertEqual(r.returncode, 0, r.stdout)
+        self.assertIn("BASE_SHA=", r.stdout)
+
+
 if __name__ == "__main__":
     unittest.main()
