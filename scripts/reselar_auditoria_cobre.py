@@ -221,6 +221,9 @@ def main():
         txt = _re2.sub(r"\b\d+ referências", f"{_nref} referências", txt)
         txt = _re2.sub(r"\b\d+ fichas anexadas", f"{_nf} fichas anexadas", txt)
         txt = _re2.sub(r"\b\d+ fichas técnicas", f"{_nf} fichas técnicas", txt)
+        txt = _re2.sub(r"\(\d+ fichas\)", f"({_nf} fichas)", txt)
+        txt = _re2.sub(r"\bdas \d+ fichas\b", f"das {_nf} fichas", txt)
+        txt = _re2.sub(r"\b\d+ fichas — hash", f"{_nf} fichas — hash", txt)
         return txt
     def _walk(o):
         if isinstance(o, str):
