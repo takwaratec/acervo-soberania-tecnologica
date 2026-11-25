@@ -28,7 +28,11 @@ estrutura:
 tipo_documental: fonte-primaria-privada
 estado_documental: em-revisao-documental
 responsavel_curadoria: Fabio F. Resck
+sha256_do_pdf: "cd077d102b9427dcd20dcb8b2a812f0b54945965663c4a21d1667d80b9340da6"
+pdf_no_repositorio: false
 ---
+
+> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-documentais/ago_28_Boratos_Cobre/pdf/BR_CONAMA_430_2011_Efluentes.pdf` · sha256 `cd077d102b9427dcd20dcb8b2a812f0b54945965663c4a21d1667d80b9340da6` · 158,284 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 <!-- CANONICAL_CONTENT_BEGIN -->
 
 <!-- PAGE: 1 -->

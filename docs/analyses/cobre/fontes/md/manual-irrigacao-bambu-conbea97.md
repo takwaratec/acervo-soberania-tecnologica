@@ -2,7 +2,11 @@
 tipo_documental: fonte-primaria-privada
 estado_documental: em-revisao-documental
 responsavel_curadoria: Fabio F. Resck
+sha256_do_pdf: "c6cbdd49b1e0d42409374cc254b81b748313e879e194c51cce0e8da43a0d3d6e"
+pdf_no_repositorio: false
 ---
+
+> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/manual-irrigacao-bambu-conbea97.pdf` · sha256 `c6cbdd49b1e0d42409374cc254b81b748313e879e194c51cce0e8da43a0d3d6e` · 104,681 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 <!-- PAGE: 1 -->
  
 1

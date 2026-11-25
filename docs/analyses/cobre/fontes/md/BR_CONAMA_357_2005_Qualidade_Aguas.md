@@ -28,7 +28,11 @@ estrutura:
 tipo_documental: fonte-primaria-privada
 estado_documental: em-revisao-documental
 responsavel_curadoria: Fabio F. Resck
+sha256_do_pdf: "7ec713c45154ba60ee9e43535580548b98c0bcce4abddef1a9543c46db29e21f"
+pdf_no_repositorio: false
 ---
+
+> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-documentais/ago_28_Boratos_Cobre/pdf/BR_CONAMA_357_2005_Qualidade_Aguas.pdf` · sha256 `7ec713c45154ba60ee9e43535580548b98c0bcce4abddef1a9543c46db29e21f` · 205,937 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 <!-- CANONICAL_CONTENT_BEGIN -->
 
 <!-- PAGE: 1 -->

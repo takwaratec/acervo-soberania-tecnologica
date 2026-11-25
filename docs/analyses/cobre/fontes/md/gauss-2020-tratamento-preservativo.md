@@ -2,7 +2,11 @@
 tipo_documental: fonte-primaria-privada
 estado_documental: em-revisao-documental
 responsavel_curadoria: Fabio F. Resck
+sha256_do_pdf: "dfc13c3cfcb9662f75f0704d722258f8e78e07435f0ad70d71e8331ab9d89a1a"
+pdf_no_repositorio: false
 ---
+
+> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-academicas/2020-gauss-tratamento-preservativo-modificacao-quimica/original.pdf` · sha256 `dfc13c3cfcb9662f75f0704d722258f8e78e07435f0ad70d71e8331ab9d89a1a` · 15,291,496 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 === p1 ===
 UNIVERSIDADE DE SÃO PAULO
     FACULDADE DE ZOOTECNIA E ENGENHARIA DE ALIMENTOS

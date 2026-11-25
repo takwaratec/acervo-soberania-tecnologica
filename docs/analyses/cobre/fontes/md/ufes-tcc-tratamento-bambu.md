@@ -2,7 +2,11 @@
 tipo_documental: fonte-primaria-privada
 estado_documental: em-revisao-documental
 responsavel_curadoria: Fabio F. Resck
+sha256_do_pdf: "cad731f98300d50a0233da49efb08247f9115e57e6bf31b4400e9903a1c1f292"
+pdf_no_repositorio: false
 ---
+
+> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/ufes-tcc-tratamento-bambu.pdf` · sha256 `cad731f98300d50a0233da49efb08247f9115e57e6bf31b4400e9903a1c1f292` · 703,401 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 <!-- PAGE: 1 -->
  
 UNIVERSIDADE FEDERAL DO ESPÍRITO SANTO 

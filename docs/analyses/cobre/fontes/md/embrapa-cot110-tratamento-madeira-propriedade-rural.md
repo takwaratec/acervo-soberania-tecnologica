@@ -2,7 +2,11 @@
 tipo_documental: fonte-primaria-privada
 estado_documental: em-revisao-documental
 responsavel_curadoria: Fabio F. Resck
+sha256_do_pdf: "86de88b29be0fef34554121dc7a670f71975cf91ddf3664a422525d6b0fd1485"
+pdf_no_repositorio: false
 ---
+
+> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/embrapa-cot110-tratamento-madeira-propriedade-rural.pdf` · sha256 `86de88b29be0fef34554121dc7a670f71975cf91ddf3664a422525d6b0fd1485` · 5,087,230 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 <!-- PAGE: 1 -->
 Comunicado Técnico
 Tratamento da madeira na propriedade 

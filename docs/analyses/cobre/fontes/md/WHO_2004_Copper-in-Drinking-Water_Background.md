@@ -28,7 +28,11 @@ estrutura:
 tipo_documental: fonte-primaria-privada
 estado_documental: em-revisao-documental
 responsavel_curadoria: Fabio F. Resck
+sha256_do_pdf: "ea53cf69135516258e79fc3c705fa344106f3dca05c7bce4fee16e6515c14fc6"
+pdf_no_repositorio: false
 ---
+
+> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-documentais/ago_28_Boratos_Cobre/pdf/WHO_2004_Copper-in-Drinking-Water_Background.pdf` · sha256 `ea53cf69135516258e79fc3c705fa344106f3dca05c7bce4fee16e6515c14fc6` · 278,146 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 <!-- CANONICAL_CONTENT_BEGIN -->
 
 <!-- PAGE: 1 -->

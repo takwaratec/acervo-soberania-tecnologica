@@ -2,7 +2,7 @@
 schema: ACERVO_FICHA_R1
 gaveta: cobre
 frente: COBRE
-estado_documental: homologado-documentalmente
+estado_documental: em-revisao-documental
 homologacao:
   tipo: INTERNA
   autoridade: FABIO

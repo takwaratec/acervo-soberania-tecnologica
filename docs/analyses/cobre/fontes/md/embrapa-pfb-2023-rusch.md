@@ -2,7 +2,11 @@
 tipo_documental: fonte-primaria-privada
 estado_documental: em-revisao-documental
 responsavel_curadoria: Fabio F. Resck
+sha256_do_pdf: "c394489567bc801af4bb1fa983e397322324f63478aacb035266da8a77264db1"
+pdf_no_repositorio: false
 ---
+
+> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-documentais/ago_28_CCA_CCB/Rusch_2023_CCB_Bambu.pdf` · sha256 `c394489567bc801af4bb1fa983e397322324f63478aacb035266da8a77264db1` · 2,251,942 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 <!-- PAGE: 1 -->
 Pesquisa Florestal Brasileira
 Brazilian Journal of Forestry Research 

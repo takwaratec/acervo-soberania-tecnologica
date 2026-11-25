@@ -2,7 +2,11 @@
 tipo_documental: fonte-primaria-privada
 estado_documental: em-revisao-documental
 responsavel_curadoria: Fabio F. Resck
+sha256_do_pdf: "1015b54bd0053f365efa4281d9f8c8fde35f80d12e6a9e05d3327892a486fd41"
+pdf_no_repositorio: false
 ---
+
+> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/nmba-2006-preservation-bamboo-manual.pdf` · sha256 `1015b54bd0053f365efa4281d9f8c8fde35f80d12e6a9e05d3327892a486fd41` · 744,646 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 <!-- PAGE: 1 -->
 Preservation
 of Bamboo

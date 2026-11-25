@@ -2,7 +2,11 @@
 tipo_documental: fonte-primaria-privada
 estado_documental: em-revisao-documental
 responsavel_curadoria: Fabio F. Resck
+sha256_do_pdf: "f18d888a0db47449e0d20abef91688f19c90adc3a473987f696f0d5d73f982d8"
+pdf_no_repositorio: false
 ---
+
+> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/uftm-scharfenberg-cb-cobre-boro.pdf` · sha256 `f18d888a0db47449e0d20abef91688f19c90adc3a473987f696f0d5d73f982d8` · 2,356,041 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 <!-- PAGE: 1 -->
 Universidade Federal do Triângulo Mineiro 
  

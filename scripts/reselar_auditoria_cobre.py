@@ -113,19 +113,44 @@ def main():
 
     man = json.load(open(os.path.join(REPO, prev), encoding="utf-8"))
 
+    # PDFs saíram do rastreio (governance-check.yml proíbe PDF versionado): o manifesto declara
+    # onde a cópia privada mora, com o mesmo sha256 do byte que estava versionado.
+    custodia = {}
+    _cp = os.path.join(REPO, DIR, "fontes", "CUSTODIA_PRIVADA_PDFS.json")
+    if os.path.exists(_cp):
+        custodia = json.load(open(_cp, encoding="utf-8")).get("pdfs", {})
+
+    def medir(path):
+        """(sha, bytes, no_repositorio, caminho_privado) — do commit quando está versionado,
+        da custódia declarada quando não está."""
+        try:
+            h, n = blob_sha(alvo, path)
+            return h, n, True, None
+        except Exception:
+            c = custodia.get(path)
+            if not c:
+                raise
+            return c["sha256"], c["bytes"], False, c.get("caminho_privado")
+
     # 1) reconferir cada fonte existente no alvo novo
     novas, vistas = 0, set()
     for f in man["fontes"]:
-        h, n = blob_sha(alvo, f["path"])
+        h, n, no_repo, priv = medir(f["path"])
         f["sha256"], f["bytes"] = h, n
+        f["no_repositorio"] = no_repo
+        if priv:
+            f["caminho_privado"] = priv
         vistas.add(f["path"])
 
     # 2) acrescentar as fontes desta rodada
     for path, papel in NOVAS:
         if path in vistas:
             continue
-        h, n = blob_sha(alvo, path)
-        man["fontes"].append({"path": path, "sha256": h, "bytes": n, "papel": papel})
+        h, n, no_repo, priv = medir(path)
+        e = {"path": path, "sha256": h, "bytes": n, "papel": papel, "no_repositorio": no_repo}
+        if priv:
+            e["caminho_privado"] = priv
+        man["fontes"].append(e)
         novas += 1
 
     # 3) metadados
