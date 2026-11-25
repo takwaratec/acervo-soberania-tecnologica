@@ -43,9 +43,11 @@ com revisão por pares feito no Acre mediu que **93% do impacto potencial** daqu
 cadeia artesanal estava na categoria de **toxicidade carcinogênica humana** — num
 indicador de ciclo de vida, não numa taxa de doença —, e que **91% do impacto total da
 cadeia** vinha das **aparas, dos cortes e dos colmos descartados**, não do banho. E o
-resíduo com boro **não está na lista de resíduo perigoso** de nenhuma norma examinada —
-Brasil, China, Índia, Vietnã, Indonésia — **não porque foi julgado inofensivo, mas
-porque não foi avaliado**.
+resíduo com boro **não está na lista de resíduo perigoso** dos instrumentos que esta gaveta
+examinou — a PNRS e a PNMCB, no Brasil, e a inspeção do MEE, na China — **não porque foi
+julgado inofensivo, mas porque não foi avaliado**. Índia, Vietnã e Indonésia não entram nesta
+frase: esta rodada não localizou norma deles na gaveta, e afirmar sobre elas seria afirmar sem
+ter lido.
 
 **O limbo.** A lei de resíduos (2010) define resíduo sólido incluindo líquidos — mas
 **não nomeia bambu nem madeira**. A lei do bambu (2011) tem seis artigos, incentiva
@@ -116,7 +118,8 @@ na balança é um pó branco — ácido bórico, bórax ou outra coisa. O ácido
 > seis vezes menos.
 
 O contrário também vale: para obter 10 g de boro seriam necessários cerca de 57 g de
-ácido bórico. Essa confusão entre **elemento** e **produto** é a origem de metade dos
+ácido bórico. Essa confusão entre **elemento** e **produto** é o que produz erro de dose por um fator
+fixo — quase seis vezes (100 ÷ 17,5) —, e não uma fração qualquer de erros: é o
 números errados que circulam sobre boro.
 
 ## 2. Três nomes que confundem
@@ -211,7 +214,9 @@ tem 87% do boro do mundo" é falso: 950.000 dividido pela soma dos listados dá 
 que a **tabela declara**, não das reservas do planeta.
 
 E o USGS registra: "aos níveis atuais de consumo, **os recursos mundiais são adequados
-para o futuro previsível**" [3]. Não há escassez de boro. Há concentração de fornecedor.
+para o futuro previsível**" [3]. **Aos níveis atuais de consumo**, não há escassez de boro — é o que o USGS afirma sobre
+recursos, e não uma projeção para outro horizonte de consumo. O problema é outro: concentração
+de fornecedor.
 
 ## 5. A dependência brasileira
 
@@ -267,7 +272,8 @@ mil toneladas.** O número de 459,7 mil toneladas é o do conjunto completo.
 Esta é a pergunta que quase todo mundo faz, e a resposta exige uma ferramenta nova:
 a diferença entre **dose** e **perigo**.
 
-Toda substância tem uma dose em que não faz nada e uma dose em que faz mal. Água pura
+O princípio de Paracelso, que a toxicologia adota, é que **toda substância tem uma dose em
+que não faz nada e uma dose em que faz mal** — e é princípio, não medição desta gaveta. Água pura
 mata se você beber o suficiente. A pergunta correta nunca é "é tóxico?" — é
 **"em que quantidade, por qual via, por quanto tempo?"**
 
@@ -812,8 +818,8 @@ Declarar lacunas é parte do método. Estas são reais:
 - **Exposição ocupacional no Brasil.** Nenhuma fonte mede trabalhador de bambu tratado.
 - **Poeira e serragem de bambu tratado.** Zero dados no acervo.
 - **Destino real das aparas no Brasil.** Não há rastreamento documentado.
-- **Volume de bambu tratado descartado.** Nenhum dos cinco países examinados tem número
-  — nem o Brasil.
+- **Volume de bambu tratado descartado.** Nenhum dos países examinados nesta gaveta tem
+  número — nem o Brasil.
 - **A ligação direta entre Linda Garland e Walter Liese** não foi confirmada em fonte
   primária nesta rodada.
 - **Quanta exposição um trabalhador de fábrica de bambu recebe** — nenhuma medição
@@ -880,8 +886,8 @@ e nenhuma delas trata de bambu tratado.
 
 **Na prática:** quem trata bambu com boro na própria casa ou na cooperativa **não tem
 uma norma específica sobre bambu para descumprir** — não localizei nenhuma nos
-instrumentos examinados, e a busca foi sobre a PNRS, a PNMCB e a NBR 10004, não sobre
-todo o ordenamento brasileiro. A afirmação correta é **"não localizei disciplina
+instrumentos examinados, e a busca foi sobre a PNRS e a PNMCB — a NBR 10004 **não** foi
+examinada, por falta de cópia custodiada —, não sobre todo o ordenamento brasileiro. A afirmação correta é **"não localizei disciplina
 específica"**, não "não existe". Se quem trata **cumpre** as obrigações gerais de
 resíduo (acondicionamento, destinação adequada, eventual Plano de Gerenciamento) **é
 outra pergunta, e esta gaveta não a mediu.** O que as fontes mostram é ausência de
@@ -892,8 +898,10 @@ disciplina específica nos instrumentos examinados, não ausência de obrigaçã
 - **ANVISA** regula a água boricada a 3% como antisséptico [6] — o produto, não o resíduo;
 - **MAPA** responde por insumo agrícola;
 - **ICMBio** responde por unidade de conservação — e **é aí que está o risco real**;
-- o **município** responde pelo resíduo domiciliar [27], mas não tem como caracterizar
-  apara de bambu como perigosa, porque a NBR 10004 não a lista [14].
+- o **município** responde pelo resíduo domiciliar [27], mas a caracterização de
+  periculosidade depende da **NBR 10004** — que esta gaveta **não examinou**, porque não tem
+  cópia custodiada dela. O que se pode afirmar é só isto: a apara tratada não é listada pela
+  PNRS nem pela PNMCB [27][28], e sobre a NBR este texto não afirma nada.
 
 
 
@@ -993,7 +1001,7 @@ prática é dada por quem descarta, no quintal.
 
 ## 19. O boro não é minerado: ele vem junto
 
-Falta a este texto uma peça que muda a leitura de tudo o que veio antes. **O boro quase nunca é o motivo de uma mina existir.** Ele entra no mercado como subproduto — e é essa condição que explica, ao mesmo tempo, por que ele é barato, por que tende a não ser regulado como sujeito próprio, e por que os danos que a cadeia dele causa raramente aparecem no nome dele.
+Falta a este texto uma peça que muda a leitura de tudo o que veio antes. **Na maior parte das cadeias que esta gaveta examinou, o boro não é o motivo de a mina existir** — ele vem junto. **A exceção é real e está declarada:** onde há mina de borato, como a ulexita andina e a colemanita turca, o boro é o produto, e não o co-produto [3]. Ele entra no mercado como subproduto — e é essa condição que explica, ao mesmo tempo, por que ele é barato, por que tende a não ser regulado como sujeito próprio, e por que os danos que a cadeia dele causa raramente aparecem no nome dele.
 
 ### O que a geologia impõe
 
@@ -1016,7 +1024,7 @@ A Turquia tem a maior reserva de bórax do mundo. E o que se mede lá, quando se
 
 No Salar de Atacama, o que há de estudo é sobre **água** e **lítio**: milhões de toneladas de água retiradas de uma região árida, biota afetada, espécies que só existem ali, comunidades atacamenhas [30]. No Salar del Hombre Muerto, o que se modela é o **impacto hidrológico da mineração de lítio**.
 
-**O boro aparece nesses trabalhos como co-produto, e não como objeto.** Não existe, nas fontes que localizei, um único estudo de impacto da mineração de boro nos Andes — porque não existe mineração de boro nos Andes como atividade principal.
+**O boro aparece nesses trabalhos como co-produto, e não como objeto.** Não localizei, nas fontes desta gaveta, um único estudo de impacto da mineração de boro nos Andes. **Isso não quer dizer que não haja extração de borato lá:** o USGS registra produção de ulexita e boratos na Argentina, no Chile e na Bolívia [3]. O que não localizei foi o **estudo de impacto** dessa extração — e a diferença entre "não há extração" e "não achei o estudo" é a diferença entre um fato e uma lacuna minha.
 
 ### A China: a política existe, e o boro não está nela
 
@@ -1047,7 +1055,7 @@ Junte as quatro peças e o padrão fica nítido **no corpus que esta seção exa
 **O que esta seção examinou, nominalmente** — e o que ela não examinou:
 
 - **Quatro cadeias:** o borato turco (Kırka e Emet); a salmoura andina de lítio e boro (Salar de Atacama e Salar del Hombre Muerto); o potássio e o lítio de Qaidam, na China; e o bambu tratado — esta última pela literatura científica e pelos ensaios, não por norma.
-- **Três ordenamentos com documento de fiscalização examinado:** o **brasileiro**, e apenas nos instrumentos citados no corpo (PNRS, PNMCB, NBR 10004); o **chinês**, pela inspeção do MEE na Bacia de Qaidam, de dezembro de 2023; e o **turco**, por estudos de efluente e de arsênio — não por norma.
+- **Três ordenamentos com documento examinado:** o **brasileiro**, e apenas a PNRS e a PNMCB (a **NBR 10004 não foi examinada**: não há cópia custodiada); o **chinês**, pela inspeção do MEE na Bacia de Qaidam, de dezembro de 2023; e o **turco**, por estudos de efluente e de arsênio — não por norma.
 - **Normas técnicas internacionais** — OMS, ATSDR, NIOSH, EMA — usadas para dose e limite de exposição, não para competência de fiscalização.
 - **Fora do corpus, e sobre o que esta gaveta não afirma nada:** os demais países produtores ou consumidores; a União Europeia como ordenamento de resíduo; qualquer outra bacia, salar ou cadeia de bambu.
 
@@ -1565,9 +1573,9 @@ homologação também.
 
 **O que foi efetivamente conferido — número, e não promessa.** A verificação numérica foi
 medida por gate próprio, afirmação por afirmação, com registro auditável arquivado ao lado
-do texto. O resultado: **62 das 287 afirmações numéricas do corpo foram conferidas** pelo
-instrumento contra a fonte custodiada. Outras **18 têm estatuto declarado** e não precisam de
-citação célula por célula: 10 em nota de tabela, 6 de cálculo aritmético e 2 de resumo de
+do texto. O resultado: **62 das 289 afirmações numéricas do corpo foram conferidas** pelo
+instrumento contra a fonte custodiada. Outras **20 têm estatuto declarado** e não precisam de
+citação célula por célula: 10 em nota de tabela, 8 de cálculo aritmético e 2 de resumo de
 fonte já nomeada. **207 não foram medidas** — 124 porque a afirmação não traz citação nem
 estatuto, 36 porque a unidade está fora do vocabulário do instrumento (ele não lê `mg/L`,
 `mg/m³` nem `mg B/kg/dia`), 23 porque a obra citada não tem arquivo custodiado nesta gaveta,
@@ -1587,10 +1595,13 @@ achou o erro de fonte deste texto: o `21,8 µg/L` do efluente de Kırka estava c
 [24], que é artigo de bambu; o dado é de Türker (2016), agora [31]. E os números da inspeção
 chinesa de Qaidam estavam sem entrada bibliográfica: agora são [32].
 
-Das oito fontes custodiadas para o cenário internacional, **duas foram lidas integralmente**
-(a portaria de inspeção do ministério do meio ambiente chinês e o resumo de Gao et al. sobre
-isótopos de boro em Da Qaidam); as outras **seis foram lidas por resumo e por busca de
-termo**, não página por página.
+**Não há leitura integral confirmada de nenhuma fonte, e isso está medido:** 0 de 32
+referências têm artefato de leitura integral arquivado. O que esta gaveta fez foi abrir as
+páginas que cada afirmação exigia. Um relato anterior dizia "duas de oito lidas integralmente"
+— a portaria chinesa e um resumo de Gao et al. sobre isótopos de boro em Da Qaidam —, mas ele
+não nomeava o resumo com entrada bibliográfica e não guardou artefato; por isso não conta, e a
+entrada de Gao **não está nesta bibliografia**. Quem quiser usá-la precisa custodiá-la e citá-la
+como [33], com ficha.
 
 **Onde os arquivos estão.** As fichas técnicas de cada obra da bibliografia, com avaliação
 crítica e limites, estão em `docs/analyses/boro/fichas/`. As fontes primárias custodiadas,

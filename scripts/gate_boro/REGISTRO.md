@@ -251,3 +251,52 @@ diff fora do escopo desta OS):
 | Ficha | Origem (autor/instituição) | Ano | Estado |
 |---|---|---:|---|
 | `niosh-mheta-80-109-borax-boron-california-1983.md` | NIOSH / University of Southern California | 1983 | em-revisao-documental |
+
+---
+
+## R13 — auditoria do conteúdo, e sete afirmações que não se sustentavam (2026-11-25)
+
+Escopo: o conteúdo da main em `ffac50b6`, não o selo (declaradamente órfão na ocasião).
+Veredito do auditor: **a seção 19 foi delimitada com honestidade e a tabela dos quatro estados
+passa sem divergência**; o que ele achou foram afirmações gerais e rastreabilidade de corpus.
+
+**Corrigidas neste commit, uma por uma, com o motivo:**
+
+| # | Onde | O que afirmava | Por que caiu | Como ficou |
+|---|---|---|---|---|
+| 1 | §1, l. 119 | "a origem de **metade** dos números errados" | quantificador sem corpus definido | virou o fator que se mede: **erro por quase seis vezes (100 ÷ 17,5)** |
+| 2 | §6, l. 270 | "**Toda** substância tem uma dose…" | universal sem atribuição | atribuído ao **princípio de Paracelso**, e declarado princípio, não medição desta gaveta |
+| 3 | §4, l. 214 | "**Não há escassez** de boro" | ampliava a frase do USGS, que fala de níveis atuais de consumo | "**aos níveis atuais de consumo** (…) e não uma projeção para outro horizonte" |
+| 4 | §5, l. 46 | resíduo fora da lista perigosa de "**Brasil, China, Índia, Vietnã, Indonésia**" | não há norma de Índia, Vietnã e Indonésia na gaveta | reduzido à PNRS, à PNMCB e à inspeção do MEE; **as três ficaram declaradas como não lidas** |
+| 5 | §14, l. 815 | "**cinco países** examinados" | mesmo defeito, sem lista | "países examinados nesta gaveta" |
+| 6 | §19, l. 996 | "o boro **quase nunca** é o motivo de uma mina existir" | o USGS registra produção de borato (ulexita, colemanita) onde o boro **é** o produto | virou "na maior parte das cadeias examinadas", **com a exceção declarada e citada** |
+| 7 | §19, l. 1019 | "**não existe** mineração de boro nos Andes" | o USGS lista produção andina; o que falta é o estudo de impacto, não a extração | "não localizei **o estudo**"; a diferença entre "não há extração" e "não achei o estudo" está escrita |
+
+**Dois defeitos de citação, que valem mais que os sete de redação:**
+
+- **NBR 10004 atribuída a [14].** A [14] é documentação da Environmental Bamboo Foundation — não
+  é a norma. E a NBR 10004 **não tem cópia custodiada** nesta gaveta: nenhuma entrada
+  bibliográfica, nenhum arquivo. O texto passou a dizer que **a NBR não foi examinada**, e a §19
+  deixou de listá-la entre os instrumentos examinados. *Norma não lida não sustenta afirmação
+  sobre o que ela lista.*
+- **"Duas de oito lidas integralmente".** Esta frase, no método, contradizia o `0 de 32` que o
+  próprio texto agora mede. Foi substituída pela medição, e o resumo de **Gao et al.** — que ela
+  nomeava — **não está na bibliografia**: quem quiser usá-lo precisa custodiá-lo e citá-lo como
+  [33], com ficha. Não criei a entrada; não há fonte na gaveta.
+
+**Um achado de integridade na custódia, que era real:**
+
+O R13 mediu o manifesto do ComexStat contra os 52 arquivos que ele mesmo lista: **48 conferiam,
+4 não** — os quatro CSV. Não era corrupção: os CSV foram regerados quando a série de dez NCMs
+foi derivada (§7-bis), e o manifesto ficou com o hash velho. **Verifiquei antes de rehashar:**
+a coluna `fob_usd`/`kg` de 2024 nos CSV fecha exatamente com os JSONs brutos —
+**209.462.631 e 459.722.221**. O manifesto foi atualizado com data, com o hash anterior
+preservado e com a razão; recontado: **52 de 52 conferem**.
+
+**E um defeito de instrumento:** `reproduzir_comexstat.py` só achava o bruto relativo à raiz do
+repo, e a gaveta vive fora do worktree — o comando falhava no primeiro uso de quem clonasse.
+Passou a resolver por `--bruto`, por `$ACERVO` e por caminho absoluto do acervo, nessa ordem.
+
+**Denominador depois destas correções:** M **287 → 289**, `CONFERE` **62**, `DERIVACAO_DECLARADA`
+**6 → 8** (as duas contas que substituíram quantificadores vagos), `NAO_MEDIDO` **207**,
+`TABELA_COM_NOTA` **10**, `RESUMO` **2**, `AUSENTE` **0**.

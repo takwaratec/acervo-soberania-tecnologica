@@ -28,11 +28,11 @@
  },
  "O contrário também vale: para obter 10 g de boro seriam nece": {
   "secao": "1. O que é um \"elemento químico\"",
-  "total": 2,
+  "total": 4,
   "confere": 0,
-  "nao_medido": 2,
+  "nao_medido": 4,
   "ausente": 0,
-  "com_estatuto": 2,
+  "com_estatuto": 4,
   "veredito": "ESTATUTO_DECLARADO"
  },
  "| Nome | Fórmula | Boro na massa (%) | O que é | |---|---|--": {
@@ -789,7 +789,7 @@
   "ausente": 0,
   "veredito": "SEM_AFIRMACAO_NUMERICA"
  },
- "Toda substância tem uma dose em que não faz nada e uma dose ": {
+ "O princípio de Paracelso, que a toxicologia adota, é que **t": {
   "secao": "?",
   "total": 0,
   "confere": 0,
