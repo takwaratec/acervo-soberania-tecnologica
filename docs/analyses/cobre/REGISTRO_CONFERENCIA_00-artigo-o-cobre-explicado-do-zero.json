@@ -1,7 +1,7 @@
 {
  "schema": "ACERVO_REGISTRO_CONFERENCIA_CITACOES_R1",
  "artefato": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
- "sha256_artefato": "915477601b9b2687c53834250c78a4e62e9559b4073a7d5a2e8e5a8e62e34db6",
+ "sha256_artefato": "cd5d88a3269a8fbacb27a396cbd255cee9dfcc1aa0f5a809fb15d30f9e2a3a0f",
  "data": "2026-11-24",
  "regra_do_denominador": "unidade = cada linha iniciada por '>' no artefato, com 40 caracteres ou mais; denominador contado ANTES da medição e não recontado depois",
  "instrumento": "scripts/registro_conferencia_citacoes.py",
@@ -49,7 +49,7 @@
    "pagina": null
   },
   {
-   "linha": 40,
+   "linha": 41,
    "trecho": "Depois que o bambu sai do tanque de tratamento, o que acontece com a água que sobra?",
    "chars": 84,
    "veredito": "NAO_MEDIDO",
@@ -58,7 +58,7 @@
    "pagina": null
   },
   {
-   "linha": 69,
+   "linha": 70,
    "trecho": "Por que esses quatro — O primeiro explica o que a substância é. O segundo explica por que quase toda conta de dosagem feita em casa está errada. O terceiro e o quarto são o problem",
    "chars": 214,
    "veredito": "NAO_MEDIDO",
@@ -67,7 +67,7 @@
    "pagina": null
   },
   {
-   "linha": 141,
+   "linha": 142,
    "trecho": "A analogia que resolve — Imagine que você compra um saco de farinha com fermento já misturado. Se a receita pede fermento, você não joga o saco inteiro — você calcula quanto de fer",
    "chars": 294,
    "veredito": "NAO_MEDIDO",
@@ -76,7 +76,7 @@
    "pagina": null
   },
   {
-   "linha": 202,
+   "linha": 203,
    "trecho": "O erro que quase todo texto comete aqui — Misturar peso com valor. A China responde por 80,4% do peso e por 48,3% do valor. Se alguém disser \"a China domina 80% do mercado\", está f",
    "chars": 306,
    "veredito": "NAO_MEDIDO",
@@ -85,7 +85,7 @@
    "pagina": null
   },
   {
-   "linha": 266,
+   "linha": 268,
    "trecho": "A frase está na literatura técnica — Na tabela de preservantes do estudo de Gauss (2020), a combinação de cloreto de zinco com sulfato de cobre aparece descrita como \"good fungicid",
    "chars": 290,
    "veredito": "TRADUZIDO",
@@ -94,7 +94,7 @@
    "pagina": null
   },
   {
-   "linha": 290,
+   "linha": 292,
    "trecho": "Por que o cromo importa para o resíduo — Porque o cromo é a parte da mistura que se move no ambiente. No ensaio de campo de cinco anos que está no capítulo 05, o cobre praticamente",
    "chars": 352,
    "veredito": "NAO_MEDIDO",
@@ -103,7 +103,7 @@
    "pagina": null
   },
   {
-   "linha": 336,
+   "linha": 338,
    "trecho": "A conclusão errada que sai daí — \"Se é essencial, é seguro.\" Não. Água é essencial e afoga. Ferro é essencial e intoxica criança que engole as pastas do armário. Vitamina é essenci",
    "chars": 330,
    "veredito": "NAO_MEDIDO",
@@ -112,7 +112,7 @@
    "pagina": null
   },
   {
-   "linha": 367,
+   "linha": 369,
    "trecho": "Provoca uma pergunta: então o problema é o estômago? — Não é o principal. A náusea é o efeito agudo. O efeito crônico — o que importa para exposição repetida — é hepático: o cobre ",
    "chars": 428,
    "veredito": "TRADUZIDO",
@@ -121,7 +121,7 @@
    "pagina": null
   },
   {
-   "linha": 397,
+   "linha": 399,
    "trecho": "O mesmo cobre é seguro para você beber numa concentração mil e oitocentas vezes maior do que aquela que prejudica um bichinho de água.",
    "chars": 134,
    "veredito": "NAO_MEDIDO",
@@ -130,7 +130,7 @@
    "pagina": null
   },
   {
-   "linha": 415,
+   "linha": 417,
    "trecho": "A distinção que resolve a confusão — Carcinogênico = capaz de causar câncer. Tóxico para o fígado = prejudica o órgão em exposição repetida. Tóxico para a vida aquática = prejudica",
    "chars": 304,
    "veredito": "NAO_MEDIDO",
@@ -139,7 +139,7 @@
    "pagina": null
   },
   {
-   "linha": 422,
+   "linha": 424,
    "trecho": "Limite declarado, antes de qualquer conclusão — A monografia da IARC para o cobre e a ficha toxicológica da ATSDR para o cobre não estão no corpus desta frente. Portanto este artig",
    "chars": 366,
    "veredito": "NAO_MEDIDO",
@@ -148,7 +148,7 @@
    "pagina": null
   },
   {
-   "linha": 513,
+   "linha": 515,
    "trecho": "A mesma solubilidade que faz o cobre entrar no bambu é a que faz o cobre sair.",
    "chars": 78,
    "veredito": "NAO_MEDIDO",
@@ -157,7 +157,7 @@
    "pagina": null
   },
   {
-   "linha": 550,
+   "linha": 552,
    "trecho": "A conclusão que NÃO se pode tirar — \"Então o bambu não retém nada e o tratamento é inútil.\" Não. Este é um ensaio, com uma espécie, e a faixa de retenção medida em bambu na literat",
    "chars": 361,
    "veredito": "NAO_MEDIDO",
@@ -166,7 +166,7 @@
    "pagina": null
   },
   {
-   "linha": 573,
+   "linha": 575,
    "trecho": "O que isso significa — A hipótese de que o cobre do CCB contamina o solo não se confirmou neste ensaio. O que se moveu, e muito, foi o cromo. Isso não derruba o artigo — derruba um",
    "chars": 291,
    "veredito": "NAO_MEDIDO",
@@ -175,7 +175,7 @@
    "pagina": null
   },
   {
-   "linha": 603,
+   "linha": 605,
    "trecho": "A receita é meia banheira de solução azul. O tonel é uma banheira cheia.",
    "chars": 72,
    "veredito": "NAO_MEDIDO",
@@ -184,7 +184,7 @@
    "pagina": null
   },
   {
-   "linha": 630,
+   "linha": 632,
    "trecho": "Um balde de solução jogado num rio estraga a água de uma piscina olímpica cheia.",
    "chars": 80,
    "veredito": "NAO_MEDIDO",
@@ -193,7 +193,7 @@
    "pagina": null
   },
   {
-   "linha": 642,
+   "linha": 644,
    "trecho": "E aqui está o ponto que quase todo mundo erra — Diluir não resolve nada. O cobre não apodrece, não evapora, não é comido por bactéria. Cobre não desaparece — ele só muda de lugar. ",
    "chars": 290,
    "veredito": "NAO_MEDIDO",
@@ -202,7 +202,7 @@
    "pagina": null
   },
   {
-   "linha": 656,
+   "linha": 658,
    "trecho": "A solução de tratamento é mais ácida que suco de limão. O CCB é mais ácido que limão por mais de dez vezes — na faixa do ácido de bateria de carro.",
    "chars": 147,
    "veredito": "NAO_MEDIDO",
@@ -211,7 +211,7 @@
    "pagina": null
   },
   {
-   "linha": 678,
+   "linha": 680,
    "trecho": "Diluída dez vezes, a solução ainda impediu toda semente de nascer.",
    "chars": 66,
    "veredito": "NAO_MEDIDO",
@@ -220,7 +220,7 @@
    "pagina": null
   },
   {
-   "linha": 692,
+   "linha": 694,
    "trecho": "O que isso significa — A água que sobra do tratamento de bambu inibe mais a vida vegetal do que um herbicida comercial. Mesma semente, mesma métrica, mesmo laboratório.",
    "chars": 168,
    "veredito": "NAO_MEDIDO",
@@ -229,7 +229,7 @@
    "pagina": null
   },
   {
-   "linha": 720,
+   "linha": 722,
    "trecho": "A analogia que fecha — Pense num copo de água com açúcar. Deixar parado não separa o açúcar. Com o cobre dissolvido é igual: decantar tira a sujeira, não tira o metal.",
    "chars": 167,
    "veredito": "NAO_MEDIDO",
@@ -238,16 +238,16 @@
    "pagina": null
   },
   {
-   "linha": 752,
-   "trecho": "É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto registrado, que é justamente o que quem trata em casa não tem:",
-   "chars": 230,
+   "linha": 754,
+   "trecho": "É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto registrado. Quem trata em casa não tem registro — e, nos sete ",
+   "chars": 281,
    "veredito": "NAO_MEDIDO",
    "motivo": "não localizado no corpus custodiado (tradução, resumo ou fonte não custodiada)",
    "arquivo_fonte": null,
    "pagina": null
   },
   {
-   "linha": 758,
+   "linha": 760,
    "trecho": "material, substância, objeto ou bem descartado […] e líquidos cujas",
    "chars": 67,
    "veredito": "NAO_MEDIDO",
@@ -256,7 +256,7 @@
    "pagina": null
   },
   {
-   "linha": 767,
+   "linha": 769,
    "trecho": "O ralo não aceita, com ou sem nome — Se o que sobra do banho é resíduo — e a lei admite essa leitura, sob a condição acima —, a obrigação é de quem gerou, inclusive na própria casa",
    "chars": 310,
    "veredito": "NAO_MEDIDO",
@@ -265,7 +265,7 @@
    "pagina": null
   },
   {
-   "linha": 806,
+   "linha": 808,
    "trecho": "A instrução oficial não é irresponsável — Ela dá EPI, proíbe descarte, manda reusar e avisa sobre controle federal de dois dos três sais. O problema deste artigo não é a instrução ",
    "chars": 188,
    "veredito": "NAO_MEDIDO",
@@ -274,7 +274,7 @@
    "pagina": null
   },
   {
-   "linha": 812,
+   "linha": 814,
    "trecho": "Estas substâncias devem ser misturadas na proporção 1kg:1kg:100litros […]",
    "chars": 73,
    "veredito": "VERBATIM",
@@ -283,7 +283,7 @@
    "pagina": 1
   },
   {
-   "linha": 821,
+   "linha": 823,
    "trecho": "Fórmula (2): ácido bórico / bórax / dicromato de sódio — proporção de",
    "chars": 69,
    "veredito": "NAO_MEDIDO",
@@ -292,7 +292,7 @@
    "pagina": null
   },
   {
-   "linha": 841,
+   "linha": 843,
    "trecho": "Zero, seis vezes — O blog ensina a manipular um quilo de dicromato de sódio em casa e não escreve \"luva\" uma vez sequer. A única palavra \"CUIDADO!!\" que aparece no texto inteiro é ",
    "chars": 298,
    "veredito": "NAO_MEDIDO",
@@ -301,7 +301,7 @@
    "pagina": null
   },
   {
-   "linha": 849,
+   "linha": 851,
    "trecho": "A receita que as pessoas usam é de 2 a 18 vezes mais forte que a única que alguém testou. O que ela faz nessa concentração, ninguém sabe.",
    "chars": 137,
    "veredito": "NAO_MEDIDO",
@@ -310,7 +310,7 @@
    "pagina": null
   },
   {
-   "linha": 875,
+   "linha": 877,
    "trecho": "Serragem de bambu tratado com cobre é fisicamente indistinguível de serragem limpa.",
    "chars": 83,
    "veredito": "NAO_MEDIDO",
@@ -319,7 +319,7 @@
    "pagina": null
   },
   {
-   "linha": 903,
+   "linha": 905,
    "trecho": "Dizer \"é desconhecido\" é o oposto de dizer \"não é problema\" — Numa cadeia onde a instrução oficial manda reusar e a receita informal ensina a despejar, a ausência de medição é moti",
    "chars": 221,
    "veredito": "NAO_MEDIDO",
@@ -328,7 +328,7 @@
    "pagina": null
   },
   {
-   "linha": 944,
+   "linha": 946,
    "trecho": "Por que isso entra num artigo sobre cobre — Porque a receita que circula no Brasil quase nunca é só sulfato de cobre. A fórmula informal mais difundida é ternária — ácido bórico, b",
    "chars": 698,
    "veredito": "NAO_MEDIDO",
@@ -337,7 +337,7 @@
    "pagina": null
   },
   {
-   "linha": 951,
+   "linha": 953,
    "trecho": "resíduos sólidos: material, substância, objeto ou bem descartado resultante de atividades humanas em sociedade, nos estados sólido ou semissólido, bem como gases contidos em recipi",
    "chars": 299,
    "veredito": "NAO_MEDIDO",
@@ -346,7 +346,7 @@
    "pagina": null
   },
   {
-   "linha": 1009,
+   "linha": 1011,
    "trecho": "O que este artigo NÃO conseguiu verificar — A classificação do resíduo de bambu tratado depende da ABNT NBR 10004, que é paga e não foi consultada por esta frente. Não se afirma aq",
    "chars": 319,
    "veredito": "NAO_MEDIDO",
@@ -355,7 +355,7 @@
    "pagina": null
   },
   {
-   "linha": 1148,
+   "linha": 1150,
    "trecho": "A competência não está indefinida. Está escrita, com nome, desde 1989.",
    "chars": 70,
    "veredito": "NAO_MEDIDO",
@@ -364,7 +364,7 @@
    "pagina": null
   },
   {
-   "linha": 1164,
+   "linha": 1166,
    "trecho": "VIII - DA DESTINAÇÃO FINAL DE RESÍDUOS E EMBALAGENS",
    "chars": 51,
    "veredito": "VERBATIM",
@@ -373,7 +373,7 @@
    "pagina": 5
   },
   {
-   "linha": 1168,
+   "linha": 1170,
    "trecho": "o descarte da embalagem e resíduos de preservativos de madeira e ingredientes ativos",
    "chars": 84,
    "veredito": "VERBATIM",
@@ -382,7 +382,7 @@
    "pagina": 6
   },
   {
-   "linha": 1195,
+   "linha": 1197,
    "trecho": "usuário de preservativos de madeira - toda e qualquer empresa que faça uso",
    "chars": 74,
    "veredito": "VERBATIM",
@@ -391,7 +391,7 @@
    "pagina": 1
   },
   {
-   "linha": 1223,
+   "linha": 1225,
    "trecho": "O que isso significa na prática — A norma acompanha o moirão até o portão da usina. Depois do portão, ele é propriedade de quem comprou — e a partir daí nenhuma das três páginas fa",
    "chars": 304,
    "veredito": "NAO_MEDIDO",
@@ -400,7 +400,7 @@
    "pagina": null
   },
   {
-   "linha": 1244,
+   "linha": 1246,
    "trecho": "O órgão que licencia diz, por escrito, que não há proibição, que o resto do mundo saiu do uso residencial, e que não tem informação sobre o destino do resíduo. As três coisas na me",
    "chars": 197,
    "veredito": "NAO_MEDIDO",
@@ -409,7 +409,7 @@
    "pagina": null
   },
   {
-   "linha": 1258,
+   "linha": 1260,
    "trecho": "Contato com alimentos ou água potável · Cama para animais · Queima a céu aberto ou em fogões/churrasqueiras/fornos/caldeiras de baixa temperatura",
    "chars": 145,
    "veredito": "VERBATIM",
@@ -418,7 +418,7 @@
    "pagina": 12
   },
   {
-   "linha": 1288,
+   "linha": 1296,
    "trecho": "O limite do estudo, que o estudo declara — Cinco peças, um sítio. Mediu solo até 40 cm — não mediu água subterrânea. Mediu lixiviação — não mediu queima. E é CCA, que tem arsênio; ",
    "chars": 267,
    "veredito": "NAO_MEDIDO",
@@ -427,7 +427,7 @@
    "pagina": null
   },
   {
-   "linha": 1320,
+   "linha": 1328,
    "trecho": "A madeira tem norma específica que não se cumpre. O bambu não tem norma específica: o resíduo dele cai na obrigação geral, escrita para todo resíduo. As duas coisas terminam no mes",
    "chars": 268,
    "veredito": "NAO_MEDIDO",
@@ -436,7 +436,7 @@
    "pagina": null
   },
   {
-   "linha": 1349,
+   "linha": 1357,
    "trecho": "A frase honesta, que eu prefiro ao número inventado — Não há, no material reunido, caso brasileiro documentado de intoxicação por combustão de madeira tratada em fogão doméstico. H",
    "chars": 337,
    "veredito": "NAO_MEDIDO",
@@ -445,7 +445,7 @@
    "pagina": null
   },
   {
-   "linha": 1519,
+   "linha": 1527,
    "trecho": "O que as auditorias mediram — e o que não mediram — Elas julgaram conteúdo, rodada a rodada: se cada afirmação tinha esteio no documento custodiado. Não fizeram um diff palavra por",
    "chars": 1234,
    "veredito": "NAO_MEDIDO",

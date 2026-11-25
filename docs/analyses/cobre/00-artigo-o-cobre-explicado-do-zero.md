@@ -35,12 +35,13 @@ Este artigo explica o **sulfato de cobre** para quem **nunca estudou química**.
 Não vou supor que você saiba o que é um elemento, um sal, uma fórmula ou um limite legal. Quando um termo
 técnico aparecer, ele será explicado na hora — em português comum, com exemplo.
 
-Ele existe para responder **uma pergunta só**, e é uma pergunta que quase ninguém faz:
+Ele existe para responder **uma pergunta só** — e é uma pergunta que os textos informais que esta
+frente leu não fazem:
 
 > Depois que o bambu sai do tanque de tratamento, o que acontece com a água que sobra?
 
-Ela não é água. É uma solução de metal em concentração alta. E as receitas que circulam por aí
-**não dizem onde despejar**.
+Ela não é água. É uma solução de metal em concentração alta. E as receitas informais que esta
+frente leu **não dizem onde despejar** — nas que eu li, nenhuma diz.
 
 Há uma segunda promessa, e ela é mais séria: **vou dizer quando não sei**, e vou dizer
 também quando o dado *contraria* a preocupação que motivou o artigo. Isso aconteceu, e está
@@ -223,9 +224,10 @@ Somando a série desde 1997, o volume importado caiu de **1.279 toneladas** para
 **9,3 toneladas em 2020** — uma queda de **86%** — com repiques em 2022 e 2024.
 
 **A conclusão que o dado sustenta:** a escala brasileira desse produto é modesta e oscilante,
-e o preço é baixo. **O preço do produto não é o que inibe o descarte correto** — isso o
-dado mostra. O que ele **não** mede é o custo de dar destino ao resíduo: sobre esse, este
-número não diz nada. Se a barreira é dinheiro, não é o preço da compra que a cria.
+e o preço é baixo. **O preço do produto é baixo** — é o que o dado mostra: volume,
+valor e dispersão de preço por código. O que ele **não** mede é conduta: se preço baixo
+inibe ou não o descarte correto, este número não responde, porque ele conta importação e valor, não
+o que o usuário faz com a sobra. Também não mede o custo de dar destino ao resíduo.
 
 **A conclusão que o dado NÃO sustenta:** dizer que o Brasil "usa muito" ou
 "usa pouco" sulfato de cobre em bambu. A importação é do país inteiro, somando agricultura,
@@ -258,7 +260,7 @@ e fruticultura.
 
 ### O que ele NÃO faz — e isso muda tudo
 
-Aqui está a informação que quase nunca aparece nos textos informais:
+Aqui está a informação que não aparece nos textos informais que esta frente leu:
 
 **O cobre não mata cupim, não mata broca, não mata besouro.**[8] Ele é fungicida, não é
 inseticida.
@@ -416,7 +418,7 @@ crônico faz ao fígado.
 
 ### E o cobre é cancerígeno?
 
-Esta é a pergunta em que quase todo texto erra — para os dois lados. E aqui é preciso fazer o que
+Esta é a pergunta em que os textos informais que eu li erram — para os dois lados. E aqui é preciso fazer o que
 o resto do artigo faz: separar o que está medido do que não está.
 
 > **Limite declarado, antes de qualquer conclusão** — A monografia da IARC para o cobre e a ficha toxicológica da ATSDR para o cobre não estão no corpus desta frente. Portanto este artigo não afirma que o cobre seja cancerígeno, nem que não seja. Dizer qualquer das duas coisas sem a monografia em mãos seria inventar — e é justamente o que este artigo critica nos outros.
@@ -749,7 +751,7 @@ E o reuso acaba:
 - quando o banho satura e perde força;
 - quando a concentração cai abaixo do que funciona.
 
-> É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto registrado, que é justamente o que quem trata em casa não tem: nem registro, nem a bula que o registro exigiria.
+> É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto registrado. Quem trata em casa não tem registro — e, nos sete documentos que eu li, não há bula para produto dispensado de registro. Se existe, eu não a encontrei.
 
 ### A lei já resolveu isso — e quase ninguém sabe
 
@@ -1272,8 +1274,8 @@ publicado em 2025 acompanhou **cinco moirões de eucalipto tratados com CCA** du
 
 | Número | O que significa |
 |---|---|
-| **−55,0%** | arsênio que saiu da madeira |
-| **+129,2%** | arsênio que entrou no solo |
+| **−55,0%** | queda de arsênio na madeira |
+| **+129,2%** | aumento de arsênio no solo |
 | **32,3%** | acima do limite de investigação agrícola |
 | **880** | dias de campo, seis amostragens |
 
@@ -1282,8 +1284,14 @@ investigação** que a Resolução CONAMA 420/2009 fixa para área agrícola —
 qual a norma manda investigar se há risco.
 
 E repare no que esse experimento é: **um moirão de cerca, em campo, no uso para o qual foi
-feito**. Não é indústria, não é acidente, não é despejo. É o produto funcionando. O que este
-artigo chama de "sobra" começa a caminhar **antes** de a peça virar sobra.
+feito**. Não é indústria, não é acidente, não é despejo. É o produto funcionando.
+
+O que os números provam e o que eles não provam, separado: **provam** que a
+concentração de arsênio caiu na madeira e subiu no solo em volta, no mesmo sítio e no mesmo
+período, com cobre e cromo no sentido oposto. **Não provam sozinhos** o caminho do
+material — a lixiviação é a explicação que os autores do estudo dão, não o que uma diferença de
+concentração demonstra por si. Chamar aquilo de "a sobra que já estava saindo" é minha leitura da
+conclusão deles, e vai marcada como leitura.
 
 > **O limite do estudo, que o estudo declara** — Cinco peças, um sítio. Mediu solo até 40 cm — não mediu água subterrânea. Mediu lixiviação — não mediu queima. E é CCA, que tem arsênio; o CCB tem boro, e transportar a conclusão de um para o outro é inferência, não medição.
 
@@ -1454,7 +1462,7 @@ olímpicas**. Diluir **não** é destinar: cobre não se degrada.
 - **Decantar não remove cobre dissolvido** — tira a sujeira, não o metal.
 - **A lacuna:** as instruções de *tratamento* não dizem o que fazer quando o reuso
 acaba. A norma do *preservativo* diz — manda a bula dizer (IN 5/92, item VIII) —, e quem trata
-em casa não tem bula.
+em casa não tem bula que eu tenha localizado.
 - A lei brasileira inclui líquidos na definição de resíduo sólido **sob condição** (PNRS,
 art. 3º, XVI); se esta água cumpre a condição é questão jurídica que o artigo não decide. O que não
 depende dela: **1,0 mg de cobre por litro** é o limite de lançamento.

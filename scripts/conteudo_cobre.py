@@ -73,12 +73,13 @@ pagina("p-1", "Comece aqui", "00", "O que este artigo promete",
 Não vou supor que você saiba o que é um elemento, um sal, uma fórmula ou um limite legal. Quando um termo
 técnico aparecer, ele será explicado na hora — em português comum, com exemplo.</p>
 
-<p>Ele existe para responder <strong>uma pergunta só</strong>, e é uma pergunta que quase ninguém faz:</p>
+Ele existe para responder **uma pergunta só** — e é uma pergunta que os textos informais que esta
+frente leu não fazem:
 
 {bq("<strong>Depois que o bambu sai do tanque de tratamento, o que acontece com a água que sobra?</strong>")}
 
-<p>Ela não é água. É uma solução de metal em concentração alta. E as receitas que circulam por aí
-<strong>não dizem onde despejar</strong>.</p>
+<p>Ela não é água. É uma solução de metal em concentração alta. E as receitas informais que esta
+frente leu <strong>não dizem onde despejar</strong> — nas que eu li, nenhuma diz.</p>
 
 <p>Há uma segunda promessa, e ela é mais séria: <strong>vou dizer quando não sei</strong>, e vou dizer
 também quando o dado <em>contraria</em> a preocupação que motivou o artigo. Isso aconteceu, e está
@@ -265,9 +266,10 @@ e a receita informal não pede pureza nenhuma.</p>
 <strong>9,3 toneladas em 2020</strong> — uma queda de <strong>86%</strong> — com repiques em 2022 e 2024.</p>
 
 <p><strong>A conclusão que o dado sustenta:</strong> a escala brasileira desse produto é modesta e oscilante,
-e o preço é baixo. <strong>O preço do produto não é o que inibe o descarte correto</strong> — isso o
-dado mostra. O que ele <strong>não</strong> mede é o custo de dar destino ao resíduo: sobre esse, este
-número não diz nada. Se a barreira é dinheiro, não é o preço da compra que a cria.</p>
+e o preço é baixo. <strong>O preço do produto é baixo</strong> — é o que o dado mostra: volume,
+valor e dispersão de preço por código. O que ele <strong>não</strong> mede é conduta: se preço baixo
+inibe ou não o descarte correto, este número não responde, porque ele conta importação e valor, não
+o que o usuário faz com a sobra. Também não mede o custo de dar destino ao resíduo.</p>
 
 <p><strong>A conclusão que o dado NÃO sustenta:</strong> dizer que o Brasil &quot;usa muito&quot; ou
 &quot;usa pouco&quot; sulfato de cobre em bambu. A importação é do país inteiro, somando agricultura,
@@ -299,7 +301,7 @@ e fruticultura.</p>
 
 <h3>O que ele NÃO faz — e isso muda tudo</h3>
 
-<p>Aqui está a informação que quase nunca aparece nos textos informais:</p>
+<p>Aqui está a informação que não aparece nos textos informais que esta frente leu:</p>
 
 <p><strong>O cobre não mata cupim, não mata broca, não mata besouro.</strong>{cit("gauss2020")} Ele é fungicida, não é
 inseticida.</p>
@@ -479,7 +481,7 @@ crônico faz ao fígado.</p>
 
 <h3>E o cobre é cancerígeno?</h3>
 
-<p>Esta é a pergunta em que quase todo texto erra — para os dois lados. E aqui é preciso fazer o que
+<p>Esta é a pergunta em que os textos informais que eu li erram — para os dois lados. E aqui é preciso fazer o que
 o resto do artigo faz: separar o que está medido do que não está.</p>
 
 {danger("Limite declarado, antes de qualquer conclusão", "A <strong>monografia da IARC</strong> para "
@@ -836,7 +838,7 @@ e a norma que exigiria a bula é a mesma que dispensa de registro o produto de u
 <li>quando a concentração cai abaixo do que funciona.</li>
 </ul>
 
-{bq("<strong>É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto registrado, que é justamente o que quem trata em casa não tem: nem registro, nem a bula que o registro exigiria.</strong>")}
+{bq("<strong>É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto registrado. Quem trata em casa não tem registro — e, nos sete documentos que eu li, não há bula para produto dispensado de registro. Se existe, eu não a encontrei.</strong>")}
 
 <h3>A lei já resolveu isso — e quase ninguém sabe</h3>
 
@@ -1401,8 +1403,8 @@ filtro e no que sobra depois.</p>
 publicado em 2025 acompanhou <strong>cinco moirões de eucalipto tratados com CCA</strong> durante
 <strong>880 dias</strong>, medindo a madeira e o solo em volta, em duas profundidades.{cit("ufsm2025")}</p>
 
-{kpis([("−55,0%", "arsênio que saiu da madeira"),
-       ("+129,2%", "arsênio que entrou no solo"),
+{kpis([("−55,0%", "queda de arsênio na madeira"),
+       ("+129,2%", "aumento de arsênio no solo"),
        ("32,3%", "acima do limite de investigação agrícola"),
        ("880", "dias de campo, seis amostragens")])}
 
@@ -1411,8 +1413,14 @@ investigação</strong> que a Resolução CONAMA 420/2009 fixa para área agríc
 qual a norma manda investigar se há risco.</p>
 
 <p>E repare no que esse experimento é: <strong>um moirão de cerca, em campo, no uso para o qual foi
-feito</strong>. Não é indústria, não é acidente, não é despejo. É o produto funcionando. O que este
-artigo chama de "sobra" começa a caminhar <strong>antes</strong> de a peça virar sobra.</p>
+feito</strong>. Não é indústria, não é acidente, não é despejo. É o produto funcionando.</p>
+
+<p>O que os números provam e o que eles não provam, separado: <strong>provam</strong> que a
+concentração de arsênio caiu na madeira e subiu no solo em volta, no mesmo sítio e no mesmo
+período, com cobre e cromo no sentido oposto. <strong>Não provam sozinhos</strong> o caminho do
+material — a lixiviação é a explicação que os autores do estudo dão, não o que uma diferença de
+concentração demonstra por si. Chamar aquilo de "a sobra que já estava saindo" é minha leitura da
+conclusão deles, e vai marcada como leitura.</p>
 
 {note("O limite do estudo, que o estudo declara",
  "Cinco peças, um sítio. Mediu solo até 40 cm — <strong>não mediu água subterrânea</strong>. Mediu "
@@ -1603,7 +1611,7 @@ olímpicas</strong>. Diluir <strong>não</strong> é destinar: cobre não se deg
 <li><strong>Decantar não remove cobre dissolvido</strong> — tira a sujeira, não o metal.</li>
 <li><strong>A lacuna:</strong> as instruções de <em>tratamento</em> não dizem o que fazer quando o reuso
 acaba. A norma do <em>preservativo</em> diz — manda a bula dizer (IN 5/92, item VIII) —, e quem trata
-em casa não tem bula.</li>
+em casa não tem bula que eu tenha localizado.</li>
 <li>A lei brasileira inclui líquidos na definição de resíduo sólido <strong>sob condição</strong> (PNRS,
 art. 3º, XVI); se esta água cumpre a condição é questão jurídica que o artigo não decide. O que não
 depende dela: <strong>1,0 mg de cobre por litro</strong> é o limite de lançamento.</li>
