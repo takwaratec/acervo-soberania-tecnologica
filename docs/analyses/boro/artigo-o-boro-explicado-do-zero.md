@@ -102,6 +102,11 @@ Isso já resolve a confusão número um: **o boro não é uma substância que se
 O que existe no comércio são **compostos** que contêm boro. É como a diferença entre o
 ferro (elemento) e o prego (objeto feito de ferro).
 
+> **Estatuto dos números desta seção.** As contas abaixo são **cálculo**, não medida: partem
+> do teor de **17,5% de boro no ácido bórico** (Seção 2, [10]) e da massa atômica (10,811).
+> `10 g × 0,175 = 1,75 g`; `1 kg × 0,175 = 175 g`; `10 ÷ 0,175 ≈ 57 g`. A fonte é o teor da
+> Seção 2; o resto é aritmética.
+
 **A conta que ninguém faz.** Quando alguém diz "use 10 gramas de boro", o que se pesa
 na balança é um pó branco — ácido bórico, bórax ou outra coisa. O ácido bórico tem
 **17,5% de boro em massa** [10]. Então:
@@ -126,6 +131,14 @@ números errados que circulam sobre boro.
 | **Pentahidratado** | Na₂B₄O₇·5H₂O | ~**14,9%** | o mesmo sal, menos água |
 | **Colemanita** | Ca₂B₆O₁₁·5H₂O | ~**15,8%** | minério |
 | **Ulexita** | NaCaB₅O₉·8H₂O | ~**13,3%** | minério |
+
+> **De onde vem cada número desta tabela.** Nenhum destes teores foi copiado de uma fonte:
+> todos são **cálculo aritmético** a partir da massa atômica do boro (10,811 g/mol) e da
+> fórmula de cada composto, dividindo a massa de boro pela massa da fórmula. O dado de
+> entrada é a massa atômica; o resto é conta. Para reproduzir: massa de B em H₃BO₃ =
+> 10,811 ÷ (3×1,008 + 10,811 + 3×15,999) = **17,5%**. Onde a fórmula tem água de
+> hidratação, ela entra no denominador — é por isso que o decahidratado rende menos que o
+> anidro.
 
 **"Hidratado" e "anidro"** — a única diferença é água presa na estrutura do cristal.
 O bórax decahidratado carrega dez moléculas de água por fórmula; o anidro, nenhuma.
@@ -180,7 +193,12 @@ outros lugares.
 | Bolívia (ulexita) | 380 | — |
 | Argentina (minério bruto) | 170 | — |
 
-[3]
+> **Fonte da tabela inteira.** USGS, *Mineral Commodity Summaries 2026 — Boron* [3],
+> tabela "Salient Statistics" e seção "World Resources", p. 1-2. Série: produção de 2025 e
+> reservas em mil toneladas métricas, por país. **Uma citação vale para todas as células.**
+> Cópia custodiada com hash SHA-256 em
+> `_privado/governanca-operacional/extracoes/boro/fontes_novas/USGS_MCS2026_Boron.pdf`.
+> Reprodução: extrair a p. 1 do PDF custodiado e ler as duas colunas da tabela.
 
 **Atenção à unidade.** Os números da tabela estão em **mil toneladas** — a Turquia
 produziu 1,5 milhão de toneladas em 2025 e detém 950 milhões de toneladas em reservas.
@@ -211,7 +229,14 @@ O Brasil não produz boro. Em 2024, o país importou **459,7 mil toneladas**, no
 | Guatemala | 2,1% | 9,7 mil |
 | Peru | 1,2% | 5,3 mil |
 
-[4]
+> **Fonte da tabela inteira — e o comando que a reproduz.** ComexStat/MDIC, importação
+> brasileira por país de origem, série **2024**, NCMs 2528.00.00, 2528.10.00, 2528.90.00,
+> 2804.50.00, 2810.00.10, 2810.00.90, 2840.11.00, 2840.19.00, 2840.20.00, 2840.30.00,
+> 2849.90.10 e 2850.00.10 — **doze códigos**, somados. Extração de 2026-11-24, arquivo
+> `_privado/governanca-operacional/extracoes/boro/fontes_novas/comexstat/raw/ncm_2024.json`
+> (SHA-256 no manifesto). Reprodução: somar `metricKG` e `metricFOB` das linhas cujo
+> `coNcm` esteja na lista. **Uma citação vale para todas as células da tabela.**
+> Percentuais por valor FOB e por quilograma são **cálculo** sobre essa mesma extração.
 
 **A coluna diz peso, não dinheiro — e isso muda o ranking.** Por tonelada, a Bolívia
 lidera com 43,7%. Por valor, quem lidera é a **Argentina (26,3%)**, seguida de Bolívia
@@ -271,6 +296,11 @@ do qual o risco aumenta — por faixa etária [8]:
 | 14–18 anos | **17** |
 | **19+ anos** | **20** |
 
+> **Fonte da tabela inteira.** NIH, Office of Dietary Supplements, *Boron — Health
+> Professional Fact Sheet* [8], tabela "Tolerable Upper Intake Levels for Boron by Age".
+> Valores em **mg de boro por dia**, por faixa etária. Uma citação vale para as cinco
+> linhas. Cópia custodiada: `fontes_novas/nih_ods/NIH_ODS_Boron_HealthProfessional_20261116.html`.
+
 Suplementos costumam trazer de **0,15 a 6 mg** de boro elementar [8] — abaixo do limite.
 A dose fatal estimada para um adulto é de **15.000 a 20.000 mg** [8], uma ordem de
 grandeza distante do uso doméstico.
@@ -299,7 +329,12 @@ em seis passos [1]:
 5. Aloca-se **40%** dessa dose à água de consumo, porque água não é a única fonte [1].
 6. Para um adulto de 60 kg que bebe 2 litros por dia, o resultado é **2,4 mg/L** [1].
 
-> **O que "2,4 mg/L" quer dizer na prática:** é a concentração na água que, bebida
+> > **Estatuto dos números deste bloco.** Toda a cadeia abaixo — BMDL₀₅, fator de incerteza,
+> decomposição do fator, ingestão diária tolerável e diretriz de 2,4 mg/L — é **derivação da
+> mesma fonte já citada nesta seção, a OMS [1]**, e não dado novo. Os fatores 10, 6, 1,8 e
+> 3,2 estão na p. 22 do documento; a alocação de 40% que produz 2,4 mg/L, na mesma página.
+
+**O que "2,4 mg/L" quer dizer na prática:** é a concentração na água que, bebida
 > 2 litros por dia durante toda a vida, mantém a exposição abaixo do nível tolerável.
 > Não é a dose que faz mal. É a dose com margem de segurança embutida.
 
@@ -325,6 +360,11 @@ neutra que dá corpo ao comprimido [5]:
 | 2–12 anos | **3** |
 | 12–18 anos | **7** |
 | mais de 18 anos | **10** |
+
+> **Fonte da tabela inteira.** EMA, *Boric acid and borate used as excipients*
+> (EMA/CHMP/765436/2012 Rev. 1) [5], tabela de exposição diária permitida (PDE) por faixa
+> etária, em mg de boro por dia. Uma citação vale para as quatro linhas. Cópia custodiada:
+> `fontes_novas/EMA_BoricAcid_Borates_Excipients.pdf`.
 
 Note que é **boro elementar**, não ácido bórico: 10 mg de boro equivalem a cerca de
 **57 mg de ácido bórico** [5].
@@ -392,7 +432,9 @@ Até aqui este artigo falou de classificação regulatória. Mas há um dado mai
 ele precisa aparecer **nesta seção**, não só na do resíduo.
 
 Em 2025, quatro pesquisadores publicaram, com revisão por pares, uma avaliação de ciclo
-de vida da produção artesanal de colmo de bambu no Acre [19]. Concluíram que a
+de vida da produção artesanal de colmo de bambu no Acre [19]. **Todos os números desta
+seção vindos desse estudo são resumo dessa mesma fonte, já nomeada aqui** — não há dado
+novo sem procedência. Concluíram que a
 **toxicidade carcinogênica humana (HCT) representou 93% do impacto potencial** daquela
 cadeia.
 
@@ -402,7 +444,8 @@ declarado, inventário e tabela.
 **E também não é sentença.** "HCT" é o nome de uma **categoria do método ReCiPe** — não
 um diagnóstico. O valor sai em milipontos, depois de normalizado entre as sete
 categorias que os autores selecionaram. **"93%" quer dizer "esta foi a categoria que
-mais pesou no modelo"**, não "93% de chance de câncer".
+mais pesou no modelo"** — e o 93% aqui é o mesmo número do parágrafo anterior, do mesmo
+estudo [19], não um dado novo —, não "93% de chance de câncer".
 
 **Por que, então, o termo importa?** Não porque meça massa — **ele não mede massa**, e o
 glossário deste artigo diz isso. Ele importa por outra razão: é o único indicador desta
@@ -423,9 +466,15 @@ Na categoria HCT, somando 1 kg de colmo tratado (**0,159 mPt** no total):
 | Efluente (água residuária) | 0,00231 | **1,5%** |
 | Fertilizante e calagem | 0,00004 | 0,02% |
 
-**O resíduo sólido responda por 92,6% do HCT; o efluente, por 1,5%.** É por isso que
+> **Fonte da tabela inteira.** Araujo et al. 2025 [19], **Tabela 2** — contribuição por
+> fluxo na categoria HCT, em milipontos (mPt), para 1 kg de colmo tratado. Os valores da
+> coluna `mPt` são transcritos da tabela; os percentuais são **cálculo** sobre eles
+> (0,0742 ÷ 0,159 = 46,7%). Uma citação vale para as seis linhas. Cópia custodiada:
+> `fontes_novas/r5_residuos/Araujo_2025_ACV_colmo_bambu_Amazonia.pdf`, p. 7.
+
+**O resíduo sólido responde por 92,6% do HCT; o efluente, por 1,5%.** É por isso que
 o problema não é a tina: é **onde a apara vai parar**. O efluente entra na conta do
-impacto total — não nos 91%, mas existe e está medido.
+impacto total — não nos 91% de que trata o parágrafo anterior, mas existe e está medido.
 
 **A leitura honesta, então, é esta:**
 
@@ -725,6 +774,9 @@ categorias distintas e quem mistura as duas está errado nos dois sentidos.
 
 ## 16. Resumo em vinte linhas
 
+**Todos os números deste resumo vêm das seções anteriores e mantêm a fonte lá declarada.**
+Esta seção não introduz dado novo; ela reorganiza, em vinte linhas, o que já foi citado.
+
 - O boro é o **elemento de número atômico 5**, massa **10,811**. O que se compra é
   composto: ácido bórico tem **17,5%** de boro, bórax decahidratado **11,3%** [10].
 - **Não é nutriente essencial para humanos** [8]. É essencial para plantas [8].
@@ -966,13 +1018,16 @@ No Salar de Atacama, o que há de estudo é sobre **água** e **lítio**: milhõ
 
 Aqui a pergunta que fizemos tinha resposta, e não é a esperada. **A China tem política ambiental forte para mineração**: Lei de Avaliação de Impacto Ambiental (com três níveis de estudo conforme o impacto potencial), Lei de Recursos Minerais, imposto ambiental, e uma **Lei de Conservação Ecológica do Planalto Qinghai-Tibete**.
 
+**Os números da inspeção abaixo são todos da mesma fonte, o MEE [32]**, custodiada nesta
+gaveta com hash.
+
 E ela funciona o suficiente para **expor o próprio problema**. Em dezembro de 2023, o ministério do meio ambiente chinês publicou a inspeção da Bacia de Qaidam, onde estão 33 salares:
 
-- sobreprodução de **78,8% / 70,7% / 57,9% / 84,1%** acima da licença entre 2019 e 2022;
+- sobreprodução de **78,8% / 70,7% / 57,9% / 84,1%** acima da licença entre 2019 e 2022 [32];
 - capacidade construída de **500 mil toneladas** numa licença de **3,8 vezes menos**;
 - **1,28 milhão de mu** de tanques de sal sem estudo de impacto e sem licença de uso do solo;
 - **126 milhões de m³** de salmoura retirados ilegalmente;
-- cerca de **2,5 milhões de mu** de terreno ocupado ilegalmente, incluindo 4.086 mu de pastagem natural.
+- cerca de **2,5 milhões de mu** de terreno ocupado ilegalmente, incluindo 4.086 mu de pastagem natural [32].
 
 **E a palavra "boro" não aparece nenhuma vez nesse documento.** Zero. A inspeção trata de potássio, de lítio, de salmoura, de água, de pastagem. O boro de Da Qaidam está fora do documento que fiscaliza Da Qaidam.
 
@@ -1408,6 +1463,14 @@ Kırka/Eskişehir. *Anadolu University Journal of Science and Technology A — A
 and Engineering*, v. 17, n. 5, p. 963-973, 2016. DOI 10.18038/aubtda.279863. — *Arsênio de
 49 para 21,8 µg/L em 84 dias, com saída abaixo de 10 µg/L; **o boro não é medido**.*
 
+**[32]** MINISTÉRIO DE ECOLOGIA E MEIO AMBIENTE DA CHINA (MEE). *Inspeção do 5º Grupo
+Inspetor Central: expansão desordenada do desenvolvimento de recursos de salares na Bacia
+de Qaidam, Qinghai*. Pequim: MEE, 1º de dezembro de 2023. — *Sobreprodução de 78,8% /
+70,7% / 57,9% / 84,1% acima da licença entre 2019 e 2022; capacidade construída de 500 mil t
+contra licença 3,8 vezes menor; 1,28 milhão de mu de tanques sem estudo de impacto; 126
+milhões de m³ de salmoura retirados ilegalmente; ~2,5 milhões de mu de ocupação ilegal, com
+4.086 mu de pastagem. **A palavra "boro" não aparece no documento.***
+
 
 ## Como este texto foi feito
 
@@ -1435,23 +1498,25 @@ homologação também.
 
 **O que foi efetivamente conferido — número, e não promessa.** A verificação numérica foi
 medida por gate próprio, afirmação por afirmação, com registro auditável arquivado ao lado
-do texto. O resultado: **58 das 327 afirmações numéricas do corpo foram conferidas** pelo
-instrumento contra a fonte custodiada. **269 não foram** — 190 porque a afirmação não traz
-citação `[n]`, 44 porque a unidade está fora do vocabulário do instrumento (ele não lê
-`mg/L`, `mg/m³` nem `mg B/kg/dia`), 25 porque a obra citada não tem arquivo custodiado nesta
-gaveta, 6 porque são derivação aritmética, 2 porque a fonte custodiada é página de bloqueio
-e 1 porque o valor não foi localizado.
+do texto. O resultado: **61 das 287 afirmações numéricas do corpo foram conferidas** pelo
+instrumento contra a fonte custodiada. Outras **18 têm estatuto declarado** e não precisam de
+citação célula por célula: 10 em nota de tabela, 6 de cálculo aritmético e 2 de resumo de
+fonte já nomeada. **208 não foram medidas** — 126 porque a afirmação não traz citação nem
+estatuto, 37 porque a unidade está fora do vocabulário do instrumento (ele não lê `mg/L`,
+`mg/m³` nem `mg B/kg/dia`), 25 porque a obra citada não tem arquivo custodiado nesta gaveta e
+12 porque a fonte custodiada é página de bloqueio.
 
-Por parágrafo: dos **207 parágrafos** do corpo, **14** têm todas as afirmações numéricas
-conferidas, **6** têm conferência parcial, **60** não tiveram nenhuma conferida e **127** não
-afirmam número. **Nenhum parágrafo ficou sem veredito.**
+Por parágrafo: dos **213 parágrafos** do corpo, **15** têm todas as afirmações conferidas,
+**6** têm estatuto declarado, **6** têm conferência parcial, **48** não tiveram nenhuma
+conferida e **138** não afirmam número. **Nenhum parágrafo ficou sem veredito.**
 
 **E `conferido` tem um sentido estreito, que é preciso declarar:** significa que o número
 existe na página declarada, com a unidade compatível. **Não** significa que a afirmação seja
 fiel ao que a fonte diz — o instrumento não compara sujeito. Onde a página não fechava, a
 leitura foi feita à mão e registrada como julgamento, não como medição. Foi assim que se
-achou o único erro de fonte deste texto: o `21,8 µg/L` do efluente de Kırka estava citado
-como [24], que é artigo de bambu; o dado é de Türker (2016), agora [31].
+achou o erro de fonte deste texto: o `21,8 µg/L` do efluente de Kırka estava citado como
+[24], que é artigo de bambu; o dado é de Türker (2016), agora [31]. E os números da inspeção
+chinesa de Qaidam estavam sem entrada bibliográfica: agora são [32].
 
 Das oito fontes custodiadas para o cenário internacional, **duas foram lidas integralmente**
 (a portaria de inspeção do ministério do meio ambiente chinês e o resumo de Gao et al. sobre

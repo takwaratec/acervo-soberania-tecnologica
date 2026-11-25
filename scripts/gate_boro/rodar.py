@@ -56,6 +56,7 @@ MAPA = {
     29: "fontes_novas/atsdr_tp26/chapters/at_c6.pdf",
     30: None,
     31: "fontes_novas/andes_mineracao/original/Turker_2016_Kirka_wetland_arsenic_mine_effluent.pdf",
+    32: "fontes_novas/andes_mineracao/original/MEE_2023_12_01_Qaidam_salares_inspecao.html",
 }
 
 MOTIVO_SEM_FONTE = {
@@ -132,19 +133,56 @@ def extrair_afirmacoes(corpo):
     """Aplica REGRA_DE_CONTAGEM.md. Devolve lista de dicts."""
     saida = []
     secao = "?"
-    for bloco in paragrafos(corpo):
+    ultima_fonte = None
+    nota_ativa = None
+    nota_texto = ""
+    nota_tipo = "TABELA_COM_NOTA"
+    BLOCOS = paragrafos(corpo)
+    for i_bloco, bloco in enumerate(BLOCOS):
         primeira = bloco[0].strip()
         if RE_SECAO.match(primeira):
             secao = primeira.lstrip("# ").strip()
+            nota_ativa = None
             bloco = bloco[1:]
             if not bloco:
                 continue
         if not bloco:
             continue
+        # Bloco que DECLARA o estatuto (nota de tabela / de onde vem o numero) e metadado:
+        # nao afirma nada sobre o mundo. Seus digitos nao sao afirmacao, e o estatuto vale
+        # para a tabela seguinte.
+        bruto = "\n".join(bloco)
+        if RE_ESTATUTO.search(bruto):
+            nota_texto = bruto
+            if RE_NOTA_TABELA.search(bruto):
+                nota_tipo = "TABELA_COM_NOTA"
+            elif re.search(r"(?i)estatuto dos n[uú]meros", bruto):
+                nota_tipo = "DERIVACAO_DECLARADA" if re.search(r"(?i)c[aá]lculo", bruto) else "RESUMO_DE_FONTE_NOMEADA"
+            else:
+                nota_tipo = "RESUMO_DE_FONTE_NOMEADA"
+            nota_ativa = nota_tipo
+            if bruto.lstrip().startswith(">"):
+                continue
+            bloco = [re.sub(r"^\s*>\s?", "", l) for l in bloco]
+        if RE_NOTA_TABELA.search(bruto):
+            nota_ativa = "TABELA_COM_NOTA"
         # nota em bloco faz parte do corpo: a regra declara corpo = secoes 1-19 e nao a exclui
         bloco = [re.sub(r"^\s*>\s?", "", l) for l in bloco]
         texto = "\n".join(bloco)
+        em_tabela = all(RE_TABELA.match(l.strip()) or not l.strip() for l in bloco)
         citacoes = [int(x) for x in re.findall(r"\[(\d{1,2})\]", texto)]
+        if citacoes:
+            ultima_fonte = citacoes[0]
+        estatuto = estatuto_do_bloco(texto, ultima_fonte) if not citacoes else None
+        if em_tabela and not nota_ativa and i_bloco + 1 < len(BLOCOS):
+            prox = "\n".join(BLOCOS[i_bloco + 1])
+            if RE_NOTA_TABELA.search(prox):
+                nota_pendente = True
+        # TABELA_COM_NOTA vale para a tabela seguinte; RESUMO/DERIVACAO valem ate o fim da secao
+        if not citacoes and nota_ativa:
+            estatuto = {"tipo": nota_ativa, "fonte": ultima_fonte}
+            if nota_ativa == "TABELA_COM_NOTA":
+                nota_ativa = None
         em_tabela = all(RE_TABELA.match(l.strip()) or not l.strip() for l in bloco)
         # linhas de cabecalho/separador de tabela
         for linha in bloco:
@@ -159,7 +197,7 @@ def extrair_afirmacoes(corpo):
                     for valor, unidade in _pares(cel):
                         saida.append(dict(secao=secao, paragrafo=texto[:60].replace("\n", " "),
                                           sujeito=f"coluna {k + 1}", valor=valor,
-                                          unidade=unidade, citacoes=citacoes,
+                                          unidade=unidade, citacoes=citacoes, estatuto=estatuto,
                                           contexto=cel[:160], tabela=True))
                 continue
             for valor, unidade, ini, fim in _pares_pos(l):
@@ -168,7 +206,8 @@ def extrair_afirmacoes(corpo):
                 cits = _citacoes_da_sentenca(l, ini, fim) or (citacoes if len(set(citacoes)) == 1 else [])
                 saida.append(dict(secao=secao, paragrafo=texto[:60].replace("\n", " "),
                                   sujeito=ctx[:80], valor=valor, unidade=unidade,
-                                  citacoes=cits, contexto=ctx[:200], tabela=False))
+                                  citacoes=cits, estatuto=estatuto,
+                                  contexto=ctx[:200], tabela=False))
     return saida
 
 
@@ -187,6 +226,27 @@ def _citacoes_da_sentenca(linha, ini, fim):
     corte = max(antes.rfind(". "), antes.rfind("; "), antes.rfind(": "))
     trecho_antes = antes[corte + 1:] if corte > 0 else antes
     return [int(x) for x in re.findall(r"\[(\d{1,2})\]", trecho_antes)]
+
+
+RE_NOTA_TABELA = re.compile(r"(?i)fonte da tabela inteira")
+RE_ESTATUTO = re.compile(r"(?i)(fonte da tabela inteira|de onde vem cada n[uú]mero|estatuto dos n[uú]meros|"
+                         r"todos os n[uú]meros deste)")
+RE_RESUMO = re.compile(r"(?i)(resumo dess[ae] mesma fonte|j[aá] nomead[ao]|j[aá] citad[ao]|"
+                       r"mesma fonte, j[aá] citada|do mesmo estudo)")
+RE_CALCULO = re.compile(r"(?i)(c[aá]lculo (a partir|sobre)|s[aã]o \*\*c[aá]lculo\*\*|"
+                        r"todos s[aã]o \*\*c[aá]lculo|dividindo|massa de boro pela massa)")
+
+
+def estatuto_do_bloco(bloco_txt, ultima_fonte):
+    """Le do proprio texto o estatuto da afirmacao sem [n]."""
+    fonte = ultima_fonte
+    if RE_NOTA_TABELA.search(bloco_txt):
+        return {"tipo": "TABELA_COM_NOTA", "fonte": fonte}
+    if RE_RESUMO.search(bloco_txt):
+        return {"tipo": "RESUMO_DE_FONTE_NOMEADA", "fonte": fonte}
+    if RE_CALCULO.search(bloco_txt):
+        return {"tipo": "DERIVACAO_DECLARADA", "fonte": None}
+    return None
 
 
 def _pares(trecho):
@@ -218,6 +278,26 @@ def _excluido(linha, pos, valor):
     """Exclusoes da regra: ano, citacao [n], secao, NCM, DOI, p. N, contagem de fichas."""
     antes = linha[max(0, pos - 12):pos]
     depois = linha[pos + len(valor):pos + len(valor) + 4]
+    # numero CAS (10043-35-3): identificador de substancia, mesma classe de NCM.
+    # O valor esta DENTRO de um CAS quando algum casamento cobre a posicao.
+    for mcas in re.finditer(r"\d{2,7}-\d{2}-\d", linha):
+        if mcas.start() <= pos and pos + len(valor) <= mcas.end():
+            return True
+    # subscrito de formula quimica: o digito esta COLADO a um simbolo (10H2O, 5H2O).
+    # Em prosa ha espaco ("10 mg"); em formula nao ha.
+    if re.match(r"^[A-Z][a-z]?[\u2080-\u2089\d]", depois):
+        return True
+    # codigo de perigo CLP (H360FD, H360F, H360D) e categoria de perigo (Repr. 1B, cat. 2)
+    if re.search(r"H\s?\d{3}", linha[max(0, pos - 6):pos + len(valor) + 6]):
+        return True
+    if re.search(r"(?i)\b(rep[r]?\.?|cat[a-z]*\.?)\s*[\"']?\s*$", antes):
+        return True
+    # referencia a secao do proprio texto (§18, §9)
+    if "§" in linha[max(0, pos - 3):pos]:
+        return True
+    # data por extenso ("1º de fevereiro")
+    if re.match(r"(?i)\s*[ºo]?\s*de\s+(janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)", depois):
+        return True
     # ordinal de lista ("1. ", "2. ") — mesma classe de numero de secao
     if re.match(r"^\s*\d{1,2}\.\s", linha) and re.match(r"^\s*\d{1,2}$", valor):
         return True
@@ -230,9 +310,12 @@ def _excluido(linha, pos, valor):
     # ano de quatro digitos isolado
     if re.fullmatch(r"(19|20)\d{2}", valor):
         return True
-    # NCM de oito digitos
+    # NCM de oito digitos, e NCM pontuado (2810.00.10, 2840.11, 2804.50.00)
     if re.fullmatch(r"\d{8}", valor):
         return True
+    for mncm in re.finditer(r"\d{4}\.\d{2}(?:\.\d{2})?", linha):
+        if mncm.start() <= pos and pos + len(valor) <= mncm.end():
+            return True
     # DOI / volume / numero de secao
     if re.search(r"(?i)\bdoi[:\s]*\S*$", antes):
         return True
@@ -339,8 +422,21 @@ def main():
     for i, a in enumerate(afir, 1):
         fontes = [c for c in a["citacoes"] if c in MAPA]
         veredito, pagina, motivo, fonte_usada = None, None, "", None
+        # ---- estatuto declarado NO TEXTO: tres marcadores previstos na regra ----
         if not a["citacoes"]:
-            veredito, motivo = "NAO_MEDIDO", "afirmacao sem citacao [n]: nao ha fonte declarada"
+            est = a.get("estatuto")
+            if est and est.get("tipo") and est.get("fonte") in MAPA:
+                fonte_usada = est["fonte"]
+                if est["tipo"] == "TABELA_COM_NOTA":
+                    veredito, motivo = "TABELA_COM_NOTA", "fonte declarada em nota de tabela"
+                elif est["tipo"] == "RESUMO_DE_FONTE_NOMEADA":
+                    veredito, motivo = "RESUMO_DE_FONTE_NOMEADA", "resumo de fonte ja nomeada no texto"
+                elif est["tipo"] == "DERIVACAO_DECLARADA":
+                    veredito, motivo = "DERIVACAO_DECLARADA", "calculo declarado no texto"
+            elif est and est.get("tipo") == "DERIVACAO_DECLARADA":
+                veredito, motivo = "DERIVACAO_DECLARADA", "calculo declarado no texto, sem fonte de entrada"
+            else:
+                veredito, motivo = "NAO_MEDIDO", "afirmacao sem citacao [n]: nao ha fonte declarada"
         elif not fontes:
             veredito = "NAO_MEDIDO"
             motivo = "; ".join(f"[{c}] {MOTIVO_SEM_FONTE.get(c, 'sem fonte custodiada')}"
@@ -420,6 +516,9 @@ def main():
         d_ = paragrafos_reg.setdefault(k, dict(secao=r_["secao"], total=0, confere=0,
                                                nao_medido=0, ausente=0))
         d_["total"] += 1
+        d_.setdefault("com_estatuto", 0)
+        if r_["veredito"] in ("TABELA_COM_NOTA", "DERIVACAO_DECLARADA", "RESUMO_DE_FONTE_NOMEADA"):
+            d_["com_estatuto"] += 1
         if r_["veredito"] == "CONFERE":
             d_["confere"] += 1
         elif r_["veredito"] == "AUSENTE_NA_PAGINA":
@@ -431,14 +530,12 @@ def main():
             continue
         if d_["confere"] == d_["total"]:
             d_["veredito"] = "CONFERIDO"
+        elif d_["confere"] + d_["com_estatuto"] == d_["total"]:
+            d_["veredito"] = "ESTATUTO_DECLARADO"
         elif d_["confere"] == 0:
             d_["veredito"] = "NAO_CONFERIDO" if d_["ausente"] == 0 else "DIVERGENTE"
         else:
             d_["veredito"] = "PARCIAL"
-    with open(os.path.join(AQUI, "registro_paragrafos.json"), "w", encoding="utf-8") as f:
-        json.dump(paragrafos_reg, f, ensure_ascii=False, indent=1)
-    print(f"paragrafos sem afirmacao numerica: {SEM_NUM_GLOBAL[0]}", file=sys.stderr)
-
     from collections import Counter
     cont = Counter(r["veredito"] for r in registro)
     # paragrafos de prosa SEM nenhuma afirmacao numerica tambem recebem veredito
@@ -454,6 +551,9 @@ def main():
             paragrafos_reg[txt[:60]] = dict(secao="?", total=0, confere=0, nao_medido=0,
                                             ausente=0, veredito="SEM_AFIRMACAO_NUMERICA")
     SEM_NUM_GLOBAL[0] = sem_num
+    with open(os.path.join(AQUI, "registro_paragrafos.json"), "w", encoding="utf-8") as f:
+        json.dump(paragrafos_reg, f, ensure_ascii=False, indent=1)
+    print(f"paragrafos sem afirmacao numerica: {sem_num}", file=sys.stderr)
     cp = Counter(v["veredito"] for v in paragrafos_reg.values())
     resumo = dict(M=len(registro), contagem=dict(cont),
                   paragrafos=len(paragrafos_reg), paragrafos_por_veredito=dict(cp),
