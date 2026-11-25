@@ -62,7 +62,7 @@ Revisão sistemática conduzida segundo as diretrizes PRISMA, analisando artigos
 - **Resistência à flexão (MOR):** na Tabela 6, a linha da referência [53] reporta **50–220 MPa** de MOR (p. 24).
 - **Densidade seca do bambu comumente usado em estruturas:** varia de **500 kg/m³** a **800 kg/m³** (p. 12).
 
-> **Nota de verificação:** na Tabela 6, a unidade está no cabeçalho da coluna (MOR em MPa, MOE em GPa), não junto aos valores `50–220`. A coluna foi conferida por coordenada na página 24 (o valor começa sob o cabeçalho MOR, não sob CS), e a unidade foi conferida na mesma coordenada — por isso o valor entra na ficha como **MPa**. Registro do instrumento: a execução de `54691508` nesta ficha confere os valores na p. 24 e **não** associa a unidade ao intervalo; a versão anterior do instrumento (`1750b762`) emitia `APROVADO_SEM_UNIDADE` para esta mesma linha. O estado é do instrumento, não da ficha: a unidade está no cabeçalho e foi lida por coordenada.
+> **Nota de verificação:** na Tabela 6, a unidade está no cabeçalho da coluna (MOR em MPa, MOE em GPa), não junto aos valores `50–220`. A coluna foi conferida por coordenada na página 24 (o valor começa sob o cabeçalho MOR, não sob CS), e a unidade foi conferida na mesma coordenada — por isso o valor entra na ficha como **MPa**. Registro do instrumento: `54691508` emite, para esta linha, o estado **`APROVADO`** com a unidade **`MPa`** (p. 24). A versão anterior, `1750b762`, emitia `APROVADO_SEM_UNIDADE` para a mesma linha. A conferência da coordenada que sustenta a atribuição da coluna — o valor começa sob o cabeçalho MOR, não sob CS — foi feita na fonte privada e não é reproduzível a partir daqui.
 
 ---
 
