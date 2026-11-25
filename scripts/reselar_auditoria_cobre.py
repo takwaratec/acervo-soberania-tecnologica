@@ -310,6 +310,10 @@ def main():
     git("add", man_path, hr_path)
     if prev != man_path:
         git("rm", "-q", "--ignore-unmatch", prev)
+        # a resposta de hashes do selo anterior sai junto com ele: selo é par, não peça solta
+        prev_hr = prev.replace("AUDITORIA_SOL_COBRE_MANIFEST_R1", "AUDITORIA_SOL_COBRE_HASHES_RESPONSE_R1")
+        if prev_hr != hr_path:
+            git("rm", "-q", "--ignore-unmatch", prev_hr)
     git("commit", "-q", "-m",
         f"auditoria(cobre): manifesto e hashes do alvo {alvo[:8]} — {nf_fich} fichas, "
         f"{man['total_fontes']} fontes")
