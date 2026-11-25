@@ -169,6 +169,10 @@ def main():
         "CONTEÚDO (o anterior ao selo), nunca ao HEAD. Manifesto que pareça 'apontar para o commit "
         "anterior' é o funcionamento correto, não deriva — se alvo_commit fosse o HEAD, o selo "
         "estaria declarando os próprios bytes como fonte de si mesmo.")
+    man["o_que_voce_le"] = (
+        "o commit alvo_commit, na branch da PR. main NÃO contém este material — ler main avalia outro "
+        "objeto. Ao clonar de um caminho local, confira a base: a branch `main` do clone pode estar "
+        "atrás da main do GitHub, e o A7 medido nela acusa arquivo de governança que já entrou.")
     man["alvo_nota"] = ("alvo_commit é o último commit que mudou os bytes auditados (artigo, "
                         f"manuscrito, {_nf} fichas, fontes). Todos os sha256 de fontes[] foram lidos "
                         "do próprio commit, com `git show <alvo>:<path>`.")
