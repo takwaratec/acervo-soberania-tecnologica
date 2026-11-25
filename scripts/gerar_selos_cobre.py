@@ -133,8 +133,9 @@ def main():
         "|---|---|---|---|---|",
     ]
     for s in selos:
+        c = s["commit"] if s["commit"].startswith("(") else s["commit"][:12]
         linhas.append(f"| `{s['alvo']}` | `{s['man'][:16]}…` | `{s['hr'][:16]}…` | "
-                      f"{s['data'][:19]}Z | `{s['commit'][:12]}` |")
+                      f"{s['data'][:19]}Z | `{c}` |")
     linhas.append("")
     linhas.append(f"Total de selos indexados: **{len(selos)}**.")
     if orfaos:

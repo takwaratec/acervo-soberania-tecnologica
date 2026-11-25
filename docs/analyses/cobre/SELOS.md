@@ -20,7 +20,7 @@ confere se o que veio é o mesmo.
 
 | alvo_commit | sha256 do manifesto | sha256 da resposta | data | commit do par |
 |---|---|---|---|---|
-| `8fc03584` | `2128a060530e684d…` | `34e018bcb136afb6…` | 2026-11-25T19:22:09Z | `(este commit` |
+| `8fc03584` | `2128a060530e684d…` | `34e018bcb136afb6…` | 2026-11-25T16:22:09Z | `d226975c5d34` |
 | `3fd33c3b` | `a7ad27d7d0115450…` | `c5629e1d6efd038f…` | 2026-11-25T16:02:57Z | `7d2db6d28b76` |
 | `b6c882f7` | `72f2a0d41ca34721…` | `a0983e90f38ae905…` | 2026-11-25T16:01:51Z | `91dc854310f3` |
 | `ad00bf6b` | `7f14de72e787b13c…` | `40c4b63e12dd8926…` | 2026-11-25T13:37:08Z | `25d97434db77` |
