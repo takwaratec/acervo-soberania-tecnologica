@@ -251,7 +251,7 @@ def montar():
 <html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>O cobre, explicado do zero — Acervo Soberania Tecnológica</title>
-<meta name="description" content="Artigo didático integral sobre o sulfato de cobre no tratamento de bambu, com 17 citações numeradas, bibliografia comentada e as 6 fichas técnicas anexadas na íntegra.">
+<meta name="description" content="Artigo didático integral sobre o sulfato de cobre no tratamento de bambu, com {len(R.REFERENCIAS)} citações numeradas, bibliografia comentada e as {len(FICHAS)} fichas técnicas anexadas na íntegra.">
 <meta property="og:title" content="O cobre, explicado do zero">
 <meta property="og:description" content="Um metal comum, uma solução azul e a pergunta que quase ninguém faz: para onde vai a água do tratamento.">
 <meta property="og:type" content="article">
