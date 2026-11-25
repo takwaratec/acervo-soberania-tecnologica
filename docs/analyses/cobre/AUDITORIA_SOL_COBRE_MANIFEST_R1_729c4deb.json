@@ -3,13 +3,13 @@
  "versao": "1.0.0",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "status": "ABERTO",
- "gerado_utc": "2026-11-25T15:53:07+00:00",
+ "gerado_utc": "2026-11-25T15:57:13+00:00",
  "tipo": "CONTEUDO",
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "ec47267d3d4c9023242e0762ff968bc55c36ea12",
- "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 11 fichas, fontes). Todos os sha256 de fontes[] foram lidos do próprio commit, com `git show <alvo>:<path>`.",
+ "alvo_commit": "729c4debdbff8685d2a07ac778afc2e8af1dbbba",
+ "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 12 fichas, fontes). Todos os sha256 de fontes[] foram lidos do próprio commit, com `git show <alvo>:<path>`.",
  "aviso_de_leitura": {
   "repositorio": "takwaratec/acervo-soberania-tecnologica",
   "visibilidade": "PUBLIC",
@@ -33,7 +33,7 @@
   "o_que_a_homologacao_interna_NAO_e": "Não é homologação científica por par, não é homologação regulatória e não substitui esta auditoria. Se você apontar furo material, o estado reverte para ficha-em-revisao.",
   "tese_declarada_fora_da_pergunta": "A frente afirma que o ponto crítico do tratamento com sulfato de cobre é o resíduo (solução exaurida), não a eficácia do produto. Esta é uma TESE, declarada aqui para não contaminar as perguntas abaixo."
  },
- "pergunta": "As afirmações do artigo e das 11 fichas são fielmente sustentadas pelas 21 fontes custodiadas neste repositório, e o que não está medido está declarado como tal?",
+ "pergunta": "As afirmações do artigo e das 12 fichas são fielmente sustentadas pelas 33 fontes custodiadas neste repositório, e o que não está medido está declarado como tal?",
  "fora_de_escopo": [
   "runtime, ledger, claims e código do sistema R4 — nada disso é objeto desta rodada",
   "homologação científica das fichas — a homologação é interna e o ato é do soberano",
@@ -107,22 +107,22 @@
  "fontes": [
   {
    "path": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
-   "sha256": "e50b172d3c499d5042f5a3fa8e2f8fb473870cfc9427ebed098dbdd8f01b4ec8",
-   "bytes": 110532,
+   "sha256": "acd524b77c3bd6e1b8a2f89bce443a563e9707b060edee827c384040904ce297",
+   "bytes": 110552,
    "papel": "manuscrito único, com as 14 referências",
    "no_repositorio": true
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
    "papel": "peça corrida — texto integral, bibliografia comentada e as 6 fichas anexadas",
-   "sha256": "ba6d0202ebbd92aec229e6c75cb8494e62bd4c8d8937988fcd83fbb9787edf00",
-   "bytes": 242808,
+   "sha256": "eae9955ed246d21b1759827eeab4af9080f031796edb1727b008c6a4980d3163",
+   "bytes": 242828,
    "no_repositorio": true
   },
   {
    "path": "docs/analyses/cobre/o-cobre-no-bambu.html",
-   "sha256": "1fb36ddb19b63c7701893a7fa5b50408b5079a9c6b6cb929351f5f27a6178a14",
-   "bytes": 249043,
+   "sha256": "3efedcc5bc82770a5c220e8f14f181fa4398fd0bf16b93e5fde5b115a2c5e109",
+   "bytes": 249063,
    "papel": "peça de leitura, 18 abas",
    "no_repositorio": true
   },
