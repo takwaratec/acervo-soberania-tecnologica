@@ -101,3 +101,30 @@ em `registro.jsonl`.
 - Não mede as 25 afirmações cuja fonte **não está custodiada** ([14], [16], [22], [30] e as
   dezenove páginas de [26] não presentes na gaveta): essas continuam sem fonte para conferir.
 - Não transforma o artigo em peça homologada. Homologar é ato humano.
+
+
+---
+
+## Contagem do diff — correção de 2026-11-25 (terceira vez que o número foi escrito errado)
+
+O relato saiu com **20 arquivos**. O medido, no commit `3b688c5`, era **21** — eu tinha
+reaproveitado um total de uma execução anterior do A7 e não o remedi depois de acrescentar
+`scripts/gate_boro/reproduzir_comexstat.py`. O soberano mediu 21 e estava certo.
+
+Trazido o `PARECER_R6` (`cb7c97c`), o total passa a **22**, e é este o número:
+
+| Origem | Arquivos |
+|---|---:|
+| `docs/analyses/boro` | 11 |
+| `scripts/gate_boro` | 10 |
+| `ops/command-center/task-results` | 1 |
+| **Total** | **22** |
+
+Deleções: **0**. Dois pontos e três pontos medem **22 nos dois**.
+`check_escopo_do_diff.py --base origin/main --permitir docs/ --permitir scripts/ --permitir
+tests/ --permitir ops/` → **TOTAL_NO_DIF=22, DENTRO=22, FORA=0, VEREDITO=PASS**.
+
+O commit `cb7c97c` registra "20 → 21" no texto da mensagem porque foi escrito antes de o R6
+entrar na conta. A mensagem de commit não se reescreve; a correção fica aqui, com data e com a
+composição. **Número que eu digo sem remedir é o defeito que esta frente está consertando**, e
+esta é a terceira ocorrência: guardo o registro em vez de apagar a marca.
