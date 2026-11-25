@@ -244,13 +244,13 @@ metodológicas em [`01-importacao-brasileira-boro-comexstat.md`](01-importacao-b
 Consulta direta à API oficial do ComexStat (MDIC) em 2026-11-24, fluxo importação,
 NCM 2528, 2810 e 2840, série 1997–2026. Dado medido, não estimativa:
 
-- **2025: 487.185 t** de produto importado, **US$ 225,8 milhões** FOB, US$ 0,464/kg.
+- **2025: 487.339 t** de produto importado, **US$ 230,0 milhões** FOB, US$ 0,472/kg.
 - **1997: 111.621 t / US$ 35,9 milhões.** Em 28 anos, massa ×4,4 e valor ×6,3.
 - O salto é recente: 270 kt em 2020 → 487 kt em 2025.
 - **76,8% do valor (2010–2026) vem de Argentina, Bolívia, Chile e Peru** — as
   quatro economias que a USGS lista como produtoras do cinturão andino. Turquia é
   14,1%; Estados Unidos, 5,9%.
-- **Inflexão em 2026** (jan–out): a Turquia passa de 17,3% para **30,9%** do valor
+- **Inflexão em 2026** (jan–out): a Turquia passa de 17,0% para **30,4%** do valor
   e de 78 kt para 127 kt, enquanto a Bolívia cai de 170 kt para 80 kt.
 
 **Duas correções que este dado impõe a leituras correntes.**

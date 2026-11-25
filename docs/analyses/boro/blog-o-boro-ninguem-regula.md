@@ -14,7 +14,11 @@ autor: Fabio Takwara
 Quem trata bambu com boro em casa faz uma conta simples: compra o pó, mistura na água,
 mergulha a vara. O que ninguém conta é o que fazer com a água depois.
 
-No Brasil não existe norma que responda. Essa é a história.
+Nos dois instrumentos que o Brasil fez para essas duas coisas — a lei dos resíduos
+sólidos e a política nacional do bambu — não há uma linha sobre a apara de bambu
+tratada. Isso não prova que nada exista no país inteiro: prova que **as duas leis
+que deveriam tratar do assunto não tratam**. A regra geral de resíduos continua
+valendo. O que falta é a específica. Essa é a história.
 
 ## Primeiro, o que é essa coisa
 
@@ -23,7 +27,7 @@ na natureza: você não compra boro, compra um sal que o contém.
 
 E aí começa a confusão que faz gente errar a dose por um fator de seis:
 
-| Composto | Fórmula | Quanto é boro |
+| Composto | Fórmula | Boro na massa (%) |
 |---|---|---|
 | **Ácido bórico** | H₃BO₃ | **17,5%** |
 | **Bórax** (decahidratado) | Na₂B₄O₇·10H₂O | **11,3%** |
@@ -51,9 +55,15 @@ Três réguas que não se contradizem — protegem coisas diferentes:
 - **Farmácia: água boricada a 3%.** Vende sem receita, para antissepsia. Não é a mesma
   coisa que a água que você bebe, e é aí que a percepção se perde.
 
-**Ele não é cancerígeno.** Mas a União Europeia o classifica como **Repr. 1B** — tóxico
-para a reprodução, suspeito de prejudicar a fertilidade e o feto. Não arde, não fede,
-não queima a pele. É por isso que ninguém o trata como veneno.
+**Sobre câncer, a resposta é curta e não deve ser lida sozinha: o boro não é
+classificado como cancerígeno.** IARC, NTP e EPA não o classificaram quanto à
+carcinogenicidade humana. Mas ele **é** classificado pela União Europeia como **Repr. 1B**
+— tóxico para a reprodução, suspeito de prejudicar a fertilidade e o feto. Dizer só a
+primeira metade ("é seguro porque não é cancerígeno") ignora a classificação que existe;
+dizer só a segunda assusta sem necessidade. As duas valem juntas.
+
+E ele **não arde, não fede, não queima a pele na hora**. É por isso que ninguém o trata
+como veneno.
 
 > **Fonte:** OMS, *Guidelines for Drinking-water Quality*, 4. ed., 2022; regulamento
 > europeu CLP 2023/1435; ANVISA, RDC 199/2006.
@@ -86,14 +96,20 @@ caso medido — e que ninguém mediu os outros.
 ## Onde a água vai
 
 O boro tem uma propriedade que ninguém vê: **ele é móvel no solo**. Ele não se prende
-na terra como metais pesados fazem. A adsorção e a dessorção são o único mecanismo
-significativo, e o quanto ele fica depende do tipo de solo — solos ricos em alumínio
-retêm mais; solos arenosos e ácidos deixam passar.
+na terra como os metais pesados fazem. O que governa a retenção é a **adsorção e dessorção** —
+e o quanto ele fica depende do solo: solos ricos em óxido de alumínio amorfo retêm
+mais, e a retenção é maior em pH entre 7,5 e 9,0. Fora dessa faixa, passa. É o único
+mecanismo significativo que o perfil toxicológico do ATSDR registra, e é nele que a
+frase se apoia — não numa regra geral sobre "metais".
 
 Ou seja: **o boro dissolve e desce.** Em direção ao lençol.
 
-Quem mora em área de descarte e bebe água de cisterna está exatamente na rota. Mas
-aqui é preciso ser honesto: **não existe medição**. Nenhum estudo brasileiro mediu
+Quem mora em área de descarte e bebe água de cisterna está **na direção** dessa rota —
+mas "na direção" não é "em cima dela", e aqui é preciso ser exato: a cisterna capta
+chuva, não lençol; a ligação entre as duas coisas é uma infiltração que ninguém mediu
+no Brasil. E **não existe medição**: nenhum estudo brasileiro mediu boro sob área de
+descarte de bambu tratado, nem boro em cisterna de comunidade produtora. A rota é
+plausível pelo mecanismo. Não está demonstrada em campo. Nenhum estudo brasileiro mediu
 boro sob área de descarte de bambu tratado, nem boro em cisterna de comunidade
 produtora. A rota é plausível pelo mecanismo. Não está demonstrada em campo.
 
@@ -102,17 +118,20 @@ igual — e com mais consequência.
 
 > **Fonte:** ATSDR, *Toxicological Profile for Boron*, capítulo 6 (mobilidade no solo).
 
-## A frase que eu tive que apagar
+## A ideia que não se sustenta
 
-Eu escrevi, numa versão anterior deste texto, que se fosse cromo ou arsênio ninguém
-espalharia a apara no quintal.
+Circula a ideia de que, se fosse cromo ou arsênio, ninguém espalharia a apara no
+quintal.
 
 **É falso.** No caso do CCA e do CCB existe norma brasileira — a Embrapa publicou
 instrução técnica para tratar moirão na propriedade rural com tonel, equipamento de
 proteção e **proibição explícita de descarte no ambiente, repetida duas vezes**.
 
-E o que acontece na prática é o resíduo largado em área pública e queimado. Queimado
-em fogão a lenha, com casos de intoxicação pela fumaça. A norma existe. Não se cumpre.
+**O que a norma não faz é garantir que se cumpra.** O que se relata na prática é resíduo
+largado em área pública e queimado; há relato de intoxicação por fumaça de madeira
+tratada em fogão a lenha. E aqui é preciso ser exato sobre o que é documento e o que é
+relato: **não existe, no Brasil, levantamento publicado que quantifique esse descarte nem
+esses casos de intoxicação.** A proibição está escrita; o cumprimento não está medido.
 
 **Isso inverte a lição.** O boro não é pior que o cromo porque a norma não pega. Ele
 está numa posição pior: **nem a norma existe**. Quem trata bambu com boro não tem nem
@@ -202,6 +221,7 @@ O que falta não é proibição. É uma frase em algum lugar que diga onde vai o
 ---
 
 *Texto redigido com assistência de agente de inteligência artificial, sob curadoria e
-responsabilidade editorial humana. Os números foram conferidos nas fontes citadas ao
-fim de cada seção. Este artigo é material de divulgação e não substitui laudo técnico
+responsabilidade editorial humana. As fontes estão citadas ao fim de cada seção; a
+conferência numérica afirmação por afirmação está em medição por gate próprio, com
+registro por afirmação, e este texto não declara cobertura antes de o registro existir. Este artigo é material de divulgação e não substitui laudo técnico
 nem análise laboratorial.*
