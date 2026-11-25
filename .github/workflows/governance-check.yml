@@ -36,7 +36,7 @@ jobs:
         run: |
           python3 scripts/check_escopo_do_diff.py --base "origin/${{ github.base_ref }}" \
             --permitir docs/ --permitir scripts/ --permitir tests/ --permitir ops/ \
-            --permitir .github/ --permitir AGENTS.md --permitir AGENTS_LOCAL.md
+            --permitir configs/ --permitir .github/ --permitir AGENTS.md --permitir AGENTS_LOCAL.md
       - name: Gerador do pacote de auditoria (testes)
         # Instrumento testado so na funcao nao conta. Este passo roda os testes do gerador, inclusive
         # o que o executa contra as frentes reais quando o repo do acervo esta presente.
