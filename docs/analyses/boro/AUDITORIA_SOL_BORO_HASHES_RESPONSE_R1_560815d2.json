@@ -3,7 +3,7 @@
   "manifest_id": "BORO-AUDITORIA-EXTERNA-20261125-R1",
   "commit_alvo": "560815d2ab525ecad4bdc0094fe22d59837e85a0",
   "manifest_path_lido": "docs/analyses/boro/AUDITORIA_SOL_BORO_MANIFEST_R1_560815d2.json",
-  "sha256_do_manifesto": "c17a5027751a10254d4b347fe8e7320206b88a46479e2d9f418032abdcd6e321",
+  "sha256_do_manifesto": "ee3e0e129b523f88669895a5c8ee5165db8a2d0f483f2e671dd61f4c9bb6ce72",
   "metodo": "Para os 20 itens presentes no repositorio, o sha256 foi calculado sobre os bytes servidos por `git show <commit>:<path>`. Para os 0 itens fora do rastreio, o sha256 vem do arquivo em disco no caminho privado declarado, conferido contra o registro de custodia; `git show` NAO se aplica a eles.",
   "sha256_por_metodo": {
     "git_show_no_commit": [
@@ -52,5 +52,5 @@
     "scripts/gate_boro/resumo.json": "fc2fde19b172af65733f1c3a18827ba5f67ac3a9d7fe736d0a470b1f96b4807a",
     "scripts/gate_boro/rodar.py": "790edb01b7d97bcd832e2e082b45cab8ce5702cceb2b7f7753d08f57ba8e5994"
   },
-  "bytes_do_manifesto": 20564
+  "bytes_do_manifesto": 23328
 }
