@@ -3,12 +3,12 @@
  "versao": "1.0.0",
  "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
  "status": "ABERTO",
- "gerado_utc": "2026-11-25T15:02:31+00:00",
+ "gerado_utc": "2026-11-25T15:22:39+00:00",
  "tipo": "CONTEUDO",
  "frente": "COBRE",
  "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
  "alvo_branch": "hermes/cobre-plano-20261124",
- "alvo_commit": "d2f46fc8014c56d7355717579b6ffd715dbe542f",
+ "alvo_commit": "f7b2da8e067d43e6a86566b0b477005757b73ad7",
  "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 11 fichas, fontes). Todos os sha256 de fontes[] foram lidos do próprio commit, com `git show <alvo>:<path>`.",
  "aviso_de_leitura": {
   "repositorio": "takwaratec/acervo-soberania-tecnologica",
@@ -184,78 +184,78 @@
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md",
-   "sha256": "6c210a6c9f63f224017e1ef9c901ea92c353db60442edfaacf7b5cf605b94577",
-   "bytes": 8554,
+   "sha256": "a3a3ee0045848158a0fa1c5f467e5fab4b95fd7e19b93aea502fb9f692e33ec8",
+   "bytes": 8719,
    "papel": "ficha 1",
    "no_repositorio": true
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-nmba-2006-preservation-of-bamboo-manual.md",
-   "sha256": "df90bb7085023deb7ad4ed7dd31f9814df3a67009d613f0c0559ed89a45426ad",
-   "bytes": 8379,
+   "sha256": "bdf6dfaf6b3d904b475d8f9ee64c18377fe42f570ba4e10e2a17fcd60e55ff9e",
+   "bytes": 8544,
    "papel": "ficha 2",
    "no_repositorio": true
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-scharfenberg-2020-bambu-cb-fitotoxicidade.md",
-   "sha256": "a2b5f8f4000084b46a5b9c330334bc9ff716ccc058103dcf9ab581a4e5383a3d",
-   "bytes": 7283,
+   "sha256": "f048cc7b2e0a9609695702976cf15f6fd8f1471f15065c9fb364639a364aa150",
+   "bytes": 7448,
    "papel": "ficha 3",
    "no_repositorio": true
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-ufmg-mom-tratamento-com-borax.md",
-   "sha256": "7f656dc0f100fcc792bbd266ec7dec7156b607c61f16f158892f0081a72b312f",
-   "bytes": 5056,
+   "sha256": "a8b9397324e61b0123814e0ca591047fdacc284cdcb0d2ef6b3227b4b877b3bf",
+   "bytes": 5221,
    "papel": "ficha 4",
    "no_repositorio": true
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-blog-tsc-como-tratar-bambu.md",
-   "sha256": "65328451449cdc1379b26833f2c9e41a223754d1a72a260acd3876564fb68d39",
-   "bytes": 6415,
+   "sha256": "3ec2216010fe6829fd53617373a1b79bda5faa780a7bb4132cebc62bb5350133",
+   "bytes": 6580,
    "papel": "ficha 5",
    "no_repositorio": true
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-espaconaturalmente-bambu.md",
-   "sha256": "dd6026b9c2494546b2e75927c3e77da668eb3b437e5e3747991b60ad801473d5",
-   "bytes": 4954,
+   "sha256": "139459e90494389a9ee3bf3aa33809d75bac95c1c430b21cc2ba00f689f80763",
+   "bytes": 5119,
    "papel": "ficha 6",
    "no_repositorio": true
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-pi292-89-registro-preservativos-madeira.md",
-   "sha256": "b36de18a5a8bfc56e29e38942c016bbceceed218e33142a66e2fbae11148a77d",
-   "bytes": 8055,
+   "sha256": "c1d2035bf006ae330d71a6ac9380e2199341e4c66d9ca150ed4516baea831e69",
+   "bytes": 7963,
    "papel": "ficha 7 — a norma-mãe: registro obrigatório e art. 20 (competência de fiscalização)",
    "no_repositorio": true
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-pn151-97-ibama-risco-ambiental.md",
-   "sha256": "d327a095b60deaf2c95c7ca638d10ffed7960bb870d4410ccd2cdc328e36f037",
-   "bytes": 5762,
+   "sha256": "c8168a07d265af59db903655baa6b4363c742006c67bcbeb9614c58d39b61fcd",
+   "bytes": 5670,
    "papel": "ficha 8 — o registro condicionado à determinação do risco ambiental",
    "no_repositorio": true
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-iema-es-nt01-2023-preservacao-madeira.md",
-   "sha256": "95e424ecb0f77f1a93446f65d0fc43cd2ca2b913612175950037d806be8e6ad7",
-   "bytes": 7767,
+   "sha256": "0cf1c3f920b69fb240a33288fe5f6a773bbe1b9d3b46a6b7294cbdb9b46d07bf",
+   "bytes": 7675,
    "papel": "ficha 9 — o regulador do ES: «não há proibição no Brasil» e a falta de dados do CCB",
    "no_repositorio": true
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md",
-   "sha256": "c75330c49e5c5bd67604a4002540519bc59fea8312fb9e74e1fbcd53b37bdb69",
-   "bytes": 5656,
+   "sha256": "c3376820edeab56c7fb45e980efe2be9e3d09d243c880d6b1671f496ee406b08",
+   "bytes": 5564,
    "papel": "ficha 10 — a própria cadeia: resíduo tratado não pode queima em fogão nem a céu aberto",
    "no_repositorio": true
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md",
-   "sha256": "07679546ad35809327fb8b778733af466b9f4581694be7ba32ef4ba777fe7678",
-   "bytes": 6061,
+   "sha256": "291652494ee510c82f13a7ee764ebe4d73b9cd4bbce0b98ac6cba890d78eab6d",
+   "bytes": 5969,
    "papel": "ficha 11 — 880 dias de campo: As na madeira −55,0%, no solo +129,2%",
    "no_repositorio": true
   },
@@ -308,8 +308,8 @@
   },
   {
    "path": "docs/analyses/cobre/fichas/ficha-in05-92-ibama-destinacao-final-residuos.md",
-   "sha256": "e5f348a735c24afe23b0fc0e4e7f054f387c0e7a97275059869baed88194a335",
-   "bytes": 8067,
+   "sha256": "bee9f0fd8b318e74f0d5a54d28180d0a2d69cd2aeb48523b79157af0ab50ec9a",
+   "bytes": 7975,
    "papel": "ficha 12 — item VIII da IN 5/92: o descarte segue a bula, e a bula é do produto registrado",
    "no_repositorio": true
   },
