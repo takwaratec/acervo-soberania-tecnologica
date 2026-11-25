@@ -454,7 +454,18 @@ h1.art-title{font-size:1.6rem;margin-top:2rem}
 <p>Este artigo é uma peça de revisão. <strong>Não está homologado.</strong> O estado documental é <code>em-revisao-documental</code> e a homologação automática está desativada — homologar é ato humano.</p>
 <p>O texto passou por <strong>auditoria independente em três rodadas</strong> (R6, R7 e uma terceira sobre o material já corrigido), com <strong>21 achados registrados e corrigidos</strong>. O padrão dos erros encontrados foi sempre o mesmo: <strong>generalização</strong> — resumir uma tabela por uma frase, atribuir a um país o que vale para o mundo, tratar dois tratamentos como um, ou transformar impressão do curador em achado do autor.</p>
 <p>Três erros deste próprio acervo ficaram registrados no corpo do texto, porque corrigi-los é mais útil que escondê-los: a atribuição de "maior parte do mundo abaixo de 0,5 mg/L" ao documento de 2009 em vez do de 2022; a leitura de "93%" como incidência em vez de indicador; e a descrição de "superior a 80%" de inibição fúngica quando apenas uma das duas espécies passa de 80%.</p>
-<p><strong>Aviso sobre uso de inteligência artificial.</strong> A redação, a organização e a verificação cruzada deste artigo foram feitas com assistência de um agente de IA, sob curadoria humana e supervisão declarada no frontmatter. <strong>Toda afirmação numérica foi conferida contra a fonte primária custodiada</strong> — mas a responsabilidade pela peça é humana, e a homologação também.</p>
+<!--
+  CONFERÊNCIA (AGENTS_LOCAL.md § "Conferência de afirmação", A1-A6).
+  NÃO cole aqui frase de conferência integral ("toda afirmação conferida", "todas as citações
+  verificadas palavra por palavra", "fontes com integridade conferida por assinatura digital").
+  Declaração de conferência é afirmação sobre o próprio trabalho e precisa de registro ao lado do
+  texto, com o denominador contado ANTES da medição.
+  Se houver registro: "N de M afirmações conferidas contra a fonte, e como foram escolhidas".
+  Se não houver: a frase não consta. Hash SHA-256 NÃO é assinatura digital — é registro de que o
+  byte não mudou, sem chave e sem signatário.
+  O gate que cobra isso: python3 scripts/check_declaracao_conferencia.py .
+-->
+<p><strong>Aviso sobre uso de inteligência artificial.</strong> A redação, a organização e a verificação cruzada deste artigo foram feitas com assistência de um agente de IA, sob curadoria humana e supervisão declarada no frontmatter. <strong>A responsabilidade pela peça é humana, e a homologação também.</strong></p>
 <p><strong>Onde os arquivos estão.</strong> As fichas técnicas de cada obra da bibliografia, com avaliação crítica e limites, estão em <code>docs/analyses/boro/fichas/</code>. As fontes primárias custodiadas, com hash SHA-256, estão em <code>_privado/governanca-operacional/extracoes/boro/</code>.</p>
 <section id="anexos">
 <div class="anexo-intro"><strong>Anexos — fichas técnicas na íntegra.</strong> Cada obra citada tem ficha própria com dados gerais, conteúdo medido, avaliação crítica e limites declarados. Texto integral, sem resumo. Todas em <code>em-revisao-documental</code>.</div>

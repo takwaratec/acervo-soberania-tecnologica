@@ -1100,16 +1100,26 @@ federal, de 1989, que registra o preservativo e nomeia quem fiscaliza; existe um
 a instrução de 1992 — estava declarada como "pendente de custódia" enquanto o texto afirmava o
 contrário do que ela diz.
 
-O sistema inteiro cabe em três frases, e o problema não está em nenhuma delas isolada: está na
-combinação.
+O que está escrito, e o que eu deduzi — preciso separar as duas coisas, porque já confundi nesta
+gaveta.
+
+**Está escrito:**
 
 - a norma **manda** o resíduo ter destinação final — item VIII da IN 5/92;
-- o **conteúdo** dessa destinação é delegado à **bula** do produto;
-- a bula só existe para produto **registrado** — e o produto de uso domissanitário está
-**dispensado** de registro pelo art. 4º da Portaria.
+- manda também que o descarte **siga as recomendações da bula**, e exige que a bula traga
+o destino final;
+- a cadeia é definida por empresa — indústria, usina, importador, comércio (inclusive varejo) e
+**usuário, que é "toda e qualquer empresa"**;
+- o art. 4º da Portaria **dispensa de registro** o preservativo destinado a experimentação
+e uso domissanitário.
 
-Não é vazio legal. É **transferência**: da norma para o rótulo, e do rótulo para quem
-não tem rótulo.
+**É dedução minha, e vai marcada como tal:** que o produto dispensado de registro não
+venha a ter bula; e que, sem bula, não haja onde a instrução de descarte pouse. Nenhum dos documentos
+que custodiei diz isso. Pode perfeitamente haver bula, rótulo ou instrução para produto não registrado —
+eu não verifiquei, e não afirmo.
+
+O que a norma faz, com todas as letras, é **apontar para o rótulo**. Se o rótulo existe
+fora do registro, é pergunta aberta. Se não existe, é o buraco. Eu não fechei essa pergunta.
 
 ---
 
@@ -1162,12 +1172,16 @@ dos resíduos".
 
 Ou seja: a obrigação é da lei; **o conteúdo da obrigação é do fabricante**, que escreve
 a bula, e do Ibama, que a aprova. Isso não é fraude nem brecha — é desenho declarado, e é comum em
-regulação por produto. Mas tem uma consequência que a peça precisa dizer com todas as letras:
-**a instrução de descarte não está na norma, está no rótulo.**
+regulação por produto. Mas tem uma consequência que a peça precisa dizer sem exagerar: **a norma não diz qual é o
+descarte — manda perguntar ao rótulo.** A obrigação está na norma; o conteúdo técnico dela é
+que mora na bula.
 
-E agora some as duas peças. O art. 4º da Portaria dispensa de registro o preservativo destinado a
-**experimentação e uso domissanitário**. Produto sem registro não tem bula aprovada. Sem
-bula, não há onde a regra de descarte morar.
+E agora a pergunta que a peça tem de deixar aberta, em vez de responder por conta própria. O art.
+4º da Portaria dispensa de registro o preservativo destinado a **experimentação e uso
+domissanitário**. A bula, tal como a IN 5/92 a descreve, é peça do regime de produto e empresa
+registrados. **Se o produto dispensado de registro tem bula, eu não verifiquei.** Se tiver,
+a instrução de descarte pode estar lá. Se não tiver, ela não tem onde estar. Eu não fecho essa
+pergunta com documento — e não vou fechá-la por dedução.
 
 ### Quem a instrução enxerga — e quem ela não enxerga
 
@@ -1336,9 +1350,12 @@ A norma brasileira de preservação de madeira existe, é de 1989, e nomeia quem
 instrução que a disciplina existe, é de 1992, e tem seção própria sobre destinação final de resíduos.
 **As duas coisas são verdade, e nenhuma das duas é o problema.**
 
-O problema é o encadeamento: a norma manda o resíduo ter destino; o destino é escrito na bula; a
-bula existe para o produto registrado; e o produto de uso domissanitário está dispensado de registro.
-**Cada elo está documentado, e o conjunto deixa de fora exatamente quem trata no quintal.**
+O problema é o encadeamento: a norma manda o resíduo ter destino, e manda o descarte seguir a bula.
+Ora, quem trata bambu no quintal não é indústria, não é usina, não é comércio e não é usuário — pela
+definição da própria instrução, que reserva o termo "usuário" às empresas. **Não
+localizei, na IN 5/92, uma única obrigação dirigida ao comprador pessoa física.** Isso é o que
+os documentos sustentam. Dizer que ele está fora da estrutura seria mais do que isso, e eu não
+digo.
 
 O que eu *não* afirmo, e faço questão de separar: que o tratamento de bambu no quintal seja
 "uso domissanitário" no sentido do art. 4º. O termo vem da regulação de saneantes, e decidir se ele
@@ -1464,8 +1481,9 @@ Termos em ordem alfabética. Todos aparecem explicados no corpo do texto; este �
 ## Para saber mais, e como este texto foi feito
 
 Este artigo não inventa dados. Ele reorganiza, em linguagem simples, o conteúdo de uma frente de pesquisa
-do **Acervo Soberania Tecnológica** dedicada ao cobre, que custodia as fontes com verificação de
-integridade por assinatura digital.
+do **Acervo Soberania Tecnológica** dedicada ao cobre, que custodia as fontes com
+**hash SHA-256 registrado em manifesto** — o hash prova que o arquivo não mudou desde o
+registro; não é assinatura digital, não tem chave e não tem signatário.
 
 ### As fontes que sustentam cada número
 
@@ -1492,7 +1510,7 @@ registrado uma a uma. Três reprovaram, e cada reprovação produziu correção 
 do erro que **favorecia a tese do próprio material**. As correções estão registradas no acervo,
 não apagadas.
 
-> **O que a auditoria confirmou** — Integridade das fontes conferida por assinatura digital; todas as citações literais verificadas palavra por palavra contra o documento original; e as declarações de "não sei" mantidas como declarações, sem virar afirmação no meio do texto.
+> **O que as auditorias mediram — e o que não mediram** — Elas julgaram conteúdo, rodada a rodada: se cada afirmação tinha esteio no documento custodiado. Não fizeram um diff palavra por palavra das citações deste artigo. A medição de literalidade que existe é limitada, está registrada ao lado do texto e vai com o denominador contado antes: dos 49 blocos de citação do manuscrito, 5 retornam palavra por palavra no extrato custodiado e 2 são traduções — nelas, literalidade não é o instrumento aplicável. Os outros 42 não foram conferidos por esse método e ficam declarados como não medidos. À parte disso, nas 6 fichas das custódias normativas, os 38 blocos citados retornam verbatim no extrato (portão de fidelidade, saída 0). Integridade dos arquivos: hash SHA-256 em manifesto. E as declarações de "não sei" foram mantidas como declarações, sem virar afirmação no meio do texto.
 
 ### Estado deste documento
 
