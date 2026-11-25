@@ -10,6 +10,14 @@ Antes de executar qualquer tarefa, leia nesta ordem:
 4. `REPOSITORY_PROFILE.yaml` (perfil e módulos aplicáveis);
 5. `GOVERNANCA_DOCUMENTAL.md` (taxonomia de estados documentais).
 
+## Texto que declara conferência
+
+Todo texto entregue por agente — ficha, artigo, resenha, blog, relatório — que afirme no método,
+frontmatter ou rodapé ter conferido afirmações, fontes ou números **declara uma medição** e está
+sujeito a `AGENTS_LOCAL.md` § "Conferência de afirmação". Sem registro auditável, a frase sai ou
+passa a relatar o que de fato ocorreu. Quem abre a frente roda a conferência; o regente lê o registro
+e aponta inconsistência — não roda por conta própria.
+
 ## Precedência
 
 Em caso de conflito, aplicar:
