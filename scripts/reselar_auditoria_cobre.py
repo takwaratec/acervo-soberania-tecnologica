@@ -175,10 +175,18 @@ def main():
             obj[k] = obj[k] if isinstance(obj[k], (int, str)) else obj[k]
     man["objeto"] = obj
     ed = man.get("estado_declarado", {})
-    ed["fichas"] = (f"{len([f for f in man['fontes'] if '/fichas/' in f['path']])} fichas, todas em "
+    ed["fichas"] = (f"{_nf} fichas, todas em "
                     "em-revisao-documental: homologacao interna e ato declarado, nao leitura medida")
+    # contagem de referências sai do manuscrito publicado, não de constante digitada
+    import re as _re
+    _man = os.path.join(REPO, "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md")
+    _nref = 0
+    if os.path.exists(_man):
+        _t = open(_man, encoding="utf-8").read()
+        if "## Referências" in _t:
+            _nref = len(_re.findall(r"^\d+\. ", _t.split("## Referências")[1], _re.M))
     ed["artigo"] = ("peça corrida (molde do boro, 13 seções), peça em abas e manuscrito único de "
-                    "ponta a ponta com 21 referências ABNT comentadas")
+                    f"ponta a ponta com {_nref} referências ABNT comentadas")
     man["estado_declarado"] = ed
     if "parte_1_perguntas" in man:
         # idempotente: rodar o reselar duas vezes não pode duplicar a pergunta
@@ -206,6 +214,24 @@ def main():
         })
 
         man["parte_1_perguntas"].extend(q for q in _novas if q["id"] not in _existentes)
+
+    # curadoria dos números herdados: contagens dentro do texto acompanham o disco
+    import re as _re2
+    def _fix_num(txt):
+        txt = _re2.sub(r"\b\d+ referências", f"{_nref} referências", txt)
+        txt = _re2.sub(r"\b\d+ fichas anexadas", f"{_nf} fichas anexadas", txt)
+        txt = _re2.sub(r"\b\d+ fichas técnicas", f"{_nf} fichas técnicas", txt)
+        return txt
+    def _walk(o):
+        if isinstance(o, str):
+            return _fix_num(o)
+        if isinstance(o, list):
+            return [_walk(x) for x in o]
+        if isinstance(o, dict):
+            return {k: _walk(v) for k, v in o.items()}
+        return o
+    if _nref:
+        man = _walk(man)
 
     open(os.path.join(REPO, man_path), "w", encoding="utf-8").write(
         json.dumps(man, ensure_ascii=False, indent=1) + "\n")

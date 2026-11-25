@@ -777,8 +777,9 @@ Chamem de resíduo ou não — o ralo continua fechado.
 limite de rio; uma banheira precisaria de 23 piscinas para diluir; pH 1,28 na solução de cobre e boro e 0,22
 no CCB; germinação zero até diluição 1/10; índice pior que o do Roundup; as duas instruções mandam reusar;
 a PNRS inclui resíduo líquido sob condição, e o banho está 2.545 vezes acima do padrão de cobre.
-**Interpretação:** como decantar não remove metal dissolvido, o reuso é a única saída prática
-— e ele tem um fim, que nenhuma instrução resolve.
+**Interpretação:** como decantar não remove metal dissolvido, o reuso é a saída que
+as duas instruções dão — e ele tem um fim, que nenhuma delas resolve. Se existe outra saída prática,
+estas fontes não a discutem.
 **Desconhecido:** o efeito da receita real (4,5% a 9%), que é mais concentrada que a única
 testada; e qual código da lista brasileira de resíduos se aplica a essa solução.
 
@@ -944,7 +945,7 @@ carcinogênica humana — 93% do total normalizado** — e **91% dessa carga vei
 resíduos**: a apara, o corte, o colmo descartado e o efluente. Não é a operação que pesa.
 É o que sobra dela.
 
-> **Por que isso entra num artigo sobre cobre** — Porque, nas receitas informais que esta frente leu, nenhuma é só sulfato de cobre. A ternária — ácido bórico, bórax e dicromato de sódio — e a receita de bórax usada em universidade pública é bórax e ácido bórico puros. Ou seja: na apara que sobra do tratamento com cobre, o bórax está junto — mas não em toda: o manual indiano e a instrução da Embrapa propõem banhos separados, e o estudo do Acre mediu um banho só de bórax com ácido bórico. O que sustenta a ligação é o local do dano, não a mistura: onde os quatro estudos desta gaveta discordam do tratamento, concordam em apontar o resíduo e a água que sobra como o problema.
+> **Por que isso entra num artigo sobre cobre** — Porque, nas receitas informais que esta frente leu, nenhuma é só sulfato de cobre. A ternária — ácido bórico, bórax e dicromato de sódio — e a receita de bórax usada em universidade pública é bórax e ácido bórico puros. Ou seja: na apara que sobra do tratamento com cobre, o bórax está junto — mas não em toda: o manual indiano e a instrução da Embrapa propõem banhos separados, e o estudo do Acre mediu um banho só de bórax com ácido bórico. O que sustenta a ligação é o local do dano, não a mistura: nos estudos desta gaveta que eu li, onde discordam do tratamento, concordam em apontar o resíduo e a água que sobra como o problema — sem que eu tenha contado quantos são.
 
 ### Duas leis, duas datas, e o mesmo vazio
 
