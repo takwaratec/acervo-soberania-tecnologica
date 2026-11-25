@@ -13,8 +13,8 @@ assistencia_documental: agente de IA, sujeito a revisao humana
 publico: "leigo em quimica e em linguagem academica"
 camada: "B — adaptacao publica em linguagem nao especializada"
 peca_html: "o-cobre-no-bambu.html (gerada de scripts/conteudo_cobre.py)"
-fichas: "_privado/fichas/ago_28_Sulfato_S11/ (6 fichas)"
-referencias: "14 entradas, numeradas — ver secao Referencias"
+fichas: "docs/analyses/cobre/fichas/ (11 fichas)"
+referencias: "21 entradas, numeradas — ver secao Referencias"
 ---
 
 # O cobre, explicado do zero
@@ -23,7 +23,7 @@ referencias: "14 entradas, numeradas — ver secao Referencias"
 
 > **Nota de leitura.** Este é o manuscrito completo, do início ao fim, com as referências
 > bibliográficas numeradas ao final. As chamadas no corpo aparecem entre parênteses — por
-> exemplo (1) remete à primeira referência da lista. As seis fichas técnicas que sustentam
+> exemplo (1) remete à primeira referência da lista. As 11 fichas técnicas que sustentam
 > os números estão identificadas na seção **Fontes custodiadas**.
 
 ---
@@ -1060,7 +1060,7 @@ sem saber o que fazer com a apara. **O boro e o cobre chegam ao território; a n
 
 ---
 
-## A norma existe — e ela não chega ao quintal
+## 09 · A norma existe — e ela não chega ao quintal
 
 Ao longo deste artigo eu disse várias vezes que **ninguém diz o que fazer com a sobra**.
 Isso pode ter soado como "não existe regra". **Existe.** É federal, é de 1989, e é
@@ -1324,7 +1324,7 @@ seguro.
 
 ---
 
-## 11 · Glossário — para voltar quando esquecer um termo
+## Glossário — para voltar quando esquecer um termo
 
 Termos em ordem alfabética. Todos aparecem explicados no corpo do texto; este é o lugar de consulta.
 
@@ -1334,7 +1334,7 @@ Termos em ordem alfabética. Todos aparecem explicados no corpo do texto; este �
 
 ---
 
-## 12 · Para saber mais, e como este texto foi feito
+## Para saber mais, e como este texto foi feito
 
 Este artigo não inventa dados. Ele reorganiza, em linguagem simples, o conteúdo de uma frente de pesquisa
 do **Acervo Soberania Tecnológica** dedicada ao cobre, que custodia as fontes com verificação de
@@ -1392,7 +1392,7 @@ permanecem com o autor.**
 
 ## Fontes custodiadas e fichas técnicas
 
-Cada ficha identifica a fonte primária, o hash de integridade e o que ela autoriza afirmar. Estão em `_privado/fichas/ago_28_Sulfato_S11/`.
+Cada ficha identifica a fonte primária, o hash de integridade e o que ela autoriza afirmar. Estão em `docs/analyses/cobre/fichas/`.
 
 - **1. Embrapa COT 110** — instrução oficial brasileira — EPI, tonel, reuso. Ficha: `ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md`
 - **2. NMBA 2006 (Índia)** — manual oficial indiano — decantar, reusar, proibições. Ficha: `ficha-nmba-2006-preservation-of-bamboo-manual.md`
@@ -1400,6 +1400,11 @@ Cada ficha identifica a fonte primária, o hash de integridade e o que ela autor
 - **4. UFMG / MOM** — receita publicada por universidade pública. Ficha: `ficha-ufmg-mom-tratamento-com-borax.md`
 - **5. Blog TCS 2016** — receita informal completa, sem aviso. Ficha: `ficha-blog-tsc-como-tratar-bambu.md`
 - **6. Espaço Naturalmente** — padrão de mercado. Ficha: `ficha-espaconaturalmente-bambu.md`
+- **7. Portaria Interministerial 292/89** — registro obrigatório no Ibama e competência de fiscalização (art. 20). Ficha: `ficha-pi292-89-registro-preservativos-madeira.md`
+- **8. Portaria Normativa Ibama 151/97** — o registro condicionado à determinação do risco ambiental. Ficha: `ficha-pn151-97-ibama-risco-ambiental.md`
+- **9. Iema-ES, NT 01/2023** — «não há proibição no Brasil» e a falta de dados sobre o resíduo do CCB. Ficha: `ficha-iema-es-nt01-2023-preservacao-madeira.md`
+- **10. ABPM / FG4mad** — a própria cadeia proíbe queima em fogão e a céu aberto. Ficha: `ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md`
+- **11. Ciência Florestal 2025** — 880 dias de campo: arsênio no solo +129,2%. Ficha: `ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md`
 
 ---
 

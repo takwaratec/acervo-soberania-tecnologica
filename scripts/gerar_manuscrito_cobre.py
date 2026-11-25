@@ -143,8 +143,8 @@ assistencia_documental: agente de IA, sujeito a revisao humana
 publico: "leigo em quimica e em linguagem academica"
 camada: "B — adaptacao publica em linguagem nao especializada"
 peca_html: "o-cobre-no-bambu.html (gerada de scripts/conteudo_cobre.py)"
-fichas: "_privado/fichas/ago_28_Sulfato_S11/ (6 fichas)"
-referencias: "14 entradas, numeradas — ver secao Referencias"
+fichas: "docs/analyses/cobre/fichas/ (11 fichas)"
+referencias: "21 entradas, numeradas — ver secao Referencias"
 ---
 
 # O cobre, explicado do zero
@@ -153,7 +153,7 @@ referencias: "14 entradas, numeradas — ver secao Referencias"
 
 > **Nota de leitura.** Este é o manuscrito completo, do início ao fim, com as referências
 > bibliográficas numeradas ao final. As chamadas no corpo aparecem entre parênteses — por
-> exemplo (1) remete à primeira referência da lista. As seis fichas técnicas que sustentam
+> exemplo (1) remete à primeira referência da lista. As 11 fichas técnicas que sustentam
 > os números estão identificadas na seção **Fontes custodiadas**.
 
 ---
@@ -162,15 +162,18 @@ referencias: "14 entradas, numeradas — ver secao Referencias"
     for p in C.PAGINAS:
         corpo = html_para_md(p["corpo"])
         palavras += len(re.findall(r"[A-Za-zÀ-ÿ]{2,}", corpo))
-        cab = f"\n## {p['num']} · {_h.unescape(p['h2'])}\n\n" if p["num"] not in ("00", "09", "10") \
-              else f"\n## {_h.unescape(p['h2'])}\n\n"
+        # a capa, o resumo-final e o glossário não levam número; o resto leva.
+        # A regra é por id porque o número muda de dono quando entra capítulo novo.
+        sem_numero = {"p-1", "p-9", "p-10", "p-11"}
+        cab = (f"\n## {_h.unescape(p['h2'])}\n\n" if p["id"] in sem_numero
+               else f"\n## {p['num']} · {_h.unescape(p['h2'])}\n\n")
         partes.append(cab + corpo + "\n\n---\n")
 
     # fichas
     partes.append("## Fontes custodiadas e fichas técnicas\n")
     partes.append(
         "Cada ficha identifica a fonte primária, o hash de integridade e o que ela autoriza afirmar. "
-        "Estão em `_privado/fichas/ago_28_Sulfato_S11/`.\n")
+        "Estão em `docs/analyses/cobre/fichas/`.\n")
     fichas = [
         ("1. Embrapa COT 110", "ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md",
          "instrução oficial brasileira — EPI, tonel, reuso"),
@@ -184,6 +187,16 @@ referencias: "14 entradas, numeradas — ver secao Referencias"
          "receita informal completa, sem aviso"),
         ("6. Espaço Naturalmente", "ficha-espaconaturalmente-bambu.md",
          "padrão de mercado"),
+        ("7. Portaria Interministerial 292/89", "ficha-pi292-89-registro-preservativos-madeira.md",
+         "registro obrigatório no Ibama e competência de fiscalização (art. 20)"),
+        ("8. Portaria Normativa Ibama 151/97", "ficha-pn151-97-ibama-risco-ambiental.md",
+         "o registro condicionado à determinação do risco ambiental"),
+        ("9. Iema-ES, NT 01/2023", "ficha-iema-es-nt01-2023-preservacao-madeira.md",
+         "«não há proibição no Brasil» e a falta de dados sobre o resíduo do CCB"),
+        ("10. ABPM / FG4mad", "ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md",
+         "a própria cadeia proíbe queima em fogão e a céu aberto"),
+        ("11. Ciência Florestal 2025", "ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md",
+         "880 dias de campo: arsênio no solo +129,2%"),
     ]
     for tit, arq, desc in fichas:
         partes.append(f"- **{tit}** — {desc}. Ficha: `{arq}`")
