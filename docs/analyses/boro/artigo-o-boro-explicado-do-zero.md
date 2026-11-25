@@ -121,7 +121,7 @@ números errados que circulam sobre boro.
 
 ## 2. Três nomes que confundem
 
-| Nome | Fórmula | Boro na massa | O que é |
+| Nome | Fórmula | Boro na massa (%) | O que é |
 |---|---|---|---|
 | **Boro** | B | 100% | o elemento |
 | **Ácido bórico** | H₃BO₃ | **17,5%** | pó branco, antifúngico suave |
@@ -182,7 +182,7 @@ Esses depósitos se associam a **atividade vulcânica antiga e climas áridos**.
 padrão observado nas jazidas conhecidas — não uma lei da natureza que impeça boro em
 outros lugares.
 
-| País | Produção 2025 (mil toneladas) | Reservas (mil toneladas) |
+| País | Produção 2025 (mil t) | Reservas (mil t) |
 |---|---|---|
 | **Turquia** (boratos refinados) | **1.500** | **950.000** |
 | Rússia (datolita) | 80 | 40.000 |
@@ -215,11 +215,11 @@ para o futuro previsível**" [3]. Não há escassez de boro. Há concentração 
 
 ## 5. A dependência brasileira
 
-O Brasil não produz boro. Em 2024, o país importou **459,7 mil toneladas**, no valor de
-**US$ 209,5 milhões**, somando os dez códigos aduaneiros de minerais e químicos de boro
-[4].
+O Brasil não produz boro. Em 2024, o país importou **459,7 mil toneladas** — massa líquida, declarada em kg e
+convertida —, no valor de **US$ 209,5 milhões** — valor FOB, em dólar, sem frete nem seguro —,
+somando os dez códigos aduaneiros de minerais e químicos de boro [4].
 
-| Origem | Participação **por peso** | Toneladas |
+| Origem | Participação por peso (massa) | Massa importada (mil t) |
 |---|---|---|
 | **Bolívia** | **43,7%** | 200,7 mil |
 | **Argentina** | **25,4%** | 116,9 mil |
@@ -319,8 +319,8 @@ em seis passos [1]:
 1. Em ratos, a dose mais baixa com efeito observável sobre o **peso fetal** foi de
    **10,3 mg por quilo de peso corporal por dia** — o chamado BMDL₀₅.
 2. Para transformar dado de rato em limite humano, aplica-se um **fator de incerteza**.
-   Aqui o fator é **60**, e ele não é um número mágico: decompõe-se em **10** (diferença
-   entre espécies) × **6** (diferença entre pessoas).
+   Aqui o fator é **60** — número puro, sem unidade, porque é multiplicador —, e não é mágico:
+   decompõe-se em **10** (fator entre espécies) × **6** (fator entre pessoas).
 3. Esse 6, por sua vez, é **1,8 × 3,2**. O **1,8** é a parte **toxicocinética** da
    diferença **entre pessoas** — dentro da mesma espécie, não entre espécies. A OMS o
    calcula com dados de **mulheres grávidas**: a taxa de filtração glomerular média foi de
@@ -461,7 +461,7 @@ tina.
 
 Na categoria HCT, somando 1 kg de colmo tratado (**0,159 mPt** no total):
 
-| Fluxo | mPt | % do total |
+| Fluxo | Impacto em mPt (milibonto, unidade do modelo ACV) | % do total |
 |---|---|---|
 | Resíduo de bambu (aparas e cortes) | 0,0742 | **46,7%** |
 | Colmo descartado | 0,0731 | **46,0%** |
@@ -539,7 +539,7 @@ para 12,74%** (*Coriolus versicolor*) e de **55,62% para 9,64%** (*Gloeophyllum 
 É bancada, não campo: **não mede lixiviação** [24].
 
 **Um ensaio de campo brasileiro, com CCB, durou cinco anos.** Hastes de *Dendrocalamus
-asper* imersas em CCB a **1%** e **3%** tiveram índice de degradação de **40** e **0**,
+asper* imersas em CCB a **1%** e **3%** tiveram índice de degradação de **40** e **0** (índice em %, numa escala de 0 a 100, onde 100 é a madeira intacta),
 respectivamente, contra **80% a 100% no controle** — ou seja: a 3% não houve ataque; a
 1% houve ataque leve, e **não é a mesma coisa**. Somar as duas concentrações numa frase
 só, como "o tratado não degradou", apaga justamente o dado que informa a dose. Duas ressalvas que o próprio trabalho faz:
@@ -551,7 +551,7 @@ presença de metais no solo é indicativo de lixiviação"* [25].
 isso o bambu tratado só serve **sob cobertura**, e por isso o desenho arquitetônico
 importa tanto quanto a química. A tabela abaixo é a mais dura do assunto [13]:
 
-| Situação | Sem tratamento | Com boro |
+| Situação de uso | Vida útil sem tratamento | Vida útil com boro |
 |---|---|---|
 | **interno** | 2–6 anos | **30+ anos** |
 | **externo, acima do solo** | 0,5–4 anos | **2–15 anos** |
@@ -566,7 +566,7 @@ Um edifício de bambu não é "construído e esquecido". Ele é **projetado para
 mantido**. O relatório de avaliação da Green School, de 2010, registra os ciclos em
 anos [17]:
 
-| Componente | Ciclo declarado |
+| Componente | Ciclo de vida declarado (anos) |
 |---|---|
 | **telhado de alang-alang** (palha local) | **6 a 10 anos** |
 | **bambu estrutural** | **20 anos**, por estimativa conservadora |
@@ -787,7 +787,7 @@ Esta seção não introduz dado novo; ela reorganiza, em vinte linhas, o que já
 - O efeito crítico é a **toxicidade para o desenvolvimento** — peso fetal reduzido em
   animais [1][7].
 - A diretriz da água é **2,4 mg/L**, derivada de BMDL₀₅ **10,3 mg/kg/dia** com fator
-  **60** (10 × 1,8 × 3,2) e alocação de **40%** [1]. **Não é teto invariável** [1].
+  **60** (multiplicador: 10 × 1,8 × 3,2) e alocação de **40%** [1]. **Não é teto invariável** [1].
 - Limite superior de **20 mg/dia** para adultos [8].
 - A União Europeia classifica o boro como **Repr. 1B, H360FD** — reprodutivo, **não
   cancerígeno** [9].
@@ -1502,10 +1502,10 @@ homologação também.
 
 **O que foi efetivamente conferido — número, e não promessa.** A verificação numérica foi
 medida por gate próprio, afirmação por afirmação, com registro auditável arquivado ao lado
-do texto. O resultado: **65 das 283 afirmações numéricas do corpo foram conferidas** pelo
+do texto. O resultado: **62 das 286 afirmações numéricas do corpo foram conferidas** pelo
 instrumento contra a fonte custodiada. Outras **18 têm estatuto declarado** e não precisam de
 citação célula por célula: 10 em nota de tabela, 6 de cálculo aritmético e 2 de resumo de
-fonte já nomeada. **200 não foram medidas** — 126 porque a afirmação não traz citação nem
+fonte já nomeada. **206 não foram medidas** — 126 porque a afirmação não traz citação nem
 estatuto, 37 porque a unidade está fora do vocabulário do instrumento (ele não lê `mg/L`,
 `mg/m³` nem `mg B/kg/dia`), 25 porque a obra citada não tem arquivo custodiado nesta gaveta e
 12 porque a fonte custodiada é página de bloqueio.

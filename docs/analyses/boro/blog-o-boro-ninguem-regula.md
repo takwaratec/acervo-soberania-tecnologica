@@ -27,7 +27,7 @@ na natureza: você não compra boro, compra um sal que o contém.
 
 E aí começa a confusão que faz gente errar a dose por um fator de seis:
 
-| Composto | Fórmula | Quanto é boro |
+| Composto | Fórmula | Boro na massa (%) |
 |---|---|---|
 | **Ácido bórico** | H₃BO₃ | **17,5%** |
 | **Bórax** (decahidratado) | Na₂B₄O₇·10H₂O | **11,3%** |

@@ -35,7 +35,7 @@
   "com_estatuto": 2,
   "veredito": "ESTATUTO_DECLARADO"
  },
- "| Nome | Fórmula | Boro na massa | O que é | |---|---|---|--": {
+ "| Nome | Fórmula | Boro na massa (%) | O que é | |---|---|--": {
   "secao": "2. Três nomes que confundem",
   "total": 8,
   "confere": 0,
@@ -62,7 +62,7 @@
   "com_estatuto": 0,
   "veredito": "CONFERIDO"
  },
- "| País | Produção 2025 (mil toneladas) | Reservas (mil tonel": {
+ "| País | Produção 2025 (mil t) | Reservas (mil t) | |---|---": {
   "secao": "4. Onde o boro está de verdade",
   "total": 13,
   "confere": 0,
@@ -98,7 +98,7 @@
   "com_estatuto": 0,
   "veredito": "NAO_CONFERIDO"
  },
- "| Origem | Participação **por peso** | Toneladas | |---|---|": {
+ "| Origem | Participação por peso (massa) | Massa importada (": {
   "secao": "5. A dependência brasileira",
   "total": 14,
   "confere": 0,
@@ -269,7 +269,7 @@
   "com_estatuto": 0,
   "veredito": "NAO_CONFERIDO"
  },
- "| Fluxo | mPt | % do total | |---|---|---| | Resíduo de bamb": {
+ "| Fluxo | Impacto em mPt (milibonto, unidade do modelo ACV) ": {
   "secao": "9. O boro é cancerígeno?",
   "total": 12,
   "confere": 0,
@@ -334,14 +334,14 @@
  },
  "**Um ensaio de campo brasileiro, com CCB, durou cinco anos.*": {
   "secao": "10. O bambu e o boro",
-  "total": 11,
-  "confere": 11,
-  "nao_medido": 0,
+  "total": 14,
+  "confere": 13,
+  "nao_medido": 1,
   "ausente": 0,
   "com_estatuto": 0,
-  "veredito": "CONFERIDO"
+  "veredito": "PARCIAL"
  },
- "| Situação | Sem tratamento | Com boro | |---|---|---| | **i": {
+ "| Situação de uso | Vida útil sem tratamento | Vida útil com": {
   "secao": "10. O bambu e o boro",
   "total": 9,
   "confere": 0,
@@ -350,7 +350,7 @@
   "com_estatuto": 0,
   "veredito": "NAO_CONFERIDO"
  },
- "| Componente | Ciclo declarado | |---|---| | **telhado de al": {
+ "| Componente | Ciclo de vida declarado (anos) | |---|---| | ": {
   "secao": "11. A manutenção: o que a Green School faz de fato",
   "total": 3,
   "confere": 0,
@@ -524,8 +524,8 @@
  "- O boro é o **elemento de número atômico 5**, massa **10,81": {
   "secao": "16. Resumo em vinte linhas",
   "total": 22,
-  "confere": 6,
-  "nao_medido": 16,
+  "confere": 1,
+  "nao_medido": 21,
   "ausente": 0,
   "com_estatuto": 0,
   "veredito": "PARCIAL"
@@ -652,7 +652,7 @@
   "ausente": 0,
   "veredito": "SEM_AFIRMACAO_NUMERICA"
  },
- "| Nome | Fórmula | Boro na massa | O que é |\n|---|---|---|--": {
+ "| Nome | Fórmula | Boro na massa (%) | O que é |\n|---|---|--": {
   "secao": "?",
   "total": 0,
   "confere": 0,
@@ -732,6 +732,14 @@
   "ausente": 0,
   "veredito": "SEM_AFIRMACAO_NUMERICA"
  },
+ "| País | Produção 2025 (mil t) | Reservas (mil t) |\n|---|---": {
+  "secao": "?",
+  "total": 0,
+  "confere": 0,
+  "nao_medido": 0,
+  "ausente": 0,
+  "veredito": "SEM_AFIRMACAO_NUMERICA"
+ },
  "**Fonte da tabela inteira.** USGS, *Mineral Commodity Summar": {
   "secao": "?",
   "total": 0,
@@ -741,14 +749,6 @@
   "veredito": "SEM_AFIRMACAO_NUMERICA"
  },
  "E o USGS registra: \"aos níveis atuais de consumo, **os recur": {
-  "secao": "?",
-  "total": 0,
-  "confere": 0,
-  "nao_medido": 0,
-  "ausente": 0,
-  "veredito": "SEM_AFIRMACAO_NUMERICA"
- },
- "| Origem | Participação **por peso** | Toneladas |\n|---|---|": {
   "secao": "?",
   "total": 0,
   "confere": 0,
@@ -1020,14 +1020,6 @@
   "ausente": 0,
   "veredito": "SEM_AFIRMACAO_NUMERICA"
  },
- "| Fluxo | mPt | % do total |\n|---|---|---|\n| Resíduo de bamb": {
-  "secao": "?",
-  "total": 0,
-  "confere": 0,
-  "nao_medido": 0,
-  "ausente": 0,
-  "veredito": "SEM_AFIRMACAO_NUMERICA"
- },
  "**Fonte da tabela inteira.** Araujo et al. 2025 [19], **Tabe": {
   "secao": "?",
   "total": 0,
@@ -1100,14 +1092,6 @@
   "ausente": 0,
   "veredito": "SEM_AFIRMACAO_NUMERICA"
  },
- "| Situação | Sem tratamento | Com boro |\n|---|---|---|\n| **i": {
-  "secao": "?",
-  "total": 0,
-  "confere": 0,
-  "nao_medido": 0,
-  "ausente": 0,
-  "veredito": "SEM_AFIRMACAO_NUMERICA"
- },
  "A última linha é a que importa: **boro não resolve contato c": {
   "secao": "?",
   "total": 0,
@@ -1124,7 +1108,7 @@
   "ausente": 0,
   "veredito": "SEM_AFIRMACAO_NUMERICA"
  },
- "| Componente | Ciclo declarado |\n|---|---|\n| **telhado de al": {
+ "| Componente | Ciclo de vida declarado (anos) |\n|---|---|\n| ": {
   "secao": "?",
   "total": 0,
   "confere": 0,

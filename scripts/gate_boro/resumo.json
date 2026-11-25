@@ -1,22 +1,22 @@
 {
- "M": 283,
+ "M": 286,
  "contagem": {
-  "NAO_MEDIDO": 200,
+  "NAO_MEDIDO": 206,
   "DERIVACAO_DECLARADA": 6,
-  "CONFERE": 65,
+  "CONFERE": 62,
   "TABELA_COM_NOTA": 10,
   "RESUMO_DE_FONTE_NOMEADA": 2
  },
- "paragrafos": 213,
+ "paragrafos": 211,
  "paragrafos_por_veredito": {
   "NAO_CONFERIDO": 42,
   "ESTATUTO_DECLARADO": 6,
-  "CONFERIDO": 15,
-  "PARCIAL": 6,
-  "SEM_AFIRMACAO_NUMERICA": 144
+  "CONFERIDO": 14,
+  "PARCIAL": 7,
+  "SEM_AFIRMACAO_NUMERICA": 142
  },
- "N_conferidas": 65,
- "sem_citacao": 140,
+ "N_conferidas": 62,
+ "sem_citacao": 141,
  "fontes_lidas": [
   1,
   2,
