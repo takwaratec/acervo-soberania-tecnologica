@@ -30,6 +30,9 @@ jobs:
       - name: Declaração de conferência (A2)
         run: python3 scripts/check_declaracao_conferencia.py .
       - name: Escopo do diff (A7)
+        # Em push nao existe github.base_ref: o gate recebia "origin/" e derrubava o job. Push na main
+        # nao e diff de frente — o A7 so julga PR. (Perdi esta linha ao reescrever o arquivo no #120.)
+        if: github.event_name == 'pull_request'
         run: |
           python3 scripts/check_escopo_do_diff.py --base "origin/${{ github.base_ref }}" \
             --permitir docs/ --permitir scripts/ --permitir tests/ --permitir ops/ \
