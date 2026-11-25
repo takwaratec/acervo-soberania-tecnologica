@@ -1,6 +1,6 @@
 ---
 tipo_documental: ficha-tecnica-de-produto
-titulo: "Boro — ficha química da OMS: valor de referência de 2,4 mg/L, ocorrência e usos nomeados"
+titulo: "Boro — ficha química da OMS: identidade, uso industrial e ausência de valor de referência próprio"
 titulo_original: "Boron — Chemical fact sheet (Guidelines for Drinking-water Quality, 4th ed. incorporating the first and second addenda)"
 autores: "World Health Organization (WHO)"
 ano: 2022
@@ -21,12 +21,10 @@ frente: BORO
 > **Síntese.** A ficha química da OMS fixa o **valor de referência em 2,4 mg/L
 > (2.400 µg/L)** e declara a origem natural: boro em água subterrânea vem
 > primariamente da **lixiviação de rochas e solos com boratos e borossilicatos**.
-> Nomeia três usos industriais — **vidro, sabões e detergentes, e retardantes de
-> chama** — e registra que o teor de borato em **água superficial** pode aumentar por
-> **descargas de águas residuais** (sem qualificar como domésticas), uso que
-> **diminuiu de forma significativa**, com níveis nas descargas seguindo em queda.
-> Ocorrência: para a maior parte do mundo, a concentração em água de consumo é
-> **julgada abaixo de 0,5 mg/L**.
+> Nomeia quatro usos industriais — **vidro, sabões e detergentes, e retardantes de
+> chama** — e registra que a contribuição de efluente doméstico para boro em água
+> superficial **diminuiu de forma significativa** e segue caindo. Ocorrência típica
+> mundial: **abaixo de 0,5 mg/L**.
 
 ## 1. Dados gerais
 
@@ -53,29 +51,16 @@ outras fontes da gaveta (USGS) tratam disso.
 
 ## 3. Origem do boro em água
 
-- **Natural, em água subterrânea:** lixiviação de rochas e solos contendo **boratos e
-  borossilicatos** — a fonte limita essa afirmação a aquífero.
-- **Antropogênica, em água superficial:** *"the borate content of surface water can be
-  increased as a result of wastewater discharges"* — **descargas de águas residuais**,
-  sem qualificar como doméstico. A fonte acrescenta que esse uso diminuiu de forma
-  significativa e que os níveis seguem caindo.
+- **Natural:** lixiviação de rochas e solos contendo **boratos e borossilicatos**.
+- **Antropogênica:** descargas de efluente podem elevar o teor em água superficial,
+  "mas esse uso diminuiu de forma significativa, e os níveis de boro em efluentes
+  continuam caindo".
 
-**O que a fonte NÃO estabelece:** dominância geológica para toda água. Ela diz
-"principalmente" para **água subterrânea** e trata de **água superficial**
-separadamente. Uma frase do tipo "a geologia é o vetor dominante" generaliza além do
-que o documento sustenta — a leitura correta é por compartimento.
-
-## 3.1 A ressalva que acompanha o 2,4 mg/L
-
-A OMS **não trata 2,4 mg/L como teto invariável**. O documento de 2009 é explícito:
-como será difícil atingir o valor de referência em **alguns abastecimentos
-dessalinizados** e em **áreas com níveis naturais altos de boro**, as autoridades
-regulatórias e sanitárias locais **podem considerar valor superior a 2,4 mg/L**,
-fazendo uma avaliação aproximada da exposição por outras fontes.
-
-Isso importa para o acervo: 2,4 mg/L é valor de referência sanitária **com margem
-contextual**, não limite de emissão nem de solo. Citar o número sem a ressalva
-transforma recomendação condicionada em proibição absoluta — e a fonte não diz isso.
+**Por que isso importa para a gaveta:** a fonte de referência mundial declara que a
+**geologia** é o vetor dominante de boro em água — não o efluente industrial. Isso
+não isenta o efluente de oficina de tratamento de bambu (que é **puntual e
+concentrado**, ver §9.6 da peça principal), mas corrige a leitura de que boro em água
+é sobretudo poluição urbana.
 
 ## 4. Toxicologia, na versão resumida
 
@@ -92,17 +77,10 @@ A ficha repete a base da ficha de 2009:
 **Força:** é a versão **oficial e citável** do valor de 2,4 mg/L — 2 páginas, linguagem
 de norma, sem derivação (a derivação está na ficha de 2009).
 
-**Limite:** é resumo. **Ela traz** os elementos da cadeia — BMDL05 de 10,3 mg/kg/dia,
-TDI de 0,17 mg/kg/dia, fator de incerteza 60, alocação de 40%, 60 kg e 2 L/dia — mas
-**sem o desenvolvimento**: a justificativa de cada escolha (por que 40% e não o
-padrão, por que fator 60) está no documento de 2009. Quem precisa auditar o número
-lê 2009; quem precisa citar o valor lê 2022.
+**Limite:** por ser resumo, **omite a cadeia de cálculo** (BMDL05, fator 60, alocação
+40%). Quem cita só esta ficha não consegue auditar o número.
 
-**Correção de leitura anterior:** esta ficha afirmou, na versão 1, que a publicação
-de 2022 "omite a cadeia de cálculo". **Está errado** — a ficha química inclui os
-números. O que ela não traz é a discussão.
-
-**Uso no acervo:** citação canônica do valor; a derivação justificada fica na ficha
+**Uso no acervo:** citação canônica do valor; o cálculo fica na ficha
 `who-2009-boro-agua-consumo.md`.
 
 **Referência ABNT:** WORLD HEALTH ORGANIZATION. Boron. In: *Guidelines for

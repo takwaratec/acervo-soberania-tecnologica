@@ -8,31 +8,78 @@ ano: 2026
 data: 2026-11-24
 estado_documental: em-revisao-documental
 homologacao_automatica: false
-versao: 1
+versao: 2
 responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 gaveta: boro
 frente: BORO
 nivel_publico: leigo, sem formação em química ou metodologia acadêmica
-fonte_da_narrativa: docs/analyses/boro/00-estado-da-questao-boro.md e fichas da gaveta
+citacoes: "Números entre colchetes remetem à bibliografia ao final; cada obra listada tem ficha técnica própria"
 ---
 
 # O boro, explicado do zero
 
-## Antes de começar: uma promessa sobre o que este texto faz
+## Resumo
 
-Este artigo explica o boro para quem **nunca estudou química**. Não vou supor que
-você saiba o que é um elemento, um sal, uma fórmula, um limite legal ou uma tabela
-de laboratório. Quando um termo técnico aparecer, ele será explicado na hora — em
-português comum, com exemplo — e não depois.
+**O que é.** O boro é um elemento químico — número atômico 5, massa 10,811. Não se
+compra boro: compram-se compostos que o contêm. O ácido bórico tem 17,5% de boro; o
+bórax decahidratado, 11,3%.
 
-Há uma segunda promessa, e ela é mais séria: **vou dizer quando não sei.** O boro é
-um assunto onde é fácil escrever frases impressionantes e falsas. Existe um número
-por aí, "93%", que circula como se significasse "93% de chance de câncer". Não
-significa. Explicarei o que ele realmente mede no lugar certo. Um texto para leigo
-que simplifica escondendo as ressalvas não é didático — é propaganda.
+**Para que serve.** O boro é fundente de vidro e componente de cerâmica, detergente,
+fertilizante e retardante de chama. Mais de três quartos do consumo vai para esses
+usos. Também preserva bambu e madeira, porque torna o amido inaproveitável por insetos.
 
-Também vou separar sempre três coisas, e você vai ver essa separação repetida:
+**Faz mal?** Depende da dose, da via e do tempo. O corpo humano não precisa de boro —
+não é classificado como nutriente essencial. O efeito crítico é a **toxicidade para o
+desenvolvimento**, e por isso a União Europeia o classifica como **Repr. 1B** (pode
+prejudicar a fertilidade e o feto). **Não é classificado como cancerígeno.**
+
+**Quanto é demais?** Água de consumo: referência de **2,4 mg/L**, derivada de
+BMDL₀₅ de 10,3 mg/kg/dia com fator de segurança 60. Ingestão: limite superior de
+**20 mg/dia** para adultos.
+
+**Onde está o problema.** Não no banho de tratamento, e sim no **resíduo**. Um estudo
+com revisão por pares feito no Acre mediu que **93% do impacto potencial** daquela
+cadeia artesanal estava na categoria de **toxicidade carcinogênica humana** — num
+indicador de ciclo de vida, não numa taxa de doença —, e que **91% do impacto total da
+cadeia** vinha das **aparas, dos cortes e dos colmos descartados**, não do banho. E o
+resíduo com boro **não está na lista de resíduo perigoso** de nenhuma norma examinada —
+Brasil, China, Índia, Vietnã, Indonésia — **não porque foi julgado inofensivo, mas
+porque não foi avaliado**.
+
+**O limbo.** A lei de resíduos (2010) define resíduo sólido incluindo líquidos — mas
+**não nomeia bambu nem madeira**. A lei do bambu (2011) tem seis artigos, incentiva
+crédito e comércio, e **não menciona uma única vez tratamento químico nem resíduo**.
+Nenhuma das duas diz quem fiscaliza a apara tratada.
+
+**O que este artigo não sabe.** Não há medição de exposição de trabalhador de bambu no
+Brasil, nem de poeira de bambu tratado, nem de destino real das aparas, nem de lixiviação
+de boro sob área de descarte. Isso é lacuna, não ausência de risco.
+
+**Como ler os números.** As citações aparecem como `[n]` e remetem à bibliografia ao
+final. Toda unidade e sigla está explicada no glossário.
+
+---
+
+## Antes de começar
+
+Este artigo explica o boro para quem **nunca estudou química**. Não vou supor que você
+saiba o que é um elemento, um sal, uma fórmula ou um limite legal. Quando um termo
+técnico aparecer, ele será explicado na hora.
+
+Há duas promessas.
+
+A primeira: **vou dizer quando não sei.** O boro é um assunto onde é fácil escrever
+frases impressionantes e falsas — e igualmente fácil descartar como falsa uma frase
+impressionante que está certa. Vou evitar as duas coisas.
+
+A segunda: **toda afirmação tem procedência.** Cada número ou conclusão vem marcado
+com um número entre colchetes — `[3]`, `[7]` — que remete à bibliografia ao final.
+Ali está dito o que cada obra é, quem publicou, em que ano, e o que ela **não** permite
+concluir. Se uma frase não tem referência, ela é organização deste texto, não achado
+de fonte.
+
+Vou separar sempre três coisas:
 
 - **o que está medido** — alguém mediu, com método e número;
 - **o que é interpretação** — alguém concluiu a partir do medido;
@@ -42,956 +89,1237 @@ Se no fim você souber distinguir essas três, o artigo cumpriu o objetivo.
 
 ---
 
-## 1. O que é um "elemento químico" — em uma página
+## 1. O que é um "elemento químico"
 
-Tudo que você pode tocar é feito de **átomos**. Um átomo é uma peça minúscula. O que
-define o tipo de átomo é uma coisa só: **quantos prótons ele tem no centro**.
+Um **átomo** é a menor porção de matéria que ainda é aquela substância. Um **elemento**
+é um tipo de átomo — definido pelo número de prótons no núcleo.
 
-Próton é uma partícula com carga elétrica positiva, que fica no núcleo do átomo.
-**O número de prótons é o "documento de identidade" do átomo.** Um átomo com 6
-prótons é carbono. Com 8, é oxigênio. Com 26, é ferro. Com **5 prótons, é boro**.
+O boro é o elemento de **número atômico 5**: todo átomo com 5 prótons é boro, e nada
+mais é. Sua massa atômica é **10,811** — o número que aparece na tabela periódica e que
+diz, na prática, quanto um átomo pesa em relação ao hidrogênio [10].
 
-Isso é tudo. O boro não é uma marca, nem um produto, nem uma receita: é o nome do
-átomo que tem exatamente 5 prótons. Por isso dizemos que o boro é um **elemento
-químico** — uma das 118 "peças básicas" com que a natureza monta todo o resto.
+Isso já resolve a confusão número um: **o boro não é uma substância que se compra.**
+O que existe no comércio são **compostos** que contêm boro. É como a diferença entre o
+ferro (elemento) e o prego (objeto feito de ferro).
 
-**Por que 5 prótons importam na prática?** Porque átomos com poucos prótons são
-pequenos e leves. O boro é o **quinto** elemento mais leve que existe. Isso vai
-explicar, mais adiante, por que ele se comporta de um jeito estranho na natureza.
+**A conta que ninguém faz.** Quando alguém diz "use 10 gramas de boro", o que se pesa
+na balança é um pó branco — ácido bórico, bórax ou outra coisa. O ácido bórico tem
+**17,5% de boro em massa** [10]. Então:
 
-### A palavra "átomo" e a palavra "massa" — e por que a segunda confunde
+> 1 kg de ácido bórico contém 175 g de boro.
+> Quem pesa "10 g de boro" em ácido bórico está pondo **1,75 g de boro** — quase
+> seis vezes menos.
 
-Cada átomo tem um **peso**, medido numa unidade minúscula chamada **massa atômica**.
-O carbono tem massa 12, o oxigênio 16, o hidrogênio 1, e o **boro tem 10,811** — valor
-que consta da tabela de propriedades físicas e químicas da agência americana de
-substâncias tóxicas (ATSDR, perfil toxicológico do boro, tabela 4-2).
+O contrário também vale: para obter 10 g de boro seriam necessários cerca de 57 g de
+ácido bórico. Essa confusão entre **elemento** e **produto** é a origem de metade dos
+números errados que circulam sobre boro.
 
-*Sobre o "5 prótons": é o número atômico do boro, dado elementar da tabela periódica.
-O acervo custodia a massa atômica (10,811) em fonte primária; o número atômico não
-tem ficha própria na gaveta e fica registrado como conhecimento de tabela periódica,
-não como achado custodiado.*
+## 2. Três nomes que confundem
 
-Números com vírgula assustam, mas servem a uma função simples: **permitem somar
-receitas.** Se você junta átomos numa proporção fixa, as massas se somam como
-ingredientes de bolo. Guarde isso, porque é a chave de tudo que vem depois.
+| Nome | Fórmula | Boro na massa | O que é |
+|---|---|---|---|
+| **Boro** | B | 100% | o elemento |
+| **Ácido bórico** | H₃BO₃ | **17,5%** | pó branco, antifúngico suave |
+| **Bórax** (decahidratado) | Na₂B₄O₇·10H₂O | **11,3%** | sal, detergente, fundente |
+| **Bórax anidro** | Na₂B₄O₇ | **21,5%** | o mesmo sal, sem água |
+| **Pentaborato de sódio** | NaB₅O₈·4H₂O | ~**21,0%** | usado em tratamento de bambu |
+| **Pentahidratado** | Na₂B₄O₇·5H₂O | ~**14,9%** | o mesmo sal, menos água |
+| **Colemanita** | Ca₂B₆O₁₁·5H₂O | ~**15,8%** | minério |
+| **Ulexita** | NaCaB₅O₉·8H₂O | ~**13,3%** | minério |
 
----
+**"Hidratado" e "anidro"** — a única diferença é água presa na estrutura do cristal.
+O bórax decahidratado carrega dez moléculas de água por fórmula; o anidro, nenhuma.
+Isso muda tudo na conta: **o mesmo peso rende quase o dobro de boro** no anidro.
 
-## 2. "Boro", "bórax" e "ácido bórico": por que os três nomes confundem
+**"Bórax" e "ácido bórico" não são sinônimos.** O bórax é sal de sódio; o ácido bórico
+é um ácido fraco. Em tratamento de bambu os dois são usados **juntos**, e a mistura
+tem comportamento próprio [11].
 
-Aqui está a confusão número um de toda esta matéria, e ela é grave porque **muda a
-dose por um fator de seis**.
+## 3. De onde o boro veio
 
-O boro, sozinho, quase não existe na natureza para ser usado. Na prática, ele
-aparece **combinado com outros átomos**, formando substâncias diferentes. Uma
-substância feita de dois ou mais elementos ligados chama-se **composto**. Sais e
-ácidos são tipos de composto.
+O boro não foi descoberto por químicos de laboratório. Ele chegou pela **luz**.
 
-Veja o que muda:
+Em 1808, Humphry Davy isolou o elemento por eletrólise. Mas o nome vem de antes:
+do **bórax**, o sal branco que já circulava havia séculos pela Rota da Seda, extraído
+de leitos secos na Ásia. Os árabes o chamavam *buraq*; os latinos, *borax*. A palavra
+"boro" é a forma abreviada.
 
-| Nome que você ouve | O que é de verdade | Quanto é boro dentro dela |
+Três séculos antes disso, oleiros da China usavam o mesmo sal como **fundente** —
+substância que baixa a temperatura de fusão do vidro. É uma das aplicações mais antigas
+que se conhece, e continua sendo a maior: **mais de três quartos do consumo mundial**
+vai para cerâmicas, detergentes, fertilizantes e vidro [3].
+
+## 4. Onde o boro está de verdade
+
+O boro nunca aparece isolado na natureza. Ele se combina com oxigênio e forma
+**boratos** — e a indústria cota seus produtos por **teor de óxido bórico (B₂O₃)**,
+não por boro puro [3].
+
+**Quatro minerais respondem por 90%** do que a indústria usa: **colemanita, kernita,
+tincal e ulexita** [3].
+
+As maiores jazidas economicamente viáveis estão em três faixas, segundo o serviço
+geológico dos Estados Unidos:
+
+1. o **deserto de Mojave**, nos Estados Unidos;
+2. o **cinturão Alpide**, na margem sul da Eurásia — onde está a Turquia;
+3. o **cinturão Andino**, na América do Sul [3].
+
+Esses depósitos se associam a **atividade vulcânica antiga e climas áridos**. É um
+padrão observado nas jazidas conhecidas — não uma lei da natureza que impeça boro em
+outros lugares.
+
+| País | Produção 2025 (mil toneladas) | Reservas (mil toneladas) |
 |---|---|---|
-| **boro** | o elemento, o átomo de 5 prótons | 100% (é ele mesmo) |
-| **ácido bórico** | boro + hidrogênio + oxigênio | **17,5%** |
-| **bórax** | boro + sódio + oxigênio + água | **11,3%** |
-| **octaborato dissódico (DOT)** | boro + sódio + oxigênio + água, noutra proporção | ~**21,0%** |
-
-*DOT é só uma abreviação: **D**i**o**cta**t**etraborato — o nome longo do mesmo sal. O prefixo "octa" refere-se a oito átomos de boro na fórmula; "dissódico", a dois átomos de sódio.*
-
-**Leia a segunda coluna de novo com calma.** Um quilo de ácido bórico **não** contém
-um quilo de boro: contém 175 gramas de boro e 825 gramas de outras coisas. Um quilo
-de bórax contém apenas 113 gramas de boro.
-
-Agora o problema prático. Se uma receita pede "10 gramas de boro" e a pessoa usa 10
-gramas de ácido bórico pensando que é a mesma coisa, ela colocou **1,75 grama de
-boro** — quase seis vezes menos. Se fizer o contrário, coloca quase seis vezes mais.
-**Não é descuido de quem escreveu a receita: é a mesma palavra sendo usada para
-coisas diferentes.**
-
-Por isso todo texto sério nesta área precisa dizer **em que base** o número está:
-massa do sal, massa de boro puro, ou teor de óxido de boro. Sem isso, o número não
-tem significado.
-
-### O detalhe que parece firula e não é: o "anidro" e o "hidratado"
-
-Você notou que o bórax tem 11,3% e o "DOT" tem 21,0%, sendo que os dois são
-basicamente as mesmas peças? A diferença é **água**.
-
-Muitos desses sais carregam moléculas de água **dentro da própria estrutura** — não
-molhada por fora, mas encaixada como parte do cristal. Isso se chama **água de
-hidratação**. Quando um nome termina em "anidro", significa **sem essa água**. Sem a
-água, a mesma massa contém muito mais boro: é por isso que o bórax anidro tem 21,5%
-e o bórax comum tem 11,3%.
-
-Parece detalhe de químico. Na verdade é a diferença entre comprar a coisa certa e a
-errada no balcão — e entre uma dose segura e uma dose seis vezes maior.
-
----
-
-## 3. De onde o boro veio: a história mais estranha do artigo
-
-Aqui começa a parte que eu não esperava encontrar, e que vale o artigo inteiro.
-
-### As estrelas não fabricam boro. Elas o destroem.
-
-A maioria dos elementos que existem no seu corpo foi **cozida dentro de estrelas**.
-Carbono, oxigênio, ferro: tudo isso foi fabricado no interior de estrelas, sob
-temperatura e pressão absurdas, e espalhado quando elas explodiram. É uma história
-bonita e é verdadeira — para quase todos os elementos.
-
-**O boro é a exceção, e a exceção é instrutiva.** As estrelas **destroem** o boro.
-A razão é que o boro é um átomo "frágil": ele precisa de pouca energia para ser
-desmontado. Dentro de uma estrela, a temperatura é alta o bastante para quebrar o
-boro mais rápido do que qualquer processo o produza. Uma estrela, no fim das contas,
-**consome** boro.
-
-Então de onde veio o boro do seu vidro, do seu detergente, do seu remédio?
-
-### A resposta: colisões no espaço vazio
-
-No espaço entre as estrelas existe matéria espalhada — principalmente carbono,
-nitrogênio e oxigênio. Existem também **raios cósmicos**: partículas que viajam a
-velocidades altíssimas. Quando uma dessas partículas bate com força num átomo de
-carbono ou de oxigênio, ela **quebra** esse átomo em pedaços. Alguns desses pedaços
-são exatamente boro, lítio e berílio.
-
-Esse processo se chama **espalação por raios cósmicos** — "espalação" porque lembra
-estilhaçar. E aqui entra a correção que o acervo registra: as explosões de estrelas
-(supernovas) **não fabricam** o boro. Elas funcionam como **aceleradores**: são elas
-que dão às partículas a energia necessária para viajar e colidir.
-
-**Existe uma segunda via, e ela é minoritária.** Um tipo específico de boro, o
-**boro-11**, pode se formar em supernovas por um mecanismo diferente. Mas a maior
-parte do boro do universo vem da espalação.
-
-### Por que "o boro veio de explosões estelares" é uma frase errada
-
-Você provavelmente já leu isso. É impreciso num ponto que importa: **o boro não foi
-fabricado por estrelas; ele foi estilhaçado por partículas aceleradas por elas.** A
-diferença não é pedantismo — é o que explica por que o boro é **raro**.
-
-E essa raridade tem duas camadas que não se confundem:
-
-1. **Raro no universo**, porque o processo que o produz é ineficiente e as estrelas o
-   destroem;
-2. **Raro em jazidas**, porque mesmo o pouco que existe precisa se concentrar em
-   depósitos exploráveis — e concentrar exige processos geológicos específicos.
-
-A primeira **não explica** a segunda. É um erro comum usar "é raro no universo" para
-concluir qualquer coisa sobre minas, e não se pode.
-
----
-
-## 4. Onde o boro está de verdade: as minas
-
-O boro se concentra em poucos lugares do planeta. As três faixas que a fonte
-institucional descreve têm em comum serem **regiões áridas e geologicamente antigas**,
-onde a água evaporou e deixou os sais para trás — mas essa é uma **leitura sobre o
-padrão**, não uma regra que a fonte enuncie. Ela lista onde estão as jazidas; não
-estabelece uma lei geral.
-
-Quatro minerais respondem por cerca de 90% de tudo que a indústria usa. São nomes
-estranhos que você nunca precisará decorar, mas vale reconhecer:
-
-- **colemanita**, **kernita**, **tincal** e **ulexita**.
-
-Todos são **minérios** — rochas com boro em quantidade suficiente para valer a pena
-extrair. E aqui um ponto importante: o minério bruto **não é** boro puro. Ele vem
-misturado com outras rochas (a "ganga" — o nome que a mineração dá à rocha sem valor que vem junto), então uma tonelada de minério contém bem
-menos que uma tonelada de boro.
-
-### O mapa real: três faixas e um país
-
-A principal fonte institucional (o serviço geológico dos Estados Unidos, que publica
-anualmente os dados mundiais de mineração) descreve as maiores jazidas exploráveis
-em três faixas: o **deserto de Mojave**, nos Estados Unidos; o **cinturão Alpide**, na
-margem sul da Eurásia; e o **cinturão Andino**, na América do Sul.
-
-E há um dado que reorganiza tudo: **a Turquia concentra a maior parte das reservas do
-mundo** — cerca de 950 mil quilotons das reservas listadas, contra 48 mil dos Estados
-Unidos, 40 mil da Rússia e 35 mil do Chile.
-
-**Um detalhe sobre esse tipo de número, porque a honestidade importa:** o próprio
-serviço geológico americano declara que **não calcula um total mundial** de reservas,
-porque cada país reporta o boro de um jeito diferente (às vezes como minério bruto,
-às vezes como composto já processado). Isso significa que **esses números não se
-somam**. Você não pode dizer "a Turquia tem 87% do boro do mundo" — pode dizer "87%
-do que essa tabela lista". É uma diferença pequena na frase e grande no significado.
-
-### O erro que eu mesmo precisei corrigir
-
-Uma versão anterior do material do acervo afirmava que as maiores jazidas estavam em
-**Yellowstone** e no **Paquistão**. Fui verificar: a fonte institucional **não cita
-nenhum dos dois**. Cita Mojave, Alpide e Andino, e não lista o Paquistão entre os
-países produtores.
-
-Yellowstone faz sentido na memória de qualquer pessoa que já viu as fotos: é uma
-região vulcânica com águas termais cheias de minerais, onde o boro aparece em
-fontes coloridas. **Mas "o elemento aparece ali" não é a mesma coisa que "existe uma
-jazida que vale explorar".** Existe boro dissolvido na água; não existe, segundo a
-fonte, uma reserva econômica.
-
-Registro o erro aqui porque ele é instrutivo: uma afirmação plausível, fácil de
-acreditar e errada. É o tipo de coisa que um texto para leigo repete por décadas sem
-que ninguém confira.
-
----
-
-## 5. Para que serve: o que a maioria imagina e o que é verdade
-
-Pergunte a alguém para que serve o boro e você provavelmente ouvirá: foguetes,
-tecnologia, coisas de guerra.
-
-**É verdade — e é irrelevante em volume.** O destino real do boro é o mais
-cotidiano possível:
-
-- **mais de três quartos** do consumo mundial vai para **cerâmicas, detergentes,
-  fertilizantes e vidro**;
-- a categoria **vidro e fibra de vidro** responde por cerca de **49%** do consumo;
-- **fertilizantes** (o boro é micronutriente de planta) ficam em torno de 11 a 15%;
-- usos químicos, **retardantes de chama** e **preservantes de madeira** somam cerca
-  de 8%;
-- metais, ímãs, semicondutores e **controle nuclear** somam cerca de 4%.
-
-### Por que o vidro domina
-
-Quando o vidro comum é fabricado, ele precisa de um ingrediente que o torne
-resistente ao calor — o que os técnicos chamam de **resistência térmica**. Sem esse
-ingrediente, o vidro estilhaça quando esquenta. O boro faz esse papel. É por isso que
-a **fibra de vidro** — o material de isolamento de caixa d'água, de barcos, de
-painéis leves — carrega tanto boro.
-
-### E o foguete?
-
-Existe, é fascinante e é mínimo em tonelagem. A fibra de boro foi a **primeira fibra
-de alto desempenho** a ser produzida industrialmente: foi usada nas superfícies da
-cauda do caça F-14, em estabilizadores do F-15, em tubos da fuselagem do ônibus
-espacial, na longarina dorsal do bombardeiro B-1B, no leme do Mirage 2000, e hoje
-aparece em satélites.
-
-Há também algo quase inacreditável: o **trietilboro**, um composto de boro, pega fogo
-sozinho em contato com o ar. Por isso foi usado como ignitor dos motores F-1 do
-foguete Saturno V — o foguete que levou o homem à Lua — e é usado hoje nos Falcon 9.
-
-**Mas aqui a fonte impõe uma disciplina.** Sabemos que essas aplicações existem.
-**Não sabemos quantas toneladas elas consomem** — as fontes consultadas documentam
-aplicações, não massa. Se alguém disser "o boro aeroespacial consome massa
-desprezível", está indo além do medido. Pode ser verdade; não está medido.
-
-### A lição que este caso ensina
-
-Uma pergunta natural: se o boro é estratégico para foguetes e reatores, por que ele
-não é mais caro e mais disputado?
-
-A resposta é mais interessante que o fato. Numa lista de materiais **críticos**, o
-que torna um material crítico **não é o volume — é a ausência de substituto no uso
-que importa**. O boro aeroespacial é pouquíssimo em tonelagem e insubstituível
-naquela função. O boro do vidro é imenso em tonelagem e tem concorrente. É isso, e
-não um suposto "desvio" de toneladas para fins militares, que explica a sensação de
-que o boro é "tomado" por quem tem mais poder.
-
----
-
-## O que já ficou firme até aqui
-
-Antes de seguir, um resumo do que já está estabelecido — e do que ainda não:
-
-**Estabelecido:** o boro é o elemento de 5 prótons, o quinto mais leve; não é usado
-sozinho na natureza, mas em compostos; o conteúdo de boro muda radicalmente conforme
-o composto (17,5% no ácido bórico, 11,3% no bórax); sua origem é a colisão de
-partículas no espaço, não a fusão em estrelas; a Turquia concentra a maior parte das
-reservas listadas; o grosso do consumo é vidro, cerâmica, detergente e fertilizante,
-não foguete.
-
-**Ainda não sabemos:** quantas toneladas o uso aeroespacial consome; se existem
-jazidas relevantes fora das três faixas citadas.
-
-
----
-
-## 6. O boro faz bem ou faz mal? A resposta exige uma ferramenta nova
-
-Esta é a pergunta que todo mundo faz, e ela **não tem resposta** do jeito que é
-formulada. "Faz bem ou mal" é uma pergunta de remédio. Para substâncias, a pergunta
-correta é outra: **quanto**.
-
-Existe uma frase que parece piada e é a base de toda a toxicologia moderna:
-**"a dose faz o veneno"**. Ela significa que qualquer substância — água, sal, ferro,
-vitamina — é inofensiva em certa quantidade, benéfica em outra e letal em outra. O
-boro não é exceção.
-
-### Primeiro, uma pergunta anterior: o corpo precisa de boro?
-
-Você provavelmente já ouviu que existem **vitaminas** e **minerais essenciais** —
-coisas que o corpo não fabrica e precisa receber. O ferro, por exemplo, é essencial:
-sem ele, não há hemoglobina, e a pessoa fica anêmica.
-
-**O boro não está nessa lista.** A fonte oficial que organiza essa informação nos
-Estados Unidos (o instituto de saúde que publica as recomendações dietéticas)
-declara, de forma direta: o boro **não é classificado como nutriente essencial para
-seres humanos**. Não existe dose diária recomendada, não existe valor de referência
-de ingestão. O que existe é um **limite superior** — o máximo que se recomenda não
-ultrapassar.
-
-Isso não significa "o boro não serve para nada no corpo". Existem estudos sobre
-efeitos do boro em ossos e hormônios. Significa algo mais estreito e mais firme:
-**o corpo humano não é obrigado a receber boro para funcionar, e a ciência oficial não
-reconhece uma necessidade.** Se você já leu que "boro é essencial para os ossos",
-leu além do que a fonte sustenta.
-
-### As três réguas que você vai encontrar
-
-Quando se fala em quanto boro é seguro, aparecem três números diferentes. Eles **não
-se contradizem** — medem coisas diferentes, para populações diferentes. Confundi-los
-é a segunda maior fonte de erro nesta matéria.
-
-**Régua 1 — Água de consumo: 2,4 miligramas por litro.**
-
-A Organização Mundial da Saúde fixa esse valor para água potável. Como se chega nele?
-Aqui vale abrir o cálculo, porque ele ensina o método.
-
-1. Em estudos com animais (principalmente ratas grávidas), o efeito mais sensível
-   encontrado foi **redução do peso do feto**. Não é câncer, não é morte: é um efeito
-   no desenvolvimento.
-2. A dose em que esse efeito começa a aparecer foi estimada em **10,3 miligramas de
-   boro por quilo de peso do animal, por dia**.
-3. Como não se pode testar em humanos grávidas por razões óbvias, aplicam-se
-   **fatores de proteção** — divisores que criam margem de segurança. Multiplicam-se
-   dois: um para a diferença entre animal e humano (fator **10**) e um para a
-   diferença entre pessoas (fator **6**). Total: **60**.
-4. 10,3 dividido por 60 dá **0,17 miligrama por quilo de peso humano, por dia**.
-   Essa é a **dose diária tolerável** — a quantidade que se estima poder ser ingerida
-   todos os dias, a vida toda, sem risco apreciável.
-5. Dessa dose, decide-se que **40%** podem vir da água (o resto vem do alimento).
-6. Com um adulto de 60 quilos bebendo 2 litros por dia, chega-se a **2,4 mg/L**.
-
-**O que esse número significa e o que não significa.** Ele vale para **água de
-consumo**. Não é limite para solo, para rio, para efluente de oficina, para alimento
-ou para material de construção. E a própria OMS ressalva que, em lugares onde a água é
-dessalinizada ou onde o boro natural é alto, as autoridades locais **podem adotar
-valor acima de 2,4** depois de avaliar a exposição por outras vias. Ou seja: nem a OMS
-trata 2,4 como um teto absoluto para todos os lugares do mundo.
-
-**Régua 2 — Medicamento: até 10 miligramas de boro por dia (adulto).**
-
-A agência europeia que regula medicamentos calculou quanto boro pode vir de um
-medicamento, por dia, sem risco. O resultado para adulto é **10 miligramas de boro**.
-Para crianças menores, menos: 1 miligrama até 2 anos, 3 até 12 anos, 7 até 18 anos.
-
-**Régua 3 — Suplemento alimentar: máximo 20 miligramas por dia (adulto).**
-
-O limite superior de ingestão para adultos é **20 miligramas de boro por dia**. As
-doses usualmente vendidas em suplemento ficam entre **0,15 e 6 miligramas**.
-
-### Por que 2,4 mg/L de água e 20 mg de suplemento não se contradizem
-
-Parece estranho: um limite manda não passar de 2,4 mg por litro, o outro permite 20 mg
-por dia. Se você beber 2 litros de água no limite, ingere 4,8 mg — bem abaixo dos 20.
-
-A explicação é que são **instrumentos diferentes com finalidades diferentes**:
-
-- o **2,4 mg/L** protege uma população inteira, todos os dias, pela vida toda,
-  incluindo gestantes e crianças, sem que ninguém precise ser monitorado;
-- o **20 mg/dia** é um teto para uma pessoa adulta que decidiu tomar suplemento, com
-  acompanhamento possível e conhecimento do que está ingerindo.
-
-**Um número mais baixo não é "mais rigoroso" — é um número que protege mais gente,
-com menos informação sobre cada um.** Entender isso evita conclusões erradas nos dois
-sentidos: nem o limite da água prova que o suplemento é perigoso, nem o limite do
-suplemento autoriza despejar boro no rio.
-
-### A dose letal, para dar escala
-
-Para um adulto, a dose oral fatal estimada fica entre **15.000 e 20.000 miligramas**.
-Ou seja: cerca de **mil vezes** o limite superior diário. Essa distância enorme é o
-motivo pelo qual o boro não é uma substância de envenenamento acidental comum. Mas
-atenção: **"longe da dose letal" não é "seguro em qualquer uso"** — o efeito crítico
-do boro não é a morte, é o desenvolvimento. Efeitos sutis aparecem muito antes de
-qualquer sintoma dramático.
-
----
-
-## 7. O que a ciência diz que o boro faz — e o que ela NÃO diz
-
-Esta seção existe para corrigir duas frases que circulam muito, uma assustadora e uma
-tranquilizadora. **As duas estão erradas.**
-
-### A frase assustadora: "o boro é cancerígeno"
-
-**Não é isso que as fontes institucionais dizem.** A OMS, avaliando o boro, registra
-que os testes de mutagenicidade — os testes que verificam se uma substância danifica o
-material genético — deram **negativos**, e que os estudos de longo prazo em ratos e
-camundongos **não registraram aumento na incidência de tumores**.
-
-Isso é o resultado desses estudos. **Não é** uma declaração de que o boro seja
-inofensivo em qualquer circunstância; é o que os estudos mostraram.
-
-### A frase tranquilizadora: "então o boro é seguro"
-
-**Também não.** O boro tem um efeito crítico bem estabelecido, e ele não é câncer: é
-**toxicidade para o desenvolvimento** — ou seja, algo que pode afetar o
-desenvolvimento de um feto. Esse é o desfecho que fundamenta **todos** os limites
-numéricos citados acima: os 2,4 mg/L da água, os 10 mg do medicamento, os 20 mg do
-suplemento. Todos foram calculados a partir do mesmo ponto de partida: o peso do feto
-em animais.
-
-Existe também um segundo efeito bem documentado: o **trato reprodutivo masculino** é
-alvo consistente do boro em animais de laboratório. Em ratos, camundongos e cães
-foram observadas lesões nos testículos.
-
-### A distinção que resolve a confusão: reprodutivo não é cancerígeno
-
-Estas duas palavras soam parecidas e são coisas completamente diferentes:
-
-- **Carcinogenicidade** = capacidade de causar **câncer**. O boro não está
-  classificado assim pelas fontes consultadas.
-- **Toxicidade reprodutiva** = capacidade de **prejudicar a capacidade de ter
-  filhos ou o desenvolvimento de um feto**. É **aqui** que o boro está classificado.
-
-Na Europa, onde existe um sistema oficial de classificação de substâncias, o ácido
-bórico e três tipos de borato estão classificados como **"Repr. 1B"** — o que
-significa: substância reconhecidamente tóxica para a reprodução humana. O código
-"H360FD" associado quer dizer: pode prejudicar a fertilidade e pode prejudicar o feto.
-
-**Uma classificação não autoriza a outra.** Dizer que o boro "causa câncer" é falso
-segundo as fontes. Dizer que ele "é seguro porque não causa câncer" é igualmente
-falso — ignora o efeito que realmente importa.
-
-### Por que a criança e a gestante aparecem em todas as normas
-
-Se você notou que toda norma de boro é mais rígida com criança e com gestante, agora
-sabe a razão: o efeito crítico é exatamente sobre o desenvolvimento. A norma brasileira
-de água boricada chega a proibir o uso em crianças — e chega a essa conclusão **pela
-prática**, antes de qualquer discussão de mecanismo. É coerência, não formalismo.
-
----
-
-## 8. O boro na farmácia: dois usos reais e uma advertência
-
-Você pode encontrar boro em farmácia, e vale saber exatamente o que está comprando.
-
-### A água boricada
-
-No Brasil, a agência que regula medicamentos lista a **água boricada a 3%** como
-antisséptico. "Antisséptico" significa que ela **mata ou impede micróbios** em tecido
-vivo — no caso, é **bacteriostática** (bloqueia a multiplicação das bactérias) e
-**fungistática** (bloqueia o crescimento dos fungos). O sufixo "stático" quer dizer
-"que paralisa", não "que mata".
-
-A norma exige teor de **2,900% a 3,200% de ácido bórico** e pH entre 3,8 e 4,8. O pH
-é uma escala que mede acidez — 7 é neutro, abaixo de 7 é ácido. Uma solução em pH
-4 é moderadamente ácida, o que ajuda a conter micróbios.
-
-**As advertências da própria norma, e elas são o mais importante desta seção:**
-
-- **não** aplicar em grandes áreas do corpo quando houver lesão, ferida ou
-  queimadura;
-- uso **exclusivo em adultos** — o texto registra que o uso em crianças representa
-  risco à saúde;
-- **não ingerir**.
-
-A advertência sobre grandes áreas com ferida tem uma lógica que vale entender: **pele
-ferida absorve muito mais que pele íntegra**. Aplicar uma solução numa ferida extensa
-é, em parte, uma via de entrada para a corrente sanguínea. É por isso que "tópico"
-(na pele) não significa automaticamente "sem risco".
-
-### Boro como excipiente de medicamento
-
-Existe ainda um uso que quase ninguém conhece: o boro aparece como **excipiente** —
-substância auxiliar que não é o remédio em si, mas compõe o comprimido para dar
-consistência, estabilidade ou conservação. Por isso a agência europeia calculou um
-limite diário de exposição a boro vindo de medicamentos, que é a régua 2 explicada
-acima.
-
-**A nota de unidade que já causou erro em textos técnicos:** esse limite de 10 mg é de
-**boro elementar**, não de ácido bórico. Como o ácido bórico só tem 17,5% de boro,
-10 mg de boro correspondem a cerca de **57 mg de ácido bórico**. Quem lê "10 mg" e
-compra 10 mg de ácido bórico está ingerindo 1,75 mg de boro — quase seis vezes menos.
-
----
-
-## O que ficou firme, e o que continua aberto
-
-**Estabelecido:** o boro não é nutriente essencial reconhecido para humanos; existe
-um limite superior de 20 mg/dia para adultos; o efeito crítico é sobre o
-desenvolvimento, não câncer; os testes de mutagenicidade deram negativos; o ácido
-bórico é classificado na Europa como tóxico para a reprodução; a água boricada a 3%
-tem uso restrito a adultos e não deve ser usada em feridas extensas.
-
-**Ainda não sabemos:** quantos medicamentos brasileiros contêm boro e em que
-quantidade — a única base numérica que o acervo tem é a americana, para suplementos.
-
-
----
-
-## 9. O bambu e o boro: por que uma planta precisa de veneno para durar
-
-Agora a segunda metade do artigo, e a razão pela qual este material foi escrito.
-
-### Bambu não é madeira, e é por isso que ele apodrece
-
-O bambu é uma **gramínea** — é parente do capim, não do cedro ou da peroba. Ele
-cresce rápido e é resistente, mas tem uma fraqueza estrutural: **é cheio de açúcar e
-amido**.
-
-Essa é a diferença decisiva em relação à madeira. A madeira tem **lignina** — o nome de uma substância
-natural que funciona como uma resina: ela gruda as fibras, impermeabiliza e protege. O bambu
-tem muito menos. Resultado: o bambu é, do ponto de vista de um fungo ou de um inseto,
-**comida fácil** — rica em nutrientes, macia e úmida.
-
-Se você cortar um colmo de bambu e deixá-lo no quintal, em poucos meses ele estará
-sendo devorado. Não é azar: é bioquímica.
-
-### Como se protege: encharcar com um veneno solúvel
-
-A lógica do tratamento é simples de enunciar: **substituir, dentro do colmo, o líquido
-que já está lá por uma solução que mate fungo e inseto.**
-
-Funciona como marinar. O colmo é um canudo cheio de seiva — o líquido que a planta
-usa para transportar nutrientes. Se você colocar a ponta do colmo numa solução e
-esperar, a solução entra. O boro serve porque é **muito solúvel em água**: dissolve-se
-bem, penetra com facilidade.
-
-E aqui está a **propriedade central de todo este capítulo, e ela tem duas faces**:
-
-> **A mesma solubilidade que faz o boro entrar no bambu é a que faz o boro sair.**
-
-O boro não se **liga** ao bambu. Ele fica depositado dentro, dissolvido ou cristalizado.
-Enquanto o material está seco, ele fica. Quando a umidade volta — chuva, solo úmido,
-condensação — ele pode voltar a se dissolver e migrar para fora.
-
-Isso não é defeito de fabricação. É a natureza do produto. E é por isso que nenhum
-texto honesto sobre preservação de bambu com boro pode prometer durabilidade eterna.
-
-### O nome técnico do problema: lixiviação
-
-O processo de a água atravessar o material e carregar o produto embora chama-se
-**lixiviação**. Não confunda com lavagem: lavagem é de fora para fora. Lixiviação é a
-água **entrando, dissolvendo o que está dentro e saindo com ele**.
-
-Uma analogia útil: pense num saquinho de chá. Enquanto está seco, o chá fica no
-saquinho. Ao mergulhar na água quente, o sabor sai — e não volta. O bambu tratado com
-boro é um saquinho de chá que precisa ficar seco.
-
-### Por que Bali aparece nesta história
-
-Existe uma prática de construção em bambu muito conhecida internacionalmente, em Bali,
-na Indonésia. Lá se constrói com colmos que passam por solução de boro — mistura de
-bórax e ácido bórico — por **imersão de cerca de duas semanas** ou por fervura em
-câmara por 24 horas, com os colmos **perfurados de ponta a ponta** para que a solução
-penetre pelos anéis internos (que são barreiras naturais).
-
-**Duas correções que a fonte obriga a fazer**, e que mostram como histórias bonitas
-se deformam:
-
-A primeira: é comum atribuir essa técnica a uma **arquiteta alemã** ligada à escola de
-bambu de Bali. A pessoa existe, mas é **Jörg Stamm** — **homem**, construtor e
-arquiteto de bambu, alemão, que se formou marceneiro nos anos 1980, trabalhou com
-bambu em Madagascar e construiu pontes de bambu na Colômbia por mais de vinte anos
-antes de ir para Bali.
-
-A segunda: **a técnica não nasceu com ele.** A própria instituição de Bali atribui sua
-linhagem de tratamento a **Linda Garland**, australiana-irlandesa ativa em Bali nos
-anos 1990, que trabalhou com o cientista alemão **Walter Liese** para tratar bambu
-contra besouros. O banho de boro é anterior e paralelo a Stamm.
-
-**O que Bali é, com precisão:** uma **vitrine** de grande visibilidade internacional
-para a construção em bambu tratado. O que **não** está demonstrado é que ela tenha
-transformado o banho de boro em padrão mundial — nenhuma fonte consultada mediu
-adoção. Há obras notáveis e um método em uso. Não há um padrão comprovado.
-
----
-
-## 10. A parte que importa: o resíduo
-
-Se você ler um único trecho deste artigo, leia este.
-
-### O que uma avaliação de ciclo de vida mede
-
-Existe um método de análise chamado **avaliação de ciclo de vida** — em inglês,
-*life cycle assessment*. A ideia: em vez de olhar só para o produto, olhar para
-**tudo** que ele mobiliza — a matéria-prima, a energia, a água, os resíduos — e
-distribuir o impacto entre as etapas.
-
-Uma pesquisa brasileira fez isso para a produção artesanal de bambu tratado no Acre,
-na Amazônia. A pesquisa acompanhou uma unidade produtiva real, com dados coletados
-entre 2021 e 2022, e calculou o impacto de produzir **1 quilo de colmo tratado**.
-
-Ela encontrou dois números que reorganizam toda a discussão:
-
-- **toxicidade carcinogênica humana = 93%** do impacto potencial total;
-- **resíduos contaminados — aparas, cortes e colmos descartados — = 91%** do impacto
-  total do sistema.
-
-### Pare antes de interpretar o 93%
-
-Este é exatamente o número que circula de forma distorcida. Vamos com cuidado.
-
-**O que 93% NÃO significa:**
-
-- **não** significa "93% de chance de câncer";
-- **não** significa que 93% das pessoas adoecem;
-- **não** significa que o boro causa câncer (a seção 7 já mostrou o contrário).
-
-**O que 93% significa:** dentro de uma **estimativa padronizada de impacto potencial**,
-a categoria "toxicidade carcinogênica humana" responde por 93% do total. É uma
-**proporção de um indicador calculado**, não uma medida de doença em pessoas.
-
-Trocando em miúdos: entre todos os tipos de impacto que esse processo gera, esse é o
-que pesa mais. É um **sinal de para onde olhar**, não um diagnóstico.
-
-### O achado que muda a conversa: o problema não é o banho
-
-Aqui está a conclusão que vale o artigo inteiro.
-
-Quando se discute tratamento de bambu com boro, quase toda a atenção vai para **o
-banho**: a solução, a concentração, o tempo de imersão. Mas a pesquisa mostra que o
-impacto está concentrado nos **resíduos** — e o resíduo é 91%.
-
-O processo medido usou **100 litros de água com 5 quilos de bórax e 5 quilos de ácido
-bórico**. Para cada quilo de colmo tratado, o inventário registrou:
-
-- **0,20 quilo de resíduo** de bambu;
-- **0,13 quilo de colmo descartado**;
-- **0,07 litro de efluente** — a água usada, que sai contaminada.
-
-E três perdas que acontecem sem que ninguém perceba:
-
-| Perda | Proporção | O que significa |
+| **Turquia** (boratos refinados) | **1.500** | **950.000** |
+| Rússia (datolita) | 80 | 40.000 |
+| Estados Unidos | *omitido* | 48.000 |
+| Chile (ulexita) | 300 | 35.000 |
+| China (equivalente B₂O₃) | 230 | 9.100 |
+| Peru (boratos brutos) | 220 | 4.000 |
+| Bolívia (ulexita) | 380 | — |
+| Argentina (minério bruto) | 170 | — |
+
+[3]
+
+**Atenção à unidade.** Os números da tabela estão em **mil toneladas** — a Turquia
+produziu 1,5 milhão de toneladas em 2025 e detém 950 milhões de toneladas em reservas.
+Nenhum valor desta tabela está em toneladas soltas.
+
+**O detalhe mais importante desta tabela é o que falta nela.** O USGS **não calcula
+total mundial**, porque cada país reporta uma forma diferente de boro — minério bruto,
+ulexita, equivalente B₂O₃, compostos. **Os números não se somam.** Dizer que "a Turquia
+tem 87% do boro do mundo" é falso: 950.000 dividido pela soma dos listados dá 87,5% do
+que a **tabela declara**, não das reservas do planeta.
+
+E o USGS registra: "aos níveis atuais de consumo, **os recursos mundiais são adequados
+para o futuro previsível**" [3]. Não há escassez de boro. Há concentração de fornecedor.
+
+## 5. A dependência brasileira
+
+O Brasil não produz boro. Em 2024, o país importou **459,7 mil toneladas**, no valor de
+**US$ 209,5 milhões**, somando os dez códigos aduaneiros de minerais e químicos de boro
+[4].
+
+| Origem | Participação | Toneladas |
 |---|---|---|
-| matéria-prima perdida no processo | **25%** | um quarto do que entra não vira produto |
-| colmos descartados após o tratamento | **~13%** | jogados fora por defeito estético ou trinca — **já impregnados de boro** |
-| água do tratamento descartada direto no solo | **~10%** | a água do banho vai para o chão |
+| **Bolívia** | **43,7%** | 200,7 mil |
+| **Argentina** | **25,4%** | 116,9 mil |
+| **Chile** | **14,7%** | 67,6 mil |
+| **Turquia** | **8,3%** | 38,0 mil |
+| Estados Unidos | 4,5% | 20,9 mil |
+| Guatemala | 2,1% | 9,7 mil |
+| Peru | 1,2% | 5,3 mil |
 
-**Leia de novo a segunda linha.** Treze por cento dos colmos são descartados **depois**
-de tratados. Ou seja: pagou-se o boro, pagou-se a água, pagou-se o tempo — e o
-resultado vai para o lixo **carregando o produto químico**.
+[4]
 
-### Por que o resíduo é pior que o banho
+**84,9% vêm da América do Sul** — o que parece conforto logístico, mas é o oposto: são
+os minerais do cinturão Andino, e dependem de três países apenas. **Bolívia, Argentina e
+Chile somam 83,8%** do total. A Turquia, que detém as maiores reservas do mundo, fornece
+**8,3%**.
 
-Aqui está o raciocínio que precisou de duas auditorias para ficar claro no acervo.
+Pela ótica do USGS, os Estados Unidos importam **90% de todo o boro da Turquia** [3].
+Duas economias grandes, dois fornecedores concentrados diferentes — e nenhuma das duas
+com alternativa imediata à vista.
 
-**O banho é controlável.** Ele acontece num tanque, num lugar conhecido, por pessoas
-que sabem que aquilo é químico. Quem opera o banho pode — e deve — usar equipamento de
-proteção. O banho tem hora, lugar e responsável.
-
-**A aparagem não tem nada disso.** A serragem, o cavaco, a ponta de colmo saem da
-oficina **sem rótulo, sem identificação e sem destino declarado**. E aqui está o
-problema que não tem solução óbvia:
-
-> **Serragem de bambu tratado com boro é fisicamente indistinguível de serragem
-> limpa.**
-
-Não muda de cor. Não muda de cheiro. Não muda de textura. Ninguém olhando para um
-monte de serragem sabe se aquilo tem boro.
-
-E o uso doméstico típico de serragem é exatamente o que **espalha** o material no
-ambiente: **compostagem, cama de animal, cobertura de solo, lenha, artesanato**. Cada
-um desses usos devolve o boro ao solo ou ao ar, distribuído, sem controle e sem
-registro.
-
-**É por isso que a gestão do resíduo é o ponto de intervenção mais eficaz desta
-cadeia — e o menos regulado.** Não porque o banho seja irrelevante, mas porque o banho
-tem dono e o resíduo não tem.
-
-### A poeira: a segunda face do mesmo problema
-
-Quando se lixa ou se serra bambu, levanta poeira. Essa poeira tem regra própria, e ela
-já existe para madeira.
-
-No Reino Unido, o órgão de saúde e segurança no trabalho fixa limites de exposição à
-**poeira de madeira**: **3 miligramas por metro cúbico** de ar, para madeira dura, e
-**5 miligramas por metro cúbico**, para madeira leve. E afirma que poeira de madeira
-dura **pode causar câncer, particularmente de nariz** — com uma observação técnica
-importante: o pó que se deposita concentra as partículas mais finas, que são
-justamente as que chegam ao pulmão.
-
-**Aqui é preciso uma ressalva declarada, e ela é séria.** Esse limite é para **poeira
-de madeira**, não para bambu tratado com boro. Aplicá-lo ao bambu é uma **analogia**,
-não uma equivalência. E, mais importante: **o que esse limite controla não é o boro** —
-é o particulado.
-
-O acervo registra isso como lacuna real: **não existe, nas fontes consultadas, medição
-de poeira de bambu tratado.** Sem essa medição, não se pode dizer qual componente
-domina o risco respiratório nesse ofício — se o boro, se a sílica, se o próprio
-particulado. **Isso é desconhecido, não é desprezível.**
-
-### Onde existe regra de descarte, e onde não existe
-
-Para **madeira tratada**, existe enquadramento formal em pelo menos um lugar: a agência
-ambiental do estado de Victoria, na Austrália, determina que madeira tratada —
-**inclusive quando usada como serragem ou cobertura morta** — seja classificada como
-**resíduo prioritário**, com destinação controlada. A norma é explícita ao dizer que
-vale para resíduo de madeira tratada e **não** para madeira apenas aquecida.
-
-Para **bambu tratado com borato no Brasil**, não foi localizado enquadramento próprio.
-**Isso não é a mesma coisa que afirmar que a norma não existe** — é afirmar que a
-pesquisa não a encontrou. A diferença é enorme e precisa ser dita com essas palavras.
+**Como estes números foram obtidos.** O ComexStat não tem um código único para "boro".
+A soma correta exige reunir dez NCMs: boratos naturais (2528), ácido ortobórico (2810.00.10),
+óxidos de boro (2810.00.90), boro elementar (2804.50.00), tetraborato dissódico anidro e
+outros (2840.11 e 2840.19), outros boratos (2840.20), perboratos (2840.30), carbonetos
+(2849.90.10) e nitreto de boro (2850.00.10). **Somar só o 2528 dá 328 mil toneladas e
+superestima a dependência sul-americana para 94,9%; somar só o ácido ortobórico dá 82,5
+mil toneladas.** O número de 459,7 mil toneladas é o do conjunto completo.
 
 ---
 
-## 11. O uso doméstico: onde este artigo vira advertência
+## 6. Faz bem ou faz mal?
 
-O acervo que gerou este texto tem um objetivo declarado, e é hora de dizê-lo sem
-rodeio: **reunir fontes que possam refutar o uso indiscriminado do boro** — o uso
-doméstico feito "como receita de bolo", sem recomendação de equipamento de proteção e
-sem descarte correto dos resíduos e aparas.
+Esta é a pergunta que quase todo mundo faz, e a resposta exige uma ferramenta nova:
+a diferença entre **dose** e **perigo**.
 
-Se você chegou até aqui, já tem os elementos para entender por que. Vou juntá-los.
+Toda substância tem uma dose em que não faz nada e uma dose em que faz mal. Água pura
+mata se você beber o suficiente. A pergunta correta nunca é "é tóxico?" — é
+**"em que quantidade, por qual via, por quanto tempo?"**
 
-### O que uma pessoa em casa faz, e por que cada passo tem risco
+Para o boro, existe uma resposta oficial a três perguntas diferentes.
 
-**1. Manipular o pó sem proteção.** Ácido bórico e bórax são vendidos em pó. Abrir o
-saco, medir, misturar — tudo isso levanta poeira. O pó de boro é irritante para vias
-respiratórias e olhos. Em trabalhadores de indústria de boro, mediram-se sintomas como
-boca, nariz e garganta secos, tosse seca, sangramento nasal e dor de garganta em
-frequência elevada nas áreas mais empoeiradas.
+**Primeira: o corpo humano precisa de boro?** Não, segundo o NIH. O texto é direto:
+"o boro **não é classificado como nutriente essencial para humanos**", porque a pesquisa
+"ainda não identificou uma função biológica clara" [8]. Os comitês americanos
+consideraram os dados **insuficientes** para estabelecer dose recomendada, ingestão
+adequada ou necessidade média [8].
 
-**2. Não usar máscara nem luva.** Não é frescura: a via de entrada importa. A poeira
-entra pelo pulmão; a solução entra pela pele, especialmente pele com ferida. E a
-mesma solubilidade que faz o boro penetrar no bambu faz ele atravessar a pele.
+**Isso não é o mesmo que dizer que o boro é inútil.** Há indícios de efeitos em
+reprodução e formação óssea — mas indícios, não essencialidade [8]. E há uma confusão
+comum que vale desfazer: **o boro é essencial para plantas** (componente da parede
+celular, necessário ao crescimento e à polinização) [8]. Para plantas, sim; para
+humanos, não é assim classificado.
 
-**3. Tratar em qualquer lugar.** O banho precisa de ventilação. Um quintal fechado,
-uma garagem, um galpão sem janela — a poeira e o vapor ficam no ar.
+**Segunda: quanto é demais?** O NIH fixa um **limite superior (UL)** — o valor acima
+do qual o risco aumenta — por faixa etária [8]:
 
-**4. Descartar a água do banho em qualquer lugar.** No processo medido no Acre, cerca
-de 10% da água foi descartada **direto no solo**. Essa água está contaminada. Jogá-la
-na terra, no ralo ou no quintal é levar o produto exatamente para onde ele se espalha.
+| Faixa | Limite superior (mg de boro/dia) |
+|---|---|
+| 1–3 anos | **3** |
+| 4–8 anos | **6** |
+| 9–13 anos | **11** |
+| 14–18 anos | **17** |
+| **19+ anos** | **20** |
 
-**5. Guardar ou usar as aparas como se fossem limpas.** Este é o ponto mais grave,
-porque é invisível. Serragem com boro vai para a composteira, para a cama do animal,
-para cobrir o canteiro, para o fogão — e nada na aparência avisa.
+Suplementos costumam trazer de **0,15 a 6 mg** de boro elementar [8] — abaixo do limite.
+A dose fatal estimada para um adulto é de **15.000 a 20.000 mg** [8], uma ordem de
+grandeza distante do uso doméstico.
 
-**6. Achar que "natural" significa "seguro".** O boro é um elemento natural. Isso não
-diz nada sobre segurança. Arsênico também é natural. Chumbo também. "Natural" descreve
-a origem, não o efeito biológico.
+**Terceira: qual é o efeito mais sensível?** Aqui a resposta muda de natureza, e é a
+parte que quase nunca se explica.
 
-### O que a norma já diz e muita gente não sabe
+## 7. O que a ciência diz — e o que ela não diz
 
-Duas coisas que são **norma vigente**, não opinião:
+O efeito crítico do boro, em todas as réguas oficiais, é a **toxicidade para o
+desenvolvimento**: efeito sobre o crescimento e a formação do feto.
 
-- O **ácido bórico é classificado na Europa como tóxico para a reprodução** — não é
-  uma classificação de ativistas, é um regulamento oficial em vigor desde fevereiro de
-  2025.
-- A **água boricada a 3%**, vendida em farmácia no Brasil, é de **uso restrito a
-  adultos** e a norma diz que o uso em crianças representa risco à saúde.
+**A cadeia da água de consumo.** A Organização Mundial da Saúde construiu sua diretriz
+em seis passos [1]:
 
-Se o produto de farmácia, diluído e feito para uso medicinal, tem essas restrições,
-um banho artesanal concentrado manipulado sem proteção não é "a mesma coisa em maior
-escala". É outra situação.
+1. Em ratos, a dose mais baixa com efeito observável sobre o **peso fetal** foi de
+   **10,3 mg por quilo de peso corporal por dia** — o chamado BMDL₀₅.
+2. Para transformar dado de rato em limite humano, aplica-se um **fator de incerteza**.
+   Aqui o fator é **60**, e ele não é um número mágico: decompõe-se em **10** (diferença
+   entre espécies) × **6** (diferença entre pessoas).
+3. Esse 6, por sua vez, é **1,8 × 3,2**. O **1,8** vem da diferença de filtração
+   glomerular entre humanos e ratos (144 contra 80 mL/min) — um dado medido. O **3,2** é
+   **padrão**, aplicado por falta de dados [1].
+4. Chega-se a uma **ingestão diária tolerável de 0,17 mg/kg/dia** — arredondada para
+   0,2 [1].
+5. Aloca-se **40%** dessa dose à água de consumo, porque água não é a única fonte [1].
+6. Para um adulto de 60 kg que bebe 2 litros por dia, o resultado é **2,4 mg/L** [1].
 
-### As regras mínimas que o acervo sustenta
+> **O que "2,4 mg/L" quer dizer na prática:** é a concentração na água que, bebida
+> 2 litros por dia durante toda a vida, mantém a exposição abaixo do nível tolerável.
+> Não é a dose que faz mal. É a dose com margem de segurança embutida.
 
-Isso não é receita — o acervo não produz receita, e não há dose segura publicada para
-tratamento doméstico. São as condições que as fontes custodiadas sustentam como
-necessárias:
+**E 2,4 mg/L não é um teto invariável.** A própria OMS diz que, em abastecimentos por
+**dessalinização** e em áreas onde o boro é naturalmente alto na geologia, as
+autoridades "should consider a value in excess of 2.4 mg/l" [1]. O valor é ponto de
+partida, não dogma.
 
-- **equipamento de proteção**: máscara para particulado, luvas, óculos;
-- **ventilação**: tratar em área aberta ou ventilada, nunca em ambiente fechado;
-- **controle da água**: não descartar o banho em solo, ralo ou curso d'água;
-- **identificar o resíduo**: separar e rotular toda apara, serragem e colmo descartado
-  como **contaminado com boro**, porque visualmente eles não se distinguem;
-- **não destinar aparas a compostagem, cama de animal, cobertura de solo ou lenha**;
-- **manter longe de crianças e de animais**.
+A OMS também registra que **a maior parte do mundo tem água abaixo de 0,5 mg/L** [2] —
+ou seja, a maioria das pessoas está muito longe do limite. E onde há valores altos por
+natureza, a causa é **geológica**: a OMS descreve essas ocorrências como "indicative of
+boron-rich deposits" [2], sem excluir outras origens.
 
-### E o que ninguém sabe ainda
+## 8. A régua do remédio e a régua da farmácia
 
-Sejamos rigorosos até o fim. O acervo registra estas lacunas:
+**Medicamento.** A Agência Europeia de Medicamentos calculou quanto boro uma pessoa pode
+receber por dia **tomando remédio que o contenha como excipiente** — a substância
+neutra que dá corpo ao comprimido [5]:
 
-- **não existe medição de exposição de trabalhador** de bambu no Brasil ou na China —
-  nenhuma fonte mede o operador dessa cadeia;
-- **não existe dado de poeira** de bambu tratado;
-- **não se sabe o destino real** das aparas e da serragem no Brasil — se vão para
-  aterro, compostagem, queima ou solo. Nenhum levantamento foi localizado;
-- a poeira como via de dispersão doméstica é **hipótese**, não medição.
+| Idade | Exposição diária permitida (mg de boro/dia) |
+|---|---|
+| 0–2 anos | **1** |
+| 2–12 anos | **3** |
+| 12–18 anos | **7** |
+| mais de 18 anos | **10** |
 
-**Dizer "é desconhecido" é o oposto de dizer "não é problema".** Numa cadeia onde a
-substância tem efeito crítico sobre o desenvolvimento e onde o resíduo sai sem rótulo,
-ausência de medição é motivo para cuidado, não para tranquilidade.
+Note que é **boro elementar**, não ácido bórico: 10 mg de boro equivalem a cerca de
+**57 mg de ácido bórico** [5].
+
+E o EMA registra um dado importante: **mais de 90% do ácido bórico administrado é
+excretado na urina**, independentemente da via [5]. O corpo se livra rápido — o que
+limita o acúmulo, mas não elimina o efeito sobre o desenvolvimento.
+
+**Farmácia brasileira.** A água boricada a 3% é **antisséptico, bacteriostático e
+fungistático** — ou seja, impede a multiplicação de bactérias e fungos, sem
+necessariamente matá-los [6].
+
+A norma da ANVISA exige teor de **2,900% a 3,200%** de ácido bórico e **pH entre 3,8 e
+4,8** [6]. E traz três restrições explícitas:
+
+1. **"Não poderá ser aplicado em grandes áreas do corpo, quando existirem lesões de
+   qualquer tipo, feridas ou queimaduras"**;
+2. **"Produto de uso exclusivo em adultos. O uso em crianças representa risco à
+   saúde"**;
+3. **"Não ingerir"** [6].
+
+**Por que a restrição de área tem lógica.** Pele com lesão absorve muito mais que pele
+íntegra. Aplicar em ferida extensa é, em parte, abrir uma via de entrada para a
+circulação. "Uso tópico" não significa "sem absorção".
+
+**Por que a restrição infantil é coerente.** O efeito crítico do boro é sobre o
+desenvolvimento [1][5][7]. A norma brasileira chega à mesma conclusão **pela prática
+clínica**, antes de qualquer discussão de mecanismo [6].
+
+## 9. O boro é cancerígeno?
+
+Esta é a pergunta onde quase todo texto erra — para os dois lados.
+
+A União Europeia classifica, no regulamento CLP, **quatro entradas** de boro como
+**Repr. 1B, H360FD** [9]:
+
+- ácido bórico (CAS 10043-35-3)
+- trióxido de diboro (CAS 1303-86-2)
+- tetraborato de dissódio anidro, decahidratado e pentahidratado
+  (1330-43-4, 1303-96-4, 12179-04-3)
+
+**Traduzindo.** **Repr. 1B** significa "reconhecidamente tóxico para a reprodução
+humana" — presunção forte, baseada sobretudo em dados de animais. **H360FD** desdobra-se
+em duas frases:
+
+- **H360F** — "Pode prejudicar a fertilidade";
+- **H360D** — "Pode prejudicar o feto" [9].
+
+E aqui está a distinção que resolve a confusão: **toxicidade reprodutiva não é
+carcinogenicidade.** São categorias diferentes, com desfechos diferentes.
+
+- **Carc.** = pode causar câncer. **O boro não está classificado assim** [9].
+- **Repr.** = pode prejudicar a fertilidade ou o feto. **É aqui que o boro está** [9].
+
+Portanto:
+
+> Dizer que o boro "é cancerígeno" **contraria a norma**.
+> Dizer que ele "é seguro porque não é cancerígeno" **contraria a norma igualmente** —
+> ignora a classificação que existe.
+
+
+### A afirmação de 2025 que não pode ser ignorada
+
+Até aqui este artigo falou de classificação regulatória. Mas há um dado mais recente, e
+ele precisa aparecer **nesta seção**, não só na do resíduo.
+
+Em 2025, quatro pesquisadores publicaram, com revisão por pares, uma avaliação de ciclo
+de vida da produção artesanal de colmo de bambu no Acre [19]. Concluíram que a
+**toxicidade carcinogênica humana (HCT) representou 93% do impacto potencial** daquela
+cadeia.
+
+**Isso não é boato e não deve ser tratado como boato.** É publicação recente, com método
+declarado, inventário e tabela.
+
+**E também não é sentença.** "HCT" é o nome de uma **categoria do método ReCiPe** — não
+um diagnóstico. O valor sai em milipontos, depois de normalizado entre as sete
+categorias que os autores selecionaram. **"93%" quer dizer "esta foi a categoria que
+mais pesou no modelo"**, não "93% de chance de câncer".
+
+**Por que, então, o termo importa?** Não porque meça massa — **ele não mede massa**, e o
+glossário deste artigo diz isso. Ele importa por outra razão: é o único indicador desta
+seção que **aponta para o resíduo como origem do dano potencial**. Os autores atribuem o
+resultado ao ácido bórico e ao bórax presentes **nas aparas, nos cortes, nos colmos
+descartados e no efluente** [19].
+
+**A leitura honesta, então, é esta:**
+
+- a classificação europeia diz que **o boro pode prejudicar fertilidade e feto** [9];
+- **não** o classifica como cancerígeno;
+- e um estudo de ciclo de vida diz que, **naquela cadeia artesanal**, a categoria
+  carcinogênica do modelo foi a que mais pesou — **por causa do resíduo**.
+
+As três afirmações convivem. Nenhuma cancela a outra — e o resíduo, que é o que o estudo
+aponta, **não tem disciplina específica no Brasil** — nem a lei de resíduos o nomeia, nem
+a lei do bambu trata de resíduo (§18).
+
+
+**Um cuidado com datas.** Documentos de 2021 ainda citam "Repr. cat. 2" [5] — o
+enquadramento anterior. O regulamento de 2023 substituiu as entradas e elevou a
+classificação, com efeito a partir de **1º de fevereiro de 2025** [9]. Quem cita "cat.
+2" está citando o estado anterior à norma vigente.
 
 ---
 
-## 12. Como ler qualquer texto sobre boro — um guia prático
+## 10. O bambu e o boro
 
-Esta é a seção mais útil do artigo, porque ela sobrevive a mim.
+O bambu é uma gramínea gigante. Sua vantagem é crescer rápido: em três a cinco anos um
+colmo atinge o diâmetro e a altura de um colmo maduro [3]. Sua fraqueza é o **amido**
+dentro da parede.
 
-Quando você encontrar uma afirmação sobre boro — num vídeo, numa bula, numa conversa,
-num texto como este — faça cinco perguntas:
+**Besouros e cupins comem amido.** O besouro-de-pólvora põe ovos dentro do colmo; as
+larvas comem o interior e saem, deixando furos de 1 a 2 mm [13]. O cupim também. E o
+fungo só precisa de umidade acima de **20%** de teor de água para apodrecer o colmo [13].
 
-**1. "Boro" de qual coisa?** Ácido bórico, bórax, DOT ou boro elementar? Sem isso, o
-número não significa nada. Um "10 mg" pode ser 1,75 mg de boro ou 10 mg de boro,
-dependendo do que está sendo pesado.
+O boro resolve isso de um jeito simples: **ele atravessa o colmo e torna o amido
+inaproveitável**. Não é veneno que mata o inseto — é comida que deixa de ser comida.
 
-**2. Qual é a base do número?** Massa do sal, massa de boro puro, teor de óxido de
-boro, ou concentração em solução? São quatro grandezas e **não se convertem
-livremente**.
+**Onde essa prática nasceu.** O tratamento com boro foi identificado em **Bali**, e
+duas pessoas estão na origem documentada: a arquiteta **Linda Garland**, que fundou a
+Environmental Bamboo Foundation e fez a pesquisa de proteção contra o besouro por
+imersão em sais de borato [14], e o cientista alemão **Walter Liese**, da Universidade
+de Hamburgo, que trabalhou com ela e é a maior autoridade em biologia do bambu [12][14].
 
-**3. Isso foi medido, ou inferido?** "Mediu-se perda de massa em laboratório" é
-diferente de "funciona no campo". "A fonte diz que o metal está no solo" é diferente de
-"o metal veio do tratamento".
+**Quem difundiu.** O maior difusor da técnica é o construtor e arquiteto alemão
+**Jörg Stamm**. Ele consta como **consultor de bambu** na obra da Green School, em Bali,
+e assina projetos com IBUKU e Atelier One, incluindo o Arc [15]. O método que ele
+descreve é de imersão: os colmos são perfurados de ponta a ponta e ficam na solução por
+duas semanas, ou são fervidos em câmara por 24 horas [15].
 
-**4. Qual é o limite que o autor reconhece?** Texto honesto sobre boro sempre tem
-limites, porque as fontes têm. Se não tem nenhum, desconfie.
+**Onde a técnica é ensinada.** A Green School virou vitrine: recebe cursos de
+introdução ao bambu e mantém uma cadeia de ofício própria. Não é exagero dizer que boa
+parte dos construtores em bambu do mundo passou por ali.
 
-**5. Isso é desfecho ou indicador?** "93% de impacto carcinogênico potencial" é um
-**indicador calculado**. "Aumento de casos de câncer" é um **desfecho medido em
-pessoas**. Trocar um pelo outro é o erro mais comum e mais grave nesta matéria.
+**O tratamento, em números.** Um estudo brasileiro mediu a retenção de boro em
+*Dendrocalamus asper*: **14,79 kg/m³** com solução a 5% e **21,79 kg/m³** com solução a
+8% — acima das recomendações americana (2,7 kg/m³) e indiana (5 kg/m³) para uso interno
+[16].
 
-### Os três erros que este acervo cometeu e corrigiu
+**E o limite do boro.** Ele é **hidrossolúvel**: sai do colmo em contato com água. Por
+isso o bambu tratado só serve **sob cobertura**, e por isso o desenho arquitetônico
+importa tanto quanto a química. A tabela abaixo é a mais dura do assunto [13]:
 
-Registro isso porque um texto didático que só mostra acertos é propaganda. Durante a
-construção deste material, auditorias encontraram erros reais:
+| Situação | Sem tratamento | Com boro |
+|---|---|---|
+| **interno** | 2–6 anos | **30+ anos** |
+| **externo, acima do solo** | 0,5–4 anos | **2–15 anos** |
+| **externo, em contato com o solo** | menos de 0,5 ano | **menos de 1 ano** |
 
-- **Transcrição de tabela com colunas deslocadas** — um número foi lido na coluna
-  errada e virou conclusão de "82,4% de perda". O número era de outra grandeza.
-- **Resumo do artigo em vez da tabela** — copiei do resumo de uma pesquisa a frase
-  "não apresentou degradação biológica", quando a tabela do mesmo artigo registrava
-  ataque leve numa das concentrações testadas. **O resumo arredonda; a tabela mede.**
-- **Generalização além da fonte** — escrevi que o método era de "escala artesanal",
-  quando o artigo descreve substituição de seiva conforme norma técnica, com retenção
-  calculada. Era impressão minha, não achado do autor.
+A última linha é a que importa: **boro não resolve contato com solo.** É por isso que a
+Green School apoia os colmos em pedra de rio, longe do chão.
 
-Cada um desses foi encontrado por auditoria independente e corrigido. **É assim que
-deve funcionar** — e é uma boa razão para desconfiar de qualquer texto sobre este tema
-que não tenha passado por verificação.
+## 11. A manutenção: o que a Green School faz de fato
+
+Um edifício de bambu não é "construído e esquecido". Ele é **projetado para ser
+mantido**. O relatório de avaliação da Green School, de 2010, registra os ciclos em
+anos [17]:
+
+| Componente | Ciclo declarado |
+|---|---|
+| **telhado de alang-alang** (palha local) | **6 a 10 anos** |
+| **bambu estrutural** | **20 anos**, por estimativa conservadora |
+
+E o tratamento inicial é um **banho de composto orgânico de borax com imersão de 4 a 6
+semanas** [17].
+
+**O que o documento diz sobre manutenção:** *"os exames visuais realizados por
+engenheiros estruturais, revisando as juntas estruturais principais em todo o campus,
+garantirão uma abordagem proativa de manutenção"* [17]. Não há periodicidade declarada
+para essa vistoria.
+
+**O que o construtor diz.** O FAQ do IBUKU é ainda mais específico [18]:
+
+- o bambu **"deve ser tratado uma única vez, antes do início da construção;
+  tratamentos adicionais contra insetos não são necessários"**;
+- o telhado precisa ser mantido para proteger as colunas;
+- **"a revisão de juntas a cada poucos anos"** confirma que permanecem seguras;
+- **"recobrir o bambu estrutural e de interior a cada 2 a 4 anos"** melhora aparência e
+  durabilidade;
+- **"a manutenção de longo prazo é principalmente cosmética"**.
+
+**A conclusão que os dois documentos sustentam:** a manutenção da Green School é de
+**reposição e recobrimento**, não de reaplicação de boro.
+
+**O verniz do Arc.** A estrutura mais recente, o Arc (2021), exige recobrimento de
+verniz protetor contra radiação ultravioleta **a cada 2 anos, por toda a vida da
+obra** [15].
+
+## 12. O resíduo: onde o boro muda de natureza
+
+Até aqui o boro foi solução. Esta seção é sobre o que ele se torna depois.
+
+**O estudo que mudou a leitura deste artigo.** Quatro pesquisadores da UNESP de
+Sorocaba, do IFSP e da UNESP assinaram, em 2025, uma avaliação de ciclo de vida da
+produção artesanal de colmo de *Guadua angustifolia* no Acre [19]. Eles concluíram, em
+revista com revisão por pares, que **a toxicidade carcinogênica humana (HCT)
+representou 93% do impacto potencial** daquela cadeia.
+
+**Não é boato, e não deve ser tratado como boato.** Um número que circula sem
+procedência é uma coisa; um número publicado por quatro cientistas, com método
+declarado, inventário e tabela, é outra. Este artigo é sobre o que as fontes dizem — e
+esta fonte diz isso.
+
+
+**Por que eles usaram esse termo, e o que ele quer dizer.** A chave está no método.
+Eles aplicaram o **ReCiPe 2016 Midpoint (h)**, rodado no SimaPro 9.1 com a base
+Ecoinvent 3 [19]. Nessa metodologia, **"HCT" não é um diagnóstico** — é o nome de uma
+das 18 categorias de impacto do modelo.
+
+O ReCiPe calcula, para cada emissão de cada etapa, um valor em **"ponto de impacto de
+toxicidade ocupacional e ambiental"**, medido em uma unidade própria — o **ponto**
+(ou miliponto, quando normalizado). Esse valor é obtido multiplicando a massa
+liberada por um **fator de destino, exposição e efeito**: quanto da substância chega
+ao ar, à água e ao solo; quanto disso as pessoas respiram ou ingerem; e qual o efeito
+na saúde humana estimado por quilo.
+
+**Depois, os autores normalizaram.** A normalização do ReCiPe expressa cada categoria
+como fração do impacto total de referência de uma população — daí os resultados
+aparecerem em milipontos [19]. **É essa normalização que transforma "HCT é a categoria
+maior" em "93%"** — 93% do total normalizado entre as sete categorias que eles
+selecionaram, não 93% de probabilidade de câncer.
+
+**O que o número afirma, em tradução direta.** Afirma que, entre as sete categorias
+avaliadas, a liberação de substâncias com modelagem de toxicidade carcinogênica foi a
+que mais contribuiu em milipontos. E afirma, com ainda mais precisão, **de onde vem
+essa contribuição**: os autores atribuem o resultado ao **uso de ácido bórico e bórax**
+no tratamento, e à presença desses compostos **nas aparas, nos cortes, nos colmos
+descartados e no efluente** [19]. **E as aparas, os cortes e os colmos descartados responderam por 91% do impacto total
+da cadeia** — soma de todas as categorias, não 91% do HCT.
+
+
+**Onde o estudo foi feito, e por que isso limita a extrapolação.** A unidade estudada
+é **uma** unidade produtiva artesanal, em **Rio Branco, Acre** [19]. Não é o Sudeste,
+não é o Sul, não é uma fábrica com controle de efluente.
+
+Isso não desqualifica o achado — **qualifica o alcance dele**. O que o estudo sustenta:
+
+- naquele processo artesanal, naquele estado, naquele ano, **o resíduo contaminado foi
+  o maior contribuinte** de impacto potencial;
+- a cadeia artesanal **perde 25% da matéria-prima** no tratamento;
+- a receita usada é **100 L de água + 5 kg de bórax + 5 kg de ácido bórico** [19].
+
+O que o estudo **não** sustenta:
+
+- que o mesmo vale para uma fábrica do Sudeste com autoclave e tratamento de efluente;
+- que 93% seja o número de outra cadeia qualquer;
+- que substituir o insumo elimine 93% do impacto.
+
+**E a concessão ao Sudeste não se sustenta.** Este artigo chegou a escrever que, no
+Sudeste e no Sul, a escala industrial mudaria o resultado. **Não há prova disso.** Não
+localizei registro de cadeia brasileira com tratamento de efluente no bambu. O que
+existe, nas fontes examinadas, é **produção artesanal** — no Acre e, ao que tudo indica,
+também nas outras regiões. O estudo do Acre não é a exceção: **é o que se tem medido.**
+
+Isso não autoriza dizer que vale para o Brasil inteiro — só que **a diferença de escala
+foi afirmada sem fonte**, e retirar a afirmação é o honesto.
+
+**O que fica de pé, e é o achado central:** o estudo mostra, com método e número, que
+**o problema do boro no bambu mora no resíduo, não na tina**. É a mesma conclusão a que
+chega a leitura normativa — só que agora com medição.
+
+## 13. As estruturas efêmeras
+
+Feiras, pavilhões, quiosques, cenografia, andaimes, casas temporárias. São estruturas
+feitas para durar **poucos anos** e depois desmontadas.
+
+Aqui o problema do boro fica mais agudo, por uma razão simples: **estrutura efêmera não
+é falha de projeto — é projeto.** O material foi escolhido para ser desmontado, e o que
+acontece ao desmontar não costuma estar no orçamento.
+
+**O maior fluxo documentado do mundo** é o andaime de bambu de Hong Kong: **mais de
+50.000 toneladas por ano** descartadas como resíduo de construção [22]. *(Atenção: esse
+número vem de artigo em paywall e não está custodiado nesta gaveta — serve como ordem de
+grandeza, não como dado verificado.)*
+
+**E aqui está a torção.** Fui verificar se esse bambu é tratado. **Não é.** As
+diretrizes do Buildings Department exigem apenas **secagem ao ar, na vertical, em
+ambiente coberto, por ao menos 3 meses** [23]. Nas 25 páginas da norma, as palavras
+*boro*, *borato*, *preservativo*, *químico* e *tratamento* aparecem **zero vezes** [23].
+
+**A consequência é o argumento inteiro:**
+
+- o maior fluxo de bambu efêmero do planeta é de material **não tratado**;
+- logo, **é biodegradável** e tem cadeia de aproveitamento — há indústria de carvão
+  ativado feita com esse resíduo [22];
+- **o boro cria um fluxo que perde essa saída.**
+
+O material tratado não volta ao solo sem discussão, não serve para aproveitamento sem
+restrição, e a queima é desaconselhada pelas fichas de segurança — ainda que a fonte
+registre que **há divergência** sobre o risco real dessa queima [13]. Divergência é pior
+que proibição: ninguém decide, e cada um faz o que pode.
+
+**O que falta no Brasil.** Nenhum dado localizado quantifica o bambu tratado descartado
+no país. Nenhuma norma brasileira foi encontrada que trate o bambu tratado como fluxo
+próprio de resíduo. Isso é lacuna declarada, não afirmação de inexistência.
+
+## 14. O uso doméstico: onde este artigo vira advertência
+
+Existe uma receita que circula para tratar bambu em casa: comprar ácido bórico e bórax,
+misturar em água, deixar os colmos de molho alguns dias, secar ao sol.
+
+**O que a norma brasileira permite.** Água boricada a 3%, como antisséptico tópico, em
+adultos, longe de feridas extensas, sem ingestão [6].
+
+**O que ela não cobre:** banho de preservação, imersão de colmos, descarte do efluente.
+Não existe autorização sanitária para o uso doméstico de boro como preservativo de
+madeira ou bambu.
+
+**Os quatro problemas concretos:**
+
+**1. A dose não é regulada.** A solução de tratamento é a **10%** [19] — dez vezes a
+concentração da água boricada de farmácia [6]. Não há bula, não há frasco medidor, não
+há instrução.
+
+**2. A exposição não é medida.** Nenhuma fonte localizada mede a exposição de quem faz
+o tratamento. Não há dado de pele, de inalação de pó, de respingos. **Isso é lacuna, não
+ausência de risco.**
+
+**3. O resíduo não tem destino.** O efluente do banho, as aparas e a serragem do bambu
+tratado não têm rota definida pela norma brasileira [11]. Na prática, vão para onde é
+mais fácil.
+
+**4. A queima é a saída provável — e é justamente a que as fichas desaconselham.**
+Queimar aparas é o hábito; as fichas técnicas dizem que madeira tratada com boro não
+deve ser queimada, embora haja divergência sobre o risco [13].
+
+**E o público mais exposto.** O NIH registra que a **maioria dos casos de ingestão
+acidental é em crianças menores de 6 anos** [8]. A ANVISA proíbe o uso pediátrico
+justamente por isso [6]. Um galpão doméstico com pó branco em saco aberto é o cenário
+que as duas normas tentam evitar.
+
+**O que fazer em vez disso.** Se você quer tratar bambu, a decisão honesta é entre:
+contratar tratamento em instalação com controle, ou **não tratar** e aceitar vida útil
+curta — 2 a 6 anos no interno, menos que isso no externo [13]. O meio-termo doméstico é
+o pior dos dois mundos: paga o custo do veneno e não colhe a garantia.
+
+## 15. Como ler qualquer texto sobre boro
+
+Se você chegou até aqui, já pode checar sozinho. Cinco perguntas resolvem quase tudo:
+
+**1. "Isso é boro ou é produto?"** Se o número é em gramas ou mg/L e não diz a forma
+química, desconfie. 17,5% é a diferença entre 10 g de ácido bórico e 1,75 g de boro
+[10].
+
+**2. "Isso é dose ou é concentração?"** mg/kg/dia é dose por peso corporal; mg/L é
+concentração em líquido. Comparar um com o outro é erro de unidade, e é comum.
+
+**3. "Qual é a via?"** Inalação, ingestão e pele absorvem de forma diferente e têm
+limites diferentes. Um limite ocupacional de poeira não serve para água.
+
+**4. "É medida ou calculada?"** Os 93% do ciclo de vida são **indicador calculado**, não
+incidência [19]. É a confusão mais frequente do assunto.
+
+**5. "Reprodutivo ou cancerígeno?"** O boro é **Repr. 1B**, não **Carc.** [9]. São
+categorias distintas e quem mistura as duas está errado nos dois sentidos.
+
+## 16. Resumo em vinte linhas
+
+- O boro é o **elemento de número atômico 5**, massa **10,811**. O que se compra é
+  composto: ácido bórico tem **17,5%** de boro, bórax decahidratado **11,3%** [10].
+- **Não é nutriente essencial para humanos** [8]. É essencial para plantas [8].
+- O efeito crítico é a **toxicidade para o desenvolvimento** — peso fetal reduzido em
+  animais [1][7].
+- A diretriz da água é **2,4 mg/L**, derivada de BMDL₀₅ **10,3 mg/kg/dia** com fator
+  **60** (10 × 1,8 × 3,2) e alocação de **40%** [1]. **Não é teto invariável** [1].
+- Limite superior de **20 mg/dia** para adultos [8].
+- A União Europeia classifica o boro como **Repr. 1B, H360FD** — reprodutivo, **não
+  cancerígeno** [9].
+- O Brasil importou **459,7 mil toneladas** em 2024, **US$ 209,5 milhões**; **84,9%** da
+  América do Sul (Bolívia 43,7%, Argentina 25,4%, Chile 14,7%) e **8,3%** da Turquia [4].
+- O boro trata bambu porque **torna o amido inaproveitável**, não porque mata inseto.
+- **Boro não resolve contato com solo**: menos de 1 ano de vida útil [13].
+- A manutenção da Green School é de **reposição e recobrimento**, não de reaplicação de
+  boro [17][18].
+- No ciclo de vida, **91% do impacto total da cadeia vem das aparas, dos cortes e dos
+  colmos descartados**, não do banho [19].
+- **O boro não está na lista de resíduo perigoso** de nenhuma norma examinada — porque
+  **não foi avaliado**, não porque foi julgado seguro [11][20][21].
+- O maior fluxo efêmero do mundo, **50 mil t/ano** em Hong Kong, é de bambu **não
+  tratado** [28][29].
+- O uso doméstico não tem base normativa e é o pior cenário de exposição [6][8].
+
+## 17. O que este artigo não sabe
+
+Declarar lacunas é parte do método. Estas são reais:
+
+- **Exposição ocupacional no Brasil.** Nenhuma fonte mede trabalhador de bambu tratado.
+- **Poeira e serragem de bambu tratado.** Zero dados no acervo.
+- **Destino real das aparas no Brasil.** Não há rastreamento documentado.
+- **Volume de bambu tratado descartado.** Nenhum dos cinco países examinados tem número
+  — nem o Brasil.
+- **A ligação direta entre Linda Garland e Walter Liese** não foi confirmada em fonte
+  primária nesta rodada.
+- **Quanta exposição um trabalhador de fábrica de bambu recebe** — nenhuma medição
+  localizada.
 
 ---
 
-## 13. Resumo em vinte linhas
 
-Se você só levar isto, leve isto:
+## 18. O limbo: duas políticas, nenhuma norma
 
-1. O boro é o elemento químico de **5 prótons**, o quinto mais leve.
-2. Não se usa boro puro: usa-se em compostos, e **o teor de boro muda muito** entre
-   eles — 17,5% no ácido bórico, 11,3% no bórax.
-3. Sua origem é a **colisão de partículas no espaço**, não a fusão em estrelas — as
-   estrelas, na verdade, o destroem.
-4. As reservas concentram-se em **três faixas** (Mojave, Alpide, Andino), com a
-   **Turquia** detendo a maior parte das reservas listadas.
-5. O consumo mundial é sobretudo **vidro, cerâmica, detergente e fertilizante** — não
-   foguete.
-6. O boro **não é nutriente essencial reconhecido** para humanos.
-7. O efeito crítico é **toxicidade para o desenvolvimento**, não câncer.
-8. Por isso a Europa classifica o ácido bórico como **tóxico para a reprodução**.
-9. Os limites são três e **medem coisas diferentes**: 2,4 mg/L na água, 10 mg/dia em
-   medicamento, 20 mg/dia em suplemento.
-10. No bambu, o boro funciona porque é **solúvel** — e a mesma solubilidade que o faz
-    entrar é a que o faz **sair** sob umidade.
-11. Esse processo de saída chama-se **lixiviação**.
-12. Uma avaliação de ciclo de vida no Acre achou **93%** de impacto potencial na
-    categoria carcinogênica — **indicador calculado, não incidência de câncer**.
-13. O mesmo estudo achou **91%** do impacto nos **resíduos**, não no banho.
-14. **25%** da matéria-prima se perde; **~13%** dos colmos são descartados **já
-    impregnados**; **~10%** da água vai para o solo.
-15. **Serragem tratada é indistinguível de serragem limpa** — e o uso doméstico típico
-    a espalha no ambiente.
-16. **Não existe medição** de exposição de trabalhador nem de poeira nessa cadeia.
-17. Uso doméstico sem **máscara, luva, ventilação e descarte correto** é uso
-    indiscriminado — e é o que este material se propõe a refutar.
-18. **"Natural" não significa "seguro"**; "não é cancerígeno" não significa "é seguro".
-19. A regra de ouro ao ler qualquer número: **pergunte em que base ele está**.
-20. E a regra de ouro ao ler qualquer conclusão: **distinga o que foi medido, o que foi
-    interpretado e o que é desconhecido**.
+Esta é a parte mais desconfortável do artigo, e a única em que a conclusão não vem de
+uma fonte científica — vem da **ausência de fonte normativa**. Trate como pergunta
+aberta, não como acusação provada.
+
+**Primeiro, o que as fontes desta gaveta mostram.** A cadeia documentada no Brasil é
+**artesanal**. Isso é mais fraco do que dizer que *toda* a produção nacional é artesanal —
+esta gaveta não varreu o país. O que se pode afirmar: **não localizei registro de cadeia
+industrial brasileira com tratamento de efluente**. Quando este artigo comparou o Acre ao Sudeste e ao Sul, fez uma
+concessão que não se sustenta: **não há prova de que exista, aqui, a escala industrial
+que se imagina**.
+
+E isso muda o argumento. **Se** o padrão documentado é artesanal, o estudo do Acre [19]
+deixa de ser caso periférico — passa a ser **o único caso medido**, com três ressalvas:
+uma unidade, um município, um ano. "Único medido" não é "típico": é o que existe.
+
+
+
+### Duas leis, duas datas, e o mesmo vazio
+
+**Lei 12.305/2010 — Política Nacional de Resíduos Sólidos.** É a lei-quadro. E a
+definição dela é ampla de propósito:
+
+> *"resíduos sólidos: material, substância, objeto ou bem descartado resultante de
+> atividades humanas em sociedade, (...) nos estados sólido ou semissólido, bem como
+> gases contidos em recipientes e **líquidos cujas particularidades tornem inviável o seu
+> lançamento na rede pública de esgotos ou em corpos d'água**"* [28]
+
+**O banho de tratamento pode ser resíduo sólido pela definição legal**, ainda que seja
+líquido — mas **sob condição**: a definição só alcança líquidos cujo lançamento em rede
+ou corpo d'água seja inviável, ou que exijam soluções técnica ou economicamente
+inviáveis. **Onde há rede e o efluente é compatível, a lei não o alcança por essa via.**
+A condição está no próprio texto do art. 3º, XVI [28].
+
+**Mas procure "bambu" na PNRS: zero ocorrências. "Madeira": zero.** A lei que rege
+resíduo no Brasil **não nomeia o material**.
+
+**Lei 12.484/2011 — Política Nacional de Incentivo ao Manejo Sustentado e ao Cultivo do
+Bambu.** Seis artigos. Ela dá **crédito rural**, **assistência técnica**,
+**certificação de origem**, e manda os órgãos "incentivar o intercâmbio com instituições
+congêneres" [29].
+
+**Procure "tratamento": zero. "Químico": zero. "Resíduo": zero. "Licença": zero.
+"Fiscalização": zero.** A política do bambu **incentiva a produção e não disciplina o
+que acontece com o resíduo**.
+
+
+
+### Quem fiscaliza? A pergunta sem dono
+
+A PNRS distribui competência por **sistemas**, não por material: **Sisnama** (meio
+ambiente), **SNVS** (vigilância sanitária), **Suasa** (sanidade agropecuária) e
+**Sinmetro** (metrologia) [28]. Trinta e duas menções ao Sisnama, vinte e uma ao SNVS —
+e nenhuma delas trata de bambu tratado.
+
+**Na prática:** quem trata bambu com boro na própria casa ou na cooperativa **não
+descumpre uma norma específica sobre bambu** — porque essa norma não existe. Se também
+**cumpre** as obrigações gerais de resíduo (acondicionamento, destinação adequada,
+eventual Plano de Gerenciamento) **é outra pergunta, e esta gaveta não a mediu.** O que
+as fontes mostram é ausência de disciplina específica, não ausência de obrigação geral.
+
+**E há um problema de fronteira que ninguém resolveu:**
+
+- **ANVISA** regula a água boricada a 3% como antisséptico [6] — o produto, não o resíduo;
+- **MAPA** responde por insumo agrícola;
+- **ICMBio** responde por unidade de conservação — e **é aí que está o risco real**;
+- o **município** responde pelo resíduo domiciliar [28], mas não tem como caracterizar
+  apara de bambu como perigosa, porque a NBR 10004 não a lista [14].
+
+
+
+### O que essa combinação produz
+
+**Boro não é listado como resíduo perigoso** [14] e não é nomeado por nenhuma das duas
+políticas. Isso significa, na prática, que **apara de bambu tratado pode seguir o fluxo
+do resíduo domiciliar comum** — ou o quintal, ou a queima, ou o córrego.
+
+**E "não listado" não é "inofensivo".** É **não avaliado**. A diferença é a mesma que
+separa absolvição de arquivamento.
+
+### A rota que ninguém mediu: o subsolo e a cisterna
+
+Este é o ponto em que o artigo precisa ser mais cuidadoso, porque é o de maior
+consequência social.
+
+**O que a fonte diz:** o boro no ambiente aquático tem no **adsorção-dessorção** o único
+mecanismo significativo que influencia seu destino; a adsorção depende do **pH e da
+composição do solo**; é maior entre **pH 7,5 e 9,0**; e a propriedade do solo que mais
+influencia a **mobilidade** do boro é a **abundância de óxido de alumínio amorfo** [30].
+
+**Traduzindo:** **solo rico em óxido de alumínio retém boro. Solo arenoso, ácido e pobre
+em alumínio amorfo deixa passar.** Em solos assim, o boro **lixivia** e caminha para o
+lençol.
+
+**O que isso significa para quem bebe água de cisterna:** a cisterna capta chuva, não
+lençol — então **a exposição direta não é óbvia**. O risco plausível é **outro**: apara
+em decomposição no quintal, água da chuva lavando essa apara, e **infiltração no solo
+sob a área de descarte**.
+
+**E aqui o artigo precisa admitir:** **não há medição.** Não localizei nenhum estudo
+brasileiro de lixiviação de boro sob área de descarte de bambu tratado, nem de boro em
+água de cisterna em comunidade produtora. A rota é **plausível pelo mecanismo** e
+**não demonstrada em campo**. Quem afirmar que contamina está extrapolando; quem
+afirmar que é seguro está extrapolando igual, e com mais consequência.
+
+
+
+### A banalização do risco
+
+O boro tem uma propriedade perigosa para a percepção pública: **ele não arde, não
+fede, não queima a pele na hora, e é vendido na farmácia** [6].
+
+**Mas eu escrevi uma frase falsa aqui, e ela precisa ser corrigida.** Eu havia
+sugerido que, se fosse cromo ou arsênio, ninguém espalharia a apara no quintal. **Não é
+verdade.** No caso do CCA e do CCB existe, sim, norma brasileira — a Embrapa instrui o
+tratamento de moirão na propriedade rural com tonel, EPI e **proibição explícita de
+descarte no ambiente, repetida duas vezes** [31]. E o que acontece na prática é o que o
+soberano relata: **resíduo largado em área pública e queimado**, com casos de intoxicação
+por fumaça de eucalipto tratado em fogão a lenha.
+
+**A lição não é que o boro é pior que o cromo. É a inversa:** a norma existir não impede
+o descarte irregular. O boro está na posição **pior**, porque nele nem a norma existe —
+mas o cromo mostra que ter norma é condição necessária, não suficiente. **Quem trata bambu
+com boro não tem nem a instrução que o dono de moirão tem.**
+
+**O que a evidência sustenta, com precisão:**
+
+- o resíduo contaminado é o **maior contribuinte de impacto potencial** na cadeia
+  medida [19];
+- a exposição ocupacional e a poeira têm limites ocupacionais, e o boro tem
+  **classificação Repr. 1B** — pode prejudicar fertilidade e feto [7];
+- **não é cancerígeno classificado** — e o "93%" não muda isso.
+
+**O que a evidência não sustenta:** que a apara no quintal produza doença. Não há esse
+dado.
+
+### A pergunta que fica para quem regula
+
+Este artigo não tem autoridade para dizer quem deveria fiscalizar. Tem autoridade para
+registrar o que a ausência produz:
+
+1. **É uma cadeia em crescimento** — e a política do bambu existe justamente para
+   estimulá-la [29];
+2. **O estímulo não vem acompanhado de disciplina de resíduo**, porque a norma do bambu
+   não trata do assunto e a norma de resíduo não nomeia o bambu;
+3. **O uso é comunitário e cooperativo** — é o que a própria política incentiva (art.
+   5º, III) [29] — e é o formato em que **controle de efluente é menos provável**: a lei
+   dirige o incentivo a unidades familiares sem exigir plano de gerenciamento. *Que não
+   exista na prática é inferência desta curadoria, não medição.*
+4. **e as áreas de maior atrativo estão em território sensível.**
+
+**Onde isso deixa de ser artigo e passa a ser política pública:** quando cooperativas em
+comunidades remotas — inclusive em áreas de proteção — adotam o tratamento com boro e
+com sulfato de cobre sem saber o que fazer com a apara. **O boro e o cobre chegam ao
+território; a norma não.**
+
+**O que este artigo pede, e é uma pergunta, não uma tese:** que os órgãos com competência
+— **sejam eles ANVISA, MAPA, ICMBio, Ibama ou o município** — digam **qual é o caminho
+prescrito** para a apara de bambu tratado. Enquanto ninguém responder, a resposta
+prática é dada por quem descarta, no quintal.
+
+
+## Glossário
+
+As unidades vêm primeiro, porque é nelas que mora a maior parte das confusões.
+
+### Unidades de quantidade
+
+**mg** — miligrama. Um milésimo de grama. Um grão de sal pesa cerca de 0,3 mg.
+
+**g** — grama.
+
+**kg** — quilograma. Mil gramas.
+
+**t** — tonelada. Mil quilogramas.
+
+**mil toneladas** — mil vezes uma tonelada, ou seja, um milhão de quilogramas. Usada
+para produção e reservas de minério. *Abreviada "kt" em relatórios técnicos, mas neste
+artigo está sempre escrita por extenso.*
+
+**milhão de toneladas** — um bilhão de quilogramas. É a escala das reservas mundiais.
+
+**L** — litro. Medida de volume de líquido.
+
+**mL** — mililitro. Um milésimo de litro.
+
+**m³** — metro cúbico. Mil litros. Usado para volume de madeira e para concentração
+de poeira no ar.
+
+**mg/L** — miligrama por litro. Concentração em líquido: quanto de substância há em
+cada litro. É a unidade da água de consumo.
+
+**µg/L** — micrograma por litro. Um milésimo do miligrama por litro. Aparece em
+medições muito pequenas.
+
+**mg/kg/dia** — miligrama por quilo de peso corporal por dia. **Dose**, não
+concentração: quem pesa 70 kg e recebe 0,17 mg/kg/dia ingere 11,9 mg no dia. Não se
+compara com mg/L — é erro de unidade comum.
+
+**mg/m³** — miligrama por metro cúbico. Concentração no ar. É a unidade dos limites de
+poeira ocupacional.
+
+**mg B/m³ e mg B/kg** — o "B" significa que o valor é medido em **boro elementar**, não
+no composto inteiro. Como o ácido bórico tem só 17,5% de boro, 1 mg do composto contém
+0,175 mg de boro.
+
+**g/mol** — grama por mol. Unidade de massa atômica e molecular.
+
+**% em massa** — porcentagem do peso total. Dizer que o ácido bórico tem 17,5% de boro
+significa que, em cada 100 g de pó, 17,5 g são boro.
+
+**Anidro** — sem água na estrutura do cristal. O bórax anidro rende quase o dobro de boro
+do decahidratado, com o mesmo peso.
+
+**Antisséptico** — produto que impede a multiplicação de microrganismos numa superfície
+viva. Diferente de desinfetante, que atua em superfície inanimada.
+
+**Bacteriostático** — que impede a bactéria de se multiplicar sem necessariamente
+matá-la. **Fungistático**, o mesmo para fungos.
+
+**BMDL₀₅** — a menor dose associada a um aumento de 5% em efeito adverso, dentro do
+intervalo de confiança estatística. É o ponto de partida de quase toda régua toxicológica
+moderna.
+
+**Bórax** — sal de sódio do boro (tetraborato de dissódio). Tem **11,3%** de boro na
+forma decahidratada.
+
+**Carc. / Repr.** — categorias distintas do sistema europeu de classificação. **Carc.** é
+cancerígeno; **Repr.** é tóxico para a reprodução. O boro é Repr., não Carc.
+
+**CAS** — número de registro único de cada substância química. O do ácido bórico é
+10043-35-3.
+
+**CLP** — sistema europeu de classificação, rotulagem e embalagem de produtos químicos.
+
+**Colemanita** — mineral de boro (~15,8% de boro). Cerca de 70% dos depósitos turcos são
+deste mineral, usado sobretudo em vidro resistente ao calor.
+
+**Colmo** — o caule do bambu. Oco entre os nós, é a parte usada na construção.
+
+**HCT** — *Human Carcinogenic Toxicity*, toxicidade carcinogênica humana. **Categoria
+de impacto de um modelo de ciclo de vida**, não diagnóstico médico. Expressa, em
+milipontos, a contribuição modelada de emissões com efeito cancerígeno estimado.
+
+**ReCiPe** — método de avaliação de impacto de ciclo de vida, em versão *midpoint*
+(ponto intermediário) ou *endpoint* (dano final). O usado no estudo [19] é o
+**ReCiPe 2016 Midpoint (h)**, com 18 categorias.
+
+**miliponto (mPt)** — unidade de impacto normalizado. Um ponto é o impacto de
+referência de uma população por um período; o miliponto é um milésimo disso. **Não é
+massa, não é dose e não é risco clínico.**
+
+**normalização** — etapa em que cada categoria de impacto é dividida pelo impacto de
+referência, para que categorias diferentes fiquem comparáveis. É dessa etapa que sai um
+número como "93% do total".
+
+**ACV** — avaliação de ciclo de vida. Metodologia normalizada (ISO 14040/14044) que
+contabiliza entradas e saídas de um produto desde a extração até o descarte.
+
+**CPCB** — Central Pollution Control Board, órgão indiano de controle de poluição.
+
+**Efluente** — líquido que sai de um processo e precisa de destino. O efluente do banho
+de boro é o resíduo líquido do tratamento.
+
+**Filração glomerular** — velocidade com que o rim filtra o sangue. Varia entre espécies,
+e é por isso que entra no fator de incerteza.
+
+**Fundente** — substância que baixa a temperatura de fusão de outro material. O bórax é
+fundente do vidro.
+
+**Ganga** — material sem valor econômico que acompanha o minério.
+
+**H360FD** — advertência de perigo do CLP. Desdobra-se em H360F ("pode prejudicar a
+fertilidade") e H360D ("pode prejudicar o feto").
+
+**Hidrossolúvel** — que se dissolve em água. É a propriedade que limita o boro: em contato
+com chuva ou solo, ele sai do colmo.
+
+**Lignina** — polímero que dá rigidez à parede celular vegetal. No bambu, convive com a
+celulose.
+
+**Massa atômica** — quanto um átomo pesa em relação a um padrão. Para o boro, **10,811**.
+
+**MRL** — *Minimal Risk Level*, nível mínimo de risco. Régua de triagem de saúde pública
+do ATSDR; **não** é limite regulatório.
+
+**NBR 10004** — norma brasileira que classifica resíduos sólidos. Classe I é perigoso;
+Classe II-A, não inerte; Classe II-B, inerte.
+
+**NOAEL** — maior dose em que não se observou efeito adverso. O par do LOAEL, menor dose
+com efeito observado.
+
+**PDE** — *Permitted Daily Exposure*, exposição diária permitida. Usada pela EMA para
+excipientes farmacêuticos.
+
+**pH** — escala de 0 a 14 que mede acidez. A água boricada de farmácia fica entre 3,8 e
+4,8 — ácida.
+
+**Repr. 1B** — categoria de toxicidade reprodutiva: presunção forte, baseada sobretudo em
+dados de animais.
+
+**TDI** — *Tolerable Daily Intake*, ingestão diária tolerável. A da OMS para boro é
+**0,17 mg/kg/dia**.
+
+**TLV / REL / PEL** — limites de exposição ocupacional. TLV é da ACGIH (referência
+técnica); REL, do NIOSH (recomendação); PEL, da OSHA (obrigação legal americana).
+
+**Toxidez reprodutiva** — capacidade de prejudicar a fertilidade ou o desenvolvimento do
+feto. Não é sinônimo de cancerígeno.
+
+**Ulexita** — mineral de boro (~13,3%). Predomina no Chile, Peru e Bolívia.
+
+### Siglas de instituições e de sistemas
+
+**USGS** — *United States Geological Survey*, o serviço geológico dos Estados Unidos.
+Publica anualmente as reservas e a produção mineral do mundo.
+
+**ATSDR** — *Agency for Toxic Substances and Disease Registry*, agência americana de
+saúde pública que produz os perfis toxicológicos.
+
+**NIOSH** — *National Institute for Occupational Safety and Health*, instituto
+americano de saúde do trabalhador. Fixa limites de exposição recomendados.
+
+**EMA** — *European Medicines Agency*, agência europeia de medicamentos.
+
+**NIH** — *National Institutes of Health*, institutos nacionais de saúde dos Estados
+Unidos. A sigla aparece aqui pelo escritório de suplementos dietéticos (ODS).
+
+**ANVISA** — Agência Nacional de Vigilância Sanitária, a agência brasileira de
+medicamentos e sanitários.
+
+**INBAR** — *International Bamboo and Rattan Organisation*, organização
+intergovernamental do bambu e do rotim.
+
+**CPCB** — *Central Pollution Control Board*, órgão indiano de controle de poluição.
+
+**USDA** — Departamento de Agricultura dos Estados Unidos.
+
+**HSE / EPA** — agências de saúde e de meio ambiente, respectivamente britânica
+(*Health and Safety Executive*) e australiana americana (*Environmental Protection
+Authority*).
+
+**NCM** — Nomenclatura Comum do Mercosul. O código de oito dígitos que classifica cada
+produto importado ou exportado no Brasil.
+
+**CCA** — arseniato de cobre cromatado. Preservante de madeira com **cromo e arsênio**,
+classificado como resíduo perigoso.
+
+**CCB** — cromo, cobre e boro. Preservante de madeira que contém os três.
+
+**ACQ** — *alkaline copper quaternary*, preservante de cobre sem cromo nem arsênio.
+
+**PCP** — pentaclorofenol. Preservante proibido no Brasil.
+
+**HCT** — toxicidade humana, categoria de impacto em avaliação de ciclo de vida.
+
+**WEL** — *Workplace Exposure Limit*, limite de exposição no trabalho (Reino Unido).
+
+**UL** — *Tolerable Upper Intake Level*, limite superior de ingestão. Para boro em
+adultos, **20 mg/dia**.
+
+**Vida útil** — tempo até o material precisar ser substituído, em condições de uso
+declaradas. Depende de tratamento, desenho e exposição.
 
 ---
 
-## Glossário — para voltar quando esquecer um termo
+## Bibliografia consultada
 
-Termos em ordem alfabética. Todos aparecem explicados no corpo do texto; este é o
-lugar de consulta.
+Cada obra citada neste artigo tem ficha técnica própria com avaliação crítica e limites
+declarados. **Uma exceção declarada:** a entrada [22] não está custodiada — o artigo está
+em paywall — e serve apenas como ordem de grandeza, não como dado verificado. As demais
+estão custodiadas no acervo, com hash verificável.
 
-**Ácido bórico** — composto de boro, hidrogênio e oxigênio. Contém **17,5%** de boro.
-É o que se vende em pó na farmácia e o que se usa no tratamento de bambu.
+**[1]** ORGANIZAÇÃO MUNDIAL DA SAÚDE. *Boron in drinking-water: background document for
+development of WHO Guidelines for Drinking-water Quality*. Genebra: WHO, 2009.
+(WHO/HSE/WSH/09.01/2). — *Cadeia BMDL₀₅ 10,3 → TDI 0,17 → alocação 40% → 2,4 mg/L;
+decomposição do fator 60 em 1,8 × 3,2; ressalva de valor acima de 2,4 mg/L para
+dessalinização e níveis naturais altos; NOAEL 87 mg/kg em ratos Sprague-Dawley machos
+adultos, duas doses no mesmo dia, 14 dias.*
 
-**Anidro** — "sem água". Sais que normalmente carregam água dentro do cristal, quando
-seca, ficam mais concentrados: o bórax anidro tem 21,5% de boro, contra 11,3% do
-bórax comum.
+**[2]** ORGANIZAÇÃO MUNDIAL DA SAÚDE. *Guidelines for Drinking-water Quality*. 4. ed.
+Genebra: WHO, 2022. — *Diretriz de 2,4 mg/L; ocorrência abaixo de 0,5 mg/L para a maior
+parte do mundo; três usos nomeados (vidro, sabões e detergentes, retardantes de chama);
+descargas de águas residuais como fonte; ocorrências altas atribuídas a depósitos ricos em
+boro.*
 
-**Antisséptico** — substância que combate micróbios em tecido vivo (pele, ferida). É
-diferente de desinfetante, que age sobre objetos.
+**[3]** U.S. GEOLOGICAL SURVEY. *Mineral Commodity Summaries 2026 — Boron*. Reston:
+USGS, 2026. — *Produção e reservas por país; quatro minerais = 90%; mais de três quartos
+do consumo em cerâmica, detergentes, fertilizantes e vidro; Mojave, Alpide e Andino;
+importações americanas 90% da Turquia; reciclagem insignificante; **não calcula total
+mundial**.*
 
-**Átomo** — a menor peça de um elemento. O tipo de átomo é definido pelo número de
-prótons no núcleo.
+**[4]** MINISTÉRIO DO DESENVOLVIMENTO, INDÚSTRIA, COMÉRCIO E SERVIÇOS. *ComexStat —
+importações brasileiras de boro, 2024*. Brasília: MDIC, 2026. — *459,7 mil toneladas e
+US$ 209,5 milhões em 2024, somando dez NCMs de minerais e químicos de boro (2528, 2804.50,
+2810.00, 2840.11, 2840.19, 2840.20, 2840.30, 2849.90.10, 2850.00.10); **84,9% América do
+Sul** (Bolívia 43,7%, Argentina 25,4%, Chile 14,7%); **Turquia 8,3%**.* Consulta por API
+pública (`api-comexstat.mdic.gov.br`), reprodutível; 52 arquivos custodiados, 41.305.590
+bytes. **Nota de correção:** a versão 1 deste artigo trazia 72,8% e 12%, percentuais que
+não se reproduzem com nenhum recorte de NCM — corrigido na versão 2.
 
-**Bacteriostático** — que impede a bactéria de se multiplicar, sem necessariamente
-matá-la. O sufixo "stático" significa "que paralisa".
+**[5]** EUROPEAN MEDICINES AGENCY. *Boric acid and borate used as excipients*.
+Londres: EMA, 2021. (EMA/CHMP/765436/2012 Rev. 1). — *PDE de 1, 3, 7 e 10 mg B/dia por
+faixa etária; mais de 90% excretado na urina; NOAEL de fertilidade 100 mg/kg/dia; cita
+Repr. cat. 2, **classificação superada** pelo CLP vigente.*
 
-**Bórax** — borato de sódio hidratado. A forma comercial mais comum do boro.
-Contém **11,3%** de boro.
+**[6]** BRASIL. Agência Nacional de Vigilância Sanitária. *RDC nº 199, de 26 de outubro de
+2006* — regulamento técnico de antissépticos. Brasília: ANVISA, 2006. — *Água boricada a
+3%; teor 2,900%–3,200%; pH 3,8–4,8; três restrições explícitas (área, adultos, não
+ingerir).*
 
-**Carcinogênico** — capaz de causar câncer. **O boro não está classificado assim**
-pelas fontes consultadas.
+**[7]** AGENCY FOR TOXIC SUBSTANCES AND DISEASE REGISTRY. *Toxicological Profile for
+Boron*. Atlanta: ATSDR, 2026. (TP-26). — *MRL oral agudo e intermediário de 0,2 mg
+B/kg/dia; MRL de inalação agudo de 0,3 mg B/m³; fator 66 decomposto; **não derivou MRL
+oral crônico**, por decisão declarada.*
 
-**Composto** — substância formada por dois ou mais elementos ligados. Sais e ácidos
-são compostos.
+**[8]** NATIONAL INSTITUTES OF HEALTH. Office of Dietary Supplements. *Boron — Health
+Professional Fact Sheet*. Bethesda: NIH, 2026. — *"Não classificado como nutriente
+essencial para humanos"; UL de 3/6/11/17/20 mg/dia por faixa; suplementos 0,15–6 mg; dose
+fatal 15.000–20.000 mg; maioria das ingestões acidentais em crianças menores de 6 anos.*
 
-**DOT (octaborato dissódico)** — outro sal de boro, mais solúvel que o bórax.
-Contém ~**21,0%** de boro. É o sal usado nos banhos de preservação.
+**[9]** UNIÃO EUROPEIA. *Regulamento Delegado (UE) 2023/1435*, que altera o anexo VI do
+Regulamento (CE) 1272/2008 (CLP). Jornal Oficial da União Europeia, 2023. — *Quatro
+entradas Repr. 1B, H360FD: ácido bórico (10043-35-3), trióxido de diboro (1303-86-2),
+tetraborato de dissódio anidro/deca/penta; aplicável desde 1º/02/2025.*
 
-**Dose diária tolerável** — quantidade estimada que se pode ingerir todos os dias, a
-vida toda, sem risco apreciável. Para o boro: 0,17 mg por quilo de peso por dia.
+**[10]** *Massa atômica do boro (10,811) e teores por forma química*. Composição
+calculada a partir das massas atômicas padrão: B = 10,811 g/mol. Verificação cruzada:
+tabela 4-2 do perfil do ATSDR [7] e USDA AMS *Soluble Boron Products* (TR-2022).
+*Ácido bórico 17,5%; bórax decahidratado 11,3%; anidro 21,5%; pentaborato ~21,0%;
+pentahidratado ~14,9%; colemanita ~15,8%; ulexita ~13,3%.* **Número atômico 5 é
+conhecimento de tabela periódica, não achado custodiado.**
 
-**Elemento químico** — uma das 118 "peças básicas" da matéria. O boro é a de número 5.
+**[11]** FERRARINI, S. F.; SANTOS, H. S.; MIRANDA, L. G.; AZEVEDO, C. M. N.; PIRES,
+M. J. R.; MAIA, S. M. Classificação de resíduos de madeira tratada com preservativos à
+base de arseniato de cobre cromatado e de boro/flúor. *Química Nova*, v. 35, n. 9, p.
+1767-1771, 2012. — *Arsênio 2,7–9,2 mg/L (limite 1,0) em todas as amostras de CCA →
+Classe I; flúor acima de 1,5 mg/L → Classe II-A; **boro não classificado**; "não há
+registros na literatura" sobre boro no resíduo.*
 
-**Espalação** — processo de quebrar um núcleo atômico por colisão. É assim que o boro
-é produzido no espaço.
+**[12]** LIESE, Walter. *Preservation of Bamboo in Service*. Hamburgo: Universidade de
+Hamburgo, Cátedra de Biologia da Madeira, [s.d.]. — *"Aterros comuns suportam apenas uma
+quantidade limitada de bambu envenenado. Aterros de descarte aprovados dificilmente
+existem ou são desconhecidos"; boro como preservante mais usado sob cobertura;
+negligência de precauções em instalações rurais.*
 
-**Excipiente** — substância auxiliar de um medicamento, que não é o princípio ativo
-mas compõe o comprimido.
+**[13]** KAMINSKI, Sebastian; LAWRENCE, Andrew; TRUJILLO, David; KING, Charlotte.
+Structural use of bamboo. Part 2: Durability and preservation. *The Structural Engineer*,
+v. 94, n. 10, p. 38-43, 2016. DOI 10.56330/TRBW8039. — *Tabela 1: interno 2–6 anos sem
+tratamento e **30+** com boro; externo acima do solo 0,5–4 e **2–15**; **em contato com
+solo menos de 0,5 e menos de 1 ano**; "boro: barato de aplicar, eficaz, **mas solúvel**,
+então elementos tratados com boro não podem ser usados externamente"; **divergência**
+sobre perigo de queima; CCA e ACA "devem ser evitados".*
 
-**Fungistático** — que impede o fungo de crescer.
+**[14]** ENVIRONMENTAL BAMBOO FOUNDATION; NATURAL HOMES. *Linda Garland e a pesquisa de
+proteção do bambu contra o besouro-de-pólvora por imersão em sais de borato*.
+[documentação de referência]. — *Origem da prática em Bali; ligação direta com Walter
+Liese **não confirmada em fonte primária** nesta rodada.*
 
-**Ganga** — na mineração, a rocha sem valor que vem misturada ao minério.
+**[15]** ARCHello. *Detail: Bamboo Structure of the Arc at Green School Bali*, 17 abr.
+2023, com declarações de Defit Wijaya (IBUKU). — *Jörg Stamm como especialista em bambu
+do Arc, com Atelier One; imersão por duas semanas ou fervura por 24 horas; verniz
+protetor de UV **a cada 2 anos**.*
 
-**Hidratação (água de)** — água encaixada dentro da estrutura do cristal, não apenas
-molhando por fora.
+**[16]** GAUSS, Christian. *Tratamento preservativo e modificação química do bambu para
+fins estruturais*. Tese (Doutorado) — FZEA/USP, 2020. DOI 10.11606/T.74.2020.
+tde-12042021-165453. — *Retenção de boro em D. asper: 14,79 kg/m³ (solução 5%) e 21,79
+kg/m³ (8%); recomendações AWPA 2,7 kg/m³ e IS 401:2001 5 kg/m³.*
 
-**Lignina** — substância natural da madeira que age como resina, impermeabilizando e
-protegendo. O bambu tem muito menos que a madeira — e é por isso que apodrece mais
-fácil.
+**[17]** SHIM, Brigitte. *2010 On Site Review Report — Green School, Bali, Indonesia*.
+Aga Khan Award for Architecture, 2010. (3663.IDA). — *Telhado de alang-alang com ciclo de
+6 a 10 anos; bambu com ciclo de vida de 20 anos por estimativa conservadora, com
+substituição seletiva prevista; banho de borax de 4 a 6 semanas; vistoria visual de juntas
+por engenheiros, **sem periodicidade declarada**; Jörg Stamm como consultor de bambu.*
 
-**Lixiviação** — processo em que a água entra no material, dissolve o que está dentro
-e sai carregando embora. É o problema central do bambu tratado com boro.
+**[18]** IBUKU. *FAQ — What kind of maintenance is required in the long run?* Bali:
+IBUKU, 2026. — *"O bambu deve ser tratado uma única vez, antes do início da construção;
+tratamentos adicionais contra insetos não são necessários"; recobrimento a cada 2–4 anos;
+revisão de juntas "a cada poucos anos"; "a manutenção de longo prazo é principalmente
+cosmética".*
 
-**Massa atômica** — o "peso" de um átomo. Carbono 12, oxigênio 16, **boro 10,811**.
+**[19]** ARAUJO, Letícia Medeiros de; GIANELLI, Bruno Fernando; MANCINI, Sandro
+Donnini; MEDEIROS, Gerson Araujo de. Life cycle assessment of the artisanal bamboo pole
+(*Guadua angustifolia*) production in the Brazilian Amazon. *Brazilian Journal of
+Science*, v. 4, n. 4, p. 13-28, 2025. DOI 10.14295/bjs.v4i4.719. — *ACV atribucional,
+do berço ao portão, de 1 kg de colmo tratado, em **uma** unidade artesanal de **Rio
+Branco, Acre**; SimaPro 9.1, Ecoinvent 3, **ReCiPe 2016 Midpoint (h)**, ISO 14040/14044;
+sete categorias selecionadas, resultados **normalizados em milipontos**. **HCT = 93% do
+impacto potencial normalizado** (entre as sete categorias); **aparas + cortes + colmos
+descartados = 91% do impacto TOTAL da cadeia** (soma de todas as categorias, não 91% do
+HCT); contribuição atribuída ao ácido bórico e ao bórax nesses resíduos e no efluente. Banho de 100 L de água + 5 kg de bórax + 5 kg de ácido bórico; por kg de
+colmo: 0,20 kg de resíduo, 0,13 kg de colmo descartado, 0,07 L de efluente; 25% de
+perda. **Limites declarados pelos autores:** sazonalidade, variabilidade de mão de obra
+e de insumos, escassez de dados de inventário no Brasil. **Limite desta curadoria:** é
+medição de UMA unidade artesanal amazônica, não da cadeia industrial do Sudeste/Sul; o
+valor é indicador de modelagem, não incidência de doença.*
 
-**Miligrama (mg)** — um milésimo de grama. Um grama é mais ou menos o peso de um
-clipe de papel pequeno; um miligrama é um milésimo disso.
+**[20]** CHINA. State Administration for Market Regulation; Standardization
+Administration. *GB/T 40245-2021 — Specification for recovery of waste
+preservative-treated wood*. Pequim: SAMR/SAC, 2021. — *Define "madeira preservada
+residual perigosa" como a que contém cromo, arsênio, creosoto ou pentaclorofenol;
+**boro não listado**; vigente desde 01/09/2021; norma **recomendada** (GB/T). Prévia
+oficial custodiada; PDF integral de 15 páginas é pago.*
 
-**Minério** — rocha com concentração suficiente de um elemento para valer a pena
-extrair.
+**[21]** VAN DER LUGT, Pablo; KING, Charlotte. *Bamboo in the Circular Economy: The
+potential of bamboo in a zero-waste, low-carbon future*. Pequim: INBAR, 2019. (Policy
+Synthesis Report 6). — *36 páginas; "boron" **0 ocorrências**, "landfill" **0**;
+preservativos artificiais tornam produtos impróprios para reaproveitamento, deixando
+"nenhuma outra opção senão a queima para energia"; colmos são plenamente biodegradáveis
+**se não tratados**.*
 
-**Mutagenicidade** — capacidade de danificar o material genético. Os testes de
-mutagenicidade do boro deram **negativos**.
+**[22]** [ARTIGOS SOBRE CARVÃO ATIVADO A PARTIR DE RESÍDUO DE ANDAIME DE BAMBU].
+*Chemical Engineering Journal*, 2005. DOI 10.1016/j.cej.2005.02.030 e
+S1004954111602139. — *"Mais de 50.000 toneladas de resíduo de andaime de bambu a cada
+ano são descartadas como resíduo de construção" em Hong Kong; preço de US$ 1,29 por colmo
+de 6 m.* **⚠ NÃO CUSTODIADO — paywall. Ordem de grandeza, não dado verificado.**
 
-**pH** — escala de acidez: 7 é neutro, abaixo de 7 é ácido, acima é alcalino.
+**[23]** HONG KONG. Buildings Department. *Guidelines on the Design and Construction of
+Bamboo Scaffolds*. Hong Kong: BD, 2025. / HONG KONG. Labour Department. *Code of Practice
+for Bamboo Scaffolding Safety*, 5. ed. Hong Kong: LD, 2024, com Addendum 1/2026. —
+*Exige apenas secagem ao ar na vertical, em ambiente coberto, por ao menos 3 meses; nas
+25 páginas da norma do BD, "boro", "borato", "preservativo", "químico" e "tratamento"
+aparecem **zero vezes**.*
 
-**Próton** — partícula de carga positiva no núcleo do átomo. O número de prótons é a
-identidade do elemento.
+**[24]** LIU, [et al.]. *Bambu tratado com ácido bórico e bórax: retenção e resistência a
+fungos*, 2023. — *1,5% de ácido bórico + 3,0% de bórax, 72 h; coeficiente de variação
+62,57→12,74% e perda de massa 55,62→9,64%; **79,6%** (*C. versicolor*) e **82,7%**
+(*G. trabeum*) de inibição; mistura não isolada por componente; **sem ensaio de
+lixiviação**; a conclusão do artigo diz 12,5% onde a Tabela 4 diz 12,74% — esta ficha
+adota a tabela.*
 
-**Toxicidade reprodutiva** — capacidade de prejudicar a fertilidade ou o
-desenvolvimento de um feto. **É aqui que o boro está classificado** na Europa
-(categoria Repr. 1B).
+**[25]** RUSCH, Fernando; CANDATEN, Luana; BANDERA, Eduarda; MANGINI, Tauana de Souza;
+ZANCHETTA, Laura. *Tratamento químico, durabilidade e lixiviação de bambu tratado e
+submetido a ensaio em campo de apodrecimento*, 2023. — *CCB = 26% CuSO₄ + 63,5%
+dicromato + **10,5% ácido bórico**; substituição de seiva conforme NBR 6232, retenção-alvo
+6,5 kg/m³; índice de degradação 40 (CCB 1%) e 0 (CCB 3%); controles 100% e 80%; **Tukey
+p>0,05**, sem diferença significativa; autores **não atribuem lixiviação**.*
+
+**[26]** NATIONAL INSTITUTE FOR OCCUPATIONAL SAFETY AND HEALTH. *NIOSH Pocket Guide to
+Chemical Hazards* — entradas de boratos. Atlanta: CDC/NIOSH, 2026. — *REL de 5 mg/m³
+para bórax decahidratado, 1 mg/m³ para anidro e 1 mg/m³ para pentahidratado; teto de boro
+resultante ~0,57 / ~0,21 / ~0,15 mg B/m³ — **limite por forma química**, não por boro.*
+
+**[27]** HEALTH AND SAFETY EXECUTIVE. *Wood dust — hazards and control*. Reino Unido: HSE,
+2026. — *WEL de 3 mg/m³ para madeira dura e 5 mg/m³ para madeira leve; madeira dura pode
+causar câncer, particularmente de nariz.*
 
 ---
 
-## Para saber mais, e como este texto foi feito
+**[28]** BRASIL. **Lei nº 12.305, de 2 de agosto de 2010** — Política Nacional de
+Resíduos Sólidos. Art. 3º, XVI (definição de resíduo sólido, incluindo líquidos cujo
+lançamento em rede ou corpo d'água seja inviável); art. 6º (competências Sisnama, SNVS,
+Suasa, Sinmetro); art. 13, I (classificação por origem). Capturado em 2026-11-24 de
+planalto.gov.br. — ***Verificação desta curadoria:*** *"bambu" **zero** ocorrências;
+"madeira" **zero**; "agrotóxico" 1; "domiciliar" 4; "perigoso" 25. Controle positivo:
+"Sisnama" 32, "SNVS" 21 — os termos existem e a extração funcionou.*
 
-Este artigo não inventa dados. Ele reorganiza, em linguagem simples, o conteúdo de um
-capítulo do **Acervo Soberania Tecnológica** dedicado ao boro, que reúne fontes
-custodiadas com verificação de integridade — incluindo a Organização Mundial da Saúde,
-a agência de substâncias tóxicas dos Estados Unidos, o serviço geológico americano, a
-agência europeia de medicamentos, a agência brasileira de vigilância sanitária, o
-instituto americano de saúde e pesquisas acadêmicas revisadas por pares.
+**[29]** BRASIL. **Lei nº 12.484, de 8 de setembro de 2011** — Política Nacional de
+Incentivo ao Manejo Sustentado e ao Cultivo do Bambu (PNMCB). **Seis artigos.**
+Instrumentos: crédito rural, assistência técnica, certificação de origem (art. 4º).
+Competências dos órgãos: pesquisa, brotos para alimentação, agricultura familiar,
+parcerias, comércio interno e externo, intercâmbio (art. 5º). Capturado em 2026-11-24 de
+planalto.gov.br. — ***Verificação desta curadoria:*** *"tratamento" **zero**;
+"químico" **zero**; "resíduo" **zero**; "licença" **zero**; "fiscaliza" **zero**;
+"unidade de conservação" **zero**. Controle positivo: "bambu" 11 ocorrências.*
 
-O material passou por **auditoria independente em três rodadas**, com 21 achados
-registrados e corrigidos. Esse processo está documentado e é parte do acervo — não é
-bastidor escondido.
+**[30]** ATSDR — Agency for Toxic Substances and Disease Registry. *Toxicological
+Profile for Boron*. Capítulo 6, "Potential for Human Exposure": *"Adsorption-desorption
+reactions are expected to be the only significant mechanism that will influence the
+fate of boron in water"*; *"the greatest adsorption is generally observed at pH 7.5-9.0"*;
+*"the abundance of amorphous aluminum oxide in soil is the single-most important property
+of soil that will influence the mobility of boron"*. — *Base do parágrafo sobre
+lixiviação; ver ficha `atsdr-2026-boro-perfil-toxicologico.md`.*
 
-**Estado deste documento:** em revisão documental, aguardando homologação humana. Os
-números aqui citados podem ser conferidos um a um nas fichas técnicas da gaveta de
-boro, cada uma com a fonte primária custodiada e o resumo íntegro registrado.
+**[31]** EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA — Embrapa Pecuária Sul. *Tratamento da madeira na propriedade rural: procedimentos para a sua aplicação, licenciamento e gestão financeira*. Comunicado Técnico 110. Bagé, RS: Embrapa, 2024. ISSN 1982-5382. — Instrução oficial brasileira de tratamento de moirão na pequena propriedade pelo método de substituição de seiva com CCB: EPI por peça, tonel de 200 L, proporção do preservativo e **proibição explícita de descarte no ambiente, repetida em dois pontos do documento**; reuso da solução excedente em recipiente plástico; alerta de que dicromato e ácido bórico estão sob controle da Polícia Federal (Portaria 240/2019). — *Limite: trata de madeira (moirões), não de bambu, e não diz o que fazer quando o reuso termina. É a norma brasileira que existe para metais e não existe para o boro — citada aqui exatamente para marcar essa ausência.*
 
-**Sobre a linguagem:** este texto foi escrito para ser entendido sem formação em
-química ou em metodologia científica. Se algum trecho falhou nisso, é falha do texto,
-não do leitor.
+
+## Como este texto foi feito
+
+Este artigo é uma peça de revisão. **Não está homologado.** O estado documental é
+`em-revisao-documental` e a homologação automática está desativada — homologar é ato
+humano.
+
+O texto passou por **auditoria independente em três rodadas** (R6, R7 e uma terceira sobre
+o material já corrigido), com **21 achados registrados e corrigidos**. O padrão dos erros
+encontrados foi sempre o mesmo: **generalização** — resumir uma tabela por uma frase,
+atribuir a um país o que vale para o mundo, tratar dois tratamentos como um, ou
+transformar impressão do curador em achado do autor.
+
+Três erros deste próprio acervo ficaram registrados no corpo do texto, porque corrigi-los
+é mais útil que escondê-los: a atribuição de "maior parte do mundo abaixo de 0,5 mg/L" ao
+documento de 2009 em vez do de 2022; a leitura de "93%" como incidência em vez de
+indicador; e a descrição de "superior a 80%" de inibição fúngica quando apenas uma das
+duas espécies passa de 80%.
+
+**Aviso sobre uso de inteligência artificial.** A redação, a organização e a verificação
+cruzada deste artigo foram feitas com assistência de um agente de IA, sob curadoria
+humana e supervisão declarada no frontmatter. **Toda afirmação numérica foi conferida
+contra a fonte primária custodiada** — mas a responsabilidade pela peça é humana, e a
+homologação também.
+
+**Onde os arquivos estão.** As fichas técnicas de cada obra da bibliografia, com avaliação
+crítica e limites, estão em `docs/analyses/boro/fichas/`. As fontes primárias custodiadas,
+com hash SHA-256, estão em `_privado/governanca-operacional/extracoes/boro/`.
