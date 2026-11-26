@@ -1,0 +1,44 @@
+{
+ "lote": "TESTE-E2E-BAMBU-C1",
+ "status": "ENSAIO · NAO PUBLICAR",
+ "nota": "Ensaio com peca REAL de outra frente, provada por PONTEIRO (git cat-file no ref). A recusa vem de P1/P3: o documento nao se declara artigo (material didatico institucional) e esta em revisao. Nao ha liberacao — nao houve ato humano. Se este lote passar, o gate esta desligado.",
+ "pecas": [
+  {
+   "id": "TESTE-BAMBU-C1",
+   "formato": "carrossel",
+   "formato_justificativa": "a peca ja declara '12 slides · Instagram · formato 1080x1350 (4:5)' no proprio texto",
+   "deriva_de": {
+    "tipo": "artigo-didatico",
+    "path": "docs/analyses/bambu-estrutural/divulgacao/carrossel-1-quanto-aguenta.md",
+    "sha256": "f9fed77e4c7ca9fbe89fce449637fe48115c1d656570f826ed4b5082d088c562",
+    "ref": "origin/hermes/mtcc-auditoria-pacote-20261118-r1"
+   },
+   "itens": [
+    {
+     "ordem": 1,
+     "texto_curto": "60 MPa num bambu",
+     "fonte": "60 MPa"
+    },
+    {
+     "ordem": 2,
+     "texto_curto": "MPa nao e peso",
+     "fonte": "1 MPa = 10 kg"
+    },
+    {
+     "ordem": 3,
+     "texto_curto": "200 MPa",
+     "fonte": "200 MPa"
+    }
+   ],
+   "sha256_da_peca": "7d95a519c12fedf9b34c7aab58ab75269d079c3419dd4ae3a9971c70518695c5",
+   "agendamento": [],
+   "colecao": {
+    "gaveta": "bambu-estrutural",
+    "estado_da_arte": "docs/analyses/bambu-estrutural/divulgacao/carrossel-1-quanto-aguenta.md",
+    "artigos": [
+     "docs/analyses/bambu-estrutural/divulgacao/artigo-didatico-bambu.md"
+    ]
+   }
+  }
+ ]
+}

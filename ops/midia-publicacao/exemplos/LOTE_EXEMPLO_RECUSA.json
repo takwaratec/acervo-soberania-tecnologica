@@ -1,0 +1,37 @@
+{
+ "lote": "EXEMPLO-NAO-PUBLICAR-R1",
+ "status": "EXEMPLO · NAO VIGENTE · NAO APROVADO",
+ "nota": "Lote de exemplo para provar recusa POR CONTEUDO: estrutura correta (P0 passa) e a recusa vem de P1 (ficha), P2 (hash da origem nao confere), P3 (estado em revisao) e P5 (fonte inventada).",
+ "pecas": [
+  {
+   "id": "EX-FICHA-SOLTA-01",
+   "formato": "carrossel",
+   "formato_justificativa": "exemplo negativo: ficha nao gera midia",
+   "deriva_de": {
+    "tipo": "ficha",
+    "path": "docs/analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+   },
+   "colecao": {
+    "gaveta": "bambu-estrutural",
+    "estado_da_arte": "docs/analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md",
+    "artigos": [
+     "docs/analyses/bambu-estrutural/adier-2023-propriedades-tratamento-bambu.md"
+    ]
+   },
+   "itens": [
+    {
+     "ordem": 1,
+     "texto_curto": "exemplo",
+     "fonte": "exemplo"
+    },
+    {
+     "ordem": 2,
+     "texto_curto": "exemplo",
+     "fonte": "Achado Que Nao Existe no Corpo"
+    }
+   ],
+   "sha256_da_peca": "1979c1a1cd3398bc72f3c8127f451c3c49838889ab2c2ac6c46a19bead27951f"
+  }
+ ]
+}

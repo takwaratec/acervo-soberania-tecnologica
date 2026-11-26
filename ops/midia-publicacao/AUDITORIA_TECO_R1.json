@@ -1,0 +1,249 @@
+{
+ "tarefa": "AUDITORIA_TECO_ESTEIRA_PUBLICACAO_R1",
+ "alvo_imutavel": {
+  "repo": "takwaratec/acervo-soberania-tecnologica",
+  "branch": "midia/esteira-publicacao-20261120-r1",
+  "ancoragem": "sha256 por arquivo",
+  "nota_de_ancoragem": "O alvo NAO e ancorado em um hash de commit: um arquivo versionado nao pode conter o commit que o contem, e a versao anterior deste JSON apontava 935b4dd enquanto o HEAD auditado ja era outro (defeito MEDIA da auditoria TECO de 2026-11-20). A ancoragem passa a ser o sha256 de CADA arquivo auditado: quem audita confere os bytes, nao o rotulo.",
+  "arquivos": {
+   "RECONCILIACAO_R1.md": "8a0ba64be8ed2efa5c345318c9d93c9846fb1853a0baa9f90954ed77d19ae3c2",
+   "MANUAL_ESTEIRA_R1.md": "a58c553bce9436599af9af1825eac65e9eb359f6ed786c25cf6c4aca2f514b4f",
+   "MANUAL_ESTEIRA_R1.html": "0917cb2ed0fdb537290461571b5333ed7fe971c0976efbefbb5a5960a1d4c586",
+   "gerar_manual_html.py": "73ba3af47a6f22ef0b41a2622d01d3bcb6935cb2c0b956e98f72337ebf40031d",
+   "montar_lote.py": "50582aed0d28650e343430221da00a36c0792d16a4ce48a47c377a668c48b750",
+   "verificar_midia.py": "adc198d5a07c4200bc2bbf8fa5de58a0aaf2f5c2c8d746d6a418536768287200",
+   "SCHEMA_PECA_MIDIA_R1.json": "ac347ee1b2781c7634efdf7d37e7c12d75f41c26b187e558299cde3e2ad03a41",
+   "MAPA_DE_RESTAURACAO_R1.md": "1e4479df80427b111c2deaeb3610e66688d4379f88f7f54ef0c203f347b0a9c6",
+   "PLANO_HOSPEDAGEM_OPCAO_A_R1.md": "3256e48eff55c600723e67085178918ddf29b654738604d4f5cdd755186fe8f9",
+   "exemplos/LOTE_EXEMPLO_RECUSA.json": "e0f1bd697d401fe80f711611deda05f96b394363a9a5b691a9abe22543aba6d9",
+   "exemplos/LOTE_TESTE_BAMBU_C1.json": "77c4e3f953ef7cc48a3f3dad286fdc20637a3b87c4d0bcb83b293e02ad1da9c2",
+   "exemplos/MANIFESTO_TESTE_BAMBU_C1.json": "44e4993fb8f5cf7d781a98b3b4e71fcf759623edb40e650455fa6363ec986be0",
+   "piloto/LOTE_PILOTO_BAMBU_E1.json": "c6af0ba0bdd6bbceca745a3a77438dd26eb21f98e2506bb94cb6dd2a560c5c14",
+   "piloto/PILOTO_BAMBU_E1.html": "7c4bb3a0759bf8d7699eabd751ec649e81ebaf8ac6f6dad9a3beefae7ac2e342",
+   "piloto/gerar_piloto_html.py": "e911b306a8e102d609faff16ce9b00fe6cb88bf2e9af16128dac5ca1991c925d",
+   "AUDITORIA_TECO_R1.json": "d89884cc3669027ee59e41e0faf19cb1175145a081fa3d0c36b77d27bd857294"
+  },
+  "nota": "ancoragem por sha256 por arquivo: arquivo versionado nao pode conter o commit que o contem"
+ },
+ "o_que_julgar": [
+  "montar_lote.py recusa de fato o que diz recusar (provar com controle negativo, nao com leitura)",
+  "os seis portoes correspondem ao que SCHEMA_PECA_MIDIA_R1.json e MANUAL_ESTEIRA_R1.md declaram",
+  "o codigo NAO publica e NAO abre rede (lista de imports e ausencia de chamadas)",
+  "o exemplo em exemplos/LOTE_EXEMPLO_RECUSA.json e recusado pelos motivos alegados",
+  "o HTML entrega o manual pedido, abre offline e navega pelas 9 paginas sem conteudo mutilado",
+  "verificar_midia.py recusa de fato o que diz recusar, e o selftest REPROVA quando os limites são desligados (prova de que o selftest não é teatro)",
+  "PLANO_HOSPEDAGEM_OPCAO_A_R1.md declara como NAO VERIFICADO tudo que depende de credencial, e nao afirma que o Worker serve /midia",
+  "P2 aceita ponteiro remoto (sha256 + ref) sem afrouxar: ref inexistente e sha divergente sao recusa nomeada",
+  "MAPA_DE_RESTAURACAO_R1.md declara como PENDENTE tudo que nao foi testado (chave age, ensaio em maquina limpa) e nao afirma que a restauracao foi provada"
+ ],
+ "perguntas_obrigatorias": [
+  {
+   "id": "Q1",
+   "pergunta": "Rode `python3 ops/midia-publicacao/montar_lote.py --selftest`. Cole a saida bruta. O selftest prova controle negativo para CADA um dos seis portoes, ou so para alguns? Cite qual portao nao tem controle negativo proprio."
+  },
+  {
+   "id": "Q2",
+   "pergunta": "Existe algum caminho no codigo que leia ou grave fora do repositorio, use rede, ou publique? Cite linha ou declare ausencia com o comando que prova."
+  },
+  {
+   "id": "Q3",
+   "pergunta": "Os estados em ESTADOS_HOMOLOGADOS correspondem ao criterio declarado pelo soberano (estado da arte + no minimo um artigo)? Ha estado aceito que deveria ser recusado, ou recusado que deveria ser aceito? Liste divergencias."
+  },
+  {
+   "id": "Q4",
+   "pergunta": "O portao P5 garante que a fonte citada EXISTE no corpo, nao que foi interpretada corretamente. O documento declara esse limite? Cite onde."
+  },
+  {
+   "id": "Q5",
+   "pergunta": "Abra MANUAL_ESTEIRA_R1.html. As 9 abas existem, uma por vez fica visivel, e o texto de cada painel e substantivo (nao tabela solta)? Cite a contagem medida de `data-tab` e de `role=tabpanel`."
+  },
+  {
+   "id": "Q6",
+   "pergunta": "Rode `python3 ops/midia-publicacao/verificar_midia.py --selftest`. Depois rode o mesmo selftest com PROP_MIN/PROP_MAX e LARGURA_MIN/MAX desligados (ver comentario no proprio arquivo). A segunda execucao DEVE reprovar. Cole as duas saidas brutas e os dois exit codes. Se a segunda passar, o selftest nao prova nada e a resposta e FAIL."
+  },
+  {
+   "id": "Q7",
+   "pergunta": "Confira que a proporcao do slide 1 e usada como referencia do carrossel inteiro (corte do Instagram) e que um slide com dimensao diferente e recusado. Cite a linha do codigo e a saida do controle negativo."
+  },
+  {
+   "id": "Q8",
+   "pergunta": "Rode o selftest de montar_lote.py. Depois desligue a resolucao remota (monkeypatch de _blob_no_ref devolvendo True) e rode de novo: a segunda execucao DEVE reprovar com 'ref inexistente nao foi recusado'. Cole as duas saidas e os exit codes."
+  },
+  {
+   "id": "Q9",
+   "pergunta": "Rode o lote de exemplo da BAMBU-SCIENCE (exemplos/LOTE_TESTE_BAMBU_C1.json). Ele declarar deriva_de.ref de outro branch e NAO tem o arquivo no worktree. Cole a saida: a recusa tem de ser P3 (estado_documental em-revisao-documental), nao P2. Se a recusa for P2, a via ponteiro esta quebrada."
+  },
+  {
+   "id": "Q10",
+   "pergunta": "Abra MANUAL_ESTEIRA_R1.html e confirme 11 abas com 11 paineis, todas navegaveis e nenhuma vazia. Cite a contagem medida de data-tab e role=tabpanel."
+  },
+  {
+   "id": "Q11",
+   "pergunta": "Confira o sha256 de CADA arquivo em alvo_imutavel.arquivos contra os bytes presentes. Cole a comparacao (N/N conferem). O alvo da auditoria e ancorado por conteudo, nao por hash de commit — um arquivo versionado nao pode conter o commit que o contem."
+  },
+  {
+   "id": "Q12",
+   "pergunta": "P3 foi reescrito: deixou de aceitar 'tem_artigo: sim' e passou a exigir bloco 'colecao' com estado_da_arte e artigos, cada ponteiro resolvendo. Verifique no codigo e prove com um probe em memoria que (a) colecao sem estado_da_arte e recusada, (b) colecao sem artigo e recusada, (c) ponteiro inexistente e recusado. Cole as saidas."
+  },
+  {
+   "id": "Q13",
+   "pergunta": "P3 da rodada 3 le o frontmatter de cada ponteiro. Prove com probes: (a) caminho fora da raiz recusado, (b) mesmo arquivo como estado da arte e artigo recusado, (c) documento que nao se declara artigo recusado, (d) ponteiro com estado_documental nao homologado recusado, (e) peca correta aceita. Cole as cinco saidas."
+  },
+  {
+   "id": "Q14",
+   "pergunta": "Rode o selftest e conte os controles executados. O campo controles_negativos e calculado do tamanho da lista, ou e um literal? Cite a linha. Depois rode o controle do controle desligando _blob_no_ref e confirme reprovacao."
+  },
+  {
+   "id": "Q15",
+   "pergunta": "Prove as quatro correcoes da rodada 4: (a) mesmo blob por alias (art.md e ./art.md) recusado; (b) documento tipado como artigo recusado no papel de estado da arte; (c) colecao como lista gera recusa nomeada, nao excecao; (d) controles_positivos conta 4 e inclui git-HEAD. Cole as saidas e diga quantos negativos semanticos existem."
+  },
+  {
+   "id": "Q16",
+   "pergunta": "Prove que nenhuma entrada malformada levanta excecao: rode uma varredura de tipos em todos os campos (None, int, float, str, list, dict, bool, tuple) e informe o total testado e o numero de excecoes. Depois confirme que P0 aparece no selftest com recusa nomeada para deriva_de, itens, aprovacao e agendamento."
+  },
+  {
+   "id": "Q17",
+   "pergunta": "Prove as cinco correcoes: (a) faca sua propria varredura profunda de tipos e informe excecoes e aceitacoes indevidas; (b) peca sem hash nos dois lados e recusada por P6; (c) lote com JSON invalido sai com erro nomeado e exit 2; (d) conte os portoes nos documentos e confira cada um contra o codigo; (e) recalcule a contagem do corpus e compare com a documentada."
+  }
+ ],
+ "veredito": "PASS | FAIL | BLOCKED | INCONCLUSIVE",
+ "regra_de_evidencia": "toda afirmacao carrega comando reproduzivel e saida bruta; afirmacao de ausencia exige o comando que prova ausencia",
+ "nao_aceito": [
+  "resumo agregado sem saida bruta",
+  "afirmar que o gate funciona sem rodar o controle negativo",
+  "aprovar o HTML sem abrir as nove abas"
+ ],
+ "historico": [
+  {
+   "rodada": 1,
+   "data": "2026-11-20",
+   "veredito": "FAIL",
+   "defeitos": 6,
+   "correcoes": [
+    "P3 estrutural (bloco colecao em vez de booleano)",
+    "curado e revisado-com-fonte-integral aceitos conforme GOVERNANCA_DOCUMENTAL:86/88",
+    "controles negativos proprios para P4 e P6",
+    "frase do plano de hospedagem separada da citacao",
+    "ancoragem por sha256 por arquivo em vez de hash de commit",
+    "navegacao do HTML passou a visitar p10",
+    "selftests executaveis em sandbox read-only (memoria em vez de diretorio temporario)"
+   ]
+  },
+  {
+   "rodada": 2,
+   "data": "2026-11-20",
+   "veredito": "FAIL",
+   "defeitos": 3,
+   "correcoes": [
+    "P3 passou a ler o frontmatter de cada ponteiro: contencao na raiz, estado_documental homologado, papeis distintos, artigo tem de se declarar artigo",
+    "cobertura integrada de P2 por ponteiro remoto restaurada no selftest (positivo, hash divergente e ref inexistente, via montar())",
+    "contadores de controles passaram a ser calculados; comentario obsoleto sobre 'curado' corrigido"
+   ]
+  },
+  {
+   "rodada": 3,
+   "data": "2026-11-20",
+   "veredito": "FAIL",
+   "defeitos": 4,
+   "correcoes": [
+    "P3 compara caminhos RESOLVIDOS (alias ./x e x sao o mesmo arquivo) e exige declaracao de papel nos dois sentidos",
+    "schema alinhado ao codigo: curado e revisado-com-fonte-integral como aceitos",
+    "git-HEAD reclassificado como controle positivo",
+    "colecao malformada gera recusa nomeada em vez de AttributeError"
+   ]
+  },
+  {
+   "rodada": 4,
+   "data": "2026-11-20",
+   "veredito": "FAIL",
+   "defeitos": 1,
+   "correcoes": [
+    "criado P0 (estrutura) com recusa nomeada para deriva_de, itens, aprovacao, agendamento e lote malformados; varredura de 520 entradas malformadas sem excecao"
+   ]
+  },
+  {
+   "rodada": 5,
+   "data": "2026-11-20",
+   "veredito": "FAIL",
+   "defeitos": 5,
+   "correcoes": [
+    "P0 passou a esquema FECHADO e profundo (peca, deriva_de, colecao, itens[i], aprovacao, agendamento[i]); varredura de 147 entradas malformadas sem excecao e sem aceitacao indevida",
+    "P6 exige hash presente dos dois lados, autoridade registrada e data ISO; dois vazios nao aprovam mais",
+    "carregamento de lote e escrita com erro nomeado (JSON invalido e arquivo ilegivel, exit 2); ordenacao da fila com str() seguro",
+    "documentos alinhados: sete portoes, sem promessa de NAO_VERIFICADO, deriva_de.ref, imports corretos",
+    "medicao do corpus refeita com comando e data (228/339 em revisao, 43 homologadas, 15 gavetas)"
+   ]
+  },
+  {
+   "rodada": 6,
+   "data": "2026-11-20",
+   "veredito": "FAIL",
+   "defeitos": 6,
+   "correcoes": [
+    "P6 vincula a aprovacao ao CONTEUDO: hash calculado por --hash-peca, formato 64 hex, conteudo alterado invalida",
+    "bool recusado em campo int; id vazio e id repetido recusados",
+    "legenda, hashtags, alt_text e rastreabilidade_da_arte tipados no esquema fechado",
+    "medicao do corpus refeita em checkout limpo: 338/227/43/15; 1 estado-da-arte homologado, 0 artigos",
+    "atribuicao P1/P2 corrigida nos manuais e cabecalho do script com P0..P6"
+   ]
+  },
+  {
+   "rodada": 7,
+   "data": "2026-11-20",
+   "veredito": "FAIL",
+   "defeitos": 5,
+   "correcoes": [
+    "hash inclui aprovacao.por/em; data nao muda mais sem invalidar",
+    "P0 aplica os limites declarados: legenda 2200, hashtags 30, prompt_usado 64 hex",
+    "UnicodeDecodeError tratado nos dois carregamentos (lote e hash-peca), exit 2",
+    "contagem do corpus por parser de frontmatter: 338/238/44/98/13 estado-da-arte/0 artigos",
+    "P1 passa a incluir contencao do path; P2 fica com resolucao e hash"
+   ]
+  },
+  {
+   "rodada": 8,
+   "data": "2026-11-20",
+   "veredito": "FAIL",
+   "defeitos": 6,
+   "correcoes": [
+    "hash cobre sha256 dos artefatos de deriva_de e colecao — trocar palavra no artigo invalida a aprovacao",
+    "prompt_usado presente e vazio recusado",
+    "RecursionError em JSON profundo e blob nao-UTF8 tratados com recusa nomeada",
+    "medicao passa a declarar o parser do gate como autoridade e explica a divergencia com PyYAML"
+   ]
+  }
+ ],
+ "nota_final": "Rodada 2. As correcoes respondem aos 6 defeitos da rodada 1 e ao bloqueio de ambiente que impediu Q1/Q6/Q8 de rodar.",
+ "encerramento": {
+  "data": "2026-11-20",
+  "ponto_aberto": "notas dos exemplos e --help: aceitavelmente corrigidos, sem nova rodada",
+  "proximo": "auditoria externa (Sol), uma vez, sobre os cinco portoes de governanca",
+  "decisao": "rodadas paradas por decisao do soberano: auditoria em loop nao converge — achar defeito e a funcao do auditor"
+ },
+ "contagem_de_rodadas": {
+  "tecnicas_TECO": 8,
+  "externa_planejamento": 1,
+  "nota": "8 rodadas TECO + 1 auditoria externa. Versoes anteriores somavam 'nove rodadas', o que confundia as duas series"
+ },
+ "auditoria_externa": {
+  "auditor": "Sol (planejamento e governanca)",
+  "data": "2026-11-20",
+  "escopo": "ops/midia-publicacao/ no commit 05b8ceb",
+  "veredito": "ADEQUADO COM RESSALVAS",
+  "requisitos_da_ressalva": [
+   "distinguir homologacao documental de liberacao editorial",
+   "aprovacao humana como ato unico, sem presumir consentimento",
+   "P1 pela natureza efetiva do documento",
+   "P7 separando bytes, manifesto e disponibilidade publica",
+   "mapa de restauracao em sequencia executavel",
+   "honestidade sobre rodadas, contadores e estado do P7",
+   "desburocratizar: herdar proveniencia e nao pedir o que o sistema ja sabe",
+   "prova editorial funcional com material real"
+  ]
+ },
+ "reconciliacao": {
+  "documento": "RECONCILIACAO_R1.md",
+  "data": "2026-11-20",
+  "resultado": "todos os itens da ressalva aplicados; nenhum portao novo criado; piloto executado com material real"
+ }
+}

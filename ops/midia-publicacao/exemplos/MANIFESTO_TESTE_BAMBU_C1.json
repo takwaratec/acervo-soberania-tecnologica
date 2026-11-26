@@ -1,0 +1,46 @@
+{
+ "SCHEMA": "TAKWARATEC_MANIFESTO_MIDIA_R1",
+ "lote": "TESTE-E2E-BAMBU-C1",
+ "status": "ENSAIO · NAO PUBLICAR · NAO HOMOLOGADO",
+ "gaveta": "bambu-estrutural",
+ "formato": "carrossel",
+ "nota": "Ensaio da esteira com peca editorial REAL da frente BAMBU-SCIENCE. Serve para provar que a esteira recusa material em-revisao-documental; nao e lote publicavel.",
+ "deriva_de": {
+  "tipo": "artigo-didatico",
+  "path": "docs/analyses/bambu-estrutural/divulgacao/carrossel-1-quanto-aguenta.md",
+  "repo": "takwaratec/acervo-soberania-tecnologica",
+  "branch": "hermes/mtcc-auditoria-pacote-20261118-r1",
+  "sha256": "f9fed77e4c7ca9fbe89fce449637fe48115c1d656570f826ed4b5082d088c562"
+ },
+ "hospedagem": {
+  "modo": "A2",
+  "base_url": "https://acervo-web-preview.SUB.workers.dev/midia/TESTE-E2E-BAMBU-C1/"
+ },
+ "slides": [
+  {
+   "ordem": 1,
+   "arquivo": "01.jpg",
+   "dimensao": "1080x1350",
+   "sha256": "PENDENTE",
+   "url": "https://acervo-web-preview.SUB.workers.dev/midia/TESTE-E2E-BAMBU-C1/01.jpg",
+   "fonte": "60 MPa"
+  },
+  {
+   "ordem": 2,
+   "arquivo": "02.jpg",
+   "dimensao": "1080x1350",
+   "sha256": "PENDENTE",
+   "url": "https://acervo-web-preview.SUB.workers.dev/midia/TESTE-E2E-BAMBU-C1/02.jpg",
+   "fonte": "1 MPa = 10 kg"
+  },
+  {
+   "ordem": 3,
+   "arquivo": "03.jpg",
+   "dimensao": "1080x1350",
+   "sha256": "PENDENTE",
+   "url": "https://acervo-web-preview.SUB.workers.dev/midia/TESTE-E2E-BAMBU-C1/03.jpg",
+   "fonte": "200 MPa"
+  }
+ ],
+ "limite_declarado": "Artes de 01..03 NAO existem: o ensaio prova o caminho de recusa, nao o caminho de publicacao."
+}
