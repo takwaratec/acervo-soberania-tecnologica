@@ -11,7 +11,11 @@ resumo: "Medição do que o acervo tem versionado, do que está custodiado em _p
 # INVENTÁRIO DE CUSTÓDIA — coleção Bambu
 
 **Data da medição:** 26/11/2026 · **Medido por:** executor da frente Bambu Science
-**Regra deste documento:** número sem comando ao lado é número não medido. Cada bloco traz o comando.
+**Regra deste documento, e como ela se cumpre:** todo número traz (a) o comando que o reproduz **neste clone**,
+ou (b) a marca **`[EXTERNO]`** quando o comando depende do Drive, de `_privado/` ou da chave de custódia — que
+não estão versionados e por isso **não são verificáveis por um auditor externo**. A distinção não é retórica:
+no primeiro caso o auditor refaz a conta; no segundo ele só pode registrar que a medição é afirmada pelo
+executor. (Correção do achado P3 do Teco R1: a versão anterior prometia comando para todo número e não cumpria.)
 
 ---
 
@@ -25,38 +29,58 @@ obras custodiadas e obras sem ficha — porque o plano das gavetas depende desse
 
 ## 1. O que está versionado no acervo público
 
+**Reprodutível neste clone:**
+
 ```bash
-gh api repos/takwaratec/acervo-soberania-tecnologica/git/trees/main?recursive=1 --jq '.tree[].path'
+# a) inventário versionado no commit medido (main = d0bc531)
+git -C <repo> ls-tree -r --name-only d0bc531 | grep -c '\.md$'
+git -C <repo> ls-tree -r --name-only d0bc531 | grep '^docs/analyses/.*\.md$' | wc -l
+
+# b) fichas por gaveta e por tipo, na gaveta estrutural — com a regra de classificação no próprio script
+python3 docs/analyses/bambu-estrutural/scripts/contar_gaveta.py <repo>
+
+# c) quantas fichas declaram cada campo (a regra é o regex, escrito aqui, não um adjetivo)
+git -C <repo> grep -h '^tipo_documental: ficha' d0bc531 -- docs/analyses | wc -l
+git -C <repo> grep -h '^doi:' d0bc531 -- docs/analyses | wc -l
+git -C <repo> grep -h '^pacote_fonte_privado:' d0bc531 -- docs/analyses | wc -l
+git -C <repo> grep -h '^fonte_primaria:' d0bc531 -- docs/analyses | wc -l
 ```
 
-| medida | main hoje | corte do release 2026.1 (`b383b4d5`) |
+| medida | main hoje (`d0bc531`) | corte do release 2026.1 (`b383b4d5`) |
 |---|---|---|
 | arquivos versionados | 827 | 459 |
 | `.md` | 515 | 308 |
 | `.md` em `docs/analyses` | **441** | 263 |
+| `tipo_documental: ficha*` em `docs/analyses` | **217** | — |
+| declaram `doi:` | **99** | — |
+| declaram `pacote_fonte_privado:` | **38** | — |
+| declaram `fonte_primaria:` | **264** | — |
 
-**Fichas por gaveta na main** (`git ls-files docs/analyses | cut -d/ -f3 | sort | uniq -c`): cobre 154 · bambu-estrutural 74 ·
-reforma-agraria-agrofloresta 71 · pu-vegetal 41 · boro 31 · fundamentos 22 · bioeconomia-amazonica 18 ·
-tecnologia-takwara 18 · visao-do-autor 18 · politica-habitacional 15 · cooperacao-brasil-china 14 ·
-respaldo-academico 14 · percecao-social 9 · arquitetura-vernacular 7 · habitacao-social 7 ·
-avaliacao-pos-ocupacao 5 · grandes-obras-amazonia 4.
+**Fichas por gaveta na main** — comando: `git ls-tree -r --name-only d0bc531 | grep '^docs/analyses/' | cut -d/ -f3 | sort | uniq -c`
+→ cobre 154 · bambu-estrutural **74** · reforma-agraria-agrofloresta 71 · pu-vegetal 41 · boro 31 · fundamentos 22 ·
+bioeconomia-amazonica 18 · tecnologia-takwara 18 · visao-do-autor 18 · politica-habitacional 15 ·
+cooperacao-brasil-china 14 · respaldo-academico 14 · percecao-social 9 · arquitetura-vernacular 7 ·
+habitacao-social 7 · avaliacao-pos-ocupacao 5 · grandes-obras-amazonia 4.
 
-**Tipo documental declarado** (`grep '^tipo_documental:'` sobre os 441 `.md`): **217** são `ficha-*`
-(49 em bambu-estrutural, 64 em reforma-agrária, 33 em pu-vegetal, 24 na pasta `fichas/`); o resto são
-índices, estados da arte, instrumentos e visões autorais.
+*Medido em `d0bc531` — o commit em que este documento entrou na `main`: **74** arquivos na gaveta. O número
+**77** é a contagem do worktree de trabalho, que inclui os três instrumentos desta rodada (`ROTEIRO`,
+`INVENTARIO`, `PLANO`) ainda não mergeados. 74 + 3 = 77. Quem repetir a medição depois do merge deste PR verá
+77 e o motivo está aqui, não é divergência.*
 
-**Lacunas de campo, medidas:**
-
-- **99 de 441** declaram `doi:` — 342 não declaram;
-- **38 de 441** declaram `pacote_fonte_privado:` — ou seja, **403 fichas não dizem onde está o PDF da fonte**;
-- **264 de 441** declaram `fonte_primaria:` com texto livre ("PDF integral conferido" é o valor mais comum).
-  Isso é declaração de conferência, não ponteiro: não há como abrir a fonte a partir da ficha.
-
----
+**O que os campos dizem, e o que não dizem.** `fonte_primaria: "PDF integral conferido"` (o valor mais comum
+entre os 264) é **declaração de conferência**, não ponteiro: não permite abrir a fonte a partir da ficha. Só
+`pacote_fonte_privado` aponta para uma pasta — e apenas 38 fichas o declaram.
 
 ## 2. O que está custodiado em disco (privado)
 
-**`_privado/` do acervo** (`find _privado -name '*.pdf' | wc -l`):
+**`_privado/` do acervo — `[EXTERNO]`, não versionado, medido pelo executor:**
+
+```bash
+find _privado -name '*.pdf' | wc -l                                   # 981
+find _privado/<sub> -maxdepth 1 -type d | wc -l                        # grupos por árvore
+find _privado/<sub> -maxdepth 2 -name 'extracao.md' | wc -l            # grupos com extração
+find _privado/<sub> -maxdepth 2 -name 'metadados.json' | wc -l         # grupos com metadados
+```
 
 | árvore | PDFs | extrações/txt | grupos |
 |---|---|---|---|
@@ -69,7 +93,8 @@ avaliacao-pos-ocupacao 5 · grandes-obras-amazonia 4.
 Entre os 125 grupos de fonte: **71 têm `extracao.md`**, **88 têm PDF**, e **52 não têm `metadados.json`**.
 Grupo sem PDF são pastas de lote (normas, filas, agregados) — declaradas como tal, não como falha.
 
-**`CustodiaAcervo/` no Drive** (conta `takwaratec@gmail.com`, escopo de custódia):
+**`CustodiaAcervo/` no Drive — `[EXTERNO]`** (conta `takwaratec@gmail.com`, escopo de custódia; exige `rclone` com
+credencial que só o executor tem):
 
 ```bash
 rclone lsjson -R gdrive-custodia: > inventario.json   # 385 objetos, 369 arquivos

@@ -105,8 +105,17 @@ durabilidade de campo (L1/L3/L6), densificado em serviço (L7), conexões (L14),
 Crossref/Unpaywall/DOAJ da skill de descoberta. Candidato que entra vira ficha; candidato que não entra fica
 listado com o motivo.
 
-**Produto:** `ESTADO_DA_ARTE_BAMBU_ESTRUTURAL` + as fichas novas. O corpus desta gaveta comporta estado da
-arte próprio — tem densidade temática e passa de 40 fichas.
+**Produto — e o que ele ainda depende de medir.** A gaveta estrutural tem 42 arquivos de objeto estrutural e 49
+fichas, o que sugere que ela cumpre o critério do §5. **Sugere não é cumpre:** dos quatro requisitos, um é
+contagem (≥20 fichas), e os outros três — **≥10 fontes primárias conferidas**, mais de um objeto medido, e ao
+menos uma divergência medida entre autores — ainda não foram medidos nesta rodada. Ficam como **condição de
+elegibilidade pendente**, a ser decidida no fim da fase 2:
+
+- se os quatro se cumprirem → `ESTADO_DA_ARTE_BAMBU_ESTRUTURAL`;
+- se não → **nota de campo** (o que existe, o que não existe, por que não fecha) e insumo da síntese.
+
+Este parágrafo é a correção do achado P4 do Teco R1: a versão anterior apresentava o produto como sustentado
+("passa de 40 fichas") sem ter aplicado o critério que o próprio plano declara prévio.
 
 ### Onda 2 — `bambu-carbono` (a gaveta que nasce)
 
@@ -217,7 +226,10 @@ inventar. O que há é ordem e critério.
    biologia — e essa contagem pode mudar a ordem das ondas.
 3. **O conteúdo dos 608 MB cifrados** (`lote-*.age`). Precisa da chave de custódia; pode conter obra que
    muda o recorte.
-4. **A integridade dos 981 PDFs de `_privado/`.** Presença medida, hash e trailer não.
+4. **A integridade dos 981 PDFs de `_privado/`.** Presença medida, hash e trailer não. Junto com isso: a
+   **proveniência** de cada grupo (URL, data, rota de aquisição), a **licença** e as condições de acesso
+   (NC/ND muda o que se pode publicar) e a **duplicidade** entre grupos — o mesmo artigo pode estar em duas
+   árvores com nome diferente. São quatro conferências distintas que o inventário não fez (achado do Teco R1).
 5. **O protocolo da R4/LIDIA** para reauditoria de ficha publicada — a frente precisa que o releia e diga
    qual é o rito vigente: o que eu encontrei no repositório de governança é o portal de verificação
    (`portal.py`, contrato `R4-PORTAL-VERIFICACAO-R1`) e o mapa de frentes, e **a frente Bambu não está

@@ -37,35 +37,42 @@ documental está errado, e foi por isso que quatro rodadas de auditoria reprovar
 
 ## 1. Inventário medido — o que a gaveta `bambu-estrutural` contém hoje
 
-**74 arquivos `.md`**, mais este roteiro (75 no momento da escrita). Classificados pelo objeto que o **título**
-declara (`grep '^titulo:'`), não pelo nome da pasta — que é justamente o que este roteiro corrige.
+**77 arquivos `.md`** contados em 26/11/2026 — dos quais **49 são fichas** (`ficha-cientifica` 29,
+`ficha-academica` 20) e **28 não são** (instrumentos, estados da arte, mapas, índices, patentes, normas,
+visão autoral). A contagem é reproduzível:
 
-| família | nº | arquivos |
+```bash
+python3 docs/analyses/bambu-estrutural/scripts/contar_gaveta.py .   # imprime total, por tipo e a lista
+```
+
+*A versão anterior deste roteiro publicou uma tabela cujas linhas somavam 77 sob um total declarado de 74,
+e que chamava de "74 arquivos" o que era 74 antes dos três documentos desta rodada. O auditor mediu 77 e a
+soma errada — está corrigido aqui, com a lista nominal no script em vez de contagem digitada.*
+
+**Partição por objeto — próxima do que a coleção precisa, longe de resolvida.** Classificados pelo que o
+**título** e o tipo declaram, não pelo nome da pasta:
+
+| família | nº | o que entra |
 |---|---|---|
-| **estrutural** — material, propriedades, tratamento, densificação, painéis, norma, ACV, sistemas | **48** | `adier-2023`, `bussinger-2024`, `marcal-2018`, `alves-2025`, `reghin-2018`, `ficha-acv-…-araujo2025`, `nsr10-titulo-g-guadua`, `ficha-desempenho-sismico-puma-2014`, `rusch-2019`, `tarverdi-2024`, `sa-2022`, `godoy-junior-2024`, `santos-2020`, `rmat-2024`, `chung-wang-2017`, `ficha-efecto-humedad-gutierrez-2014`, `ficha-heat-treatment-pdms`, `ficha-effects-heat-treatment-scrimber`, `ficha-high-temperature-saturated-steam`, `costa-2015`, `oliveira-2025`, `gauss-2020`, `gauss-2023`, `pimentel-bi-oleo`, `moreira-silva-2022`, `martins-2021`, `ruggiero-2021`, `cordero-1990`, `pereira-2012`, `contecc-2025-especies-nativas`, `santos-2024-poetica`, `maturidade-tecnologica` (+`-en`,`-es`), `china-bamboo-connections-review-2019`, `neotropical-bamboo-review-2024`, `inbar-bru-v6n2-2025`, `revista-bambu-rbb-2022`, `ferreira-kalliola-2020` |
-| **síntese e registro da própria gaveta** | **10** | `estado-da-arte.md` (+`-en`, `-es`), `mapa-de-lacunas.md`, `mapa-de-evidencias.md`, `agenda-de-pesquisa.md`, `index.md`, `00-inventario-corpus-autoral`, `00-matriz-rastreabilidade…`, `00a-linha-do-tempo…`, `00-relatorio-auditoria-epistemica`, `00-lista-afirmacoes-para-revisao` |
-| **fitossanidade** — inseto, fungo, deterioração, patologia de obra | **5** | `bjb-2023-coleobrocas`, `bjb-2023-antimicrobiano-guadua`, `silveira-2015-controle-dinoderus`, `silva-2011-tratamento-pirolenhoso`, `contecc-2025-patologias-quiosque` |
-| **extrato pirolenhoso / licor / bi-óleo** | **4** | `embrapa-2007-extrato-pirolenhoso`, `martins-2017-licor-pirolenhoso`, `laroque-2022-liquido-pirolenhoso-pinus`, `resenha-beraldo-bambu-pirolenhoso` |
-| **biologia e ecologia** — floração, regeneração, propágulo, fenologia, floresta | **3** | `cerne-2021-minijardim-clonal`, `miranda-silva-2020-floracao-regeneracao`, `van-doninck-2020-ciclos-floracao-landsat` |
+| **estrutural** — material, propriedades, tratamento, densificação, painéis, norma, ACV, sistemas | **42** | propriedade e material, tratamento térmico, densificado, painéis e compósitos, norma (NBR, NSR-10), ACV, sistemas estruturais e revisões de conexões |
+| **síntese e registro da própria gaveta** | **15** | `estado-da-arte` (+`-en`,`-es`), `maturidade-tecnologica` (+`-en`,`-es`), `mapa-de-lacunas`, `mapa-de-evidencias`, `agenda-de-pesquisa`, `index`, os cinco `00-*` |
+| **extrato pirolenhoso / licor / bi-óleo** | **5** | `embrapa-2007`, `martins-2017`, `laroque-2022`, `resenha-beraldo`, `silva-2011` |
+| **fitossanidade** — inseto, fungo, deterioração, patologia de obra | **4** | `bjb-2023-coleobrocas`, `bjb-2023-antimicrobiano`, `silveira-2015`, `contecc-2025-patologias` |
+| **biologia e ecologia** — floração, regeneração, propágulo, fenologia, floresta | **4** | `cerne-2021`, `fadrique-2021`, `miranda-silva-2020`, `van-doninck-2020` |
 | **fitorremediação de metais** — fora do escopo de material | **2** | `ficha-chen-2015-cu-moso`, `ficha-liu-2015-pb-moso` |
 | **cadeia, mercado e conservação** | **2** | `lima-2019-bambus-nativos-cadeia`, `louredo-2025-bambu-materia-prima-mercado` |
-| **total** | **74** | — |
+| **instrumento da frente** (fora da partição) | **3** | `ROTEIRO`, `INVENTARIO`, `PLANO` desta rodada |
+| **total** | **77** | — |
 
-*Cada arquivo entra em **uma** família, para o total fechar em 74. As versões `-en`/`-es` de `estado-da-arte` e
-`maturidade-tecnologica` contam como arquivo próprio (são arquivos distintos no disco). As fichas de fronteira
-(`pimentel-bi-oleo`, `silva-2011`, `silveira-2015`, `carvalho-2013`, `fadrique-2021`) foram atribuídas à família
-do **objeto medido**, e a fronteira está discutida na §2 — é decisão de partição, não de contagem.*
+**A tabela acima é a saída do script, não contagem digitada.** Rodar
+`python3 docs/analyses/bambu-estrutural/scripts/contar_gaveta.py .` e conferir: 42 + 15 + 5 + 4 + 4 + 2 + 2 + 3 = 77.
+A regra de partição está escrita em `familia()` no próprio script, para que a classificação seja auditável linha a
+linha — não um adjetivo que eu afirmo.
 
-**Leitura honesta do número:** dos 74 arquivos, **16 não pertencem à gaveta estrutural** — 5 de fitossanidade,
-4 de pirolenhoso, 3 de biologia, 2 de fitorremediação, 2 de cadeia —, e mais `ficha-rocket-stove-cfd` (fogão),
-`pandoli-ghavami-sa-2023` (microreator), `mendonca-2018` (cinzas), `santos-2023` (polpa) e `ficha-efecto-humedad`
-(higroscopicidade, que fica), que não têm casa hoje. Não por erro de alguém: as pastas nasceram por onde a fonte
-entrou, não pelo que a fonte mede. É a primeira razão para partir a coleção em gavetas temáticas.
-
-**Leitura honesta do número:** a gaveta estrutural já não é só estrutural. Dos 74 arquivos, **~19 não pertencem
-a ela** (5 fitossanidade + 5 pirolenhoso + 4 biologia + 2 fitorremediação + 2 cadeia, com sobreposições
-declaradas). Não por erro de alguém: as pastas nasceram por onde a fonte entrou, não pelo que a fonte mede. É a
-primeira razão para partir a coleção em gavetas temáticas.
+**A leitura que importa:** a gaveta declarada como estrutural tem **49 fichas e 28 não-fichas**, e **~16
+fichas não são do tema** (4 fitossanidade + 4 pirolenhoso + 3 biologia + 2 fitorremediação + 2 cadeia, mais
+sobreposições). Não por erro de ninguém: as pastas nasceram por onde a fonte entrou, não pelo que a fonte
+mede.
 
 ## 2. A partição proposta — sete gavetas
 
@@ -146,7 +153,7 @@ e o escorregão já custou rodadas nesta frente.
 4. **Reescrever as referências cruzadas no mesmo commit**: `index.md` da gaveta, `index.md` de `docs/analyses`,
    links em `estado-da-arte.md`, `mapa-de-evidencias.md`, `mapa-de-lacunas.md` e nos geradores de HTML.
 5. **Rodar o verificador de links e declarar quantos quebraram** — e quantos foram consertados.
-6. **Uma gaveta por PR.** Partir 74 arquivos em cinco gavetas num PR só torna a revisão impossível e esconde o
+6. **Uma gaveta por PR.** Partir os 74 arquivos de conteúdo (77 menos os 3 instrumentos desta rodada) em cinco gavetas num PR só torna a revisão impossível e esconde o
    arquivo que foi para o lugar errado.
 7. **Preservar bytes.** `_privado/` não se move nesta operação; a gaveta é o markdown versionado.
 
@@ -157,16 +164,20 @@ manifesto antigo passa a apontar para caminho que não existe. O mapa é o que p
 
 ## 6. Ordem dos próximos passos
 
-| # | passo | dono | entrega |
-|---|---|---|---|
-| 1 | fechar a gaveta estrutural: transformar L1–L25 em rodadas na `agenda-de-pesquisa.md`, com pergunta, medida e critério de fracasso | executor da frente | agenda reescrita, auditada pelo Teco |
-| 2 | rodar R1 (janela térmica) e R2 (campo) — em sequência, sem pedir autorização entre elas | executor | resultado + fichas, por `producao-lote-documental` |
-| 3 | criar `bambu-biologia`, `bambu-fitossanidade`, `bambu-carbono` com `index.md` e `agenda-de-pesquisa.md` próprios, **vazias e declaradas** | executor | três gavetas com escopo escrito |
-| 4 | mover as fichas de biologia e fitossanidade para as gavetas novas, com `RENOMEACAO_<data>.json` (um PR por gaveta) | executor | arquivos movidos + mapa + links consertados |
-| 5 | separar em `pu-vegetal` o bambu-carga do bambu-poliol | executor | duas seções ou duas gavetas, decidido com o soberano |
-| 6 | decidir com o soberano o destino do pirolenhoso: gaveta própria (4) ou seção da estrutural | **soberano** | decisão escrita no `index.md` |
+| # | passo | dono | entrega | condição |
+|---|---|---|---|---|
+| 1 | fechar a gaveta estrutural: transformar L1–L25 em rodadas na `agenda-de-pesquisa.md`, com pergunta, medida e critério de fracasso | executor | agenda reescrita, auditada pelo Teco | **livre** |
+| 2 | Onda 0 do plano — cinco obras de prova, taxa de defeito e custo por obra | executor | medida | **livre** — é medição, não conclusão |
+| 3 | criar `bambu-biologia`, `bambu-fitossanidade`, `bambu-carbono` com `index.md` e `agenda-de-pesquisa.md` próprios, **vazias e declaradas** | executor | três gavetas com escopo escrito | depende da decisão sobre a fronteira de carbono |
+| 4 | mover as fichas de biologia e fitossanidade, com `RENOMEACAO_<data>.json` (um PR por gaveta) | executor | arquivos movidos + mapa + links | depois do passo 3 |
+| 5 | separar em `pu-vegetal` o bambu-carga do bambu-poliol | executor | duas seções ou duas gavetas | **decisão do soberano** |
+| 6 | decidir o destino do pirolenhoso: gaveta própria (4) ou seção da estrutural | **soberano** | decisão escrita no `index.md` | **antes do passo 3** |
 
----
+**O que "livre" significa e o que não significa.** Passo livre não pede autorização para *medir* — pede-a para
+*decidir*. Rodada de pesquisa que apenas mede e registra avança sem consulta. Rodada cujo resultado **derruba a
+tese** para, escreve o achado e espera: a conclusão não é do executor. Esta é a correção do achado P5 do
+Teco R1, que viu no passo 2 anterior ("rodar R1 e R2 sem pedir autorização entre elas") um compromisso de
+execução mais amplo do que o soberano autorizou.
 
 ## 7. O que este roteiro NÃO autoriza
 
