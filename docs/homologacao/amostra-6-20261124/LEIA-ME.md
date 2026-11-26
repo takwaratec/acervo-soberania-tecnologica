@@ -22,7 +22,8 @@ ela tem ato registrado (`FABIO_SOBERANO`, decisão opção 1, 21/11/2026, govern
 **Em 26/11/2026 o #135 entrou na main (`096fc26`) e incrementou as sete fichas**: tabelas transcritas com
 página por linha, contagens medidas pelo gate corrigido (A1). Este pacote foi **regerado a partir daquele
 commit** — os três agregados HTML e as duas tabelas deste arquivo descrevem o estado que a main tem agora, não o
-de 24/11. **Nenhuma ficha mudou de estado por causa disso**: todas seguem `em-revisao-documental`.
+de 24/11. **Nenhuma ficha mudou de estado por causa disso**: as seis sem ato seguem `em-revisao-documental`, e a
+PDMS mantém o ato de 21/11 — o incremento mudou o que a ficha transcreve, não o que o soberano decidiu.
 
 ```
 DATA=2026-11-24 · PACOTE REGERADO=2026-11-26
@@ -31,7 +32,7 @@ DOCUMENTO=docs/homologacao/amostra-6-20261124/AMOSTRA6_FICHAS_20261124.html
 SHA256=5564c7346a7a975796d449e142ccb4f5151444be96772d57e430687c0f38e53a
 TAMANHO=1.424.371 bytes · 74 fichas em arquivo único, sem requisição de rede
 PECA=docs/homologacao/amostra-6-20261124/PECA_SETE_MOLDE_20261125.html · sha256 3d4b64fb… · 135.257 bytes · 10 abas · 864 números · 859 aprovadas
-SETE=docs/homologacao/amostra-6-20261124/FICHAS_HOMOLOGACAO_SETE_20261124.html · sha256 997d8ded… · 107.184 bytes · 7 artigos · 864 itens
+SETE=docs/homologacao/amostra-6-20261124/FICHAS_HOMOLOGACAO_SETE_20261124.html · sha256 44c4703e… · 107.256 bytes · 7 artigos · 864 itens
 GATE=gate_fidelidade_fonte.py, sha256 do byte a16eb44a, self-test 96 (correção A1, PR #210)
 DENOMINADORES=numeros_na_ficha=864 · afirmacoes_resultado=694 · aprovadas=859
 ```
