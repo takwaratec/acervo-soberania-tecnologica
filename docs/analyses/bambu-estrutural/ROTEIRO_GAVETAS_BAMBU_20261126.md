@@ -1,5 +1,5 @@
 ---
-tipo_documental: roteiro-de-frente
+tipo_documental: instrumento-de-pesquisa
 estado_documental: em-revisao-documental
 data_revisao: 2026-11-26
 responsavel_curadoria: Fabio Takwara
