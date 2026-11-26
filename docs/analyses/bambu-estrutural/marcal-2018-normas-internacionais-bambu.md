@@ -9,6 +9,7 @@ fonte_primaria: PDF integral conferido
 pacote_fonte_privado: 2018-marcal-normas-bambu
 data_revisao: 2026-08-24
 responsavel_curadoria: Fabio Takwara
+declaracao_ia: "produção assistida por inteligência artificial; conferência na fonte e responsabilidade de homologação são humanas"
 gate_direitos: "Síntese analítica + referência OK; reprodução de tabelas/material extenso/tradução integral exigem autorização por escrito do autor (cessão de direitos, pág. 3 da dissertação). Esta ficha contém apenas análise curatorial e citações curtas como fundamento de síntese; não reproduz tabelas, desenhos ou texto extenso da dissertação."
 interpretacao: "Ficha acadêmica HISTÓRICA e ANALÍTICA — não é manual de construção nem validação normativa. Separa: (1) o que Marçal sistematizou em 2018; (2) o que cada norma prescreve na edição localizada; (3) o que permanece hipótese/lacuna/agenda para o Acervo brasileiro."
 ---
@@ -67,12 +68,44 @@ referências formadoras; a **NSR-10 (Colômbia, 2010)** como marco regional; e a
 - Uma **cadeia capaz de entregar colmos maduros, selecionados, preservados e secos** é condição
   relevante para a normalização.
 - Para **conexões/ligações alternativas**, na leitura de Marçal a norma equatoriana exige
-  **verificação por estudo científico com pelo menos 30 ensaios** — leitura prudencial do autor, não
+  **verificação por estudo científico com pelo menos 30 ensaios** (p. 147) — leitura prudencial do autor, não
   exigência normativa universal.
-- **Protótipo (caso histórico documentado):** estrutura de **63 m²** (entre pilares 8 × 6 m), de
-  *Dendrocalamus asper* de Luziânia-GO (2011), executada com técnicas deliberadamente **fora de
-  norma** (colunas enterradas; óleo queimado) e **vida útil de serviço projetada ~10 anos** — dados
-  de caso, não demonstração de segurança, durabilidade, conformidade ou desempenho estrutural geral.
+- **Protótipo (caso histórico documentado):** estrutura de **63 m²** (p. 150), com área entre pilares
+  de **8 × 6 m** (p. 152), de *Dendrocalamus asper* (p. 154) colhido em **maio de 2010** na região de
+  Luziânia-GO (p. 155), executada com
+  técnicas deliberadamente **fora de norma** (colunas enterradas; óleo queimado) e **vida útil de
+  serviço projetada de aproximadamente 10 anos** (p. 150) — dados de caso, não demonstração de
+  segurança, durabilidade, conformidade ou desempenho estrutural geral.
+
+## 6.1 Tabela comparativa — esforços admissíveis das três normas (MPa, CH = 12%)
+
+O valor de projeto é o que a ficha precisa entregar, e ele estava ausente: as três normas analisadas por
+Marçal fixam tensões admissíveis diferentes para a mesma *Guadua angustifolia* Kunth. `Pág.` é a página
+impressa da tese em que a tabela da norma é reproduzida.
+
+| Norma | Fb flexão | Ft tração | Fc compressão ∥ | Fp compressão ⊥ | Fv corte | Pág. |
+|---|---|---|---|---|---|---|
+| NSR-10 (Colômbia, 2010) | 15 | 18 | 14 | 1,4 | 1,2 | 132 |
+| Norma peruana NTE (2012) | 5 | 16 | 13 | 1,3 | 1 | 138 |
+| NEC GaK (Equador, 2017) | 15 | 19 | 14 | 1,4 | 1,2 | 139 |
+
+| Norma | Módulo médio | Módulo percentual | Módulo mínimo | Pág. |
+|---|---|---|---|---|
+| NSR-10 (Colômbia, 2010) | 9.500 | 7.500 | 4.000 | 132 |
+| Norma peruana NTE (2012) | 9.500 | – | 7.300 | 138 |
+
+**O que a comparação mostra:** Colômbia e Equador praticamente coincidem em compressão, corte e compressão
+perpendicular (p. 132 e p. 139), e divergem na tração (p. 132 e p. 139). O Peru é o caso fora da curva em
+flexão — a norma peruana fixa 5 MPa contra 15 MPa das outras duas (p. 138 contra p. 132 e p. 139), um terço
+— e traz módulo mínimo menor que o colombiano (p. 138 contra p. 132), que é o mais conservador dos dois. Para o mesmo material e a mesma umidade de referência, a
+norma escolhida muda o dimensionamento por um fator de três na flexão.
+
+**O que esta tabela não faz:** não julga qual norma está certa, não converte os valores para o formato da
+ABNT e não afirma que o produto equatoriano, peruano ou colombiano equivale ao brasileiro. A divergência
+está registrada; a escolha de projeto é do projetista, com a norma que o local exige.
+
+**Lacuna declarada:** a Tabela 13 da tese (módulos de elasticidade da norma equatoriana) não foi transcrita
+— a extração a entrega fora de ordem, e transcrever por posição seria adivinhar coluna.
 
 ## 7. Avaliação crítica (atribuição curatorial)
 
@@ -94,3 +127,17 @@ norma, ensaio, caso construído e experiência histórica.
 **Referência ABNT:** MARÇAL, Vitor Hugo Silva. *Análise comparativa de normas técnicas internacionais
 para o emprego do bambu-colmo em estruturas prediais*. 2018. Dissertação (Mestrado em Arquitetura e
 Urbanismo) — Universidade de Brasília, Brasília, 2018.
+
+## Declaração de uso de inteligência artificial
+
+Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas,
+conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que
+aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.
+
+**O que a inteligência artificial não faz:** ela não homologa. A homologação é ato humano, do responsável pela
+curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o
+número existe na página não substitui esse julgamento.
+
+**O que não foi feito:** nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte
+não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a
+fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.

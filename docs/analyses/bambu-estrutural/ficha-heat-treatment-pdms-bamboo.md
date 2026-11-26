@@ -26,6 +26,7 @@ idioma_fonte: en
 paginas_fonte: 9
 data_revisao: 2026-11-21
 responsavel_curadoria: Fabio Takwara
+declaracao_ia: "produção assistida por inteligência artificial; conferência na fonte e responsabilidade de homologação são humanas"
 autorizacao_homologacao: "FABIO_SOBERANO - decisao opcao 1, 21/11/2026 (governanca: ORDEM_HOMOLOGACAO_PDMS_20261121.md, commit 9e851095)"
 ---
 
@@ -75,6 +76,71 @@ O referencial articula tratamento térmico de bambu, degradação de hemicelulos
 | **Condicionamento** | Diferentes condições de umidade relativa para propriedades físicas; replicações conforme ensaio |
 
 O artigo não apresenta grupo de tratamento térmico seco ou a vapor na mesma matriz experimental, o que limita a separação entre o efeito do calor e o efeito específico do PDMS.
+
+## 5.1 Tabela 1 — inchamento por temperatura, umidade relativa e direção (p. 43441)
+
+Cinco temperaturas de tratamento (controle, 120, 150, 180, 210 °C) × três umidades relativas (30, 65, 85%, p. 43441)
+× três direções (T tangencial, R radial, L longitudinal, p. 43441). A célula traz média ± desvio padrão, como a fonte
+publica. `Pág.` é localizador.
+
+| Temperatura (°C) | UR (%) | Direção | Inchamento (%) | Pág. |
+|---|---|---|---|---|
+| Controle | 30 | T | 0.94 ± 0.13 | 43441 |
+| Controle | 30 | R | 1.40 ± 0.21 | 43441 |
+| Controle | 30 | L | 0.32 ± 0.04 | 43441 |
+| Controle | 65 | T | 1.32 ± 0.15 | 43441 |
+| Controle | 65 | R | 1.46 ± 0.25 | 43441 |
+| Controle | 65 | L | 0.33 ± 0.05 | 43441 |
+| Controle | 85 | T | 2.72 ± 0.35 | 43441 |
+| Controle | 85 | R | 2.49 ± 0.42 | 43441 |
+| Controle | 85 | L | 0.40 ± 0.04 | 43441 |
+| 120 | 30 | T | 0.65 ± 0.09 | 43441 |
+| 120 | 30 | R | 1.30 ± 0.18 | 43441 |
+| 120 | 30 | L | 0.29 ± 0.02 | 43441 |
+| 120 | 65 | T | 0.86 ± 0.09 | 43441 |
+| 120 | 65 | R | 1.38 ± 0.30 | 43441 |
+| 120 | 65 | L | 0.31 ± 0.04 | 43441 |
+| 120 | 85 | T | 2.32 ± 0.27 | 43441 |
+| 120 | 85 | R | 1.87 ± 0.23 | 43441 |
+| 120 | 85 | L | 0.38 ± 0.05 | 43441 |
+| 150 | 30 | T | 0.60 ± 0.11 | 43441 |
+| 150 | 30 | R | 1.15 ± 0.09 | 43441 |
+| 150 | 30 | L | 0.27 ± 0.15 | 43441 |
+| 150 | 65 | T | 0.73 ± 0.06 | 43441 |
+| 150 | 65 | R | 1.18 ± 0.19 | 43441 |
+| 150 | 65 | L | 0.30 ± 0.01 | 43441 |
+| 150 | 85 | T | 2.19 ± 0.29 | 43441 |
+| 150 | 85 | R | 1.76 ± 0.15 | 43441 |
+| 150 | 85 | L | 0.33 ± 0.02 | 43441 |
+| 180 | 30 | T | 0.45 ± 0.06 | 43441 |
+| 180 | 30 | R | 1.00 ± 0.11 | 43441 |
+| 180 | 30 | L | 0.26 ± 0.02 | 43441 |
+| 180 | 65 | T | 0.61 ± 0.05 | 43441 |
+| 180 | 65 | R | 1.04 ± 0.13 | 43441 |
+| 180 | 65 | L | 026 ± 0.02 | 43441 |
+| 180 | 85 | T | 1.32 ± 0.33 | 43441 |
+| 180 | 85 | R | 1.64 ± 0.18 | 43441 |
+| 180 | 85 | L | 0.32 ± 0.04 | 43441 |
+| 210 | 30 | T | 0.38 ± 0.02 | 43441 |
+| 210 | 30 | R | 0.84 ± 0.07 | 43441 |
+| 210 | 30 | L | 0.22 ± 0.01 | 43441 |
+| 210 | 65 | T | 0.48 ± 0.04 | 43441 |
+| 210 | 65 | R | 0.86 ± 0.10 | 43441 |
+| 210 | 65 | L | 0.22 ± 0.03 | 43441 |
+| 210 | 85 | T | 0.97 ± 0.14 | 43441 |
+| 210 | 85 | R | 1.57 ± 0.12 | 43441 |
+| 210 | 85 | L | 0.28 ± 0.05 | 43441 |
+
+**O que a tabela mostra (p. 43441):** em qualquer umidade e qualquer direção, o inchamento cai com a temperatura. Na
+UR de 85% (p. 43441) e direção tangencial, o controle incha 2,72% e o tratamento a 210 °C incha 0,97% — redução de mais
+de dois terços. A direção L é a mais estável em todas as condições (0,22 a 0,40%), o que é coerente com a
+orientação das fibras.
+
+**Tabela 2 não foi transcrita, e por medição.** A extração entrega a Tabela 2 (cor em CIELAB, p. 43444) com
+colunas deslocadas: o valor `b*` do controle sai como −808,86 e o `DL*` do tratamento a 120 °C como 173,98 —
+fora do domínio de um espaço cromático em que `b*` varia na casa das dezenas. Transcrever assim seria publicar
+número com fidelidade aparente e conteúdo errado. A ficha declara a lacuna; fechá-la exige reextração da
+p. 43444, e isso é pendência de custódia, não de redação.
 
 ## 6. Principais achados
 
@@ -145,3 +211,17 @@ O artigo amplia o estado da arte sobre meios líquidos de tratamento térmico e 
 **Referência ABNT:** ZHANG, Ying et al. Evaluating the comprehensive influences of heat treatment and polydimethylsiloxane on integrated performance of bamboo timber. *RSC Advances*, v. 10, n. 71, p. 43438–43446, 2020. DOI: [10.1039/d0ra08713k](https://doi.org/10.1039/d0ra08713k).
 
 > Ficha estruturada pelo protocolo de oito seções adotado pelo Acervo, com revisão humana e conferência da fonte integral. Conteúdo extraído do PDF integral original; elaboração em 13/07/2026.
+
+## Declaração de uso de inteligência artificial
+
+Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas,
+conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que
+aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.
+
+**O que a inteligência artificial não faz:** ela não homologa. A homologação é ato humano, do responsável pela
+curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o
+número existe na página não substitui esse julgamento.
+
+**O que não foi feito:** nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte
+não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a
+fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.
