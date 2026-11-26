@@ -1,0 +1,56 @@
+[
+ {
+  "vol": "Vol1",
+  "arquivo": "Bamboo-joint-capacity-determined-by-ISO-22156--comple_2022_Advances-in-Bambo.pdf",
+  "nome": "ligação ISO 22156",
+  "paginas": 11,
+  "referencia": "Harries et al. 2022 · ABS 1, 100003",
+  "sintese_propria": "Demonstra o protocolo de ensaio completo de ligação da ISO 22156 §10.2 usando uma ligação boca-de-peixe parafusada. A dispersão dos parâmetros foi alta e derrubou os valores característicos de escoamento e de rigidez rotacional. Os autores concluem que a geometria boca-de-peixe não serve para resistir a carga transversal no plano, e que o objetivo do artigo é o método, não o produto.",
+  "nota": "Síntese do autor desta peça. Nenhum trecho literal de terceiro é reproduzido aqui."
+ },
+ {
+  "vol": "Vol7",
+  "arquivo": "Behaviour-of-short-and-long-columns-made-from-bamboo-sc_2024_Advances-in-Bam.pdf",
+  "nome": "coluna scrimber",
+  "paginas": 13,
+  "referencia": "Goonewardena et al. 2024 · ABS 7, 100082",
+  "sintese_propria": "Revisão do comportamento de colunas de bambu scrimber curtas, intermediárias e longas. Cisalhamento domina a falha; flambagem local (kinking) reduz a capacidade dos colmos curtos; há efeito de tamanho com boa correlação com o volume. Conclui que seções de tamanho estrutural (100×100 mm ou maiores) praticamente não foram estudadas.",
+  "nota": "Síntese do autor desta peça. Nenhum trecho literal de terceiro é reproduzido aqui."
+ },
+ {
+  "vol": "Vol12",
+  "arquivo": "Investigation-of-the-flexural-capacity-of-glue-laminated-Bam_2025_Advances-i.pdf",
+  "nome": "glulam viga",
+  "paginas": 12,
+  "referencia": "Kumar et al. 2025 · ABS 12, 100183",
+  "sintese_propria": "Fabricação e ensaio de vigas de bambu laminado colado de Bambusa spinosa, com conferência por elementos finitos. Identifica janela ótima de colheita (40–50 mm de diâmetro, parede de 5–7 mm, 3 m acima da base, 3–4 anos) e que imersão salina de 7 dias melhorou as propriedades e afastou fungos. Flexão média de 146,78 MPa; aderência do adesivo de 15,45 MPa.",
+  "nota": "Síntese do autor desta peça. Nenhum trecho literal de terceiro é reproduzido aqui."
+ },
+ {
+  "vol": "Vol15",
+  "arquivo": "Mechanical-behaviour-of-bamboo-slat-structural-_2026_Advances-in-Bamboo-Scie.pdf",
+  "nome": "viga de ripas",
+  "paginas": 14,
+  "referencia": "Vasconcelos et al. 2026 · ABS 15, 100228",
+  "sintese_propria": "Propõe vigas estruturais de ripas de bambu. As de Dendrocalamus asper deram o melhor desempenho em flexão (carga e flecha); as de Moso, que vão melhor em tração, deram o pior. O reforço com barras roscadas — que confina as ripas — foi o que mais melhorou o comportamento. Não houve correlação direta entre volume de fibra e propriedades do elemento.",
+  "nota": "Síntese do autor desta peça. Nenhum trecho literal de terceiro é reproduzido aqui."
+ },
+ {
+  "vol": "Vol15",
+  "arquivo": "Predictive-structural-grading-of-Ethiopian-highland-bamboo--_2026_Advances-i.pdf",
+  "nome": "classificação Etiópia",
+  "paginas": 22,
+  "referencia": "Shikur et al. 2026 · ABS 15, 100240",
+  "sintese_propria": "Classificação estrutural de colmos de bambu etíope (Oldeania alpina) por massa linear, conforme a lógica da ISO 19624. Sete classes de carga, de cerca de 29 a 80 kN, com razão média/característico caindo de 1,79 para 1,35 conforme a classe sobe. Massa linear é uma régua que se mede com balança.",
+  "nota": "Síntese do autor desta peça. Nenhum trecho literal de terceiro é reproduzido aqui."
+ },
+ {
+  "vol": "Vol3",
+  "arquivo": "Structural-bamboo-composites--A-review-of-processing--fa_2023_Advances-in-Ba.pdf",
+  "nome": "revisão compósitos",
+  "paginas": 16,
+  "referencia": "Revisão · ABS 3, 100026",
+  "sintese_propria": "Revisão dos compósitos estruturais de bambu (LBL e SBL) como resposta à irregularidade do colmo rolico. Argumenta que a classificação estrutural do colmo e a transformação em seção regular resolvem os dois gargalos de uso: forma irregular e variabilidade alta de propriedades.",
+  "nota": "Síntese do autor desta peça. Nenhum trecho literal de terceiro é reproduzido aqui."
+ }
+]
