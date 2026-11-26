@@ -4,7 +4,8 @@ titulo: Bambu laminado colado — produção, caracterização e aceitação cul
 autores: José Ricardo Reghin Filho
 ano: 2018
 identificador: UEM, Mestrado em Engenharia Urbana
-estado_documental: homologado-documentalmente
+estado_documental: em-revisao-documental
+estado_anterior: "homologado-documentalmente (sem ato de homologacao registrado; rebaixada em 2026-11-25)"
 fonte_primaria: PDF integral conferido
 pacote_fonte_privado: 2018-reghin-bambu-laminado-colado
 data_revisao: 2026-08-19

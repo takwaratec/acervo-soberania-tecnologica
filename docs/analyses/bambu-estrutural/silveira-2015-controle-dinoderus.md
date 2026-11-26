@@ -4,7 +4,8 @@ titulo: Avaliação do controle sustentável do caruncho Dinoderus minutus em p�
 autores: Edilson Soares da Silveira
 ano: 2015
 identificador: UCDB, Doutorado em Ciências Ambientais e Sustentabilidade Agropecuária
-estado_documental: homologado-documentalmente
+estado_documental: em-revisao-documental
+estado_anterior: "homologado-documentalmente (sem ato de homologacao registrado; rebaixada em 2026-11-25)"
 fonte_primaria: PDF integral conferido
 pacote_fonte_privado: 2015-silveira-controle-dinoderus
 data_revisao: 2026-08-19
