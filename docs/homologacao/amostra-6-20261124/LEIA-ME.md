@@ -5,17 +5,31 @@ data_revisao: 2026-11-24
 responsavel_curadoria: Fabio Takwara
 titulo: "Amostra 6 — pacote de homologação por leitura humana"
 autor: Fabio Takwara
-resumo: "Pacote de leitura das sete fichas da gaveta bambu-estrutural em homologação."
+resumo: "Pacote de leitura das sete fichas da gaveta bambu-estrutural submetidas a homologação."
 ---
 
 # AMOSTRA 6 — pacote de homologação por leitura humana
 
+## 0. Estado declarado — posterioridade ao PR #133
+
+Este pacote foi montado em 2026-11-24, quando onze fichas da gaveta ainda carregavam o rótulo
+`homologado-documentalmente`. Em 2026-11-25 o soberano mandou **rebaixar as onze**, e o acervo as
+devolveu a `em-revisao-documental` (PR #133, `a5c6af6`): nenhuma delas tinha `autorizacao_homologacao`
+no front matter, e homologação é ato do soberano, não estado que se declara. A única ficha com ato
+registrado é a PDMS (`FABIO_SOBERANO`, 21/11/2026, `9e851095`).
+
+O `AMOSTRA6_FICHAS_20261124.html` foi regerado com esse rebaixamento refletido: o índice mostrava 12
+fichas como homologadas e agora mostra 74 em revisão. **Rótulo no front matter não é homologação.** Nenhuma
+das sete submetidas neste pacote recebeu ou perdeu estado por esta nota — elas continuam `em-revisao-documental`,
+e o que este pacote oferece ao soberano é a leitura, não o carimbo.
+
 ```
 DATA=2026-11-24
-BASE=acervo, branch hermes/correcao-amostra6-20261122, head 526bb42
+BASE=acervo, branch hermes/bambu-7fichas-rebase-a5c6af6-20261125, base a5c6af6 (com o rebaixamento do #133)
 DOCUMENTO=docs/homologacao/amostra-6-20261124/AMOSTRA6_FICHAS_20261124.html
-SHA256=e5da90cb6976b9cb008db76d4c4262c69ec396c662ca967fd64acc470182a374
-TAMANHO=1.387.979 bytes · 74 fichas em arquivo único, sem requisição de rede
+DOCUMENTO_REGERADO=2026-11-25, so o estado das fichas no indice (12 homologado-documentalmente -> 74 em-revisao-documental)
+SHA256=9caf11f48fbc88d497f4678ac851524c9e8c8cb3ced3bda4be40fd93920866bb
+TAMANHO=1.387.787 bytes · 74 fichas em arquivo único, sem requisição de rede
 GATE=gate_fidelidade_fonte.py, self-test 95 (main do portão 917886f2 + O5 + O3)
 ```
 
@@ -74,3 +88,23 @@ python3 gate_fidelidade_fonte.py --dir . --glob '*.md' --fontes <raiz-privada> -
 ```
 
 `<raiz-privada>` = `_privado/fontes-academicas,_privado/fontes-documentais,_privado/fontes-científicas`.
+
+## 7. Re-medição em 2026-11-25, com o gate corrigido (A1)
+
+O gate desta frente foi corrigido hoje: a página passou a valer para a **linha** da tabela, e não só
+para a primeira célula (PR #210 no laboratório de governança). Medido com ele, o estado das sete:
+
+| ficha | estado | afirmações de resultado | com página | sem página |
+|---|---|---|---|---|
+| `adier-2023` | `PASS` | 9 | 9 | 0 |
+| `ficha-acv-bambu-unesp-araujo2025` | `PARCIAL` | 9 | 8 | 1 |
+| `ficha-chen-2015` | `PASS` | 12 | 12 | 0 |
+| `ficha-heat-treatment-pdms` | `PASS` | 41 | 41 | 0 |
+| `ficha-liu-2015` | `PASS` | 12 | 12 | 0 |
+| `marcal-2018` | `PASS` | 2 | 2 | 0 |
+| `santos-2024` | `PASS` | 11 | 11 | 0 |
+
+A tabela do §2 acima é a medição de 24/11 com o gate anterior e **não deve ser lida como estado atual**.
+A única que ainda cai é a ACV, e por um item só: continua `PARCIAL` porque a Tabela 2 foi transcrita como
+bloco literal — o formato que o gate antigo premiava. O conteúdo está lá; o que falta é a transcrição em
+formato de tabela, que é trabalho de ficha, não de pacote.
