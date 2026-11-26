@@ -153,12 +153,26 @@ para biologia; **o dano** (quem ataca, quanto come, como se defende) vai para fi
 **Fase 3:** completar a partir das 254 — o periódico tem coleção especial de **recursos de bambu em clima em
 mudança**, que trata explicitamente de suscetibilidade a pragas e doenças.
 
-### Onda 4 — `bambu-pirolenhoso` + `pu-vegetal`
+### Onda 4 — `bambu-tratamento` + `bambu-tratamento-sustentavel`
 
-**Por que depois:** depende de decisão de fronteira. O pirolenhoso é extrato de bambu e insumo de PU; a regra
-proposta é "a ficha mora onde está a fonte que ela extrai, e a ligação entre gavetas é link, não cópia".
-`pu-vegetal` tem 41 arquivos e agenda própria — a primeira rodada dela não é fichar, é **separar** bambu-carga
-de bambu-poliol, porque hoje as duas coisas convivem sem distinção.
+**Corrigido por ato do soberano em 26/11/2026** (registro: `ATO_SOBERANO_BAMBU_20261126.md`). A versão anterior
+desta onda tratava "pirolenhoso + pu-vegetal" juntos, com o extrato como insumo do PU. **Não é mais o desenho:**
+o tratamento tem duas gavetas — convencional e sustentável — e o pirolenhoso mora na sustentável, separado do
+`pu-vegetal`, que passa a tratar de resina e adesivo.
+
+**Fase 1 — criar as duas** com `index.md` e `agenda-de-pesquisa.md` próprios, e registrar em `GAVETAS_R4.json`
+(já registradas como declaradas sem conteúdo medido).
+
+**Fase 2 — partição das fichas existentes.** São hoje 5 de rota pirogênica na gaveta estrutural (`embrapa-2007`,
+`martins-2017`, `laroque-2022`, `resenha-beraldo`, `silva-2011`), das quais **`laroque-2022` é pinus, não bambu**
+— decisão de escopo pendente. E as fichas de modificação térmica ficam retidas até a decisão de fronteira.
+
+**Fase 3 — completar a partir das 254**, que têm linha de tratamento de força.
+
+**Bloqueio declarado:** as duas gavetas não recebem partição antes de o soberano decidir onde fica a
+**modificação térmica** (§2.2 do ato). Criar a gaveta não é o mesmo que distribuir as fichas.
+
+### Onda 5 — `bambu-alimentacao-e-outros-usos`
 
 ### Onda 5 — `bambu-alimentacao-e-outros-usos`
 
@@ -242,8 +256,17 @@ inventar. O que há é ordem e critério.
 
 ## 8. O que precisa da sua decisão, e não é minha
 
-- **a fronteira de `bambu-carbono`** — estoque/sequestro apenas, ou também produto de carbono?
+**Decidido por ato em 26/11/2026** (registro em `ATO_SOBERANO_BAMBU_20261126.md`): a frente entra no LIDIA; a
+gaveta de carbono abre; o tratamento se divide em convencional e sustentável; o pirolenhoso vai para a
+sustentável, separado do `pu-vegetal`. **O #137 não é medido sem o soberano ver o HTML das fichas.**
+
+**Segue pendente:**
+
+- **a fronteira de `bambu-carbono`** — estoque/sequestro apenas, ou também produto de carbono? **bloqueia a
+  criação da gaveta**;
+- **onde fica a modificação térmica** — convencional ou sustentável? **bloqueia a partição das fichas de
+  tratamento**;
+- **`laroque-2022`, que é pinus** — fica na coleção Bambu como método transferível, ou sai?;
 - **a janela de "recente"** na busca de atualização;
 - **quem executa a reauditoria da R4** — se é a própria frente com o portal, ou rito próprio da R4;
-- **o destino do pirolenhoso** — gaveta própria ou seção da estrutural;
 - **a separação de `pu-vegetal`** entre bambu-carga e bambu-poliol.

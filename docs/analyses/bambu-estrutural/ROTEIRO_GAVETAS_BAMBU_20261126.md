@@ -74,30 +74,42 @@ fichas não são do tema** (4 fitossanidade + 4 pirolenhoso + 3 biologia + 2 fit
 sobreposições). Não por erro de ninguém: as pastas nasceram por onde a fonte entrou, não pelo que a fonte
 mede.
 
-## 2. A partição proposta — sete gavetas
+## 2. A partição — oito gavetas, depois do ato de 26/11
+
+**O que mudou por ato do soberano (26/11/2026), e está registrado em `ATO_SOBERANO_BAMBU_20261126.md`:** a
+gaveta de tratamento **se divide em convencional e sustentável**, e o **pirolenhoso vai para a sustentável,
+separado do `pu-vegetal`**. A partição abaixo já incorpora isso — e revoga a regra anterior que tratava o
+extrato como insumo do PU vegetal.
 
 Nomes de pasta seguem o padrão já vivo na árvore (kebab, objeto antes do qualificador). A renomeação é
 **operação auditada** (§5), nunca `mv` solto.
 
 | # | gaveta | objeto | o que ela cataloga | o que fica FORA |
 |---|---|---|---|---|
-| 1 | `bambu-estrutural` | o colmo e o material como elemento resistente | propriedades mecânicas e físicas, tratamento preservante, densificação, painéis/CLB/compósitos, normas, ACV de material, desempenho sísmico, sistemas construtivos | biologia, inseto, mercado, cadeia |
+| 1 | `bambu-estrutural` | o colmo e o material como elemento resistente | propriedades mecânicas e físicas, densificação, painéis/CLB/compósitos, normas, ACV de material, desempenho sísmico, sistemas construtivos | tratamento (que tem gaveta própria), biologia, inseto, mercado |
 | 2 | `bambu-biologia` | a planta e a floresta | floração, regeneração, propágulo e minijardim, fenologia, distribuição e dinâmica de florestas dominadas por bambu, genética e anatomia do colmo | desempenho mecânico, preservante, obra |
-| 3 | `bambu-fitossanidade` | o organismo que ataca e a defesa | coleobrocas, coleópteros, *Dinoderus*, fungos e deterioração, patologias de obra por ataque biológico, controle e manejo pós-colheita | tratamento térmico/químico (é da 1), toxicidade do preservante (é da 1) |
-| 4 | `bambu-pirolenhoso` | o extrato como objeto químico e produto | produção do licor/extrato, caracterização, ação antifúngica e inseticida, bi-óleo, toxicidade e resíduo do extrato | pirolenhoso como insumo de PU vegetal (é da 5) e a ficha do fogão/forno (é da 7) |
-| 5 | `pu-vegetal` | poliuretano de origem vegetal | **gaveta existente**, 41 arquivos — recebe o que for PU e não bambu | avaliação de bambu como carga, que fica na 1 |
-| 6 | `bambu-carbono` | carbono do bambu: sequestro, estoque, biochar e cinzas | estoque e balanço de carbono, biochar, cinzas como pozolana, ciclo de vida do carbono | ACV de material (é da 1) e polpa (é da 7) |
-| 7 | `bambu-alimentacao-e-outros-usos` | o que sobra | broto e alimentação, polpa e celulose, forno e fogão a biomassa, microreator, cadeia e mercado | material estrutural, biologia, fitossanidade |
+| 3 | `bambu-fitossanidade` | o organismo que ataca e a defesa | coleobrocas, coleópteros, *Dinoderus*, fungos e deterioração, patologias de obra por ataque biológico, controle e manejo pós-colheita | o tratamento em si (é da 4 ou da 5), toxicidade do preservante (idem) |
+| 4 | **`bambu-tratamento`** | **a rota convencional** | preservante químico convencional, imunização, secagem, impregnação sob pressão, modificação química, **e a modificação térmica a decidir** (§2.2 do ato) | extrato pirolenhoso (é da 5), biologia, inseto |
+| 5 | **`bambu-tratamento-sustentavel`** | **a rota sustentável** | extrato pirolenhoso, licor, bi-óleo, tratamento sem preservante convencional, ação antifúngica e inseticida do extrato, toxicidade e resíduo | resina e adesivo de PU (é da 6) — link, não cópia |
+| 6 | `pu-vegetal` | poliuretano de origem vegetal | **gaveta existente**, 41 arquivos — resinа, adesivo, poliol e carga de origem vegetal | o extrato como tratamento do bambu, que agora é da 5 |
+| 7 | `bambu-carbono` | carbono do bambu: sequestro, estoque, biochar e cinzas | estoque e balanço de carbono, biochar, cinzas como pozolana, ciclo de vida do carbono | ACV de material (é da 1) e polpa (é da 8). **Fronteira ainda a decidir pelo soberano** |
+| 8 | `bambu-alimentacao-e-outros-usos` | o que sobra | broto e alimentação, polpa e celulose, forno e fogão a biomassa, microreator, cadeia e mercado | material estrutural, biologia, fitossanidade, tratamento |
 
-**Gaveta 2 x 3 — a fronteira que mais vai ser disputada.** Regra: se o objeto da ficha é **a planta** (floração,
-regeneração, floresta, genética), vai para a 2. Se o objeto é **o dano** (quem ataca, quanto come, como se
-defende), vai para a 3. `silva-2011` e `silveira-2015` medem controle de *Dinoderus* → 3. `bjb-2023-antimicrobiano`
-mede extrato contra fungo → 3, e o extrato como insumo vai para a 4 sem duplicar a ficha.
+**Fronteira 2 x 3 — a que mais vai ser disputada.** Se o objeto da ficha é **a planta** (floração,
+regeneração, floresta, genética), vai para a 2. Se é **o dano** (quem ataca, quanto come, como se defende),
+vai para a 3. `silveira-2015` mede controle de *Dinoderus* → 3. `bjb-2023-antimicrobiano` mede extrato contra
+fungo → 3 pelo objeto do dano **e** a fonte vai para a 5 pelo objeto do extrato: são duas perguntas, e a ficha
+mora em uma só; a outra entra por link.
 
-**Gaveta 4 x 5 — a segunda disputa.** O pirolenhoso é extrato de bambu (4) *e* insumo em formulação de PU (5).
-A regra: a ficha vai para onde está **a fonte que ela extrai**; a ligação entre gavetas é link, não cópia.
+**Fronteira 4 x 5 — convencional x sustentável, e o caso que ainda não tem resposta.** A divisão está ordenada
+pelo soberano; o critério operacional é: **a rota depende de preservante convencional ou de produto de origem
+biológica/pirogênica?** O caso aberto é a **modificação térmica** — PDMS, vapor saturado, termorretificação. É
+tratamento sem produto químico, mas não é extrato nem rota biológica. Sem decisão, essas fichas ficam na 1 e
+estão nomeadas como pendência (§2.2 do ato).
 
----
+**O que o ato revoga nesta seção:** a regra anterior — "o pirolenhoso vai para onde está a fonte que ela extrai,
+podendo ir ao PU". O critério "onde está a fonte" continua valendo para dirimir dúvida de partição em geral;
+**não vale mais para o pirolenhoso**, que tem gaveta por decisão, não por classificação.
 
 ## 3. PU vegetal, carbono e alimentação — o que já existe
 
@@ -171,7 +183,7 @@ manifesto antigo passa a apontar para caminho que não existe. O mapa é o que p
 | 3 | criar `bambu-biologia`, `bambu-fitossanidade`, `bambu-carbono` com `index.md` e `agenda-de-pesquisa.md` próprios, **vazias e declaradas** | executor | três gavetas com escopo escrito | depende da decisão sobre a fronteira de carbono |
 | 4 | mover as fichas de biologia e fitossanidade, com `RENOMEACAO_<data>.json` (um PR por gaveta) | executor | arquivos movidos + mapa + links | depois do passo 3 |
 | 5 | separar em `pu-vegetal` o bambu-carga do bambu-poliol | executor | duas seções ou duas gavetas | **decisão do soberano** |
-| 6 | decidir o destino do pirolenhoso: gaveta própria (4) ou seção da estrutural | **soberano** | decisão escrita no `index.md` | **antes do passo 3** |
+| 6 | ~~decidir o destino do pirolenhoso~~ | soberano | **DECIDIDO em 26/11**: gaveta `bambu-tratamento-sustentavel`, separada do `pu-vegetal` | — |
 
 **O que "livre" significa e o que não significa.** Passo livre não pede autorização para *medir* — pede-a para
 *decidir*. Rodada de pesquisa que apenas mede e registra avança sem consulta. Rodada cujo resultado **derruba a
