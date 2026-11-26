@@ -77,7 +77,7 @@ mede.
 ## 2. A partição — oito gavetas, depois do ato de 26/11
 
 **O que mudou por ato do soberano (26/11/2026), e está registrado em `ATO_SOBERANO_BAMBU_20261126.md`:** a
-gaveta de tratamento **se divide em convencional e sustentável**, e o **pirolenhoso vai para a sustentável,
+gaveta de tratamento **se divide em sintético/químico e sustentável**, e o **pirolenhoso vai para a sustentável,
 separado do `pu-vegetal`**. A partição abaixo já incorpora isso — e revoga a regra anterior que tratava o
 extrato como insumo do PU vegetal.
 
@@ -89,7 +89,7 @@ Nomes de pasta seguem o padrão já vivo na árvore (kebab, objeto antes do qual
 | 1 | `bambu-estrutural` | o colmo e o material como elemento resistente | propriedades mecânicas e físicas, densificação, painéis/CLB/compósitos, normas, ACV de material, desempenho sísmico, sistemas construtivos | tratamento (que tem gaveta própria), biologia, inseto, mercado |
 | 2 | `bambu-biologia` | a planta e a floresta | floração, regeneração, propágulo e minijardim, fenologia, distribuição e dinâmica de florestas dominadas por bambu, genética e anatomia do colmo | desempenho mecânico, preservante, obra |
 | 3 | `bambu-fitossanidade` | o organismo que ataca e a defesa | coleobrocas, coleópteros, *Dinoderus*, fungos e deterioração, patologias de obra por ataque biológico, controle e manejo pós-colheita | o tratamento em si (é da 4 ou da 5), toxicidade do preservante (idem) |
-| 4 | **`bambu-tratamento`** | **a rota convencional** | preservante químico convencional (CCB, CCA, boro), imunização, impregnação sob pressão, secagem como etapa de processo | **vapor saturado com agente de origem biológica** (é da 5), **termorretificação** (é da 5), extrato pirolenhoso (é da 5) |
+| 4 | **`bambu-tratamento`** | **a rota sintética/química** | preservante químico convencional (CCB, CCA, boro), imunização, impregnação sob pressão, secagem como etapa de processo, **PDMS e demais compostos sintéticos** | vapor saturado e termorretificação (é da 5), extrato pirolenhoso (é da 5) |
 | 5 | **`bambu-tratamento-sustentavel`** | **a rota sem aditivo de síntese** | **vapor saturado com pirolenhoso, com tanino ou com sal**; **só vapor**; **termorretificação** (só calor, sem aditivo); extrato pirolenhoso, licor, bi-óleo; ação antifúngica e inseticida do extrato; toxicidade e resíduo | resina e adesivo de PU (é da 6) — link, não cópia; preservante convencional (é da 4) |
 | 6 | `pu-vegetal` | poliuretano de origem vegetal | **gaveta existente**, 41 arquivos — resina, adesivo, poliol e carga de origem vegetal | o extrato como tratamento do bambu, que é da 5 |
 | 7 | `bambu-carbono` | **o carbono do bambu, do estoque ao produto** | estoque e sequestro de carbono (biomassa, solo, MRV); **materiais de carbono**; **biochar**; **cinza**; **carvão**; **carvão ativado**; ciclo de vida do carbono | ACV de material (é da 1) e polpa/celulose como fibra (é da 8) |
@@ -112,12 +112,12 @@ mora em uma só; a outra entra por link.
 | vapor saturado **com pirolenhoso, com tanino ou com sal** | **5 — sustentável** | o agente de saturação é de origem biológica ou mineral natural, não de síntese |
 | **só vapor** | **5 — sustentável** | não há aditivo; a rota é física |
 | **termorretificação** (só calor, sem aditivo) | **5 — sustentável** | é uma das vias da rota biológica, por ausência de aditivo |
-| preservante químico convencional (CCB, CCA, boro), impregnação sob pressão | **4 — convencional** | aditivo de síntese |
-| **PDMS** (polidimetilsiloxano) | **caso à parte — decidido pelo soberano** | é aditivo **sintético**, mas de função polimérica e não biocida; não é conservante clássico nem rota sem aditivo. Fica nomeado, não classificado por analogia |
+| preservante químico convencional (CCB, CCA, boro), impregnação sob pressão | **4 — sintético/químico** | composto de síntese com função biocida |
+| **PDMS** (polidimetilsiloxano) e demais **compostos sintéticos** | **4 — sintético/químico** | decisão do soberano em 26/11: *"se trata de um composto sintético, portanto não é orgânico, não é natural"* — sintético, ainda que sem função biocida |
 
 **O critério, em uma frase:** entra na 5 o tratamento cujo **agente é ausente, biológico ou mineral natural**;
-entra na 4 o que usa **aditivo de síntese com função biocida**; e o que usa **aditivo de síntese sem função
-biocida** é caso à parte — hoje, o PDMS.
+entra na 4 **todo tratamento que usa composto sintético**, com ou sem função biocida. A divisão é de
+**origem do agente** — natural × sintético — e não de função: o PDMS não é biocida e é sintético, logo é da 4.
 
 **O que o ato revoga nesta seção:** a regra anterior — "o pirolenhoso vai para onde está a fonte que ela extrai,
 podendo ir ao PU". O critério "onde está a fonte" continua valendo para dirimir dúvida de partição em geral;
