@@ -4,7 +4,8 @@ titulo: Projeto Bambu — introdução de espécies, manejo, caracterização e 
 autores: Marco Antonio dos Reis Pereira
 ano: 2012
 identificador: Unesp/Bauru, Livre-Docência na disciplina Design e Construção com Bambu
-estado_documental: homologado-documentalmente
+estado_documental: em-revisao-documental
+estado_anterior: "homologado-documentalmente (sem ato de homologacao registrado; rebaixada em 2026-11-25)"
 fonte_primaria: PDF integral conferido
 pacote_fonte_privado: 2012-pereira-projeto-bambu
 data_revisao: 2026-08-19
