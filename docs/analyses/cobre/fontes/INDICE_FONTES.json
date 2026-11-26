@@ -1,0 +1,693 @@
+{
+ "schema": "INDICE_FONTES_R1",
+ "gaveta": "cobre",
+ "frente": "COBRE",
+ "mede": "uma linha por fonte da gaveta, com identificador estável e o estado real de custódia. Não mede se a fonte sustenta a afirmação: isso é a ficha.",
+ "regra_de_id": "slug do nome do arquivo, minúsculo; não deriva da numeração da bibliografia",
+ "total": 47,
+ "fontes": {
+  "blog-tecnicas-como-tratar-bambu": {
+   "id": "blog-tecnicas-como-tratar-bambu",
+   "arquivo": "blog-tecnicas-como-tratar-bambu.htm",
+   "sha256": "883ee26c3e94d04ee8aad3953638cd00f0387665c0e2aa9e58e3b6d7260233fe",
+   "bytes": 98810,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/blog-tecnicas-como-tratar-bambu.md",
+   "ref_bibliografia": [],
+   "manifestos": [
+    "MANIFEST_FONTES_PUBLICADAS.json"
+   ]
+  },
+  "blog-tecnicas-construcao-sustentavel-como-tratar-bambu": {
+   "id": "blog-tecnicas-construcao-sustentavel-como-tratar-bambu",
+   "arquivo": "blog-tecnicas-construcao-sustentavel-como-tratar-bambu.md",
+   "sha256": "01015f9ab1b63ccb12150e02575b74d413ccd09f296f56c486d41164c9128cec",
+   "bytes": 20041,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/blog-tecnicas-construcao-sustentavel-como-tratar-bambu.md",
+   "ref_bibliografia": [],
+   "manifestos": [
+    "MANIFEST_FONTES_PUBLICADAS.json"
+   ]
+  },
+  "br-conama-357-2005-qualidade-aguas": {
+   "id": "br-conama-357-2005-qualidade-aguas",
+   "arquivo": "BR_CONAMA_357_2005_Qualidade_Aguas.pdf",
+   "sha256": "7ec713c45154ba60ee9e43535580548b98c0bcce4abddef1a9543c46db29e21f",
+   "bytes": 205937,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Boratos_Cobre/pdf/BR_CONAMA_357_2005_Qualidade_Aguas.pdf",
+   "extrato_curado": "fontes/md/BR_CONAMA_357_2005_Qualidade_Aguas.md",
+   "ref_bibliografia": [
+    10
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_NORMATIVAS.json"
+   ]
+  },
+  "br-conama-430-2011-efluentes": {
+   "id": "br-conama-430-2011-efluentes",
+   "arquivo": "BR_CONAMA_430_2011_Efluentes.pdf",
+   "sha256": "cd077d102b9427dcd20dcb8b2a812f0b54945965663c4a21d1667d80b9340da6",
+   "bytes": 158284,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Boratos_Cobre/pdf/BR_CONAMA_430_2011_Efluentes.pdf",
+   "extrato_curado": "fontes/md/BR_CONAMA_430_2011_Efluentes.md",
+   "ref_bibliografia": [
+    9
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_NORMATIVAS.json"
+   ]
+  },
+  "embrapa-cot110-tratamento-madeira-propriedade-rural": {
+   "id": "embrapa-cot110-tratamento-madeira-propriedade-rural",
+   "arquivo": "embrapa-cot110-tratamento-madeira-propriedade-rural.pdf",
+   "sha256": "86de88b29be0fef34554121dc7a670f71975cf91ddf3664a422525d6b0fd1485",
+   "bytes": 5087230,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/embrapa-cot110-tratamento-madeira-propriedade-rural.pdf",
+   "extrato_curado": "fontes/md/embrapa-cot110-tratamento-madeira-propriedade-rural.md",
+   "ref_bibliografia": [],
+   "manifestos": [
+    "MANIFEST_FONTES_PUBLICADAS.json"
+   ]
+  },
+  "embrapa-pfb-2023-rusch": {
+   "id": "embrapa-pfb-2023-rusch",
+   "arquivo": "embrapa-pfb-2023-rusch.pdf",
+   "sha256": "c394489567bc801af4bb1fa983e397322324f63478aacb035266da8a77264db1",
+   "bytes": 2251942,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_CCA_CCB/Rusch_2023_CCB_Bambu.pdf",
+   "extrato_curado": "fontes/md/embrapa-pfb-2023-rusch.md",
+   "ref_bibliografia": [],
+   "manifestos": [
+    "MANIFEST_FONTES_PUBLICADAS.json"
+   ]
+  },
+  "espaconaturalmente-bambu": {
+   "id": "espaconaturalmente-bambu",
+   "arquivo": "espaconaturalmente-bambu.htm",
+   "sha256": "19dadd086288c126fe4d3434dbbc3021788521d84d04bf605489cf908528b4cb",
+   "bytes": 170675,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/espaconaturalmente-bambu.md",
+   "ref_bibliografia": [],
+   "manifestos": [
+    "MANIFEST_FONTES_PUBLICADAS.json"
+   ]
+  },
+  "gauss-2020-metadados": {
+   "id": "gauss-2020-metadados",
+   "arquivo": "gauss-2020-metadados.json",
+   "sha256": "d6e3b7301ea092a8e11cf123ab629783d8849c16a9ca0f6eef0e9db0e68c7e9c",
+   "bytes": 962,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/gauss-2020-metadados.md",
+   "ref_bibliografia": [
+    8
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "gauss-2020-tratamento-preservativo": {
+   "id": "gauss-2020-tratamento-preservativo",
+   "arquivo": "gauss-2020-tratamento-preservativo.pdf",
+   "sha256": "dfc13c3cfcb9662f75f0704d722258f8e78e07435f0ad70d71e8331ab9d89a1a",
+   "bytes": 15291496,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-academicas/2020-gauss-tratamento-preservativo-modificacao-quimica/original.pdf",
+   "extrato_curado": "fontes/md/gauss-2020-tratamento-preservativo.md",
+   "ref_bibliografia": [
+    8
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "manual-irrigacao-bambu-conbea97": {
+   "id": "manual-irrigacao-bambu-conbea97",
+   "arquivo": "manual-irrigacao-bambu-conbea97.pdf",
+   "sha256": "c6cbdd49b1e0d42409374cc254b81b748313e879e194c51cce0e8da43a0d3d6e",
+   "bytes": 104681,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/manual-irrigacao-bambu-conbea97.pdf",
+   "extrato_curado": "fontes/md/manual-irrigacao-bambu-conbea97.md",
+   "ref_bibliografia": [],
+   "manifestos": [
+    "MANIFEST_FONTES_PUBLICADAS.json"
+   ]
+  },
+  "nmba-2006-preservation-bamboo-manual": {
+   "id": "nmba-2006-preservation-bamboo-manual",
+   "arquivo": "nmba-2006-preservation-bamboo-manual.pdf",
+   "sha256": "1015b54bd0053f365efa4281d9f8c8fde35f80d12e6a9e05d3327892a486fd41",
+   "bytes": 744646,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/nmba-2006-preservation-bamboo-manual.pdf",
+   "extrato_curado": "fontes/md/nmba-2006-preservation-bamboo-manual.md",
+   "ref_bibliografia": [],
+   "manifestos": [
+    "MANIFEST_FONTES_PUBLICADAS.json"
+   ]
+  },
+  "pnrs-art3-xvi-txt": {
+   "id": "pnrs-art3-xvi-txt",
+   "arquivo": "pnrs_art3_XVI.txt",
+   "sha256": "3f4d67ba38623ce15e0c2167e6f2e56458d2185dba56bfbe66363842067539c6",
+   "bytes": 584,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/pnrs_art3_XVI.md",
+   "ref_bibliografia": [
+    12
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_NORMATIVAS.json"
+   ]
+  },
+  "r-1997": {
+   "id": "r-1997",
+   "arquivo": "r_1997.json",
+   "sha256": "5c5824918702e352ed4c397d3b56efaf428dfff5b15d15325fe585b7f4cfa141",
+   "bytes": 145,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_1997.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-1998": {
+   "id": "r-1998",
+   "arquivo": "r_1998.json",
+   "sha256": "0440bb427fc8f76d5bcc89be763f7deeea171f3c11ddfb1395b54967eee6bf08",
+   "bytes": 145,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_1998.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-1999": {
+   "id": "r-1999",
+   "arquivo": "r_1999.json",
+   "sha256": "40854dc49d94260fd6a327dc6885dfbce848932d4567f5b86cef59cd1e41ff14",
+   "bytes": 143,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_1999.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2000": {
+   "id": "r-2000",
+   "arquivo": "r_2000.json",
+   "sha256": "efc285536e77629a3aa72b62a6e4d768e710f90b093d2d7483b29b7172ea1c71",
+   "bytes": 143,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2000.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2001": {
+   "id": "r-2001",
+   "arquivo": "r_2001.json",
+   "sha256": "081e9be6c63754492013d595880c1bd957d7b8ae2c7f651cb26e3277c8e4bf2b",
+   "bytes": 143,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2001.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2002": {
+   "id": "r-2002",
+   "arquivo": "r_2002.json",
+   "sha256": "f0d86b2a6bd1ec85ee232161ea245ffe0b8ac74cd7c172ba7508402d28e736f8",
+   "bytes": 143,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2002.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2003": {
+   "id": "r-2003",
+   "arquivo": "r_2003.json",
+   "sha256": "ba22913de48491f3c7eeacf15ad7a9a529f79e9f426ec50182b51c016412e07a",
+   "bytes": 143,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2003.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2004": {
+   "id": "r-2004",
+   "arquivo": "r_2004.json",
+   "sha256": "70efe541a43e4de766deb8c3f2f3b6e3b4ee8333256710a20433a58432665b0d",
+   "bytes": 143,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2004.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2005": {
+   "id": "r-2005",
+   "arquivo": "r_2005.json",
+   "sha256": "0a3c9de44784109f7a6236478a3f34c8289987cac802f302d20c14ae5d2d5ac7",
+   "bytes": 143,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2005.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2006": {
+   "id": "r-2006",
+   "arquivo": "r_2006.json",
+   "sha256": "05929d06a94da58fd7fa4f77f30ef2c18753e0bab43ed4e50f3f507f7fefc6c9",
+   "bytes": 143,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2006.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2007": {
+   "id": "r-2007",
+   "arquivo": "r_2007.json",
+   "sha256": "5b9f7c5d09650b9d51b370c1c0d3fa95817377c0502034744211e656324032d4",
+   "bytes": 143,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2007.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2008": {
+   "id": "r-2008",
+   "arquivo": "r_2008.json",
+   "sha256": "df38e0fdf9fd3d0efdabae6236c857b4c4d541f647a6aa52f32805d8425d1cfd",
+   "bytes": 143,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2008.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2009": {
+   "id": "r-2009",
+   "arquivo": "r_2009.json",
+   "sha256": "7c11e2d9de184084792b67ffbc6bc53b5164a5e18e4541893b4960039f662d4a",
+   "bytes": 142,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2009.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2010": {
+   "id": "r-2010",
+   "arquivo": "r_2010.json",
+   "sha256": "9d8a962a4a18a7d648eb22505abde12ef977b62944abd3c8812a0ea3d29bfc64",
+   "bytes": 142,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2010.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2011": {
+   "id": "r-2011",
+   "arquivo": "r_2011.json",
+   "sha256": "190d06ce6d7496492c399ffbe47a1aa050bca1539f070e5f7d5616a3992af5c3",
+   "bytes": 142,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2011.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2012": {
+   "id": "r-2012",
+   "arquivo": "r_2012.json",
+   "sha256": "6621a8bc88ad1a284dd6c00a290548b09836bc7c8fecf9f0fa37e5cb6677a3af",
+   "bytes": 140,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2012.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2013": {
+   "id": "r-2013",
+   "arquivo": "r_2013.json",
+   "sha256": "a5e48bf29ea091437044fed0b7b56120bf6354303f4485f691cb18d1290908c8",
+   "bytes": 142,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2013.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2014": {
+   "id": "r-2014",
+   "arquivo": "r_2014.json",
+   "sha256": "afabbd1993c81d42cdbf400a3406311dba82b0a51e0fecb831cefc6b263e9c3a",
+   "bytes": 140,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2014.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2015": {
+   "id": "r-2015",
+   "arquivo": "r_2015.json",
+   "sha256": "86f9ee4c203fa7c02c96fb4e6ccc32e749102a5ee4b64ea19753fc37fa7d04bf",
+   "bytes": 141,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2015.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2016": {
+   "id": "r-2016",
+   "arquivo": "r_2016.json",
+   "sha256": "67a5aad778c55c42ce9efa9e29ef458a2a171aea2ebfd5b71bd46c162957f65c",
+   "bytes": 140,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2016.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2017": {
+   "id": "r-2017",
+   "arquivo": "r_2017.json",
+   "sha256": "2d3f458f6c0db8b7f99bad3b3d47cf78b5a138dce5d559b11c904f8bac6bbb5f",
+   "bytes": 140,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2017.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2018": {
+   "id": "r-2018",
+   "arquivo": "r_2018.json",
+   "sha256": "ad4e9736b20bdad263e4dc5eb1e48ddd1e65ccfe36f6726fb3714e4d3f41d037",
+   "bytes": 140,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2018.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2019": {
+   "id": "r-2019",
+   "arquivo": "r_2019.json",
+   "sha256": "6532f3cdb9884b9285940a89e734514756a2399066c748e6882e13ffff19ea47",
+   "bytes": 141,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2019.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2020": {
+   "id": "r-2020",
+   "arquivo": "r_2020.json",
+   "sha256": "79496d279391493a4703191e0d0392e6a45bc03f0c95abfc4c9147759994dc16",
+   "bytes": 140,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2020.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2021": {
+   "id": "r-2021",
+   "arquivo": "r_2021.json",
+   "sha256": "817d45c2ed50f6ed3e4e339a81098981f150843209e8f4bb330f526770cde828",
+   "bytes": 142,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2021.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2022": {
+   "id": "r-2022",
+   "arquivo": "r_2022.json",
+   "sha256": "d32545d74f2c4bdaa58a1c31f7c9be4e537a651df1dfaa8a60528f7c59dffb7d",
+   "bytes": 143,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2022.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2023": {
+   "id": "r-2023",
+   "arquivo": "r_2023.json",
+   "sha256": "c6be3577270002122cbdafbd290c3afd93918d525ecb99b86f6e266d922ec9b3",
+   "bytes": 141,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2023.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2024": {
+   "id": "r-2024",
+   "arquivo": "r_2024.json",
+   "sha256": "7516899c8df0f6ed556fd40be850f462c474879ca383ad80c277168b5dd82fb3",
+   "bytes": 143,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2024.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2025": {
+   "id": "r-2025",
+   "arquivo": "r_2025.json",
+   "sha256": "b34a7494fd6d79bb7c535b55a36a1962addc3af3a833c4c5eda6fb57f17377f8",
+   "bytes": 143,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2025.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "r-2026": {
+   "id": "r-2026",
+   "arquivo": "r_2026.json",
+   "sha256": "80a1d64131f4d0ec9bed423dd3af39d373dee1e6a864c4fe59168c99d6d792c2",
+   "bytes": 142,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/r_2026.md",
+   "ref_bibliografia": [
+    13
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  },
+  "ufes-tcc-tratamento-bambu": {
+   "id": "ufes-tcc-tratamento-bambu",
+   "arquivo": "ufes-tcc-tratamento-bambu.pdf",
+   "sha256": "cad731f98300d50a0233da49efb08247f9115e57e6bf31b4400e9903a1c1f292",
+   "bytes": 703401,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/ufes-tcc-tratamento-bambu.pdf",
+   "extrato_curado": "fontes/md/ufes-tcc-tratamento-bambu.md",
+   "ref_bibliografia": [],
+   "manifestos": [
+    "MANIFEST_FONTES_PUBLICADAS.json"
+   ]
+  },
+  "ufmg-mom-tratamento-borax": {
+   "id": "ufmg-mom-tratamento-borax",
+   "arquivo": "ufmg-mom-tratamento-borax.md",
+   "sha256": "4831f3980df1e750a35dc26992cfee601621ac1d16bce3dbb7204636f9becdde",
+   "bytes": 555,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/ufmg-mom-tratamento-borax.md",
+   "ref_bibliografia": [],
+   "manifestos": [
+    "MANIFEST_FONTES_PUBLICADAS.json"
+   ]
+  },
+  "ufmg-tratamento-borax": {
+   "id": "ufmg-tratamento-borax",
+   "arquivo": "ufmg-tratamento-borax.htm",
+   "sha256": "9382a5534c442b106f7e3fe84e42cdf59c1d6bfecded6db71fb04e2337e89c6c",
+   "bytes": 1434,
+   "esta_no_repositorio": true,
+   "caminho_privado": null,
+   "extrato_curado": "fontes/md/ufmg-tratamento-borax.md",
+   "ref_bibliografia": [],
+   "manifestos": [
+    "MANIFEST_FONTES_PUBLICADAS.json"
+   ]
+  },
+  "uftm-scharfenberg-cb-cobre-boro": {
+   "id": "uftm-scharfenberg-cb-cobre-boro",
+   "arquivo": "uftm-scharfenberg-cb-cobre-boro.pdf",
+   "sha256": "f18d888a0db47449e0d20abef91688f19c90adc3a473987f696f0d5d73f982d8",
+   "bytes": 2356041,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Sulfato_S11/pdf/uftm-scharfenberg-cb-cobre-boro.pdf",
+   "extrato_curado": "fontes/md/uftm-scharfenberg-cb-cobre-boro.md",
+   "ref_bibliografia": [],
+   "manifestos": [
+    "MANIFEST_FONTES_PUBLICADAS.json"
+   ]
+  },
+  "who-2004-copper-in-drinking-water-background": {
+   "id": "who-2004-copper-in-drinking-water-background",
+   "arquivo": "WHO_2004_Copper-in-Drinking-Water_Background.pdf",
+   "sha256": "ea53cf69135516258e79fc3c705fa344106f3dca05c7bce4fee16e6515c14fc6",
+   "bytes": 278146,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Boratos_Cobre/pdf/WHO_2004_Copper-in-Drinking-Water_Background.pdf",
+   "extrato_curado": "fontes/md/WHO_2004_Copper-in-Drinking-Water_Background.md",
+   "ref_bibliografia": [
+    11
+   ],
+   "manifestos": [
+    "MANIFEST_FONTES_COMPLEMENTARES.json"
+   ]
+  }
+ }
+}

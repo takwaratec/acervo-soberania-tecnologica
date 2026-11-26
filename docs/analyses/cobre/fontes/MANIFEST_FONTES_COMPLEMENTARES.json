@@ -2,218 +2,330 @@
  "schema": "ACERVO_FONTES_COMPLEMENTARES_R1",
  "gaveta": "cobre",
  "data": "2026-11-24",
- "nota": "Fontes das referências 8, 11 e 13 (Gauss, OMS, ComexStat), publicadas byte a byte para o auditor externo.",
+ "nota": "Estas fontes NÃO estão na árvore do repositório. `governance-check.yml` proíbe PDF versionado, e os PDFs foram retirados do rastreio; cada um continua em `_privado`, com o mesmo sha256 do byte que estava versionado (ver `CUSTODIA_PRIVADA_PDFS.json`). O que o auditor externo alcança aqui é o metadado e o hash — não o byte. Para ler o arquivo, é preciso pedi-lo pelo `caminho_privado`; `git show` não se aplica a estas fontes. O extrato textual curado de cada uma está em `fontes/md/`, reduzido ao que a peça cita (C-02).",
  "total": 35,
  "fontes": [
   {
-   "ref": 11,
    "path": "docs/analyses/cobre/fontes/pdf/WHO_2004_Copper-in-Drinking-Water_Background.pdf",
    "bytes": 278146,
-   "sha256": "ea53cf69135516258e79fc3c705fa344106f3dca05c7bce4fee16e6515c14fc6"
+   "sha256": "ea53cf69135516258e79fc3c705fa344106f3dca05c7bce4fee16e6515c14fc6",
+   "id": "who-2004-copper-in-drinking-water-background",
+   "ref_bibliografia": 11,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Boratos_Cobre/pdf/WHO_2004_Copper-in-Drinking-Water_Background.pdf",
+   "custodia_verificada": true
   },
   {
-   "ref": 11,
    "path": "docs/analyses/cobre/fontes/md/WHO_2004_Copper-in-Drinking-Water_Background.md",
    "bytes": 84102,
-   "sha256": "40539917ea200fd6d9564627b1ba451b4187ae0e13b0c1a572b144a89c9370dc"
+   "sha256": "40539917ea200fd6d9564627b1ba451b4187ae0e13b0c1a572b144a89c9370dc",
+   "id": "who-2004-copper-in-drinking-water-background",
+   "ref_bibliografia": 11,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 8,
    "path": "docs/analyses/cobre/fontes/pdf/gauss-2020-tratamento-preservativo.pdf",
    "bytes": 15291496,
-   "sha256": "dfc13c3cfcb9662f75f0704d722258f8e78e07435f0ad70d71e8331ab9d89a1a"
+   "sha256": "dfc13c3cfcb9662f75f0704d722258f8e78e07435f0ad70d71e8331ab9d89a1a",
+   "id": "gauss-2020-tratamento-preservativo",
+   "ref_bibliografia": 8,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-academicas/2020-gauss-tratamento-preservativo-modificacao-quimica/original.pdf",
+   "custodia_verificada": true
   },
   {
-   "ref": 8,
    "path": "docs/analyses/cobre/fontes/md/gauss-2020-tratamento-preservativo.md",
    "bytes": 784441,
-   "sha256": "7d5bd8c1cc22654dac6a3ff77967318193b4fd1d60aa29d6d344064b1c757bd7"
+   "sha256": "7d5bd8c1cc22654dac6a3ff77967318193b4fd1d60aa29d6d344064b1c757bd7",
+   "id": "gauss-2020-tratamento-preservativo",
+   "ref_bibliografia": 8,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 8,
    "path": "docs/analyses/cobre/fontes/md/gauss-2020-metadados.json",
    "bytes": 962,
-   "sha256": "d6e3b7301ea092a8e11cf123ab629783d8849c16a9ca0f6eef0e9db0e68c7e9c"
+   "sha256": "d6e3b7301ea092a8e11cf123ab629783d8849c16a9ca0f6eef0e9db0e68c7e9c",
+   "id": "gauss-2020-metadados",
+   "ref_bibliografia": 8,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_1997.json",
    "bytes": 145,
-   "sha256": "5c5824918702e352ed4c397d3b56efaf428dfff5b15d15325fe585b7f4cfa141"
+   "sha256": "5c5824918702e352ed4c397d3b56efaf428dfff5b15d15325fe585b7f4cfa141",
+   "id": "r-1997",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_1998.json",
    "bytes": 145,
-   "sha256": "0440bb427fc8f76d5bcc89be763f7deeea171f3c11ddfb1395b54967eee6bf08"
+   "sha256": "0440bb427fc8f76d5bcc89be763f7deeea171f3c11ddfb1395b54967eee6bf08",
+   "id": "r-1998",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_1999.json",
    "bytes": 143,
-   "sha256": "40854dc49d94260fd6a327dc6885dfbce848932d4567f5b86cef59cd1e41ff14"
+   "sha256": "40854dc49d94260fd6a327dc6885dfbce848932d4567f5b86cef59cd1e41ff14",
+   "id": "r-1999",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2000.json",
    "bytes": 143,
-   "sha256": "efc285536e77629a3aa72b62a6e4d768e710f90b093d2d7483b29b7172ea1c71"
+   "sha256": "efc285536e77629a3aa72b62a6e4d768e710f90b093d2d7483b29b7172ea1c71",
+   "id": "r-2000",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2001.json",
    "bytes": 143,
-   "sha256": "081e9be6c63754492013d595880c1bd957d7b8ae2c7f651cb26e3277c8e4bf2b"
+   "sha256": "081e9be6c63754492013d595880c1bd957d7b8ae2c7f651cb26e3277c8e4bf2b",
+   "id": "r-2001",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2002.json",
    "bytes": 143,
-   "sha256": "f0d86b2a6bd1ec85ee232161ea245ffe0b8ac74cd7c172ba7508402d28e736f8"
+   "sha256": "f0d86b2a6bd1ec85ee232161ea245ffe0b8ac74cd7c172ba7508402d28e736f8",
+   "id": "r-2002",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2003.json",
    "bytes": 143,
-   "sha256": "ba22913de48491f3c7eeacf15ad7a9a529f79e9f426ec50182b51c016412e07a"
+   "sha256": "ba22913de48491f3c7eeacf15ad7a9a529f79e9f426ec50182b51c016412e07a",
+   "id": "r-2003",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2004.json",
    "bytes": 143,
-   "sha256": "70efe541a43e4de766deb8c3f2f3b6e3b4ee8333256710a20433a58432665b0d"
+   "sha256": "70efe541a43e4de766deb8c3f2f3b6e3b4ee8333256710a20433a58432665b0d",
+   "id": "r-2004",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2005.json",
    "bytes": 143,
-   "sha256": "0a3c9de44784109f7a6236478a3f34c8289987cac802f302d20c14ae5d2d5ac7"
+   "sha256": "0a3c9de44784109f7a6236478a3f34c8289987cac802f302d20c14ae5d2d5ac7",
+   "id": "r-2005",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2006.json",
    "bytes": 143,
-   "sha256": "05929d06a94da58fd7fa4f77f30ef2c18753e0bab43ed4e50f3f507f7fefc6c9"
+   "sha256": "05929d06a94da58fd7fa4f77f30ef2c18753e0bab43ed4e50f3f507f7fefc6c9",
+   "id": "r-2006",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2007.json",
    "bytes": 143,
-   "sha256": "5b9f7c5d09650b9d51b370c1c0d3fa95817377c0502034744211e656324032d4"
+   "sha256": "5b9f7c5d09650b9d51b370c1c0d3fa95817377c0502034744211e656324032d4",
+   "id": "r-2007",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2008.json",
    "bytes": 143,
-   "sha256": "df38e0fdf9fd3d0efdabae6236c857b4c4d541f647a6aa52f32805d8425d1cfd"
+   "sha256": "df38e0fdf9fd3d0efdabae6236c857b4c4d541f647a6aa52f32805d8425d1cfd",
+   "id": "r-2008",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2009.json",
    "bytes": 142,
-   "sha256": "7c11e2d9de184084792b67ffbc6bc53b5164a5e18e4541893b4960039f662d4a"
+   "sha256": "7c11e2d9de184084792b67ffbc6bc53b5164a5e18e4541893b4960039f662d4a",
+   "id": "r-2009",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2010.json",
    "bytes": 142,
-   "sha256": "9d8a962a4a18a7d648eb22505abde12ef977b62944abd3c8812a0ea3d29bfc64"
+   "sha256": "9d8a962a4a18a7d648eb22505abde12ef977b62944abd3c8812a0ea3d29bfc64",
+   "id": "r-2010",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2011.json",
    "bytes": 142,
-   "sha256": "190d06ce6d7496492c399ffbe47a1aa050bca1539f070e5f7d5616a3992af5c3"
+   "sha256": "190d06ce6d7496492c399ffbe47a1aa050bca1539f070e5f7d5616a3992af5c3",
+   "id": "r-2011",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2012.json",
    "bytes": 140,
-   "sha256": "6621a8bc88ad1a284dd6c00a290548b09836bc7c8fecf9f0fa37e5cb6677a3af"
+   "sha256": "6621a8bc88ad1a284dd6c00a290548b09836bc7c8fecf9f0fa37e5cb6677a3af",
+   "id": "r-2012",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2013.json",
    "bytes": 142,
-   "sha256": "a5e48bf29ea091437044fed0b7b56120bf6354303f4485f691cb18d1290908c8"
+   "sha256": "a5e48bf29ea091437044fed0b7b56120bf6354303f4485f691cb18d1290908c8",
+   "id": "r-2013",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2014.json",
    "bytes": 140,
-   "sha256": "afabbd1993c81d42cdbf400a3406311dba82b0a51e0fecb831cefc6b263e9c3a"
+   "sha256": "afabbd1993c81d42cdbf400a3406311dba82b0a51e0fecb831cefc6b263e9c3a",
+   "id": "r-2014",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2015.json",
    "bytes": 141,
-   "sha256": "86f9ee4c203fa7c02c96fb4e6ccc32e749102a5ee4b64ea19753fc37fa7d04bf"
+   "sha256": "86f9ee4c203fa7c02c96fb4e6ccc32e749102a5ee4b64ea19753fc37fa7d04bf",
+   "id": "r-2015",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2016.json",
    "bytes": 140,
-   "sha256": "67a5aad778c55c42ce9efa9e29ef458a2a171aea2ebfd5b71bd46c162957f65c"
+   "sha256": "67a5aad778c55c42ce9efa9e29ef458a2a171aea2ebfd5b71bd46c162957f65c",
+   "id": "r-2016",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2017.json",
    "bytes": 140,
-   "sha256": "2d3f458f6c0db8b7f99bad3b3d47cf78b5a138dce5d559b11c904f8bac6bbb5f"
+   "sha256": "2d3f458f6c0db8b7f99bad3b3d47cf78b5a138dce5d559b11c904f8bac6bbb5f",
+   "id": "r-2017",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2018.json",
    "bytes": 140,
-   "sha256": "ad4e9736b20bdad263e4dc5eb1e48ddd1e65ccfe36f6726fb3714e4d3f41d037"
+   "sha256": "ad4e9736b20bdad263e4dc5eb1e48ddd1e65ccfe36f6726fb3714e4d3f41d037",
+   "id": "r-2018",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2019.json",
    "bytes": 141,
-   "sha256": "6532f3cdb9884b9285940a89e734514756a2399066c748e6882e13ffff19ea47"
+   "sha256": "6532f3cdb9884b9285940a89e734514756a2399066c748e6882e13ffff19ea47",
+   "id": "r-2019",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2020.json",
    "bytes": 140,
-   "sha256": "79496d279391493a4703191e0d0392e6a45bc03f0c95abfc4c9147759994dc16"
+   "sha256": "79496d279391493a4703191e0d0392e6a45bc03f0c95abfc4c9147759994dc16",
+   "id": "r-2020",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2021.json",
    "bytes": 142,
-   "sha256": "817d45c2ed50f6ed3e4e339a81098981f150843209e8f4bb330f526770cde828"
+   "sha256": "817d45c2ed50f6ed3e4e339a81098981f150843209e8f4bb330f526770cde828",
+   "id": "r-2021",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2022.json",
    "bytes": 143,
-   "sha256": "d32545d74f2c4bdaa58a1c31f7c9be4e537a651df1dfaa8a60528f7c59dffb7d"
+   "sha256": "d32545d74f2c4bdaa58a1c31f7c9be4e537a651df1dfaa8a60528f7c59dffb7d",
+   "id": "r-2022",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2023.json",
    "bytes": 141,
-   "sha256": "c6be3577270002122cbdafbd290c3afd93918d525ecb99b86f6e266d922ec9b3"
+   "sha256": "c6be3577270002122cbdafbd290c3afd93918d525ecb99b86f6e266d922ec9b3",
+   "id": "r-2023",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2024.json",
    "bytes": 143,
-   "sha256": "7516899c8df0f6ed556fd40be850f462c474879ca383ad80c277168b5dd82fb3"
+   "sha256": "7516899c8df0f6ed556fd40be850f462c474879ca383ad80c277168b5dd82fb3",
+   "id": "r-2024",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2025.json",
    "bytes": 143,
-   "sha256": "b34a7494fd6d79bb7c535b55a36a1962addc3af3a833c4c5eda6fb57f17377f8"
+   "sha256": "b34a7494fd6d79bb7c535b55a36a1962addc3af3a833c4c5eda6fb57f17377f8",
+   "id": "r-2025",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   },
   {
-   "ref": 13,
    "path": "docs/analyses/cobre/fontes/comexstat/r_2026.json",
    "bytes": 142,
-   "sha256": "80a1d64131f4d0ec9bed423dd3af39d373dee1e6a864c4fe59168c99d6d792c2"
+   "sha256": "80a1d64131f4d0ec9bed423dd3af39d373dee1e6a864c4fe59168c99d6d792c2",
+   "id": "r-2026",
+   "ref_bibliografia": 13,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
   }
- ]
+ ],
+ "identificador": "`id` é o identificador estável da fonte (slug do arquivo). `ref_bibliografia` é o número na lista de referências e muda quando a bibliografia muda: não use como chave.",
+ "regularizado_em": "2026-11-25",
+ "regularizacao": "C-03 (identificador estável) e C-05 (manifesto não afirma PDF publicado)"
 }
