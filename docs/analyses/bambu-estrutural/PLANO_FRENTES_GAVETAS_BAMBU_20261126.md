@@ -163,14 +163,22 @@ o tratamento tem duas gavetas — convencional e sustentável — e o pirolenhos
 **Fase 1 — criar as duas** com `index.md` e `agenda-de-pesquisa.md` próprios, e registrar em `GAVETAS_R4.json`
 (já registradas como declaradas sem conteúdo medido).
 
-**Fase 2 — partição das fichas existentes.** São hoje 5 de rota pirogênica na gaveta estrutural (`embrapa-2007`,
-`martins-2017`, `laroque-2022`, `resenha-beraldo`, `silva-2011`), das quais **`laroque-2022` é pinus, não bambu**
-— decisão de escopo pendente. E as fichas de modificação térmica ficam retidas até a decisão de fronteira.
+**Fase 2 — partição das fichas existentes.** Com a decisão de 26/11 sobre o critério — *o que satura, não a
+temperatura* — o bloqueio caiu e as fichas podem ser distribuídas:
+
+| ficha | vai para | por quê |
+|---|---|---|
+| `ficha-high-temperature-saturated-steam-moso-bamboo` (2020, DOI `10.1186/s10086-020-01899-8`) | **5 — sustentável** | vapor saturado, sem aditivo declarado |
+| `ficha-effects-heat-treatment-bamboo-scrimber` | **5** | termorretificação — só calor |
+| `ficha-heat-treatment-pdms-bamboo` (2020, DOI `10.1039/d0ra08713k`) | **caso à parte** | PDMS é aditivo sintético sem função biocida — decidido pelo soberano, não classificado por analogia |
+| `embrapa-2007`, `martins-2017`, `resenha-beraldo`, `silva-2011` | **5** | extrato pirolenhoso |
+| `laroque-2022` (pinus) | **5, com nota de escopo** | fica como **referência comparativa**: o ensaio é relevante e serve de comparativo para novos ensaios com bambu — decisão do soberano de 26/11 |
 
 **Fase 3 — completar a partir das 254**, que têm linha de tratamento de força.
 
-**Bloqueio declarado:** as duas gavetas não recebem partição antes de o soberano decidir onde fica a
-**modificação térmica** (§2.2 do ato). Criar a gaveta não é o mesmo que distribuir as fichas.
+**O que a Fase 2 não faz:** não move arquivo sem `RENOMEACAO_<data>.json` e sem consertar os links; e a ficha do
+PDMS não é movida para nenhuma das duas até o soberano dizer onde ela mora — ela está **nomeada como caso à
+parte**, e caso à parte sem endereço é pendência declarada, não decisão silenciosa.
 
 ### Onda 5 — `bambu-alimentacao-e-outros-usos`
 
@@ -264,9 +272,11 @@ sustentável, separado do `pu-vegetal`. **O #137 não é medido sem o soberano v
 
 - **a fronteira de `bambu-carbono`** — estoque/sequestro apenas, ou também produto de carbono? **bloqueia a
   criação da gaveta**;
-- **onde fica a modificação térmica** — convencional ou sustentável? **bloqueia a partição das fichas de
-  tratamento**;
-- **`laroque-2022`, que é pinus** — fica na coleção Bambu como método transferível, ou sai?;
+- ~~onde fica a modificação térmica~~ — **DECIDIDO em 26/11**: termorretificação e vapor saturado vão para a
+  sustentável; o critério é **o que satura**, não a temperatura;
+- ~~`laroque-2022`, que é pinus~~ — **DECIDIDO em 26/11**: fica na gaveta sustentável, **com nota de escopo**,
+  como referência comparativa para novos ensaios com bambu;
+- **onde mora a ficha do PDMS** — caso à parte por decisão; sem endereço até o soberano dizer;
 - **a janela de "recente"** na busca de atualização;
 - **quem executa a reauditoria da R4** — se é a própria frente com o portal, ou rito próprio da R4;
 - **a separação de `pu-vegetal`** entre bambu-carga e bambu-poliol.

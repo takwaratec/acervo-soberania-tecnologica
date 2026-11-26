@@ -89,9 +89,9 @@ Nomes de pasta seguem o padrão já vivo na árvore (kebab, objeto antes do qual
 | 1 | `bambu-estrutural` | o colmo e o material como elemento resistente | propriedades mecânicas e físicas, densificação, painéis/CLB/compósitos, normas, ACV de material, desempenho sísmico, sistemas construtivos | tratamento (que tem gaveta própria), biologia, inseto, mercado |
 | 2 | `bambu-biologia` | a planta e a floresta | floração, regeneração, propágulo e minijardim, fenologia, distribuição e dinâmica de florestas dominadas por bambu, genética e anatomia do colmo | desempenho mecânico, preservante, obra |
 | 3 | `bambu-fitossanidade` | o organismo que ataca e a defesa | coleobrocas, coleópteros, *Dinoderus*, fungos e deterioração, patologias de obra por ataque biológico, controle e manejo pós-colheita | o tratamento em si (é da 4 ou da 5), toxicidade do preservante (idem) |
-| 4 | **`bambu-tratamento`** | **a rota convencional** | preservante químico convencional, imunização, secagem, impregnação sob pressão, modificação química, **e a modificação térmica a decidir** (§2.2 do ato) | extrato pirolenhoso (é da 5), biologia, inseto |
-| 5 | **`bambu-tratamento-sustentavel`** | **a rota sustentável** | extrato pirolenhoso, licor, bi-óleo, tratamento sem preservante convencional, ação antifúngica e inseticida do extrato, toxicidade e resíduo | resina e adesivo de PU (é da 6) — link, não cópia |
-| 6 | `pu-vegetal` | poliuretano de origem vegetal | **gaveta existente**, 41 arquivos — resinа, adesivo, poliol e carga de origem vegetal | o extrato como tratamento do bambu, que agora é da 5 |
+| 4 | **`bambu-tratamento`** | **a rota convencional** | preservante químico convencional (CCB, CCA, boro), imunização, impregnação sob pressão, secagem como etapa de processo | **vapor saturado com agente de origem biológica** (é da 5), **termorretificação** (é da 5), extrato pirolenhoso (é da 5) |
+| 5 | **`bambu-tratamento-sustentavel`** | **a rota sem aditivo de síntese** | **vapor saturado com pirolenhoso, com tanino ou com sal**; **só vapor**; **termorretificação** (só calor, sem aditivo); extrato pirolenhoso, licor, bi-óleo; ação antifúngica e inseticida do extrato; toxicidade e resíduo | resina e adesivo de PU (é da 6) — link, não cópia; preservante convencional (é da 4) |
+| 6 | `pu-vegetal` | poliuretano de origem vegetal | **gaveta existente**, 41 arquivos — resina, adesivo, poliol e carga de origem vegetal | o extrato como tratamento do bambu, que é da 5 |
 | 7 | `bambu-carbono` | carbono do bambu: sequestro, estoque, biochar e cinzas | estoque e balanço de carbono, biochar, cinzas como pozolana, ciclo de vida do carbono | ACV de material (é da 1) e polpa (é da 8). **Fronteira ainda a decidir pelo soberano** |
 | 8 | `bambu-alimentacao-e-outros-usos` | o que sobra | broto e alimentação, polpa e celulose, forno e fogão a biomassa, microreator, cadeia e mercado | material estrutural, biologia, fitossanidade, tratamento |
 
@@ -101,11 +101,23 @@ vai para a 3. `silveira-2015` mede controle de *Dinoderus* → 3. `bjb-2023-anti
 fungo → 3 pelo objeto do dano **e** a fonte vai para a 5 pelo objeto do extrato: são duas perguntas, e a ficha
 mora em uma só; a outra entra por link.
 
-**Fronteira 4 x 5 — convencional x sustentável, e o caso que ainda não tem resposta.** A divisão está ordenada
-pelo soberano; o critério operacional é: **a rota depende de preservante convencional ou de produto de origem
-biológica/pirogênica?** O caso aberto é a **modificação térmica** — PDMS, vapor saturado, termorretificação. É
-tratamento sem produto químico, mas não é extrato nem rota biológica. Sem decisão, essas fichas ficam na 1 e
-estão nomeadas como pendência (§2.2 do ato).
+**Fronteira 4 x 5 — o critério é O QUE SATURA, não a temperatura.** Decidido pelo soberano em 26/11/2026:
+
+> "O vapor saturado, dependendo de qual é o elemento de saturação, passa a ser tratamento orgânico. Se é vapor
+> saturado com pirolenhoso, com tanino, ou só vapor, ou vapor com sal. A termorretificação também entraria num
+> tratamento biológico — ela não tem aditivos, então é só o calor, pode ser uma das vias do biológico."
+
+| rota | gaveta | por quê |
+|---|---|---|
+| vapor saturado **com pirolenhoso, com tanino ou com sal** | **5 — sustentável** | o agente de saturação é de origem biológica ou mineral natural, não de síntese |
+| **só vapor** | **5 — sustentável** | não há aditivo; a rota é física |
+| **termorretificação** (só calor, sem aditivo) | **5 — sustentável** | é uma das vias da rota biológica, por ausência de aditivo |
+| preservante químico convencional (CCB, CCA, boro), impregnação sob pressão | **4 — convencional** | aditivo de síntese |
+| **PDMS** (polidimetilsiloxano) | **caso à parte — decidido pelo soberano** | é aditivo **sintético**, mas de função polimérica e não biocida; não é conservante clássico nem rota sem aditivo. Fica nomeado, não classificado por analogia |
+
+**O critério, em uma frase:** entra na 5 o tratamento cujo **agente é ausente, biológico ou mineral natural**;
+entra na 4 o que usa **aditivo de síntese com função biocida**; e o que usa **aditivo de síntese sem função
+biocida** é caso à parte — hoje, o PDMS.
 
 **O que o ato revoga nesta seção:** a regra anterior — "o pirolenhoso vai para onde está a fonte que ela extrai,
 podendo ir ao PU". O critério "onde está a fonte" continua valendo para dirimir dúvida de partição em geral;
