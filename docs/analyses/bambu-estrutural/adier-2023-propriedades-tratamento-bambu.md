@@ -62,7 +62,7 @@ Revisão sistemática conduzida segundo as diretrizes PRISMA, analisando artigos
 - **Resistência à flexão (MOR):** na Tabela 6, a linha da referência [53] reporta **50–220 MPa** de MOR (p. 24).
 - **Densidade seca do bambu comumente usado em estruturas:** varia de **500 kg/m³** a **800 kg/m³** (p. 12).
 
-> **Nota de verificação:** na Tabela 6, a unidade está no cabeçalho da coluna (MOR em MPa, MOE em GPa), não junto aos valores `50–220`. A coluna foi conferida por coordenada na página 24 (o valor começa sob o cabeçalho MOR, não sob CS), e a unidade foi conferida na mesma coordenada — por isso o valor entra na ficha como **MPa**. Registro do instrumento: `54691508` emite, para esta linha, o estado **`APROVADO`** com a unidade **`MPa`** (p. 24). A versão anterior, `1750b762`, emitia `APROVADO_SEM_UNIDADE` para a mesma linha. A conferência da coordenada que sustenta a atribuição da coluna — o valor começa sob o cabeçalho MOR, não sob CS — foi feita na fonte privada e não é reproduzível a partir daqui.
+> **Nota de verificação:** na Tabela 6, a unidade está no cabeçalho da coluna (MOR em MPa, MOE em GPa), não junto aos valores `50–220`. A coluna foi conferida por coordenada na página 24 (o valor começa sob o cabeçalho MOR, não sob CS), e a unidade foi conferida na mesma coordenada — por isso o valor entra na ficha como **MPa**. Registro dos instrumentos, para que o número publicado nomeie quem mediu: o gate **vigente** é `a16eb44a` (self-test 96), e ele emite para esta linha o estado **`APROVADO`** com a unidade **`MPa`** (p. 24). O `54691508` (self-test 95) emitia o mesmo estado; o `1750b762` (self-test 58) emitia `APROVADO_SEM_UNIDADE`. Nenhum dos três valores foi ajustado na ficha — o que mudou foi o instrumento. A conferência da coordenada que sustenta a atribuição da coluna — o valor começa sob o cabeçalho MOR, não sob CS — foi feita na fonte privada e não é reproduzível a partir daqui.
 
 ---
 
@@ -142,7 +142,7 @@ exatamente o que a ficha não sabe, e declarar isso é mais honesto que rotular 
 > corresponde**. O valor é literal e a página é a da tabela; a atribuição fica em aberto e a ficha não a
 > inventa. Quem precisar de MOR, MOE, CS, TS, FS ou SS linha a linha tem de abrir a p. 24 na fonte.
 
-**Por que esta tabela não é verificada pelo instrumento.** Medido com o gate vigente (`54691508`), em
+**Por que esta tabela não é verificada pelo instrumento.** Medido com o gate vigente (`a16eb44a`, self-test 96), em
 três sondas: com a página no cabeçalho da seção, só a **primeira** linha herda a página; com `(p. 24)` ao
 fim da linha, só os números imediatamente à esquerda do parêntese herdam; com coluna «Pág.», nenhum herda.
 Transcrita como tabela markdown, a tabela inteira volta `SEM_PAGINA` célula por célula. Por isso ela entra

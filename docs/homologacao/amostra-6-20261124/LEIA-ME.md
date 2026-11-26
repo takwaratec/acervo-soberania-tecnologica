@@ -15,8 +15,9 @@ resumo: "Pacote de leitura das sete fichas da gaveta bambu-estrutural submetidas
 Este pacote foi montado em 2026-11-24, quando onze fichas da gaveta ainda carregavam o rótulo
 `homologado-documentalmente`. Em 2026-11-25 o soberano mandou **rebaixar as onze**, e o acervo as devolveu a
 `em-revisao-documental` (PR #133, `a5c6af6`): nenhuma delas tinha `autorizacao_homologacao` no front matter, e
-homologação é ato do soberano, não estado que se declara. A única ficha com ato registrado é a PDMS
-(`FABIO_SOBERANO`, 21/11/2026, `9e851095`).
+homologação é ato do soberano, não estado que se declara. **A exceção é a PDMS** — uma das sete deste pacote:
+ela tem ato registrado (`FABIO_SOBERANO`, decisão opção 1, 21/11/2026, governança `9e851095`) e permanece
+`homologado-documentalmente`. As outras **seis** seguem `em-revisao-documental`.
 
 **Em 26/11/2026 o #135 entrou na main (`096fc26`) e incrementou as sete fichas**: tabelas transcritas com
 página por linha, contagens medidas pelo gate corrigido (A1). Este pacote foi **regerado a partir daquele
@@ -58,8 +59,12 @@ Duas réguas, dois nomes: `numeros_na_ficha` conta todo número do texto (inclus
 | **total** | **6 `PASS` + 1 `NAO_VERIFICAVEL`** | **864** | **694** | **859** |
 
 `pdms` não é `PASS` e não será apresentada como tal: 3 células ficaram `APROVADO_SEM_UNIDADE` porque a fonte
-não declara a unidade na ocorrência (2,72%; 0,97%; 0,40% — o percentual está no título da tabela). **`PASS` não
-é homologação:** nenhuma destas sete tem `autorizacao_homologacao`.
+não declara a unidade na ocorrência (2,72%; 0,97%; 0,40% — o percentual está no título da tabela).
+
+**Estado documental, sem confusão:** a **PDMS** é `homologado-documentalmente` por ato do soberano de
+21/11/2026 — a homologação dela é anterior a este pacote e não é alterada por ele. As outras **seis** seguem
+`em-revisao-documental`. E o ponto que vale para todas: **`PASS` não é homologação** — o gate diz onde o número
+está, não que a ficha está homologada.
 
 ## 3. O que mudou nas sete, ficha por ficha
 

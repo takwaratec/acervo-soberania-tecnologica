@@ -71,10 +71,15 @@ f112340  adier-2023-propriedades-tratamento-bambu.md
 
 ## 4. Estado medido — e o que ele NÃO significa
 
-Corpus 74 no head: `PASS 12 · PARCIAL 45 · SEM_FONTE 2 · NAO_VERIFICAVEL 5 · FAIL 1` (soma 74).
+> **VENCIDO em 26/11/2026.** A medição desta seção é a de 24/11, com o instrumento anterior (`54691508`, self-test
+> 95). Ela não descreve o corpus de hoje: depois do #135, as sete saem **seis `PASS` e uma `NAO_VERIFICAVEL`**
+> (`pdms`), com 864 números, 694 afirmações de resultado e 859 aprovadas — ver §9. O texto abaixo fica como
+> registro do que se mediu em 24/11, não como estado vigente.
 
-**As sete estão `PASS`. Isso não é homologação.** `PASS` significa que o gate encontrou o número na página
-declarada e que a unidade confere. Não significa que a frase da ficha é a frase da fonte.
+Corpus 74 no head **em 24/11**: `PASS 12 · PARCIAL 45 · SEM_FONTE 2 · NAO_VERIFICAVEL 5 · FAIL 1` (soma 74).
+
+**As sete estavam `PASS` em 24/11. Isso nunca foi homologação.** `PASS` significa que o gate encontrou o número
+na página declarada e que a unidade confere. Não significa que a frase da ficha é a frase da fonte.
 
 ## 5. Limites que você herda — não são defeitos para consertar
 
@@ -131,4 +136,10 @@ O que mudou para quem lê este handoff:
   p. 43444) **não foi transcrita** — a extração a entrega com colunas deslocadas (`b*` sairia −808,86), e
   transcrever daria aparência de precisão a extração errada. Fechar exige reextração da página.
 - **A homologação continua sendo sua, por leitura.** O gate mediu onde o número está; não mediu se a frase da
-  ficha é a frase da fonte. `PASS` não é homologação, e nenhuma das sete tem `autorizacao_homologacao`.
+  ficha é a frase da fonte. `PASS` não é homologação.
+- **Uma das sete já tem ato de homologação, e este pacote não o altera:** a **PDMS** é
+  `homologado-documentalmente` desde 21/11/2026 (`FABIO_SOBERANO`, decisão opção 1, governança `9e851095`). As
+  outras **seis** seguem `em-revisao-documental`. Corrigido em 26/11: a versão anterior desta nota dizia
+  «nenhuma das sete», e isso era falso para a PDMS.
+- **Este pacote substitui o PR #134.** Ele nasceu sobre a `main` que já contém o #135 (`096fc26`) e é o que deve
+  ser lido; o #134 carrega as fichas em versão anterior ao incremento e não deve ser mergeado.
