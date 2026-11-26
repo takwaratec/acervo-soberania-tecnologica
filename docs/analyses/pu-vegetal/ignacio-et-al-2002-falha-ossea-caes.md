@@ -15,7 +15,9 @@ volume_referencia: "PU-COMP-BIO-R1"
 identificador_lote: "B08"
 arquivo_fonte: "B08_Ignacio_Mazzer_Barbieri_Chierice_2002_caes.pdf"
 sha256_fonte: "0fa131035317c963903660a75c26e5b2e4c05eb38efe3b235520fefc1db2ec23"
-estado_documental: "em-revisao-documental"
+estado_documental: em-revisao-documental
+estado_documental_anterior: "em-revisao-documental"
+estado_documental_unificado_em: '2026-11-20'
 data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"

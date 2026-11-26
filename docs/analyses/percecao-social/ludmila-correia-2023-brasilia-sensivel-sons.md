@@ -1,6 +1,8 @@
 ---
 tipo_documental: ficha-academica
-estado_documental: edicao-publica-conformada
+estado_documental: homologado-documentalmente
+estado_documental_anterior: edicao-publica-conformada
+estado_documental_unificado_em: '2026-11-20'
 fonte_primaria: tese de doutorado integral
 identificador: http://repositorio.unb.br/handle/10482/49726
 proveniencia: Repositório Institucional da Universidade de Brasília

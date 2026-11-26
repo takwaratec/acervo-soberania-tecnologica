@@ -19,7 +19,9 @@ volume_referencia: "PU-COMP-BIO-R1"
 identificador_lote: "A09"
 arquivo_fonte: "A09_Kubrusly_etal_2012_coracoes_artificiais.pdf"
 sha256_fonte: "c2439711f76e28664c656a4dea089d718d5ee2e7b6afaf3ed4567ef88044a663"
-estado_documental: "em-revisao-documental"
+estado_documental: em-revisao-documental
+estado_documental_anterior: "em-revisao-documental"
+estado_documental_unificado_em: '2026-11-20'
 data_extracao: "2026-09-05"
 extrator: "antigravity-auxiliar"
 revisor: "pendente-revisao-gpt"

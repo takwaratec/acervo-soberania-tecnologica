@@ -15,7 +15,9 @@ method: repository-guided-normative-scope-review
 revision_date: 2026-08-01
 curation_responsible: Fabio Takwara
 tipo_documental: estado-da-arte
-estado_documental: publicado-no-zenodo
+estado_documental: homologado-documentalmente
+estado_documental_anterior: publicado-no-zenodo
+estado_documental_unificado_em: '2026-11-20'
 responsavel_curadoria: 'Fabio Takwara'
 nota_versao: 'Edition 1.4 (2026-08-03): integral English translation of Notebook 4 v1.3 (DOI 10.5281/zenodo.21778047). No scientific change; the Portuguese text remains authoritative. DOI of version 1.4 to be inserted after reservation (gate P2).'
 editorial_note: 'P-01 resolved (decision by Fabio, 2026-08-01): the IFB Campus Planaltina faculty member cited in the Anais as Prof. Dr. Vicente Virgolino de Souza Neto is the same person as the Acervo profile Vicente de Paulo Borges Virgolino da Silva (coordinator of the Agronomy undergraduate program). Canonical form adopted: Vicente de Paulo Borges Virgolino da Silva. The Anais were not altered (historical record).'

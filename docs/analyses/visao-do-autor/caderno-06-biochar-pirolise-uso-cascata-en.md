@@ -15,7 +15,9 @@ method: repository-guided-scoping-review
 revision_date: 2026-07-23
 curation_responsible: Fabio Takwara
 tipo_documental: estado-da-arte
-estado_documental: publicado-no-zenodo
+estado_documental: homologado-documentalmente
+estado_documental_anterior: publicado-no-zenodo
+estado_documental_unificado_em: '2026-11-20'
 responsavel_curadoria: 'Fabio Takwara'
 
 ---

@@ -169,7 +169,8 @@ Fichas de registro bibliográfico derivadas do manifesto de referências citadas
 
 ### Experiências institucionais
 
-- [Rede Ecovida — Certificação participativa](ecovida-certificacao-participativa.md)
+- [Rede Ecovida — participação no marco regulatório federal da certificação orgânica](ecovida-certificacao-participativa.md)
+- [Rede Ecovida — Caderno de Formação: Certificação Participativa de Produtos Ecológicos (2004)](ecovida-caderno-certificacao-participativa-2004.md)
 
 ## Agenda inicial
 

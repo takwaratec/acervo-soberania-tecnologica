@@ -7,7 +7,9 @@ autor: Fabio Takwara
 orcid_autor: 0009-0002-6044-2583
 ano: 2026
 versao: 1.2
-estado_documental: depositado-no-zenodo
+estado_documental: homologado-documentalmente
+estado_documental_anterior: depositado-no-zenodo
+estado_documental_unificado_em: '2026-11-20'
 identificador: https://doi.org/10.5281/zenodo.21514977
 doi_versao_anterior: 10.5281/zenodo.21500145
 doi_conceitual: 10.5281/zenodo.21500144
