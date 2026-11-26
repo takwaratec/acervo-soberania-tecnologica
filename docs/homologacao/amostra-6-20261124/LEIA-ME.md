@@ -31,8 +31,8 @@ BASE=acervo main 096fc26 (merge do #135), cortada de a5c6af6 (merge do #133) · 
 DOCUMENTO=docs/homologacao/amostra-6-20261124/AMOSTRA6_FICHAS_20261124.html
 SHA256=5564c7346a7a975796d449e142ccb4f5151444be96772d57e430687c0f38e53a
 TAMANHO=1.424.371 bytes · 74 fichas em arquivo único, sem requisição de rede
-PECA=docs/homologacao/amostra-6-20261124/PECA_SETE_MOLDE_20261125.html · sha256 0664721b… · 135.402 bytes · 10 abas · 864 números · 859 aprovadas
-SETE=docs/homologacao/amostra-6-20261124/FICHAS_HOMOLOGACAO_SETE_20261124.html · sha256 44c4703e… · 107.256 bytes · 7 artigos · 864 itens
+PECA=docs/homologacao/amostra-6-20261124/PECA_SETE_MOLDE_20261125.html · sha256 ad1fb830… · 135.504 bytes · 10 abas · 864 números na ficha · 694 afirmações de resultado · 859 aprovadas
+SETE=docs/homologacao/amostra-6-20261124/FICHAS_HOMOLOGACAO_SETE_20261124.html · sha256 90a23b6b… · 107.492 bytes · 7 artigos · 864 números na ficha · 694 afirmações de resultado
 GATE=gate_fidelidade_fonte.py, sha256 do byte a16eb44a, self-test 96 (correção A1, PR #210)
 DENOMINADORES=numeros_na_ficha=864 · afirmacoes_resultado=694 · aprovadas=859
 ```
