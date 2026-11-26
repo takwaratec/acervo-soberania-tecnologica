@@ -92,7 +92,7 @@ Nomes de pasta seguem o padrão já vivo na árvore (kebab, objeto antes do qual
 | 4 | **`bambu-tratamento`** | **a rota convencional** | preservante químico convencional (CCB, CCA, boro), imunização, impregnação sob pressão, secagem como etapa de processo | **vapor saturado com agente de origem biológica** (é da 5), **termorretificação** (é da 5), extrato pirolenhoso (é da 5) |
 | 5 | **`bambu-tratamento-sustentavel`** | **a rota sem aditivo de síntese** | **vapor saturado com pirolenhoso, com tanino ou com sal**; **só vapor**; **termorretificação** (só calor, sem aditivo); extrato pirolenhoso, licor, bi-óleo; ação antifúngica e inseticida do extrato; toxicidade e resíduo | resina e adesivo de PU (é da 6) — link, não cópia; preservante convencional (é da 4) |
 | 6 | `pu-vegetal` | poliuretano de origem vegetal | **gaveta existente**, 41 arquivos — resina, adesivo, poliol e carga de origem vegetal | o extrato como tratamento do bambu, que é da 5 |
-| 7 | `bambu-carbono` | carbono do bambu: sequestro, estoque, biochar e cinzas | estoque e balanço de carbono, biochar, cinzas como pozolana, ciclo de vida do carbono | ACV de material (é da 1) e polpa (é da 8). **Fronteira ainda a decidir pelo soberano** |
+| 7 | `bambu-carbono` | **o carbono do bambu, do estoque ao produto** | estoque e sequestro de carbono (biomassa, solo, MRV); **materiais de carbono**; **biochar**; **cinza**; **carvão**; **carvão ativado**; ciclo de vida do carbono | ACV de material (é da 1) e polpa/celulose como fibra (é da 8) |
 | 8 | `bambu-alimentacao-e-outros-usos` | o que sobra | broto e alimentação, polpa e celulose, forno e fogão a biomassa, microreator, cadeia e mercado | material estrutural, biologia, fitossanidade, tratamento |
 
 **Fronteira 2 x 3 — a que mais vai ser disputada.** Se o objeto da ficha é **a planta** (floração,
@@ -125,11 +125,19 @@ podendo ir ao PU". O critério "onde está a fonte" continua valendo para dirimi
 
 ## 3. PU vegetal, carbono e alimentação — o que já existe
 
-| gaveta | hoje | lacuna que o roteiro nomeia |
+**A gaveta do carbono foi decidida por ato em 26/11/2026** — e o escopo é amplo, do estoque ao produto:
+**estoque, sequestro, produtos de carbono, biochar, materiais de carbono, cinza, carvão e carvão ativado.**
+Ela abre com essa fronteira, e não a "decide depois".
+
+| gaveta | hoje | o que precisa |
 |---|---|---|
-| `pu-vegetal` | 41 arquivos, `agenda-de-pesquisa.md` própria | o bambu entra como **carga** ou como **fonte de poliol**? A gaveta hoje mistura os dois — separar é a primeira rodada |
-| `bambu-carbono` | **não existe** | cinzas (`mendonca-2018`) e fogão/forno (`ficha-rocket-stove-cfd`) estão em `bambu-estrutural`; carbono e biochar não têm casa |
+| `pu-vegetal` | 41 arquivos, `agenda-de-pesquisa.md` própria | separar **bambu-carga** de **bambu-poliol** — a gaveta hoje mistura os dois;
+| `bambu-carbono` | **não existe** | abre com escopo declarado (acima). Ganha `mendonca-2018` (cinzas), e a **polpa/celulose fica fora** — fibra é da 8. Fichas de biochar, carvão e carvão ativado vêm das 254 e de busca própria |
 | `bambu-alimentacao` | **não existe** | broto não tem ficha na árvore; polpa (`santos-2023`) está na estrutural |
+
+**O caso do fogão e do forno.** `ficha-rocket-stove-cfd` (combustão) e o microreator **não** são carbono nem
+estrutural: são **conversão térmica**, e ficam na 8 (outros usos). A divisão que separa as duas gavetas: **o que
+vira carbono é da 7; o que queima para gerar calor é da 8.** O carvão produzido no forno é da 7; o forno, da 8.
 
 **Não inventar ficha para preencher gaveta.** Gaveta vazia declarada é informação; gaveta preenchida com ficha
 fraca é dívida.

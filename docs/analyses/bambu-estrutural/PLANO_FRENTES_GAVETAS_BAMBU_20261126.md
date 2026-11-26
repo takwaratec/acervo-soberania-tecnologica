@@ -117,30 +117,32 @@ elegibilidade pendente**, a ser decidida no fim da fase 2:
 Este parágrafo é a correção do achado P4 do Teco R1: a versão anterior apresentava o produto como sustentado
 ("passa de 40 fichas") sem ter aplicado o critério que o próprio plano declara prévio.
 
-### Onda 2 — `bambu-carbono` (a gaveta que nasce)
+### Onda 2 — `bambu-carbono` (a gaveta que nasce com escopo decidido)
 
-**Por que aqui:** o soberano apontou que a documentação é forte e o acervo não a tem. E porque ela é a gaveta
-onde a política pública realmente decide (crédito de carbono, REDD+, MRV) — o custo de não tê-la é maior.
+**Escopo decidido pelo soberano em 26/11/2026, e é amplo:** **estoque, sequestro, produtos de carbono, biochar,
+materiais de carbono, cinza, carvão e carvão ativado.** Não é mais pergunta em aberto — é a fronteira da gaveta.
 
-**Já localizado:** as 254 BAM incluem a frente de carbono com força: estoque em floresta natural de
-*Oxytenanthera abyssinica* (Uganda), estoque por altitude em *Dendrocalamus hamiltonii* (Nepal), e uma
-revisão sobre **barreiras a iniciativas de crédito de carbono com bambu**. E o periódico mantém coleção
-especial sobre **materiais de carbono derivados de bambu** e outra sobre **bambu em clima em mudança**.
-Há ainda, na gaveta estrutural, `mendonca-2018` (cinzas como pozolana) e `ficha-rocket-stove-cfd` (fogão),
-que são carbono aplicado e hoje não têm casa.
+**Por que esta onda e não outra:** o senhor apontou que a documentação é forte e o acervo não a tem; e é onde a
+política pública decide (crédito de carbono, REDD+, MRV). O custo de não ter a gaveta é maior que o de qualquer
+outra que falte.
 
-**Fase 1:** criar `docs/analyses/bambu-carbono/` com `index.md` e `agenda-de-pesquisa.md` próprios,
-**declarando-se vazia** — gaveta declarada e vazia é informação; gaveta preenchida com ficha fraca é dívida.
-Registrar no `GAVETAS_R4.json` (hoje a entrada existe em `GAVETAS_DECLARADAS_SEM_CONTEUDO_MEDIDO`).
+**Já localizado nas 254:** estoque em floresta natural de *Oxytenanthera abyssinica* (Uganda); estoque por
+altitude em *Dendrocalamus hamiltonii* (Nepal); **revisão sobre barreiras a iniciativas de crédito de carbono com
+bambu**. O periódico mantém coleção especial de **materiais de carbono derivados de bambu** e outra de **bambu em
+clima em mudança**.
 
-**Fase 2:** triagem das 254 por tema, começando por carbono: uma linha por obra, título e DOI lidos da p. 1.
+**Fase 1 — criar `docs/analyses/bambu-carbono/`** com `index.md` e `agenda-de-pesquisa.md` que **nomeiam as
+quatro sublinhas** (estoque/sequestro · produtos de carbono e materiais · biochar · cinza, carvão e carvão
+ativado), mesmo vazias. Gaveta declarada e vazia é informação; gaveta preenchida com ficha fraca é dívida.
 
-**Fase 3:** fichar o subconjunto de carbono e mover para cá `mendonca-2018` e o fogão, com mapa de
-renomeação e links consertados.
+**Fase 2 — triagem das 254 por sublinha.** Uma linha por obra, título e DOI lidos da p. 1. É esta triagem que
+diz quantas das 254 são de carbono — e o número pode mudar o tamanho da onda.
 
-**Ponto de decisão do soberano:** a gaveta cobre **estoque e sequestro** (biomassa, solo, MRV) ou também
-**produto de carbono** (biochar, materiais de carbono, cinzas)? São dois campos com literatura distinta, e
-misturá-los reproduz o defeito que esta partição existe para corrigir.
+**Fase 3 — mover `mendonca-2018` (cinzas)** com mapa de renomeação e links consertados, e abrir as fichas de
+carbono a partir do que a triagem trouxer.
+
+**Fronteira com a Onda 5, declarada antes para não confundir:** **o que vira carbono é da 2; o que queima para
+gerar calor é da 5** (`ficha-rocket-stove-cfd`, microreator). Carvão produzido no forno é da 2; o forno, da 5.
 
 ### Onda 3 — `bambu-fitossanidade` e `bambu-biologia`
 
@@ -270,13 +272,14 @@ sustentável, separado do `pu-vegetal`. **O #137 não é medido sem o soberano v
 
 **Segue pendente:**
 
-- **a fronteira de `bambu-carbono`** — estoque/sequestro apenas, ou também produto de carbono? **bloqueia a
-  criação da gaveta**;
+- ~~a fronteira de `bambu-carbono`~~ — **DECIDIDO em 26/11**: estoque, sequestro, produtos de carbono, biochar,
+  materiais de carbono, cinza, carvão e carvão ativado. A gaveta abre com esse escopo;
 - ~~onde fica a modificação térmica~~ — **DECIDIDO em 26/11**: termorretificação e vapor saturado vão para a
   sustentável; o critério é **o que satura**, não a temperatura;
 - ~~`laroque-2022`, que é pinus~~ — **DECIDIDO em 26/11**: fica na gaveta sustentável, **com nota de escopo**,
   como referência comparativa para novos ensaios com bambu;
-- **onde mora a ficha do PDMS** — caso à parte por decisão; sem endereço até o soberano dizer;
+- **onde mora a ficha do PDMS** — caso à parte por decisão; sem endereço até o soberano dizer; é a **única
+  fronteira que resta**;
 - **a janela de "recente"** na busca de atualização;
 - **quem executa a reauditoria da R4** — se é a própria frente com o portal, ou rito próprio da R4;
 - **a separação de `pu-vegetal`** entre bambu-carga e bambu-poliol.
