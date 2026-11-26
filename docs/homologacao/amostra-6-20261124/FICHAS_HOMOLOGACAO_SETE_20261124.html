@@ -83,7 +83,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
     <span><b>7</b> fichas</span>
     <span><b>864</b> afirmações medidas</span>
     <span><b>859</b> aprovadas · <b>3</b> aprovadas sem unidade · <b>2</b> não verificáveis</span>
-    <span>gate de fidelidade à fonte · <code>ops/command-center/metodo/gate_fidelidade_fonte.py</code> · sha256 <code>54691508</code> · self-test 95</span>
+    <span>gate de fidelidade à fonte · <code>ops/command-center/metodo/gate_fidelidade_fonte.py</code> · sha256 <code>a16eb44a</code> · self-test 96</span>
   </div>
 </header>
 <main>
@@ -113,7 +113,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="adier-2023-propriedades-tratamento-bambu">
   <div class="estado-ficha">
     <div class="linha"><span class="selo pass">PASS</span>
-      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
     <div class="linha itens" style="margin-top:6px">210 afirmações · APROVADO 209 · NAO_VERIFICAVEL 1</div>
     <ul class="pendencias"><li><code>49</code> — NAO_VERIFICAVEL · p. 23 · linha 95</li></ul>
   </div>
@@ -146,7 +146,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <li><strong>Resistência à flexão (MOR):</strong> na Tabela 6, a linha da referência [53] reporta <strong>50–220 MPa</strong> de MOR (p. 24).</li>
 <li><strong>Densidade seca do bambu comumente usado em estruturas:</strong> varia de <strong>500 kg/m³</strong> a <strong>800 kg/m³</strong> (p. 12).</li>
 </ul>
-<blockquote><p><strong>Nota de verificação:</strong> na Tabela 6, a unidade está no cabeçalho da coluna (MOR em MPa, MOE em GPa), não junto aos valores <code>50–220</code>. A coluna foi conferida por coordenada na página 24 (o valor começa sob o cabeçalho MOR, não sob CS), e a unidade foi conferida na mesma coordenada — por isso o valor entra na ficha como <strong>MPa</strong>. Registro do instrumento: <code>54691508</code> emite, para esta linha, o estado <strong><code>APROVADO</code></strong> com a unidade <strong><code>MPa</code></strong> (p. 24). A versão anterior, <code>1750b762</code>, emitia <code>APROVADO_SEM_UNIDADE</code> para a mesma linha. A conferência da coordenada que sustenta a atribuição da coluna — o valor começa sob o cabeçalho MOR, não sob CS — foi feita na fonte privada e não é reproduzível a partir daqui.</p></blockquote>
+<blockquote><p><strong>Nota de verificação:</strong> na Tabela 6, a unidade está no cabeçalho da coluna (MOR em MPa, MOE em GPa), não junto aos valores <code>50–220</code>. A coluna foi conferida por coordenada na página 24 (o valor começa sob o cabeçalho MOR, não sob CS), e a unidade foi conferida na mesma coordenada — por isso o valor entra na ficha como <strong>MPa</strong>. Registro dos instrumentos, para que o número publicado nomeie quem mediu: o gate <strong>vigente</strong> é <code>a16eb44a</code> (self-test 96), e ele emite para esta linha o estado <strong><code>APROVADO</code></strong> com a unidade <strong><code>MPa</code></strong> (p. 24). O <code>54691508</code> (self-test 95) emitia o mesmo estado; o <code>1750b762</code> (self-test 58) emitia <code>APROVADO_SEM_UNIDADE</code>. Nenhum dos três valores foi ajustado na ficha — o que mudou foi o instrumento. A conferência da coordenada que sustenta a atribuição da coluna — o valor começa sob o cabeçalho MOR, não sob CS — foi feita na fonte privada e não é reproduzível a partir daqui.</p></blockquote>
 <hr>
 <h2 id="adier-2023-propriedades-tratamento-bambu--51-tabela-6-a-consolidação-mecânica-do-artigo-p">5.1 Tabela 6 — a consolidação mecânica do artigo (p. 24)</h2>
 <p>A Tabela 6 é o núcleo quantitativo desta revisão: 27 referências com resistência à compressão (CS), tração (TS), flexão (FS), cisalhamento (SS), MOR, MOE, dureza e capacidade de carga. Medido no derivado: a tabela ocupa uma página (p. 24) e a extração a entrega <strong>achatada, sem grade</strong> — os valores aparecem alinhados em sequência, e a coluna de cada valor só é recuperável quando a extração registra a coordenada do cabeçalho.</p>
@@ -164,7 +164,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <p>Os valores estão na ordem em que a fonte os publica. <strong>Nenhuma coluna foi atribuída por inferência</strong>: a extração entrega a Tabela 6 achatada, sem grade, e os símbolos <code>∥</code> e <code>⊥</code> (paralelo/perpendicular às fibras) vêm como a fonte os escreve. A propriedade de cada célula desta tabela <strong>não é afirmada</strong> — é exatamente o que a ficha não sabe, e declarar isso é mais honesto que rotular por posição.</p>
 <div class="tab"><table><thead><tr><th>Referência</th><th>Valores como publicados, na ordem da fonte</th><th>Localização</th></tr></thead><tbody><tr><td>[11]</td><td>191.61–423.29 ∥ · 21.29–27.53 · 360–470 MPa</td><td>p. 24</td></tr><tr><td>[74]</td><td>42.50–52.73 ∥ · 159.01 ∥1 · 164.30 ∥2 · 148.69 ∥1 · 153.31 ∥2 · (1 S-1, 2 S-15)</td><td>p. 24</td></tr><tr><td>[75]</td><td>130–160 ∥</td><td>p. 24</td></tr><tr><td>[76]</td><td>57 ∥</td><td>p. 24</td></tr><tr><td>[45]</td><td>32.72 ∥ · 147.0 ∥, 8.36 ⊥ · 171.44–210.14 (1) · 326.25–550.87 (2) · (1 mortar, 2 concrete)</td><td>p. 24</td></tr><tr><td>[49]</td><td>24.27–158.26 ∥ · 5.48–36.22 · 64.63–328.18 · 13.35–29.34</td><td>p. 24</td></tr><tr><td>[8]</td><td>48–132 · 6.1–14.2</td><td>p. 24</td></tr><tr><td>[53]</td><td>50–220 · 5.0–20.0</td><td>p. 24</td></tr><tr><td>[15]</td><td>75–82.2 ∥</td><td>p. 24</td></tr><tr><td>[61]</td><td>38.46–162.82 ∥ · 8.30–17.15</td><td>p. 24</td></tr><tr><td>[62]</td><td>76.7–107.6 · 26.82–36.24</td><td>p. 24</td></tr><tr><td>[63]</td><td>74.56 (1), 82.72 (2) · 18.93 (1), 18.74 (2) · (1 manual, 2 hydraulic)</td><td>p. 24</td></tr><tr><td>[78]</td><td>50.57 ∥, 14.82 ⊥ · 112.56 ∥ · 118.0 ∥ · 17.34 · 9.90</td><td>p. 24</td></tr><tr><td>[24]</td><td>55–60 ∥, 22 ⊥ · 116–124 ∥ · 76–79 ∥, 3.0 ⊥ · 14–17 · 10.20–10.50</td><td>p. 24</td></tr><tr><td>[22]</td><td>114 ∥, 19.3 ⊥ · 136–294 ∥ · 13.5–14.8 · 225.0 · 21.0</td><td>p. 24</td></tr><tr><td>[51]</td><td>156.43–397.96 ∥ · 188.04–361.75 ∥</td><td>p. 24</td></tr><tr><td>[23]</td><td>104.71–115.7 ∥ · 49.33–77.0 ⊥ · 111–144.75 ∥, 4.18–6.70 ⊥ · 131–166.5 ∥ · 11.89–17</td><td>p. 24</td></tr><tr><td>[56]</td><td>58.1–66.3 ∥ · 194.9–225.5 · 22.3–23.8 · 3.0–3.76 kN</td><td>p. 24</td></tr><tr><td>[5]</td><td>85.0–230.0 ∥ · 80–210.0 · 8.0–12.5</td><td>p. 24</td></tr><tr><td>[27]</td><td>122.0 · 18.5</td><td>p. 24</td></tr><tr><td>[79]</td><td>211.0 ∥</td><td>p. 24</td></tr><tr><td>[80]</td><td>38.40–92.37 ∥</td><td>p. 24</td></tr><tr><td>[58]</td><td>243.4 (1), 76.0 (2), 266.6 (3) MPa · (1 smoked, 2 dried, 3 dyed)</td><td>p. 24</td></tr><tr><td>[81]</td><td>81.43–124.30 ∥ · 3.76</td><td>p. 24</td></tr><tr><td>[84]</td><td>2.11</td><td>p. 24</td></tr><tr><td>[59]</td><td>653.3–766.2 ∥ · 22.5–26.7</td><td>p. 24</td></tr><tr><td>[13]</td><td>43.9–72.2 ∥ · 15.9–21.8 · 8.81–13.2</td><td>p. 24</td></tr><tr><td>[1]</td><td>54–58.0 ∥ · 12.0–16.0 · 11.93–20.68</td><td>p. 24</td></tr><tr><td>[16]</td><td>59.1–69.9 ∥</td><td>p. 24</td></tr></tbody></table></div>
 <blockquote><p>Limite declarado: em Tabela 6.2 a ficha reconhece que <strong>não sabe a que propriedade cada valor corresponde</strong>. O valor é literal e a página é a da tabela; a atribuição fica em aberto e a ficha não a inventa. Quem precisar de MOR, MOE, CS, TS, FS ou SS linha a linha tem de abrir a p. 24 na fonte.</p></blockquote>
-<p><strong>Por que esta tabela não é verificada pelo instrumento.</strong> Medido com o gate vigente (<code>54691508</code>), em três sondas: com a página no cabeçalho da seção, só a <strong>primeira</strong> linha herda a página; com <code>(p. 24)</code> ao fim da linha, só os números imediatamente à esquerda do parêntese herdam; com coluna «Pág.», nenhum herda. Transcrita como tabela markdown, a tabela inteira volta <code>SEM_PAGINA</code> célula por célula. Por isso ela entra aqui como transcrição literal, com a página declarada no título — verificável por leitura humana, e declarada como <strong>não verificável pelo instrumento</strong> em vez de fingir o contrário.</p>
+<p><strong>Por que esta tabela não é verificada pelo instrumento.</strong> Medido com o gate vigente (<code>a16eb44a</code>, self-test 96), em três sondas: com a página no cabeçalho da seção, só a <strong>primeira</strong> linha herda a página; com <code>(p. 24)</code> ao fim da linha, só os números imediatamente à esquerda do parêntese herdam; com coluna «Pág.», nenhum herda. Transcrita como tabela markdown, a tabela inteira volta <code>SEM_PAGINA</code> célula por célula. Por isso ela entra aqui como transcrição literal, com a página declarada no título — verificável por leitura humana, e declarada como <strong>não verificável pelo instrumento</strong> em vez de fingir o contrário.</p>
 <hr>
 <h2 id="adier-2023-propriedades-tratamento-bambu--6-implicações-para-o-setor-e-construção-sustentá">6. Implicações para o Setor e Construção Sustentável</h2>
 <p>Demonstra a viabilidade técnica do bambu roliço como substituto do aço em elementos tracionados e da alvenaria em elementos de vedação, desde que atendidos os critérios de durabilidade e conexões flexíveis.</p>
@@ -183,7 +183,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="ficha-chen-2015-cu-moso-fitorremediacao">
   <div class="estado-ficha">
     <div class="linha"><span class="selo pass">PASS</span>
-      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
     <div class="linha itens" style="margin-top:6px">83 afirmações · APROVADO 82 · NAO_VERIFICAVEL 1</div>
     <ul class="pendencias"><li><code>0</code> — NAO_VERIFICAVEL · p. 3 · linha 70</li></ul>
   </div>
@@ -232,7 +232,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="ficha-liu-2015-pb-moso-fitorremediacao">
   <div class="estado-ficha">
     <div class="linha"><span class="selo pass">PASS</span>
-      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
     <div class="linha itens" style="margin-top:6px">64 afirmações · APROVADO 64</div>
     
   </div>
@@ -276,7 +276,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="marcal-2018-normas-internacionais-bambu">
   <div class="estado-ficha">
     <div class="linha"><span class="selo pass">PASS</span>
-      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
     <div class="linha itens" style="margin-top:6px">27 afirmações · APROVADO 27</div>
     
   </div>
@@ -321,7 +321,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="ficha-heat-treatment-pdms-bamboo">
   <div class="estado-ficha">
     <div class="linha"><span class="selo nv">NAO_VERIFICAVEL</span>
-      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
     <div class="linha itens" style="margin-top:6px">269 afirmações · APROVADO 266 · APROVADO_SEM_UNIDADE 3</div>
     <ul class="pendencias"><li><code>2,72%</code> — APROVADO_SEM_UNIDADE · p. 43441 · linha 135</li><li><code>0,97%</code> — APROVADO_SEM_UNIDADE · p. 43441 · linha 135</li><li><code>0,40%</code> — APROVADO_SEM_UNIDADE · p. 43441 · linha 136</li></ul>
   </div>
@@ -388,7 +388,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="santos-2024-poetica-narrativa-tectonica-bambu">
   <div class="estado-ficha">
     <div class="linha"><span class="selo pass">PASS</span>
-      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
     <div class="linha itens" style="margin-top:6px">21 afirmações · APROVADO 21</div>
     
   </div>
@@ -458,7 +458,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 <article class="ficha" id="ficha-acv-bambu-unesp-araujo2025">
   <div class="estado-ficha">
     <div class="linha"><span class="selo pass">PASS</span>
-      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>54691508</code> · 1750b762 é histórico e não emite veredito</span></div>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
     <div class="linha itens" style="margin-top:6px">190 afirmações · APROVADO 190</div>
     
   </div>
@@ -527,7 +527,7 @@ footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-
 
   <footer>
     <p>Documento de leitura para homologação. Não altera ficha, não homologa, não substitui o parecer.
-    Gerado a partir das sete fichas e da medição do gate de fidelidade à fonte (self-test 95) sobre o corpus de
+    Gerado a partir das sete fichas e da medição do gate de fidelidade à fonte (self-test 96) sobre o corpus de
     74 documentos da gaveta bambu-estrutural.</p>
   </footer>
 </main>

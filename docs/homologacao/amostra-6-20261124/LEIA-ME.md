@@ -28,18 +28,17 @@ de 24/11. **Nenhuma ficha mudou de estado por causa disso**: todas seguem `em-re
 DATA=2026-11-24 · PACOTE REGERADO=2026-11-26
 BASE=acervo main 096fc26 (merge do #135), cortada de a5c6af6 (merge do #133) · branch de integração hermes/bambu-pacote-apos-135-20261126
 DOCUMENTO=docs/homologacao/amostra-6-20261124/AMOSTRA6_FICHAS_20261124.html
-SHA256=dd8f6bac395013f63bd2bd53acff7c0cd52fecf73a97598829b5302ac696a318
-TAMANHO=1.424.131 bytes · 74 fichas em arquivo único, sem requisição de rede
-PECA=docs/homologacao/amostra-6-20261124/PECA_SETE_MOLDE_20261125.html · sha256 bb8c09d253cbbbeb… · 135.017 bytes · 10 abas · 864 números · 859 aprovadas
-SETE=docs/homologacao/amostra-6-20261124/FICHAS_HOMOLOGACAO_SETE_20261124.html · sha256 7319a245… · 106.846 bytes · 7 artigos · 864 itens
+SHA256=5564c7346a7a975796d449e142ccb4f5151444be96772d57e430687c0f38e53a
+TAMANHO=1.424.371 bytes · 74 fichas em arquivo único, sem requisição de rede
+PECA=docs/homologacao/amostra-6-20261124/PECA_SETE_MOLDE_20261125.html · sha256 3d4b64fb… · 135.257 bytes · 10 abas · 864 números · 859 aprovadas
+SETE=docs/homologacao/amostra-6-20261124/FICHAS_HOMOLOGACAO_SETE_20261124.html · sha256 997d8ded… · 107.184 bytes · 7 artigos · 864 itens
 GATE=gate_fidelidade_fonte.py, sha256 do byte a16eb44a, self-test 96 (correção A1, PR #210)
 DENOMINADORES=numeros_na_ficha=864 · afirmacoes_resultado=694 · aprovadas=859
 ```
 
 ## 1. O que este documento é
 
-Um arquivo só, com as **74 fichas da gaveta** `docs/analyses/bambu-estrutural/`, geradas do markdown
-versionado no commit `096fc26` (main com o #135). Cada título abre a ficha no próprio documento; cada ficha mostra frontmatter, seções numeradas e
+Um arquivo só, com as **74 fichas da gaveta** `docs/analyses/bambu-estrutural/`, geradas do markdown versionado no commit `ee041c1` (main com o #135 e a correção do nome do instrumento). Cada título abre a ficha no próprio documento; cada ficha mostra frontmatter, seções numeradas e
 tabelas como estão no markdown. **Não homologa nada e não altera nenhuma ficha.**
 
 ## 2. As sete da amostra — estado medido pelo gate (26/11/2026, pós-#135)
