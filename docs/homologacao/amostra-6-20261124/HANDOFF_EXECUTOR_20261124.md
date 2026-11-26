@@ -1,7 +1,7 @@
 ---
 tipo_documental: documento-institucional
 estado_documental: em-revisao-documental
-data_revisao: 2026-11-24
+data_revisao: 2026-11-26
 responsavel_curadoria: Fabio Takwara
 titulo: "Handoff de continuidade — sete fichas da homologação"
 autor: Fabio Takwara
@@ -113,3 +113,22 @@ Documento de leitura: não homologa nada, não altera ficha. Foi entregue ao sob
 - Não repetir a tentativa que já falhou duas vezes: ler unidade do cabeçalho da ficha aplicou `t` (tonelada) de
   `T (°C)` a 45 valores da `pdms`; ler "o cabeçalho acima" no texto devolveu letras soltas.
 - Não tratar `PASS` como homologação.
+
+## 9. Nota de 26/11/2026 — o incremento entrou (PR #135)
+
+Este handoff foi escrito em 24/11, quando as sete estavam no estado medido por um gate que só lia prosa. Em
+25/11 o instrumento foi corrigido (A1: a página passou a valer para a **linha** da tabela) e em 26/11 o **#135
+entrou na main** (`096fc26`) com as sete incrementadas.
+
+O que mudou para quem lê este handoff:
+
+- **As contagens da §2 do pacote não são mais as de 24/11.** Hoje: `numeros_na_ficha` **864**,
+  `afirmações de resultado` **694**, **859 aprovadas**. Seis `PASS`, e o `pdms` em **`NAO_VERIFICAVEL`** por
+  3 células cuja unidade a fonte não declara na ocorrência.
+- **A lista do §8 continua valendo inteira.** O que era proibido em 24/11 continua proibido: nada de coordenada
+  inventada, nada de unidade lida do cabeçalho, nada de `PASS` tratado como homologação.
+- **O que este handoff não sabia e agora está declarado como limite:** a Tabela 2 do `pdms` (cor em CIELAB,
+  p. 43444) **não foi transcrita** — a extração a entrega com colunas deslocadas (`b*` sairia −808,86), e
+  transcrever daria aparência de precisão a extração errada. Fechar exige reextração da página.
+- **A homologação continua sendo sua, por leitura.** O gate mediu onde o número está; não mediu se a frase da
+  ficha é a frase da fonte. `PASS` não é homologação, e nenhuma das sete tem `autorizacao_homologacao`.

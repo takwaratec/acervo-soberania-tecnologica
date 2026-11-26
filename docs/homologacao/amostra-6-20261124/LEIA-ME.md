@@ -1,57 +1,69 @@
 ---
 tipo_documental: documento-institucional
 estado_documental: em-revisao-documental
-data_revisao: 2026-11-24
+data_revisao: 2026-11-26
 responsavel_curadoria: Fabio Takwara
 titulo: "Amostra 6 — pacote de homologação por leitura humana"
 autor: Fabio Takwara
-resumo: "Pacote de leitura das sete fichas da gaveta bambu-estrutural submetidas a homologação."
+resumo: "Pacote de leitura das sete fichas da gaveta bambu-estrutural submetidas a homologação, atualizado depois do incremento de 25/11."
 ---
 
 # AMOSTRA 6 — pacote de homologação por leitura humana
 
-## 0. Estado declarado — posterioridade ao PR #133
+## 0-bis. Estado declarado — posterioridade ao #133 **e ao #135**
 
 Este pacote foi montado em 2026-11-24, quando onze fichas da gaveta ainda carregavam o rótulo
-`homologado-documentalmente`. Em 2026-11-25 o soberano mandou **rebaixar as onze**, e o acervo as
-devolveu a `em-revisao-documental` (PR #133, `a5c6af6`): nenhuma delas tinha `autorizacao_homologacao`
-no front matter, e homologação é ato do soberano, não estado que se declara. A única ficha com ato
-registrado é a PDMS (`FABIO_SOBERANO`, 21/11/2026, `9e851095`).
+`homologado-documentalmente`. Em 2026-11-25 o soberano mandou **rebaixar as onze**, e o acervo as devolveu a
+`em-revisao-documental` (PR #133, `a5c6af6`): nenhuma delas tinha `autorizacao_homologacao` no front matter, e
+homologação é ato do soberano, não estado que se declara. A única ficha com ato registrado é a PDMS
+(`FABIO_SOBERANO`, 21/11/2026, `9e851095`).
 
-O `AMOSTRA6_FICHAS_20261124.html` foi regerado com esse rebaixamento refletido: o índice mostrava 12
-fichas como homologadas e agora mostra 74 em revisão. **Rótulo no front matter não é homologação.** Nenhuma
-das sete submetidas neste pacote recebeu ou perdeu estado por esta nota — elas continuam `em-revisao-documental`,
-e o que este pacote oferece ao soberano é a leitura, não o carimbo.
+**Em 26/11/2026 o #135 entrou na main (`096fc26`) e incrementou as sete fichas**: tabelas transcritas com
+página por linha, contagens medidas pelo gate corrigido (A1). Este pacote foi **regerado a partir daquele
+commit** — os três agregados HTML e as duas tabelas deste arquivo descrevem o estado que a main tem agora, não o
+de 24/11. **Nenhuma ficha mudou de estado por causa disso**: todas seguem `em-revisao-documental`.
 
 ```
-DATA=2026-11-24
-BASE=acervo, branch hermes/bambu-7fichas-rebase-a5c6af6-20261125, base a5c6af6 (com o rebaixamento do #133)
+DATA=2026-11-24 · PACOTE REGERADO=2026-11-26
+BASE=acervo main 096fc26 (merge do #135), cortada de a5c6af6 (merge do #133) · branch de integração hermes/bambu-pacote-apos-135-20261126
 DOCUMENTO=docs/homologacao/amostra-6-20261124/AMOSTRA6_FICHAS_20261124.html
-DOCUMENTO_REGERADO=2026-11-25, so o estado das fichas no indice (12 homologado-documentalmente -> 74 em-revisao-documental)
-SHA256=9caf11f48fbc88d497f4678ac851524c9e8c8cb3ced3bda4be40fd93920866bb
-TAMANHO=1.387.787 bytes · 74 fichas em arquivo único, sem requisição de rede
-GATE=gate_fidelidade_fonte.py, self-test 95 (main do portão 917886f2 + O5 + O3)
+SHA256=dd8f6bac395013f63bd2bd53acff7c0cd52fecf73a97598829b5302ac696a318
+TAMANHO=1.424.131 bytes · 74 fichas em arquivo único, sem requisição de rede
+PECA=docs/homologacao/amostra-6-20261124/PECA_SETE_MOLDE_20261125.html · sha256 bb8c09d253cbbbeb… · 135.017 bytes · 10 abas · 864 números · 859 aprovadas
+SETE=docs/homologacao/amostra-6-20261124/FICHAS_HOMOLOGACAO_SETE_20261124.html · sha256 7319a245… · 106.846 bytes · 7 artigos · 864 itens
+GATE=gate_fidelidade_fonte.py, sha256 do byte a16eb44a, self-test 96 (correção A1, PR #210)
+DENOMINADORES=numeros_na_ficha=864 · afirmacoes_resultado=694 · aprovadas=859
 ```
 
 ## 1. O que este documento é
 
 Um arquivo só, com as **74 fichas da gaveta** `docs/analyses/bambu-estrutural/`, geradas do markdown
-versionado. Cada título abre a ficha no próprio documento; cada ficha mostra frontmatter, seções numeradas e
+versionado no commit `096fc26` (main com o #135). Cada título abre a ficha no próprio documento; cada ficha mostra frontmatter, seções numeradas e
 tabelas como estão no markdown. **Não homologa nada e não altera nenhuma ficha.**
 
-## 2. As seis da amostra — estado medido pelo gate
+## 2. As sete da amostra — estado medido pelo gate (26/11/2026, pós-#135)
 
-| ficha | estado | itens | afirmações de resultado |
-|---|---|---|---|
-| `adier-2023` | `PASS` | 5 | 5 |
-| `ficha-chen-2015` | `PASS` | 28 | 12 |
-| `ficha-liu-2015` | `PASS` | 22 | 12 |
-| `marcal-2018` | `PASS` | 3 | 2 |
-| `ficha-heat-treatment-pdms` | `PASS` | 90 | 41 |
-| `santos-2024` | `PASS` | 12 | 11 |
-| `ficha-acv-bambu-unesp-araujo2025` | `PASS` | 12 aprovados + 8 não confirmados | 4 |
+Duas réguas, dois nomes: `numeros_na_ficha` conta todo número do texto (inclusive referência e página);
+`afirmações de resultado` conta só o que o instrumento classifica como resultado.
 
-## 3. O que mudou nas seis, ficha por ficha
+| ficha | estado | números na ficha | afirmações de resultado | aprovadas |
+|---|---|---|---|---|
+| `adier-2023` | `PASS` | 210 | 171 | 209 |
+| `ficha-chen-2015` | `PASS` | 83 | 62 | 82 |
+| `ficha-liu-2015` | `PASS` | 64 | 54 | 64 |
+| `marcal-2018` | `PASS` | 27 | 24 | 27 |
+| `ficha-heat-treatment-pdms` | **`NAO_VERIFICAVEL`** | 269 | 180 | 266 |
+| `santos-2024` | `PASS` | 21 | 19 | 21 |
+| `ficha-acv-bambu-unesp-araujo2025` | `PASS` | 190 | 184 | 190 |
+| **total** | **6 `PASS` + 1 `NAO_VERIFICAVEL`** | **864** | **694** | **859** |
+
+`pdms` não é `PASS` e não será apresentada como tal: 3 células ficaram `APROVADO_SEM_UNIDADE` porque a fonte
+não declara a unidade na ocorrência (2,72%; 0,97%; 0,40% — o percentual está no título da tabela). **`PASS` não
+é homologação:** nenhuma destas sete tem `autorizacao_homologacao`.
+
+## 3. O que mudou nas sete, ficha por ficha
+
+**Correções de 24/11** (continuam valendo — foram fidelidade à fonte, não ajuste ao instrumento):
 
 | ficha | correção | procedência |
 |---|---|---|
@@ -64,16 +76,36 @@ tabelas como estão no markdown. **Não homologa nada e não altera nenhuma fich
 | `liu` | idem; 12 resultados (as 6 doses de `µmol/L` são protocolo, não resultado) | |
 | `pdms` | página em coluna própria da tabela passou a valer | 49 de 102 itens estavam sem página |
 
+**Incremento de 25/11 (#135)** — tabelas novas, com página por linha, e erros de página encontrados ao remedir:
+
+| ficha | o que entrou | o que estava errado e foi corrigido |
+|---|---|---|
+| `adier` | Tabela 6 (29 referências, p. 24) em duas tabelas: as três atribuições provadas e a transcrição integral sem rótulo de coluna | `226,28` e `423,29` saíam divergentes porque os decimais estavam em negrito; `191.61-423.29` trocou hífen pelo travessão da fonte — 14 valores voltaram a conferir |
+| `acv` | Tabela 1 (inventário, coluna `Unity`, p. 7) e Tabela 2 (8 materiais × 7 categorias ReCiPe, p. 9) | a Tabela 2 em bloco literal virou markdown com coluna `Pág.` |
+| `chen` | Tabela 2 (biomassa, BAF e TF, cinco doses, p. 3) | 13 valores estavam declarados em `p. 4, 5` e a tabela é da `p. 3` |
+| `liu` | concentrações por tecido somadas a TF/BCF, sete tratamentos (p. 126) | 9 valores estavam em `p. 125` e a tabela é da `p. 126` |
+| `marcal` | esforços admissíveis e módulos das normas colombiana (p. 132), peruana (p. 138) e equatoriana (p. 139) | flexão admissível de 5 MPa no Peru contra 15 MPa nas outras duas — a tabela que muda decisão de projeto |
+| `pdms` | Tabela 1 completa: 5 temperaturas × 3 umidades × 3 direções (p. 43441) | — |
+| `santos` | os três casos em tabela, com dimensão e página por linha (p. 84/97/110) | `716m²` colado era lido como símbolo; reescrito por extenso |
+
+**Regra que valeu em todas:** onde a coluna não é provada pela fonte, a célula não recebe atribuição. Nenhuma
+coluna foi inferida por posição.
+
 ## 4. Limites declarados — onde a régua NÃO confirma
 
-1. **`acv`: 8 itens do inventário** em `NAO_VERIFICAVEL` (6) e `APROVADO_SEM_UNIDADE` (2). A Tabela 1 foi
-   achatada na extração: unidade e quantidade caem em linhas separadas. **Não anotei coordenada** — seria
-   corrigir para o gate gostar. O valor está na ficha, a unidade está na fonte, e a régua não confirma o
-   vínculo.
-2. **`ficha-chen-2015` / `ficha-liu-2015`**: 12 afirmações de resultado cada, conferidas **na página
-   declarada**. Isso prova que o valor existe ali; **não** prova que a página sustenta a afirmação.
-3. **Asserções de citação são atestação humana**, não medida da régua.
-4. A reprodução do documento não prova o gerador; o inspetor de DOM não prova o conteúdo.
+1. **`pdms`: a Tabela 2 (cor em CIELAB, p. 43444) não foi transcrita.** A extração a entrega com colunas
+   deslocadas — `b*` do controle sairia −808,86 e `DL*` a 120 °C, 173,98, fora do domínio de um espaço
+   cromático em que `b*` varia na casa das dezenas. Fechar exige reextração da página; é pendência de custódia,
+   não de curadoria.
+2. **`pdms`: 3 células `APROVADO_SEM_UNIDADE`** (2,72%; 0,97%; 0,40%). O percentual está no título da tabela, e
+   o instrumento não associa unidade de cabeçalho. Não devolvi a unidade por dedução.
+3. **`marcal`: a Tabela 13** (módulos da norma equatoriana) **não foi transcrita** — a extração a entrega fora
+   de ordem, e transcrever por posição seria adivinhar coluna.
+4. **`adier`: 26 das 29 referências da Tabela 6** ficam com valor literal e **sem atribuição de propriedade**,
+   porque a extração não preserva a grade da tabela.
+5. **A régua prova presença do valor na página declarada** — não prova que a página sustenta a afirmação.
+   Asserções de citação continuam sendo atestação humana, não medida.
+6. A reprodução do documento não prova o gerador; o inspetor de DOM não prova o conteúdo.
 
 ## 5. O que a leitura humana decide
 
@@ -82,29 +114,16 @@ unidade confere; ele não diz se a frase da ficha é a frase da fonte. Quem homo
 
 ## 6. Reprodução
 
+```bash
+# o gate tem de rodar da PRÓPRIA árvore (ops/command-center/metodo/), senão quatro fichas viram SEM_FONTE
+cd <governanca>/ops/command-center/metodo
+python3 gate_fidelidade_fonte.py --self-test      # 96 asserções, PASS
+python3 gate_fidelidade_fonte.py \
+  --dir <acervo>/docs/analyses/bambu-estrutural --glob '*.md' \
+  --fontes <acervo>/_privado/fontes-academicas,<acervo>/_privado/fontes-documentais,<acervo>/_privado/fontes-cientificas \
+  --json
+# esperado: 6 PASS + pdms NAO_VERIFICAVEL · 864 numeros_na_ficha · 694 afirmacoes_resultado · 859 aprovadas
 ```
-cd docs/analyses/bambu-estrutural
-python3 gate_fidelidade_fonte.py --dir . --glob '*.md' --fontes <raiz-privada> --json
-```
 
-`<raiz-privada>` = `_privado/fontes-academicas,_privado/fontes-documentais,_privado/fontes-científicas`.
+`SEM_FONTE` na saída significa gate fora da própria árvore, não fonte ausente.
 
-## 7. Re-medição em 2026-11-25, com o gate corrigido (A1)
-
-O gate desta frente foi corrigido hoje: a página passou a valer para a **linha** da tabela, e não só
-para a primeira célula (PR #210 no laboratório de governança). Medido com ele, o estado das sete:
-
-| ficha | estado | afirmações de resultado | com página | sem página |
-|---|---|---|---|---|
-| `adier-2023` | `PASS` | 9 | 9 | 0 |
-| `ficha-acv-bambu-unesp-araujo2025` | `PARCIAL` | 9 | 8 | 1 |
-| `ficha-chen-2015` | `PASS` | 12 | 12 | 0 |
-| `ficha-heat-treatment-pdms` | `PASS` | 41 | 41 | 0 |
-| `ficha-liu-2015` | `PASS` | 12 | 12 | 0 |
-| `marcal-2018` | `PASS` | 2 | 2 | 0 |
-| `santos-2024` | `PASS` | 11 | 11 | 0 |
-
-A tabela do §2 acima é a medição de 24/11 com o gate anterior e **não deve ser lida como estado atual**.
-A única que ainda cai é a ACV, e por um item só: continua `PARCIAL` porque a Tabela 2 foi transcrita como
-bloco literal — o formato que o gate antigo premiava. O conteúdo está lá; o que falta é a transcrição em
-formato de tabela, que é trabalho de ficha, não de pacote.
