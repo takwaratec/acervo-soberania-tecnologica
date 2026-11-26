@@ -77,6 +77,36 @@ referências formadoras; a **NSR-10 (Colômbia, 2010)** como marco regional; e a
   serviço projetada de aproximadamente 10 anos** (p. 150) — dados de caso, não demonstração de
   segurança, durabilidade, conformidade ou desempenho estrutural geral.
 
+## 6.1 Tabela comparativa — esforços admissíveis das três normas (MPa, CH = 12%)
+
+O valor de projeto é o que a ficha precisa entregar, e ele estava ausente: as três normas analisadas por
+Marçal fixam tensões admissíveis diferentes para a mesma *Guadua angustifolia* Kunth. `Pág.` é a página
+impressa da tese em que a tabela da norma é reproduzida.
+
+| Norma | Fb flexão | Ft tração | Fc compressão ∥ | Fp compressão ⊥ | Fv corte | Pág. |
+|---|---|---|---|---|---|---|
+| NSR-10 (Colômbia, 2010) | 15 | 18 | 14 | 1,4 | 1,2 | 132 |
+| Norma peruana NTE (2012) | 5 | 16 | 13 | 1,3 | 1 | 138 |
+| NEC GaK (Equador, 2017) | 15 | 19 | 14 | 1,4 | 1,2 | 139 |
+
+| Norma | Módulo médio | Módulo percentual | Módulo mínimo | Pág. |
+|---|---|---|---|---|
+| NSR-10 (Colômbia, 2010) | 9.500 | 7.500 | 4.000 | 132 |
+| Norma peruana NTE (2012) | 9.500 | – | 7.300 | 138 |
+
+**O que a comparação mostra:** Colômbia e Equador praticamente coincidem em compressão, corte e compressão
+perpendicular (p. 132 e p. 139), e divergem na tração (p. 132 e p. 139). O Peru é o caso fora da curva em
+flexão — a norma peruana fixa 5 MPa contra 15 MPa das outras duas (p. 138 contra p. 132 e p. 139), um terço
+— e traz módulo mínimo menor que o colombiano (p. 138 contra p. 132), que é o mais conservador dos dois. Para o mesmo material e a mesma umidade de referência, a
+norma escolhida muda o dimensionamento por um fator de três na flexão.
+
+**O que esta tabela não faz:** não julga qual norma está certa, não converte os valores para o formato da
+ABNT e não afirma que o produto equatoriano, peruano ou colombiano equivale ao brasileiro. A divergência
+está registrada; a escolha de projeto é do projetista, com a norma que o local exige.
+
+**Lacuna declarada:** a Tabela 13 da tese (módulos de elasticidade da norma equatoriana) não foi transcrita
+— a extração a entrega fora de ordem, e transcrever por posição seria adivinhar coluna.
+
 ## 7. Avaliação crítica (atribuição curatorial)
 
 O trabalho é uma **fotografia de 2018**. As normas podem ter sido substituídas — no acervo, as

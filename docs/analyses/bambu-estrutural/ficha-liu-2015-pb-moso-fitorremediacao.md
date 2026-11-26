@@ -45,14 +45,23 @@ declaracao_ia: "produção assistida por inteligência artificial; conferência 
 
 ### Tabela 1 (p. 126) — hidroponia, 30 dias, Pb
 
-| Tratamento | TF | BCF |
-|---|---|---|
-| 10 µmol/L (p. 126) | 0,36 (p. 126) | 37,64 (p. 126) |
-| 25 µmol/L (p. 126) | 0,37 (p. 126) | 24,95 (p. 126) |
-| 50 µmol/L (p. 126) | 0,36 (p. 126) | 17,27 (p. 126) |
-| 100 µmol/L (p. 126) | 0,29 (p. 126) | 12,82 (p. 126) |
-| 200 µmol/L (p. 126) | 0,19 (p. 126) | 11,50 (p. 126) |
-| 400 µmol/L (p. 126) | 0,07 (p. 126) | 10,97 (p. 126) |
+Sete tratamentos, três repetições. As três colunas de concentração por tecido e as duas de fator estavam
+faltando nesta ficha; entram agora, como a fonte as publica (média ± desvio padrão e letra de significância).
+TF é o fator de translocação (parte aérea/raiz) e BCF o de bioacumulação (planta/meio). `Pág.` é localizador.
+
+| Pb (µmol/L) | Raiz (mg/kg) | Colmo (mg/kg) | Folha (mg/kg) | TF | BCF | Pág. |
+|---|---|---|---|---|---|---|
+| CK | 0.6 ± 0.5b | 0.1 ± 0.7d | 0.2 ± 0.6f | – | – | 126 |
+| 10 | 146 ± 30b | 56 ± 14cd | 49 ± 9e | 0.36 | 37.64 | 126 |
+| 25 | 233 ± 58b | 94 ± 18cd | 84 ± 3d | 0.37 | 24.95 | 126 |
+| 50 | 331 ± 43b | 141 ± 4cd | 105 ± 8cd | 0.36 | 17.27 | 126 |
+| 100 | 544 ± 103b | 210 ± 22bc | 127 ± 14bc | 0.29 | 12.82 | 126 |
+| 200 | 1221 ± 200b | 351 ± 56ab | 165 ± 34a | 0.19 | 11.50 | 126 |
+| 400 | 4283 ± 994a | 482 ± 166a | 149 ± 17ab | 0.07 | 10.97 | 126 |
+
+**O que a tabela mostra:** a raiz concentra até 4.283 mg/kg e a folha não passa de 165 mg/kg; o TF cai de
+0,37 para 0,07 conforme a dose sobe, e o BCF cai de 37,64 para 10,97. Retenção radicular crescente com a
+dose, transporte decrescente — o mesmo padrão que a ficha do Chen registra para o cobre.
 
 - **Concentração máxima** (400 µmol/L, p. 123): raízes **4.282,8 mg/kg** (p. 123); caules 482,2 mg/kg (p. 123); folhas 148,8 mg/kg (p. 123).
 - **Interpretação do artigo (p. 127):** "All TF values were less than 1, whereas all BCF values were more than 10."

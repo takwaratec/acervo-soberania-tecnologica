@@ -84,43 +84,63 @@ onde a extração não registra a coordenada, o valor está transcrito na ordem 
 propriedade. A atribuição da coluna MOR para o intervalo `50–220` ([53]) foi provada por coordenada
 (x = 314,6, sob o cabeçalho MOR) e é a única que a ficha afirma como MOR.
 
-```text
-Table 6. Summary of findings on mechanical properties of bamboo.
-(cabeçalho visual: Reference | CS (MPa) | TS (MPa) | FS (MPa) | SS (MPa) | MOR (MPa) | MOE (GPa)
-                     | Hardness | Ultimate Bearing Capacity, kN | Remarks)
-coordenadas registradas pela extração: MOR x=306.8-323.6 | MOE x=360.0-376.1 | CS x=86.8
-                     TS x=142.9 | FS x=202.7 | SS x=258.5
+**Tabela 6.1 — as três atribuições que a fonte prova (coluna + propriedade)**
 
-[11]  191.61-423.29 ∥ | 21.29-27.53 | 360-470 MPa (p. 24)
-[74]  42.50-52.73 ∥ | 159.01 ∥1 | 164.30 ∥2 | 148.69 ∥1 | 153.31 ∥2 | (1 S-1, 2 S-15)
-[75]  130-160 ∥
-[76]  57 ∥
-[45]  32.72 ∥ | 147.0 ∥, 8.36 ⊥ | 171.44-210.14 (1) | 326.25-550.87 (2) | (1 mortar, 2 concrete)
-[49]  24.27-158.26 ∥ | 5.48-36.22 | 64.63-328.18 | 13.35-29.34
-[8]   48-132 | 6.1-14.2
-[53]  50-220 | 5.0-20.0
-[15]  75-82.2 ∥
-[61]  38.46-162.82 ∥ | 8.30-17.15
-[62]  76.7-107.6 | 26.82-36.24
-[63]  74.56 (1), 82.72 (2) | 18.93 (1), 18.74 (2) | (1 manual, 2 hydraulic)
-[78]  50.57 ∥, 14.82 ⊥ | 112.56 ∥ | 118.0 ∥ | 17.34 | 9.90
-[24]  55-60 ∥, 22 ⊥ | 116-124 ∥ | 76-79 ∥, 3.0 ⊥ | 14-17 | 10.20-10.50
-[22]  114 ∥, 19.3 ⊥ | 136-294 ∥ | 13.5-14.8 | 225.0 | 21.0
-[51]  156.43-397.96 ∥ | 188.04-361.75 ∥
-[23]  104.71-115.7 ∥ | 49.33-77.0 ⊥ | 111-144.75 ∥, 4.18-6.70 ⊥ | 131-166.5 ∥ | 11.89-17
-[56]  58.1-66.3 ∥ | 194.9-225.5 | 22.3-23.8 | 3.0-3.76 kN
-[5]   85.0-230.0 ∥ | 80-210.0 | 8.0-12.5
-[27]  122.0 | 18.5
-[79]  211.0 ∥
-[80]  38.40-92.37 ∥
-[58]  243.4 (1), 76.0 (2), 266.6 (3) MPa | (1 smoked, 2 dried, 3 dyed)
-[81]  81.43-124.30 ∥ | 3.76
-[84]  2.11
-[59]  653.3-766.2 ∥ | 22.5-26.7
-[13]  43.9-72.2 ∥ | 15.9-21.8 | 8.81-13.2
-[1]   54-58.0 ∥ | 12.0-16.0 | 11.93-20.68
-[16]  59.1-69.9 ∥
-```
+A coluna `Pág.` é localizador, não resultado: diz onde a linha está, não o que ela mede.
+
+| Referência | Propriedade | Valor | Pág. |
+|---|---|---|---|
+| [8] | MOE | 6,1–14,2 GPa | 23 |
+| [53] | MOR | 50–220 MPa | 24 |
+| [49] | MOE | 30,000 MPa | 23 |
+
+As três têm prova textual, e sem ela não estariam nesta tabela: para [8], «Sa Ribeiro et al. [8] investigated
+the modulus of elasticity of *Bambusa vulgaris* culm, which ranged from 6.1 GPa to 14.2 GPa» (p. 23); para
+[49], «For bamboo composite, such as Bamboo strand composite lumber, the MOE is as high as 30,000 MPa [49]»
+(p. 23); para [53], o valor `50–220` começa sob o cabeçalho MOR na coordenada x = 314,6 (p. 24).
+
+**Tabela 6.2 — transcrição integral, sem atribuição de coluna (29 referências)**
+
+Os valores estão na ordem em que a fonte os publica. **Nenhuma coluna foi atribuída por inferência**: a
+extração entrega a Tabela 6 achatada, sem grade, e os símbolos `∥` e `⊥` (paralelo/perpendicular às
+fibras) vêm como a fonte os escreve. A propriedade de cada célula desta tabela **não é afirmada** — é
+exatamente o que a ficha não sabe, e declarar isso é mais honesto que rotular por posição.
+
+| Referência | Valores como publicados, na ordem da fonte | Localização |
+|---|---|---|---|
+| [11] | 191.61–423.29 ∥ · 21.29–27.53 · 360–470 MPa | p. 24 |
+| [74] | 42.50–52.73 ∥ · 159.01 ∥1 · 164.30 ∥2 · 148.69 ∥1 · 153.31 ∥2 · (1 S-1, 2 S-15) | p. 24 |
+| [75] | 130–160 ∥ | p. 24 |
+| [76] | 57 ∥ | p. 24 |
+| [45] | 32.72 ∥ · 147.0 ∥, 8.36 ⊥ · 171.44–210.14 (1) · 326.25–550.87 (2) · (1 mortar, 2 concrete) | p. 24 |
+| [49] | 24.27–158.26 ∥ · 5.48–36.22 · 64.63–328.18 · 13.35–29.34 | p. 24 |
+| [8] | 48–132 · 6.1–14.2 | p. 24 |
+| [53] | 50–220 · 5.0–20.0 | p. 24 |
+| [15] | 75–82.2 ∥ | p. 24 |
+| [61] | 38.46–162.82 ∥ · 8.30–17.15 | p. 24 |
+| [62] | 76.7–107.6 · 26.82–36.24 | p. 24 |
+| [63] | 74.56 (1), 82.72 (2) · 18.93 (1), 18.74 (2) · (1 manual, 2 hydraulic) | p. 24 |
+| [78] | 50.57 ∥, 14.82 ⊥ · 112.56 ∥ · 118.0 ∥ · 17.34 · 9.90 | p. 24 |
+| [24] | 55–60 ∥, 22 ⊥ · 116–124 ∥ · 76–79 ∥, 3.0 ⊥ · 14–17 · 10.20–10.50 | p. 24 |
+| [22] | 114 ∥, 19.3 ⊥ · 136–294 ∥ · 13.5–14.8 · 225.0 · 21.0 | p. 24 |
+| [51] | 156.43–397.96 ∥ · 188.04–361.75 ∥ | p. 24 |
+| [23] | 104.71–115.7 ∥ · 49.33–77.0 ⊥ · 111–144.75 ∥, 4.18–6.70 ⊥ · 131–166.5 ∥ · 11.89–17 | p. 24 |
+| [56] | 58.1–66.3 ∥ · 194.9–225.5 · 22.3–23.8 · 3.0–3.76 kN | p. 24 |
+| [5] | 85.0–230.0 ∥ · 80–210.0 · 8.0–12.5 | p. 24 |
+| [27] | 122.0 · 18.5 | p. 24 |
+| [79] | 211.0 ∥ | p. 24 |
+| [80] | 38.40–92.37 ∥ | p. 24 |
+| [58] | 243.4 (1), 76.0 (2), 266.6 (3) MPa · (1 smoked, 2 dried, 3 dyed) | p. 24 |
+| [81] | 81.43–124.30 ∥ · 3.76 | p. 24 |
+| [84] | 2.11 | p. 24 |
+| [59] | 653.3–766.2 ∥ · 22.5–26.7 | p. 24 |
+| [13] | 43.9–72.2 ∥ · 15.9–21.8 · 8.81–13.2 | p. 24 |
+| [1] | 54–58.0 ∥ · 12.0–16.0 · 11.93–20.68 | p. 24 |
+| [16] | 59.1–69.9 ∥ | p. 24 |
+
+> Limite declarado: em Tabela 6.2 a ficha reconhece que **não sabe a que propriedade cada valor
+> corresponde**. O valor é literal e a página é a da tabela; a atribuição fica em aberto e a ficha não a
+> inventa. Quem precisar de MOR, MOE, CS, TS, FS ou SS linha a linha tem de abrir a p. 24 na fonte.
 
 **Por que esta tabela não é verificada pelo instrumento.** Medido com o gate vigente (`54691508`), em
 três sondas: com a página no cabeçalho da seção, só a **primeira** linha herda a página; com `(p. 24)` ao

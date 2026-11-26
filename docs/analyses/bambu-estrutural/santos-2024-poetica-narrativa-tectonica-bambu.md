@@ -87,6 +87,33 @@ Estudo de caso qualitativo (Gil, 2002; Fonseca, 2002, p. 29-30) em quatro etapas
 - **Verdade estrutural:** os três projetos exploram a exposição deliberada da estrutura de bambu (Frampton, 1995), o que também facilita manutenção e substituição de peças (p. 166);
 - **Conclusão geral:** a narrativa tectônica do bambu estrutural se expressa mais fortemente pela versatilidade da gramínea, pelos detalhes técnicos das junções e por um processo de concepção consonante à cultura construtiva da matéria-prima (resumo, p. 12; considerações finais, p. 163-167).
 
+## 6.1 Os três casos, em tabela
+
+O corpus estava descrito em prosa corrida, com as dimensões diluídas em frases longas. Em tabela, cada
+número fica conferível na sua página. `Pág.` é localizador.
+
+| Caso | Ano | Local | Dimensão | Valor | Pág. |
+|---|---|---|---|---|---|
+| Ananda House (IBUKU) | 2015 | Green Village, Bali | área do lote, às margens do rio Ayung | 716 metros quadrados | 84 |
+| The ARC (IBUKU) | 2021 | Green School, Bali | área coberta do ginásio | 760 metros quadrados | 110 |
+| The ARC (IBUKU) | 2021 | Green School, Bali | planta | 23,50 × 43,20 m | 110 |
+| The ARC (IBUKU) | 2021 | Green School, Bali | altura dos arcos de *D. asper* | 14 m | 110 |
+| The ARC (IBUKU) | 2021 | Green School, Bali | bases orgânicas, topo a 70 cm do solo | dezoito bases | 110 |
+| The ARC (IBUKU) | 2021 | Green School, Bali | ripas duplas de estabilização dos arcos | 35 mm | 126 |
+| Refúgio das Borboletas (Helena Ruette) | 2022 | Cavalcante-GO, Chapada dos Veadeiros | diâmetro dos pilares de *D. asper* | 15 cm | 145 |
+| Refúgio das Borboletas (Helena Ruette) | 2022 | Cavalcante-GO, Chapada dos Veadeiros | colmos das vigas duplas, corte «boca de peixe» | 10 cm | 146 |
+
+**Duas escolhas de transcrição, declaradas:** a fonte escreve «dezoito bases» por extenso, e a tabela mantém
+por extenso — converter para algarismo criaria um número que não existe na página. E a fonte escreve as áreas com o símbolo de metro
+quadrado colado ao número; a tabela usa «metros quadrados» pela mesma razão.
+
+**Divergência registrada, não harmonizada:** a data do Refúgio aparece como 2022 no capítulo 3.3 e como
+2023 no resumo. A tabela adota 2022 porque é o capítulo que descreve a obra.
+
+**O que a tabela não afirma:** não é catálogo de soluções homologadas. São três obras descritas por uma
+tese, com as dimensões que a tese registra; nenhuma foi ensaiada, e o texto não mede desempenho — descreve
+escolha projetual.
+
 ## 7. Avaliação crítica
 
 **Potencialidades:**

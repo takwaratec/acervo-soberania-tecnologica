@@ -59,6 +59,25 @@ declaracao_ia: "produção assistida por inteligência artificial; conferência 
 - **Concentração tecidual máxima** (600 mg/kg, p. 3): raízes 340 mg/kg (p. 3); caules 60 mg/kg (p. 3); folhas 23 mg/kg (p. 3).
 - **Interpretação do artigo (p. 5):** "Moso bamboo is not hyperaccumulator for Cu. All BAF and TF values were less than 1 except BAF of roots at 100 mg/kg."
 
+### Tabela 2 — biomassa e clorofila sob estresse de Cu em vaso, 2 meses (p. 3)
+
+Cinco doses de cobre no solo (0, 50, 100, 300 e 600 mg kg⁻¹), três repetições. Células com média ± desvio
+padrão seguidas da letra de significância que a fonte publica. BAF é o fator de bioacumulação; TF, o de
+translocação. `Pág.` é localizador.
+
+| Cu no solo (mg kg⁻¹) | Raízes (mg kg⁻¹) | Colmos (mg kg⁻¹) | Folhas (mg kg⁻¹) | BAF raiz | BAF colmo | BAF folha | TF colmo | TF folha | Pág. |
+|---|---|---|---|---|---|---|---|---|---|
+| 0 | 7 ± 2.8d | 5 ± 0.5e | 5.4 ± 0.2d | – | – | – | – | – | 3 |
+| 50 | 60 ± 6c | 14 ± 1.5d | 9 ± 1c | 0.78 | 0.18 | 0.12 | 0.23 | 0.15 | 3 |
+| 100 | 178 ± 28b | 33 ± 3c | 16 ± 1.4b | 1.41 | 0.26 | 0.13 | 0.18 | 0.09 | 3 |
+| 300 | 207 ± 32b | 46 ± 3b | 21 ± 3a | 0.63 | 0.14 | 0.06 | 0.22 | 0.10 | 3 |
+| 600 | 340 ± 21a | 60 ± 7a | 23 ± 4a | 0.54 | 0.04 | 0.04 | 0.18 | 0.07 | 3 |
+
+**O que a tabela mostra:** a concentração nas raízes cresce de 7 para 340 mg kg⁻¹ quando o solo vai de 0 a
+600 mg kg⁻¹, enquanto folhas param em 23 mg kg⁻¹ — a barreira está na raiz, não no transporte. O BAF da raiz
+cai de 1,41 (100 mg kg⁻¹) para 0,54 (600 mg kg⁻¹): a planta absorve, mas satura. Os TF de colmo e folha
+também caem, o que sustenta a leitura de tolerância por retenção radicular, não por exclusão.
+
 ### Nota sobre hidroponia
 
 A Tabela 4 (hidroponia) reporta apenas atividade enzimática (SOD/POD/MDA) e prolina — **não há BAF/TF de hidroponia neste artigo**.
