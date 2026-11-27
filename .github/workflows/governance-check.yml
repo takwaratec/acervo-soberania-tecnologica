@@ -36,7 +36,8 @@ jobs:
         run: |
           python3 scripts/check_escopo_do_diff.py --base "origin/${{ github.base_ref }}" \
             --permitir docs/ --permitir scripts/ --permitir tests/ --permitir ops/ \
-            --permitir configs/ --permitir .github/ --permitir AGENTS.md --permitir AGENTS_LOCAL.md
+            --permitir configs/ --permitir .github/ --permitir AGENTS.md --permitir AGENTS_LOCAL.md \
+            --permitir governanca/
       - name: Escopo da frente, lido do registro vivo (A9)
         # A7 acima usa a lista digitada no workflow — que e mais larga que a gaveta e deixou uma PR do
         # bambu levar 25 arquivos do cobre. Este passo nao tem lista: le o write_scope da frente em
