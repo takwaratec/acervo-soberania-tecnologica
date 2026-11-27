@@ -1,9 +1,10 @@
 {
  "origem_ref": "r4-claims",
  "origem_repo": "takwaratec/TakwaraTec-Laboratorio-Editorial",
- "origem_commit": "f959f4ea041d5a4ca3a0b929517711ede8454a23",
+ "origem_commit": "0e16a5f10ca2e3543c17d5899036737205f2cea9",
  "sincronizado_em": "2026-11-26",
  "por_que_uma_copia": "o acervo e publico e o registro de governanca e privado: o CI do acervo nao le o ref r4-claims. Esta e uma copia DERIVADA, com hash por arquivo — divergencia e NAO_MEDIDO, nunca PASS.",
+ "emendas": "2026-11-26: REGENCIA ganha governanca/** (mantem esta copia)",
  "arquivos": {
   "BAMBU-BAMBUSC.json": {
    "sha256": "1221996a9f025b0889db5df4d506a1522d51e3723009832cae7f8152707d792e",
@@ -46,8 +47,8 @@
    "bytes": 1812
   },
   "REGENCIA.json": {
-   "sha256": "a9ff3bdaf1e2f8cb1bee4338e48b01397b6dd58349cc3e47f924fbff8d8f20b9",
-   "bytes": 854
+   "sha256": "ca918c350d3acb8ac88078f6359c745b7552679749f19fb1fbb31e30cc00ba9e",
+   "bytes": 1046
   },
   "SOBERANIA-SOCIAL.json": {
    "sha256": "6b1f215c169a312b898f38426e03f8f404b0b169ec96938cca3e4943c649421b",

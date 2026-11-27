@@ -6,7 +6,8 @@
   "AGENTS_LOCAL.md",
   "scripts/**",
   "tests/**",
-  ".github/**"
+  ".github/**",
+  "governanca/**"
  ],
  "nome_humano": "Regência — regras, gates e instrumentos do acervo",
  "aberta_por": "FABIO_SOBERANO",
@@ -16,5 +17,6 @@
  "criterio_terminal": "regras A1-A9 escritas, gates medindo com teste e CI verde",
  "origem": "TOPICO_ABERTO_PELO_SOBERANO",
  "nao_e_map": true,
- "aviso": "escopo declarado só nos caminhos de regra e instrumento; qualquer caminho de conteúdo fica fora e reprova no A9"
+ "aviso": "escopo declarado só nos caminhos de regra e instrumento; qualquer caminho de conteúdo fica fora e reprova no A9",
+ "nota_emenda": "2026-11-26: acrescenta governanca/** — a frente mantem a copia derivada de r4-claims que o proprio A9 le. Emenda no registro, nao na lista do workflow."
 }
