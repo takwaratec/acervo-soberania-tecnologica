@@ -1,0 +1,38 @@
+{
+ "front": "MTCC",
+ "repo": "takwaratec/TakwaraTec-Laboratorio-Editorial",
+ "write_scope": [
+  "ops/command-center/task-results/MTCC/**",
+  "ops/command-center/metodo/**"
+ ],
+ "nome_humano": "MTCC-CONSOLIDACAO-R4-20261121",
+ "aberta_por": "FABIO_SOBERANO",
+ "aberta_em": "2026-11-21T13:42:44Z",
+ "topico": "telegram-7514",
+ "nota": "Consolidacao da R4 conduzida pelo MTCC. Executa o parecer do auditor Sol de 2026-11-21 (PARECER_AUDITORIA_TRIPLA nao homologa arquitetura integrada) dentro dos protocolos R4 homologados. Frente principal e modelo: Bambu Science. Cockpit espera o contrato unico e as correcoes. O MTCC conduz execucao; homologacao do padrao e do soberano com parecer de terceiro. Regra vigente: toda correcao baseada em auditoria volta ao mesmo auditor antes de ser declarada fechada.",
+ "estado": "EM_SEMENTE",
+ "criterio_terminal": null,
+ "origem": "TOPICO_ABERTO_PELO_SOBERANO",
+ "nao_e_map": true,
+ "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas",
+ "write_scope_anterior": [
+  "ops/command-center/task-results/MTCC/**"
+ ],
+ "repos": [
+  "takwaratec/TakwaraTec-Laboratorio-Editorial",
+  "takwaratec/acervo-soberania-tecnologica"
+ ],
+ "correcao_20261121": {
+  "data": "2026-11-21",
+  "por": "FABIO_SOBERANO",
+  "motivo": "escopo inicial cortado em task-results/MTCC/** nao permitia escrever o contrato comum nem o validador, que vivem em ops/command-center/metodo/**. O escopo herdado do mapa (acervo/** e _privado/**) era generico demais e nao nomeava gaveta.",
+  "antes": [
+   "ops/command-center/task-results/MTCC/**"
+  ],
+  "depois": [
+   "ops/command-center/task-results/MTCC/**",
+   "ops/command-center/metodo/**"
+  ],
+  "o_que_nao_muda": "a frente ja aberta nao e cancelada; o registro anterior fica neste campo, nao se apaga (Art. 7.2)"
+ }
+}

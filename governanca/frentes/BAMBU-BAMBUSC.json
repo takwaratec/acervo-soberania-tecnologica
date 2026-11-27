@@ -1,0 +1,29 @@
+{
+ "front": "BAMBU-BAMBUSC",
+ "repo": "takwaratec/acervo-soberania-tecnologica",
+ "write_scope": [
+  "docs/analyses/bambu-estrutural/**"
+ ],
+ "nome_humano": "Curadoria documental BambuSC (Sul/Mata Atlantica)",
+ "aberta_por": "FABIO_SOBERANO",
+ "aberta_em": "2026-11-19T16:03:09Z",
+ "topico": null,
+ "nota": "semente=https://bambusc.org.br/publicacoes; 3 elegiveis BSC-11/24/29; nada executado",
+ "origem": "TOPICO_ABERTO_PELO_SOBERANO",
+ "nao_e_map": true,
+ "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas",
+ "historico_write_scope": [
+  {
+   "em": "2026-11-21T09:43:05Z",
+   "por": "FABIO_SOBERANO",
+   "escopo_anterior": [
+    "_privado/fontes-documentais/bambusc-20261119/**",
+    "docs/analyses/bambu-estrutural/**"
+   ],
+   "escopo_novo": [
+    "docs/analyses/bambu-estrutural/**"
+   ],
+   "motivo": "retira _privado/fontes-documentais/bambusc-20261119/**, que NAO EXISTE no acervo. O registro declarava um caminho de custodia privada vazio, o que dava a impressao de custodia binaria ativa quando nao havia nenhuma. Os binarios continuam no Drive, na pasta homonima da gaveta (regra do soberano de 2026-11-21)."
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "origem_ref": "r4-claims",
+ "origem_repo": "takwaratec/TakwaraTec-Laboratorio-Editorial",
+ "origem_commit": "f959f4ea041d5a4ca3a0b929517711ede8454a23",
+ "sincronizado_em": "2026-11-26",
+ "por_que_uma_copia": "o acervo e publico e o registro de governanca e privado: o CI do acervo nao le o ref r4-claims. Esta e uma copia DERIVADA, com hash por arquivo — divergencia e NAO_MEDIDO, nunca PASS.",
+ "arquivos": {
+  "BAMBU-BAMBUSC.json": {
+   "sha256": "1221996a9f025b0889db5df4d506a1522d51e3723009832cae7f8152707d792e",
+   "bytes": 1169
+  },
+  "BAMBU-MOLDE-CURADORIA.json": {
+   "sha256": "25c6417287e71d3a701249dbe1da229d4f2a0bb626fcefdbef3350f76b76e859",
+   "bytes": 522
+  },
+  "BAMBU-SCIENCE.json": {
+   "sha256": "d57a1ec40ae1b5e3e52df17426ed83ce435450fdc7867c0968749f94940258d6",
+   "bytes": 1062
+  },
+  "BORO.json": {
+   "sha256": "d1a90bf6179c2c6f97f955a0453def1abb556eb76f7241bd33f2c6ef6d1ea4a3",
+   "bytes": 1626
+  },
+  "COBRE.json": {
+   "sha256": "e7c04d61952691adb7f6429b48d1e1922f2e74171115fee3842507c9267df23e",
+   "bytes": 1714
+  },
+  "EDITORIAL.json": {
+   "sha256": "7973dda262b0b953cbb3dd795c803c7970f8c0f4200105e298d20a8e257b9527",
+   "bytes": 4056
+  },
+  "GAVETA-GRAEBER-WENGROW.json": {
+   "sha256": "7879e64e5def38bad4f46cf4ce6b418ba7e3711241aec4520dc66dc4a43a5e32",
+   "bytes": 827
+  },
+  "INTEGRACAO_MIDIAS_SOCIAIS.json": {
+   "sha256": "d011c874dc8d9e0531326c88fb430f497269cddfc6916e19f9d37b3f77e43e36",
+   "bytes": 2365
+  },
+  "MTCC-MOBILE.json": {
+   "sha256": "28035bfd7a38b10f948d3e664df9cfc34fd7852a2cff6b431b75b3ee9ec792d2",
+   "bytes": 2415
+  },
+  "MTCC.json": {
+   "sha256": "274620d9b06677e891f5c2b0d82c37981b0fcbd27f614e5f721f9001603209a0",
+   "bytes": 1812
+  },
+  "REGENCIA.json": {
+   "sha256": "a9ff3bdaf1e2f8cb1bee4338e48b01397b6dd58349cc3e47f924fbff8d8f20b9",
+   "bytes": 854
+  },
+  "SOBERANIA-SOCIAL.json": {
+   "sha256": "6b1f215c169a312b898f38426e03f8f404b0b169ec96938cca3e4943c649421b",
+   "bytes": 1492
+  },
+  "TESTE-GAVETA-BOA.json": {
+   "sha256": "d25221005afb5aebaaf8b8611f450b3629fff4f2e5f6306ec32c99aad5a102c9",
+   "bytes": 764
+  }
+ }
+}

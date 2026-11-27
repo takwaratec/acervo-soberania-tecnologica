@@ -1,0 +1,15 @@
+{
+ "front": "GAVETA-GRAEBER-WENGROW",
+ "repo": "takwaratec/TakwaraTec-Laboratorio-Editorial",
+ "write_scope": [
+  "projetos/gaveta-graeber-wengrow/**"
+ ],
+ "nome_humano": "Gaveta David Graeber & David Wengrow",
+ "aberta_por": "FABIO_SOBERANO",
+ "aberta_em": "2026-11-17T20:44:58Z",
+ "topico": "Telegram DM thread 14682 — 2026-11-17",
+ "nota": "Linha de pesquisa aberta por ordem do soberano: gaveta digital dos autores David Graeber e David Wengrow vinculada a O despertar de tudo / The Dawn of Everything. Consumidora do MTCC (motor de curadoria). Escopo declarado: projetos/gaveta-graeber-wengrow/**. Binarios (PDF) nao entram no Git; custodia por hash e ponteiro.",
+ "origem": "TOPICO_ABERTO_PELO_SOBERANO",
+ "nao_e_map": true,
+ "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas"
+}

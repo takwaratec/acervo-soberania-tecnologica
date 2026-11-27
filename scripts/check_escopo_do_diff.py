@@ -14,6 +14,7 @@ Uso:
 """
 import argparse
 import glob
+import hashlib
 import json
 import os
 import subprocess
@@ -56,7 +57,29 @@ def escopo_do_registro(registro_dir, frente):
 
     Devolve (escopos, aberta_das_outras). Levanta MedicaoFalhou quando não consegue ler — registro que
     não abre é NÃO MEDIDO, nunca PASS.
+
+    Se o diretório traz `MANIFESTO.json` (cópia derivada do ref `r4-claims`, usada quando o repositório de
+    governança é privado e o CI não o alcança), o manifesto é conferido ANTES de usar: hash por arquivo e
+    o `origem_commit` declarado. Divergência é NÃO MEDIDO — cópia que não confere com o manifesto não é
+    registro, é boato.
     """
+    man_path = os.path.join(registro_dir, "MANIFESTO.json")
+    if os.path.isfile(man_path):
+        try:
+            with open(man_path, encoding="utf-8") as fh:
+                man = json.load(fh)
+        except Exception as e:
+            raise MedicaoFalhou(f"MANIFESTO.json do registro ilegível: {e}")
+        for nome, meta in (man.get("arquivos") or {}).items():
+            p = os.path.join(registro_dir, nome)
+            if not os.path.isfile(p):
+                raise MedicaoFalhou(f"registro derivado não tem '{nome}', que o manifesto declara")
+            h = hashlib.sha256(open(p, "rb").read()).hexdigest()
+            if h != meta.get("sha256"):
+                raise MedicaoFalhou(
+                    f"'{nome}' divergiu do manifesto ({h[:12]} != {str(meta.get('sha256'))[:12]}) — "
+                    f"cópia derivada de r4-claims@{str(man.get('origem_commit'))[:8]} está suja; "
+                    f"resincronize antes de medir")
     alvo = os.path.join(registro_dir, f"{frente}.json")
     if not os.path.isfile(alvo):
         raise MedicaoFalhou(f"registro da frente '{frente}' não encontrado em {alvo}")

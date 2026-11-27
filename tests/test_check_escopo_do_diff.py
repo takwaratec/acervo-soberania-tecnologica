@@ -1,4 +1,4 @@
-import json, os, subprocess, sys, tempfile, unittest
+import hashlib, json, os, subprocess, sys, tempfile, unittest
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
 import check_escopo_do_diff as g
 
@@ -141,6 +141,28 @@ class TestEscopo(unittest.TestCase):
         git(self.d, "commit", "-aqm", "x")
         r = self.roda("--frente", "X", "--registro", reg)
         self.assertEqual(r.returncode, 0, r.stdout)
+
+    def test_a9_copia_derivada_conferida_pelo_manifesto(self):
+        """Cópia derivada de r4-claims só vale se bater com o manifesto. Divergência é NAO_MEDIDO."""
+        reg = self.registro({"X": ["docs/analyses/x/**"]})
+        arqs = {}
+        for nome in os.listdir(reg):
+            b = open(os.path.join(reg, nome), "rb").read()
+            arqs[nome] = {"sha256": hashlib.sha256(b).hexdigest()}
+        with open(os.path.join(reg, "MANIFESTO.json"), "w") as fh:
+            json.dump({"origem_commit": "0" * 40, "arquivos": arqs}, fh)
+        open(os.path.join(self.d, "docs/analyses/x/a.md"), "w").write("novo\n")
+        git(self.d, "commit", "-aqm", "x")
+        r = self.roda("--frente", "X", "--registro", reg)
+        self.assertEqual(r.returncode, 0, r.stdout)
+
+        # agora suja a cópia: o manifesto não bate mais
+        with open(os.path.join(reg, "X.json"), "a") as fh:
+            fh.write(" ")
+        r = self.roda("--frente", "X", "--registro", reg)
+        self.assertEqual(r.returncode, 2, r.stdout)
+        self.assertIn("NAO_MEDIDO", r.stdout)
+        self.assertIn("divergiu do manifesto", r.stdout)
 
 
 if __name__ == "__main__":

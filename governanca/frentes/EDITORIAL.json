@@ -1,0 +1,25 @@
+{
+ "front": "EDITORIAL",
+ "nome_humano": "Editorial — HIS/ATHIS e demais frentes editoriais do acervo",
+ "repo": "takwaratec/TakwaraTec-Laboratorio-Editorial",
+ "write_scope": [
+  "ops/command-center/**"
+ ],
+ "aberta_por": "FABIO_SOBERANO",
+ "topico": "HIS-ATHIS",
+ "estado": "ABERTA",
+ "criterio_terminal": [
+  "RETURN.json existe em ops/command-center/task-results/HIS-ATHIS-CROSS-CURATION-R4-READONLY-20261125-R1/RETURN.json, e um JSON valido, com as treze chaves SOURCE_MAP, PEOPLE_GENEALOGY, PROJECT_CASE_MAP, SOL_NASCENTE_DEEPENING, ACERVO_CROSSWALK, EDITORIAL_UPDATE_MAP, ACQUISITION_AND_FICHING_QUEUE, LOCAL_VS_GITHUB_DELTA, FINDINGS, BLOCKERS, RECOMMENDED_NEXT_PLAN, EVIDENCE_LOCATORS e MUTATIONS.",
+  "Todo item de FINDINGS termina com um locator no formato CAMINHO:Linha ou CAMINHO#pPagina; achado sem locator conta como ausente na contagem.",
+  "A escolha da decisao 3 esta registrada em DECISAO_3.json no diretorio do resultado, com o campo escolha valendo 3a, 3b ou 3c e o campo autoridade declarando quem decidiu (FABIO ou FRENTE); os artefatos exigidos pela escolha existem no mesmo diretorio: 3a exige RETURN.md e PECA_DECISAO.html; 3b exige RETURN.md; 3c exige PECA_DECISAO.html. RETURN.json e exigido nas tres e a ausencia de DECISAO_3.json e FAIL.",
+  "MUTATIONS=NONE provado por dois manifestos do inventario das raizes de mutation_roots, MUTACAO_MANIFEST_ANTES.json e MUTACAO_MANIFEST_DEPOIS.json. Cada arquivo e um objeto JSON com dois campos: cabecalho {momento, raizes, exclusoes, arquivos, sha256_do_conteudo} e linhas, que e uma lista ordenada de strings, uma por arquivo, no formato SHA256 e dois espacos e o caminho absoluto. A varredura e recursiva e aplica TODAS as exclusoes literais de excluir: os diretorios de 08b (R1 e R2) sao ignorados, nao se entra neles e nenhuma linha do proprio diretorio e emitida. sha256_do_conteudo e o SHA-256, em hexadecimal minusculo, dos bytes UTF-8 da lista linhas serializada com json.dumps(linhas, ensure_ascii=False, sort_keys=True, separators=(',',':')). A verificacao de PASS tem exatamente tres condicoes e mais nada: (a) cabecalho.momento de ANTES vale ANTES e o de DEPOIS vale DEPOIS; (b) sha256_do_conteudo dos dois manifestos e igual; (c) raizes, exclusoes, arquivos e a lista linhas sao iguais nos dois. Falha em qualquer das tres e FAIL; nenhuma quarta condicao existe. Ordem temporal provada por REGISTRO_EXECUCAO.jsonl no diretorio do resultado, uma linha JSON por evento, obrigatoriamente com os campos evento e ts_utc (ISO 8601 com fuso): o primeiro evento e LOTE_1_INICIO, com ts_utc anterior ao mtime de MUTACAO_MANIFEST_ANTES.json, e ao menos um evento LOTE_N_FIM tem ts_utc posterior ao mtime de MUTACAO_MANIFEST_DEPOIS.json. O bloco MUTATIONS do RETURN declara o sha256 dos dois manifestos e o mtime de cada um; ausencia de REGISTRO_EXECUCAO.jsonl ou ordem temporal violada e FAIL.",
+  "PASS de mutacao exige ainda git status --porcelain vazio em cada raiz git declarada em repos_de_conteudo.",
+  "Existe um TECO_PARECER_LOTE_<N>.md por lote declarado em DECISAO_5.json (5a: LOTE_1 a LOTE_3; 5b: LOTE_1; 5c: LOTE_1 a LOTE_5), com o campo autoridade declarado como FABIO ou FRENTE, cada um com VEREDITO=PASS ou VEREDITO=PASS_WITH_FINDINGS, uma secao ACHADOS= e um locator por achado; o parecer de cada lote cobre integralmente o RETURN daquele lote. Ausencia de DECISAO_5.json e FAIL.",
+  "Existe MANIFESTO_SHA256_RESULTADO.txt no diretorio do resultado cobrindo todos os artefatos do diretorio exceto ele mesmo, e shasum -a 256 -c passa a partir do diretorio.",
+  "O commit do recibo toca exclusivamente arquivos sob ops/command-center/task-results/HIS-ATHIS-CROSS-CURATION-R4-READONLY-20261125-R1/, provado por git show --name-only."
+ ],
+ "origem": "TOPICO_ABERTO_PELO_SOBERANO",
+ "nota": "frente editorial: escreve apenas sob ops/command-center/** (contratos, decisoes, resultados). O acervo cientifico e do MTCC e nao e alterado por esta frente.",
+ "promovida_em": "2026-11-26T00:39:40Z",
+ "promovida_por_task": "HIS-ATHIS-CROSS-CURATION-R4-READONLY-20261125-R1"
+}
