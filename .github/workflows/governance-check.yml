@@ -37,6 +37,36 @@ jobs:
           python3 scripts/check_escopo_do_diff.py --base "origin/${{ github.base_ref }}" \
             --permitir docs/ --permitir scripts/ --permitir tests/ --permitir ops/ \
             --permitir configs/ --permitir .github/ --permitir AGENTS.md --permitir AGENTS_LOCAL.md
+      - name: Escopo da frente, lido do registro vivo (A9)
+        # A7 acima usa a lista digitada no workflow — que e mais larga que a gaveta e deixou uma PR do
+        # bambu levar 25 arquivos do cobre. Este passo nao tem lista: le o write_scope da frente em
+        # frentes_abertas/<FRENTE>.json, no ref r4-claims do repositorio de governanca, e recusa
+        # caminho fora dela e escopo que colida com o de outra frente aberta.
+        # PR que nao declara FRENTE=<nome> no corpo nao e medida: sai NAO_MEDIDO, nunca PASS.
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CORPO: ${{ github.event.pull_request.body }}
+        run: |
+          FRENTE=$(printf '%s' "$CORPO" | grep -oiE 'FRENTE=[A-Z0-9_-]+' | head -1 | cut -d= -f2)
+          if [ -z "$FRENTE" ]; then
+            echo "::error::A PR nao declara FRENTE=<nome> no corpo. Sem frente declarada o escopo nao e medido (A9). A lista do A7 acima e do repositorio, nao da gaveta."
+            exit 2
+          fi
+          echo "FRENTE=$FRENTE"
+          REG=$(mktemp -d)
+          ok=0
+          for f in $(curl -fsS -H "Authorization: Bearer $GH_TOKEN" \
+              "https://api.github.com/repos/takwaratec/TakwaraTec-Laboratorio-Editorial/contents/frentes_abertas?ref=r4-claims" \
+              | python3 -c "import sys,json;[print(x['name']) for x in json.load(sys.stdin) if x['name'].endswith('.json')]"); do
+            curl -fsS -H "Authorization: Bearer $GH_TOKEN" \
+              "https://api.github.com/repos/takwaratec/TakwaraTec-Laboratorio-Editorial/contents/frentes_abertas/$f?ref=r4-claims" \
+              | python3 -c "import sys,json,base64;d=json.load(sys.stdin);sys.stdout.write(base64.b64decode(d['content']).decode())" \
+              > "$REG/$f" && ok=$((ok+1))
+          done
+          echo "registro: $ok frentes lidas de r4-claims"
+          python3 scripts/check_escopo_do_diff.py --base "origin/${{ github.base_ref }}" \
+            --frente "$FRENTE" --registro "$REG"
       - name: Gerador do pacote de auditoria (testes)
         # Instrumento testado so na funcao nao conta. Este passo roda os testes do gerador, inclusive
         # o que o executa contra as frentes reais quando o repo do acervo esta presente.

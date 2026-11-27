@@ -122,6 +122,13 @@ A escopo é aprovado quando o diff fora da gaveta da frente está **vazio**. Nã
 Branch desatualizada se corrige trazendo a frente para uma branch cortada da `main` com caminhos
 declarados — nunca por `git add -A`, nunca por rebase de branch publicada.
 
+**A gaveta não é digitada: é lida do registro (A9).** A lista de caminhos permitidos de uma PR vem do
+`write_scope` da frente no registro vivo (`frentes_abertas/<FRENTE>.json` no ref `r4-claims`), e não de
+um `--permitir` escrito à mão no workflow. Lista própria é segunda direção: em 25/11/2026 o gate rodava
+com `--permitir docs/ scripts/` enquanto a gaveta do bambu era `docs/analyses/bambu-estrutural`, e foi
+assim que uma PR do bambu levou 25 arquivos do cobre e 6 scripts do cobre sem nenhum gate piscar. PR
+que não declara `FRENTE=<nome>` não é medida: sai `NAO_MEDIDO`, nunca `PASS`.
+
 **A8. O achado se classifica pelo efeito, e só dois efeitos impedem homologação.** Gravidade mede o
 tamanho do erro; efeito mede o que ele obriga a fazer. Classificar por gravidade faz divergência de
 índice ter o mesmo peso de afirmação científica contrariada pela fonte, e transforma governança em
@@ -137,6 +144,12 @@ Três classes, e nada fora delas:
   novo estado. Não é rodada de auditoria de conteúdo.
 - **MANUTENCAO** — registro histórico divergente, contagem, identificador, índice, caminho, forma.
   Corrige-se como manutenção documental, **sem nova rodada** e sem consumir auditor externo.
+- **DEFEITO_DE_INSTRUMENTO** — o veredito veio de instrumento defeituoso, e veredito de instrumento
+  defeituoso **não é evidência**: a medição se refaz, o objeto não se corrige. Caso real: o selador
+  gravava o objeto sem o `\n` final e comparava contra o byte publicado — dois pacotes saíram `FAIL` por
+  um byte que não existia no conteúdo; e um verificador estourava com `'list' object has no attribute
+  'get'`, reprovando commit por defeito da prova, não do commit. Contornar o instrumento (`--no-verify`,
+  `--permitir` mais largo) **não** é a correção: corrige-se o instrumento, e a medição é refeita com ele.
 
 Duas consequências que valem como regra:
 
@@ -149,6 +162,39 @@ Duas consequências que valem como regra:
 As três garantias que o acervo precisa e às quais todo o resto serve: **a fonte sustenta a
 afirmação**; **direitos e custódia são respeitados**; **a homologação é decisão humana informada**.
 Instrumento que não serve a uma dessas três é cerimônia.
+
+## A9 — Escopo de frente, registro vivo e trabalho que não se perde
+
+Esta seção existe porque a contaminação entre frentes se repetiu: PR do bambu com 25 arquivos do cobre,
+branch do cobre com 176 deleções contra a `main`, worktree de uma frente usado como raiz de outra. Nenhum
+desses casos foi má-fé de agente; todos foram **escopo declarado largo** e **endereço emprestado**. A regra
+fecha os dois.
+
+**A9.1 — Escopo é gaveta de frente, nunca a família.** `write_scope` declara o caminho da gaveta
+(`docs/analyses/bambu-estrutural/**`), não o pai (`docs/analyses`). `docs/analyses` sem subpasta é a
+coleção inteira: um escopo assim autoriza escrever na gaveta de todas as outras frentes. O mesmo vale
+para `ops/command-center/**`, que contém as gavetas de BAMBU-SCIENCE, MTCC, BAMBU-MOLDE e GAVETA.
+
+**A9.2 — O escopo de uma frente não pode conter o de outra.** O registro recusa abrir, e recusa manter
+aberta, frente cujo escopo contenha o de uma frente já aberta. Sobreposição não é alerta: é recusa. Se
+duas frentes precisam do mesmo caminho, o caminho é da frente que o abriu e a outra pede emenda — não
+herda.
+
+**A9.3 — Cada frente tem o seu worktree, e o registro aponta para ele.** `repo` nomeia a árvore da
+própria frente, criada a partir da `main` do acervo. Apontar para a árvore de outra frente, ou para o
+checkout principal, é o que produz branch misturada: a frente escreve no diretório onde outra está
+trabalhando, e o `git status` de uma passa a mostrar o trabalho da outra.
+
+**A9.4 — Ref de frente não se sobrescreve sem backup publicado.** Antes de qualquer `update-ref`, push
+com `--force` ou republicação de ref: `backup/<ref>-<data>` publicado no remoto, e fast-forward
+conferido por `git merge-base --is-ancestor <antigo> <novo>`. Ref que não é ancestral do novo não é
+avanço: é outra linhagem, e publicar por cima apaga commits que já estavam lá. Caso real: uma abertura
+gravou em ref com linhagem dividida e teria apagado dois commits de 25/11 — a executora pegou porque
+conferiu antes; a regra existe para quem não conferiria.
+
+**A9.5 — A regra morde, e morder é o resultado esperado.** Quando A9 reprova uma frente já aberta, o
+reprova é o achado, não o defeito da regra. O escopo se corrige por emenda na própria frente, com o dono
+dela — nunca alargando o gate até passar.
 
 ## Estados documentais
 
