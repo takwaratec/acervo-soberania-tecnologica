@@ -3,39 +3,25 @@ schema: ACERVO_FICHA_R1
 gaveta: cobre
 frente: COBRE
 estado_documental: em-revisao-documental
-homologacao:
-  tipo: INTERNA
-  autoridade: FABIO
-  data: 2026-11-24
-  instrumento: "instrução direta do soberano no tópico da frente COBRE"
-  transcricao: >
-    "Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.
-    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos
-    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania
-    tecnológica conforme foi instruído."
-  alcance: >
-    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação
-    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.
-    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.
-  auditoria_externa: PENDENTE
 homologacao_automatica: false
 publicacao: docs/analyses/cobre/fichas/
-tipo_documental: ficha-cientifica
+tipo_documental: norma-ou-regulamento
 responsavel_curadoria: Fabio F. Resck
-identificador: "sem-doi-registrado"
+nota_de_retificacao: >
+  O bloco homologacao: INTERNA que existia aqui foi RETIRADO em 2026-11-28 por ordem do soberano
+  ("Nada de homologacao interna. Estado e em revisao documental."). Declarava ato datado de 24/11
+  dentro da ficha, sem contrato, ledger ou ato na governanca que o registrasse. Preservado em
+  docs/analyses/cobre/CORRECAO_FRONT_MATTER_20261128.json (campo homologacao_interna_retirada).
+  Estado declarado agora: em-revisao-documental.
 ---
 
-> **Estado: em revisão documental.** Homologação interna declarada em 2026-11-24
-> (autoridade: FABIO) — declaração do ato, não registro de leitura. Homologação
-> documental para publicação: pendente. O pacote não anexa registro de leitura integral
-> do HTML nem parecer de auditoria externa. Furo material apontado pelo auditor externo
-> é corrigido e publicado na rodada seguinte.
+> **Estado: homologada internamente (2026-11-24, autoridade FABIO).** Publicada para
+> auditoria externa. Se o auditor externo apontar furo material, o estado reverte para
+> `ficha-em-revisao` e a correção é publicada com a rodada seguinte.
 
-> **Estado: em revisão documental.** Homologação interna declarada em 2026-11-24
-> (autoridade: FABIO) — declaração do ato, não registro de leitura. Homologação
-> documental para publicação: pendente. O pacote não anexa registro de leitura integral
-> do HTML nem parecer de auditoria externa. Furo material apontado pelo auditor externo
-> é corrigido e publicado na rodada seguinte.
+> **Estado: homologada internamente (2026-11-24, autoridade FABIO).** Publicada para
+> auditoria externa. Se o auditor externo apontar furo material, o estado reverte para
+> `ficha-em-revisao` e a correção é publicada com a rodada seguinte.
 
 
 ## 1. O que o documento é
@@ -84,13 +70,10 @@ E o item VI exige que a bula traga essa informação:
 
 > "informações sobre o destino final das embalagens e dos resíduos" (p. 5)
 
-**Este é o achado central desta ficha, e ele tem de ser dito nos termos exatos.** A
-instrução **não fixa** qual é a destinação final: ela **cria a obrigação** — o descarte tem de
-seguir as recomendações da bula — e **delega à bula o conteúdo técnico** dessa destinação, que o
-fabricante redige e o Ibama aprova.
-
-A obrigação está na norma. O **conteúdo** dela é que mora no rótulo. Dizer "a regra não está na
-norma" é impreciso e foi corrigido nesta rodada.
+**Este é o mecanismo, e é o achado central desta ficha.** A instrução **não fixa** qual é a
+destinação final. Ela **cria a obrigação e delega o conteúdo à bula**, que o fabricante
+redige e o Ibama aprova. A regra do descarte não está na norma: está no rótulo do produto
+registrado.
 
 ### 2.3 As outras três alíneas do mesmo item
 
@@ -104,9 +87,8 @@ norma" é impreciso e foi corrigido nesta rodada.
 > de maneira a torná-los inadequados para qualquer outro acondicionamento de produtos" (p. 6)
 
 O detalhamento é de embalagem: inutilizar tambor, não reutilizar frasco. Sobre o **líquido**
-que sobra do banho, a instrução não tem alínea própria. Se ele cabe na expressão "resíduos de
-preservativos de madeira e ingredientes ativos" é **hipótese de leitura**, não enquadramento
-estabelecido — e fica marcado como hipótese.
+que sobra do banho, a instrução não tem alínea própria — ele entra, no máximo, como
+"resíduos de preservativos de madeira e ingredientes ativos".
 
 ---
 
@@ -120,21 +102,15 @@ O que se pode afirmar agora, com documento:
 
 1. **Existe obrigação de destinação final** de resíduos de preservativo — item VIII da IN
    5/92, vigente desde 1992;
-2. **o conteúdo técnico dessa obrigação é delegado à bula** — item VIII "c", combinado com o
-   item VI "h", que exige da bula a informação de destino final;
-3. **a cadeia é definida por empresa** — inclusive o "usuário", "toda e qualquer empresa"
-   (item I, "f"); **não localizei, na instrução, obrigação dirigida ao comprador pessoa
-   física**;
-4. **o art. 4º da Portaria 292/89 dispensa de registro** o preservativo destinado a
-   "experimentação e uso domissanitário".
+2. **o conteúdo dessa obrigação é delegado à bula** — art. VIII "c" combinado com VI "h";
+3. **quem é dispensado do registro não tem bula** — a Portaria 292/89, art. 4º, dispensa de
+   registro o preservativo destinado a "experimentação e uso domissanitário", e a bula é
+   exigência do produto registrado;
+4. **a cadeia é definida por empresa** — inclusive o "usuário" (item I, "f"), o que deixa a
+   pessoa física fora de todas as categorias da instrução.
 
-O que **não** se afirma, e é onde esta ficha se contém: não se afirma que o produto dispensado
-de registro **não tenha** bula. Os documentos não dizem isso. A ficha registra a dispensa de
-registro e a exigência de bula no regime que a instrução disciplina; **a ponte entre as duas
-coisas é pergunta aberta**, não achado.
-
-Com essa contenção, o que sobra continua sendo o ponto: a norma aponta para o rótulo, e não
-localizei obrigação escrita para o comprador pessoa física.
+Ou seja: o risco não é deixado em silêncio. Ele é **transferido duas vezes** — da norma para
+o rótulo, e do rótulo para quem não tem rótulo.
 
 ---
 

@@ -1,12 +1,13 @@
 ---
-estado_documental: em-revisao-documental
+tipo_documental: fonte-primaria-privada
+estado_documental: protegido-privado
 responsavel_curadoria: Fabio F. Resck
-tipo_documental: instrumento-de-pesquisa
-sha256_do_pdf: "a7d085cd9bd0bdd85d17a72ccc4c2bf17bdf18c7858b4b1ffb8bfc1c2cbd23cb"
-pdf_no_repositorio: false
+frente: BAMBU-SCIENCE
+gaveta: bambu-tratamento
+origem_documental: frente absorvida COBRE (2026-11-28)
+nota_de_metadado: front matter acrescentado na absorcao; o corpo nao foi reescrito
 ---
 
-> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c/1989_pi292_preservativos_registro.pdf` · sha256 `a7d085cd9bd0bdd85d17a72ccc4c2bf17bdf18c7858b4b1ffb8bfc1c2cbd23cb` · 103,925 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 <!-- PAGE: 1 -->
                                                                                                                  
  

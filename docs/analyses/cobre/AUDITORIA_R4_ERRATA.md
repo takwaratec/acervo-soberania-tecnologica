@@ -6,10 +6,11 @@ autor: HERMES_OPENCODE
 data: 2026-11-24
 retifica: "docs/analyses/cobre/AUDITORIA_R4_PARECER.md §0 (sha256 7d04d0dac9abf9faefdca21cafaaad60ae153c6428f8e6f56780e456890d8df2)"
 origem_da_correcao: "medição do soberano + verificação do executor contra o runner"
-tipo_documental: documento-institucional
-estado_documental: em-revisao-documental
+tipo_documental: sintese-critica
+estado_documental: historico
 responsavel_curadoria: Fabio F. Resck
 ---
+
 # ERRATA — o achado de governança do §0 estava errado
 
 O §0 de `AUDITORIA_R4_PARECER.md` afirma que a regra de família é **insatisfazível na

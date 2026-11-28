@@ -4,7 +4,7 @@ import json
 import os
 import sys
 
-RAIZ = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
+RAIZ = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
 DEST = f"{RAIZ}/docs/analyses/cobre/leitura-integral"
 sys.path.insert(0, f"{RAIZ}/scripts")
 from s11e_classificacao import CLASSIFICACAO  # noqa: E402

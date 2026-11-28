@@ -1,12 +1,13 @@
 ---
-estado_documental: em-revisao-documental
+tipo_documental: fonte-primaria-privada
+estado_documental: protegido-privado
 responsavel_curadoria: Fabio F. Resck
-tipo_documental: instrumento-de-pesquisa
-sha256_do_pdf: "e8a6467d6f1b286da71ffc0d91b75211b1efa9df0879793047a291764cae9f7a"
-pdf_no_repositorio: false
+frente: BAMBU-SCIENCE
+gaveta: bambu-tratamento
+origem_documental: frente absorvida COBRE (2026-11-28)
+nota_de_metadado: front matter acrescentado na absorcao; o corpo nao foi reescrito
 ---
 
-> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-documentais/ago_28_CCA_CCB/Eloy_2025_CCA_Moiroes_Solo.pdf` · sha256 `e8a6467d6f1b286da71ffc0d91b75211b1efa9df0879793047a291764cae9f7a` · 1,116,265 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 <!-- PAGE: 1 -->
 Ci. Fl., Santa Maria, v. 35, e86024, p. 1-16, 2025  •  
  https://doi.org/10.5902/1980509886024

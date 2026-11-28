@@ -1,0 +1,422 @@
+{
+  "gerado_em": "2026-11-28",
+  "frente": "BAMBU-SCIENCE",
+  "gaveta": "bambu-tratamento",
+  "origem": "branch hermes/cobre-pr-20261125 (057abfa), tratada como PR morta por ordem do soberano",
+  "divida_medida": {
+    "erros_validate": 103,
+    "arquivos": 69,
+    "por_classe": {
+      "sem front matter": 40,
+      "tipo_documental ausente": 29,
+      "responsavel_curadoria ausente": 17,
+      "estado homologado-internamente (fora do mapa)": 12,
+      "estado_documental ausente": 4,
+      "estado superado (fora da taxonomia)": 1
+    }
+  },
+  "regras": {
+    "tipo_documental": "derivado da CLASSE do documento e do conteúdo (norma→norma-ou-regulamento, manual→manual-tecnico, dissertação→ficha-academica, artigo→ensaio-tecnico, extração integral de fonte→fonte-primaria-privada, parecer de auditoria→sintese-critica). Nenhum valor copiado do vizinho.",
+    "estado_documental": "homologado-internamente NÃO é alias de homologado-documentalmente: sem registro que nomeie o documento, o destino é em-revisao-documental. Fontes primárias custodiadas → protegido-privado. Superados e pareceres → historico.",
+    "responsavel_curadoria": "nome do soberano (Fabio F. Resck), não do agente",
+    "corpo": "sem reescrita nesta rodada: corrigir metadado não autoriza mexer no texto. A releitura de conteúdo é rodada própria."
+  },
+  "arquivos": {
+    "analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md": {
+      "tipo": "ensaio-tecnico",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/00-mapa-reprocessamento.md": {
+      "tipo": "indice-tematico",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/01-plano-de-pesquisa.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/02-plano-sulfato-de-cobre.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/03-plano-residuo-e-alerta.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/04-resultados-s8-s10-toxicidade-e-residuo.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/05-resultados-s12-s9-alternativas.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/06-resultados-s11-uso-domestico.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/07-resultados-s11bis-receitas-informais.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/99-artigo-v1-superado.md": {
+      "tipo": "sintese-critica",
+      "estado": "historico",
+      "tinha_fm": true
+    },
+    "analyses/cobre/99-artigo-v2-superado.md": {
+      "tipo": "sintese-critica",
+      "estado": "historico",
+      "tinha_fm": true
+    },
+    "analyses/cobre/99-plano-sulfato-v1-superado.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "historico",
+      "tinha_fm": true
+    },
+    "analyses/cobre/99-plano-v1-superado.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "historico",
+      "tinha_fm": true
+    },
+    "analyses/cobre/AUDITORIA_R4_ERRATA.md": {
+      "tipo": "sintese-critica",
+      "estado": "historico",
+      "tinha_fm": true
+    },
+    "analyses/cobre/AUDITORIA_R4_PARECER.md": {
+      "tipo": "sintese-critica",
+      "estado": "historico",
+      "tinha_fm": false
+    },
+    "analyses/cobre/AUDITORIA_R4_PARECER_BRUTO_CODEX_LUNA.md": {
+      "tipo": "sintese-critica",
+      "estado": "historico",
+      "tinha_fm": false
+    },
+    "analyses/cobre/AUDITORIA_R5_PARECER.md": {
+      "tipo": "sintese-critica",
+      "estado": "historico",
+      "tinha_fm": false
+    },
+    "analyses/cobre/AUDITORIA_R5_PARECER_BRUTO_CODEX_LUNA.md": {
+      "tipo": "sintese-critica",
+      "estado": "historico",
+      "tinha_fm": false
+    },
+    "analyses/cobre/AUDITORIA_R6_PARECER.md": {
+      "tipo": "sintese-critica",
+      "estado": "historico",
+      "tinha_fm": false
+    },
+    "analyses/cobre/AUDITORIA_R6_PARECER_BRUTO_CODEX_LUNA.md": {
+      "tipo": "sintese-critica",
+      "estado": "historico",
+      "tinha_fm": false
+    },
+    "analyses/cobre/COMECE_AQUI_AUDITORIA.md": {
+      "tipo": "sintese-critica",
+      "estado": "historico",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fichas/ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md": {
+      "tipo": "norma-ou-regulamento",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fichas/ficha-blog-tsc-como-tratar-bambu.md": {
+      "tipo": "manual-tecnico",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fichas/ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md": {
+      "tipo": "manual-tecnico",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fichas/ficha-espaconaturalmente-bambu.md": {
+      "tipo": "manual-tecnico",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fichas/ficha-iema-es-nt01-2023-preservacao-madeira.md": {
+      "tipo": "norma-ou-regulamento",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fichas/ficha-in05-92-ibama-destinacao-final-residuos.md": {
+      "tipo": "norma-ou-regulamento",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fichas/ficha-nmba-2006-preservation-of-bamboo-manual.md": {
+      "tipo": "manual-tecnico",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fichas/ficha-pi292-89-registro-preservativos-madeira.md": {
+      "tipo": "norma-ou-regulamento",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fichas/ficha-pn151-97-ibama-risco-ambiental.md": {
+      "tipo": "norma-ou-regulamento",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fichas/ficha-scharfenberg-2020-bambu-cb-fitotoxicidade.md": {
+      "tipo": "ficha-academica",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fichas/ficha-ufmg-mom-tratamento-com-borax.md": {
+      "tipo": "ficha-academica",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fichas/ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md": {
+      "tipo": "ficha-cientifica",
+      "estado": "em-revisao-documental",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fontes/md/BR_CONAMA_357_2005_Qualidade_Aguas.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fontes/md/BR_CONAMA_430_2011_Efluentes.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fontes/md/WHO_2004_Copper-in-Drinking-Water_Background.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": true
+    },
+    "analyses/cobre/fontes/md/blog-tecnicas-construcao-sustentavel-como-tratar-bambu.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/md/embrapa-cot110-tratamento-madeira-propriedade-rural.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/md/embrapa-pfb-2023-rusch.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/md/espaconaturalmente-bambu.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/md/gauss-2020-tratamento-preservativo.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/md/manual-irrigacao-bambu-conbea97.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/md/nmba-2006-preservation-bamboo-manual.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/md/ufes-tcc-tratamento-bambu.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/md/ufmg-mom-tratamento-borax.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/md/uftm-scharfenberg-cb-cobre-boro.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/s11c/1989_pi292_preservativos_registro.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/s11c/1997_pn151_ibama_registro_risco_ambiental.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/s11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/s11c/2023_iema_es_nt01_preservacao_madeira.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/s11c/2025_ufsm_ciencia_florestal_cca_moiroes_solo.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/s11d/1992_in05_ibama_destinacao_final_residuos.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/fontes/s11d/2026-ctf-ibama-categorias-preservativos.md": {
+      "tipo": "fonte-primaria-privada",
+      "estado": "protegido-privado",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/LEITURA_INTEGRAL_SINTESE.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/abpm-fg4mad-destinacao-residuos-madeira-tratada.indice.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/abpm-fg4mad-destinacao-residuos-madeira-tratada.leitura.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/ctf-ibama-categorias-preservativos.indice.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/ctf-ibama-categorias-preservativos.leitura.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/iema-es-nt01-preservacao-madeira.indice.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/iema-es-nt01-preservacao-madeira.leitura.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/in05-ibama-destinacao-final-residuos.indice.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/in05-ibama-destinacao-final-residuos.leitura.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/pi292-preservativos-registro.indice.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/pi292-preservativos-registro.leitura.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/pn151-ibama-registro-risco-ambiental.indice.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/pn151-ibama-registro-risco-ambiental.leitura.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/ufsm-ciencia-florestal-cca-moiroes-solo.indice.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/leitura-integral/ufsm-ciencia-florestal-cca-moiroes-solo.leitura.md": {
+      "tipo": "instrumento-de-pesquisa",
+      "estado": "em-revisao-documental",
+      "tinha_fm": false
+    },
+    "analyses/cobre/mtcc/RELEITURA_MTCC_RELEASE1_RESULTADO_20261124.md": {
+      "tipo": "sintese-critica",
+      "estado": "historico",
+      "tinha_fm": false
+    }
+  },
+  "homologacao_interna_retirada": [
+    {
+      "arquivo": "analyses/cobre/fichas/ficha-scharfenberg-2020-bambu-cb-fitotoxicidade.md",
+      "homologacao_interna_retirada": "homologacao:\n  tipo: INTERNA\n  autoridade: FABIO\n  data: 2026-11-24\n  instrumento: \"instrução direta do soberano no tópico da frente COBRE\"\n  transcricao: >\n    \"Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.\n    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos\n    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania\n    tecnológica conforme foi instruído.\"\n  alcance: >\n    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação\n    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.\n    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.\n  auditoria_externa: PENDENTE\n"
+    },
+    {
+      "arquivo": "analyses/cobre/fichas/ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md",
+      "homologacao_interna_retirada": "homologacao:\n  tipo: INTERNA\n  autoridade: FABIO\n  data: 2026-11-24\n  instrumento: \"instrução direta do soberano no tópico da frente COBRE\"\n  transcricao: >\n    \"Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.\n    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos\n    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania\n    tecnológica conforme foi instruído.\"\n  alcance: >\n    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação\n    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.\n    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.\n  auditoria_externa: PENDENTE\n"
+    },
+    {
+      "arquivo": "analyses/cobre/fichas/ficha-ufmg-mom-tratamento-com-borax.md",
+      "homologacao_interna_retirada": "homologacao:\n  tipo: INTERNA\n  autoridade: FABIO\n  data: 2026-11-24\n  instrumento: \"instrução direta do soberano no tópico da frente COBRE\"\n  transcricao: >\n    \"Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.\n    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos\n    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania\n    tecnológica conforme foi instruído.\"\n  alcance: >\n    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação\n    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.\n    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.\n  auditoria_externa: PENDENTE\n"
+    },
+    {
+      "arquivo": "analyses/cobre/fichas/ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md",
+      "homologacao_interna_retirada": "homologacao:\n  tipo: INTERNA\n  autoridade: FABIO\n  data: 2026-11-24\n  instrumento: \"instrução direta do soberano no tópico da frente COBRE\"\n  transcricao: >\n    \"Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.\n    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos\n    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania\n    tecnológica conforme foi instruído.\"\n  alcance: >\n    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação\n    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.\n    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.\n  auditoria_externa: PENDENTE\n"
+    },
+    {
+      "arquivo": "analyses/cobre/fichas/ficha-blog-tsc-como-tratar-bambu.md",
+      "homologacao_interna_retirada": "homologacao:\n  tipo: INTERNA\n  autoridade: FABIO\n  data: 2026-11-24\n  instrumento: \"instrução direta do soberano no tópico da frente COBRE\"\n  transcricao: >\n    \"Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.\n    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos\n    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania\n    tecnológica conforme foi instruído.\"\n  alcance: >\n    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação\n    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.\n    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.\n  auditoria_externa: PENDENTE\n"
+    },
+    {
+      "arquivo": "analyses/cobre/fichas/ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md",
+      "homologacao_interna_retirada": "homologacao:\n  tipo: INTERNA\n  autoridade: FABIO\n  data: 2026-11-24\n  instrumento: \"instrução direta do soberano no tópico da frente COBRE\"\n  transcricao: >\n    \"Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.\n    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos\n    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania\n    tecnológica conforme foi instruído.\"\n  alcance: >\n    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação\n    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.\n    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.\n  auditoria_externa: PENDENTE\n"
+    },
+    {
+      "arquivo": "analyses/cobre/fichas/ficha-espaconaturalmente-bambu.md",
+      "homologacao_interna_retirada": "homologacao:\n  tipo: INTERNA\n  autoridade: FABIO\n  data: 2026-11-24\n  instrumento: \"instrução direta do soberano no tópico da frente COBRE\"\n  transcricao: >\n    \"Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.\n    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos\n    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania\n    tecnológica conforme foi instruído.\"\n  alcance: >\n    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação\n    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.\n    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.\n  auditoria_externa: PENDENTE\n"
+    },
+    {
+      "arquivo": "analyses/cobre/fichas/ficha-iema-es-nt01-2023-preservacao-madeira.md",
+      "homologacao_interna_retirada": "homologacao:\n  tipo: INTERNA\n  autoridade: FABIO\n  data: 2026-11-24\n  instrumento: \"instrução direta do soberano no tópico da frente COBRE\"\n  transcricao: >\n    \"Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.\n    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos\n    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania\n    tecnológica conforme foi instruído.\"\n  alcance: >\n    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação\n    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.\n    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.\n  auditoria_externa: PENDENTE\n"
+    },
+    {
+      "arquivo": "analyses/cobre/fichas/ficha-in05-92-ibama-destinacao-final-residuos.md",
+      "homologacao_interna_retirada": "homologacao:\n  tipo: INTERNA\n  autoridade: FABIO\n  data: 2026-11-24\n  instrumento: \"instrução direta do soberano no tópico da frente COBRE\"\n  transcricao: >\n    \"Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.\n    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos\n    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania\n    tecnológica conforme foi instruído.\"\n  alcance: >\n    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação\n    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.\n    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.\n  auditoria_externa: PENDENTE\n"
+    },
+    {
+      "arquivo": "analyses/cobre/fichas/ficha-nmba-2006-preservation-of-bamboo-manual.md",
+      "homologacao_interna_retirada": "homologacao:\n  tipo: INTERNA\n  autoridade: FABIO\n  data: 2026-11-24\n  instrumento: \"instrução direta do soberano no tópico da frente COBRE\"\n  transcricao: >\n    \"Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.\n    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos\n    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania\n    tecnológica conforme foi instruído.\"\n  alcance: >\n    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação\n    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.\n    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.\n  auditoria_externa: PENDENTE\n"
+    },
+    {
+      "arquivo": "analyses/cobre/fichas/ficha-pi292-89-registro-preservativos-madeira.md",
+      "homologacao_interna_retirada": "homologacao:\n  tipo: INTERNA\n  autoridade: FABIO\n  data: 2026-11-24\n  instrumento: \"instrução direta do soberano no tópico da frente COBRE\"\n  transcricao: >\n    \"Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.\n    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos\n    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania\n    tecnológica conforme foi instruído.\"\n  alcance: >\n    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação\n    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.\n    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.\n  auditoria_externa: PENDENTE\n"
+    },
+    {
+      "arquivo": "analyses/cobre/fichas/ficha-pn151-97-ibama-risco-ambiental.md",
+      "homologacao_interna_retirada": "homologacao:\n  tipo: INTERNA\n  autoridade: FABIO\n  data: 2026-11-24\n  instrumento: \"instrução direta do soberano no tópico da frente COBRE\"\n  transcricao: >\n    \"Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.\n    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos\n    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania\n    tecnológica conforme foi instruído.\"\n  alcance: >\n    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação\n    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.\n    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.\n  auditoria_externa: PENDENTE\n"
+    }
+  ],
+  "ordem_do_soberano": "\"Nada de homologacao interna. Estado e em revisao documental.\" (2026-11-28)"
+}

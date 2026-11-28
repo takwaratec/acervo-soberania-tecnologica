@@ -1,8 +1,13 @@
 ---
-estado_documental: em-revisao-documental
+tipo_documental: fonte-primaria-privada
+estado_documental: protegido-privado
 responsavel_curadoria: Fabio F. Resck
-tipo_documental: instrumento-de-pesquisa
+frente: BAMBU-SCIENCE
+gaveta: bambu-tratamento
+origem_documental: frente absorvida COBRE (2026-11-28)
+nota_de_metadado: front matter acrescentado na absorcao; o corpo nao foi reescrito
 ---
+
 <!-- PAGE: 1 (página única, conteúdo extraído do HTML) -->
 Registro de produtos preservativos de madeiras — Ibama
 Conteúdo

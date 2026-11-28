@@ -3,7 +3,7 @@ schema: ACERVO_ARTIGO_R1
 gaveta: cobre
 frente: COBRE
 titulo: "O cobre no tratamento do bambu: o que ele é, o que faz, e para onde vai a água que sobra"
-estado_documental: em-revisao-documental
+estado_documental: historico
 homologacao_automatica: false
 versao: 1
 data_revisao: 2026-11-24
@@ -12,8 +12,9 @@ assistencia_documental: agente de IA, sujeito a revisao humana
 publico: "leigo em quimica e em linguagem academica"
 fichas_base: 6 fichas em _privado/fichas/ago_28_Sulfato_S11/
 resultados_base: 04, 05, 06, 07 em docs/analyses/cobre/
-tipo_documental: ensaio-tecnico
+tipo_documental: sintese-critica
 ---
+
 # O cobre no tratamento do bambu
 
 ## O que ele é, o que faz, e para onde vai a água que sobra

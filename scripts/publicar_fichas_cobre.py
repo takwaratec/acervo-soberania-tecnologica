@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Promove as fichas de _privado (gitignored) para a área versionada e as declara
+"""Promove as 6 fichas de _privado (gitignored) para a área versionada e as declara
 HOMOLOGADAS INTERNAMENTE, com a autoridade do soberano registrada.
 
 FONTE:  _privado/fichas/ago_28_Sulfato_S11/*.md  (lida byte a byte, preservada)
@@ -10,7 +10,7 @@ import os
 import re
 import shutil
 
-REPO = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
+REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
 # duas custódias, cada uma com o seu total declarado
 ORIGENS = [
     (f"{REPO}/_privado/fichas/ago_28_Sulfato_S11", 6),
@@ -25,7 +25,7 @@ CABECALHO = """---
 schema: ACERVO_FICHA_R1
 gaveta: cobre
 frente: COBRE
-estado_documental: em-revisao-documental
+estado_documental: homologado-internamente
 homologacao:
   tipo: INTERNA
   autoridade: FABIO
@@ -43,16 +43,11 @@ homologacao:
   auditoria_externa: PENDENTE
 homologacao_automatica: false
 publicacao: docs/analyses/cobre/fichas/
-tipo_documental: ficha-cientifica
-responsavel_curadoria: Fabio F. Resck
-identificador: {identificador}
 ---
 
-> **Estado: em revisão documental.** Homologação interna declarada em 2026-11-24
-> (autoridade: FABIO) — declaração do ato, não registro de leitura. Homologação
-> documental para publicação: pendente. O pacote não anexa registro de leitura integral
-> do HTML nem parecer de auditoria externa. Furo material apontado pelo auditor externo
-> é corrigido e publicado na rodada seguinte.
+> **Estado: homologada internamente (2026-11-24, autoridade FABIO).** Publicada para
+> auditoria externa. Se o auditor externo apontar furo material, o estado reverte para
+> `ficha-em-revisao` e a correção é publicada com a rodada seguinte.
 """
 
 
@@ -74,9 +69,7 @@ def promover():
             corpo = txt[fim + 4:].lstrip("\n")
         else:
             corpo = txt
-        _doi = {"ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md": "10.5902/1980509886024"}
-        ident = f'"{_doi[arq]}"' if arq in _doi else '"sem-doi-registrado"'
-        novo = CABECALHO.replace("{identificador}", ident) + "\n" + corpo
+        novo = CABECALHO + "\n" + corpo
 
         open(dst, "w", encoding="utf-8").write(novo)
         sha_depois = hashlib.sha256(open(dst, "rb").read()).hexdigest()
@@ -98,7 +91,7 @@ if __name__ == "__main__":
     import json
     p = f"{DEST}/MANIFEST_FICHAS_PUBLICADAS.json"
     json.dump({"schema": "ACERVO_FICHAS_PUBLICADAS_R1", "fichas": r,
-               "estado": "em-revisao-documental",
+               "estado": "homologado-internamente",
                "autoridade": "FABIO", "data": "2026-11-24"},
               open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"\nmanifesto: {p}")

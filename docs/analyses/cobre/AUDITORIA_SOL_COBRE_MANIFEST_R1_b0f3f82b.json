@@ -1,0 +1,385 @@
+{
+ "schema": "TAKWARATEC_R4_AUDIT_MANIFEST_R1",
+ "versao": "1.0.0",
+ "manifest_id": "COBRE-AUDITORIA-EXTERNA-20261124-R1",
+ "status": "ABERTO",
+ "gerado_utc": "2026-11-25T13:57:54+00:00",
+ "tipo": "CONTEUDO",
+ "frente": "COBRE",
+ "autoridade": "FABIO (soberano) — pedido direto no tópico da frente, 2026-11-24",
+ "alvo_branch": "hermes/cobre-plano-20261124",
+ "alvo_commit": "b0f3f82bf9884718f86e347273c23f2b0f77ee15",
+ "alvo_nota": "alvo_commit é o último commit que mudou os bytes auditados (artigo, manuscrito, 11 fichas, fontes). Todos os sha256 de fontes[] foram lidos do próprio commit, com `git show <alvo>:<path>`.",
+ "aviso_de_leitura": {
+  "repositorio": "takwaratec/acervo-soberania-tecnologica",
+  "visibilidade": "PUBLIC",
+  "o_que_voce_le": "o branch alvo_commit. main NÃO contém este material — ler main avalia outro objeto.",
+  "material_e_publico": "As 6 fichas estavam em _privado/ (gitignored). Foram publicadas byte a byte em docs/analyses/cobre/fichas/ para que você as alcance. O sha256 de origem e o publicado estão em MANIFEST_FICHAS_PUBLICADAS.json.",
+  "fontes_publicadas": "As 18 fontes documentais (PDF + HTML + extratos) e as 40 normativas/complementares estão em docs/analyses/cobre/fontes/. Nenhuma fonte desta auditoria vive fora do repositório."
+ },
+ "o_que_esta_auditoria_e": "CONTEÚDO e FIDELIDADE À FONTE. Não é auditoria de runtime, de código ou de autoridade. Nenhum número aqui foi conferido contra o artigo científico original pela frente que escreveu — é exatamente isso que se pede a você.",
+ "pedido_do_soberano": "Enumerar as citações, declarar as fichas homologadas internamente e preparar o pacote para auditoria externa do ChatGPT Sol, que só tem acesso ao GitHub.",
+ "objeto": {
+  "artigo_manuscrito": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
+  "artigo_peca_html": "docs/analyses/cobre/o-cobre-no-bambu.html",
+  "fichas": "docs/analyses/cobre/fichas/ (6 fichas)",
+  "fontes": "docs/analyses/cobre/fontes/ (58 arquivos)",
+  "resultados_de_pesquisa": "docs/analyses/cobre/04..07-resultados-*.md"
+ },
+ "estado_declarado": {
+  "fichas": "13 fichas, todas homologado-internamente, autoridade FABIO, reversíveis",
+  "artigo": "peça corrida (molde do boro, 13 seções), peça em abas e manuscrito único de ponta a ponta com 21 referências ABNT comentadas",
+  "homologacao_automatica": false,
+  "o_que_a_homologacao_interna_NAO_e": "Não é homologação científica por par, não é homologação regulatória e não substitui esta auditoria. Se você apontar furo material, o estado reverte para ficha-em-revisao.",
+  "tese_declarada_fora_da_pergunta": "A frente afirma que o ponto crítico do tratamento com sulfato de cobre é o resíduo (solução exaurida), não a eficácia do produto. Esta é uma TESE, declarada aqui para não contaminar as perguntas abaixo."
+ },
+ "pergunta": "As afirmações do artigo e das 11 fichas são fielmente sustentadas pelas 21 fontes custodiadas neste repositório, e o que não está medido está declarado como tal?",
+ "fora_de_escopo": [
+  "runtime, ledger, claims e código do sistema R4 — nada disso é objeto desta rodada",
+  "homologação científica das fichas — a homologação é interna e o ato é do soberano",
+  "recomendação de dose, receita ou procedimento de tratamento — o acervo não produz receita",
+  "mérito das normas brasileiras citadas (CONAMA, PNRS) — só se foram citadas com fidelidade"
+ ],
+ "parte_1_perguntas": [
+  {
+   "id": "Q1",
+   "pergunta": "Cada uma das 14 referências bibliográficas existe, é identificável pelo que o texto declara (autor, ano, título, veículo) e está publicada em docs/analyses/cobre/fontes/?",
+   "arquivo": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md (seção Referências) + docs/analyses/cobre/fontes/*MANIFEST*.json",
+   "criterio": "Para cada referência: o arquivo existe no commit alvo; o sha256 do manifesto confere com os bytes; o autor/ano/título/veículo declarados correspondem ao documento."
+  },
+  {
+   "id": "Q2",
+   "pergunta": "As 17 marcas de citação no corpo apontam para a referência certa — isto é, a afirmação citada está de fato naquela fonte, e não em outra?",
+   "arquivo": "artigo .md e .html + docs/analyses/cobre/fontes/md/",
+   "criterio": "Abra o extrato da fonte citada e localize o trecho que sustenta a afirmação. Citação que aponta para fonte que não contém a afirmação é furo MATERIAL."
+  },
+  {
+   "id": "Q3",
+   "pergunta": "As seis fichas são fiéis às suas fontes primárias — incluindo as citações literais, os números e as páginas?",
+   "arquivo": "docs/analyses/cobre/fichas/*.md contra docs/analyses/cobre/fontes/",
+   "criterio": "Cada citação literal entre aspas deve aparecer no documento de origem. Cada número deve ter página ou seção identificável."
+  },
+  {
+   "id": "Q4",
+   "pergunta": "A aritmética do artigo fecha? Confira em especial: 25,45% de cobre no sulfato de cobre penta-hidratado; 254 g de cobre em 1 kg do sal; as conversões de diluição (8,8 L, 11, 23 e 204 piscinas olímpicas de 2.500 m³); a razão 1.800×.",
+   "arquivo": "artigo, capítulos 01 e 06",
+   "criterio": "Recalcule. Número que não fecha é furo, mesmo que a fonte esteja certa."
+  },
+  {
+   "id": "Q5",
+   "pergunta": "O artigo afirma algo que uma das fontes publicadas CONTRARIA? Em particular: o cobre no solo após 5 anos (Rusch 2023 mediu +12% sem significância para o cobre e +86% para o cromo) e a alegação de que decantação não remove metal dissolvido.",
+   "arquivo": "capítulo 05 e fonte 4 (Rusch) e fonte 2 (NMBA)",
+   "criterio": "Se o texto afirma algo que a fonte desmente, é furo ALTO. Se o texto omite um dado contrário que está na fonte que ele cita, também."
+  },
+  {
+   "id": "Q6",
+   "pergunta": "As instruções oficiais são citadas fielmente? A Embrapa (COT 110) manda reusar a solução excedente — o texto diz isso? O manual indiano (NMBA) manda enterrar resíduo com serragem — o texto diz isso, e diz que é incompatível com a lei brasileira?",
+   "arquivo": "capítulo 06 e 07 + fontes 1 e 2",
+   "criterio": "Confira nas páginas indicadas. A frente errou este ponto em rodada anterior e foi corrigida por auditoria."
+  },
+  {
+   "id": "Q7",
+   "pergunta": "A homologação interna das 6 fichas está declarada com autoridade, data e alcance, sem se apresentar como homologação científica?",
+   "arquivo": "cabeçalho das 6 fichas em docs/analyses/cobre/fichas/",
+   "criterio": "O bloco homologacao declara autoridade=FABIO, tipo=INTERNA, e o alcance diz explicitamente o que NÃO é. Declaração que se apresente como homologação por par é furo."
+  },
+  {
+   "id": "Q8",
+   "pergunta": "A peça corrida (o-cobre-no-bambu-corrido.html) diz o mesmo que o manuscrito .md — mesmo texto, mesmas 14 referências, mesmos números — e as 6 fichas anexadas são as mesmas publicadas em docs/analyses/cobre/fichas/?",
+   "arquivo": "o-cobre-no-bambu-corrido.html × 00-artigo-o-cobre-explicado-do-zero.md × fichas/",
+   "criterio": "Divergência de texto ou de número entre as duas peças é furo; ficha anexada que não corresponde ao arquivo publicado é furo."
+  },
+  {
+   "id": "Q9",
+   "pergunta": "O capítulo 9 afirma que a norma federal de preservação de madeira (PI 292/89) existe, nomeia o Ibama como fiscalizador (art. 20) e NÃO trata da destinação final do resíduo. Isso é sustentado pelo texto integral da Portaria, e a palavra «resíduo» está de fato ausente dela?",
+   "arquivo": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
+   "ancora": "seção 9 — A norma existe — e ela não chega ao quintal",
+   "fonte": "docs/analyses/cobre/fontes/s11c/1989_pi292_preservativos_registro.pdf"
+  },
+  {
+   "id": "Q10",
+   "pergunta": "A distinção «a madeira tem norma que não se cumpre; o bambu não tem norma a cumprir» é sustentada pelas fontes custodiadas, e o capítulo declara explicitamente que não há caso brasileiro documentado de intoxicação por queimar madeira tratada em fogão doméstico?",
+   "arquivo": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
+   "ancora": "seção 9 — «O que não se mediu — e por que isso é resultado»",
+   "fonte": "docs/analyses/cobre/fontes/s11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.pdf"
+  }
+ ],
+ "fontes": [
+  {
+   "path": "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md",
+   "sha256": "1283e703774ac3935f8c9cc4a879dea3b41112be21651ad763bb3b01e7f265bf",
+   "bytes": 108511,
+   "papel": "manuscrito único, com as 14 referências"
+  },
+  {
+   "path": "docs/analyses/cobre/o-cobre-no-bambu-corrido.html",
+   "papel": "peça corrida — texto integral, bibliografia comentada e as 6 fichas anexadas",
+   "sha256": "aeae1ffe2e4442f00c08b675b2592330eaf3290cf0eb59d7e7b19096efc21047",
+   "bytes": 237190
+  },
+  {
+   "path": "docs/analyses/cobre/o-cobre-no-bambu.html",
+   "sha256": "493a810521a7571c7f8cd17f90525633f49e7c0f8c9b9d324d45f35e6cdee32b",
+   "bytes": 243525,
+   "papel": "peça de leitura, 18 abas"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/MANIFEST_FICHAS_PUBLICADAS.json",
+   "sha256": "4a2232e4e59c8f1e109aac26fcd5f34ec3cee22a9aa3ec9d83866b3aab07d533",
+   "bytes": 5683,
+   "papel": "6 fichas — hash de origem e publicado"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/MANIFEST_FONTES_PUBLICADAS.json",
+   "sha256": "7990078434e5fc8620d7d5944fe4ca6a03f42db3e216d85d19a5046ccc00e06b",
+   "bytes": 5729,
+   "papel": "18 fontes documentais"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/MANIFEST_FONTES_NORMATIVAS.json",
+   "sha256": "5222dcc629ddc98e676062fdc487c753a115df2eaac71fbe919ace16af705f47",
+   "bytes": 1260,
+   "papel": "CONAMA 430, CONAMA 357, PNRS"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/MANIFEST_FONTES_COMPLEMENTARES.json",
+   "sha256": "87a08b2b892d3f1a02b08e3c925369c20ba3313486f09332edcffd8538adfb26",
+   "bytes": 6762,
+   "papel": "Gauss 2020, OMS 2004, ComexStat"
+  },
+  {
+   "path": "docs/analyses/cobre/04-resultados-s8-s10-toxicidade-e-residuo.md",
+   "sha256": "678a798604cede29dbeb4b9ccbb9c7548eaf2d5306a2cef992be3d71cd7409be",
+   "bytes": 11495,
+   "papel": "resultado S8/S10"
+  },
+  {
+   "path": "docs/analyses/cobre/05-resultados-s12-s9-alternativas.md",
+   "sha256": "4e117d5b657e3d41976f9dd163e2804297affc6b43eb1c1221cc5c894bb0dfb1",
+   "bytes": 8692,
+   "papel": "resultado S12/S9 — inclui o dado CONTRA a tese"
+  },
+  {
+   "path": "docs/analyses/cobre/06-resultados-s11-uso-domestico.md",
+   "sha256": "6e25869db67671ac40e6cea1bdb48ab0c7d958fc07c08082bd9901ea1c85d8be",
+   "bytes": 15525,
+   "papel": "resultado S11 — instruções oficiais"
+  },
+  {
+   "path": "docs/analyses/cobre/07-resultados-s11bis-receitas-informais.md",
+   "sha256": "44b5f08f645ffc20d497797e91d40fa907bb046c4b150d5df89c8ba46fcea4fd",
+   "bytes": 12865,
+   "papel": "resultado S11-bis — receitas informais"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-embrapa-cot110-tratamento-madeira-propriedade-rural.md",
+   "sha256": "09ecdcb5431380bb26228359f93abd39833fe3d8d83f1fda7ef871de26955726",
+   "bytes": 8449,
+   "papel": "ficha 1"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-nmba-2006-preservation-of-bamboo-manual.md",
+   "sha256": "e7d24f3896474e7b7a8c3cc1635226706003bb199f05a6d098a11a16a58cc48f",
+   "bytes": 8274,
+   "papel": "ficha 2"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-scharfenberg-2020-bambu-cb-fitotoxicidade.md",
+   "sha256": "63727539ad651aa941c41901120705f49727b60309f6fc3fced54d6c12fb2397",
+   "bytes": 7178,
+   "papel": "ficha 3"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-ufmg-mom-tratamento-com-borax.md",
+   "sha256": "9e8fb1b33a1330efe520d3c968d01bd26d8eba88cac08698dc8ea952943d687c",
+   "bytes": 4951,
+   "papel": "ficha 4"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-blog-tsc-como-tratar-bambu.md",
+   "sha256": "5a2fb1d4a2ebbd655e2fe99239997b7b5a5d3736d4828e416434e3e9081d4d5c",
+   "bytes": 6310,
+   "papel": "ficha 5"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-espaconaturalmente-bambu.md",
+   "sha256": "5c6ff1a2e06ea5458d4f63980409970ac4b7e463a65cc1be3127b2c361a8ba7b",
+   "bytes": 4849,
+   "papel": "ficha 6"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-pi292-89-registro-preservativos-madeira.md",
+   "sha256": "88ef033acddf6e706a9dd72c6da8162780710032bdbd2edb15a1a5f5ab24ebed",
+   "bytes": 7950,
+   "papel": "ficha 7 — a norma-mãe: registro obrigatório e art. 20 (competência de fiscalização)"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-pn151-97-ibama-risco-ambiental.md",
+   "sha256": "d4befffc1400104b3e07a34f224947608875ab3a3795b4394aaf60f72640a345",
+   "bytes": 5657,
+   "papel": "ficha 8 — o registro condicionado à determinação do risco ambiental"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-iema-es-nt01-2023-preservacao-madeira.md",
+   "sha256": "c4535c350b7cad1ae16ad0175091f03bdf3633bd636dcb9ee90f7b4f5a532b97",
+   "bytes": 7662,
+   "papel": "ficha 9 — o regulador do ES: «não há proibição no Brasil» e a falta de dados do CCB"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-abpm-fg4mad-destinacao-residuo-madeira-tratada.md",
+   "sha256": "ddde9cd66b2b17eee8e68fb568f9b64fc3d50b4a30cbce7b6d66df85a3a0ee6a",
+   "bytes": 5551,
+   "papel": "ficha 10 — a própria cadeia: resíduo tratado não pode queima em fogão nem a céu aberto"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-ufsm-2025-cca-moiroes-contaminacao-solo.md",
+   "sha256": "c875842974014fce7fb3ccadb765afcdece71751d45a673f6f32701c57a9915c",
+   "bytes": 5963,
+   "papel": "ficha 11 — 880 dias de campo: As na madeira −55,0%, no solo +129,2%"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11c/1989_pi292_preservativos_registro.pdf",
+   "sha256": "a7d085cd9bd0bdd85d17a72ccc4c2bf17bdf18c7858b4b1ffb8bfc1c2cbd23cb",
+   "bytes": 103925,
+   "papel": "ref 17 — Portaria Interministerial 292/89, texto integral (4 p.)"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11c/1997_pn151_ibama_registro_risco_ambiental.pdf",
+   "sha256": "372e9324d178cb9442ced3d5b9f5cc0f04b799d0362810035d9c616d56bea20a",
+   "bytes": 229412,
+   "papel": "ref 18 — Portaria Normativa Ibama 151/97 (DOU, OCR degradado)"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11c/2023_iema_es_nt01_preservacao_madeira.pdf",
+   "sha256": "57576709749df7d43d5293080aa8ea160ef5a66df922abbf46dd0770151f4c22",
+   "bytes": 1258007,
+   "papel": "ref 19 — NT 01/2023 do Iema-ES (36 p.)"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.pdf",
+   "sha256": "ec643f7b088711aa4a815d7a4efd78df8a2a57ab01f7e9d6470dbcec97b9de2e",
+   "bytes": 1922145,
+   "papel": "ref 20 — ABPM/FG4mad, destinação de resíduo de madeira tratada (21 p.)"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11c/2025_ufsm_ciencia_florestal_cca_moiroes_solo.pdf",
+   "sha256": "e8a6467d6f1b286da71ffc0d91b75211b1efa9df0879793047a291764cae9f7a",
+   "bytes": 1116265,
+   "papel": "ref 21 — Ciência Florestal v.35 e86024 (16 p.)"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11c/MANIFEST_FONTES_S11C.json",
+   "sha256": "0da8353d0eb0de073ce1489306df95d7a0a2b2425842e2503db0aee8e6ec9513",
+   "bytes": 5363,
+   "papel": "manifesto da custódia S11-c, com as duas pendências declaradas"
+  },
+  {
+   "path": "docs/analyses/cobre/fichas/ficha-in05-92-ibama-destinacao-final-residuos.md",
+   "sha256": "f483414f825fffff48526aa97176cb4ee98ec9a90fa9b44c7e3d8f474e174287",
+   "bytes": 7962,
+   "papel": "ficha 12 — item VIII da IN 5/92: o descarte segue a bula, e a bula é do produto registrado"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11d/1992_in05_ibama_destinacao_final_residuos.pdf",
+   "sha256": "69f340be735b31b557d554896b8995a8d8adae6f7daafd3e389081c5f5df5265",
+   "bytes": 130080,
+   "papel": "ref 22 — Instrução Normativa Ibama 5/92, fac-símile do DOU de 21.10.1992 (15 p.)"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11d/1992_in05_ibama_destinacao_final_residuos.md",
+   "sha256": "f1d25dae1850c4e3b7b62c467e4cb33267dd872e6117c1456845f8d9767fb16d",
+   "bytes": 25428,
+   "papel": "extração com marcador de página da IN 5/92"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11d/2026-ctf-ibama-categorias-preservativos.md",
+   "sha256": "cdea2df9803bd208e895c6db566f1ee383cfdf97baa6f65ce85d87560bf67b38",
+   "bytes": 21514,
+   "papel": "página oficial do CTF: as categorias da cadeia são por estabelecimento industrial"
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/s11d/MANIFEST_FONTES_S11D.json",
+   "sha256": "760caaa5f7ca7b760242be0bfc9d4cd88dd8f808d01dd247c0b7edf7f183e80c",
+   "bytes": 1381,
+   "papel": "manifesto da custódia S11-d, com a pendência da S11-c resolvida"
+  }
+ ],
+ "criterios": {
+  "PASS": "Nenhum furo material. Furos de forma (typo, formatação, numeração) podem existir e são listados sem bloquear.",
+  "PASS_COM_RESSALVA": "Nenhum furo material, mas há afirmação que o texto faz e a fonte não sustenta com a força usada (ex.: generalização além do medido).",
+  "FAIL": "Ao menos um furo material: citação que aponta para fonte que não contém a afirmação; número que não fecha; afirmação contrariada por fonte que o próprio texto cita; referência inexistente."
+ },
+ "severidade": {
+  "ALTO": "Altera conclusão ou afirmação central. Exige correção antes de qualquer publicação definitiva.",
+  "MEDIO": "Afirmação periférica mal sustentada, ou atribuição de fonte imprecisa. Corrigível na rodada seguinte.",
+  "BAIXO": "Forma, estilo, numeração, formatação."
+ },
+ "formato_resposta": {
+  "campos_obrigatorios": [
+   "VEREDITO",
+   "MANIFEST_ID",
+   "COMMIT_CONFERIDO",
+   "HASHES_CONFEREM",
+   "FUROS (lista aberta — sem teto; um item por achado, com arquivo, trecho e gravidade)",
+   "O_QUE_ESTA_CORRETO (o que você conferiu e passou — para a frente saber o que não precisa refazer)",
+   "OBSERVACOES_DE_PROTOCOLO",
+   "LIMITES_DESTA_AUDITORIA"
+  ],
+  "formato_resposta": "idêntico a este campo — o protocolo §3 nomeia 'formato_resposta' e o verificador local lê 'formato_de_resposta'. Ambos declarados com conteúdo igual para evitar divergência silenciosa.",
+  "sem_teto": "Não há limite de furos. Relate tudo o que sustentar com arquivo e trecho."
+ },
+ "limites": [
+  "Você lê apenas o que está publicado no commit fixado. Não há runtime, ledger, claim ou código em execução neste pacote — nada disso é afirmado aqui.",
+  "A frente declara NÃO ter conferido nenhum número contra o artigo científico original: as fontes publicadas são os PDFs custodiados, e é contra eles que a conferência se faz.",
+  "O acervo NÃO produz receita nem dose. Onde o texto diz 'não existe dose segura publicada', isso é declaração de limite, não de omissão.",
+  "Onde o texto diz 'desconhecido', significa que nenhuma fonte mediu — não que o risco seja nulo. Julgar essa distinção é parte da auditoria.",
+  "Homologação é ato do soberano (Constituição R4, Art. 7.4). Sua aprovação NÃO homologa — ela confirma ou refuta fidelidade à fonte.",
+  "Esta rodada audita CONTEÚDO. Ela não autoriza merge, promoção nem mudança de estado do sistema."
+ ],
+ "nao_homologa": [
+  "a correção científica das fichas",
+  "a homologação interna, que é ato do soberano",
+  "a instalação ou o runtime do sistema R4",
+  "o mérito das normas brasileiras citadas"
+ ],
+ "como_reproduzir": [
+  "1. git clone https://github.com/takwaratec/acervo-soberania-tecnologica",
+  "2. git checkout <alvo_commit>",
+  "3. Leia docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md de ponta a ponta.",
+  "4. Para cada uma das 17 marcas de citação, abra o extrato em docs/analyses/cobre/fontes/md/ e localize o trecho.",
+  "5. Recalcule a aritmética do capítulo 06.",
+  "6. Compare cada ficha com sua fonte primária em docs/analyses/cobre/fontes/pdf/."
+ ],
+ "erro_anterior_declarado": {
+  "nota": "Declarar o que já se sabe, para o auditor não gastar a rodada no que foi medido antes dele.",
+  "itens": [
+   {
+    "id": "F1",
+    "status": "corrigido",
+    "descricao": "A frente afirmou que a Embrapa não diz o que fazer com a solução excedente. Dizia — instrução de reuso, L207–214. Corrigido; o texto hoje cita a instrução."
+   },
+   {
+    "id": "F2",
+    "status": "corrigido",
+    "descricao": "A frente afirmou que não havia previsão legal para resíduo líquido. A PNRS art. 3º XVI inclui líquidos desde 2010. Erro que favorecia a tese da própria frente."
+   },
+   {
+    "id": "F3",
+    "status": "corrigido",
+    "descricao": "A frente escreveu 'destinação controlada' onde a fonte indiana diz 'enterrar com serragem'. Corrigido nas duas passagens."
+   },
+   {
+    "id": "F4",
+    "status": "corrigido",
+    "descricao": "Erro de unidade em número de piscinas (1.502 era do limite crônico, não do Classe 1). Corrigido."
+   },
+   {
+    "id": "F5",
+    "status": "aberto e declarado",
+    "descricao": "A ABNT NBR 10004-1/-2:2024 é paga e não foi consultada. Toda classificação de resíduo segundo essa norma está ausente do material, e o texto não a invoca."
+   }
+  ]
+ },
+ "total_fontes": 33,
+ "como_ler": "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo carrega o alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: aquele é o da rodada anterior. A entrada é o ponteiro em ops/command-center/auditoria-atual/COBRE.json."
+}

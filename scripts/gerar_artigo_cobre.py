@@ -18,7 +18,7 @@ import conteudo_cobre as C
 import referencias_cobre as R
 from conteudo_cobre import tabela
 
-REPO = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
+REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
 _AQUI = os.path.dirname(os.path.abspath(__file__))
 CSS_PATH = os.path.join(_AQUI, "molde", "molde.css")
 JS_PATH = os.path.join(_AQUI, "molde", "molde.js")
@@ -52,7 +52,7 @@ p.ref:target{background:var(--warn-bg);outline:2px solid #d4b862;border-radius:4
   display:inline;white-space:normal;overflow-wrap:anywhere;box-decoration-break:clone}
 
 
-/* Com as abas do artigo + uma por ficha + referências, a grade de 6 colunas do molde
+/* Com 18 abas (11 do artigo + 6 fichas + referências), a grade de 6 colunas do molde
    empilha em 3 linhas e a barra fixa passa a ocupar 132px — 13% da tela. Linha única
    rolável mantém a altura constante, como o próprio molde já faz no celular. */
 nav.tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;gap:6px;

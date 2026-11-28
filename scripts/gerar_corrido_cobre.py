@@ -4,7 +4,7 @@
 Peça CORRIDA do cobre — mesmo desenho da peça corrida do boro (2026-11-24).
 
 Diferença em relação à peça de abas: aqui o artigo flui de ponta a ponta, com
-sumário, citações [N] clicáveis, bibliografia comentada e as {len(FICHAS)} fichas anexadas
+sumário, citações [N] clicáveis, bibliografia comentada e as 6 fichas anexadas
 na íntegra ao final.
 
 SAÍDA: docs/analyses/cobre/o-cobre-no-bambu-corrido.html
@@ -22,7 +22,7 @@ import conteudo_cobre as C
 import referencias_cobre as R
 import resumos_fontes_cobre as RS
 
-REPO = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
+REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
 SAIDA = f"{REPO}/docs/analyses/cobre/o-cobre-no-bambu-corrido.html"
 CSS_MOLDE = f"{_AQUI}/molde/molde.css"
 CSS_CORRIDO = f"{_AQUI}/molde/molde-corrido.css"
@@ -245,13 +245,13 @@ def montar():
 
     toc_html = "\n".join(f'    <li><a href="#{s}">{H.escape(t)}</a></li>' for s, t in toc)
     toc_html += '\n    <li><a href="#bibliografia-consultada">Bibliografia consultada</a></li>'
-    toc_html += f'\n    <li><a href="#anexos">Anexos — as {len(FICHAS)} fichas técnicas na íntegra</a></li>'
+    toc_html += '\n    <li><a href="#anexos">Anexos — as 6 fichas técnicas na íntegra</a></li>'
 
     doc = f"""<!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>O cobre, explicado do zero — Acervo Soberania Tecnológica</title>
-<meta name="description" content="Artigo didático integral sobre o sulfato de cobre no tratamento de bambu, com {len(R.REFERENCIAS)} citações numeradas, bibliografia comentada e as {len(FICHAS)} fichas técnicas anexadas na íntegra.">
+<meta name="description" content="Artigo didático integral sobre o sulfato de cobre no tratamento de bambu, com 17 citações numeradas, bibliografia comentada e as 6 fichas técnicas anexadas na íntegra.">
 <meta property="og:title" content="O cobre, explicado do zero">
 <meta property="og:description" content="Um metal comum, uma solução azul e a pergunta que quase ninguém faz: para onde vai a água do tratamento.">
 <meta property="og:type" content="article">
@@ -279,7 +279,7 @@ def montar():
 {refs_html}
 
 <section id="anexos">
-<div class="anexo-intro"><strong>Anexos — fichas técnicas na íntegra.</strong> Cada obra citada tem ficha própria com dados gerais, conteúdo medido, avaliação crítica e limites declarados. Texto integral, sem resumo. Todas em <code>em-revisao-documental</code> — homologação interna é ato declarado, não leitura medida — e pendentes de auditoria externa.</div>
+<div class="anexo-intro"><strong>Anexos — fichas técnicas na íntegra.</strong> Cada obra citada tem ficha própria com dados gerais, conteúdo medido, avaliação crítica e limites declarados. Texto integral, sem resumo. Todas em <code>homologado-internamente</code>, pendentes de auditoria externa.</div>
 <nav class="toc" aria-label="Índice das fichas"><h2>{len(FICHAS)} fichas desta gaveta</h2><ol>
 {chr(10).join(indices)}
 </ol></nav>
@@ -288,7 +288,7 @@ def montar():
 </main>
 <footer class="rodape">
 <p><strong>Sobre este documento.</strong> Texto integral e corrido, sem abas — o mesmo conteúdo do manuscrito <code>docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md</code>, com as {len(FICHAS)} fichas de <code>docs/analyses/cobre/fichas/</code> anexadas ao final. A versão em abas, para leitura por capítulo, está em <code>o-cobre-no-bambu.html</code>.</p>
-<p>Estado <code>em-revisao-documental</code>: a homologação interna de 2026-11-24 é ato declarado do soberano, não leitura medida; auditoria externa pendente e homologação automática desativada. Cinco rodadas de auditoria independente na frente, com três reprovações e correção material em cada uma. Redação com assistência de agente de IA sob curadoria humana declarada.</p>
+<p>Estado <code>homologado-internamente</code> (autoridade FABIO, 2026-11-24), auditoria externa pendente; homologação automática desativada. Cinco rodadas de auditoria independente na frente, com três reprovações e correção material em cada uma. Redação com assistência de agente de IA sob curadoria humana declarada.</p>
 </footer></body></html>
 """
     open(SAIDA, "w", encoding="utf-8").write(doc)
@@ -348,12 +348,11 @@ def validar(doc, palavras, nsecoes):
         falhas.append("índice das fichas")
     print(f" 7. fichas no índice           {len(ids_f)-len(faltam_idx)}/{len(ids_f)}")
 
-    # estado honesto nas fichas: o texto não pode afirmar homologação que não foi medida
-    homol = len(re.findall(r"em revisão documental", doc))
-    velho = len(re.findall(r"homologado-internamente|homologada internamente", doc))
-    if homol < len(FICHAS) or velho:
+    # estado homologado nas fichas
+    homol = len(re.findall(r"homologado-internamente", doc))
+    if homol < len(FICHAS):
         falhas.append("estado das fichas")
-    print(f" 8. estado em revisão          {homol} ocorrências (afirmação de homologação: {velho})")
+    print(f" 8. estado homologado          {homol} ocorrências")
 
     # bibliografia com resumo
     resumos = len(re.findall(r'<p class="ref" id="ref-\d+">.*?class=.resumo.', doc, re.S))

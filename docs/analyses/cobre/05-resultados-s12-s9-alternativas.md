@@ -10,8 +10,9 @@ data_revisao: 2026-11-24
 responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 plano_executado: 03-plano-residuo-e-alerta.md v5
-tipo_documental: sintese-critica
+tipo_documental: instrumento-de-pesquisa
 ---
+
 # S12 e S9 — alternativas e comparação
 
 > **Resultado em uma frase.** A comparação que o capítulo queria fazer — cobre contra

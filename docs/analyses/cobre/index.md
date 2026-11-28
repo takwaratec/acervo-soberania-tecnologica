@@ -1,7 +1,3 @@
----
-estado_documental: em-revisao-documental
-responsavel_curadoria: Fabio F. Resck
----
 # Gaveta — cobre
 
 Frente `COBRE` (aberta 2026-11-24T13:59:13Z no ledger R4, commit `a37861ff`).

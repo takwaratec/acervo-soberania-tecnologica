@@ -2,7 +2,12 @@
 tipo_documental: instrumento-de-pesquisa
 estado_documental: em-revisao-documental
 responsavel_curadoria: Fabio F. Resck
+frente: BAMBU-SCIENCE
+gaveta: bambu-tratamento
+origem_documental: frente absorvida COBRE (2026-11-28)
+nota_de_metadado: front matter acrescentado na absorcao; o corpo nao foi reescrito
 ---
+
 # Leitura integral — 2025_ufsm_ciencia_florestal_cca_moiroes_solo.md
 
 Custódia: `_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c/`  
