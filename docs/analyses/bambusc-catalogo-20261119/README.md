@@ -1,3 +1,14 @@
+---
+tipo_documental: instrumento-de-pesquisa
+titulo: "Frente BAMBU-BAMBUSC — catálogo documental BambuSC (rodada 1)"
+estado_documental: em-revisao-documental
+data_revisao: 2026-11-19
+responsavel_curadoria: Fabio Takwara
+gaveta: bambusc-catalogo-20261119
+fonte_primaria: "registro diagnosticado da rodada 1 de catalogo documental BambuSC, adotado pela frente BAMBU-SCIENCE; o conteudo medido esta nos arquivos de prova deste diretorio"
+declaracao_ia: "produção assistida por inteligência artificial; conferência na fonte e responsabilidade de homologação são humanas"
+---
+
 # Frente BAMBU-BAMBUSC — catálogo documental BambuSC (rodada 1)
 
 ```

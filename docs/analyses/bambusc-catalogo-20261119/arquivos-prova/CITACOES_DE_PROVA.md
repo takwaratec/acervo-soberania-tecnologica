@@ -1,3 +1,14 @@
+---
+tipo_documental: instrumento-de-pesquisa
+titulo: "Citações de prova — verificação sem confiança (com a exceção declarada)"
+estado_documental: em-revisao-documental
+data_revisao: 2026-11-19
+responsavel_curadoria: Fabio Takwara
+gaveta: bambusc-catalogo-20261119
+fonte_primaria: "citacoes extraidas das obras do catalogo; cada trecho com pagina na fonte"
+declaracao_ia: "produção assistida por inteligência artificial; conferência na fonte e responsabilidade de homologação são humanas"
+---
+
 # Citações de prova — verificação sem confiança (com a exceção declarada)
 
 Cada linha traz o trecho **literal** com página e, ao lado, o **argumento** — o que a

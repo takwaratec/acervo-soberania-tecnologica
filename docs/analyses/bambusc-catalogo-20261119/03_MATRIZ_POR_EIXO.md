@@ -1,3 +1,14 @@
+---
+tipo_documental: instrumento-de-pesquisa
+titulo: "Matriz por eixo — 11 fichas classificadas"
+estado_documental: em-revisao-documental
+data_revisao: 2026-11-19
+responsavel_curadoria: Fabio Takwara
+gaveta: bambusc-catalogo-20261119
+fonte_primaria: "matriz por eixo do catalogo BambuSC; o conteudo medido esta nos arquivos de prova deste diretorio"
+declaracao_ia: "produção assistida por inteligência artificial; conferência na fonte e responsabilidade de homologação são humanas"
+---
+
 # Matriz por eixo — 11 fichas classificadas
 
 ```

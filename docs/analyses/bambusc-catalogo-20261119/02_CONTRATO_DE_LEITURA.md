@@ -1,3 +1,14 @@
+---
+tipo_documental: instrumento-de-pesquisa
+titulo: "Contrato de leitura — o que cada ficha pode e não pode afirmar"
+estado_documental: em-revisao-documental
+data_revisao: 2026-11-19
+responsavel_curadoria: Fabio Takwara
+gaveta: bambusc-catalogo-20261119
+fonte_primaria: "contrato de leitura das fontes do catalogo BambuSC; o conteudo medido esta nos arquivos de prova deste diretorio"
+declaracao_ia: "produção assistida por inteligência artificial; conferência na fonte e responsabilidade de homologação são humanas"
+---
+
 # Contrato de leitura — o que cada ficha pode e não pode afirmar
 
 ## 1. Projeto de Produção e Processo de Pré-fabricação de Componentes de Bambu
