@@ -1,0 +1,45 @@
+{
+ "front": "MTCC-MOBILE",
+ "repo": "takwaratec/acervo-soberania-tecnologica",
+ "write_scope": [
+  "ops/command-center/task-results/R4-MTCC-BIBLIOTECA-MOBILE-20261120-R2/**"
+ ],
+ "nome_humano": "MTCC — biblioteca cientifica mobile",
+ "aberta_por": "FABIO_SOBERANO",
+ "aberta_em": "2026-11-20T16:22:54Z",
+ "topico": null,
+ "nota": null,
+ "estado": "ABERTA",
+ "criterio_terminal": [
+  "cada documento do escopo aparece uma vez no inventario com tipo e estado, e as cinco contagens rotuladas por natureza sem soma entre elas",
+  "com a rede desligada o revisor abre artigo, estado da arte e fichas empacotadas, provado por captura e fetch bloqueado",
+  "fonte inacessivel e NAO_VERIFICAVEL e ausencia declarada e NAO_OBTIDO, e nenhuma das duas e PASS",
+  "nenhum grafico mistura media, valor caracteristico, normas ou estudos distintos, e 6,1x aritmetica e 1,53x controlada aparecem rotuladas",
+  "360 px e 390 px sem overflow global, medido por scrollWidth igual a clientWidth",
+  "sha256 dos originais conferido contra metadados.json e nenhum PDF de _privado copiado"
+ ],
+ "origem": "TOPICO_ABERTO_PELO_SOBERANO",
+ "nao_e_map": true,
+ "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas",
+ "escopo_corrigido_em": "2026-11-20",
+ "escopo_corrigido_porque": "abrir-frente com --scope repetido gravou apenas o ultimo. O escopo de conteudo da frente (docs/analyses/bambu-estrutural/mobile/**) precisa estar declarado: sem ele o submit recusa a ordem legitima e aceitaria so o diretorio de resultado. Corrigido no proprio registro, com o valor anterior preservado neste campo — Art. 7.2.",
+ "escopo_anterior": [
+  "ops/command-center/task-results/R4-MTCC-BIBLIOTECA-MOBILE-20261120-R2/**"
+ ],
+ "promovida_em": "2026-11-20T16:23:48Z",
+ "promovida_por_task": "R4-MTCC-BIBLIOTECA-MOBILE-20261120-R2",
+ "historico_write_scope": [
+  {
+   "em": "2026-11-21T09:43:04Z",
+   "por": "FABIO_SOBERANO",
+   "escopo_anterior": [
+    "docs/analyses/bambu-estrutural/mobile/**",
+    "ops/command-center/task-results/R4-MTCC-BIBLIOTECA-MOBILE-20261120-R2/**"
+   ],
+   "escopo_novo": [
+    "ops/command-center/task-results/R4-MTCC-BIBLIOTECA-MOBILE-20261120-R2/**"
+   ],
+   "motivo": "retira docs/analyses/bambu-estrutural/mobile/**: subpasta que NUNCA existiu dentro da gaveta de outra frente (BAMBU-BAMBUSC). O mobile nao e gaveta de tema; e frente de trabalho e grava em task-results."
+  }
+ ]
+}

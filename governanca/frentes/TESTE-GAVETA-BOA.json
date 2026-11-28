@@ -1,0 +1,21 @@
+{
+ "front": "TESTE-GAVETA-BOA",
+ "repo": "takwaratec/acervo-soberania-tecnologica",
+ "write_scope": [
+  "docs/analyses/bambu-carbono/**"
+ ],
+ "nome_humano": "TESTE-GAVETA-BOA",
+ "aberta_por": "FABIO_SOBERANO",
+ "aberta_em": "2026-11-21T09:42:23Z",
+ "topico": null,
+ "nota": null,
+ "estado": "CANCELADA",
+ "criterio_terminal": null,
+ "origem": "TOPICO_ABERTO_PELO_SOBERANO",
+ "nao_e_map": true,
+ "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas",
+ "cancelada_em": "2026-11-21T09:42:39Z",
+ "cancelada_por": "FABIO_SOBERANO",
+ "motivo_cancelamento": "frente de teste da validacao de gaveta: aberta e cancelada no mesmo ato para provar o caminho positivo. Preservada por Art. 7.2 (nunca apagar).",
+ "nao_e_frente_viva": true
+}

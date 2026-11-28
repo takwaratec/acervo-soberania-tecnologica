@@ -1,0 +1,18 @@
+{
+ "front": "SOBERANIA-SOCIAL",
+ "repo": "/Users/fabiotakwara/Takwara/worktrees/acervo-soberania-tecnologica/cobre-pr-r2",
+ "write_scope": [
+  "docs/analyses",
+  "_privado/governanca-operacional/extracoes/soberania-social"
+ ],
+ "nome_humano": "Soberania Social — desigualdade, território e política pública",
+ "aberta_por": "FABIO_SOBERANO",
+ "aberta_em": "2026-11-26T18:57:55Z",
+ "topico": "Gaveta temática que reúne o eixo social da coleção: Darcy Ribeiro, Milton Santos, Florestan Fernandes, Paulo Freire, Maricato, Rolnik, Bonduki como pilares; Graeber & Wengrow como CONTEUDO absorvido da gaveta-mãe; Brasil-China em fusão para o capítulo de geopolítica; Bauman, Zuboff, Christophers, Dean e Varoufakis como aquisição nova. Objeto: re-curadoria no schema MTCC/FICHA/2 com claims tipados e cobertura_materiais calculada.",
+ "nota": "Admitida por ordem do soberano em 2026-11-26. Emenda R2 insere SOMENTE o prefixo SOBERANIA-SOCIAL num conjunto que segue fechado. Recorte aprovado: as 192 fichas do eixo social, nao as 422 (bambu, cobre, PU vegetal e boro ficam fora). Nao entra nada do boro nem do cobre (toxicologia oposta). Nao se apaga ficha: o que esta homologado volta para em-revisao-documental e reprocessa no motor; o texto antigo permanece byte a byte.",
+ "estado": "EM_SEMENTE",
+ "criterio_terminal": null,
+ "origem": "TOPICO_ABERTO_PELO_SOBERANO",
+ "nao_e_map": true,
+ "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas"
+}

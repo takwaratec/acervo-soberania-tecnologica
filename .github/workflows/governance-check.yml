@@ -36,7 +36,27 @@ jobs:
         run: |
           python3 scripts/check_escopo_do_diff.py --base "origin/${{ github.base_ref }}" \
             --permitir docs/ --permitir scripts/ --permitir tests/ --permitir ops/ \
-            --permitir configs/ --permitir .github/ --permitir AGENTS.md --permitir AGENTS_LOCAL.md
+            --permitir configs/ --permitir .github/ --permitir AGENTS.md --permitir AGENTS_LOCAL.md \
+            --permitir governanca/
+      - name: Escopo da frente, lido do registro vivo (A9)
+        # A7 acima usa a lista digitada no workflow — que e mais larga que a gaveta e deixou uma PR do
+        # bambu levar 25 arquivos do cobre. Este passo nao tem lista: le o write_scope da frente em
+        # governanca/frentes/<FRENTE>.json, copia derivada de r4-claims@<sha> com hash por arquivo no
+        # MANIFESTO.json. O repositorio de governanca e privado e este e publico, entao o CI nao alcanca
+        # o ref: a copia e conferida pelo manifesto antes de medir, e divergencia e NAO_MEDIDO.
+        # PR que nao declara FRENTE=<nome> no corpo nao e medida: sai NAO_MEDIDO, nunca PASS.
+        if: github.event_name == 'pull_request'
+        env:
+          CORPO: ${{ github.event.pull_request.body }}
+        run: |
+          FRENTE=$(printf '%s' "$CORPO" | grep -oiE 'FRENTE=[A-Z0-9_-]+' | head -1 | cut -d= -f2)
+          if [ -z "$FRENTE" ]; then
+            echo "::error::A PR nao declara FRENTE=<nome> no corpo. Sem frente declarada o escopo nao e medido (A9). A lista do A7 acima e do repositorio, nao da gaveta."
+            exit 2
+          fi
+          echo "FRENTE=$FRENTE"
+          python3 scripts/check_escopo_do_diff.py --base "origin/${{ github.base_ref }}" \
+            --frente "$FRENTE" --registro governanca/frentes
       - name: Gerador do pacote de auditoria (testes)
         # Instrumento testado so na funcao nao conta. Este passo roda os testes do gerador, inclusive
         # o que o executa contra as frentes reais quando o repo do acervo esta presente.

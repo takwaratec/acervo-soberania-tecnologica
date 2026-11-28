@@ -1,0 +1,14 @@
+{
+ "front": "BAMBU-MOLDE-CURADORIA",
+ "repo": "takwaratec/TakwaraTec-Laboratorio-Editorial",
+ "write_scope": [
+  "ops/command-center/task-results/BAMBU-MOLDE-CURADORIA-20261120-R1/**"
+ ],
+ "nome_humano": "Bambu — modelo de curadoria",
+ "aberta_por": "FABIO_SOBERANO",
+ "aberta_em": "2026-11-21T11:43:02Z",
+ "topico": "Bambu",
+ "nota": "frente declarada pelo soberano em 2026-11-20: o molde de curadoria e apresentacao do acervo usa a gaveta bambu como regua",
+ "origem": "ORDEM_DIRETA_DO_SOBERANO",
+ "nao_e_map": true
+}

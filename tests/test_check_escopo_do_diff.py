@@ -1,4 +1,4 @@
-import os, subprocess, sys, tempfile, unittest
+import hashlib, json, os, subprocess, sys, tempfile, unittest
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
 import check_escopo_do_diff as g
 
@@ -81,6 +81,88 @@ class TestEscopo(unittest.TestCase):
         r = self.roda("--permitir", "docs/analyses/x")
         self.assertEqual(r.returncode, 0, r.stdout)
         self.assertIn("BASE_SHA=", r.stdout)
+
+    # ---- A9: a gaveta vem do registro vivo, e sobreposição entre frentes é recusa ----
+
+    def registro(self, frentes):
+        d = tempfile.mkdtemp()
+        for nome, escopos in frentes.items():
+            with open(os.path.join(d, f"{nome}.json"), "w") as fh:
+                json.dump({"front": nome, "write_scope": escopos}, fh)
+        return d
+
+    def test_a9_gaveta_vem_do_registro(self):
+        reg = self.registro({"X": ["docs/analyses/x/**"]})
+        open(os.path.join(self.d, "docs/analyses/x/a.md"), "w").write("novo\n")
+        git(self.d, "commit", "-aqm", "x")
+        r = self.roda("--frente", "X", "--registro", reg)
+        self.assertEqual(r.returncode, 0, r.stdout)
+        self.assertIn("DENTRO=1", r.stdout)
+
+    def test_a9_registro_ausente_e_nao_medido(self):
+        """Frente declarada sem registro não é PASS: é NÃO MEDIDO."""
+        r = self.roda("--frente", "X", "--registro", tempfile.mkdtemp())
+        self.assertEqual(r.returncode, 2, r.stdout)
+        self.assertIn("NAO_MEDIDO", r.stdout)
+        self.assertNotIn("PASS", r.stdout)
+
+    def test_a9_frente_sem_registro_dir_recusa(self):
+        r = self.roda("--frente", "X")
+        self.assertEqual(r.returncode, 2, r.stdout)
+        self.assertIn("não de lista digitada", r.stdout)
+
+    def test_a9_2_escopo_identico_ao_de_outra_frente_recusa(self):
+        """Dois donos para a mesma gaveta: quem chega depois pede emenda, não herda."""
+        reg = self.registro({"X": ["docs/analyses/x/**"], "Y": ["docs/analyses/x/**"]})
+        open(os.path.join(self.d, "docs/analyses/x/a.md"), "w").write("novo\n")
+        git(self.d, "commit", "-aqm", "x")
+        r = self.roda("--frente", "X", "--registro", reg)
+        self.assertEqual(r.returncode, 1, r.stdout)
+        self.assertIn("A9.2", r.stdout)
+        self.assertIn("idêntico ao", r.stdout)
+        self.assertIn("DENTRO=1", r.stdout)   # o número existe junto do motivo
+
+    def test_a9_2_escopo_que_contem_outra_frente_recusa(self):
+        """`docs/analyses` sem subpasta é a coleção: engloba a gaveta de Y."""
+        reg = self.registro({"X": ["docs/analyses"], "Y": ["docs/analyses/x/**"]})
+        open(os.path.join(self.d, "docs/analyses/x/a.md"), "w").write("novo\n")
+        git(self.d, "commit", "-aqm", "x")
+        r = self.roda("--frente", "X", "--registro", reg)
+        self.assertEqual(r.returncode, 1, r.stdout)
+        self.assertIn("contém o", r.stdout)
+
+    def test_a9_2_frente_cancelada_nao_colide(self):
+        reg = tempfile.mkdtemp()
+        with open(os.path.join(reg, "X.json"), "w") as fh:
+            json.dump({"front": "X", "write_scope": ["docs/analyses/x/**"]}, fh)
+        with open(os.path.join(reg, "Y.json"), "w") as fh:
+            json.dump({"front": "Y", "write_scope": ["docs/analyses/x/**"], "estado": "CANCELADA"}, fh)
+        open(os.path.join(self.d, "docs/analyses/x/a.md"), "w").write("novo\n")
+        git(self.d, "commit", "-aqm", "x")
+        r = self.roda("--frente", "X", "--registro", reg)
+        self.assertEqual(r.returncode, 0, r.stdout)
+
+    def test_a9_copia_derivada_conferida_pelo_manifesto(self):
+        """Cópia derivada de r4-claims só vale se bater com o manifesto. Divergência é NAO_MEDIDO."""
+        reg = self.registro({"X": ["docs/analyses/x/**"]})
+        arqs = {}
+        for nome in os.listdir(reg):
+            b = open(os.path.join(reg, nome), "rb").read()
+            arqs[nome] = {"sha256": hashlib.sha256(b).hexdigest()}
+        with open(os.path.join(reg, "MANIFESTO.json"), "w") as fh:
+            json.dump({"origem_commit": "0" * 40, "arquivos": arqs}, fh)
+        open(os.path.join(self.d, "docs/analyses/x/a.md"), "w").write("novo\n")
+        git(self.d, "commit", "-aqm", "x")
+        r = self.roda("--frente", "X", "--registro", reg)
+        self.assertEqual(r.returncode, 0, r.stdout)
+
+        # agora suja a cópia: o manifesto não bate mais
+        with open(os.path.join(reg, "X.json"), "a") as fh:
+            fh.write(" ")
+        r = self.roda("--frente", "X", "--registro", reg)
+        self.assertEqual(r.returncode, 2, r.stdout)
+        self.assertIn("NAO_MEDIDO", r.stdout)
+        self.assertIn("divergiu do manifesto", r.stdout)
 
 
 if __name__ == "__main__":

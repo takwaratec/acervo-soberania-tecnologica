@@ -1,0 +1,30 @@
+{
+ "front": "BAMBU-SCIENCE",
+ "repo": "takwaratec/TakwaraTec-Laboratorio-Editorial",
+ "write_scope": [
+  "ops/command-center/task-results/BAMBU-SCIENCE/**",
+  "docs/analyses/bambu-estrutural/**"
+ ],
+ "nome_humano": "Bambu Science",
+ "aberta_por": "FABIO_SOBERANO",
+ "aberta_em": "2026-11-17T03:40:07Z",
+ "topico": "Bambu",
+ "nota": null,
+ "origem": "TOPICO_ABERTO_PELO_SOBERANO",
+ "nao_e_map": true,
+ "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas",
+ "historico_write_scope": [
+  {
+   "em": "2026-11-21T09:43:04Z",
+   "por": "FABIO_SOBERANO",
+   "escopo_anterior": [
+    "ops/command-center/task-results/BAMBU-SCIENCE/**"
+   ],
+   "escopo_novo": [
+    "ops/command-center/task-results/BAMBU-SCIENCE/**",
+    "docs/analyses/bambu-estrutural/**"
+   ],
+   "motivo": "passa a gravar as fichas cientificas na gaveta do acervo. Antes gravava apenas em task-results do repo Editorial, que e area de trabalho, nao de custodia: o cientifico homologavel tem de viver no acervo-soberania-tecnologica, na gaveta do tema."
+  }
+ ]
+}
