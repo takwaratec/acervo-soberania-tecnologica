@@ -1,8 +1,44 @@
 [
  {
+  "nome_antigo": "sem-autor-2022-assessoria-tecnica.md",
+  "nome_novo": "cardoso-2022-assessoria-tecnica.md",
+  "motivo": "nome derivado de autores[0] do front matter; 'sem-autor' era defeito de leitura",
+  "sha256_binario": "8191426de7ce506a61c7fb890c3bbb5e087b9ddbd42c3cf916f7c3ad6b44eb74"
+ },
+ {
+  "nome_antigo": "sem-autor-2014-habitacao-interesse-social.md",
+  "nome_novo": "schafer-2014-habitacao-interesse-social.md",
+  "motivo": "nome derivado de autores[0] do front matter; 'sem-autor' era defeito de leitura",
+  "sha256_binario": "0426a9e340e1824d4e1544007bbb9339f6ae962a5119a8fa4e34720393ee5f93"
+ },
+ {
+  "nome_antigo": "sem-autor-2022-habitacao-interesse-social.md",
+  "nome_novo": "monteiro-2022-habitacao-interesse-social.md",
+  "motivo": "nome derivado de autores[0] do front matter; 'sem-autor' era defeito de leitura",
+  "sha256_binario": "43189ded511861299cbc6a6129ed49088fccec6888d47c035182a076b6d002a4"
+ },
+ {
+  "nome_antigo": "sem-autor-2021-habitacao-interesse-social.md",
+  "nome_novo": "garrefa-2021-habitacao-interesse-social.md",
+  "motivo": "nome derivado de autores[0] do front matter; 'sem-autor' era defeito de leitura",
+  "sha256_binario": "9f50c60d46e6c0c7758a3f5d91d9e5af21d667eb7c888b989d04371bfa7c2bab"
+ },
+ {
   "nome_antigo": "sem-autor-2025-sol-nascente.md",
   "nome_novo": "pazos-2025-sol-nascente.md",
   "motivo": "nome derivado de autores[0] do front matter; 'sem-autor' era defeito de leitura",
   "sha256_binario": "e14880dd395cd510728bbd4b4ade74d9fb1618c985b667e0fc98f4039d83a7ec"
+ },
+ {
+  "nome_antigo": "sem-autor-2025-habitacao-interesse-social.md",
+  "nome_novo": "abreu-2025-habitacao-interesse-social.md",
+  "motivo": "nome derivado de autores[0] do front matter; 'sem-autor' era defeito de leitura",
+  "sha256_binario": "50e2cc58f96bd0f29857f78037c9a04dc8aee810d3de074458226c1963ccde6b"
+ },
+ {
+  "nome_antigo": "sem-autor-2020-habitacao-interesse-social.md",
+  "nome_novo": "rangel-2020-habitacao-interesse-social.md",
+  "motivo": "nome derivado de autores[0] do front matter; 'sem-autor' era defeito de leitura",
+  "sha256_binario": "e0cba9fe8497e849fd0072998affde8793773047aaca2f226734d298292c2fe0"
  }
 ]

@@ -13,9 +13,11 @@ Baixou o **binário de cada obra alcançável** e conferiu que é PDF de verdade
 
 | Estado | Obras | Páginas |
 |---|---|---|
-| **Custodiado** | **53** | **7.448** |
+| **Custodiado** | **53** | **7.762** |
 | Sem PDF custodiado | 44 | — |
 | Total no inventário | 97 | — |
+
+**Correções da auditoria:** quatro arquivos nasceram como `a-<ano>-…` porque o front matter do acervo trazia `autores: a`; o sobrenome passou a sair do slug catalográfico da pasta de origem (`joyce-santos-2009` → `santos`). O `RENOMEACAO.json` casava por prefixo de título e produziu transições falsas (`scotton-2020 → tavares-2023`); agora casa por chave do inventário, com 7 transições conferidas. Divergência de ano no nome: 0 (as duas que pareciam divergir têm sobrenome composto — `magalhaes-neto-2025`, `suassuna-fernandes-2010`).
 
 **Nomes:** 97 arquivos derivados do front matter (`<sobrenome>-<ano>-<tema>`), **zero** com prefixo de
 lote ou `sem-autor`. As trocas de nome estão em `RENOMEACAO.json`.

@@ -81,7 +81,7 @@
  {
   "chave": "assistencia tecnica para habitacao de interesse social athis o planejado e o possivel",
   "arquivo_alvo": "tavares-2023-assistencia-tecnica.md",
-  "nome_antigo": "scotton-2020-assistencia-tecnica.md",
+  "nome_antigo": "tavares-2023-assistencia-tecnica.md",
   "titulo": "Assistência técnica para habitação de interesse social (ATHIS) - o planejado e o possível",
   "autores": "Tavares, Talires Quesada",
   "ano": "2023",
@@ -91,11 +91,11 @@
   "url_bdtd": "https://bdtd.ibict.br/vufind/Record/UFSM_3866fe734c5648b3ac224fcd547c199f",
   "custodia": {
    "estado": "CUSTODIADO",
-   "rota": "rodada2_pagina",
-   "origem": "https://repositorio.ufpa.br/bitstreams/8351f375-57f4-4229-adf6-cc3ab1be3bd8/download",
-   "sha256": "cb33e0a96404d1d418387d4cd7e1b99882ac0c57a4d3744df551f57235ef74cd",
-   "bytes": 4343970,
-   "paginas": 120
+   "rota": "pdf_na_pagina",
+   "origem": "http://repositorio.ufsm.br/bitstream/handle/1/29285/DIS_PPGAUP_2023_TAVARES_TALIRES.pdf?sequence=1&isAllowed=y",
+   "sha256": "121d6cf4d6f7263b89dd74528401f39409a17d7483371fe5ed929e133cf9a0cb",
+   "bytes": 3085689,
+   "paginas": 215
   }
  },
  {
@@ -704,7 +704,7 @@
  {
   "chave": "assessoria tecnica em arquitetura e urbanismo no programa minha casa minha vida entidades ",
   "arquivo_alvo": "nunes-2017-assessoria-tecnica.md",
-  "nome_antigo": "araujo-2019-assessoria-tecnica.md",
+  "nome_antigo": "nunes-2017-assessoria-tecnica.md",
   "titulo": "Assessoria técnica em arquitetura e urbanismo no Programa Minha Casa Minha Vida - Entidades: o caso da Fábrica Urbana (São Paulo)",
   "autores": "Nunes, Antonio Couto",
   "ano": "2017",
@@ -714,11 +714,11 @@
   "url_bdtd": "https://bdtd.ibict.br/vufind/Record/UFSC_ff67332cb1c555d444ad26bb1c7db7de",
   "custodia": {
    "estado": "CUSTODIADO",
-   "rota": "pdf_na_pagina",
-   "origem": "https://repositorio.uema.br/jspui/bitstream/123456789/1655/3/DISSERTACAO%20-%20LU%c3%8dS%20FERNANDO%20DE%20SOUSA%20ARAUJO%20-%20PPDRS%20CCSA%20UEMA%202019.pdf",
-   "sha256": "151ee13dc3b0002b13028148d331cd6fcf20d9648e91bcf7b54ce4711937834e",
-   "bytes": 2653274,
-   "paginas": 89
+   "rota": "oai_ore_ufsc",
+   "origem": "https://repositorio.ufsc.br/bitstream/123456789/188698/1/PARQ0285-D.pdf",
+   "sha256": "f2393483c660c55471e67e1dc5767ba9711d50f11f9eb90d8ff9a3e37664239b",
+   "bytes": 7768209,
+   "paginas": 308
   }
  },
  {
@@ -1236,7 +1236,7 @@
  {
   "chave": "acervo::politica-habitacional/cardoso-2022-athis-assessoria-assistencia",
   "arquivo_alvo": "cardoso-2022-assessoria-tecnica.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-2022-assessoria-tecnica.md",
   "titulo": "Assessoria e Assistência Técnica para Habitação de Interesse Social: do discurso à construção da prática profissional",
   "autores": "Cardoso, Fernanda Simon; Lopes, João Marcos de Almeida",
   "ano": "2022",
@@ -1255,7 +1255,7 @@
  {
   "chave": "acervo::politica-habitacional/porangaba-2020-habitacao-baixa-renda",
   "arquivo_alvo": "porangaba-2020-habitacao-interesse-social.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-s-d-habitacao-interesse-social.md",
   "titulo": "A habitação para a população de baixa renda no Brasil: termos e conceitos difundidos pela Política Nacional de Habitação",
   "autores": "Alexsandro Tenório Porangaba",
   "ano": "2020",
@@ -1264,13 +1264,15 @@
   "url": "",
   "url_bdtd": "",
   "custodia": {
-   "estado": "SEM_TENTATIVA"
+   "estado": "NAO_ALCANCADO",
+   "motivo": "sem URL de fonte",
+   "tentativas": []
   }
  },
  {
   "chave": "acervo::politica-habitacional/rolnik-1999-exclusao-territorial-violencia",
   "arquivo_alvo": "rolnik-1999-habitacao-interesse-social.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-s-d-habitacao-interesse-social-2.md",
   "titulo": "Exclusão territorial e violência",
   "autores": "Raquel Rolnik",
   "ano": "1999",
@@ -1279,13 +1281,15 @@
   "url": "",
   "url_bdtd": "",
   "custodia": {
-   "estado": "SEM_TENTATIVA"
+   "estado": "NAO_ALCANCADO",
+   "motivo": "sem URL de fonte",
+   "tentativas": []
   }
  },
  {
   "chave": "acervo::politica-habitacional/rolnik-costa-2007-pensar-cidade-todos",
   "arquivo_alvo": "rolnik-2007-habitacao-interesse-social.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-s-d-habitacao-interesse-social-3.md",
   "titulo": "Pensar a cidade como lugar para todos",
   "autores": "Raquel Rolnik",
   "ano": "2007",
@@ -1294,13 +1298,15 @@
   "url": "",
   "url_bdtd": "",
   "custodia": {
-   "estado": "SEM_TENTATIVA"
+   "estado": "NAO_ALCANCADO",
+   "motivo": "sem URL de fonte",
+   "tentativas": []
   }
  },
  {
   "chave": "acervo::politica-habitacional/maricato-2000-urbanismo-periferia-globalizada",
   "arquivo_alvo": "maricato-2000-habitacao-interesse-social.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-s-d-habitacao-interesse-social-4.md",
   "titulo": "Urbanismo na periferia do mundo globalizado: metrópoles brasileiras",
   "autores": "Ermínia Maricato",
   "ano": "2000",
@@ -1309,13 +1315,15 @@
   "url": "",
   "url_bdtd": "",
   "custodia": {
-   "estado": "SEM_TENTATIVA"
+   "estado": "NAO_ALCANCADO",
+   "motivo": "sem URL de fonte",
+   "tentativas": []
   }
  },
  {
   "chave": "acervo::politica-habitacional/maricato-2003-metropole-legislacao-desigualdade",
   "arquivo_alvo": "maricato-2003-habitacao-interesse-social.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-s-d-habitacao-interesse-social-5.md",
   "titulo": "Metrópole, legislação e desigualdade",
   "autores": "Ermínia Maricato",
   "ano": "2003",
@@ -1324,13 +1332,15 @@
   "url": "",
   "url_bdtd": "",
   "custodia": {
-   "estado": "SEM_TENTATIVA"
+   "estado": "NAO_ALCANCADO",
+   "motivo": "sem URL de fonte",
+   "tentativas": []
   }
  },
  {
   "chave": "acervo::politica-habitacional/maricato-2011-metropoles-desgovernadas",
   "arquivo_alvo": "maricato-2011-habitacao-interesse-social.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-2011-habitacao-interesse-social.md",
   "titulo": "Metrópoles desgovernadas",
   "autores": "Ermínia Maricato",
   "ano": "2011",
@@ -1339,7 +1349,9 @@
   "url": "",
   "url_bdtd": "",
   "custodia": {
-   "estado": "SEM_TENTATIVA"
+   "estado": "NAO_ALCANCADO",
+   "motivo": "sem URL de fonte",
+   "tentativas": []
   }
  },
  {
@@ -1396,7 +1408,7 @@
  {
   "chave": "acervo::politica-habitacional/chaves-2019-belo-monte-reassentamentos-rurais",
   "arquivo_alvo": "chaves-2019-reassentamento-belo-monte.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-2019-reassentamento-belo-monte.md",
   "titulo": "UHE Belo Monte: reassentamentos rurais, participação social e direito à moradia adequada",
   "autores": "Chaves, Kena Azevedo; Monzoni, Mario; Artuso, Letícia Ferraro",
   "ano": "2019",
@@ -1416,7 +1428,7 @@
  {
   "chave": "acervo::politica-habitacional/barros-2012-formacao-profissional-construcao",
   "arquivo_alvo": "barros-2012-formacao-profissional.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-2012-formacao-profissional.md",
   "titulo": "Formação Profissional na Construção Civil: experiências em busca da ‘desalienação’ do trabalho",
   "autores": "Francisco Toledo Barros",
   "ano": "2012",
@@ -1425,13 +1437,15 @@
   "url": "",
   "url_bdtd": "",
   "custodia": {
-   "estado": "SEM_TENTATIVA"
+   "estado": "NAO_ALCANCADO",
+   "motivo": "sem URL de fonte",
+   "tentativas": []
   }
  },
  {
   "chave": "acervo::politica-habitacional/oliveira-2020-meio-construido-jane-jacobs",
   "arquivo_alvo": "oliveira-2020-habitacao-interesse-social.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-s-d-habitacao-interesse-social-9.md",
   "titulo": "O meio construído e as cidades na obra de Jane Jacobs",
   "autores": "Edilson Luis de Oliveira",
   "ano": "2020",
@@ -1440,13 +1454,15 @@
   "url": "",
   "url_bdtd": "",
   "custodia": {
-   "estado": "SEM_TENTATIVA"
+   "estado": "NAO_ALCANCADO",
+   "motivo": "sem URL de fonte",
+   "tentativas": []
   }
  },
  {
   "chave": "acervo::politica-habitacional/barros-monteiro-2022-jane-jacobs",
   "arquivo_alvo": "barros-2022-habitacao-interesse-social.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-s-d-habitacao-interesse-social-10.md",
   "titulo": "Jane Jacobs: Morte e vida de grandes cidades",
   "autores": "Thayanna Paula Neves Barros; Érica Corrêa Monteiro",
   "ano": "2022",
@@ -1455,12 +1471,14 @@
   "url": "",
   "url_bdtd": "",
   "custodia": {
-   "estado": "SEM_TENTATIVA"
+   "estado": "NAO_ALCANCADO",
+   "motivo": "sem URL de fonte",
+   "tentativas": []
   }
  },
  {
   "chave": "acervo::percecao-social/joyce-santos-2009",
-  "arquivo_alvo": "a-2009-reassentamento.md",
+  "arquivo_alvo": "santos-2009-reassentamento.md",
   "nome_antigo": "sem-autor-2009-habitacao-interesse-social.md",
   "titulo": "Joyce Costa Santos (2009) — percepção social em reassentamento habitacional",
   "autores": "a",
@@ -1478,7 +1496,7 @@
  {
   "chave": "acervo::percecao-social/souza-2014-apo-moradias-uniao-ferroviaria",
   "arquivo_alvo": "schafer-2014-habitacao-interesse-social.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-2014-habitacao-interesse-social.md",
   "titulo": "Avaliação Pós-Ocupação do conjunto habitacional Moradias União Ferroviária Bolsão Audi/União, Curitiba (PR)",
   "autores": "Schäfer, Eduardo Francisco; Gomide, Fernanda Paes de Barros",
   "ano": "2014",
@@ -1497,7 +1515,7 @@
  {
   "chave": "acervo::percecao-social/monteiro-2022-metodo-percepcao-valor-his",
   "arquivo_alvo": "monteiro-2022-habitacao-interesse-social.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-2022-habitacao-interesse-social.md",
   "titulo": "Proposta de um método para avaliação da percepção de valor de técnicos e de usuários em Habitação de Interesse Social",
   "autores": "Monteiro, Deyvid Aléx de Bitencourt; Miron, Luciana Inês Gomes",
   "ano": "2022",
@@ -1516,7 +1534,7 @@
  {
   "chave": "acervo::percecao-social/garrefa-2021-resiliencia-his-apo-coproducao",
   "arquivo_alvo": "garrefa-2021-habitacao-interesse-social.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-2021-habitacao-interesse-social.md",
   "titulo": "Resilience in social housing developments through post-occupancy evaluation and co-production (Resiliência em conjuntos de habitação social: avaliação pós-ocupação e co-produção)",
   "autores": "Garrefa, Fernando; Villa, Simone Barbosa; Bortoli, Karen Carrer Ruman de; Stevenson, Fionn; Vasconcellos, Paula Barcelos",
   "ano": "2021",
@@ -1551,7 +1569,7 @@
  },
  {
   "chave": "acervo::percecao-social/ludmila-correia-2010-conforto-ambiental-his",
-  "arquivo_alvo": "a-2010-habitacao-interesse-social.md",
+  "arquivo_alvo": "his-2010-habitacao-interesse-social.md",
   "nome_antigo": "sem-autor-2010-habitacao-interesse-social.md",
   "titulo": "Ludmila de Araújo Correia (2010) — conforto ambiental e relações subjetivas em HIS",
   "autores": "a",
@@ -1568,7 +1586,7 @@
  },
  {
   "chave": "acervo::percecao-social/ludmila-correia-2023-brasilia-sensivel-sons",
-  "arquivo_alvo": "a-2023-habitacao-interesse-social.md",
+  "arquivo_alvo": "sons-2023-habitacao-interesse-social.md",
   "nome_antigo": "sem-autor-2023-habitacao-interesse-social.md",
   "titulo": "Ludmila de Araujo Correia (2023) — Brasília sensível aos sons",
   "autores": "a",
@@ -1605,7 +1623,7 @@
  {
   "chave": "acervo::avaliacao-pos-ocupacao/abreu-2025-benchmarking-construtibilidade-his",
   "arquivo_alvo": "abreu-2025-habitacao-interesse-social.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-2025-habitacao-interesse-social.md",
   "titulo": "Constructability assessment of social housing projects in Brazil: a quantitative benchmarking system (Avaliando a construtibilidade de projetos de habitação de interesse social no Brasil: um sistema de benchmarking quantitativo)",
   "autores": "Abreu, João Paulo Maciel de; Marchiori, Fernanda Fernandes; Signor, Regis",
   "ano": "2025",
@@ -1641,7 +1659,7 @@
  {
   "chave": "acervo::avaliacao-pos-ocupacao/rangel-2020-metodo-avaliacao-areas-comuns-his",
   "arquivo_alvo": "rangel-2020-habitacao-interesse-social.md",
-  "nome_antigo": "",
+  "nome_antigo": "sem-autor-2020-habitacao-interesse-social.md",
   "titulo": "Método para a avaliação técnica da qualidade pós-ocupação de áreas de uso comum de Habitações de Interesse Social",
   "autores": "Rangel, Pablo Andrés; Formoso, Carlos Torres; Miron, Luciana Inês Gomes; Echeveste, Márcia Elisa Soares",
   "ano": "2020",
@@ -1676,7 +1694,7 @@
  },
  {
   "chave": "acervo::reforma-agraria-agrofloresta/pontes-pereira-2019-mutirao-agroecologia-vale-ribeira",
-  "arquivo_alvo": "a-2019-habitacao-interesse-social.md",
+  "arquivo_alvo": "ribeira-2019-habitacao-interesse-social.md",
   "nome_antigo": "sem-autor-2019-habitacao-interesse-social.md",
   "titulo": "Pontes Pereira (2019) — Mutirão de práticas agroecológicas, economia feminista e solidária no Vale do Ribeira",
   "autores": "a",
