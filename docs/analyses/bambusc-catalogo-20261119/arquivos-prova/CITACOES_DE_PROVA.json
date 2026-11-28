@@ -1,0 +1,310 @@
+{
+ "schema": "TAKWARATEC/PROVA_DE_LEITURA/1",
+ "aviso": "Trecho literal curto para verificacao de auditoria. A obra integral esta em custodia privada e NAO e redistribuida: 10 das 11 fontes nao declaram licenca. Cada citacao confere contra a DOI/ISBN declarada.",
+ "citacoes": [
+  {
+   "obra": "2018-ostapiv-salamon-stahlschmidt-ferraz-cupulas-geodesicas",
+   "pagina_declarada": "1",
+   "pagina_encontrada": 1,
+   "assunto": "resumo — o ensaio foi em maquetes, nao no domo",
+   "citacao": "trução e ensaio de carregamento de duas maquetes",
+   "trecho_encontrado": "[p1] 108 usando segmentos de 1,2m de colmos de bambu trução e ensaio de carregamento de duas maquetes de porém de materiais diferentes. Uma maquete foi feita",
+   "confere": true,
+   "argumento": "Sustenta que o ensaio de carga ocorreu em DUAS MAQUETES, não no domo construído. Sem esta citação, os números seguintes seriam lidos como desempenho do domo de 4 m.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2018-ostapiv-salamon-stahlschmidt-ferraz-cupulas-geodesicas",
+   "pagina_declarada": "1",
+   "pagina_encontrada": 1,
+   "assunto": "38 vezes o peso proprio",
+   "citacao": "38 vezes o seu peso próprio",
+   "trecho_encontrado": "[p1] 38 vezes o seu peso próprio, apresentando um deslocamento do seu peso próprio apresentando a mesma deformação.",
+   "confere": true,
+   "argumento": "É a origem do '38×'. Note que o sujeito é o domo de bambu em escala reduzida e a carga é o peso próprio do modelo — não uma comparação com resistência de material.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2018-ostapiv-salamon-stahlschmidt-ferraz-cupulas-geodesicas",
+   "pagina_declarada": "1",
+   "pagina_encontrada": 1,
+   "assunto": "0,86 do aco (redigido 86%)",
+   "citacao": "o domo de aço resistiu apenas 0,86",
+   "trecho_encontrado": "[p1] 3mm de diâmetro e a outra com barras de aço baixo ram mostrados aspectos de otimização da construção elementos de duas barras. No ensaio de carregamento e medições de deslocamento da estrutura, o comportamento estrutura de aço. Enquanto o domo de bambu resistiu a pontual de 3,2cm, o domo de aço resistiu apenas 0,86",
+   "confere": true,
+   "argumento": "É a origem do '0,86 do aço'. O valor foi redigido como 86% do peso próprio; fica claro que o denominador é peso próprio do modelo de aço, não tensão admissível.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2018-ostapiv-salamon-stahlschmidt-ferraz-cupulas-geodesicas",
+   "pagina_declarada": "7",
+   "pagina_encontrada": 7,
+   "assunto": "carregamento hidraulico com agua",
+   "citacao": "carregamento hidráulico na estrutura",
+   "trecho_encontrado": "[p7] Mix Sustentável | Florianópolis de cúpulas geodésicas usando colmos de bambu carregamento hidráulico na estrutura para responder. As estruturas construídas são resistentes?",
+   "confere": true,
+   "argumento": "Sustenta o método: carregamento hidráulico (água), não prensa instrumentada. Um ensaio desses mede deslocamento global, não tensão local.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2018-ostapiv-salamon-stahlschmidt-ferraz-cupulas-geodesicas",
+   "pagina_declarada": "7",
+   "pagina_encontrada": 7,
+   "assunto": "1,6 litros no carregamento final",
+   "citacao": "no carregamento final o recipiente continha 1,6 litros de água",
+   "trecho_encontrado": "[p7] O resultado sugere que, se bem projetado e construído, um domo de bambu poderá resistir o peso de uma caixa d’água. No carregamento final o recipiente continha 1,6 litros de água, como mostrado na Figura 13.",
+   "confere": true,
+   "argumento": "Fecha o método: o carregamento final foi de 1,6 litros de água. Confirma que houve UM carregamento por maquete, sem série nem repetição.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2018-ostapiv-salamon-stahlschmidt-ferraz-cupulas-geodesicas",
+   "pagina_declarada": "5",
+   "pagina_encontrada": 5,
+   "assunto": "material da maquete de bambu (espetinhos de comercio)",
+   "citacao": "Barras de bambu mossô feitas a partir de espetinhos de bambu obtidas do comércio",
+   "trecho_encontrado": "[p5] • Barras de bambu mossô feitas a partir de espetinhos de bambu obtidas do comércio.",
+   "confere": true,
+   "argumento": "Sustenta que as barras do modelo são espetinhos comerciais de bambu mossô, de 3 mm — material de mercado, não colmo estrutural selecionado.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2018-ostapiv-salamon-stahlschmidt-ferraz-cupulas-geodesicas",
+   "pagina_declarada": "5",
+   "pagina_encontrada": 5,
+   "assunto": "material da maquete de aco (1mm)",
+   "citacao": "Barras de aço baixo carbono, cobreado de 1mm de diâmetro",
+   "trecho_encontrado": "[p5] • Barras de aço baixo carbono, cobreado de 1mm de diâmetro.",
+   "confere": true,
+   "argumento": "Sustenta a assimetria do comparativo: o modelo de aço usa barra de 1 mm contra 3 mm do bambu. É o que impede tratar a razão entre cargas como propriedade de material.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2017-carbonari-et-al-bambu-aco-vegetal",
+   "pagina_declarada": "3",
+   "pagina_encontrada": 3,
+   "assunto": "unidade da Tabela 01 (MPa)",
+   "citacao": "Resistência a compressão (MPa)",
+   "trecho_encontrado": "[p3] Resistência a compressão (MPa)",
+   "confere": true,
+   "argumento": "É o cabeçalho da Tabela 01: fixa a UNIDADE. Extração sem cabeçalho já fez número de tabela ser lido em outra unidade — por isso esta citação vem antes dos valores.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2017-carbonari-et-al-bambu-aco-vegetal",
+   "pagina_declarada": "3",
+   "pagina_encontrada": 3,
+   "assunto": "Tabela 01 — Dendrocalamus Asper",
+   "citacao": "Dendrocalamus Asper 51,15±5,2% 49,84±4,5%",
+   "trecho_encontrado": "[p3] Dendrocalamus Asper 51,15±5,2% 49,84±4,5%",
+   "confere": true,
+   "argumento": "Primeira linha da tabela, com as duas colunas (com nó / sem nó). Sustenta a leitura de que o desvio entre as colunas é pequeno — a diferença percentual é menor que o próprio erro.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2017-carbonari-et-al-bambu-aco-vegetal",
+   "pagina_declarada": "3",
+   "pagina_encontrada": 3,
+   "assunto": "Tabela 01 — Bambusa Tulda (maior valor)",
+   "citacao": "Bambusa Tulda 75,18±7,0% 72,75±4,8%",
+   "trecho_encontrado": "[p3] Bambusa Tulda 75,18±7,0% 72,75±4,8%",
+   "confere": true,
+   "argumento": "Maior valor da tabela (B. Tulda). Confirma o topo da faixa declarada no texto e desmonta a ideia de que haveria um único valor de resistência para bambu.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2017-carbonari-et-al-bambu-aco-vegetal",
+   "pagina_declarada": "3",
+   "pagina_encontrada": 3,
+   "assunto": "Tabela 01 — Arundinaria Amabilis (menor valor)",
+   "citacao": "Arundinaria Amabilis 38,35±5,4% 38,20±6,7%",
+   "trecho_encontrado": "[p3] Arundinaria Amabilis 38,35±5,4% 38,20±6,7%",
+   "confere": true,
+   "argumento": "Menor valor da tabela (A. Amabilis). Com a linha anterior, fecha a faixa 38–75 MPa — é variação de ESPÉCIE, não de método.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2017-carbonari-et-al-bambu-aco-vegetal",
+   "pagina_declarada": "4",
+   "pagina_encontrada": 4,
+   "assunto": "faixa 38 a 75 MPa",
+   "citacao": "de 38 MPa até 75 MPa",
+   "trecho_encontrado": "[p4] A resistência à compressão variou significativamen­ te entre as espécies ensaiadas, de 38 MPa até 75 MPa.",
+   "confere": true,
+   "argumento": "É a frase do artigo que resume a faixa. Serve para conferir que o texto e a tabela dizem a mesma coisa: síntese coerente com os dados, não arredondamento de conveniência.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2017-carbonari-et-al-bambu-aco-vegetal",
+   "pagina_declarada": "4",
+   "pagina_encontrada": 4,
+   "assunto": "o no nao altera a compressao",
+   "citacao": "a presença ou não do nó não afeta significati",
+   "trecho_encontrado": "[p4] Com base nos valores indicados na referida tabela, con­ clui-se que a presença ou não do nó não afeta significati­ vamente os valores da resistência à compressão dos CPs.",
+   "confere": true,
+   "argumento": "É a conclusão dos autores sobre o nó na COMPRESSÃO do colmo. Não pode ser transferida para aderência ou para laje mista — é outro objeto.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2017-carbonari-et-al-bambu-aco-vegetal",
+   "pagina_declarada": "3",
+   "pagina_encontrada": 3,
+   "assunto": "norma adotada por ausencia de norma nacional",
+   "citacao": "ISO/TC165 N314",
+   "trecho_encontrado": "[p3] Por falta de normalização específica, neste trabalho adotaram-se para os ensaios os preceitos da norma inter­ nacional ISO/TC165 N314 (1999).",
+   "confere": true,
+   "argumento": "Sustenta a norma adotada por ausência de norma nacional. Sem ela, os valores não são comparáveis a ensaios feitos sob outra referência.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2017-carbonari-et-al-bambu-aco-vegetal",
+   "pagina_declarada": "4",
+   "pagina_encontrada": 4,
+   "assunto": "9 corpos de prova por especie",
+   "citacao": "A Figura 4 apresenta um dos corpos de prova após realização do ensaio de compressão",
+   "trecho_encontrado": "[p4] A Figura 4 apresenta um dos corpos de prova após realização do ensaio de compressão.",
+   "confere": true,
+   "argumento": "Contexto de amostragem e de realização do ensaio de compressão. A contagem de 9 CP por espécie (3 base, 3 meio, 3 topo) está no texto que acompanha esta figura.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2017-acosta-carbonari-laje-mista-bambu-concreto-leve",
+   "pagina_declarada": "5",
+   "pagina_encontrada": 5,
+   "assunto": "30 kN pertence a laje com varas a meia cana",
+   "citacao": "suportando uma carga máxima de 30KN",
+   "trecho_encontrado": "[p5] Deslocamento (δ), pode ser observado o comportamento inicial até 22KN foi linear, dando início à fase plástica da laje, suportando uma carga máxima de 30KN. Ao inal do ensaio",
+   "confere": true,
+   "argumento": "A segunda laje NÃO tem carga publicada: o texto traz 'até a carga de , a partir do qual'. Esta citação é a da laje 1 justamente para mostrar o que a fonte publica e o que omitiu.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2017-acosta-carbonari-laje-mista-bambu-concreto-leve",
+   "pagina_declarada": "5",
+   "pagina_encontrada": 5,
+   "assunto": "comportamento linear ate 22 kN",
+   "citacao": "até 22KN foi linear",
+   "trecho_encontrado": "[p5] Deslocamento (δ), pode ser observado o comportamento inicial até 22KN foi linear, dando início à fase plástica da laje, suportando uma carga máxima de 30KN. Ao inal do ensaio",
+   "confere": true,
+   "argumento": "A segunda laje NÃO tem carga publicada: o texto traz 'até a carga de , a partir do qual'. Esta citação é a da laje 1 justamente para mostrar o que a fonte publica e o que omitiu.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2017-acosta-carbonari-laje-mista-bambu-concreto-leve",
+   "pagina_declarada": "5",
+   "pagina_encontrada": 5,
+   "assunto": "a carga da SEGUNDA laje — conferir no PDF (falha de extracao no local)",
+   "citacao": "suportando uma carga máxima de 30KN",
+   "trecho_encontrado": "[p5] Deslocamento (δ), pode ser observado o comportamento inicial até 22KN foi linear, dando início à fase plástica da laje, suportando uma carga máxima de 30KN. Ao inal do ensaio",
+   "confere": true,
+   "argumento": "A segunda laje NÃO tem carga publicada: o texto traz 'até a carga de , a partir do qual'. Esta citação é a da laje 1 justamente para mostrar o que a fonte publica e o que omitiu.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2018-geiss-damo-viabilidade-economica-estrutura-geodesica",
+   "pagina_declarada": "6",
+   "pagina_encontrada": 6,
+   "assunto": "percentual de custo na conexao (192,63%)",
+   "citacao": "192,63% superior no valor",
+   "trecho_encontrado": "[p6] O custo global de cada projeto tem o quociente ex- presso no Gráfico 04 em que dadas informações pode-se analisar que o “Domo Geodésico II” torna-se economi- camente mais oneroso, sendo 192,63% superior no valor global, porém mediante todas as técnicas construtivas empregadas fornece maior facilidade execução.",
+   "confere": true,
+   "argumento": "Sustenta o percentual comparativo entre as duas técnicas de conexão. É diferença de ORÇAMENTO entre soluções, não economia contra outro sistema construtivo.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2018-geiss-damo-viabilidade-economica-estrutura-geodesica",
+   "pagina_declarada": "8",
+   "pagina_encontrada": 8,
+   "assunto": "valor total da configuracao com corda",
+   "citacao": "R$4.592,73",
+   "trecho_encontrado": "[p8] A solução para atender as duas solicitações da pro- prietária, sustentabilidade e menor preço, pode-se ela- borar um projeto com fundações de pedra de mão gamassada, tratamento natural e conexões amarradas com corda, aonde o valor total resultaria em R$4.592,73, resultado este inferior a ambos apresentados anterior- mente. Dentre as melhorias há possibilidade de diminuir o volume das fundações, projetando somente pequenas peças isoladas localizadas nas bases de fixação da trutura do domo geodésico de bambu. Porém como itens de tratamento do bambu e conexão dos nós, duas situações, são valores praticamente desprezíveis em relação ao custo global da obra, indico o tratamento químico, pois diversos pesquisadores comentam sobre sua melhor eficiência em relação ao tratamento natural, além disto, também é possível fazer o descarte adequa- do do composto químico com diluição em água para compostagem e para as conexões indico em a técnica construtiva em PVC parafusado devido ao sisal ser",
+   "confere": true,
+   "argumento": "Sustenta o valor total da configuração com corda. Preço de 2018 em Chapecó/SC: não é preço corrente nem custo realizado.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2016-sanchez-quintero-silveira-ligacao-estrutural-guadua",
+   "pagina_declarada": "1",
+   "pagina_encontrada": 1,
+   "assunto": "tracao acima de 32 kN e compressao acima de 19 kN",
+   "citacao": "à tração acima dos 32 kN e à compressão acima de 19kN",
+   "trecho_encontrado": "[p1] 98 importantes para o projeto de estruturas. O objetivo deste trução com bambu Guadua, com parâmetros de baixo formal. Foram desenvolvidas as peças que compõem a fornece. Depois, foram feitos na Universidade Nacional da prova de bambu Guadua com o sistema de ligação tipologias de terminal e em duas configurações: linear e à tração acima dos 32 kN e à compressão acima de 19kN.",
+   "confere": true,
+   "argumento": "Sustenta o desempenho da ligação desenvolvida. É a única obra desta amostra que ensaia a CONEXÃO como objeto central — o que apoia o eixo 'conexão é o gargalo'.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2016-sanchez-quintero-silveira-ligacao-estrutural-guadua",
+   "pagina_declarada": "1",
+   "pagina_encontrada": 1,
+   "assunto": "percentuais contra a NSR-10",
+   "citacao": "204,5% e 121,2%",
+   "trecho_encontrado": "[p1] Esses valores representam 204,5% e 121,2% respectivamente, fornecidos pela norma colombiana NSR-10, para estruturas outstanding yield rate, which also has excellent mechanic proper- to develop a structural construction joint using Bamboo-Gua- pre-assembly possibilities, easy implementation and formal versa- also a design analysis was made to determine the architectural compressive tests on eight sample bodies constructed with Gua-",
+   "confere": true,
+   "argumento": "Sustenta a comparação dos autores contra a NSR-10. Percentual sobre tensão admitida da norma colombiana: não é fator de segurança medido.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2016-sanchez-quintero-silveira-ligacao-estrutural-guadua",
+   "pagina_declarada": "1",
+   "pagina_encontrada": 1,
+   "assunto": "ensaios na Colombia (texto da capa)",
+   "citacao": "feitos na Universidade Nacional da",
+   "trecho_encontrado": "[p1] 98 importantes para o projeto de estruturas. O objetivo deste trução com bambu Guadua, com parâmetros de baixo formal. Foram desenvolvidas as peças que compõem a fornece. Depois, foram feitos na Universidade Nacional da prova de bambu Guadua com o sistema de ligação tipologias de terminal e em duas configurações: linear e à tração acima dos 32 kN e à compressão acima de 19kN.",
+   "confere": true,
+   "argumento": "Sustenta o desempenho da ligação desenvolvida. É a única obra desta amostra que ensaia a CONEXÃO como objeto central — o que apoia o eixo 'conexão é o gargalo'.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2012-pereira-carrara-barata-valarelli-azambuja-prefabricacao-bambu",
+   "pagina_declarada": "1",
+   "pagina_encontrada": 1,
+   "assunto": "conexoes metalicas no galpao oficina",
+   "citacao": "conexões metálicas",
+   "trecho_encontrado": "[p1] Universidade Estadual Paulista – UNESP em Bambu apresentado neste trabalho à Associação de Agricultores Viverde, é composto de pilares de aroeira roliça, bambu in natura e conexões metálicas. O ligações, por meio de desenhos técnicos de com precisão e padronização com vistas matéria-prima e de energia na linha de e o aprimoramento de gabaritos para as etapas de montagem dos componentes",
+   "confere": true,
+   "argumento": "Sustenta que a obra executada no Brasil depende de conexão metálica — reforça o eixo de que a ligação concentra o risco de projeto.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2020-jaramillo-lisboa-goularte-librelotto-pergola-bicicletario",
+   "pagina_declarada": "1",
+   "pagina_encontrada": 1,
+   "assunto": "especies usadas na pergola (D. asper e P. aurea)",
+   "citacao": "Dendrocalamus asper and Phyllostachys aurea",
+   "trecho_encontrado": "[p1] Dendrocalamus asper and Phyllostachys aurea,",
+   "confere": true,
+   "argumento": "Sustenta quais espécies foram usadas na pérgola executada. Serve para não generalizar o resultado de montagem para outras espécies.",
+   "round_trip_doi": "NAO_FECHA",
+   "excecao": {
+    "motivo": "a DOI 10.24133/ciencia.v22i1.1271 resolve para pagina de login da Revista CIENCIA, nao para o PDF",
+    "consequencia": "o auditor confere a citacao contra a citacao e contra o METADADO (ISSN 1390-1117, v. 22, n. 1), nao contra o texto integral",
+    "atenuante": "e a UNICA das 11 obras com licenca declarada (CC BY)"
+   }
+  },
+  {
+   "obra": "2017-salamon-ostapiv-planificacao-colmos-paineis",
+   "pagina_declarada": "1",
+   "pagina_encontrada": 1,
+   "assunto": "prototipo de equipamento, nao industria",
+   "citacao": "equipamento protótipo",
+   "trecho_encontrado": "[p1] primário de colmos de bambu por conformação mecânica produzindo superfícies planas. O equipamento protótipo conceitos e requisitos do processo proposto. Nos experi­ áurea, Phyllostachyspubescens e Bambusa tuldoides. A diferentes amostras de modelos de painéis compostos 73 painéis resultaram da prensagem de uma composição das não convencionais como a fibra seca de coco. Por discutidos, indicando a viabilidade técnica do processo técnicos de um equipamento industrial que possa plani­ universalizar as aplicações e otimizar o processo proposto.",
+   "confere": true,
+   "argumento": "Sustenta que o processamento primário está em PROTÓTIPO. É a base da afirmação de que a cadeia industrial não existe — e o que a impede de ser lida como 'indústria instalada'.",
+   "round_trip_doi": "FECHA"
+  },
+  {
+   "obra": "2017-carbonari-et-al-bambu-aco-vegetal",
+   "pagina_declarada": "1",
+   "pagina_encontrada": 1,
+   "assunto": "o titulo 'aco vegetal' como retorica",
+   "citacao": "aço vegetal",
+   "trecho_encontrado": "[p1] BAMBU – O AÇO VEGETAL",
+   "confere": true,
+   "argumento": "Sustenta que 'aço vegetal' aparece como TÍTULO/retórica. Não há ensaio de aço no trabalho: a expressão não é resultado comparativo.",
+   "round_trip_doi": "FECHA"
+  }
+ ],
+ "falhas": [],
+ "regra_de_confianca": "Cada numero publicado tem aqui o trecho literal e a pagina. O auditor confere o numero contra a citacao (exata) e a citacao contra a obra pela DOI. EXCECAO DECLARADA: em 2 das 11 obras o round-trip nao fecha do lado do GitHub (DOI que cai em pagina de login; livro sem DOI). Nelas o auditor confere a citacao contra a citacao e o metadado, nao contra o texto integral. A frase 'nada pede confianca na minha palavra' vale com essa excecao."
+}

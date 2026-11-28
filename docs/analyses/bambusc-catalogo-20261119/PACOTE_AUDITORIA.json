@@ -1,0 +1,83 @@
+{
+ "schema": "TAKWARATEC/PACOTE_DE_AUDITORIA/1",
+ "frente": "BAMBU-BAMBUSC",
+ "task": "BAMBU-BAMBUSC-CATALOGO-20261119-R1",
+ "repo": "takwaratec/acervo-soberania-tecnologica",
+ "branch": "bambusc/catalogo-20261119-r1",
+ "commit_na_geracao": "d8e87697e4f26526ec224e3caa2981e1086a8587",
+ "arvore_na_geracao": "0ff4bc683ce8dc22f1cf847c8f9ff0b8142b9ae7",
+ "gerado_em": "2026-11-19",
+ "exclusao_declarada": {
+  "PACOTE_AUDITORIA.json": "declara o sha256 dos outros arquivos; o proprio sha nao existe antes de gravar (impossibilidade de construcao)",
+  "gerar_pacote.py": "produz o manifesto; excluido declaradamente para que o pacote possa ser regerado"
+ },
+ "convencao": "o manifesto descreve o estado do commit em que foi GERADO (HEAD na hora da geracao). O commit que o contem tem o MESMO conteudo, exceto o proprio manifesto e o gerador — por isso os dois estao em exclusao_declarada. Verificar com --commit <commit_na_geracao> fecha 100%; verificar contra o commit que carrega o manifesto tambem, porque os arquivos sao os mesmos.",
+ "como_conferir": "python3 docs/analyses/bambusc-catalogo-20261119/conferir_pacote.py --repo . [--commit <sha>]",
+ "inventario": [
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/00_COMO_AUDITAR.md",
+   "sha256": "c0a9dd9464a4e9e833c020c830f8df9e6dfb11d0b56b2c67e81270fa78e8f217",
+   "bytes": 6108
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/01_IDENTIDADE_E_CONTRATO.md",
+   "sha256": "75bbbc3c9aaea69663fa856ffc3285c027ad2ced8279170313cafb3ff1fbe976",
+   "bytes": 3071
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/02_CONTRATO_DE_LEITURA.md",
+   "sha256": "af9994a16d65d30d6a795c316cd20e9bf16836a2b23efe8b139516ef2d34d422",
+   "bytes": 10381
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/03_MATRIZ_POR_EIXO.md",
+   "sha256": "e8b94e2fa564248ed0b99d6d7c28fe4df72d08e62a926bdf8e42dd0221e24d3a",
+   "bytes": 5716
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/04_ESTADO_DA_ARTE_DAS_FICHAS.md",
+   "sha256": "24a5fe495a758599b96dd7450da136ff1c562409fb28e5dd7320a3cc1adc182b",
+   "bytes": 5539
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/05_ESTADO_E_INCIDENTE.md",
+   "sha256": "4e64ce22fbd9666a8f9bc32890a963ea6a24447480c906cf531eb674f2b789e1",
+   "bytes": 4066
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/INDICE_FICHAS.json",
+   "sha256": "7a8f4f4c9cc4c01c301ec7777ad0bb819e1826eaabd3d6957de6a3e560f2f6c1",
+   "bytes": 11650
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/PORTA_AUDITORIA_SOL.md",
+   "sha256": "858f4045e8e3431a06446ddb49decf7656ebc906057a939321ee5f445aee7d65",
+   "bytes": 5237
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/README.md",
+   "sha256": "a0c479e5906805123ae3f80c39bb6d4ef033da87bf0dd2e24a7265bc16e3ca50",
+   "bytes": 7051
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/RESULTADO_BAMBU-BAMBUSC-CATALOGO-20261119-R1.json",
+   "sha256": "f054bdd56ccc5d6236d2ae2dd9af911e65f8384f80d58db19fd8294a6753ec80",
+   "bytes": 5003
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/arquivos-prova/CITACOES_DE_PROVA.json",
+   "sha256": "165d44d5fe704c90ac0b5baca56644d4a23578e27dd4a9af607fb6378385a51e",
+   "bytes": 20633
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/arquivos-prova/CITACOES_DE_PROVA.md",
+   "sha256": "11b7eceab0457e98d941b8a9e15da3158671f02355de75ed2a4f63696042533f",
+   "bytes": 8636
+  },
+  {
+   "path": "docs/analyses/bambusc-catalogo-20261119/conferir_pacote.py",
+   "sha256": "d120194727cdecd29832a827f255b8e5055fdb2e214f0bb258995a101eb8531c",
+   "bytes": 5524
+  }
+ ]
+}
