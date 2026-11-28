@@ -1,22 +1,22 @@
 {
  "origem_ref": "r4-claims",
  "origem_repo": "takwaratec/TakwaraTec-Laboratorio-Editorial",
- "origem_commit": "0e16a5f10ca2e3543c17d5899036737205f2cea9",
- "sincronizado_em": "2026-11-26",
+ "origem_commit": "a799659132b3a82bb2df2abff6bc5cf8f8e17aef",
+ "sincronizado_em": "2026-11-28",
  "por_que_uma_copia": "o acervo e publico e o registro de governanca e privado: o CI do acervo nao le o ref r4-claims. Esta e uma copia DERIVADA, com hash por arquivo — divergencia e NAO_MEDIDO, nunca PASS.",
- "emendas": "2026-11-26: REGENCIA ganha governanca/** (mantem esta copia)",
+ "emendas": "2026-11-27: REGENCIA (governanca/**) · 2026-11-28: SOBERANIA-SOCIAL emendada (docs/analyses -> docs/analyses/soberania-social, repo deixa de apontar worktree do cobre); BAMBU-BAMBUSC absorvida por BAMBU-SCIENCE",
  "arquivos": {
   "BAMBU-BAMBUSC.json": {
-   "sha256": "1221996a9f025b0889db5df4d506a1522d51e3723009832cae7f8152707d792e",
-   "bytes": 1169
+   "sha256": "d87a22e3f022a68d54c3cd37b2d365eab547c2fbf403e36857943b5ec4dc8b1e",
+   "bytes": 2230
   },
   "BAMBU-MOLDE-CURADORIA.json": {
    "sha256": "25c6417287e71d3a701249dbe1da229d4f2a0bb626fcefdbef3350f76b76e859",
    "bytes": 522
   },
   "BAMBU-SCIENCE.json": {
-   "sha256": "d57a1ec40ae1b5e3e52df17426ed83ce435450fdc7867c0968749f94940258d6",
-   "bytes": 1062
+   "sha256": "8ab2c5ed43c2521cdf2bb793cf81dcd51b83248df8934372f2cc19cca0ccfdad",
+   "bytes": 2514
   },
   "BORO.json": {
    "sha256": "d1a90bf6179c2c6f97f955a0453def1abb556eb76f7241bd33f2c6ef6d1ea4a3",
@@ -51,8 +51,8 @@
    "bytes": 1046
   },
   "SOBERANIA-SOCIAL.json": {
-   "sha256": "6b1f215c169a312b898f38426e03f8f404b0b169ec96938cca3e4943c649421b",
-   "bytes": 1492
+   "sha256": "ebe51a75db19d00678bc8863ccbf2958b3cd4f0ec3fe586cd55621bd12ce6bbf",
+   "bytes": 2739
   },
   "TESTE-GAVETA-BOA.json": {
    "sha256": "d25221005afb5aebaaf8b8611f450b3629fff4f2e5f6306ec32c99aad5a102c9",
