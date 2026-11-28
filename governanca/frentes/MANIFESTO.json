@@ -15,8 +15,8 @@
       "bytes": 522
     },
     "BAMBU-SCIENCE.json": {
-      "sha256": "61b6893d4d141debb376a122e8b6b292a3b47465d4784b41ba51ffb534414eec",
-      "bytes": 8480
+      "sha256": "6b9491417933878ae1e31fa4e4bb9a5b5385a03da8850e85bee9f16595f13fdc",
+      "bytes": 9711
     },
     "BORO.json": {
       "sha256": "d1a90bf6179c2c6f97f955a0453def1abb556eb76f7241bd33f2c6ef6d1ea4a3",
@@ -62,5 +62,12 @@
   "mantido_por": {
     "frente": "REGENCIA",
     "por_que": "o MANIFESTO e infraestrutura do A9, nao da frente que o consome. A frente que sincroniza a propria entrada NAO pode reescrever o indice — senao basta editar o hash junto e o gate deixa de conferir qualquer coisa. A conferencia do manifesto e do passo A9, antes de medir."
+  },
+  "sincronizado_por": {
+    "autorizado_por": "FABIO_SOBERANO",
+    "em": "2026-11-28",
+    "quem_executou": "HERMES (frente BAMBU-SCIENCE, autorizacao expressa)",
+    "fonte": "r4-claims a7996591",
+    "nota": "o MANIFESTO e da REGENCIA (mantido_por). Esta sincronizacao foi autorizada pelo soberano para fechar o #99, e e auditavel: cada sha256 abaixo e recomputavel contra a ref r4-claims no commit declarado."
   }
 }

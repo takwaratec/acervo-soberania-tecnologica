@@ -15,7 +15,8 @@
     "docs/analyses/bambu-fitossanidade/**",
     "docs/analyses/bambu-acv/**",
     "docs/analyses/bambu-normas/**",
-    "docs/analyses/bambu-alimentacao-e-outros-usos/**"
+    "docs/analyses/bambu-alimentacao-e-outros-usos/**",
+    "governanca/frentes/MANIFESTO.json"
   ],
   "nome_humano": "Bambu Science",
   "aberta_por": "FABIO_SOBERANO",
@@ -142,6 +143,28 @@
         "docs/analyses/bambu-alimentacao-e-outros-usos/**"
       ],
       "motivo": "gavetas tematicas passam a IRMAS nomeadas uma a uma (9), incluindo as vazias que o soberano autorizou criar. Escopo nominal: nenhum curinga de docs/analyses."
+    },
+    {
+      "em": "2026-11-28T00:00:00Z",
+      "por": "FABIO_SOBERANO",
+      "escopo_novo": [
+        "ops/command-center/task-results/BAMBU-SCIENCE/**",
+        "docs/analyses/bambu-estrutural/**",
+        "docs/analyses/bambusc-catalogo-20261119/**",
+        "governanca/frentes/BAMBU-SCIENCE.json",
+        "governanca/frentes/BAMBU-BAMBUSC.json",
+        "governanca/frentes/SOBERANIA-SOCIAL.json",
+        "docs/analyses/bambu-tratamento/**",
+        "docs/analyses/bambu-tratamento-sustentavel/**",
+        "docs/analyses/bambu-carbono/**",
+        "docs/analyses/bambu-biologia/**",
+        "docs/analyses/bambu-fitossanidade/**",
+        "docs/analyses/bambu-acv/**",
+        "docs/analyses/bambu-normas/**",
+        "docs/analyses/bambu-alimentacao-e-outros-usos/**",
+        "governanca/frentes/MANIFESTO.json"
+      ],
+      "motivo": "AUTORIZACAO EXPRESSA do soberano (2026-11-28): a sincronizacao da copia derivada + MANIFESTO entra no #99 por decisao dele, e a decisao e auditavel por hash contra a ref r4-claims. O manifesto continua declarado como da REGENCIA (mantido_por); esta entrada e a excecao nomeada, para esta rodada, nao um direito permanente da frente."
     }
   ],
   "gavetas_irmas": {
