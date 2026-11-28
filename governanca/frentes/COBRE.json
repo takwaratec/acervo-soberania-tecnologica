@@ -1,10 +1,7 @@
 {
  "front": "COBRE",
- "repo": "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica",
- "write_scope": [
-  "docs/analyses/cobre",
-  "_privado/governanca-operacional/extracoes/cobre"
- ],
+ "repo": "takwaratec/acervo-soberania-tecnologica",
+ "write_scope": [],
  "nome_humano": "Cobre — sulfato de cobre, CCA/CCB, volateis e exposicao ocupacional no tratamento de bambu",
  "aberta_por": "FABIO_SOBERANO",
  "aberta_em": "2026-11-24T13:59:13Z",
@@ -13,5 +10,21 @@
  "origem": "TOPICO_ABERTO_PELO_SOBERANO",
  "nao_e_map": true,
  "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas",
- "nota_reescrita_20261124": "Ref r4-claims reescrito por outro processo em 2026-11-24 e reintegrado por merge de 41bbf9da. aberta_em original preservado (2026-11-24T13:59:13Z). Nota da linha reescrita, preservada integral: Aberta por ordem do soberano em 2026-11-24 a partir do BOOTSTRAP_COBRE_20261124.md (sha256 948b91110de0acc4). REABERTA apos constatar que a abertura anterior existia apenas em ref local nao publicado; linhagem antiga preservada em refs/heads/r4-claims-backup-20261124-gaveta."
+ "nota_reescrita_20261124": "Ref r4-claims reescrito por outro processo em 2026-11-24 e reintegrado por merge de 41bbf9da. aberta_em original preservado (2026-11-24T13:59:13Z). Nota da linha reescrita, preservada integral: Aberta por ordem do soberano em 2026-11-24 a partir do BOOTSTRAP_COBRE_20261124.md (sha256 948b91110de0acc4). REABERTA apos constatar que a abertura anterior existia apenas em ref local nao publicado; linhagem antiga preservada em refs/heads/r4-claims-backup-20261124-gaveta.",
+ "estado": "ABSORVIDA",
+ "absorvida_por": "BAMBU-SCIENCE",
+ "absorvida_em": "f7785075",
+ "contrato": "BAMBU-SCIENCE-ADOCAO-COBRE-20261128-R1",
+ "motivo": "frente absorvida: boro e cobre sao o contexto tematico de tratamentos do bambu (gaveta bambu-tratamento, tratamento quimico/convencional); a unica frente de bambu e BAMBU-SCIENCE",
+ "historico_de_absorcao": {
+  "estado_anterior": "ABERTA",
+  "write_scope_anterior": [
+   "docs/analyses/cobre",
+   "_privado/governanca-operacional/extracoes/cobre"
+  ],
+  "topico_preservado": "Segundo capitulo da serie tratamentos convencionais do bambu. Objeto: sulfato de cobre e sais de cobre como preservante, CCA/CCB como contraste normativo, e o eixo de exposicao ocupacional e inalacao na cadeia de tratamento e acabamento (volateis, vernizes, acrilicos, isocianatos). Reprocessar 6 fichas CCA/CCB e o pacote ago_27_VOCs antes de pesquisar de novo.",
+  "nota_preservada": "Aberta por ordem do soberano em 2026-11-24 a partir do BOOTSTRAP_COBRE_20261124.md (sha256 948b91110de0acc4), que permanece em docs/analyses/boro/ como documento de ligacao. Boro nao se repete: gaveta docs/analyses/boro. Nada do boro pode ser transportado para ca (toxicologia oposta)."
+ },
+ "nota_de_absorcao": "2026-11-28: absorvida por ato do soberano (opcao 2 de 3). O registro da frente permanece — registro historico reescrito e registro perdido. As 12 fichas seguem em acervo-soberania-tecnologica e passam a seguir sob a BAMBU-SCIENCE; o escopo migra para la, com /** no lugar do prefixo nu. Absorcao nao homologa: nenhuma ficha muda de estado_documental por este ato.",
+ "repo_corrigido_de": "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
 }

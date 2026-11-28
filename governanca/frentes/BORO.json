@@ -1,10 +1,7 @@
 {
  "front": "BORO",
- "repo": "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica",
- "write_scope": [
-  "docs/analyses/boro",
-  "_privado/governanca-operacional/extracoes/boro"
- ],
+ "repo": "takwaratec/acervo-soberania-tecnologica",
+ "write_scope": [],
  "nome_humano": "Boro — origem, risco e uso indiscriminado como preservante de bambu",
  "aberta_por": "FABIO_SOBERANO",
  "aberta_em": "2026-11-24T11:47:11Z",
@@ -13,5 +10,21 @@
  "origem": "TOPICO_ABERTO_PELO_SOBERANO",
  "nao_e_map": true,
  "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas",
- "nota_reescrita_20261124": "Ref r4-claims reescrito por outro processo em 2026-11-24 e reintegrado por merge de 41bbf9da. aberta_em original preservado (2026-11-24T11:47:11Z). Nota da linha reescrita, preservada integral: Soberano autorizou 2026-11-24. Sulfato de cobre e CCA/CCB nao entram nesta gaveta: tem capitulo proprio. Boro apenas, com CCA/CCB como contraste normativo. REABERTA apos constatar que a abertura anterior existia apenas em ref local nao publicado; a linhagem antiga fica em refs/heads/r4-claims-backup-20261124-gaveta."
+ "nota_reescrita_20261124": "Ref r4-claims reescrito por outro processo em 2026-11-24 e reintegrado por merge de 41bbf9da. aberta_em original preservado (2026-11-24T11:47:11Z). Nota da linha reescrita, preservada integral: Soberano autorizou 2026-11-24. Sulfato de cobre e CCA/CCB nao entram nesta gaveta: tem capitulo proprio. Boro apenas, com CCA/CCB como contraste normativo. REABERTA apos constatar que a abertura anterior existia apenas em ref local nao publicado; a linhagem antiga fica em refs/heads/r4-claims-backup-20261124-gaveta.",
+ "estado": "ABSORVIDA",
+ "absorvida_por": "BAMBU-SCIENCE",
+ "absorvida_em": "f7785075",
+ "contrato": "BAMBU-SCIENCE-ADOCAO-BORO-20261128-R1",
+ "motivo": "frente absorvida: boro e cobre sao o contexto tematico de tratamentos do bambu (gaveta bambu-tratamento, tratamento quimico/convencional); a unica frente de bambu e BAMBU-SCIENCE",
+ "historico_de_absorcao": {
+  "estado_anterior": "ABERTA",
+  "write_scope_anterior": [
+   "docs/analyses/boro",
+   "_privado/governanca-operacional/extracoes/boro"
+  ],
+  "topico_preservado": "Abrir gaveta boro: herdar acervo ago_28_Boratos_Cobre e ago_28_CCA_CCB, reprocessar pelo MTCC, homologar por regua de curadoria. Adendo: origem astronomica do boro, exclusividade geopolitica das jazidas, uso aeroespacial, dosagem medicinal vs agricola vs preservacao, EPI e pratica na China. Introduz a serie de tratamentos convencionais do bambu (CCA/CCB, vernizes, acrilicos, concreto).",
+  "nota_preservada": "Soberano autorizou 2026-11-24. Sulfato de cobre e CCA/CCB nao entram nesta gaveta: tem capitulo proprio. Boro apenas, com CCA/CCB como contraste normativo."
+ },
+ "nota_de_absorcao": "2026-11-28: absorvida por ato do soberano (opcao 2 de 3). O registro da frente permanece — registro historico reescrito e registro perdido. As 14 fichas seguem em acervo-soberania-tecnologica e passam a seguir sob a BAMBU-SCIENCE; o escopo migra para la, com /** no lugar do prefixo nu. Absorcao nao homologa: nenhuma ficha muda de estado_documental por este ato.",
+ "repo_corrigido_de": "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
 }

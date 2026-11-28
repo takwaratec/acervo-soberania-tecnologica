@@ -1,10 +1,10 @@
 {
   "origem_ref": "r4-claims",
   "origem_repo": "takwaratec/TakwaraTec-Laboratorio-Editorial",
-  "origem_commit": "a7996591",
+  "origem_commit": "283b0e39",
   "sincronizado_em": "2026-11-28",
   "por_que_uma_copia": "o acervo e publico e o registro de governanca e privado: o CI do acervo nao le o ref r4-claims. Esta e uma copia DERIVADA, com hash por arquivo — divergencia e NAO_MEDIDO, nunca PASS.",
-  "emendas": "2026-11-26: REGENCIA ganha governanca/** | 2026-11-28: espelho ressincronizado em r4-claims@a7996591 (BAMBUSC ABSORVIDA, SOBERANIA-SOCIAL) + gavetas tematicas IRMAS na BAMBU-SCIENCE e o caminho docs/analyses/bambusc-catalogo-20261119/** (merge autorizado do #99)",
+  "emendas": "2026-11-26: REGENCIA ganha governanca/** | 2026-11-28: nove gavetas nominais; BORO e COBRE ABSORVIDAS pela BAMBU-SCIENCE (gaveta bambu-tratamento); espelho em r4-claims@283b0e39",
   "arquivos": {
     "BAMBU-BAMBUSC.json": {
       "sha256": "d87a22e3f022a68d54c3cd37b2d365eab547c2fbf403e36857943b5ec4dc8b1e",
@@ -15,16 +15,16 @@
       "bytes": 522
     },
     "BAMBU-SCIENCE.json": {
-      "sha256": "dd7be46e7a9851348397d63578bf6806eb65179e3ee17fc117ddad7df50dc6ef",
-      "bytes": 10036
+      "sha256": "967d37b12fe395024f87efb8eb88990f046f3dbd084a1bd05d88fc0df05ee475",
+      "bytes": 5946
     },
     "BORO.json": {
-      "sha256": "d1a90bf6179c2c6f97f955a0453def1abb556eb76f7241bd33f2c6ef6d1ea4a3",
-      "bytes": 1626
+      "sha256": "d648ea25ea03364c3117dc8fb93ded7cc2d9717401d1c85d3106c8a955836a2b",
+      "bytes": 3106
     },
     "COBRE.json": {
-      "sha256": "e7c04d61952691adb7f6429b48d1e1922f2e74171115fee3842507c9267df23e",
-      "bytes": 1714
+      "sha256": "bfb1021ac1218b707bf2857df0df48efb9fdf133f36b1e0214297984ca33e921",
+      "bytes": 3299
     },
     "EDITORIAL.json": {
       "sha256": "7973dda262b0b953cbb3dd795c803c7970f8c0f4200105e298d20a8e257b9527",
@@ -58,16 +58,5 @@
       "sha256": "d25221005afb5aebaaf8b8611f450b3629fff4f2e5f6306ec32c99aad5a102c9",
       "bytes": 764
     }
-  },
-  "mantido_por": {
-    "frente": "REGENCIA",
-    "por_que": "o MANIFESTO e infraestrutura do A9, nao da frente que o consome. A frente que sincroniza a propria entrada NAO pode reescrever o indice — senao basta editar o hash junto e o gate deixa de conferir qualquer coisa. A conferencia do manifesto e do passo A9, antes de medir."
-  },
-  "sincronizado_por": {
-    "autorizado_por": "FABIO_SOBERANO",
-    "em": "2026-11-28",
-    "quem_executou": "HERMES (frente BAMBU-SCIENCE, autorizacao expressa)",
-    "fonte": "r4-claims a7996591",
-    "nota": "o MANIFESTO e da REGENCIA (mantido_por). Esta sincronizacao foi autorizada pelo soberano para fechar o #99, e e auditavel: cada sha256 abaixo e recomputavel contra a ref r4-claims no commit declarado."
   }
 }
