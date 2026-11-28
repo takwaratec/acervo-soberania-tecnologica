@@ -1,0 +1,60 @@
+{
+  "front": "BAMBU-SCIENCE",
+  "repo": "takwaratec/TakwaraTec-Laboratorio-Editorial",
+  "write_scope": [
+    "ops/command-center/task-results/BAMBU-SCIENCE/**",
+    "docs/analyses/bambu-estrutural/**",
+    "docs/analyses/bambusc-catalogo-20261119/**"
+  ],
+  "nome_humano": "Bambu Science",
+  "aberta_por": "FABIO_SOBERANO",
+  "aberta_em": "2026-11-17T03:40:07Z",
+  "topico": "Bambu",
+  "nota": null,
+  "origem": "TOPICO_ABERTO_PELO_SOBERANO",
+  "nao_e_map": true,
+  "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas",
+  "estado": "ABERTA",
+  "gavetas_tematicas": [
+    "tratamento",
+    "estrutural",
+    "acv",
+    "normas"
+  ],
+  "nota_emenda": "2026-11-27: gavetas tematicas sao subpastas de bambu-estrutural, nao escopos separados; BAMBUSC absorvida em 9ffa9c78. A gaveta tem um dono so.",
+  "pendencia_declarada": {
+    "em": "2026-11-28",
+    "o_que": "As gavetas tematicas decididas pelo soberano em 2026-11-26/27 estao, no plano, como DIRETORIOS IRMAOS (docs/analyses/bambu-carbono, bambu-biologia, bambu-fitossanidade, bambu-tratamento, bambu-tratamento-sustentavel, bambu-alimentacao-e-outros-usos), nao como subpastas desta gaveta. O write_scope declarado hoje NAO as cobre. Enquanto elas nao existirem em disco, o escopo esta correto; no dia em que a primeira nascer como diretorio irmao, o write_scope precisa de emenda — senao a frente falha no proprio gate por escrever fora do que declarou.",
+    "quem_decide": "FABIO_SOBERANO — subpasta (gaveta unica, tema como subdivisao) x diretorio irmao (gaveta por tema).",
+    "nao_resolvido_por_mim": "nao criei escopo para diretorios que ainda nao existem, e nao converti as 6 gavetas do plano em subpastas por conta propria"
+  },
+  "pendencia_repo": "O campo repo aponta para TakwaraTec-Laboratorio-Editorial, mas o write_scope inclui docs/analyses/bambu-estrutural/**, que vive no acervo-soberania-tecnologica. Registro a divergencia em vez de corrigi-la: mudar o repo da frente e emenda de quem a declara, nao do executor.",
+  "historico_write_scope": [
+    {
+      "em": "2026-11-21T09:43:04Z",
+      "por": "FABIO_SOBERANO",
+      "escopo_anterior": [
+        "ops/command-center/task-results/BAMBU-SCIENCE/**"
+      ],
+      "escopo_novo": [
+        "ops/command-center/task-results/BAMBU-SCIENCE/**",
+        "docs/analyses/bambu-estrutural/**"
+      ],
+      "motivo": "passa a gravar as fichas cientificas na gaveta do acervo. Antes gravava apenas em task-results do repo Editorial, que e area de trabalho, nao de custodia: o cientifico homologavel tem de viver no acervo-soberania-tecnologica, na gaveta do tema."
+    },
+    {
+      "em": "2026-11-28T00:00:00Z",
+      "por": "FABIO_SOBERANO",
+      "escopo_anterior": [
+        "ops/command-center/task-results/BAMBU-SCIENCE/**",
+        "docs/analyses/bambu-estrutural/**"
+      ],
+      "escopo_novo": [
+        "ops/command-center/task-results/BAMBU-SCIENCE/**",
+        "docs/analyses/bambu-estrutural/**",
+        "docs/analyses/bambusc-catalogo-20261119/**"
+      ],
+      "motivo": "merge autorizado do PR #99 (catalogo BambuSC adotado pela frente) — o destino declarado do resultado adotado entra no escopo, um caminho por vez. Escopo continua nominal: nao existe curinga de docs/analyses."
+    }
+  ]
+}

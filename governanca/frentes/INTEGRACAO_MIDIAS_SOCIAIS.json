@@ -1,0 +1,42 @@
+{
+ "front": "INTEGRACAO_MIDIAS_SOCIAIS",
+ "repo": "takwaratec/acervo-soberania-tecnologica",
+ "write_scope": [
+  "workers/instagram-automation-takwaratec/**",
+  "ops/integracao-midias/**",
+  "ops/midia-publicacao/**"
+ ],
+ "nome_humano": "Integracao de Midias Sociais",
+ "aberta_por": "FABIO_SOBERANO",
+ "aberta_em": "2026-11-20T12:56:52Z",
+ "topico": "Midias",
+ "nota": "Handoff 2026-11-20: readback local antes de redesenho; GitHub write do regente DISABLED nesta passagem; escopo inicial cobre o Worker Instagram e a area ops/integracao-midias",
+ "estado": "ABERTA",
+ "criterio_terminal": [
+  "o recibo em ops/integracao-midias/readback-20261120/RECIBO_REMOTO_20261120.json declara, para Cloudflare, Meta e GPT Maker, o estado MEDIDO com o comando ou a fonte e a data — e, onde nao houver credencial, declara NOT_VERIFIED com o motivo nomeado e exatamente o que o soberano precisa liberar",
+  "a leitura Cloudflare nomeia o Worker instagram-automation-takwaratec separadamente de acervo-web-preview, com deploy/versao e bindings por NOME, sem nenhum valor de secret",
+  "nenhum valor de secret aparece no recibo, no log ou no commit — apenas nomes e o estado configurado/ausente",
+  "nenhuma mutacao foi executada: sem deploy, sem secret put, sem alteracao de App Meta, sem edicao de widget no GPT Maker, sem chamada de publicacao ou de private reply na Graph API",
+  "o recibo separa, para cada um dos tres sistemas, o que esta commitado (A), implantado (B), apenas testado (C) e apenas proposto (D), sem converter testemunho em leitura",
+  "o recibo esta commitado na branch declarada, com path relativo e sha256 dos bytes entregues"
+ ],
+ "origem": "TOPICO_ABERTO_PELO_SOBERANO",
+ "nao_e_map": true,
+ "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas",
+ "promovida_em": "2026-11-20T12:57:12Z",
+ "promovida_por_task": "INTEGRACAO-MIDIAS-REMOTE-READBACK-20261120-R1",
+ "reativacoes": [
+  {
+   "em": "2026-11-20T13:40:00Z",
+   "por": "FABIO_SOBERANO",
+   "motivo": "decisao do soberano amplia o escopo da frente: a esteira de publicacao mora em ops/midia-publicacao/ no repositorio do acervo, nao em ops/integracao-midias/ no repo web",
+   "escopo_anterior": [
+    "workers/instagram-automation-takwaratec/**",
+    "ops/integracao-midias/**"
+   ]
+  }
+ ],
+ "repos_auxiliares": [
+  "takwaratec/TakwaraTec-Acervo-Web"
+ ]
+}
