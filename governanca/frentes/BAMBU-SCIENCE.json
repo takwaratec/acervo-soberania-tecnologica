@@ -1,13 +1,68 @@
 {
-  "front": "BAMBU-SCIENCE",
-  "repo": "takwaratec/TakwaraTec-Laboratorio-Editorial",
-  "write_scope": [
+ "front": "BAMBU-SCIENCE",
+ "repo": "takwaratec/acervo-soberania-tecnologica",
+ "write_scope": [
+  "docs/analyses/bambu-estrutural/**",
+  "docs/analyses/bambu-tratamento/**",
+  "docs/analyses/bambu-tratamento-sustentavel/**",
+  "docs/analyses/bambu-carbono/**",
+  "docs/analyses/bambu-biologia/**",
+  "docs/analyses/bambu-fitossanidade/**",
+  "docs/analyses/bambu-acv/**",
+  "docs/analyses/bambu-normas/**",
+  "docs/analyses/bambu-alimentacao-e-outros-usos/**",
+  "ops/command-center/task-results/BAMBU-SCIENCE/**"
+ ],
+ "nome_humano": "Bambu Science",
+ "aberta_por": "FABIO_SOBERANO",
+ "aberta_em": "2026-11-17T03:40:07Z",
+ "topico": "Bambu",
+ "nota": null,
+ "origem": "TOPICO_ABERTO_PELO_SOBERANO",
+ "nao_e_map": true,
+ "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas",
+ "estado": "ABERTA",
+ "gavetas_tematicas": [
+  "bambu-estrutural",
+  "bambu-tratamento",
+  "bambu-tratamento-sustentavel",
+  "bambu-carbono",
+  "bambu-biologia",
+  "bambu-fitossanidade",
+  "bambu-acv",
+  "bambu-normas",
+  "bambu-alimentacao-e-outros-usos"
+ ],
+ "nota_emenda": "2026-11-28: as nove gavetas tematicas sao IRMAS, no mesmo nivel em docs/analyses, e cada uma e caminho nominal do write_scope — nenhuma gaveta-mae com curinga. Ato do soberano de 2026-11-28: 'bambu estrutural e uma das gavetas tematicas de bambu, assim como tratamentos, carbono, etc'. As gavetas vazias podem ser criadas ja, com a condicao de haver material que as componha depois (mesmo ato). BAMBUSC absorvida em 9ffa9c78. A gaveta tem um dono so.",
+ "repo_decidido": {
+  "em": "2026-11-28",
+  "opcao": "a",
+  "valor": "takwaratec/acervo-soberania-tecnologica",
+  "por_que": "a frente entrega ficha e gaveta no acervo, e o acervo ja hospeda ops/command-center/task-results/ de outras frentes (BORO, cobre) — logo os dois lados do escopo vivem num repo so. A opcao (b), duas entradas, reintroduziria o defeito que o soberano fechou em 2026-11-28: dois nomes para uma frente. Um nome, um repo, escopo nominal.",
+  "resolvido_por_mim": "sim — a escolha foi pedida pelo regente no item 3; a pendencia_repo que eu havia registrado fica encerrada por este campo, nao por remendo no texto."
+ },
+ "historico_write_scope": [
+  {
+   "em": "2026-11-21T09:43:04Z",
+   "por": "FABIO_SOBERANO",
+   "escopo_anterior": [
+    "ops/command-center/task-results/BAMBU-SCIENCE/**"
+   ],
+   "escopo_novo": [
     "ops/command-center/task-results/BAMBU-SCIENCE/**",
+    "docs/analyses/bambu-estrutural/**"
+   ],
+   "motivo": "passa a gravar as fichas cientificas na gaveta do acervo. Antes gravava apenas em task-results do repo Editorial, que e area de trabalho, nao de custodia: o cientifico homologavel tem de viver no acervo-soberania-tecnologica, na gaveta do tema."
+  },
+  {
+   "em": "2026-11-28T00:00:00Z",
+   "por": "FABIO_SOBERANO",
+   "escopo_anterior": [
+    "ops/command-center/task-results/BAMBU-SCIENCE/**",
+    "docs/analyses/bambu-estrutural/**"
+   ],
+   "escopo_novo": [
     "docs/analyses/bambu-estrutural/**",
-    "docs/analyses/bambusc-catalogo-20261119/**",
-    "governanca/frentes/BAMBU-SCIENCE.json",
-    "governanca/frentes/BAMBU-BAMBUSC.json",
-    "governanca/frentes/SOBERANIA-SOCIAL.json",
     "docs/analyses/bambu-tratamento/**",
     "docs/analyses/bambu-tratamento-sustentavel/**",
     "docs/analyses/bambu-carbono/**",
@@ -16,183 +71,9 @@
     "docs/analyses/bambu-acv/**",
     "docs/analyses/bambu-normas/**",
     "docs/analyses/bambu-alimentacao-e-outros-usos/**",
-    "governanca/frentes/MANIFESTO.json"
-  ],
-  "nome_humano": "Bambu Science",
-  "aberta_por": "FABIO_SOBERANO",
-  "aberta_em": "2026-11-17T03:40:07Z",
-  "topico": "Bambu",
-  "nota": null,
-  "origem": "TOPICO_ABERTO_PELO_SOBERANO",
-  "nao_e_map": true,
-  "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas",
-  "estado": "ABERTA",
-  "nota_emenda": "2026-11-27: gavetas tematicas sao subpastas de bambu-estrutural, nao escopos separados; BAMBUSC absorvida em 9ffa9c78. A gaveta tem um dono so.",
-  "pendencia_declarada": {
-    "em": "2026-11-28",
-    "o_que": "As gavetas tematicas decididas pelo soberano em 2026-11-26/27 estao, no plano, como DIRETORIOS IRMAOS (docs/analyses/bambu-carbono, bambu-biologia, bambu-fitossanidade, bambu-tratamento, bambu-tratamento-sustentavel, bambu-alimentacao-e-outros-usos), nao como subpastas desta gaveta. O write_scope declarado hoje NAO as cobre. Enquanto elas nao existirem em disco, o escopo esta correto; no dia em que a primeira nascer como diretorio irmao, o write_scope precisa de emenda — senao a frente falha no proprio gate por escrever fora do que declarou.",
-    "quem_decide": "FABIO_SOBERANO — subpasta (gaveta unica, tema como subdivisao) x diretorio irmao (gaveta por tema).",
-    "nao_resolvido_por_mim": "nao criei escopo para diretorios que ainda nao existem, e nao converti as 6 gavetas do plano em subpastas por conta propria"
-  },
-  "pendencia_repo": "O campo repo aponta para TakwaraTec-Laboratorio-Editorial, mas o write_scope inclui docs/analyses/bambu-estrutural/**, que vive no acervo-soberania-tecnologica. Registro a divergencia em vez de corrigi-la: mudar o repo da frente e emenda de quem a declara, nao do executor.",
-  "historico_write_scope": [
-    {
-      "em": "2026-11-21T09:43:04Z",
-      "por": "FABIO_SOBERANO",
-      "escopo_anterior": [
-        "ops/command-center/task-results/BAMBU-SCIENCE/**"
-      ],
-      "escopo_novo": [
-        "ops/command-center/task-results/BAMBU-SCIENCE/**",
-        "docs/analyses/bambu-estrutural/**"
-      ],
-      "motivo": "passa a gravar as fichas cientificas na gaveta do acervo. Antes gravava apenas em task-results do repo Editorial, que e area de trabalho, nao de custodia: o cientifico homologavel tem de viver no acervo-soberania-tecnologica, na gaveta do tema."
-    },
-    {
-      "em": "2026-11-28T00:00:00Z",
-      "por": "FABIO_SOBERANO",
-      "escopo_anterior": [
-        "ops/command-center/task-results/BAMBU-SCIENCE/**",
-        "docs/analyses/bambu-estrutural/**"
-      ],
-      "escopo_novo": [
-        "ops/command-center/task-results/BAMBU-SCIENCE/**",
-        "docs/analyses/bambu-estrutural/**",
-        "docs/analyses/bambusc-catalogo-20261119/**"
-      ],
-      "motivo": "merge autorizado do PR #99 (catalogo BambuSC adotado pela frente). O destino declarado do resultado adotado entra no escopo, um caminho por vez — escopo continua nominal, sem curinga de docs/analyses."
-    },
-    {
-      "em": "2026-11-28T00:00:00Z",
-      "por": "FABIO_SOBERANO",
-      "escopo_anterior": [
-        "ops/command-center/task-results/BAMBU-SCIENCE/**",
-        "docs/analyses/bambu-estrutural/**",
-        "docs/analyses/bambusc-catalogo-20261119/**"
-      ],
-      "escopo_novo": [
-        "ops/command-center/task-results/BAMBU-SCIENCE/**",
-        "docs/analyses/bambu-estrutural/**",
-        "docs/analyses/bambusc-catalogo-20261119/**",
-        "governanca/frentes/BAMBU-SCIENCE.json"
-      ],
-      "motivo": "a frente precisa poder SINCRONIZAR a propria copia derivada do registro (governanca/frentes/BAMBU-SCIENCE.json) quando o r4-claims emenda o escopo dela. Sem isso, toda emenda de escopo da propria frente reprisa FORA no A9. Um arquivo, nominal."
-    },
-    {
-      "em": "2026-11-28T00:00:00Z",
-      "por": "FABIO_SOBERANO",
-      "escopo_anterior": [
-        "ops/command-center/task-results/BAMBU-SCIENCE/**",
-        "docs/analyses/bambu-estrutural/**",
-        "docs/analyses/bambusc-catalogo-20261119/**",
-        "governanca/frentes/BAMBU-SCIENCE.json"
-      ],
-      "escopo_novo": [
-        "ops/command-center/task-results/BAMBU-SCIENCE/**",
-        "docs/analyses/bambu-estrutural/**",
-        "docs/analyses/bambusc-catalogo-20261119/**",
-        "governanca/frentes/BAMBU-SCIENCE.json",
-        "governanca/frentes/BAMBU-BAMBUSC.json"
-      ],
-      "motivo": "a entrada da frente absorvida e parte do mesmo ato de absorcao: quem sincroniza a propria emenda sincroniza as duas pontas (absorvida + absorvente), senao a absorcao fica meio-declarada — absorvida constando ABERTA na copia do CI e ABSORVIDA no registro vivo. Um arquivo, nominal."
-    },
-    {
-      "em": "2026-11-28T00:00:00Z",
-      "por": "FABIO_SOBERANO",
-      "escopo_anterior": [
-        "ops/command-center/task-results/BAMBU-SCIENCE/**",
-        "docs/analyses/bambu-estrutural/**",
-        "docs/analyses/bambusc-catalogo-20261119/**",
-        "governanca/frentes/BAMBU-SCIENCE.json"
-      ],
-      "escopo_novo": [
-        "ops/command-center/task-results/BAMBU-SCIENCE/**",
-        "docs/analyses/bambu-estrutural/**",
-        "docs/analyses/bambusc-catalogo-20261119/**",
-        "governanca/frentes/BAMBU-SCIENCE.json",
-        "governanca/frentes/BAMBU-BAMBUSC.json",
-        "governanca/frentes/SOBERANIA-SOCIAL.json"
-      ],
-      "motivo": "NAO e da BAMBU e nao sera tocado: entra apenas porque a copia derivada vem de commit unico do r4-claims (a7996591) que tambem corrigiu o repo+colecao dessa frente (0ddb2d4e). A alternativa seria copiar o registro vivo pela metade, e meia-verdade em registro e pior que escopo largo. Declarado, nao usado."
-    },
-    {
-      "em": "2026-11-28T00:00:00Z",
-      "por": "FABIO_SOBERANO",
-      "escopo_anterior": [
-        "ops/command-center/task-results/BAMBU-SCIENCE/**",
-        "docs/analyses/bambu-estrutural/**",
-        "docs/analyses/bambusc-catalogo-20261119/**",
-        "governanca/frentes/BAMBU-SCIENCE.json",
-        "governanca/frentes/BAMBU-BAMBUSC.json",
-        "governanca/frentes/SOBERANIA-SOCIAL.json"
-      ],
-      "escopo_novo": [
-        "ops/command-center/task-results/BAMBU-SCIENCE/**",
-        "docs/analyses/bambu-estrutural/**",
-        "docs/analyses/bambusc-catalogo-20261119/**",
-        "governanca/frentes/BAMBU-SCIENCE.json",
-        "governanca/frentes/BAMBU-BAMBUSC.json",
-        "governanca/frentes/SOBERANIA-SOCIAL.json",
-        "docs/analyses/bambu-tratamento/**",
-        "docs/analyses/bambu-tratamento-sustentavel/**",
-        "docs/analyses/bambu-carbono/**",
-        "docs/analyses/bambu-biologia/**",
-        "docs/analyses/bambu-fitossanidade/**",
-        "docs/analyses/bambu-acv/**",
-        "docs/analyses/bambu-normas/**",
-        "docs/analyses/bambu-alimentacao-e-outros-usos/**"
-      ],
-      "motivo": "gavetas tematicas passam a IRMAS nomeadas uma a uma (9), incluindo as vazias que o soberano autorizou criar. Escopo nominal: nenhum curinga de docs/analyses."
-    },
-    {
-      "em": "2026-11-28T00:00:00Z",
-      "por": "FABIO_SOBERANO",
-      "escopo_novo": [
-        "ops/command-center/task-results/BAMBU-SCIENCE/**",
-        "docs/analyses/bambu-estrutural/**",
-        "docs/analyses/bambusc-catalogo-20261119/**",
-        "governanca/frentes/BAMBU-SCIENCE.json",
-        "governanca/frentes/BAMBU-BAMBUSC.json",
-        "governanca/frentes/SOBERANIA-SOCIAL.json",
-        "docs/analyses/bambu-tratamento/**",
-        "docs/analyses/bambu-tratamento-sustentavel/**",
-        "docs/analyses/bambu-carbono/**",
-        "docs/analyses/bambu-biologia/**",
-        "docs/analyses/bambu-fitossanidade/**",
-        "docs/analyses/bambu-acv/**",
-        "docs/analyses/bambu-normas/**",
-        "docs/analyses/bambu-alimentacao-e-outros-usos/**",
-        "governanca/frentes/MANIFESTO.json"
-      ],
-      "motivo": "AUTORIZACAO EXPRESSA do soberano (2026-11-28): a sincronizacao da copia derivada + MANIFESTO entra no #99 por decisao dele, e a decisao e auditavel por hash contra a ref r4-claims. O manifesto continua declarado como da REGENCIA (mantido_por); esta entrada e a excecao nomeada, para esta rodada, nao um direito permanente da frente."
-    }
-  ],
-  "gavetas_irmas": {
-    "em": "2026-11-28",
-    "decidido_por": "FABIO_SOBERANO",
-    "regra": "gaveta tematica e IRMA, no mesmo nivel de docs/analyses. bambu-estrutural NAO e a gaveta-mae: e uma das tematicas, como tratamento, carbono, acv e normas.",
-    "declaracao": [
-      "bambu-estrutural",
-      "bambu-tratamento",
-      "bambu-tratamento-sustentavel",
-      "bambu-carbono",
-      "bambu-biologia",
-      "bambu-fitossanidade",
-      "bambu-acv",
-      "bambu-normas",
-      "bambu-alimentacao-e-outros-usos"
-    ],
-    "citacao": "'Bambu estrutural e uma das gavetas tematicas de bambu, assim como tratamentos, carbono, etc.'",
-    "vazias_autorizadas": "o soberano autorizou criar as gavetas vazias AGORA, com a condicao de haver material que as componha depois — a condicao viaja na criacao, nao no escopo."
-  },
-  "gavetas_tematicas_declaradas_na_main": {
-    "_status": "SUPERSEDED_2026-11-28",
-    "valor": [
-      "tratamento",
-      "estrutural",
-      "acv",
-      "normas"
-    ],
-    "_por_que": "ato do soberano: gavetas sao IRMAS nomeadas (ver gavetas_irmas), nao subpastas desta. Mantido como trilha do que vigorou antes."
+    "ops/command-center/task-results/BAMBU-SCIENCE/**"
+   ],
+   "motivo": "as nove gavetas entram nominais. Antes o escopo cobria uma gaveta e um curinga implicito de gaveta-mae; agora cada gaveta e um caminho, e escrever fora delas reprova. Repo passa ao acervo (opcao a do item 3)."
   }
+ ]
 }
