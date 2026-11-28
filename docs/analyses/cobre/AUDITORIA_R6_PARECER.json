@@ -1,0 +1,33 @@
+{
+ "VEREDITO": "REPROVA",
+ "ESCOPO_AUDITADO": "Plano v4, eixo S8-S12 e alegações associadas; conferidos também os planos v3/v1 do elemento e do composto, o parecer R5, os limites custodiados e a Tabela 2.5 de Gauss.",
+ "CONTA_DILUICAO_OK": true,
+ "VAO_NORMATIVO_PROCEDE": false,
+ "RISCO_DE_ADVOCACIA": "ALTO",
+ "ALTERACOES_SUGERIDAS": [
+  "Retirar “impossibilidade física” e limitar a conta à hipótese explícita de diluição uniforme para benchmarks específicos.",
+  "Reescrever S10 como investigação aberta: separar norma geral, norma específica, escopo doméstico/industrial e classificação após caracterização.",
+  "Trocar afirmações antecipadas de S9 e S11 por perguntas e critérios que possam refutá-las.",
+  "Reformular conclusão sobre lodo: precipitação transfere o cobre de fase; classe e destinação dependem de caracterização e regras aplicáveis."
+ ],
+ "INCLUSOES_SUGERIDAS": [
+  "Mapear PNRS, Decreto 10.936/2022, CONAMA 357/430, lista de resíduos do Ibama, regras estaduais/municipais e requisitos de licenciamento.",
+  "Investigar separadamente exigências de destinação em registros/rótulos do Ibama e MAPA, e evidências de fiscalização/autuações.",
+  "Comparar regras de descarte em outras jurisdições apenas depois de delimitar o caso brasileiro; incluir coleta, reuso, tratamento autorizado e destinação do lodo."
+ ],
+ "OMISSOES_DO_ACERVO": [
+  "Lei 12.305/2010, art. 3º, XVI, e Decreto 10.936/2022 não aparecem como fontes de S10.",
+  "Lista Brasileira de Resíduos Sólidos/IN Ibama 13/2012 contém códigos de resíduos da preservação de madeira; seu enquadramento ao banho de CuSO₄ precisa ser analisado.",
+  "Pareceres de licenciamento de Minas Gerais localizados na busca descrevem circuito fechado, recuperação e precipitação de efluentes preservativos industriais; úteis como evidência de prática industrial, não como regra automática para uso doméstico."
+ ],
+ "FUROS": [
+  "Conclusão prévia de vão normativo desconsidera a definição ampla de resíduos líquidos na PNRS.",
+  "CONAMA 430 define efluente por despejo líquido de atividades/processos; inexistência de ponto licenciado não exclui por si só a norma.",
+  "A aritmética não prova impossibilidade física universal nem causalidade por descuido.",
+  "Comparação de mobilidade entre DOT e cúprico não é demonstrada pela Tabela 2.5.",
+  "S11 antecipa omissões de EPI e dose antes da leitura das instruções."
+ ],
+ "EXECUTAVEL_AGORA": false,
+ "DECLARACAO_NEGATIVA": "Não atribuí dano medido ao uso doméstico, não classifiquei automaticamente a solução exaurida ou o lodo como resíduo perigoso, e não encontrei norma específica que nomeie expressamente banho doméstico de CuSO₄ como objeto autônomo. A reprovação decorre da advocacia conclusiva e da tese categórica de ausência normativa, não de rejeição ao recorte de alerta.",
+ "NAO_VERIFIQUEI": "Não examinei integralmente NBR 10004:2024 (texto pago), todas as normas estaduais/municipais, os registros e rótulos completos de produtos preservantes, nem a aplicabilidade jurídica concreta da PNRS e da lista do Ibama a cada escala e método doméstico."
+}

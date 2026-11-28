@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sete fichas em homologação — Acervo Soberania Tecnológica</title>
+<style>
+:root{--tinta:#16181d;--papel:#fdfcfa;--papel2:#f2efe9;--linha:#d9d3c7;--acento:#7a2e1f;--ok:#2f6b3a;--alerta:#8a5a00;--nv:#5a4b8a}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--papel);color:var(--tinta);font:16px/1.62 Georgia,"Times New Roman",serif;-webkit-text-size-adjust:100%}
+header.capa{border-bottom:3px double var(--linha);padding:42px 26px 26px;background:linear-gradient(180deg,var(--papel2),var(--papel))}
+h1,h2,h3,h4,.rotulo,.nav a,.selo{font-family:"Helvetica Neue",Arial,sans-serif}
+.capa .rotulo{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#6b6255}
+.capa h1{font-size:clamp(23px,4.4vw,36px);line-height:1.16;margin:12px 0 10px;letter-spacing:-.01em}
+.capa .sub{font-size:17px;color:#4a4438;max-width:74ch;margin:0 0 18px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:#5b5347}
+.meta b{color:var(--tinta)}
+main{max-width:1180px;margin:0 auto;padding:0 22px 80px}
+section.aviso{background:#fff;border:1px solid var(--linha);border-left:5px solid var(--acento);padding:18px 20px;margin:26px 0}
+section.aviso h2{margin:0 0 8px;font-size:15px;letter-spacing:.04em;text-transform:uppercase;color:var(--acento)}
+.placar{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:16px 0 4px}
+.placar div{background:#fff;border:1px solid var(--linha);padding:10px 12px}
+.placar .n{font:600 22px/1.15 "Helvetica Neue",Arial,sans-serif}
+.placar .l{font-size:11.5px;color:#6b6255;letter-spacing:.04em;text-transform:uppercase;margin-top:3px}
+nav.toc{margin:26px 0 10px;border-top:1px solid var(--linha);padding:14px 0}
+nav.toc ol{margin:0;padding-left:20px}
+nav.toc li{margin:5px 0}
+nav.toc a{color:var(--tinta);text-decoration:none;border-bottom:1px solid transparent}
+nav.toc a:hover{border-bottom-color:var(--acento)}
+nav.toc .estado{font:600 11px/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:.06em;padding:2px 7px;border-radius:2px;margin-left:8px;vertical-align:1px}
+.selo{font-size:11px;letter-spacing:.06em;padding:3px 8px;border:1px solid currentColor;display:inline-block;text-transform:uppercase}
+.chip{display:inline-block;font:600 11px/1.5 "Helvetica Neue",Arial,sans-serif;letter-spacing:.05em;text-transform:uppercase;border:1px solid var(--linha);background:var(--papel2);color:#4a4438;padding:1px 7px;margin:2px 4px 2px 0;text-decoration:none;border-radius:2px}
+.selo.pass{color:var(--ok)}.selo.parcial{color:var(--alerta)}.selo.nv{color:var(--nv)}.selo.outro{color:#6b6255}
+article.ficha{border-top:3px double var(--linha);margin-top:46px;padding-top:26px;max-width:100%;overflow-wrap:anywhere}
+article.ficha>h1{font-size:clamp(21px,3.2vw,29px);line-height:1.2;margin:6px 0 14px}
+article.ficha h2{font-size:19px;margin:30px 0 8px;padding-bottom:4px;border-bottom:1px solid var(--linha)}
+article.ficha h3{font-size:15.5px;margin:22px 0 6px;color:#3d372d}
+article.ficha p{margin:11px 0;max-width:78ch}
+article.ficha ul,article.ficha ol{margin:11px 0;padding-left:24px;max-width:78ch}
+article.ficha li{margin:6px 0}
+blockquote{margin:14px 0;padding:12px 16px;background:var(--papel2);border-left:4px solid #b9ae99;max-width:78ch}
+blockquote p{margin:0}
+code{font:13.5px/1.4 ui-monospace,Menlo,Consolas,monospace;background:var(--papel2);padding:1px 4px;border-radius:2px}
+.tab{overflow-x:auto;max-width:100%;margin:14px 0;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;max-width:100%;font-size:14px;background:#fff}
+th,td{border:1px solid var(--linha);padding:7px 9px;text-align:left;vertical-align:top;overflow-wrap:anywhere;word-break:normal}
+th{background:var(--papel2);font:600 12px/1.35 "Helvetica Neue",Arial,sans-serif;letter-spacing:.03em;text-transform:uppercase}
+tbody tr:nth-child(even) td{background:#fbfaf7}
+.estado-ficha{background:#fff;border:1px solid var(--linha);padding:14px 16px;margin:14px 0 22px}
+.estado-ficha .linha{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;font:13.5px/1.5 "Helvetica Neue",Arial,sans-serif}
+.estado-ficha .itens{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;color:#4a4438}
+.pendencias{margin:10px 0 0;padding-left:20px;font:13.5px/1.55 "Helvetica Neue",Arial,sans-serif;color:#5b5347}
+.ia{border:1px dashed #b9ae99;background:#fff;padding:12px 16px;margin:26px 0 0}
+.ia .rotulo{font:600 11px/1.4 "Helvetica Neue",Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--acento)}
+.dm{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 0}
+.dm dt{font:600 11.5px/1.4 "Helvetica Neue",Arial,sans-serif;letter-spacing:.05em;text-transform:uppercase;color:#6b6255;min-width:120px}
+.dm dd{margin:0 0 6px}
+footer{border-top:3px double var(--linha);margin-top:60px;padding:22px 0 0;font-size:13px;color:#6b6255}
+.topo{position:fixed;right:16px;bottom:16px;background:var(--tinta);color:var(--papel);text-decoration:none;font:600 12px/1 "Helvetica Neue",Arial,sans-serif;padding:10px 12px;border-radius:2px;opacity:.86}
+@media (max-width:640px){
+ body{font-size:15.5px}
+ header.capa{padding:28px 18px 20px}
+ main{padding:0 16px 60px}
+ article.ficha h2{font-size:17.5px}
+ .dm dt{min-width:100%}
+}
+@media print{
+ body{background:#fff;font-size:11pt}
+ .topo,nav.toc{display:none}
+ article.ficha{page-break-before:always}
+ .tab{overflow:visible}
+}
+</style>
+</head>
+<body id="top">
+<header class="capa">
+  <div class="rotulo">Acervo Soberania Tecnológica · Bambu estrutural</div>
+  <h1>Sete fichas em homologação</h1>
+  <p class="sub">As fichas que aguardam a sua liberação. Cada afirmação de resultado traz a página da fonte; o
+  que o instrumento não conseguiu confirmar está dito na própria ficha, e aparece listado abaixo do título de cada uma.</p>
+  <div class="meta">
+    <span><b>7</b> fichas</span>
+    <span><b>694</b> afirmações de resultado · <b>864</b> números na ficha</span>
+    <span><b>859</b> aprovadas · <b>3</b> aprovadas sem unidade · <b>2</b> não verificáveis</span>
+    <span>gate de fidelidade à fonte · <code>ops/command-center/metodo/gate_fidelidade_fonte.py</code> · sha256 <code>a16eb44a</code> · self-test 96</span>
+  </div>
+</header>
+<main>
+  <section class="aviso">
+    <h2>O que “PASS” quer dizer — e o que não quer</h2>
+    <p>O gate confere duas coisas: que o número existe <em>na página que a ficha declara</em>, e que a unidade
+    confere. Ele <strong>não</strong> julga se a frase da ficha é a frase da fonte, nem se a conclusão é
+    legítima. Seis estão PASS e a PDMS está NAO_VERIFICAVEL (3 células sem unidade declarada na fonte); <strong>PASS não é homologação</strong>. Homologar é ato de leitura humana —
+    é o que esta página serve.</p>
+    <p><strong>As fontes primárias não acompanham este documento.</strong> Os PDFs que sustentam as
+    páginas citadas ficam em custódia privada e não são publicados junto das fichas. Nenhuma das páginas
+    foi conferida por auditor externo a partir deste arquivo: a conferência de página que esta leitura
+    descreve é a do curador, feita na fonte. Quem quiser reexaminar uma página precisa da custódia, não
+    deste HTML.</p>
+    <p>Três limites vêm declarados e não foram maquiados: na ficha do <b>acv</b>, oito itens do inventário
+    ficaram sem confirmação de unidade (a tabela foi achatada na extração), e não se anotou coordenada só para
+    fechar a ficha; na do <b>adier</b>, a atribuição da coluna MOR foi provada por coordenada na página, método
+    que vive na fonte privada e não no repositório; e em todas, o que a fonte não permitiu confirmar está
+    escrito na ficha, em vez de completado por inferência.</p>
+  </section>
+
+  <nav class="toc">
+    <div class="rotulo" style="font-size:11px;letter-spacing:.14em;color:#6b6255;margin-bottom:8px">ÍNDICE</div>
+    <ol><li><a href="#adier-2023-propriedades-tratamento-bambu">Adier 2023 — propriedades do bambu tratado</a><span class="estado selo pass">PASS</span></li><li><a href="#ficha-chen-2015-cu-moso-fitorremediacao">Chen 2015 — cobre e fitorremediação em bambu-mossô</a><span class="estado selo pass">PASS</span></li><li><a href="#ficha-liu-2015-pb-moso-fitorremediacao">Liu 2015 — chumbo e fitorremediação em bambu-mossô</a><span class="estado selo pass">PASS</span></li><li><a href="#marcal-2018-normas-internacionais-bambu">Marçal 2018 — normas internacionais do bambu</a><span class="estado selo pass">PASS</span></li><li><a href="#ficha-heat-treatment-pdms-bamboo">Zhang 2020 — tratamento térmico e PDMS</a><span class="estado selo nv">NAO_VERIFICAVEL</span></li><li><a href="#santos-2024-poetica-narrativa-tectonica-bambu">Santos 2024 — poética e narrativa tectônica</a><span class="estado selo pass">PASS</span></li><li><a href="#ficha-acv-bambu-unesp-araujo2025">Araújo 2025 — análise de ciclo de vida do bambu (UNESP)</a><span class="estado selo pass">PASS</span></li></ol>
+  </nav>
+  
+<article class="ficha" id="adier-2023-propriedades-tratamento-bambu">
+  <div class="estado-ficha">
+    <div class="linha"><span class="selo pass">PASS</span>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
+    <div class="linha itens" style="margin-top:6px">210 números · 171 afirmações de resultado · APROVADO 209 · NAO_VERIFICAVEL 1</div>
+    <ul class="pendencias"><li><code>49</code> — NAO_VERIFICAVEL · p. 23 · linha 95</li></ul>
+  </div>
+  <h1 id="adier-2023-propriedades-tratamento-bambu--ficha-científica-propriedades-tratamentos-e-norm">Ficha Científica: Propriedades, Tratamentos e Normas do Bambu Construtivo (Adier et al., 2023)</h1>
+<p><a href="https://doi.org/10.3390/buildings13102449" rel="noopener"><a class="chip" href="https://img.shields.io/badge/DOI-10.3390%2Fbuildings13102449-blue.svg" rel="noopener">DOI</a></a> <a class="chip" href="https://img.shields.io/badge/tipo-Ficha%20Cient%C3%ADfica-teal.svg" rel="noopener">Tipo</a></p>
+<hr>
+<h2 id="adier-2023-propriedades-tratamento-bambu--1-identificação-documental-e-metadados-formais">1. Identificação Documental e Metadados Formais</h2>
+<ul>
+<li><strong>Título Original:</strong> <em>Bamboo as Sustainable Building Materials: A Systematic Review of Properties, Treatment Methods, and Standards</em></li>
+<li><strong>Autores:</strong> Maria Fe V. Adier, Maria Emilia P. Sevilla, Daniel Nichol R. Valerio, Jason Maximino C. Ongpeng.</li>
+<li><strong>Instituição de Origem:</strong> Department of Civil Engineering, De La Salle University, Manila, Filipinas.</li>
+<li><strong>Publicação:</strong> <em>Buildings</em>, v. 13, n. 10, art. 2449, set. 2023.</li>
+<li><strong>DOI:</strong> <a href="https://doi.org/10.3390/buildings13102449" rel="noopener">doi.org/10.3390/buildings13102449</a></li>
+<li><strong>Idioma:</strong> Inglês.</li>
+</ul>
+<hr>
+<h2 id="adier-2023-propriedades-tratamento-bambu--2-contexto-e-justificativa-da-pesquisa">2. Contexto e Justificativa da Pesquisa</h2>
+<p>O bambu apresenta elevada relação resistência-peso e rápido crescimento, mas a fragmentação de dados sobre suas propriedades físicas e a diversidade de normas regionais dificultam sua adoção em larga escala na engenharia civil estrutural.</p>
+<hr>
+<h2 id="adier-2023-propriedades-tratamento-bambu--3-objetivos-e-pergunta-de-investigação">3. Objetivos e Pergunta de Investigação</h2>
+<p>Realizar uma revisão sistemática da literatura para mapear e compilar as propriedades físico-mecânicas das principais espécies de bambu (<em>Guadua angustifolia</em>, <em>Phyllostachys edulis</em>, <em>Dendrocalamus asper</em>), os métodos de preservação e a evolução dos códigos normativos (ISO 22157, ABNT NBR 16828, NSR-10).</p>
+<hr>
+<h2 id="adier-2023-propriedades-tratamento-bambu--4-metodologia-e-rigores-experimentais">4. Metodologia e Rigores Experimentais</h2>
+<p>Revisão sistemática conduzida segundo as diretrizes PRISMA, analisando artigos indexados nas bases Scopus e Web of Science entre 2010 e 2023.</p>
+<hr>
+<h2 id="adier-2023-propriedades-tratamento-bambu--5-achados-e-resultados-empíricos">5. Achados e Resultados Empíricos</h2>
+<ul>
+<li><strong>Resistência à tração:</strong> <em>Bambusa tulda</em> apresentou resistência à tração de <strong>226,28 MPa</strong> (p. 2).</li>
+<li><strong>Resistência à tração de feixes de fibra de bambu-mossô:</strong> a resistência média inicial das amostras sem tratamento térmico foi <strong>423,29 MPa</strong> (p. 21).</li>
+<li><strong>Resistência à flexão (MOR):</strong> na Tabela 6, a linha da referência [53] reporta <strong>50–220 MPa</strong> de MOR (p. 24).</li>
+<li><strong>Densidade seca do bambu comumente usado em estruturas:</strong> varia de <strong>500 kg/m³</strong> a <strong>800 kg/m³</strong> (p. 12).</li>
+</ul>
+<blockquote><p><strong>Nota de verificação:</strong> na Tabela 6, a unidade está no cabeçalho da coluna (MOR em MPa, MOE em GPa), não junto aos valores <code>50–220</code>. A coluna foi conferida por coordenada na página 24 (o valor começa sob o cabeçalho MOR, não sob CS), e a unidade foi conferida na mesma coordenada — por isso o valor entra na ficha como <strong>MPa</strong>. Registro dos instrumentos, para que o número publicado nomeie quem mediu: o gate <strong>vigente</strong> é <code>a16eb44a</code> (self-test 96), e ele emite para esta linha o estado <strong><code>APROVADO</code></strong> com a unidade <strong><code>MPa</code></strong> (p. 24). O <code>54691508</code> (self-test 95) emitia o mesmo estado; o <code>1750b762</code> (self-test 58) emitia <code>APROVADO_SEM_UNIDADE</code>. Nenhum dos três valores foi ajustado na ficha — o que mudou foi o instrumento. A conferência da coordenada que sustenta a atribuição da coluna — o valor começa sob o cabeçalho MOR, não sob CS — foi feita na fonte privada e não é reproduzível a partir daqui.</p></blockquote>
+<hr>
+<h2 id="adier-2023-propriedades-tratamento-bambu--51-tabela-6-a-consolidação-mecânica-do-artigo-p">5.1 Tabela 6 — a consolidação mecânica do artigo (p. 24)</h2>
+<p>A Tabela 6 é o núcleo quantitativo desta revisão: 27 referências com resistência à compressão (CS), tração (TS), flexão (FS), cisalhamento (SS), MOR, MOE, dureza e capacidade de carga. Medido no derivado: a tabela ocupa uma página (p. 24) e a extração a entrega <strong>achatada, sem grade</strong> — os valores aparecem alinhados em sequência, e a coluna de cada valor só é recuperável quando a extração registra a coordenada do cabeçalho.</p>
+<p>Dois valores têm atribuição declarada no texto corrido, e entram como afirmação verificável:</p>
+<ul>
+<li><em>Bambusa vulgaris</em>: módulo de elasticidade do colmo entre <strong>6,1 GPa e 14,2 GPa</strong> (Sa Ribeiro et al. [8], p. 23).</li>
+<li>Compósito de fibra de bambu (bamboo strand composite lumber): MOE de até <strong>30.000 MPa</strong> ([49], p. 23).</li>
+</ul>
+<p>O restante da tabela vai transcrito literalmente abaixo. <strong>Nenhuma coluna foi atribuída por adivinhação</strong>: onde a extração não registra a coordenada, o valor está transcrito na ordem em que aparece, sem rótulo de propriedade. A atribuição da coluna MOR para o intervalo <code>50–220</code> ([53]) foi provada por coordenada (x = 314,6, sob o cabeçalho MOR) e é a única que a ficha afirma como MOR.</p>
+<p><strong>Tabela 6.1 — as três atribuições que a fonte prova (coluna + propriedade)</strong></p>
+<p>A coluna <code>Pág.</code> é localizador, não resultado: diz onde a linha está, não o que ela mede.</p>
+<div class="tab"><table><thead><tr><th>Referência</th><th>Propriedade</th><th>Valor</th><th>Pág.</th></tr></thead><tbody><tr><td>[8]</td><td>MOE</td><td>6,1–14,2 GPa</td><td>23</td></tr><tr><td>[53]</td><td>MOR</td><td>50–220 MPa</td><td>24</td></tr><tr><td>[49]</td><td>MOE</td><td>30,000 MPa</td><td>23</td></tr></tbody></table></div>
+<p>As três têm prova textual, e sem ela não estariam nesta tabela: para [8], «Sa Ribeiro et al. [8] investigated the modulus of elasticity of <em>Bambusa vulgaris</em> culm, which ranged from 6.1 GPa to 14.2 GPa» (p. 23); para [49], «For bamboo composite, such as Bamboo strand composite lumber, the MOE is as high as 30,000 MPa [49]» (p. 23); para [53], o valor <code>50–220</code> começa sob o cabeçalho MOR na coordenada x = 314,6 (p. 24).</p>
+<p><strong>Tabela 6.2 — transcrição integral, sem atribuição de coluna (29 referências)</strong></p>
+<p>Os valores estão na ordem em que a fonte os publica. <strong>Nenhuma coluna foi atribuída por inferência</strong>: a extração entrega a Tabela 6 achatada, sem grade, e os símbolos <code>∥</code> e <code>⊥</code> (paralelo/perpendicular às fibras) vêm como a fonte os escreve. A propriedade de cada célula desta tabela <strong>não é afirmada</strong> — é exatamente o que a ficha não sabe, e declarar isso é mais honesto que rotular por posição.</p>
+<div class="tab"><table><thead><tr><th>Referência</th><th>Valores como publicados, na ordem da fonte</th><th>Localização</th></tr></thead><tbody><tr><td>[11]</td><td>191.61–423.29 ∥ · 21.29–27.53 · 360–470 MPa</td><td>p. 24</td></tr><tr><td>[74]</td><td>42.50–52.73 ∥ · 159.01 ∥1 · 164.30 ∥2 · 148.69 ∥1 · 153.31 ∥2 · (1 S-1, 2 S-15)</td><td>p. 24</td></tr><tr><td>[75]</td><td>130–160 ∥</td><td>p. 24</td></tr><tr><td>[76]</td><td>57 ∥</td><td>p. 24</td></tr><tr><td>[45]</td><td>32.72 ∥ · 147.0 ∥, 8.36 ⊥ · 171.44–210.14 (1) · 326.25–550.87 (2) · (1 mortar, 2 concrete)</td><td>p. 24</td></tr><tr><td>[49]</td><td>24.27–158.26 ∥ · 5.48–36.22 · 64.63–328.18 · 13.35–29.34</td><td>p. 24</td></tr><tr><td>[8]</td><td>48–132 · 6.1–14.2</td><td>p. 24</td></tr><tr><td>[53]</td><td>50–220 · 5.0–20.0</td><td>p. 24</td></tr><tr><td>[15]</td><td>75–82.2 ∥</td><td>p. 24</td></tr><tr><td>[61]</td><td>38.46–162.82 ∥ · 8.30–17.15</td><td>p. 24</td></tr><tr><td>[62]</td><td>76.7–107.6 · 26.82–36.24</td><td>p. 24</td></tr><tr><td>[63]</td><td>74.56 (1), 82.72 (2) · 18.93 (1), 18.74 (2) · (1 manual, 2 hydraulic)</td><td>p. 24</td></tr><tr><td>[78]</td><td>50.57 ∥, 14.82 ⊥ · 112.56 ∥ · 118.0 ∥ · 17.34 · 9.90</td><td>p. 24</td></tr><tr><td>[24]</td><td>55–60 ∥, 22 ⊥ · 116–124 ∥ · 76–79 ∥, 3.0 ⊥ · 14–17 · 10.20–10.50</td><td>p. 24</td></tr><tr><td>[22]</td><td>114 ∥, 19.3 ⊥ · 136–294 ∥ · 13.5–14.8 · 225.0 · 21.0</td><td>p. 24</td></tr><tr><td>[51]</td><td>156.43–397.96 ∥ · 188.04–361.75 ∥</td><td>p. 24</td></tr><tr><td>[23]</td><td>104.71–115.7 ∥ · 49.33–77.0 ⊥ · 111–144.75 ∥, 4.18–6.70 ⊥ · 131–166.5 ∥ · 11.89–17</td><td>p. 24</td></tr><tr><td>[56]</td><td>58.1–66.3 ∥ · 194.9–225.5 · 22.3–23.8 · 3.0–3.76 kN</td><td>p. 24</td></tr><tr><td>[5]</td><td>85.0–230.0 ∥ · 80–210.0 · 8.0–12.5</td><td>p. 24</td></tr><tr><td>[27]</td><td>122.0 · 18.5</td><td>p. 24</td></tr><tr><td>[79]</td><td>211.0 ∥</td><td>p. 24</td></tr><tr><td>[80]</td><td>38.40–92.37 ∥</td><td>p. 24</td></tr><tr><td>[58]</td><td>243.4 (1), 76.0 (2), 266.6 (3) MPa · (1 smoked, 2 dried, 3 dyed)</td><td>p. 24</td></tr><tr><td>[81]</td><td>81.43–124.30 ∥ · 3.76</td><td>p. 24</td></tr><tr><td>[84]</td><td>2.11</td><td>p. 24</td></tr><tr><td>[59]</td><td>653.3–766.2 ∥ · 22.5–26.7</td><td>p. 24</td></tr><tr><td>[13]</td><td>43.9–72.2 ∥ · 15.9–21.8 · 8.81–13.2</td><td>p. 24</td></tr><tr><td>[1]</td><td>54–58.0 ∥ · 12.0–16.0 · 11.93–20.68</td><td>p. 24</td></tr><tr><td>[16]</td><td>59.1–69.9 ∥</td><td>p. 24</td></tr></tbody></table></div>
+<blockquote><p>Limite declarado: em Tabela 6.2 a ficha reconhece que <strong>não sabe a que propriedade cada valor corresponde</strong>. O valor é literal e a página é a da tabela; a atribuição fica em aberto e a ficha não a inventa. Quem precisar de MOR, MOE, CS, TS, FS ou SS linha a linha tem de abrir a p. 24 na fonte.</p></blockquote>
+<p><strong>Por que esta tabela não é verificada pelo instrumento.</strong> Medido com o gate vigente (<code>a16eb44a</code>, self-test 96), em três sondas: com a página no cabeçalho da seção, só a <strong>primeira</strong> linha herda a página; com <code>(p. 24)</code> ao fim da linha, só os números imediatamente à esquerda do parêntese herdam; com coluna «Pág.», nenhum herda. Transcrita como tabela markdown, a tabela inteira volta <code>SEM_PAGINA</code> célula por célula. Por isso ela entra aqui como transcrição literal, com a página declarada no título — verificável por leitura humana, e declarada como <strong>não verificável pelo instrumento</strong> em vez de fingir o contrário.</p>
+<hr>
+<h2 id="adier-2023-propriedades-tratamento-bambu--6-implicações-para-o-setor-e-construção-sustentá">6. Implicações para o Setor e Construção Sustentável</h2>
+<p>Demonstra a viabilidade técnica do bambu roliço como substituto do aço em elementos tracionados e da alvenaria em elementos de vedação, desde que atendidos os critérios de durabilidade e conexões flexíveis.</p>
+<hr>
+<h2 id="adier-2023-propriedades-tratamento-bambu--7-limitações-e-lacunas-declaradas-pelos-autores">7. Limitações e Lacunas Declaradas pelos Autores</h2>
+<p>Aponta a falta de preenchimentos sustentáveis não friáveis nas conexões para impedir o cisalhamento nos nós como a principal lacuna da engenharia contemporânea de bambu.</p>
+<hr>
+<h2 id="adier-2023-propriedades-tratamento-bambu--8-síntese-de-alinhamento-com-a-tecnologia-takwar">8. Síntese de Alinhamento com a Tecnologia Takwara</h2>
+<p>Os valores de resistência mecânica desta ficha <strong>não são atribuídos</strong> ao <em>Manual de Conexões Estruturais (Solda Vegetal)</em>: o manual é citado no projeto, mas a referência não foi localizada (DOI pendente), e a correspondência entre os valores desta fonte e os do manual <strong>não foi medida</strong>. A escolha da <em>Guadua</em> como espécie estrutural prioritária é do projeto, não conclusão desta fonte.</p>
+<hr>
+<h2 id="adier-2023-propriedades-tratamento-bambu--declaração-de-uso-de-inteligência-artificial">Declaração de uso de inteligência artificial</h2>
+<p>Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas, conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.</p>
+<p><strong>O que a inteligência artificial não faz:</strong> ela não homologa. A homologação é ato humano, do responsável pela curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o número existe na página não substitui esse julgamento.</p>
+<p><strong>O que não foi feito:</strong> nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.</p>
+</article>
+<article class="ficha" id="ficha-chen-2015-cu-moso-fitorremediacao">
+  <div class="estado-ficha">
+    <div class="linha"><span class="selo pass">PASS</span>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
+    <div class="linha itens" style="margin-top:6px">83 números · 62 afirmações de resultado · APROVADO 82 · NAO_VERIFICAVEL 1</div>
+    <ul class="pendencias"><li><code>0</code> — NAO_VERIFICAVEL · p. 3 · linha 70</li></ul>
+  </div>
+  <h1 id="ficha-chen-2015-cu-moso-fitorremediacao--cobre-e-potencial-de-fitorremediação-do-bambu-mo">Cobre e potencial de fitorremediação do bambu-mossô (<em>Phyllostachys pubescens</em>)</h1>
+<blockquote><p><strong>Síntese:</strong> Estudo experimental (hidroponia + vaso) da tolerância e acumulação de cobre em mudas de bambu-mossô (<em>Phyllostachys pubescens</em>). Os resultados são <strong>experimentais e específicos das condições do ensaio; não constituem recomendação geral de fitorremediação nem certificação de desempenho</strong>.</p></blockquote>
+<blockquote><p>🔬 <strong>Nota nomenclatural:</strong> o artigo usa o nome <em>Phyllostachys pubescens</em> (Mazo ex J.Houz.). Bases taxonômicas atuais (GBIF species/match, acesso 2026-08-09) tratam <em>P. pubescens</em> como <strong>sinônimo de <em>Phyllostachys edulis</em> (Carrière) J.Houz.</strong> (status SYNONYM; accepted = P. edulis). O nome do artigo é preservado nesta ficha; a equivalência é registrada para fins de busca e cruzamento, sem substituição por inferência.</p></blockquote>
+<h2 id="ficha-chen-2015-cu-moso-fitorremediacao--1-dados-gerais">1. Dados gerais</h2>
+<div class="tab"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody><tr><td><strong>Título original</strong></td><td>Copper induced oxidative stresses, antioxidant responses and phytoremediation potential of Moso bamboo (<em>Phyllostachys pubescens</em>)</td></tr><tr><td><strong>Autores</strong></td><td>Junren Chen; Mohammad Shafi; Song Li; Ying Wang; Jiasen Wu; Zhengqian Ye; Danli Peng; Wenbo Yan; Dan Liu</td></tr><tr><td><strong>Periódico</strong></td><td><em>Scientific Reports</em></td></tr><tr><td><strong>Volume</strong></td><td>v. 5, artigo 13554</td></tr><tr><td><strong>Ano</strong></td><td>2015</td></tr><tr><td><strong>DOI</strong></td><td><a href="https://doi.org/10.1038/srep13554" rel="noopener">10.1038/srep13554</a></td></tr><tr><td><strong>Acesso</strong></td><td>Aberto (PMC4559668; Nature)</td></tr><tr><td><strong>Tipo</strong></td><td>Artigo experimental quantitativo</td></tr><tr><td><strong>Objeto</strong></td><td><em>Phyllostachys pubescens</em> (bambu-mossô), mudas</td></tr></tbody></table></div>
+<h2 id="ficha-chen-2015-cu-moso-fitorremediacao--2-condições-experimentais">2. Condições experimentais</h2>
+<div class="tab"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody><tr><td><strong>Experimento 1</strong></td><td>Hidroponia, 15 dias, tratamentos 0–100 µM Cu (enzimas/prolina; Tabela 4)</td></tr><tr><td><strong>Experimento 2</strong></td><td>Vaso, 2 meses, tratamentos 0–600 mg/kg Cu (Tabela 3)</td></tr><tr><td><strong>Réplicas</strong></td><td>n = 3</td></tr><tr><td><strong>Órgãos analisados</strong></td><td>Raízes, caules, folhas</td></tr><tr><td><strong>Unidades</strong></td><td>mg/kg (concentração tecidual); BAF/TF adimensionais</td></tr><tr><td><strong>Método analítico</strong></td><td>Digestão de ~0,3 g de amostra vegetal em solução HNO₃/HClO₄; filtragem em papel 0,45 µm; acidificação com HNO₃ 15%; análise por ICP-MS (p. 7, seção &quot;Cu accumulation in plant tissues&quot;)</td></tr><tr><td><strong>Registro do equipamento</strong></td><td>ICP-MS da Agilent, modelo 7500a (p. 7)</td></tr></tbody></table></div>
+<blockquote><p><strong>Nota de terminologia (BAF × BCF):</strong> o artigo usa o acrônimo <strong>BAF</strong> (&quot;bioaccumulation factor&quot;), definido literalmente como BAF = [Cu contents in tissues]/[Cu contents in soil] (p. 8). A sigla <strong>BCF</strong> não é usada neste artigo para o fator de bioacumulação. Esta ficha preserva a terminologia original (BAF) e não a normaliza para BCF por inferência.</p></blockquote>
+<h2 id="ficha-chen-2015-cu-moso-fitorremediacao--3-valores-documentados-fonte-primária-tabelapági">3. Valores documentados (fonte primária — tabela/página)</h2>
+<h3 id="ficha-chen-2015-cu-moso-fitorremediacao--tabela-3-vaso-2-meses-cu-p-3">Tabela 3 — vaso, 2 meses, Cu (p. 3)</h3>
+<div class="tab"><table><thead><tr><th>Tratamento</th><th>BAF raiz</th><th>TF caule</th><th>TF folha</th></tr></thead><tbody><tr><td>50 mg/kg (p. 3)</td><td>0,78 (p. 3)</td><td>0,23 (p. 3)</td><td>0,15 (p. 3)</td></tr><tr><td>100 mg/kg (p. 3)</td><td>1,41 (p. 3)</td><td>0,18 (p. 3)</td><td>0,09 (p. 3)</td></tr><tr><td>300 mg/kg (p. 3)</td><td>0,63 (p. 3)</td><td>0,22 (p. 3)</td><td>0,10 (p. 3)</td></tr><tr><td>600 mg/kg (p. 3)</td><td>0,54 (p. 3)</td><td>0,18 (p. 3)</td><td>0,07 (p. 3)</td></tr></tbody></table></div>
+<ul>
+<li><strong>Concentração tecidual máxima</strong> (600 mg/kg, p. 3): raízes 340 mg/kg (p. 3); caules 60 mg/kg (p. 3); folhas 23 mg/kg (p. 3).</li>
+<li><strong>Interpretação do artigo (p. 5):</strong> &quot;Moso bamboo is not hyperaccumulator for Cu. All BAF and TF values were less than 1 except BAF of roots at 100 mg/kg.&quot;</li>
+</ul>
+<h3 id="ficha-chen-2015-cu-moso-fitorremediacao--tabela-2-biomassa-e-clorofila-sob-estresse-de-cu">Tabela 2 — biomassa e clorofila sob estresse de Cu em vaso, 2 meses (p. 3)</h3>
+<p>Cinco doses de cobre no solo (0, 50, 100, 300 e 600 mg kg⁻¹), três repetições. Células com média ± desvio padrão seguidas da letra de significância que a fonte publica. BAF é o fator de bioacumulação; TF, o de translocação. <code>Pág.</code> é localizador.</p>
+<div class="tab"><table><thead><tr><th>Cu no solo (mg kg⁻¹)</th><th>Raízes (mg kg⁻¹)</th><th>Colmos (mg kg⁻¹)</th><th>Folhas (mg kg⁻¹)</th><th>BAF raiz</th><th>BAF colmo</th><th>BAF folha</th><th>TF colmo</th><th>TF folha</th><th>Pág.</th></tr></thead><tbody><tr><td>0</td><td>7 ± 2.8d</td><td>5 ± 0.5e</td><td>5.4 ± 0.2d</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>3</td></tr><tr><td>50</td><td>60 ± 6c</td><td>14 ± 1.5d</td><td>9 ± 1c</td><td>0.78</td><td>0.18</td><td>0.12</td><td>0.23</td><td>0.15</td><td>3</td></tr><tr><td>100</td><td>178 ± 28b</td><td>33 ± 3c</td><td>16 ± 1.4b</td><td>1.41</td><td>0.26</td><td>0.13</td><td>0.18</td><td>0.09</td><td>3</td></tr><tr><td>300</td><td>207 ± 32b</td><td>46 ± 3b</td><td>21 ± 3a</td><td>0.63</td><td>0.14</td><td>0.06</td><td>0.22</td><td>0.10</td><td>3</td></tr><tr><td>600</td><td>340 ± 21a</td><td>60 ± 7a</td><td>23 ± 4a</td><td>0.54</td><td>0.04</td><td>0.04</td><td>0.18</td><td>0.07</td><td>3</td></tr></tbody></table></div>
+<p><strong>O que a tabela mostra:</strong> a concentração nas raízes cresce de 7 para 340 mg kg⁻¹ quando o solo vai de 0 a 600 mg kg⁻¹, enquanto folhas param em 23 mg kg⁻¹ — a barreira está na raiz, não no transporte. O BAF da raiz cai de 1,41 (100 mg kg⁻¹) para 0,54 (600 mg kg⁻¹): a planta absorve, mas satura. Os TF de colmo e folha também caem, o que sustenta a leitura de tolerância por retenção radicular, não por exclusão.</p>
+<h3 id="ficha-chen-2015-cu-moso-fitorremediacao--nota-sobre-hidroponia">Nota sobre hidroponia</h3>
+<p>A Tabela 4 (hidroponia) reporta apenas atividade enzimática (SOD/POD/MDA) e prolina — <strong>não há BAF/TF de hidroponia neste artigo</strong>.</p>
+<h2 id="ficha-chen-2015-cu-moso-fitorremediacao--4-correspondência-com-valores-citados-em-revisõe">4. Correspondência com valores citados em revisões</h2>
+<ul>
+<li>A revisão Nemenyi (2022) cita o par Cu <strong>3,04/0,22</strong> atribuído à Tabela 2 de experimento hidropônico com fontes mistas (Li 2016; Chen 2015; Liu 2015; Zhang 2011).</li>
+<li><strong>Este artigo (SciRep 2015) NÃO contém o valor 3,04</strong> — a origem primária do 3,04 permanece <strong>em aberto</strong> (não confirmada nesta ficha).</li>
+<li>Valor <strong>divergente registrado sem escolha por inferência</strong>: 3,04/0,22 (citado pela Nemenyi) vs BAF 0,54–1,41 / TF 0,07–0,23 (SciRep, vaso).</li>
+</ul>
+<h2 id="ficha-chen-2015-cu-moso-fitorremediacao--5-limites-e-precauções">5. Limites e precauções</h2>
+<ul>
+<li>Resultados de vaso/hidroponia; <strong>não constituem recomendação geral de fitorremediação</strong>.</li>
+<li>Não há ensaio de campo, não há recomendação de espécie para restauração, não há declaração de desempenho certificado.</li>
+<li>Esta ficha documenta a fonte primária; a aplicação em projetos exige validação adicional.</li>
+</ul>
+<h2 id="ficha-chen-2015-cu-moso-fitorremediacao--6-proveniência">6. Proveniência</h2>
+<div class="tab"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody><tr><td><strong>Fonte primária</strong></td><td>Chen et al. 2015, Sci. Rep. 5:13554 (HTML integral conferido — PMC4559668; PDF equivalente baixado da Nature)</td></tr><tr><td><strong>Fonte secundária citada</strong></td><td>Nemenyi et al. 2022 (Acta Agraria Debreceniensis) — revisão</td></tr><tr><td><strong>Arquivo (privado)</strong></td><td>sci_reports_2015_cu_moso_PMC4559668.html — SHA-256 371c6dfdb700765dda3c1acc6cb5d23ee37b7c5ec7c8ee274d3f7c767bb3188c (HTML integral em PMC); PDF da Nature (srep13554.pdf, 1.349.915 bytes) — SHA-256 7fb48631cee95391acc31f2b0f2c6673cbf2a33b4ea3901c3b2a1ff4f44e0d1a (registrado em HASHES_FONTES.sha256)</td></tr><tr><td><strong>URL oficial</strong></td><td>https://pmc.ncbi.nlm.nih.gov/articles/PMC4559668/ ; https://www.nature.com/articles/srep13554</td></tr><tr><td><strong>Data de acesso</strong></td><td>2026-08-09</td></tr></tbody></table></div>
+<h2 id="ficha-chen-2015-cu-moso-fitorremediacao--7-registro">7. Registro</h2>
+<div class="tab"><table><thead><tr><th>Data</th><th>Versão</th><th>Alteração</th></tr></thead><tbody><tr><td>2026-08-09</td><td>1.0</td><td>Ficha criada (patch candidato F2; frente CONTRATO_INTEGRACAO_FONTES_FITORREMEDIACAO_001).</td></tr></tbody></table></div>
+<h2 id="ficha-chen-2015-cu-moso-fitorremediacao--declaração-de-uso-de-inteligência-artificial">Declaração de uso de inteligência artificial</h2>
+<p>Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas, conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.</p>
+<p><strong>O que a inteligência artificial não faz:</strong> ela não homologa. A homologação é ato humano, do responsável pela curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o número existe na página não substitui esse julgamento.</p>
+<p><strong>O que não foi feito:</strong> nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.</p>
+</article>
+<article class="ficha" id="ficha-liu-2015-pb-moso-fitorremediacao">
+  <div class="estado-ficha">
+    <div class="linha"><span class="selo pass">PASS</span>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
+    <div class="linha itens" style="margin-top:6px">64 números · 54 afirmações de resultado · APROVADO 64</div>
+    
+  </div>
+  <h1 id="ficha-liu-2015-pb-moso-fitorremediacao--chumbo-e-tolerância-do-bambu-mossô-phyllostachys">Chumbo e tolerância do bambu-mossô (<em>Phyllostachys pubescens</em>)</h1>
+<blockquote><p><strong>Síntese:</strong> Experimento de hidroponia com mudas de bambu-mossô sob estresse de chumbo (0–400 µmol/L, 30 dias). Os resultados são <strong>experimentais e específicos das condições do ensaio; não constituem recomendação geral de fitorremediação nem certificação de desempenho</strong>.</p></blockquote>
+<blockquote><p>🔬 <strong>Nota nomenclatural:</strong> o artigo usa o nome <em>Phyllostachys pubescens</em>. Bases taxonômicas atuais (GBIF species/match, acesso 2026-08-09) tratam <em>P. pubescens</em> como <strong>sinônimo de <em>Phyllostachys edulis</em> (Carrière) J.Houz.</strong> (status SYNONYM; accepted = P. edulis). O nome do artigo é preservado nesta ficha; a equivalência é registrada para fins de busca e cruzamento, sem substituição por inferência.</p></blockquote>
+<h2 id="ficha-liu-2015-pb-moso-fitorremediacao--1-dados-gerais">1. Dados gerais</h2>
+<div class="tab"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody><tr><td><strong>Título original</strong></td><td>Lead accumulation and tolerance of Moso bamboo (<em>Phyllostachys pubescens</em>) seedlings: applications of phytoremediation</td></tr><tr><td><strong>Autores</strong></td><td>Dan Liu; Song Li; Ejazul Islam; Jun-ren Chen; Jia-sen Wu; Zheng-qian Ye; Dan-li Peng; Wen-bo Yan; Kou-ping Lu</td></tr><tr><td><strong>Periódico</strong></td><td><em>Journal of Zhejiang University-SCIENCE B</em></td></tr><tr><td><strong>Volume e páginas</strong></td><td>v. 16, n. 2, p. 123–130</td></tr><tr><td><strong>Ano</strong></td><td>2015</td></tr><tr><td><strong>DOI</strong></td><td><a href="https://doi.org/10.1631/jzus.B1400107" rel="noopener">10.1631/jzus.B1400107</a></td></tr><tr><td><strong>Acesso</strong></td><td>Aberto (opentxt editor ZJU)</td></tr><tr><td><strong>Tipo</strong></td><td>Artigo experimental quantitativo</td></tr><tr><td><strong>Objeto</strong></td><td><em>Phyllostachys pubescens</em> (bambu-mossô), mudas</td></tr></tbody></table></div>
+<h2 id="ficha-liu-2015-pb-moso-fitorremediacao--2-condições-experimentais">2. Condições experimentais</h2>
+<div class="tab"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody><tr><td><strong>Experimento</strong></td><td>Hidroponia, 30 dias, tratamentos 0–400 µmol/L Pb</td></tr><tr><td><strong>Réplicas</strong></td><td>n = 3</td></tr><tr><td><strong>Órgãos analisados</strong></td><td>Raízes, caules, folhas</td></tr><tr><td><strong>Unidades</strong></td><td>mg/kg (concentração tecidual); BCF/TF adimensionais</td></tr><tr><td><strong>Definições (rodapé da Tabela 1, p. 125-126)</strong></td><td>Literal do artigo: &quot;TF=CS/CR, BCF=Cp/Cm, where CS, CR, Cp, and Cm are Pb concentrations in the shoot, root, plant, and medium, respectively.&quot; — <strong>Cp = concentração na &quot;planta&quot;</strong> (o artigo não especifica se biomassa total ou soma de órgãos; o termo usado é &quot;plant&quot;; a ficha reproduz a definição literal sem inferir)</td></tr></tbody></table></div>
+<h2 id="ficha-liu-2015-pb-moso-fitorremediacao--3-valores-documentados-fonte-primária-tabelapági">3. Valores documentados (fonte primária — tabela/página)</h2>
+<h3 id="ficha-liu-2015-pb-moso-fitorremediacao--tabela-1-p-126-hidroponia-30-dias-pb">Tabela 1 (p. 126) — hidroponia, 30 dias, Pb</h3>
+<p>Sete tratamentos, três repetições. As três colunas de concentração por tecido e as duas de fator estavam faltando nesta ficha; entram agora, como a fonte as publica (média ± desvio padrão e letra de significância). TF é o fator de translocação (parte aérea/raiz) e BCF o de bioacumulação (planta/meio). <code>Pág.</code> é localizador.</p>
+<div class="tab"><table><thead><tr><th>Pb (µmol/L)</th><th>Raiz (mg/kg)</th><th>Colmo (mg/kg)</th><th>Folha (mg/kg)</th><th>TF</th><th>BCF</th><th>Pág.</th></tr></thead><tbody><tr><td>CK</td><td>0.6 ± 0.5b</td><td>0.1 ± 0.7d</td><td>0.2 ± 0.6f</td><td>–</td><td>–</td><td>126</td></tr><tr><td>10</td><td>146 ± 30b</td><td>56 ± 14cd</td><td>49 ± 9e</td><td>0.36</td><td>37.64</td><td>126</td></tr><tr><td>25</td><td>233 ± 58b</td><td>94 ± 18cd</td><td>84 ± 3d</td><td>0.37</td><td>24.95</td><td>126</td></tr><tr><td>50</td><td>331 ± 43b</td><td>141 ± 4cd</td><td>105 ± 8cd</td><td>0.36</td><td>17.27</td><td>126</td></tr><tr><td>100</td><td>544 ± 103b</td><td>210 ± 22bc</td><td>127 ± 14bc</td><td>0.29</td><td>12.82</td><td>126</td></tr><tr><td>200</td><td>1221 ± 200b</td><td>351 ± 56ab</td><td>165 ± 34a</td><td>0.19</td><td>11.50</td><td>126</td></tr><tr><td>400</td><td>4283 ± 994a</td><td>482 ± 166a</td><td>149 ± 17ab</td><td>0.07</td><td>10.97</td><td>126</td></tr></tbody></table></div>
+<p><strong>O que a tabela mostra:</strong> a raiz concentra até 4.283 mg/kg e a folha não passa de 165 mg/kg; o TF cai de 0,37 para 0,07 conforme a dose sobe, e o BCF cai de 37,64 para 10,97. Retenção radicular crescente com a dose, transporte decrescente — o mesmo padrão que a ficha do Chen registra para o cobre.</p>
+<ul>
+<li><strong>Concentração máxima</strong> (400 µmol/L, p. 123): raízes <strong>4.282,8 mg/kg</strong> (p. 123); caules 482,2 mg/kg (p. 123); folhas 148,8 mg/kg (p. 123).</li>
+<li><strong>Interpretação do artigo (p. 127):</strong> &quot;All TF values were less than 1, whereas all BCF values were more than 10.&quot;</li>
+</ul>
+<h2 id="ficha-liu-2015-pb-moso-fitorremediacao--4-correspondência-com-valores-citados-em-revisõe">4. Correspondência com valores citados em revisões</h2>
+<ul>
+<li>A revisão Nemenyi (2022) cita o par Pb <strong>10,70/0,03</strong> para P. edulis hidroponia.</li>
+<li><strong>Este artigo reporta BCF 10,97 (400 µmol/L) e TF 0,07</strong> — próximos, mas <strong>não idênticos</strong> aos citados pela Nemenyi.</li>
+<li>Valor <strong>divergente registrado sem escolha por inferência</strong>: 10,70/0,03 (Nemenyi) vs 10,97/0,07 (JZUS, 400 µmol/L). A Nemenyi pode ter citado outro estudo (Li 2016 etc.) para o par 10,70/0,03.</li>
+</ul>
+<h2 id="ficha-liu-2015-pb-moso-fitorremediacao--5-limites-e-precauções">5. Limites e precauções</h2>
+<ul>
+<li>Resultados de hidroponia; <strong>não constituem recomendação geral de fitorremediação</strong>.</li>
+<li>A concentração de 4.282,8 mg/kg na raiz é de solução nutritiva 400 µmol/L — não reflete necessariamente comportamento em solo real.</li>
+<li>Não há ensaio de campo, não há recomendação de espécie para restauração, não há declaração de desempenho certificado.</li>
+</ul>
+<h2 id="ficha-liu-2015-pb-moso-fitorremediacao--6-proveniência">6. Proveniência</h2>
+<div class="tab"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody><tr><td><strong>Fonte primária</strong></td><td>Liu et al. 2015, JZUS-B 16(2):123-130 (PDF/HTML integral conferido; opentxt editor ZJU)</td></tr><tr><td><strong>Fonte secundária citada</strong></td><td>Nemenyi et al. 2022 (Acta Agraria Debreceniensis) — revisão</td></tr><tr><td><strong>Arquivo (privado)</strong></td><td>jzus_2015_pb_moso_opentxt.html — SHA-256 27c9f7fff035966ba597ef250f7b7c13152cf54b5b07388a71bd97939eb0a77d</td></tr><tr><td><strong>URL oficial do editor</strong></td><td>https://jzus.zju.edu.cn/opentxt.php?doi=10.1631%2Fjzus.B1400107 (opentxt); site da revista: https://www.zju.edu.cn/jzus ; DOI: https://doi.org/10.1631/jzus.B1400107 ; ISSN 1673-1581 (impresso) / 1862-1783 (online)</td></tr><tr><td><strong>Data de acesso</strong></td><td>2026-08-09</td></tr></tbody></table></div>
+<h2 id="ficha-liu-2015-pb-moso-fitorremediacao--7-registro">7. Registro</h2>
+<div class="tab"><table><thead><tr><th>Data</th><th>Versão</th><th>Alteração</th></tr></thead><tbody><tr><td>2026-08-09</td><td>1.0</td><td>Ficha criada (patch candidato F3; frente CONTRATO_INTEGRACAO_FONTES_FITORREMEDIACAO_001).</td></tr></tbody></table></div>
+<h2 id="ficha-liu-2015-pb-moso-fitorremediacao--declaração-de-uso-de-inteligência-artificial">Declaração de uso de inteligência artificial</h2>
+<p>Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas, conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.</p>
+<p><strong>O que a inteligência artificial não faz:</strong> ela não homologa. A homologação é ato humano, do responsável pela curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o número existe na página não substitui esse julgamento.</p>
+<p><strong>O que não foi feito:</strong> nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.</p>
+</article>
+<article class="ficha" id="marcal-2018-normas-internacionais-bambu">
+  <div class="estado-ficha">
+    <div class="linha"><span class="selo pass">PASS</span>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
+    <div class="linha itens" style="margin-top:6px">27 números · 24 afirmações de resultado · APROVADO 27</div>
+    
+  </div>
+  <h1 id="marcal-2018-normas-internacionais-bambu--comparação-internacional-de-normas-para-estrutur">Comparação internacional de normas para estruturas de bambu-colmo</h1>
+<blockquote><p><strong>Síntese:</strong> A dissertação sistematiza normas internacionais e nacionais estrangeiras aplicáveis ao bambu-colmo. Mostra convergências e adaptações locais e enfatiza que espécie, cadeia de fornecimento, projeto, execução e conhecimento do profissional condicionam a segurança. É lida pelo Acervo como <strong>fotografia histórica de 2018</strong>, não como validação normativa vigente.</p></blockquote>
+<h2 id="marcal-2018-normas-internacionais-bambu--1-dados-gerais">1. Dados gerais</h2>
+<div class="tab"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody><tr><td><strong>Autor</strong></td><td>Vitor Hugo Silva Marçal</td></tr><tr><td><strong>Instituição</strong></td><td>Universidade de Brasília (UnB), Faculdade de Arquitetura e Urbanismo (PPG-FAU)</td></tr><tr><td><strong>Ano / extensão</strong></td><td>2018 / 193 páginas digitais</td></tr><tr><td><strong>Orientador / coorientador</strong></td><td>Jaime Gonçalves de Almeida / Julio Eustaquio de Melo</td></tr><tr><td><strong>Fonte integral</strong></td><td>Fonte integral conferida em cópia privada controlada; direitos e condições de uso registrados internamente.</td></tr></tbody></table></div>
+<h2 id="marcal-2018-normas-internacionais-bambu--2-estrutura-e-organização">2. Estrutura e organização</h2>
+<p>Marçal apresenta o material e os sistemas construtivos, as normas selecionadas, a comparação temática (produção, caracterização, cálculo, esforços, ligações, execução), as considerações finais e as recomendações. O painel comparativo percorre, para cada norma, as mesmas etapas.</p>
+<h2 id="marcal-2018-normas-internacionais-bambu--3-problema-e-perguntas-de-pesquisa">3. Problema e perguntas de pesquisa</h2>
+<p>Reunir orientações normativas disponíveis para o emprego estrutural do bambu-colmo e verificar semelhanças, diferenças e sua utilidade para o contexto brasileiro — que, no recorte estudado, carece de norma nacional dedicada.</p>
+<h2 id="marcal-2018-normas-internacionais-bambu--4-referencial-teórico">4. Referencial teórico</h2>
+<p>Articula propriedades do colmo, variabilidade geométrica (conicidade), beneficiamento/preservação, projeto, ligações e normalização internacional, inclusive documentos preliminares do comitê internacional (ISO/TC 165) publicados a partir de 2001.</p>
+<h2 id="marcal-2018-normas-internacionais-bambu--5-metodologia">5. Metodologia</h2>
+<p>Pesquisa documental comparativa de normas ISO e de regulamentos da Índia, Colômbia, Peru e Equador, organizada por produção, caracterização, cálculo, esforços, ligações e execução. Sistematiza a genealogia normativa do bambu-colmo: a norma indiana <strong>IS 15912</strong> e as <strong>ISO 22156/22157</strong> como referências formadoras; a <strong>NSR-10 (Colômbia, 2010)</strong> como marco regional; e as normas <strong>NTE E.100 (Peru)</strong> e <strong>NEC-SE-GUADÚA (Equador)</strong>, publicadas posteriormente e com adaptações próprias.</p>
+<h2 id="marcal-2018-normas-internacionais-bambu--6-principais-achados-atribuídos-a-marçal">6. Principais achados (atribuídos a Marçal)</h2>
+<ul>
+<li>As normas <strong>compartilham tendências, mas adaptam espécies, parâmetros e práticas</strong> às realidades locais.</li>
+<li>A variabilidade, a conicidade e a <strong>ausência de padronização industrial</strong> aumentam a complexidade de projeto e execução.</li>
+<li>O autor destaca a <strong>norma equatoriana como referência ampla</strong> no recorte temporal estudado — <strong>posição do autor</strong>, não veredito do Acervo.</li>
+<li>Uma <strong>cadeia capaz de entregar colmos maduros, selecionados, preservados e secos</strong> é condição relevante para a normalização.</li>
+<li>Para <strong>conexões/ligações alternativas</strong>, na leitura de Marçal a norma equatoriana exige <strong>verificação por estudo científico com pelo menos 30 ensaios</strong> (p. 147) — leitura prudencial do autor, não exigência normativa universal.</li>
+<li><strong>Protótipo (caso histórico documentado):</strong> estrutura de <strong>63 m²</strong> (p. 150), com área entre pilares de <strong>8 × 6 m</strong> (p. 152), de <em>Dendrocalamus asper</em> (p. 154) colhido em <strong>maio de 2010</strong> na região de Luziânia-GO (p. 155), executada com técnicas deliberadamente <strong>fora de norma</strong> (colunas enterradas; óleo queimado) e <strong>vida útil de serviço projetada de aproximadamente 10 anos</strong> (p. 150) — dados de caso, não demonstração de segurança, durabilidade, conformidade ou desempenho estrutural geral.</li>
+</ul>
+<h2 id="marcal-2018-normas-internacionais-bambu--61-tabela-comparativa-esforços-admissíveis-das-t">6.1 Tabela comparativa — esforços admissíveis das três normas (MPa, CH = 12%)</h2>
+<p>O valor de projeto é o que a ficha precisa entregar, e ele estava ausente: as três normas analisadas por Marçal fixam tensões admissíveis diferentes para a mesma <em>Guadua angustifolia</em> Kunth. <code>Pág.</code> é a página impressa da tese em que a tabela da norma é reproduzida.</p>
+<div class="tab"><table><thead><tr><th>Norma</th><th>Fb flexão</th><th>Ft tração</th><th>Fc compressão ∥</th><th>Fp compressão ⊥</th><th>Fv corte</th><th>Pág.</th></tr></thead><tbody><tr><td>NSR-10 (Colômbia, 2010)</td><td>15</td><td>18</td><td>14</td><td>1,4</td><td>1,2</td><td>132</td></tr><tr><td>Norma peruana NTE (2012)</td><td>5</td><td>16</td><td>13</td><td>1,3</td><td>1</td><td>138</td></tr><tr><td>NEC GaK (Equador, 2017)</td><td>15</td><td>19</td><td>14</td><td>1,4</td><td>1,2</td><td>139</td></tr></tbody></table></div>
+<div class="tab"><table><thead><tr><th>Norma</th><th>Módulo médio</th><th>Módulo percentual</th><th>Módulo mínimo</th><th>Pág.</th></tr></thead><tbody><tr><td>NSR-10 (Colômbia, 2010)</td><td>9.500</td><td>7.500</td><td>4.000</td><td>132</td></tr><tr><td>Norma peruana NTE (2012)</td><td>9.500</td><td>–</td><td>7.300</td><td>138</td></tr></tbody></table></div>
+<p><strong>O que a comparação mostra:</strong> Colômbia e Equador praticamente coincidem em compressão, corte e compressão perpendicular (p. 132 e p. 139), e divergem na tração (p. 132 e p. 139). O Peru é o caso fora da curva em flexão — a norma peruana fixa 5 MPa contra 15 MPa das outras duas (p. 138 contra p. 132 e p. 139), um terço — e traz módulo mínimo menor que o colombiano (p. 138 contra p. 132), que é o mais conservador dos dois. Para o mesmo material e a mesma umidade de referência, a norma escolhida muda o dimensionamento por um fator de três na flexão.</p>
+<p><strong>O que esta tabela não faz:</strong> não julga qual norma está certa, não converte os valores para o formato da ABNT e não afirma que o produto equatoriano, peruano ou colombiano equivale ao brasileiro. A divergência está registrada; a escolha de projeto é do projetista, com a norma que o local exige.</p>
+<p><strong>Lacuna declarada:</strong> a Tabela 13 da tese (módulos de elasticidade da norma equatoriana) não foi transcrita — a extração a entrega fora de ordem, e transcrever por posição seria adivinhar coluna.</p>
+<h2 id="marcal-2018-normas-internacionais-bambu--7-avaliação-crítica-atribuição-curatorial">7. Avaliação crítica (atribuição curatorial)</h2>
+<p>O trabalho é uma <strong>fotografia de 2018</strong>. As normas podem ter sido substituídas — no acervo, as edições vigentes registradas são <strong>IS 15912:2018</strong> (First Revision; a de 2012 é a primeira publicação) e <strong>ISO 22156:2021 / ISO 22157:2019</strong> (protegidas) — e precisam ser conferidas nas versões vigentes antes de projeto. Não substitui cálculo, responsabilidade técnica ou norma brasileira atual. <strong>Não foi localizada, no corpus desta revisão, uma norma ABNT específica equivalente</strong> para a construção estrutural com bambu; nenhuma norma estrangeira equivale a ABNT.</p>
+<h2 id="marcal-2018-normas-internacionais-bambu--8-inserção-no-estado-da-arte">8. Inserção no estado da arte</h2>
+<p>É referência histórica e analítica para compreender a formação da normalização do bambu e para comparar requisitos, alimentando a seção normativa do estado da arte do eixo bambu-estrutural (Estado da Arte — Bambu Estrutural; seção 8.1 Panorama normativo). Mantém claro que regulamentos estrangeiros não são automaticamente aplicáveis no Brasil e separa norma, ensaio, caso construído e experiência histórica.</p>
+<p><strong>Referência ABNT:</strong> MARÇAL, Vitor Hugo Silva. <em>Análise comparativa de normas técnicas internacionais para o emprego do bambu-colmo em estruturas prediais</em>. 2018. Dissertação (Mestrado em Arquitetura e Urbanismo) — Universidade de Brasília, Brasília, 2018.</p>
+<h2 id="marcal-2018-normas-internacionais-bambu--declaração-de-uso-de-inteligência-artificial">Declaração de uso de inteligência artificial</h2>
+<p>Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas, conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.</p>
+<p><strong>O que a inteligência artificial não faz:</strong> ela não homologa. A homologação é ato humano, do responsável pela curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o número existe na página não substitui esse julgamento.</p>
+<p><strong>O que não foi feito:</strong> nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.</p>
+</article>
+<article class="ficha" id="ficha-heat-treatment-pdms-bamboo">
+  <div class="estado-ficha">
+    <div class="linha"><span class="selo nv">NAO_VERIFICAVEL</span>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
+    <div class="linha itens" style="margin-top:6px">269 números · 180 afirmações de resultado · APROVADO 266 · APROVADO_SEM_UNIDADE 3</div>
+    <ul class="pendencias"><li><code>2,72%</code> — APROVADO_SEM_UNIDADE · p. 43441 · linha 135</li><li><code>0,97%</code> — APROVADO_SEM_UNIDADE · p. 43441 · linha 135</li><li><code>0,40%</code> — APROVADO_SEM_UNIDADE · p. 43441 · linha 136</li></ul>
+  </div>
+  <h1 id="ficha-heat-treatment-pdms-bamboo--tratamento-térmico-de-bambu-em-meio-de-polidimet">Tratamento térmico de bambu em meio de polidimetilsiloxano</h1>
+<blockquote><p><strong>Síntese:</strong> Tiras de bambu moso foram aquecidas por três horas em polidimetilsiloxano (PDMS) a 120, 150, 180 e 210 °C. O tratamento reduziu umidade de equilíbrio, inchamento e molhabilidade, alterou cor e composição, mas também reduziu propriedades mecânicas em relação ao controle em parte das condições. O trabalho demonstra modificação termoquímica em meio de silicone; não avalia PU vegetal nem comprova equivalência ambiental com tratamentos sem polímeros sintéticos.</p></blockquote>
+<h2 id="ficha-heat-treatment-pdms-bamboo--1-dados-gerais">1. Dados gerais</h2>
+<div class="tab"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody><tr><td><strong>Título original</strong></td><td>Evaluating the comprehensive influences of heat treatment and polydimethylsiloxane on integrated performance of bamboo timber</td></tr><tr><td><strong>Autores</strong></td><td>Ying Zhang; Xin Zhang; Youming Yu; Wenbo Che; Xiaochun Zhang; Junfeng Hou</td></tr><tr><td><strong>Periódico</strong></td><td><em>RSC Advances</em></td></tr><tr><td><strong>Volume, número e páginas</strong></td><td>v. 10, n. 71, p. 43438–43446</td></tr><tr><td><strong>Ano</strong></td><td>2020</td></tr><tr><td><strong>DOI</strong></td><td><a href="https://doi.org/10.1039/d0ra08713k" rel="noopener">10.1039/d0ra08713k</a></td></tr><tr><td><strong>Licença</strong></td><td>CC BY 3.0</td></tr><tr><td><strong>Tipo</strong></td><td>Artigo experimental quantitativo</td></tr><tr><td><strong>Instituição</strong></td><td>Zhejiang A&amp;F University, China</td></tr><tr><td><strong>Fonte analisada</strong></td><td>PDF integral original em inglês e cópia traduzida automaticamente</td></tr></tbody></table></div>
+<h2 id="ficha-heat-treatment-pdms-bamboo--2-estrutura-e-organização">2. Estrutura e organização</h2>
+<p>O artigo apresenta introdução, materiais e métodos, resultados e discussão, conclusões, conflitos, agradecimentos e referências. Os resultados são divididos em propriedades físicas, mecânicas, FTIR, cristalinidade, análise térmica e cor.</p>
+<h2 id="ficha-heat-treatment-pdms-bamboo--3-problema-e-perguntas-de-pesquisa">3. Problema e perguntas de pesquisa</h2>
+<p>O trabalho investiga se o PDMS pode atuar simultaneamente como meio de transferência térmica e agente de modificação do bambu, melhorando estabilidade dimensional e hidrofobicidade.</p>
+<p>Pergunta central: como a temperatura de tratamento em PDMS altera o desempenho físico, mecânico, químico, térmico e visual do bambu?</p>
+<h2 id="ficha-heat-treatment-pdms-bamboo--4-referencial-teórico">4. Referencial teórico</h2>
+<p>O referencial articula tratamento térmico de bambu, degradação de hemiceluloses, alterações relativas de lignina e celulose, molhabilidade, resistência a fungos e uso de meios como óleo, vapor, gases, ácidos e bases. O PDMS é introduzido por sua estabilidade química e resistência à umidade, mas o trabalho não desenvolve uma avaliação ambiental comparativa desse meio.</p>
+<h2 id="ficha-heat-treatment-pdms-bamboo--5-metodologia">5. Metodologia</h2>
+<div class="tab"><table><thead><tr><th>Elemento</th><th>Procedimento</th></tr></thead><tbody><tr><td><strong>Material</strong></td><td>Colmos de cinco anos de <em>Phyllostachys heterocycla</em>, Zhejiang, China</td></tr><tr><td><strong>Corpos de prova iniciais</strong></td><td>Tiras de 250 × 20 × 5 mm, secas ao ar até 12 ± 0,5% de umidade</td></tr><tr><td><strong>Grupos</strong></td><td>Controle e quatro temperaturas, com 12 amostras por grupo</td></tr><tr><td><strong>Meio térmico</strong></td><td>PDMS tipo 201, viscosidade de 1000 MPa·s a 25 °C</td></tr><tr><td><strong>Tratamento</strong></td><td>120, 150, 180 e 210 °C por 3 h em banho de imersão</td></tr><tr><td><strong>Análises</strong></td><td>EMC, inchamento, ângulo de contato, MOR, MOE, FTIR, XRD, TG-DTG e cor</td></tr><tr><td><strong>Condicionamento</strong></td><td>Diferentes condições de umidade relativa para propriedades físicas; replicações conforme ensaio</td></tr></tbody></table></div>
+<p>O artigo não apresenta grupo de tratamento térmico seco ou a vapor na mesma matriz experimental, o que limita a separação entre o efeito do calor e o efeito específico do PDMS.</p>
+<h2 id="ficha-heat-treatment-pdms-bamboo--51-tabela-1-inchamento-por-temperatura-umidade-r">5.1 Tabela 1 — inchamento por temperatura, umidade relativa e direção (p. 43441)</h2>
+<p>Cinco temperaturas de tratamento (controle, 120, 150, 180, 210 °C) × três umidades relativas (30, 65, 85%, p. 43441) × três direções (T tangencial, R radial, L longitudinal, p. 43441). A célula traz média ± desvio padrão, como a fonte publica. <code>Pág.</code> é localizador.</p>
+<div class="tab"><table><thead><tr><th>Temperatura (°C)</th><th>UR (%)</th><th>Direção</th><th>Inchamento (%)</th><th>Pág.</th></tr></thead><tbody><tr><td>Controle</td><td>30</td><td>T</td><td>0.94 ± 0.13</td><td>43441</td></tr><tr><td>Controle</td><td>30</td><td>R</td><td>1.40 ± 0.21</td><td>43441</td></tr><tr><td>Controle</td><td>30</td><td>L</td><td>0.32 ± 0.04</td><td>43441</td></tr><tr><td>Controle</td><td>65</td><td>T</td><td>1.32 ± 0.15</td><td>43441</td></tr><tr><td>Controle</td><td>65</td><td>R</td><td>1.46 ± 0.25</td><td>43441</td></tr><tr><td>Controle</td><td>65</td><td>L</td><td>0.33 ± 0.05</td><td>43441</td></tr><tr><td>Controle</td><td>85</td><td>T</td><td>2.72 ± 0.35</td><td>43441</td></tr><tr><td>Controle</td><td>85</td><td>R</td><td>2.49 ± 0.42</td><td>43441</td></tr><tr><td>Controle</td><td>85</td><td>L</td><td>0.40 ± 0.04</td><td>43441</td></tr><tr><td>120</td><td>30</td><td>T</td><td>0.65 ± 0.09</td><td>43441</td></tr><tr><td>120</td><td>30</td><td>R</td><td>1.30 ± 0.18</td><td>43441</td></tr><tr><td>120</td><td>30</td><td>L</td><td>0.29 ± 0.02</td><td>43441</td></tr><tr><td>120</td><td>65</td><td>T</td><td>0.86 ± 0.09</td><td>43441</td></tr><tr><td>120</td><td>65</td><td>R</td><td>1.38 ± 0.30</td><td>43441</td></tr><tr><td>120</td><td>65</td><td>L</td><td>0.31 ± 0.04</td><td>43441</td></tr><tr><td>120</td><td>85</td><td>T</td><td>2.32 ± 0.27</td><td>43441</td></tr><tr><td>120</td><td>85</td><td>R</td><td>1.87 ± 0.23</td><td>43441</td></tr><tr><td>120</td><td>85</td><td>L</td><td>0.38 ± 0.05</td><td>43441</td></tr><tr><td>150</td><td>30</td><td>T</td><td>0.60 ± 0.11</td><td>43441</td></tr><tr><td>150</td><td>30</td><td>R</td><td>1.15 ± 0.09</td><td>43441</td></tr><tr><td>150</td><td>30</td><td>L</td><td>0.27 ± 0.15</td><td>43441</td></tr><tr><td>150</td><td>65</td><td>T</td><td>0.73 ± 0.06</td><td>43441</td></tr><tr><td>150</td><td>65</td><td>R</td><td>1.18 ± 0.19</td><td>43441</td></tr><tr><td>150</td><td>65</td><td>L</td><td>0.30 ± 0.01</td><td>43441</td></tr><tr><td>150</td><td>85</td><td>T</td><td>2.19 ± 0.29</td><td>43441</td></tr><tr><td>150</td><td>85</td><td>R</td><td>1.76 ± 0.15</td><td>43441</td></tr><tr><td>150</td><td>85</td><td>L</td><td>0.33 ± 0.02</td><td>43441</td></tr><tr><td>180</td><td>30</td><td>T</td><td>0.45 ± 0.06</td><td>43441</td></tr><tr><td>180</td><td>30</td><td>R</td><td>1.00 ± 0.11</td><td>43441</td></tr><tr><td>180</td><td>30</td><td>L</td><td>0.26 ± 0.02</td><td>43441</td></tr><tr><td>180</td><td>65</td><td>T</td><td>0.61 ± 0.05</td><td>43441</td></tr><tr><td>180</td><td>65</td><td>R</td><td>1.04 ± 0.13</td><td>43441</td></tr><tr><td>180</td><td>65</td><td>L</td><td>026 ± 0.02</td><td>43441</td></tr><tr><td>180</td><td>85</td><td>T</td><td>1.32 ± 0.33</td><td>43441</td></tr><tr><td>180</td><td>85</td><td>R</td><td>1.64 ± 0.18</td><td>43441</td></tr><tr><td>180</td><td>85</td><td>L</td><td>0.32 ± 0.04</td><td>43441</td></tr><tr><td>210</td><td>30</td><td>T</td><td>0.38 ± 0.02</td><td>43441</td></tr><tr><td>210</td><td>30</td><td>R</td><td>0.84 ± 0.07</td><td>43441</td></tr><tr><td>210</td><td>30</td><td>L</td><td>0.22 ± 0.01</td><td>43441</td></tr><tr><td>210</td><td>65</td><td>T</td><td>0.48 ± 0.04</td><td>43441</td></tr><tr><td>210</td><td>65</td><td>R</td><td>0.86 ± 0.10</td><td>43441</td></tr><tr><td>210</td><td>65</td><td>L</td><td>0.22 ± 0.03</td><td>43441</td></tr><tr><td>210</td><td>85</td><td>T</td><td>0.97 ± 0.14</td><td>43441</td></tr><tr><td>210</td><td>85</td><td>R</td><td>1.57 ± 0.12</td><td>43441</td></tr><tr><td>210</td><td>85</td><td>L</td><td>0.28 ± 0.05</td><td>43441</td></tr></tbody></table></div>
+<p><strong>O que a tabela mostra (p. 43441):</strong> em qualquer umidade e qualquer direção, o inchamento cai com a temperatura. Na UR de 85% (p. 43441) e direção tangencial, o controle incha 2,72% e o tratamento a 210 °C incha 0,97% — redução de mais de dois terços. A direção L é a mais estável em todas as condições (0,22 a 0,40%), o que é coerente com a orientação das fibras.</p>
+<p><strong>Tabela 2 não foi transcrita, e por medição.</strong> A extração entrega a Tabela 2 (cor em CIELAB, p. 43444) com colunas deslocadas: o valor <code>b<em></code> do controle sai como −808,86 e o <code>DL</em></code> do tratamento a 120 °C como 173,98 — fora do domínio de um espaço cromático em que <code>b*</code> varia na casa das dezenas. Transcrever assim seria publicar número com fidelidade aparente e conteúdo errado. A ficha declara a lacuna; fechá-la exige reextração da p. 43444, e isso é pendência de custódia, não de redação.</p>
+<h2 id="ficha-heat-treatment-pdms-bamboo--6-principais-achados">6. Principais achados</h2>
+<p><strong>Valores transcritos da prosa da fonte</strong> (régua §5-A, ordem de busca 1). Localização pela <strong>página impressa</strong> (RSC Adv. 10: 43438–43446; PDF p. 1 = 43438), com seção e parágrafo (¶) ao lado, porque o título da seção no depósito não corresponde sempre ao parágrafo que o segue.</p>
+<div class="tab"><table><thead><tr><th>Propriedade</th><th>Condição</th><th>Valor como impresso</th><th>Atribuição na fonte</th><th>Página</th><th>Seção/¶</th></tr></thead><tbody><tr><td>Inchamento tangencial</td><td>120 / 150 / 180 / 210 °C</td><td>redução de 30,85% / 36,17% / 52,13% / 59,57%</td><td>inchamento linear, 20 °C e 30% HR</td><td>p. 43440</td><td>«EMC…», ¶1</td></tr><tr><td>Inchamento radial</td><td>120 / 150 / 180 / 210 °C</td><td>redução de 7,69% / 17,86% / 28,57% / 40,00%</td><td>inchamento linear, 20 °C e 30% HR</td><td>p. 43440</td><td>«EMC…», ¶1</td></tr><tr><td>Inchamento longitudinal</td><td>120 / 150 / 180 / 210 °C</td><td>redução de 9,38% / 15,63% / 21,88% / 52,38%</td><td>inchamento linear, 20 °C e 30% HR</td><td>p. 43440</td><td>«EMC…», ¶1</td></tr><tr><td>MOR</td><td>120 °C</td><td>−0,12%</td><td>«a small decrement of 0.12% in MOR»</td><td>p. 43441</td><td>«MOR and MOE…», ¶1</td></tr><tr><td>MOE</td><td>120 °C</td><td>+8,07%</td><td>«MOE was increased to the maximum value with an increase of 8.07%»</td><td>p. 43441</td><td>«MOR and MOE…», ¶1</td></tr><tr><td>MOR</td><td>150 °C</td><td>−4,86%</td><td>«it was only slightly reduced by 4.86%»</td><td>p. 43441</td><td>«density…», ¶1</td></tr><tr><td>MOR</td><td>180 °C</td><td>−28,24%</td><td>«the corresponding decrement was 28.24%»</td><td>p. 43441</td><td>«density…», ¶1</td></tr><tr><td>MOR</td><td>210 °C</td><td>−30,71%</td><td>«and 30.71%», no mesmo período</td><td>p. 43441</td><td>«density…», ¶1</td></tr><tr><td>Série 120–210 °C</td><td>120 / 150 / 180 / 210 °C</td><td>redução de 0,12% / 1,07% / 2,63% / 5,79%</td><td>propriedade não nomeada na frase (o parágrafo trata de MOR e MOE)</td><td>p. 43441</td><td>«density…», ¶1</td></tr><tr><td>Ângulo de contato com água</td><td>controle</td><td>4°</td><td>«contact angle (4°) of water on the untreated specimens»</td><td>p. 43442</td><td>§3.2, ¶1</td></tr><tr><td>Luminosidade (ΔL*)</td><td>120 / 150 / 180 / 210 °C</td><td>−7,08 / −22,55 / −37,1 / −62,26</td><td>«changes in values of L* … compared with the specimens in control group»</td><td>p. 43445</td><td>«Color changes analysis», ¶1</td></tr><tr><td>Redução de luminosidade</td><td>120 → 210 °C</td><td>de 10,68 até 93,94</td><td>«reduction of lightness … was increased from 10.68 to 93.94»</td><td>p. 43445</td><td>«Color changes analysis», ¶1</td></tr></tbody></table></div>
+<p>Os mesmos ΔL* por temperatura aparecem na Tabela 2, na p. 43444; a ficha cita a prosa, que é onde a frase os declara como resultado.</p>
+<p><strong>Divergência interna da fonte, registrada e não harmonizada.</strong> O valor 0,12% (p. 43441) é atribuído a MOR no primeiro parágrafo («a small decrement of 0.12% in MOR») e aparece sem propriedade nomeada na série 0,12/1,07/2,63/5,79% (p. 43441) do parágrafo anterior; o valor 8,07% (p. 43441) é atribuído a MOE na seção «MOR and MOE» e a MOR no parágrafo da seção «density». A ficha registra as duas atribuições: escolher a &quot;mais provável&quot; seria harmonizar por plausibilidade, que a régua §9 proíbe.</p>
+<p><strong>Títulos de seção não correspondem ao conteúdo no impresso:</strong> o parágrafo sob «Effects of heat treatment temperature on EMC» (p. 43440) trata de <strong>inchamento linear</strong>; o parágrafo sob «density» (p. 43441) trata de <strong>MOR e MOE</strong>. Por isso a localização cita página, seção <strong>e</strong> conteúdo, e não só o título.</p>
+<p>Demais achados qualitativos (sem número em prosa nem em tabela — não há valor a transcrever):</p>
+<ul>
+<li>EMC e razão de inchamento diminuíram com o aumento da temperatura.</li>
+<li>O ângulo de contato com água aumentou, indicando menor molhabilidade superficial.</li>
+<li>O MOR atingiu seu maior valor tratado a 120 °C; condições mais severas reduziram desempenho.</li>
+<li>O artigo relata mudanças de MOE com a temperatura, mas os valores tratados permaneceram inferiores ao controle em parte da comparação.</li>
+<li>A cristalinidade da celulose diminuiu levemente.</li>
+<li>TG-DTG indicou redução relativa de hemiceluloses e aumento relativo de lignina e celulose.</li>
+<li>Bandas atribuídas a Si–C/Si–CH₃ foram interpretadas como evidência de ligação do siloxano ao bambu.</li>
+<li>O material escureceu e amarelou ao longo da espessura, especialmente nas temperaturas mais altas.</li>
+</ul>
+<h2 id="ficha-heat-treatment-pdms-bamboo--7-avaliação-crítica">7. Avaliação crítica</h2>
+<h3 id="ficha-heat-treatment-pdms-bamboo--contribuições">Contribuições</h3>
+<ul>
+<li>Integra propriedades físicas, mecânicas, químicas, térmicas e visuais.</li>
+<li>Confirma que hidrofobicidade e estabilidade dimensional podem aumentar ao mesmo tempo em que a resistência sofre perdas.</li>
+<li>Apresenta parâmetros reproduzíveis de temperatura, tempo e preparação.</li>
+</ul>
+<h3 id="ficha-heat-treatment-pdms-bamboo--limitações">Limitações</h3>
+<ul>
+<li>Sem grupo térmico equivalente em outro meio, não isola o efeito químico do PDMS.</li>
+<li>Não avalia retenção, migração, lixiviação, toxicidade, biodegradação ou ciclo de vida do silicone incorporado.</li>
+<li>Uma espécie, idade e origem geográfica.</li>
+<li>Ausência de envelhecimento externo, ensaios biológicos e escala estrutural.</li>
+<li>O PDMS não é PU vegetal; a ficha não deve ser usada como evidência de desempenho ou segurança de produtos Imperveg.</li>
+</ul>
+<h2 id="ficha-heat-treatment-pdms-bamboo--8-inserção-no-estado-da-arte">8. Inserção no estado da arte</h2>
+<p>O artigo amplia o estado da arte sobre meios líquidos de tratamento térmico e mostra que a escolha do meio modifica não apenas a transferência de calor, mas a superfície e a química do bambu. É útil como contraponto aos estudos com vapor saturado e óleo. Para futuras pesquisas Takwara, sugere a necessidade de controles separados por meio, temperatura e aditivo, além de ensaios ambientais e mecânicos específicos.</p>
+<p><strong>Referência ABNT:</strong> ZHANG, Ying et al. Evaluating the comprehensive influences of heat treatment and polydimethylsiloxane on integrated performance of bamboo timber. <em>RSC Advances</em>, v. 10, n. 71, p. 43438–43446, 2020. DOI: <a href="https://doi.org/10.1039/d0ra08713k" rel="noopener">10.1039/d0ra08713k</a>.</p>
+<blockquote><p>Ficha estruturada pelo protocolo de oito seções adotado pelo Acervo, com revisão humana e conferência da fonte integral. Conteúdo extraído do PDF integral original; elaboração em 13/07/2026.</p></blockquote>
+<h2 id="ficha-heat-treatment-pdms-bamboo--declaração-de-uso-de-inteligência-artificial">Declaração de uso de inteligência artificial</h2>
+<p>Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas, conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.</p>
+<p><strong>O que a inteligência artificial não faz:</strong> ela não homologa. A homologação é ato humano, do responsável pela curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o número existe na página não substitui esse julgamento.</p>
+<p><strong>O que não foi feito:</strong> nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.</p>
+</article>
+<article class="ficha" id="santos-2024-poetica-narrativa-tectonica-bambu">
+  <div class="estado-ficha">
+    <div class="linha"><span class="selo pass">PASS</span>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
+    <div class="linha itens" style="margin-top:6px">21 números · 19 afirmações de resultado · APROVADO 21</div>
+    
+  </div>
+  <blockquote><p><strong>Síntese:</strong> Dissertação de mestrado (PPGAU-UFPB, novembro de 2024, 178 f. na ficha catalográfica / 180 páginas no PDF) que analisa a poética da narrativa tectônica em projetos que empregam o bambu como elemento estrutural, tendo como corpus Ananda House (2015) e The ARC (2021), do escritório IBUKU (Bali, Indonésia), e Refúgio das Borboletas (2022 no capítulo de análise; o resumo registra 2023), da arquiteta Helena Ruette (Chapada dos Veadeiros, GO). Aplica os parâmetros analíticos da tectônica de Rocha (2012), fundamentados em Frampton (1995), em três relações: sítio/estrutura formal, sistema portante/estrutura formal e elementos de vedação/estrutura formal. Conclui que a narrativa tectônica do bambu estrutural se expressa sobretudo pela versatilidade da gramínea, pelos detalhes técnicos das junções — a conexão do Grupo 2 (Widyowijatnoko, 2012) aparece nos três projetos — e por um processo de concepção consonante à cultura construtiva do material.</p></blockquote>
+<h1 id="santos-2024-poetica-narrativa-tectonica-bambu--ficha-santos-2024-poética-da-narrativa-tectônica">Ficha: Santos (2024) — Poética da narrativa tectônica em projetos com bambu estrutural</h1>
+<h2 id="santos-2024-poetica-narrativa-tectonica-bambu--1-dados-gerais">1. Dados gerais</h2>
+<div class="tab"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody><tr><td><strong>Autor</strong></td><td>João Victor da Silva Santos</td></tr><tr><td><strong>Orientadora</strong></td><td>Drª. Germana Costa Rocha (confirmada na p. 5)</td></tr><tr><td><strong>Instituição</strong></td><td>UFPB — PPGAU (Centro de Tecnologia); área de concentração &quot;Arquitetura e Cidade — Processo e Produto&quot;; linha &quot;Projeto do Edifício e da Cidade&quot; (p. 5)</td></tr><tr><td><strong>Ano / Data</strong></td><td>2024 (João Pessoa-PB, novembro de 2024; folha de aprovação com data &quot;??.??.2024&quot; não preenchida no documento, p. 8)</td></tr><tr><td><strong>Tipo</strong></td><td>Dissertação de mestrado</td></tr><tr><td><strong>Título</strong></td><td>Poética da narrativa tectônica em projetos que utilizam o bambu como elemento estrutural do objeto edificado</td></tr><tr><td><strong>DOI</strong></td><td>Não declarado na fonte</td></tr><tr><td><strong>Identificador</strong></td><td>123456789/35912 (Repositório UFPB)</td></tr><tr><td><strong>Páginas</strong></td><td>180 (PDF integral); 178 f. na ficha catalográfica (p. 6)</td></tr><tr><td><strong>Hash SHA-256</strong></td><td>a4b4575e0645… (completo no front matter)</td></tr><tr><td><strong>Palavras-chave da fonte</strong></td><td>Tectônica do projeto; Expressividade arquitetônica; Cultura construtiva; Bambu estrutural (p. 12)</td></tr></tbody></table></div>
+<h2 id="santos-2024-poetica-narrativa-tectonica-bambu--2-estrutura-e-organização">2. Estrutura e organização</h2>
+<p>Introdução (objetivos, justificativa e método); Capítulo I — &quot;Bambu: o aço verde&quot; (p. 35); Capítulo II — &quot;Tectônica: Fundamentação teórica e Parâmetros analíticos&quot; (p. 57), com 2.1 Tectônica e arquitetura e 2.2 Parâmetros analíticos (2.2.1 relação sítio; 2.2.2 relação sistema portante; 2.2.3 relação elementos de vedação); Capítulo III — &quot;Análise do caráter tectônico&quot; (p. 79), com 3.1 Ananda House (p. 80), 3.2 The ARC (p. 108) e 3.3 Refúgio das Borboletas (p. 136); Considerações finais (p. 162); Referências bibliográficas (p. 168). Cerca de 130 figuras, muitas delas redesenhos analíticos do próprio autor.</p>
+<h2 id="santos-2024-poetica-narrativa-tectonica-bambu--3-problema-e-perguntas-de-pesquisa">3. Problema e perguntas de pesquisa</h2>
+<p>Pergunta central (p. 27): &quot;Quais aspectos o caráter tectônico revela em projetos arquitetônicos desenvolvidos ao considerar o bambu como elemento estrutural do objeto edificado?&quot;</p>
+<p>Objetivo geral (p. 28): analisar a poética da narrativa tectônica em projetos arquitetônicos que utilizam o bambu como elemento estrutural. Objetivos específicos: I — perscrutar as características do bambu em prol de sua utilização como elemento estrutural; II — analisar as soluções técnico-construtivas empregadas nos projetos selecionados; III — compreender e aplicar as singularidades da análise tectônica. Justificativa: aporte da análise tectônica ao potencial expressivo do bambu como suporte de cargas, em um cenário de mudanças climáticas e exploração de recursos finitos (p. 29).</p>
+<h2 id="santos-2024-poetica-narrativa-tectonica-bambu--4-referencial-teórico">4. Referencial teórico</h2>
+<ul>
+<li><strong>Tectônica (núcleo teórico):</strong> Kenneth Frampton — <em>Studies in Tectonic Culture</em> (1995), <em>Rappel à l&#x27;Ordre</em> (2013 [1990]) e <em>Between earthwork and roofwork</em> (1998)/&quot;Seven points for the millennium&quot; (2000) (p. 61-62); definição adotada: &quot;arquitetura possui um caráter quintessencialmente tectônico...&quot; (FRAMPTON, 1999/2000, p. 23, citado nas p. 24 e 67);</li>
+<li><strong>Linha histórica:</strong> Karl Bötticher — <em>A Tectônica dos Helenos</em> (1843-1852), distinção Kernform/Kunstform (p. 58); Gottfried Semper — <em>Os Quatro Elementos da Arquitetura</em> (1851), cabana caribenha, o &quot;nó&quot; como elemento construtivo básico e a junção como fundamento (&quot;o elemento construtivo básico da arte de construir é a junção&quot;, p. 60);</li>
+<li><strong>Eduard F. Sekler</strong> (1965) — distinção construção × estrutura e o emprego do termo tectônica quando há qualidade expressiva que supera ambos (p. 62-63);</li>
+<li><strong>Vittorio Gregotti</strong> (2013 [1983], <em>O Exercício do Detalhe</em>) e <strong>Marco Frascari</strong> (2013 [1984], <em>O Detalhe Narrativo</em>) — o detalhe como junção e mediador entre parte e todo (&quot;todo elemento arquitetônico definido como detalhe sempre é uma junção&quot;, p. 64);</li>
+<li><strong>Rocha (2012)</strong> — tese sobre tectônica que fornece os parâmetros analíticos (p. 68-76); <strong>Amaral (2009; 2010)</strong> — dimensão teórica &quot;Tectônica do Projeto&quot; (p. 31-32, 79); <strong>Cantalice II (2015)</strong>, <strong>Diniz (2022)</strong>, <strong>Piñón (2006)</strong> (&quot;não há concepção sem técnica, nem projeto sem matéria&quot;, p. 24), <strong>Mahfuz (2004)</strong> (consciência construtiva);</li>
+<li><strong>Bambu estrutural:</strong> López (1981) — cortes chanfrado, bico de flauta e boca de peixe (p. 48); Widyowijatnoko (2012) — seis grupos de conexões classificados pela forma de transferência de cargas (p. 48-49); Soares (2013); Rebello (2000) — pilares-árvore; Paixão (2017), Teixeira et al. (2024), Wazir e Indriani (2020), Davison (2000; 2023) — cultura construtiva balinesa; Lima (2021) — tipologias residenciais da Indonésia; ABNT NBR 16828-1:2020 e NBR 16828-2:2020 (referências bibliográficas, p. 169);</li>
+<li><strong>Método:</strong> Gil (2002) e Fonseca (2002) — estudo de caso (p. 29-30).</li>
+</ul>
+<h2 id="santos-2024-poetica-narrativa-tectonica-bambu--5-metodologia">5. Metodologia</h2>
+<p>Estudo de caso qualitativo (Gil, 2002; Fonseca, 2002, p. 29-30) em quatro etapas (p. 30-32): I — revisão bibliográfica sobre caráter tectônico e bambu portante; II — critérios de seleção dos projetos: (a) escritórios já conhecidos pelo autor em pesquisas anteriores, (b) projetos localizados no Brasil, Indonésia ou Vietnã, (c) disponibilidade de materiais gráficos suficientes para a análise; foram contatados Jaime Peña Studio, Amima Arquitetura, Helena Ruette, Võ Trọng Nghĩa Architects e IBUKU, sendo selecionados os que responderam e atenderam ao critério &quot;c&quot; (Helena Ruette e IBUKU); III — coleta de dados com fontes primárias (materiais cedidos pelos escritórios) e secundárias (teses, dissertações, páginas digitais); IV — aplicação dos parâmetros analíticos da tectônica de Rocha (2012), fundamentados em Frampton (1995), sobre o <strong>projeto</strong> (não o objeto edificado), nas relações sítio/estrutura formal (implantação, embasamento), sistema portante/estrutura formal (sistema estrutural, sistema construtivo) e elementos de vedação/estrutura formal (planos de paredes, cobertas e piso) (Figura 25, p. 76). O redesenho dos detalhes pelo autor é usado como instrumento analítico.</p>
+<h2 id="santos-2024-poetica-narrativa-tectonica-bambu--6-principais-achados">6. Principais achados</h2>
+<blockquote><p>Os itens abaixo são afirmações da fonte, não validações da curadoria.</p></blockquote>
+<ul>
+<li><strong>Corpus e recorte:</strong> três projetos, Indonésia e Brasil, 2013-2023: Ananda House (2015, IBUKU, Green Village, Bali — residência sobre lote em declive de 716 m² às margens do rio Ayung, p. 84); The ARC (2021, IBUKU, Green School, Bali — ginásio de 23,50 × 43,20 m com 760 m² cobertos, arcos de <em>Dendrocalamus asper</em> com 14 m de altura e vão livre de ~19 m, sobre 18 bases orgânicas — dez escalonadas com diâmetro inferior ~1,70 m e oito cônicas ~0,90 m, p. 110); Refúgio das Borboletas (2022 no capítulo 3.3 — o resumo registra 2023 —, Helena Ruette, ao sul de Cavalcante-GO, Chapada dos Veadeiros; pilares de <em>D. asper</em> com 15 cm de diâmetro, p. 136, 145);</li>
+<li><strong>Conexões (junções):</strong> a conexão do <strong>Grupo 2</strong> (Widyowijatnoko, 2012) — transferência de cargas por contato com a parede interna do colmo — é utilizada nas três propostas (p. 164); no The ARC e no Refúgio ela se materializa com concreto inserido nos internós próximos à base e vergalhões pré-instalados para engastar o colmo (p. 111, 145); o Refúgio emprega ainda o <strong>Grupo 4B</strong> (passadores metálicos, cisalhamento externo) nas vigas duplas de colmos esbeltos de 10 cm com corte &quot;boca de peixe&quot; (p. 146-147);</li>
+<li><strong>Sistema portante:</strong> versatilidade do bambu em pilares, pilares-árvore (Ananda House, p. 97), arcos (The ARC), treliças e gridshells anticlásticos — ripas duplas de 35 mm que estabilizam os arcos contra flambagem, com teste de desempenho in loco (The ARC, engenharia Atelier One/Neil Thomas e Jörg Stamm, p. 126); coberta da Ananda House em três camadas (cumeeira + colmos radiais; feixes de fibras curvadas com sistema treliçado; caibros com ripas curvas unidas por passadores transversais e amarrações, p. 97-98); lajes em duplas e trios de colmos (p. 100); beirais que ultrapassam os pisos em ~2 m (p. 100);</li>
+<li><strong>Proteção do colmo:</strong> diretriz recorrente de resguardar a base do bambu do contato direto com o solo (embasamento em concreto, elevação das bases a 70 cm no The ARC, radier no Refúgio) para prevenir o apodrecimento (p. 93, 110, 145);</li>
+<li><strong>Vedações:</strong> exploração expressiva do bambu em ripas, esterilhas, tramas e bamboo bone/alma do bambu, em consonância com a &quot;desmaterialização do vidro&quot; (Frampton, 1995) — projetos do IBUKU; no Refúgio, dicotomia light-weight/heavy-weight entre esquadrias de vidro e tijolo de adobe (p. 167);</li>
+<li><strong>Verdade estrutural:</strong> os três projetos exploram a exposição deliberada da estrutura de bambu (Frampton, 1995), o que também facilita manutenção e substituição de peças (p. 166);</li>
+<li><strong>Conclusão geral:</strong> a narrativa tectônica do bambu estrutural se expressa mais fortemente pela versatilidade da gramínea, pelos detalhes técnicos das junções e por um processo de concepção consonante à cultura construtiva da matéria-prima (resumo, p. 12; considerações finais, p. 163-167).</li>
+</ul>
+<h2 id="santos-2024-poetica-narrativa-tectonica-bambu--61-os-três-casos-em-tabela">6.1 Os três casos, em tabela</h2>
+<p>O corpus estava descrito em prosa corrida, com as dimensões diluídas em frases longas. Em tabela, cada número fica conferível na sua página. <code>Pág.</code> é localizador.</p>
+<div class="tab"><table><thead><tr><th>Caso</th><th>Ano</th><th>Local</th><th>Dimensão</th><th>Valor</th><th>Pág.</th></tr></thead><tbody><tr><td>Ananda House (IBUKU)</td><td>2015</td><td>Green Village, Bali</td><td>área do lote, às margens do rio Ayung</td><td>716 metros quadrados</td><td>84</td></tr><tr><td>The ARC (IBUKU)</td><td>2021</td><td>Green School, Bali</td><td>área coberta do ginásio</td><td>760 metros quadrados</td><td>110</td></tr><tr><td>The ARC (IBUKU)</td><td>2021</td><td>Green School, Bali</td><td>planta</td><td>23,50 × 43,20 m</td><td>110</td></tr><tr><td>The ARC (IBUKU)</td><td>2021</td><td>Green School, Bali</td><td>altura dos arcos de <em>D. asper</em></td><td>14 m</td><td>110</td></tr><tr><td>The ARC (IBUKU)</td><td>2021</td><td>Green School, Bali</td><td>bases orgânicas, topo a 70 cm do solo</td><td>dezoito bases</td><td>110</td></tr><tr><td>The ARC (IBUKU)</td><td>2021</td><td>Green School, Bali</td><td>ripas duplas de estabilização dos arcos</td><td>35 mm</td><td>126</td></tr><tr><td>Refúgio das Borboletas (Helena Ruette)</td><td>2022</td><td>Cavalcante-GO, Chapada dos Veadeiros</td><td>diâmetro dos pilares de <em>D. asper</em></td><td>15 cm</td><td>145</td></tr><tr><td>Refúgio das Borboletas (Helena Ruette)</td><td>2022</td><td>Cavalcante-GO, Chapada dos Veadeiros</td><td>colmos das vigas duplas, corte «boca de peixe»</td><td>10 cm</td><td>146</td></tr></tbody></table></div>
+<p><strong>Duas escolhas de transcrição, declaradas:</strong> a fonte escreve «dezoito bases» por extenso, e a tabela mantém por extenso — converter para algarismo criaria um número que não existe na página. E a fonte escreve as áreas com o símbolo de metro quadrado colado ao número; a tabela usa «metros quadrados» pela mesma razão.</p>
+<p><strong>Divergência registrada, não harmonizada:</strong> a data do Refúgio aparece como 2022 no capítulo 3.3 e como 2023 no resumo. A tabela adota 2022 porque é o capítulo que descreve a obra.</p>
+<p><strong>O que a tabela não afirma:</strong> não é catálogo de soluções homologadas. São três obras descritas por uma tese, com as dimensões que a tese registra; nenhuma foi ensaiada, e o texto não mede desempenho — descreve escolha projetual.</p>
+<h2 id="santos-2024-poetica-narrativa-tectonica-bambu--7-avaliação-crítica">7. Avaliação crítica</h2>
+<p><strong>Potencialidades:</strong></p>
+<ul>
+<li>Primeiro estudo do Acervo que aplica sistematicamente o aparato teórico da tectônica (Frampton, Semper, Frascari, Gregotti, Sekler) a projetos de bambu estrutural, oferecendo um vocabulário analítico (relações sítio/portante/vedação; grupos de conexões de Widyowijatnoko) útil como critérios de projeto;</li>
+<li>Análise apoiada em fontes primárias (materiais gráficos e informações cedidas pelos escritórios — p. 11, 30-31), incluindo redesenhos técnicos do autor;</li>
+<li>Recorte temporal (2013-2023) e geográfico (Indonésia/Brasil) relevante, com dois exemplares paradigmáticos do IBUKU e um caso brasileiro no Cerrado.</li>
+</ul>
+<p><strong>Limitações:</strong></p>
+<ul>
+<li>Estudo de caso com apenas três obras e três autores/escritórios; o corpus depende da resposta dos escritórios ao contato (critério de conveniência declarado, p. 30-31);</li>
+<li>Análise qualitativa sobre o projeto e seus documentos, sem verificação estrutural quantitativa nem avaliação pós-ocupação;</li>
+<li>A folha de aprovação não traz a data preenchida (&quot;??.??.2024&quot;, p. 8), e há divergência interna de datas para o Refúgio das Borboletas (2022 no capítulo 3.3; 2023 no resumo);</li>
+<li>O conceito de &quot;montagem&quot; não comparece como critério nomeado; o equivalente no referencial é a categoria product-form (&quot;produzido e montado segundo métodos e sistemas industriais&quot;, Rocha, 2012, p. 58), tratada indiretamente;</li>
+<li>Sem DOI; identidade documental confirmada pelo repositório institucional e pela ficha catalográfica.</li>
+</ul>
+<h2 id="santos-2024-poetica-narrativa-tectonica-bambu--8-inserção-no-estado-da-arte">8. Inserção no estado da arte</h2>
+<p>A dissertação conecta a tradição teórica da tectônica à materialidade do bambu estrutural, preenchendo uma lacuna de literatura analítica de projeto (não apenas de ensaio de material) no campo. Complementa diretamente as fontes do Acervo sobre sistemas estruturais (Bussinger, 2024), conexões de bambu (revisão de conexões China, 2019), normatização (NBR 16828-1/-2, referenciada na obra; Marçal, 2018) e tratamentos de durabilidade que sustentam a diretriz de proteção do colmo em base. Os critérios tectônicos aqui sistematizados podem balizar a avaliação projetual de futuras obras do Acervo, inclusive as de tecnologia takwara.</p>
+<h2 id="santos-2024-poetica-narrativa-tectonica-bambu--relações">Relações</h2>
+<p><strong>Conexão TTR — referência metodológica (critérios de projeto/arquitetura com bambu):</strong> a ficha fornece um roteiro analítico aplicável a projetos de bambu — três relações (sítio, sistema portante, vedações) e uma taxonomia de conexões (Widyowijatnoko, 2012) —, servindo de referencial de critérios de projeto e de leitura crítica de obras para o núcleo de arquitetura com bambu do Acervo.</p>
+<p><strong>Nota de proveniência:</strong> ficha elaborada a partir da leitura integral do PDF (hash SHA-256 a4b4575e0645c030d5e9a58fd9257a35fcb8a15f9e8adaedeb339ea9074ca761; 180 páginas), com extração integral de texto e metadados catalográficos preservados em documentação privada do acervo (download 2026-07-31 via Repositório UFPB, handle 123456789/35912). Os números de página citados correspondem à paginação do PDF (marcadores da extração). Nenhum dado foi acrescentado por inferência: informações ausentes da fonte estão registradas como &quot;não declarado na fonte&quot;.</p>
+<h2 id="santos-2024-poetica-narrativa-tectonica-bambu--declaração-de-uso-de-inteligência-artificial">Declaração de uso de inteligência artificial</h2>
+<p>Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas, conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.</p>
+<p><strong>O que a inteligência artificial não faz:</strong> ela não homologa. A homologação é ato humano, do responsável pela curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o número existe na página não substitui esse julgamento.</p>
+<p><strong>O que não foi feito:</strong> nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.</p>
+</article>
+<article class="ficha" id="ficha-acv-bambu-unesp-araujo2025">
+  <div class="estado-ficha">
+    <div class="linha"><span class="selo pass">PASS</span>
+      <span>medido por <code>gate_fidelidade_fonte.py</code> sha256 <code>a16eb44a</code> · 54691508 e 1750b762 são históricos e não medem o corpus</span></div>
+    <div class="linha itens" style="margin-top:6px">190 números · 184 afirmações de resultado · APROVADO 190</div>
+    
+  </div>
+  <h1 id="ficha-acv-bambu-unesp-araujo2025--acv-da-produção-artesanal-de-colmos-de-bambu-na">ACV da produção artesanal de colmos de bambu na Amazônia</h1>
+<blockquote><p><strong>Síntese:</strong> O estudo aplica avaliação de ciclo de vida, do berço ao portão, à produção artesanal de 1 kg de colmo tratado de <em>Guadua angustifolia</em> em uma unidade de Rio Branco, Acre. Na normalização adotada, a toxicidade carcinogênica humana representou cerca de 93% do impacto potencial estimado; resíduos contaminados de aparas e colmos descartados responderam por 91% do impacto total do sistema. Os valores descrevem o modelo e a unidade estudados, não uma taxa clínica de câncer nem uma garantia de redução obtida por tecnologia alternativa.</p></blockquote>
+<h2 id="ficha-acv-bambu-unesp-araujo2025--1-dados-gerais">1. Dados gerais</h2>
+<div class="tab"><table><thead><tr><th>Campo</th><th>Dado</th></tr></thead><tbody><tr><td><strong>Título original</strong></td><td>Life cycle assessment of the artisanal bamboo pole (<em>Guadua angustifolia</em>) production in the Brazilian Amazon</td></tr><tr><td><strong>Autores</strong></td><td>Letícia Medeiros de Araujo; Bruno Fernando Gianelli; Sandro Donnini Mancini; Gerson Araujo de Medeiros</td></tr><tr><td><strong>Periódico</strong></td><td><em>Brazilian Journal of Science</em></td></tr><tr><td><strong>Volume, número e páginas</strong></td><td>v. 4, n. 4, p. 13–28</td></tr><tr><td><strong>Publicação</strong></td><td>2025</td></tr><tr><td><strong>DOI</strong></td><td><a href="https://doi.org/10.14295/bjs.v4i4.719" rel="noopener">10.14295/bjs.v4i4.719</a></td></tr><tr><td><strong>ISSN</strong></td><td>2764-3417</td></tr><tr><td><strong>Licença do artigo</strong></td><td>CC BY 4.0</td></tr><tr><td><strong>Tipo</strong></td><td>Artigo de avaliação de ciclo de vida atribucional</td></tr><tr><td><strong>Fonte analisada</strong></td><td>Texto integral conferido; registro e metadados do periódico verificados</td></tr></tbody></table></div>
+<h2 id="ficha-acv-bambu-unesp-araujo2025--2-estrutura-e-organização">2. Estrutura e organização</h2>
+<p>O artigo apresenta introdução, metodologia de inventário e modelagem, resultados, discussão, conclusões e referências. O sistema cobre plantio e manejo, colheita e seleção, tratamento químico e obtenção do colmo tratado. Tabelas de inventário e impactos normalizados sustentam a identificação dos pontos críticos.</p>
+<h2 id="ficha-acv-bambu-unesp-araujo2025--3-problema-e-perguntas-de-pesquisa">3. Problema e perguntas de pesquisa</h2>
+<p>O estudo responde à escassez de avaliações ambientais sobre cadeias artesanais de bambu. Sua pergunta central é: quais impactos ambientais potenciais se destacam na produção artesanal de colmos tratados para construção civil no sudoeste da Amazônia brasileira?</p>
+<p>As perguntas operacionais abrangem:</p>
+<ul>
+<li>quais entradas, perdas e efluentes compõem o inventário por unidade funcional;</li>
+<li>quais categorias de impacto predominam na modelagem;</li>
+<li>em quais etapas e fluxos se concentram os impactos potenciais;</li>
+<li>que prioridades de gestão e pesquisa emergem do diagnóstico.</li>
+</ul>
+<h2 id="ficha-acv-bambu-unesp-araujo2025--4-referencial-teórico">4. Referencial teórico</h2>
+<p>Os autores relacionam bioeconomia amazônica, produção artesanal, uso de bambu na construção e avaliação de ciclo de vida. O artigo compara seu enfoque com ACVs industriais, nas quais energia e clima costumam receber maior destaque, e mobiliza literatura sobre cadeias de bambu, saúde humana, resíduos, ecoeficiência e políticas de desenvolvimento.</p>
+<h2 id="ficha-acv-bambu-unesp-araujo2025--5-metodologia">5. Metodologia</h2>
+<div class="tab"><table><thead><tr><th>Elemento</th><th>Procedimento</th></tr></thead><tbody><tr><td><strong>Unidade estudada</strong></td><td>Uma unidade produtiva artesanal em Rio Branco, Acre</td></tr><tr><td><strong>Espécie</strong></td><td><em>Guadua angustifolia</em></td></tr><tr><td><strong>Escopo</strong></td><td>ACV atribucional, do berço ao portão</td></tr><tr><td><strong>Unidade funcional</strong></td><td>Produção artesanal de 1 kg de colmo tratado para construção civil</td></tr><tr><td><strong>Coleta primária</strong></td><td>Visitas entre setembro de 2021 e janeiro de 2022; avaliações específicas de resíduos e efluentes em 2021 e 2022</td></tr><tr><td><strong>Tratamento observado</strong></td><td>Imersão em 100 L de água com 5 kg de bórax e 5 kg de ácido bórico</td></tr><tr><td><strong>Software e base</strong></td><td>SimaPro 9.1 e Ecoinvent 3</td></tr><tr><td><strong>Método de impacto</strong></td><td>ReCiPe 2016 Midpoint (h)</td></tr><tr><td><strong>Normas declaradas</strong></td><td>ISO 14040 e ISO 14044</td></tr></tbody></table></div>
+<h3 id="ficha-acv-bambu-unesp-araujo2025--tabela-1-inventário-por-1-kg-de-colmo-tratado-p">Tabela 1 — inventário por 1 kg de colmo tratado (p. 7)</h3>
+<div class="tab"><table><thead><tr><th>Entrada</th><th>Unidade</th><th>Quantidade</th><th>Pág.</th></tr></thead><tbody><tr><td>NPK Fertilizer (15-15-15)</td><td>kg</td><td>0.0003</td><td>7</td></tr><tr><td>Liming</td><td>kg</td><td>0.002</td><td>7</td></tr><tr><td>Water</td><td>L</td><td>0.67</td><td>7</td></tr><tr><td>Boric acid</td><td>kg</td><td>0.0003</td><td>7</td></tr><tr><td>Borax</td><td>kg</td><td>0.0003</td><td>7</td></tr></tbody></table></div>
+<div class="tab"><table><thead><tr><th>Saída</th><th>Unidade</th><th>Quantidade</th><th>Pág.</th></tr></thead><tbody><tr><td>Waste bamboo wood</td><td>kg</td><td>0.20</td><td>7</td></tr><tr><td>Discarded bamboo pole</td><td>kg</td><td>0.13</td><td>7</td></tr><tr><td>Wastewater</td><td>L</td><td>0.07</td><td>7</td></tr></tbody></table></div>
+<p>A fonte separa entradas e saídas em dois blocos, cada um com sua coluna <code>Unity</code>. Os nomes vão como a fonte os escreve (em inglês), para que a conferência seja contra a célula e não contra tradução.</p>
+<h2 id="ficha-acv-bambu-unesp-araujo2025--6-principais-achados">6. Principais achados</h2>
+<ul>
+<li>O processo observado perdeu 25% da matéria-prima encaminhada ao tratamento químico (p. 7).</li>
+<li>O efluente do tratamento correspondeu a <strong>10% da água total utilizada</strong> no processo químico e foi descartado diretamente no solo (p. 8).</li>
+<li>A unidade produtiva tem produção anual da ordem de <strong>500 varas tratadas de 6 m por hectare</strong> (p. 4) e emprega três trabalhadores (p. 4).</li>
+<li>Entre as categorias normalizadas, toxicidade carcinogênica humana (HCT) representou aproximadamente 93% do impacto potencial total estimado (p. 7).</li>
+<li>Os autores atribuem esse resultado ao uso de ácido bórico e bórax e à presença desses compostos em aparas, cortes, colmos descartados e efluentes.</li>
+<li>Resíduos contaminados de aparas e colmos descartados responderam por 91% do impacto total modelado da cadeia artesanal (p. 7).</li>
+<li>Eutrofização de água doce foi a segunda categoria mais destacada, com aproximadamente 4% (p. 8).</li>
+<li>O estudo recomenda investigar alternativas ao ácido bórico e ao bórax, melhorar a gestão de resíduos sólidos e efluentes, otimizar o uso de água e aperfeiçoar o manejo de fertilizantes.</li>
+</ul>
+<h3 id="ficha-acv-bambu-unesp-araujo2025--tabela-2-impactos-por-material-unidade-funcional">Tabela 2 — impactos por material, unidade funcional 1 kg de colmo (p. 9)</h3>
+<p>Valores em mPt (mili-pontos), como a fonte os publica. GW: aquecimento global; SOD: depleção da camada de ozônio; PM: material particulado fino; FE: eutrofização de água doce; HCT: toxicidade carcinogênica humana; MRS: escassez de recursos minerais; WU: uso da água. A coluna <code>Pág.</code> é localizador, não resultado.</p>
+<div class="tab"><table><thead><tr><th>Material</th><th>GW</th><th>SOD</th><th>PM</th><th>FE</th><th>HCT</th><th>MRS</th><th>WU</th><th>Pág.</th></tr></thead><tbody><tr><td>Fertilizante NPK</td><td>3.60x10-5</td><td>7.56x10-5</td><td>8.37x10-6</td><td>1.02x10-5</td><td>3.60x10-5</td><td>2.85 x10-8</td><td>6.00x10-7</td><td>9</td></tr><tr><td>Calagem</td><td>3.55x10-6</td><td>4.15x10-7</td><td>2.16x10-6</td><td>9.98x10-9</td><td>2.47x10-6</td><td>6.33x10-12</td><td>7.50x10-6</td><td>9</td></tr><tr><td>Efluente</td><td>5.54x10-4</td><td>2.95x10-5</td><td>1.22x10-4</td><td>4.10x10-6</td><td>2.31x10-3</td><td>4.64x10-9</td><td>2.55x10-3</td><td>9</td></tr><tr><td>Ácido bórico</td><td>3.91x10-5</td><td>2.68x10-6</td><td>5.68x10-5</td><td>2.72x10-4</td><td>5.54x10-3</td><td>1.91x10-8</td><td>3.16x10-5</td><td>9</td></tr><tr><td>Bórax</td><td>5.47x10-5</td><td>2.94x10-6</td><td>2.44x10-5</td><td>2.42x10-4</td><td>4.21x10-3</td><td>4.68x10-9</td><td>9.10x10-6</td><td>9</td></tr><tr><td>Resíduo de bambu</td><td>6.58x10-4</td><td>3.56x10-5</td><td>4.67x10-4</td><td>4.41x10-3</td><td>7.42x10-2</td><td>2.58x10-8</td><td>1.33x10-4</td><td>9</td></tr><tr><td>Colmo descartado</td><td>1.53x10-4</td><td>1.12x10-5</td><td>7.91x10-5</td><td>1.89x10-3</td><td>7.31x10-2</td><td>3.58x10-8</td><td>7.67x10-5</td><td>9</td></tr><tr><td>Colmo tratado (total)</td><td>1.50x10-3</td><td>1.58x10-4</td><td>7.60x10-4</td><td>6.83x10-3</td><td>1.59x10-1</td><td>1.19 x10-7</td><td>2.82x10-3</td><td>9</td></tr></tbody></table></div>
+<p>A coluna HCT do colmo tratado (1,59×10⁻¹) é uma ordem de grandeza maior que qualquer outra célula da tabela, e as duas linhas que mais contribuem para ela são resíduo de bambu e colmo descartado — os mesmos 91% citados acima (p. 7).</p>
+<p>Os percentuais são resultados de impacto potencial normalizado no modelo de ACV. Eles não equivalem a incidência epidemiológica e não demonstram que a simples troca de um insumo eliminará exatamente o valor de 93% do impacto (p. 7).</p>
+<h2 id="ficha-acv-bambu-unesp-araujo2025--7-avaliação-crítica">7. Avaliação crítica</h2>
+<h3 id="ficha-acv-bambu-unesp-araujo2025--contribuições">Contribuições</h3>
+<ul>
+<li>Usa dados primários de uma cadeia artesanal amazônica pouco documentada.</li>
+<li>Define unidade funcional, fronteira do sistema, inventário e método de impacto.</li>
+<li>Localiza o ponto crítico nos resíduos e efluentes do tratamento, evitando classificar o bambu como sustentável apenas por ser renovável.</li>
+</ul>
+<h3 id="ficha-acv-bambu-unesp-araujo2025--limitações">Limitações</h3>
+<ul>
+<li>Uma única unidade produtiva limita a generalização regional.</li>
+<li>O escopo termina no portão; uso, durabilidade, transporte posterior e fim de vida ficam de fora.</li>
+<li>A ficha não encontrou no artigo análise de sensibilidade capaz de quantificar a robustez dos percentuais diante de cenários alternativos.</li>
+<li>A modelagem estima impactos potenciais; não mede exposição ocupacional, dose nem desfecho clínico em trabalhadores.</li>
+<li>O artigo não ensaia tratamento térmico, PU vegetal, Mamonex ou processo Takwara e não permite atribuir a essas alternativas um percentual de redução.</li>
+</ul>
+<h2 id="ficha-acv-bambu-unesp-araujo2025--8-inserção-no-estado-da-arte">8. Inserção no estado da arte</h2>
+<p>O artigo constitui referência direta para bioeconomia amazônica, ACV de bambu e gestão de tratamento preservativo. No ecossistema Takwara, deve ser usado para formular hipóteses, cenários comparativos e requisitos de ensaio. A validação de uma alternativa exige ACV própria, inventário equivalente e avaliação de desempenho e segurança.</p>
+<p><strong>Referência ABNT:</strong> ARAUJO, Letícia Medeiros de; GIANELLI, Bruno Fernando; MANCINI, Sandro Donnini; MEDEIROS, Gerson Araujo de. Life cycle assessment of the artisanal bamboo pole (<em>Guadua angustifolia</em>) production in the Brazilian Amazon. <em>Brazilian Journal of Science</em>, v. 4, n. 4, p. 13–28, 2025. DOI: <a href="https://doi.org/10.14295/bjs.v4i4.719" rel="noopener">10.14295/bjs.v4i4.719</a>.</p>
+<h2 id="ficha-acv-bambu-unesp-araujo2025--declaração-de-uso-de-inteligência-artificial">Declaração de uso de inteligência artificial</h2>
+<p>Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas, conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.</p>
+<p><strong>O que a inteligência artificial não faz:</strong> ela não homologa. A homologação é ato humano, do responsável pela curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o número existe na página não substitui esse julgamento.</p>
+<p><strong>O que não foi feito:</strong> nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.</p>
+</article>
+
+  <footer>
+    <p>Documento de leitura para homologação. Não altera ficha, não homologa, não substitui o parecer.
+    Gerado a partir das sete fichas e da medição do gate de fidelidade à fonte (self-test 96) sobre o corpus de
+    74 documentos da gaveta bambu-estrutural.</p>
+  </footer>
+</main>
+<a class="topo" href="#top">↑ índice</a>
+</body>
+</html>

@@ -4,7 +4,8 @@ titulo: Tratamento de bambu com ácido pirolenhoso contra a deterioração por b
 autores: Rodolfo Gomes da Silva
 ano: 2011
 identificador: Unicamp/FEAGRI, Mestrado em Engenharia Agrícola
-estado_documental: homologado-documentalmente
+estado_documental: em-revisao-documental
+estado_anterior: "homologado-documentalmente (sem ato de homologacao registrado; rebaixada em 2026-11-25)"
 fonte_primaria: PDF integral conferido
 pacote_fonte_privado: 2011-silva-tratamento-pirolenhoso-bambu
 data_revisao: 2026-08-19

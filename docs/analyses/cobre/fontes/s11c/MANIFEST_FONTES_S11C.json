@@ -1,0 +1,107 @@
+{
+ "schema": "ACERVO_FONTES_S11C_R1",
+ "gaveta": "cobre",
+ "data": "2026-11-24",
+ "nota": "Fontes das referências 17 a 21, publicadas byte a byte para o auditor externo. Hash calculado na origem e reconferido no destino. As duas pendências (IN Ibama 5/92 e UNIPAR 2022) estão declaradas sem arquivo, com motivo.",
+ "total": 10,
+ "fontes": [
+  {
+   "ref": 17,
+   "chave": "pi292_1989",
+   "path": "docs/analyses/cobre/fontes/s11c/1989_pi292_preservativos_registro.pdf",
+   "bytes": 103925,
+   "sha256": "a7d085cd9bd0bdd85d17a72ccc4c2bf17bdf18c7858b4b1ffb8bfc1c2cbd23cb",
+   "fonte_url": "https://www.gov.br/ibama/pt-br/assuntos/quimicos-e-biologicos/preservativos-de-madeiras/arquivos/2017-registados/areas%20tematicas_produtos%20preservativo%20de%20madeiras_2.pdf"
+  },
+  {
+   "ref": 17,
+   "chave": "pi292_1989",
+   "path": "docs/analyses/cobre/fontes/s11c/1989_pi292_preservativos_registro.md",
+   "bytes": 11228,
+   "sha256": "99cc40165100f23254cb874f6ceeecf2f8346d2e10991385e7020c93a0a6ddbc",
+   "fonte_url": "https://www.gov.br/ibama/pt-br/assuntos/quimicos-e-biologicos/preservativos-de-madeiras/arquivos/2017-registados/areas%20tematicas_produtos%20preservativo%20de%20madeiras_2.pdf"
+  },
+  {
+   "ref": 18,
+   "chave": "pn151_1997",
+   "path": "docs/analyses/cobre/fontes/s11c/1997_pn151_ibama_registro_risco_ambiental.pdf",
+   "bytes": 229412,
+   "sha256": "372e9324d178cb9442ced3d5b9f5cc0f04b799d0362810035d9c616d56bea20a",
+   "fonte_url": "http://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=1&pagina=72&data=25/11/1997&captchafield=firstAccess"
+  },
+  {
+   "ref": 18,
+   "chave": "pn151_1997",
+   "path": "docs/analyses/cobre/fontes/s11c/1997_pn151_ibama_registro_risco_ambiental.md",
+   "bytes": 7715,
+   "sha256": "8d007210e741873d16fb4b0f1b50a4eb0fb08f696df716ae8e12d4b3d00dbf2a",
+   "fonte_url": "http://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?jornal=1&pagina=72&data=25/11/1997&captchafield=firstAccess"
+  },
+  {
+   "ref": 19,
+   "chave": "iema2023",
+   "path": "docs/analyses/cobre/fontes/s11c/2023_iema_es_nt01_preservacao_madeira.pdf",
+   "bytes": 1258007,
+   "sha256": "57576709749df7d43d5293080aa8ea160ef5a66df922abbf46dd0770151f4c22",
+   "fonte_url": "https://iema.es.gov.br/Media/iema/LICENCIAMENTO/NTO_01-2023_Preserva%C3%A7ao_de_Madeira_14122023.pdf"
+  },
+  {
+   "ref": 19,
+   "chave": "iema2023",
+   "path": "docs/analyses/cobre/fontes/s11c/2023_iema_es_nt01_preservacao_madeira.md",
+   "bytes": 86921,
+   "sha256": "1e82f22d0cf53e9f3fb5aa849ee7a70e59db3cf70e93a55617977050762ab63f",
+   "fonte_url": "https://iema.es.gov.br/Media/iema/LICENCIAMENTO/NTO_01-2023_Preserva%C3%A7ao_de_Madeira_14122023.pdf"
+  },
+  {
+   "ref": 20,
+   "chave": "fg4mad2016",
+   "path": "docs/analyses/cobre/fontes/s11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.pdf",
+   "bytes": 1922145,
+   "sha256": "ec643f7b088711aa4a815d7a4efd78df8a2a57ab01f7e9d6470dbcec97b9de2e",
+   "fonte_url": "https://fg4mad.com.br/wp-content/uploads/2016/10/DestinacaoResiduosMadeiraTratada.pdf"
+  },
+  {
+   "ref": 20,
+   "chave": "fg4mad2016",
+   "path": "docs/analyses/cobre/fontes/s11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.md",
+   "bytes": 11889,
+   "sha256": "47b08dc57cc1dd4b3c778f5877d10b8b1bdf3bf19d1ff2b2fc7e9a1bd81b21a3",
+   "fonte_url": "https://fg4mad.com.br/wp-content/uploads/2016/10/DestinacaoResiduosMadeiraTratada.pdf"
+  },
+  {
+   "ref": 21,
+   "chave": "ufsm2025",
+   "path": "docs/analyses/cobre/fontes/s11c/2025_ufsm_ciencia_florestal_cca_moiroes_solo.pdf",
+   "bytes": 1116265,
+   "sha256": "e8a6467d6f1b286da71ffc0d91b75211b1efa9df0879793047a291764cae9f7a",
+   "fonte_url": "https://periodicos.ufsm.br/cienciaflorestal/article/download/86024/66278"
+  },
+  {
+   "ref": 21,
+   "chave": "ufsm2025",
+   "path": "docs/analyses/cobre/fontes/s11c/2025_ufsm_ciencia_florestal_cca_moiroes_solo.md",
+   "bytes": 33082,
+   "sha256": "236938208406917a8df05a86393e62d6179f73e2e9bd7042ed45173df44c52a0",
+   "fonte_url": "https://periodicos.ufsm.br/cienciaflorestal/article/download/86024/66278"
+  }
+ ],
+ "pendentes": [
+  {
+   "chave": "in_ibama_05_1992",
+   "titulo": "Instrução Normativa Ibama nº 05, de 20 de outubro de 1992",
+   "fonte_url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&pagina=60&data=21/10/1992",
+   "estado": "PENDENTE",
+   "motivo": "A página do DOU indicada nos índices do Ibama não contém a Instrução: as páginas 57 a 62 do DOU de 21/10/1992 foram baixadas e conferidas, e trazem outros atos. A Instrução não foi localizada no intervalo varrido.",
+   "destrava": "Localizar a página correta do DOU de 21/10/1992, ou obter cópia no processo administrativo do registro (o certificado do Tanalith cita a IN 5/92 como base legal)."
+  },
+  {
+   "chave": "unipar2022",
+   "titulo": "Madeira preservada com CCA: proficuidade, potencial deletério, toxicidade dos resíduos e tecnologias de recuperação — Revista em Agronegócio e Meio Ambiente (2022)",
+   "fonte_url": "https://doi.org/10.17765/2176-9168.2022v15n1e8871",
+   "estado": "PENDENTE",
+   "motivo": "O periódico responde 403 a requisição automatizada e, no navegador, devolve a página 'Site em manutenção' da Vitru Educação. Não é bloqueio antibot: o serviço está indisponível.",
+   "destrava": "Nova tentativa quando o periódico voltar, ou cópia via biblioteca/Periódicos Capes."
+  }
+ ]
+}

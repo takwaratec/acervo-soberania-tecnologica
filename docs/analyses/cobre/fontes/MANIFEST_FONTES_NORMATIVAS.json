@@ -1,0 +1,61 @@
+{
+ "schema": "ACERVO_FONTES_NORMATIVAS_R1",
+ "gaveta": "cobre",
+ "data": "2026-11-24",
+ "nota": "Estas fontes NÃO estão na árvore do repositório. `governance-check.yml` proíbe PDF versionado, e os PDFs foram retirados do rastreio; cada um continua em `_privado`, com o mesmo sha256 do byte que estava versionado (ver `CUSTODIA_PRIVADA_PDFS.json`). O que o auditor externo alcança aqui é o metadado e o hash — não o byte. Para ler o arquivo, é preciso pedi-lo pelo `caminho_privado`; `git show` não se aplica a estas fontes. O extrato textual curado de cada uma está em `fontes/md/`, reduzido ao que a peça cita (C-02).",
+ "total": 5,
+ "fontes": [
+  {
+   "path": "docs/analyses/cobre/fontes/pdf/BR_CONAMA_430_2011_Efluentes.pdf",
+   "bytes": 158284,
+   "sha256": "cd077d102b9427dcd20dcb8b2a812f0b54945965663c4a21d1667d80b9340da6",
+   "id": "br-conama-430-2011-efluentes",
+   "ref_bibliografia": 9,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Boratos_Cobre/pdf/BR_CONAMA_430_2011_Efluentes.pdf",
+   "custodia_verificada": true
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/md/BR_CONAMA_430_2011_Efluentes.md",
+   "bytes": 28913,
+   "sha256": "49aead0c608999053bc34de6cde5149098d9428c1dbe1d1babecc1e7a2faa33e",
+   "id": "br-conama-430-2011-efluentes",
+   "ref_bibliografia": 9,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/pdf/BR_CONAMA_357_2005_Qualidade_Aguas.pdf",
+   "bytes": 205937,
+   "sha256": "7ec713c45154ba60ee9e43535580548b98c0bcce4abddef1a9543c46db29e21f",
+   "id": "br-conama-357-2005-qualidade-aguas",
+   "ref_bibliografia": 10,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": false,
+   "caminho_privado": "_privado/fontes-documentais/ago_28_Boratos_Cobre/pdf/BR_CONAMA_357_2005_Qualidade_Aguas.pdf",
+   "custodia_verificada": true
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/md/BR_CONAMA_357_2005_Qualidade_Aguas.md",
+   "bytes": 66278,
+   "sha256": "4a8a2b3779ca1d6fbe620fa69891da89153f281c4e7be5c419465342452c3697",
+   "id": "br-conama-357-2005-qualidade-aguas",
+   "ref_bibliografia": 10,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
+  },
+  {
+   "path": "docs/analyses/cobre/fontes/pnrs_art3_XVI.txt",
+   "bytes": 584,
+   "sha256": "3f4d67ba38623ce15e0c2167e6f2e56458d2185dba56bfbe66363842067539c6",
+   "id": "pnrs-art3-xvi-txt",
+   "ref_bibliografia": 12,
+   "ref_bibliografia_legado": true,
+   "esta_no_repositorio": true
+  }
+ ],
+ "identificador": "`id` é o identificador estável da fonte (slug do arquivo). `ref_bibliografia` é o número na lista de referências e muda quando a bibliografia muda: não use como chave.",
+ "regularizado_em": "2026-11-25",
+ "regularizacao": "C-03 (identificador estável) e C-05 (manifesto não afirma PDF publicado)"
+}

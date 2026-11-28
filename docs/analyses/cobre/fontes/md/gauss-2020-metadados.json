@@ -1,0 +1,24 @@
+{
+  "slug": "2020-gauss-tratamento-preservativo-modificacao-quimica",
+  "id_bibliografia": "BAMBU-COMP-003",
+  "eixo": "bibliografia-complementar",
+  "titulo": "Tratamento preservativo e modificação química do bambu para fins estruturais",
+  "autores": [
+    "Gauss, Christian"
+  ],
+  "ano": 2020,
+  "tipo": "tese",
+  "instituicao": "FZEA-USP",
+  "pagina_institucional": "https://teses.usp.br/teses/disponiveis/74/74133/tde-12042021-165453/pt-br.html",
+  "endpoint_arquivo": "https://teses.usp.br/teses/disponiveis/74/74133/tde-12042021-165453/publico/DO6403981COR.pdf",
+  "doi": "10.11606/T.74.2020.tde-12042021-165453",
+  "issn": null,
+  "isbn": null,
+  "licenca": "a confirmar",
+  "data_acesso": "2026-07-31",
+  "sha256": "dfc13c3cfcb9662f75f0704d722258f8e78e07435f0ad70d71e8331ab9d89a1a",
+  "paginas": 333,
+  "status_download": "baixado",
+  "operacao": "BIBLIOGRAFIA_COMPLEMENTAR_POR_EIXO",
+  "observacoes": "tese de doutorado, 333p; exceção temporal"
+}

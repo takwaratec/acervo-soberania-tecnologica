@@ -8,6 +8,7 @@ estado_documental: em-revisao-documental
 fonte_primaria: PDF integral conferido (opentxt editor ZJU)
 data_revisao: 2026-08-09
 responsavel_curadoria: Fabio Takwara
+declaracao_ia: "produção assistida por inteligência artificial; conferência na fonte e responsabilidade de homologação são humanas"
 ---
 
 # Chumbo e tolerância do bambu-mossô (*Phyllostachys pubescens*)
@@ -42,18 +43,27 @@ responsavel_curadoria: Fabio Takwara
 
 ## 3. Valores documentados (fonte primária — tabela/página)
 
-### Tabela 1 (p. 125) — hidroponia, 30 dias, Pb
+### Tabela 1 (p. 126) — hidroponia, 30 dias, Pb
 
-| Tratamento | TF | BCF |
-|---|---|---|
-| 10 µmol/L | 0,36 | 37,64 |
-| 25 µmol/L | 0,37 | 24,95 |
-| 50 µmol/L | 0,36 | 17,27 |
-| 100 µmol/L | 0,29 | 12,82 |
-| 200 µmol/L | 0,19 | 11,50 |
-| 400 µmol/L | 0,07 | 10,97 |
+Sete tratamentos, três repetições. As três colunas de concentração por tecido e as duas de fator estavam
+faltando nesta ficha; entram agora, como a fonte as publica (média ± desvio padrão e letra de significância).
+TF é o fator de translocação (parte aérea/raiz) e BCF o de bioacumulação (planta/meio). `Pág.` é localizador.
 
-- **Concentração máxima** (400 µmol/L): raízes **4.282,8 mg/kg**; caules 482,2 mg/kg; folhas 148,8 mg/kg.
+| Pb (µmol/L) | Raiz (mg/kg) | Colmo (mg/kg) | Folha (mg/kg) | TF | BCF | Pág. |
+|---|---|---|---|---|---|---|
+| CK | 0.6 ± 0.5b | 0.1 ± 0.7d | 0.2 ± 0.6f | – | – | 126 |
+| 10 | 146 ± 30b | 56 ± 14cd | 49 ± 9e | 0.36 | 37.64 | 126 |
+| 25 | 233 ± 58b | 94 ± 18cd | 84 ± 3d | 0.37 | 24.95 | 126 |
+| 50 | 331 ± 43b | 141 ± 4cd | 105 ± 8cd | 0.36 | 17.27 | 126 |
+| 100 | 544 ± 103b | 210 ± 22bc | 127 ± 14bc | 0.29 | 12.82 | 126 |
+| 200 | 1221 ± 200b | 351 ± 56ab | 165 ± 34a | 0.19 | 11.50 | 126 |
+| 400 | 4283 ± 994a | 482 ± 166a | 149 ± 17ab | 0.07 | 10.97 | 126 |
+
+**O que a tabela mostra:** a raiz concentra até 4.283 mg/kg e a folha não passa de 165 mg/kg; o TF cai de
+0,37 para 0,07 conforme a dose sobe, e o BCF cai de 37,64 para 10,97. Retenção radicular crescente com a
+dose, transporte decrescente — o mesmo padrão que a ficha do Chen registra para o cobre.
+
+- **Concentração máxima** (400 µmol/L, p. 123): raízes **4.282,8 mg/kg** (p. 123); caules 482,2 mg/kg (p. 123); folhas 148,8 mg/kg (p. 123).
 - **Interpretação do artigo (p. 127):** "All TF values were less than 1, whereas all BCF values were more than 10."
 
 ## 4. Correspondência com valores citados em revisões
@@ -80,6 +90,21 @@ responsavel_curadoria: Fabio Takwara
 
 ## 7. Registro
 
+<!-- tipo: histórico — tabela de registro de versões, não de resultados -->
 | Data | Versão | Alteração |
 |---|---|---|
 | 2026-08-09 | 1.0 | Ficha criada (patch candidato F3; frente CONTRATO_INTEGRACAO_FONTES_FITORREMEDIACAO_001). |
+
+## Declaração de uso de inteligência artificial
+
+Esta ficha foi produzida com assistência de inteligência artificial: leitura do artigo, transcrição de tabelas,
+conferência dos valores contra a página de origem e redação. Todo valor declarado aqui traz a página em que
+aparece na fonte, e a conferência foi feita página por página — não por semelhança de texto.
+
+**O que a inteligência artificial não faz:** ela não homologa. A homologação é ato humano, do responsável pela
+curadoria, que lê a ficha, confere o que ela afirma e responde por ela. Um resultado de máquina dizendo que o
+número existe na página não substitui esse julgamento.
+
+**O que não foi feito:** nenhum valor foi estimado, interpolado ou arredondado para fechar conta. Quando a fonte
+não permitiu confirmar um valor, a ficha diz isso no próprio texto, em vez de completar por inferência. Quando a
+fonte diverge de si mesma, a divergência fica registrada, sem harmonização por plausibilidade.

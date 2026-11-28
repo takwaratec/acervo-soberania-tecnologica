@@ -1,0 +1,81 @@
+{
+ "schema": "GAVETA_BORO_INVENTARIO_R1",
+ "gaveta": "docs/analyses/boro",
+ "frente": "BORO",
+ "data": "2026-11-24",
+ "artefatos_publicos": [
+  "00-estado-da-questao-boro.md",
+  "01-importacao-brasileira-boro-comexstat.md",
+  "index.md",
+  "HANDOFF_BORO_20261124.md"
+ ],
+ "custodia_privada": {
+  "raiz": "_privado/governanca-operacional/extracoes/boro/",
+  "herdado_arquivos": 42,
+  "herdado_pdfs": 16,
+  "fontes_novas": 9,
+  "integridade_herdado": "VERIFICADA",
+  "divergencias_hash": 0,
+  "comexstat": {
+   "arquivos": 53,
+   "bytes": 41314624,
+   "manifest": "fontes_novas/comexstat/MANIFEST_ComexStat.json",
+   "estado": "CUSTODIADA",
+   "periodo": "1997-01 a 2026-10"
+  },
+  "atsdr_tp26": {
+   "arquivos": 15,
+   "bytes": 23617819,
+   "estado": "CUSTODIADA",
+   "manifest": "fontes_novas/atsdr_tp26/INDEX_TP26.json",
+   "paginas": 248
+  },
+  "nih_ods": {
+   "arquivos": 5,
+   "bytes": 361592,
+   "estado": "CUSTODIADA",
+   "manifest": "fontes_novas/nih_ods/MANIFEST_NIH_ODS.json"
+  }
+ },
+ "fichas_herdadas_nao_homologadas": 10,
+ "estado_documental": "em-revisao-documental",
+ "homologacao_automatica": false,
+ "nao_entra_nesta_gaveta": [
+  "sulfato de cobre",
+  "CCA",
+  "CCB",
+  "vernizes volateis",
+  "acrilicos",
+  "concreto"
+ ],
+ "lacunas_fechadas_nesta_rodada": [
+  "importacao brasileira por NCM, serie 1997-2026 (ComexStat/MDIC)",
+  "exposicao ocupacional a poeira de borato: ancorada por proxy industrial (ATSDR tp26)",
+  "dose de suplemento humano (NIH ODS via Wayback): 0,15-6 mg B, UL 20 mg/dia"
+ ],
+ "lacunas_abertas": [
+  "medicao de poeira/silica/boro em oficina de bambu tratado (BR e China)",
+  "uso real de EPI por operador brasileiro",
+  "limite NR-15 brasileiro para boratos (nao localizado)",
+  "classificacao CLP/Eur-Lex Repr. 1B (bloqueio WAF)",
+  "destino do efluente do banho na oficina"
+ ],
+ "versao_ficha": 3,
+ "auditoria": {
+  "parecer": "TECO / CODEX_LUNA_MEDIUM",
+  "data": "2026-11-24",
+  "veredito": "REPLANEJAR",
+  "achados": 12,
+  "parecer_custodiado": "ops/command-center/task-results/BORO-AUDITORIA-R2-20261124/ACERVO_AUDITORIA.md",
+  "evidencia_alteracoes": "ops/command-center/task-results/BORO-AUDITORIA-R2-20261124/EVIDENCIA_ALTERACOES_DO_AUDITOR.diff",
+  "tratamento": "v3: A1-A12 tratados; A4 (BLOQUEANTE) e A5 corrigidos por reescrita das secoes 7 e 6.5",
+  "nota_de_protocolo": "O auditor alterou artefatos sob auditoria e criou material fora do escopo declarado (docs/analyses/cobre/, mkdocs.yml, reforma-agraria-agrofloresta/), o que o contrato vedava. Alteracoes preservadas como evidencia; conteudo substantivo aproveitado.",
+  "fontes_trazidas_pelo_auditor_admitidas": [
+   "ATSDR tp26 (Wayback, 248 p.)",
+   "NIH ODS (Wayback)",
+   "ComexStat (API oficial)"
+  ],
+  "verificacao_independente": "ComexStat 2024 reproduzido contra a API oficial: NCM 2528/2810/2840 e composicao por pais conferem; total US$ 204.652.434 / 459,6 mil t"
+ },
+ "pendencia_de_protocolo_aberta": "Decidir o destino das alteracoes do auditor em arquivos FORA do escopo da frente BORO (docs/analyses/cobre/, mkdocs.yml, reforma-agraria-agrofloresta/ecovida-*). Nao foram revertidas por esta revisao."
+}

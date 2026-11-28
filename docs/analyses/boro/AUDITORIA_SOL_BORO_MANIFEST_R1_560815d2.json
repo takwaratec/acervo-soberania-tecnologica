@@ -1,0 +1,393 @@
+{
+  "schema": "TAKWARATEC_R4_AUDIT_MANIFEST_R1",
+  "versao": "2.0.0",
+  "manifest_id": "BORO-AUDITORIA-EXTERNA-20261125-R1",
+  "status": "ABERTO",
+  "gerado_utc": "2026-11-25T20:14:22+00:00",
+  "tipo": "CONTEUDO",
+  "frente": "boro",
+  "autoridade": "FABIO (soberano) — pedido no tópico da frente, 2026-11-25",
+  "alvo_branch": "main",
+  "alvo_commit": "560815d2ab525ecad4bdc0094fe22d59837e85a0",
+  "alvo_nota": "alvo_commit e o ultimo commit que mudou os bytes auditados. O manifesto nao nomeia o proprio commit: um objeto nao pode conter o proprio hash. Quem audita compara alvo_commit ao ultimo commit de CONTEUDO, nunca ao HEAD.",
+  "aviso_de_leitura": "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo carrega o alvo por isso. NÃO leia o manifesto que aparecer dentro do próprio alvo_commit: aquele é o da rodada anterior. A entrada do pacote é este arquivo, AUDITORIA_SOL_BORO_MANIFEST_R1_<alvo>.json, ao lado da resposta de hashes.",
+  "o_que_esta_auditoria_e": "CONTEÚDO e FIDELIDADE À FONTE. Não é auditoria de runtime, de código ou de autoridade. Esta frente teve o crivo do motor de curadoria recusado (o material nunca passou pelo MTCC) — o que se pede a você é exatamente o que nenhum instrumento da casa mediu: se cada afirmação é sustentada pela fonte que o texto lhe atribui.",
+  "pedido_do_soberano": "Submeter o material do boro à auditoria externa do ChatGPT Sol, que só tem acesso ao GitHub, depois de o material passar por crivo próprio de números (gate de fidelidade) e de sujeito (R11).",
+  "objeto": {
+    "artigo_denso": "docs/analyses/boro/artigo-o-boro-explicado-do-zero.md (32 referencias comentadas)",
+    "blog": "docs/analyses/boro/blog-o-boro-ninguem-regula.md",
+    "estado_da_questao": "docs/analyses/boro/00-estado-da-questao-boro.md",
+    "gaveta_comexstat": "docs/analyses/boro/01-importacao-brasileira-boro-comexstat.md",
+    "fichas": "docs/analyses/boro/fichas/ (fichas proprias da frente) e docs/analyses/boro/fichas-relacionadas/ (fichas herdadas de outras gavetas)",
+    "registro_de_conferencia": "scripts/gate_boro/registro.jsonl, registro_paragrafos.json, resumo.json",
+    "regua_de_contagem": "scripts/gate_boro/REGRA_DE_CONTAGEM.md",
+    "parecer_r11_sujeito": "scripts/gate_boro/PARECER_R11_SUJEITO.md",
+    "reprodutor_comexstat": "scripts/gate_boro/reproducir_comexstat.py",
+    "nota": "a contagem de fichas NAO e escrita aqui: o inventario nominal por origem e tipo e o denominador do pacote"
+  },
+  "estado_declarado": {
+    "homologacao": "NADA ESTA HOMOLOGADO. Nenhuma ficha do boro tem homologacao, interna ou externa.",
+    "homologacao_automatica": false,
+    "o_que_ja_foi_medido": "Numeros e paginas (gate de fidelidade) e sujeito das afirmacoes conferidas (R11). Nenhum dos dois mede se a fonte sustenta a conclusao — e o que se pede a voce.",
+    "o_que_nunca_foi_feito": "O material nunca passou pelo motor de curadoria da casa (zero tarefas MTCC-BORO no ledger). A leitura das fontes pela frente foi parcial: 2 integrais, 6 por resumo e trecho. Isso esta declarado, nao escondido.",
+    "placar_de_conferencia": "o placar NAO e escrito a mao neste manifesto: vem do registro fixado no commit de conteudo. Ver o bloco placar_do_registro."
+  },
+  "pergunta": "As afirmações do artigo, do blog e das fichas do boro são fielmente sustentadas pelas fontes custodiadas, e o que não está medido está declarado como tal?",
+  "parte_1_perguntas": [
+    {
+      "id": "Q1",
+      "pergunta": "Cada uma das 32 referências bibliográficas existe, é identificável pelo que o texto declara (autor, ano, título, veículo) e está acessível?",
+      "arquivo": "docs/analyses/boro/artigo-o-boro-explicado-do-zero.md (seção Referências) + docs/analyses/boro/INVENTARIO_GAVETA.json",
+      "criterio": "Para cada referência: o documento existe; o autor/ano/título/veículo declarados correspondem; e o texto não cita como publicado o que está em paywall ou bloqueado."
+    },
+    {
+      "id": "Q2",
+      "pergunta": "Cada número do artigo confere com a fonte que o texto lhe atribui — e o SUJEITO do número é o sujeito da fonte?",
+      "arquivo": "artigo .md + registros em scripts/gate_boro/",
+      "criterio": "O gate da casa mediu 'número na página'. O R11 mediu o sujeito em 61 afirmações e encontrou divergência em algumas. Confira de novo, com atenção a: país × mundo, espécie × humano, dose × concentração, tabela × texto."
+    },
+    {
+      "id": "Q3",
+      "pergunta": "As 190 afirmações sem citação no ponto (58% do corpo na medição de 25/11) foram tratadas — derivadas de fonte declarada, tabela pública com nota, repetição de fonte nomeada, ou removidas?",
+      "arquivo": "artigo .md + scripts/gate_boro/registro.jsonl (campo de veredito por afirmação)",
+      "criterio": "Uma afirmação sem fonte no ponto não é necessariamente erro, mas tem de ter estatuto declarado. Afirmação numérica sem estatuto é furo material."
+    },
+    {
+      "id": "Q4",
+      "pergunta": "O blog e o artigo denso dizem a mesma coisa? E os três pontos que já divergiram (câncer, queima, o percentual de HCT) estão resolvidos?",
+      "arquivo": "docs/analyses/boro/blog-o-boro-ninguem-regula.md + artigo .md",
+      "criterio": "Duas peças do mesmo corpo de fontes não podem divergir em fato, número ou força da afirmação. Divergência é furo material."
+    },
+    {
+      "id": "Q5",
+      "pergunta": "As fichas descrevem o que a fonte descreve, sem generalizar além do medido (país, escala, condição, espécie)?",
+      "arquivo": "docs/analyses/boro/fichas/ + fontes custodiadas",
+      "criterio": "Generalização é o padrão de erro desta frente: resumir tabela por frase, atribuir a um país o que vale para o mundo, tratar dois tratamentos como um."
+    },
+    {
+      "id": "Q6",
+      "pergunta": "A seção sobre carcinogenicidade trata corretamente a convivência entre CLP Repr. 1B (H360FD), 'não classificado como cancerígeno' e o percentual de HCT de um estudo de 2025?",
+      "arquivo": "artigo .md + fichas EU CLP e do estudo de ACV",
+      "criterio": "Três afirmações que parecem contraditórias coexistem. Verifique se o texto distingue classificação regulatória, categoria de impacto de ACV e achado de estudo único — ou se as embaralha."
+    },
+    {
+      "id": "Q7",
+      "pergunta": "O que o texto declara NÃO MEDIDO é de fato não medido — e o que ele declara medido está medido?",
+      "arquivo": "artigo .md + scripts/gate_boro/registro.jsonl + REGRA_DE_CONTAGEM.md",
+      "criterio": "As declarações de cobertura são afirmações sobre o próprio trabalho. Compare com o registro gravado, não com a prosa."
+    },
+    {
+      "id": "Q8",
+      "pergunta": "As instruções de leitura do pacote são executáveis — todo caminho que elas nomeiam existe no commit alvo?",
+      "arquivo": "este manifesto (campo como_reproduzir) + o próprio commit alvo",
+      "criterio": "Instrução que manda abrir caminho inexistente é furo de método. O gerador recusa selar nesse caso."
+    }
+  ],
+  "fontes": [
+    {
+      "path": "docs/analyses/boro/00-estado-da-questao-boro.md",
+      "sha256": "e527f98b8f8042973e5000a5a734279e57afec75ed44e686515bbaef379a4863",
+      "bytes": 54853,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "docs/analyses/boro/01-importacao-brasileira-boro-comexstat.md",
+      "sha256": "99180ac9f905cbc29fbf68d983fa7ec7f9388d67181de079c69d333e0d70c4eb",
+      "bytes": 21912,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "docs/analyses/boro/BOOTSTRAP_COBRE_20261124.md",
+      "sha256": "2d49a587a158974f6718c220764ec36beb1766a86191e69d295f53e8abfc18ff",
+      "bytes": 15588,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "docs/analyses/boro/HANDOFF_BORO_20261124.md",
+      "sha256": "3a1c22455dbf9da74517a3be658d4e2dcdfffc13e152e26cd3d25c0c518276f8",
+      "bytes": 14961,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "docs/analyses/boro/INVENTARIO_GAVETA.json",
+      "sha256": "2ef566fca66b3291656fe6ac6e622c8eb14fc8a998b133ce20e2846e8c9d866d",
+      "bytes": 3127,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "docs/analyses/boro/REGUA_DE_JULGAMENTO.md",
+      "sha256": "3b7be32b8ffc50bbdbb154f661d4222fbc9fc3dd137eb4ec4e11adfd4e7f0cbe",
+      "bytes": 6368,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "docs/analyses/boro/artigo-o-boro-explicado-do-zero.md",
+      "sha256": "2d64c6e47328396b06a9b822c703bcc68a51f62653500c3bea1c8cfeb40e90ee",
+      "bytes": 88264,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "docs/analyses/boro/blog-o-boro-ninguem-regula.md",
+      "sha256": "da5b3dadaa977f9d891dbcccffc5892878152ab3e7866ed3ba9ae49eb0b7170a",
+      "bytes": 12077,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "docs/analyses/boro/index.md",
+      "sha256": "57eb97b06092c396a6c3f18b3c4930425f587ecb0feb1db7cd1e7f93f6e267db",
+      "bytes": 9736,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "scripts/gate_boro/PARECER_R11_SUJEITO.md",
+      "sha256": "21c1cbf3b0dda95b59a5e0470916bad72b71b582bb7bba6f3ee448dcc6aec964",
+      "bytes": 4909,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "scripts/gate_boro/REGISTRO.md",
+      "sha256": "c14406e1a773180c4246f59f5a18ccf68da97dc26ebf313ed958431087b89d1c",
+      "bytes": 6831,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "scripts/gate_boro/REGRA_DE_CONTAGEM.md",
+      "sha256": "95d839f68607cc0036bd2f9c99e2011777d2691448037f3e83633c7b87c8bf84",
+      "bytes": 3813,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "scripts/gate_boro/casos_r11.json",
+      "sha256": "0ce80733e64d0797e9db9325bce62c05a54e3a1dfd8cdf86f46b764138e94d23",
+      "bytes": 32529,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "scripts/gate_boro/comparar.py",
+      "sha256": "ba2ff3d317d459c022ec8dde664b333bd659887e73c866c5f80c8d074db8d930",
+      "bytes": 1806,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "scripts/gate_boro/regerar_peca.py",
+      "sha256": "600c4cf00d42c317f600af126d45f7c1999db7904d297ae1d04886111cb45aec",
+      "bytes": 3761,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "scripts/gate_boro/registro.jsonl",
+      "sha256": "8b808546219250b2f821231daf0ef4bf6c4a064cc4047e564d4f96cc145b8ca3",
+      "bytes": 150214,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "scripts/gate_boro/registro_paragrafos.json",
+      "sha256": "315d85dfe4064830ceb03451d6d956edb498375a29af8d24468295f8076d329b",
+      "bytes": 43667,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "scripts/gate_boro/reproduzir_comexstat.py",
+      "sha256": "decdab95ac1b9b5e8f35d247288f3d7886265ca8ef9dd1665e2053a3e3062e1f",
+      "bytes": 3142,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "scripts/gate_boro/resumo.json",
+      "sha256": "fc2fde19b172af65733f1c3a18827ba5f67ac3a9d7fe736d0a470b1f96b4807a",
+      "bytes": 495,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    },
+    {
+      "path": "scripts/gate_boro/rodar.py",
+      "sha256": "790edb01b7d97bcd832e2e082b45cab8ce5702cceb2b7f7753d08f57ba8e5994",
+      "bytes": 27679,
+      "papel": "documento do boro ou registro de conferencia",
+      "no_repositorio": true,
+      "metodo": "git_show_no_commit"
+    }
+  ],
+  "criterios": {
+    "PASS": "Nenhum furo material. Furos de forma (typo, formatação, numeração) podem existir e são listados sem bloquear.",
+    "PASS_COM_RESSALVA": "Nenhum furo material, mas há afirmação que o texto faz e a fonte não sustenta com a força usada (ex.: generalização além do medido).",
+    "FAIL": "Ao menos um furo material: citação que aponta para fonte que não contém a afirmação; número que não fecha; afirmação contrariada por fonte que o próprio texto cita; referência inexistente."
+  },
+  "severidade": {
+    "ALTO": "Altera conclusão ou afirmação central. Exige correção antes de qualquer publicação definitiva.",
+    "MEDIO": "Afirmação periférica mal sustentada, ou atribuição de fonte imprecisa. Corrigível na rodada seguinte.",
+    "BAIXO": "Forma, estilo, numeração, formatação."
+  },
+  "formato_resposta": {
+    "campos_obrigatorios": [
+      "VEREDITO",
+      "MANIFEST_ID",
+      "COMMIT_CONFERIDO",
+      "HASHES_CONFEREM",
+      "FUROS (lista aberta — sem teto; um item por achado, com arquivo, trecho e gravidade)",
+      "O_QUE_ESTA_CORRETO (o que você conferiu e passou — para a frente saber o que não precisa refazer)",
+      "OBSERVACOES_DE_PROTOCOLO",
+      "LIMITES_DESTA_AUDITORIA"
+    ],
+    "sem_teto": "Não há limite de furos. Relate tudo o que sustentar com arquivo e trecho."
+  },
+  "limites": [
+    "Você lê apenas o que está publicado no commit fixado. Não há runtime, ledger, claim ou código em execução neste pacote.",
+    "As fontes custodiadas do boro estão em _privado/ e NÃO são publicadas neste repositório. Você audita o que o texto afirma e o que o registro de conferência registra; se precisar do PDF primário, isso será fornecido por canal privado e declarado.",
+    "O acervo NÃO produz receita nem dose. Onde o texto diz 'não existe dose segura publicada', isso é declaração de limite, não de omissão.",
+    "Onde o texto diz 'desconhecido', significa que nenhuma fonte mediu — não que o risco seja nulo.",
+    "A classificação do boro como cancerígeno envolve três sistemas diferentes (CLP/GHS regulatório, categoria de impacto de ACV, achado de estudo único). Tratá-los como um só é erro do texto, não ambiguidade do objeto.",
+    "Homologação é ato do soberano. Sua aprovação NÃO homologa — ela confirma ou refuta fidelidade à fonte.",
+    "Esta rodada audita CONTEÚDO. Ela não autoriza merge, promoção nem mudança de estado do sistema."
+  ],
+  "nao_homologa": [
+    "a correção científica das fichas",
+    "a homologação interna, que é ato do soberano",
+    "a instalação ou o runtime do sistema R4",
+    "o mérito das normas brasileiras citadas",
+    "a classificação regulatória oficial do boro"
+  ],
+  "como_reproduzir": [
+    "1. Os objetos auditados estao no commit de CONTEUDO 560815d2ab525ecad4bdc0094fe22d59837e85a0: faca `git checkout 560815d2ab525ecad4bdc0094fe22d59837e85a0` para ler o texto, as fichas e os registros.",
+    "2. Este manifesto NAO existe dentro do commit de conteudo — ele foi publicado depois, no commit de EMPACOTAMENTO. Localize-o assim: `git log --all --format=%h -- docs/analyses/boro/AUDITORIA_SOL_BORO_MANIFEST_R1_560815d2.json` e leia o mais recente. Procurar o manifesto em 560815d2 encontra a rodada anterior, ou nada.",
+    "3. git clone https://github.com/takwaratec/acervo-soberania-tecnologica",
+    "4. git checkout <alvo_commit> — leia o manifesto nomeado por esse alvo, não o que aparecer dentro dele.",
+    "5. Leia docs/analyses/boro/artigo-o-boro-explicado-do-zero.md de ponta a ponta.",
+    "6. Leia scripts/gate_boro/REGISTRO.md para saber o que a frente já mediu e como.",
+    "7. Rode scripts/gate_boro/reproduzir_comexstat.py --ano 2024 para reproduzir a soma da importação a partir do bruto custodiado.",
+    "8. Abra scripts/gate_boro/registro.jsonl e conte os vereditos por tipo: CONFERE, NAO_MEDIDO, DERIVACAO_DECLARADA, TABELA_COM_NOTA, RESUMO_DE_FONTE_NOMEADA.",
+    "9. Para cada afirmação que o texto declara conferida, abra a ficha indicada em docs/analyses/boro/fichas/ e localize o trecho."
+  ],
+  "erro_anterior_declarado": {
+    "nota": "Declarar o que já se sabe, para o auditor não gastar a rodada no que foi medido antes dele.",
+    "itens": [
+      {
+        "id": "F1",
+        "status": "corrigido",
+        "descricao": "O artigo afirmava toda afirmação numérica conferida contra a fonte primária. Falso: a frente tinha lido 2 das 8 fontes por inteiro. A frase foi removida e substituída por relato com número."
+      },
+      {
+        "id": "F2",
+        "status": "corrigido",
+        "descricao": "O dado de 21,8 µg/L do efluente de Kırka estava citado como Liu 2023 (artigo de bambu); o dado é de Türker 2016, que não estava na bibliografia. Entrada criada, citação trocada, ficha escrita."
+      },
+      {
+        "id": "F3",
+        "status": "corrigido",
+        "descricao": "Fonte bloqueada foi contada como fonte conferida: o HTML de uma empresa era página de bloqueio do Cloudflare com 58 caracteres úteis, e o manifesto a certificava 24/24. Hash prova que o byte não mudou; não prova que existe fonte. Corrigido no manifesto."
+      },
+      {
+        "id": "F4",
+        "status": "corrigido",
+        "descricao": "A gaveta do ComexStat somava 9 NCMs e dava US$ 204,7 milhões; o conjunto tem 10 códigos e o valor é US$ 209,5 milhões. O artigo estava certo e a gaveta derivada errada. Corrigido com nota que reproduz a soma e com script de reprodução."
+      },
+      {
+        "id": "F5",
+        "status": "corrigido",
+        "descricao": "O R11 apontou 4 divergências de sujeito e 9 indeterminados. Verificação da frente mostrou que a maioria era página declarada errada no registro, não erro do texto: o índice 40/0 do ensaio de CCB está na Tabela 2, p.5, e o auditor julgou na p.2, onde o 40 é coordenada geográfica. Uma divergência era real (80 mL/min atribuído a ratos) e foi corrigida."
+      },
+      {
+        "id": "F6",
+        "status": "corrigido",
+        "descricao": "O blog afirmava queima e intoxicação como fato sob citação da Embrapa, cujo PDF só traz a instrução 'Não descartar no meio ambiente'. A atribuição foi corrigida."
+      },
+      {
+        "id": "F7",
+        "status": "corrigido",
+        "descricao": "Mesmo defeito de selagem do cobre: o sha256 declarado era do objeto sem o LF final. Agora o selo e o hash do byte publicado, relido do disco. Ja o placar do registro: o manifesto repetia um numero copiado de relato (283/65/200) e o registro tinha outro (286/62/206); o placar passou a ser lido do registro em registros_de_conferencia[]."
+      }
+    ]
+  },
+  "metodos_de_hash": {
+    "git_show_no_commit": "bytes servidos por `git show <alvo>:<path>`, nunca copia local",
+    "registro_custodia_privada": "bytes do arquivo em disco no caminho privado declarado, hash conferido contra o registro de custodia; `git show` NAO se aplica"
+  },
+  "registros_de_conferencia": [
+    {
+      "path": "scripts/gate_boro/registro.jsonl",
+      "sha256": "8b808546219250b2f821231daf0ef4bf6c4a064cc4047e564d4f96cc145b8ca3",
+      "bytes": 150214,
+      "campo_de_veredito": "veredito",
+      "total": 286,
+      "por_veredito": {
+        "NAO_MEDIDO": 206,
+        "CONFERE": 62,
+        "TABELA_COM_NOTA": 10,
+        "DERIVACAO_DECLARADA": 6,
+        "RESUMO_DE_FONTE_NOMEADA": 2
+      },
+      "nota": "contagem derivada do registro neste commit; nenhum numero deste bloco foi escrito a mao"
+    }
+  ],
+  "denominador": {
+    "aviso": "Estas sao as unicas contagens do pacote. Quantidade de ARQUIVO nao e quantidade de OBRA: uma obra pode ter PDF custodiado, extrato textual e ficha, e tres arquivos contam uma fonte.",
+    "fontes_no_manifesto": 20,
+    "no_repositorio": 20,
+    "em_custodia_privada": 0,
+    "por_metodo": {
+      "git_show_no_commit": 20
+    },
+    "o_que_conta_como_fonte": "obra cientifica ou normativa referenciada pelo texto",
+    "o_que_NAO_conta": [
+      "ficha (documento proprio da frente)",
+      "registro de conferencia",
+      "instrumento de medicao",
+      "extrato textual"
+    ]
+  },
+  "pacote": {
+    "manifest_path": "docs/analyses/boro/AUDITORIA_SOL_BORO_MANIFEST_R1_560815d2.json",
+    "commit_do_conteudo": "560815d2ab525ecad4bdc0094fe22d59837e85a0",
+    "commit_do_pacote": null,
+    "nota": "commit_do_pacote fica nulo porque o commit nao pode nomear a si mesmo. Quem audita localiza o pacote pelo caminho do manifesto no historico, nunca dentro do commit de conteudo."
+  },
+  "total_fontes": 20,
+  "fontes_por_metodo": {
+    "git_show_no_commit": 20
+  },
+  "nao_medido_declarado": {
+    "aviso": "Esta secao existe para que o limite seja declarado, nao descoberto. Auditor que descobre o limite sozinho conclui reprovacao; auditor que recebe o limite escrito pode julgar o que importa.",
+    "placar": "O placar esta em registros_de_conferencia[] — lido do registro no commit de conteudo, com sha256 por arquivo. Nenhum numero de cobertura e redigitado neste manifesto.",
+    "o_que_o_registro_mede_e_o_que_nao_mede": "O registro mede se o numero aparece na pagina declarada e se o sujeito confere. Ele NAO mede se a fonte sustenta a conclusao — isso e o objeto desta auditoria.",
+    "leitura_das_fontes": "A frente declarou leitura parcial das fontes originais (2 integrais de 8 na primeira rodada). O R11 foi feito por auditor em sandbox somente-leitura, com parecer transcrito por quem foi auditado — a nota de transcricao esta no proprio parecer.",
+    "historico_de_rodadas": "REGISTRO.md guarda medicao antiga de outra rodada, e registro_paragrafos.json tem forma de mapa (paragrafo -> entrada), nao de lista: nenhum dos dois descreve este commit. O placar valido e o de registros_de_conferencia[]. A contagem de paragrafos NAO e afirmada neste manifesto."
+  },
+  "como_ler": "Este arquivo descreve o alvo_commit acima e vale apenas para ele. A entrada do pacote é este arquivo, ao lado da resposta de hashes (AUDITORIA_SOL_BORO_HASHES_RESPONSE_R1_<alvo>.json)."
+}

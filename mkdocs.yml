@@ -72,6 +72,7 @@ exclude_docs: ""
 
 nav:
   - Início: index.md
+  - Mapa do dia (Cockpit): painel-do-dia/index.html
   - Como navegar no Acervo: como-navegar-no-acervo.md
   - Apresentação do Acervo: apresentacao-do-acervo.md
   - Sobre: sobre.md

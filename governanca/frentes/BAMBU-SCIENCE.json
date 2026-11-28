@@ -54,7 +54,7 @@
         "docs/analyses/bambu-estrutural/**",
         "docs/analyses/bambusc-catalogo-20261119/**"
       ],
-      "motivo": "merge autorizado do PR #99 (catalogo BambuSC adotado pela frente) — o destino declarado do resultado adotado entra no escopo, um caminho por vez. Escopo continua nominal: nao existe curinga de docs/analyses."
+      "motivo": "merge autorizado do PR #99 (catalogo BambuSC adotado pela frente). O destino declarado do resultado adotado entra no escopo, um caminho por vez — escopo continua nominal, sem curinga de docs/analyses."
     }
   ]
 }

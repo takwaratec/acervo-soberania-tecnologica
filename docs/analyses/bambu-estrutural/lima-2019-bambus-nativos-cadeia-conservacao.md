@@ -4,7 +4,8 @@ titulo: Bambus nativos do Brasil — panorama das iniciativas para uma cadeia pr
 autores: Aline Lopes e Lima
 ano: 2019
 identificador: Unicamp, Doutorado em Ambiente e Sociedade
-estado_documental: homologado-documentalmente
+estado_documental: em-revisao-documental
+estado_anterior: "homologado-documentalmente (sem ato de homologacao registrado; rebaixada em 2026-11-25)"
 fonte_primaria: PDF integral conferido
 pacote_fonte_privado: 2019-lima-bambus-nativos-brasil
 data_revisao: 2026-08-19

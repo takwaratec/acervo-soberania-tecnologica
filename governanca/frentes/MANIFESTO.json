@@ -4,7 +4,7 @@
   "origem_commit": "a7996591",
   "sincronizado_em": "2026-11-28",
   "por_que_uma_copia": "o acervo e publico e o registro de governanca e privado: o CI do acervo nao le o ref r4-claims. Esta e uma copia DERIVADA, com hash por arquivo — divergencia e NAO_MEDIDO, nunca PASS.",
-  "emendas": "2026-11-26: REGENCIA ganha governanca/** (mantem esta copia) | 2026-11-28: BAMBU-BAMBUSC ABSORVIDA (scope vazio) e BAMBU-SCIENCE com gavetas_tematicas + docs/analyses/bambusc-catalogo-20261119/** (merge do #99)",
+  "emendas": "2026-11-26: REGENCIA ganha governanca/** (mantem esta copia) | 2026-11-28: BAMBU-BAMBUSC ABSORVIDA (scope vazio), BAMBU-SCIENCE com gavetas_tematicas + docs/analyses/bambusc-catalogo-20261119/** (merge autorizado do #99); copia sincronizada da r4-claims em a7996591",
   "arquivos": {
     "BAMBU-BAMBUSC.json": {
       "sha256": "d87a22e3f022a68d54c3cd37b2d365eab547c2fbf403e36857943b5ec4dc8b1e",
@@ -15,8 +15,8 @@
       "bytes": 522
     },
     "BAMBU-SCIENCE.json": {
-      "sha256": "f59cee06b8d8197b65e7f11648376f8b67e2065fbe9613e51266f011b72b2e78",
-      "bytes": 3280
+      "sha256": "fbd15ab0ebfd9d6ec0fc91ee7e911d3b00f1b084182bf3a5114e137f3668cd8f",
+      "bytes": 3273
     },
     "BORO.json": {
       "sha256": "d1a90bf6179c2c6f97f955a0453def1abb556eb76f7241bd33f2c6ef6d1ea4a3",

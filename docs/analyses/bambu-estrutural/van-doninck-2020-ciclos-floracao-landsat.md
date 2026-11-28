@@ -1,6 +1,7 @@
 ---
 tipo_documental: ficha-cientifica
-estado_documental: homologado-documentalmente
+estado_documental: em-revisao-documental
+estado_anterior: "homologado-documentalmente (sem ato de homologacao registrado; rebaixada em 2026-11-25)"
 fonte_primaria: PDF integral conferido
 identificador: https://doi.org/10.1016/j.jag.2020.102196
 doi: 10.1016/j.jag.2020.102196

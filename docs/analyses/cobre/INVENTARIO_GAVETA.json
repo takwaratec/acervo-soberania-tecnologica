@@ -1,0 +1,235 @@
+{
+ "schema": "GAVETA_COBRE_INVENTARIO_R1",
+ "gaveta": "docs/analyses/cobre",
+ "frente": "COBRE",
+ "ledger_commit": "a37861ff8015e76b70e1a8e38773dc56e4befce9",
+ "data": "2026-11-24",
+ "artefatos_publicos": [
+  "00-mapa-reprocessamento.md",
+  "01-plano-de-pesquisa.md",
+  "02-plano-sulfato-de-cobre.md",
+  "03-plano-residuo-e-alerta.md",
+  "04-resultados-s8-s10-toxicidade-e-residuo.md",
+  "05-resultados-s12-s9-alternativas.md",
+  "06-resultados-s11-uso-domestico.md",
+  "AUDITORIA_R4_PARECER.md",
+  "AUDITORIA_R4_ERRATA.md",
+  "AUDITORIA_R5_PARECER.md",
+  "AUDITORIA_R6_PARECER.md",
+  "index.md"
+ ],
+ "custodia_privada": {
+  "fichas_herdadas": {
+   "caminho": "_privado/fichas/ago_28_CCA_CCB/",
+   "arquivos": 6,
+   "bytes": 94801,
+   "estado": "ficha-em-revisao",
+   "homologadas": 0
+  },
+  "fontes_cca_ccb": {
+   "caminho": "_privado/fontes-documentais/ago_28_CCA_CCB/",
+   "arquivos": 22,
+   "pdfs": 6,
+   "bytes": 9623117,
+   "extracao": "ja existente (canonical + md + manifest_sha256.csv)"
+  },
+  "vocs": {
+   "caminho": "_privado/fontes-documentais/ago_27_VOCs/",
+   "arquivos": 45,
+   "pdfs": 38,
+   "bytes": 137180781,
+   "nomes_nfd": 16
+  },
+  "textos_nr_extraidos": {
+   "caminho": "_privado/governanca-operacional/extracoes/cobre/textos_nr/",
+   "arquivos": 13,
+   "bytes": 486657
+  }
+ },
+ "conferencia_bootstrap": {
+  "arquivos_vocs": "45 (bootstrap: 45)",
+  "pdfs_vocs": "38 (bootstrap: 38)",
+  "divergencia": false
+ },
+ "achado_nr15": {
+  "anexo11_cobre": 0,
+  "anexo11_arsenio_inorganico": 0,
+  "anexo11_arsina": "0,04 ppm / 0,16 mg/m3",
+  "anexo11_cromo": "apenas acido cromico (nevoa), maximo 0,04",
+  "anexo11_poeira_madeira": 0,
+  "anexo12": [
+   "asbesto",
+   "manganes 5 mg/m3 poeiras / 1 mg/m3 fumos",
+   "silica livre cristalizada (LT=8/(%quartzo+2) respiravel)"
+  ],
+  "anexo13_isocianatos": "emprego de isocianatos na formacao de poliuretanas (lacas protetoras de madeira, adesivos)"
+ },
+ "lacunas_abertas": [
+  "custodiar Morais 2021 (revisao CCA, CC BY)",
+  "custodiar estudo de marcenaria (As no ar 0,54-3,1 ug/m3)",
+  "custodiar biomonitoramento Uruguai",
+  "custodiar lixiviacao CCB por meio (2004)",
+  "ABNT NBR 10004-1/-2:2024 (acesso pago)",
+  "exposicao de trabalhador de BAMBU com cobre",
+  "importacao brasileira de cobre e madeira tratada (ComexStat)"
+ ],
+ "estado_documental": "em-revisao-documental",
+ "homologacao_automatica": false,
+ "nao_entra_nesta_gaveta": [
+  "boro como objeto (gaveta propria)",
+  "tratamento de bambu/madeira tratada (fichas de produto, etapa posterior)",
+  "concreto"
+ ],
+ "varredura_repositorio": {
+  "textos_escaneados": 1765,
+  "com_acerto_bambu_tratamento": 1563,
+  "raizes_varridas": 12,
+  "nao_varrido": [
+   "_privado/governanca-operacional/extracoes/ (14682 arquivos)"
+  ],
+  "falsos_positivos": [
+   "_privado/FRENTES_AGENDADAS/ago_29_Povos_Indigenas/ (ruido de OCR)"
+  ]
+ },
+ "achados_da_varredura": [
+  "IARC Volume 62 Wood Dust and Formaldehyde 1995 custodiado e nao fichado (Grupo 1 para poeira de madeira)",
+  "ficha TT-FT-002 em quarentena com numeros de importacao de boro 14x a 103x menores que o ComexStat e origem invertida",
+  "_quarentena/04_Tratamentos com 4 documentos BAM_TRA nunca incorporados",
+  "_quarentena_old e arquivo_historico nunca varridos"
+ ],
+ "integracao_20261124": "Artefatos do cobre produzidos em 2026-11-24 foram incorporados ao branch pelo auditor e revertidos com a inversao de 949e5af; restaurados byte a byte de ops/command-center/task-results/BORO-AUDITORIA-R2-20261124/SUGESTOES_NAO_SOLICITADAS/docs_analyses_cobre/ (sha256 8481412c, b853ccd2, 40dd1d5c).",
+ "plano_de_pesquisa": {
+  "versao": 2,
+  "objeto": "ELEMENTO cobre (nao bambu tratado)",
+  "rodadas": 7,
+  "rodadas_ids": [
+   "E1 origem e identidade",
+   "E2 producao e reservas",
+   "E3 toxicidade humana",
+   "E4 ecotoxicidade aquatica",
+   "E5 normas BR e comparadas",
+   "E6 usos e destinos",
+   "E7 comercio brasileiro"
+  ],
+  "ordem_proposta": [
+   "E4",
+   "E3",
+   "E2",
+   "E5",
+   "E1",
+   "E6",
+   "E7"
+  ],
+  "v1_superada": "99-plano-v1-superado.md (recorte de produto; preservada byte a byte)",
+  "objeto_de_auditoria": "COBRE-PLANO-AUDITORIA-20261124-R1"
+ },
+ "plano_especifico_sulfato": {
+  "versao": 3,
+  "rodadas": 7,
+  "rodadas_ids": [
+   "S1 identidade e mecanismo",
+   "S2 riscos",
+   "S3 literatura",
+   "S4 legislacao e proibicoes",
+   "S5 conformidade no Brasil",
+   "S6 Anvisa e fiscalizacao",
+   "S7 dosagem remedio x veneno"
+  ],
+  "comercio_medido": {
+   "ncm": [
+    "28332510",
+    "28332520"
+   ],
+   "importacao_2025_t": 177.854,
+   "importacao_2025_usd": 370053,
+   "origem_dominante": "China 48,3%",
+   "serie": "1997-2026, volatil, -86% entre 1997 e 2020"
+  },
+  "contraste": "exporta 1.451.750 t de minerio de cobre (2603) e importa 177,9 t de sulfato: razao ~8.000:1 em massa",
+  "v1_superada": "99-plano-sulfato-v1-superado.md",
+  "auditoria": {
+   "task": "COBRE-PLANO-AUDITORIA-20261124-R4",
+   "veredito": "REPLANEJAR",
+   "acatado": true,
+   "correcoes": 4
+  },
+  "ordem_proposta": [
+   "S1",
+   "S2",
+   "S7",
+   "S7-ter",
+   "S7-bis",
+   "S4",
+   "S5",
+   "S6",
+   "S3"
+  ],
+  "auditorias": [
+   {
+    "task": "...-R4",
+    "veredito": "REPLANEJAR",
+    "furos": 4
+   },
+   {
+    "task": "...-R5",
+    "veredito": "REPLANEJAR",
+    "furos": 4,
+    "omissoes": 3
+   }
+  ]
+ },
+ "verificacao_cruzada_cca": {
+  "fontes": [
+   "Ibama 2024 Tanalith 60% CCA-C",
+   "Gauss 2020 Tabela 2.5"
+  ],
+  "CrO3": "47,51 vs 47,5",
+  "CuO": "18,49 vs 18,5",
+  "As2O5": "34,00 vs 34",
+  "divergencia_max": "0,01 p.p."
+ },
+ "retencoes_gauss_tabela_26": {
+  "fonte": "_privado/fontes-academicas/2020-gauss-tratamento-preservativo-modificacao-quimica/extracao.md L2565-2625",
+  "P_edulis_CCA4_alvo_4_0": "0,88 kg/m3 (22% do alvo)",
+  "P_edulis_CCA6_4_alvo_6_4": "1,49 kg/m3 (23% do alvo)",
+  "Pinus_referencia": "4,61 e 7,12 kg/m3"
+ },
+ "correcao_massa_valor_2025": {
+  "massa_total_t": 177.854,
+  "china_pct_massa": 80.4,
+  "china_pct_valor": 48.3,
+  "dispersao_preco_usd_kg": {
+   "China": 1.25,
+   "EUA": 45.57,
+   "Reino Unido": 148.43
+  }
+ },
+ "pesquisa_executada": {
+  "S8": "toxicidade — efeito hepatico, 2 mg/L diretriz provisoria, razao 1802x",
+  "S10": "residuo — PNRS art.3 XVI alcanca liquidos, sem vazio normativo",
+  "S12": "alternativas — Liu 2023 boro eficaz em lab (WPG 0,64%) sem lixiviacao",
+  "S9": "insustentabilidade — cuprico perde apenas em espectro",
+  "S11": "uso domestico — COT110 Embrapa (Tonini/Oliveira 2024) manda reusar L207-214; NMBA 2006 India manda decantar/reusar; nenhuma resolve o descarte final"
+ },
+ "afirmacoes_retiradas": [
+  "cobre e pior que o boro (sem ensaio comparativo)",
+  "cobre lixivia mais que o boro (nao medido; Gauss diz DOT highly leachable)",
+  "cobre do CCB contamina solo (contrariado por Rusch: +12% sem significancia)",
+  "vao normativo (PNRS alcanca liquidos)",
+  "impossibilidade fisica de diluicao"
+ ],
+ "rodada_S11": {
+  "fontes_custodiadas": 5,
+  "fichas_produzidas": 2,
+  "auditorias": {
+   "R7": "REPROVA (furo material: reuso declarado ausente)",
+   "R8": "REPROVA (6 residuos de coerencia interna)",
+   "R9": "REPROVA (5/6; destinacao controlada em 2 passagens)",
+   "R10": "APROVA_COM_RESSALVA",
+   "R11": "CERTIFICA — PASS no ledger"
+  },
+  "estado": "fichas em ficha-em-revisao; aguardando homologacao humana",
+  "hash_final_cot110": "90ae9da2d71fd35b",
+  "hash_final_nmba": "a6e7b7260b3c9cd8"
+ }
+}

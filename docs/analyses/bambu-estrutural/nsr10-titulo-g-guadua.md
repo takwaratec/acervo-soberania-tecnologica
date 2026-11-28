@@ -4,7 +4,8 @@ titulo: NSR-10 — Título G, estruturas de madeira e estruturas de guadua
 entidade_responsavel: República da Colômbia
 ano: 2010
 identificador_tecnico: Reglamento Colombiano de Construcción Sismo Resistente NSR-10, Título G
-estado_documental: homologado-documentalmente
+estado_documental: em-revisao-documental
+estado_anterior: "homologado-documentalmente (sem ato de homologacao registrado; rebaixada em 2026-11-25)"
 fonte_primaria: PDF integral conferido
 pacote_fonte_privado: 2010-nsr10-titulo-g
 data_revisao: 2026-08-19

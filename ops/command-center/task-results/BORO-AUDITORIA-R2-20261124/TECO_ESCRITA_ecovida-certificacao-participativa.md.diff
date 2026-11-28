@@ -1,0 +1,223 @@
+diff --git a/docs/analyses/reforma-agraria-agrofloresta/ecovida-certificacao-participativa.md b/docs/analyses/reforma-agraria-agrofloresta/ecovida-certificacao-participativa.md
+index 96356186..321a51a9 100644
+--- a/docs/analyses/reforma-agraria-agrofloresta/ecovida-certificacao-participativa.md
++++ b/docs/analyses/reforma-agraria-agrofloresta/ecovida-certificacao-participativa.md
+@@ -1,60 +1,186 @@
+ ---
+-tipo_documental: ficha-academica
++tipo_documental: documento-institucional
+ estado_documental: em-revisao-documental
+-fonte_primaria: pagina institucional web
+-data_revisao: 2026-07-31
+-responsavel_curadoria: Fabio Takwara
++fonte_primaria: 'snapshot HTML de quatro páginas oficiais (2026-11-20) e transcrição controlada da página "A Rede e a lei federal", conferida contra o HTML'
++titulo: 'Rede Ecovida de Agroecologia — certificação participativa, SPG e participação no marco regulatório federal'
++autores:
++  - Rede Ecovida de Agroecologia
++ano: 2023
++veiculo: 'sítio institucional ecovida.org.br (aplicação 0.128.0; páginas web não datadas)'
+ identificador: ausente-na-fonte
+-
++endpoint_pdf: ausente-na-fonte
++pagina_institucional: https://ecovida.org.br/nossas_acoes/certificacao/lei_rede/
++paginas_conferidas:
++  - https://ecovida.org.br/nossas_acoes/certificacao/
++  - https://ecovida.org.br/nossas_acoes/certificacao/etapas/
++  - https://ecovida.org.br/nossas_acoes/certificacao/spg/
++  - https://ecovida.org.br/nossas_acoes/certificacao/lei_rede/
++hash_sha256: af3204a39593697c82a5b1b57b7aa3ce49498b06d3ef3f7c5bf75f37307ff746
++hash_transcricao: 23da01af0f9a51c5bc3d2f81665ca5c82120cb47c11b5ea00ceaca1456f36797
++data_snapshot: 2026-11-20
++data_acesso: 2026-11-24
++licenca: nao-declarada-na-fonte
++palavras_chave:
++  - certificacao-participativa
++  - spg
++  - ocs
++  - sisorg
++  - agroecologia
++  - agricultura-familiar
++  - mercados-territoriais
++  - politicas-publicas
++  - organizacao-social
++  - rede-ecovida
++data_revisao: 2026-11-24
++responsavel_curadoria: Fabio Takwara
+ ---
+ 
+-# Rede Ecovida de Agroecologia — Certificação participativa
++# Rede Ecovida de Agroecologia — certificação participativa, SPG e marco regulatório federal
+ 
+-> **Resumo:** Ficha de registro da Rede Ecovida de Agroecologia e de seu Sistema Participativo de Garantia (SPG) de certificação orgânica, uma das principais experiências brasileiras de certificação participativa em agroecologia.
++> **Síntese:** Registro documental de uma organização-rede e de seu Sistema Participativo de Garantia (SPG), transcrito de quatro páginas oficiais da seção "Certificação" do sítio da Rede Ecovida. As páginas descrevem a certificação como processo pedagógico e de geração de credibilidade, definem as instâncias que a sustentam (família, grupo, núcleo regional, Rede), listam as sete etapas do processo de obtenção do selo e apresentam a posição da Rede sobre a Lei 10831/03 e sobre os três mecanismos legais de avaliação da conformidade orgânica no Brasil (certificação por auditoria, SPG e OCS). Não é livro nem artigo científico: é fonte institucional primária sobre um arranjo de certificação participativa.
+ 
+ ## 1. Dados gerais
+ 
+ | Campo | Dado |
+ |---|---|
+-| **Nome da entidade** | Rede Ecovida de Agroecologia |
+-| **Site atual** | https://ecovida.org.br/ |
+-| **URL original citada** | http://ecovida.org.br/certificacao/ (indisponível em 31/07/2026; redireciona para 404) |
+-| **Tema** | Certificação orgânica por Sistema Participativo de Garantia (SPG) |
+-| **Cobertura** | 34 núcleos regionais, 436 grupos de agricultores, 2.848 famílias (dados do site, 2023) |
+-| **Identificador** | https://ecovida.org.br/ |
++| **Entidade** | Rede Ecovida de Agroecologia (rede de núcleos regionais, grupos de agricultores e organizações de assessoria) |
++| **Natureza documental** | `documento-institucional` (páginas de sítio; não é publicação científica) |
++| **Páginas conferidas** | seção "Certificação": página-raiz (`/certificacao/`), "Etapas", "SPG" e "A Rede e a lei federal" |
++| **Datação** | páginas web sem data de publicação; rodapé registra "Copyright (C) 2023 - Rede Ecovida"; aplicação identificada como versão 0.128.0. Ano adotado: **2023** (copyright), não data de redação |
++| **Identificador** | ausente na fonte (sem DOI, ISBN ou ISSN) |
++| **PDF** | ausente na fonte (conteúdo apenas em HTML) |
++| **Licença** | não declarada na fonte |
++| **Snapshot** | acervo privado de custódia do Acervo, fora da árvore pública (5 arquivos, `SHA256SUMS.txt` verificado) |
++| **Data do snapshot** | 2026-11-20 |
++| **Reconferência** | 2026-11-24: as quatro URLs responderam HTTP 200 e os hashes dos corpos são byte-idênticos aos do snapshot |
++| **Hash da página transcrita** | `af3204a39593697c82a5b1b57b7aa3ce49498b06d3ef3f7c5bf75f37307ff746` (85.683 bytes) |
++| **Hash da transcrição** | `23da01af0f9a51c5bc3d2f81665ca5c82120cb47c11b5ea00ceaca1456f36797` (5.197 bytes) |
++
++Hashes por página conferida (todas HTTP 200 em 2026-11-20 e em 2026-11-24):
++
++| Página | Bytes | SHA-256 |
++|---|---|---|
++| `/nossas_acoes/certificacao/` | 85.267 | `e0be12e9d45e642b19e7a3c4736f4d05a8abbfc0964ab72885de929cc0d6ce0a` |
++| `/nossas_acoes/certificacao/etapas/` | 86.844 | `15f00cb94c9da084ae5bf7fb26936afd9c544f07f452b78a462626e2569d4538` |
++| `/nossas_acoes/certificacao/spg/` | 84.679 | `3755fb41a39a5f41f81f880abd84699309f174f330842e9f0961f2a4140bb9fb` |
++| `/nossas_acoes/certificacao/lei_rede/` | 85.683 | `af3204a39593697c82a5b1b57b7aa3ce49498b06d3ef3f7c5bf75f37307ff746` |
+ 
+ ## 2. Estrutura e organização
+ 
+-A Rede Ecovida é uma organização em rede que articula agricultores, grupos regionais e organizações parceiras em torno de princípios agroecológicos. O site institucional organiza as ações em linhas: certificação orgânica, agrofloresta e extrativismo sustentável, sementes e mudas, gênero, circuitos de comercialização.
++O sítio organiza a seção "Certificação" em quatro páginas encadeadas, todas sob o menu "Nossas ações": a página-raiz define o que é certificação participativa e remete às demais; "Selo" (não transcrita nesta ficha) e "Etapas" descrevem o procedimento; "SPG" descreve as instâncias e o princípio da credibilidade; "A Rede e a lei federal" descreve a participação da Rede no marco regulatório e comenta os três mecanismos legais.
+ 
+-## 3. Problema e objetivos
++Cada página é curta (uma a duas telas de texto), com títulos em *heading* e remissões cruzadas. Não há autoria pessoal assinalada, sumário, bibliografia ou data. A página "SPG" cita como fonte "Meirelles, 2003", com remissão ao sítio do Centro Ecológico; as notas de rodapé da página "A Rede e a lei federal" identificam a Lei 10831/03, a sigla SPG e a sigla SisOrg.
+ 
+-**Problema:** a certificação orgânica convencional pode ser inacessível a pequenos agricultores familiares e comunidades tradicionais, dificultando o acesso a mercados e o reconhecimento de práticas agroecológicas.
++## 3. Problema e perguntas
+ 
+-**Objetivo:** oferecer um Sistema Participativo de Garantia (SPG) que certifique a produção orgânica a partir do controle social, da confiança mútua e da autogestão dos agricultores organizados em rede.
++Como documento institucional, a seção não formula problema de pesquisa. Ela responde a três questões práticas de quem procura certificação orgânica em rede:
++
++- o que é certificação participativa e por que ela difere da certificação por auditoria;
++- quem garante a qualidade do produto em cada instância e como a credibilidade se acumula da família ao núcleo regional e à Rede;
++- quais mecanismos a legislação brasileira reconhece e qual é a posição da Rede sobre eles.
+ 
+ ## 4. Referencial e conceitos
+-- Sistemas Participativos de Garantia (SPG);
+-- Certificação orgânica e agroecologia;
+-- Redes de agricultores e economia solidária;
+-- Agricultura familiar e comunidades tradicionais;
+-- Autogestão e controle social da qualidade.
++
++- **Certificação participativa**: "processo pedagógico onde agricultores, técnicos e consumidores se integram no intento de buscarem uma expressão pública da qualidade do trabalho que desenvolvem" (página-raiz);
++- **Credibilidade**: resultado de "dinâmica social" entre produção, consumo e divulgação; parte "da palavra da família agricultora" e "se legitima socialmente, de forma acumulativa, nas distintas instâncias organizativas que esta família integra";
++- **SPG (Sistema Participativo de Garantia)**: a página registra que a certificação participativa "hoje é também conhecida como Sistema Participativo de Garantia (SPG)";
++- **Instâncias**: família → grupo (Comissão de Ética do grupo) → núcleo regional (Comissão de Ética do Núcleo) → todos os núcleos, que compartilham "normas de produção e 4 patamares mínimos de funcionamento" e se legitimam mutuamente;
++- **Selo x logomarca**: pelo texto da página de etapas, a autorização de uso do selo decorre do processo de certificação, não da simples condição de membro da Rede;
++- **Marco legal**: Lei 10831/03 (grafia da fonte), certificação por auditoria, SPG e Organizações de Controle Social (OCS); o selo nacional do SisOrg é, pela lei, vedado às OCS.
+ 
+ ## 5. Metodologia
+ 
+-O SPG da Ecovida baseia-se em normas coletivamente construídas, processos de auditoria entre pares, registros de produção e compromisso ético-político com a agroecologia. A metodologia específica está disponível em publicações da rede.
++Não há metodologia de pesquisa. O que as páginas descrevem é um **procedimento operacional de certificação**, em sete etapas (página "Etapas"):
++
++1. **Demanda** por parte de um grupo de agricultores que integra a Rede;
++2. **Preenchimento dos documentos**: área ou propriedade, produtos, manejo a ser planejado e assumido pela família;
++3. **Visitas** por integrantes da Comissão de Ética — primeiro a "visita de pares", do próprio grupo; depois o "olhar externo", da Comissão de Ética do núcleo regional, a pedido do grupo; assessoria pode acompanhar quando requerida;
++4. **Relatório** de visita, com aspectos das propriedades ligados ao grau de ecologização e às normas internas;
++5. **Reunião** entre grupo, Comissão de Ética e núcleo regional (com assessoria): discussão do relatório, do grau de ecologização e das ações para superar limites;
++6. **Decisão de liberação do selo**, pela Comissão de Ética do núcleo;
++7. **Informação de produtos e quantidades** à coordenação do núcleo regional. O ciclo é recursivo: reinicia na etapa 3 sempre que houver dúvida sobre produto ou processo.
++
++A página "SPG" acrescenta o desenho institucional: a primeira instância é a palavra do agricultor e de sua família; o grupo referenda a família por sua Comissão de Ética; o núcleo referenda o grupo; os núcleos respaldam-se mutuamente com base em normas comuns. A condição de membro "pressupõe um compromisso com a Agroecologia", mas "não autoriza de forma automática a utilização do selo".
++
++## 6. Principais achados
++
++> Afirmações da fonte institucional (Rede Ecovida, sítio, 2023), não validações da curadoria.
++
++- A Rede se apresenta como **pioneira** no desenvolvimento da certificação participativa e como participante ativa da inclusão do SPG na Lei 10831/03 — reconhecimento que, segundo a fonte, permite a "milhares de agricultores familiares e povos e comunidades tradicionais" certificar produtos como orgânicos;
++- A lei consagrou **três mecanismos**: auditoria (empresa), SPG e OCS — "os outros dois métodos previstos tem na organização e na participação das famílias agricultoras sua mola mestra";
++- O SPG "exige maior nível de organização no que diz respeito à geração de documentos que comprovem as distintas etapas da geração de credibilidade"; as OCS têm funcionamento "mais simples, ou mais desburocratizado";
++- A fonte registra posição política própria: proibir as OCS de usar o selo SisOrg é "um equivoco da Lei que deveria ser superado";
++- O processo de certificação é descrito como **pedagógico e recursivo**, não como inspeção pontual; a decisão do selo é colegiada, em instâncias de ética;
++- A fonte não informa, nessas quatro páginas, números de núcleos, grupos, famílias ou volume certificado.
++
++## 7. Avaliação crítica
++
++**Potencialidades (avaliação curatorial):**
++
++- É a descrição operacional mais direta, em fonte primária, de como um SPG brasileiro funciona: instâncias, comissões de ética, etapas, recursividade e critério de liberação do selo;
++- Tem valor normativo-institucional para o eixo: permite distinguir, com precisão, SPG de auditoria e de OCS, distinção frequentemente embaralhada na literatura de divulgação;
++- Proveniência e integridade verificáveis (snapshot + hashes + reconferência byte-idêntica em 2026-11-24), o que a torna auditável como fonte documental.
++
++**Limitações (avaliação curatorial):**
++
++- **Não é fonte científica**: não há autoria pessoal, data, método declarado, dados ou bibliografia; não sustenta, sozinha, afirmação sobre eficácia, escala ou impacto da certificação participativa;
++- **Sem licença declarada**: a transcrição está registrada como citação de fonte institucional para uso documental interno do Acervo, não como conteúdo de licença aberta;
++- **Datas ausentes**: o único elemento temporal é o copyright de 2023; não é possível saber quando cada texto foi redigido nem se descreve a prática vigente;
++- **Divergência entre fontes da própria Rede**: o Caderno de Formação de 2004 atribui a aprovação da certificação ao Núcleo Regional, após parecer do Conselho de Ética; a página de 2023 (snapshot de 2026) atribui a decisão de liberação do selo à Comissão de Ética do Núcleo. A mudança de redação é registrada como divergência entre documentos, não arbitrada;
++- **Dado não reconfirmado:** versão anterior desta ficha atribuía ao sítio, para 2023, "34 núcleos regionais, 436 grupos de agricultores e 2.848 famílias". Nenhuma das quatro páginas conferidas exibe esses números; a atribuição foi retirada e fica pendente de fonte. Não deve ser reintroduzida sem documento que a sustente.
++
++## 8. Inserção no estado da arte
++
++Esta ficha integra o eixo **Reforma Agrária e Agrofloresta** como fonte institucional sobre garantia da conformidade orgânica, e não como evidência de resultados. Conecta-se a:
+ 
+-## 6. Achados e contribuições
++- **Rede Ecovida — Caderno de Formação: Certificação Participativa de Produtos Ecológicos (2004)**: ficha própria nesta gaveta; é a versão normativa e didática do mesmo arranjo, com normas de produção, roteiro de visita e formulário;
++- **Petersen et al. (2017)** e **Souza et al. (2014)**: metodologias participativas que compartilham o pressuposto de que a construção coletiva do conhecimento é parte do processo produtivo, e não etapa externa de verificação;
++- **Machín Sosa et al. (2012)**: o Camponês a Camponês cubano e o SPG da Ecovida são dois arranjos de circulação horizontal de confiança e conhecimento — comparáveis como dispositivos sociais, não como tecnologias;
++- **Telles (2018)** e **Siliprandi (2009)**: a certificação participativa é, na prática descrita, uma porta de entrada de agricultoras familiares em circuitos de comercialização — relação temática com a economia feminista do eixo;
++- **Souza & Schneider (2022)** e **Lobo et al. (2018)**: a dimensão de mercados institucionais e de soberania alimentar dialoga com o enquadramento legal aqui descrito.
+ 
+-1. A certificação participativa viabiliza o acesso de pequenos agricultores a mercados de produtos orgânicos.
+-2. Fortalece laços de confiança e cooperação entre produtores e consumidores.
+-3. A Rede Ecovida se constitui como referência nacional em SPG, com atuação em vários estados brasileiros.
+-4. A experiência demonstra que a garantia da qualidade orgânica pode ser construída sem depender exclusivamente de certificadoras privadas.
++Não constitui evidência para bambu estrutural, PU vegetal, biomateriais, pirólise, biochar ou conformidade normativa de materiais; a conexão com esses temas é apenas de organização social e de mercados.
+ 
+-## 7. Relação com o Acervo
++## Documentos associados localizados
+ 
+-A ficha registra uma experiência institucional brasileira de certificação agroecológica. Pode ser usada como referência para projetos de comercialização e organização de produtores, desde que não se confunda a experiência da Ecovida com a realidade de outros territórios ou iniciativas.
++| Documento | Situação | Registro |
++|---|---|---|
++| *Caderno de Formação: Certificação Participativa de Produtos Ecológicos* (Florianópolis: Rede Ecovida, 2004, 48 p.; org. Daniela de Oliveira e Luiz Carlos Rebelatto dos Santos) | fichado | [ficha própria](ecovida-caderno-certificacao-participativa-2004.md); PDF em custódia privada, SHA-256 `af1111a8c8538b559dd9bd6426b9a3234ba72f82e8b3a08d7bf8a8971f5b9e51` |
++| *Uma Identidade que se constrói em rede* — Caderno de Formação 01 (Lapa/PR, julho de 2007, 46 p.; org. Valdemar Arl) | catalogado, não fichado | PDF em custódia, SHA-256 `e21df558a39f8841df229d66e28e6e4281d36db5b46a6b3773af888ea5056c40`; decisão de ficha própria pendente |
++| Manuais e cartilhas listados em `/publicacoes/cartilhas_manuais/` (CETAP 2020; cartilhas SPG e rastreabilidade; livro SPG Brasil 2020; Cepagro PT/ES) | não conferidos | pendentes de verificação de arquivo |
+ 
+-## 8. Referência bibliográfica
++A página de publicações (`https://www.ecovida.org.br/publicacoes/cartilhas_manuais/`) respondeu HTTP 200, `text/html`, 106.922 bytes, em 2026-11-17 e em 2026-11-24.
++
++## Transcrição controlada — "A Rede e a lei federal" (conferida contra o snapshot)
++
++> Texto integral da página `https://ecovida.org.br/nossas_acoes/certificacao/lei_rede/` (85.683 bytes; SHA-256 `af3204a3…`), transcrito do HTML e conferido linha a linha. Grafias preservadas, inclusive "Lei 10831/03" e "equivoco". As notas de rodapé da fonte estão reproduzidas ao final.
++
++**Participação da Rede no marco regulatório da lei federal**
++
++A Rede Ecovida de Agroecologia é pioneira no desenvolvimento da certificação participativa, metodologia de verificação da conformidade que hoje é também conhecida como Sistema Participativo de Garantia (SPG).
++
++A Rede Ecovida participou ativamente para que o SPG fosse previsto na Lei 10831/03¹. Assim foi feito e hoje, graças a este reconhecimento, milhares de agricultores familiares e povos e comunidades tradicionais podem se valer deste método para certificar seus produtos como orgânicos.
++
++A legislação Brasileira consagrou três mecanismos que atestam a qualidade dos produtos orgânicos oferecidos a consumidores:
++
++1. **A Certificação por auditoria** — Realizada por uma empresa. É o método usualmente aceito no mundo da certificação, e não apenas no âmbito da agricultura orgânica.
++
++Os outros dois métodos previstos tem na organização e na participação das famílias agricultoras sua mola mestra.
++
++2. **Os SPGs²** — Exigem maior nível de organização no que diz respeito à geração de documentos que comprovem as distintas etapas da geração de credibilidade.
++
++3. **As Organizações de Controle Social (OCS)** — Têm um mecanismo de funcionamento mais simples, ou mais desburocratizado, ainda que as exigências necessárias para garantir a idoneidade do produto ofertado estão todas previstas. Vale salientar que a Lei prevê que as OCS, não possuem permissão para usar o selo nacional do SisOrg³.
++
++A Rede Ecovida entende que proibir que as OCS usem o selo do SisOrg é um equivoco da Lei que deveria ser superado.
++
++¹ É a lei que "dispõe sobre a agricultura orgânica no Brasil e dá outras providências". ² Sistemas Participativos de Garantia. ³ Sistema Brasileiro de Avaliação da Conformidade Orgânica.
++
++## Relações
++
++- O histórico de trabalho e os materiais operacionais permanecem em documentação privada e não integram a publicação pública;
++- Origem do registro: a versão anterior desta ficha (compacta, sem hash, licença e data de acesso, com remissão a URL descontinuada `http://ecovida.org.br/certificacao/`) foi substituída em 2026-11-24 por esta versão documental, construída sobre o snapshot de 2026-11-20 e reconferida em 2026-11-24;
++- Inventário de custódia dos cadernos: registro privado de custódia do Acervo (fora da árvore pública), de 2026-11-17.
++
++---
+ 
+-REDE ECOVIDA DE AGROECOLOGIA. *Certificação*. Disponível em: http://ecovida.org.br/certificacao/ (acesso instável; site atual: https://ecovida.org.br/). Acesso em: 31 jul. 2026.
++> Ficha documental reelaborada em 2026-11-24 por Hermes Agent a partir da leitura integral das quatro páginas oficiais e da transcrição controlada conferida contra o HTML. Estado: em-revisao-documental — aguarda revisão humana antes de homologação. Nenhum texto de obra protegida foi inserido em `docs/`: a transcrição acima é de página institucional, conforme tarefa da §3.6 do plano.

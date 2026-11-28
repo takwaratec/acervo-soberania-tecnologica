@@ -1,0 +1,258 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Gera o MANUSCRITO ÚNICO em Markdown — do início ao fim, com referências bibliográficas.
+
+FONTE:    scripts/conteudo_cobre.py (texto das seções)  +  scripts/referencias_cobre.py
+SAÍDA:    docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md
+
+O .md é o manuscrito canônico. A peça HTML é derivada dele (via as mesmas fontes Python),
+e um gate confere que os dois dizem a mesma coisa.
+"""
+import os, re, sys, html as _h
+
+_AQUI = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, _AQUI)
+import conteudo_cobre as C
+import referencias_cobre as R
+import resumos_fontes_cobre as RS
+
+
+def _md(s):
+    """Converte a marcação HTML dos resumos para Markdown."""
+    s = re.sub(r"<strong>(.*?)</strong>", r"**\1**", s, flags=re.S)
+    s = re.sub(r"<em>(.*?)</em>", r"*\1*", s, flags=re.S)
+    s = re.sub(r"<[^>]+>", "", s)
+    return _h.unescape(s)
+
+REPO = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
+SAIDA = f"{REPO}/docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md"
+
+
+def html_para_md(trecho):
+    """Converte o HTML das seções de volta para Markdown, de forma conservadora."""
+    t = trecho
+
+    # tabelas -> pipe
+    def tab(m):
+        corpo = m.group(1)
+        linhas, cab = [], None
+        for tr in re.findall(r"<tr>(.*?)</tr>", corpo, re.S):
+            ths = re.findall(r"<th>(.*?)</th>", tr, re.S)
+            tds = re.findall(r'<td[^>]*>(.*?)</td>', tr, re.S)
+            if ths:
+                cab = ths
+            elif tds:
+                linhas.append(tds)
+        if not cab:
+            return ""
+        out = ["| " + " | ".join(c.strip() for c in cab) + " |",
+               "|" + "|".join(["---"] * len(cab)) + "|"]
+        for ln in linhas:
+            out.append("| " + " | ".join(c.strip().replace("\n", " ") for c in ln) + " |")
+        return "\n".join(out) + "\n"
+    t = re.sub(r'<div class="tabwrap"><table[^>]*><thead>(.*?)</tbody></table></div>', tab, t, flags=re.S)
+
+    # caixas e blocos compostos: pareamento de div, não regex guloso
+    def _bloco_div(txt, classe):
+        """Extrai o miolo de <div class="classe"> ... </div> pareando as divs."""
+        abre = f'<div class="{classe}">'
+        i = txt.find(abre)
+        if i < 0:
+            return None, txt
+        j = i + len(abre)
+        prof = 1
+        while j < len(txt) and prof:
+            a = txt.find("<div", j)
+            f = txt.find("</div>", j)
+            if f < 0:
+                return None, txt
+            if 0 <= a < f:
+                prof += 1
+                j = a + 4
+            else:
+                prof -= 1
+                j = f + 6
+        return txt[i + len(abre):f], txt[:i] + "\x00BLOCO\x00" + txt[j:]
+
+    def kpi(miolo):
+        pares = re.findall(r'<div class="kpi"><div class="n">(.*?)</div><div class="l">(.*?)</div></div>',
+                           miolo, re.S)
+        if not pares:
+            return ""
+        out = ["| Número | O que significa |", "|---|---|"]
+        out += [f"| **{n}** | {l} |" for n, l in pares]
+        return "\n".join(out) + "\n"
+
+    def cards(miolo):
+        itens = re.findall(r'<div class="card"><div class="tag">(.*?)</div><h4>(.*?)</h4><p>(.*?)</p></div>',
+                           miolo, re.S)
+        return "\n" + "\n".join(f"- **{ti}** ({tag}) — {corpo}" for tag, ti, corpo in itens) + "\n"
+
+    for classe, fn in (("kpis", kpi), ("grid2", cards)):
+        while True:
+            miolo, t = _bloco_div(t, classe)
+            if miolo is None:
+                break
+            extra = "\n\n" + fn(miolo) + "\n\n"
+            t = t.replace("\x00BLOCO\x00", extra, 1) if "\x00BLOCO\x00" in t else t
+
+    # caixas -> blockquote com rótulo
+    def caixa(m):
+        classe, tit, corpo = m.group(1), m.group(2), m.group(3)
+        corpo = re.sub(r"<[^>]+>", "", corpo).strip()
+        return f"\n> **{tit}** — {corpo}\n"
+    t = re.sub(r'<div class="(note|okbox|danger)"><strong>(.*?)</strong><p>(.*?)</p></div>',
+               caixa, t, flags=re.S)
+
+
+    # inline
+    # marca de citação: <sup class="cit">(3)</sup> -> (3), antes de remover tags
+    t = re.sub(r'<sup class="cit">(.*?)</sup>', r" \1", t, flags=re.S)
+    t = re.sub(r"<blockquote>(.*?)</blockquote>", lambda m: "\n> " + re.sub(r"<[^>]+>", "", m.group(1)).strip() + "\n", t, flags=re.S)
+    t = re.sub(r"<h4>(.*?)</h4>", r"\n#### \1\n", t, flags=re.S)
+    t = re.sub(r"<h3>(.*?)</h3>", r"\n### \1\n", t, flags=re.S)
+    t = re.sub(r"<strong>(.*?)</strong>", r"**\1**", t, flags=re.S)
+    t = re.sub(r"<em>(.*?)</em>", r"*\1*", t, flags=re.S)
+    t = re.sub(r"<li>(.*?)</li>", r"- \1", t, flags=re.S)
+    t = re.sub(r"</?[uo]l>", "", t)
+    t = re.sub(r"<p>(.*?)</p>", r"\1", t, flags=re.S)
+    t = re.sub(r'<hr class="sep">', "\n---\n", t)
+    t = re.sub(r"<[^>]+>", "", t)
+    t = _h.unescape(t)
+    t = re.sub(r"\n{3,}", "\n\n", t)
+    return t.strip()
+
+
+def montar():
+    partes = []
+    palavras = 0
+
+    partes.append("""---
+schema: ACERVO_ARTIGO_R1
+gaveta: cobre
+frente: COBRE
+titulo: "O cobre, explicado do zero"
+subtitulo: "Um metal comum, uma solução azul e a pergunta que quase ninguém faz: para onde vai a água do tratamento"
+tipo_documental: ensaio-tecnico
+estado_documental: em-revisao-documental
+homologacao_automatica: false
+versao: 3
+data_revisao: 2026-11-24
+responsavel_curadoria: Fabio Takwara
+assistencia_documental: agente de IA, sujeito a revisao humana
+publico: "leigo em quimica e em linguagem academica"
+camada: "B — adaptacao publica em linguagem nao especializada"
+peca_html: "o-cobre-no-bambu.html (gerada de scripts/conteudo_cobre.py)"
+fichas: "docs/analyses/cobre/fichas/ (11 fichas)"
+referencias: "21 entradas, numeradas — ver secao Referencias"
+---
+
+# O cobre, explicado do zero
+
+## Um metal comum, uma solução azul e a pergunta que quase ninguém faz: para onde vai a água do tratamento
+
+> **Nota de leitura.** Este é o manuscrito completo, do início ao fim, com as referências
+> bibliográficas numeradas ao final. As chamadas no corpo aparecem entre parênteses — por
+> exemplo (1) remete à primeira referência da lista. As 11 fichas técnicas que sustentam
+> os números estão identificadas na seção **Fontes custodiadas**.
+
+---
+""")
+
+    for p in C.PAGINAS:
+        corpo = html_para_md(p["corpo"])
+        palavras += len(re.findall(r"[A-Za-zÀ-ÿ]{2,}", corpo))
+        # a capa, o resumo-final e o glossário não levam número; o resto leva.
+        # A regra é por id porque o número muda de dono quando entra capítulo novo.
+        sem_numero = {"p-1", "p-9", "p-10", "p-11"}
+        cab = (f"\n## {_h.unescape(p['h2'])}\n\n" if p["id"] in sem_numero
+               else f"\n## {p['num']} · {_h.unescape(p['h2'])}\n\n")
+        partes.append(cab + corpo + "\n\n---\n")
+
+    # fichas
+    partes.append("## Fontes custodiadas e fichas técnicas\n")
+    partes.append(
+        "Cada ficha identifica a fonte primária, o hash de integridade e o que ela autoriza afirmar. "
+        "Estão em `docs/analyses/cobre/fichas/`.\n")
+    # a lista sai do inventário, não de constante digitada: foi digitando que a IN Ibama 5/1992
+    # ficou fora da enumeração por três versões enquanto o manifesto já tinha 12 fichas
+    import json as _json
+    _enum_p = os.path.join(REPO, "docs/analyses/cobre/fichas/ENUMERACAO_FICHAS.json")
+    _man_p = os.path.join(REPO, "docs/analyses/cobre/fichas/MANIFEST_FICHAS_PUBLICADAS.json")
+    _enum = _json.load(open(_enum_p, encoding="utf-8"))["fichas"]
+    _man = {f["arquivo"] for f in _json.load(open(_man_p, encoding="utf-8"))["fichas"]}
+    _ids = {e["arquivo"] for e in _enum}
+    if _man != _ids:
+        raise SystemExit("enumeração e inventário divergem — inventário sem entrada: "
+                         f"{sorted(_man - _ids)}; entrada sem ficha: {sorted(_ids - _man)}")
+    for e in sorted(_enum, key=lambda x: x["ordem"]):
+        partes.append(f'- **{e["ordem"]}. {e["rotulo"]}** — {e["descricao"]}. '
+                      f'Ficha: `{e["arquivo"]}`')
+    partes.append("")
+
+    # referências
+    partes.append("---\n\n## Referências\n")
+    partes.append(
+        "Numeradas na ordem em que aparecem pela primeira vez no texto. Onde a fonte é uma "
+        "página web sem data declarada, registra-se [s.d.].\n")
+    for i, (ch, a, an, ti, ve, cu, su) in enumerate(R.REFERENCIAS, 1):
+        res = RS.resumo(ch)
+        linhas = R.lista_abnt().split("\n")
+        break
+    # entradas numeradas, com a síntese em itálico (igual à bibliografia da peça)
+    for i, (ch, a, an, ti, ve, cu, su) in enumerate(R.REFERENCIAS, 1):
+        res = RS.resumo(ch)
+        partes.append(
+            f"{i}. {R._fecha_ponto(a)} **{R._fecha_ponto(ti)}** "
+            f"{R._fecha_ponto(str(an or '[s.d.]'))} {R._fecha_ponto(ve)}"
+            + (f" — {_md(res)}" if res else ""))
+
+    # declaração
+    partes.append("""---
+
+## Autoria, assistência e responsabilidade
+
+**Autor:** Fabio Takwara.
+
+**Apoio de IA:** ferramenta de inteligência artificial foi utilizada para localizar relações
+entre fontes, estruturar o comparativo, conferir consistência interna, apoiar a redação e
+executar os cálculos de diluição. **A seleção interpretativa, a perspectiva e a
+responsabilidade pela versão publicada permanecem com o autor.**
+
+**Natureza:** artigo de divulgação — Camada B, adaptação pública em linguagem não especializada.
+
+**Estado:** em revisão documental. Não homologado.
+
+**Conflitos de interesse:** declarados inexistentes.
+
+**Financiamento:** não se aplica a esta versão.
+""")
+
+    doc = "\n".join(partes)
+    doc = re.sub(r"\n{3,}", "\n\n", doc)
+    # números declarados no texto saem do disco, não de constante digitada
+    import glob as _g
+    from pathlib import Path as _P
+    _nfich = len(_g.glob(str(_P(SAIDA).parent / "fichas" / "ficha-*.md")))
+    _nref = len(R.REFERENCIAS)
+    doc = (doc.replace("(11 fichas)", f"({_nfich} fichas)")
+              .replace("As 11 fichas técnicas", f"As {_nfich} fichas técnicas")
+              .replace("21 entradas", f"{_nref} entradas"))
+    open(SAIDA, "w", encoding="utf-8").write(doc)
+    return doc, palavras
+
+
+if __name__ == "__main__":
+    doc, palavras = montar()
+    secs = len(re.findall(r"^## ", doc, re.M))
+    refs = len(R.REFERENCIAS)
+    linhas = doc.count("\n") + 1
+    print(f"  seções de nível 2: {secs}")
+    print(f"  referências: {refs}")
+    print(f"  palavras no corpo: ~{palavras:,}".replace(",", "."))
+    print(f"  tabelas markdown: {len(re.findall(r'^\|---', doc, re.M))}")
+    print(f"  linhas: {linhas} | bytes: {len(doc.encode()):,}")
+    print(f"  saída: {SAIDA}")
+    faltando = [c for c in ("Referências", "Fontes custodiadas", "Autoria") if c not in doc]
+    print(f"\nRESULTADO: {'MANUSCRITO COMPLETO' if not faltando else 'FALTA ' + str(faltando)}")
