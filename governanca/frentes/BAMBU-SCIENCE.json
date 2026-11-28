@@ -5,7 +5,9 @@
     "ops/command-center/task-results/BAMBU-SCIENCE/**",
     "docs/analyses/bambu-estrutural/**",
     "docs/analyses/bambusc-catalogo-20261119/**",
-    "governanca/frentes/BAMBU-SCIENCE.json"
+    "governanca/frentes/BAMBU-SCIENCE.json",
+    "governanca/frentes/BAMBU-BAMBUSC.json",
+    "governanca/frentes/SOBERANIA-SOCIAL.json"
   ],
   "nome_humano": "Bambu Science",
   "aberta_por": "FABIO_SOBERANO",
@@ -72,6 +74,43 @@
         "governanca/frentes/BAMBU-SCIENCE.json"
       ],
       "motivo": "a frente precisa poder SINCRONIZAR a propria copia derivada do registro (governanca/frentes/BAMBU-SCIENCE.json) quando o r4-claims emenda o escopo dela. Sem isso, toda emenda de escopo da propria frente reprisa FORA no A9. Um arquivo, nominal."
+    },
+    {
+      "em": "2026-11-28T00:00:00Z",
+      "por": "FABIO_SOBERANO",
+      "escopo_anterior": [
+        "ops/command-center/task-results/BAMBU-SCIENCE/**",
+        "docs/analyses/bambu-estrutural/**",
+        "docs/analyses/bambusc-catalogo-20261119/**",
+        "governanca/frentes/BAMBU-SCIENCE.json"
+      ],
+      "escopo_novo": [
+        "ops/command-center/task-results/BAMBU-SCIENCE/**",
+        "docs/analyses/bambu-estrutural/**",
+        "docs/analyses/bambusc-catalogo-20261119/**",
+        "governanca/frentes/BAMBU-SCIENCE.json",
+        "governanca/frentes/BAMBU-BAMBUSC.json"
+      ],
+      "motivo": "a entrada da frente absorvida e parte do mesmo ato de absorcao: quem sincroniza a propria emenda sincroniza as duas pontas (absorvida + absorvente), senao a absorcao fica meio-declarada — absorvida constando ABERTA na copia do CI e ABSORVIDA no registro vivo. Um arquivo, nominal."
+    },
+    {
+      "em": "2026-11-28T00:00:00Z",
+      "por": "FABIO_SOBERANO",
+      "escopo_anterior": [
+        "ops/command-center/task-results/BAMBU-SCIENCE/**",
+        "docs/analyses/bambu-estrutural/**",
+        "docs/analyses/bambusc-catalogo-20261119/**",
+        "governanca/frentes/BAMBU-SCIENCE.json"
+      ],
+      "escopo_novo": [
+        "ops/command-center/task-results/BAMBU-SCIENCE/**",
+        "docs/analyses/bambu-estrutural/**",
+        "docs/analyses/bambusc-catalogo-20261119/**",
+        "governanca/frentes/BAMBU-SCIENCE.json",
+        "governanca/frentes/BAMBU-BAMBUSC.json",
+        "governanca/frentes/SOBERANIA-SOCIAL.json"
+      ],
+      "motivo": "NAO e da BAMBU e nao sera tocado: entra apenas porque a copia derivada vem de commit unico do r4-claims (a7996591) que tambem corrigiu o repo+colecao dessa frente (0ddb2d4e). A alternativa seria copiar o registro vivo pela metade, e meia-verdade em registro e pior que escopo largo. Declarado, nao usado."
     }
   ]
 }
