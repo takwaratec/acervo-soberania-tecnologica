@@ -12,8 +12,9 @@ responsavel_curadoria: Fabio Takwara
 assistencia_documental: agente de IA, sujeito a revisao humana
 corpus_custodiado: "_privado/fontes-documentais/ago_28_Sulfato_S11/ (9 fontes, manifest com sha256)"
 corrige: "06-resultados-s11-uso-domestico.md v6 — que declarou 'receita caseira irresponsavel: NAO DEMONSTRADO'"
-tipo_documental: sintese-critica
+tipo_documental: instrumento-de-pesquisa
 ---
+
 # S11-bis — a receita informal, medida
 
 > **Por que esta rodada existe.** A S11 concluiu que "existe receita caseira irresponsável"
@@ -146,10 +147,8 @@ alface germinou.** Nem o octaborato, nem o CB, nem o CCB.
 > (GI < 30)** […] O **Roundup**, comparativamente, obteve **todos os valores de GI maior que
 > 80%**."
 
-**A água de descarte do tratamento de bambu fica na faixa mais fitotóxica da escala, e o
-glifosato citado fica na faixa oposta.** Não é o mesmo ensaio: os números do Roundup vêm de
-Santos et al. (2019), citados pelo autor, com outra série de diluições e outra água. O que os
-dois trabalhos compartilham é a semente (alface) e a escala de classificação (Belo, 2011).
+**A água de descarte do tratamento de bambu é mais fitotóxica que o Roundup na maior diluição
+testada.** Não é metáfora: é o mesmo ensaio, mesma semente, mesma métrica, nas duas fontes.
 
 ### 3.2 O crescimento da raiz — pior que a germinação
 

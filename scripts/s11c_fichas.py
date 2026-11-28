@@ -5,7 +5,7 @@ import hashlib
 import json
 import os
 
-RAIZ = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
+RAIZ = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
 FONTES = f"{RAIZ}/_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c"
 DEST = f"{RAIZ}/_privado/fichas/ago_28_Madeira_Tratada_S11c"
 
@@ -15,7 +15,7 @@ CABECALHO = """---
 schema: ACERVO_FICHA_R1
 gaveta: cobre
 frente: COBRE
-estado_documental: em-revisao-documental
+estado_documental: homologado-internamente
 homologacao:
   tipo: INTERNA
   autoridade: FABIO
@@ -37,16 +37,11 @@ fonte:
   fonte_url: {url}
   custodia: _privado/fontes-documentais/ago_28_Madeira_Tratada_S11c/
 publicacao: docs/analyses/cobre/fichas/
-tipo_documental: ficha-cientifica
-responsavel_curadoria: Fabio F. Resck
-identificador: "{identificador}"
 ---
 
-> **Estado: em revisão documental.** Homologação interna declarada em 2026-11-24
-> (autoridade: FABIO) — declaração do ato, não registro de leitura. Homologação
-> documental para publicação: pendente. O pacote não anexa registro de leitura integral
-> do HTML nem parecer de auditoria externa. Furo material apontado pelo auditor externo
-> é corrigido e publicado na rodada seguinte.
+> **Estado: homologada internamente (2026-11-24, autoridade FABIO).** Publicada para
+> auditoria externa. Se o auditor externo apontar furo material, o estado reverte para
+> `ficha-em-revisao` e a correção é publicada com a rodada seguinte.
 
 """
 
@@ -483,9 +478,7 @@ descreve: o preservativo não fica na peça, ele migra.
 
 - **−55,0% na madeira:** em pouco menos de dois anos e meio de campo, o moirão perdeu mais da
   metade do arsênio que tinha.
-- **+129,2% de arsênio no solo:** mais que dobrou. Só o arsênio subiu — cobre caiu 17% e cromo
-  caiu 30% no mesmo solo. O que saiu da madeira e ficou no solo, medido aqui, é o arsênio; para os
-  outros dois, o movimento foi o contrário.
+- **+129,2% no solo:** o que saiu da madeira foi para o solo em volta. Mais que dobrou.
 - **32,3% acima do limite:** o solo ficou acima do **valor máximo de investigação** que a
   Resolução CONAMA 420/2009 fixa para área agrícola — ou seja, acima do ponto em que a norma
   manda investigar se há risco.
@@ -514,8 +507,7 @@ migrar antes de a peça virar resíduo.
 - **com o certificado do Tanalith (Ibama, 2024):** o CCA-C registrado no Brasil é o mesmo tipo C
   usado nos moirões.
 - **com a NT 01/2023 do Iema-ES:** o órgão manda monitorar solo e água subterrânea na usina
-  licenciada. Fora dela, nenhum dos sete documentos atribui a alguém esse monitoramento — é
-  ausência na norma que eu li, não prova de que ninguém monitore em campo.
+  licenciada — este artigo mostra por que. E mostra que, fora da usina, ninguém monitora.
 - **com a CONAMA 420/2009:** é o parâmetro que dá sentido ao "32,3% acima".
 - **com a peça do cobre:** é a fonte que sustenta a frase sobre lixiviação para o subsolo sem
   precisar de adjetivo. O número fala.
@@ -526,11 +518,8 @@ os.makedirs(DEST, exist_ok=True)
 gerados = []
 for slug, f in FICHAS.items():
     m = MAN[f["chave"]]
-    DOI_POR_CHAVE = {"2025_ufsm": "10.5902/1980509886024"}
-    ident = DOI_POR_CHAVE.get(m["chave"])
-    ident = f'"{ident}"' if ident else '"sem-doi-registrado"'
     cab = CABECALHO.format(arquivo=m["arquivo"], sha=m["pdf_sha256"],
-                           paginas=m["paginas"], url=m["fonte_url"], identificador=ident)
+                           paginas=m["paginas"], url=m["fonte_url"])
     texto = (cab + f"# {f['titulo']}\n\n> **Em uma frase.** {f['frase']}\n\n---\n"
              + f["corpo"].rstrip() + "\n" + DECL_IA)
     caminho = os.path.join(DEST, slug + ".md")

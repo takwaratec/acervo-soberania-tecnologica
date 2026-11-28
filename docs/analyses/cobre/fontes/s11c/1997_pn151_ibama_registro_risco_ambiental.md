@@ -1,12 +1,13 @@
 ---
-estado_documental: em-revisao-documental
+tipo_documental: fonte-primaria-privada
+estado_documental: protegido-privado
 responsavel_curadoria: Fabio F. Resck
-tipo_documental: instrumento-de-pesquisa
-sha256_do_pdf: "372e9324d178cb9442ced3d5b9f5cc0f04b799d0362810035d9c616d56bea20a"
-pdf_no_repositorio: false
+frente: BAMBU-SCIENCE
+gaveta: bambu-tratamento
+origem_documental: frente absorvida COBRE (2026-11-28)
+nota_de_metadado: front matter acrescentado na absorcao; o corpo nao foi reescrito
 ---
 
-> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c/1997_pn151_ibama_registro_risco_ambiental.pdf` · sha256 `372e9324d178cb9442ced3d5b9f5cc0f04b799d0362810035d9c616d56bea20a` · 229,412 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 <!-- PAGE: 1 -->
 A.. 
 OS

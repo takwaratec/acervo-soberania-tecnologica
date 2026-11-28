@@ -3,33 +3,24 @@ schema: ACERVO_FICHA_R1
 gaveta: cobre
 frente: COBRE
 estado_documental: em-revisao-documental
-homologacao:
-  tipo: INTERNA
-  autoridade: FABIO
-  data: 2026-11-24
-  instrumento: "instrução direta do soberano no tópico da frente COBRE"
-  transcricao: >
-    "Sim, você vai colocar como homologação interna. Internamente nós estamos homologando.
-    Se o auditor externo disser que não, nós alteramos o status. Mas a princípio sim, estamos
-    homologando, vai para o repositório público, entra na pasta de análises do acervo soberania
-    tecnológica conforme foi instruído."
-  alcance: >
-    Homologação INTERNA: vale dentro do acervo e autoriza a publicação. NÃO é homologação
-    científica por par, NÃO é homologação regulatória e NÃO substitui a auditoria externa.
-    O estado reverte para ficha-em-revisao se o auditor externo apontar furo material.
-  auditoria_externa: PENDENTE
 homologacao_automatica: false
 publicacao: docs/analyses/cobre/fichas/
-tipo_documental: ficha-cientifica
+tipo_documental: ficha-academica
 responsavel_curadoria: Fabio F. Resck
-identificador: "sem-doi-registrado"
+identificador: "sem-doi-registrado"   # trabalho de conclusao (monografia) UFMG; nao tem DOI
+tipo_de_identificador: trabalho-de-conclusao
+identificador_conferido_em: 2026-11-28
+nota_de_retificacao: >
+  O bloco homologacao: INTERNA que existia aqui foi RETIRADO em 2026-11-28 por ordem do soberano
+  ("Nada de homologacao interna. Estado e em revisao documental."). Declarava ato datado de 24/11
+  dentro da ficha, sem contrato, ledger ou ato na governanca que o registrasse. Preservado em
+  docs/analyses/cobre/CORRECAO_FRONT_MATTER_20261128.json (campo homologacao_interna_retirada).
+  Estado declarado agora: em-revisao-documental.
 ---
 
-> **Estado: em revisão documental.** Homologação interna declarada em 2026-11-24
-> (autoridade: FABIO) — declaração do ato, não registro de leitura. Homologação
-> documental para publicação: pendente. O pacote não anexa registro de leitura integral
-> do HTML nem parecer de auditoria externa. Furo material apontado pelo auditor externo
-> é corrigido e publicado na rodada seguinte.
+> **Estado: homologada internamente (2026-11-24, autoridade FABIO).** Publicada para
+> auditoria externa. Se o auditor externo apontar furo material, o estado reverte para
+> `ficha-em-revisao` e a correção é publicada com a rodada seguinte.
 
 # Tratamento com Bórax — UFMG/MOM
 

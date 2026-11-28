@@ -3,7 +3,7 @@ schema: ACERVO_PLANO_PESQUISA_R1
 gaveta: cobre
 frente: COBRE
 titulo: "Plano de pesquisa e varredura de repositorio — frente COBRE"
-estado_documental: em-revisao-documental
+estado_documental: historico
 homologacao_automatica: false
 versao: 1
 data_revisao: 2026-11-24
@@ -13,6 +13,7 @@ artefato_anterior: 00-mapa-reprocessamento.md
 destinacao: "objeto de auditoria interna (Teco/Luna) antes da execucao de P1-P6"
 tipo_documental: instrumento-de-pesquisa
 ---
+
 # Plano de pesquisa e varredura — frente COBRE
 
 > **Síntese.** Este documento existe para ser **atacado**. Ele declara o que a

@@ -1,12 +1,13 @@
 ---
-estado_documental: em-revisao-documental
+tipo_documental: fonte-primaria-privada
+estado_documental: protegido-privado
 responsavel_curadoria: Fabio F. Resck
-tipo_documental: instrumento-de-pesquisa
-sha256_do_pdf: "69f340be735b31b557d554896b8995a8d8adae6f7daafd3e389081c5f5df5265"
-pdf_no_repositorio: false
+frente: BAMBU-SCIENCE
+gaveta: bambu-tratamento
+origem_documental: frente absorvida COBRE (2026-11-28)
+nota_de_metadado: front matter acrescentado na absorcao; o corpo nao foi reescrito
 ---
 
-> **PDF de origem (fora do repositório).** O PDF saiu do rastreio por regra do CI. Cópia privada: `_privado/fontes-documentais/ago_28_Madeira_Tratada_S11d/1992_in05_ibama_destinacao_final_residuos.pdf` · sha256 `69f340be735b31b557d554896b8995a8d8adae6f7daafd3e389081c5f5df5265` · 130,080 bytes. Este extrato é o texto público; o byte se confere pelo hash.
 <!-- PAGE: 1 -->
                                                                                                                  
  

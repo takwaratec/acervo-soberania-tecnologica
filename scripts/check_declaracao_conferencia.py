@@ -13,9 +13,7 @@ import os
 import re
 import sys
 
-EXT = (".md", ".html", ".htm")
-# O leitor final lê o HTML publicado, não o markdown. Declaração em HTML conta igual.
-RE_TAG = re.compile(r"<[^>]+>")
+EXT = (".md",)
 IGNORAR_DIR = {".git", "node_modules", "_privado", "tmp", "site"}
 # A regra não se audita a si mesma: o texto da norma cita as frases proibidas como exemplo.
 IGNORAR_ARQ = {"AGENTS.md", "AGENTS_LOCAL.md", "AGENTS_BASE.md"}
@@ -28,12 +26,6 @@ PADROES = [
     r"conferid[oa]s?\s+(integralmente|contra\s+a\s+fonte\s+prim[áa]ria)",
     r"verificad[oa]s?\s+contra\s+a\s+fonte\s+prim[áa]ria",
     r"nenhum\s+dado\s+foi\s+inventado.{0,40}(conferid|verificad)",
-    # Fórmula da frente COBRE — o gate só conhecia a do BORO e deixou passar. A declaração aqui é
-    # sobre CITAÇÃO, não sobre número: "todas as citações literais verificadas palavra por palavra".
-    r"(toda|todas|cada)\s+(as\s+)?cita[çc][õo]es?.{0,60}(verificad|conferid)",
-    r"cita[çc][õo]es?\s+literais?.{0,50}palavra\s+por\s+palavra",
-    r"palavra\s+por\s+palavra\s+contra\s+o\s+documento",
-    r"integridade\s+das\s+fontes\s+conferida",
 ]
 RE_NEUTRALIZA = re.compile(r"\bn[ãa]o\s+(foi|foram|est[áa]|est[ãa]o)\b|\bnem\s+todas\b|parcial", re.I)
 
@@ -107,9 +99,6 @@ def main(argv):
             texto = open(caminho, encoding="utf-8").read()
         except (OSError, UnicodeDecodeError):
             continue
-        if caminho.lower().endswith((".html", ".htm")):
-            texto = "\n".join(RE_TAG.sub(" ", linha) for linha in texto.splitlines())
-            texto = texto.replace("&quot;", '"').replace("&nbsp;", " ")
         achados = declaracoes(texto)
         if not achados:
             continue

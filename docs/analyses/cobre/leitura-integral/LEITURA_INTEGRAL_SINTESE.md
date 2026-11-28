@@ -1,8 +1,13 @@
 ---
-tipo_documental: sintese-critica
+tipo_documental: instrumento-de-pesquisa
 estado_documental: em-revisao-documental
 responsavel_curadoria: Fabio F. Resck
+frente: BAMBU-SCIENCE
+gaveta: bambu-tratamento
+origem_documental: frente absorvida COBRE (2026-11-28)
+nota_de_metadado: front matter acrescentado na absorcao; o corpo nao foi reescrito
 ---
+
 # Leitura integral das sete custodiadas — o que a letra diz
 
 Gaveta cobre · 2026-11-24 · 1.008 parágrafos lidos, classificados um por um, com portão de cobertura total (`scripts/s11e_gate_leitura.py`).

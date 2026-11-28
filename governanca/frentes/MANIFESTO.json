@@ -4,7 +4,7 @@
   "origem_commit": "a7996591",
   "sincronizado_em": "2026-11-28",
   "por_que_uma_copia": "o acervo e publico e o registro de governanca e privado: o CI do acervo nao le o ref r4-claims. Esta e uma copia DERIVADA, com hash por arquivo — divergencia e NAO_MEDIDO, nunca PASS.",
-  "emendas": "2026-11-26: REGENCIA ganha governanca/** | 2026-11-28: espelho ressincronizado em r4-claims@a7996591 (BAMBUSC ABSORVIDA, SOBERANIA-SOCIAL) + gavetas tematicas IRMAS na BAMBU-SCIENCE e o caminho docs/analyses/bambusc-catalogo-20261119/** (merge autorizado do #99)",
+  "emendas": "2026-11-26: REGENCIA ganha governanca/** | 2026-11-28: espelho ressincronizado em r4-claims@a7996591 (BAMBUSC ABSORVIDA, SOBERANIA-SOCIAL) + gavetas tematicas IRMAS na BAMBU-SCIENCE e o caminho docs/analyses/bambusc-catalogo-20261119/** (merge autorizado do #99) | 2026-11-28: BAMBU-SCIENCE ganha docs/analyses/boro/** e docs/analyses/cobre/** (absorcao das frentes mortas COBRE e BORO)",
   "arquivos": {
     "BAMBU-BAMBUSC.json": {
       "sha256": "d87a22e3f022a68d54c3cd37b2d365eab547c2fbf403e36857943b5ec4dc8b1e",
@@ -15,16 +15,16 @@
       "bytes": 522
     },
     "BAMBU-SCIENCE.json": {
-      "sha256": "dd7be46e7a9851348397d63578bf6806eb65179e3ee17fc117ddad7df50dc6ef",
-      "bytes": 10036
+      "sha256": "fff1b6181f65587e3a31d51b9a7c9553ad98ca8b2d6ea4c3ba94cc48ea60df81",
+      "bytes": 13810
     },
     "BORO.json": {
-      "sha256": "d1a90bf6179c2c6f97f955a0453def1abb556eb76f7241bd33f2c6ef6d1ea4a3",
-      "bytes": 1626
+      "sha256": "7ec171a6370937ed93c0d4552640b8686e89d08822efc674edea76524f3983f8",
+      "bytes": 1840
     },
     "COBRE.json": {
-      "sha256": "e7c04d61952691adb7f6429b48d1e1922f2e74171115fee3842507c9267df23e",
-      "bytes": 1714
+      "sha256": "630ab1174b3c58c3849fca185fa76024e989ef58be1a022db3711ccb787cf1f2",
+      "bytes": 1927
     },
     "EDITORIAL.json": {
       "sha256": "7973dda262b0b953cbb3dd795c803c7970f8c0f4200105e298d20a8e257b9527",

@@ -14,7 +14,7 @@ para dentro; validação da ORDEM das tags, não do saldo.
 """
 import re, html, os, sys, json, hashlib
 
-REPO = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
+REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
 ARTIGO = f"{REPO}/docs/analyses/cobre/08-artigo-didatico-o-cobre-e-a-agua-que-sobra.md"
 FICHAS_DIR = f"{REPO}/_privado/fichas/ago_28_Sulfato_S11"
 SAIDA = f"{REPO}/docs/analyses/cobre/o-cobre-no-bambu.html"

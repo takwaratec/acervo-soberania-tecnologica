@@ -2,7 +2,12 @@
 tipo_documental: instrumento-de-pesquisa
 estado_documental: em-revisao-documental
 responsavel_curadoria: Fabio F. Resck
+frente: BAMBU-SCIENCE
+gaveta: bambu-tratamento
+origem_documental: frente absorvida COBRE (2026-11-28)
+nota_de_metadado: front matter acrescentado na absorcao; o corpo nao foi reescrito
 ---
+
 # Índice de parágrafos — 2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.md
 
 Extração: `_privado/fontes-documentais/ago_28_Madeira_Tratada_S11c/2016_abpm_fg4mad_destinacao_residuos_madeira_tratada.md`  

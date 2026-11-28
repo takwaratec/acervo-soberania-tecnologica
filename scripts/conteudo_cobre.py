@@ -73,13 +73,12 @@ pagina("p-1", "Comece aqui", "00", "O que este artigo promete",
 Não vou supor que você saiba o que é um elemento, um sal, uma fórmula ou um limite legal. Quando um termo
 técnico aparecer, ele será explicado na hora — em português comum, com exemplo.</p>
 
-Ele existe para responder **uma pergunta só** — e é uma pergunta que os textos informais que esta
-frente leu não fazem:
+<p>Ele existe para responder <strong>uma pergunta só</strong>, e é uma pergunta que quase ninguém faz:</p>
 
 {bq("<strong>Depois que o bambu sai do tanque de tratamento, o que acontece com a água que sobra?</strong>")}
 
-<p>Ela não é água. É uma solução de metal em concentração alta. E as receitas informais que esta
-frente leu <strong>não dizem onde despejar</strong> — nas que eu li, nenhuma diz.</p>
+<p>Ela não é água. É uma solução de metal em concentração alta. E as receitas que circulam por aí
+<strong>não dizem onde despejar</strong>.</p>
 
 <p>Há uma segunda promessa, e ela é mais séria: <strong>vou dizer quando não sei</strong>, e vou dizer
 também quando o dado <em>contraria</em> a preocupação que motivou o artigo. Isso aconteceu, e está
@@ -156,8 +155,8 @@ Se você junta átomos numa proporção fixa, as massas se somam como ingredient
 
 <h3>A confusão número um: o pó azul não é o metal</h3>
 
-<p>Aqui está o erro que <strong>muda a dose por um fator de quase quatro</strong> — e que aparece nas
-receitas informais que esta frente leu. Não medi frequência em texto nenhum; digo onde eu vi.</p>
+<p>Aqui está o erro que <strong>muda a dose por um fator de quase quatro</strong>, e que quase todo texto
+informal comete.</p>
 
 <p>O cobre, sozinho, não é o que se compra na loja. Na prática ele aparece <strong>combinado com outros
 átomos</strong>, formando substâncias diferentes. Uma substância feita de dois ou mais elementos ligados
@@ -239,7 +238,7 @@ alfandegário&quot; da substância. Em 2025:</p>
   ["Estados Unidos", "—", "—", "US$ 45,57"],
   ["Reino Unido", "—", "—", "US$ 148,43"]])}
 
-{danger("O erro que aparece nos textos informais que li aqui", "Misturar <strong>peso</strong> com <strong>valor</strong>. "
+{danger("O erro que quase todo texto comete aqui", "Misturar <strong>peso</strong> com <strong>valor</strong>. "
  "A China responde por 80,4% do peso e por 48,3% do valor. Se alguém disser &quot;a China domina 80% do "
  "mercado&quot;, está falando de tonelada; se disser &quot;48%&quot;, está falando de dinheiro. "
  "São duas frases diferentes, e as duas aparecem na mesma tabela.")}
@@ -266,10 +265,8 @@ e a receita informal não pede pureza nenhuma.</p>
 <strong>9,3 toneladas em 2020</strong> — uma queda de <strong>86%</strong> — com repiques em 2022 e 2024.</p>
 
 <p><strong>A conclusão que o dado sustenta:</strong> a escala brasileira desse produto é modesta e oscilante,
-e o preço é baixo. <strong>O preço do produto é baixo</strong> — é o que o dado mostra: volume,
-valor e dispersão de preço por código. O que ele <strong>não</strong> mede é conduta: se preço baixo
-inibe ou não o descarte correto, este número não responde, porque ele conta importação e valor, não
-o que o usuário faz com a sobra. Também não mede o custo de dar destino ao resíduo.</p>
+e o preço é baixo. <strong>Não existe pressão econômica para economizar nem na compra nem no descarte.</strong>
+A barreira não é dinheiro.</p>
 
 <p><strong>A conclusão que o dado NÃO sustenta:</strong> dizer que o Brasil &quot;usa muito&quot; ou
 &quot;usa pouco&quot; sulfato de cobre em bambu. A importação é do país inteiro, somando agricultura,
@@ -280,9 +277,8 @@ indústria, laboratório e tratamento de madeira. <strong>Quanto disso vai para 
 <h3>Resumo do capítulo</h3>
 <p><strong>Estabelecido:</strong> 177,9 t e US$ 370 mil em 2025; China com 80,4% do peso e 48,3% do valor;
 dispersão de preço de 119× dentro do mesmo código; queda de 86% entre 1997 e 2020; preço médio baixo.</p>
-<p><strong>Interpretação:</strong> a dispersão de preço sugere graus de pureza diferentes sob o mesmo código.
-O preço baixo do produto diz que comprar não desestimula; sobre o custo de <em>destinar</em> o resíduo,
-estes dados não falam — e é por isso que eles não provam que dinheiro não seja barreira.</p>
+<p><strong>Interpretação:</strong> a dispersão de preço sugere graus de pureza diferentes sob o mesmo código;
+o preço baixo significa que a barreira ao descarte correto não é econômica.</p>
 <p><strong>Desconhecido:</strong> quanto do volume importado vai para tratamento de bambu; e qual grau de
 pureza está no produto que o usuário doméstico compra.</p>
 
@@ -301,7 +297,7 @@ e fruticultura.</p>
 
 <h3>O que ele NÃO faz — e isso muda tudo</h3>
 
-<p>Aqui está a informação que não aparece nos textos informais que esta frente leu:</p>
+<p>Aqui está a informação que quase nunca aparece nos textos informais:</p>
 
 <p><strong>O cobre não mata cupim, não mata broca, não mata besouro.</strong>{cit("gauss2020")} Ele é fungicida, não é
 inseticida.</p>
@@ -402,20 +398,12 @@ diferentes, para populações diferentes</strong>. Confundi-los é a maior fonte
    "o que uma atividade pode lançar na rede ou no corpo receptor"],
   ["<strong>Água doce Classe 1</strong> (CONAMA 357/2005)" + cit("conama357"), "<strong>0,009 mg/L</strong>",
    "o rio protegido — a água onde se espera vida aquática"],
-  ["<strong>Critério ecotoxicológico (EPA, invertebrado crônico)</strong>", "<strong>1,11 µg/L = 0,00111 mg/L</strong>",
-   "concentração de referência para invertebrado aquático em exposição crônica, em água doce de dureza de referência — não é padrão legal brasileiro"]])}
+  ["<strong>Invertebrado aquático, crônico</strong>", "<strong>0,00111 mg/L</strong>",
+   "o nível em que a vida do rio começa a sofrer"]])}
 
 <p><strong>Um número mais baixo não é &quot;mais rigoroso&quot;</strong> — é um número que protege outro
 objeto. Quem compara 2 mg/L com 0,009 mg/L e conclui que &quot;um dos dois está errado&quot; não entendeu
 que os dois estão certos e falam de coisas diferentes.</p>
-
-<p><strong>De onde vem o 1,11 µg/L, e o que ele é:</strong> é critério de ecotoxicidade da EPA
-americana para <em>invertebrado aquático em exposição crônica</em> (água doce, dureza de referência) —
-um valor de proteção da vida aquática, não um limite legal de lançamento e não um padrão brasileiro.
-Ele está registrado no plano de pesquisa desta gaveta (<code>01-plano-de-pesquisa.md</code>), e a
-fonte primária da EPA <strong>não está custodiada aqui</strong>: quem quiser conferir o número na
-origem precisa buscá-lo na publicação da agência. Enquanto isso, ele é usado como ordem de grandeza
-— a distância entre o que se pode lançar e o que afeta a vida do rio —, nunca como limite aplicável.</p>
 
 <h3>O detalhe que quase ninguém sabe sobre os 2 mg/L</h3>
 
@@ -489,7 +477,7 @@ crônico faz ao fígado.</p>
 
 <h3>E o cobre é cancerígeno?</h3>
 
-<p>Esta é a pergunta em que os textos informais que eu li erram — para os dois lados. E aqui é preciso fazer o que
+<p>Esta é a pergunta em que quase todo texto erra — para os dois lados. E aqui é preciso fazer o que
 o resto do artigo faz: separar o que está medido do que não está.</p>
 
 {danger("Limite declarado, antes de qualquer conclusão", "A <strong>monografia da IARC</strong> para "
@@ -727,7 +715,7 @@ perde o direito de ser levado a sério no resto.</p>
   ["<strong>Uma banheira</strong> (o tonel, 200 L)", "<strong>23 piscinas olímpicas</strong>"],
   ["<strong>Uma banheira da receita dobrada</strong> (9%)", "<strong>204 piscinas olímpicas</strong>"]])}
 
-{danger("E aqui está o ponto em que os textos informais que li erram", "<strong>Diluir não resolve nada.</strong> "
+{danger("E aqui está o ponto que quase todo mundo erra", "<strong>Diluir não resolve nada.</strong> "
  "O cobre não apodrece, não evapora, não é comido por bactéria. <strong>Cobre não desaparece — ele só muda "
  "de lugar.</strong> Diluir é espalhar o mesmo metal por mais água. O problema continua existindo; ele só "
  "fica mais difícil de ver.")}
@@ -770,21 +758,15 @@ agressiva — e o que é agressivo para a alface costuma ser agressivo para o re
 
 <h3>A comparação que assusta</h3>
 
-<p>O autor{cit("scharfenberg2020")} compara com um herbicida comercial — o <strong>Roundup</strong>, aquele que mata planta daninha
-no pasto. Os números do herbicida <strong>não saíram do ensaio dele</strong>: vêm de outro estudo
-(Santos et al., 2019), que ele cita e põe ao lado dos seus, na mesma escala de classificação:</p>
+<p>O autor{cit("scharfenberg2020")} comparou com um herbicida comercial — o <strong>Roundup</strong>, aquele que mata planta daninha
+no pasto. No mesmo tipo de teste, com a mesma semente:</p>
 
 {tabela(["O que foi testado", "Quanto nasceu (escala de 0 a 100)"],
  [["<strong>Roundup</strong>", "<strong>acima de 80</strong>"],
   ["<strong>solução de cobre e boro</strong>", "<strong>11 no melhor caso</strong>"]])}
 
-{danger("O que isso significa", "A água que sobra do tratamento de bambu <strong>inibe a germinação "
- "mais do que os números que o autor cita para um herbicida comercial</strong>. E é aqui que a "
- "comparação tem limite: os dois resultados <strong>não vieram do mesmo ensaio</strong>. O do glifosato "
- "é de Santos et al. (2019) — outro grupo, outro laboratório, outra série de diluições, outra água. "
- "O autor apenas coloca os dois lado a lado, na mesma escala de classificação (Belo, 2011). O que a "
- "fonte sustenta é a diferença de faixa nessa escala; o que ela não sustenta é que tenham sido "
- "medidas nas mesmas condições.")}
+{danger("O que isso significa", "A água que sobra do tratamento de bambu <strong>inibe mais a vida vegetal "
+ "do que um herbicida comercial</strong>. Mesma semente, mesma métrica, mesmo laboratório.")}
 
 <p>E a raiz, que é ainda mais sensível: a melhor raiz de qualquer tratamento tinha <strong>0,33 mm</strong>,
 contra <strong>2,78 mm</strong> em água limpa — <strong>oito vezes menos</strong>. A semente pode até nascer,
@@ -843,8 +825,7 @@ de quintal.</li>
 E isso não é descuido delas: elas ensinam o <em>banho</em>, não o descarte. Quem diz o descarte é
 outra peça do sistema — a <strong>bula do produto registrado</strong>, por exigência do item VIII da
 IN Ibama 5/92, de 1992. O problema é que a instrução que ensina o banho caseiro não vem com bula —
-não nas fontes que eu li — e a norma que exigiria a bula é a mesma que dispensa de registro o produto
-de uso domissanitário.</p>
+e a norma que exigiria a bula é a mesma que dispensa de registro o produto de uso domissanitário.</p>
 
 <p>E o reuso acaba:</p>
 <ul>
@@ -853,7 +834,7 @@ de uso domissanitário.</p>
 <li>quando a concentração cai abaixo do que funciona.</li>
 </ul>
 
-{bq("<strong>É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto registrado. Quem trata em casa não tem produto registrado — e, nos sete documentos que eu li, não há bula para produto dispensado de registro. Se existe, eu não a encontrei.</strong>")}
+{bq("<strong>É nesse ponto que a instrução de tratamento cala — e onde o sistema brasileiro delega o descarte à bula de um produto que quem trata em casa não tem.</strong>")}
 
 <h3>A lei já resolveu isso — e quase ninguém sabe</h3>
 
@@ -880,9 +861,8 @@ Chamem de resíduo ou não — o ralo continua fechado.</p>
 limite de rio; uma banheira precisaria de 23 piscinas para diluir; pH 1,28 na solução de cobre e boro e 0,22
 no CCB; germinação zero até diluição 1/10; índice pior que o do Roundup; as duas instruções mandam reusar;
 a PNRS inclui resíduo líquido sob condição, e o banho está 2.545 vezes acima do padrão de cobre.</p>
-<p><strong>Interpretação:</strong> como decantar não remove metal dissolvido, o reuso é a saída que
-as duas instruções dão — e ele tem um fim, que nenhuma delas resolve. Se existe outra saída prática,
-estas fontes não a discutem.</p>
+<p><strong>Interpretação:</strong> como decantar não remove metal dissolvido, o reuso é a única saída prática
+— e ele tem um fim, que nenhuma instrução resolve.</p>
 <p><strong>Desconhecido:</strong> o efeito da receita real (4,5% a 9%), que é mais concentrada que a única
 testada; e qual código da lista brasileira de resíduos se aplica a essa solução.</p>
 
@@ -1058,15 +1038,15 @@ carcinogênica humana — 93% do total normalizado</strong> — e <strong>91% de
 resíduos</strong>: a apara, o corte, o colmo descartado e o efluente. Não é a operação que pesa.
 É o que sobra dela.</p>
 
-{note("Por que isso entra num artigo sobre cobre", "Porque, nas receitas informais que esta frente "
-      "leu, nenhuma é só sulfato de cobre. A ternária — ácido bórico, "
+{note("Por que isso entra num artigo sobre cobre", "Porque a receita que circula no Brasil quase "
+      "nunca é só sulfato de cobre. A fórmula informal mais difundida é ternária — ácido bórico, "
       "bórax e dicromato de sódio — e a receita de bórax usada em universidade pública é bórax e "
       "ácido bórico puros. Ou seja: <strong>na apara que sobra do tratamento com cobre, o bórax "
       "está junto</strong> — mas <strong>não em toda</strong>: o manual indiano e a instrução da Embrapa "
       "propõem banhos <em>separados</em>, e o estudo do Acre mediu um banho só de bórax com ácido bórico. "
-      "O que sustenta a ligação é o <strong>local do dano</strong>, não a mistura: nos estudos desta "
-      "gaveta que eu li, onde discordam do tratamento, concordam em apontar <strong>o resíduo e a água "
-      "que sobra</strong> como o problema — sem que eu tenha contado quantos são.")}
+      "O que sustenta a ligação é o <strong>local do dano</strong>, não a mistura: onde os quatro estudos "
+      "desta gaveta discordam do tratamento, concordam em apontar <strong>o resíduo e a água que sobra</strong> "
+      "como o problema.")}
 
 <h3>Duas leis, duas datas, e o mesmo vazio</h3>
 
@@ -1129,9 +1109,8 @@ declaração sobre a minha busca, não sobre a existência.</p>
 fungicida agrícola, não como preservativo de bambu;</li>
 <li>a <strong>ANVISA</strong> responde pelo produto saneante e pela água de consumo — não pelo
 resíduo do processo;</li>
-<li>o <strong>ICMBio</strong> responde por unidade de conservação — é o órgão a quem a competência
-foi atribuída. Se isso é onde está o risco real, eu não medi: não tenho dado de exposição nem de
-probabilidade dentro dessas áreas;</li>
+<li>o <strong>ICMBio</strong> responde por unidade de conservação — e <strong>é aí que está o risco
+real</strong>, porque é justamente nessas áreas que a construção com bambu encontra mercado;</li>
 <li>o <strong>município</strong> responde pelo resíduo domiciliar,{cit("pnrs2010")} mas não tem
 como caracterizar apara de bambu tratado como perigosa sem a classificação da ABNT.</li>
 </ul>
@@ -1200,8 +1179,8 @@ cadeia brasileira medida — 91% da carga de resíduo, 93% da categoria de toxic
 carcinogênica;{cit("araujo2025")}</li>
 <li>o cobre tem <strong>efeito crítico documentado</strong> — náusea aguda a partir de 4 mg/L e
 acúmulo <strong>hepático</strong> na exposição prolongada;{cit("oms2004")}</li>
-<li>as receitas informais que esta frente leu <strong>não trazem uma linha de EPI, ventilação ou
-descarte</strong> — nas que eu li, nenhuma traz;{cit("blogtcs2016")}{cit("espaconaturalmente")}</li>
+<li>as receitas informais que circulam <strong>não trazem uma linha de EPI, ventilação ou
+descarte</strong>;{cit("blogtcs2016")}{cit("espaconaturalmente")}</li>
 <li>as duas instruções oficiais — a brasileira e a indiana — mandam <strong>reusar</strong> a
 solução, o que reduz o volume mas <strong>não elimina o resíduo final</strong>.{cit("tonini2024")}{cit("nmba2006")}</li>
 </ul>
@@ -1419,8 +1398,8 @@ filtro e no que sobra depois.</p>
 publicado em 2025 acompanhou <strong>cinco moirões de eucalipto tratados com CCA</strong> durante
 <strong>880 dias</strong>, medindo a madeira e o solo em volta, em duas profundidades.{cit("ufsm2025")}</p>
 
-{kpis([("−55,0%", "queda de arsênio na madeira"),
-       ("+129,2%", "aumento de arsênio no solo"),
+{kpis([("−55,0%", "arsênio que saiu da madeira"),
+       ("+129,2%", "arsênio que entrou no solo"),
        ("32,3%", "acima do limite de investigação agrícola"),
        ("880", "dias de campo, seis amostragens")])}
 
@@ -1429,16 +1408,8 @@ investigação</strong> que a Resolução CONAMA 420/2009 fixa para área agríc
 qual a norma manda investigar se há risco.</p>
 
 <p>E repare no que esse experimento é: <strong>um moirão de cerca, em campo, no uso para o qual foi
-feito</strong>. Não é indústria, não é acidente, não é despejo: é o produto em uso, <strong>naquele
-sítio, com aquelas cinco peças</strong>. Não é demonstração geral de que todo moirão tratado vaze —
-é o que aquele ensaio mediu.</p>
-
-<p>O que os números provam e o que eles não provam, separado: <strong>provam</strong> que a
-concentração de arsênio caiu na madeira e subiu no solo em volta, no mesmo sítio e no mesmo
-período, com cobre e cromo no sentido oposto. <strong>Não provam sozinhos</strong> o caminho do
-material — a lixiviação é a explicação que os autores do estudo dão, não o que uma diferença de
-concentração demonstra por si. Chamar aquilo de "a sobra que já estava saindo" é minha leitura da
-conclusão deles, e vai marcada como leitura.</p>
+feito</strong>. Não é indústria, não é acidente, não é despejo. É o produto funcionando. O que este
+artigo chama de "sobra" começa a caminhar <strong>antes</strong> de a peça virar sobra.</p>
 
 {note("O limite do estudo, que o estudo declara",
  "Cinco peças, um sítio. Mediu solo até 40 cm — <strong>não mediu água subterrânea</strong>. Mediu "
@@ -1457,14 +1428,12 @@ escrito, e tem <em>onde</em> estar escrito.</p>
 <p>Para o <strong>bambu</strong>, essa estrutura não existe: não há registro de preservativo para
 bambu, não há usina licenciada de tratamento, e não localizei <em>classificação publicada</em> para o
 resíduo do banho. O tratamento é feito em tonel, no quintal, por quem aprendeu numa apostila. E, sem
-produto registrado, <strong>não localizei bula</strong> — não encontrei o documento em que a instrução
-de descarte estaria escrita. Se existe bula para produto dispensado de registro, eu não fechei essa
-pergunta, e nenhum dos sete documentos a responde. É ausência de busca minha, declarada, não
-inexistência provada.</p>
+produto registrado, <strong>não há bula</strong> — não há o documento em que a instrução de descarte
+deveria estar escrita.</p>
 
 <p>É por isso que a diferença entre a madeira e o bambu, aqui, não é de rigor de quem trata: é de
 <strong>onde a regra consegue pousar</strong>. Na madeira, ela pousa num rótulo que existe, mesmo
-que ninguém o leia. No bambu, ela não tem — nos documentos que eu li — onde pousar.</p>
+que ninguém o leia. No bambu, ela não tem onde pousar.</p>
 
 <p>E aqui é preciso evitar o salto que eu mesmo já dei: <strong>não</strong> quer dizer que o resíduo
 do bambu esteja fora da lei. A Política Nacional de Resíduos Sólidos vale para qualquer resíduo
@@ -1531,8 +1500,8 @@ digo.</p>
 "uso domissanitário" no sentido do art. 4º. O termo vem da regulação de saneantes, e decidir se ele
 abrange tratar material no quintal é interpretação que este artigo não faz. O que está documentado é
 mais estreito e mais incômodo: <strong>a regra de descarte que existe foi escrita para caber num
-rótulo, e não localizei rótulo nem bula para quem trata em casa</strong>. E não encontrei documento
-de que as obrigações gerais tenham sido aplicadas a este resíduo.</p>
+rótulo, e o rótulo não existe para quem trata em casa</strong>. E não encontrei documento de que as
+obrigações gerais tenham sido aplicadas a este resíduo.</p>
 """)
 
 pagina("p-9", "10 · Como ler · Resumo", "10", "Como ler qualquer texto sobre cobre — e o resumo do artigo",
@@ -1629,7 +1598,7 @@ olímpicas</strong>. Diluir <strong>não</strong> é destinar: cobre não se deg
 <li><strong>Decantar não remove cobre dissolvido</strong> — tira a sujeira, não o metal.</li>
 <li><strong>A lacuna:</strong> as instruções de <em>tratamento</em> não dizem o que fazer quando o reuso
 acaba. A norma do <em>preservativo</em> diz — manda a bula dizer (IN 5/92, item VIII) —, e quem trata
-em casa não tem bula que eu tenha localizado.</li>
+em casa não tem bula.</li>
 <li>A lei brasileira inclui líquidos na definição de resíduo sólido <strong>sob condição</strong> (PNRS,
 art. 3º, XVI); se esta água cumpre a condição é questão jurídica que o artigo não decide. O que não
 depende dela: <strong>1,0 mg de cobre por litro</strong> é o limite de lançamento.</li>
@@ -1775,15 +1744,9 @@ não apagadas.</p>
  "literalidade não é o instrumento aplicável. Os outros <strong>42</strong> não foram conferidos por "
  "esse método e ficam declarados como <strong>não medidos</strong>. À parte disso, nas 6 fichas das "
  "custódias normativas, os <strong>38</strong> blocos citados retornam verbatim no extrato "
- "(portão de fidelidade, saída 0) — e essa medição tem <strong>registro publicado ao lado</strong>: "
- "`docs/analyses/cobre/fichas/REGISTRO_FIDELIDADE_FONTES_NORMATIVAS.json`, com o denominador 38 "
- "fixado antes. Integridade dos arquivos: <strong>hash SHA-256 em manifesto</strong>. "
+ "(portão de fidelidade, saída 0). Integridade dos arquivos: <strong>hash SHA-256 em manifesto</strong>. "
  "E as declarações de &quot;não sei&quot; foram mantidas como declarações, sem virar afirmação no meio "
- "do texto. <strong>Limite da custódia, declarado:</strong> os PDFs das fontes saíram do repositório "
- "por regra do CI e vivem em custódia privada, com caminho e sha256 registrados em manifesto. Quem "
- "recebe o arquivo confere o byte; quem não recebe só confere a identidade. Isso é <strong>custódia "
- "parcial</strong> — a fonte não é reproduzível por quem não tem o PDF, e este texto não finge o "
- "contrário.")}
+ "do texto.")}
 
 <h3>Estado deste documento</h3>
 

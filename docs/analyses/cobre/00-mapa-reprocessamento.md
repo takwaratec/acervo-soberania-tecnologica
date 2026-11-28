@@ -15,8 +15,9 @@ bootstrap_de_origem: docs/analyses/boro/BOOTSTRAP_COBRE_20261124.md
 bootstrap_sha256_16: 948b91110de0acc4
 fonte_primaria: seis fichas com PDF integral conferido; NR-15 e NR-6 custodiadas
 funcao_na_serie: capitulo 2 dos tratamentos convencionais do bambu
-tipo_documental: instrumento-de-pesquisa
+tipo_documental: indice-tematico
 ---
+
 # Cobre — mapa de reprocessamento
 
 > **Síntese.** A frente COBRE não começa do zero: começa com **seis fichas

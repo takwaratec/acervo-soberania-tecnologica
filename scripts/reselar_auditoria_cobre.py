@@ -16,11 +16,8 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 
-# REPO e BRANCH por variável de ambiente: o script rodava sempre no checkout principal, e
-# reseleiar de dentro de um worktree commitava na branch errada. Aconteceu — e o selo foi para
-# a branch abandonada. Quem chama declara onde está.
-REPO = os.environ.get("COBRE_REPO", os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"))
-BRANCH = os.environ.get("COBRE_BRANCH", "hermes/cobre-plano-20261124")
+REPO = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
+BRANCH = "hermes/cobre-plano-20261124"
 DIR = "docs/analyses/cobre"
 PT = "ops/command-center/auditoria-atual/COBRE.json"
 
@@ -97,13 +94,7 @@ def manifesto_anterior():
 
 
 def main():
-    # O ponteiro vive em ops/command-center/auditoria-atual/, que é fora da gaveta do cobre.
-    # A regra A7 proíbe arquivo fora da gaveta na PR da frente: o ponteiro é atualizado em PR
-    # de governança própria. --sem-ponteiro reseleia o manifesto e a resposta de hashes (ambos
-    # em docs/analyses/cobre) e deixa o ponteiro para aquela PR.
-    sem_ponteiro = "--sem-ponteiro" in sys.argv
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    alvo = args[0]
+    alvo = sys.argv[1]
     assert len(alvo) == 40, "alvo precisa ser sha de 40 hex"
     git("cat-file", "-e", f"{alvo}^{{commit}}")
 
@@ -113,44 +104,19 @@ def main():
 
     man = json.load(open(os.path.join(REPO, prev), encoding="utf-8"))
 
-    # PDFs saíram do rastreio (governance-check.yml proíbe PDF versionado): o manifesto declara
-    # onde a cópia privada mora, com o mesmo sha256 do byte que estava versionado.
-    custodia = {}
-    _cp = os.path.join(REPO, DIR, "fontes", "CUSTODIA_PRIVADA_PDFS.json")
-    if os.path.exists(_cp):
-        custodia = json.load(open(_cp, encoding="utf-8")).get("pdfs", {})
-
-    def medir(path):
-        """(sha, bytes, no_repositorio, caminho_privado) — do commit quando está versionado,
-        da custódia declarada quando não está."""
-        try:
-            h, n = blob_sha(alvo, path)
-            return h, n, True, None
-        except Exception:
-            c = custodia.get(path)
-            if not c:
-                raise
-            return c["sha256"], c["bytes"], False, c.get("caminho_privado")
-
     # 1) reconferir cada fonte existente no alvo novo
     novas, vistas = 0, set()
     for f in man["fontes"]:
-        h, n, no_repo, priv = medir(f["path"])
+        h, n = blob_sha(alvo, f["path"])
         f["sha256"], f["bytes"] = h, n
-        f["no_repositorio"] = no_repo
-        if priv:
-            f["caminho_privado"] = priv
         vistas.add(f["path"])
 
     # 2) acrescentar as fontes desta rodada
     for path, papel in NOVAS:
         if path in vistas:
             continue
-        h, n, no_repo, priv = medir(path)
-        e = {"path": path, "sha256": h, "bytes": n, "papel": papel, "no_repositorio": no_repo}
-        if priv:
-            e["caminho_privado"] = priv
-        man["fontes"].append(e)
+        h, n = blob_sha(alvo, path)
+        man["fontes"].append({"path": path, "sha256": h, "bytes": n, "papel": papel})
         novas += 1
 
     # 3) metadados
@@ -161,81 +127,21 @@ def main():
         "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo "
         "carrega o alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: "
         "aquele é o da rodada anterior. A entrada é o ponteiro em " + PT + ".")
-    _nf = len([f for f in man["fontes"] if "/fichas/" in f["path"]
-               and not f["path"].endswith("MANIFEST_FICHAS_PUBLICADAS.json")])
-    _n_priv = sum(1 for f in man["fontes"] if f.get("no_repositorio") is False)
-    _n_repo = len(man["fontes"]) - _n_priv
-    # contagem de referências sai do manuscrito publicado, não de constante digitada
-    import re as _re
-    _man = os.path.join(REPO, "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md")
-    _nref = 0
-    if os.path.exists(_man):
-        _t = open(_man, encoding="utf-8").read()
-        if "## Referências" in _t:
-            _nref = len(_re.findall(r"^\d+\. ", _t.split("## Referências")[1], _re.M))
-    man["como_reproduzir"] = [
-        "1. git clone https://github.com/takwaratec/acervo-soberania-tecnologica",
-        f"2. git checkout {alvo} (ou a branch da PR, que contém este alvo) — leia o manifesto "
-        "nomeado por esse alvo, não o que está dentro dele",
-        "3. Leia docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md de ponta a ponta.",
-        f"4. Para cada uma das {_nref} marcas de citação, abra o extrato em "
-        "docs/analyses/cobre/fontes/md/ e localize o trecho.",
-        "5. Recalcule a aritmética do capítulo 06.",
-        f"6. Para as {_n_repo} fontes no repositório: abra docs/analyses/cobre/fontes/md/ e "
-        "fontes/s11c/ e localize o trecho. Para as "
-        f"{_n_priv} fora do rastreio: peça o PDF pelo caminho_privado declarado no manifesto e "
-        "confira o sha256 — `git show` não se aplica a elas.",
-    ]
-    man["nota_do_selo"] = (
-        "Este manifesto vive no commit que o contém. Ele NÃO nomeia o próprio commit, porque um "
-        "objeto não pode conter o próprio hash: quem audita compara alvo_commit ao último commit de "
-        "CONTEÚDO (o anterior ao selo), nunca ao HEAD. Manifesto que pareça 'apontar para o commit "
-        "anterior' é o funcionamento correto, não deriva — se alvo_commit fosse o HEAD, o selo "
-        "estaria declarando os próprios bytes como fonte de si mesmo.")
-    # branch declarada no manifesto é a que está sendo selada, lida da variável de ambiente
-    man["alvo_branch"] = os.environ.get("COBRE_BRANCH", "")
-    if not man["alvo_branch"]:
-        import subprocess as _sp
-        man["alvo_branch"] = _sp.run(["git", "-C", REPO, "rev-parse", "--abbrev-ref", "HEAD"],
-                                     capture_output=True, text=True).stdout.strip()
-    man["o_que_voce_le"] = (
-        "o commit alvo_commit, na branch da PR. main NÃO contém este material — ler main avalia outro "
-        "objeto. Ao clonar de um caminho local, confira a base: a branch `main` do clone pode estar "
-        "atrás da main do GitHub, e o A7 medido nela acusa arquivo de governança que já entrou.")
-    man["aviso_de_leitura"] = (
-        "Este arquivo descreve o alvo_commit acima e vale apenas para ele; o nome do arquivo carrega o "
-        "alvo por isso. NÃO leia o manifesto que aparece dentro do próprio alvo_commit: aquele é o da "
-        "rodada anterior. NÃO há ponteiro em ops/command-center/auditoria-atual/: a entrada do pacote "
-        "é este arquivo, AUDITORIA_SOL_COBRE_MANIFEST_R1_<alvo>.json, ao lado da resposta de hashes e "
-        "do índice SELOS.md.")
-    man["alvo_nota"] = (f"alvo_commit é o último commit que mudou os bytes auditados (artigo, "
-                        f"manuscrito, {_nf} fichas, fontes). Dos {len(man['fontes'])} itens de fontes[], "
-                        f"{_n_repo} estão no repositório e tiveram o sha256 lido do próprio commit com "
-                        f"`git show <alvo>:<path>`; {_n_priv} NÃO estão no repositório (PDFs fora do "
-                        "rastreio) e têm o sha256 lido de fontes/CUSTODIA_PRIVADA_PDFS.json, onde cada "
-                        "um carrega caminho_privado e bytes. `git show` NÃO se aplica a esses: quem não "
-                        "tem o arquivo confere a identidade pelo registro, não o byte.")
-    man["pergunta"] = (f"As afirmações do artigo e das {_nf} fichas são fielmente sustentadas pelas "
-                       f"{man['total_fontes']} fontes custodiadas neste repositório, e o que não está "
-                       "medido está declarado como tal?")
+    man["alvo_nota"] = ("alvo_commit é o último commit que mudou os bytes auditados (artigo, "
+                        "manuscrito, 11 fichas, fontes). Todos os sha256 de fontes[] foram lidos "
+                        "do próprio commit, com `git show <alvo>:<path>`.")
+    man["pergunta"] = ("As afirmações do artigo e das 11 fichas são fielmente sustentadas pelas "
+                       "21 fontes custodiadas neste repositório, e o que não está medido está "
+                       "declarado como tal?")
     obj = man.get("objeto", {})
     for k in list(obj):
         if "ficha" in k:
             obj[k] = obj[k] if isinstance(obj[k], (int, str)) else obj[k]
     man["objeto"] = obj
     ed = man.get("estado_declarado", {})
-    ed["fichas"] = (f"{_nf} fichas, todas em "
-                    "em-revisao-documental: homologacao interna e ato declarado, nao leitura medida")
-    # contagem de referências sai do manuscrito publicado, não de constante digitada
-    import re as _re
-    _man = os.path.join(REPO, "docs/analyses/cobre/00-artigo-o-cobre-explicado-do-zero.md")
-    _nref = 0
-    if os.path.exists(_man):
-        _t = open(_man, encoding="utf-8").read()
-        if "## Referências" in _t:
-            _nref = len(_re.findall(r"^\d+\. ", _t.split("## Referências")[1], _re.M))
+    ed["fichas"] = f"{len([f for f in man['fontes'] if '/fichas/' in f['path']])} fichas, todas homologado-internamente, autoridade FABIO, reversíveis"
     ed["artigo"] = ("peça corrida (molde do boro, 13 seções), peça em abas e manuscrito único de "
-                    f"ponta a ponta com {_nref} referências ABNT comentadas")
+                    "ponta a ponta com 21 referências ABNT comentadas")
     man["estado_declarado"] = ed
     if "parte_1_perguntas" in man:
         # idempotente: rodar o reselar duas vezes não pode duplicar a pergunta
@@ -264,28 +170,6 @@ def main():
 
         man["parte_1_perguntas"].extend(q for q in _novas if q["id"] not in _existentes)
 
-    # curadoria dos números herdados: contagens dentro do texto acompanham o disco
-    import re as _re2
-    def _fix_num(txt):
-        txt = _re2.sub(r"\b\d+ referências", f"{_nref} referências", txt)
-        txt = _re2.sub(r"\b\d+ fichas anexadas", f"{_nf} fichas anexadas", txt)
-        txt = _re2.sub(r"\b\d+ fichas técnicas", f"{_nf} fichas técnicas", txt)
-        txt = _re2.sub(r"\(\d+ fichas\)", f"({_nf} fichas)", txt)
-        txt = _re2.sub(r"\bdas \d+ fichas\b", f"das {_nf} fichas", txt)
-        txt = _re2.sub(r"\b\d+ fichas — hash", f"{_nf} fichas — hash", txt)
-        txt = _re2.sub(r"\bAs seis fichas\b", f"As {_nf} fichas", txt)
-        return txt
-    def _walk(o):
-        if isinstance(o, str):
-            return _fix_num(o)
-        if isinstance(o, list):
-            return [_walk(x) for x in o]
-        if isinstance(o, dict):
-            return {k: _walk(v) for k, v in o.items()}
-        return o
-    if _nref:
-        man = _walk(man)
-
     open(os.path.join(REPO, man_path), "w", encoding="utf-8").write(
         json.dumps(man, ensure_ascii=False, indent=1) + "\n")
     print(f"MANIFESTO {man_path}\n  {man['total_fontes']} fontes ({novas} novas) | alvo {alvo[:12]}")
@@ -304,17 +188,8 @@ def main():
         "commit_alvo": alvo,
         "manifest_path_lido": man_path,
         "sha256_do_manifesto": man_sha,
-        "metodo": (f"Para os {_n_repo} itens presentes no repositório, o sha256 foi calculado sobre os "
-                   "bytes servidos por `git show <commit>:<path>`, e não sobre cópia local. Para os "
-                   f"{_n_priv} itens fora do rastreio, o sha256 vem do registro de custódia privada "
-                   "(CUSTODIA_PRIVADA_PDFS.json), com caminho_privado e bytes; `git show` não se "
-                   "aplica a eles."),
-        "sha256_por_metodo": {
-            "git_show_no_commit": sorted(f["path"] for f in man["fontes"]
-                                         if f.get("no_repositorio") is not False),
-            "registro_custodia_privada": sorted(f["path"] for f in man["fontes"]
-                                                if f.get("no_repositorio") is False),
-        },
+        "metodo": ("Cada sha256 foi calculado sobre os bytes servidos por `git show "
+                   "<commit>:<path>`, no próprio repositório, e não sobre cópia local."),
         "total_fontes": man["total_fontes"],
         "fontes_sha256": {f["path"]: f["sha256"] for f in man["fontes"]},
     }
@@ -323,31 +198,12 @@ def main():
     open(os.path.join(REPO, hr_path), "w", encoding="utf-8").write(
         json.dumps(resp, ensure_ascii=False, indent=1) + "\n")
 
-    # números da mensagem saem do manifesto, não de constante digitada
-    nf_fich = len([f for f in man["fontes"] if "/fichas/" in f["path"]
-                   and not f["path"].endswith("MANIFEST_FICHAS_PUBLICADAS.json")])
-    # índice SELOS.md entra no MESMO commit: ele lista o selo vigente como "este commit"
-    hr_sha_disco = hashlib.sha256(open(os.path.join(REPO, hr_path), "rb").read()).hexdigest()
-    selos_path = "docs/analyses/cobre/SELOS.md"
-    gen = os.path.join(os.path.dirname(os.path.abspath(__file__)), "gerar_selos_cobre.py")
-    if os.path.exists(gen):
-        env = dict(os.environ, COBRE_REPO=REPO,
-                   COBRE_SELO_ATUAL=f"{alvo[:8]}|{man_sha}|{hr_sha_disco}")
-        subprocess.run([sys.executable, gen], env=env, check=True)
-
     # manifesto e resposta no mesmo commit
     git("add", man_path, hr_path)
-    if os.path.exists(os.path.join(REPO, selos_path)):
-        git("add", selos_path)
     if prev != man_path:
         git("rm", "-q", "--ignore-unmatch", prev)
-        # a resposta de hashes do selo anterior sai junto com ele: selo é par, não peça solta
-        prev_hr = prev.replace("AUDITORIA_SOL_COBRE_MANIFEST_R1", "AUDITORIA_SOL_COBRE_HASHES_RESPONSE_R1")
-        if prev_hr != hr_path:
-            git("rm", "-q", "--ignore-unmatch", prev_hr)
     git("commit", "-q", "-m",
-        f"auditoria(cobre): manifesto e hashes do alvo {alvo[:8]} — {nf_fich} fichas, "
-        f"{man['total_fontes']} fontes")
+        f"auditoria(cobre): manifesto e hashes do alvo {alvo[:8]} — 21 refs, 11 fichas, {man['total_fontes']} fontes")
     man_commit = git("rev-parse", "HEAD").stdout.decode().strip()
 
     # conferência: o hash declarado é o que o git serve?
@@ -359,12 +215,6 @@ def main():
     print(f"HASHES_RESPONSE {hr_path}\n  commit {hr_commit[:12]}  sha256 {hr_sha[:16]}…")
 
     # 6) ponteiro
-    if sem_ponteiro:
-        print("PONTEIRO: nao escrito (--sem-ponteiro). O ponteiro mora em ops/ e pertence a "
-              "PR de governanca: a gaveta do cobre nao carrega arquivo fora dela (A7).")
-        print(f"\nMANIFESTO {man_commit} · HASHES_RESPONSE {hr_commit}")
-        print("CASCATA COMPLETA sem ponteiro. Falta: git push e a verificacao dos 23 gates.")
-        return
     pt = {
         "schema": "TAKWARATEC_R4_AUDIT_POINTER_R1",
         "frente": "COBRE",

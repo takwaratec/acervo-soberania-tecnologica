@@ -1,8 +1,13 @@
 ---
-tipo_documental: documento-institucional
-estado_documental: em-revisao-documental
+tipo_documental: sintese-critica
+estado_documental: historico
 responsavel_curadoria: Fabio F. Resck
+frente: BAMBU-SCIENCE
+gaveta: bambu-tratamento
+origem_documental: frente absorvida COBRE (2026-11-28)
+nota_de_metadado: front matter acrescentado na absorcao; o corpo nao foi reescrito
 ---
+
 # Auditoria Teco R5 — COBRE-PLANO-AUDITORIA-20261124-R5
 
 **Executor:** HERMES_OPENCODE (opencode) · **Auditor:** CODEX_LUNA_MEDIUM (openai, `gpt-6-luna`, reasoning `high`)

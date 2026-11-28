@@ -1,8 +1,13 @@
 ---
 tipo_documental: sintese-critica
-estado_documental: em-revisao-documental
+estado_documental: historico
 responsavel_curadoria: Fabio F. Resck
+frente: BAMBU-SCIENCE
+gaveta: bambu-tratamento
+origem_documental: frente absorvida COBRE (2026-11-28)
+nota_de_metadado: front matter acrescentado na absorcao; o corpo nao foi reescrito
 ---
+
 # RELEITURA MTCC/R38 DO RELEASE 1 — RESULTADO MEDIDO
 
 DATA=2026-11-24

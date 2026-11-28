@@ -15,7 +15,7 @@ import os
 import re
 import sys
 
-RAIZ = os.environ.get("COBRE_REPO", "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica")
+RAIZ = "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica"
 
 CUSTODIAS = {
     "ago_28_Madeira_Tratada_S11c": {
@@ -55,10 +55,6 @@ def paginas(texto):
 
 
 falhas, ok, total = [], 0, 0
-registro = {"schema": "REGISTRO_FIDELIDADE_FONTES_NORMATIVAS_R1",
-            "mede": ("se o trecho entre aspas da ficha existe literalmente no extrato custodiado; "
-                     "NAO mede se a afirmacao que o texto constroi com ele e verdadeira"),
-            "denominador_fixado": None, "por_ficha": {}}
 for custodia, mapa in CUSTODIAS.items():
     fichas_dir = f"{RAIZ}/_privado/fichas/{custodia}"
     fontes_dir = f"{RAIZ}/_privado/fontes-documentais/{custodia}"
@@ -88,29 +84,12 @@ for custodia, mapa in CUSTODIAS.items():
                     if len(f) < 18:
                         continue
                     total += 1
-                    reg = registro["por_ficha"].setdefault(ficha, {"conferidos": 0, "ok": 0})
-                    reg["conferidos"] += 1
                     if f in inteiro:
                         ok += 1
-                        reg["ok"] += 1
                     else:
                         falhas.append((ficha, f[:110]))
             else:
                 i += 1
-
-registro["denominador_fixado"] = total
-registro["conferidos"] = total
-registro["ok"] = ok
-registro["falhas"] = [{"ficha": f, "trecho": t} for f, t in falhas]
-registro["portao_exit"] = 0 if not falhas else 1
-# o registro ao lado do texto: declaracao de medicao vive junto do artefato que ela mede
-import json as _json
-_dest = f"{RAIZ}/docs/analyses/cobre/fichas/REGISTRO_FIDELIDADE_FONTES_NORMATIVAS.json"
-try:
-    open(_dest, "w", encoding="utf-8").write(_json.dumps(registro, ensure_ascii=False, indent=1) + "\n")
-    print(f"REGISTRO: {_dest}")
-except OSError as e:
-    print(f"registro nao gravado: {e}")
 
 print(f"CITAÇÕES CONFERIDAS: {total}  OK: {ok}  FALHAS: {len(falhas)}")
 for f, t in falhas:
