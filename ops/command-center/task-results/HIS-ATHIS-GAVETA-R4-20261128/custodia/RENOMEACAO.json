@@ -1,0 +1,8 @@
+[
+ {
+  "nome_antigo": "sem-autor-2025-sol-nascente.md",
+  "nome_novo": "pazos-2025-sol-nascente.md",
+  "motivo": "nome derivado de autores[0] do front matter; 'sem-autor' era defeito de leitura",
+  "sha256_binario": "e14880dd395cd510728bbd4b4ade74d9fb1618c985b667e0fc98f4039d83a7ec"
+ }
+]

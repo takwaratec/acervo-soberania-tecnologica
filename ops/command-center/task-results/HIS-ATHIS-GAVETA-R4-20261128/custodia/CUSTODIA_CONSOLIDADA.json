@@ -1,0 +1,2010 @@
+[
+ {
+  "arquivo_alvo": "almeida-2008-assessoria-tecnica.md",
+  "titulo": "A participação de assessoria técnica-política e da CAIXA na produção de moradias em assentamentos rurais. Casos: Fusquinha, Nova Esperança e Pirituba 2",
+  "ano": "2008",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "não é PDF (content-type text/html; charset=utf-8)",
+  "tentativas": [
+   {
+    "url": "https://repositorio.ufscar.br/handle/20.500.14289/4241",
+    "http": "200",
+    "bytes": 581056,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://repositorio.ufscar.br/bitstreams/6124c51d-a466-43ae-abb4-fb766ce62b30/download",
+    "http": "200",
+    "bytes": 463113,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "araujo-2019-assessoria-tecnica.md",
+  "titulo": "Assessoria técnica em arquitetura e urbanismo: experiências e desafios com populações de baixa renda em Açailândia – MA e Alcântara - MA",
+  "ano": "2019",
+  "estado": "CUSTODIADO",
+  "sha256": "151ee13dc3b0002b13028148d331cd6fcf20d9648e91bcf7b54ce4711937834e",
+  "bytes": 2653274,
+  "paginas": 89,
+  "arquivo_pdf": "araujo-2019-assessoria-tecnica.pdf",
+  "origem_url": "https://repositorio.uema.br/jspui/bitstream/123456789/1655/3/DISSERTACAO%20-%20LU%c3%8dS%20FERNANDO%20DE%20SOUSA%20ARAUJO%20-%20PPDRS%20CCSA%20UEMA%202019.pdf",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "http://repositorio.uema.br/jspui/handle/123456789/1655",
+    "http": "200",
+    "bytes": 29010,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.uema.br/jspui/bitstream/123456789/1655/3/DISSERTACAO%20-%20LU%c3%8dS%20FERNANDO%20DE%20SOUSA%20ARAUJO%20-%20PPDRS%20CCSA%20UEMA%202019.pdf",
+    "http": "200",
+    "bytes": 2653274,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "barretto-2024-assessoria-tecnica.md",
+  "titulo": "Cidade Canteiro: autoconstrução, mutirão e assessoria técnica em Fortaleza",
+  "ano": "2024",
+  "estado": "CUSTODIADO",
+  "sha256": "a39b1ab0cc9f51500f6ab6f5a314fe5fb0271c7ec324a49519ee5f842849ce97",
+  "bytes": 89467130,
+  "paginas": 274,
+  "arquivo_pdf": "barretto-2024-assessoria-tecnica.pdf",
+  "origem_url": "http://repositorio.ufc.br/bitstream/riufc/79888/1/2024_diss_vsbarreto.pdf",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "http://repositorio.ufc.br/handle/riufc/79888",
+    "http": "200",
+    "bytes": 30120,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)"
+   },
+   {
+    "url": "http://repositorio.ufc.br/bitstream/riufc/79888/1/2024_diss_vsbarreto.pdf",
+    "http": "200",
+    "bytes": 89467130,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "barroso-2025-assessoria-tecnica.md",
+  "titulo": "Objetividade e subjetividade no trabalho social: os profissionais de arquitetura nas Assessorias e Assistência Técnica para Habitação de Interesse Social (ATHIS), em São Luís (MA)",
+  "ano": "2025",
+  "estado": "CUSTODIADO",
+  "sha256": "0894cca9c58bead62d8b99559d27b42d364b2603e0e5735c01291465775d9acf",
+  "bytes": 1708802,
+  "paginas": 163,
+  "arquivo_pdf": "barroso-2025-assessoria-tecnica.pdf",
+  "origem_url": "https://riufma.ufma.br/bitstreams/c6896cf1-f084-4af1-b820-b2e29ef91f90/download",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://riufma.ufma.br/handle/tede/6425",
+    "http": "200",
+    "bytes": 513410,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://riufma.ufma.br/bitstreams/c6896cf1-f084-4af1-b820-b2e29ef91f90/download",
+    "http": "200",
+    "bytes": 1708802,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "bastos-2023-athis.md",
+  "titulo": "Moradia adequada e promoção de saúde através da ATHIS: reflexões a partir de uma experiência na Vila Brandina, Campinas-SP",
+  "ano": "2023",
+  "estado": "CUSTODIADO",
+  "sha256": "0c029eca003cbc1aa598acb74d1486f96c9b6c4f47582b11917bb1738723b424",
+  "bytes": 25650812,
+  "paginas": 311,
+  "arquivo_pdf": "bastos-2023-athis.pdf",
+  "origem_url": "https://repositorio.sis.puc-campinas.edu.br/bitstreams/24e4196c-9cd4-4bb6-81d9-41bfc9b047a4/download",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://repositorio.sis.puc-campinas.edu.br/handle/123456789/1519",
+    "http": "200",
+    "bytes": 519768,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://repositorio.sis.puc-campinas.edu.br:4000/bitstreams/24e4196c-9cd4-4bb6-81d9-41bfc9b047a4/download",
+    "http": "000",
+    "bytes": 0,
+    "resultado": "HTTP 000",
+    "via": "pdf_na_pagina"
+   },
+   {
+    "url": "https://repositorio.sis.puc-campinas.edu.br/bitstreams/24e4196c-9cd4-4bb6-81d9-41bfc9b047a4/download",
+    "http": "200",
+    "bytes": 25650812,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "bomfim-1999-melhoria-habitacional.md",
+  "titulo": "Impacto da Melhoria Habitacional na Qualidade de Vida ...",
+  "ano": "1999",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "não é PDF (content-type text/html;charset=ISO-8859-1)",
+  "tentativas": [
+   {
+    "url": "https://siduece.uece.br/siduece/trabalhoAcademicoPublico.jsf?id=2913",
+    "http": "200",
+    "bytes": 21461,
+    "resultado": "não é PDF (content-type text/html;charset=ISO-8859-1)"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "borel-2020-assessoria-tecnica.md",
+  "titulo": "Políticas públicas de assessoria técnica em arquitetura e urbanismo: práticas na direção da autonomia",
+  "ano": "2020",
+  "estado": "CUSTODIADO",
+  "sha256": "bd68d1da8c51069b0a83a1ec8adaca17eb3ca88a64e5b2831543a5efb356d425",
+  "bytes": 6536466,
+  "paginas": 199,
+  "arquivo_pdf": "borel-2020-assessoria-tecnica.pdf",
+  "origem_url": "https://repositorio.ufmg.br/bitstreams/d035a98f-4320-4684-b195-9e8689b5e619/download",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://hdl.handle.net/1843/35307",
+    "http": "200",
+    "bytes": 503138,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://repositorio.ufmg.br/bitstreams/d035a98f-4320-4684-b195-9e8689b5e619/download",
+    "http": "200",
+    "bytes": 6536466,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "bortolotti-2014-assistencia-tecnica.md",
+  "titulo": "O papel da assistência técnica e extensão rural na evolução dos agroecossistemas familiares, fundamentados por práticas agroecológicas na microrregião de Pato Branco – PR",
+  "ano": "2014",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "HTTP 404",
+  "tentativas": [
+   {
+    "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/1121",
+    "http": "404",
+    "bytes": 307,
+    "resultado": "HTTP 404"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "camacho-2016-assistencia-tecnica.md",
+  "titulo": "A utilização da Lei nº 11.888/2008 - Lei de Assistência Técnica Pública e Gratuita - no Programa Minha Casa Minha Vida: limites e possibilidades na pós-ocupação das unidades habitacionais",
+  "ano": "2016",
+  "estado": "CUSTODIADO",
+  "sha256": "e253f7c774796fbf09da4c1e4a9b95040a1401ce600c06eb566d6eae4bb442f5",
+  "bytes": 6523902,
+  "paginas": 112,
+  "arquivo_pdf": "camacho-2016-assistencia-tecnica.pdf",
+  "origem_url": "https://repositorio.ufjf.br/bitstreams/e120473c-0d4c-470c-9788-b98ed74d4d93/download",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://repositorio.ufjf.br/jspui/handle/ufjf/2577",
+    "http": "200",
+    "bytes": 627931,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://repositorio.ufjf.br/bitstreams/e120473c-0d4c-470c-9788-b98ed74d4d93/download",
+    "http": "200",
+    "bytes": 6523902,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "campos-2022-assistencia-tecnica.md",
+  "titulo": "Insegurança alimentar e nutricional em famílias assistidas pela assistência técnica e extensão rural de Montenegro/RS",
+  "ano": "2022",
+  "estado": "CUSTODIADO",
+  "sha256": "66e567f55a97577c9bd61e1db7241cbef4a5808305c5d5e84de220255b594731",
+  "bytes": 1725129,
+  "paginas": 103,
+  "arquivo_pdf": "campos-2022-assistencia-tecnica.pdf",
+  "origem_url": "https://lume.ufrgs.br/bitstream/handle/10183/271892/001195342.pdf?sequence=1&isAllowed=y",
+  "rota": "rodada2_pagina",
+  "tentativas": [
+   {
+    "url": "http://hdl.handle.net/10183/271892",
+    "http": "200",
+    "bytes": 40264,
+    "resultado": "não é PDF (content-type text/html;charset=utf-8)"
+   },
+   {
+    "url": "http://hdl.handle.net/bitstream/handle/10183/271892/001195342.pdf?sequence=1&isAllowed=y",
+    "http": "404",
+    "bytes": 6882,
+    "resultado": "HTTP 404",
+    "via": "pdf_na_pagina"
+   },
+   {
+    "url": "https://lume.ufrgs.br/handle/10183/271892",
+    "http": "200",
+    "bytes": 40264,
+    "resultado": "não é PDF (content-type text/html;charset=utf-8)",
+    "via": "rodada2"
+   },
+   {
+    "url": "https://lume.ufrgs.br/bitstream/handle/10183/271892/001195342.pdf?sequence=1&isAllowed=y",
+    "http": "200",
+    "bytes": 1725129,
+    "resultado": "ok",
+    "via": "rodada2_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "cantelli-2021-assistencia-tecnica.md",
+  "titulo": "Informações geográficas e dados espaciais aplicados à Assistência Técnica e Extensão Rural (ATER): estudo de caso com extensionistas da Fundação Instituto de Terras do Estado de São Paulo (ITESP)",
+  "ano": "2021",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "não é PDF (content-type text/html; charset=utf-8)",
+  "tentativas": [
+   {
+    "url": "http://hdl.handle.net/11449/214149",
+    "http": "200",
+    "bytes": 1381,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "cardoso-2021-assessoria-tecnica.md",
+  "titulo": "Entre o discurso e a construção da prática profissional do arquiteto e urbanista: experiências contemporâneas em assessoria e assistência técnica para habitação de interesse social no Brasil",
+  "ano": "2021",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "carvalho-2020-assistencia-tecnica.md",
+  "titulo": "A relevância da assistência técnica em Jundiaí (SP) para suprir o déficit de habitação de interesse social",
+  "ano": "2020",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "não é PDF (content-type text/html; charset=utf-8)",
+  "tentativas": [
+   {
+    "url": "https://hdl.handle.net/20.500.12733/1639874",
+    "http": "200",
+    "bytes": 2185,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "carvalho-2025-distrito-federal.md",
+  "titulo": "Trabalho, território e a produção de desigualdades no Distrito Federal",
+  "ano": "2025",
+  "estado": "CUSTODIADO",
+  "sha256": "29d45484a76e812ea8fed320ca56cca20d63e6dd724901661b70982050ffe440",
+  "bytes": 1405441,
+  "paginas": 129,
+  "arquivo_pdf": "carvalho-2025-distrito-federal.pdf",
+  "origem_url": "http://repositorio.unb.br/bitstream/10482/53295/1/LucasTenorioSoaresCarvalho_DISSERT.pdf",
+  "rota": "rodada2_pagina",
+  "tentativas": [
+   {
+    "url": "https://riunbtainacan.unb.br/teses-e-dissertacoes/trabalho-territorio-e-a-producao-de-desigualdades-no-distrito-federal/",
+    "http": "200",
+    "bytes": 393891,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.unb.br/handle/10482/53295",
+    "http": "200",
+    "bytes": 37490,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)",
+    "via": "rodada2"
+   },
+   {
+    "url": "http://repositorio.unb.br/bitstream/10482/53295/1/LucasTenorioSoaresCarvalho_DISSERT.pdf",
+    "http": "200",
+    "bytes": 1405441,
+    "resultado": "ok",
+    "via": "rodada2_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "castro-2026-athis.md",
+  "titulo": "ATHIS em quatro dimensões: construção e aplicação de um referencial analítico à política habitacional de Campinas/SP",
+  "ano": "2026",
+  "estado": "CUSTODIADO",
+  "sha256": "f44fe049e3072ad61d45393cb6c1aa69862d323f9cef94c46de9e9a6d298d8b4",
+  "bytes": 5892256,
+  "paginas": 129,
+  "arquivo_pdf": "castro-2026-athis.pdf",
+  "origem_url": "https://repositorio.ufsc.br/bitstream/123456789/277581/-1/PARQ0605-D.pdf",
+  "rota": "oai_ore_ufsc",
+  "tentativas": [
+   {
+    "url": "https://repositorio.ufsc.br/handle/123456789/277581",
+    "http": "200",
+    "bytes": 33080,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.ufsc.br/bitstream/123456789/277581/-1/PARQ0605-D.pdf",
+    "http": "200",
+    "bytes": 5892256,
+    "resultado": "ok",
+    "via": "oai_ore_ufsc"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "cerqueira-2009-assistencia-tecnica.md",
+  "titulo": "A assistência técnica nos habitats do MST e o papel do arquiteto e urbanista",
+  "ano": "2009",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "não é PDF (content-type text/html; charset=utf-8)",
+  "tentativas": [
+   {
+    "url": "https://repositorio.ufrn.br/jspui/handle/123456789/12343",
+    "http": "200",
+    "bytes": 1107,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "costa-2026-assistencia-tecnica.md",
+  "titulo": "A contribuição da extensão universitária em assistência técnica para habitação de interesse social (ATHIS) para a formação do engenheiro civil",
+  "ano": "2026",
+  "estado": "CUSTODIADO",
+  "sha256": "5a81394aad7a73ea34938df5d983b604de187303a716fda3999600ac144a764a",
+  "bytes": 3104323,
+  "paginas": 115,
+  "arquivo_pdf": "costa-2026-assistencia-tecnica.pdf",
+  "origem_url": "http://repositorio.unb.br/bitstream/10482/55534/1/LohanyFernandesDeOliveiraCosta_DISSERT.pdf",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "http://repositorio.unb.br/handle/10482/55534",
+    "http": "200",
+    "bytes": 40158,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)"
+   },
+   {
+    "url": "http://repositorio.unb.br/bitstream/10482/55534/1/LohanyFernandesDeOliveiraCosta_DISSERT.pdf",
+    "http": "200",
+    "bytes": 3104323,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "falcao-2020-assistencia-tecnica.md",
+  "titulo": "A promoção da assistência técnica para habitação de interesse social (lei 11.888/2008) e o campo da arquitetura norte fluminense",
+  "ano": "2020",
+  "estado": "CUSTODIADO",
+  "sha256": "f9ab56cd5d0e63aa80ed1de670b9213f9a6240600773e68312be0de29e7ec11f",
+  "bytes": 2573374,
+  "paginas": 181,
+  "arquivo_pdf": "falcao-2020-assistencia-tecnica.pdf",
+  "origem_url": "https://app.uff.br/riuff/bitstream/handle/1/22612/DISSERTA%c3%87%c3%83O%20JESSICA%20FALC%c3%83O%20-%20REV%2069_FINAL.pdf?sequence=1&isAllowed=y",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://app.uff.br/riuff/handle/1/22612",
+    "http": "200",
+    "bytes": 48614,
+    "resultado": "não é PDF (content-type text/html;charset=utf-8)"
+   },
+   {
+    "url": "https://app.uff.br/riuff/bitstream/handle/1/22612/DISSERTA%c3%87%c3%83O%20JESSICA%20FALC%c3%83O%20-%20REV%2069_FINAL.pdf?sequence=1&isAllowed=y",
+    "http": "200",
+    "bytes": 2573374,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "ferreira-2025-reassentamento-belo-monte.md",
+  "titulo": "Migração compulsória e a (re)territorialização de pescadores e pescadoras artesanais do reassentamento urbano coletivo Laranjeiras, Altamira - PA.",
+  "ano": "2025",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "não é PDF (content-type text/html; charset=utf-8)",
+  "tentativas": [
+   {
+    "url": "https://bdtd.ibict.br/vufind/Record/UDESC-2_96e47dfb1219dd4e8b0d293396dc442f",
+    "http": "200",
+    "bytes": 54576,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.udesc.br/handle/UDESC/22549",
+    "http": "200",
+    "bytes": 751,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)",
+    "via": "rodada2"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "freitas-2022-assistencia-tecnica.md",
+  "titulo": "Assistência técnica em arquitetura e urbanismo na habitação rural: o caso do PNHR em Rancho Queimado/SC",
+  "ano": "2022",
+  "estado": "CUSTODIADO",
+  "sha256": "beaf6061d2930d7a2de4ee7efa2eb573c983d4814f56350af693e62b3ba93c57",
+  "bytes": 17279834,
+  "paginas": 290,
+  "arquivo_pdf": "freitas-2022-assistencia-tecnica.pdf",
+  "origem_url": "https://repositorio.ufsc.br/bitstream/123456789/241045/-1/PARQ0465-D.pdf",
+  "rota": "oai_ore_ufsc",
+  "tentativas": [
+   {
+    "url": "https://repositorio.ufsc.br/handle/123456789/241045",
+    "http": "200",
+    "bytes": 33080,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.ufsc.br/bitstream/123456789/241045/-1/PARQ0465-D.pdf",
+    "http": "200",
+    "bytes": 17279834,
+    "resultado": "ok",
+    "via": "oai_ore_ufsc"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "friedrich-2022-assistencia-tecnica.md",
+  "titulo": "A construção e a implementação de uma ferramenta de gestão da informação para projetos de assistência técnica e extensão rural - o Sistema Integrado de Gestão Rural (SIGRA)",
+  "ano": "2022",
+  "estado": "CUSTODIADO",
+  "sha256": "98944ab2facfb94f300372a680d0ab7833e2f3b0202f92ec9a8be9d3a7f34493",
+  "bytes": 16364404,
+  "paginas": 134,
+  "arquivo_pdf": "friedrich-2022-assistencia-tecnica.pdf",
+  "origem_url": "http://repositorio.ufsm.br/bitstream/handle/1/25774/TES_PPGER_2022_FRIEDRICH_GUSTAVO.pdf?sequence=1&isAllowed=y",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "http://repositorio.ufsm.br/handle/1/25774",
+    "http": "200",
+    "bytes": 32120,
+    "resultado": "não é PDF (content-type text/html;charset=utf-8)"
+   },
+   {
+    "url": "http://repositorio.ufsm.br/bitstream/handle/1/25774/TES_PPGER_2022_FRIEDRICH_GUSTAVO.pdf?sequence=1&isAllowed=y",
+    "http": "200",
+    "bytes": 16364404,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "godinho-2017-assistencia-tecnica.md",
+  "titulo": "Análise da implementação da assistência técnica pública e gratuita em habitação social no município de Alfenas-MG",
+  "ano": "2017",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "HTTP 404",
+  "tentativas": [
+   {
+    "url": "http://www.locus.ufv.br/handle/123456789/18073",
+    "http": "404",
+    "bytes": 196,
+    "resultado": "HTTP 404"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "gomes-2014-melhoria-habitacional.md",
+  "titulo": "Os programas de melhorias habitacionais: elementos a serem considerados para uma proposta de assistência técnica continuada a partir das experiências do Brasil e de Cuba",
+  "ano": "2014",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "gomes-2019-assistencia-tecnica.md",
+  "titulo": "Saberes tradicionais quilombolas e a política nacional de assistência técnica e extensão rural: o caso do Arapapuzinho (Abaetetuba-PA)",
+  "ano": "2019",
+  "estado": "CUSTODIADO",
+  "sha256": "aba99a6783da3ae5cdb7ba718a433e4be0a60d096b9040cbad28cf4a9e69efe5",
+  "bytes": 4911848,
+  "paginas": 144,
+  "arquivo_pdf": "gomes-2019-assistencia-tecnica.pdf",
+  "origem_url": "https://repositorio.ufpa.br/bitstreams/2176093c-99e3-4309-8d3b-c52f843bb52a/download",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://repositorio.ufpa.br/handle/2011/12024",
+    "http": "200",
+    "bytes": 489773,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://repositorio.ufpa.br/bitstreams/2176093c-99e3-4309-8d3b-c52f843bb52a/download",
+    "http": "200",
+    "bytes": 4911848,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "goncalves-2022-assistencia-tecnica.md",
+  "titulo": "Assistência técnica em habitação de interesse social no Distrito Federal",
+  "ano": "2022",
+  "estado": "CUSTODIADO",
+  "sha256": "9cfa50bc3d5dbcc7a08f1a53de9468fb2433715383a27e96726613430c568f93",
+  "bytes": 14839908,
+  "paginas": 249,
+  "arquivo_pdf": "goncalves-2022-assistencia-tecnica.pdf",
+  "origem_url": "https://repositorio.uniceub.br/bitstreams/80cf2410-1eda-41a8-aac0-298ad964610c/download",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://repositorio.uniceub.br/handle/prefix/17392",
+    "http": "200",
+    "bytes": 584193,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://repositorio.uniceub.br/bitstreams/80cf2410-1eda-41a8-aac0-298ad964610c/download",
+    "http": "200",
+    "bytes": 14839908,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "guimaraes-2023-assistencia-tecnica.md",
+  "titulo": "Políticas de Assistência Técnica em Habitação de Interesse Social (ATHIS): processo e desdobramentos territoriais em Petrópolis, RJ",
+  "ano": "2023",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "HTTP 000",
+  "tentativas": [
+   {
+    "url": "https://rima.ufrrj.br/jspui/handle/20.500.14407/23009",
+    "http": "000",
+    "bytes": 0,
+    "resultado": "HTTP 000"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "leal-2019-assistencia-tecnica.md",
+  "titulo": "Assistência técnica em habitação social, extensão universitária e residência acadêmica : experiências e caminhos",
+  "ano": "2019",
+  "estado": "CUSTODIADO",
+  "sha256": "98dc824ea47d40613a1baef60e414a80726fd124f6f09e838d22fb182bb37cee",
+  "bytes": 3739838,
+  "paginas": 175,
+  "arquivo_pdf": "leal-2019-assistencia-tecnica.pdf",
+  "origem_url": "http://repositorio.unb.br/bitstream/10482/35425/1/2019_Nath%c3%a1lyaLouiseMac%c3%aadoLeal.pdf",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "http://repositorio.unb.br/handle/10482/35425",
+    "http": "200",
+    "bytes": 40647,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)"
+   },
+   {
+    "url": "http://repositorio.unb.br/bitstream/10482/35425/1/2019_Nath%c3%a1lyaLouiseMac%c3%aadoLeal.pdf",
+    "http": "200",
+    "bytes": 3739838,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "leite-2017-assistencia-tecnica.md",
+  "titulo": "Paisagens autoconstruídas: o papel da assistência técnica habitacional na produção do espaço no bairro Nova Viçosa, Viçosa (MG)",
+  "ano": "2017",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "HTTP 404",
+  "tentativas": [
+   {
+    "url": "http://www.locus.ufv.br/handle/123456789/11529",
+    "http": "404",
+    "bytes": 196,
+    "resultado": "HTTP 404"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "lenoir-2025-regularizacao-fundiaria.md",
+  "titulo": "Mapeamento online participativo para subsidiar o Plano Comunitário de Regularização Fundiária : o caso de Santa Luzia no Distrito Federal",
+  "ano": "2025",
+  "estado": "CUSTODIADO",
+  "sha256": "98c30f9b8259241cf1170670dc856dd06dfbd2576bc830fb45bd0b8442555a1b",
+  "bytes": 368892142,
+  "paginas": 310,
+  "arquivo_pdf": "lenoir-2025-regularizacao-fundiaria.pdf",
+  "origem_url": "http://repositorio.unb.br/bitstream/10482/53065/1/JulietteAnnaFannyLenoir_TESE.pdf",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "http://repositorio.unb.br/handle/10482/53065",
+    "http": "200",
+    "bytes": 46898,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)"
+   },
+   {
+    "url": "http://repositorio.unb.br/bitstream/10482/53065/1/JulietteAnnaFannyLenoir_TESE.pdf",
+    "http": "200",
+    "bytes": 368892142,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "lima-2018-sol-nascente.md",
+  "titulo": "Ocupação urbana em áreas de fragilidade ambiental : estudo de áreas de risco socioambiental no Setor Sol Nascente – DF",
+  "ano": "2018",
+  "estado": "CUSTODIADO",
+  "sha256": "4269d291c7804a6c095b0602f2ccfd9da5aaac175314da9c4362eba37354ecbc",
+  "bytes": 2835769,
+  "paginas": 126,
+  "arquivo_pdf": "lima-2018-sol-nascente.pdf",
+  "origem_url": "http://repositorio.unb.br/bitstream/10482/32901/1/2018_AliceCunhaLima.pdf",
+  "rota": "rodada2_pagina",
+  "tentativas": [
+   {
+    "url": "https://riunbtainacan.unb.br/teses-e-dissertacoes/ocupacao-urbana-em-areas-de-fragilidade-ambiental-estudo-de-areas-de-risco-socioambiental-no-setor-sol-nascente-df/",
+    "http": "200",
+    "bytes": 394922,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.unb.br/handle/10482/32901",
+    "http": "200",
+    "bytes": 41698,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)",
+    "via": "rodada2"
+   },
+   {
+    "url": "http://repositorio.unb.br/bitstream/10482/32901/1/2018_AliceCunhaLima.pdf",
+    "http": "200",
+    "bytes": 2835769,
+    "resultado": "ok",
+    "via": "rodada2_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "macedo-2025-assistencia-tecnica.md",
+  "titulo": "Assistência técnica em conflitos fundiários: a função social da arquitetura e urbanismo no direito à moradia na região metropolitana de Belém",
+  "ano": "2025",
+  "estado": "CUSTODIADO",
+  "sha256": "64c46a36088101e758c5d85fc820aa11f82fde4924b517c2569af8a8e6b0d8a8",
+  "bytes": 5202898,
+  "paginas": 148,
+  "arquivo_pdf": "macedo-2025-assistencia-tecnica.pdf",
+  "origem_url": "https://repositorio.ufpa.br/bitstreams/12089886-c310-4360-b5dc-2e1cd4894bc0/download",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://repositorio.ufpa.br/handle/2011/18241",
+    "http": "200",
+    "bytes": 480439,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://repositorio.ufpa.br/bitstreams/12089886-c310-4360-b5dc-2e1cd4894bc0/download",
+    "http": "200",
+    "bytes": 5202898,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "magalhaes-neto-2025-athis.md",
+  "titulo": "O cotidiano na formação em arquitetura e urbanismo pós ações afirmativas e lei de ATHIS",
+  "ano": "2025",
+  "estado": "CUSTODIADO",
+  "sha256": "7c143e5200ca60bf294a2c09c72e7446c6df7901030e9e4f89f526a1e4cfa26b",
+  "bytes": 47409828,
+  "paginas": 130,
+  "arquivo_pdf": "magalhaes-neto-2025-athis.pdf",
+  "origem_url": "https://app.uff.br/riuff/bitstream/handle/1/37263/Honorio%20Pinto%20Pereira%20de%20Magalh%c3%a3es%20Neto.pdf?sequence=1&isAllowed=y",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://app.uff.br/riuff/handle/1/37263",
+    "http": "200",
+    "bytes": 42699,
+    "resultado": "não é PDF (content-type text/html;charset=utf-8)"
+   },
+   {
+    "url": "https://app.uff.br/riuff/bitstream/handle/1/37263/Honorio%20Pinto%20Pereira%20de%20Magalh%c3%a3es%20Neto.pdf?sequence=1&isAllowed=y",
+    "http": "200",
+    "bytes": 47409828,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "maia-2017-sol-nascente.md",
+  "titulo": "A Associação de Moradores de Sol Nascente (DF) : e a luta pelo direito à moradia",
+  "ano": "2017",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "não é PDF (content-type text/html; charset=utf-8)",
+  "tentativas": [
+   {
+    "url": "http://www.repositorio.jesuita.org.br/handle/UNISINOS/6898",
+    "http": "200",
+    "bytes": 7540,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "martins-2024-athis.md",
+  "titulo": "Reflexões sobre o contexto de ATHIS no Distrito Federal : a experiência do projeto de extensão ATHOS/UNB em parceria com a CODHAB/DF",
+  "ano": "2024",
+  "estado": "CUSTODIADO",
+  "sha256": "be97b8593c472ad6a90ec20ce624a54c3868cbbc232f51af9f8980df8ee4e87a",
+  "bytes": 3752712,
+  "paginas": 103,
+  "arquivo_pdf": "martins-2024-athis.pdf",
+  "origem_url": "http://repositorio.unb.br/bitstream/10482/49741/1/RachelBenedetDeSousaMartins_DISSERT.pdf",
+  "rota": "rodada2_pagina",
+  "tentativas": [
+   {
+    "url": "https://riunbtainacan.unb.br/teses-e-dissertacoes/reflexoes-sobre-o-contexto-de-athis-no-distrito-federal-a-experiencia-do-projeto-de-extensao-athos-unb-em-parceria-com-a-codhab-df/",
+    "http": "200",
+    "bytes": 393015,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.unb.br/handle/10482/49741",
+    "http": "200",
+    "bytes": 39946,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)",
+    "via": "rodada2"
+   },
+   {
+    "url": "http://repositorio.unb.br/bitstream/10482/49741/1/RachelBenedetDeSousaMartins_DISSERT.pdf",
+    "http": "200",
+    "bytes": 3752712,
+    "resultado": "ok",
+    "via": "rodada2_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "melo-2019-assistencia-tecnica.md",
+  "titulo": "A efetividade do programa de assistência técnica em habitações sociais no sol nascente – Distrito Federal",
+  "ano": "2019",
+  "estado": "CUSTODIADO",
+  "sha256": "b068223c727f71c97ca13fbe1b6a7dcddd6c04151d4fb60ad63f58877245b8d0",
+  "bytes": 13016312,
+  "paginas": 249,
+  "arquivo_pdf": "melo-2019-assistencia-tecnica.pdf",
+  "origem_url": "https://repositorio.uniceub.br/bitstreams/2cf051e7-e7ff-47b6-939d-9b3f1d8991d0/download",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://repositorio.uniceub.br/handle/prefix/14390",
+    "http": "200",
+    "bytes": 578242,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://repositorio.uniceub.br/bitstreams/2cf051e7-e7ff-47b6-939d-9b3f1d8991d0/download",
+    "http": "200",
+    "bytes": 13016312,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "melo-2021-reassentamento-belo-monte.md",
+  "titulo": "A trajetória da educação escolar ofertada para os jovens reassentados do RUC Jatobá no contexto da construção da (UHE) Belo Monte em Altamira no Pará",
+  "ano": "2021",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "não é PDF (content-type text/html; charset=utf-8)",
+  "tentativas": [
+   {
+    "url": "https://bdtd.ibict.br/vufind/Record/UFOPA-2_8dc3406700a006fba984acc4a8bbe302",
+    "http": "200",
+    "bytes": 71933,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.ufopa.edu.br/jspui/handle/123456789/805",
+    "http": "200",
+    "bytes": 530408,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)",
+    "via": "rodada2"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "mendes-2014-assistencia-tecnica.md",
+  "titulo": "Etnodesenvolvimento, assistência técnica e extensão rural: o caso do Quilombo de Monte Alegre - Cachoeiro de Itapemirim",
+  "ano": "2014",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "HTTP 000",
+  "tentativas": [
+   {
+    "url": "https://rima.ufrrj.br/jspui/handle/20.500.14407/12097",
+    "http": "000",
+    "bytes": 0,
+    "resultado": "HTTP 000"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "mendonca-2014-assessoria-tecnica.md",
+  "titulo": "Arquitetura na periferia: uma experiência de assessoria técnica para grupos de mulheres",
+  "ano": "2014",
+  "estado": "CUSTODIADO",
+  "sha256": "bef6538bfef578d22200ef6ccd6a13177311b99e79e8661bad17233b26f28ff8",
+  "bytes": 20242261,
+  "paginas": 120,
+  "arquivo_pdf": "mendonca-2014-assessoria-tecnica.pdf",
+  "origem_url": "https://repositorio.ufmg.br/bitstreams/173d8906-7b5f-483b-887e-aeb562291807/download",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://hdl.handle.net/1843/BUOS-9NMHJ4",
+    "http": "200",
+    "bytes": 484851,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://repositorio.ufmg.br/bitstreams/173d8906-7b5f-483b-887e-aeb562291807/download",
+    "http": "200",
+    "bytes": 20242261,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "moraes-2012-melhoria-habitacional.md",
+  "titulo": "Limites e potencialidades da assistência técnica pública e gratuita para projeto, construção e melhoria da habitação popular na cidade de Viçosa, MG",
+  "ano": "2012",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "não é PDF (content-type text/html; charset=utf-8)",
+  "tentativas": [
+   {
+    "url": "http://locus.ufv.br/handle/123456789/3776",
+    "http": "200",
+    "bytes": 7894,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "moraes-2024-melhoria-habitacional.md",
+  "titulo": "O Projeto Arquiteto de Família como modelo de ATHIS para melhorias habitacionais em territórios periféricos: uma contribuição para a formação de arquitetos e urbanistas",
+  "ano": "2024",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "moura-2022-assistencia-tecnica.md",
+  "titulo": "A importância da assistência técnica na renda das famílias quilombolas : o caso do projeto Dom Helder Câmara",
+  "ano": "2022",
+  "estado": "CUSTODIADO",
+  "sha256": "949f60dc935c6433184747ad5ceb58f73ebb15bd1b3e21c0dadca649753d6d39",
+  "bytes": 6621043,
+  "paginas": 151,
+  "arquivo_pdf": "moura-2022-assistencia-tecnica.pdf",
+  "origem_url": "http://repositorio.unb.br/bitstream/10482/45978/1/2022_DalilaAlvesMoura.pdf",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "http://repositorio.unb.br/handle/10482/45978",
+    "http": "200",
+    "bytes": 38565,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)"
+   },
+   {
+    "url": "http://repositorio.unb.br/bitstream/10482/45978/1/2022_DalilaAlvesMoura.pdf",
+    "http": "200",
+    "bytes": 6621043,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "nascimento-2022-assistencia-tecnica.md",
+  "titulo": "PROPOSIÇÃO DE GUIA PRÁTICO DE ASSISTÊNCIA TÉCNICA PRIVADA EM HABITAÇÃO SOCIAL PARA AS CLASSES C E D",
+  "ano": "2022",
+  "estado": "CUSTODIADO",
+  "sha256": "bb3e0cb7d36c69e798209ea9f020ca8cca4be72d476683c81c98cc177ad0e1c6",
+  "bytes": 4887920,
+  "paginas": 84,
+  "arquivo_pdf": "nascimento-2022-assistencia-tecnica.pdf",
+  "origem_url": "https://repositorio.ufms.br/bitstreams/3bdd5110-e44a-406d-bf3b-233f74291b94/download",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://repositorio.ufms.br/handle/123456789/8331",
+    "http": "200",
+    "bytes": 485882,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://repositorio.ufms.br/bitstreams/3bdd5110-e44a-406d-bf3b-233f74291b94/download",
+    "http": "200",
+    "bytes": 4887920,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "neres-2026-assistencia-tecnica.md",
+  "titulo": "Entre o projetar e o habitar : o acolhimento aos beneficiários na assistência técnica de habitação de interesse social",
+  "ano": "2026",
+  "estado": "CUSTODIADO",
+  "sha256": "5589c48164e30309a62d393f2d208edbe96c6bd3b11355d6fa5934ec0aed0365",
+  "bytes": 35170257,
+  "paginas": 328,
+  "arquivo_pdf": "neres-2026-assistencia-tecnica.pdf",
+  "origem_url": "http://repositorio.unb.br/bitstream/10482/54894/1/TamaraAlvesBarbosaNeres_DISSERT.pdf",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "http://repositorio.unb.br/handle/10482/54894",
+    "http": "200",
+    "bytes": 41298,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)"
+   },
+   {
+    "url": "http://repositorio.unb.br/bitstream/10482/54894/1/TamaraAlvesBarbosaNeres_DISSERT.pdf",
+    "http": "200",
+    "bytes": 35170257,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "nogueira-2026-athis.md",
+  "titulo": "Quando o morro tiver vez: uma metodologia pública diante da inadequação habitacional e para consolidar a ATHIS como política de Estado",
+  "ano": "2026",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "HTTP 000",
+  "tentativas": [
+   {
+    "url": "http://www.bdtd.uerj.br/handle/1/25711",
+    "http": "000",
+    "bytes": 0,
+    "resultado": "HTTP 000"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "nunes-2017-assessoria-tecnica.md",
+  "titulo": "Assessoria técnica em arquitetura e urbanismo no Programa Minha Casa Minha Vida - Entidades: o caso da Fábrica Urbana (São Paulo)",
+  "ano": "2017",
+  "estado": "CUSTODIADO",
+  "sha256": "f2393483c660c55471e67e1dc5767ba9711d50f11f9eb90d8ff9a3e37664239b",
+  "bytes": 7768209,
+  "paginas": 308,
+  "arquivo_pdf": "nunes-2017-assessoria-tecnica.pdf",
+  "origem_url": "https://repositorio.ufsc.br/bitstream/123456789/188698/1/PARQ0285-D.pdf",
+  "rota": "oai_ore_ufsc",
+  "tentativas": [
+   {
+    "url": "https://repositorio.ufsc.br/handle/123456789/188698",
+    "http": "200",
+    "bytes": 33080,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.ufsc.br/bitstream/123456789/188698/1/PARQ0285-D.pdf",
+    "http": "200",
+    "bytes": 7768209,
+    "resultado": "ok",
+    "via": "oai_ore_ufsc"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "nunes-2021-reassentamento-belo-monte.md",
+  "titulo": "Belo Monte e a extinção dos baixões de Altamira -PA : a difícil territorialização dos reassentados no RUC São Joaquim",
+  "ano": "2021",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "não é PDF (content-type text/html; charset=UTF-8)",
+  "tentativas": [
+   {
+    "url": "https://bdtd.ibict.br/vufind/Record/UFRGS-2_29505c2df6e6a9cb3ced27e7ae0cb195",
+    "http": "200",
+    "bytes": 57640,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "paim-2020-sol-nascente.md",
+  "titulo": "Percursos infantis no Sol Nascente (DF) : narrativas sobre o território",
+  "ano": "2020",
+  "estado": "CUSTODIADO",
+  "sha256": "4522b01a1a8b916c6b2a405eb51397e8a2daee88bb1750907ca3eb3860eab45e",
+  "bytes": 5258548,
+  "paginas": 133,
+  "arquivo_pdf": "paim-2020-sol-nascente.pdf",
+  "origem_url": "http://repositorio.unb.br/bitstream/10482/36942/1/2019_NaylaNobrePaim.pdf",
+  "rota": "rodada2_pagina",
+  "tentativas": [
+   {
+    "url": "https://riunbtainacan.unb.br/teses-e-dissertacoes/percursos-infantis-no-sol-nascente-df-narrativas-sobre-o-territorio/",
+    "http": "200",
+    "bytes": 395620,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.unb.br/handle/10482/36942",
+    "http": "200",
+    "bytes": 42405,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)",
+    "via": "rodada2"
+   },
+   {
+    "url": "http://repositorio.unb.br/bitstream/10482/36942/1/2019_NaylaNobrePaim.pdf",
+    "http": "200",
+    "bytes": 5258548,
+    "resultado": "ok",
+    "via": "rodada2_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "paulichen-2021-assessoria-tecnica.md",
+  "titulo": "O papel da assessoria técnica na produção coletiva de habitação social",
+  "ano": "2021",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "não é PDF (content-type text/html; charset=utf-8)",
+  "tentativas": [
+   {
+    "url": "https://hdl.handle.net/20.500.12733/1642273",
+    "http": "200",
+    "bytes": 2185,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "pereira-2021-reassentamento-belo-monte.md",
+  "titulo": "O espaço sob uma perspectiva infantil: um estudo no reassentamento urbano coletivo São Joaquim em Altamira-Pará",
+  "ano": "2021",
+  "estado": "CUSTODIADO",
+  "sha256": "61b09ad1547730ea85a10380c3e91751caecefa18bf87671e15c403aa159191d",
+  "bytes": 6006399,
+  "paginas": 87,
+  "arquivo_pdf": "pereira-2021-reassentamento-belo-monte.pdf",
+  "origem_url": "https://repositorio.ufpa.br/bitstreams/5538ca30-ddc1-41ba-9876-09c477a47c39/download",
+  "rota": "rodada2_pagina",
+  "tentativas": [
+   {
+    "url": "https://bdtd.ibict.br/vufind/Record/UFPA_552eab8f7be2f0c8c52ec5d8b3b0b1ca",
+    "http": "200",
+    "bytes": 60330,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.ufpa.br/handle/2011/15342",
+    "http": "200",
+    "bytes": 483772,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)",
+    "via": "rodada2"
+   },
+   {
+    "url": "https://repositorio.ufpa.br/bitstreams/5538ca30-ddc1-41ba-9876-09c477a47c39/download",
+    "http": "200",
+    "bytes": 6006399,
+    "resultado": "ok",
+    "via": "rodada2_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "petean-2012-deficit-habitacional.md",
+  "titulo": "Déficit Habitacional: Um indicador como função controle para políticas públicas",
+  "ano": "2012",
+  "estado": "CUSTODIADO",
+  "sha256": "ad9cfde2ad6f94072dc0c12b1bdc633c8abe7f7ac596487c33c212b4cf86d02f",
+  "bytes": 2094380,
+  "paginas": 99,
+  "arquivo_pdf": "petean-2012-deficit-habitacional.pdf",
+  "origem_url": "https://repositorio.ufms.br/bitstreams/60b08cc3-287a-48d0-9c14-be18b9d4a67a/download",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://repositorio.ufms.br/handle/123456789/1627",
+    "http": "200",
+    "bytes": 493366,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://repositorio.ufms.br/bitstreams/60b08cc3-287a-48d0-9c14-be18b9d4a67a/download",
+    "http": "200",
+    "bytes": 2094380,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "piana-2020-distrito-federal.md",
+  "titulo": "O espaço coletivo em projetos de habitação social: concursos de arquitetura no Distrito Federal",
+  "ano": "2020",
+  "estado": "CUSTODIADO",
+  "sha256": "df40bd0f731cf5cd208a35d64667c67afa1ba55edb8d9c7f4e801b12a14da56c",
+  "bytes": 165227958,
+  "paginas": 178,
+  "arquivo_pdf": "piana-2020-distrito-federal.pdf",
+  "origem_url": "https://repositorio.uniceub.br/bitstreams/8ae97b00-bd9d-41d4-9c53-9ea1f6a0f1aa/download",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://repositorio.uniceub.br/handle/prefix/14400",
+    "http": "200",
+    "bytes": 577111,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://repositorio.uniceub.br/bitstreams/8ae97b00-bd9d-41d4-9c53-9ea1f6a0f1aa/download",
+    "http": "200",
+    "bytes": 165227958,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "pinheiro-2024-regularizacao-fundiaria.md",
+  "titulo": "Consequências da regularização edilícia: estudo de caso em regiões administrativas do Distrito Federal",
+  "ano": "2024",
+  "estado": "CUSTODIADO",
+  "sha256": "9d25145d6dcbf374759149770fd838b14b657338198c4f6cc6faa71398218b9e",
+  "bytes": 13157816,
+  "paginas": 161,
+  "arquivo_pdf": "pinheiro-2024-regularizacao-fundiaria.pdf",
+  "origem_url": "http://bdtd.unoeste.br:8080/jspui/bitstream/jspui/1626/2/Fernando%20Jorge%20Coelho%20Pinheiro.pdf",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "http://bdtd.unoeste.br:8080/jspui/handle/jspui/1626",
+    "http": "200",
+    "bytes": 34774,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)"
+   },
+   {
+    "url": "http://bdtd.unoeste.br:8080/jspui/bitstream/jspui/1626/2/Fernando%20Jorge%20Coelho%20Pinheiro.pdf",
+    "http": "200",
+    "bytes": 13157816,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "poletto-2023-assistencia-tecnica.md",
+  "titulo": "Estratégias de inserção da Assistência Técnica para Habitação de Interesse Social - ATHIS - na Política Nacional de Promoção de Saúde - PNPS: por um SUS urbano",
+  "ano": "2023",
+  "estado": "CUSTODIADO",
+  "sha256": "0f164d4d43942bf259a202dabf3bc3b481552528d4004ea4cb507edb36e85810",
+  "bytes": 10193907,
+  "paginas": 221,
+  "arquivo_pdf": "poletto-2023-assistencia-tecnica.pdf",
+  "origem_url": "https://repositorio.ufsc.br/bitstream/123456789/251824/1/PARQ0493-D.pdf",
+  "rota": "oai_ore_ufsc",
+  "tentativas": [
+   {
+    "url": "https://repositorio.ufsc.br/handle/123456789/251824",
+    "http": "200",
+    "bytes": 33080,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.ufsc.br/bitstream/123456789/251824/1/PARQ0493-D.pdf",
+    "http": "200",
+    "bytes": 10193907,
+    "resultado": "ok",
+    "via": "oai_ore_ufsc"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "queiroz-2017-residencia-multiprofissional.md",
+  "titulo": "Financiamento de residências, frente ao déficit habitacional brasileiro: contribuição do programa minha casa minha vida",
+  "ano": "2017",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "HTTP 403",
+  "tentativas": [
+   {
+    "url": "https://repositorio.cruzeirodosul.edu.br/handle/123456789/2406",
+    "http": "403",
+    "bytes": 1208,
+    "resultado": "HTTP 403"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "rocha-2023-assistencia-tecnica.md",
+  "titulo": "As contribuições de assistentes sociais para a assistência técnica à habitação de interesse social: experiências e subsídios analíticos para ações multidisciplinares",
+  "ano": "2023",
+  "estado": "CUSTODIADO",
+  "sha256": "797eea9c4ba10b53d03a4267c5bbabda224e467b462db257ccbbce21fa60d34d",
+  "bytes": 2942438,
+  "paginas": 219,
+  "arquivo_pdf": "rocha-2023-assistencia-tecnica.pdf",
+  "origem_url": "http://app.uff.br/riuff/bitstream/handle/1/28659/Aline%20Rocha%20de%20Souza.pdf?sequence=1&isAllowed=y",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "http://app.uff.br/riuff/handle/1/28659",
+    "http": "200",
+    "bytes": 41544,
+    "resultado": "não é PDF (content-type text/html;charset=utf-8)"
+   },
+   {
+    "url": "http://app.uff.br/riuff/bitstream/handle/1/28659/Aline%20Rocha%20de%20Souza.pdf?sequence=1&isAllowed=y",
+    "http": "200",
+    "bytes": 2942438,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "santos-2016-assessoria-tecnica.md",
+  "titulo": "Trabalho social e movimentos de moradia: um estudo da trajetória da assessoria técnica Ambiente Arquitetura e da União dos Movimentos de Moradia de São Paulo",
+  "ano": "2016",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "HTTP 468",
+  "tentativas": [
+   {
+    "url": "https://tede2.pucsp.br/handle/handle/19033",
+    "http": "468",
+    "bytes": 14839,
+    "resultado": "HTTP 468"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "santos-2016-assistencia-tecnica.md",
+  "titulo": "Lei da assistência técnica pública e gratuíta: um estudo de aplicação para municípios paraibanos.",
+  "ano": "2016",
+  "estado": "CUSTODIADO",
+  "sha256": "e094a02ea869defe0ad2fa545dfc4bcbb7c956c1ac4570a9c49015afc23f8ddd",
+  "bytes": 3160425,
+  "paginas": 118,
+  "arquivo_pdf": "santos-2016-assistencia-tecnica.pdf",
+  "origem_url": "https://repositorio.ufpb.br/jspui/bitstream/tede/8306/2/arquivototal.pdf",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://repositorio.ufpb.br/jspui/handle/tede/8306",
+    "http": "200",
+    "bytes": 47025,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.ufpb.br/jspui/bitstream/tede/8306/2/arquivototal.pdf",
+    "http": "200",
+    "bytes": 3160425,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "santos-2019-assistencia-tecnica.md",
+  "titulo": "Aplicabilidade da assistência técnica : um estudo das diferentes modalidades de aplicação da Lei nº 11.888/2008 no contexto atual (2017-2018)",
+  "ano": "2019",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "HTTP 403",
+  "tentativas": [
+   {
+    "url": "http://guaiaca.ufpel.edu.br/xmlui/handle/prefix/14355",
+    "http": "403",
+    "bytes": 15604,
+    "resultado": "HTTP 403"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "santos-2024-assistencia-tecnica.md",
+  "titulo": "Regularização fundiária na Amazônia Legal : reflexos do direito de propriedade na procura por crédito e assistência técnica",
+  "ano": "2024",
+  "estado": "CUSTODIADO",
+  "sha256": "de35753af84e762f7cf11190587b61ccc0156eea063673f16036c4e769a5bafb",
+  "bytes": 3582378,
+  "paginas": 134,
+  "arquivo_pdf": "santos-2024-assistencia-tecnica.pdf",
+  "origem_url": "http://repositorio.unb.br/bitstream/10482/51784/1/AnaPaulaSantos_DISSERT.pdf",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "http://repositorio.unb.br/handle/10482/51784",
+    "http": "200",
+    "bytes": 40021,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)"
+   },
+   {
+    "url": "http://repositorio.unb.br/bitstream/10482/51784/1/AnaPaulaSantos_DISSERT.pdf",
+    "http": "200",
+    "bytes": 3582378,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "santos-2024-reassentamento-belo-monte.md",
+  "titulo": "Território e multiterritorialidade: uma análise dos atingidos por Belo Monte no RUC São Joaquim",
+  "ano": "2024",
+  "estado": "CUSTODIADO",
+  "sha256": "cb33e0a96404d1d418387d4cd7e1b99882ac0c57a4d3744df551f57235ef74cd",
+  "bytes": 4343970,
+  "paginas": 120,
+  "arquivo_pdf": "santos-2024-reassentamento-belo-monte.pdf",
+  "origem_url": "https://repositorio.ufpa.br/bitstreams/8351f375-57f4-4229-adf6-cc3ab1be3bd8/download",
+  "rota": "rodada2_pagina",
+  "tentativas": [
+   {
+    "url": "https://bdtd.ibict.br/vufind/Record/UFPA_c7dbcd3daefb7e0d57e36fef9bff4515",
+    "http": "200",
+    "bytes": 66800,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.ufpa.br/handle/2011/17593",
+    "http": "200",
+    "bytes": 485333,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)",
+    "via": "rodada2"
+   },
+   {
+    "url": "https://repositorio.ufpa.br/bitstreams/8351f375-57f4-4229-adf6-cc3ab1be3bd8/download",
+    "http": "200",
+    "bytes": 4343970,
+    "resultado": "ok",
+    "via": "rodada2_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "schallenberger-2023-assistencia-tecnica.md",
+  "titulo": "A atuação profissional do arquiteto e urbanista em assistência técnica para habitação de interesse social : o caso do projeto nenhuma casa sem banheiro em Canoas/RS",
+  "ano": "2023",
+  "estado": "CUSTODIADO",
+  "sha256": "cb33e0a96404d1d418387d4cd7e1b99882ac0c57a4d3744df551f57235ef74cd",
+  "bytes": 4343970,
+  "paginas": 120,
+  "arquivo_pdf": "schallenberger-2023-assistencia-tecnica.pdf",
+  "origem_url": "https://repositorio.ufpa.br/bitstreams/8351f375-57f4-4229-adf6-cc3ab1be3bd8/download",
+  "rota": "rodada2_pagina",
+  "tentativas": [
+   {
+    "url": "http://hdl.handle.net/10183/290730",
+    "http": "200",
+    "bytes": 38204,
+    "resultado": "não é PDF (content-type text/html;charset=utf-8)"
+   },
+   {
+    "url": "http://hdl.handle.net/bitstream/handle/10183/290730/001215161.pdf?sequence=1&isAllowed=y",
+    "http": "404",
+    "bytes": 6882,
+    "resultado": "HTTP 404",
+    "via": "pdf_na_pagina"
+   },
+   {
+    "url": "https://lume.ufrgs.br/handle/10183/290730",
+    "http": "200",
+    "bytes": 38204,
+    "resultado": "não é PDF (content-type text/html;charset=utf-8)",
+    "via": "rodada2"
+   },
+   {
+    "url": "https://repositorio.ufpa.br/bitstreams/8351f375-57f4-4229-adf6-cc3ab1be3bd8/download",
+    "http": "200",
+    "bytes": 4343970,
+    "resultado": "ok",
+    "via": "rodada2_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "scotton-2020-assistencia-tecnica.md",
+  "titulo": "Assistência técnica para habitação de interesse social : reflexões a partir de duas experiências no Estado do Rio Grande do Sul",
+  "ano": "2020",
+  "estado": "CUSTODIADO",
+  "sha256": "cb33e0a96404d1d418387d4cd7e1b99882ac0c57a4d3744df551f57235ef74cd",
+  "bytes": 4343970,
+  "paginas": 120,
+  "arquivo_pdf": "scotton-2020-assistencia-tecnica.pdf",
+  "origem_url": "https://repositorio.ufpa.br/bitstreams/8351f375-57f4-4229-adf6-cc3ab1be3bd8/download",
+  "rota": "rodada2_pagina",
+  "tentativas": [
+   {
+    "url": "http://hdl.handle.net/10183/216014",
+    "http": "200",
+    "bytes": 36357,
+    "resultado": "não é PDF (content-type text/html;charset=utf-8)"
+   },
+   {
+    "url": "http://hdl.handle.net/bitstream/handle/10183/216014/001119777.pdf?sequence=1&isAllowed=y",
+    "http": "404",
+    "bytes": 6882,
+    "resultado": "HTTP 404",
+    "via": "pdf_na_pagina"
+   },
+   {
+    "url": "https://lume.ufrgs.br/handle/10183/216014",
+    "http": "200",
+    "bytes": 36357,
+    "resultado": "não é PDF (content-type text/html;charset=utf-8)",
+    "via": "rodada2"
+   },
+   {
+    "url": "https://repositorio.ufpa.br/bitstreams/8351f375-57f4-4229-adf6-cc3ab1be3bd8/download",
+    "http": "200",
+    "bytes": 4343970,
+    "resultado": "ok",
+    "via": "rodada2_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2006-habitacao-interesse-social.md",
+  "titulo": "Qual é o teu trabalho, mulher? Mulheres empreendedoras no contexto da economia popular solidária",
+  "ano": "2006",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2009-habitacao-interesse-social.md",
+  "titulo": "Joyce Costa Santos (2009) — percepção social em reassentamento habitacional",
+  "ano": "2009",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2010-habitacao-interesse-social.md",
+  "titulo": "Ludmila de Araújo Correia (2010) — conforto ambiental e relações subjetivas em HIS",
+  "ano": "2010",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2011-habitacao-interesse-social.md",
+  "titulo": "\"Metrópoles desgovernadas\"",
+  "ano": "2011",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2012-formacao-profissional.md",
+  "titulo": "\"Formação Profissional na Construção Civil: experiências em busca da ‘desalienação’ do trabalho\"",
+  "ano": "2012",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2014-habitacao-interesse-social.md",
+  "titulo": "\"Avaliação Pós-Ocupação do conjunto habitacional Moradias União Ferroviária Bolsão Audi/União, Curitiba (PR)\"",
+  "ano": "2014",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2019-habitacao-interesse-social.md",
+  "titulo": "Pontes Pereira (2019) — Mutirão de práticas agroecológicas, economia feminista e solidária no Vale do Ribeira",
+  "ano": "2019",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2019-reassentamento-belo-monte.md",
+  "titulo": "\"UHE Belo Monte: reassentamentos rurais, participação social e direito à moradia adequada\"",
+  "ano": "2019",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2020-habitacao-interesse-social.md",
+  "titulo": "\"Método para a avaliação técnica da qualidade pós-ocupação de áreas de uso comum de Habitações de Interesse Social\"",
+  "ano": "2020",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2021-habitacao-interesse-social.md",
+  "titulo": "\"Resilience in social housing developments through post-occupancy evaluation and co-production (Resiliência em conjuntos de habita",
+  "ano": "2021",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2022-assessoria-tecnica.md",
+  "titulo": "\"Assessoria e Assistência Técnica para Habitação de Interesse Social: do discurso à construção da prática profissional\"",
+  "ano": "2022",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2022-habitacao-interesse-social.md",
+  "titulo": "\"Proposta de um método para avaliação da percepção de valor de técnicos e de usuários em Habitação de Interesse Social\"",
+  "ano": "2022",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2023-habitacao-interesse-social.md",
+  "titulo": "Ludmila de Araujo Correia (2023) — Brasília sensível aos sons",
+  "ano": "2023",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2025-habitacao-interesse-social.md",
+  "titulo": "\"Constructability assessment of social housing projects in Brazil: a quantitative benchmarking system (Avaliando a construtibilida",
+  "ano": "2025",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-2025-sol-nascente.md",
+  "titulo": "'O Aerolevantamento como Ferramenta para a Implementação de Soluções Baseadas na Natureza: o Caso da Escola no Sol Nascente'",
+  "ano": "2025",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-s-d-habitacao-interesse-social-10.md",
+  "titulo": "\"Jane Jacobs: Morte e vida de grandes cidades\"",
+  "ano": "s-d",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-s-d-habitacao-interesse-social-11.md",
+  "titulo": "Impactos da COVID-19 na qualidade da habitação social brasileira",
+  "ano": "s-d",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-s-d-habitacao-interesse-social-12.md",
+  "titulo": "Resiliência, ampliabilidade e sistemas construtivos em habitações sociais",
+  "ano": "s-d",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-s-d-habitacao-interesse-social-13.md",
+  "titulo": "Avaliação pós-ocupação do Conjunto Habitacional Porto Novo",
+  "ano": "s-d",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-s-d-habitacao-interesse-social-2.md",
+  "titulo": "\"Exclusão territorial e violência\"",
+  "ano": "s-d",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-s-d-habitacao-interesse-social-3.md",
+  "titulo": "\"Pensar a cidade como lugar para todos\"",
+  "ano": "s-d",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-s-d-habitacao-interesse-social-4.md",
+  "titulo": "\"Urbanismo na periferia do mundo globalizado: metrópoles brasileiras\"",
+  "ano": "s-d",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-s-d-habitacao-interesse-social-5.md",
+  "titulo": "\"Metrópole, legislação e desigualdade\"",
+  "ano": "s-d",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-s-d-habitacao-interesse-social-6.md",
+  "titulo": "Ficha — *Origens da habitação social no Brasil*",
+  "ano": "s-d",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-s-d-habitacao-interesse-social-7.md",
+  "titulo": "Avaliação da eficácia da política habitacional de interesse social em Ponta Grossa",
+  "ano": "s-d",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-s-d-habitacao-interesse-social-8.md",
+  "titulo": "Do assentamento irregular para a habitação seriada no Brasil",
+  "ano": "s-d",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-s-d-habitacao-interesse-social-9.md",
+  "titulo": "\"O meio construído e as cidades na obra de Jane Jacobs\"",
+  "ano": "s-d",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sem-autor-s-d-habitacao-interesse-social.md",
+  "titulo": "\"A habitação para a população de baixa renda no Brasil: termos e conceitos difundidos pela Política Nacional de Habitação\"",
+  "ano": "s-d",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "sem URL de fonte",
+  "tentativas": [],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "soares-2022-reassentamento-belo-monte.md",
+  "titulo": "A cidade desigual e a segregação planejada: o caso dos reassentamentos urbanos coletivos em Altamira",
+  "ano": "2022",
+  "estado": "CUSTODIADO",
+  "sha256": "688082dc5e95fbb119fbdc64fb696c7b40af2099e85ae881b4b1921348d3b7a8",
+  "bytes": 8362276,
+  "paginas": 174,
+  "arquivo_pdf": "soares-2022-reassentamento-belo-monte.pdf",
+  "origem_url": "https://repositorio.ufpa.br/bitstreams/475a92c8-f27c-45e6-b151-00d56fe2e426/download",
+  "rota": "rodada2_pagina",
+  "tentativas": [
+   {
+    "url": "https://bdtd.ibict.br/vufind/Record/UFPA_c155cffbfe2b28d46859b2ade0db693c",
+    "http": "200",
+    "bytes": 60069,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.ufpa.br/handle/2011/15402",
+    "http": "200",
+    "bytes": 479645,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)",
+    "via": "rodada2"
+   },
+   {
+    "url": "https://repositorio.ufpa.br/bitstreams/475a92c8-f27c-45e6-b151-00d56fe2e426/download",
+    "http": "200",
+    "bytes": 8362276,
+    "resultado": "ok",
+    "via": "rodada2_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sombrio-2025-melhoria-habitacional.md",
+  "titulo": "Melhoria habitacional : estratégias para a ampliação do atendimento às inadequações habitacionais",
+  "ano": "2025",
+  "estado": "CUSTODIADO",
+  "sha256": "42ce3d5545f9afd41268c93a164e022db6a4d3af17e26c450ffd3e19823d0903",
+  "bytes": 6249765,
+  "paginas": 244,
+  "arquivo_pdf": "sombrio-2025-melhoria-habitacional.pdf",
+  "origem_url": "http://repositorio.unb.br/bitstream/10482/53064/1/CatarinaMoraesDeOliveiraSombrio_TESE.pdf",
+  "rota": "rodada2_pagina",
+  "tentativas": [
+   {
+    "url": "https://riunbtainacan.unb.br/teses-e-dissertacoes/melhoria-habitacional-estrategias-para-a-ampliacao-do-atendimento-as-inadequacoes-habitacionais/",
+    "http": "200",
+    "bytes": 392690,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.unb.br/handle/10482/53064",
+    "http": "200",
+    "bytes": 43024,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)",
+    "via": "rodada2"
+   },
+   {
+    "url": "http://repositorio.unb.br/bitstream/10482/53064/1/CatarinaMoraesDeOliveiraSombrio_TESE.pdf",
+    "http": "200",
+    "bytes": 6249765,
+    "resultado": "ok",
+    "via": "rodada2_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "sousa-2024-sol-nascente.md",
+  "titulo": "A produção da cidade do Sol Nascente e do Pôr do Sol/DF : entre o tempo da autoconstrução e o tempo do planejamento urbano",
+  "ano": "2024",
+  "estado": "CUSTODIADO",
+  "sha256": "842173f21a36f2d3d7ee76337e6af705ea5ebd553e9a254160e948d47da7fbfe",
+  "bytes": 4126608,
+  "paginas": 197,
+  "arquivo_pdf": "sousa-2024-sol-nascente.pdf",
+  "origem_url": "http://repositorio.unb.br/bitstream/10482/49045/1/NataliaAdrielePereiraDeSousa_TESE.pdf",
+  "rota": "rodada2_pagina",
+  "tentativas": [
+   {
+    "url": "https://riunbtainacan.unb.br/teses-e-dissertacoes/a-producao-da-cidade-do-sol-nascente-e-do-por-do-sol-df-entre-o-tempo-da-autoconstrucao-e-o-tempo-do-planejamento-urbano/",
+    "http": "200",
+    "bytes": 395044,
+    "resultado": "não é PDF (content-type text/html; charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.unb.br/handle/10482/49045",
+    "http": "200",
+    "bytes": 40452,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)",
+    "via": "rodada2"
+   },
+   {
+    "url": "http://repositorio.unb.br/bitstream/10482/49045/1/NataliaAdrielePereiraDeSousa_TESE.pdf",
+    "http": "200",
+    "bytes": 4126608,
+    "resultado": "ok",
+    "via": "rodada2_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "suassuna-fernandes-2010-habitacao-interesse-social.md",
+  "titulo": "Zeis e moradia: uma alternativa formosa para brasília teimosa?",
+  "ano": "2010",
+  "estado": "CUSTODIADO",
+  "sha256": "882dfc9b56bb3dde3eb62aa823f7d44ad49996e28f924d3b00f05a9eb8294c90",
+  "bytes": 10814058,
+  "paginas": 157,
+  "arquivo_pdf": "suassuna-fernandes-2010-habitacao-interesse-social.pdf",
+  "origem_url": "https://repositorio.ufpe.br/bitstream/123456789/7613/1/arquivo6575_1.pdf",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://repositorio.ufpe.br/handle/123456789/7613",
+    "http": "200",
+    "bytes": 29564,
+    "resultado": "não é PDF (content-type text/html;charset=UTF-8)"
+   },
+   {
+    "url": "https://repositorio.ufpe.br/bitstream/123456789/7613/1/arquivo6575_1.pdf",
+    "http": "200",
+    "bytes": 10814058,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "tavares-2023-assistencia-tecnica.md",
+  "titulo": "Assistência técnica para habitação de interesse social (ATHIS) - o planejado e o possível",
+  "ano": "2023",
+  "estado": "CUSTODIADO",
+  "sha256": "121d6cf4d6f7263b89dd74528401f39409a17d7483371fe5ed929e133cf9a0cb",
+  "bytes": 3085689,
+  "paginas": 215,
+  "arquivo_pdf": "tavares-2023-assistencia-tecnica.pdf",
+  "origem_url": "http://repositorio.ufsm.br/bitstream/handle/1/29285/DIS_PPGAUP_2023_TAVARES_TALIRES.pdf?sequence=1&isAllowed=y",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "http://repositorio.ufsm.br/handle/1/29285",
+    "http": "200",
+    "bytes": 32148,
+    "resultado": "não é PDF (content-type text/html;charset=utf-8)"
+   },
+   {
+    "url": "http://repositorio.ufsm.br/bitstream/handle/1/29285/DIS_PPGAUP_2023_TAVARES_TALIRES.pdf?sequence=1&isAllowed=y",
+    "http": "200",
+    "bytes": 3085689,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "vieira-2010-assistencia-tecnica.md",
+  "titulo": "Programas de extensão universitária como instrumentos de requalificação urbana e assistência técnica aos municípios de minas gerais: estudo de caso bairro Nove de Março - Barbacena-MG",
+  "ano": "2010",
+  "estado": "CUSTODIADO",
+  "sha256": "4f44fa200f948bb9c3dc216da39805265a5c251b0910b19915033da5090dd1ba",
+  "bytes": 13978346,
+  "paginas": 184,
+  "arquivo_pdf": "vieira-2010-assistencia-tecnica.pdf",
+  "origem_url": "https://repositorio.ufmg.br/bitstreams/9cd2a9cf-f1e5-4bf9-bc0f-7dd79da1c63b/download",
+  "rota": "pdf_na_pagina",
+  "tentativas": [
+   {
+    "url": "https://hdl.handle.net/1843/MMMD-8Q5NLK",
+    "http": "200",
+    "bytes": 482979,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://repositorio.ufmg.br/bitstreams/9cd2a9cf-f1e5-4bf9-bc0f-7dd79da1c63b/download",
+    "http": "200",
+    "bytes": 13978346,
+    "resultado": "ok",
+    "via": "pdf_na_pagina"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ },
+ {
+  "arquivo_alvo": "zancaneli-2025-assistencia-tecnica.md",
+  "titulo": "Assistência Técnica para Habitação de Interesse Social (ATHIS) no Brasil: um olhar reflexivo sobre a lei, as práticas, os atores e a participação",
+  "ano": "2025",
+  "estado": "NAO_ALCANCADO",
+  "motivo": "não é PDF (content-type text/html; charset=utf-8)",
+  "tentativas": [
+   {
+    "url": "https://locus.ufv.br/handle/123456789/34348",
+    "http": "200",
+    "bytes": 6862,
+    "resultado": "não é PDF (content-type text/html; charset=utf-8)"
+   }
+  ],
+  "verificado_em": "2026-11-28"
+ }
+]
