@@ -196,6 +196,35 @@ conferiu antes; a regra existe para quem não conferiria.
 reprova é o achado, não o defeito da regra. O escopo se corrige por emenda na própria frente, com o dono
 dela — nunca alargando o gate até passar.
 
+## A10 — O ponteiro de runtime nomeia estado publicado, nunca árvore de trabalho
+
+Em 27/11/2026 o ponteiro de runtime do R4 declarava o hash correto e apontava para o **worktree de uma
+frente** (`_worktrees/r4-transicao-…`, parado em branch `hermes/r4-g2-promocao-…`). O caminho servia
+`8b0ce094`, 1.109.716 bytes; o publicado em `main` era `7e4c3ebc`, 1.110.310 bytes. A diferença era uma
+linha: a promoção dos contratos CALC. As três camadas de autoridade concordavam porque **nenhuma
+verificava o caminho** — só o hash, e o hash era de um arquivo que mudava de baixo do ponteiro.
+
+**A10.1 — Cópia de runtime é o formato, e ela é selada.** O ponteiro lê uma cópia fora de repositório,
+byte a byte igual ao blob do commit declarado, com `ledger_registry_sha256` (bytes da cópia) e
+`ledger_origem_path` (caminho no commit). Cópia fora do repo sem origem declarada é `NAO_MEDIDO`: não há
+contra o que comparar.
+
+**A10.2 — Arquivo dentro de árvore git é `FAIL`, mesmo com hash certo.** Ali o conteúdo muda por
+`git switch`, e o ponteiro passa a declarar hash de outro arquivo sem que ninguém toque no ponteiro.
+
+**A10.3 — Readback é gate, não cortesia.** `scripts/verifica_ponteiro_runtime.py --repo <governança>`
+mede: hash declarado × lido, cópia × blob do commit, `COUNTS.TOTAL` × número de entradas, ids únicos, e
+cada contrato no **seu** `contract_commit`. Exit 2 é `NAO_MEDIDO` — não é verde, e não se declara
+regularizado com exit 2.
+
+**A10.4 — Contrato sem documento não carrega caminho nem hash.** Entrada com `contrato_documento:
+AUSENTE` e `contract_path` preenchido é hash órfão ao contrário: `git show` devolve vazio, `shasum`
+devolve `e3b0c442…`, e os dois parecem sucesso.
+
+**A10.5 — Cada contrato é medido no commit em que nasceu.** Contrato R3 nasce em commit de submissão, não
+no commit de governança; medir contra a governança acusou 43 contratos "sem arquivo" que existiam.
+Entrada sem `contract_commit` é `NAO_MEDIDO` — e registro sem esse campo é dívida, não dispensa.
+
 ## Estados documentais
 
 Usar a taxonomia definida em `GOVERNANCA_DOCUMENTAL.md`. Estados canônicos: `recebido`, `identificacao-pendente`, `protegido-privado`, `duplicata-fonte-auxiliar`, `extracao-preliminar`, `em-revisao-documental`, `homologado-documentalmente`, `visao-autoral`, `historico`, `quarentena`, `retirado-da-publicacao`. Nenhum script pode homologar conteúdo automaticamente.
