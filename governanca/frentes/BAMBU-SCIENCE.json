@@ -184,5 +184,15 @@
     ],
     "citacao": "'Bambu estrutural e uma das gavetas tematicas de bambu, assim como tratamentos, carbono, etc.'",
     "vazias_autorizadas": "o soberano autorizou criar as gavetas vazias AGORA, com a condicao de haver material que as componha depois — a condicao viaja na criacao, nao no escopo."
+  },
+  "gavetas_tematicas_declaradas_na_main": {
+    "_status": "SUPERSEDED_2026-11-28",
+    "valor": [
+      "tratamento",
+      "estrutural",
+      "acv",
+      "normas"
+    ],
+    "_por_que": "ato do soberano: gavetas sao IRMAS nomeadas (ver gavetas_irmas), nao subpastas desta. Mantido como trilha do que vigorou antes."
   }
 }
