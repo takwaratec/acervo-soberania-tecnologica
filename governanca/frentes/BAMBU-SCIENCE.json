@@ -4,7 +4,8 @@
   "write_scope": [
     "ops/command-center/task-results/BAMBU-SCIENCE/**",
     "docs/analyses/bambu-estrutural/**",
-    "docs/analyses/bambusc-catalogo-20261119/**"
+    "docs/analyses/bambusc-catalogo-20261119/**",
+    "governanca/frentes/BAMBU-SCIENCE.json"
   ],
   "nome_humano": "Bambu Science",
   "aberta_por": "FABIO_SOBERANO",
@@ -55,6 +56,22 @@
         "docs/analyses/bambusc-catalogo-20261119/**"
       ],
       "motivo": "merge autorizado do PR #99 (catalogo BambuSC adotado pela frente). O destino declarado do resultado adotado entra no escopo, um caminho por vez — escopo continua nominal, sem curinga de docs/analyses."
+    },
+    {
+      "em": "2026-11-28T00:00:00Z",
+      "por": "FABIO_SOBERANO",
+      "escopo_anterior": [
+        "ops/command-center/task-results/BAMBU-SCIENCE/**",
+        "docs/analyses/bambu-estrutural/**",
+        "docs/analyses/bambusc-catalogo-20261119/**"
+      ],
+      "escopo_novo": [
+        "ops/command-center/task-results/BAMBU-SCIENCE/**",
+        "docs/analyses/bambu-estrutural/**",
+        "docs/analyses/bambusc-catalogo-20261119/**",
+        "governanca/frentes/BAMBU-SCIENCE.json"
+      ],
+      "motivo": "a frente precisa poder SINCRONIZAR a propria copia derivada do registro (governanca/frentes/BAMBU-SCIENCE.json) quando o r4-claims emenda o escopo dela. Sem isso, toda emenda de escopo da propria frente reprisa FORA no A9. Um arquivo, nominal."
     }
   ]
 }

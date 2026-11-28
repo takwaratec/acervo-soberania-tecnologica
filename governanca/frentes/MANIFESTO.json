@@ -15,8 +15,8 @@
       "bytes": 522
     },
     "BAMBU-SCIENCE.json": {
-      "sha256": "fbd15ab0ebfd9d6ec0fc91ee7e911d3b00f1b084182bf3a5114e137f3668cd8f",
-      "bytes": 3273
+      "sha256": "1986e12aab21a0fa6cd82919b6e4a06b6192f3c17bb66f3c891c75eeccd9788f",
+      "bytes": 4093
     },
     "BORO.json": {
       "sha256": "d1a90bf6179c2c6f97f955a0453def1abb556eb76f7241bd33f2c6ef6d1ea4a3",
@@ -58,5 +58,9 @@
       "sha256": "d25221005afb5aebaaf8b8611f450b3629fff4f2e5f6306ec32c99aad5a102c9",
       "bytes": 764
     }
+  },
+  "mantido_por": {
+    "frente": "REGENCIA",
+    "por_que": "o MANIFESTO e infraestrutura do A9, nao da frente que o consome. A frente que sincroniza a propria entrada NAO pode reescrever o indice — senao basta editar o hash junto e o gate deixa de conferir qualquer coisa. A conferencia do manifesto e do passo A9, antes de medir."
   }
 }
