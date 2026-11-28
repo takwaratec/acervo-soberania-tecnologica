@@ -1,8 +1,8 @@
 {
  "front": "SOBERANIA-SOCIAL",
- "repo": "/Users/fabiotakwara/Takwara/worktrees/acervo-soberania-tecnologica/cobre-pr-r2",
+ "repo": "takwaratec/acervo-soberania-tecnologica",
  "write_scope": [
-  "docs/analyses",
+  "docs/analyses/soberania-social",
   "_privado/governanca-operacional/extracoes/soberania-social"
  ],
  "nome_humano": "Soberania Social — desigualdade, território e política pública",
@@ -14,5 +14,35 @@
  "criterio_terminal": null,
  "origem": "TOPICO_ABERTO_PELO_SOBERANO",
  "nao_e_map": true,
- "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas"
+ "aviso": "frente aberta em runtime; o MAPA_DE_FRENTES_R4 permanece o catalogo das herdadas",
+ "correcoes": [
+  {
+   "em": "2026-11-28T13:21:56Z",
+   "por": "SOBERANIA-SOCIAL (executora), emenda propria",
+   "motivo": "escopo e repo declarados errados na abertura de 2026-11-26: repo apontava para o worktree do COBRE, e o validador de gaveta compara repo com REPO_DA_GAVETA — com path de worktree ele pulava a validacao inteira; e write_scope 'docs/analyses' e a COLECAO, nao uma gaveta, o que declarava como da frente todas as 16 gavetas, inclusive cobre e bambu. Achado da auditoria externa.",
+   "valores_anteriores": {
+    "repo": "/Users/fabiotakwara/Takwara/worktrees/acervo-soberania-tecnologica/cobre-pr-r2",
+    "write_scope": [
+     "docs/analyses",
+     "_privado/governanca-operacional/extracoes/soberania-social"
+    ]
+   },
+   "valores_novos": {
+    "repo": "takwaratec/acervo-soberania-tecnologica",
+    "write_scope": [
+     "docs/analyses/soberania-social",
+     "_privado/governanca-operacional/extracoes/soberania-social"
+    ]
+   }
+  }
+ ],
+ "repo_path": "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica",
+ "escopo_corrigido_em": "2026-11-28T13:21:56Z",
+ "nao_e_dona_de": [
+  "docs/analyses (a colecao)",
+  "docs/analyses/cobre",
+  "docs/analyses/bambu-estrutural",
+  "docs/analyses/pu-vegetal",
+  "docs/analyses/boro"
+ ]
 }
