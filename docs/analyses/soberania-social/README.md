@@ -2,6 +2,7 @@
 schema: ACERVO_README_GAVETA_R1
 gaveta: soberania-social
 frente: SOBERANIA-SOCIAL
+tipo_documental: indice-tematico
 aberta_em: 2026-11-26T18:57:55Z
 ledger_commit: 0ddb2d4e94614febfed7037ce65d211a1a38177d
 titulo: "Soberania Social — desigualdade, território e política pública"
