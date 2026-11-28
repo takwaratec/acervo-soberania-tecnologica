@@ -251,3 +251,84 @@ diff fora do escopo desta OS):
 | Ficha | Origem (autor/instituição) | Ano | Estado |
 |---|---|---:|---|
 | `niosh-mheta-80-109-borax-boron-california-1983.md` | NIOSH / University of Southern California | 1983 | em-revisao-documental |
+
+---
+
+## R13 — auditoria do conteúdo, e sete afirmações que não se sustentavam (2026-11-25)
+
+Escopo: o conteúdo da main em `ffac50b6`, não o selo (declaradamente órfão na ocasião).
+Veredito do auditor: **a seção 19 foi delimitada com honestidade e a tabela dos quatro estados
+passa sem divergência**; o que ele achou foram afirmações gerais e rastreabilidade de corpus.
+
+**Corrigidas neste commit, uma por uma, com o motivo:**
+
+| # | Onde | O que afirmava | Por que caiu | Como ficou |
+|---|---|---|---|---|
+| 1 | §1, l. 119 | "a origem de **metade** dos números errados" | quantificador sem corpus definido | virou o fator que se mede: **erro por quase seis vezes (100 ÷ 17,5)** |
+| 2 | §6, l. 270 | "**Toda** substância tem uma dose…" | universal sem atribuição | atribuído ao **princípio de Paracelso**, e declarado princípio, não medição desta gaveta |
+| 3 | §4, l. 214 | "**Não há escassez** de boro" | ampliava a frase do USGS, que fala de níveis atuais de consumo | "**aos níveis atuais de consumo** (…) e não uma projeção para outro horizonte" |
+| 4 | §5, l. 46 | resíduo fora da lista perigosa de "**Brasil, China, Índia, Vietnã, Indonésia**" | não há norma de Índia, Vietnã e Indonésia na gaveta | reduzido à PNRS, à PNMCB e à inspeção do MEE; **as três ficaram declaradas como não lidas** |
+| 5 | §14, l. 815 | "**cinco países** examinados" | mesmo defeito, sem lista | "países examinados nesta gaveta" |
+| 6 | §19, l. 996 | "o boro **quase nunca** é o motivo de uma mina existir" | o USGS registra produção de borato (ulexita, colemanita) onde o boro **é** o produto | virou "na maior parte das cadeias examinadas", **com a exceção declarada e citada** |
+| 7 | §19, l. 1019 | "**não existe** mineração de boro nos Andes" | o USGS lista produção andina; o que falta é o estudo de impacto, não a extração | "não localizei **o estudo**"; a diferença entre "não há extração" e "não achei o estudo" está escrita |
+
+**Dois defeitos de citação, que valem mais que os sete de redação:**
+
+- **NBR 10004 atribuída a [14].** A [14] é documentação da Environmental Bamboo Foundation — não
+  é a norma. E a NBR 10004 **não tem cópia custodiada** nesta gaveta: nenhuma entrada
+  bibliográfica, nenhum arquivo. O texto passou a dizer que **a NBR não foi examinada**, e a §19
+  deixou de listá-la entre os instrumentos examinados. *Norma não lida não sustenta afirmação
+  sobre o que ela lista.*
+- **"Duas de oito lidas integralmente".** Esta frase, no método, contradizia o `0 de 32` que o
+  próprio texto agora mede. Foi substituída pela medição, e o resumo de **Gao et al.** — que ela
+  nomeava — **não está na bibliografia**: quem quiser usá-lo precisa custodiá-lo e citá-lo como
+  [33], com ficha. Não criei a entrada; não há fonte na gaveta.
+
+**Um achado de integridade na custódia, que era real:**
+
+O R13 mediu o manifesto do ComexStat contra os 52 arquivos que ele mesmo lista: **48 conferiam,
+4 não** — os quatro CSV. Não era corrupção: os CSV foram regerados quando a série de dez NCMs
+foi derivada (§7-bis), e o manifesto ficou com o hash velho. **Verifiquei antes de rehashar:**
+a coluna `fob_usd`/`kg` de 2024 nos CSV fecha exatamente com os JSONs brutos —
+**209.462.631 e 459.722.221**. O manifesto foi atualizado com data, com o hash anterior
+preservado e com a razão; recontado: **52 de 52 conferem**.
+
+**E um defeito de instrumento:** `reproduzir_comexstat.py` só achava o bruto relativo à raiz do
+repo, e a gaveta vive fora do worktree — o comando falhava no primeiro uso de quem clonasse.
+Passou a resolver por `--bruto`, por `$ACERVO` e por caminho absoluto do acervo, nessa ordem.
+
+**Denominador depois destas correções:** M **287 → 289**, `CONFERE` **62**, `DERIVACAO_DECLARADA`
+**6 → 8** (as duas contas que substituíram quantificadores vagos), `NAO_MEDIDO` **207**,
+`TABELA_COM_NOTA` **10**, `RESUMO` **2**, `AUSENTE` **0**.
+
+
+---
+
+## R14 — confirmação das sete, e três defeitos que a correção criou (2026-11-25)
+
+Escopo: confirmação, item por item, das sete correções da rodada anterior. O auditor confirmou
+**os sete itens**, mediu por conta própria **52 de 52 hashes** do manifesto do ComexStat e
+reproduziu os dois totais (`459.722.221 kg` / `US$ 209.462.631`; com `--sem`, `459.555.615 kg` /
+`US$ 204.652.434`). E achou **três defeitos nascidos das minhas próprias correções** — que é
+exatamente o que se pediu que ele atacasse.
+
+| Achado do R14 | O que eu tinha feito | Corrigido |
+|---|---|---|
+| §1 — frase quebrada e afirmação sem fonte: *"…é o números errados que circulam sobre boro"* | ao matar o quantificador "metade", deixei uma oração sem sujeito e uma afirmação que a [10] não sustenta | a frase termina na conta: *"…por um fator fixo — quase seis vezes (100 ÷ 17,5). A conta é esta, e ela se refaz em qualquer calculadora."* |
+| §6 — atribuição histórica sem fonte: *"O princípio de Paracelso, que a toxicologia adota…"* | troquei um universal sem fonte por uma atribuição sem fonte | *"A regra que este texto adota — **regra declarada, não medição desta gaveta** — é que…"*: sem história e sem falar pela toxicologia |
+| §18 e glossário — a NBR 10004 continuava descrita (`Classe I é perigoso; Classe II-A…`) enquanto a §18 dizia *"sobre a NBR este texto não afirma nada"* | declarei a norma não examinada e deixei a descrição do conteúdo dela em pé | a descrição saiu; ficou *"Esta gaveta não a examinou… por isso este texto não descreve o que ela lista nem como classifica"*; e o §18 deixou de dizer que a classificação "depende" dela |
+
+**A classe, não a frase.** Achado de "norma descrita sem custódia" obriga a varrer o texto inteiro
+por norma — não só a corrigir a NBR. Varredura feita, e o resultado:
+
+- **ISO 14040/14044** (glossário, ACV): **sustentada**, mas não atribuída. A fonte [19] declara
+  seguir as duas normas — verificado no PDF custodiado. O verbete passou a dizer que **quem as
+  nomeia é a fonte**, e que as normas não estão na gaveta.
+- **NBR 6232** (anotação bibliográfica da Zanchetta): é a **autora** que cita a norma para o
+  método de substituição de seiva. A anotação passou a dizer isso: *"norma citada pela autora,
+  não examinada nesta gaveta"*.
+
+**Denominador inalterado:** M **289**, `CONFERE` **62**, `DERIVACAO` **8**, `NAO_MEDIDO` **207**,
+`TABELA_COM_NOTA` **10**, `RESUMO` **2**, `AUSENTE` **0**. As quatro correções mexeram em redação
+e em atribuição, não em número — e é por isso que o denominador não se moveu: se tivesse movido
+sem eu declarar por quê, seria sinal de que a correção mexeu no que não devia.

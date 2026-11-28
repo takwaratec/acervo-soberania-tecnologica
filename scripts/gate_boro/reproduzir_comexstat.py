@@ -34,6 +34,25 @@ CODNCM = [
 PADRAO = ("_privado/governanca-operacional/extracoes/boro/fontes_novas/"
           "comexstat/raw/ncm_{ano}.json")
 
+# A gaveta vive fora do worktree, no acervo. Procurar só relativo à raiz do repo fazia o
+# comando falhar para quem clona o repo e não tem a camada privada montada — e comando que
+# falha no primeiro uso não reproduz nada. Ordem: --bruto, $ACERVO, caminho relativo.
+RAIZES = [
+    os.environ.get("ACERVO", ""),
+    "/Users/fabiotakwara/Documents/GitHub/acervo-soberania-tecnologica",
+]
+
+
+def resolver(ano, bruto=None):
+    if bruto:
+        return bruto
+    raiz = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+    for base in [raiz] + [r for r in RAIZES if r]:
+        c = os.path.join(base, PADRAO.format(ano=ano))
+        if os.path.exists(c):
+            return c
+    return os.path.join(raiz, PADRAO.format(ano=ano))
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -42,12 +61,12 @@ def main():
     ap.add_argument("--sem", nargs="*", default=[], help="códigos a excluir")
     a = ap.parse_args()
 
-    raiz = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-    caminho = a.bruto or os.path.join(raiz, PADRAO.format(ano=a.ano))
+    caminho = resolver(a.ano, a.bruto)
     if not os.path.exists(caminho):
         sys.exit(f"bruto ausente: {caminho}\n"
                  "o manifesto do ComexStat está em "
-                 "_privado/governanca-operacional/extracoes/boro/fontes_novas/comexstat/")
+                 "_privado/governanca-operacional/extracoes/boro/fontes_novas/comexstat/\n"
+                 "aponte a gaveta com --bruto ou com ACERVO=<raiz do acervo>")
 
     dados = json.load(open(caminho, encoding="utf-8"))["data"]["list"]
     por = {r["coNcm"]: r for r in dados}
